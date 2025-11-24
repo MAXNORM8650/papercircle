@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
-import { Calendar, Clock, MapPin, Users, CheckCircle, Plus, Video } from 'lucide-react';
+import { Calendar, Clock, MapPin, Users, CheckCircle, Plus, Video, Edit } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
 import { CreateSessionModal } from './CreateSessionModal';
+import { SessionDetailView } from './SessionDetailView';
+import { SessionPrepView } from './SessionPrepView';
 import type { Database } from '../../lib/database.types';
 
 type Session = Database['public']['Tables']['sessions']['Row'] & {
@@ -12,8 +14,10 @@ type Session = Database['public']['Tables']['sessions']['Row'] & {
   user_rsvp?: string | null;
 };
 
+type View = 'list' | 'detail' | 'prep';
+
 interface SessionsViewProps {
-  onSelectSession: (sessionId: string) => void;
+  onSelectSession?: (sessionId: string) => void;
 }
 
 export function SessionsView({ onSelectSession }: SessionsViewProps) {
@@ -22,6 +26,8 @@ export function SessionsView({ onSelectSession }: SessionsViewProps) {
   const [filter, setFilter] = useState<'upcoming' | 'past' | 'all'>('upcoming');
   const [loading, setLoading] = useState(true);
   const [showCreateModal, setShowCreateModal] = useState(false);
+  const [currentView, setCurrentView] = useState<View>('list');
+  const [selectedSessionId, setSelectedSessionId] = useState<string | null>(null);
 
   useEffect(() => {
     loadSessions();
@@ -131,6 +137,37 @@ export function SessionsView({ onSelectSession }: SessionsViewProps) {
 
   const canCreateSession = profile?.role === 'admin' || profile?.role === 'presenter';
 
+  const handleSessionClick = (sessionId: string) => {
+    setSelectedSessionId(sessionId);
+    setCurrentView('detail');
+    if (onSelectSession) {
+      onSelectSession(sessionId);
+    }
+  };
+
+  const handlePrepareSession = (sessionId: string) => {
+    setSelectedSessionId(sessionId);
+    setCurrentView('prep');
+  };
+
+  const handleBackToList = () => {
+    setCurrentView('list');
+    setSelectedSessionId(null);
+    loadSessions();
+  };
+
+  const isSessionOwner = (session: Session) => {
+    return user && (user.id === session.created_by || user.id === session.presenter_id);
+  };
+
+  if (currentView === 'detail' && selectedSessionId) {
+    return <SessionDetailView sessionId={selectedSessionId} onBack={handleBackToList} />;
+  }
+
+  if (currentView === 'prep' && selectedSessionId) {
+    return <SessionPrepView sessionId={selectedSessionId} onBack={handleBackToList} />;
+  }
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="flex justify-between items-center mb-8">
@@ -187,7 +224,7 @@ export function SessionsView({ onSelectSession }: SessionsViewProps) {
                   <div className="flex-1">
                     <h3
                       className="text-xl font-semibold text-gray-900 mb-2 hover:text-blue-600 transition-colors cursor-pointer"
-                      onClick={() => onSelectSession(session.id)}
+                      onClick={() => handleSessionClick(session.id)}
                     >
                       {session.title}
                     </h3>
@@ -257,8 +294,17 @@ export function SessionsView({ onSelectSession }: SessionsViewProps) {
                     )}
                   </div>
 
-                  {user && isUpcoming(session.scheduled_at) && (
-                    <div className="flex items-center space-x-2">
+                  <div className="flex items-center space-x-2">
+                    {isSessionOwner(session) && (
+                      <button
+                        onClick={() => handlePrepareSession(session.id)}
+                        className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200 transition-colors font-medium flex items-center space-x-1"
+                      >
+                        <Edit className="h-4 w-4" />
+                        <span>Prepare</span>
+                      </button>
+                    )}
+                    {user && isUpcoming(session.scheduled_at) && (
                       <button
                         onClick={() => handleRSVP(session.id, 'attending')}
                         className={`px-4 py-2 rounded-lg font-medium transition-colors ${
@@ -276,8 +322,8 @@ export function SessionsView({ onSelectSession }: SessionsViewProps) {
                           'RSVP'
                         )}
                       </button>
-                    </div>
-                  )}
+                    )}
+                  </div>
                 </div>
               </div>
             ))
