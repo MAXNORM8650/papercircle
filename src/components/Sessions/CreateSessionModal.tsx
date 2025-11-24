@@ -6,6 +6,7 @@ import { useAuth } from '../../contexts/AuthContext';
 interface CreateSessionModalProps {
   onClose: () => void;
   onSuccess: () => void;
+  communityId?: string;
 }
 
 interface Community {
@@ -24,7 +25,7 @@ interface CoPresenter {
   bio: string;
 }
 
-export function CreateSessionModal({ onClose, onSuccess }: CreateSessionModalProps) {
+export function CreateSessionModal({ onClose, onSuccess, communityId }: CreateSessionModalProps) {
   const { user, profile } = useAuth();
   const [communities, setCommunities] = useState<Community[]>([]);
   const [papers, setPapers] = useState<Paper[]>([]);
@@ -42,7 +43,7 @@ export function CreateSessionModal({ onClose, onSuccess }: CreateSessionModalPro
     presenter_email: user?.email || '',
     presenter_bio: profile?.bio || '',
     paper_id: '',
-    community_id: '',
+    community_id: communityId || '',
     visibility: 'members' as 'public' | 'members',
   });
 

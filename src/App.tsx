@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { AuthProvider } from './contexts/AuthContext';
 import { Header } from './components/Layout/Header';
 import { DiscoverView } from './components/Papers/DiscoverView';
@@ -8,13 +8,24 @@ import { LineageView } from './components/Lineage/LineageView';
 import { DashboardView } from './components/Dashboard/DashboardView';
 import { AdminView } from './components/Admin/AdminView';
 import { CircleManagement } from './components/Communities/CircleManagement';
+import { InviteAccept } from './components/Communities/InviteAccept';
 
-type View = 'discover' | 'sessions' | 'circles' | 'lineage' | 'dashboard' | 'admin' | 'paper-detail' | 'session-detail';
+type View = 'discover' | 'sessions' | 'circles' | 'lineage' | 'dashboard' | 'admin' | 'paper-detail' | 'session-detail' | 'invite';
 
 function App() {
   const [currentView, setCurrentView] = useState<View>('discover');
   const [selectedPaperId, setSelectedPaperId] = useState<string | null>(null);
   const [selectedSessionId, setSelectedSessionId] = useState<string | null>(null);
+  const [inviteCode, setInviteCode] = useState<string | null>(null);
+
+  useEffect(() => {
+    const path = window.location.pathname;
+    const inviteMatch = path.match(/^\/invite\/([a-zA-Z0-9]+)$/);
+    if (inviteMatch) {
+      setInviteCode(inviteMatch[1]);
+      setCurrentView('invite');
+    }
+  }, []);
 
   const handleNavigate = (view: string) => {
     setCurrentView(view as View);
@@ -52,6 +63,16 @@ function App() {
         return <DashboardView />;
       case 'admin':
         return <AdminView />;
+      case 'invite':
+        return inviteCode ? (
+          <InviteAccept
+            inviteCode={inviteCode}
+            onSuccess={() => {
+              setCurrentView('circles');
+              setInviteCode(null);
+            }}
+          />
+        ) : null;
       default:
         return <DiscoverView onSelectPaper={handleSelectPaper} />;
     }
@@ -60,7 +81,7 @@ function App() {
   return (
     <AuthProvider>
       <div className="min-h-screen bg-gray-50">
-        <Header onNavigate={handleNavigate} currentView={currentView} />
+        {currentView !== 'invite' && <Header onNavigate={handleNavigate} currentView={currentView} />}
         <main>{renderView()}</main>
       </div>
     </AuthProvider>

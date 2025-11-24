@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { Users, Plus, Settings, UserPlus, X } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
+import { CircleDetailView } from './CircleDetailView';
+import { CreateSessionModal } from '../Sessions/CreateSessionModal';
 
 interface Community {
   id: string;
@@ -31,6 +33,9 @@ export function CircleManagement() {
   const [members, setMembers] = useState<CommunityMember[]>([]);
   const [showCreateModal, setShowCreateModal] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [view, setView] = useState<'list' | 'detail'>('list');
+  const [showCreateSession, setShowCreateSession] = useState(false);
+  const [sessionCommunityId, setSessionCommunityId] = useState<string | null>(null);
 
   const [newCommunity, setNewCommunity] = useState({
     name: '',
@@ -105,6 +110,48 @@ export function CircleManagement() {
       .replace(/(^-|-$)/g, '');
   };
 
+  const handleViewCircle = (community: Community) => {
+    setSelectedCommunity(community);
+    setView('detail');
+  };
+
+  const handleBackToList = () => {
+    setView('list');
+    setSelectedCommunity(null);
+    loadCommunities();
+  };
+
+  const handleCreateSession = (communityId: string) => {
+    setSessionCommunityId(communityId);
+    setShowCreateSession(true);
+  };
+
+  if (view === 'detail' && selectedCommunity) {
+    return (
+      <>
+        <CircleDetailView
+          communityId={selectedCommunity.id}
+          onBack={handleBackToList}
+          onCreateSession={handleCreateSession}
+        />
+        {showCreateSession && sessionCommunityId && (
+          <CreateSessionModal
+            communityId={sessionCommunityId}
+            onClose={() => {
+              setShowCreateSession(false);
+              setSessionCommunityId(null);
+            }}
+            onSuccess={() => {
+              setShowCreateSession(false);
+              setSessionCommunityId(null);
+              loadCommunities();
+            }}
+          />
+        )}
+      </>
+    );
+  }
+
   return (
     <div className="max-w-7xl mx-auto p-6">
       <div className="flex justify-between items-center mb-6">
@@ -140,12 +187,8 @@ export function CircleManagement() {
               communities.map((community) => (
                 <div
                   key={community.id}
-                  onClick={() => setSelectedCommunity(community)}
-                  className={`p-4 rounded-lg border-2 cursor-pointer transition-all ${
-                    selectedCommunity?.id === community.id
-                      ? 'border-blue-600 bg-blue-50'
-                      : 'border-gray-200 bg-white hover:border-gray-300'
-                  }`}
+                  onClick={() => handleViewCircle(community)}
+                  className="p-4 rounded-lg border-2 cursor-pointer transition-all border-gray-200 bg-white hover:border-blue-300 hover:shadow-md"
                 >
                   <div className="flex items-center space-x-3">
                     {community.avatar_url ? (
