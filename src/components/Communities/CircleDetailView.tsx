@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { ArrowLeft, Users, Calendar, Settings, Link as LinkIcon, Share2, Copy, Check, Plus, Mail, UserMinus, Crown, User, Video, Clock, MapPin } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
+// import { Edit } from 'lucide-react';
+// import { EditCircleModal } from './EditCircleModal';
 
 interface CircleDetailViewProps {
   communityId: string;

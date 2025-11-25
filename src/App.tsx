@@ -1,5 +1,6 @@
+// src/App.tsx - Updated to show profile completion modal
 import { useState, useEffect } from 'react';
-import { AuthProvider } from './contexts/AuthContext';
+import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { Header } from './components/Layout/Header';
 import { DiscoverView } from './components/Papers/DiscoverView';
 import { PaperDetailView } from './components/Papers/PaperDetailView';
@@ -9,10 +10,12 @@ import { DashboardView } from './components/Dashboard/DashboardView';
 import { AdminView } from './components/Admin/AdminView';
 import { CircleManagement } from './components/Communities/CircleManagement';
 import { InviteAccept } from './components/Communities/InviteAccept';
+import { CompleteProfileModal } from './components/Auth/CompleteProfileModal';
 
 type View = 'discover' | 'sessions' | 'circles' | 'lineage' | 'dashboard' | 'admin' | 'paper-detail' | 'session-detail' | 'invite';
 
-function App() {
+function AppContent() {
+  const { needsProfile } = useAuth();
   const [currentView, setCurrentView] = useState<View>('discover');
   const [selectedPaperId, setSelectedPaperId] = useState<string | null>(null);
   const [selectedSessionId, setSelectedSessionId] = useState<string | null>(null);
@@ -79,11 +82,22 @@ function App() {
   };
 
   return (
-    <AuthProvider>
+    <>
       <div className="min-h-screen bg-gray-50">
         {currentView !== 'invite' && <Header onNavigate={handleNavigate} currentView={currentView} />}
         <main>{renderView()}</main>
       </div>
+      
+      {/* Show profile completion modal when needed */}
+      {needsProfile && <CompleteProfileModal />}
+    </>
+  );
+}
+
+function App() {
+  return (
+    <AuthProvider>
+      <AppContent />
     </AuthProvider>
   );
 }

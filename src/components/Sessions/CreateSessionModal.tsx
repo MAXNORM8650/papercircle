@@ -104,31 +104,37 @@ export function CreateSessionModal({ onClose, onSuccess, communityId }: CreateSe
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!user) return;
-
+  
     setLoading(true);
-
-    const { error } = await supabase.from('sessions').insert({
+  
+    // Convert empty strings to null for UUID fields
+    const sessionData = {
       ...session,
       created_by: user.id,
       presenter_id: user.id,
       co_presenters: coPresenters,
       scheduled_at: new Date(session.scheduled_at).toISOString(),
-    });
-
+      // Fix: Convert empty strings to null
+      paper_id: session.paper_id || null,
+      community_id: session.community_id || null,
+    };
+  
+    const { error } = await supabase.from('sessions').insert(sessionData);
+  
     if (error) {
       alert('Error creating session: ' + error.message);
       setLoading(false);
       return;
     }
-
+  
     onSuccess();
     onClose();
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50 overflow-y-auto">
-      <div className="bg-white rounded-lg max-w-3xl w-full my-8">
-        <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 rounded-t-lg flex justify-between items-center">
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+      <div className="bg-white rounded-lg max-w-3xl w-full max-h-[90vh] overflow-y-auto my-8">
+        <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 rounded-t-lg flex justify-between items-center z-10">
           <h2 className="text-2xl font-bold text-gray-900">Create New Session</h2>
           <button
             onClick={onClose}
@@ -390,7 +396,7 @@ export function CreateSessionModal({ onClose, onSuccess, communityId }: CreateSe
             </div>
           </div>
 
-          <div className="flex space-x-3 pt-6 border-t border-gray-200">
+          <div className="flex space-x-3 pt-6 border-t border-gray-200 sticky bottom-0 bg-white pb-2">
             <button
               type="button"
               onClick={onClose}
