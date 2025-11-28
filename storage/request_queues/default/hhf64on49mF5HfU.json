@@ -1,0 +1,9 @@
+{
+	"id": "hhf64on49mF5HfU",
+	"json": "{\"id\":\"hhf64on49mF5HfU\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=R%C3%AAgo,+T+G+d\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=R%C3%AAgo%2C+T+G+d&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012877,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=R%C3%AAgo%2C+T+G+d&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=R%C3%AAgo,+T+G+d"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "DB5TcJq2akmTkgP",
+	"json": "{\"id\":\"DB5TcJq2akmTkgP\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Ardakani,+H+T\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Ardakani%2C+H+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007600,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Ardakani%2C+H+T&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Ardakani,+H+T"
+}

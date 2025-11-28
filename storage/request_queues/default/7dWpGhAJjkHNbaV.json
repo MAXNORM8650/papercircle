@@ -1,0 +1,9 @@
+{
+	"id": "7dWpGhAJjkHNbaV",
+	"json": "{\"id\":\"7dWpGhAJjkHNbaV\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Guetta,+D\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Guetta,+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Guetta%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:35.144Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Guetta%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Guetta,+D"
+}

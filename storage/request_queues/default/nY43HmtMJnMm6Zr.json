@@ -1,0 +1,9 @@
+{
+	"id": "nY43HmtMJnMm6Zr",
+	"json": "{\"id\":\"nY43HmtMJnMm6Zr\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Ozsahin,+D+U\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Ozsahin%2C+D+U&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006105,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Ozsahin%2C+D+U&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Ozsahin,+D+U"
+}

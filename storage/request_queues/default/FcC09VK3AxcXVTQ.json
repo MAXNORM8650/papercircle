@@ -1,0 +1,9 @@
+{
+	"id": "FcC09VK3AxcXVTQ",
+	"json": "{\"id\":\"FcC09VK3AxcXVTQ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Rigby,+F+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Rigby%2C+F+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987431,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Rigby%2C+F+E&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Rigby,+F+E"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "5Fg3eKigqgAvrJd",
+	"json": "{\"id\":\"5Fg3eKigqgAvrJd\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Zargarbashi,+F\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Zargarbashi%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014189,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Zargarbashi%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Zargarbashi,+F"
+}

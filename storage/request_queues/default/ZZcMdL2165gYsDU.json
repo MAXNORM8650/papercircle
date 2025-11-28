@@ -1,0 +1,9 @@
+{
+	"id": "ZZcMdL2165gYsDU",
+	"json": "{\"id\":\"ZZcMdL2165gYsDU\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Hoque,+S+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Hoque%2C+S+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016941,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Hoque%2C+S+M&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Hoque,+S+M"
+}

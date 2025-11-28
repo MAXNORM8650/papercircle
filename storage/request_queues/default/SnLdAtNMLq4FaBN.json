@@ -1,0 +1,9 @@
+{
+	"id": "SnLdAtNMLq4FaBN",
+	"json": "{\"id\":\"SnLdAtNMLq4FaBN\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Benestad,+R+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Benestad%2C+R+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999436,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Benestad%2C+R+E&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Benestad,+R+E"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Dv9jE3yqWgqvh1d",
+	"json": "{\"id\":\"Dv9jE3yqWgqvh1d\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=En%C3%9Flin,+T+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=En%C3%9Flin%2C+T+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988118,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=En%C3%9Flin%2C+T+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=En%C3%9Flin,+T+A"
+}

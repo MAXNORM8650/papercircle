@@ -1,0 +1,9 @@
+{
+	"id": "KzaovzhT1Edv25t",
+	"json": "{\"id\":\"KzaovzhT1Edv25t\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Fukui%2C+A&start=100\",\"uniqueKey\":\"https://arxiv.org/search?query=Fukui%2C+A&searchtype=author&start=100\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087073210,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Fukui%2C+A&searchtype=author&start=100",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Fukui%2C+A&start=100"
+}

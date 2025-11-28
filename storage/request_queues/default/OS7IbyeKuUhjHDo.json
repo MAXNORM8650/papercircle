@@ -1,0 +1,9 @@
+{
+	"id": "OS7IbyeKuUhjHDo",
+	"json": "{\"id\":\"OS7IbyeKuUhjHDo\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Tan,+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Tan%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087019794,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Tan%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Tan,+H"
+}

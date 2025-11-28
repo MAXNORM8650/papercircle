@@ -1,0 +1,9 @@
+{
+	"id": "ifInQvYhTGa5QOw",
+	"json": "{\"id\":\"ifInQvYhTGa5QOw\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Corsi%2C+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Corsi%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087052127,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Corsi%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Corsi%2C+A"
+}

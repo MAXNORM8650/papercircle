@@ -1,0 +1,9 @@
+{
+	"id": "iml0W9N1EUXymwa",
+	"json": "{\"id\":\"iml0W9N1EUXymwa\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Casarotti,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Casarotti%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005030,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Casarotti%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Casarotti,+A"
+}

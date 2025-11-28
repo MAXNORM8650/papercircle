@@ -1,0 +1,9 @@
+{
+	"id": "JehlZSKDJT7sU50",
+	"json": "{\"id\":\"JehlZSKDJT7sU50\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Kriukov,+N\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Kriukov%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005632,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Kriukov%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Kriukov,+N"
+}

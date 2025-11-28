@@ -1,0 +1,9 @@
+{
+	"id": "yE4j6HHsPFHI5NJ",
+	"json": "{\"id\":\"yE4j6HHsPFHI5NJ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Quintin,+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Quintin%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986474,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Quintin%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Quintin,+E"
+}

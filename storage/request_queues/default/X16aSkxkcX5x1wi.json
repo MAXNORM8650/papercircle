@@ -1,0 +1,9 @@
+{
+	"id": "X16aSkxkcX5x1wi",
+	"json": "{\"id\":\"X16aSkxkcX5x1wi\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Bruno,+C\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Bruno%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087021217,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Bruno%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Bruno,+C"
+}

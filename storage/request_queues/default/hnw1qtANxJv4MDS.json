@@ -1,0 +1,9 @@
+{
+	"id": "hnw1qtANxJv4MDS",
+	"json": "{\"id\":\"hnw1qtANxJv4MDS\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Steers,+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Steers%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002450,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Steers%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Steers,+J"
+}

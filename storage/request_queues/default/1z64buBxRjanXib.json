@@ -1,0 +1,9 @@
+{
+	"id": "1z64buBxRjanXib",
+	"json": "{\"id\":\"1z64buBxRjanXib\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Niu,+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Niu%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986934,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Niu%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Niu,+J"
+}

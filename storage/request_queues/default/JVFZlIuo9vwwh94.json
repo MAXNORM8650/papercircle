@@ -1,0 +1,9 @@
+{
+	"id": "JVFZlIuo9vwwh94",
+	"json": "{\"id\":\"JVFZlIuo9vwwh94\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Mayer,+F\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Mayer%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014570,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Mayer%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Mayer,+F"
+}

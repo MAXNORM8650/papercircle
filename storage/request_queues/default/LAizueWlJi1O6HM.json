@@ -1,0 +1,9 @@
+{
+	"id": "LAizueWlJi1O6HM",
+	"json": "{\"id\":\"LAizueWlJi1O6HM\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Giang-Tran,+K\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Giang-Tran%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009049,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Giang-Tran%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Giang-Tran,+K"
+}

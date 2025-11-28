@@ -1,0 +1,9 @@
+{
+	"id": "EGByg8GmdVrB3B8",
+	"json": "{\"id\":\"EGByg8GmdVrB3B8\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Zand,+M+R+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Zand%2C+M+R+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005864,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Zand%2C+M+R+A&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Zand,+M+R+A"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "BgI3C5vgWpFR5E9",
+	"json": "{\"id\":\"BgI3C5vgWpFR5E9\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Fynbo,+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Fynbo%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988292,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Fynbo%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Fynbo,+J"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "GahHALme65EUXLk",
+	"json": "{\"id\":\"GahHALme65EUXLk\",\"url\":\"https://arxiv.org/list/cs.CL/recent?skip=219&show=50\",\"uniqueKey\":\"https://arxiv.org/list/cs.CL/recent?show=50&skip=219\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010500,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/cs.CL/recent?show=50&skip=219",
+	"url": "https://arxiv.org/list/cs.CL/recent?skip=219&show=50"
+}

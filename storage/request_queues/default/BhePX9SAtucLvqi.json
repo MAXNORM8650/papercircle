@@ -1,0 +1,9 @@
+{
+	"id": "BhePX9SAtucLvqi",
+	"json": "{\"id\":\"BhePX9SAtucLvqi\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Purvine,+E\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Purvine%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016345,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Purvine%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Purvine,+E"
+}

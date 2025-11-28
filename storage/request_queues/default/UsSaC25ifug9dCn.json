@@ -1,0 +1,9 @@
+{
+	"id": "UsSaC25ifug9dCn",
+	"json": "{\"id\":\"UsSaC25ifug9dCn\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Yus,+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Yus%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087013825,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Yus%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Yus,+R"
+}

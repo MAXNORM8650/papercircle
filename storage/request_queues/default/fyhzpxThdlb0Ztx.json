@@ -1,0 +1,9 @@
+{
+	"id": "fyhzpxThdlb0Ztx",
+	"json": "{\"id\":\"fyhzpxThdlb0Ztx\",\"url\":\"https://arxiv.org/list/nlin/current\",\"uniqueKey\":\"https://arxiv.org/list/nlin/current\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086996074,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/nlin/current",
+	"url": "https://arxiv.org/list/nlin/current"
+}

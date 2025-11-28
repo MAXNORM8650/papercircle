@@ -1,0 +1,9 @@
+{
+	"id": "en3PaSgGCtBqmjM",
+	"json": "{\"id\":\"en3PaSgGCtBqmjM\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Osman,+A+A+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Osman%2C+A+A+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014962,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Osman%2C+A+A+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Osman,+A+A+A"
+}

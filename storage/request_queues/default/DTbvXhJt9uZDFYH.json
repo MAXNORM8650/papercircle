@@ -1,0 +1,9 @@
+{
+	"id": "DTbvXhJt9uZDFYH",
+	"json": "{\"id\":\"DTbvXhJt9uZDFYH\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Coen,+P\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Coen%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025645,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Coen%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Coen,+P"
+}

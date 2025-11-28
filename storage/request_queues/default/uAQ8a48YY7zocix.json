@@ -1,0 +1,9 @@
+{
+	"id": "uAQ8a48YY7zocix",
+	"json": "{\"id\":\"uAQ8a48YY7zocix\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Triaud%2C+A+H+M+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Triaud%2C+A+H+M+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087062645,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Triaud%2C+A+H+M+J&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Triaud%2C+A+H+M+J"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Vfw3v1dKuETzIfa",
+	"json": "{\"id\":\"Vfw3v1dKuETzIfa\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Tei,+K\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Tei%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087017726,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Tei%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Tei,+K"
+}

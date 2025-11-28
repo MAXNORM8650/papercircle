@@ -1,0 +1,9 @@
+{
+	"id": "jpQzLPd46lJfw1z",
+	"json": "{\"id\":\"jpQzLPd46lJfw1z\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Ammirati,+G\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Ammirati%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989031,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Ammirati%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Ammirati,+G"
+}

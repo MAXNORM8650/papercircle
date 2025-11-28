@@ -1,0 +1,9 @@
+{
+	"id": "75d8EeZT5gO4yzr",
+	"json": "{\"id\":\"75d8EeZT5gO4yzr\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Albers,+D+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Albers%2C+D+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009574,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Albers%2C+D+J&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Albers,+D+J"
+}

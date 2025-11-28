@@ -1,0 +1,9 @@
+{
+	"id": "9Lf3E4rLrenh3RP",
+	"json": "{\"id\":\"9Lf3E4rLrenh3RP\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Fabre,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Fabre%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087017659,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Fabre%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Fabre,+P"
+}

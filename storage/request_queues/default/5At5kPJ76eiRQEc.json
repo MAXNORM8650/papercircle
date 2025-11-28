@@ -1,0 +1,9 @@
+{
+	"id": "5At5kPJ76eiRQEc",
+	"json": "{\"id\":\"5At5kPJ76eiRQEc\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Lazarian,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Lazarian%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986489,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Lazarian%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Lazarian,+A"
+}

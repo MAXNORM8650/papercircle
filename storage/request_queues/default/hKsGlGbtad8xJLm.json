@@ -1,0 +1,9 @@
+{
+	"id": "hKsGlGbtad8xJLm",
+	"json": "{\"id\":\"hKsGlGbtad8xJLm\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Valero,+M+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Valero%2C+M+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999155,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Valero%2C+M+C&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Valero,+M+C"
+}

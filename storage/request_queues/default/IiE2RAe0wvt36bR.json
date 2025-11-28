@@ -1,0 +1,9 @@
+{
+	"id": "IiE2RAe0wvt36bR",
+	"json": "{\"id\":\"IiE2RAe0wvt36bR\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=De+Pietro,+G\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=De+Pietro%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992964,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=De+Pietro%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=De+Pietro,+G"
+}

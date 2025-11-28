@@ -1,0 +1,9 @@
+{
+	"id": "b37qOw24thhN3Fh",
+	"json": "{\"id\":\"b37qOw24thhN3Fh\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Obie,+H+O\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Obie%2C+H+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087018012,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Obie%2C+H+O&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Obie,+H+O"
+}

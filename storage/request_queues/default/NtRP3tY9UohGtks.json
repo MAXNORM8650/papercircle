@@ -1,0 +1,9 @@
+{
+	"id": "NtRP3tY9UohGtks",
+	"json": "{\"id\":\"NtRP3tY9UohGtks\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Winterhalder%2C+T+O\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Winterhalder%2C+T+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087086908,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Winterhalder%2C+T+O&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Winterhalder%2C+T+O"
+}

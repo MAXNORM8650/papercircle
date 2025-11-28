@@ -1,0 +1,9 @@
+{
+	"id": "548TGMeX3SMzJjv",
+	"json": "{\"id\":\"548TGMeX3SMzJjv\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Davis,+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Davis%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087029675,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Davis%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Davis,+R"
+}

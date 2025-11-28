@@ -1,0 +1,9 @@
+{
+	"id": "xNxsInerjzZGArb",
+	"json": "{\"id\":\"xNxsInerjzZGArb\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Qian,+R\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Qian%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994339,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Qian%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Qian,+R"
+}

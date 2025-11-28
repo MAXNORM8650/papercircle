@@ -1,0 +1,9 @@
+{
+	"id": "HG5z1VA9Vjp7njD",
+	"json": "{\"id\":\"HG5z1VA9Vjp7njD\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Airey,+R+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Airey%2C+R+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987437,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Airey%2C+R+J&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Airey,+R+J"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "hl8MpkQqooPDs0L",
+	"json": "{\"id\":\"hl8MpkQqooPDs0L\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Li,+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Li%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086990753,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Li%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Li,+R"
+}

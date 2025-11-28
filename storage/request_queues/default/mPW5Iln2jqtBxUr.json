@@ -1,0 +1,9 @@
+{
+	"id": "mPW5Iln2jqtBxUr",
+	"json": "{\"id\":\"mPW5Iln2jqtBxUr\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Rivas-Davila,+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Rivas-Davila%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999581,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Rivas-Davila%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Rivas-Davila,+J"
+}

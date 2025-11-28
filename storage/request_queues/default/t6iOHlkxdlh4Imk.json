@@ -1,0 +1,9 @@
+{
+	"id": "t6iOHlkxdlh4Imk",
+	"json": "{\"id\":\"t6iOHlkxdlh4Imk\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Ojeda,+G+B\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Ojeda%2C+G+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087004527,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Ojeda%2C+G+B&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Ojeda,+G+B"
+}

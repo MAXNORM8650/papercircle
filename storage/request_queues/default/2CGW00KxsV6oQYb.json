@@ -1,0 +1,9 @@
+{
+	"id": "2CGW00KxsV6oQYb",
+	"json": "{\"id\":\"2CGW00KxsV6oQYb\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Xia,+F\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Xia%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023701,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Xia%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Xia,+F"
+}

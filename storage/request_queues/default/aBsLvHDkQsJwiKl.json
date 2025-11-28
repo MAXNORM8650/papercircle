@@ -1,0 +1,9 @@
+{
+	"id": "aBsLvHDkQsJwiKl",
+	"json": "{\"id\":\"aBsLvHDkQsJwiKl\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Corval%C3%A1n,+J+G\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Corval%C3%A1n%2C+J+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087029598,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Corval%C3%A1n%2C+J+G&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Corval%C3%A1n,+J+G"
+}

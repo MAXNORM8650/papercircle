@@ -1,0 +1,9 @@
+{
+	"id": "mFRu1e0DsJSlBVm",
+	"json": "{\"id\":\"mFRu1e0DsJSlBVm\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Cummings,+H+V\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Cummings%2C+H+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001371,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Cummings%2C+H+V&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Cummings,+H+V"
+}

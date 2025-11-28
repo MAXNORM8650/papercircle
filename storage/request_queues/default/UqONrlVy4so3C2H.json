@@ -1,0 +1,9 @@
+{
+	"id": "UqONrlVy4so3C2H",
+	"json": "{\"id\":\"UqONrlVy4so3C2H\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Hooper,+I+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Hooper%2C+I+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989208,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Hooper%2C+I+R&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Hooper,+I+R"
+}

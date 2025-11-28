@@ -1,0 +1,9 @@
+{
+	"id": "tUi46zTO2efOJfs",
+	"json": "{\"id\":\"tUi46zTO2efOJfs\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Gritsai,+G\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Gritsai%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007545,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Gritsai%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Gritsai,+G"
+}

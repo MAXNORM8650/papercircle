@@ -1,0 +1,9 @@
+{
+	"id": "1y8UY1DQKdKy41f",
+	"json": "{\"id\":\"1y8UY1DQKdKy41f\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Garc%C3%ADa%2C+R+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Garc%C3%ADa%2C+R+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087075049,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Garc%C3%ADa%2C+R+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Garc%C3%ADa%2C+R+A"
+}

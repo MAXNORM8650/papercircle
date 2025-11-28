@@ -1,0 +1,9 @@
+{
+	"id": "8N02HS6mcDdGsFc",
+	"json": "{\"id\":\"8N02HS6mcDdGsFc\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Mishra,+B\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Mishra%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986747,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Mishra%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Mishra,+B"
+}

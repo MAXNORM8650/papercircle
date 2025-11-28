@@ -1,0 +1,9 @@
+{
+	"id": "WboqX7l9KKfIdb5",
+	"json": "{\"id\":\"WboqX7l9KKfIdb5\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Wani,+F+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Wani%2C+F+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087018472,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Wani%2C+F+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Wani,+F+A"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "uM6AZTScDan8u6i",
+	"json": "{\"id\":\"uM6AZTScDan8u6i\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Pupilli,+F\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Pupilli%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992516,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Pupilli%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Pupilli,+F"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "qAUH8sGcjf2IIgQ",
+	"json": "{\"id\":\"qAUH8sGcjf2IIgQ\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Antonioli,+C\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Antonioli%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992933,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Antonioli%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Antonioli,+C"
+}

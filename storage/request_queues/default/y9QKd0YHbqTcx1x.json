@@ -1,0 +1,9 @@
+{
+	"id": "y9QKd0YHbqTcx1x",
+	"json": "{\"id\":\"y9QKd0YHbqTcx1x\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Harada,+J\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Harada%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005252,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Harada%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Harada,+J"
+}

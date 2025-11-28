@@ -1,0 +1,9 @@
+{
+	"id": "1tCoqYJqA9aO759",
+	"json": "{\"id\":\"1tCoqYJqA9aO759\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Gil-Botella,+I\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Gil-Botella%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992583,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Gil-Botella%2C+I&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Gil-Botella,+I"
+}

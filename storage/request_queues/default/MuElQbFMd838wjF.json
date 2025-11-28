@@ -1,0 +1,9 @@
+{
+	"id": "MuElQbFMd838wjF",
+	"json": "{\"id\":\"MuElQbFMd838wjF\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Trino,+E+A+R\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Trino%2C+E+A+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988842,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Trino%2C+E+A+R&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Trino,+E+A+R"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "p2zc5KDUSc7lR4m",
+	"json": "{\"id\":\"p2zc5KDUSc7lR4m\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Bruce,+S+A\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Bruce%2C+S+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023506,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Bruce%2C+S+A&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Bruce,+S+A"
+}

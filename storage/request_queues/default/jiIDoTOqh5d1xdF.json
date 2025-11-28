@@ -1,0 +1,9 @@
+{
+	"id": "jiIDoTOqh5d1xdF",
+	"json": "{\"id\":\"jiIDoTOqh5d1xdF\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Boruah,+S+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Boruah%2C+S+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087037139,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Boruah%2C+S+S&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Boruah,+S+S"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "z9q8q6z5sgZRk3e",
+	"json": "{\"id\":\"z9q8q6z5sgZRk3e\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Reuter,+L\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Reuter%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002298,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Reuter%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Reuter,+L"
+}

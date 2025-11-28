@@ -1,0 +1,9 @@
+{
+	"id": "FNqXjIL1ZUu5E7U",
+	"json": "{\"id\":\"FNqXjIL1ZUu5E7U\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Amato,+N+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Amato%2C+N+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016314,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Amato%2C+N+M&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Amato,+N+M"
+}

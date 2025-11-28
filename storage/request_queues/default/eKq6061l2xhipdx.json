@@ -1,0 +1,9 @@
+{
+	"id": "eKq6061l2xhipdx",
+	"json": "{\"id\":\"eKq6061l2xhipdx\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Arnaudo,+P\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Arnaudo%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991501,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Arnaudo%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Arnaudo,+P"
+}

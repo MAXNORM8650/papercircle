@@ -1,0 +1,9 @@
+{
+	"id": "JPtzhT402a9d3yH",
+	"json": "{\"id\":\"JPtzhT402a9d3yH\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kong,+L\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kong%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025493,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Kong%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kong,+L"
+}

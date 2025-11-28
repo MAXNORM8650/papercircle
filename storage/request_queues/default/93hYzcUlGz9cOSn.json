@@ -1,0 +1,9 @@
+{
+	"id": "93hYzcUlGz9cOSn",
+	"json": "{\"id\":\"93hYzcUlGz9cOSn\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Lazouski,+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Lazouski%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087017811,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Lazouski%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Lazouski,+T"
+}

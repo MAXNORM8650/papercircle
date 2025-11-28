@@ -1,0 +1,9 @@
+{
+	"id": "u1Q50mKK7QKEeGp",
+	"json": "{\"id\":\"u1Q50mKK7QKEeGp\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Illuminati,+G\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Illuminati%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988254,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Illuminati%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Illuminati,+G"
+}

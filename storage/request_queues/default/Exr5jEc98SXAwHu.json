@@ -1,0 +1,9 @@
+{
+	"id": "Exr5jEc98SXAwHu",
+	"json": "{\"id\":\"Exr5jEc98SXAwHu\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Namrah,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Namrah%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012074,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Namrah%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Namrah,+S"
+}

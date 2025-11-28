@@ -1,0 +1,9 @@
+{
+	"id": "Q8U48yVxElisdUD",
+	"json": "{\"id\":\"Q8U48yVxElisdUD\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Harris%2C+W+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Harris%2C+W+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087094405,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Harris%2C+W+E&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Harris%2C+W+E"
+}

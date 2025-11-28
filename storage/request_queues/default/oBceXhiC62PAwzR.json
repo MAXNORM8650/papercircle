@@ -1,0 +1,9 @@
+{
+	"id": "oBceXhiC62PAwzR",
+	"json": "{\"id\":\"oBceXhiC62PAwzR\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Mexi,+G\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Mexi%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006067,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Mexi%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Mexi,+G"
+}

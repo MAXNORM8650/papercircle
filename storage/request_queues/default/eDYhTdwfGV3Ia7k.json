@@ -1,0 +1,9 @@
+{
+	"id": "eDYhTdwfGV3Ia7k",
+	"json": "{\"id\":\"eDYhTdwfGV3Ia7k\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Violo,+I+Y\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Violo%2C+I+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009108,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Violo%2C+I+Y&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Violo,+I+Y"
+}

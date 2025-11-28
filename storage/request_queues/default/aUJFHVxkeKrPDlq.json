@@ -1,0 +1,9 @@
+{
+	"id": "aUJFHVxkeKrPDlq",
+	"json": "{\"id\":\"aUJFHVxkeKrPDlq\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Burley,+R+T\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Burley,+R+T\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Burley%2C+R+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:58.020Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Burley%2C+R+T&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Burley,+R+T"
+}

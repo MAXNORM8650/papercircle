@@ -1,0 +1,9 @@
+{
+	"id": "o8HUhpKf4ROsiDS",
+	"json": "{\"id\":\"o8HUhpKf4ROsiDS\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=DeLaunay,+J+J\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=DeLaunay,+J+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=DeLaunay%2C+J+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:06.070Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=DeLaunay%2C+J+J&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=DeLaunay,+J+J"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "wQgYJlqVhWO9HBz",
+	"json": "{\"id\":\"wQgYJlqVhWO9HBz\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Bambade,+P\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Bambade%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992936,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Bambade%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Bambade,+P"
+}

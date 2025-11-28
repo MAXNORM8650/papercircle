@@ -1,0 +1,9 @@
+{
+	"id": "wn4CHeiZy7LyKm3",
+	"json": "{\"id\":\"wn4CHeiZy7LyKm3\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Lavail,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Lavail%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988067,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Lavail%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Lavail,+A"
+}

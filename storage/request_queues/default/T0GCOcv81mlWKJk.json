@@ -1,0 +1,9 @@
+{
+	"id": "T0GCOcv81mlWKJk",
+	"json": "{\"id\":\"T0GCOcv81mlWKJk\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Nguyen,+D+V\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Nguyen%2C+D+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025731,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Nguyen%2C+D+V&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Nguyen,+D+V"
+}

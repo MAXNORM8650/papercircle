@@ -1,0 +1,9 @@
+{
+	"id": "gT1O1n0F4SQxgsZ",
+	"json": "{\"id\":\"gT1O1n0F4SQxgsZ\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Ani%C3%A9s,+F\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Ani%C3%A9s%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997925,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Ani%C3%A9s%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Ani%C3%A9s,+F"
+}

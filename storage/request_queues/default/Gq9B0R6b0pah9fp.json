@@ -1,0 +1,9 @@
+{
+	"id": "Gq9B0R6b0pah9fp",
+	"json": "{\"id\":\"Gq9B0R6b0pah9fp\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Ahn,+Y\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Ahn%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992929,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Ahn%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Ahn,+Y"
+}

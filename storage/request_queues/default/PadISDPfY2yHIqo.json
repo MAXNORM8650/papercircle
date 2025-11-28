@@ -1,0 +1,9 @@
+{
+	"id": "PadISDPfY2yHIqo",
+	"json": "{\"id\":\"PadISDPfY2yHIqo\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Zuoqiu,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Zuoqiu%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014547,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Zuoqiu%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Zuoqiu,+S"
+}

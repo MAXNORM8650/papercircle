@@ -1,0 +1,9 @@
+{
+	"id": "25SW5oscnywjpQ8",
+	"json": "{\"id\":\"25SW5oscnywjpQ8\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Killip,+R\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Killip%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005519,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Killip%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Killip,+R"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "zDGbV5WHVLnZuH2",
+	"json": "{\"id\":\"zDGbV5WHVLnZuH2\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=M%C3%BCller,+J\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=M%C3%BCller%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025275,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=M%C3%BCller%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=M%C3%BCller,+J"
+}

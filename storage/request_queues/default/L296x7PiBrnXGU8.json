@@ -1,0 +1,9 @@
+{
+	"id": "L296x7PiBrnXGU8",
+	"json": "{\"id\":\"L296x7PiBrnXGU8\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Boley,+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Boley%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986499,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Boley%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Boley,+P"
+}

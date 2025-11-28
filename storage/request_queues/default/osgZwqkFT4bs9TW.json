@@ -1,0 +1,9 @@
+{
+	"id": "osgZwqkFT4bs9TW",
+	"json": "{\"id\":\"osgZwqkFT4bs9TW\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Ramsey,+J+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Ramsey%2C+J+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997826,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Ramsey%2C+J+C&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Ramsey,+J+C"
+}

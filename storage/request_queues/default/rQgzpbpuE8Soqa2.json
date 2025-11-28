@@ -1,0 +1,9 @@
+{
+	"id": "rQgzpbpuE8Soqa2",
+	"json": "{\"id\":\"rQgzpbpuE8Soqa2\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Hempel%2C+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Hempel%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087081223,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Hempel%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Hempel%2C+M"
+}

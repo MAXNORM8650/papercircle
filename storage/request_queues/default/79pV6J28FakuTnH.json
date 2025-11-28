@@ -1,0 +1,9 @@
+{
+	"id": "79pV6J28FakuTnH",
+	"json": "{\"id\":\"79pV6J28FakuTnH\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Vega-S%C3%A1nchez,+J+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Vega-S%C3%A1nchez%2C+J+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006111,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Vega-S%C3%A1nchez%2C+J+D&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Vega-S%C3%A1nchez,+J+D"
+}

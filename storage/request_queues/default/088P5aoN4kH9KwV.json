@@ -1,0 +1,9 @@
+{
+	"id": "088P5aoN4kH9KwV",
+	"json": "{\"id\":\"088P5aoN4kH9KwV\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Qu,+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Qu%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986823,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Qu%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Qu,+H"
+}

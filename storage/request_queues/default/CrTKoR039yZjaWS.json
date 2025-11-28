@@ -1,0 +1,9 @@
+{
+	"id": "CrTKoR039yZjaWS",
+	"json": "{\"id\":\"CrTKoR039yZjaWS\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Pocivavsek,+L\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Pocivavsek%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087021222,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Pocivavsek%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Pocivavsek,+L"
+}

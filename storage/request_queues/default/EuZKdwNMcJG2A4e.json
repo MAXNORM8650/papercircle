@@ -1,0 +1,9 @@
+{
+	"id": "EuZKdwNMcJG2A4e",
+	"json": "{\"id\":\"EuZKdwNMcJG2A4e\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Mashak,+D\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Mashak%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999136,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Mashak%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Mashak,+D"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Zbii3NBIp0uj0Oo",
+	"json": "{\"id\":\"Zbii3NBIp0uj0Oo\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Kofler,+K\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Kofler%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006064,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Kofler%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Kofler,+K"
+}

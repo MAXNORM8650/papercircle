@@ -1,0 +1,9 @@
+{
+	"id": "5zZNv6WBOy0hmCi",
+	"json": "{\"id\":\"5zZNv6WBOy0hmCi\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Maragatham,+G\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Maragatham%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087020374,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Maragatham%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Maragatham,+G"
+}

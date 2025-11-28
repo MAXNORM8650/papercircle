@@ -1,0 +1,9 @@
+{
+	"id": "8BJkZ2n5k9vX6a1",
+	"json": "{\"id\":\"8BJkZ2n5k9vX6a1\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Buchholz,+J\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Buchholz%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002266,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Buchholz%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Buchholz,+J"
+}

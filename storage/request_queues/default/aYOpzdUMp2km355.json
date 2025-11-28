@@ -1,0 +1,9 @@
+{
+	"id": "aYOpzdUMp2km355",
+	"json": "{\"id\":\"aYOpzdUMp2km355\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Nguyen,+D+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Nguyen%2C+D+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014272,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Nguyen%2C+D+T&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Nguyen,+D+T"
+}

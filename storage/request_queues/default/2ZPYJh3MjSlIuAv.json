@@ -1,0 +1,9 @@
+{
+	"id": "2ZPYJh3MjSlIuAv",
+	"json": "{\"id\":\"2ZPYJh3MjSlIuAv\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Omidvar,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Omidvar%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087011962,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Omidvar%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Omidvar,+P"
+}

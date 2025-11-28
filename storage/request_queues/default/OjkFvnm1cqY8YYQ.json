@@ -1,0 +1,9 @@
+{
+	"id": "OjkFvnm1cqY8YYQ",
+	"json": "{\"id\":\"OjkFvnm1cqY8YYQ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ramirez,+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Ramirez%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987605,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Ramirez%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Ramirez,+J"
+}

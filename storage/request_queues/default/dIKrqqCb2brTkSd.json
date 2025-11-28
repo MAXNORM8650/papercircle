@@ -1,0 +1,9 @@
+{
+	"id": "dIKrqqCb2brTkSd",
+	"json": "{\"id\":\"dIKrqqCb2brTkSd\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Eifler,+L\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Eifler%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006046,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Eifler%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Eifler,+L"
+}

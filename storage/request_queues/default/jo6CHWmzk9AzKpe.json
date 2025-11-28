@@ -1,0 +1,9 @@
+{
+	"id": "jo6CHWmzk9AzKpe",
+	"json": "{\"id\":\"jo6CHWmzk9AzKpe\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Monaghan,+R+D\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Monaghan%2C+R+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991222,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Monaghan%2C+R+D&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Monaghan,+R+D"
+}

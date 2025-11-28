@@ -1,0 +1,9 @@
+{
+	"id": "rY6Pn3iOGlaBK4h",
+	"json": "{\"id\":\"rY6Pn3iOGlaBK4h\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Ernst,+A\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Ernst%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988856,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Ernst%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Ernst,+A"
+}

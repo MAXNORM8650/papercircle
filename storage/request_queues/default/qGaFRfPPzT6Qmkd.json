@@ -1,0 +1,9 @@
+{
+	"id": "qGaFRfPPzT6Qmkd",
+	"json": "{\"id\":\"qGaFRfPPzT6Qmkd\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=K%C3%BCpper,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=K%C3%BCpper%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025764,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=K%C3%BCpper%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=K%C3%BCpper,+A"
+}

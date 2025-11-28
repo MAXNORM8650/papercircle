@@ -1,0 +1,9 @@
+{
+	"id": "UN4w0bkN0ftB9kU",
+	"json": "{\"id\":\"UN4w0bkN0ftB9kU\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=van+der+Pol,+J\",\"uniqueKey\":\"https://arxiv.org/search/math?query=van+der+Pol%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009227,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=van+der+Pol%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=van+der+Pol,+J"
+}

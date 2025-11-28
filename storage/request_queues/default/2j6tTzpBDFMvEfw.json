@@ -1,0 +1,9 @@
+{
+	"id": "2j6tTzpBDFMvEfw",
+	"json": "{\"id\":\"2j6tTzpBDFMvEfw\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=De+Blasi,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=De+Blasi%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087011678,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=De+Blasi%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=De+Blasi,+A"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "pU4bJU4waYrghvn",
+	"json": "{\"id\":\"pU4bJU4waYrghvn\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Zuo,+G\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Zuo%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087019253,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Zuo%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Zuo,+G"
+}

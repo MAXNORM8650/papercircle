@@ -1,0 +1,9 @@
+{
+	"id": "t1rp6tCnu7hCZy1",
+	"json": "{\"id\":\"t1rp6tCnu7hCZy1\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Sebastian,+S+J\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Sebastian%2C+S+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989916,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Sebastian%2C+S+J&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Sebastian,+S+J"
+}

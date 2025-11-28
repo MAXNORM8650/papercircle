@@ -1,0 +1,9 @@
+{
+	"id": "9psqYGYQmCu3gde",
+	"json": "{\"id\":\"9psqYGYQmCu3gde\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Hazra,+R+S\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Hazra%2C+R+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005631,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Hazra%2C+R+S&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Hazra,+R+S"
+}

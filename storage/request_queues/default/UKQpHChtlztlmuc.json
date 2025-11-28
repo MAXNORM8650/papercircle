@@ -1,0 +1,9 @@
+{
+	"id": "UKQpHChtlztlmuc",
+	"json": "{\"id\":\"UKQpHChtlztlmuc\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Mazin,+I+I\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Mazin%2C+I+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991073,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Mazin%2C+I+I&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Mazin,+I+I"
+}

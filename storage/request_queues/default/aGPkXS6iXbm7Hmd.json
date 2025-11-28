@@ -1,0 +1,9 @@
+{
+	"id": "aGPkXS6iXbm7Hmd",
+	"json": "{\"id\":\"aGPkXS6iXbm7Hmd\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Gei%C3%9Felbrecht,+N\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Gei%C3%9Felbrecht%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988246,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Gei%C3%9Felbrecht%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Gei%C3%9Felbrecht,+N"
+}

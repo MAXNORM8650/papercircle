@@ -1,0 +1,9 @@
+{
+	"id": "LpZLQ63XaWVCwke",
+	"json": "{\"id\":\"LpZLQ63XaWVCwke\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Stef%C3%A1nsson%2C+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Stef%C3%A1nsson%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087071974,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Stef%C3%A1nsson%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Stef%C3%A1nsson%2C+G"
+}

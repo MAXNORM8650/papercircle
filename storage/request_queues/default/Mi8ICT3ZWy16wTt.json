@@ -1,0 +1,9 @@
+{
+	"id": "Mi8ICT3ZWy16wTt",
+	"json": "{\"id\":\"Mi8ICT3ZWy16wTt\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Petropoulos,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Petropoulos%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014997,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Petropoulos%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Petropoulos,+A"
+}

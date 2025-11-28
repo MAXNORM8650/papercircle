@@ -1,0 +1,9 @@
+{
+	"id": "YH6aah1epGhxSLz",
+	"json": "{\"id\":\"YH6aah1epGhxSLz\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Stage,+G\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Stage%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992735,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Stage%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Stage,+G"
+}

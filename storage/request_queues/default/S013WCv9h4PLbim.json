@@ -1,0 +1,9 @@
+{
+	"id": "S013WCv9h4PLbim",
+	"json": "{\"id\":\"S013WCv9h4PLbim\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Felemban,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Felemban%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087029605,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Felemban%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Felemban,+A"
+}

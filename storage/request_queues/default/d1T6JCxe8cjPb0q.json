@@ -1,0 +1,9 @@
+{
+	"id": "d1T6JCxe8cjPb0q",
+	"json": "{\"id\":\"d1T6JCxe8cjPb0q\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Huang,+K\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Huang%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999647,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Huang%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Huang,+K"
+}

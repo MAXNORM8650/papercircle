@@ -1,0 +1,9 @@
+{
+	"id": "W42OuPrZAhkDXrw",
+	"json": "{\"id\":\"W42OuPrZAhkDXrw\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Pyrialakos,+G+G\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Pyrialakos%2C+G+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086996517,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Pyrialakos%2C+G+G&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Pyrialakos,+G+G"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "PQdEKdoTKAjW8JH",
+	"json": "{\"id\":\"PQdEKdoTKAjW8JH\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Botogoske,+G\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Botogoske%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992566,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Botogoske%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Botogoske,+G"
+}

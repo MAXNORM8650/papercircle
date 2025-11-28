@@ -1,0 +1,9 @@
+{
+	"id": "pxZ4Zzhr73w0Age",
+	"json": "{\"id\":\"pxZ4Zzhr73w0Age\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Smith,+A+R\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Smith%2C+A+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007486,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Smith%2C+A+R&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Smith,+A+R"
+}

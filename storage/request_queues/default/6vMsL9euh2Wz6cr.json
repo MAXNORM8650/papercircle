@@ -1,0 +1,9 @@
+{
+	"id": "6vMsL9euh2Wz6cr",
+	"json": "{\"id\":\"6vMsL9euh2Wz6cr\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Nusair,+O\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Nusair%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997903,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Nusair%2C+O&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Nusair,+O"
+}

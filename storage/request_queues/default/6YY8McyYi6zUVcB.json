@@ -1,0 +1,9 @@
+{
+	"id": "6YY8McyYi6zUVcB",
+	"json": "{\"id\":\"6YY8McyYi6zUVcB\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Kaur,+M\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Kaur%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087019805,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Kaur%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Kaur,+M"
+}

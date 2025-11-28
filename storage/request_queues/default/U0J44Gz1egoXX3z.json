@@ -1,0 +1,9 @@
+{
+	"id": "U0J44Gz1egoXX3z",
+	"json": "{\"id\":\"U0J44Gz1egoXX3z\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Kristensen,+M+H\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Kristensen%2C+M+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999322,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Kristensen%2C+M+H&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Kristensen,+M+H"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "HsCH3CWKUBI7AQI",
+	"json": "{\"id\":\"HsCH3CWKUBI7AQI\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Dey,+K\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Dey%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994321,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Dey%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Dey,+K"
+}

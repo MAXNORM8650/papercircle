@@ -1,0 +1,9 @@
+{
+	"id": "n7OpOeamWBDVAeP",
+	"json": "{\"id\":\"n7OpOeamWBDVAeP\",\"url\":\"https://arxiv.org/search/advanced?terms-0-term=Chau%2C+N&terms-0-field=author&size=50&order=-announced_date_first\",\"uniqueKey\":\"https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Chau%2C+N\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087060999,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Chau%2C+N",
+	"url": "https://arxiv.org/search/advanced?terms-0-term=Chau%2C+N&terms-0-field=author&size=50&order=-announced_date_first"
+}

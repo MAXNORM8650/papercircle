@@ -1,0 +1,9 @@
+{
+	"id": "N1zt8P1VwUMpYIG",
+	"json": "{\"id\":\"N1zt8P1VwUMpYIG\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Giraldo-Huertas,+J+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Giraldo-Huertas%2C+J+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015232,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Giraldo-Huertas%2C+J+J&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Giraldo-Huertas,+J+J"
+}

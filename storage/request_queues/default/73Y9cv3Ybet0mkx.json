@@ -1,0 +1,9 @@
+{
+	"id": "73Y9cv3Ybet0mkx",
+	"json": "{\"id\":\"73Y9cv3Ybet0mkx\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=de+Haan%2C+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=de+Haan%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087084994,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=de+Haan%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=de+Haan%2C+M"
+}

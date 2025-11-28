@@ -1,0 +1,9 @@
+{
+	"id": "H4NURefT2mmLAMO",
+	"json": "{\"id\":\"H4NURefT2mmLAMO\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Gong,+S\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Gong%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007768,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Gong%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Gong,+S"
+}

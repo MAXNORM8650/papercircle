@@ -1,0 +1,9 @@
+{
+	"id": "t1uZSpjOGZ7HKmO",
+	"json": "{\"id\":\"t1uZSpjOGZ7HKmO\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Hagen,+M+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Hagen%2C+M+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014489,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Hagen%2C+M+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Hagen,+M+S"
+}

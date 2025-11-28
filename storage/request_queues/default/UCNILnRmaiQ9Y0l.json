@@ -1,0 +1,9 @@
+{
+	"id": "UCNILnRmaiQ9Y0l",
+	"json": "{\"id\":\"UCNILnRmaiQ9Y0l\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Guo,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Guo%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010222,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Guo%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Guo,+S"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "p6Svzu1BiIOpsMB",
+	"json": "{\"id\":\"p6Svzu1BiIOpsMB\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Medlin,+D+L\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Medlin%2C+D+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989105,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Medlin%2C+D+L&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Medlin,+D+L"
+}

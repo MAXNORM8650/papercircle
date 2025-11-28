@@ -1,0 +1,9 @@
+{
+	"id": "IwpCn7G5WrYWHSc",
+	"json": "{\"id\":\"IwpCn7G5WrYWHSc\",\"url\":\"https://arxiv.org/search/q-fin?searchtype=author&query=Lucca,+G\",\"uniqueKey\":\"https://arxiv.org/search/q-fin?query=Lucca%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087021756,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-fin?query=Lucca%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/q-fin?searchtype=author&query=Lucca,+G"
+}

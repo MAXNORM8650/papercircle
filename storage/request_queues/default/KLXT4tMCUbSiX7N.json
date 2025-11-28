@@ -1,0 +1,9 @@
+{
+	"id": "KLXT4tMCUbSiX7N",
+	"json": "{\"id\":\"KLXT4tMCUbSiX7N\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Xiao,+Q\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Xiao%2C+Q&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012771,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Xiao%2C+Q&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Xiao,+Q"
+}

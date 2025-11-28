@@ -1,0 +1,9 @@
+{
+	"id": "fVEBsClZE71isb8",
+	"json": "{\"id\":\"fVEBsClZE71isb8\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Heinke%2C+C+O\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Heinke%2C+C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087040357,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Heinke%2C+C+O&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Heinke%2C+C+O"
+}

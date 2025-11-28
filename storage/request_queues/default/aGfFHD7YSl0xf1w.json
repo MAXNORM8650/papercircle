@@ -1,0 +1,9 @@
+{
+	"id": "aGfFHD7YSl0xf1w",
+	"json": "{\"id\":\"aGfFHD7YSl0xf1w\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Huynh,+P+K\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Huynh%2C+P+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016753,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Huynh%2C+P+K&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Huynh,+P+K"
+}

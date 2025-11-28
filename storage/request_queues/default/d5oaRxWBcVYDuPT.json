@@ -1,0 +1,9 @@
+{
+	"id": "d5oaRxWBcVYDuPT",
+	"json": "{\"id\":\"d5oaRxWBcVYDuPT\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Guti%C3%A9rrez,+H+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Guti%C3%A9rrez%2C+H+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988030,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Guti%C3%A9rrez%2C+H+D&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Guti%C3%A9rrez,+H+D"
+}

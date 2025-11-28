@@ -1,0 +1,9 @@
+{
+	"id": "C8cXf1PqWj4ApNT",
+	"json": "{\"id\":\"C8cXf1PqWj4ApNT\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Hsu,+Y\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Hsu%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087026226,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/econ?query=Hsu%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/econ?searchtype=author&query=Hsu,+Y"
+}

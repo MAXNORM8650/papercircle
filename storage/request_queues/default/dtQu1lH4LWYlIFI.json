@@ -1,0 +1,9 @@
+{
+	"id": "dtQu1lH4LWYlIFI",
+	"json": "{\"id\":\"dtQu1lH4LWYlIFI\",\"url\":\"https://arxiv.org/list/physics/new?skip=0&show=1000\",\"uniqueKey\":\"https://arxiv.org/list/physics/new?show=1000&skip=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999066,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/physics/new?show=1000&skip=0",
+	"url": "https://arxiv.org/list/physics/new?skip=0&show=1000"
+}

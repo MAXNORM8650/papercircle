@@ -1,0 +1,9 @@
+{
+	"id": "wbXmbWkbfF9T0Ma",
+	"json": "{\"id\":\"wbXmbWkbfF9T0Ma\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Caplinger,+N\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Caplinger%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007432,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Caplinger%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Caplinger,+N"
+}

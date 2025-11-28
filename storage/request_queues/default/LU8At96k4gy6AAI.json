@@ -1,0 +1,9 @@
+{
+	"id": "LU8At96k4gy6AAI",
+	"json": "{\"id\":\"LU8At96k4gy6AAI\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Wuensche,+C+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Wuensche%2C+C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087042935,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Wuensche%2C+C+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Wuensche,+C+A"
+}

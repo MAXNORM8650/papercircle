@@ -1,0 +1,9 @@
+{
+	"id": "Mg5lshWEysmkm3c",
+	"json": "{\"id\":\"Mg5lshWEysmkm3c\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Moraes,+M+M+F\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Moraes%2C+M+M+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999519,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Moraes%2C+M+M+F&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Moraes,+M+M+F"
+}

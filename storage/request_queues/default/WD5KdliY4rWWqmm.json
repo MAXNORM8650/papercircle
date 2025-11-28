@@ -1,0 +1,9 @@
+{
+	"id": "WD5KdliY4rWWqmm",
+	"json": "{\"id\":\"WD5KdliY4rWWqmm\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Deffaf,+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Deffaf%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006873,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Deffaf%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Deffaf,+M"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "qFunX0gmUs1SL8c",
+	"json": "{\"id\":\"qFunX0gmUs1SL8c\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Cordier,+B\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Cordier%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986606,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Cordier%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Cordier,+B"
+}

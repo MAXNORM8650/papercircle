@@ -1,0 +1,9 @@
+{
+	"id": "K6k3Gm3b0Jss3ox",
+	"json": "{\"id\":\"K6k3Gm3b0Jss3ox\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Hammer%2C+F&start=100\",\"uniqueKey\":\"https://arxiv.org/search?query=Hammer%2C+F&searchtype=author&start=100\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087064289,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Hammer%2C+F&searchtype=author&start=100",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Hammer%2C+F&start=100"
+}

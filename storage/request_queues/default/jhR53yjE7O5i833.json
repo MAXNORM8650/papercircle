@@ -1,0 +1,9 @@
+{
+	"id": "jhR53yjE7O5i833",
+	"json": "{\"id\":\"jhR53yjE7O5i833\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Eisenbach,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Eisenbach%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087027064,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Eisenbach%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Eisenbach,+S"
+}

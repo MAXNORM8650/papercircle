@@ -1,0 +1,9 @@
+{
+	"id": "ZTB6wPuvBLjtH2J",
+	"json": "{\"id\":\"ZTB6wPuvBLjtH2J\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Baez,+J+P\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Baez%2C+J+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087019303,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Baez%2C+J+P&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Baez,+J+P"
+}

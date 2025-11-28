@@ -1,0 +1,9 @@
+{
+	"id": "S1z7zamNZb64YRx",
+	"json": "{\"id\":\"S1z7zamNZb64YRx\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Zaballa%2C+J+M+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Zaballa%2C+J+M+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087040013,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Zaballa%2C+J+M+S&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Zaballa%2C+J+M+S"
+}

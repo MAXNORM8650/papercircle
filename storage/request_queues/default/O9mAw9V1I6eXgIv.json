@@ -1,0 +1,9 @@
+{
+	"id": "O9mAw9V1I6eXgIv",
+	"json": "{\"id\":\"O9mAw9V1I6eXgIv\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Ibrahim,+A+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Ibrahim%2C+A+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001321,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Ibrahim%2C+A+A&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Ibrahim,+A+A"
+}

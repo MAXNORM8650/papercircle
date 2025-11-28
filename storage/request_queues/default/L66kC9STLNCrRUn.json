@@ -1,0 +1,9 @@
+{
+	"id": "L66kC9STLNCrRUn",
+	"json": "{\"id\":\"L66kC9STLNCrRUn\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Morelh%C3%A3o,+S+L\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Morelh%C3%A3o%2C+S+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989497,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Morelh%C3%A3o%2C+S+L&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Morelh%C3%A3o,+S+L"
+}

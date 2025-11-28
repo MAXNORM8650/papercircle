@@ -1,0 +1,9 @@
+{
+	"id": "m1tjCUUl2df2HsD",
+	"json": "{\"id\":\"m1tjCUUl2df2HsD\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Durkin,+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Durkin%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087036211,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Durkin%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Durkin,+M"
+}

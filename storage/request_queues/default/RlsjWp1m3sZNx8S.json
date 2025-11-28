@@ -1,0 +1,9 @@
+{
+	"id": "RlsjWp1m3sZNx8S",
+	"json": "{\"id\":\"RlsjWp1m3sZNx8S\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Petigura,+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Petigura%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986576,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Petigura%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Petigura,+E"
+}

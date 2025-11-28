@@ -1,0 +1,9 @@
+{
+	"id": "z8cB2gk4Lq74HUY",
+	"json": "{\"id\":\"z8cB2gk4Lq74HUY\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Bostwick,+A\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Bostwick%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989253,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Bostwick%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Bostwick,+A"
+}

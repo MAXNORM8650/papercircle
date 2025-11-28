@@ -1,0 +1,9 @@
+{
+	"id": "VZpUsouHUPBPFUh",
+	"json": "{\"id\":\"VZpUsouHUPBPFUh\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Buompane,+R\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Buompane%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992658,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Buompane%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Buompane,+R"
+}

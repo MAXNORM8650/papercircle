@@ -1,0 +1,9 @@
+{
+	"id": "Pg7Hbv5wcMyPNa5",
+	"json": "{\"id\":\"Pg7Hbv5wcMyPNa5\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Budker,+D\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Budker%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994270,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Budker%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Budker,+D"
+}

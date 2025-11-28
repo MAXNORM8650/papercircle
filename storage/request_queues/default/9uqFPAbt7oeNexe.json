@@ -1,0 +1,9 @@
+{
+	"id": "9uqFPAbt7oeNexe",
+	"json": "{\"id\":\"9uqFPAbt7oeNexe\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Adachi,+I\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Adachi%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992928,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Adachi%2C+I&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Adachi,+I"
+}

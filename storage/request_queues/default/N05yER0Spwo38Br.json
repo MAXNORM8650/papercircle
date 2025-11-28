@@ -1,0 +1,9 @@
+{
+	"id": "N05yER0Spwo38Br",
+	"json": "{\"id\":\"N05yER0Spwo38Br\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Craycraft,+A\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Craycraft%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997867,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Craycraft%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Craycraft,+A"
+}

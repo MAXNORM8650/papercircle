@@ -1,0 +1,9 @@
+{
+	"id": "FvdDFgh0cY5OgMM",
+	"json": "{\"id\":\"FvdDFgh0cY5OgMM\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Mukherjee,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Mukherjee%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016343,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Mukherjee%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Mukherjee,+S"
+}

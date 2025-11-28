@@ -1,0 +1,9 @@
+{
+	"id": "CP5UKjpYI4AMjEC",
+	"json": "{\"id\":\"CP5UKjpYI4AMjEC\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Teng,+Q\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Teng%2C+Q&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001351,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Teng%2C+Q&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Teng,+Q"
+}

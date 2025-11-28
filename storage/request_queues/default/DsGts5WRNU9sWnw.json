@@ -1,0 +1,9 @@
+{
+	"id": "DsGts5WRNU9sWnw",
+	"json": "{\"id\":\"DsGts5WRNU9sWnw\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Mag%C3%A9n,+C\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Mag%C3%A9n%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989057,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Mag%C3%A9n%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Mag%C3%A9n,+C"
+}

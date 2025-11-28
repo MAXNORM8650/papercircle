@@ -1,0 +1,9 @@
+{
+	"id": "JyoEvGm0v4ISWAM",
+	"json": "{\"id\":\"JyoEvGm0v4ISWAM\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Biondi,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Biondi%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025849,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Biondi%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Biondi,+A"
+}

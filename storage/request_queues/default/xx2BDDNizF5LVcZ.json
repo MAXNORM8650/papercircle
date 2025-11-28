@@ -1,0 +1,9 @@
+{
+	"id": "xx2BDDNizF5LVcZ",
+	"json": "{\"id\":\"xx2BDDNizF5LVcZ\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Xie,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Xie%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010165,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Xie%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Xie,+Y"
+}

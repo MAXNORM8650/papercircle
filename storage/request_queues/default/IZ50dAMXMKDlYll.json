@@ -1,0 +1,9 @@
+{
+	"id": "IZ50dAMXMKDlYll",
+	"json": "{\"id\":\"IZ50dAMXMKDlYll\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Pedretti,+G\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Pedretti%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015019,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Pedretti%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Pedretti,+G"
+}

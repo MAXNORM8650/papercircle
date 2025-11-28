@@ -1,0 +1,9 @@
+{
+	"id": "pYUBVGI54JB7CdZ",
+	"json": "{\"id\":\"pYUBVGI54JB7CdZ\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=McKemmie,+E\",\"uniqueKey\":\"https://arxiv.org/search/math?query=McKemmie%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007565,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=McKemmie%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=McKemmie,+E"
+}

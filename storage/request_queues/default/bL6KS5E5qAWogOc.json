@@ -1,0 +1,9 @@
+{
+	"id": "bL6KS5E5qAWogOc",
+	"json": "{\"id\":\"bL6KS5E5qAWogOc\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Gonzalez-Perez,+V\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Gonzalez-Perez%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986907,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Gonzalez-Perez%2C+V&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Gonzalez-Perez,+V"
+}

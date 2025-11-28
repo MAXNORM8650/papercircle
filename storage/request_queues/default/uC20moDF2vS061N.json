@@ -1,0 +1,9 @@
+{
+	"id": "uC20moDF2vS061N",
+	"json": "{\"id\":\"uC20moDF2vS061N\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Ionides,+E+L\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Ionides%2C+E+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009702,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Ionides%2C+E+L&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Ionides,+E+L"
+}

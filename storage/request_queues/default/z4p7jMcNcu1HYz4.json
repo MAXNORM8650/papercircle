@@ -1,0 +1,9 @@
+{
+	"id": "z4p7jMcNcu1HYz4",
+	"json": "{\"id\":\"z4p7jMcNcu1HYz4\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Biljecki,+F\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Biljecki%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087026902,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Biljecki%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Biljecki,+F"
+}

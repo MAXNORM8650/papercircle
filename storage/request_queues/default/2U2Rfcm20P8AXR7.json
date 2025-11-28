@@ -1,0 +1,9 @@
+{
+	"id": "2U2Rfcm20P8AXR7",
+	"json": "{\"id\":\"2U2Rfcm20P8AXR7\",\"url\":\"https://arxiv.org/user/register?submit=Register+for+the+first+time\",\"loadedUrl\":\"https://arxiv.org/user/register?submit=Register+for+the+first+time\",\"uniqueKey\":\"https://arxiv.org/user/register?submit=Register+for+the+first+time\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:29.939Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/user/register?submit=Register+for+the+first+time",
+	"url": "https://arxiv.org/user/register?submit=Register+for+the+first+time"
+}

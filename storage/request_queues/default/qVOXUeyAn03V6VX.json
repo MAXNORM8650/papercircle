@@ -1,0 +1,9 @@
+{
+	"id": "qVOXUeyAn03V6VX",
+	"json": "{\"id\":\"qVOXUeyAn03V6VX\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Yang,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Yang%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010188,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Yang%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Yang,+S"
+}

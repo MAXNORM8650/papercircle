@@ -1,0 +1,9 @@
+{
+	"id": "cZW1SKPJodGzftL",
+	"json": "{\"id\":\"cZW1SKPJodGzftL\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Jishnuanandh,+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Jishnuanandh%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025506,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Jishnuanandh%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Jishnuanandh,+T"
+}

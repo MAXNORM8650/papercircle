@@ -1,0 +1,9 @@
+{
+	"id": "z5hT6MSN4Aje6OF",
+	"json": "{\"id\":\"z5hT6MSN4Aje6OF\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Kr%C3%BCcken,+R\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Kr%C3%BCcken%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997895,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Kr%C3%BCcken%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Kr%C3%BCcken,+R"
+}

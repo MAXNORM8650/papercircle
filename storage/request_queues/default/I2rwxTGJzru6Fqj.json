@@ -1,0 +1,9 @@
+{
+	"id": "I2rwxTGJzru6Fqj",
+	"json": "{\"id\":\"I2rwxTGJzru6Fqj\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Garcia,+A+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Garcia%2C+A+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087030952,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Garcia%2C+A+B&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Garcia,+A+B"
+}

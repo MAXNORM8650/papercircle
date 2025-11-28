@@ -1,0 +1,9 @@
+{
+	"id": "c4EmUl9ANNmJfmP",
+	"json": "{\"id\":\"c4EmUl9ANNmJfmP\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Hristov%2C+B+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Hristov%2C+B+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087040089,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Hristov%2C+B+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Hristov%2C+B+A"
+}

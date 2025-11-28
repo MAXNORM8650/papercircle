@@ -1,0 +1,9 @@
+{
+	"id": "dgZ2BEL3fsmmyoL",
+	"json": "{\"id\":\"dgZ2BEL3fsmmyoL\",\"url\":\"https://arxiv.org/search/nucl-th?searchtype=author&query=Zhang,+Y\",\"uniqueKey\":\"https://arxiv.org/search/nucl-th?query=Zhang%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086998157,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-th?query=Zhang%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-th?searchtype=author&query=Zhang,+Y"
+}

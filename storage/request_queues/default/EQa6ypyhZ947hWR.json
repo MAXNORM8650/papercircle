@@ -1,0 +1,9 @@
+{
+	"id": "EQa6ypyhZ947hWR",
+	"json": "{\"id\":\"EQa6ypyhZ947hWR\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Laine,+A+F\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Laine%2C+A+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012146,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Laine%2C+A+F&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Laine,+A+F"
+}

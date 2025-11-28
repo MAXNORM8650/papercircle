@@ -1,0 +1,9 @@
+{
+	"id": "mKhi6rskDz0FdMX",
+	"json": "{\"id\":\"mKhi6rskDz0FdMX\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Kudryavtsev,+V\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Kudryavtsev%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992742,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Kudryavtsev%2C+V&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Kudryavtsev,+V"
+}

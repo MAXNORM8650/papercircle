@@ -1,0 +1,9 @@
+{
+	"id": "UPOJt9iFYDOHx3i",
+	"json": "{\"id\":\"UPOJt9iFYDOHx3i\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Durand,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Durand%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087028350,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Durand%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Durand,+A"
+}

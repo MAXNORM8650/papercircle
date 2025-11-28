@@ -1,0 +1,9 @@
+{
+	"id": "UNzkZJ0AVNvOzK3",
+	"json": "{\"id\":\"UNzkZJ0AVNvOzK3\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Diaz-Diaz,+F\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Diaz-Diaz%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002548,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Diaz-Diaz%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Diaz-Diaz,+F"
+}

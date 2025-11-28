@@ -1,0 +1,9 @@
+{
+	"id": "H98vUg017fgEYWw",
+	"json": "{\"id\":\"H98vUg017fgEYWw\",\"url\":\"https://arxiv.org/search/q-fin?searchtype=author&query=Ni,+H\",\"uniqueKey\":\"https://arxiv.org/search/q-fin?query=Ni%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087021583,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-fin?query=Ni%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/q-fin?searchtype=author&query=Ni,+H"
+}

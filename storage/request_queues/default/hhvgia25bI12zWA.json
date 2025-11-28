@@ -1,0 +1,9 @@
+{
+	"id": "hhvgia25bI12zWA",
+	"json": "{\"id\":\"hhvgia25bI12zWA\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Yi,+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Yi%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025856,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Yi%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Yi,+B"
+}

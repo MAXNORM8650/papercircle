@@ -1,0 +1,9 @@
+{
+	"id": "vvyh9HukKDC4Npq",
+	"json": "{\"id\":\"vvyh9HukKDC4Npq\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Ballesteros,+J+C+O\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Ballesteros%2C+J+C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007080,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Ballesteros%2C+J+C+O&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Ballesteros,+J+C+O"
+}

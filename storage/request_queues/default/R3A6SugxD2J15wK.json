@@ -1,0 +1,9 @@
+{
+	"id": "R3A6SugxD2J15wK",
+	"json": "{\"id\":\"R3A6SugxD2J15wK\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Gabelli,+J\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Gabelli%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989833,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Gabelli%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Gabelli,+J"
+}

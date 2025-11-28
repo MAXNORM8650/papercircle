@@ -1,0 +1,9 @@
+{
+	"id": "r3B8CG9QDsvhq8N",
+	"json": "{\"id\":\"r3B8CG9QDsvhq8N\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Jacobsen,+J+O\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Jacobsen%2C+J+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087013629,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Jacobsen%2C+J+O&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Jacobsen,+J+O"
+}

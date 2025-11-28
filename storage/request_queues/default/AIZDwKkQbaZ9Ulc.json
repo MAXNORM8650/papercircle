@@ -1,0 +1,9 @@
+{
+	"id": "AIZDwKkQbaZ9Ulc",
+	"json": "{\"id\":\"AIZDwKkQbaZ9Ulc\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Richards%2C+G+T\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Richards%2C+G+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087085886,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Richards%2C+G+T&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Richards%2C+G+T"
+}

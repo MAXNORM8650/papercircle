@@ -1,0 +1,9 @@
+{
+	"id": "zDWiZlDZP6TVz6A",
+	"json": "{\"id\":\"zDWiZlDZP6TVz6A\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Tain,+J+L\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Tain%2C+J+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997791,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Tain%2C+J+L&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Tain,+J+L"
+}

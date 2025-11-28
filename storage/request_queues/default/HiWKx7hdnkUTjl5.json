@@ -1,0 +1,9 @@
+{
+	"id": "HiWKx7hdnkUTjl5",
+	"json": "{\"id\":\"HiWKx7hdnkUTjl5\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Zahran,+N\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Zahran%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087024385,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Zahran%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Zahran,+N"
+}

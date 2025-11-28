@@ -1,0 +1,9 @@
+{
+	"id": "wCkHghlCPykp1xQ",
+	"json": "{\"id\":\"wCkHghlCPykp1xQ\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Reimaa,+%C3%9C\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Reimaa%2C+%C3%9C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006603,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Reimaa%2C+%C3%9C&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Reimaa,+%C3%9C"
+}

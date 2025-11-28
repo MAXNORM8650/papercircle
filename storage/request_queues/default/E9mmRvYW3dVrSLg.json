@@ -1,0 +1,9 @@
+{
+	"id": "E9mmRvYW3dVrSLg",
+	"json": "{\"id\":\"E9mmRvYW3dVrSLg\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Xiong,+Z\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Xiong%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086990761,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Xiong%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Xiong,+Z"
+}

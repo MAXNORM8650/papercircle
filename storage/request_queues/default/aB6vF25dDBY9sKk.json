@@ -1,0 +1,9 @@
+{
+	"id": "aB6vF25dDBY9sKk",
+	"json": "{\"id\":\"aB6vF25dDBY9sKk\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Liu,+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Liu%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087035526,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Liu%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Liu,+C"
+}

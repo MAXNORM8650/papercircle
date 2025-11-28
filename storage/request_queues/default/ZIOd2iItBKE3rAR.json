@@ -1,0 +1,9 @@
+{
+	"id": "ZIOd2iItBKE3rAR",
+	"json": "{\"id\":\"ZIOd2iItBKE3rAR\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Nobili,+F\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Nobili%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009101,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Nobili%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Nobili,+F"
+}

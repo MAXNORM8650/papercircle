@@ -1,0 +1,9 @@
+{
+	"id": "0xwRz5TbUTPPhNS",
+	"json": "{\"id\":\"0xwRz5TbUTPPhNS\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Farronato,+N\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Farronato%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087027099,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Farronato%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Farronato,+N"
+}

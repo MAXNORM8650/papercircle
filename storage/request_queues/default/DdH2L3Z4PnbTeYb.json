@@ -1,0 +1,9 @@
+{
+	"id": "DdH2L3Z4PnbTeYb",
+	"json": "{\"id\":\"DdH2L3Z4PnbTeYb\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Stoltz,+D+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Stoltz%2C+D+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012794,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Stoltz%2C+D+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Stoltz,+D+S"
+}

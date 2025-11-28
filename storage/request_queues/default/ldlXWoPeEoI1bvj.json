@@ -1,0 +1,9 @@
+{
+	"id": "ldlXWoPeEoI1bvj",
+	"json": "{\"id\":\"ldlXWoPeEoI1bvj\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Breiten,+T\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Breiten%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009140,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Breiten%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Breiten,+T"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "EQNqulxyCn5DW1D",
+	"json": "{\"id\":\"EQNqulxyCn5DW1D\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Steeghs,+D+T+H\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Steeghs%2C+D+T+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986434,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Steeghs%2C+D+T+H&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Steeghs,+D+T+H"
+}

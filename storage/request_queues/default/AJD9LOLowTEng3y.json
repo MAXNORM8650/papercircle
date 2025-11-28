@@ -1,0 +1,9 @@
+{
+	"id": "AJD9LOLowTEng3y",
+	"json": "{\"id\":\"AJD9LOLowTEng3y\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Durian,+D+J\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Durian%2C+D+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988678,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Durian%2C+D+J&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Durian,+D+J"
+}

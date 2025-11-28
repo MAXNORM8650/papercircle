@@ -1,0 +1,9 @@
+{
+	"id": "9TZmWHny2f3YN7b",
+	"json": "{\"id\":\"9TZmWHny2f3YN7b\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Canil,+M\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Canil%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025416,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Canil%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Canil,+M"
+}

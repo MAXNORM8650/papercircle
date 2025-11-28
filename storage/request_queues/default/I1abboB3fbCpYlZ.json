@@ -1,0 +1,9 @@
+{
+	"id": "I1abboB3fbCpYlZ",
+	"json": "{\"id\":\"I1abboB3fbCpYlZ\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Botner%2C+O\",\"uniqueKey\":\"https://arxiv.org/search?query=Botner%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087055437,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Botner%2C+O&searchtype=author",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Botner%2C+O"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "pcUUNnZ8jUBf1Q3",
+	"json": "{\"id\":\"pcUUNnZ8jUBf1Q3\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Hu,+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Hu%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014182,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Hu%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Hu,+B"
+}

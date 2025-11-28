@@ -1,0 +1,9 @@
+{
+	"id": "q8d5O7RMyWW4jbl",
+	"json": "{\"id\":\"q8d5O7RMyWW4jbl\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Luna,+E\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Luna%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988924,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Luna%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Luna,+E"
+}

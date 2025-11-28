@@ -1,0 +1,9 @@
+{
+	"id": "nywl4DgcgnetS73",
+	"json": "{\"id\":\"nywl4DgcgnetS73\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=da+Silveira+Ferreira,+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=da+Silveira+Ferreira%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988312,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=da+Silveira+Ferreira%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=da+Silveira+Ferreira,+P"
+}

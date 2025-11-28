@@ -1,0 +1,9 @@
+{
+	"id": "9xFpcSGyP86tVnO",
+	"json": "{\"id\":\"9xFpcSGyP86tVnO\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=M%C3%BCnnich,+R\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=M%C3%BCnnich%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023899,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=M%C3%BCnnich%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=M%C3%BCnnich,+R"
+}

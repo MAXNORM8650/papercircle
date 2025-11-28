@@ -1,0 +1,9 @@
+{
+	"id": "ILUIEk4n0ImXS0U",
+	"json": "{\"id\":\"ILUIEk4n0ImXS0U\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Mallet,+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Mallet%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014978,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Mallet%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Mallet,+R"
+}

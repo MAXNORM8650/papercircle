@@ -1,0 +1,9 @@
+{
+	"id": "rmWnIlATa7KjNT6",
+	"json": "{\"id\":\"rmWnIlATa7KjNT6\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Gaitskell,+R\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Gaitskell%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992726,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Gaitskell%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Gaitskell,+R"
+}

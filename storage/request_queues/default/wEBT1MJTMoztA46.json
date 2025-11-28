@@ -1,0 +1,9 @@
+{
+	"id": "wEBT1MJTMoztA46",
+	"json": "{\"id\":\"wEBT1MJTMoztA46\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Mei,+J\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Mei%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087003708,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Mei%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Mei,+J"
+}

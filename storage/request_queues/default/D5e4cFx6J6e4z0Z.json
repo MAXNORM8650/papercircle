@@ -1,0 +1,9 @@
+{
+	"id": "D5e4cFx6J6e4z0Z",
+	"json": "{\"id\":\"D5e4cFx6J6e4z0Z\",\"url\":\"https://arxiv.org/search/nucl-th?searchtype=author&query=Ye%C5%9Filkanat,+C+M\",\"uniqueKey\":\"https://arxiv.org/search/nucl-th?query=Ye%C5%9Filkanat%2C+C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086998161,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-th?query=Ye%C5%9Filkanat%2C+C+M&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-th?searchtype=author&query=Ye%C5%9Filkanat,+C+M"
+}

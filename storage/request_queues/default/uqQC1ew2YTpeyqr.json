@@ -1,0 +1,9 @@
+{
+	"id": "uqQC1ew2YTpeyqr",
+	"json": "{\"id\":\"uqQC1ew2YTpeyqr\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Ren,+X\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Ren%2C+X&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992878,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Ren%2C+X&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Ren,+X"
+}

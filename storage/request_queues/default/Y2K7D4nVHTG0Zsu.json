@@ -1,0 +1,9 @@
+{
+	"id": "Y2K7D4nVHTG0Zsu",
+	"json": "{\"id\":\"Y2K7D4nVHTG0Zsu\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Pittu,+M+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Pittu%2C+M+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087013134,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Pittu%2C+M+R&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Pittu,+M+R"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "h3bdrO3ecg9YpAi",
+	"json": "{\"id\":\"h3bdrO3ecg9YpAi\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Miao,+X\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Miao%2C+X&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014973,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Miao%2C+X&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Miao,+X"
+}

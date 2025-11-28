@@ -1,0 +1,9 @@
+{
+	"id": "1LdDjtcJT19LszG",
+	"json": "{\"id\":\"1LdDjtcJT19LszG\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Shi,+X\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Shi%2C+X&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025284,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Shi%2C+X&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Shi,+X"
+}

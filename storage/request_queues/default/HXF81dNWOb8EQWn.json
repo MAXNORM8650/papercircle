@@ -1,0 +1,9 @@
+{
+	"id": "HXF81dNWOb8EQWn",
+	"json": "{\"id\":\"HXF81dNWOb8EQWn\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Drakopoulou,+E\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Drakopoulou%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992706,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Drakopoulou%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Drakopoulou,+E"
+}

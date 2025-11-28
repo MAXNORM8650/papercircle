@@ -1,0 +1,9 @@
+{
+	"id": "HOrDFYbMpuqEapY",
+	"json": "{\"id\":\"HOrDFYbMpuqEapY\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Els%C3%A4sser%2C+D&start=300\",\"uniqueKey\":\"https://arxiv.org/search?query=Els%C3%A4sser%2C+D&searchtype=author&start=300\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087074870,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Els%C3%A4sser%2C+D&searchtype=author&start=300",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Els%C3%A4sser%2C+D&start=300"
+}

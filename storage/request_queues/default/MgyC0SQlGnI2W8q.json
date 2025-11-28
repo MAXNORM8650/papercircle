@@ -1,0 +1,9 @@
+{
+	"id": "MgyC0SQlGnI2W8q",
+	"json": "{\"id\":\"MgyC0SQlGnI2W8q\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=D%C4%85browski,+L\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=D%C4%85browski%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994669,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-th?query=D%C4%85browski%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=D%C4%85browski,+L"
+}

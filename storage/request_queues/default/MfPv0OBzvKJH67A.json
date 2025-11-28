@@ -1,0 +1,9 @@
+{
+	"id": "MfPv0OBzvKJH67A",
+	"json": "{\"id\":\"MfPv0OBzvKJH67A\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Tan,+P+K\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Tan%2C+P+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087017783,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Tan%2C+P+K&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Tan,+P+K"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "wmWGHLK6IAQ8h56",
+	"json": "{\"id\":\"wmWGHLK6IAQ8h56\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Banburski-Fahey,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Banburski-Fahey%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087024414,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Banburski-Fahey%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Banburski-Fahey,+A"
+}

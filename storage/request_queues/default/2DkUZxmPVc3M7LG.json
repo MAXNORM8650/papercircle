@@ -1,0 +1,9 @@
+{
+	"id": "2DkUZxmPVc3M7LG",
+	"json": "{\"id\":\"2DkUZxmPVc3M7LG\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Weschke,+E\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Weschke%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988986,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Weschke%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Weschke,+E"
+}

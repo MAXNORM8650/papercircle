@@ -1,0 +1,9 @@
+{
+	"id": "DHN0TkFcV1RghUR",
+	"json": "{\"id\":\"DHN0TkFcV1RghUR\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kobus,+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Kobus%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986503,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Kobus%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Kobus,+J"
+}

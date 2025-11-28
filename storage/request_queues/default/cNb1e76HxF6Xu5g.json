@@ -1,0 +1,9 @@
+{
+	"id": "cNb1e76HxF6Xu5g",
+	"json": "{\"id\":\"cNb1e76HxF6Xu5g\",\"url\":\"https://arxiv.org/list/math.NA/recent?skip=62&show=50\",\"uniqueKey\":\"https://arxiv.org/list/math.NA/recent?show=50&skip=62\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087008615,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/math.NA/recent?show=50&skip=62",
+	"url": "https://arxiv.org/list/math.NA/recent?skip=62&show=50"
+}

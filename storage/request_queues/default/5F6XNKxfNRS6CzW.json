@@ -1,0 +1,9 @@
+{
+	"id": "5F6XNKxfNRS6CzW",
+	"json": "{\"id\":\"5F6XNKxfNRS6CzW\",\"url\":\"https://arxiv.org/search/nlin?searchtype=author&query=Dong,+L\",\"uniqueKey\":\"https://arxiv.org/search/nlin?query=Dong%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086996411,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nlin?query=Dong%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/nlin?searchtype=author&query=Dong,+L"
+}

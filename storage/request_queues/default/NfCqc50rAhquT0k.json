@@ -1,0 +1,9 @@
+{
+	"id": "NfCqc50rAhquT0k",
+	"json": "{\"id\":\"NfCqc50rAhquT0k\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=CMS+Collaboration\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=CMS+Collaboration&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992619,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=CMS+Collaboration&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=CMS+Collaboration"
+}

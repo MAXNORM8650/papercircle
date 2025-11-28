@@ -1,0 +1,9 @@
+{
+	"id": "vfkg1naTcMfWrw9",
+	"json": "{\"id\":\"vfkg1naTcMfWrw9\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Dion%C3%ADsio,+J\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Dion%C3%ADsio%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006045,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Dion%C3%ADsio%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Dion%C3%ADsio,+J"
+}

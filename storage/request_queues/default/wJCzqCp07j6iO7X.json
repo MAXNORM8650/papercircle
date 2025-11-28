@@ -1,0 +1,9 @@
+{
+	"id": "wJCzqCp07j6iO7X",
+	"json": "{\"id\":\"wJCzqCp07j6iO7X\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Dembin,+B\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Dembin%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009277,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Dembin%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Dembin,+B"
+}

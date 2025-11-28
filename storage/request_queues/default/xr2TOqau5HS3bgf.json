@@ -1,0 +1,9 @@
+{
+	"id": "xr2TOqau5HS3bgf",
+	"json": "{\"id\":\"xr2TOqau5HS3bgf\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Manna,+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Manna%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987100,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Manna%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Manna,+S"
+}

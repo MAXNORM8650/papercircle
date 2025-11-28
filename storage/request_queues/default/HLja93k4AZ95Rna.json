@@ -1,0 +1,9 @@
+{
+	"id": "HLja93k4AZ95Rna",
+	"json": "{\"id\":\"HLja93k4AZ95Rna\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Maoz,+O\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Maoz%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999123,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Maoz%2C+O&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Maoz,+O"
+}

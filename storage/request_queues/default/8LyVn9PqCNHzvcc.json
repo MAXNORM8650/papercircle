@@ -1,0 +1,9 @@
+{
+	"id": "8LyVn9PqCNHzvcc",
+	"json": "{\"id\":\"8LyVn9PqCNHzvcc\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Aygun,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Aygun%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087003727,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Aygun%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Aygun,+S"
+}

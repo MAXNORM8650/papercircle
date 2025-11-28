@@ -1,0 +1,9 @@
+{
+	"id": "VGaEbVhRN2QC356",
+	"json": "{\"id\":\"VGaEbVhRN2QC356\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Barwey,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Barwey%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087030811,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Barwey%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Barwey,+S"
+}

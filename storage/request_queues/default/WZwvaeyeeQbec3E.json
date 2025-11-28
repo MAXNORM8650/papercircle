@@ -1,0 +1,9 @@
+{
+	"id": "WZwvaeyeeQbec3E",
+	"json": "{\"id\":\"WZwvaeyeeQbec3E\",\"url\":\"https://arxiv.org/list/cs.AI/recent?skip=725&show=50\",\"uniqueKey\":\"https://arxiv.org/list/cs.AI/recent?show=50&skip=725\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010099,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/cs.AI/recent?show=50&skip=725",
+	"url": "https://arxiv.org/list/cs.AI/recent?skip=725&show=50"
+}

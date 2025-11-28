@@ -1,0 +1,9 @@
+{
+	"id": "i6cWjwFRO2qGJVm",
+	"json": "{\"id\":\"i6cWjwFRO2qGJVm\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=McClarren,+R+G\",\"uniqueKey\":\"https://arxiv.org/search/math?query=McClarren%2C+R+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086998467,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=McClarren%2C+R+G&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=McClarren,+R+G"
+}

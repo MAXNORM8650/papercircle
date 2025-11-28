@@ -1,0 +1,9 @@
+{
+	"id": "6AgYJDwtN67424F",
+	"json": "{\"id\":\"6AgYJDwtN67424F\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Torres,+N+D+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Torres%2C+N+D+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999126,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Torres%2C+N+D+R&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Torres,+N+D+R"
+}

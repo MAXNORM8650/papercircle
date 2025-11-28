@@ -1,0 +1,9 @@
+{
+	"id": "sZEOTh3CeNncayE",
+	"json": "{\"id\":\"sZEOTh3CeNncayE\",\"url\":\"https://arxiv.org/search/q-fin?searchtype=author&query=Pinto,+R+F\",\"uniqueKey\":\"https://arxiv.org/search/q-fin?query=Pinto%2C+R+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087021753,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-fin?query=Pinto%2C+R+F&searchtype=author",
+	"url": "https://arxiv.org/search/q-fin?searchtype=author&query=Pinto,+R+F"
+}

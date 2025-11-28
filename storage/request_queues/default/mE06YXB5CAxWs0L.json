@@ -1,0 +1,9 @@
+{
+	"id": "mE06YXB5CAxWs0L",
+	"json": "{\"id\":\"mE06YXB5CAxWs0L\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Doss,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Doss%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016339,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Doss%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Doss,+S"
+}

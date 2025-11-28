@@ -1,0 +1,9 @@
+{
+	"id": "sTXLTBD6lFbT5sj",
+	"json": "{\"id\":\"sTXLTBD6lFbT5sj\",\"url\":\"https://arxiv.org/about/ourmembers\",\"loadedUrl\":\"https://info.arxiv.org/about/ourmembers.html\",\"uniqueKey\":\"https://arxiv.org/about/ourmembers\",\"method\":\"GET\",\"noRetry\":true,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":7}},\"handledAt\":\"2025-11-25T16:10:29.333Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/about/ourmembers",
+	"url": "https://arxiv.org/about/ourmembers"
+}

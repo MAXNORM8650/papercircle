@@ -1,0 +1,9 @@
+{
+	"id": "yHH1oVeo8ahK6US",
+	"json": "{\"id\":\"yHH1oVeo8ahK6US\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Engel%2C+R\",\"uniqueKey\":\"https://arxiv.org/search?query=Engel%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087077828,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Engel%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Engel%2C+R"
+}

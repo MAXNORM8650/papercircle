@@ -1,0 +1,9 @@
+{
+	"id": "SA6PcHT8Of5ZNPV",
+	"json": "{\"id\":\"SA6PcHT8Of5ZNPV\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Hao,+K\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Hao%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086995473,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Hao%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Hao,+K"
+}

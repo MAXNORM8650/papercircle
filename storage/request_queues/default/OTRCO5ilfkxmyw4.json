@@ -1,0 +1,9 @@
+{
+	"id": "OTRCO5ilfkxmyw4",
+	"json": "{\"id\":\"OTRCO5ilfkxmyw4\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Abboush,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Abboush%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087017984,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Abboush%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Abboush,+M"
+}

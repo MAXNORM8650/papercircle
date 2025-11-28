@@ -1,0 +1,9 @@
+{
+	"id": "OA67WRM4hB1DFIq",
+	"json": "{\"id\":\"OA67WRM4hB1DFIq\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Choudhury,+T+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Choudhury%2C+T+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988136,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Choudhury%2C+T+R&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Choudhury,+T+R"
+}

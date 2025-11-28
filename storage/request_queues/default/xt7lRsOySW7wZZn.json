@@ -1,0 +1,9 @@
+{
+	"id": "xt7lRsOySW7wZZn",
+	"json": "{\"id\":\"xt7lRsOySW7wZZn\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Simons,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Simons%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012373,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Simons%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Simons,+A"
+}

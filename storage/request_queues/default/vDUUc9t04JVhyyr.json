@@ -1,0 +1,9 @@
+{
+	"id": "vDUUc9t04JVhyyr",
+	"json": "{\"id\":\"vDUUc9t04JVhyyr\",\"url\":\"https://arxiv.org/list/physics.flu-dyn/recent\",\"loadedUrl\":\"https://arxiv.org/list/physics.flu-dyn/recent\",\"uniqueKey\":\"https://arxiv.org/list/physics.flu-dyn/recent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:01.376Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/physics.flu-dyn/recent",
+	"url": "https://arxiv.org/list/physics.flu-dyn/recent"
+}

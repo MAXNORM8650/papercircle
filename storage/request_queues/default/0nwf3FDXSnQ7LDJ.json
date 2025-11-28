@@ -1,0 +1,9 @@
+{
+	"id": "0nwf3FDXSnQ7LDJ",
+	"json": "{\"id\":\"0nwf3FDXSnQ7LDJ\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Sarowar,+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Sarowar%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999391,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Sarowar%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Sarowar,+T"
+}

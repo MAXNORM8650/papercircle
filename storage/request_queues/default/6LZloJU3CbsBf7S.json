@@ -1,0 +1,9 @@
+{
+	"id": "6LZloJU3CbsBf7S",
+	"json": "{\"id\":\"6LZloJU3CbsBf7S\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Gore,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Gore%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087019709,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Gore%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Gore,+A"
+}

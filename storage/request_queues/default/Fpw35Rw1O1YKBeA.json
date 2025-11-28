@@ -1,0 +1,9 @@
+{
+	"id": "Fpw35Rw1O1YKBeA",
+	"json": "{\"id\":\"Fpw35Rw1O1YKBeA\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Strom,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Strom%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087039475,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Strom%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Strom,+A"
+}

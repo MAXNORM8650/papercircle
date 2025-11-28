@@ -1,0 +1,9 @@
+{
+	"id": "uaJKnY093TO2Ia4",
+	"json": "{\"id\":\"uaJKnY093TO2Ia4\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Islam,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Islam%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994263,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Islam%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Islam,+A"
+}

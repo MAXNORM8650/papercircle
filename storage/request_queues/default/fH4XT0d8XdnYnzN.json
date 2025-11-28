@@ -1,0 +1,9 @@
+{
+	"id": "fH4XT0d8XdnYnzN",
+	"json": "{\"id\":\"fH4XT0d8XdnYnzN\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Coleman,+A\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Coleman,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Coleman%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:02.799Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Coleman%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Coleman,+A"
+}

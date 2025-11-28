@@ -1,0 +1,9 @@
+{
+	"id": "5G6VfMqmQ8nFXjk",
+	"json": "{\"id\":\"5G6VfMqmQ8nFXjk\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Bebrov,+G\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Bebrov%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087003653,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Bebrov%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Bebrov,+G"
+}

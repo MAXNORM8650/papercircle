@@ -1,0 +1,9 @@
+{
+	"id": "4uEfoYETI7vv7qk",
+	"json": "{\"id\":\"4uEfoYETI7vv7qk\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Abusleme,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Abusleme%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002234,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Abusleme%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Abusleme,+A"
+}

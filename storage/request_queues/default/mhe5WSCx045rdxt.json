@@ -1,0 +1,9 @@
+{
+	"id": "mhe5WSCx045rdxt",
+	"json": "{\"id\":\"mhe5WSCx045rdxt\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Shivaei,+I\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Shivaei%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987045,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Shivaei%2C+I&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Shivaei,+I"
+}

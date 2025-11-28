@@ -1,0 +1,9 @@
+{
+	"id": "6YE3toeXM3RVKBD",
+	"json": "{\"id\":\"6YE3toeXM3RVKBD\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ca%C3%B1as-Herrera,+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Ca%C3%B1as-Herrera%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988253,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Ca%C3%B1as-Herrera%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Ca%C3%B1as-Herrera,+G"
+}

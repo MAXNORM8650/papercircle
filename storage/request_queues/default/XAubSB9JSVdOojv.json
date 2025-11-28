@@ -1,0 +1,9 @@
+{
+	"id": "XAubSB9JSVdOojv",
+	"json": "{\"id\":\"XAubSB9JSVdOojv\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Johnson,+B+D\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Johnson,+B+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Johnson%2C+B+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:39.643Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Johnson%2C+B+D&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Johnson,+B+D"
+}

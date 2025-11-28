@@ -1,0 +1,9 @@
+{
+	"id": "mGhueJx6WwQgsU3",
+	"json": "{\"id\":\"mGhueJx6WwQgsU3\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Karalidi,+T\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Karalidi%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987598,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Karalidi%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Karalidi,+T"
+}

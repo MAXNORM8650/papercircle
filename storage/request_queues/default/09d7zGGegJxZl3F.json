@@ -1,0 +1,9 @@
+{
+	"id": "09d7zGGegJxZl3F",
+	"json": "{\"id\":\"09d7zGGegJxZl3F\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Dai,+X+C\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Dai%2C+X+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992910,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Dai%2C+X+C&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Dai,+X+C"
+}

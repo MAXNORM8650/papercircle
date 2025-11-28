@@ -1,0 +1,9 @@
+{
+	"id": "O9AdDCtj6FqrhBv",
+	"json": "{\"id\":\"O9AdDCtj6FqrhBv\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bregman,+N+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Bregman%2C+N+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987014,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Bregman%2C+N+J&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Bregman,+N+J"
+}

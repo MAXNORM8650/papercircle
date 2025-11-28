@@ -1,0 +1,9 @@
+{
+	"id": "wg5gXPRIl6xT9ww",
+	"json": "{\"id\":\"wg5gXPRIl6xT9ww\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Verzi,+S+J\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Verzi%2C+S+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023875,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Verzi%2C+S+J&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Verzi,+S+J"
+}

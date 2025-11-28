@@ -1,0 +1,9 @@
+{
+	"id": "XNjjjR7A6qnj7i4",
+	"json": "{\"id\":\"XNjjjR7A6qnj7i4\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Blanco-Pillado%2C+J+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Blanco-Pillado%2C+J+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087061249,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Blanco-Pillado%2C+J+J&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Blanco-Pillado%2C+J+J"
+}

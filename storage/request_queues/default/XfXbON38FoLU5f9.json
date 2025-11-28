@@ -1,0 +1,9 @@
+{
+	"id": "XfXbON38FoLU5f9",
+	"json": "{\"id\":\"XfXbON38FoLU5f9\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Zang,+C\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Zang%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012382,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/econ?query=Zang%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/econ?searchtype=author&query=Zang,+C"
+}

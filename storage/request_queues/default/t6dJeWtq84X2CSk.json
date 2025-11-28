@@ -1,0 +1,9 @@
+{
+	"id": "t6dJeWtq84X2CSk",
+	"json": "{\"id\":\"t6dJeWtq84X2CSk\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Reinhard,+P\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Reinhard%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997416,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Reinhard%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Reinhard,+P"
+}

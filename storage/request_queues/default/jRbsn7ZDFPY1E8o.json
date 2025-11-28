@@ -1,0 +1,9 @@
+{
+	"id": "jRbsn7ZDFPY1E8o",
+	"json": "{\"id\":\"jRbsn7ZDFPY1E8o\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Mao,+P\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Mao%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991677,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-th?query=Mao%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Mao,+P"
+}

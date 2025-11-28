@@ -1,0 +1,9 @@
+{
+	"id": "t1tRg2iN9ew5uUk",
+	"json": "{\"id\":\"t1tRg2iN9ew5uUk\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Wili,+N\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Wili%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087003693,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Wili%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Wili,+N"
+}

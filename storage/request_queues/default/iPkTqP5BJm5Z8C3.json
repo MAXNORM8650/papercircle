@@ -1,0 +1,9 @@
+{
+	"id": "iPkTqP5BJm5Z8C3",
+	"json": "{\"id\":\"iPkTqP5BJm5Z8C3\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Devireddy,+R\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Devireddy%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086990771,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Devireddy%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Devireddy,+R"
+}

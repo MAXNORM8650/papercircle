@@ -1,0 +1,9 @@
+{
+	"id": "H2LOaz1wqWqpIyX",
+	"json": "{\"id\":\"H2LOaz1wqWqpIyX\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Debeaupuis,+O\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Debeaupuis%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006396,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Debeaupuis%2C+O&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Debeaupuis,+O"
+}

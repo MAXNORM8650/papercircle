@@ -1,0 +1,9 @@
+{
+	"id": "L4YO23cXzHsbgYT",
+	"json": "{\"id\":\"L4YO23cXzHsbgYT\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Pokhrel,+S+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Pokhrel%2C+S+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087003723,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Pokhrel%2C+S+R&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Pokhrel,+S+R"
+}

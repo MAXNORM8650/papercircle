@@ -1,0 +1,9 @@
+{
+	"id": "ayxzL7mCyAyx5dt",
+	"json": "{\"id\":\"ayxzL7mCyAyx5dt\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Prat,+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Prat%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988100,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Prat%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Prat,+P"
+}

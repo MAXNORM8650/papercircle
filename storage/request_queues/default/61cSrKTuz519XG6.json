@@ -1,0 +1,9 @@
+{
+	"id": "61cSrKTuz519XG6",
+	"json": "{\"id\":\"61cSrKTuz519XG6\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Chapleski,+M+F\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Chapleski%2C+M+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987434,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Chapleski%2C+M+F&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Chapleski,+M+F"
+}

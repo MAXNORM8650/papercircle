@@ -1,0 +1,9 @@
+{
+	"id": "vkZJAzB52CPV5mf",
+	"json": "{\"id\":\"vkZJAzB52CPV5mf\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Dobrycheva,+D+V\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Dobrycheva%2C+D+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986619,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Dobrycheva%2C+D+V&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Dobrycheva,+D+V"
+}

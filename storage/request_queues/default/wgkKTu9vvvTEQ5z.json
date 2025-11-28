@@ -1,0 +1,9 @@
+{
+	"id": "wgkKTu9vvvTEQ5z",
+	"json": "{\"id\":\"wgkKTu9vvvTEQ5z\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Steinhardt,+P+J\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Steinhardt%2C+P+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087040615,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-th?query=Steinhardt%2C+P+J&searchtype=author",
+	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Steinhardt,+P+J"
+}

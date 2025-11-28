@@ -1,0 +1,9 @@
+{
+	"id": "JZkU07RCBulDa0L",
+	"json": "{\"id\":\"JZkU07RCBulDa0L\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Goyal,+V+K\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Goyal%2C+V+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087024239,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Goyal%2C+V+K&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Goyal,+V+K"
+}

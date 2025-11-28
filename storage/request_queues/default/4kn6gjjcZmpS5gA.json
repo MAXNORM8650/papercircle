@@ -1,0 +1,9 @@
+{
+	"id": "4kn6gjjcZmpS5gA",
+	"json": "{\"id\":\"4kn6gjjcZmpS5gA\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Jamil,+A\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Jamil%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997891,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Jamil%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Jamil,+A"
+}

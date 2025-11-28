@@ -1,0 +1,9 @@
+{
+	"id": "fIOaW2HcXjhB9do",
+	"json": "{\"id\":\"fIOaW2HcXjhB9do\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ord%C3%B3%C3%B1ez-Toro%2C+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Ord%C3%B3%C3%B1ez-Toro%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087086313,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Ord%C3%B3%C3%B1ez-Toro%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Ord%C3%B3%C3%B1ez-Toro%2C+J"
+}

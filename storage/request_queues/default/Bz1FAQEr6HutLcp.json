@@ -1,0 +1,9 @@
+{
+	"id": "Bz1FAQEr6HutLcp",
+	"json": "{\"id\":\"Bz1FAQEr6HutLcp\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Park,+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Park%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988324,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Park%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Park,+C"
+}

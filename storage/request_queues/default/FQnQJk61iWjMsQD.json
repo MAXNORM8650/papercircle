@@ -1,0 +1,9 @@
+{
+	"id": "FQnQJk61iWjMsQD",
+	"json": "{\"id\":\"FQnQJk61iWjMsQD\",\"url\":\"https://arxiv.org/search/hep-lat?searchtype=author&query=Polanco-Eu%C3%A1n,+E+N\",\"uniqueKey\":\"https://arxiv.org/search/hep-lat?query=Polanco-Eu%C3%A1n%2C+E+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086993571,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-lat?query=Polanco-Eu%C3%A1n%2C+E+N&searchtype=author",
+	"url": "https://arxiv.org/search/hep-lat?searchtype=author&query=Polanco-Eu%C3%A1n,+E+N"
+}

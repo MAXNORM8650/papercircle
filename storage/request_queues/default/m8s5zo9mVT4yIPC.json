@@ -1,0 +1,9 @@
+{
+	"id": "m8s5zo9mVT4yIPC",
+	"json": "{\"id\":\"m8s5zo9mVT4yIPC\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Vergani,+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Vergani%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986615,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Vergani%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Vergani,+S"
+}

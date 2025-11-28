@@ -1,0 +1,9 @@
+{
+	"id": "67ZoL6i0YUYWUcs",
+	"json": "{\"id\":\"67ZoL6i0YUYWUcs\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Foffi,+G\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Foffi%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988913,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Foffi%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Foffi,+G"
+}

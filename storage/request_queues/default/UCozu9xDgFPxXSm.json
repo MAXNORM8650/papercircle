@@ -1,0 +1,9 @@
+{
+	"id": "UCozu9xDgFPxXSm",
+	"json": "{\"id\":\"UCozu9xDgFPxXSm\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Fischer,+O+J+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Fischer%2C+O+J+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087017724,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Fischer%2C+O+J+P&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Fischer,+O+J+P"
+}

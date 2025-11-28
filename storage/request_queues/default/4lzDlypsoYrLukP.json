@@ -1,0 +1,9 @@
+{
+	"id": "4lzDlypsoYrLukP",
+	"json": "{\"id\":\"4lzDlypsoYrLukP\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Rivas,+X\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Rivas%2C+X&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005543,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Rivas%2C+X&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Rivas,+X"
+}

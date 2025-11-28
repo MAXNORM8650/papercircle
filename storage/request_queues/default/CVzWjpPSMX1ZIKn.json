@@ -1,0 +1,9 @@
+{
+	"id": "CVzWjpPSMX1ZIKn",
+	"json": "{\"id\":\"CVzWjpPSMX1ZIKn\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Varma,+G+S+S+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Varma%2C+G+S+S+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006293,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Varma%2C+G+S+S+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Varma,+G+S+S+A"
+}

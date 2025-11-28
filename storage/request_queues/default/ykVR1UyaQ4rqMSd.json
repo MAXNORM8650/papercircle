@@ -1,0 +1,9 @@
+{
+	"id": "ykVR1UyaQ4rqMSd",
+	"json": "{\"id\":\"ykVR1UyaQ4rqMSd\",\"url\":\"https://arxiv.org/search/gr-qc\",\"loadedUrl\":\"https://arxiv.org/search/gr-qc\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:52.055Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc",
+	"url": "https://arxiv.org/search/gr-qc"
+}

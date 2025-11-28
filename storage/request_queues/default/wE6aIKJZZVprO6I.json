@@ -1,0 +1,9 @@
+{
+	"id": "wE6aIKJZZVprO6I",
+	"json": "{\"id\":\"wE6aIKJZZVprO6I\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=N%C3%A1cher,+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=N%C3%A1cher%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997799,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=N%C3%A1cher%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=N%C3%A1cher,+E"
+}

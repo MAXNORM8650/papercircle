@@ -1,0 +1,9 @@
+{
+	"id": "kBs0dAdXcQ6cb35",
+	"json": "{\"id\":\"kBs0dAdXcQ6cb35\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Eberl,+T\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Eberl%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988238,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Eberl%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Eberl,+T"
+}

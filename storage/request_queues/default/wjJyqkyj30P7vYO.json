@@ -1,0 +1,9 @@
+{
+	"id": "wjJyqkyj30P7vYO",
+	"json": "{\"id\":\"wjJyqkyj30P7vYO\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Cerruti,+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Cerruti%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986848,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Cerruti%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Cerruti,+M"
+}

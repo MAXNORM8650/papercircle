@@ -1,0 +1,9 @@
+{
+	"id": "TSm9AV0VVNkixDl",
+	"json": "{\"id\":\"TSm9AV0VVNkixDl\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Byd%C5%BEovsk%C3%BD,+P\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Byd%C5%BEovsk%C3%BD%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997735,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Byd%C5%BEovsk%C3%BD%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Byd%C5%BEovsk%C3%BD,+P"
+}

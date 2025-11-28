@@ -1,0 +1,9 @@
+{
+	"id": "fTHEHAveQHFu54T",
+	"json": "{\"id\":\"fTHEHAveQHFu54T\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Mawby,+I\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Mawby%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992792,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Mawby%2C+I&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Mawby,+I"
+}

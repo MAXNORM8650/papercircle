@@ -1,0 +1,9 @@
+{
+	"id": "LEd6xIQ3pz1B89H",
+	"json": "{\"id\":\"LEd6xIQ3pz1B89H\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Westmeier,+T\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Westmeier%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987335,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Westmeier%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Westmeier,+T"
+}

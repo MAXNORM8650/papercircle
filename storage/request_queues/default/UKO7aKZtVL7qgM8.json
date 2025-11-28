@@ -1,0 +1,9 @@
+{
+	"id": "UKO7aKZtVL7qgM8",
+	"json": "{\"id\":\"UKO7aKZtVL7qgM8\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Strolger%2C+L+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Strolger%2C+L+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087098111,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Strolger%2C+L+G&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Strolger%2C+L+G"
+}

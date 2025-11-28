@@ -1,0 +1,9 @@
+{
+	"id": "ktZOUYKoPsFPl1K",
+	"json": "{\"id\":\"ktZOUYKoPsFPl1K\",\"url\":\"https://arxiv.org/search/physics\",\"loadedUrl\":\"https://arxiv.org/search/physics\",\"uniqueKey\":\"https://arxiv.org/search/physics\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:59.233Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics",
+	"url": "https://arxiv.org/search/physics"
+}

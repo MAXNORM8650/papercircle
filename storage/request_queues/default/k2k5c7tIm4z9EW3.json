@@ -1,0 +1,9 @@
+{
+	"id": "k2k5c7tIm4z9EW3",
+	"json": "{\"id\":\"k2k5c7tIm4z9EW3\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Choi%2C+S&start=150\",\"uniqueKey\":\"https://arxiv.org/search?query=Choi%2C+S&searchtype=author&start=150\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087064559,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Choi%2C+S&searchtype=author&start=150",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Choi%2C+S&start=150"
+}

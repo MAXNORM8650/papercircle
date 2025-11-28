@@ -1,0 +1,9 @@
+{
+	"id": "8GsRHhoXYqegmf3",
+	"json": "{\"id\":\"8GsRHhoXYqegmf3\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Lee,+H\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Lee%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988878,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Lee%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Lee,+H"
+}

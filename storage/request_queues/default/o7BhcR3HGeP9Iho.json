@@ -1,0 +1,9 @@
+{
+	"id": "o7BhcR3HGeP9Iho",
+	"json": "{\"id\":\"o7BhcR3HGeP9Iho\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=C%C3%A1rdenas-Sabando,+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=C%C3%A1rdenas-Sabando%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086996505,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=C%C3%A1rdenas-Sabando%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=C%C3%A1rdenas-Sabando,+R"
+}

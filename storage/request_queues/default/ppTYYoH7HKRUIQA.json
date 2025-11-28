@@ -1,0 +1,9 @@
+{
+	"id": "ppTYYoH7HKRUIQA",
+	"json": "{\"id\":\"ppTYYoH7HKRUIQA\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Harley,+J+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Harley%2C+J+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989157,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Harley%2C+J+B&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Harley,+J+B"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Q8KYj7SZh9zAN1V",
+	"json": "{\"id\":\"Q8KYj7SZh9zAN1V\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Hammer,+F\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Hammer,+F\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Hammer%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:04.552Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Hammer%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Hammer,+F"
+}

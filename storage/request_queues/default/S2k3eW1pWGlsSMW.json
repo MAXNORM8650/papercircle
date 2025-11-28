@@ -1,0 +1,9 @@
+{
+	"id": "S2k3eW1pWGlsSMW",
+	"json": "{\"id\":\"S2k3eW1pWGlsSMW\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Colodro-Conde,+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Colodro-Conde%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988257,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Colodro-Conde%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Colodro-Conde,+C"
+}

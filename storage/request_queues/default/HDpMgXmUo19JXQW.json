@@ -1,0 +1,9 @@
+{
+	"id": "HDpMgXmUo19JXQW",
+	"json": "{\"id\":\"HDpMgXmUo19JXQW\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Nguyen,+C+H\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Nguyen%2C+C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988196,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Nguyen%2C+C+H&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Nguyen,+C+H"
+}

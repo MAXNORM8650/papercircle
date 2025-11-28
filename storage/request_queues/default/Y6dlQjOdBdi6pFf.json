@@ -1,0 +1,9 @@
+{
+	"id": "Y6dlQjOdBdi6pFf",
+	"json": "{\"id\":\"Y6dlQjOdBdi6pFf\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Fani,+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Fani%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087027178,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Fani%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Fani,+R"
+}

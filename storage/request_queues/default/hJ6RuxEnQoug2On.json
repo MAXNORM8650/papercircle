@@ -1,0 +1,9 @@
+{
+	"id": "hJ6RuxEnQoug2On",
+	"json": "{\"id\":\"hJ6RuxEnQoug2On\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Agarwalla%2C+S+K&start=50\",\"uniqueKey\":\"https://arxiv.org/search?query=Agarwalla%2C+S+K&searchtype=author&start=50\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087045679,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Agarwalla%2C+S+K&searchtype=author&start=50",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Agarwalla%2C+S+K&start=50"
+}

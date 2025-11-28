@@ -1,0 +1,9 @@
+{
+	"id": "ag4IVQ3cJi48fc9",
+	"json": "{\"id\":\"ag4IVQ3cJi48fc9\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Fedynitch%2C+A&start=150\",\"uniqueKey\":\"https://arxiv.org/search?query=Fedynitch%2C+A&searchtype=author&start=150\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087081505,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Fedynitch%2C+A&searchtype=author&start=150",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Fedynitch%2C+A&start=150"
+}

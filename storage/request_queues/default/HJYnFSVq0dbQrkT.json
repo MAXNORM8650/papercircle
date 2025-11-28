@@ -1,0 +1,9 @@
+{
+	"id": "HJYnFSVq0dbQrkT",
+	"json": "{\"id\":\"HJYnFSVq0dbQrkT\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ong,+Z\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ong%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087017740,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Ong%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ong,+Z"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "9LZZ5DCfrNHd56Z",
+	"json": "{\"id\":\"9LZZ5DCfrNHd56Z\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Soltes,+J\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Soltes%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016820,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Soltes%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Soltes,+J"
+}

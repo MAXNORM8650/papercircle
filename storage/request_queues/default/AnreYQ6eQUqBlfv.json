@@ -1,0 +1,9 @@
+{
+	"id": "AnreYQ6eQUqBlfv",
+	"json": "{\"id\":\"AnreYQ6eQUqBlfv\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Lashkery,+S\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Lashkery%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087026236,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/econ?query=Lashkery%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/econ?searchtype=author&query=Lashkery,+S"
+}

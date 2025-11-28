@@ -1,0 +1,9 @@
+{
+	"id": "NvhBuVy7gSUfWwH",
+	"json": "{\"id\":\"NvhBuVy7gSUfWwH\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Bog%C3%B8,+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Bog%C3%B8%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016278,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Bog%C3%B8%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Bog%C3%B8,+B"
+}

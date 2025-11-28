@@ -1,0 +1,9 @@
+{
+	"id": "9GTIWKsLxYELnA5",
+	"json": "{\"id\":\"9GTIWKsLxYELnA5\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Connolly,+A\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Connolly,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Connolly%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:04.730Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Connolly%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Connolly,+A"
+}

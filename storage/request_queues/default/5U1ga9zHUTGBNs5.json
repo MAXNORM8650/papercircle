@@ -1,0 +1,9 @@
+{
+	"id": "5U1ga9zHUTGBNs5",
+	"json": "{\"id\":\"5U1ga9zHUTGBNs5\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Schettino,+R+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Schettino%2C+R+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012744,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Schettino%2C+R+B&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Schettino,+R+B"
+}

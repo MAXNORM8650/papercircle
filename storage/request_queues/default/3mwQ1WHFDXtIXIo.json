@@ -1,0 +1,9 @@
+{
+	"id": "3mwQ1WHFDXtIXIo",
+	"json": "{\"id\":\"3mwQ1WHFDXtIXIo\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Kaufman,+L\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Kaufman%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997894,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Kaufman%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Kaufman,+L"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Fr7FG7N8eKZUOD1",
+	"json": "{\"id\":\"Fr7FG7N8eKZUOD1\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Safavi-Naeini,+A+H\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Safavi-Naeini%2C+A+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989232,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Safavi-Naeini%2C+A+H&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Safavi-Naeini,+A+H"
+}

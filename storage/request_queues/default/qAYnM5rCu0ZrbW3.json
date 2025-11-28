@@ -1,0 +1,9 @@
+{
+	"id": "qAYnM5rCu0ZrbW3",
+	"json": "{\"id\":\"qAYnM5rCu0ZrbW3\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Lima,+J+E+E\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Lima%2C+J+E+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015126,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Lima%2C+J+E+E&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Lima,+J+E+E"
+}

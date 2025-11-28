@@ -1,0 +1,9 @@
+{
+	"id": "C46ObbfBE52zZke",
+	"json": "{\"id\":\"C46ObbfBE52zZke\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=van+den+Bogert,+W\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=van+den+Bogert%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012700,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=van+den+Bogert%2C+W&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=van+den+Bogert,+W"
+}

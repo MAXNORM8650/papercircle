@@ -1,0 +1,9 @@
+{
+	"id": "YBjThLK0R2TpRf7",
+	"json": "{\"id\":\"YBjThLK0R2TpRf7\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Joshi,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Joshi%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087000768,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Joshi%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Joshi,+A"
+}

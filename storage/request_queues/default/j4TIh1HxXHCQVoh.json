@@ -1,0 +1,9 @@
+{
+	"id": "j4TIh1HxXHCQVoh",
+	"json": "{\"id\":\"j4TIh1HxXHCQVoh\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Belle\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Belle&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992927,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Belle&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Belle"
+}

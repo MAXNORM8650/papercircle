@@ -1,0 +1,9 @@
+{
+	"id": "znjyU04phUu3VgD",
+	"json": "{\"id\":\"znjyU04phUu3VgD\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Sarno,+A\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Sarno%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991228,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Sarno%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Sarno,+A"
+}

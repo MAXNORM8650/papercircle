@@ -1,0 +1,9 @@
+{
+	"id": "h228D8b7aomRLGT",
+	"json": "{\"id\":\"h228D8b7aomRLGT\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Kaneko,+N\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Kaneko%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989299,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Kaneko%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Kaneko,+N"
+}

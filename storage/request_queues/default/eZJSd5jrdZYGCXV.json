@@ -1,0 +1,9 @@
+{
+	"id": "eZJSd5jrdZYGCXV",
+	"json": "{\"id\":\"eZJSd5jrdZYGCXV\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Metcalf%2C+A+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Metcalf%2C+A+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087072085,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Metcalf%2C+A+J&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Metcalf%2C+A+J"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "XFUQrGr3TjuAvsr",
+	"json": "{\"id\":\"XFUQrGr3TjuAvsr\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=De+Mel,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=De+Mel%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015641,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=De+Mel%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=De+Mel,+Y"
+}

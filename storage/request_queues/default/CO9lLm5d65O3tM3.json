@@ -1,0 +1,9 @@
+{
+	"id": "CO9lLm5d65O3tM3",
+	"json": "{\"id\":\"CO9lLm5d65O3tM3\",\"url\":\"https://arxiv.org/search/?\",\"uniqueKey\":\"https://arxiv.org/search\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987082,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search",
+	"url": "https://arxiv.org/search/?"
+}

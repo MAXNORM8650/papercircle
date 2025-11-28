@@ -1,0 +1,9 @@
+{
+	"id": "A6GTmNKG7RIBoCY",
+	"json": "{\"id\":\"A6GTmNKG7RIBoCY\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Wales,+D+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Wales%2C+D+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087000312,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Wales%2C+D+J&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Wales,+D+J"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "st7Zo5A8NUGatIS",
+	"json": "{\"id\":\"st7Zo5A8NUGatIS\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Hardy,+E\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Hardy%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087040585,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Hardy%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Hardy,+E"
+}

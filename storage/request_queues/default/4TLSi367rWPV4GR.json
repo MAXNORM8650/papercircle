@@ -1,0 +1,9 @@
+{
+	"id": "4TLSi367rWPV4GR",
+	"json": "{\"id\":\"4TLSi367rWPV4GR\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Peloton,+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Peloton%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986477,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Peloton%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Peloton,+J"
+}

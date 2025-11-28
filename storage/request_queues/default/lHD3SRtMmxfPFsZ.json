@@ -1,0 +1,9 @@
+{
+	"id": "lHD3SRtMmxfPFsZ",
+	"json": "{\"id\":\"lHD3SRtMmxfPFsZ\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Orestano%2C+P+C\",\"uniqueKey\":\"https://arxiv.org/search?query=Orestano%2C+P+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087039985,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Orestano%2C+P+C&searchtype=author",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Orestano%2C+P+C"
+}

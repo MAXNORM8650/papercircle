@@ -1,0 +1,9 @@
+{
+	"id": "saHSHs8ANR1xq8O",
+	"json": "{\"id\":\"saHSHs8ANR1xq8O\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ghosh%2C+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Ghosh%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087056034,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Ghosh%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Ghosh%2C+R"
+}

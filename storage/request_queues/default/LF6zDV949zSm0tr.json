@@ -1,0 +1,9 @@
+{
+	"id": "LF6zDV949zSm0tr",
+	"json": "{\"id\":\"LF6zDV949zSm0tr\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Blevins,+J+R\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Blevins%2C+J+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087026244,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/econ?query=Blevins%2C+J+R&searchtype=author",
+	"url": "https://arxiv.org/search/econ?searchtype=author&query=Blevins,+J+R"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "9ZuY7GVsJf7qUOS",
+	"json": "{\"id\":\"9ZuY7GVsJf7qUOS\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Cui,+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Cui%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001375,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Cui%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Cui,+C"
+}

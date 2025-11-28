@@ -1,0 +1,9 @@
+{
+	"id": "ByJosa1g8WFVofw",
+	"json": "{\"id\":\"ByJosa1g8WFVofw\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Jones,+G+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Jones%2C+G+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987011,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Jones%2C+G+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Jones,+G+C"
+}

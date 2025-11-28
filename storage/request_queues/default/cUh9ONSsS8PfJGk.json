@@ -1,0 +1,9 @@
+{
+	"id": "cUh9ONSsS8PfJGk",
+	"json": "{\"id\":\"cUh9ONSsS8PfJGk\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Shattuck,+M+D\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Shattuck%2C+M+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086990796,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Shattuck%2C+M+D&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Shattuck,+M+D"
+}

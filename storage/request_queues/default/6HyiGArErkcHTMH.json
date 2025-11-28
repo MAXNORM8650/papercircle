@@ -1,0 +1,9 @@
+{
+	"id": "6HyiGArErkcHTMH",
+	"json": "{\"id\":\"6HyiGArErkcHTMH\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Bishnu,+N+P\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Bishnu%2C+N+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087018582,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Bishnu%2C+N+P&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Bishnu,+N+P"
+}

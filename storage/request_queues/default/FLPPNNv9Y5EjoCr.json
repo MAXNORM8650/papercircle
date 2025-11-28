@@ -1,0 +1,9 @@
+{
+	"id": "FLPPNNv9Y5EjoCr",
+	"json": "{\"id\":\"FLPPNNv9Y5EjoCr\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Caufield,+J+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Caufield%2C+J+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087013593,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Caufield%2C+J+H&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Caufield,+J+H"
+}

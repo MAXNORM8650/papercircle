@@ -1,0 +1,9 @@
+{
+	"id": "ocR1eo2tDQyYN6d",
+	"json": "{\"id\":\"ocR1eo2tDQyYN6d\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Cihangir,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Cihangir%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010191,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Cihangir%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Cihangir,+A"
+}

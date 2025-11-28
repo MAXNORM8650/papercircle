@@ -1,0 +1,9 @@
+{
+	"id": "kRvD1c1gBl8qVIq",
+	"json": "{\"id\":\"kRvD1c1gBl8qVIq\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Mitchem%2C+O\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Mitchem%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087072932,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Mitchem%2C+O&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Mitchem%2C+O"
+}

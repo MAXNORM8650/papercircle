@@ -1,0 +1,9 @@
+{
+	"id": "polSNnC35W7UqNt",
+	"json": "{\"id\":\"polSNnC35W7UqNt\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Mo%C5%BCaryn,+J\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Mo%C5%BCaryn%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992803,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Mo%C5%BCaryn%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Mo%C5%BCaryn,+J"
+}

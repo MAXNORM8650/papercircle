@@ -1,0 +1,9 @@
+{
+	"id": "CDn92BzlSZOe7Rz",
+	"json": "{\"id\":\"CDn92BzlSZOe7Rz\",\"url\":\"https://arxiv.org/list/cs.IT/recent?skip=49&show=50\",\"uniqueKey\":\"https://arxiv.org/list/cs.IT/recent?show=50&skip=49\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007939,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/cs.IT/recent?show=50&skip=49",
+	"url": "https://arxiv.org/list/cs.IT/recent?skip=49&show=50"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "LLOmcYE7Grrkzfc",
+	"json": "{\"id\":\"LLOmcYE7Grrkzfc\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kassler,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kassler%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012171,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Kassler%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kassler,+A"
+}

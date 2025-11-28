@@ -1,0 +1,9 @@
+{
+	"id": "Oj24kG7mYWlrob3",
+	"json": "{\"id\":\"Oj24kG7mYWlrob3\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Chermoshentsev,+D\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Chermoshentsev%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087000612,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Chermoshentsev%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Chermoshentsev,+D"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "ia76TeZZxmBrQ6d",
+	"json": "{\"id\":\"ia76TeZZxmBrQ6d\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Fang,+C\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Fang%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992769,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Fang%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Fang,+C"
+}

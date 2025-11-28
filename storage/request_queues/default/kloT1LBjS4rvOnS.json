@@ -1,0 +1,9 @@
+{
+	"id": "kloT1LBjS4rvOnS",
+	"json": "{\"id\":\"kloT1LBjS4rvOnS\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Giacomini,+A\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Giacomini%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991617,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Giacomini%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Giacomini,+A"
+}

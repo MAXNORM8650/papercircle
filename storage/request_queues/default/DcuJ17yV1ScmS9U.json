@@ -1,0 +1,9 @@
+{
+	"id": "DcuJ17yV1ScmS9U",
+	"json": "{\"id\":\"DcuJ17yV1ScmS9U\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Pall%C3%A1s,+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Pall%C3%A1s%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002434,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Pall%C3%A1s%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Pall%C3%A1s,+E"
+}

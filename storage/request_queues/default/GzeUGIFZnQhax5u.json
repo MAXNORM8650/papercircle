@@ -1,0 +1,9 @@
+{
+	"id": "GzeUGIFZnQhax5u",
+	"json": "{\"id\":\"GzeUGIFZnQhax5u\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Aguilar,+E+J\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Aguilar%2C+E+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989099,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Aguilar%2C+E+J&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Aguilar,+E+J"
+}

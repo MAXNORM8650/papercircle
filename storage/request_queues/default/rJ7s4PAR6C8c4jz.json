@@ -1,0 +1,9 @@
+{
+	"id": "rJ7s4PAR6C8c4jz",
+	"json": "{\"id\":\"rJ7s4PAR6C8c4jz\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Antonelli%2C+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Antonelli%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087040319,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Antonelli%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Antonelli%2C+A"
+}

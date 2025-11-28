@@ -1,0 +1,9 @@
+{
+	"id": "zBuQRHdF191IcOY",
+	"json": "{\"id\":\"zBuQRHdF191IcOY\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Kawall,+D\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Kawall%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087000252,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Kawall%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Kawall,+D"
+}

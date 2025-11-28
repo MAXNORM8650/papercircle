@@ -1,0 +1,9 @@
+{
+	"id": "h8rMz1d1D7tilp1",
+	"json": "{\"id\":\"h8rMz1d1D7tilp1\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Fuchey,+E\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Fuchey%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997757,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Fuchey%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Fuchey,+E"
+}

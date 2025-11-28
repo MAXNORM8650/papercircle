@@ -1,0 +1,9 @@
+{
+	"id": "dNfI8G5aeQcPlmM",
+	"json": "{\"id\":\"dNfI8G5aeQcPlmM\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Nwakpa,+C+E\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Nwakpa%2C+C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006099,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Nwakpa%2C+C+E&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Nwakpa,+C+E"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "6Xag1uCFIl2acU2",
+	"json": "{\"id\":\"6Xag1uCFIl2acU2\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Gao,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Gao%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015824,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Gao%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Gao,+J"
+}

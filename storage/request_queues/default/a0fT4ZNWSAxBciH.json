@@ -1,0 +1,9 @@
+{
+	"id": "a0fT4ZNWSAxBciH",
+	"json": "{\"id\":\"a0fT4ZNWSAxBciH\",\"url\":\"https://arxiv.org/archive/stat\",\"loadedUrl\":\"https://arxiv.org/archive/stat\",\"uniqueKey\":\"https://arxiv.org/archive/stat\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:23.507Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/archive/stat",
+	"url": "https://arxiv.org/archive/stat"
+}

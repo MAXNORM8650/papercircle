@@ -1,0 +1,9 @@
+{
+	"id": "ne0rV3lOnC7jAp6",
+	"json": "{\"id\":\"ne0rV3lOnC7jAp6\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Nayan,+M+M+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Nayan%2C+M+M+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087029679,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Nayan%2C+M+M+R&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Nayan,+M+M+R"
+}

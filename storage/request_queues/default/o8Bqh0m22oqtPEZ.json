@@ -1,0 +1,9 @@
+{
+	"id": "o8Bqh0m22oqtPEZ",
+	"json": "{\"id\":\"o8Bqh0m22oqtPEZ\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Tang,+C\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Tang%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992557,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Tang%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Tang,+C"
+}

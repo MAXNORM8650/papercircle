@@ -1,0 +1,9 @@
+{
+	"id": "iJDKyTnvbE9jWCS",
+	"json": "{\"id\":\"iJDKyTnvbE9jWCS\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Zlatintsi,+A\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Zlatintsi%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025722,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Zlatintsi%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Zlatintsi,+A"
+}

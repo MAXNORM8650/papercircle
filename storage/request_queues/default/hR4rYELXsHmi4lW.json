@@ -1,0 +1,9 @@
+{
+	"id": "hR4rYELXsHmi4lW",
+	"json": "{\"id\":\"hR4rYELXsHmi4lW\",\"url\":\"https://arxiv.org/list/eess/recent\",\"loadedUrl\":\"https://arxiv.org/list/eess/recent\",\"uniqueKey\":\"https://arxiv.org/list/eess/recent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:25.290Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/eess/recent",
+	"url": "https://arxiv.org/list/eess/recent"
+}

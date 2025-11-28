@@ -1,0 +1,9 @@
+{
+	"id": "LtgbH49GwweUccc",
+	"json": "{\"id\":\"LtgbH49GwweUccc\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Li,+G\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Li%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991696,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-th?query=Li%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Li,+G"
+}

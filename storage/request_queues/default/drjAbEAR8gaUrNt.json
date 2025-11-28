@@ -1,0 +1,9 @@
+{
+	"id": "drjAbEAR8gaUrNt",
+	"json": "{\"id\":\"drjAbEAR8gaUrNt\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Slocombe,+B\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Slocombe%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986430,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Slocombe%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Slocombe,+B"
+}

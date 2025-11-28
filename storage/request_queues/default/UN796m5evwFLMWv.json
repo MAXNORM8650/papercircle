@@ -1,0 +1,9 @@
+{
+	"id": "UN796m5evwFLMWv",
+	"json": "{\"id\":\"UN796m5evwFLMWv\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Hern%C3%A1ndez-Rey,+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Hern%C3%A1ndez-Rey%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988253,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Hern%C3%A1ndez-Rey%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Hern%C3%A1ndez-Rey,+J"
+}

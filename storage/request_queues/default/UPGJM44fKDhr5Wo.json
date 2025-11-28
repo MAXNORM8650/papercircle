@@ -1,0 +1,9 @@
+{
+	"id": "UPGJM44fKDhr5Wo",
+	"json": "{\"id\":\"UPGJM44fKDhr5Wo\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Cvitic,+I\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Cvitic%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014495,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Cvitic%2C+I&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Cvitic,+I"
+}

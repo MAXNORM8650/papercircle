@@ -1,0 +1,9 @@
+{
+	"id": "Edg8Q3ppxdfRiXe",
+	"json": "{\"id\":\"Edg8Q3ppxdfRiXe\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ernst,+N+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ernst%2C+N+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087018035,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Ernst%2C+N+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ernst,+N+A"
+}

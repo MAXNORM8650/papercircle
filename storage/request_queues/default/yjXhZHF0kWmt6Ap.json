@@ -1,0 +1,9 @@
+{
+	"id": "yjXhZHF0kWmt6Ap",
+	"json": "{\"id\":\"yjXhZHF0kWmt6Ap\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Gorelli,+F+A\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Gorelli%2C+F+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086990320,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Gorelli%2C+F+A&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Gorelli,+F+A"
+}

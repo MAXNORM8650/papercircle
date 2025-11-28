@@ -1,0 +1,9 @@
+{
+	"id": "98Ni1kYCzxhKTuE",
+	"json": "{\"id\":\"98Ni1kYCzxhKTuE\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Suzuki,+H\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Suzuki%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086993889,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-th?query=Suzuki%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Suzuki,+H"
+}

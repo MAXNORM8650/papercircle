@@ -1,0 +1,9 @@
+{
+	"id": "4qe2nS5JD3ujR8W",
+	"json": "{\"id\":\"4qe2nS5JD3ujR8W\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Liao,+L\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Liao%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087036856,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Liao%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Liao,+L"
+}

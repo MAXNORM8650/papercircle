@@ -1,0 +1,9 @@
+{
+	"id": "suulPnRf9LEBJZv",
+	"json": "{\"id\":\"suulPnRf9LEBJZv\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Siagian,+U+W+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Siagian%2C+U+W+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002589,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Siagian%2C+U+W+R&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Siagian,+U+W+R"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Oy4a8kElDkXBQtD",
+	"json": "{\"id\":\"Oy4a8kElDkXBQtD\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Baldwin,+Z\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Baldwin%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992852,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Baldwin%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Baldwin,+Z"
+}

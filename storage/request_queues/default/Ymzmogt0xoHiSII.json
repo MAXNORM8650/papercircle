@@ -1,0 +1,9 @@
+{
+	"id": "Ymzmogt0xoHiSII",
+	"json": "{\"id\":\"Ymzmogt0xoHiSII\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Malbos,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Malbos%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006610,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Malbos%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Malbos,+P"
+}

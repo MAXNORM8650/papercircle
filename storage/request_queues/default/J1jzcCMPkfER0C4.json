@@ -1,0 +1,9 @@
+{
+	"id": "J1jzcCMPkfER0C4",
+	"json": "{\"id\":\"J1jzcCMPkfER0C4\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Boyer,+V\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Boyer%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999634,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Boyer%2C+V&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Boyer,+V"
+}

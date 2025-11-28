@@ -1,0 +1,9 @@
+{
+	"id": "DMcF2XNth7yWru0",
+	"json": "{\"id\":\"DMcF2XNth7yWru0\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Mateo%2C+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Mateo%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087063672,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Mateo%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Mateo%2C+M"
+}

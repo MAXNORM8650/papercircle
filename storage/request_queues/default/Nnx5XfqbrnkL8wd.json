@@ -1,0 +1,9 @@
+{
+	"id": "Nnx5XfqbrnkL8wd",
+	"json": "{\"id\":\"Nnx5XfqbrnkL8wd\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Feinstein,+J+F\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Feinstein%2C+J+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006837,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Feinstein%2C+J+F&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Feinstein,+J+F"
+}

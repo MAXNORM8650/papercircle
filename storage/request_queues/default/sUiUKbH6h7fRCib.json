@@ -1,0 +1,9 @@
+{
+	"id": "sUiUKbH6h7fRCib",
+	"json": "{\"id\":\"sUiUKbH6h7fRCib\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Ding,+B\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Ding%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992914,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Ding%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Ding,+B"
+}

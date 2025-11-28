@@ -1,0 +1,9 @@
+{
+	"id": "h4FjHZVCNlMweFd",
+	"json": "{\"id\":\"h4FjHZVCNlMweFd\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Escala%2C+I\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Escala%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087063673,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Escala%2C+I&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Escala%2C+I"
+}

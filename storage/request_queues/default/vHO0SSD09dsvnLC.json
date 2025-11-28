@@ -1,0 +1,9 @@
+{
+	"id": "vHO0SSD09dsvnLC",
+	"json": "{\"id\":\"vHO0SSD09dsvnLC\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Rinaldi%2C+P&start=0\",\"uniqueKey\":\"https://arxiv.org/search?query=Rinaldi%2C+P&searchtype=author&start=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087099805,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Rinaldi%2C+P&searchtype=author&start=0",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Rinaldi%2C+P&start=0"
+}

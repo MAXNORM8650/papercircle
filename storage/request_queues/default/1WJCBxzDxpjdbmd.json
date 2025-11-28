@@ -1,0 +1,9 @@
+{
+	"id": "1WJCBxzDxpjdbmd",
+	"json": "{\"id\":\"1WJCBxzDxpjdbmd\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Tanvir,+M+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Tanvir%2C+M+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087017216,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Tanvir%2C+M+T&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Tanvir,+M+T"
+}

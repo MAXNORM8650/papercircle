@@ -1,0 +1,9 @@
+{
+	"id": "4HZwI3k33L5r4qd",
+	"json": "{\"id\":\"4HZwI3k33L5r4qd\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Syga,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Syga%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012612,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Syga%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Syga,+P"
+}

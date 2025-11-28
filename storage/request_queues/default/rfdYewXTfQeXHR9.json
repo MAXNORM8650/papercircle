@@ -1,0 +1,9 @@
+{
+	"id": "rfdYewXTfQeXHR9",
+	"json": "{\"id\":\"rfdYewXTfQeXHR9\",\"url\":\"https://arxiv.org/search/math\",\"loadedUrl\":\"https://arxiv.org/search/math\",\"uniqueKey\":\"https://arxiv.org/search/math\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:04.801Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math",
+	"url": "https://arxiv.org/search/math"
+}

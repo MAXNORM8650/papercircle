@@ -1,0 +1,9 @@
+{
+	"id": "xuSBRYwRx7tcSyA",
+	"json": "{\"id\":\"xuSBRYwRx7tcSyA\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Paulius,+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Paulius%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015736,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Paulius%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Paulius,+D"
+}

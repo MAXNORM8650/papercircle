@@ -1,0 +1,9 @@
+{
+	"id": "M6XruzO2vHrckSH",
+	"json": "{\"id\":\"M6XruzO2vHrckSH\",\"url\":\"https://arxiv.org/list/physics.med-ph/recent?skip=14&show=50\",\"uniqueKey\":\"https://arxiv.org/list/physics.med-ph/recent?show=50&skip=14\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002386,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/physics.med-ph/recent?show=50&skip=14",
+	"url": "https://arxiv.org/list/physics.med-ph/recent?skip=14&show=50"
+}

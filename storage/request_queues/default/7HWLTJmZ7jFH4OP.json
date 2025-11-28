@@ -1,0 +1,9 @@
+{
+	"id": "7HWLTJmZ7jFH4OP",
+	"json": "{\"id\":\"7HWLTJmZ7jFH4OP\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=L%C3%BCdtke,+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=L%C3%BCdtke%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087008746,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=L%C3%BCdtke%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=L%C3%BCdtke,+M"
+}

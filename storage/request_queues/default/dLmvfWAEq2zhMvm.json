@@ -1,0 +1,9 @@
+{
+	"id": "dLmvfWAEq2zhMvm",
+	"json": "{\"id\":\"dLmvfWAEq2zhMvm\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Das,+R\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Das%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991794,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Das%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Das,+R"
+}

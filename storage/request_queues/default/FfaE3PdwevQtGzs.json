@@ -1,0 +1,9 @@
+{
+	"id": "FfaE3PdwevQtGzs",
+	"json": "{\"id\":\"FfaE3PdwevQtGzs\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Battaglia,+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Battaglia%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988248,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Battaglia%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Battaglia,+P"
+}

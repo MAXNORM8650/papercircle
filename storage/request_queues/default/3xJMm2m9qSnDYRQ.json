@@ -1,0 +1,9 @@
+{
+	"id": "3xJMm2m9qSnDYRQ",
+	"json": "{\"id\":\"3xJMm2m9qSnDYRQ\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Collins%2C+K+A&start=0\",\"uniqueKey\":\"https://arxiv.org/search?query=Collins%2C+K+A&searchtype=author&start=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087072748,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Collins%2C+K+A&searchtype=author&start=0",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Collins%2C+K+A&start=0"
+}

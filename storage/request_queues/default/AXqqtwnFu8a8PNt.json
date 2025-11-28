@@ -1,0 +1,9 @@
+{
+	"id": "AXqqtwnFu8a8PNt",
+	"json": "{\"id\":\"AXqqtwnFu8a8PNt\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Bunker%2C+A+J&start=100\",\"uniqueKey\":\"https://arxiv.org/search?query=Bunker%2C+A+J&searchtype=author&start=100\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087098457,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Bunker%2C+A+J&searchtype=author&start=100",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Bunker%2C+A+J&start=100"
+}

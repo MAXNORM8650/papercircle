@@ -1,0 +1,9 @@
+{
+	"id": "Bq4c95alzbzqlt4",
+	"json": "{\"id\":\"Bq4c95alzbzqlt4\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Dhivya\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Dhivya&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015137,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Dhivya&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Dhivya"
+}

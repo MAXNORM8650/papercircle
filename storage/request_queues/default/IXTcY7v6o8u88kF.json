@@ -1,0 +1,9 @@
+{
+	"id": "IXTcY7v6o8u88kF",
+	"json": "{\"id\":\"IXTcY7v6o8u88kF\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Monino,+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Monino%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999422,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Monino%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Monino,+E"
+}

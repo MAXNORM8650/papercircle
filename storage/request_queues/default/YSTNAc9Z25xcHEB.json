@@ -1,0 +1,9 @@
+{
+	"id": "YSTNAc9Z25xcHEB",
+	"json": "{\"id\":\"YSTNAc9Z25xcHEB\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Bigelow,+E+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Bigelow%2C+E+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087029667,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Bigelow%2C+E+J&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Bigelow,+E+J"
+}

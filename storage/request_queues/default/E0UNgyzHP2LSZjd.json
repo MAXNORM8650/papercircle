@@ -1,0 +1,9 @@
+{
+	"id": "E0UNgyzHP2LSZjd",
+	"json": "{\"id\":\"E0UNgyzHP2LSZjd\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Perottoni%2C+H\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Perottoni%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087090195,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Perottoni%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Perottoni%2C+H"
+}

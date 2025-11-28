@@ -1,0 +1,9 @@
+{
+	"id": "UU4Bly58svul1xo",
+	"json": "{\"id\":\"UU4Bly58svul1xo\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=G%C3%B3rski,+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=G%C3%B3rski%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087036291,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=G%C3%B3rski%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=G%C3%B3rski,+M"
+}

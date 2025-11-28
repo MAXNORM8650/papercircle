@@ -1,0 +1,9 @@
+{
+	"id": "71CLPpW9jndvHWk",
+	"json": "{\"id\":\"71CLPpW9jndvHWk\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Antunes,+S+R+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Antunes%2C+S+R+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087011750,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Antunes%2C+S+R+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Antunes,+S+R+S"
+}

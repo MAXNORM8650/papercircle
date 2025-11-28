@@ -1,0 +1,9 @@
+{
+	"id": "qVyQAGLiVAZFI0L",
+	"json": "{\"id\":\"qVyQAGLiVAZFI0L\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Graf,+K\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Graf%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988248,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Graf%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Graf,+K"
+}

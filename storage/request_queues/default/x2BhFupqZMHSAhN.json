@@ -1,0 +1,9 @@
+{
+	"id": "x2BhFupqZMHSAhN",
+	"json": "{\"id\":\"x2BhFupqZMHSAhN\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=L%C3%BC,+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=L%C3%BC%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986983,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=L%C3%BC%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=L%C3%BC,+G"
+}

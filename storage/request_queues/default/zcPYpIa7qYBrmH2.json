@@ -1,0 +1,9 @@
+{
+	"id": "zcPYpIa7qYBrmH2",
+	"json": "{\"id\":\"zcPYpIa7qYBrmH2\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Abdul-Mageed,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Abdul-Mageed%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087011122,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Abdul-Mageed%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Abdul-Mageed,+M"
+}

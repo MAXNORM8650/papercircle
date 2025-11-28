@@ -1,0 +1,9 @@
+{
+	"id": "gLxT9STulBxzMCC",
+	"json": "{\"id\":\"gLxT9STulBxzMCC\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Di+Rienzo,+F\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Di+Rienzo%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087020322,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Di+Rienzo%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Di+Rienzo,+F"
+}

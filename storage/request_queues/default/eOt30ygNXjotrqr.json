@@ -1,0 +1,9 @@
+{
+	"id": "eOt30ygNXjotrqr",
+	"json": "{\"id\":\"eOt30ygNXjotrqr\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Nakayama,+Y\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Nakayama%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994862,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-th?query=Nakayama%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Nakayama,+Y"
+}

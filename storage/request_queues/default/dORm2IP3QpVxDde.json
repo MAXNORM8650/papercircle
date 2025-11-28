@@ -1,0 +1,9 @@
+{
+	"id": "dORm2IP3QpVxDde",
+	"json": "{\"id\":\"dORm2IP3QpVxDde\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Gali,+A\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Gali%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989540,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Gali%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Gali,+A"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "pGbIN0uMS5tacwJ",
+	"json": "{\"id\":\"pGbIN0uMS5tacwJ\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Barto%C5%A1,+F\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Barto%C5%A1%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087024790,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Barto%C5%A1%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Barto%C5%A1,+F"
+}

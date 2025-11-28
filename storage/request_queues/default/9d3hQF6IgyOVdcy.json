@@ -1,0 +1,9 @@
+{
+	"id": "9d3hQF6IgyOVdcy",
+	"json": "{\"id\":\"9d3hQF6IgyOVdcy\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Migliaccio,+M\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Migliaccio,+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Migliaccio%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:30.568Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Migliaccio%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Migliaccio,+M"
+}

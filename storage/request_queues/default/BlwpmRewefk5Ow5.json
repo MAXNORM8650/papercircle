@@ -1,0 +1,9 @@
+{
+	"id": "BlwpmRewefk5Ow5",
+	"json": "{\"id\":\"BlwpmRewefk5Ow5\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Borst,+S\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Borst%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006044,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Borst%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Borst,+S"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "sG4zoW0POAC8uer",
+	"json": "{\"id\":\"sG4zoW0POAC8uer\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Carretero,+V\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Carretero%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992687,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Carretero%2C+V&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Carretero,+V"
+}

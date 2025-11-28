@@ -1,0 +1,9 @@
+{
+	"id": "ZjDQeqNRu38m99G",
+	"json": "{\"id\":\"ZjDQeqNRu38m99G\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Tellex,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Tellex%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015735,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Tellex%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Tellex,+S"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "2CT4bCAHcB4MAqw",
+	"json": "{\"id\":\"2CT4bCAHcB4MAqw\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Brincat,+S+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Brincat%2C+S+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087037376,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Brincat%2C+S+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Brincat,+S+M"
+}

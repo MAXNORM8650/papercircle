@@ -1,0 +1,9 @@
+{
+	"id": "V76LqKWd5Qro5h1",
+	"json": "{\"id\":\"V76LqKWd5Qro5h1\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Roux,+J+L\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Roux%2C+J+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025492,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Roux%2C+J+L&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Roux,+J+L"
+}

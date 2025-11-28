@@ -1,0 +1,9 @@
+{
+	"id": "k92vU8qU02jBPFI",
+	"json": "{\"id\":\"k92vU8qU02jBPFI\",\"url\":\"https://arxiv.org/list/eess.AS/recent\",\"loadedUrl\":\"https://arxiv.org/list/eess.AS/recent\",\"uniqueKey\":\"https://arxiv.org/list/eess.AS/recent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:25.509Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/eess.AS/recent",
+	"url": "https://arxiv.org/list/eess.AS/recent"
+}

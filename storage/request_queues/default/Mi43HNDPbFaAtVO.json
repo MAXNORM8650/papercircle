@@ -1,0 +1,9 @@
+{
+	"id": "Mi43HNDPbFaAtVO",
+	"json": "{\"id\":\"Mi43HNDPbFaAtVO\",\"url\":\"https://arxiv.org/search/q-fin?searchtype=author&query=Mahseredjian,+L\",\"uniqueKey\":\"https://arxiv.org/search/q-fin?query=Mahseredjian%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087021566,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-fin?query=Mahseredjian%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/q-fin?searchtype=author&query=Mahseredjian,+L"
+}

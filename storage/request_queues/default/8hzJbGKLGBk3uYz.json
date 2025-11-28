@@ -1,0 +1,9 @@
+{
+	"id": "8hzJbGKLGBk3uYz",
+	"json": "{\"id\":\"8hzJbGKLGBk3uYz\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Shih,+D\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Shih%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992982,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Shih%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Shih,+D"
+}

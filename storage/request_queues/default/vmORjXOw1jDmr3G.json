@@ -1,0 +1,9 @@
+{
+	"id": "vmORjXOw1jDmr3G",
+	"json": "{\"id\":\"vmORjXOw1jDmr3G\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Lin,+A+W\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Lin%2C+A+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010136,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Lin%2C+A+W&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Lin,+A+W"
+}

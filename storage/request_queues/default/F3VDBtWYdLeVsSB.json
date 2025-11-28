@@ -1,0 +1,9 @@
+{
+	"id": "F3VDBtWYdLeVsSB",
+	"json": "{\"id\":\"F3VDBtWYdLeVsSB\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Gu,+B\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Gu%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986783,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Gu%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Gu,+B"
+}

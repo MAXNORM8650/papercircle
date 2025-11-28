@@ -1,0 +1,9 @@
+{
+	"id": "Xo5VakMngdcQvhz",
+	"json": "{\"id\":\"Xo5VakMngdcQvhz\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Cyr-Racine%2C+F&start=0\",\"uniqueKey\":\"https://arxiv.org/search?query=Cyr-Racine%2C+F&searchtype=author&start=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087094055,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Cyr-Racine%2C+F&searchtype=author&start=0",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Cyr-Racine%2C+F&start=0"
+}

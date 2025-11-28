@@ -1,0 +1,9 @@
+{
+	"id": "CzVfCEHHSoky4wp",
+	"json": "{\"id\":\"CzVfCEHHSoky4wp\",\"url\":\"https://arxiv.org/search/nlin?searchtype=author&query=Malomed,+B+A\",\"uniqueKey\":\"https://arxiv.org/search/nlin?query=Malomed%2C+B+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086996410,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nlin?query=Malomed%2C+B+A&searchtype=author",
+	"url": "https://arxiv.org/search/nlin?searchtype=author&query=Malomed,+B+A"
+}

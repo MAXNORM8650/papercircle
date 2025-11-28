@@ -1,0 +1,9 @@
+{
+	"id": "8AXkIzE6QiogPeV",
+	"json": "{\"id\":\"8AXkIzE6QiogPeV\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Pe%C3%B1a%2C+C+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Pe%C3%B1a%2C+C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087081306,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Pe%C3%B1a%2C+C+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Pe%C3%B1a%2C+C+C"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "7ViusSeNF3BF2qK",
+	"json": "{\"id\":\"7ViusSeNF3BF2qK\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Yang,+Z\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Yang%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989517,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-th?query=Yang%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Yang,+Z"
+}

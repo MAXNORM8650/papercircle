@@ -1,0 +1,9 @@
+{
+	"id": "10HeL0yyvt9xtUQ",
+	"json": "{\"id\":\"10HeL0yyvt9xtUQ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Wu,+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Wu%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986617,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Wu%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Wu,+C"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "jH4z4pFqMEegqsj",
+	"json": "{\"id\":\"jH4z4pFqMEegqsj\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Toussenel,+F\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Toussenel%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992525,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Toussenel%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Toussenel,+F"
+}

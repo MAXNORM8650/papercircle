@@ -1,0 +1,9 @@
+{
+	"id": "g4ptrIxi2nIrXpS",
+	"json": "{\"id\":\"g4ptrIxi2nIrXpS\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Laude,+E\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Laude%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007778,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Laude%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Laude,+E"
+}

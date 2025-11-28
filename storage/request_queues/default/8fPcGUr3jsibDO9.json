@@ -1,0 +1,9 @@
+{
+	"id": "8fPcGUr3jsibDO9",
+	"json": "{\"id\":\"8fPcGUr3jsibDO9\",\"url\":\"https://arxiv.org/search/math-ph?searchtype=author&query=Dobrski,+M\",\"uniqueKey\":\"https://arxiv.org/search/math-ph?query=Dobrski%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086995391,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math-ph?query=Dobrski%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/math-ph?searchtype=author&query=Dobrski,+M"
+}

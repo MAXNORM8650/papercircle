@@ -1,0 +1,9 @@
+{
+	"id": "eTYDYceu29TzNRL",
+	"json": "{\"id\":\"eTYDYceu29TzNRL\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Costa,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Costa%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009235,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Costa%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Costa,+A"
+}

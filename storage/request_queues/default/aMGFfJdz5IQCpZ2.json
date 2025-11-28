@@ -1,0 +1,9 @@
+{
+	"id": "aMGFfJdz5IQCpZ2",
+	"json": "{\"id\":\"aMGFfJdz5IQCpZ2\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Sathyaprakash,+B\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Sathyaprakash%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987342,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Sathyaprakash%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Sathyaprakash,+B"
+}

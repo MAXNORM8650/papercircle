@@ -1,0 +1,9 @@
+{
+	"id": "zbeuojFjLOqifwE",
+	"json": "{\"id\":\"zbeuojFjLOqifwE\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Reess%2C+J+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Reess%2C+J+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087086006,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Reess%2C+J+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Reess%2C+J+M"
+}

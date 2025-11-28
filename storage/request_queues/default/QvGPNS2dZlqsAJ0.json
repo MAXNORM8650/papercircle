@@ -1,0 +1,9 @@
+{
+	"id": "QvGPNS2dZlqsAJ0",
+	"json": "{\"id\":\"QvGPNS2dZlqsAJ0\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Carenini,+F\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Carenini%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992686,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Carenini%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Carenini,+F"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "UMMXGIC2NOKh75Q",
+	"json": "{\"id\":\"UMMXGIC2NOKh75Q\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Johnson,+H+R\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Johnson%2C+H+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087020244,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Johnson%2C+H+R&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Johnson,+H+R"
+}

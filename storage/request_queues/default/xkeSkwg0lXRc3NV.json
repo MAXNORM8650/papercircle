@@ -1,0 +1,9 @@
+{
+	"id": "xkeSkwg0lXRc3NV",
+	"json": "{\"id\":\"xkeSkwg0lXRc3NV\",\"url\":\"https://arxiv.org/search/q-fin?searchtype=author&query=Ararat,+%C3%87\",\"uniqueKey\":\"https://arxiv.org/search/q-fin?query=Ararat%2C+%C3%87&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007444,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-fin?query=Ararat%2C+%C3%87&searchtype=author",
+	"url": "https://arxiv.org/search/q-fin?searchtype=author&query=Ararat,+%C3%87"
+}

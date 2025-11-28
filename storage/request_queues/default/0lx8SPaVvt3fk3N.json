@@ -1,0 +1,9 @@
+{
+	"id": "0lx8SPaVvt3fk3N",
+	"json": "{\"id\":\"0lx8SPaVvt3fk3N\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Mamajek%2C+E+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Mamajek%2C+E+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087072985,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Mamajek%2C+E+E&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Mamajek%2C+E+E"
+}

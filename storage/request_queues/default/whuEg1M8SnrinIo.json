@@ -1,0 +1,9 @@
+{
+	"id": "whuEg1M8SnrinIo",
+	"json": "{\"id\":\"whuEg1M8SnrinIo\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Kar,+S+K\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Kar%2C+S+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994244,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Kar%2C+S+K&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Kar,+S+K"
+}

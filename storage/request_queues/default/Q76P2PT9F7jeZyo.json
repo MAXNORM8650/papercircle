@@ -1,0 +1,9 @@
+{
+	"id": "Q76P2PT9F7jeZyo",
+	"json": "{\"id\":\"Q76P2PT9F7jeZyo\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Forero-Romero,+J+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Forero-Romero%2C+J+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986904,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Forero-Romero%2C+J+E&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Forero-Romero,+J+E"
+}

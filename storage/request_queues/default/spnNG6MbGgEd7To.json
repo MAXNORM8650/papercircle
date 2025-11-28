@@ -1,0 +1,9 @@
+{
+	"id": "spnNG6MbGgEd7To",
+	"json": "{\"id\":\"spnNG6MbGgEd7To\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Nagnibeda,+T\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Nagnibeda%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007584,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Nagnibeda%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Nagnibeda,+T"
+}

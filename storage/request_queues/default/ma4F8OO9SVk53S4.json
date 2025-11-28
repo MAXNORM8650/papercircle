@@ -1,0 +1,9 @@
+{
+	"id": "ma4F8OO9SVk53S4",
+	"json": "{\"id\":\"ma4F8OO9SVk53S4\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Sreejith\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Sreejith&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087003705,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Sreejith&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Sreejith"
+}

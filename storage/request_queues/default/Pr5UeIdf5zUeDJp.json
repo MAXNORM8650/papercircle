@@ -1,0 +1,9 @@
+{
+	"id": "Pr5UeIdf5zUeDJp",
+	"json": "{\"id\":\"Pr5UeIdf5zUeDJp\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Mignone,+B+K\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Mignone%2C+B+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999165,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Mignone%2C+B+K&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Mignone,+B+K"
+}

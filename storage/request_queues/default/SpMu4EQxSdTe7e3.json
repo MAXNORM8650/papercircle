@@ -1,0 +1,9 @@
+{
+	"id": "SpMu4EQxSdTe7e3",
+	"json": "{\"id\":\"SpMu4EQxSdTe7e3\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Chen%2C+Y+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Chen%2C+Y+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087063497,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Chen%2C+Y+P&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Chen%2C+Y+P"
+}

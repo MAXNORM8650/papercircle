@@ -1,0 +1,9 @@
+{
+	"id": "JXQ8DKVjef8EUu2",
+	"json": "{\"id\":\"JXQ8DKVjef8EUu2\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Majchrzak,+P\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Majchrzak%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988932,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Majchrzak%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Majchrzak,+P"
+}

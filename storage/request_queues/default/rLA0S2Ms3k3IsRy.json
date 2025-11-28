@@ -1,0 +1,9 @@
+{
+	"id": "rLA0S2Ms3k3IsRy",
+	"json": "{\"id\":\"rLA0S2Ms3k3IsRy\",\"url\":\"https://arxiv.org/help/subscribe\",\"loadedUrl\":\"https://info.arxiv.org/help/subscribe.html\",\"uniqueKey\":\"https://arxiv.org/help/subscribe\",\"method\":\"GET\",\"noRetry\":true,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":7}},\"handledAt\":\"2025-11-25T16:10:29.333Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/help/subscribe",
+	"url": "https://arxiv.org/help/subscribe"
+}

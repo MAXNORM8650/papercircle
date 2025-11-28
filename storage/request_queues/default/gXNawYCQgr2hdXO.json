@@ -1,0 +1,9 @@
+{
+	"id": "gXNawYCQgr2hdXO",
+	"json": "{\"id\":\"gXNawYCQgr2hdXO\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=M%C3%BCller-Bravo,+T\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=M%C3%BCller-Bravo%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988299,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=M%C3%BCller-Bravo%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=M%C3%BCller-Bravo,+T"
+}

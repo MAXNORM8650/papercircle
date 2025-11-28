@@ -1,0 +1,9 @@
+{
+	"id": "YQvIpeUxOpNBRO3",
+	"json": "{\"id\":\"YQvIpeUxOpNBRO3\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Kronland-Martinet,+T\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Kronland-Martinet%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087020328,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Kronland-Martinet%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Kronland-Martinet,+T"
+}

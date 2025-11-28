@@ -1,0 +1,9 @@
+{
+	"id": "168FL9wopIFke4i",
+	"json": "{\"id\":\"168FL9wopIFke4i\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Sterzik%2C+M+F\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Sterzik%2C+M+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087087035,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Sterzik%2C+M+F&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Sterzik%2C+M+F"
+}

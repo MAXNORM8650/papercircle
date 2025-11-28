@@ -1,0 +1,9 @@
+{
+	"id": "smYy44pJ5go6n46",
+	"json": "{\"id\":\"smYy44pJ5go6n46\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Tao,+Y\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Tao%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009353,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Tao%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Tao,+Y"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "5XN92zcn29IgsI3",
+	"json": "{\"id\":\"5XN92zcn29IgsI3\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Bai,+G\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Bai%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012901,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Bai%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Bai,+G"
+}

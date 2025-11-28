@@ -1,0 +1,9 @@
+{
+	"id": "iG3qwMnxrRwAEUi",
+	"json": "{\"id\":\"iG3qwMnxrRwAEUi\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Khadkevich,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Khadkevich%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087020851,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Khadkevich%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Khadkevich,+M"
+}

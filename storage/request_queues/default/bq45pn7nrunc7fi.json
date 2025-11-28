@@ -1,0 +1,9 @@
+{
+	"id": "bq45pn7nrunc7fi",
+	"json": "{\"id\":\"bq45pn7nrunc7fi\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Reynolds,+M\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Reynolds%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989241,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Reynolds%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Reynolds,+M"
+}

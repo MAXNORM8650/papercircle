@@ -1,0 +1,9 @@
+{
+	"id": "IF4bPpmIQCbA8HH",
+	"json": "{\"id\":\"IF4bPpmIQCbA8HH\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Hei,+L\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Hei%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999303,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Hei%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Hei,+L"
+}

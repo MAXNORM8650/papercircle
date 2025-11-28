@@ -1,0 +1,9 @@
+{
+	"id": "gLh1Qi9PaZHEZ2m",
+	"json": "{\"id\":\"gLh1Qi9PaZHEZ2m\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Ross,+I+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Ross%2C+I+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016290,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Ross%2C+I+M&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Ross,+I+M"
+}

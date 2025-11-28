@@ -1,0 +1,9 @@
+{
+	"id": "9Y4jR36o7zubm0c",
+	"json": "{\"id\":\"9Y4jR36o7zubm0c\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Opala,+A\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Opala%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989430,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Opala%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Opala,+A"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "gCqErSb5Ls0npMD",
+	"json": "{\"id\":\"gCqErSb5Ls0npMD\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Uppal,+H\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Uppal%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007672,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Uppal%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Uppal,+H"
+}

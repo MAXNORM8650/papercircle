@@ -1,0 +1,9 @@
+{
+	"id": "qcaliJMyjShWk1U",
+	"json": "{\"id\":\"qcaliJMyjShWk1U\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Munz%2C+F\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Munz%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087043306,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Munz%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Munz%2C+F"
+}

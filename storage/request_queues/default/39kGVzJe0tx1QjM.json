@@ -1,0 +1,9 @@
+{
+	"id": "39kGVzJe0tx1QjM",
+	"json": "{\"id\":\"39kGVzJe0tx1QjM\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bonnell,+J+W\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Bonnell%2C+J+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087003124,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Bonnell%2C+J+W&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Bonnell,+J+W"
+}

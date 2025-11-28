@@ -1,0 +1,9 @@
+{
+	"id": "l5yb9QMGED3apd5",
+	"json": "{\"id\":\"l5yb9QMGED3apd5\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Maynard,+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Maynard%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010526,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Maynard%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Maynard,+C"
+}

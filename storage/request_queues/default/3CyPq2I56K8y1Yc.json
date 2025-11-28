@@ -1,0 +1,9 @@
+{
+	"id": "3CyPq2I56K8y1Yc",
+	"json": "{\"id\":\"3CyPq2I56K8y1Yc\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=E.Montagna\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=E.Montagna&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992589,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=E.Montagna&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=E.Montagna"
+}

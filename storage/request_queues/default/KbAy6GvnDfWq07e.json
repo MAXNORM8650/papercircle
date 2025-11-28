@@ -1,0 +1,9 @@
+{
+	"id": "KbAy6GvnDfWq07e",
+	"json": "{\"id\":\"KbAy6GvnDfWq07e\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Lv,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Lv%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016466,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Lv%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Lv,+J"
+}

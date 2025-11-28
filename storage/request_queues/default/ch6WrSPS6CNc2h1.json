@@ -1,0 +1,9 @@
+{
+	"id": "ch6WrSPS6CNc2h1",
+	"json": "{\"id\":\"ch6WrSPS6CNc2h1\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Azizi,+K\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Azizi%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992745,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Azizi%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Azizi,+K"
+}

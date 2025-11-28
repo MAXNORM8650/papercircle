@@ -1,0 +1,9 @@
+{
+	"id": "0apMrN6ZnAyKowI",
+	"json": "{\"id\":\"0apMrN6ZnAyKowI\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Caslini,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Caslini%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002278,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Caslini%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Caslini,+A"
+}

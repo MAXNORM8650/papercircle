@@ -1,0 +1,9 @@
+{
+	"id": "liC3m3793S8d2Ve",
+	"json": "{\"id\":\"liC3m3793S8d2Ve\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Dunson,+D+B\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Dunson%2C+D+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023687,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Dunson%2C+D+B&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Dunson,+D+B"
+}

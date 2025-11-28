@@ -1,0 +1,9 @@
+{
+	"id": "6UXGpXRMmOVvNsk",
+	"json": "{\"id\":\"6UXGpXRMmOVvNsk\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=L%C3%B3pez-Garc%C3%ADa,+F\",\"uniqueKey\":\"https://arxiv.org/search/math?query=L%C3%B3pez-Garc%C3%ADa%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005513,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=L%C3%B3pez-Garc%C3%ADa%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=L%C3%B3pez-Garc%C3%ADa,+F"
+}

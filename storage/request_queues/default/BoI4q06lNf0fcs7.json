@@ -1,0 +1,9 @@
+{
+	"id": "BoI4q06lNf0fcs7",
+	"json": "{\"id\":\"BoI4q06lNf0fcs7\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Rockcliffe%2C+K\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Rockcliffe%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087072554,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Rockcliffe%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Rockcliffe%2C+K"
+}

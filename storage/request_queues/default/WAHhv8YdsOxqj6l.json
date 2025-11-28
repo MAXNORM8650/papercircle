@@ -1,0 +1,9 @@
+{
+	"id": "WAHhv8YdsOxqj6l",
+	"json": "{\"id\":\"WAHhv8YdsOxqj6l\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Chowdhary,+G\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Chowdhary%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087018607,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Chowdhary%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Chowdhary,+G"
+}

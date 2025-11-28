@@ -1,0 +1,9 @@
+{
+	"id": "Re38QLTM0fFji52",
+	"json": "{\"id\":\"Re38QLTM0fFji52\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Rausell-Campo,+J+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Rausell-Campo%2C+J+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999551,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Rausell-Campo%2C+J+R&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Rausell-Campo,+J+R"
+}

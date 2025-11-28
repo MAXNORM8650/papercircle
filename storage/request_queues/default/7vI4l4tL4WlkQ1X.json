@@ -1,0 +1,9 @@
+{
+	"id": "7vI4l4tL4WlkQ1X",
+	"json": "{\"id\":\"7vI4l4tL4WlkQ1X\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Biyik,+E\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Biyik%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087017818,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Biyik%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Biyik,+E"
+}

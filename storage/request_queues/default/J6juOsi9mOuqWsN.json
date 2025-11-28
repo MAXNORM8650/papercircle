@@ -1,0 +1,9 @@
+{
+	"id": "J6juOsi9mOuqWsN",
+	"json": "{\"id\":\"J6juOsi9mOuqWsN\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Kivshar,+Y\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Kivshar%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989590,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Kivshar%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Kivshar,+Y"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "3azyn0A72IZbevz",
+	"json": "{\"id\":\"3azyn0A72IZbevz\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Zhang,+H\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Zhang%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999191,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Zhang%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Zhang,+H"
+}

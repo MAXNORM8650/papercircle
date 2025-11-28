@@ -1,0 +1,9 @@
+{
+	"id": "xQjesuH6SYR9MPZ",
+	"json": "{\"id\":\"xQjesuH6SYR9MPZ\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Gu,+Z\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Gu%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014266,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Gu%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Gu,+Z"
+}

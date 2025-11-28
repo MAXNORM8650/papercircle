@@ -1,0 +1,9 @@
+{
+	"id": "k00CCWhclDKiEqL",
+	"json": "{\"id\":\"k00CCWhclDKiEqL\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Kubis,+B\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Kubis%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992728,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Kubis%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Kubis,+B"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "D3nQxkBn18k23FI",
+	"json": "{\"id\":\"D3nQxkBn18k23FI\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Pei,+W\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Pei%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087035501,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Pei%2C+W&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Pei,+W"
+}

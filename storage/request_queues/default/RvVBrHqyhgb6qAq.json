@@ -1,0 +1,9 @@
+{
+	"id": "RvVBrHqyhgb6qAq",
+	"json": "{\"id\":\"RvVBrHqyhgb6qAq\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Venkata,+M+G\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Venkata%2C+M+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014459,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Venkata%2C+M+G&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Venkata,+M+G"
+}

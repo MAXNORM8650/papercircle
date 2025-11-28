@@ -1,0 +1,9 @@
+{
+	"id": "n1iW24EZxYJl2uW",
+	"json": "{\"id\":\"n1iW24EZxYJl2uW\",\"url\":\"https://arxiv.org/search/nucl-th?searchtype=author&query=Blanchon,+G\",\"uniqueKey\":\"https://arxiv.org/search/nucl-th?query=Blanchon%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086998167,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-th?query=Blanchon%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-th?searchtype=author&query=Blanchon,+G"
+}

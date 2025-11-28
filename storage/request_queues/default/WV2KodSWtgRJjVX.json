@@ -1,0 +1,9 @@
+{
+	"id": "WV2KodSWtgRJjVX",
+	"json": "{\"id\":\"WV2KodSWtgRJjVX\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Narang,+P\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Narang%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001272,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Narang%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Narang,+P"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "uKhIReM4A22SB5C",
+	"json": "{\"id\":\"uKhIReM4A22SB5C\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Ge,+W\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Ge%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007909,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Ge%2C+W&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Ge,+W"
+}

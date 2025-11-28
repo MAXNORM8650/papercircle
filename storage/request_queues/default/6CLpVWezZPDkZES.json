@@ -1,0 +1,9 @@
+{
+	"id": "6CLpVWezZPDkZES",
+	"json": "{\"id\":\"6CLpVWezZPDkZES\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Javaherian,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Javaherian%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006023,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Javaherian%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Javaherian,+A"
+}

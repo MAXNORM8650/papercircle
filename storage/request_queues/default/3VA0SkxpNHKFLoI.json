@@ -1,0 +1,9 @@
+{
+	"id": "3VA0SkxpNHKFLoI",
+	"json": "{\"id\":\"3VA0SkxpNHKFLoI\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Leung,+G+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Leung%2C+G+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999863,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Leung%2C+G+R&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Leung,+G+R"
+}

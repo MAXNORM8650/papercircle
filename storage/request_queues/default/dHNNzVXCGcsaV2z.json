@@ -1,0 +1,9 @@
+{
+	"id": "dHNNzVXCGcsaV2z",
+	"json": "{\"id\":\"dHNNzVXCGcsaV2z\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Dong%2C+T+K\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Dong%2C+T+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087061288,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Dong%2C+T+K&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Dong%2C+T+K"
+}

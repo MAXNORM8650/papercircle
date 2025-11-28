@@ -1,0 +1,9 @@
+{
+	"id": "7s8Ee4n7t6Nakel",
+	"json": "{\"id\":\"7s8Ee4n7t6Nakel\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Carvalho,+A+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Carvalho%2C+A+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986462,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Carvalho%2C+A+S&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Carvalho,+A+S"
+}

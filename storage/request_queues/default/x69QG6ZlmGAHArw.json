@@ -1,0 +1,9 @@
+{
+	"id": "x69QG6ZlmGAHArw",
+	"json": "{\"id\":\"x69QG6ZlmGAHArw\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Ferrer-S%C3%A1nchez,+A\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Ferrer-S%C3%A1nchez%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001340,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Ferrer-S%C3%A1nchez%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Ferrer-S%C3%A1nchez,+A"
+}

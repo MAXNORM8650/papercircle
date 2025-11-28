@@ -1,0 +1,9 @@
+{
+	"id": "J0ZCWTYRVSPVAlM",
+	"json": "{\"id\":\"J0ZCWTYRVSPVAlM\",\"url\":\"https://arxiv.org/search/q-fin?searchtype=author&query=Shternshis,+A\",\"uniqueKey\":\"https://arxiv.org/search/q-fin?query=Shternshis%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087021716,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-fin?query=Shternshis%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/q-fin?searchtype=author&query=Shternshis,+A"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "30UaQGhM3CFkvei",
+	"json": "{\"id\":\"30UaQGhM3CFkvei\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=B%C4%83rbieru,+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=B%C4%83rbieru%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016953,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=B%C4%83rbieru%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=B%C4%83rbieru,+C"
+}

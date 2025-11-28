@@ -1,0 +1,9 @@
+{
+	"id": "2ILZG1OhBM6TiRv",
+	"json": "{\"id\":\"2ILZG1OhBM6TiRv\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Mitra,+S\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Mitra%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991512,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Mitra%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Mitra,+S"
+}

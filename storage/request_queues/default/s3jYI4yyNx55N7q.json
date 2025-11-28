@@ -1,0 +1,9 @@
+{
+	"id": "s3jYI4yyNx55N7q",
+	"json": "{\"id\":\"s3jYI4yyNx55N7q\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Dai,+R\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Dai%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006954,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Dai%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Dai,+R"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "UBPanpwsbZCo9vz",
+	"json": "{\"id\":\"UBPanpwsbZCo9vz\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Vizgan,+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Vizgan%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986435,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Vizgan%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Vizgan,+D"
+}

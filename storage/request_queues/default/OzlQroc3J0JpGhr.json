@@ -1,0 +1,9 @@
+{
+	"id": "OzlQroc3J0JpGhr",
+	"json": "{\"id\":\"OzlQroc3J0JpGhr\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=McKeown,+P\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=McKeown%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992800,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=McKeown%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=McKeown,+P"
+}

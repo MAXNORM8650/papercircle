@@ -1,0 +1,9 @@
+{
+	"id": "I5YyIHGSZrdtIQa",
+	"json": "{\"id\":\"I5YyIHGSZrdtIQa\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=van+den+Dool,+W\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=van+den+Dool%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087017183,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=van+den+Dool%2C+W&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=van+den+Dool,+W"
+}

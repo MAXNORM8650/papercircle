@@ -1,0 +1,9 @@
+{
+	"id": "ejh2ygHJtVCQHsp",
+	"json": "{\"id\":\"ejh2ygHJtVCQHsp\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Thoms,+L\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Thoms%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002895,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Thoms%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Thoms,+L"
+}

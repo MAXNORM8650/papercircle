@@ -1,0 +1,9 @@
+{
+	"id": "jZYxisy2gp3E77k",
+	"json": "{\"id\":\"jZYxisy2gp3E77k\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bonaldi,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Bonaldi%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087030453,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Bonaldi%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Bonaldi,+A"
+}

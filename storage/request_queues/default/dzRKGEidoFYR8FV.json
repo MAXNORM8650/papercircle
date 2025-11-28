@@ -1,0 +1,9 @@
+{
+	"id": "dzRKGEidoFYR8FV",
+	"json": "{\"id\":\"dzRKGEidoFYR8FV\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Xie,+F\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Xie%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989245,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Xie%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Xie,+F"
+}

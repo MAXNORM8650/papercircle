@@ -1,0 +1,9 @@
+{
+	"id": "0IFbz4W6LcMDRrO",
+	"json": "{\"id\":\"0IFbz4W6LcMDRrO\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=H%C3%A9bert-Dufresne,+L\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=H%C3%A9bert-Dufresne%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002581,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=H%C3%A9bert-Dufresne%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=H%C3%A9bert-Dufresne,+L"
+}

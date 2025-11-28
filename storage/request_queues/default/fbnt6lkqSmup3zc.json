@@ -1,0 +1,9 @@
+{
+	"id": "fbnt6lkqSmup3zc",
+	"json": "{\"id\":\"fbnt6lkqSmup3zc\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Goodman,+N+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Goodman%2C+N+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007453,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Goodman%2C+N+D&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Goodman,+N+D"
+}

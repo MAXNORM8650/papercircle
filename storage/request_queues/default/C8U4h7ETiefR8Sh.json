@@ -1,0 +1,9 @@
+{
+	"id": "C8U4h7ETiefR8Sh",
+	"json": "{\"id\":\"C8U4h7ETiefR8Sh\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kroft%2C+M+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Kroft%2C+M+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087073324,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Kroft%2C+M+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Kroft%2C+M+A"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "A4FA60CnnxrzTtd",
+	"json": "{\"id\":\"A4FA60CnnxrzTtd\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Peng,+J\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Peng%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087003628,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Peng%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Peng,+J"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "98ZlMk342rXaCra",
+	"json": "{\"id\":\"98ZlMk342rXaCra\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Rohr,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Rohr%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087028447,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Rohr%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Rohr,+J"
+}

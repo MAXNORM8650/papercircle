@@ -1,0 +1,9 @@
+{
+	"id": "2xRY75IEHIaH3uD",
+	"json": "{\"id\":\"2xRY75IEHIaH3uD\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Akishev,+G\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Akishev%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006654,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Akishev%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Akishev,+G"
+}

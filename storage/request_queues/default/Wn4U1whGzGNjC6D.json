@@ -1,0 +1,9 @@
+{
+	"id": "Wn4U1whGzGNjC6D",
+	"json": "{\"id\":\"Wn4U1whGzGNjC6D\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Pu,+Y\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Pu%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987046,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Pu%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Pu,+Y"
+}

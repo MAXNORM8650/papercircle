@@ -1,0 +1,9 @@
+{
+	"id": "enHIk3HXgkNGz4m",
+	"json": "{\"id\":\"enHIk3HXgkNGz4m\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Minin,+V+M\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Minin%2C+V+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023584,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Minin%2C+V+M&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Minin,+V+M"
+}

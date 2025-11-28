@@ -1,0 +1,9 @@
+{
+	"id": "B3ONGyVWURUFT3l",
+	"json": "{\"id\":\"B3ONGyVWURUFT3l\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Fan,+G+F\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Fan%2C+G+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992920,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Fan%2C+G+F&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Fan,+G+F"
+}

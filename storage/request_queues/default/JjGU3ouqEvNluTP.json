@@ -1,0 +1,9 @@
+{
+	"id": "JjGU3ouqEvNluTP",
+	"json": "{\"id\":\"JjGU3ouqEvNluTP\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=M%C3%B6ller,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=M%C3%B6ller%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986478,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=M%C3%B6ller%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=M%C3%B6ller,+A"
+}

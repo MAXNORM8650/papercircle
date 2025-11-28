@@ -1,0 +1,9 @@
+{
+	"id": "KB0F8bKvpIu217k",
+	"json": "{\"id\":\"KB0F8bKvpIu217k\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Ponomarenko,+I\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Ponomarenko%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005945,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Ponomarenko%2C+I&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Ponomarenko,+I"
+}

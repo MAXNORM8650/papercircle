@@ -1,0 +1,9 @@
+{
+	"id": "qg7FKTPUytCyvzz",
+	"json": "{\"id\":\"qg7FKTPUytCyvzz\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Mir,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Mir%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999121,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Mir%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Mir,+A"
+}

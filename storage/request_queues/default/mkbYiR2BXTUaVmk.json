@@ -1,0 +1,9 @@
+{
+	"id": "mkbYiR2BXTUaVmk",
+	"json": "{\"id\":\"mkbYiR2BXTUaVmk\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Riffel%2C+R+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Riffel%2C+R+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087098476,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Riffel%2C+R+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Riffel%2C+R+A"
+}

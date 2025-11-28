@@ -1,0 +1,9 @@
+{
+	"id": "NsdjW4HTAsu0Xnr",
+	"json": "{\"id\":\"NsdjW4HTAsu0Xnr\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Tak%C3%A1tsy,+J\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Tak%C3%A1tsy,+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Tak%C3%A1tsy%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:43.331Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Tak%C3%A1tsy%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Tak%C3%A1tsy,+J"
+}

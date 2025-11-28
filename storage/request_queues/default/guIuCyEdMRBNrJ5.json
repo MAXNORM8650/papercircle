@@ -1,0 +1,9 @@
+{
+	"id": "guIuCyEdMRBNrJ5",
+	"json": "{\"id\":\"guIuCyEdMRBNrJ5\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Gonzalez,+F+M\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Gonzalez%2C+F+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997818,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Gonzalez%2C+F+M&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Gonzalez,+F+M"
+}

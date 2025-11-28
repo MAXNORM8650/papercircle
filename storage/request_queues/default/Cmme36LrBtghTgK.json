@@ -1,0 +1,9 @@
+{
+	"id": "Cmme36LrBtghTgK",
+	"json": "{\"id\":\"Cmme36LrBtghTgK\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Garcia-Gamez,+D\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Garcia-Gamez%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992771,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Garcia-Gamez%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Garcia-Gamez,+D"
+}

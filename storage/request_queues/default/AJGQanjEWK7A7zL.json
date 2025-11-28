@@ -1,0 +1,9 @@
+{
+	"id": "AJGQanjEWK7A7zL",
+	"json": "{\"id\":\"AJGQanjEWK7A7zL\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Enaoufal,+T+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Enaoufal%2C+T+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005395,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Enaoufal%2C+T+A&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Enaoufal,+T+A"
+}

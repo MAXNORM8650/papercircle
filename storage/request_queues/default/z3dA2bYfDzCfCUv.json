@@ -1,0 +1,9 @@
+{
+	"id": "z3dA2bYfDzCfCUv",
+	"json": "{\"id\":\"z3dA2bYfDzCfCUv\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Perez-Carrasco,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Perez-Carrasco%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986786,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Perez-Carrasco%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Perez-Carrasco,+M"
+}

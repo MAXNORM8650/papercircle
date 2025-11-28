@@ -1,0 +1,9 @@
+{
+	"id": "zFnqeP9n92vDaG7",
+	"json": "{\"id\":\"zFnqeP9n92vDaG7\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Narita%2C+N&start=200\",\"uniqueKey\":\"https://arxiv.org/search?query=Narita%2C+N&searchtype=author&start=200\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087075674,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Narita%2C+N&searchtype=author&start=200",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Narita%2C+N&start=200"
+}

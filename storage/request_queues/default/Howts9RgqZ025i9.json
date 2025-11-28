@@ -1,0 +1,9 @@
+{
+	"id": "Howts9RgqZ025i9",
+	"json": "{\"id\":\"Howts9RgqZ025i9\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Rubi%C3%B1o-Mart%C3%ADn,+J+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Rubi%C3%B1o-Mart%C3%ADn%2C+J+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087037239,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Rubi%C3%B1o-Mart%C3%ADn%2C+J+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Rubi%C3%B1o-Mart%C3%ADn,+J+A"
+}

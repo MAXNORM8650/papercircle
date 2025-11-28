@@ -1,0 +1,9 @@
+{
+	"id": "0x94HcoIVQ8g48p",
+	"json": "{\"id\":\"0x94HcoIVQ8g48p\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Bartosik,+H\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Bartosik%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999206,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Bartosik%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Bartosik,+H"
+}

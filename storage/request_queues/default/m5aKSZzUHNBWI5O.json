@@ -1,0 +1,9 @@
+{
+	"id": "m5aKSZzUHNBWI5O",
+	"json": "{\"id\":\"m5aKSZzUHNBWI5O\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Ersoy,+O\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Ersoy%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012384,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/econ?query=Ersoy%2C+O&searchtype=author",
+	"url": "https://arxiv.org/search/econ?searchtype=author&query=Ersoy,+O"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "xxmPnWVWN37hDgG",
+	"json": "{\"id\":\"xxmPnWVWN37hDgG\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Bosman%2C+S+E+I&start=0\",\"uniqueKey\":\"https://arxiv.org/search?query=Bosman%2C+S+E+I&searchtype=author&start=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087059891,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Bosman%2C+S+E+I&searchtype=author&start=0",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Bosman%2C+S+E+I&start=0"
+}

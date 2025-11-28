@@ -1,0 +1,9 @@
+{
+	"id": "UxEi6CSeYPGrjDo",
+	"json": "{\"id\":\"UxEi6CSeYPGrjDo\",\"url\":\"https://arxiv.org/archive/nucl-ex\",\"loadedUrl\":\"https://arxiv.org/archive/nucl-ex\",\"uniqueKey\":\"https://arxiv.org/archive/nucl-ex\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:57.498Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/archive/nucl-ex",
+	"url": "https://arxiv.org/archive/nucl-ex"
+}

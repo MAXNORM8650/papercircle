@@ -1,0 +1,9 @@
+{
+	"id": "jhjUK7HdZIXbwYf",
+	"json": "{\"id\":\"jhjUK7HdZIXbwYf\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Lechiheb,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Lechiheb%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006211,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Lechiheb%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Lechiheb,+A"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "k63dksF38enLpDs",
+	"json": "{\"id\":\"k63dksF38enLpDs\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Alkhouri,+I\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Alkhouri%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025687,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Alkhouri%2C+I&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Alkhouri,+I"
+}

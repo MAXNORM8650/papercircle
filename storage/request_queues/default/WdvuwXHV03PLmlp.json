@@ -1,0 +1,9 @@
+{
+	"id": "WdvuwXHV03PLmlp",
+	"json": "{\"id\":\"WdvuwXHV03PLmlp\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Gonzalez,+M+P\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Gonzalez%2C+M+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087040580,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Gonzalez%2C+M+P&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Gonzalez,+M+P"
+}

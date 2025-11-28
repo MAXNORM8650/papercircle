@@ -1,0 +1,9 @@
+{
+	"id": "5OT8eQ8QAxTutG2",
+	"json": "{\"id\":\"5OT8eQ8QAxTutG2\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Yanuka,+M\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Yanuka%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025441,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Yanuka%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Yanuka,+M"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "9gQ6Zvu20eJMGbB",
+	"json": "{\"id\":\"9gQ6Zvu20eJMGbB\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Tan,+X\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Tan%2C+X&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987607,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Tan%2C+X&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Tan,+X"
+}

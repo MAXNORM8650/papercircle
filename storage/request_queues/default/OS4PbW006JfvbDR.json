@@ -1,0 +1,9 @@
+{
+	"id": "OS4PbW006JfvbDR",
+	"json": "{\"id\":\"OS4PbW006JfvbDR\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Manara,+C+F\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Manara%2C+C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988053,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Manara%2C+C+F&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Manara,+C+F"
+}

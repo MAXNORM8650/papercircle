@@ -1,0 +1,9 @@
+{
+	"id": "zGF6RjFrRzWRrfg",
+	"json": "{\"id\":\"zGF6RjFrRzWRrfg\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Harhay,+M+O\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Harhay%2C+M+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087024020,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Harhay%2C+M+O&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Harhay,+M+O"
+}

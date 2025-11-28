@@ -1,0 +1,9 @@
+{
+	"id": "LvLiW5yXS3rIOsV",
+	"json": "{\"id\":\"LvLiW5yXS3rIOsV\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Dsilva%2C+K\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Dsilva%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087073623,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Dsilva%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Dsilva%2C+K"
+}

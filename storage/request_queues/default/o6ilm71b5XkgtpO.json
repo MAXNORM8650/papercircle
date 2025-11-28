@@ -1,0 +1,9 @@
+{
+	"id": "o6ilm71b5XkgtpO",
+	"json": "{\"id\":\"o6ilm71b5XkgtpO\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Lin%2C+Z\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Lin%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087060772,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Lin%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Lin%2C+Z"
+}

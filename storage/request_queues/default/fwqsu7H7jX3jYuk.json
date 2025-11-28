@@ -1,0 +1,9 @@
+{
+	"id": "fwqsu7H7jX3jYuk",
+	"json": "{\"id\":\"fwqsu7H7jX3jYuk\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Faiyaz,+C+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Faiyaz%2C+C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997417,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Faiyaz%2C+C+A&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Faiyaz,+C+A"
+}

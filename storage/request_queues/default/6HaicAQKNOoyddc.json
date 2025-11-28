@@ -1,0 +1,9 @@
+{
+	"id": "6HaicAQKNOoyddc",
+	"json": "{\"id\":\"6HaicAQKNOoyddc\",\"url\":\"https://arxiv.org/search/math-ph?searchtype=author&query=Jones,+J+M\",\"uniqueKey\":\"https://arxiv.org/search/math-ph?query=Jones%2C+J+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086990726,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math-ph?query=Jones%2C+J+M&searchtype=author",
+	"url": "https://arxiv.org/search/math-ph?searchtype=author&query=Jones,+J+M"
+}

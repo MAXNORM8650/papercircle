@@ -1,0 +1,9 @@
+{
+	"id": "eXZxoZ1XxQWuqHw",
+	"json": "{\"id\":\"eXZxoZ1XxQWuqHw\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Mathews,+D\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Mathews%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997821,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Mathews%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Mathews,+D"
+}

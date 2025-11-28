@@ -1,0 +1,9 @@
+{
+	"id": "w8zkvokpDmVwx9p",
+	"json": "{\"id\":\"w8zkvokpDmVwx9p\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Barroso,+E+R+G\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Barroso%2C+E+R+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006805,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Barroso%2C+E+R+G&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Barroso,+E+R+G"
+}

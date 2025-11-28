@@ -1,0 +1,9 @@
+{
+	"id": "v9yfHPDiX17krif",
+	"json": "{\"id\":\"v9yfHPDiX17krif\",\"url\":\"https://arxiv.org/list/math.CO/recent?skip=88&show=50\",\"uniqueKey\":\"https://arxiv.org/list/math.CO/recent?show=50&skip=88\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006587,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/math.CO/recent?show=50&skip=88",
+	"url": "https://arxiv.org/list/math.CO/recent?skip=88&show=50"
+}

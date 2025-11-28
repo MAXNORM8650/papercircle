@@ -1,0 +1,9 @@
+{
+	"id": "2n97ohyUJxTp8fy",
+	"json": "{\"id\":\"2n97ohyUJxTp8fy\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Rad,+R+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Rad%2C+R+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015375,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Rad%2C+R+H&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Rad,+R+H"
+}

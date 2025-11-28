@@ -1,0 +1,9 @@
+{
+	"id": "6E5P1muM6MCshR9",
+	"json": "{\"id\":\"6E5P1muM6MCshR9\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Briere,+R+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Briere%2C+R+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992890,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Briere%2C+R+A&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Briere,+R+A"
+}

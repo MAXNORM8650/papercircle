@@ -1,0 +1,9 @@
+{
+	"id": "AbcCXy2CybMrHl1",
+	"json": "{\"id\":\"AbcCXy2CybMrHl1\",\"url\":\"https://arxiv.org/archive/hep-ph\",\"loadedUrl\":\"https://arxiv.org/archive/hep-ph\",\"uniqueKey\":\"https://arxiv.org/archive/hep-ph\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:54.189Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/archive/hep-ph",
+	"url": "https://arxiv.org/archive/hep-ph"
+}

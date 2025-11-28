@@ -1,0 +1,9 @@
+{
+	"id": "1ornVgBD1qPhOcW",
+	"json": "{\"id\":\"1ornVgBD1qPhOcW\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Guo,+Y\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Guo%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005526,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Guo%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Guo,+Y"
+}

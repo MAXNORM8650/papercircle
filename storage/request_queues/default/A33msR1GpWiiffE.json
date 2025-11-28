@@ -1,0 +1,9 @@
+{
+	"id": "A33msR1GpWiiffE",
+	"json": "{\"id\":\"A33msR1GpWiiffE\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Simari,+G+I\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Simari%2C+G+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087029599,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Simari%2C+G+I&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Simari,+G+I"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "wOyEAQaVI8tF6c3",
+	"json": "{\"id\":\"wOyEAQaVI8tF6c3\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Rincon,+A\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Rincon%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988390,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Rincon%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Rincon,+A"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "bv32dhfY4gsbq2T",
+	"json": "{\"id\":\"bv32dhfY4gsbq2T\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Heller,+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Heller%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002229,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Heller%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Heller,+R"
+}

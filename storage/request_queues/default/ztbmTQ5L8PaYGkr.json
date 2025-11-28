@@ -1,0 +1,9 @@
+{
+	"id": "ztbmTQ5L8PaYGkr",
+	"json": "{\"id\":\"ztbmTQ5L8PaYGkr\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Palencia,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Palencia%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087030913,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Palencia%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Palencia,+P"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "YPafW8tZGnaMwAD",
+	"json": "{\"id\":\"YPafW8tZGnaMwAD\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Kezerashvili,+R+Y\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Kezerashvili%2C+R+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989320,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Kezerashvili%2C+R+Y&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Kezerashvili,+R+Y"
+}

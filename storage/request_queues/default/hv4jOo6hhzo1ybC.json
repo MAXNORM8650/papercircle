@@ -1,0 +1,9 @@
+{
+	"id": "hv4jOo6hhzo1ybC",
+	"json": "{\"id\":\"hv4jOo6hhzo1ybC\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Yeganyan,+L\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Yeganyan%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989858,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Yeganyan%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Yeganyan,+L"
+}

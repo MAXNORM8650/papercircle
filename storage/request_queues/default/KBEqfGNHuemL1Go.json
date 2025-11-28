@@ -1,0 +1,9 @@
+{
+	"id": "KBEqfGNHuemL1Go",
+	"json": "{\"id\":\"KBEqfGNHuemL1Go\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Solans,+M\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Solans%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023950,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Solans%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Solans,+M"
+}

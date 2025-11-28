@@ -1,0 +1,9 @@
+{
+	"id": "4KXtTTNOkeFJ092",
+	"json": "{\"id\":\"4KXtTTNOkeFJ092\",\"url\":\"https://arxiv.org/search/nucl-th\",\"loadedUrl\":\"https://arxiv.org/search/nucl-th\",\"uniqueKey\":\"https://arxiv.org/search/nucl-th\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:58.587Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-th",
+	"url": "https://arxiv.org/search/nucl-th"
+}

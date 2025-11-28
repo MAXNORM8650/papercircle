@@ -1,0 +1,9 @@
+{
+	"id": "SD3GPHcE0H78j41",
+	"json": "{\"id\":\"SD3GPHcE0H78j41\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Emma,+M\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Emma%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991800,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Emma%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Emma,+M"
+}

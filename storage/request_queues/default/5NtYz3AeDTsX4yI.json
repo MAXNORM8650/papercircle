@@ -1,0 +1,9 @@
+{
+	"id": "5NtYz3AeDTsX4yI",
+	"json": "{\"id\":\"5NtYz3AeDTsX4yI\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Esposti,+L+D\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Esposti%2C+L+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992573,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Esposti%2C+L+D&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Esposti,+L+D"
+}

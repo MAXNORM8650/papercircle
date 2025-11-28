@@ -1,0 +1,9 @@
+{
+	"id": "0OlUdasikaHKsKV",
+	"json": "{\"id\":\"0OlUdasikaHKsKV\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Davis,+K+R\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Davis%2C+K+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025364,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Davis%2C+K+R&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Davis,+K+R"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "LmcjCKs84ykGztq",
+	"json": "{\"id\":\"LmcjCKs84ykGztq\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Spano,+L+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Spano%2C+L+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087011640,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Spano%2C+L+D&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Spano,+L+D"
+}

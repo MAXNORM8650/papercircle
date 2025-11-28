@@ -1,0 +1,9 @@
+{
+	"id": "zE2S3CjkHRp6HYD",
+	"json": "{\"id\":\"zE2S3CjkHRp6HYD\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Chioncel,+L\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Chioncel%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988825,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Chioncel%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Chioncel,+L"
+}

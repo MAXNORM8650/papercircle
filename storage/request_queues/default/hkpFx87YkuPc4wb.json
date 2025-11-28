@@ -1,0 +1,9 @@
+{
+	"id": "hkpFx87YkuPc4wb",
+	"json": "{\"id\":\"hkpFx87YkuPc4wb\",\"url\":\"https://arxiv.org/list/physics.comp-ph/recent?skip=38&show=50\",\"uniqueKey\":\"https://arxiv.org/list/physics.comp-ph/recent?show=50&skip=38\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001237,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/physics.comp-ph/recent?show=50&skip=38",
+	"url": "https://arxiv.org/list/physics.comp-ph/recent?skip=38&show=50"
+}

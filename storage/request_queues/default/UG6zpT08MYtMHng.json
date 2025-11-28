@@ -1,0 +1,9 @@
+{
+	"id": "UG6zpT08MYtMHng",
+	"json": "{\"id\":\"UG6zpT08MYtMHng\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Lan,+L\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Lan%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025846,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Lan%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Lan,+L"
+}

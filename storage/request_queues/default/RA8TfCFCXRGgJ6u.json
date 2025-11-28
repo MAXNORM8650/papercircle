@@ -1,0 +1,9 @@
+{
+	"id": "RA8TfCFCXRGgJ6u",
+	"json": "{\"id\":\"RA8TfCFCXRGgJ6u\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Humphreys,+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Humphreys%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987428,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Humphreys%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Humphreys,+E"
+}

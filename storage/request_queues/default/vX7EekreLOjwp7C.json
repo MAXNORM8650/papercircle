@@ -1,0 +1,9 @@
+{
+	"id": "vX7EekreLOjwp7C",
+	"json": "{\"id\":\"vX7EekreLOjwp7C\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Dedovich,+D\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Dedovich%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992911,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Dedovich%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Dedovich,+D"
+}

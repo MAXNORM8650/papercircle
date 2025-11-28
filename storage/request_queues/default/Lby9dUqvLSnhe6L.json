@@ -1,0 +1,9 @@
+{
+	"id": "Lby9dUqvLSnhe6L",
+	"json": "{\"id\":\"Lby9dUqvLSnhe6L\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Lau,+B+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Lau%2C+B+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087021069,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Lau%2C+B+C&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Lau,+B+C"
+}

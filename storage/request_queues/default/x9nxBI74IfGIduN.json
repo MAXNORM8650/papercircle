@@ -1,0 +1,9 @@
+{
+	"id": "x9nxBI74IfGIduN",
+	"json": "{\"id\":\"x9nxBI74IfGIduN\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Horbach,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Horbach%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002884,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Horbach%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Horbach,+A"
+}

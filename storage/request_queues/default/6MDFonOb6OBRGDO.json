@@ -1,0 +1,9 @@
+{
+	"id": "6MDFonOb6OBRGDO",
+	"json": "{\"id\":\"6MDFonOb6OBRGDO\",\"url\":\"https://arxiv.org/search/nlin?searchtype=author&query=Nowak-K%C4%99pczyk,+M\",\"uniqueKey\":\"https://arxiv.org/search/nlin?query=Nowak-K%C4%99pczyk%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086996447,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nlin?query=Nowak-K%C4%99pczyk%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/nlin?searchtype=author&query=Nowak-K%C4%99pczyk,+M"
+}

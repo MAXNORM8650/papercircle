@@ -1,0 +1,9 @@
+{
+	"id": "aQcGN3a8OvVfa51",
+	"json": "{\"id\":\"aQcGN3a8OvVfa51\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Xiong,+R\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Xiong%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009340,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Xiong%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Xiong,+R"
+}

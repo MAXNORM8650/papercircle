@@ -1,0 +1,9 @@
+{
+	"id": "3Dep4Ni3FUTcfA7",
+	"json": "{\"id\":\"3Dep4Ni3FUTcfA7\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Guaita,+L\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Guaita%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986994,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Guaita%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Guaita,+L"
+}

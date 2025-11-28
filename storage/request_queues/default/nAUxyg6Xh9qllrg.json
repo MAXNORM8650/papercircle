@@ -1,0 +1,9 @@
+{
+	"id": "nAUxyg6Xh9qllrg",
+	"json": "{\"id\":\"nAUxyg6Xh9qllrg\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Chaurra-Guti%C3%A9rrez,+F+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Chaurra-Guti%C3%A9rrez%2C+F+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014085,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Chaurra-Guti%C3%A9rrez%2C+F+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Chaurra-Guti%C3%A9rrez,+F+A"
+}

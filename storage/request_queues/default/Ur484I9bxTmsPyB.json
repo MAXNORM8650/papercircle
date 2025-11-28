@@ -1,0 +1,9 @@
+{
+	"id": "Ur484I9bxTmsPyB",
+	"json": "{\"id\":\"Ur484I9bxTmsPyB\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Long,+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Long%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988202,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Long%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Long,+G"
+}

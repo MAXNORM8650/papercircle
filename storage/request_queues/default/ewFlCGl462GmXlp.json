@@ -1,0 +1,9 @@
+{
+	"id": "ewFlCGl462GmXlp",
+	"json": "{\"id\":\"ewFlCGl462GmXlp\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kazachenko,+M+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Kazachenko%2C+M+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986458,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Kazachenko%2C+M+D&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Kazachenko,+M+D"
+}

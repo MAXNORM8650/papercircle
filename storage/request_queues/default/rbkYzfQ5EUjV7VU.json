@@ -1,0 +1,9 @@
+{
+	"id": "rbkYzfQ5EUjV7VU",
+	"json": "{\"id\":\"rbkYzfQ5EUjV7VU\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Obaya,+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Obaya%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999446,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Obaya%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Obaya,+R"
+}

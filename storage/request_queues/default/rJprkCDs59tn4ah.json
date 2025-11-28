@@ -1,0 +1,9 @@
+{
+	"id": "rJprkCDs59tn4ah",
+	"json": "{\"id\":\"rJprkCDs59tn4ah\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Tj%C3%B8tta,+M\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Tj%C3%B8tta%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991240,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Tj%C3%B8tta%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Tj%C3%B8tta,+M"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "LuhMQ17dM7kznHT",
+	"json": "{\"id\":\"LuhMQ17dM7kznHT\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Parisi,+J+F\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Parisi%2C+J+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997429,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Parisi%2C+J+F&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Parisi,+J+F"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Mvn1FzvLO7p7j96",
+	"json": "{\"id\":\"Mvn1FzvLO7p7j96\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Andrei,+E+Y\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Andrei%2C+E+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989888,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Andrei%2C+E+Y&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Andrei,+E+Y"
+}

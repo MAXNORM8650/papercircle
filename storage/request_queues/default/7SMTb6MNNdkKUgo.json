@@ -1,0 +1,9 @@
+{
+	"id": "7SMTb6MNNdkKUgo",
+	"json": "{\"id\":\"7SMTb6MNNdkKUgo\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=H%C3%B6rmann,+M\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=H%C3%B6rmann%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989265,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=H%C3%B6rmann%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=H%C3%B6rmann,+M"
+}

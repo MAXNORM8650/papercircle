@@ -1,0 +1,9 @@
+{
+	"id": "OMXbhlDtNFE1TNo",
+	"json": "{\"id\":\"OMXbhlDtNFE1TNo\",\"url\":\"https://arxiv.org/year/astro-ph/2011\",\"loadedUrl\":\"https://arxiv.org/year/astro-ph/2011\",\"uniqueKey\":\"https://arxiv.org/year/astro-ph/2011\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:32.288Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/year/astro-ph/2011",
+	"url": "https://arxiv.org/year/astro-ph/2011"
+}

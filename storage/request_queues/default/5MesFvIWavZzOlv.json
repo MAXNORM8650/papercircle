@@ -1,0 +1,9 @@
+{
+	"id": "5MesFvIWavZzOlv",
+	"json": "{\"id\":\"5MesFvIWavZzOlv\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Mandal,+I\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Mandal%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989443,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Mandal%2C+I&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Mandal,+I"
+}

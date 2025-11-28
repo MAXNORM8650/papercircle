@@ -1,0 +1,9 @@
+{
+	"id": "2380wT5Y7Me5EUW",
+	"json": "{\"id\":\"2380wT5Y7Me5EUW\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Low,+C+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Low%2C+C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087021207,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Low%2C+C+H&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Low,+C+H"
+}

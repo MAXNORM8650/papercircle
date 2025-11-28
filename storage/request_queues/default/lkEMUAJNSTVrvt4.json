@@ -1,0 +1,9 @@
+{
+	"id": "lkEMUAJNSTVrvt4",
+	"json": "{\"id\":\"lkEMUAJNSTVrvt4\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Mendigut%C3%ADa%2C+I\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Mendigut%C3%ADa%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087084169,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Mendigut%C3%ADa%2C+I&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Mendigut%C3%ADa%2C+I"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "vd5QNLhG1aHpwyL",
+	"json": "{\"id\":\"vd5QNLhG1aHpwyL\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Axani%2C+S+N\",\"uniqueKey\":\"https://arxiv.org/search?query=Axani%2C+S+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087047897,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Axani%2C+S+N&searchtype=author",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Axani%2C+S+N"
+}

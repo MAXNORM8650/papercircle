@@ -1,0 +1,9 @@
+{
+	"id": "9NZ8AHOIKxIvhWe",
+	"json": "{\"id\":\"9NZ8AHOIKxIvhWe\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Holeman,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Holeman%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016954,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Holeman%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Holeman,+A"
+}

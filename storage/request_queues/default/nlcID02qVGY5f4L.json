@@ -1,0 +1,9 @@
+{
+	"id": "nlcID02qVGY5f4L",
+	"json": "{\"id\":\"nlcID02qVGY5f4L\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Abeid,+B+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Abeid%2C+B+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001251,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Abeid%2C+B+A&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Abeid,+B+A"
+}

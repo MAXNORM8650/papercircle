@@ -1,0 +1,9 @@
+{
+	"id": "9MCcEQj1VWEkHNF",
+	"json": "{\"id\":\"9MCcEQj1VWEkHNF\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Ordo%C3%B1ez,+J+A\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Ordo%C3%B1ez%2C+J+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023640,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Ordo%C3%B1ez%2C+J+A&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Ordo%C3%B1ez,+J+A"
+}

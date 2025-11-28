@@ -1,0 +1,9 @@
+{
+	"id": "t3EbuDyIvui3TrR",
+	"json": "{\"id\":\"t3EbuDyIvui3TrR\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Talafha,+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Talafha%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087011120,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Talafha%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Talafha,+B"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "EoA4Bz3bzsydWgx",
+	"json": "{\"id\":\"EoA4Bz3bzsydWgx\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Blake,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Blake%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992756,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Blake%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Blake,+A"
+}

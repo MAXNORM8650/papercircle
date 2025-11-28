@@ -1,0 +1,9 @@
+{
+	"id": "ZJLvWpZkNrQtVwR",
+	"json": "{\"id\":\"ZJLvWpZkNrQtVwR\",\"url\":\"https://arxiv.org/search/nlin?searchtype=author&query=Yin,+L\",\"uniqueKey\":\"https://arxiv.org/search/nlin?query=Yin%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086996441,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nlin?query=Yin%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/nlin?searchtype=author&query=Yin,+L"
+}

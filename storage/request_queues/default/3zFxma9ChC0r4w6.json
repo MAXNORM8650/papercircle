@@ -1,0 +1,9 @@
+{
+	"id": "3zFxma9ChC0r4w6",
+	"json": "{\"id\":\"3zFxma9ChC0r4w6\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Zoghoul,+S+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Zoghoul%2C+S+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010235,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Zoghoul%2C+S+B&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Zoghoul,+S+B"
+}

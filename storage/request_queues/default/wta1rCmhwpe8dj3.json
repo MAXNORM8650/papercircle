@@ -1,0 +1,9 @@
+{
+	"id": "wta1rCmhwpe8dj3",
+	"json": "{\"id\":\"wta1rCmhwpe8dj3\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Takimoto,+K\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Takimoto%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087021043,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Takimoto%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Takimoto,+K"
+}

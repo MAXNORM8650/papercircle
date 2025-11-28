@@ -1,0 +1,9 @@
+{
+	"id": "mc8fItgEFR3PdJc",
+	"json": "{\"id\":\"mc8fItgEFR3PdJc\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=van+Dishoeck%2C+E+F&start=200\",\"uniqueKey\":\"https://arxiv.org/search?query=van+Dishoeck%2C+E+F&searchtype=author&start=200\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087086901,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=van+Dishoeck%2C+E+F&searchtype=author&start=200",
+	"url": "https://arxiv.org/search/?searchtype=author&query=van+Dishoeck%2C+E+F&start=200"
+}

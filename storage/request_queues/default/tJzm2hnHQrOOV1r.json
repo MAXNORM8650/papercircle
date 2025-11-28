@@ -1,0 +1,9 @@
+{
+	"id": "tJzm2hnHQrOOV1r",
+	"json": "{\"id\":\"tJzm2hnHQrOOV1r\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Turley,+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Turley%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012691,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Turley%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Turley,+D"
+}

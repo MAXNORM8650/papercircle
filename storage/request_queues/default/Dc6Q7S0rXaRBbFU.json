@@ -1,0 +1,9 @@
+{
+	"id": "Dc6Q7S0rXaRBbFU",
+	"json": "{\"id\":\"Dc6Q7S0rXaRBbFU\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Dauenhauer,+P+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Dauenhauer%2C+P+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087000767,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Dauenhauer%2C+P+J&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Dauenhauer,+P+J"
+}

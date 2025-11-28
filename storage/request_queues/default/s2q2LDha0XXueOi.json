@@ -1,0 +1,9 @@
+{
+	"id": "s2q2LDha0XXueOi",
+	"json": "{\"id\":\"s2q2LDha0XXueOi\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Tomescu,+A+I\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Tomescu%2C+A+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007565,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Tomescu%2C+A+I&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Tomescu,+A+I"
+}

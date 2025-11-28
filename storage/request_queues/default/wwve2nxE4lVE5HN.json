@@ -1,0 +1,9 @@
+{
+	"id": "wwve2nxE4lVE5HN",
+	"json": "{\"id\":\"wwve2nxE4lVE5HN\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=B%C3%B6hm,+J+N\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=B%C3%B6hm%2C+J+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025841,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=B%C3%B6hm%2C+J+N&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=B%C3%B6hm,+J+N"
+}

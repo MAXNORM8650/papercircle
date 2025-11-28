@@ -1,0 +1,9 @@
+{
+	"id": "vh8HMMdB7KdHYVq",
+	"json": "{\"id\":\"vh8HMMdB7KdHYVq\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=L%C3%A9ger,+%C3%89\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=L%C3%A9ger%2C+%C3%89&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012033,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=L%C3%A9ger%2C+%C3%89&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=L%C3%A9ger,+%C3%89"
+}

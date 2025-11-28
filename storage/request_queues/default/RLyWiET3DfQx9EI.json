@@ -1,0 +1,9 @@
+{
+	"id": "RLyWiET3DfQx9EI",
+	"json": "{\"id\":\"RLyWiET3DfQx9EI\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Tang,+Z\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Tang%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988694,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Tang%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Tang,+Z"
+}

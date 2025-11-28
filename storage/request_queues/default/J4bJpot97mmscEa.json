@@ -1,0 +1,9 @@
+{
+	"id": "J4bJpot97mmscEa",
+	"json": "{\"id\":\"J4bJpot97mmscEa\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Baudart,+G\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Baudart%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025739,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Baudart%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Baudart,+G"
+}

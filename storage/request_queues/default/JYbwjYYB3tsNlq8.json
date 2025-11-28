@@ -1,0 +1,9 @@
+{
+	"id": "JYbwjYYB3tsNlq8",
+	"json": "{\"id\":\"JYbwjYYB3tsNlq8\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Muirhead,+P+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Muirhead%2C+P+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987603,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Muirhead%2C+P+S&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Muirhead,+P+S"
+}

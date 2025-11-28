@@ -1,0 +1,9 @@
+{
+	"id": "IWl2W077HSFYfak",
+	"json": "{\"id\":\"IWl2W077HSFYfak\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Schlaufman%2C+K+C&start=0\",\"uniqueKey\":\"https://arxiv.org/search?query=Schlaufman%2C+K+C&searchtype=author&start=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087091065,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Schlaufman%2C+K+C&searchtype=author&start=0",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Schlaufman%2C+K+C&start=0"
+}

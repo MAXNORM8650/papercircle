@@ -1,0 +1,9 @@
+{
+	"id": "8Ec95T84nNxF3yZ",
+	"json": "{\"id\":\"8Ec95T84nNxF3yZ\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ipeirotis,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ipeirotis%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087013821,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Ipeirotis%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ipeirotis,+P"
+}

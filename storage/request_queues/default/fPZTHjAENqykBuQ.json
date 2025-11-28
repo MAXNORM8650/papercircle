@@ -1,0 +1,9 @@
+{
+	"id": "fPZTHjAENqykBuQ",
+	"json": "{\"id\":\"fPZTHjAENqykBuQ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Grunfeld,+A+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Grunfeld%2C+A+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987627,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Grunfeld%2C+A+G&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Grunfeld,+A+G"
+}

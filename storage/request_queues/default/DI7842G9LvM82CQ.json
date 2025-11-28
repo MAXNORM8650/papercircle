@@ -1,0 +1,9 @@
+{
+	"id": "DI7842G9LvM82CQ",
+	"json": "{\"id\":\"DI7842G9LvM82CQ\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Abbasi%2C+R&start=50\",\"uniqueKey\":\"https://arxiv.org/search?query=Abbasi%2C+R&searchtype=author&start=50\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087045460,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Abbasi%2C+R&searchtype=author&start=50",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Abbasi%2C+R&start=50"
+}

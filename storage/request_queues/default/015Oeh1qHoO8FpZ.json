@@ -1,0 +1,9 @@
+{
+	"id": "015Oeh1qHoO8FpZ",
+	"json": "{\"id\":\"015Oeh1qHoO8FpZ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ashall,+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Ashall%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988292,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Ashall%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Ashall,+C"
+}

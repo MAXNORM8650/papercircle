@@ -1,0 +1,9 @@
+{
+	"id": "y9BXS8R2k5umuBJ",
+	"json": "{\"id\":\"y9BXS8R2k5umuBJ\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Bhandari,+B\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Bhandari%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989530,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Bhandari%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Bhandari,+B"
+}

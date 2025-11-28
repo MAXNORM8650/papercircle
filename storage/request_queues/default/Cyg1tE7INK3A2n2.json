@@ -1,0 +1,9 @@
+{
+	"id": "Cyg1tE7INK3A2n2",
+	"json": "{\"id\":\"Cyg1tE7INK3A2n2\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Lu,+P\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Lu%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994213,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Lu%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Lu,+P"
+}

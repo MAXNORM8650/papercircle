@@ -1,0 +1,9 @@
+{
+	"id": "FbjIt88AH4K6UHa",
+	"json": "{\"id\":\"FbjIt88AH4K6UHa\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Eremeev,+S+V\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Eremeev%2C+S+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988939,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Eremeev%2C+S+V&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Eremeev,+S+V"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "6Pdqhio7weYQq9N",
+	"json": "{\"id\":\"6Pdqhio7weYQq9N\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Morris,+J\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Morris%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006139,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Morris%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Morris,+J"
+}

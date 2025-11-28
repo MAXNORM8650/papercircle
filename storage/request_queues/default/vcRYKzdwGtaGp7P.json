@@ -1,0 +1,9 @@
+{
+	"id": "vcRYKzdwGtaGp7P",
+	"json": "{\"id\":\"vcRYKzdwGtaGp7P\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Che,+Y+Z\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Che%2C+Y+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992895,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Che%2C+Y+Z&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Che,+Y+Z"
+}

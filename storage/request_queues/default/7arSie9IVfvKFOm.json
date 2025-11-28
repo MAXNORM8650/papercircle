@@ -1,0 +1,9 @@
+{
+	"id": "7arSie9IVfvKFOm",
+	"json": "{\"id\":\"7arSie9IVfvKFOm\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Fabbro%2C+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Fabbro%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087064297,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Fabbro%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Fabbro%2C+S"
+}

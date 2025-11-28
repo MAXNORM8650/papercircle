@@ -1,0 +1,9 @@
+{
+	"id": "hVoAQNoH1iks81W",
+	"json": "{\"id\":\"hVoAQNoH1iks81W\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Weigelt,+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Weigelt%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986509,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Weigelt%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Weigelt,+G"
+}

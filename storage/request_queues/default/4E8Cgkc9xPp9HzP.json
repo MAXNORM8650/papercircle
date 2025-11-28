@@ -1,0 +1,9 @@
+{
+	"id": "4E8Cgkc9xPp9HzP",
+	"json": "{\"id\":\"4E8Cgkc9xPp9HzP\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Nagai%2C+H\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Nagai%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087068325,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Nagai%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Nagai%2C+H"
+}

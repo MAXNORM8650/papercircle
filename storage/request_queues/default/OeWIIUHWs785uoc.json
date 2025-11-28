@@ -1,0 +1,9 @@
+{
+	"id": "OeWIIUHWs785uoc",
+	"json": "{\"id\":\"OeWIIUHWs785uoc\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Valiente,+A+F\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Valiente%2C+A+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994606,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-th?query=Valiente%2C+A+F&searchtype=author",
+	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Valiente,+A+F"
+}

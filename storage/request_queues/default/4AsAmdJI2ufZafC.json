@@ -1,0 +1,9 @@
+{
+	"id": "4AsAmdJI2ufZafC",
+	"json": "{\"id\":\"4AsAmdJI2ufZafC\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Chou,+C+C\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Chou%2C+C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023555,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Chou%2C+C+C&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Chou,+C+C"
+}

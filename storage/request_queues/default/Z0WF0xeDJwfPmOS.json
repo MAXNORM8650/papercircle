@@ -1,0 +1,9 @@
+{
+	"id": "Z0WF0xeDJwfPmOS",
+	"json": "{\"id\":\"Z0WF0xeDJwfPmOS\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Jia,+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Jia%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087019604,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Jia%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Jia,+C"
+}

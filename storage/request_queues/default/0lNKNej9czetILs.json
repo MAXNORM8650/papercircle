@@ -1,0 +1,9 @@
+{
+	"id": "0lNKNej9czetILs",
+	"json": "{\"id\":\"0lNKNej9czetILs\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Loeffler,+R+J+G\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Loeffler%2C+R+J+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988671,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Loeffler%2C+R+J+G&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Loeffler,+R+J+G"
+}

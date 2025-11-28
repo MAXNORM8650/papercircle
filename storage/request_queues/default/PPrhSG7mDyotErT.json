@@ -1,0 +1,9 @@
+{
+	"id": "PPrhSG7mDyotErT",
+	"json": "{\"id\":\"PPrhSG7mDyotErT\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Heininger,+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Heininger%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986513,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Heininger%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Heininger,+M"
+}

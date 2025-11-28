@@ -1,0 +1,9 @@
+{
+	"id": "KJIBVNdkgmeQ0T3",
+	"json": "{\"id\":\"KJIBVNdkgmeQ0T3\",\"url\":\"https://arxiv.org/search/hep-lat?searchtype=author&query=Pressler,+F\",\"uniqueKey\":\"https://arxiv.org/search/hep-lat?query=Pressler%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991672,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-lat?query=Pressler%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/hep-lat?searchtype=author&query=Pressler,+F"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "S3zClZ3aD5Qen07",
+	"json": "{\"id\":\"S3zClZ3aD5Qen07\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Gledhill%2C+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Gledhill%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087075109,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Gledhill%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Gledhill%2C+R"
+}

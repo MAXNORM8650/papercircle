@@ -1,0 +1,9 @@
+{
+	"id": "wdCGE03TVY9g5tK",
+	"json": "{\"id\":\"wdCGE03TVY9g5tK\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Sun,+R\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Sun%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994170,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Sun%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Sun,+R"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "r0BIAs9m7rNde1T",
+	"json": "{\"id\":\"r0BIAs9m7rNde1T\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Gangi,+L+N+F\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Gangi%2C+L+N+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087029597,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Gangi%2C+L+N+F&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Gangi,+L+N+F"
+}

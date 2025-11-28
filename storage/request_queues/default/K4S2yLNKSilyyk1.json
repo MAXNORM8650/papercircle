@@ -1,0 +1,9 @@
+{
+	"id": "K4S2yLNKSilyyk1",
+	"json": "{\"id\":\"K4S2yLNKSilyyk1\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Funano,+K\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Funano%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005509,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Funano%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Funano,+K"
+}

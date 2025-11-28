@@ -1,0 +1,9 @@
+{
+	"id": "NX1uycdC3N45UQ6",
+	"json": "{\"id\":\"NX1uycdC3N45UQ6\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Adriaenssens,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Adriaenssens%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012701,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Adriaenssens%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Adriaenssens,+S"
+}

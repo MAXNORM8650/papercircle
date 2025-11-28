@@ -1,0 +1,9 @@
+{
+	"id": "nwoXcXlBliRloOe",
+	"json": "{\"id\":\"nwoXcXlBliRloOe\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Arciga-Alejandre,+M+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Arciga-Alejandre%2C+M+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016732,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Arciga-Alejandre%2C+M+P&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Arciga-Alejandre,+M+P"
+}

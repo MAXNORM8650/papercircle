@@ -1,0 +1,9 @@
+{
+	"id": "H1EMJoUY2nAQWze",
+	"json": "{\"id\":\"H1EMJoUY2nAQWze\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ke,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ke%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023764,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Ke%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ke,+Y"
+}

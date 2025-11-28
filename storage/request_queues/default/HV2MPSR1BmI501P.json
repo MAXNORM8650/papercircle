@@ -1,0 +1,9 @@
+{
+	"id": "HV2MPSR1BmI501P",
+	"json": "{\"id\":\"HV2MPSR1BmI501P\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Farnik,+%C5%81\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Farnik%2C+%C5%81&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005152,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Farnik%2C+%C5%81&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Farnik,+%C5%81"
+}

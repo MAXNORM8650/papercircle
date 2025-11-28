@@ -1,0 +1,9 @@
+{
+	"id": "1ditnZGygPPPv49",
+	"json": "{\"id\":\"1ditnZGygPPPv49\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Gr%C3%A1f,+L\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Gr%C3%A1f%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994225,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Gr%C3%A1f%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Gr%C3%A1f,+L"
+}

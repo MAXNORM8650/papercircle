@@ -1,0 +1,9 @@
+{
+	"id": "NGX65Xs2z6NPSc7",
+	"json": "{\"id\":\"NGX65Xs2z6NPSc7\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Pansu,+P\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Pansu%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006175,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Pansu%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Pansu,+P"
+}

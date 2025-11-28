@@ -1,0 +1,9 @@
+{
+	"id": "UNpA4YFBQnICi6f",
+	"json": "{\"id\":\"UNpA4YFBQnICi6f\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Banerjee,+S\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Banerjee%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016766,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Banerjee%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Banerjee,+S"
+}

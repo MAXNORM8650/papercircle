@@ -1,0 +1,9 @@
+{
+	"id": "e4TVsCxsVtNwQt9",
+	"json": "{\"id\":\"e4TVsCxsVtNwQt9\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Navarro%2C+M+G\",\"uniqueKey\":\"https://arxiv.org/search?query=Navarro%2C+M+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087081082,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Navarro%2C+M+G&searchtype=author",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Navarro%2C+M+G"
+}

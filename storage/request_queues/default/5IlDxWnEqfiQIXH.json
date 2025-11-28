@@ -1,0 +1,9 @@
+{
+	"id": "5IlDxWnEqfiQIXH",
+	"json": "{\"id\":\"5IlDxWnEqfiQIXH\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Shields,+T\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Shields,+T\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Shields%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:35.838Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Shields%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Shields,+T"
+}

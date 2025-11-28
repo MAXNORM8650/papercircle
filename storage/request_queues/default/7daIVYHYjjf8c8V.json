@@ -1,0 +1,9 @@
+{
+	"id": "7daIVYHYjjf8c8V",
+	"json": "{\"id\":\"7daIVYHYjjf8c8V\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Pabst,+F\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Pabst%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087000816,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Pabst%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Pabst,+F"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "iteeJf1wE5Gt3rZ",
+	"json": "{\"id\":\"iteeJf1wE5Gt3rZ\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Pimpec,+F+L\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Pimpec%2C+F+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999671,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Pimpec%2C+F+L&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Pimpec,+F+L"
+}

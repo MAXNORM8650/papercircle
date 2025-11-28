@@ -1,0 +1,9 @@
+{
+	"id": "fcJv4Aq1y5RYw5l",
+	"json": "{\"id\":\"fcJv4Aq1y5RYw5l\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Zhyganiuk,+I\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Zhyganiuk%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988797,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Zhyganiuk%2C+I&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Zhyganiuk,+I"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "MZCCAIZDPlmL8VC",
+	"json": "{\"id\":\"MZCCAIZDPlmL8VC\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Pessina,+G\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Pessina%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992592,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Pessina%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Pessina,+G"
+}

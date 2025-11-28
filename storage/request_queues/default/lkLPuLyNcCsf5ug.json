@@ -1,0 +1,9 @@
+{
+	"id": "lkLPuLyNcCsf5ug",
+	"json": "{\"id\":\"lkLPuLyNcCsf5ug\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ruiz,+A+N\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Ruiz%2C+A+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987318,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Ruiz%2C+A+N&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Ruiz,+A+N"
+}

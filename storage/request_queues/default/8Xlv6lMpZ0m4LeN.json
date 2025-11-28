@@ -1,0 +1,9 @@
+{
+	"id": "8Xlv6lMpZ0m4LeN",
+	"json": "{\"id\":\"8Xlv6lMpZ0m4LeN\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Shin,+Y+K\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Shin%2C+Y+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087000822,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Shin%2C+Y+K&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Shin,+Y+K"
+}

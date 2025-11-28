@@ -1,0 +1,9 @@
+{
+	"id": "YeU85H5Noirr6kj",
+	"json": "{\"id\":\"YeU85H5Noirr6kj\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Fernandes%2C+R+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Fernandes%2C+R+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087081348,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Fernandes%2C+R+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Fernandes%2C+R+C"
+}

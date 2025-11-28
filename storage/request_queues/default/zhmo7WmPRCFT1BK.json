@@ -1,0 +1,9 @@
+{
+	"id": "zhmo7WmPRCFT1BK",
+	"json": "{\"id\":\"zhmo7WmPRCFT1BK\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Hedri,+S+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Hedri%2C+S+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988240,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Hedri%2C+S+E&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Hedri,+S+E"
+}

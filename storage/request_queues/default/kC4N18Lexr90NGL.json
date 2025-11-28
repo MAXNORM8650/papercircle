@@ -1,0 +1,9 @@
+{
+	"id": "kC4N18Lexr90NGL",
+	"json": "{\"id\":\"kC4N18Lexr90NGL\",\"url\":\"https://arxiv.org/search/stat\",\"loadedUrl\":\"https://arxiv.org/search/stat\",\"uniqueKey\":\"https://arxiv.org/search/stat\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:23.853Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat",
+	"url": "https://arxiv.org/search/stat"
+}

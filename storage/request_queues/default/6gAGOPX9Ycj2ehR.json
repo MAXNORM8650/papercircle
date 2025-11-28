@@ -1,0 +1,9 @@
+{
+	"id": "6gAGOPX9Ycj2ehR",
+	"json": "{\"id\":\"6gAGOPX9Ycj2ehR\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=V.Gareyan\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=V.Gareyan&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989198,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=V.Gareyan&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=V.Gareyan"
+}

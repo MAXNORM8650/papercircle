@@ -1,0 +1,9 @@
+{
+	"id": "jTR1Gr9x9PXHvZo",
+	"json": "{\"id\":\"jTR1Gr9x9PXHvZo\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Malviya,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Malviya%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016896,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Malviya%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Malviya,+S"
+}

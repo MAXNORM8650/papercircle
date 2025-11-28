@@ -1,0 +1,9 @@
+{
+	"id": "VWZP0F0KLhQJTqJ",
+	"json": "{\"id\":\"VWZP0F0KLhQJTqJ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Pursiainen,+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Pursiainen%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987077,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Pursiainen%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Pursiainen,+M"
+}

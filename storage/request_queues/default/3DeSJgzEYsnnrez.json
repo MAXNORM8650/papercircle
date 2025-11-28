@@ -1,0 +1,9 @@
+{
+	"id": "3DeSJgzEYsnnrez",
+	"json": "{\"id\":\"3DeSJgzEYsnnrez\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Li%C3%B2,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Li%C3%B2%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087027135,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Li%C3%B2%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Li%C3%B2,+P"
+}

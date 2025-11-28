@@ -1,0 +1,9 @@
+{
+	"id": "nxFQ5SFe0Brgy2n",
+	"json": "{\"id\":\"nxFQ5SFe0Brgy2n\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=de+Boer,+R+E\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=de+Boer%2C+R+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992911,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=de+Boer%2C+R+E&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=de+Boer,+R+E"
+}

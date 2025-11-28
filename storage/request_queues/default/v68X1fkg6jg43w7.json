@@ -1,0 +1,9 @@
+{
+	"id": "v68X1fkg6jg43w7",
+	"json": "{\"id\":\"v68X1fkg6jg43w7\",\"url\":\"https://arxiv.org/list/cond-mat/current\",\"uniqueKey\":\"https://arxiv.org/list/cond-mat/current\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988643,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/cond-mat/current",
+	"url": "https://arxiv.org/list/cond-mat/current"
+}

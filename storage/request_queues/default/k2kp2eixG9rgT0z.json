@@ -1,0 +1,9 @@
+{
+	"id": "k2kp2eixG9rgT0z",
+	"json": "{\"id\":\"k2kp2eixG9rgT0z\",\"url\":\"https://arxiv.org/search/hep-lat?searchtype=author&query=Yao,+F\",\"uniqueKey\":\"https://arxiv.org/search/hep-lat?query=Yao%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086993616,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-lat?query=Yao%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/hep-lat?searchtype=author&query=Yao,+F"
+}

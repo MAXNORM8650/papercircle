@@ -1,0 +1,9 @@
+{
+	"id": "6z2x7J2mVIy7nkU",
+	"json": "{\"id\":\"6z2x7J2mVIy7nkU\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Dougados,+C\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Dougados,+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Dougados%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:26.043Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Dougados%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Dougados,+C"
+}

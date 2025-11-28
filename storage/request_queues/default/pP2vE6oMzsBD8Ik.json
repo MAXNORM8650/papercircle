@@ -1,0 +1,9 @@
+{
+	"id": "pP2vE6oMzsBD8Ik",
+	"json": "{\"id\":\"pP2vE6oMzsBD8Ik\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Piron,+F\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Piron%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986612,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Piron%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Piron,+F"
+}

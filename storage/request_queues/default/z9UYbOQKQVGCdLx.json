@@ -1,0 +1,9 @@
+{
+	"id": "z9UYbOQKQVGCdLx",
+	"json": "{\"id\":\"z9UYbOQKQVGCdLx\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Liu,+Y\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Liu%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994570,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-th?query=Liu%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Liu,+Y"
+}

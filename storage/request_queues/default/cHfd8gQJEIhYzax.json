@@ -1,0 +1,9 @@
+{
+	"id": "cHfd8gQJEIhYzax",
+	"json": "{\"id\":\"cHfd8gQJEIhYzax\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Bani-Yaghoub,+M\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Bani-Yaghoub%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087021006,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Bani-Yaghoub%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Bani-Yaghoub,+M"
+}

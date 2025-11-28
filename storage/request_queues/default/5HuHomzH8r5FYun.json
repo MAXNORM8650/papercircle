@@ -1,0 +1,9 @@
+{
+	"id": "5HuHomzH8r5FYun",
+	"json": "{\"id\":\"5HuHomzH8r5FYun\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Yue,+Q\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Yue%2C+Q&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992550,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Yue%2C+Q&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Yue,+Q"
+}

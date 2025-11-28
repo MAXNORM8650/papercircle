@@ -1,0 +1,9 @@
+{
+	"id": "MC0rkiDHJwsK8Oy",
+	"json": "{\"id\":\"MC0rkiDHJwsK8Oy\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Ivkovic,+S\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Ivkovic%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087008974,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Ivkovic%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Ivkovic,+S"
+}

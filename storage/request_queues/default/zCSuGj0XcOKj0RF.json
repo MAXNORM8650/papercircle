@@ -1,0 +1,9 @@
+{
+	"id": "zCSuGj0XcOKj0RF",
+	"json": "{\"id\":\"zCSuGj0XcOKj0RF\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Demb%C3%A9l%C3%A9,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Demb%C3%A9l%C3%A9%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087011350,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Demb%C3%A9l%C3%A9%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Demb%C3%A9l%C3%A9,+A"
+}

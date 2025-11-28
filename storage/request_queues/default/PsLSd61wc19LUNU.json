@@ -1,0 +1,9 @@
+{
+	"id": "PsLSd61wc19LUNU",
+	"json": "{\"id\":\"PsLSd61wc19LUNU\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Blyth,+S\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Blyth%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002260,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Blyth%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Blyth,+S"
+}

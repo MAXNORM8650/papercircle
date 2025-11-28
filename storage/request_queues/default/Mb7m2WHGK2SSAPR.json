@@ -1,0 +1,9 @@
+{
+	"id": "Mb7m2WHGK2SSAPR",
+	"json": "{\"id\":\"Mb7m2WHGK2SSAPR\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Azar,+S+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Azar%2C+S+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015687,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Azar%2C+S+M&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Azar,+S+M"
+}

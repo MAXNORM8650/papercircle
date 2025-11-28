@@ -1,0 +1,9 @@
+{
+	"id": "3vMmipnsdj6seTk",
+	"json": "{\"id\":\"3vMmipnsdj6seTk\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=R%C3%B6glin,+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=R%C3%B6glin%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087013019,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=R%C3%B6glin%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=R%C3%B6glin,+H"
+}

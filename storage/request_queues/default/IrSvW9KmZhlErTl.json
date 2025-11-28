@@ -1,0 +1,9 @@
+{
+	"id": "IrSvW9KmZhlErTl",
+	"json": "{\"id\":\"IrSvW9KmZhlErTl\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Giannetti,+G\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Giannetti%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012639,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Giannetti%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Giannetti,+G"
+}

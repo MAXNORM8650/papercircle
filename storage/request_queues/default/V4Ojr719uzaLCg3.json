@@ -1,0 +1,9 @@
+{
+	"id": "V4Ojr719uzaLCg3",
+	"json": "{\"id\":\"V4Ojr719uzaLCg3\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Jeong,+J+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Jeong%2C+J+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087004533,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Jeong%2C+J+A&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Jeong,+J+A"
+}

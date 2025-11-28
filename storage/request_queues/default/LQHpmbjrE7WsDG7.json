@@ -1,0 +1,9 @@
+{
+	"id": "LQHpmbjrE7WsDG7",
+	"json": "{\"id\":\"LQHpmbjrE7WsDG7\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Castillo-S%C3%A1nchez,+H+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Castillo-S%C3%A1nchez%2C+H+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999257,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Castillo-S%C3%A1nchez%2C+H+A&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Castillo-S%C3%A1nchez,+H+A"
+}

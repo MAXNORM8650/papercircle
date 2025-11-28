@@ -1,0 +1,9 @@
+{
+	"id": "r1s9xZQfLiqMPoh",
+	"json": "{\"id\":\"r1s9xZQfLiqMPoh\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Wilson,+A+G\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Wilson%2C+A+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087020322,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Wilson%2C+A+G&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Wilson,+A+G"
+}

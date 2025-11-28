@@ -1,0 +1,9 @@
+{
+	"id": "Ci4fSuxH3uUD5qQ",
+	"json": "{\"id\":\"Ci4fSuxH3uUD5qQ\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Ma,+X\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Ma%2C+X&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087017163,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Ma%2C+X&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Ma,+X"
+}

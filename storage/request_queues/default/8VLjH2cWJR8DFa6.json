@@ -1,0 +1,9 @@
+{
+	"id": "8VLjH2cWJR8DFa6",
+	"json": "{\"id\":\"8VLjH2cWJR8DFa6\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Eickhoff,+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Eickhoff%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025622,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Eickhoff%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Eickhoff,+C"
+}

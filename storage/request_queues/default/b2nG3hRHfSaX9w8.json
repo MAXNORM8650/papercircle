@@ -1,0 +1,9 @@
+{
+	"id": "b2nG3hRHfSaX9w8",
+	"json": "{\"id\":\"b2nG3hRHfSaX9w8\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Reid,+D+T\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Reid%2C+D+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999281,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Reid%2C+D+T&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Reid,+D+T"
+}

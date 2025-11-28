@@ -1,0 +1,9 @@
+{
+	"id": "UUCONUwO4GIbI6u",
+	"json": "{\"id\":\"UUCONUwO4GIbI6u\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Deng,+F\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Deng%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986658,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Deng%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Deng,+F"
+}

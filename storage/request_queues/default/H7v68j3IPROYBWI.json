@@ -1,0 +1,9 @@
+{
+	"id": "H7v68j3IPROYBWI",
+	"json": "{\"id\":\"H7v68j3IPROYBWI\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Rioja%2C+M+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Rioja%2C+M+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087068269,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Rioja%2C+M+J&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Rioja%2C+M+J"
+}

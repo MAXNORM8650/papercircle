@@ -1,0 +1,9 @@
+{
+	"id": "s8d8RjWLelPven8",
+	"json": "{\"id\":\"s8d8RjWLelPven8\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Andersson,+N\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Andersson%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087037643,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Andersson%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Andersson,+N"
+}

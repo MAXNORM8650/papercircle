@@ -1,0 +1,9 @@
+{
+	"id": "h1EY1iHSorFGkAQ",
+	"json": "{\"id\":\"h1EY1iHSorFGkAQ\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Ky,+N+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Ky%2C+N+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992933,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Ky%2C+N+A&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Ky,+N+A"
+}

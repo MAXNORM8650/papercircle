@@ -1,0 +1,9 @@
+{
+	"id": "Wi43Q6psoIFeluh",
+	"json": "{\"id\":\"Wi43Q6psoIFeluh\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Cabanas-Tirapu,+O\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Cabanas-Tirapu%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087000803,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Cabanas-Tirapu%2C+O&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Cabanas-Tirapu,+O"
+}

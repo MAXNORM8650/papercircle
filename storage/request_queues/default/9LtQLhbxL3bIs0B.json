@@ -1,0 +1,9 @@
+{
+	"id": "9LtQLhbxL3bIs0B",
+	"json": "{\"id\":\"9LtQLhbxL3bIs0B\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Saini,+S\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Saini%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999198,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Saini%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Saini,+S"
+}

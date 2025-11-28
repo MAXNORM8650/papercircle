@@ -1,0 +1,9 @@
+{
+	"id": "0pbKlsdHGbBi8yT",
+	"json": "{\"id\":\"0pbKlsdHGbBi8yT\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Bhelande,+V\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Bhelande%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992755,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Bhelande%2C+V&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Bhelande,+V"
+}

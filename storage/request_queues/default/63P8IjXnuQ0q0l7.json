@@ -1,0 +1,9 @@
+{
+	"id": "63P8IjXnuQ0q0l7",
+	"json": "{\"id\":\"63P8IjXnuQ0q0l7\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Nascimento%2C+C+B+d+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Nascimento%2C+C+B+d+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087094312,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Nascimento%2C+C+B+d+S&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Nascimento%2C+C+B+d+S"
+}

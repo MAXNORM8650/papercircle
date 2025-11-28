@@ -1,0 +1,9 @@
+{
+	"id": "bq2uiLpHQ5G0UuA",
+	"json": "{\"id\":\"bq2uiLpHQ5G0UuA\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Karthik,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Karthik%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087018247,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Karthik%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Karthik,+A"
+}

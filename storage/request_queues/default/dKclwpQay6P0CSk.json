@@ -1,0 +1,9 @@
+{
+	"id": "dKclwpQay6P0CSk",
+	"json": "{\"id\":\"dKclwpQay6P0CSk\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Andersson,+E+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Andersson%2C+E+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987134,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Andersson%2C+E+P&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Andersson,+E+P"
+}

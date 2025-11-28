@@ -1,0 +1,9 @@
+{
+	"id": "20woCfchtiFxZMD",
+	"json": "{\"id\":\"20woCfchtiFxZMD\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Hsieh,+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Hsieh%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986498,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Hsieh%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Hsieh,+P"
+}

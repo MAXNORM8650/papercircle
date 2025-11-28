@@ -1,0 +1,9 @@
+{
+	"id": "y31IWJ0D6LqQHxf",
+	"json": "{\"id\":\"y31IWJ0D6LqQHxf\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ratnani,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ratnani%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009478,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Ratnani%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ratnani,+A"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "CpB4ClqeShlY6uy",
+	"json": "{\"id\":\"CpB4ClqeShlY6uy\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Silva,+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Silva%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987093,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Silva%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Silva,+E"
+}

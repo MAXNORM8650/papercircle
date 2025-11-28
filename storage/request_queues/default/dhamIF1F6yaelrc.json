@@ -1,0 +1,9 @@
+{
+	"id": "dhamIF1F6yaelrc",
+	"json": "{\"id\":\"dhamIF1F6yaelrc\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kang,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kang%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087027081,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Kang%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kang,+S"
+}

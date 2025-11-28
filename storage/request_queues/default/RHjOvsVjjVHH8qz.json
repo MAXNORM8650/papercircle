@@ -1,0 +1,9 @@
+{
+	"id": "RHjOvsVjjVHH8qz",
+	"json": "{\"id\":\"RHjOvsVjjVHH8qz\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Pearce,+P+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Pearce%2C+P+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989570,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-th?query=Pearce%2C+P+A&searchtype=author",
+	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Pearce,+P+A"
+}

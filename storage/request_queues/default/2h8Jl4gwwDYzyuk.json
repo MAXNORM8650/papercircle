@@ -1,0 +1,9 @@
+{
+	"id": "2h8Jl4gwwDYzyuk",
+	"json": "{\"id\":\"2h8Jl4gwwDYzyuk\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Hai,+V+T\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Hai%2C+V+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087003676,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Hai%2C+V+T&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Hai,+V+T"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "T67r2N9t79vtAjO",
+	"json": "{\"id\":\"T67r2N9t79vtAjO\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Groll,+E+A\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Groll%2C+E+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015817,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Groll%2C+E+A&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Groll,+E+A"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "pOCldY8f7SBjb96",
+	"json": "{\"id\":\"pOCldY8f7SBjb96\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Kinyera,+L\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Kinyera%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999146,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Kinyera%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Kinyera,+L"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "IOTS17uLH2VaUgw",
+	"json": "{\"id\":\"IOTS17uLH2VaUgw\",\"url\":\"https://arxiv.org/list/physics.plasm-ph/recent?skip=13&show=50\",\"uniqueKey\":\"https://arxiv.org/list/physics.plasm-ph/recent?show=50&skip=13\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087003043,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/physics.plasm-ph/recent?show=50&skip=13",
+	"url": "https://arxiv.org/list/physics.plasm-ph/recent?skip=13&show=50"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "9mDzrH16gMj61ej",
+	"json": "{\"id\":\"9mDzrH16gMj61ej\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Zhu,+J\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Zhu%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994283,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Zhu%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Zhu,+J"
+}

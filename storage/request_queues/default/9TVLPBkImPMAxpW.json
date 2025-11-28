@@ -1,0 +1,9 @@
+{
+	"id": "9TVLPBkImPMAxpW",
+	"json": "{\"id\":\"9TVLPBkImPMAxpW\",\"url\":\"https://arxiv.org/list/nucl-ex/recent?skip=11&show=50\",\"uniqueKey\":\"https://arxiv.org/list/nucl-ex/recent?show=50&skip=11\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997724,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/nucl-ex/recent?show=50&skip=11",
+	"url": "https://arxiv.org/list/nucl-ex/recent?skip=11&show=50"
+}

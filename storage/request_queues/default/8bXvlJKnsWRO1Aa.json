@@ -1,0 +1,9 @@
+{
+	"id": "8bXvlJKnsWRO1Aa",
+	"json": "{\"id\":\"8bXvlJKnsWRO1Aa\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Teo,+L\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Teo%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009170,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Teo%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Teo,+L"
+}

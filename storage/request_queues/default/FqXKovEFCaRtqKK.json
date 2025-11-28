@@ -1,0 +1,9 @@
+{
+	"id": "FqXKovEFCaRtqKK",
+	"json": "{\"id\":\"FqXKovEFCaRtqKK\",\"url\":\"https://arxiv.org/search/q-fin?searchtype=author&query=Dalmazo,+B+L\",\"uniqueKey\":\"https://arxiv.org/search/q-fin?query=Dalmazo%2C+B+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087021755,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-fin?query=Dalmazo%2C+B+L&searchtype=author",
+	"url": "https://arxiv.org/search/q-fin?searchtype=author&query=Dalmazo,+B+L"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "8wz8G1HecI9yNsX",
+	"json": "{\"id\":\"8wz8G1HecI9yNsX\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Pozzato,+M\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Pozzato%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992594,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Pozzato%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Pozzato,+M"
+}

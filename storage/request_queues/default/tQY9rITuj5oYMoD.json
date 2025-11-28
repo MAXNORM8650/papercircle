@@ -1,0 +1,9 @@
+{
+	"id": "tQY9rITuj5oYMoD",
+	"json": "{\"id\":\"tQY9rITuj5oYMoD\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Crossfield%2C+I+J+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Crossfield%2C+I+J+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087072605,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Crossfield%2C+I+J+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Crossfield%2C+I+J+M"
+}

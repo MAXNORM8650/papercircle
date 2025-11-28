@@ -1,0 +1,9 @@
+{
+	"id": "CnK0qnU30zdlAJI",
+	"json": "{\"id\":\"CnK0qnU30zdlAJI\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Graulich,+N\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Graulich%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002879,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Graulich%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Graulich,+N"
+}

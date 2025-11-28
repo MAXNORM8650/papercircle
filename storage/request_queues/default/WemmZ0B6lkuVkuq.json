@@ -1,0 +1,9 @@
+{
+	"id": "WemmZ0B6lkuVkuq",
+	"json": "{\"id\":\"WemmZ0B6lkuVkuq\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Bouta,+M\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Bouta%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988221,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Bouta%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Bouta,+M"
+}

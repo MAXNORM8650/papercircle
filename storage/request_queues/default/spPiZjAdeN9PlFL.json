@@ -1,0 +1,9 @@
+{
+	"id": "spPiZjAdeN9PlFL",
+	"json": "{\"id\":\"spPiZjAdeN9PlFL\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Vyalikh,+D+V\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Vyalikh%2C+D+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988855,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Vyalikh%2C+D+V&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Vyalikh,+D+V"
+}

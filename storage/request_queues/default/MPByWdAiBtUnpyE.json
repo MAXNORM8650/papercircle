@@ -1,0 +1,9 @@
+{
+	"id": "MPByWdAiBtUnpyE",
+	"json": "{\"id\":\"MPByWdAiBtUnpyE\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Gl%C3%BCcksam,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Gl%C3%BCcksam%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006827,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Gl%C3%BCcksam%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Gl%C3%BCcksam,+A"
+}

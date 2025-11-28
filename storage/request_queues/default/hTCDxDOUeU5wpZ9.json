@@ -1,0 +1,9 @@
+{
+	"id": "hTCDxDOUeU5wpZ9",
+	"json": "{\"id\":\"hTCDxDOUeU5wpZ9\",\"url\":\"https://arxiv.org/list/nlin.PS/current\",\"uniqueKey\":\"https://arxiv.org/list/nlin.PS/current\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086996104,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/nlin.PS/current",
+	"url": "https://arxiv.org/list/nlin.PS/current"
+}

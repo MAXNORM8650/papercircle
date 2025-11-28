@@ -1,0 +1,9 @@
+{
+	"id": "vAoiLKd6Ez0Kqpn",
+	"json": "{\"id\":\"vAoiLKd6Ez0Kqpn\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Wan,+D\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Wan%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007614,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Wan%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Wan,+D"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "EJ5bya2mMe81IZT",
+	"json": "{\"id\":\"EJ5bya2mMe81IZT\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Lebreuilly%2C+U\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Lebreuilly%2C+U&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087086368,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Lebreuilly%2C+U&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Lebreuilly%2C+U"
+}

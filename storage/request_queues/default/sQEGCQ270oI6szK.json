@@ -1,0 +1,9 @@
+{
+	"id": "sQEGCQ270oI6szK",
+	"json": "{\"id\":\"sQEGCQ270oI6szK\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=de+Is%C3%ADdio,+N+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=de+Is%C3%ADdio%2C+N+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087030273,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=de+Is%C3%ADdio%2C+N+G&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=de+Is%C3%ADdio,+N+G"
+}

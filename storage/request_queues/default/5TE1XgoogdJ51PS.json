@@ -1,0 +1,9 @@
+{
+	"id": "5TE1XgoogdJ51PS",
+	"json": "{\"id\":\"5TE1XgoogdJ51PS\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Guih%C3%A9neuf,+P\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Guih%C3%A9neuf%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006961,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Guih%C3%A9neuf%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Guih%C3%A9neuf,+P"
+}

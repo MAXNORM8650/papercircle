@@ -1,0 +1,9 @@
+{
+	"id": "evi7mwQJcoVO2fE",
+	"json": "{\"id\":\"evi7mwQJcoVO2fE\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Yan,+B\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Yan%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087003600,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Yan%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Yan,+B"
+}

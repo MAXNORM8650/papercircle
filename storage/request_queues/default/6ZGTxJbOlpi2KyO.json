@@ -1,0 +1,9 @@
+{
+	"id": "6ZGTxJbOlpi2KyO",
+	"json": "{\"id\":\"6ZGTxJbOlpi2KyO\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Wei,+L\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Wei%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086990310,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Wei%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Wei,+L"
+}

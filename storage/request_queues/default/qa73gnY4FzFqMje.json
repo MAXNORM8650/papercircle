@@ -1,0 +1,9 @@
+{
+	"id": "qa73gnY4FzFqMje",
+	"json": "{\"id\":\"qa73gnY4FzFqMje\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Torre,+M+V\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Torre%2C+M+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012751,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Torre%2C+M+V&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Torre,+M+V"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "gtvYXTsF3XAY9j0",
+	"json": "{\"id\":\"gtvYXTsF3XAY9j0\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Durham,+J+W\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Durham%2C+J+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087028343,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Durham%2C+J+W&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Durham,+J+W"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Xt4EJ8DqFC2p62S",
+	"json": "{\"id\":\"Xt4EJ8DqFC2p62S\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Deng,+Z\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Deng%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989512,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Deng%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Deng,+Z"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "wUFm2tp6so3oHhf",
+	"json": "{\"id\":\"wUFm2tp6so3oHhf\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ioka,+K\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Ioka%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087035300,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Ioka%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Ioka,+K"
+}

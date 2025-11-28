@@ -1,0 +1,9 @@
+{
+	"id": "Mv6foDGyE0r5MpA",
+	"json": "{\"id\":\"Mv6foDGyE0r5MpA\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Kleefeld,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Kleefeld%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007630,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Kleefeld%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Kleefeld,+A"
+}

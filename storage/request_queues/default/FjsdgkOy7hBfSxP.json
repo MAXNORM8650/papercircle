@@ -1,0 +1,9 @@
+{
+	"id": "FjsdgkOy7hBfSxP",
+	"json": "{\"id\":\"FjsdgkOy7hBfSxP\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Itsios,+G\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Itsios%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994557,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-th?query=Itsios%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Itsios,+G"
+}

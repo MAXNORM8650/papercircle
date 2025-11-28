@@ -1,0 +1,9 @@
+{
+	"id": "E1SY3JARQXD2pj3",
+	"json": "{\"id\":\"E1SY3JARQXD2pj3\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Sormani,+M+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Sormani%2C+M+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986491,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Sormani%2C+M+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Sormani,+M+C"
+}

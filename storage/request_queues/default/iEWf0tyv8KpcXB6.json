@@ -1,0 +1,9 @@
+{
+	"id": "iEWf0tyv8KpcXB6",
+	"json": "{\"id\":\"iEWf0tyv8KpcXB6\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Romander,+E+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Romander%2C+E+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001370,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Romander%2C+E+A&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Romander,+E+A"
+}

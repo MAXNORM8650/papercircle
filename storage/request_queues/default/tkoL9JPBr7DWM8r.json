@@ -1,0 +1,9 @@
+{
+	"id": "tkoL9JPBr7DWM8r",
+	"json": "{\"id\":\"tkoL9JPBr7DWM8r\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Young,+A+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Young%2C+A+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997828,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Young%2C+A+R&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Young,+A+R"
+}

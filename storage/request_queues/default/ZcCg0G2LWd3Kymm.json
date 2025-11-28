@@ -1,0 +1,9 @@
+{
+	"id": "ZcCg0G2LWd3Kymm",
+	"json": "{\"id\":\"ZcCg0G2LWd3Kymm\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Campeny,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Campeny%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002273,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Campeny%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Campeny,+A"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "T8qkU4MZkouePoc",
+	"json": "{\"id\":\"T8qkU4MZkouePoc\",\"url\":\"https://arxiv.org/list/astro-ph.EP/recent\",\"loadedUrl\":\"https://arxiv.org/list/astro-ph.EP/recent\",\"uniqueKey\":\"https://arxiv.org/list/astro-ph.EP/recent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:47.619Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/astro-ph.EP/recent",
+	"url": "https://arxiv.org/list/astro-ph.EP/recent"
+}

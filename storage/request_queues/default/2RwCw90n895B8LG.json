@@ -1,0 +1,9 @@
+{
+	"id": "2RwCw90n895B8LG",
+	"json": "{\"id\":\"2RwCw90n895B8LG\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Lahav,+O\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Lahav%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986539,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Lahav%2C+O&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Lahav,+O"
+}

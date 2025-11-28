@@ -1,0 +1,9 @@
+{
+	"id": "k3R20HKfaWV744m",
+	"json": "{\"id\":\"k3R20HKfaWV744m\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Harisha,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Harisha%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087027192,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Harisha%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Harisha,+S"
+}

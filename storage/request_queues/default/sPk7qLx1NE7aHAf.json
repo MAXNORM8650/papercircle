@@ -1,0 +1,9 @@
+{
+	"id": "sPk7qLx1NE7aHAf",
+	"json": "{\"id\":\"sPk7qLx1NE7aHAf\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=%C5%BDuti%C4%87,+I\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=%C5%BDuti%C4%87%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988916,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=%C5%BDuti%C4%87%2C+I&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=%C5%BDuti%C4%87,+I"
+}

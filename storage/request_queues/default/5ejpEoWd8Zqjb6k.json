@@ -1,0 +1,9 @@
+{
+	"id": "5ejpEoWd8Zqjb6k",
+	"json": "{\"id\":\"5ejpEoWd8Zqjb6k\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kopp,+G\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kopp,+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Kopp%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:21.462Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Kopp%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Kopp,+G"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "B11dlJM61FUCXru",
+	"json": "{\"id\":\"B11dlJM61FUCXru\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Biek%C3%B6tter,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Biek%C3%B6tter%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992807,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Biek%C3%B6tter%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Biek%C3%B6tter,+A"
+}

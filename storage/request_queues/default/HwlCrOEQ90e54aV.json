@@ -1,0 +1,9 @@
+{
+	"id": "HwlCrOEQ90e54aV",
+	"json": "{\"id\":\"HwlCrOEQ90e54aV\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Qi,+W\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Qi%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087028268,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Qi%2C+W&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Qi,+W"
+}

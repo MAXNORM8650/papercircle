@@ -1,0 +1,9 @@
+{
+	"id": "82sQkZI9izsgyLc",
+	"json": "{\"id\":\"82sQkZI9izsgyLc\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Braun,+G\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Braun%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023592,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Braun%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Braun,+G"
+}

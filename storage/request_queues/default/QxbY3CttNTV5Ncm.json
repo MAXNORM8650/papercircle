@@ -1,0 +1,9 @@
+{
+	"id": "QxbY3CttNTV5Ncm",
+	"json": "{\"id\":\"QxbY3CttNTV5Ncm\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Penttil%C3%A4,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Penttil%C3%A4%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987472,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Penttil%C3%A4%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Penttil%C3%A4,+A"
+}

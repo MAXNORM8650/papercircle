@@ -1,0 +1,9 @@
+{
+	"id": "a3zvEsZvnfssRvv",
+	"json": "{\"id\":\"a3zvEsZvnfssRvv\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Christiansen,+%C3%98\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Christiansen%2C+%C3%98&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986833,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Christiansen%2C+%C3%98&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Christiansen,+%C3%98"
+}

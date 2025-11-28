@@ -1,0 +1,9 @@
+{
+	"id": "cOFDVAk8htKWE5i",
+	"json": "{\"id\":\"cOFDVAk8htKWE5i\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Toschi,+F\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Toschi%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989034,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Toschi%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Toschi,+F"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "3KfmzGFsdunCofq",
+	"json": "{\"id\":\"3KfmzGFsdunCofq\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Qureshi,+F+Z\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Qureshi%2C+F+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012640,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Qureshi%2C+F+Z&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Qureshi,+F+Z"
+}

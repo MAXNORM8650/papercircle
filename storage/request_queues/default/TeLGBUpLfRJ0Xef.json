@@ -1,0 +1,9 @@
+{
+	"id": "TeLGBUpLfRJ0Xef",
+	"json": "{\"id\":\"TeLGBUpLfRJ0Xef\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Rivi%C3%A8re,+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Rivi%C3%A8re%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988100,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Rivi%C3%A8re%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Rivi%C3%A8re,+E"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "yuYYIJizvBLIWLB",
+	"json": "{\"id\":\"yuYYIJizvBLIWLB\",\"url\":\"https://arxiv.org/search/hep-lat?searchtype=author&query=Lamm,+H\",\"uniqueKey\":\"https://arxiv.org/search/hep-lat?query=Lamm%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086993589,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-lat?query=Lamm%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/hep-lat?searchtype=author&query=Lamm,+H"
+}

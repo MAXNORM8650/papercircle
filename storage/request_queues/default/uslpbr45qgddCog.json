@@ -1,0 +1,9 @@
+{
+	"id": "uslpbr45qgddCog",
+	"json": "{\"id\":\"uslpbr45qgddCog\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Koltai,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Koltai%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999575,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Koltai%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Koltai,+J"
+}

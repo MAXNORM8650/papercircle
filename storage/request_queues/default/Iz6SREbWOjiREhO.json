@@ -1,0 +1,9 @@
+{
+	"id": "Iz6SREbWOjiREhO",
+	"json": "{\"id\":\"Iz6SREbWOjiREhO\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Gontcho,+S+G+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Gontcho%2C+S+G+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986517,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Gontcho%2C+S+G+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Gontcho,+S+G+A"
+}

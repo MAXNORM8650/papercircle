@@ -1,0 +1,9 @@
+{
+	"id": "AoMFpDYmCSQ9Qtf",
+	"json": "{\"id\":\"AoMFpDYmCSQ9Qtf\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Chaczko,+Z\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Chaczko%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999380,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Chaczko%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Chaczko,+Z"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "BNKRKSt3TwWYklh",
+	"json": "{\"id\":\"BNKRKSt3TwWYklh\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Cheverry,+C\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Cheverry%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086995470,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Cheverry%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Cheverry,+C"
+}

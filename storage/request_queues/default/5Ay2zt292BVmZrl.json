@@ -1,0 +1,9 @@
+{
+	"id": "5Ay2zt292BVmZrl",
+	"json": "{\"id\":\"5Ay2zt292BVmZrl\",\"url\":\"https://arxiv.org/search/astro-ph\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:47.083Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph",
+	"url": "https://arxiv.org/search/astro-ph"
+}

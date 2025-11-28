@@ -1,0 +1,9 @@
+{
+	"id": "Q2Gm0GJW2dEA37o",
+	"json": "{\"id\":\"Q2Gm0GJW2dEA37o\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Hammond,+M\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Hammond%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994556,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-th?query=Hammond%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Hammond,+M"
+}

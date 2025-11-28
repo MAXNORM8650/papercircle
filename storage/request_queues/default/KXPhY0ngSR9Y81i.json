@@ -1,0 +1,9 @@
+{
+	"id": "KXPhY0ngSR9Y81i",
+	"json": "{\"id\":\"KXPhY0ngSR9Y81i\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Neamah,+O+N\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Neamah%2C+O+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087003729,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Neamah%2C+O+N&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Neamah,+O+N"
+}

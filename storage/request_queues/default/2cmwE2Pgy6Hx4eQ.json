@@ -1,0 +1,9 @@
+{
+	"id": "2cmwE2Pgy6Hx4eQ",
+	"json": "{\"id\":\"2cmwE2Pgy6Hx4eQ\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Goswami,+K+B\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Goswami%2C+K+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991613,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Goswami%2C+K+B&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Goswami,+K+B"
+}

@@ -1,0 +1,40 @@
+{
+  "requestsFinished": 320,
+  "requestsFailed": 0,
+  "requestsRetries": 0,
+  "requestsFailedPerMinute": 0,
+  "requestsFinishedPerMinute": 319,
+  "requestMinDurationMillis": 137,
+  "requestMaxDurationMillis": 3387,
+  "requestTotalFailedDurationMillis": 0,
+  "requestTotalFinishedDurationMillis": 255653,
+  "crawlerStartedAt": "2025-11-25T16:09:43.239Z",
+  "crawlerFinishedAt": null,
+  "statsPersistedAt": "2025-11-25T16:10:43.226Z",
+  "crawlerRuntimeMillis": 60155,
+  "crawlerLastStartTimestamp": 1764086983071,
+  "requestRetryHistogram": [
+    320
+  ],
+  "statsId": 0,
+  "requestAvgFailedDurationMillis": null,
+  "requestAvgFinishedDurationMillis": 799,
+  "requestTotalDurationMillis": 255653,
+  "requestsTotal": 320,
+  "requestsWithStatusCode": {
+    "200": 315,
+    "404": 5
+  },
+  "errors": {},
+  "retryErrors": {
+    "/Users/komal.kumar/Documents/websites/papercircle/node_modules/@crawlee/playwright/internals/utils/playwright-utils.js:166:17": {
+      "missing error code": {
+        "Error": {
+          "page.goto: Download is starting": {
+            "count": 5
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+	"id": "DwSGrIteAOSTzwT",
+	"json": "{\"id\":\"DwSGrIteAOSTzwT\",\"url\":\"https://arxiv.org/search/hep-lat?searchtype=author&query=Gustafson,+E+J\",\"uniqueKey\":\"https://arxiv.org/search/hep-lat?query=Gustafson%2C+E+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086993588,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-lat?query=Gustafson%2C+E+J&searchtype=author",
+	"url": "https://arxiv.org/search/hep-lat?searchtype=author&query=Gustafson,+E+J"
+}

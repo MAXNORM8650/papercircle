@@ -1,0 +1,9 @@
+{
+	"id": "KeFC7hNQ88R8syK",
+	"json": "{\"id\":\"KeFC7hNQ88R8syK\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Gozzini,+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Gozzini%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988247,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Gozzini%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Gozzini,+R"
+}

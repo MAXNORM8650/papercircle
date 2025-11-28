@@ -1,0 +1,9 @@
+{
+	"id": "X6SPhDlA79vM9jN",
+	"json": "{\"id\":\"X6SPhDlA79vM9jN\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Muhtadi,+S\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Muhtadi%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002404,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Muhtadi%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Muhtadi,+S"
+}

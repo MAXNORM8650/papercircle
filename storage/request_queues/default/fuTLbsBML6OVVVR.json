@@ -1,0 +1,9 @@
+{
+	"id": "fuTLbsBML6OVVVR",
+	"json": "{\"id\":\"fuTLbsBML6OVVVR\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=V.V.Kiselev\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=V.V.Kiselev&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994140,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=V.V.Kiselev&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=V.V.Kiselev"
+}

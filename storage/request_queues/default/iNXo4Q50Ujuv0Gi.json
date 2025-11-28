@@ -1,0 +1,9 @@
+{
+	"id": "iNXo4Q50Ujuv0Gi",
+	"json": "{\"id\":\"iNXo4Q50Ujuv0Gi\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Basavaraju,+P+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Basavaraju%2C+P+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015697,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Basavaraju%2C+P+H&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Basavaraju,+P+H"
+}

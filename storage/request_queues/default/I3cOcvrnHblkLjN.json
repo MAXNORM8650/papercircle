@@ -1,0 +1,9 @@
+{
+	"id": "I3cOcvrnHblkLjN",
+	"json": "{\"id\":\"I3cOcvrnHblkLjN\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Ratzinger,+W\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Ratzinger%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991586,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Ratzinger%2C+W&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Ratzinger,+W"
+}

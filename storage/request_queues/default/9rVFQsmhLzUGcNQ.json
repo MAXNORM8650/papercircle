@@ -1,0 +1,9 @@
+{
+	"id": "9rVFQsmhLzUGcNQ",
+	"json": "{\"id\":\"9rVFQsmhLzUGcNQ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Leemker,+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Leemker%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987426,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Leemker%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Leemker,+M"
+}

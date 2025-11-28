@@ -1,0 +1,9 @@
+{
+	"id": "HUrMZJiJtLVdKl8",
+	"json": "{\"id\":\"HUrMZJiJtLVdKl8\",\"url\":\"https://arxiv.org/list/nucl-ex/recent\",\"loadedUrl\":\"https://arxiv.org/list/nucl-ex/recent\",\"uniqueKey\":\"https://arxiv.org/list/nucl-ex/recent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:57.928Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/nucl-ex/recent",
+	"url": "https://arxiv.org/list/nucl-ex/recent"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "op0Lv0VnQ071sF9",
+	"json": "{\"id\":\"op0Lv0VnQ071sF9\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Li,+K\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Li%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007555,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Li%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Li,+K"
+}

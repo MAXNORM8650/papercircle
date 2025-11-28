@@ -1,0 +1,9 @@
+{
+	"id": "vvxBbIHJ7iqE0Ay",
+	"json": "{\"id\":\"vvxBbIHJ7iqE0Ay\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=de+Oliveira,+L+P\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=de+Oliveira%2C+L+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999156,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=de+Oliveira%2C+L+P&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=de+Oliveira,+L+P"
+}

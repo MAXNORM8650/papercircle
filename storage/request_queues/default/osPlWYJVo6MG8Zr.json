@@ -1,0 +1,9 @@
+{
+	"id": "osPlWYJVo6MG8Zr",
+	"json": "{\"id\":\"osPlWYJVo6MG8Zr\",\"url\":\"https://arxiv.org/search/nucl-th?searchtype=author&query=Stevenson,+P\",\"uniqueKey\":\"https://arxiv.org/search/nucl-th?query=Stevenson%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086998161,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-th?query=Stevenson%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-th?searchtype=author&query=Stevenson,+P"
+}

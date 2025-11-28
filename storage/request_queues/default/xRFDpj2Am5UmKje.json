@@ -1,0 +1,9 @@
+{
+	"id": "xRFDpj2Am5UmKje",
+	"json": "{\"id\":\"xRFDpj2Am5UmKje\",\"url\":\"https://arxiv.org/search/math-ph?searchtype=author&query=Sangaletti,+L\",\"uniqueKey\":\"https://arxiv.org/search/math-ph?query=Sangaletti%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994588,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math-ph?query=Sangaletti%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/math-ph?searchtype=author&query=Sangaletti,+L"
+}

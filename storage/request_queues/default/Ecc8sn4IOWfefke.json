@@ -1,0 +1,9 @@
+{
+	"id": "Ecc8sn4IOWfefke",
+	"json": "{\"id\":\"Ecc8sn4IOWfefke\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Szpond,+J\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Szpond%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005156,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Szpond%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Szpond,+J"
+}

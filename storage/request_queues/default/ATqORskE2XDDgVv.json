@@ -1,0 +1,9 @@
+{
+	"id": "ATqORskE2XDDgVv",
+	"json": "{\"id\":\"ATqORskE2XDDgVv\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Medaglia,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Medaglia%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001244,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Medaglia%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Medaglia,+A"
+}

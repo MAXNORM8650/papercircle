@@ -1,0 +1,9 @@
+{
+	"id": "irx9EATcphzTzC9",
+	"json": "{\"id\":\"irx9EATcphzTzC9\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Yu,+Z\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Yu%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999162,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Yu%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Yu,+Z"
+}

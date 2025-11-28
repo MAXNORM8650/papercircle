@@ -1,0 +1,9 @@
+{
+	"id": "4V1S8OweTdJEP25",
+	"json": "{\"id\":\"4V1S8OweTdJEP25\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Baussan,+E\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Baussan%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002252,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Baussan%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Baussan,+E"
+}

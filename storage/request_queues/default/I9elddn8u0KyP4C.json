@@ -1,0 +1,9 @@
+{
+	"id": "I9elddn8u0KyP4C",
+	"json": "{\"id\":\"I9elddn8u0KyP4C\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=De+Cicco,+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=De+Cicco%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987163,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=De+Cicco%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=De+Cicco,+D"
+}

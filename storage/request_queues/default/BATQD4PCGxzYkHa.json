@@ -1,0 +1,9 @@
+{
+	"id": "BATQD4PCGxzYkHa",
+	"json": "{\"id\":\"BATQD4PCGxzYkHa\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Chen%2C+Z&start=100\",\"uniqueKey\":\"https://arxiv.org/search?query=Chen%2C+Z&searchtype=author&start=100\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087061071,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Chen%2C+Z&searchtype=author&start=100",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Chen%2C+Z&start=100"
+}

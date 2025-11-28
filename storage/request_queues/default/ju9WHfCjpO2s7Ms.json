@@ -1,0 +1,9 @@
+{
+	"id": "ju9WHfCjpO2s7Ms",
+	"json": "{\"id\":\"ju9WHfCjpO2s7Ms\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kormann,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kormann%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087028321,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Kormann%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kormann,+M"
+}

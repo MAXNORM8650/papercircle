@@ -1,0 +1,9 @@
+{
+	"id": "m9TyW3h0FIVQXhc",
+	"json": "{\"id\":\"m9TyW3h0FIVQXhc\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Andreopoulos,+C\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Andreopoulos%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002241,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Andreopoulos%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Andreopoulos,+C"
+}

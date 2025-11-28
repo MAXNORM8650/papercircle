@@ -1,0 +1,9 @@
+{
+	"id": "e9Dp6jw2u96LUau",
+	"json": "{\"id\":\"e9Dp6jw2u96LUau\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Fu,+D+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Fu%2C+D+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010136,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Fu%2C+D+J&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Fu,+D+J"
+}

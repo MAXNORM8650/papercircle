@@ -1,0 +1,9 @@
+{
+	"id": "GYhKtArwDXE2BZp",
+	"json": "{\"id\":\"GYhKtArwDXE2BZp\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Chan,+S+H\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Chan%2C+S+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006647,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Chan%2C+S+H&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Chan,+S+H"
+}

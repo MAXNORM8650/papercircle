@@ -1,0 +1,9 @@
+{
+	"id": "JMKT3YicQRoKptx",
+	"json": "{\"id\":\"JMKT3YicQRoKptx\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Miret-Roig,+N\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Miret-Roig%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987447,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Miret-Roig%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Miret-Roig,+N"
+}

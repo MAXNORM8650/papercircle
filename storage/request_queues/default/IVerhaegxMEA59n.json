@@ -1,0 +1,9 @@
+{
+	"id": "IVerhaegxMEA59n",
+	"json": "{\"id\":\"IVerhaegxMEA59n\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Lu,+Z\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Lu%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989462,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Lu%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Lu,+Z"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "iwUoe8HGfWfEnDb",
+	"json": "{\"id\":\"iwUoe8HGfWfEnDb\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Bonhomme,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Bonhomme%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002263,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Bonhomme%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Bonhomme,+A"
+}

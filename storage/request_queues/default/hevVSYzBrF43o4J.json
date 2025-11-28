@@ -1,0 +1,9 @@
+{
+	"id": "hevVSYzBrF43o4J",
+	"json": "{\"id\":\"hevVSYzBrF43o4J\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Lamura,+A\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Lamura%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086990813,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Lamura%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Lamura,+A"
+}

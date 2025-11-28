@@ -1,0 +1,9 @@
+{
+	"id": "l7PSZa4PpyeJ1lE",
+	"json": "{\"id\":\"l7PSZa4PpyeJ1lE\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Harris,+C\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Harris%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087000607,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Harris%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Harris,+C"
+}

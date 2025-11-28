@@ -1,0 +1,9 @@
+{
+	"id": "XB3GjfA5RYfoR3K",
+	"json": "{\"id\":\"XB3GjfA5RYfoR3K\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Perion,+P\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Perion%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002456,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Perion%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Perion,+P"
+}

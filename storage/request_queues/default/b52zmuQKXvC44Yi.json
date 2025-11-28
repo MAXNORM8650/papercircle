@@ -1,0 +1,9 @@
+{
+	"id": "b52zmuQKXvC44Yi",
+	"json": "{\"id\":\"b52zmuQKXvC44Yi\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Schaefer,+S\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Schaefer%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002198,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Schaefer%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Schaefer,+S"
+}

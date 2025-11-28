@@ -1,0 +1,9 @@
+{
+	"id": "bJimF1g9lJAWNX9",
+	"json": "{\"id\":\"bJimF1g9lJAWNX9\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Sharma,+A\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Sharma%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991511,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Sharma%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Sharma,+A"
+}

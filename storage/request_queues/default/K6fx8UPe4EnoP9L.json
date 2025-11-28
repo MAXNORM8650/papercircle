@@ -1,0 +1,9 @@
+{
+	"id": "K6fx8UPe4EnoP9L",
+	"json": "{\"id\":\"K6fx8UPe4EnoP9L\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Gaipl,+U+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Gaipl%2C+U+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015753,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Gaipl%2C+U+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Gaipl,+U+S"
+}

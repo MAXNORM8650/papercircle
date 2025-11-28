@@ -1,0 +1,9 @@
+{
+	"id": "bbxz9XKOVG6sSZz",
+	"json": "{\"id\":\"bbxz9XKOVG6sSZz\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Kou,+W\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Kou%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086998512,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Kou%2C+W&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Kou,+W"
+}

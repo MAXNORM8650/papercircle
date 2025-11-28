@@ -1,0 +1,9 @@
+{
+	"id": "y7Fl3mfWGstDnPV",
+	"json": "{\"id\":\"y7Fl3mfWGstDnPV\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Del+Grosso,+L\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Del+Grosso%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991552,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Del+Grosso%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Del+Grosso,+L"
+}

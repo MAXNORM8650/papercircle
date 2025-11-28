@@ -1,0 +1,9 @@
+{
+	"id": "7195ieNqrnsiscp",
+	"json": "{\"id\":\"7195ieNqrnsiscp\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Pearce,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Pearce%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988074,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Pearce%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Pearce,+A"
+}

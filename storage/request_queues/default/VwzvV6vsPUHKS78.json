@@ -1,0 +1,9 @@
+{
+	"id": "VwzvV6vsPUHKS78",
+	"json": "{\"id\":\"VwzvV6vsPUHKS78\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Totzeck,+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Totzeck%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002607,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Totzeck%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Totzeck,+C"
+}

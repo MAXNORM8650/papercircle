@@ -1,0 +1,9 @@
+{
+	"id": "VWjk99kY9lujLvF",
+	"json": "{\"id\":\"VWjk99kY9lujLvF\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Chakrabortty,+A\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Chakrabortty%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009747,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Chakrabortty%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Chakrabortty,+A"
+}

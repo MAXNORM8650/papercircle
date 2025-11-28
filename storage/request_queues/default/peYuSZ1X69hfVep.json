@@ -1,0 +1,9 @@
+{
+	"id": "peYuSZ1X69hfVep",
+	"json": "{\"id\":\"peYuSZ1X69hfVep\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Oliveros-Gomez,+N\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Oliveros-Gomez%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987596,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Oliveros-Gomez%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Oliveros-Gomez,+N"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "p98sFwFoNVgv8K7",
+	"json": "{\"id\":\"p98sFwFoNVgv8K7\",\"url\":\"https://arxiv.org/search/math-ph?searchtype=author&query=Stockmeyer,+E\",\"uniqueKey\":\"https://arxiv.org/search/math-ph?query=Stockmeyer%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086995453,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math-ph?query=Stockmeyer%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/math-ph?searchtype=author&query=Stockmeyer,+E"
+}

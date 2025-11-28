@@ -1,0 +1,9 @@
+{
+	"id": "G1qicI8js2yonYt",
+	"json": "{\"id\":\"G1qicI8js2yonYt\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Senchyna,+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Senchyna%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087036674,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Senchyna%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Senchyna,+P"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "IrwNz6MhLLeG4GN",
+	"json": "{\"id\":\"IrwNz6MhLLeG4GN\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Corasaniti%2C+P+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Corasaniti%2C+P+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087061408,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Corasaniti%2C+P+S&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Corasaniti%2C+P+S"
+}

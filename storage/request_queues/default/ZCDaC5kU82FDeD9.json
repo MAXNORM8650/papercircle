@@ -1,0 +1,9 @@
+{
+	"id": "ZCDaC5kU82FDeD9",
+	"json": "{\"id\":\"ZCDaC5kU82FDeD9\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Lu,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Lu%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087011427,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Lu%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Lu,+S"
+}

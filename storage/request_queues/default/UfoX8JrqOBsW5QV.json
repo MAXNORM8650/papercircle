@@ -1,0 +1,9 @@
+{
+	"id": "UfoX8JrqOBsW5QV",
+	"json": "{\"id\":\"UfoX8JrqOBsW5QV\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Oliver,+C+G\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Oliver%2C+C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988245,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Oliver%2C+C+G&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Oliver,+C+G"
+}

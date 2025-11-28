@@ -1,0 +1,9 @@
+{
+	"id": "wvP0HSCQHZ3oVDl",
+	"json": "{\"id\":\"wvP0HSCQHZ3oVDl\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Gorj%C3%A3o,+L+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Gorj%C3%A3o%2C+L+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086996465,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Gorj%C3%A3o%2C+L+R&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Gorj%C3%A3o,+L+R"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Kw8QsH6nXMb3wmm",
+	"json": "{\"id\":\"Kw8QsH6nXMb3wmm\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Solov%27yov,+A+V\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Solov%27yov%2C+A+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999628,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Solov%27yov%2C+A+V&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Solov%27yov,+A+V"
+}

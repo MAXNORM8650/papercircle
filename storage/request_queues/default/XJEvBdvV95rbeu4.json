@@ -1,0 +1,9 @@
+{
+	"id": "XJEvBdvV95rbeu4",
+	"json": "{\"id\":\"XJEvBdvV95rbeu4\",\"url\":\"https://arxiv.org/list/cond-mat.soft/recent\",\"loadedUrl\":\"https://arxiv.org/list/cond-mat.soft/recent\",\"uniqueKey\":\"https://arxiv.org/list/cond-mat.soft/recent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:50.824Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/cond-mat.soft/recent",
+	"url": "https://arxiv.org/list/cond-mat.soft/recent"
+}

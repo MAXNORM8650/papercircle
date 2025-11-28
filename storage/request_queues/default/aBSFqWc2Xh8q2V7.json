@@ -1,0 +1,9 @@
+{
+	"id": "aBSFqWc2Xh8q2V7",
+	"json": "{\"id\":\"aBSFqWc2Xh8q2V7\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Magaletti,+L\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Magaletti%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992508,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Magaletti%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Magaletti,+L"
+}

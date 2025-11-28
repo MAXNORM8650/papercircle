@@ -1,0 +1,9 @@
+{
+	"id": "xWF69awIPyB4U0w",
+	"json": "{\"id\":\"xWF69awIPyB4U0w\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Khawaja,+U+A\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Khawaja%2C+U+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086996514,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Khawaja%2C+U+A&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Khawaja,+U+A"
+}

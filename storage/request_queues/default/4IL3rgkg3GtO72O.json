@@ -1,0 +1,9 @@
+{
+	"id": "4IL3rgkg3GtO72O",
+	"json": "{\"id\":\"4IL3rgkg3GtO72O\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Holcman,+D\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Holcman%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087020939,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Holcman%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Holcman,+D"
+}

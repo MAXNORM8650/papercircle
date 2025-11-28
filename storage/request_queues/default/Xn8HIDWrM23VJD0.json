@@ -1,0 +1,9 @@
+{
+	"id": "Xn8HIDWrM23VJD0",
+	"json": "{\"id\":\"Xn8HIDWrM23VJD0\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Papanikolaou,+T\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Papanikolaou%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991532,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Papanikolaou%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Papanikolaou,+T"
+}

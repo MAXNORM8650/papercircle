@@ -1,0 +1,9 @@
+{
+	"id": "HxXC5AYyOaoIi1n",
+	"json": "{\"id\":\"HxXC5AYyOaoIi1n\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Mahajan,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Mahajan%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012752,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Mahajan%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Mahajan,+S"
+}

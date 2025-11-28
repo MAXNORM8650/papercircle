@@ -1,0 +1,9 @@
+{
+	"id": "NyYXZQibRfLAKVR",
+	"json": "{\"id\":\"NyYXZQibRfLAKVR\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Murray,+T+J\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Murray%2C+T+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989104,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Murray%2C+T+J&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Murray,+T+J"
+}

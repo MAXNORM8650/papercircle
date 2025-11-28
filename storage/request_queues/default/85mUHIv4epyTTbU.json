@@ -1,0 +1,9 @@
+{
+	"id": "85mUHIv4epyTTbU",
+	"json": "{\"id\":\"85mUHIv4epyTTbU\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Mantravadi,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Mantravadi%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087028364,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Mantravadi%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Mantravadi,+A"
+}

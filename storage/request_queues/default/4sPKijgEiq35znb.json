@@ -1,0 +1,9 @@
+{
+	"id": "4sPKijgEiq35znb",
+	"json": "{\"id\":\"4sPKijgEiq35znb\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Frezat,+H\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Frezat%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087037605,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Frezat%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Frezat,+H"
+}

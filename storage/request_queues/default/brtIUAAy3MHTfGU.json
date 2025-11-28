@@ -1,0 +1,9 @@
+{
+	"id": "brtIUAAy3MHTfGU",
+	"json": "{\"id\":\"brtIUAAy3MHTfGU\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ruan,+W\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ruan%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087024382,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Ruan%2C+W&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ruan,+W"
+}

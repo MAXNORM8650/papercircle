@@ -1,0 +1,9 @@
+{
+	"id": "LYkgS9AtjcXSdcx",
+	"json": "{\"id\":\"LYkgS9AtjcXSdcx\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Dole%C5%BEal,+Z\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Dole%C5%BEal%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992966,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Dole%C5%BEal%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Dole%C5%BEal,+Z"
+}

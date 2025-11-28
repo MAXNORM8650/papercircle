@@ -1,0 +1,9 @@
+{
+	"id": "Wjh6yjsubr43SUz",
+	"json": "{\"id\":\"Wjh6yjsubr43SUz\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Sony,+N+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Sony%2C+N+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014315,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Sony%2C+N+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Sony,+N+S"
+}

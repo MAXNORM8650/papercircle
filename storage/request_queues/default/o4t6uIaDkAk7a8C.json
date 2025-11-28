@@ -1,0 +1,9 @@
+{
+	"id": "o4t6uIaDkAk7a8C",
+	"json": "{\"id\":\"o4t6uIaDkAk7a8C\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Banz,+L\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Banz%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087008639,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Banz%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Banz,+L"
+}

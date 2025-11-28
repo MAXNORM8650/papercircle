@@ -1,0 +1,9 @@
+{
+	"id": "qransvVQKxDOnCR",
+	"json": "{\"id\":\"qransvVQKxDOnCR\",\"url\":\"https://arxiv.org/search/advanced?terms-0-term=Collins%2C+K+A&terms-0-field=author&size=50&order=-announced_date_first\",\"uniqueKey\":\"https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Collins%2C+K+A\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087072746,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Collins%2C+K+A",
+	"url": "https://arxiv.org/search/advanced?terms-0-term=Collins%2C+K+A&terms-0-field=author&size=50&order=-announced_date_first"
+}

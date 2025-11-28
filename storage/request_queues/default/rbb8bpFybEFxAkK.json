@@ -1,0 +1,9 @@
+{
+	"id": "rbb8bpFybEFxAkK",
+	"json": "{\"id\":\"rbb8bpFybEFxAkK\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Say,+L\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Say%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023571,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Say%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Say,+L"
+}

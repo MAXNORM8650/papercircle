@@ -1,0 +1,9 @@
+{
+	"id": "Ak1O8IMVdB2rjzG",
+	"json": "{\"id\":\"Ak1O8IMVdB2rjzG\",\"url\":\"https://arxiv.org/search/advanced?terms-0-term=Cai%2C+Y&terms-0-field=author&size=50&order=-announced_date_first\",\"uniqueKey\":\"https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Cai%2C+Y\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087077878,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Cai%2C+Y",
+	"url": "https://arxiv.org/search/advanced?terms-0-term=Cai%2C+Y&terms-0-field=author&size=50&order=-announced_date_first"
+}

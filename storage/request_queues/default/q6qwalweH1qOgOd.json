@@ -1,0 +1,9 @@
+{
+	"id": "q6qwalweH1qOgOd",
+	"json": "{\"id\":\"q6qwalweH1qOgOd\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Pei,+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Pei%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087028245,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Pei%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Pei,+H"
+}

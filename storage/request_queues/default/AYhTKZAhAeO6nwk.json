@@ -1,0 +1,9 @@
+{
+	"id": "AYhTKZAhAeO6nwk",
+	"json": "{\"id\":\"AYhTKZAhAeO6nwk\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Schimd,+C\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Schimd,+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Schimd%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:01.533Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Schimd%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Schimd,+C"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "svO7or6Mh6rPVtW",
+	"json": "{\"id\":\"svO7or6Mh6rPVtW\",\"url\":\"https://arxiv.org/search/nlin?searchtype=author&query=Sun,+Y\",\"uniqueKey\":\"https://arxiv.org/search/nlin?query=Sun%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086995436,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nlin?query=Sun%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/nlin?searchtype=author&query=Sun,+Y"
+}

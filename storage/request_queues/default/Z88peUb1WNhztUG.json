@@ -1,0 +1,9 @@
+{
+	"id": "Z88peUb1WNhztUG",
+	"json": "{\"id\":\"Z88peUb1WNhztUG\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Jalaali,+B\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Jalaali%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001311,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Jalaali%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Jalaali,+B"
+}

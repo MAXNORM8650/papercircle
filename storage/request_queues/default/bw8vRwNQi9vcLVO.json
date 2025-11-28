@@ -1,0 +1,9 @@
+{
+	"id": "bw8vRwNQi9vcLVO",
+	"json": "{\"id\":\"bw8vRwNQi9vcLVO\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Strolka,+O\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Strolka%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989001,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Strolka%2C+O&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Strolka,+O"
+}

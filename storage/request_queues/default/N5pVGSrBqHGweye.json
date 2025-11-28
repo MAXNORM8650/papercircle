@@ -1,0 +1,9 @@
+{
+	"id": "N5pVGSrBqHGweye",
+	"json": "{\"id\":\"N5pVGSrBqHGweye\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Be%C5%88u%C5%A1ov%C3%A1,+Z\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Be%C5%88u%C5%A1ov%C3%A1%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992641,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Be%C5%88u%C5%A1ov%C3%A1%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Be%C5%88u%C5%A1ov%C3%A1,+Z"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "75s975LAL3RrUvh",
+	"json": "{\"id\":\"75s975LAL3RrUvh\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Hu,+Y+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Hu%2C+Y+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087029733,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Hu%2C+Y+C&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Hu,+Y+C"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "By2r80G5WD6FceV",
+	"json": "{\"id\":\"By2r80G5WD6FceV\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Fatahalian,+K\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Fatahalian%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087013812,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Fatahalian%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Fatahalian,+K"
+}

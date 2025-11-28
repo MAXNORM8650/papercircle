@@ -1,0 +1,9 @@
+{
+	"id": "NLXSb5CvS5aqTmQ",
+	"json": "{\"id\":\"NLXSb5CvS5aqTmQ\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Shu,+F\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Shu%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986783,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Shu%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Shu,+F"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "CHSwpQgd8iLvS3M",
+	"json": "{\"id\":\"CHSwpQgd8iLvS3M\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=McClellan,+R+E\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=McClellan%2C+R+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997766,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=McClellan%2C+R+E&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=McClellan,+R+E"
+}

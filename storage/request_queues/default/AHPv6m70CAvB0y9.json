@@ -1,0 +1,9 @@
+{
+	"id": "AHPv6m70CAvB0y9",
+	"json": "{\"id\":\"AHPv6m70CAvB0y9\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Acu%C3%B1a,+G\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Acu%C3%B1a%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999672,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Acu%C3%B1a%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Acu%C3%B1a,+G"
+}

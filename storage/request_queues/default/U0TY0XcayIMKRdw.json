@@ -1,0 +1,9 @@
+{
+	"id": "U0TY0XcayIMKRdw",
+	"json": "{\"id\":\"U0TY0XcayIMKRdw\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Guzm%C3%A1n,+M+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Guzm%C3%A1n%2C+M+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087017805,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Guzm%C3%A1n%2C+M+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Guzm%C3%A1n,+M+S"
+}

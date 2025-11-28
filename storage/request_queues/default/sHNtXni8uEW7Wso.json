@@ -1,0 +1,9 @@
+{
+	"id": "sHNtXni8uEW7Wso",
+	"json": "{\"id\":\"sHNtXni8uEW7Wso\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Collard,+J+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Collard%2C+J+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087003119,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Collard%2C+J+D&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Collard,+J+D"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "bn9x6FSAWjAHryO",
+	"json": "{\"id\":\"bn9x6FSAWjAHryO\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Isobe,+Y\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Isobe%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987010,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Isobe%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Isobe,+Y"
+}

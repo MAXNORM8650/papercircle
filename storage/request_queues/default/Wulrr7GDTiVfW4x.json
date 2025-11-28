@@ -1,0 +1,9 @@
+{
+	"id": "Wulrr7GDTiVfW4x",
+	"json": "{\"id\":\"Wulrr7GDTiVfW4x\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Angermair-Barkai,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Angermair-Barkai%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015246,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Angermair-Barkai%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Angermair-Barkai,+P"
+}

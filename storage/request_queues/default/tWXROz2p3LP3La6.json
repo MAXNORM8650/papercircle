@@ -1,0 +1,9 @@
+{
+	"id": "tWXROz2p3LP3La6",
+	"json": "{\"id\":\"tWXROz2p3LP3La6\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=H%C3%BCtten,+A\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=H%C3%BCtten%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988970,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=H%C3%BCtten%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=H%C3%BCtten,+A"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "I42CFkNJaEG8U8k",
+	"json": "{\"id\":\"I42CFkNJaEG8U8k\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Migliozzi,+P\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Migliozzi%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988266,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Migliozzi%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Migliozzi,+P"
+}

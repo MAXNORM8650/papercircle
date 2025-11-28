@@ -1,0 +1,9 @@
+{
+	"id": "ctCHKsjEZwFxiWl",
+	"json": "{\"id\":\"ctCHKsjEZwFxiWl\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Valerin,+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Valerin%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988301,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Valerin%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Valerin,+G"
+}

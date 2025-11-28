@@ -1,0 +1,9 @@
+{
+	"id": "b9s0scG7wCMqsYM",
+	"json": "{\"id\":\"b9s0scG7wCMqsYM\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Ghosh,+S\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Ghosh%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988760,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Ghosh%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Ghosh,+S"
+}

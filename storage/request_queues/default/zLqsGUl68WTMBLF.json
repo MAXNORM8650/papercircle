@@ -1,0 +1,9 @@
+{
+	"id": "zLqsGUl68WTMBLF",
+	"json": "{\"id\":\"zLqsGUl68WTMBLF\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Liu,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Liu%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087040600,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Liu%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Liu,+A"
+}

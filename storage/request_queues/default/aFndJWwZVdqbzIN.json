@@ -1,0 +1,9 @@
+{
+	"id": "aFndJWwZVdqbzIN",
+	"json": "{\"id\":\"aFndJWwZVdqbzIN\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Vasile,+C+I\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Vasile%2C+C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015685,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Vasile%2C+C+I&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Vasile,+C+I"
+}

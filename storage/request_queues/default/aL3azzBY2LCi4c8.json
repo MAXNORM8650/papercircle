@@ -1,0 +1,9 @@
+{
+	"id": "aL3azzBY2LCi4c8",
+	"json": "{\"id\":\"aL3azzBY2LCi4c8\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Gressel,+O\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Gressel%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087035560,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Gressel%2C+O&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Gressel,+O"
+}

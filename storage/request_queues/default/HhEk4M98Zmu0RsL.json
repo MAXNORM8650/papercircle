@@ -1,0 +1,9 @@
+{
+	"id": "HhEk4M98Zmu0RsL",
+	"json": "{\"id\":\"HhEk4M98Zmu0RsL\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Zhao,+L\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Zhao%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988997,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Zhao%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Zhao,+L"
+}

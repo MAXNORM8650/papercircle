@@ -1,0 +1,9 @@
+{
+	"id": "d1yvSQt7Ieeb1yb",
+	"json": "{\"id\":\"d1yvSQt7Ieeb1yb\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Font,+J+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Font%2C+J+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988079,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Font%2C+J+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Font,+J+A"
+}

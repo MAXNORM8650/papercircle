@@ -1,0 +1,9 @@
+{
+	"id": "oz0I73E38foq7in",
+	"json": "{\"id\":\"oz0I73E38foq7in\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Liu,+B\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Liu%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025267,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Liu%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Liu,+B"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "J2Q84xa1YH5vWIu",
+	"json": "{\"id\":\"J2Q84xa1YH5vWIu\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Paul,+N\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Paul%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087018407,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Paul%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Paul,+N"
+}

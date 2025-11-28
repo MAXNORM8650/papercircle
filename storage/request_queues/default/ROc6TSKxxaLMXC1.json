@@ -1,0 +1,9 @@
+{
+	"id": "ROc6TSKxxaLMXC1",
+	"json": "{\"id\":\"ROc6TSKxxaLMXC1\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Araujo,+V\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Araujo%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006255,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Araujo%2C+V&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Araujo,+V"
+}

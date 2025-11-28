@@ -1,0 +1,9 @@
+{
+	"id": "UAIU9EjDHZSXr2q",
+	"json": "{\"id\":\"UAIU9EjDHZSXr2q\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Baudrier,+E\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Baudrier%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087024286,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Baudrier%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Baudrier,+E"
+}

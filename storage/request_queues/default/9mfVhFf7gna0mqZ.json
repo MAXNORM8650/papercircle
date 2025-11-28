@@ -1,0 +1,9 @@
+{
+	"id": "9mfVhFf7gna0mqZ",
+	"json": "{\"id\":\"9mfVhFf7gna0mqZ\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Creusot,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Creusot%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988234,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Creusot%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Creusot,+A"
+}

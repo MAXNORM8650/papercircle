@@ -1,0 +1,9 @@
+{
+	"id": "kXJlrZvEXE0kTso",
+	"json": "{\"id\":\"kXJlrZvEXE0kTso\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Mirabal,+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Mirabal%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997823,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Mirabal%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Mirabal,+J"
+}

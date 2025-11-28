@@ -1,0 +1,9 @@
+{
+	"id": "xttjU1ViHU4Nh7F",
+	"json": "{\"id\":\"xttjU1ViHU4Nh7F\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=B%C3%A9jar%2C+V+J+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=B%C3%A9jar%2C+V+J+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087072570,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=B%C3%A9jar%2C+V+J+S&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=B%C3%A9jar%2C+V+J+S"
+}

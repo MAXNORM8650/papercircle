@@ -1,0 +1,9 @@
+{
+	"id": "Uc7oxS5HbfzYLJk",
+	"json": "{\"id\":\"Uc7oxS5HbfzYLJk\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Forbert,+H\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Forbert%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087000817,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Forbert%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Forbert,+H"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "pm3tXsFo9V1llt9",
+	"json": "{\"id\":\"pm3tXsFo9V1llt9\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Dewi,+G+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Dewi%2C+G+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002588,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Dewi%2C+G+R&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Dewi,+G+R"
+}

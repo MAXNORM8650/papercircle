@@ -1,0 +1,9 @@
+{
+	"id": "Zl1auGOzt424NXa",
+	"json": "{\"id\":\"Zl1auGOzt424NXa\",\"url\":\"https://arxiv.org/list/cs.LG/recent?skip=687&show=50\",\"uniqueKey\":\"https://arxiv.org/list/cs.LG/recent?show=50&skip=687\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016247,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/cs.LG/recent?show=50&skip=687",
+	"url": "https://arxiv.org/list/cs.LG/recent?skip=687&show=50"
+}

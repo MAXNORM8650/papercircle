@@ -1,0 +1,9 @@
+{
+	"id": "YBjM1jbbQW4xCAg",
+	"json": "{\"id\":\"YBjM1jbbQW4xCAg\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Hughes,+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Hughes%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986426,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Hughes%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Hughes,+C"
+}

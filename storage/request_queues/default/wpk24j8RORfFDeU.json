@@ -1,0 +1,9 @@
+{
+	"id": "wpk24j8RORfFDeU",
+	"json": "{\"id\":\"wpk24j8RORfFDeU\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Garcia-Perez,+L\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Garcia-Perez%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086990800,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Garcia-Perez%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Garcia-Perez,+L"
+}

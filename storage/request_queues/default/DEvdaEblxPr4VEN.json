@@ -1,0 +1,9 @@
+{
+	"id": "DEvdaEblxPr4VEN",
+	"json": "{\"id\":\"DEvdaEblxPr4VEN\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Tadi%C4%87,+P\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Tadi%C4%87%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989520,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-th?query=Tadi%C4%87%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Tadi%C4%87,+P"
+}

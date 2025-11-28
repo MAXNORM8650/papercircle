@@ -1,0 +1,9 @@
+{
+	"id": "zemX355IBKq2Ptm",
+	"json": "{\"id\":\"zemX355IBKq2Ptm\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Buczek,+P+A\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Buczek%2C+P+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988856,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Buczek%2C+P+A&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Buczek,+P+A"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "RguRJZLyI79Z8sm",
+	"json": "{\"id\":\"RguRJZLyI79Z8sm\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Verma,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Verma%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087021809,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Verma%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Verma,+P"
+}

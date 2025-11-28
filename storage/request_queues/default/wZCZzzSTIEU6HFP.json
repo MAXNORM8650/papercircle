@@ -1,0 +1,9 @@
+{
+	"id": "wZCZzzSTIEU6HFP",
+	"json": "{\"id\":\"wZCZzzSTIEU6HFP\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Pastore,+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Pastore%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992514,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Pastore%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Pastore,+C"
+}

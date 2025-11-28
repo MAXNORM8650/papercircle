@@ -1,0 +1,9 @@
+{
+	"id": "Ab1DAhREcBfN1dS",
+	"json": "{\"id\":\"Ab1DAhREcBfN1dS\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Nada,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Nada%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986757,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Nada%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Nada,+Y"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Yta1eHNfa1NR0np",
+	"json": "{\"id\":\"Yta1eHNfa1NR0np\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Marfoua,+B\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Marfoua%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989436,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Marfoua%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Marfoua,+B"
+}

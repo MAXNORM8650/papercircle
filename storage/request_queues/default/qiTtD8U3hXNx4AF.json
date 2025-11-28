@@ -1,0 +1,9 @@
+{
+	"id": "qiTtD8U3hXNx4AF",
+	"json": "{\"id\":\"qiTtD8U3hXNx4AF\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=K%C3%B6se,+S\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=K%C3%B6se%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087003720,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=K%C3%B6se%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=K%C3%B6se,+S"
+}

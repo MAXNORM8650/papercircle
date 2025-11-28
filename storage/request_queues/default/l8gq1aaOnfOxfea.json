@@ -1,0 +1,9 @@
+{
+	"id": "l8gq1aaOnfOxfea",
+	"json": "{\"id\":\"l8gq1aaOnfOxfea\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Rubi,+K\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Rubi%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086990297,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Rubi%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Rubi,+K"
+}

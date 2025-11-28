@@ -1,0 +1,9 @@
+{
+	"id": "W7szhMfMIh51MZW",
+	"json": "{\"id\":\"W7szhMfMIh51MZW\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Akba%C5%9F,+M+%C4%B0\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Akba%C5%9F%2C+M+%C4%B0&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012363,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Akba%C5%9F%2C+M+%C4%B0&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Akba%C5%9F,+M+%C4%B0"
+}

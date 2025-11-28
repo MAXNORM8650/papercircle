@@ -1,0 +1,9 @@
+{
+	"id": "ixn1N6AvZ564gMv",
+	"json": "{\"id\":\"ixn1N6AvZ564gMv\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Roy,+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Roy%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015715,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Roy%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Roy,+B"
+}

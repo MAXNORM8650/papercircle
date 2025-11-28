@@ -1,0 +1,9 @@
+{
+	"id": "OQNUjRP87w3NWpa",
+	"json": "{\"id\":\"OQNUjRP87w3NWpa\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Clarke,+C+L+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Clarke%2C+C+L+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015378,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Clarke%2C+C+L+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Clarke,+C+L+A"
+}

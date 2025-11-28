@@ -1,0 +1,9 @@
+{
+	"id": "hHm5KdgK70I7ulR",
+	"json": "{\"id\":\"hHm5KdgK70I7ulR\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Bassolas,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Bassolas%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002568,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Bassolas%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Bassolas,+A"
+}

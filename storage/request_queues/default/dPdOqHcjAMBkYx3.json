@@ -1,0 +1,9 @@
+{
+	"id": "dPdOqHcjAMBkYx3",
+	"json": "{\"id\":\"dPdOqHcjAMBkYx3\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Stancevic,+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Stancevic%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025880,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Stancevic%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Stancevic,+D"
+}

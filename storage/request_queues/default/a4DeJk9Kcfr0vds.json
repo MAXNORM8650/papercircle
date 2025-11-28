@@ -1,0 +1,9 @@
+{
+	"id": "a4DeJk9Kcfr0vds",
+	"json": "{\"id\":\"a4DeJk9Kcfr0vds\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Yao,+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Yao%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009340,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Yao%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Yao,+M"
+}

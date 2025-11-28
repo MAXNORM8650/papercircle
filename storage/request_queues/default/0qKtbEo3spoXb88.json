@@ -1,0 +1,9 @@
+{
+	"id": "0qKtbEo3spoXb88",
+	"json": "{\"id\":\"0qKtbEo3spoXb88\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Pretel,+C+B\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Pretel%2C+C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992854,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Pretel%2C+C+B&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Pretel,+C+B"
+}

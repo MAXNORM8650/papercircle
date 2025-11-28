@@ -1,0 +1,9 @@
+{
+	"id": "f4w1G11p5IbsYMH",
+	"json": "{\"id\":\"f4w1G11p5IbsYMH\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Bu,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Bu%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002576,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Bu%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Bu,+Y"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "DPwNhvFM8aGCPSo",
+	"json": "{\"id\":\"DPwNhvFM8aGCPSo\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=H%C3%B6fler,+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=H%C3%B6fler%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015750,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=H%C3%B6fler%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=H%C3%B6fler,+D"
+}

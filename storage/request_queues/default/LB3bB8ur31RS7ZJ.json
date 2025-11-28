@@ -1,0 +1,9 @@
+{
+	"id": "LB3bB8ur31RS7ZJ",
+	"json": "{\"id\":\"LB3bB8ur31RS7ZJ\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Mart%C3%ADnez-Haya,+B\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Mart%C3%ADnez-Haya%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086990773,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Mart%C3%ADnez-Haya%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Mart%C3%ADnez-Haya,+B"
+}

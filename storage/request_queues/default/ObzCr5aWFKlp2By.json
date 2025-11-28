@@ -1,0 +1,9 @@
+{
+	"id": "ObzCr5aWFKlp2By",
+	"json": "{\"id\":\"ObzCr5aWFKlp2By\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Fern%C3%A1ndez-Garc%C3%ADa,+M\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Fern%C3%A1ndez-Garc%C3%ADa%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999148,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Fern%C3%A1ndez-Garc%C3%ADa%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Fern%C3%A1ndez-Garc%C3%ADa,+M"
+}

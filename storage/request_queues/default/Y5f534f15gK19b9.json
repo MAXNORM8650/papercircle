@@ -1,0 +1,9 @@
+{
+	"id": "Y5f534f15gK19b9",
+	"json": "{\"id\":\"Y5f534f15gK19b9\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Brogan,+A+P+S\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Brogan%2C+A+P+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087018361,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Brogan%2C+A+P+S&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Brogan,+A+P+S"
+}

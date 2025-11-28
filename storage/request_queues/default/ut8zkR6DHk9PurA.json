@@ -1,0 +1,9 @@
+{
+	"id": "ut8zkR6DHk9PurA",
+	"json": "{\"id\":\"ut8zkR6DHk9PurA\",\"url\":\"https://arxiv.org/search/advanced?terms-0-term=Moses%2C+W&terms-0-field=author&size=50&order=-announced_date_first\",\"uniqueKey\":\"https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Moses%2C+W\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087066835,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Moses%2C+W",
+	"url": "https://arxiv.org/search/advanced?terms-0-term=Moses%2C+W&terms-0-field=author&size=50&order=-announced_date_first"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "MEO67dgTF9FuEh4",
+	"json": "{\"id\":\"MEO67dgTF9FuEh4\",\"url\":\"https://arxiv.org/archive/cond-mat\",\"loadedUrl\":\"https://arxiv.org/archive/cond-mat\",\"uniqueKey\":\"https://arxiv.org/archive/cond-mat\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:48.680Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/archive/cond-mat",
+	"url": "https://arxiv.org/archive/cond-mat"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Qbj7HDUkazfWD5q",
+	"json": "{\"id\":\"Qbj7HDUkazfWD5q\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Hertel,+S\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Hertel%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992732,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Hertel%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Hertel,+S"
+}

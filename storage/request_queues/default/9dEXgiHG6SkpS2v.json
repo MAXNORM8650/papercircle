@@ -1,0 +1,9 @@
+{
+	"id": "9dEXgiHG6SkpS2v",
+	"json": "{\"id\":\"9dEXgiHG6SkpS2v\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Garc%C3%ADa-M%C3%A9ndez,+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Garc%C3%ADa-M%C3%A9ndez%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988244,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Garc%C3%ADa-M%C3%A9ndez%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Garc%C3%ADa-M%C3%A9ndez,+J"
+}

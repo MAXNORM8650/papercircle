@@ -1,0 +1,9 @@
+{
+	"id": "VXmlXHtxhEcJHAO",
+	"json": "{\"id\":\"VXmlXHtxhEcJHAO\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Par%C3%A9,+R\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Par%C3%A9%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006624,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Par%C3%A9%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Par%C3%A9,+R"
+}

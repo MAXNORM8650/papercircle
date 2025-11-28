@@ -1,0 +1,9 @@
+{
+	"id": "b4uhlJCeXROwbuy",
+	"json": "{\"id\":\"b4uhlJCeXROwbuy\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Panagakis,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Panagakis%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087030846,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Panagakis%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Panagakis,+Y"
+}

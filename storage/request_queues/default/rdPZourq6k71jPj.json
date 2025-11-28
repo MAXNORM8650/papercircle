@@ -1,0 +1,9 @@
+{
+	"id": "rdPZourq6k71jPj",
+	"json": "{\"id\":\"rdPZourq6k71jPj\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Gondhalekar,+Y\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Gondhalekar%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087030198,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Gondhalekar%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Gondhalekar,+Y"
+}

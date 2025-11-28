@@ -1,0 +1,9 @@
+{
+	"id": "Uq6sSPzTK78aaet",
+	"json": "{\"id\":\"Uq6sSPzTK78aaet\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Zeinhofer,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Zeinhofer%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087026964,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Zeinhofer%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Zeinhofer,+M"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "mn4jX4ksxws9xtA",
+	"json": "{\"id\":\"mn4jX4ksxws9xtA\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Parra,+J\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Parra%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994295,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Parra%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Parra,+J"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "23j6iGoeAfWhpQp",
+	"json": "{\"id\":\"23j6iGoeAfWhpQp\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Neri,+I\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Neri%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992589,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Neri%2C+I&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Neri,+I"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "4xEWynz91L7gUU4",
+	"json": "{\"id\":\"4xEWynz91L7gUU4\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kukhar,+O+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Kukhar%2C+O+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986619,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Kukhar%2C+O+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Kukhar,+O+M"
+}

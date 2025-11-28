@@ -1,0 +1,9 @@
+{
+	"id": "tsAYNEzjpj6i9B6",
+	"json": "{\"id\":\"tsAYNEzjpj6i9B6\",\"url\":\"https://arxiv.org/list/math.CT/recent\",\"loadedUrl\":\"https://arxiv.org/list/math.CT/recent\",\"uniqueKey\":\"https://arxiv.org/list/math.CT/recent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:06.647Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/math.CT/recent",
+	"url": "https://arxiv.org/list/math.CT/recent"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "KzkijGE853wmsyx",
+	"json": "{\"id\":\"KzkijGE853wmsyx\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Narita%2C+N&start=0\",\"uniqueKey\":\"https://arxiv.org/search?query=Narita%2C+N&searchtype=author&start=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087075670,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Narita%2C+N&searchtype=author&start=0",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Narita%2C+N&start=0"
+}

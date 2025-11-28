@@ -1,0 +1,9 @@
+{
+	"id": "G5ay8u7sfs9jOwj",
+	"json": "{\"id\":\"G5ay8u7sfs9jOwj\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Sari,+N+P+W+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Sari%2C+N+P+W+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087011981,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Sari%2C+N+P+W+P&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Sari,+N+P+W+P"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "2EeawXOGV4FmrVf",
+	"json": "{\"id\":\"2EeawXOGV4FmrVf\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Torzewska,+F\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Torzewska%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086995411,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Torzewska%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Torzewska,+F"
+}

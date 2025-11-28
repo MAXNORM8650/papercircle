@@ -1,0 +1,9 @@
+{
+	"id": "tEYxo6oDv84NFNv",
+	"json": "{\"id\":\"tEYxo6oDv84NFNv\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Woodward,+C+E\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Woodward%2C+C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086990734,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Woodward%2C+C+E&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Woodward,+C+E"
+}

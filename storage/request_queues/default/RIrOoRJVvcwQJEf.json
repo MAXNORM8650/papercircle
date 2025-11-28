@@ -1,0 +1,9 @@
+{
+	"id": "RIrOoRJVvcwQJEf",
+	"json": "{\"id\":\"RIrOoRJVvcwQJEf\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Porikli,+F\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Porikli%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012756,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Porikli%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Porikli,+F"
+}

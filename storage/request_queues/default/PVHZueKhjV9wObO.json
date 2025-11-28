@@ -1,0 +1,9 @@
+{
+	"id": "PVHZueKhjV9wObO",
+	"json": "{\"id\":\"PVHZueKhjV9wObO\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ali,+S\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ali,+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Ali%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:50.213Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Ali%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Ali,+S"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Yj6x0LfTSe5JmNZ",
+	"json": "{\"id\":\"Yj6x0LfTSe5JmNZ\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Shinano,+Y\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Shinano%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006075,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Shinano%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Shinano,+Y"
+}

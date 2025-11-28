@@ -1,0 +1,9 @@
+{
+	"id": "8uRkl2fUGblBz81",
+	"json": "{\"id\":\"8uRkl2fUGblBz81\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Colas,+P\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Colas%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992495,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Colas%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Colas,+P"
+}

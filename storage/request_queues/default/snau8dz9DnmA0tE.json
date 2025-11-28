@@ -1,0 +1,9 @@
+{
+	"id": "snau8dz9DnmA0tE",
+	"json": "{\"id\":\"snau8dz9DnmA0tE\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Schaible,+A+L\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Schaible%2C+A+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987037,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Schaible%2C+A+L&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Schaible,+A+L"
+}

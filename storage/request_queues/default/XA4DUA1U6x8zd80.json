@@ -1,0 +1,9 @@
+{
+	"id": "XA4DUA1U6x8zd80",
+	"json": "{\"id\":\"XA4DUA1U6x8zd80\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kokoulina,+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Kokoulina%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986504,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Kokoulina%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Kokoulina,+E"
+}

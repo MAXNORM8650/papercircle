@@ -1,0 +1,9 @@
+{
+	"id": "G9qoWw16d5znoGy",
+	"json": "{\"id\":\"G9qoWw16d5znoGy\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ohsuga,+K\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Ohsuga%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986622,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Ohsuga%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Ohsuga,+K"
+}

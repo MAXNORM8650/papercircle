@@ -1,0 +1,9 @@
+{
+	"id": "6enNG5KmO2XWM51",
+	"json": "{\"id\":\"6enNG5KmO2XWM51\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Bilka,+T\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Bilka%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992943,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Bilka%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Bilka,+T"
+}

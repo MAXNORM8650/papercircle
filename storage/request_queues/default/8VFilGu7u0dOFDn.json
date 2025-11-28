@@ -1,0 +1,9 @@
+{
+	"id": "8VFilGu7u0dOFDn",
+	"json": "{\"id\":\"8VFilGu7u0dOFDn\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Schleicher%2C+D+R+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Schleicher%2C+D+R+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087094385,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Schleicher%2C+D+R+G&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Schleicher%2C+D+R+G"
+}

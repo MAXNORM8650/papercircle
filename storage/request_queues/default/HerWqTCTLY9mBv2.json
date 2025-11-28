@@ -1,0 +1,9 @@
+{
+	"id": "HerWqTCTLY9mBv2",
+	"json": "{\"id\":\"HerWqTCTLY9mBv2\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Oskinova%2C+L+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Oskinova%2C+L+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087078068,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Oskinova%2C+L+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Oskinova%2C+L+M"
+}

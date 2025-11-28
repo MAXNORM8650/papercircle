@@ -1,0 +1,9 @@
+{
+	"id": "gEo9Tzk0xhrpoMw",
+	"json": "{\"id\":\"gEo9Tzk0xhrpoMw\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Wu,+Y\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Wu%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994222,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Wu%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Wu,+Y"
+}

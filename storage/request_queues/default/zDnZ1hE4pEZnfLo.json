@@ -1,0 +1,9 @@
+{
+	"id": "zDnZ1hE4pEZnfLo",
+	"json": "{\"id\":\"zDnZ1hE4pEZnfLo\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Niu,+M+Y\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Niu%2C+M+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087028433,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Niu%2C+M+Y&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Niu,+M+Y"
+}

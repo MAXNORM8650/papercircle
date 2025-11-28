@@ -1,0 +1,9 @@
+{
+	"id": "cHxqMtt0j5wbI0v",
+	"json": "{\"id\":\"cHxqMtt0j5wbI0v\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Flickner,+M+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Flickner%2C+M+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014325,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Flickner%2C+M+D&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Flickner,+M+D"
+}

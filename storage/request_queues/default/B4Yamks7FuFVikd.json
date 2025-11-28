@@ -1,0 +1,9 @@
+{
+	"id": "B4Yamks7FuFVikd",
+	"json": "{\"id\":\"B4Yamks7FuFVikd\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Seong,+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Seong%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025469,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Seong%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Seong,+H"
+}

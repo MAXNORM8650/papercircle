@@ -1,0 +1,9 @@
+{
+	"id": "LA7kVXhp82sfgnQ",
+	"json": "{\"id\":\"LA7kVXhp82sfgnQ\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Rahul\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Rahul&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994342,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Rahul&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Rahul"
+}

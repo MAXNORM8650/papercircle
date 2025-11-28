@@ -1,0 +1,9 @@
+{
+	"id": "OEnFih1FdYN5yXn",
+	"json": "{\"id\":\"OEnFih1FdYN5yXn\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Wofford,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Wofford%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087036677,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Wofford%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Wofford,+A"
+}

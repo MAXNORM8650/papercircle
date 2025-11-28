@@ -1,0 +1,9 @@
+{
+	"id": "pf8pmcu7N3D0EFj",
+	"json": "{\"id\":\"pf8pmcu7N3D0EFj\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Herrera,+R\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Herrera%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087037618,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Herrera%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Herrera,+R"
+}

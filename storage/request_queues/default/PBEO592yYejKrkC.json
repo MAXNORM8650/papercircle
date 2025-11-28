@@ -1,0 +1,9 @@
+{
+	"id": "PBEO592yYejKrkC",
+	"json": "{\"id\":\"PBEO592yYejKrkC\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Wadhawan,+N+K\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Wadhawan%2C+N+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087004613,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Wadhawan%2C+N+K&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Wadhawan,+N+K"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "prmWpoqIQcKWimH",
+	"json": "{\"id\":\"prmWpoqIQcKWimH\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Kimura,+N\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Kimura%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997413,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Kimura%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Kimura,+N"
+}

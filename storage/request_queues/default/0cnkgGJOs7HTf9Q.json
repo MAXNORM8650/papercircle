@@ -1,0 +1,9 @@
+{
+	"id": "0cnkgGJOs7HTf9Q",
+	"json": "{\"id\":\"0cnkgGJOs7HTf9Q\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Akbarian,+P\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Akbarian%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023717,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Akbarian%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Akbarian,+P"
+}

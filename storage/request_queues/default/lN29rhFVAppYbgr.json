@@ -1,0 +1,9 @@
+{
+	"id": "lN29rhFVAppYbgr",
+	"json": "{\"id\":\"lN29rhFVAppYbgr\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Persson%2C+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Persson%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087072015,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Persson%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Persson%2C+C"
+}

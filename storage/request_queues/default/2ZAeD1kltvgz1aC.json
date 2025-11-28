@@ -1,0 +1,9 @@
+{
+	"id": "2ZAeD1kltvgz1aC",
+	"json": "{\"id\":\"2ZAeD1kltvgz1aC\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Dou,+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Dou%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999273,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Dou%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Dou,+R"
+}

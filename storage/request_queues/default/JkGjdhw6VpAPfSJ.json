@@ -1,0 +1,9 @@
+{
+	"id": "JkGjdhw6VpAPfSJ",
+	"json": "{\"id\":\"JkGjdhw6VpAPfSJ\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Ghersi,+J+T+G\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Ghersi%2C+J+T+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987346,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Ghersi%2C+J+T+G&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Ghersi,+J+T+G"
+}

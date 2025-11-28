@@ -1,0 +1,9 @@
+{
+	"id": "dUoQHmLjdz7ojjx",
+	"json": "{\"id\":\"dUoQHmLjdz7ojjx\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Benguessoum,+K\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Benguessoum%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023781,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Benguessoum%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Benguessoum,+K"
+}

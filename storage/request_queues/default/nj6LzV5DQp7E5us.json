@@ -1,0 +1,9 @@
+{
+	"id": "nj6LzV5DQp7E5us",
+	"json": "{\"id\":\"nj6LzV5DQp7E5us\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Gavant,+D+S\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Gavant%2C+D+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086990721,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Gavant%2C+D+S&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Gavant,+D+S"
+}

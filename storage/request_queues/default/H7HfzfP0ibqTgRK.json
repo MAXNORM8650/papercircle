@@ -1,0 +1,9 @@
+{
+	"id": "H7HfzfP0ibqTgRK",
+	"json": "{\"id\":\"H7HfzfP0ibqTgRK\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Tofflemire,+B+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Tofflemire%2C+B+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987592,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Tofflemire%2C+B+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Tofflemire,+B+M"
+}

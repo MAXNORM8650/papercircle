@@ -1,0 +1,9 @@
+{
+	"id": "wqr5EqVeLyIyG0J",
+	"json": "{\"id\":\"wqr5EqVeLyIyG0J\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Gil-Jardin%C3%A9,+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Gil-Jardin%C3%A9%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012787,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Gil-Jardin%C3%A9%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Gil-Jardin%C3%A9,+C"
+}

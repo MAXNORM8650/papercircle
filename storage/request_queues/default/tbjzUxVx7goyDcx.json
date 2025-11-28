@@ -1,0 +1,9 @@
+{
+	"id": "tbjzUxVx7goyDcx",
+	"json": "{\"id\":\"tbjzUxVx7goyDcx\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Konijn%2C+D+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Konijn%2C+D+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087052480,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Konijn%2C+D+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Konijn%2C+D+C"
+}

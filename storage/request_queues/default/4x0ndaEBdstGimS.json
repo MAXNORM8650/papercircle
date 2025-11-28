@@ -1,0 +1,9 @@
+{
+	"id": "4x0ndaEBdstGimS",
+	"json": "{\"id\":\"4x0ndaEBdstGimS\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Vu,+M+Q\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Vu%2C+M+Q&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087004937,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Vu%2C+M+Q&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Vu,+M+Q"
+}

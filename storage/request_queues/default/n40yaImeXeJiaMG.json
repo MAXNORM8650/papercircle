@@ -1,0 +1,9 @@
+{
+	"id": "n40yaImeXeJiaMG",
+	"json": "{\"id\":\"n40yaImeXeJiaMG\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Brenner,+M+P\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Brenner%2C+M+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989149,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Brenner%2C+M+P&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Brenner,+M+P"
+}

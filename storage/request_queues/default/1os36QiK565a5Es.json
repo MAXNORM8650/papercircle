@@ -1,0 +1,9 @@
+{
+	"id": "1os36QiK565a5Es",
+	"json": "{\"id\":\"1os36QiK565a5Es\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Pan,+J\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Pan%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025268,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Pan%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Pan,+J"
+}

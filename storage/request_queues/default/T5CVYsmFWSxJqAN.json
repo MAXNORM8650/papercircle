@@ -1,0 +1,9 @@
+{
+	"id": "T5CVYsmFWSxJqAN",
+	"json": "{\"id\":\"T5CVYsmFWSxJqAN\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Ashraf,+M+U\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Ashraf%2C+M+U&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994285,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Ashraf%2C+M+U&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Ashraf,+M+U"
+}

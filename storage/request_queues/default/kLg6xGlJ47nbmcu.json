@@ -1,0 +1,9 @@
+{
+	"id": "kLg6xGlJ47nbmcu",
+	"json": "{\"id\":\"kLg6xGlJ47nbmcu\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Angeli,+I\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Angeli%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997420,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Angeli%2C+I&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Angeli,+I"
+}

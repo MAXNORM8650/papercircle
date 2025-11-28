@@ -1,0 +1,9 @@
+{
+	"id": "LvZJO1U46MdX5fx",
+	"json": "{\"id\":\"LvZJO1U46MdX5fx\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Rackham%2C+B+V\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Rackham%2C+B+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087071960,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Rackham%2C+B+V&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Rackham%2C+B+V"
+}

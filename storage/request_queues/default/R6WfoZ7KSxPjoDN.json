@@ -1,0 +1,9 @@
+{
+	"id": "R6WfoZ7KSxPjoDN",
+	"json": "{\"id\":\"R6WfoZ7KSxPjoDN\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Ismael,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Ismael%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005587,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Ismael%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Ismael,+A"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "yYLxwddLGFNzgpz",
+	"json": "{\"id\":\"yYLxwddLGFNzgpz\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=%C5%A0vr%C4%8Dkov%C3%A1,+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=%C5%A0vr%C4%8Dkov%C3%A1%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087037000,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=%C5%A0vr%C4%8Dkov%C3%A1%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=%C5%A0vr%C4%8Dkov%C3%A1,+J"
+}

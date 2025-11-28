@@ -1,0 +1,9 @@
+{
+	"id": "dbjfj5GsUcGCTpR",
+	"json": "{\"id\":\"dbjfj5GsUcGCTpR\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ferdous,+M+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ferdous%2C+M+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010513,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Ferdous%2C+M+T&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ferdous,+M+T"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "J0qP4EjCrRBU5dR",
+	"json": "{\"id\":\"J0qP4EjCrRBU5dR\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Angstmann,+C+N\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Angstmann%2C+C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988786,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Angstmann%2C+C+N&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Angstmann,+C+N"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "66Cr0PiU8FaMSII",
+	"json": "{\"id\":\"66Cr0PiU8FaMSII\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Sebastian,+A\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Sebastian%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025681,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Sebastian%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Sebastian,+A"
+}

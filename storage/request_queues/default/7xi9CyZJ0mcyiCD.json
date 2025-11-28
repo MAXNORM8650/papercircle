@@ -1,0 +1,9 @@
+{
+	"id": "7xi9CyZJ0mcyiCD",
+	"json": "{\"id\":\"7xi9CyZJ0mcyiCD\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Dialektopoulos,+K\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Dialektopoulos%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991531,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Dialektopoulos%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Dialektopoulos,+K"
+}

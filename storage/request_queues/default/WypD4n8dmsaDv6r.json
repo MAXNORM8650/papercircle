@@ -1,0 +1,9 @@
+{
+	"id": "WypD4n8dmsaDv6r",
+	"json": "{\"id\":\"WypD4n8dmsaDv6r\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Harris,+A+L\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Harris%2C+A+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999152,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Harris%2C+A+L&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Harris,+A+L"
+}

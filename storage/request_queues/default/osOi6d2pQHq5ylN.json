@@ -1,0 +1,9 @@
+{
+	"id": "osOi6d2pQHq5ylN",
+	"json": "{\"id\":\"osOi6d2pQHq5ylN\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Seshia,+S+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Seshia%2C+S+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015134,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Seshia%2C+S+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Seshia,+S+A"
+}

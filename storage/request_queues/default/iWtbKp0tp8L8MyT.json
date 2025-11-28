@@ -1,0 +1,9 @@
+{
+	"id": "iWtbKp0tp8L8MyT",
+	"json": "{\"id\":\"iWtbKp0tp8L8MyT\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Everett,+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Everett%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016294,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Everett%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Everett,+D"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "nWryNGEAfnH1qSi",
+	"json": "{\"id\":\"nWryNGEAfnH1qSi\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Smiet,+C+B\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Smiet%2C+C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087003072,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Smiet%2C+C+B&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Smiet,+C+B"
+}

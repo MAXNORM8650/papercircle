@@ -1,0 +1,9 @@
+{
+	"id": "PYnxeNS9T2FfrTv",
+	"json": "{\"id\":\"PYnxeNS9T2FfrTv\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ng,+G+J+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ng%2C+G+J+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012891,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Ng%2C+G+J+J&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ng,+G+J+J"
+}

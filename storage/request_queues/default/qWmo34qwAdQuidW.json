@@ -1,0 +1,9 @@
+{
+	"id": "qWmo34qwAdQuidW",
+	"json": "{\"id\":\"qWmo34qwAdQuidW\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Jiao%2C+Y\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Jiao%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087063711,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Jiao%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Jiao%2C+Y"
+}

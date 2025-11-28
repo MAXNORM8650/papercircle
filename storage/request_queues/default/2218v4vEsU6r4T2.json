@@ -1,0 +1,9 @@
+{
+	"id": "2218v4vEsU6r4T2",
+	"json": "{\"id\":\"2218v4vEsU6r4T2\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Witt,+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Witt%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016715,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Witt%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Witt,+C"
+}

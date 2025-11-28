@@ -1,0 +1,9 @@
+{
+	"id": "3wonHNO3cTd3uA3",
+	"json": "{\"id\":\"3wonHNO3cTd3uA3\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Stanke%2C+T\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Stanke%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087078213,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Stanke%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Stanke%2C+T"
+}

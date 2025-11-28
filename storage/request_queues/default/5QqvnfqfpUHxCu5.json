@@ -1,0 +1,9 @@
+{
+	"id": "5QqvnfqfpUHxCu5",
+	"json": "{\"id\":\"5QqvnfqfpUHxCu5\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=McKee,+K\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=McKee%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006864,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=McKee%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=McKee,+K"
+}

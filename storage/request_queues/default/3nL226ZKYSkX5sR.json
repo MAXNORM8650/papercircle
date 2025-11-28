@@ -1,0 +1,9 @@
+{
+	"id": "3nL226ZKYSkX5sR",
+	"json": "{\"id\":\"3nL226ZKYSkX5sR\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Curtis-Lake%2C+E&start=100\",\"uniqueKey\":\"https://arxiv.org/search?query=Curtis-Lake%2C+E&searchtype=author&start=100\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087098844,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Curtis-Lake%2C+E&searchtype=author&start=100",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Curtis-Lake%2C+E&start=100"
+}

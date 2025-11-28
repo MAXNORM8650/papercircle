@@ -1,0 +1,9 @@
+{
+	"id": "GsqA3pFBT4DLRNH",
+	"json": "{\"id\":\"GsqA3pFBT4DLRNH\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Donahue,+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Donahue%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025498,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Donahue%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Donahue,+C"
+}

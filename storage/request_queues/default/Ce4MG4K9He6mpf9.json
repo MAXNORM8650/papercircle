@@ -1,0 +1,9 @@
+{
+	"id": "Ce4MG4K9He6mpf9",
+	"json": "{\"id\":\"Ce4MG4K9He6mpf9\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Masum,+A+K+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Masum%2C+A+K+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087003726,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Masum%2C+A+K+M&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Masum,+A+K+M"
+}

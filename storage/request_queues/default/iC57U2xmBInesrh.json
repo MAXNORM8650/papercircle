@@ -1,0 +1,9 @@
+{
+	"id": "iC57U2xmBInesrh",
+	"json": "{\"id\":\"iC57U2xmBInesrh\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kalavakolanu,+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kalavakolanu%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015781,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Kalavakolanu%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kalavakolanu,+B"
+}

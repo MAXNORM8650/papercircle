@@ -1,0 +1,9 @@
+{
+	"id": "5xU44uKJfnOZV9B",
+	"json": "{\"id\":\"5xU44uKJfnOZV9B\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Kohl,+N\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Kohl%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006305,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Kohl%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Kohl,+N"
+}

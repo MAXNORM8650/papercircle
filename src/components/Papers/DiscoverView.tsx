@@ -1,21 +1,48 @@
 import { useState, useEffect } from 'react';
-import { Search, Filter, BookmarkPlus, Calendar, ExternalLink, Code, Database as DatabaseIcon, Globe, Plus, ThumbsUp, ThumbsDown, ChevronLeft, ChevronRight, TrendingUp, BarChart3 } from 'lucide-react';
+import { Search, Filter, BookmarkPlus, Calendar, ExternalLink, Code, Database as DatabaseIcon, Globe, Plus, ThumbsUp, ThumbsDown, ChevronRight, TrendingUp, BarChart3, Sparkles, Target, Lightbulb, Award, Star, CalendarDays } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
 import type { Database } from '../../lib/database.types';
+import { searchArxivDirect, groupPapersByDate, formatDateDisplay, type ArxivPaper as ArxivPaperType } from '../../lib/arxivClient';
 
 type Paper = Database['public']['Tables']['papers']['Row'];
 type Topic = Database['public']['Tables']['topics']['Row'];
 
-interface ArxivPaper {
+type ArxivPaper = ArxivPaperType;
+
+interface PaperScore {
+  topic_relevance: number;
+  novelty: number;
+  authority_proxy: number;
+  final_score: number;
+}
+
+interface DiscoveredPaper {
   id: string;
   title: string;
   summary: string;
+  year: number;
   authors: string[];
+  url: string;
   published: string;
-  link: string;
-  pdfLink: string;
-  categories: string[];
+  age_score: number;
+  scores: PaperScore;
+  category: 'overall' | 'hidden_gem' | 'canonical';
+}
+
+interface DiscoveryResponse {
+  query: string;
+  mode: string;
+  total_papers: number;
+  top_overall: DiscoveredPaper[];
+  hidden_gems: DiscoveredPaper[];
+  canonical_papers: DiscoveredPaper[];
+  all_papers: DiscoveredPaper[];
+  mode_weights: {
+    relevance: number;
+    authority: number;
+    novelty: number;
+  };
 }
 
 interface DiscoverViewProps {
@@ -26,6 +53,8 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
   const { user } = useAuth();
   const [papers, setPapers] = useState<Paper[]>([]);
   const [arxivPapers, setArxivPapers] = useState<ArxivPaper[]>([]);
+  const [groupedArxivPapers, setGroupedArxivPapers] = useState<Map<string, ArxivPaper[]>>(new Map());
+  const [discoveryResults, setDiscoveryResults] = useState<DiscoveryResponse | null>(null);
   const [topics, setTopics] = useState<Topic[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedTopic, setSelectedTopic] = useState<string>('');
@@ -34,7 +63,13 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
   const [loading, setLoading] = useState(true);
   const [searching, setSearching] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
-  const [searchSource, setSearchSource] = useState<'local' | 'arxiv'>('local');
+  const [searchSource, setSearchSource] = useState<'local' | 'arxiv' | 'ai-discovery'>('local');
+  const [discoveryMode, setDiscoveryMode] = useState<'stable' | 'discovery' | 'balanced'>('balanced');
+  const [applyDiversity, setApplyDiversity] = useState(true);
+  const [discoveryApiUrl, setDiscoveryApiUrl] = useState('http://localhost:8000');
+  const [activeCategory, setActiveCategory] = useState<'all' | 'overall' | 'hidden_gems' | 'canonical'>('all');
+  const [groupByDate, setGroupByDate] = useState(true);
+  const [dateRange, setDateRange] = useState<'today' | 'week' | 'month' | 'custom'>('week');
 
   const [arxivFilters, setArxivFilters] = useState({
     category: 'all',
@@ -173,65 +208,140 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
     setSearching(true);
 
     try {
-      const params = new URLSearchParams();
+      // Calculate date range if needed
+      let startDate = arxivFilters.startDate;
+      let endDate = arxivFilters.endDate;
+
+      if (!startDate && !endDate && dateRange !== 'custom') {
+        const today = new Date();
+        endDate = today.toISOString().split('T')[0];
+
+        const start = new Date(today);
+        switch (dateRange) {
+          case 'today':
+            start.setDate(start.getDate() - 1);
+            break;
+          case 'week':
+            start.setDate(start.getDate() - 7);
+            break;
+          case 'month':
+            start.setMonth(start.getMonth() - 1);
+            break;
+        }
+        startDate = start.toISOString().split('T')[0];
+      }
+
+      // Build search parameters
+      const searchParams: any = {
+        maxResults: resultsPerPage,
+        start: page * resultsPerPage,
+        sortBy: sortBy === 'recent' ? 'submittedDate' : 'relevance',
+        sortOrder: 'descending',
+      };
 
       if (searchQuery.trim()) {
         const keywords = searchQuery.split(',').map(k => k.trim()).filter(Boolean);
-        params.append('query', keywords.join(' OR '));
+        searchParams.query = keywords.join(' OR ');
       }
 
-      if (arxivFilters.category !== 'all') params.append('category', arxivFilters.category);
-      if (arxivFilters.author) params.append('author', arxivFilters.author);
-      if (arxivFilters.title) params.append('title', arxivFilters.title);
-      if (arxivFilters.abstract) params.append('abstract', arxivFilters.abstract);
-      if (arxivFilters.startDate) params.append('start_date', arxivFilters.startDate);
-      if (arxivFilters.endDate) params.append('end_date', arxivFilters.endDate);
-
-      params.append('max_results', resultsPerPage.toString());
-      params.append('start', (page * resultsPerPage).toString());
-
-      if (sortBy === 'recent') {
-        params.append('sort_by', 'submittedDate');
-        params.append('sort_order', 'descending');
-      } else {
-        params.append('sort_by', 'relevance');
-        params.append('sort_order', 'descending');
+      if (arxivFilters.category !== 'all') {
+        searchParams.category = arxivFilters.category;
+      }
+      if (arxivFilters.author) {
+        searchParams.author = arxivFilters.author;
+      }
+      if (arxivFilters.title) {
+        searchParams.title = arxivFilters.title;
+      }
+      if (arxivFilters.abstract) {
+        searchParams.abstract = arxivFilters.abstract;
+      }
+      if (startDate) {
+        searchParams.startDate = startDate;
+      }
+      if (endDate) {
+        searchParams.endDate = endDate;
       }
 
-      const response = await fetch(
-        `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/arxiv-search?${params.toString()}`,
-        {
-          headers: {
-            'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
-          },
+      // Use direct arXiv API client
+      const papers = await searchArxivDirect(searchParams);
+
+      if (page === 0) {
+        setArxivPapers(papers);
+        if (groupByDate) {
+          setGroupedArxivPapers(groupPapersByDate(papers));
         }
-      );
+      } else {
+        setArxivPapers(prev => {
+          const newPapers = [...prev, ...papers];
+          if (groupByDate) {
+            setGroupedArxivPapers(groupPapersByDate(newPapers));
+          }
+          return newPapers;
+        });
+      }
+
+      setTotalResults(papers.length);
+      setCurrentPage(page);
+
+      if (user) {
+        await supabase.from('search_metrics').insert({
+          user_id: user.id,
+          search_query: searchQuery,
+          search_source: 'arxiv',
+          filters_used: { ...arxivFilters, dateRange, startDate, endDate },
+          results_count: papers.length,
+        });
+      }
+    } catch (error) {
+      console.error('Error searching arXiv:', error);
+      const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred';
+
+      if (errorMessage.includes('proxy server')) {
+        alert(`arXiv Proxy Server Not Running\n\nTo use arXiv search, you need to start the proxy server:\n\n1. Open a new terminal\n2. Run: npm install express cors node-fetch\n3. Run: node arxiv-proxy.js\n4. Try searching again\n\nSee the console for more details.`);
+      } else {
+        alert(`Error searching arXiv:\n\n${errorMessage}\n\nPlease check the browser console for more details.`);
+      }
+    } finally {
+      setSearching(false);
+    }
+  };
+
+  const searchAiDiscovery = async () => {
+    if (!searchQuery.trim()) return;
+
+    setSearching(true);
+    try {
+      const response = await fetch(`${discoveryApiUrl}/discover`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          query: searchQuery,
+          mode: discoveryMode,
+          apply_diversity: applyDiversity,
+        }),
+      });
 
       if (response.ok) {
-        const data = await response.json();
-        const papers = data.papers || [];
-
-        if (page === 0) {
-          setArxivPapers(papers);
-        } else {
-          setArxivPapers(prev => [...prev, ...papers]);
-        }
-
-        setTotalResults(papers.length);
-        setCurrentPage(page);
+        const data: DiscoveryResponse = await response.json();
+        setDiscoveryResults(data);
 
         if (user) {
           await supabase.from('search_metrics').insert({
             user_id: user.id,
             search_query: searchQuery,
-            search_source: 'arxiv',
-            filters_used: arxivFilters,
-            results_count: papers.length,
+            search_source: 'ai-discovery',
+            filters_used: { mode: discoveryMode, diversity: applyDiversity },
+            results_count: data.total_papers,
           });
         }
+      } else {
+        console.error('AI Discovery API error:', await response.text());
       }
     } catch (error) {
-      console.error('Error searching arXiv:', error);
+      console.error('Error calling AI Discovery:', error);
     } finally {
       setSearching(false);
     }
@@ -241,6 +351,8 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
     setCurrentPage(0);
     if (searchSource === 'arxiv') {
       searchArxiv(0);
+    } else if (searchSource === 'ai-discovery') {
+      searchAiDiscovery();
     } else {
       loadPapers();
     }
@@ -399,6 +511,19 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
               <Globe className="h-4 w-4" />
               <span className="font-medium">arXiv Live</span>
             </button>
+            <button
+              onClick={() => {
+                setSearchSource('ai-discovery');
+              }}
+              className={`px-4 py-2 flex items-center space-x-2 transition-colors ${
+                searchSource === 'ai-discovery'
+                  ? 'bg-purple-600 text-white'
+                  : 'bg-white text-gray-700 hover:bg-gray-50'
+              }`}
+            >
+              <Sparkles className="h-4 w-4" />
+              <span className="font-medium">AI Discovery</span>
+            </button>
           </div>
 
           <div className="flex-1 relative">
@@ -411,6 +536,8 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
               placeholder={
                 searchSource === 'arxiv'
                   ? 'Search arXiv (use commas for multiple keywords: "transformer, attention, vision")'
+                  : searchSource === 'ai-discovery'
+                  ? 'Describe your research interest (e.g., "efficient finetuning methods for large language models")'
                   : 'Search community papers by title, author, or keywords...'
               }
               className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
@@ -433,7 +560,48 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
 
         {showFilters && searchSource === 'arxiv' && (
           <div className="bg-blue-50 p-6 rounded-lg space-y-4 border border-blue-200">
-            <h3 className="font-semibold text-gray-900 mb-3">Advanced arXiv Filters</h3>
+            <div className="flex items-center justify-between mb-3">
+              <h3 className="font-semibold text-gray-900">Advanced arXiv Filters</h3>
+              <label className="flex items-center space-x-2 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={groupByDate}
+                  onChange={(e) => setGroupByDate(e.target.checked)}
+                  className="rounded text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-sm font-medium text-gray-700 flex items-center space-x-1">
+                  <CalendarDays className="h-4 w-4" />
+                  <span>Group by Date</span>
+                </span>
+              </label>
+            </div>
+
+            <div className="bg-white p-4 rounded-lg border border-blue-200 mb-4">
+              <label className="block text-sm font-medium text-gray-700 mb-3">
+                Date Range
+              </label>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+                {[
+                  { value: 'today', label: 'Today', icon: '📅' },
+                  { value: 'week', label: 'Past Week', icon: '📆' },
+                  { value: 'month', label: 'Past Month', icon: '🗓️' },
+                  { value: 'custom', label: 'Custom Range', icon: '⚙️' },
+                ].map((option) => (
+                  <button
+                    key={option.value}
+                    onClick={() => setDateRange(option.value as any)}
+                    className={`px-3 py-2 rounded-lg border-2 transition-all text-sm font-medium ${
+                      dateRange === option.value
+                        ? 'border-blue-500 bg-blue-100 text-blue-900'
+                        : 'border-gray-300 bg-white text-gray-700 hover:border-blue-300'
+                    }`}
+                  >
+                    <span className="mr-1">{option.icon}</span>
+                    {option.label}
+                  </button>
+                ))}
+              </div>
+            </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               <div>
@@ -513,29 +681,33 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
                 />
               </div>
 
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Start Date
-                </label>
-                <input
-                  type="date"
-                  value={arxivFilters.startDate}
-                  onChange={(e) => setArxivFilters({ ...arxivFilters, startDate: e.target.value })}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                />
-              </div>
+              {dateRange === 'custom' && (
+                <>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Start Date
+                    </label>
+                    <input
+                      type="date"
+                      value={arxivFilters.startDate}
+                      onChange={(e) => setArxivFilters({ ...arxivFilters, startDate: e.target.value })}
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    />
+                  </div>
 
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  End Date
-                </label>
-                <input
-                  type="date"
-                  value={arxivFilters.endDate}
-                  onChange={(e) => setArxivFilters({ ...arxivFilters, endDate: e.target.value })}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                />
-              </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      End Date
+                    </label>
+                    <input
+                      type="date"
+                      value={arxivFilters.endDate}
+                      onChange={(e) => setArxivFilters({ ...arxivFilters, endDate: e.target.value })}
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    />
+                  </div>
+                </>
+              )}
             </div>
 
             <div className="flex items-center justify-between pt-3 border-t border-blue-200">
@@ -627,14 +799,355 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
             </div>
           </div>
         )}
+
+        {showFilters && searchSource === 'ai-discovery' && (
+          <div className="bg-gradient-to-br from-purple-50 to-indigo-50 p-6 rounded-lg space-y-4 border border-purple-200">
+            <h3 className="font-semibold text-gray-900 mb-3 flex items-center space-x-2">
+              <Sparkles className="h-5 w-5 text-purple-600" />
+              <span>AI Discovery Settings</span>
+            </h3>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-3">
+                  Discovery Mode
+                </label>
+                <div className="space-y-2">
+                  <button
+                    onClick={() => setDiscoveryMode('stable')}
+                    className={`w-full p-3 rounded-lg border-2 transition-all text-left ${
+                      discoveryMode === 'stable'
+                        ? 'border-blue-500 bg-blue-50'
+                        : 'border-gray-200 bg-white hover:border-blue-300'
+                    }`}
+                  >
+                    <div className="flex items-center space-x-2 mb-1">
+                      <Award className="h-4 w-4 text-blue-600" />
+                      <span className="font-medium text-gray-900">Stable</span>
+                    </div>
+                    <p className="text-xs text-gray-600">Established, authoritative works</p>
+                    <div className="mt-2 text-xs text-gray-500">
+                      Relevance: 50% • Authority: 40% • Novelty: 10%
+                    </div>
+                  </button>
+
+                  <button
+                    onClick={() => setDiscoveryMode('balanced')}
+                    className={`w-full p-3 rounded-lg border-2 transition-all text-left ${
+                      discoveryMode === 'balanced'
+                        ? 'border-purple-500 bg-purple-50'
+                        : 'border-gray-200 bg-white hover:border-purple-300'
+                    }`}
+                  >
+                    <div className="flex items-center space-x-2 mb-1">
+                      <Target className="h-4 w-4 text-purple-600" />
+                      <span className="font-medium text-gray-900">Balanced</span>
+                    </div>
+                    <p className="text-xs text-gray-600">Mix of both approaches</p>
+                    <div className="mt-2 text-xs text-gray-500">
+                      Relevance: 40% • Authority: 30% • Novelty: 30%
+                    </div>
+                  </button>
+
+                  <button
+                    onClick={() => setDiscoveryMode('discovery')}
+                    className={`w-full p-3 rounded-lg border-2 transition-all text-left ${
+                      discoveryMode === 'discovery'
+                        ? 'border-orange-500 bg-orange-50'
+                        : 'border-gray-200 bg-white hover:border-orange-300'
+                    }`}
+                  >
+                    <div className="flex items-center space-x-2 mb-1">
+                      <Lightbulb className="h-4 w-4 text-orange-600" />
+                      <span className="font-medium text-gray-900">Discovery</span>
+                    </div>
+                    <p className="text-xs text-gray-600">Novel, cutting-edge research</p>
+                    <div className="mt-2 text-xs text-gray-500">
+                      Relevance: 30% • Authority: 10% • Novelty: 60%
+                    </div>
+                  </button>
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-3">
+                  Advanced Options
+                </label>
+                <div className="space-y-3">
+                  <div className="bg-white p-3 rounded-lg border border-gray-200">
+                    <label className="flex items-center space-x-2 cursor-pointer">
+                      <input
+                        type="checkbox"
+                        checked={applyDiversity}
+                        onChange={(e) => setApplyDiversity(e.target.checked)}
+                        className="rounded text-purple-600 focus:ring-purple-500"
+                      />
+                      <div>
+                        <span className="text-sm font-medium text-gray-900">Apply Diversity (MMR)</span>
+                        <p className="text-xs text-gray-600">Re-rank results for diverse perspectives</p>
+                      </div>
+                    </label>
+                  </div>
+
+                  <div className="bg-white p-3 rounded-lg border border-gray-200">
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      API Endpoint
+                    </label>
+                    <input
+                      type="text"
+                      value={discoveryApiUrl}
+                      onChange={(e) => setDiscoveryApiUrl(e.target.value)}
+                      placeholder="http://localhost:8000"
+                      className="w-full px-2 py-1 border border-gray-300 rounded text-sm focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
       {searching || loading ? (
         <div className="text-center py-12">
           <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
           <p className="mt-2 text-gray-600">
-            {searchSource === 'arxiv' ? 'Searching arXiv...' : 'Loading papers...'}
+            {searchSource === 'arxiv' ? 'Searching arXiv...' : searchSource === 'ai-discovery' ? 'AI is discovering papers...' : 'Loading papers...'}
           </p>
+        </div>
+      ) : searchSource === 'ai-discovery' ? (
+        <div className="space-y-6">
+          {!discoveryResults ? (
+            <div className="text-center py-12 bg-gradient-to-br from-purple-50 to-indigo-50 rounded-lg border border-purple-200">
+              <Sparkles className="h-12 w-12 text-purple-400 mx-auto mb-3" />
+              <p className="text-gray-600 mb-2">AI-powered paper discovery ready</p>
+              <p className="text-sm text-gray-500">Enter a research query and click Search to discover papers</p>
+            </div>
+          ) : (
+            <>
+              <div className="bg-gradient-to-br from-purple-50 to-indigo-50 border border-purple-200 rounded-lg p-6">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="flex items-center space-x-3">
+                    <Sparkles className="h-6 w-6 text-purple-600" />
+                    <div>
+                      <p className="text-lg font-semibold text-gray-900">AI Discovery Results</p>
+                      <p className="text-sm text-gray-600">Found {discoveryResults.total_papers} papers using {discoveryResults.mode} mode</p>
+                    </div>
+                  </div>
+                  <div className="text-xs text-gray-600 bg-white px-3 py-2 rounded-lg border border-purple-200">
+                    <span className="font-medium">Weights:</span> Relevance {(discoveryResults.mode_weights.relevance * 100).toFixed(0)}% •
+                    Authority {(discoveryResults.mode_weights.authority * 100).toFixed(0)}% •
+                    Novelty {(discoveryResults.mode_weights.novelty * 100).toFixed(0)}%
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-2 overflow-x-auto pb-2">
+                  <button
+                    onClick={() => setActiveCategory('all')}
+                    className={`px-4 py-2 rounded-lg font-medium whitespace-nowrap transition-colors ${
+                      activeCategory === 'all'
+                        ? 'bg-purple-600 text-white'
+                        : 'bg-white text-gray-700 hover:bg-purple-100 border border-purple-200'
+                    }`}
+                  >
+                    All Papers ({discoveryResults.all_papers.length})
+                  </button>
+                  <button
+                    onClick={() => setActiveCategory('overall')}
+                    className={`px-4 py-2 rounded-lg font-medium whitespace-nowrap transition-colors ${
+                      activeCategory === 'overall'
+                        ? 'bg-blue-600 text-white'
+                        : 'bg-white text-gray-700 hover:bg-blue-100 border border-blue-200'
+                    }`}
+                  >
+                    <Star className="inline h-4 w-4 mr-1" />
+                    Top Overall ({discoveryResults.top_overall.length})
+                  </button>
+                  <button
+                    onClick={() => setActiveCategory('hidden_gems')}
+                    className={`px-4 py-2 rounded-lg font-medium whitespace-nowrap transition-colors ${
+                      activeCategory === 'hidden_gems'
+                        ? 'bg-orange-600 text-white'
+                        : 'bg-white text-gray-700 hover:bg-orange-100 border border-orange-200'
+                    }`}
+                  >
+                    <Lightbulb className="inline h-4 w-4 mr-1" />
+                    Hidden Gems ({discoveryResults.hidden_gems.length})
+                  </button>
+                  <button
+                    onClick={() => setActiveCategory('canonical')}
+                    className={`px-4 py-2 rounded-lg font-medium whitespace-nowrap transition-colors ${
+                      activeCategory === 'canonical'
+                        ? 'bg-green-600 text-white'
+                        : 'bg-white text-gray-700 hover:bg-green-100 border border-green-200'
+                    }`}
+                  >
+                    <Award className="inline h-4 w-4 mr-1" />
+                    Canonical ({discoveryResults.canonical_papers.length})
+                  </button>
+                </div>
+              </div>
+
+              {(() => {
+                let papersToShow: DiscoveredPaper[] = [];
+                if (activeCategory === 'all') papersToShow = discoveryResults.all_papers;
+                else if (activeCategory === 'overall') papersToShow = discoveryResults.top_overall;
+                else if (activeCategory === 'hidden_gems') papersToShow = discoveryResults.hidden_gems;
+                else if (activeCategory === 'canonical') papersToShow = discoveryResults.canonical_papers;
+
+                return papersToShow.map((paper) => (
+                  <div
+                    key={paper.id}
+                    className="bg-white border-2 border-purple-100 rounded-lg p-6 hover:shadow-lg transition-all"
+                  >
+                    <div className="flex justify-between items-start mb-3">
+                      <div className="flex-1">
+                        <div className="flex items-center space-x-2 mb-2 flex-wrap gap-2">
+                          <span className="px-2 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded">
+                            arXiv:{paper.id}
+                          </span>
+                          <span className="text-sm text-gray-500">
+                            📅 {new Date(paper.published).toLocaleDateString()}
+                          </span>
+                          <span className="px-2 py-1 bg-gradient-to-r from-purple-100 to-indigo-100 text-purple-800 text-xs font-semibold rounded">
+                            Score: {(paper.scores.final_score * 100).toFixed(1)}
+                          </span>
+                        </div>
+                        <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                          {paper.title}
+                        </h3>
+                      </div>
+                      <button
+                        onClick={async () => {
+                          const arxivPaper: ArxivPaper = {
+                            id: paper.id,
+                            title: paper.title,
+                            summary: paper.summary,
+                            authors: paper.authors,
+                            published: paper.published,
+                            link: `https://arxiv.org/abs/${paper.id}`,
+                            pdfLink: paper.url,
+                            categories: [],
+                          };
+                          await importArxivPaper(arxivPaper);
+                        }}
+                        className="ml-4 p-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
+                        title="Import to community library"
+                      >
+                        <Plus className="h-5 w-5" />
+                      </button>
+                    </div>
+
+                    <div className="flex items-center space-x-4 text-sm text-gray-600 mb-3">
+                      <span>{paper.authors.slice(0, 3).join(', ')}{paper.authors.length > 3 ? ', et al.' : ''}</span>
+                    </div>
+
+                    <div className="grid grid-cols-3 gap-2 mb-3">
+                      <div className="bg-blue-50 rounded-lg p-2 border border-blue-200">
+                        <div className="flex items-center justify-between">
+                          <span className="text-xs font-medium text-blue-900">Relevance</span>
+                          <Target className="h-3 w-3 text-blue-600" />
+                        </div>
+                        <div className="mt-1">
+                          <div className="text-lg font-bold text-blue-900">{(paper.scores.topic_relevance * 100).toFixed(0)}%</div>
+                          <div className="w-full bg-blue-200 rounded-full h-1.5 mt-1">
+                            <div
+                              className="bg-blue-600 h-1.5 rounded-full"
+                              style={{ width: `${paper.scores.topic_relevance * 100}%` }}
+                            ></div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="bg-orange-50 rounded-lg p-2 border border-orange-200">
+                        <div className="flex items-center justify-between">
+                          <span className="text-xs font-medium text-orange-900">Novelty</span>
+                          <Lightbulb className="h-3 w-3 text-orange-600" />
+                        </div>
+                        <div className="mt-1">
+                          <div className="text-lg font-bold text-orange-900">{(paper.scores.novelty * 100).toFixed(0)}%</div>
+                          <div className="w-full bg-orange-200 rounded-full h-1.5 mt-1">
+                            <div
+                              className="bg-orange-600 h-1.5 rounded-full"
+                              style={{ width: `${paper.scores.novelty * 100}%` }}
+                            ></div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="bg-green-50 rounded-lg p-2 border border-green-200">
+                        <div className="flex items-center justify-between">
+                          <span className="text-xs font-medium text-green-900">Authority</span>
+                          <Award className="h-3 w-3 text-green-600" />
+                        </div>
+                        <div className="mt-1">
+                          <div className="text-lg font-bold text-green-900">{(paper.scores.authority_proxy * 100).toFixed(0)}%</div>
+                          <div className="w-full bg-green-200 rounded-full h-1.5 mt-1">
+                            <div
+                              className="bg-green-600 h-1.5 rounded-full"
+                              style={{ width: `${paper.scores.authority_proxy * 100}%` }}
+                            ></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <p className="text-gray-700 mb-4 line-clamp-3">{paper.summary}</p>
+
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center space-x-3">
+                        <a
+                          href={paper.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center space-x-1 text-sm text-purple-600 hover:text-purple-700 font-medium"
+                        >
+                          <ExternalLink className="h-4 w-4" />
+                          <span>PDF</span>
+                        </a>
+                        <a
+                          href={`https://arxiv.org/abs/${paper.id}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center space-x-1 text-sm text-purple-600 hover:text-purple-700 font-medium"
+                        >
+                          <ExternalLink className="h-4 w-4" />
+                          <span>arXiv</span>
+                        </a>
+                      </div>
+
+                      {user && (
+                        <div className="flex items-center space-x-2">
+                          <button
+                            onClick={() => ratePaper(paper.id, null, 1)}
+                            className={`p-2 rounded-lg transition-colors ${
+                              ratings[paper.id] === 1
+                                ? 'bg-green-100 text-green-600'
+                                : 'bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-600'
+                            }`}
+                            title="Like this paper"
+                          >
+                            <ThumbsUp className="h-4 w-4" />
+                          </button>
+                          <button
+                            onClick={() => ratePaper(paper.id, null, -1)}
+                            className={`p-2 rounded-lg transition-colors ${
+                              ratings[paper.id] === -1
+                                ? 'bg-red-100 text-red-600'
+                                : 'bg-gray-100 text-gray-600 hover:bg-red-50 hover:text-red-600'
+                            }`}
+                            title="Dislike this paper"
+                          >
+                            <ThumbsDown className="h-4 w-4" />
+                          </button>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                ));
+              })()}
+            </>
+          )}
         </div>
       ) : searchSource === 'arxiv' ? (
         <div className="space-y-4">
@@ -652,6 +1165,9 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
                     <Globe className="h-5 w-5 text-blue-600" />
                     <p className="text-sm text-blue-900">
                       <span className="font-medium">Live arXiv Results:</span> {arxivPapers.length} papers found
+                      {groupByDate && groupedArxivPapers.size > 0 && (
+                        <span className="ml-2 text-blue-700">({groupedArxivPapers.size} days)</span>
+                      )}
                     </p>
                   </div>
                   <div className="flex items-center space-x-2">
@@ -674,7 +1190,135 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
                   Click <Plus className="inline h-3 w-3" /> to import papers into your community library
                 </p>
               </div>
-              {arxivPapers.map((paper) => (
+
+              {groupByDate && groupedArxivPapers.size > 0 ? (
+                // Grouped by date view
+                Array.from(groupedArxivPapers.entries()).map(([dateKey, papers]) => (
+                  <div key={dateKey} className="space-y-4">
+                    <div className="sticky top-0 z-10 bg-gradient-to-r from-blue-100 to-indigo-100 border-2 border-blue-300 rounded-lg p-3 shadow-sm">
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center space-x-2">
+                          <CalendarDays className="h-5 w-5 text-blue-700" />
+                          <h3 className="text-lg font-semibold text-blue-900">
+                            {formatDateDisplay(dateKey)}
+                          </h3>
+                        </div>
+                        <span className="px-3 py-1 bg-blue-600 text-white rounded-full text-sm font-medium">
+                          {papers.length} {papers.length === 1 ? 'paper' : 'papers'}
+                        </span>
+                      </div>
+                      <p className="text-xs text-blue-700 mt-1">{dateKey}</p>
+                    </div>
+
+                    {papers.map((paper) => (
+                      <div
+                        key={paper.id}
+                        className="bg-white border-2 border-blue-100 rounded-lg p-6 hover:shadow-md transition-shadow ml-4"
+                      >
+                        <div className="flex justify-between items-start mb-3">
+                          <div className="flex-1">
+                            <div className="flex items-center space-x-2 mb-2 flex-wrap gap-2">
+                              <span className="px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">
+                                arXiv:{paper.id}
+                              </span>
+                              <span className="text-sm text-gray-500">
+                                📅 {new Date(paper.published).toLocaleDateString()} {new Date(paper.published).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                              </span>
+                              {paper.updated && new Date(paper.updated).getTime() !== new Date(paper.published).getTime() && (
+                                <span className="text-xs text-gray-500">
+                                  🔄 Updated: {new Date(paper.updated).toLocaleDateString()}
+                                </span>
+                              )}
+                            </div>
+                            <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                              {paper.title}
+                            </h3>
+                          </div>
+                          <button
+                            onClick={() => importArxivPaper(paper)}
+                            className="ml-4 p-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                            title="Import to community library"
+                          >
+                            <Plus className="h-5 w-5" />
+                          </button>
+                        </div>
+
+                        <div className="flex items-center space-x-4 text-sm text-gray-600 mb-3">
+                          <span>{paper.authors.slice(0, 3).join(', ')}{paper.authors.length > 3 ? ', et al.' : ''}</span>
+                        </div>
+
+                        {paper.categories.length > 0 && (
+                          <div className="flex flex-wrap gap-2 mb-3">
+                            {paper.categories.slice(0, 5).map((cat) => (
+                              <span key={cat} className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded">
+                                {cat}
+                              </span>
+                            ))}
+                          </div>
+                        )}
+
+                        <p className="text-gray-700 mb-4 line-clamp-3">{paper.summary}</p>
+
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center space-x-3">
+                            {paper.pdfLink && (
+                              <a
+                                href={paper.pdfLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center space-x-1 text-sm text-blue-600 hover:text-blue-700"
+                              >
+                                <ExternalLink className="h-4 w-4" />
+                                <span>PDF</span>
+                              </a>
+                            )}
+                            {paper.link && (
+                              <a
+                                href={paper.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center space-x-1 text-sm text-blue-600 hover:text-blue-700"
+                              >
+                                <ExternalLink className="h-4 w-4" />
+                                <span>arXiv</span>
+                              </a>
+                            )}
+                          </div>
+
+                          {user && (
+                            <div className="flex items-center space-x-2">
+                              <button
+                                onClick={() => ratePaper(paper.id, null, 1)}
+                                className={`p-2 rounded-lg transition-colors ${
+                                  ratings[paper.id] === 1
+                                    ? 'bg-green-100 text-green-600'
+                                    : 'bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-600'
+                                }`}
+                                title="Like this paper"
+                              >
+                                <ThumbsUp className="h-4 w-4" />
+                              </button>
+                              <button
+                                onClick={() => ratePaper(paper.id, null, -1)}
+                                className={`p-2 rounded-lg transition-colors ${
+                                  ratings[paper.id] === -1
+                                    ? 'bg-red-100 text-red-600'
+                                    : 'bg-gray-100 text-gray-600 hover:bg-red-50 hover:text-red-600'
+                                }`}
+                                title="Dislike this paper"
+                              >
+                                <ThumbsDown className="h-4 w-4" />
+                              </button>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ))
+              ) : (
+                // Regular list view
+                arxivPapers.map((paper) => (
                 <div
                   key={paper.id}
                   className="bg-white border-2 border-blue-100 rounded-lg p-6 hover:shadow-md transition-shadow"
@@ -686,7 +1330,7 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
                           arXiv:{paper.id}
                         </span>
                         <span className="text-sm text-gray-500">
-                          📅 {new Date(paper.published).toLocaleDateString()}
+                          📅 {new Date(paper.published).toLocaleDateString()} {new Date(paper.published).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
                         </span>
                         {paper.updated && new Date(paper.updated).getTime() !== new Date(paper.published).getTime() && (
                           <span className="text-xs text-gray-500">
@@ -777,7 +1421,8 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
                     )}
                   </div>
                 </div>
-              ))}
+              ))
+              )}
 
               {arxivPapers.length > 0 && totalResults === resultsPerPage && (
                 <div className="flex justify-center pt-6">

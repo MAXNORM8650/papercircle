@@ -1,0 +1,9 @@
+{
+	"id": "wByrEatazNmIZgU",
+	"json": "{\"id\":\"wByrEatazNmIZgU\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Kvellestad,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Kvellestad%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997805,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Kvellestad%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Kvellestad,+A"
+}

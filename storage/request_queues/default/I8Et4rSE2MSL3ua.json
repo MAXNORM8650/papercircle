@@ -1,0 +1,9 @@
+{
+	"id": "I8Et4rSE2MSL3ua",
+	"json": "{\"id\":\"I8Et4rSE2MSL3ua\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Tsujikawa,+S\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Tsujikawa%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087037615,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Tsujikawa%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Tsujikawa,+S"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "HRFOZol53S1IWy9",
+	"json": "{\"id\":\"HRFOZol53S1IWy9\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Held,+L+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Held%2C+L+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986602,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Held%2C+L+E&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Held,+L+E"
+}

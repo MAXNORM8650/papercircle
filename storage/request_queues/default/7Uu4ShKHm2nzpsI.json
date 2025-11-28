@@ -1,0 +1,9 @@
+{
+	"id": "7Uu4ShKHm2nzpsI",
+	"json": "{\"id\":\"7Uu4ShKHm2nzpsI\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Ulmer,+C\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Ulmer%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023874,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Ulmer%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Ulmer,+C"
+}

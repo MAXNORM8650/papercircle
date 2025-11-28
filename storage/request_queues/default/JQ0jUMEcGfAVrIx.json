@@ -1,0 +1,9 @@
+{
+	"id": "JQ0jUMEcGfAVrIx",
+	"json": "{\"id\":\"JQ0jUMEcGfAVrIx\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Dillmann,+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Dillmann%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988334,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Dillmann%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Dillmann,+S"
+}

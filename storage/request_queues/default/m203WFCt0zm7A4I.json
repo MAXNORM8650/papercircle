@@ -1,0 +1,9 @@
+{
+	"id": "m203WFCt0zm7A4I",
+	"json": "{\"id\":\"m203WFCt0zm7A4I\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Paez,+M+S\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Paez%2C+M+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023608,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Paez%2C+M+S&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Paez,+M+S"
+}

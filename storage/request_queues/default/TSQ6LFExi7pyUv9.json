@@ -1,0 +1,9 @@
+{
+	"id": "TSQ6LFExi7pyUv9",
+	"json": "{\"id\":\"TSQ6LFExi7pyUv9\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Lee,+J+D\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Lee%2C+J+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009791,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Lee%2C+J+D&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Lee,+J+D"
+}

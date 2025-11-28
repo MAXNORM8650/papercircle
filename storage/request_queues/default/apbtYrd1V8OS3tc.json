@@ -1,0 +1,9 @@
+{
+	"id": "apbtYrd1V8OS3tc",
+	"json": "{\"id\":\"apbtYrd1V8OS3tc\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Berloff,+N+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Berloff%2C+N+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988207,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Berloff%2C+N+G&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Berloff,+N+G"
+}

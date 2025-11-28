@@ -1,0 +1,9 @@
+{
+	"id": "NW9Fv8vGxxDybX1",
+	"json": "{\"id\":\"NW9Fv8vGxxDybX1\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Hayes,+T+L\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Hayes%2C+T+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087019790,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Hayes%2C+T+L&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Hayes,+T+L"
+}

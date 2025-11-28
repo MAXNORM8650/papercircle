@@ -1,0 +1,9 @@
+{
+	"id": "E0diMJvDHAStOFP",
+	"json": "{\"id\":\"E0diMJvDHAStOFP\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Allain%2C+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Allain%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087090175,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Allain%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Allain%2C+G"
+}

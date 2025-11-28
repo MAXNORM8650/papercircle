@@ -1,0 +1,9 @@
+{
+	"id": "Eoj5kNx0vq6lpWf",
+	"json": "{\"id\":\"Eoj5kNx0vq6lpWf\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Ueda,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Ueda%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989583,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-th?query=Ueda%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Ueda,+A"
+}

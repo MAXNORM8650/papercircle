@@ -1,0 +1,9 @@
+{
+	"id": "7K5qkdubYh12KJE",
+	"json": "{\"id\":\"7K5qkdubYh12KJE\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Chen,+Z\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Chen%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005958,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Chen%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Chen,+Z"
+}

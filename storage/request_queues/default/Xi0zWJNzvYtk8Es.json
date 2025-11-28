@@ -1,0 +1,9 @@
+{
+	"id": "Xi0zWJNzvYtk8Es",
+	"json": "{\"id\":\"Xi0zWJNzvYtk8Es\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=van+Gorkom,+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=van+Gorkom%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087030260,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=van+Gorkom%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=van+Gorkom,+J"
+}

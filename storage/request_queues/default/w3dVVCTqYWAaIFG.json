@@ -1,0 +1,9 @@
+{
+	"id": "w3dVVCTqYWAaIFG",
+	"json": "{\"id\":\"w3dVVCTqYWAaIFG\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Young,+J+G\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Young%2C+J+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009705,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Young%2C+J+G&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Young,+J+G"
+}

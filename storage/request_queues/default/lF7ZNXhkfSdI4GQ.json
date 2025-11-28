@@ -1,0 +1,9 @@
+{
+	"id": "lF7ZNXhkfSdI4GQ",
+	"json": "{\"id\":\"lF7ZNXhkfSdI4GQ\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kou,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kou%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010871,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Kou%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kou,+Y"
+}

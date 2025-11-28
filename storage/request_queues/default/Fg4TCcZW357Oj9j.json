@@ -1,0 +1,9 @@
+{
+	"id": "Fg4TCcZW357Oj9j",
+	"json": "{\"id\":\"Fg4TCcZW357Oj9j\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Day-Hall,+H\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Day-Hall%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992796,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Day-Hall%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Day-Hall,+H"
+}

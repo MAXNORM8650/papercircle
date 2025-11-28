@@ -1,0 +1,9 @@
+{
+	"id": "uzhHgAKyl79X2O1",
+	"json": "{\"id\":\"uzhHgAKyl79X2O1\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Le,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Le%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010589,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Le%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Le,+P"
+}

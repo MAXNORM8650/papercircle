@@ -1,0 +1,9 @@
+{
+	"id": "7x9pLo8E3PQJ3uW",
+	"json": "{\"id\":\"7x9pLo8E3PQJ3uW\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Hollowood,+D+L\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Hollowood%2C+D+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087035600,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Hollowood%2C+D+L&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Hollowood,+D+L"
+}

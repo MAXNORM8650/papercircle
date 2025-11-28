@@ -1,0 +1,9 @@
+{
+	"id": "JpTAkQPMWSG028F",
+	"json": "{\"id\":\"JpTAkQPMWSG028F\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Mart%C3%ADnez,+A+L\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Mart%C3%ADnez%2C+A+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087028250,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Mart%C3%ADnez%2C+A+L&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Mart%C3%ADnez,+A+L"
+}

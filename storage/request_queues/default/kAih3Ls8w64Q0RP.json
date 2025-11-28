@@ -1,0 +1,9 @@
+{
+	"id": "kAih3Ls8w64Q0RP",
+	"json": "{\"id\":\"kAih3Ls8w64Q0RP\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Pereira,+M+P\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Pereira%2C+M+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999688,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Pereira%2C+M+P&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Pereira,+M+P"
+}

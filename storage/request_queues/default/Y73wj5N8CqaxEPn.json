@@ -1,0 +1,9 @@
+{
+	"id": "Y73wj5N8CqaxEPn",
+	"json": "{\"id\":\"Y73wj5N8CqaxEPn\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Arzikulov,+F\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Arzikulov%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009466,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Arzikulov%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Arzikulov,+F"
+}

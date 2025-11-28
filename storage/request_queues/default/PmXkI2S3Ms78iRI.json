@@ -1,0 +1,9 @@
+{
+	"id": "PmXkI2S3Ms78iRI",
+	"json": "{\"id\":\"PmXkI2S3Ms78iRI\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Jena,+A+K\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Jena%2C+A+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009731,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Jena%2C+A+K&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Jena,+A+K"
+}

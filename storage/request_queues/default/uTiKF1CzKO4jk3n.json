@@ -1,0 +1,9 @@
+{
+	"id": "uTiKF1CzKO4jk3n",
+	"json": "{\"id\":\"uTiKF1CzKO4jk3n\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ferm%C3%BCller,+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ferm%C3%BCller%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087024421,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Ferm%C3%BCller%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ferm%C3%BCller,+C"
+}

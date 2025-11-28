@@ -1,0 +1,9 @@
+{
+	"id": "vGDBtjEgGOCWbQD",
+	"json": "{\"id\":\"vGDBtjEgGOCWbQD\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Shah,+A+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Shah%2C+A+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087018455,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Shah%2C+A+D&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Shah,+A+D"
+}

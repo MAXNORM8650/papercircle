@@ -1,0 +1,9 @@
+{
+	"id": "IX731JKxBJ4x6oD",
+	"json": "{\"id\":\"IX731JKxBJ4x6oD\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ju,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ju%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087028305,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Ju%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ju,+Y"
+}

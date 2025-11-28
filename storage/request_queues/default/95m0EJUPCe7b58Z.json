@@ -1,0 +1,9 @@
+{
+	"id": "95m0EJUPCe7b58Z",
+	"json": "{\"id\":\"95m0EJUPCe7b58Z\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Pu,+Z\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Pu%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999291,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Pu%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Pu,+Z"
+}

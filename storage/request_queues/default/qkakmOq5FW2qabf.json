@@ -1,0 +1,9 @@
+{
+	"id": "qkakmOq5FW2qabf",
+	"json": "{\"id\":\"qkakmOq5FW2qabf\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Colorado-Caicedo,+J+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Colorado-Caicedo%2C+J+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992961,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Colorado-Caicedo%2C+J+A&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Colorado-Caicedo,+J+A"
+}

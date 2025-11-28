@@ -1,0 +1,9 @@
+{
+	"id": "4JRNbURbSy6vx1k",
+	"json": "{\"id\":\"4JRNbURbSy6vx1k\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ho,+S+M+G\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ho%2C+S+M+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087018044,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Ho%2C+S+M+G&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ho,+S+M+G"
+}

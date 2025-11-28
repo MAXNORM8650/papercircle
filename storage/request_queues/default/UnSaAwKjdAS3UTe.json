@@ -1,0 +1,9 @@
+{
+	"id": "UnSaAwKjdAS3UTe",
+	"json": "{\"id\":\"UnSaAwKjdAS3UTe\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Stritzinger,+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Stritzinger%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988290,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Stritzinger%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Stritzinger,+M"
+}

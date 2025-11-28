@@ -1,0 +1,9 @@
+{
+	"id": "376ORJb2C4M3fpX",
+	"json": "{\"id\":\"376ORJb2C4M3fpX\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Hamblen,+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Hamblen%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997818,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Hamblen%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Hamblen,+J"
+}

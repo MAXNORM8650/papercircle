@@ -1,0 +1,9 @@
+{
+	"id": "5fdAqLo1FxL8x02",
+	"json": "{\"id\":\"5fdAqLo1FxL8x02\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Szafron,+R\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Szafron%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994313,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Szafron%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Szafron,+R"
+}

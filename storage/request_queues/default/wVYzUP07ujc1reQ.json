@@ -1,0 +1,9 @@
+{
+	"id": "wVYzUP07ujc1reQ",
+	"json": "{\"id\":\"wVYzUP07ujc1reQ\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Leonhardt,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Leonhardt%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002159,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Leonhardt%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Leonhardt,+A"
+}

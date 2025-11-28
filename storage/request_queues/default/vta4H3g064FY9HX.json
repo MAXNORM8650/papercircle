@@ -1,0 +1,9 @@
+{
+	"id": "vta4H3g064FY9HX",
+	"json": "{\"id\":\"vta4H3g064FY9HX\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Shields%2C+J+V\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Shields%2C+J+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087072914,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Shields%2C+J+V&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Shields%2C+J+V"
+}

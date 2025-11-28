@@ -1,0 +1,9 @@
+{
+	"id": "q9OuWMa13QpVsAM",
+	"json": "{\"id\":\"q9OuWMa13QpVsAM\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Bhat,+S+A\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Bhat%2C+S+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991799,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Bhat%2C+S+A&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Bhat,+S+A"
+}

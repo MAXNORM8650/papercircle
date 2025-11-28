@@ -1,0 +1,9 @@
+{
+	"id": "9SWuYdEb8gvl36A",
+	"json": "{\"id\":\"9SWuYdEb8gvl36A\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Orvieto,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Orvieto%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025637,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Orvieto%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Orvieto,+A"
+}

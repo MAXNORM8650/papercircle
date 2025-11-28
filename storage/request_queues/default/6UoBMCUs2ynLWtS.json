@@ -1,0 +1,9 @@
+{
+	"id": "6UoBMCUs2ynLWtS",
+	"json": "{\"id\":\"6UoBMCUs2ynLWtS\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ariza-Hernandez,+F+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ariza-Hernandez%2C+F+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016734,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Ariza-Hernandez%2C+F+J&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ariza-Hernandez,+F+J"
+}

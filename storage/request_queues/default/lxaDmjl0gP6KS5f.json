@@ -1,0 +1,9 @@
+{
+	"id": "lxaDmjl0gP6KS5f",
+	"json": "{\"id\":\"lxaDmjl0gP6KS5f\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Skoupil,+D\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Skoupil%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997741,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Skoupil%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Skoupil,+D"
+}

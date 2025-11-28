@@ -1,0 +1,9 @@
+{
+	"id": "iVCwhg0Hn3tRk9l",
+	"json": "{\"id\":\"iVCwhg0Hn3tRk9l\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Cai,+M+H\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Cai%2C+M+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992891,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Cai%2C+M+H&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Cai,+M+H"
+}

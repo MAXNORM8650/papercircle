@@ -1,0 +1,9 @@
+{
+	"id": "je3DRgSp5bLfEF0",
+	"json": "{\"id\":\"je3DRgSp5bLfEF0\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Brisson-Tsavoussis%2C+Z\",\"uniqueKey\":\"https://arxiv.org/search?query=Brisson-Tsavoussis%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087057266,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Brisson-Tsavoussis%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Brisson-Tsavoussis%2C+Z"
+}

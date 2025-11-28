@@ -1,0 +1,9 @@
+{
+	"id": "ObSOqds27hhSRXc",
+	"json": "{\"id\":\"ObSOqds27hhSRXc\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Bertino,+E\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Bertino%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012916,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Bertino%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Bertino,+E"
+}

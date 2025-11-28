@@ -1,0 +1,9 @@
+{
+	"id": "gUS9DFNmsY85KW8",
+	"json": "{\"id\":\"gUS9DFNmsY85KW8\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Kaul,+R+K\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Kaul%2C+R+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989077,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Kaul%2C+R+K&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Kaul,+R+K"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "fgdRAs7alMzfXuT",
+	"json": "{\"id\":\"fgdRAs7alMzfXuT\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Etienne,+T\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Etienne%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999423,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Etienne%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Etienne,+T"
+}

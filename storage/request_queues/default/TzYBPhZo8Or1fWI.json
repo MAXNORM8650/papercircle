@@ -1,0 +1,9 @@
+{
+	"id": "TzYBPhZo8Or1fWI",
+	"json": "{\"id\":\"TzYBPhZo8Or1fWI\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Herrero,+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Herrero%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012958,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Herrero%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Herrero,+R"
+}

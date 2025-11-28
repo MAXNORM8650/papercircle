@@ -1,0 +1,9 @@
+{
+	"id": "H9Nyfg0pO4RZN28",
+	"json": "{\"id\":\"H9Nyfg0pO4RZN28\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Majeed,+N\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Majeed%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992789,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Majeed%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Majeed,+N"
+}

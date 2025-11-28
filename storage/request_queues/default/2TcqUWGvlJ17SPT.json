@@ -1,0 +1,9 @@
+{
+	"id": "2TcqUWGvlJ17SPT",
+	"json": "{\"id\":\"2TcqUWGvlJ17SPT\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Hansen,+M\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Hansen%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999150,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Hansen%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Hansen,+M"
+}

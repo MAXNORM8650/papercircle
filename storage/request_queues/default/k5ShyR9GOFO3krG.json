@@ -1,0 +1,9 @@
+{
+	"id": "k5ShyR9GOFO3krG",
+	"json": "{\"id\":\"k5ShyR9GOFO3krG\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Fragkiadaki,+V\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Fragkiadaki%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007050,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Fragkiadaki%2C+V&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Fragkiadaki,+V"
+}

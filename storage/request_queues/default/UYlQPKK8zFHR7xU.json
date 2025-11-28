@@ -1,0 +1,9 @@
+{
+	"id": "UYlQPKK8zFHR7xU",
+	"json": "{\"id\":\"UYlQPKK8zFHR7xU\",\"url\":\"https://arxiv.org/list/cond-mat.dis-nn/recent?skip=0&show=50\",\"uniqueKey\":\"https://arxiv.org/list/cond-mat.dis-nn/recent?show=50&skip=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989410,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/cond-mat.dis-nn/recent?show=50&skip=0",
+	"url": "https://arxiv.org/list/cond-mat.dis-nn/recent?skip=0&show=50"
+}

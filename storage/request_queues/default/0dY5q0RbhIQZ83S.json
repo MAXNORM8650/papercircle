@@ -1,0 +1,9 @@
+{
+	"id": "0dY5q0RbhIQZ83S",
+	"json": "{\"id\":\"0dY5q0RbhIQZ83S\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Harakawa%2C+H\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Harakawa%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087073240,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Harakawa%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Harakawa%2C+H"
+}

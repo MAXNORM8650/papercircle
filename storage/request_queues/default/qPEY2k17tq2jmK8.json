@@ -1,0 +1,9 @@
+{
+	"id": "qPEY2k17tq2jmK8",
+	"json": "{\"id\":\"qPEY2k17tq2jmK8\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Grant,+L+D\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Grant%2C+L+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999864,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Grant%2C+L+D&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Grant,+L+D"
+}

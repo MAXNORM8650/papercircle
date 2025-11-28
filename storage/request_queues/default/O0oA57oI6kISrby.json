@@ -1,0 +1,9 @@
+{
+	"id": "O0oA57oI6kISrby",
+	"json": "{\"id\":\"O0oA57oI6kISrby\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=De,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=De%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087017839,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=De%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=De,+S"
+}

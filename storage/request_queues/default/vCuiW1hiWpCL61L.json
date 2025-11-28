@@ -1,0 +1,9 @@
+{
+	"id": "vCuiW1hiWpCL61L",
+	"json": "{\"id\":\"vCuiW1hiWpCL61L\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=DeLaunay%2C+J+J&start=0\",\"uniqueKey\":\"https://arxiv.org/search?query=DeLaunay%2C+J+J&searchtype=author&start=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087066065,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=DeLaunay%2C+J+J&searchtype=author&start=0",
+	"url": "https://arxiv.org/search/?searchtype=author&query=DeLaunay%2C+J+J&start=0"
+}

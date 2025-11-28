@@ -1,0 +1,9 @@
+{
+	"id": "8MU1lWKGdt5C2yB",
+	"json": "{\"id\":\"8MU1lWKGdt5C2yB\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Hilton,+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Hilton%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087036583,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Hilton%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Hilton,+E"
+}

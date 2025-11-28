@@ -1,0 +1,9 @@
+{
+	"id": "vKr8IYtQZmjL0Gq",
+	"json": "{\"id\":\"vKr8IYtQZmjL0Gq\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Mamouni,+M+I\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Mamouni%2C+M+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009531,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Mamouni%2C+M+I&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Mamouni,+M+I"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "TYGhTC9pYfa1zFx",
+	"json": "{\"id\":\"TYGhTC9pYfa1zFx\",\"url\":\"https://arxiv.org/search/q-fin?searchtype=author&query=Rahimikia,+E\",\"uniqueKey\":\"https://arxiv.org/search/q-fin?query=Rahimikia%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087021582,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-fin?query=Rahimikia%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/q-fin?searchtype=author&query=Rahimikia,+E"
+}

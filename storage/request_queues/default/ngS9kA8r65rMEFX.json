@@ -1,0 +1,9 @@
+{
+	"id": "ngS9kA8r65rMEFX",
+	"json": "{\"id\":\"ngS9kA8r65rMEFX\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Ribeiro,+C+K\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Ribeiro%2C+C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086990294,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Ribeiro%2C+C+K&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Ribeiro,+C+K"
+}

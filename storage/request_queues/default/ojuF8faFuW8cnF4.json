@@ -1,0 +1,9 @@
+{
+	"id": "ojuF8faFuW8cnF4",
+	"json": "{\"id\":\"ojuF8faFuW8cnF4\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Cosserat,+O\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Cosserat%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009777,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Cosserat%2C+O&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Cosserat,+O"
+}

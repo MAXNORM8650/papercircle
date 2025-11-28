@@ -1,0 +1,9 @@
+{
+	"id": "yH52nAjSwS6Pyax",
+	"json": "{\"id\":\"yH52nAjSwS6Pyax\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Nascimento,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Nascimento%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005264,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Nascimento%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Nascimento,+A"
+}

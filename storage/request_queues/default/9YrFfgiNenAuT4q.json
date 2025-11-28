@@ -1,0 +1,9 @@
+{
+	"id": "9YrFfgiNenAuT4q",
+	"json": "{\"id\":\"9YrFfgiNenAuT4q\",\"url\":\"https://arxiv.org/search/nucl-th?searchtype=author&query=Dong,+R\",\"uniqueKey\":\"https://arxiv.org/search/nucl-th?query=Dong%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997434,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-th?query=Dong%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-th?searchtype=author&query=Dong,+R"
+}

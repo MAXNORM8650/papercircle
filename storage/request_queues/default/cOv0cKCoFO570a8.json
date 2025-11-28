@@ -1,0 +1,9 @@
+{
+	"id": "cOv0cKCoFO570a8",
+	"json": "{\"id\":\"cOv0cKCoFO570a8\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Haque,+M+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Haque%2C+M+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087028465,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Haque%2C+M+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Haque,+M+A"
+}

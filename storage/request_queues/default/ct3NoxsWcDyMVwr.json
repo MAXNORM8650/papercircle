@@ -1,0 +1,9 @@
+{
+	"id": "ct3NoxsWcDyMVwr",
+	"json": "{\"id\":\"ct3NoxsWcDyMVwr\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Collier,+O\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Collier%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023218,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Collier%2C+O&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Collier,+O"
+}

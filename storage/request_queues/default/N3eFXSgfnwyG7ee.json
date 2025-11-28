@@ -1,0 +1,9 @@
+{
+	"id": "N3eFXSgfnwyG7ee",
+	"json": "{\"id\":\"N3eFXSgfnwyG7ee\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Sauer,+J\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Sauer%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006673,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Sauer%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Sauer,+J"
+}

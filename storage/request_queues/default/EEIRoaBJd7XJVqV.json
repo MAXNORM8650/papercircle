@@ -1,0 +1,9 @@
+{
+	"id": "EEIRoaBJd7XJVqV",
+	"json": "{\"id\":\"EEIRoaBJd7XJVqV\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Schneider,+F\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Schneider%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009501,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Schneider%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Schneider,+F"
+}

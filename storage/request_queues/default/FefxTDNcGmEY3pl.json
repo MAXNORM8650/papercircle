@@ -1,0 +1,9 @@
+{
+	"id": "FefxTDNcGmEY3pl",
+	"json": "{\"id\":\"FefxTDNcGmEY3pl\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ansah-Narh,+T\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Ansah-Narh%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988201,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Ansah-Narh%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Ansah-Narh,+T"
+}

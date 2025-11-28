@@ -1,0 +1,9 @@
+{
+	"id": "4l02COCR7UAlLj7",
+	"json": "{\"id\":\"4l02COCR7UAlLj7\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Rosell,+A+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Rosell%2C+A+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986868,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Rosell%2C+A+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Rosell,+A+C"
+}

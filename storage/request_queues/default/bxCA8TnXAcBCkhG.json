@@ -1,0 +1,9 @@
+{
+	"id": "bxCA8TnXAcBCkhG",
+	"json": "{\"id\":\"bxCA8TnXAcBCkhG\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Dr%C3%A9ano,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Dr%C3%A9ano%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087011966,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Dr%C3%A9ano%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Dr%C3%A9ano,+S"
+}

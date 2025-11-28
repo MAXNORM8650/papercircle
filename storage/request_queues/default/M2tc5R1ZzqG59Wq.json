@@ -1,0 +1,9 @@
+{
+	"id": "M2tc5R1ZzqG59Wq",
+	"json": "{\"id\":\"M2tc5R1ZzqG59Wq\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Serio,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Serio%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087028264,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Serio%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Serio,+P"
+}

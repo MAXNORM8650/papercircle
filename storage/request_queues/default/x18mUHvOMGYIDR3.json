@@ -1,0 +1,9 @@
+{
+	"id": "x18mUHvOMGYIDR3",
+	"json": "{\"id\":\"x18mUHvOMGYIDR3\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Borreguero,+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Borreguero%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002428,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Borreguero%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Borreguero,+J"
+}

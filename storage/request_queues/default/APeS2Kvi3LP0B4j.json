@@ -1,0 +1,9 @@
+{
+	"id": "APeS2Kvi3LP0B4j",
+	"json": "{\"id\":\"APeS2Kvi3LP0B4j\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Mu%C3%B1oz-Echeverr%C3%ADa,+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Mu%C3%B1oz-Echeverr%C3%ADa%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087035619,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Mu%C3%B1oz-Echeverr%C3%ADa%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Mu%C3%B1oz-Echeverr%C3%ADa,+M"
+}

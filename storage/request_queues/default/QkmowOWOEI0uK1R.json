@@ -1,0 +1,9 @@
+{
+	"id": "QkmowOWOEI0uK1R",
+	"json": "{\"id\":\"QkmowOWOEI0uK1R\",\"url\":\"https://arxiv.org/list/econ/new?skip=0&show=1000\",\"uniqueKey\":\"https://arxiv.org/list/econ/new?show=1000&skip=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087026171,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/econ/new?show=1000&skip=0",
+	"url": "https://arxiv.org/list/econ/new?skip=0&show=1000"
+}

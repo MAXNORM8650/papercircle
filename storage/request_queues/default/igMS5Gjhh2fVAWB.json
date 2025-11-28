@@ -1,0 +1,9 @@
+{
+	"id": "igMS5Gjhh2fVAWB",
+	"json": "{\"id\":\"igMS5Gjhh2fVAWB\",\"url\":\"https://arxiv.org/search/nlin?searchtype=author&query=Bobrova,+A\",\"uniqueKey\":\"https://arxiv.org/search/nlin?query=Bobrova%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086996446,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nlin?query=Bobrova%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/nlin?searchtype=author&query=Bobrova,+A"
+}

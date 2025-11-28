@@ -1,0 +1,9 @@
+{
+	"id": "pRDoiY47DPFWiGT",
+	"json": "{\"id\":\"pRDoiY47DPFWiGT\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Rahul,+S\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Rahul%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989488,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Rahul%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Rahul,+S"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "geb5glLjWOyAtp3",
+	"json": "{\"id\":\"geb5glLjWOyAtp3\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Huai,+Z\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Huai%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988191,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Huai%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Huai,+Z"
+}

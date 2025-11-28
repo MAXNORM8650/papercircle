@@ -1,0 +1,9 @@
+{
+	"id": "SBq8vJFgtSur1TI",
+	"json": "{\"id\":\"SBq8vJFgtSur1TI\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Braga,+B+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Braga%2C+B+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009189,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Braga%2C+B+M&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Braga,+B+M"
+}

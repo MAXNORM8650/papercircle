@@ -1,0 +1,9 @@
+{
+	"id": "lSXd2zrYovcoibj",
+	"json": "{\"id\":\"lSXd2zrYovcoibj\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Barradas%2C+N+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Barradas%2C+N+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087068212,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Barradas%2C+N+P&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Barradas%2C+N+P"
+}

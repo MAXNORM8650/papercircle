@@ -1,0 +1,9 @@
+{
+	"id": "3FwZN9wKnlVeHXB",
+	"json": "{\"id\":\"3FwZN9wKnlVeHXB\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ren,+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ren%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014932,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Ren%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ren,+B"
+}

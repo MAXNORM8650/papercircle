@@ -1,0 +1,9 @@
+{
+	"id": "Q1MII9oh0RLGAb1",
+	"json": "{\"id\":\"Q1MII9oh0RLGAb1\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Siebert,+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Siebert%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087026964,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Siebert%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Siebert,+T"
+}

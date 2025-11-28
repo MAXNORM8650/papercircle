@@ -1,0 +1,9 @@
+{
+	"id": "Fn0UhWdojUQXdTQ",
+	"json": "{\"id\":\"Fn0UhWdojUQXdTQ\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Sankaran,+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Sankaran%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999094,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Sankaran%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Sankaran,+R"
+}

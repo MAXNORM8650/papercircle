@@ -1,0 +1,9 @@
+{
+	"id": "c2N3Ri8lwcL3nb5",
+	"json": "{\"id\":\"c2N3Ri8lwcL3nb5\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Gaudin,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Gaudin%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005106,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Gaudin%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Gaudin,+A"
+}

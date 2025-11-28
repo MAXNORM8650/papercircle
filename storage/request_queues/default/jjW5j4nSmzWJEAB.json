@@ -1,0 +1,9 @@
+{
+	"id": "jjW5j4nSmzWJEAB",
+	"json": "{\"id\":\"jjW5j4nSmzWJEAB\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Nugroho,+C+S\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Nugroho%2C+C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986776,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Nugroho%2C+C+S&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Nugroho,+C+S"
+}

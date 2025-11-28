@@ -1,0 +1,9 @@
+{
+	"id": "VozX1l0H9x5yJHQ",
+	"json": "{\"id\":\"VozX1l0H9x5yJHQ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=McCullough%2C+P+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=McCullough%2C+P+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087075129,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=McCullough%2C+P+R&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=McCullough%2C+P+R"
+}

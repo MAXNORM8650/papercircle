@@ -1,0 +1,9 @@
+{
+	"id": "jdhZcK94I8kvQS4",
+	"json": "{\"id\":\"jdhZcK94I8kvQS4\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Choptuik,+M+W\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Choptuik%2C+M+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001343,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Choptuik%2C+M+W&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Choptuik,+M+W"
+}

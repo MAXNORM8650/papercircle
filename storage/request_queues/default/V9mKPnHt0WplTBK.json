@@ -1,0 +1,9 @@
+{
+	"id": "V9mKPnHt0WplTBK",
+	"json": "{\"id\":\"V9mKPnHt0WplTBK\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Causio,+F+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Causio%2C+F+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012657,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Causio%2C+F+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Causio,+F+A"
+}

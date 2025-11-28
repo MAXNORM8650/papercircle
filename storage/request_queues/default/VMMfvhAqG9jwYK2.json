@@ -1,0 +1,9 @@
+{
+	"id": "VMMfvhAqG9jwYK2",
+	"json": "{\"id\":\"VMMfvhAqG9jwYK2\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Gal-Yam,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Gal-Yam%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087039448,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Gal-Yam%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Gal-Yam,+A"
+}

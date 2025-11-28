@@ -1,0 +1,9 @@
+{
+	"id": "6hIMWuZ2xBJI1SH",
+	"json": "{\"id\":\"6hIMWuZ2xBJI1SH\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Deng,+Q\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Deng%2C+Q&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010163,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Deng%2C+Q&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Deng,+Q"
+}

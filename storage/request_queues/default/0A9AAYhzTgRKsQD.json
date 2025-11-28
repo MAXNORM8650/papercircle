@@ -1,0 +1,9 @@
+{
+	"id": "0A9AAYhzTgRKsQD",
+	"json": "{\"id\":\"0A9AAYhzTgRKsQD\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Larison%2C+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Larison%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087094346,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Larison%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Larison%2C+C"
+}

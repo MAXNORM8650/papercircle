@@ -1,0 +1,9 @@
+{
+	"id": "OKPJKuYtsM1ACvB",
+	"json": "{\"id\":\"OKPJKuYtsM1ACvB\",\"url\":\"https://arxiv.org/list/econ.GN/recent?skip=15&show=50\",\"uniqueKey\":\"https://arxiv.org/list/econ.GN/recent?show=50&skip=15\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087022325,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/econ.GN/recent?show=50&skip=15",
+	"url": "https://arxiv.org/list/econ.GN/recent?skip=15&show=50"
+}

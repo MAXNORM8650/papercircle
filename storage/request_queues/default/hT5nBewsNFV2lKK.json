@@ -1,0 +1,9 @@
+{
+	"id": "hT5nBewsNFV2lKK",
+	"json": "{\"id\":\"hT5nBewsNFV2lKK\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Chambers,+K+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Chambers%2C+K+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988256,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Chambers%2C+K+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Chambers,+K+C"
+}

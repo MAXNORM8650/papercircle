@@ -1,0 +1,9 @@
+{
+	"id": "EVUm38puJ7NkcA0",
+	"json": "{\"id\":\"EVUm38puJ7NkcA0\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Hammouda,+C+B\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Hammouda%2C+C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007860,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Hammouda%2C+C+B&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Hammouda,+C+B"
+}

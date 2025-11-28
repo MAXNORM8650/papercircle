@@ -1,0 +1,9 @@
+{
+	"id": "u43EGrws7Rh6ZSL",
+	"json": "{\"id\":\"u43EGrws7Rh6ZSL\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Avanzini,+M+B\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Avanzini%2C+M+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002248,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Avanzini%2C+M+B&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Avanzini,+M+B"
+}

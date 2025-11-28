@@ -1,0 +1,9 @@
+{
+	"id": "xmXra8aoI7wFMUd",
+	"json": "{\"id\":\"xmXra8aoI7wFMUd\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Gavassino,+L\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Gavassino%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988364,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Gavassino%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Gavassino,+L"
+}

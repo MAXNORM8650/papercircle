@@ -1,0 +1,9 @@
+{
+	"id": "v5R7OQ9Lw9V0fMb",
+	"json": "{\"id\":\"v5R7OQ9Lw9V0fMb\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Dai,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Dai%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989946,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Dai%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Dai,+Y"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "uwnw7bfWwLrDjnS",
+	"json": "{\"id\":\"uwnw7bfWwLrDjnS\",\"url\":\"https://arxiv.org/search/nucl-th?searchtype=author&query=Yang,+H\",\"uniqueKey\":\"https://arxiv.org/search/nucl-th?query=Yang%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086998502,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-th?query=Yang%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-th?searchtype=author&query=Yang,+H"
+}

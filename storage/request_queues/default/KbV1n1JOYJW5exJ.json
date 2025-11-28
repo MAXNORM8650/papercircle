@@ -1,0 +1,9 @@
+{
+	"id": "KbV1n1JOYJW5exJ",
+	"json": "{\"id\":\"KbV1n1JOYJW5exJ\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=G.R.Boroun\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=G.R.Boroun&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994187,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=G.R.Boroun&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=G.R.Boroun"
+}

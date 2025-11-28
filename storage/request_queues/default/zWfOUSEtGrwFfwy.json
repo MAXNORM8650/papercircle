@@ -1,0 +1,9 @@
+{
+	"id": "zWfOUSEtGrwFfwy",
+	"json": "{\"id\":\"zWfOUSEtGrwFfwy\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=A-thano,+N\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=A-thano%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087037359,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=A-thano%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=A-thano,+N"
+}

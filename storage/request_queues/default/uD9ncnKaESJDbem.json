@@ -1,0 +1,9 @@
+{
+	"id": "uD9ncnKaESJDbem",
+	"json": "{\"id\":\"uD9ncnKaESJDbem\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Azimi,+S\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Azimi%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086996497,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Azimi%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Azimi,+S"
+}

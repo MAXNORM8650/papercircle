@@ -1,0 +1,9 @@
+{
+	"id": "881wtdEuS1vPtR4",
+	"json": "{\"id\":\"881wtdEuS1vPtR4\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Tedongmo,+J+L\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Tedongmo%2C+J+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988202,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Tedongmo%2C+J+L&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Tedongmo,+J+L"
+}

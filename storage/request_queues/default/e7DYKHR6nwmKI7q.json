@@ -1,0 +1,9 @@
+{
+	"id": "e7DYKHR6nwmKI7q",
+	"json": "{\"id\":\"e7DYKHR6nwmKI7q\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Kim,+E\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Kim%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994256,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-th?query=Kim%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Kim,+E"
+}

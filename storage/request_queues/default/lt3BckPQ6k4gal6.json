@@ -1,0 +1,9 @@
+{
+	"id": "lt3BckPQ6k4gal6",
+	"json": "{\"id\":\"lt3BckPQ6k4gal6\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Duffy,+K\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Duffy%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992766,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Duffy%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Duffy,+K"
+}

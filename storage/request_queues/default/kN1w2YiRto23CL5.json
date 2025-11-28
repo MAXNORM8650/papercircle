@@ -1,0 +1,9 @@
+{
+	"id": "kN1w2YiRto23CL5",
+	"json": "{\"id\":\"kN1w2YiRto23CL5\",\"url\":\"https://arxiv.org/search/nucl-th?searchtype=author&query=Karthein,+J+M\",\"uniqueKey\":\"https://arxiv.org/search/nucl-th?query=Karthein%2C+J+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086998494,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-th?query=Karthein%2C+J+M&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-th?searchtype=author&query=Karthein,+J+M"
+}

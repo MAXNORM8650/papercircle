@@ -1,0 +1,9 @@
+{
+	"id": "EuqMnv6xFuSevqe",
+	"json": "{\"id\":\"EuqMnv6xFuSevqe\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Burdin,+S\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Burdin%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992709,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Burdin%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Burdin,+S"
+}

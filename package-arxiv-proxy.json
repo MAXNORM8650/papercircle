@@ -1,0 +1,14 @@
+{
+  "name": "arxiv-proxy",
+  "version": "1.0.0",
+  "description": "CORS proxy for arXiv API",
+  "main": "arxiv-proxy.js",
+  "scripts": {
+    "start": "node arxiv-proxy.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.7.0"
+  }
+}

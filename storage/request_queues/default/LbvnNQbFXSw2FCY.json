@@ -1,0 +1,9 @@
+{
+	"id": "LbvnNQbFXSw2FCY",
+	"json": "{\"id\":\"LbvnNQbFXSw2FCY\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Srinath\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Srinath&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087018062,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Srinath&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Srinath"
+}

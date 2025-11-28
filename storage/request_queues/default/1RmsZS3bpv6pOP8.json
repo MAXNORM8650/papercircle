@@ -1,0 +1,9 @@
+{
+	"id": "1RmsZS3bpv6pOP8",
+	"json": "{\"id\":\"1RmsZS3bpv6pOP8\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Weippl,+E\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Weippl%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012650,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Weippl%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Weippl,+E"
+}

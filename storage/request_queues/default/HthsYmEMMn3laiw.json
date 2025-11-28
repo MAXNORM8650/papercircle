@@ -1,0 +1,9 @@
+{
+	"id": "HthsYmEMMn3laiw",
+	"json": "{\"id\":\"HthsYmEMMn3laiw\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Oliveira,+S+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Oliveira%2C+S+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087020886,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Oliveira%2C+S+P&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Oliveira,+S+P"
+}

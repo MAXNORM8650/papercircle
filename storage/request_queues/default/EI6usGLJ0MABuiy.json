@@ -1,0 +1,9 @@
+{
+	"id": "EI6usGLJ0MABuiy",
+	"json": "{\"id\":\"EI6usGLJ0MABuiy\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Morales,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Morales%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014354,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Morales%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Morales,+A"
+}

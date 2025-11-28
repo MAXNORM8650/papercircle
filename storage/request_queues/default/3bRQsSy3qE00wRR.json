@@ -1,0 +1,9 @@
+{
+	"id": "3bRQsSy3qE00wRR",
+	"json": "{\"id\":\"3bRQsSy3qE00wRR\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=V.%2C+A+B&start=50\",\"uniqueKey\":\"https://arxiv.org/search?query=V.%2C+A+B&searchtype=author&start=50\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087048816,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=V.%2C+A+B&searchtype=author&start=50",
+	"url": "https://arxiv.org/search/?searchtype=author&query=V.%2C+A+B&start=50"
+}

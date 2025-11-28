@@ -1,0 +1,9 @@
+{
+	"id": "fdfm7PMIlBgEda5",
+	"json": "{\"id\":\"fdfm7PMIlBgEda5\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Badeau,+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Badeau%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087000801,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Badeau%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Badeau,+R"
+}

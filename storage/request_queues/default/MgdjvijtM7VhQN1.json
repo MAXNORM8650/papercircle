@@ -1,0 +1,9 @@
+{
+	"id": "MgdjvijtM7VhQN1",
+	"json": "{\"id\":\"MgdjvijtM7VhQN1\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Lalinsk%C3%BD,+O\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Lalinsk%C3%BD%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002481,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Lalinsk%C3%BD%2C+O&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Lalinsk%C3%BD,+O"
+}

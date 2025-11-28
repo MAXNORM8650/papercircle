@@ -1,0 +1,9 @@
+{
+	"id": "4jNnxYrPyVpgy6N",
+	"json": "{\"id\":\"4jNnxYrPyVpgy6N\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Martinez,+M+A+L\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Martinez%2C+M+A+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087011749,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Martinez%2C+M+A+L&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Martinez,+M+A+L"
+}

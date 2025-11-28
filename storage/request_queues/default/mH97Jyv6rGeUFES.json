@@ -1,0 +1,9 @@
+{
+	"id": "mH97Jyv6rGeUFES",
+	"json": "{\"id\":\"mH97Jyv6rGeUFES\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Gerber,+P+R\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Gerber%2C+P+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007645,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Gerber%2C+P+R&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Gerber,+P+R"
+}

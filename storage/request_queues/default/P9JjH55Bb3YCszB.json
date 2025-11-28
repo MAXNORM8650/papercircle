@@ -1,0 +1,9 @@
+{
+	"id": "P9JjH55Bb3YCszB",
+	"json": "{\"id\":\"P9JjH55Bb3YCszB\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Smolentsev,+S\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Smolentsev%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001325,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Smolentsev%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Smolentsev,+S"
+}

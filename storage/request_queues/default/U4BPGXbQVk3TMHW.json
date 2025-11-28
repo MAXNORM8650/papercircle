@@ -1,0 +1,9 @@
+{
+	"id": "U4BPGXbQVk3TMHW",
+	"json": "{\"id\":\"U4BPGXbQVk3TMHW\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Ahmad,+H+G\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Ahmad%2C+H+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991225,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Ahmad%2C+H+G&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Ahmad,+H+G"
+}

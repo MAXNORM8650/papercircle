@@ -1,0 +1,9 @@
+{
+	"id": "lBvCAnY4cPz8zJv",
+	"json": "{\"id\":\"lBvCAnY4cPz8zJv\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Karagiorgi,+G\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Karagiorgi%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992783,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Karagiorgi%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Karagiorgi,+G"
+}

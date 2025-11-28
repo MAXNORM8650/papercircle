@@ -1,0 +1,9 @@
+{
+	"id": "qdpn3cEZFvsM6Rb",
+	"json": "{\"id\":\"qdpn3cEZFvsM6Rb\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Motes,+J+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Motes%2C+J+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016312,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Motes%2C+J+D&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Motes,+J+D"
+}

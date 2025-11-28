@@ -1,0 +1,9 @@
+{
+	"id": "LIsDwCyh0nlHwLY",
+	"json": "{\"id\":\"LIsDwCyh0nlHwLY\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Klewicki,+J+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Klewicki%2C+J+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001318,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Klewicki%2C+J+C&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Klewicki,+J+C"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "eWJzEk5cIn8XQ3Y",
+	"json": "{\"id\":\"eWJzEk5cIn8XQ3Y\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Khateri,+M\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Khateri%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025613,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Khateri%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Khateri,+M"
+}

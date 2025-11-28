@@ -1,0 +1,9 @@
+{
+	"id": "81hi28wOaWrwnkv",
+	"json": "{\"id\":\"81hi28wOaWrwnkv\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Rychter,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Rychter%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992520,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Rychter%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Rychter,+A"
+}

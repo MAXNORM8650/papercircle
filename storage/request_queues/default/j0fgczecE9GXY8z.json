@@ -1,0 +1,9 @@
+{
+	"id": "j0fgczecE9GXY8z",
+	"json": "{\"id\":\"j0fgczecE9GXY8z\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Jing,+X\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Jing%2C+X&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025374,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Jing%2C+X&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Jing,+X"
+}

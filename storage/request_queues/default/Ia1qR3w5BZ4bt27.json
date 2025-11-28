@@ -1,0 +1,9 @@
+{
+	"id": "Ia1qR3w5BZ4bt27",
+	"json": "{\"id\":\"Ia1qR3w5BZ4bt27\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Smedskjaer,+M+M\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Smedskjaer%2C+M+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989463,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Smedskjaer%2C+M+M&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Smedskjaer,+M+M"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "PeUkEVG1PWfNehy",
+	"json": "{\"id\":\"PeUkEVG1PWfNehy\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Bertolin,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Bertolin%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992866,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Bertolin%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Bertolin,+A"
+}

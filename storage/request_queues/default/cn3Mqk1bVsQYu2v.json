@@ -1,0 +1,9 @@
+{
+	"id": "cn3Mqk1bVsQYu2v",
+	"json": "{\"id\":\"cn3Mqk1bVsQYu2v\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=McCray,+W+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=McCray%2C+W+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002189,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=McCray%2C+W+C&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=McCray,+W+C"
+}

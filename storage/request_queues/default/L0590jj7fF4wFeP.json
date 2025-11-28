@@ -1,0 +1,9 @@
+{
+	"id": "L0590jj7fF4wFeP",
+	"json": "{\"id\":\"L0590jj7fF4wFeP\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Beechem,+T+E\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Beechem%2C+T+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988771,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Beechem%2C+T+E&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Beechem,+T+E"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "W6KpnTX2N24hCul",
+	"json": "{\"id\":\"W6KpnTX2N24hCul\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Anubhav\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Anubhav&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991052,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Anubhav&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Anubhav"
+}

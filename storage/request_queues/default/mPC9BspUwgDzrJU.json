@@ -1,0 +1,9 @@
+{
+	"id": "mPC9BspUwgDzrJU",
+	"json": "{\"id\":\"mPC9BspUwgDzrJU\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=He,+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=He%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087011817,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=He%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=He,+H"
+}

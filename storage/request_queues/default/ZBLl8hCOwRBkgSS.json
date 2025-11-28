@@ -1,0 +1,9 @@
+{
+	"id": "ZBLl8hCOwRBkgSS",
+	"json": "{\"id\":\"ZBLl8hCOwRBkgSS\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Fong,+K+C\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Fong%2C+K+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991255,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Fong%2C+K+C&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Fong,+K+C"
+}

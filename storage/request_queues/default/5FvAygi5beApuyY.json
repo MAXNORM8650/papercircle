@@ -1,0 +1,9 @@
+{
+	"id": "5FvAygi5beApuyY",
+	"json": "{\"id\":\"5FvAygi5beApuyY\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kekeh,+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kekeh%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087028337,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Kekeh%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kekeh,+C"
+}

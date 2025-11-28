@@ -1,0 +1,9 @@
+{
+	"id": "VJJVyvTrUGoYQPV",
+	"json": "{\"id\":\"VJJVyvTrUGoYQPV\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Carranza,+D\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Carranza%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006646,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Carranza%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Carranza,+D"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Me2Ty8TKtymy8f2",
+	"json": "{\"id\":\"Me2Ty8TKtymy8f2\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Drossopoulou,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Drossopoulou%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087027060,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Drossopoulou%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Drossopoulou,+S"
+}

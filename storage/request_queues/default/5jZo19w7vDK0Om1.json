@@ -1,0 +1,9 @@
+{
+	"id": "5jZo19w7vDK0Om1",
+	"json": "{\"id\":\"5jZo19w7vDK0Om1\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Chi,+W\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Chi%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087017750,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Chi%2C+W&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Chi,+W"
+}

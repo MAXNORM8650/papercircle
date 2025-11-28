@@ -1,0 +1,9 @@
+{
+	"id": "ejm5HPX3BKp8yA3",
+	"json": "{\"id\":\"ejm5HPX3BKp8yA3\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Deguire,+P\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Deguire%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992702,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Deguire%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Deguire,+P"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "prFCETzs4sKQbd5",
+	"json": "{\"id\":\"prFCETzs4sKQbd5\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Semeraro,+O\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Semeraro%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999211,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Semeraro%2C+O&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Semeraro,+O"
+}

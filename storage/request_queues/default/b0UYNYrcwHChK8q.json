@@ -1,0 +1,9 @@
+{
+	"id": "b0UYNYrcwHChK8q",
+	"json": "{\"id\":\"b0UYNYrcwHChK8q\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Garoufis,+C\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Garoufis%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025721,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Garoufis%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Garoufis,+C"
+}

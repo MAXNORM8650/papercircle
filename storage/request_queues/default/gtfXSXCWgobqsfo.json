@@ -1,0 +1,9 @@
+{
+	"id": "gtfXSXCWgobqsfo",
+	"json": "{\"id\":\"gtfXSXCWgobqsfo\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Garre,+S+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Garre%2C+S+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986679,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Garre%2C+S+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Garre,+S+A"
+}

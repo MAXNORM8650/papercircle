@@ -1,0 +1,9 @@
+{
+	"id": "zF1iYq7ZBR4EVsZ",
+	"json": "{\"id\":\"zF1iYq7ZBR4EVsZ\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Gericke,+M\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Gericke%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002191,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Gericke%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Gericke,+M"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "nJRSenSRAuYdG6W",
+	"json": "{\"id\":\"nJRSenSRAuYdG6W\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Andreasson,+R\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Andreasson%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005176,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Andreasson%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Andreasson,+R"
+}

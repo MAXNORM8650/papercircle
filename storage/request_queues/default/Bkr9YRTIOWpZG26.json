@@ -1,0 +1,9 @@
+{
+	"id": "Bkr9YRTIOWpZG26",
+	"json": "{\"id\":\"Bkr9YRTIOWpZG26\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Lamphere,+D+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Lamphere%2C+D+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999152,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Lamphere%2C+D+J&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Lamphere,+D+J"
+}

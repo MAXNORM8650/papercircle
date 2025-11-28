@@ -1,0 +1,9 @@
+{
+	"id": "NH7KLcOkX7z4bzU",
+	"json": "{\"id\":\"NH7KLcOkX7z4bzU\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Cunha,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Cunha%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087017980,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Cunha%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Cunha,+A"
+}

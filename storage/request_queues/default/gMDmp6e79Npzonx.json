@@ -1,0 +1,9 @@
+{
+	"id": "gMDmp6e79Npzonx",
+	"json": "{\"id\":\"gMDmp6e79Npzonx\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Furukawa,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Furukawa%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989917,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Furukawa%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Furukawa,+Y"
+}

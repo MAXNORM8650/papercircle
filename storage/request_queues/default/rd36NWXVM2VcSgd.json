@@ -1,0 +1,9 @@
+{
+	"id": "rd36NWXVM2VcSgd",
+	"json": "{\"id\":\"rd36NWXVM2VcSgd\",\"url\":\"https://arxiv.org/archive/hep-th\",\"loadedUrl\":\"https://arxiv.org/archive/hep-th\",\"uniqueKey\":\"https://arxiv.org/archive/hep-th\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:54.868Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/archive/hep-th",
+	"url": "https://arxiv.org/archive/hep-th"
+}

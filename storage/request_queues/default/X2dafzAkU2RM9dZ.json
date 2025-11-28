@@ -1,0 +1,9 @@
+{
+	"id": "X2dafzAkU2RM9dZ",
+	"json": "{\"id\":\"X2dafzAkU2RM9dZ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Hardegree-Ullman%2C+K+K\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Hardegree-Ullman%2C+K+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087075100,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Hardegree-Ullman%2C+K+K&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Hardegree-Ullman%2C+K+K"
+}

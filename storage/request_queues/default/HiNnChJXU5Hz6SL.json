@@ -1,0 +1,9 @@
+{
+	"id": "HiNnChJXU5Hz6SL",
+	"json": "{\"id\":\"HiNnChJXU5Hz6SL\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Dadoun,+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Dadoun%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087027086,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Dadoun%2C+B&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Dadoun,+B"
+}

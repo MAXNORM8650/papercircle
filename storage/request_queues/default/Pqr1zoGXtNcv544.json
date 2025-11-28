@@ -1,0 +1,9 @@
+{
+	"id": "Pqr1zoGXtNcv544",
+	"json": "{\"id\":\"Pqr1zoGXtNcv544\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Grove,+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Grove%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010138,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Grove%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Grove,+D"
+}

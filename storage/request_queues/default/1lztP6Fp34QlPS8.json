@@ -1,0 +1,9 @@
+{
+	"id": "1lztP6Fp34QlPS8",
+	"json": "{\"id\":\"1lztP6Fp34QlPS8\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Hayes,+P\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Hayes%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023678,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Hayes%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Hayes,+P"
+}

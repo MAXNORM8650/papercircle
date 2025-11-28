@@ -1,0 +1,9 @@
+{
+	"id": "1d5kqOIV6Z6ZLrf",
+	"json": "{\"id\":\"1d5kqOIV6Z6ZLrf\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Teranishi,+N\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Teranishi%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025230,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Teranishi%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Teranishi,+N"
+}

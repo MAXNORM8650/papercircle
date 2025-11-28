@@ -1,0 +1,9 @@
+{
+	"id": "EqSfolNqk5jXrVK",
+	"json": "{\"id\":\"EqSfolNqk5jXrVK\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Dominik,+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Dominik%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986495,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Dominik%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Dominik,+C"
+}

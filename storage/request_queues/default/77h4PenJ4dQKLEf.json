@@ -1,0 +1,9 @@
+{
+	"id": "77h4PenJ4dQKLEf",
+	"json": "{\"id\":\"77h4PenJ4dQKLEf\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Lehmer,+B+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Lehmer%2C+B+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986580,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Lehmer%2C+B+D&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Lehmer,+B+D"
+}

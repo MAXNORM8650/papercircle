@@ -1,0 +1,9 @@
+{
+	"id": "H3Xu1bSKehs3XfT",
+	"json": "{\"id\":\"H3Xu1bSKehs3XfT\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Cossio,+F\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Cossio%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992907,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Cossio%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Cossio,+F"
+}

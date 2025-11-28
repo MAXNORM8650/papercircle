@@ -1,0 +1,9 @@
+{
+	"id": "ds8Uy13hHfO7SZr",
+	"json": "{\"id\":\"ds8Uy13hHfO7SZr\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Martelli,+F\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Martelli%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989033,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Martelli%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Martelli,+F"
+}

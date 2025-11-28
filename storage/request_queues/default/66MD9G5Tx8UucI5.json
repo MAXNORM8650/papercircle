@@ -1,0 +1,9 @@
+{
+	"id": "66MD9G5Tx8UucI5",
+	"json": "{\"id\":\"66MD9G5Tx8UucI5\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Tang,+L\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Tang%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010123,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Tang%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Tang,+L"
+}

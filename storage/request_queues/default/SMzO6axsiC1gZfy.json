@@ -1,0 +1,9 @@
+{
+	"id": "SMzO6axsiC1gZfy",
+	"json": "{\"id\":\"SMzO6axsiC1gZfy\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Matzavinos,+A\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Matzavinos%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087011956,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Matzavinos%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Matzavinos,+A"
+}

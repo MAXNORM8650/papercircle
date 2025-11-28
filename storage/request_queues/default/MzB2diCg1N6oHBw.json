@@ -1,0 +1,9 @@
+{
+	"id": "MzB2diCg1N6oHBw",
+	"json": "{\"id\":\"MzB2diCg1N6oHBw\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Cyganowski%2C+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Cyganowski%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087086090,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Cyganowski%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Cyganowski%2C+C"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "fjLGdvJkhZINJDZ",
+	"json": "{\"id\":\"fjLGdvJkhZINJDZ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=ACTDESHSC+Collaboration\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=ACTDESHSC+Collaboration&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087064660,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=ACTDESHSC+Collaboration&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=ACTDESHSC+Collaboration"
+}

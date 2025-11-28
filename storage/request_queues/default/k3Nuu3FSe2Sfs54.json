@@ -1,0 +1,9 @@
+{
+	"id": "k3Nuu3FSe2Sfs54",
+	"json": "{\"id\":\"k3Nuu3FSe2Sfs54\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Bertelson,+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Bertelson%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007464,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Bertelson%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Bertelson,+M"
+}

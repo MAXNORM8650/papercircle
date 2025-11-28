@@ -1,0 +1,9 @@
+{
+	"id": "QbfJCZI7Bv2Jydr",
+	"json": "{\"id\":\"QbfJCZI7Bv2Jydr\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Jacquet,+E\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Jacquet%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992735,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Jacquet%2C+E&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Jacquet,+E"
+}

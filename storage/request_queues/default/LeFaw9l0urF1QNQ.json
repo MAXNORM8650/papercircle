@@ -1,0 +1,9 @@
+{
+	"id": "LeFaw9l0urF1QNQ",
+	"json": "{\"id\":\"LeFaw9l0urF1QNQ\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Godara,+N+K\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Godara%2C+N+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007724,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Godara%2C+N+K&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Godara,+N+K"
+}

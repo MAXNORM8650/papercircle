@@ -1,0 +1,9 @@
+{
+	"id": "3H6f8RsOVppwpay",
+	"json": "{\"id\":\"3H6f8RsOVppwpay\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Cardenas-Cartagena,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Cardenas-Cartagena%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015759,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Cardenas-Cartagena%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Cardenas-Cartagena,+J"
+}

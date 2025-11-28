@@ -1,0 +1,9 @@
+{
+	"id": "Rf1jCLDWWzkGqil",
+	"json": "{\"id\":\"Rf1jCLDWWzkGqil\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Zwart,+K\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Zwart%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007568,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Zwart%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Zwart,+K"
+}

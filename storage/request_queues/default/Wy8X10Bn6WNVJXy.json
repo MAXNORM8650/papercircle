@@ -1,0 +1,9 @@
+{
+	"id": "Wy8X10Bn6WNVJXy",
+	"json": "{\"id\":\"Wy8X10Bn6WNVJXy\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Chen,+K\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Chen%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009547,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Chen%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Chen,+K"
+}

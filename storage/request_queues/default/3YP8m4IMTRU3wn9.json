@@ -1,0 +1,9 @@
+{
+	"id": "3YP8m4IMTRU3wn9",
+	"json": "{\"id\":\"3YP8m4IMTRU3wn9\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Frailis,+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Frailis%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988269,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Frailis%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Frailis,+M"
+}

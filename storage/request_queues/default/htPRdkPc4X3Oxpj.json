@@ -1,0 +1,9 @@
+{
+	"id": "htPRdkPc4X3Oxpj",
+	"json": "{\"id\":\"htPRdkPc4X3Oxpj\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Miniutti,+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Miniutti%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986479,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Miniutti%2C+G&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Miniutti,+G"
+}

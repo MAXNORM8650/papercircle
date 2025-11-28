@@ -1,0 +1,9 @@
+{
+	"id": "YE7uMeCWT4KOeQ0",
+	"json": "{\"id\":\"YE7uMeCWT4KOeQ0\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Gall,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Gall%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015688,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Gall%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Gall,+J"
+}

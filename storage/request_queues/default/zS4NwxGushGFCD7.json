@@ -1,0 +1,9 @@
+{
+	"id": "zS4NwxGushGFCD7",
+	"json": "{\"id\":\"zS4NwxGushGFCD7\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Braseth,+L+L\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Braseth%2C+L+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997804,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Braseth%2C+L+L&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Braseth,+L+L"
+}

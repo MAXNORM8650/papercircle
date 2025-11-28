@@ -1,0 +1,9 @@
+{
+	"id": "F9xJFi9wdHJo23M",
+	"json": "{\"id\":\"F9xJFi9wdHJo23M\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Chen,+Y\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Chen%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025260,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Chen%2C+Y&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Chen,+Y"
+}

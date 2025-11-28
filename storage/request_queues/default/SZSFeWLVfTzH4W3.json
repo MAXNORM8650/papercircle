@@ -1,0 +1,9 @@
+{
+	"id": "SZSFeWLVfTzH4W3",
+	"json": "{\"id\":\"SZSFeWLVfTzH4W3\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Xing,+Z\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Xing%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015859,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Xing%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Xing,+Z"
+}

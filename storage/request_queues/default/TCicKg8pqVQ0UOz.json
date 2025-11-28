@@ -1,0 +1,9 @@
+{
+	"id": "TCicKg8pqVQ0UOz",
+	"json": "{\"id\":\"TCicKg8pqVQ0UOz\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Lui,+J+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Lui%2C+J+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015266,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Lui%2C+J+C&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Lui,+J+C"
+}

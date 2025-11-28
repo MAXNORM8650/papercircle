@@ -1,0 +1,9 @@
+{
+	"id": "lyatxHRSorDNDDG",
+	"json": "{\"id\":\"lyatxHRSorDNDDG\",\"url\":\"https://arxiv.org/list/astro-ph.IM/new?skip=0&show=1000\",\"uniqueKey\":\"https://arxiv.org/list/astro-ph.IM/new?show=1000&skip=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087036047,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/astro-ph.IM/new?show=1000&skip=0",
+	"url": "https://arxiv.org/list/astro-ph.IM/new?skip=0&show=1000"
+}

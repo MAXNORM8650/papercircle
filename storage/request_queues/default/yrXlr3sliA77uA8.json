@@ -1,0 +1,9 @@
+{
+	"id": "yrXlr3sliA77uA8",
+	"json": "{\"id\":\"yrXlr3sliA77uA8\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Seitenzahl%2C+I+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Seitenzahl%2C+I+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087082610,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Seitenzahl%2C+I+R&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Seitenzahl%2C+I+R"
+}

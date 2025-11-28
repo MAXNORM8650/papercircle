@@ -1,0 +1,9 @@
+{
+	"id": "5Rb6cD5LzuMPWiL",
+	"json": "{\"id\":\"5Rb6cD5LzuMPWiL\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=van+den+Heever,+S+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=van+den+Heever%2C+S+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999864,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=van+den+Heever%2C+S+C&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=van+den+Heever,+S+C"
+}

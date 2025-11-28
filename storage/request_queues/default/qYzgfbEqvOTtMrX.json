@@ -1,0 +1,9 @@
+{
+	"id": "qYzgfbEqvOTtMrX",
+	"json": "{\"id\":\"qYzgfbEqvOTtMrX\",\"url\":\"https://arxiv.org/search/advanced\",\"loadedUrl\":\"https://arxiv.org/search/advanced\",\"uniqueKey\":\"https://arxiv.org/search/advanced\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:45.900Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/advanced",
+	"url": "https://arxiv.org/search/advanced"
+}

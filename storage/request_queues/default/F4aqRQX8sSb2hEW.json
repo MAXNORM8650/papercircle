@@ -1,0 +1,9 @@
+{
+	"id": "F4aqRQX8sSb2hEW",
+	"json": "{\"id\":\"F4aqRQX8sSb2hEW\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Chakrabarti,+S\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Chakrabarti%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087037612,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Chakrabarti%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Chakrabarti,+S"
+}

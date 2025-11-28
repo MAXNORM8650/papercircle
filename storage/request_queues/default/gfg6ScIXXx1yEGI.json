@@ -1,0 +1,9 @@
+{
+	"id": "gfg6ScIXXx1yEGI",
+	"json": "{\"id\":\"gfg6ScIXXx1yEGI\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Bui,+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Bui%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087024298,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Bui%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Bui,+T"
+}

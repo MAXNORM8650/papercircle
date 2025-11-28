@@ -1,0 +1,9 @@
+{
+	"id": "CMIsJwY2TB1Tysl",
+	"json": "{\"id\":\"CMIsJwY2TB1Tysl\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Nepomechie,+R+I\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Nepomechie%2C+R+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989570,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-th?query=Nepomechie%2C+R+I&searchtype=author",
+	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Nepomechie,+R+I"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "MtHSsixf8kT6e3X",
+	"json": "{\"id\":\"MtHSsixf8kT6e3X\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Jang,+J+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Jang%2C+J+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087036081,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Jang%2C+J+S&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Jang,+J+S"
+}

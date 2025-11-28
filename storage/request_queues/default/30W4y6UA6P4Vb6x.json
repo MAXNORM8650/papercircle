@@ -1,0 +1,9 @@
+{
+	"id": "30W4y6UA6P4Vb6x",
+	"json": "{\"id\":\"30W4y6UA6P4Vb6x\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Smith,+D+F\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Smith%2C+D+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014334,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Smith%2C+D+F&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Smith,+D+F"
+}

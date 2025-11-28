@@ -1,0 +1,9 @@
+{
+	"id": "1tfSyOmz7pqiyAM",
+	"json": "{\"id\":\"1tfSyOmz7pqiyAM\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Leung,+S+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Leung%2C+S+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001329,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Leung%2C+S+C&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Leung,+S+C"
+}

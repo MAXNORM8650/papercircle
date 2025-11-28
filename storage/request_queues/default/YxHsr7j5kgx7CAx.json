@@ -1,0 +1,9 @@
+{
+	"id": "YxHsr7j5kgx7CAx",
+	"json": "{\"id\":\"YxHsr7j5kgx7CAx\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Schmidt,+D+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Schmidt%2C+D+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012523,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Schmidt%2C+D+C&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Schmidt,+D+C"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "yOBBgNYAm7Mw0ZV",
+	"json": "{\"id\":\"yOBBgNYAm7Mw0ZV\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Hanh,+N+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Hanh%2C+N+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087011765,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Hanh%2C+N+T&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Hanh,+N+T"
+}

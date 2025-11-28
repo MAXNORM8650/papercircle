@@ -1,0 +1,9 @@
+{
+	"id": "46Jjlu81VNuweD7",
+	"json": "{\"id\":\"46Jjlu81VNuweD7\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kartaltepe,+J+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Kartaltepe%2C+J+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087037311,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Kartaltepe%2C+J+S&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Kartaltepe,+J+S"
+}

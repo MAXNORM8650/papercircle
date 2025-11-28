@@ -1,0 +1,9 @@
+{
+	"id": "db8AGaIFiv72MJX",
+	"json": "{\"id\":\"db8AGaIFiv72MJX\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Gauthier,+J\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Gauthier%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087020320,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Gauthier%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Gauthier,+J"
+}

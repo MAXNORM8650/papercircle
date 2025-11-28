@@ -1,0 +1,9 @@
+{
+	"id": "rEWSElkj5phva71",
+	"json": "{\"id\":\"rEWSElkj5phva71\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Briggs,+A+A\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Briggs%2C+A+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087021215,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Briggs%2C+A+A&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Briggs,+A+A"
+}

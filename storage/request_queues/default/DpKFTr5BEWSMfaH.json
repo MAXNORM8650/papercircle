@@ -1,0 +1,9 @@
+{
+	"id": "DpKFTr5BEWSMfaH",
+	"json": "{\"id\":\"DpKFTr5BEWSMfaH\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Facelli,+J+C\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Facelli%2C+J+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087019785,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Facelli%2C+J+C&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Facelli,+J+C"
+}

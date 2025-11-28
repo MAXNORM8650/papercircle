@@ -1,0 +1,9 @@
+{
+	"id": "FssnhIxeGGErkkV",
+	"json": "{\"id\":\"FssnhIxeGGErkkV\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Fragapane,+N+L\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Fragapane%2C+N+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001294,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Fragapane%2C+N+L&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Fragapane,+N+L"
+}

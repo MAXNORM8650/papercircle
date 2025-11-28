@@ -1,0 +1,9 @@
+{
+	"id": "o38apW8F2o8dNLK",
+	"json": "{\"id\":\"o38apW8F2o8dNLK\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Benini,+L\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Benini%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014994,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Benini%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Benini,+L"
+}

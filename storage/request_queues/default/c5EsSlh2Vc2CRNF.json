@@ -1,0 +1,9 @@
+{
+	"id": "c5EsSlh2Vc2CRNF",
+	"json": "{\"id\":\"c5EsSlh2Vc2CRNF\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Garc%C3%ADa-Crist%C3%B3bal,+P\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Garc%C3%ADa-Crist%C3%B3bal%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002432,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Garc%C3%ADa-Crist%C3%B3bal%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Garc%C3%ADa-Crist%C3%B3bal,+P"
+}

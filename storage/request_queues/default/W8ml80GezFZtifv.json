@@ -1,0 +1,9 @@
+{
+	"id": "W8ml80GezFZtifv",
+	"json": "{\"id\":\"W8ml80GezFZtifv\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Thibado,+S\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Thibado%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997910,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Thibado%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Thibado,+S"
+}

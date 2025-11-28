@@ -1,0 +1,9 @@
+{
+	"id": "SBfZY2oKS0j0hae",
+	"json": "{\"id\":\"SBfZY2oKS0j0hae\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Wu,+Q\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Wu%2C+Q&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991519,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Wu%2C+Q&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Wu,+Q"
+}

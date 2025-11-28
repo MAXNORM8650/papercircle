@@ -1,0 +1,9 @@
+{
+	"id": "dIwNn5tyAaO6xTa",
+	"json": "{\"id\":\"dIwNn5tyAaO6xTa\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Backman,+V\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Backman%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025321,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Backman%2C+V&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Backman,+V"
+}

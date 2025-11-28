@@ -1,0 +1,9 @@
+{
+	"id": "tjS7dEuFeMI9TMN",
+	"json": "{\"id\":\"tjS7dEuFeMI9TMN\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Su,+T\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Su%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997777,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Su%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Su,+T"
+}

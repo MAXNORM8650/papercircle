@@ -1,0 +1,9 @@
+{
+	"id": "hVyB2o0Gcd07EUu",
+	"json": "{\"id\":\"hVyB2o0Gcd07EUu\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Qi,+J\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Qi%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086994278,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Qi%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Qi,+J"
+}

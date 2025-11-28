@@ -1,0 +1,9 @@
+{
+	"id": "8B0sp0IiAaMr5tO",
+	"json": "{\"id\":\"8B0sp0IiAaMr5tO\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Patel,+L\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Patel%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023874,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Patel%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Patel,+L"
+}

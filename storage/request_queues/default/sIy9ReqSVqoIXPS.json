@@ -1,0 +1,9 @@
+{
+	"id": "sIy9ReqSVqoIXPS",
+	"json": "{\"id\":\"sIy9ReqSVqoIXPS\",\"url\":\"https://arxiv.org/search/math-ph?searchtype=author&query=Weder,+R\",\"uniqueKey\":\"https://arxiv.org/search/math-ph?query=Weder%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086995401,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math-ph?query=Weder%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/math-ph?searchtype=author&query=Weder,+R"
+}

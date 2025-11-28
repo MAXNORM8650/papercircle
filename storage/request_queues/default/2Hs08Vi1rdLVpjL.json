@@ -1,0 +1,9 @@
+{
+	"id": "2Hs08Vi1rdLVpjL",
+	"json": "{\"id\":\"2Hs08Vi1rdLVpjL\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ebrahimzadeh,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ebrahimzadeh%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010300,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Ebrahimzadeh%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ebrahimzadeh,+M"
+}

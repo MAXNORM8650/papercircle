@@ -1,0 +1,9 @@
+{
+	"id": "oUmXzqSUxl6OedO",
+	"json": "{\"id\":\"oUmXzqSUxl6OedO\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Ramirez,+H+D+V\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Ramirez%2C+H+D+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087026688,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/econ?query=Ramirez%2C+H+D+V&searchtype=author",
+	"url": "https://arxiv.org/search/econ?searchtype=author&query=Ramirez,+H+D+V"
+}

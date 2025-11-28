@@ -1,0 +1,9 @@
+{
+	"id": "iGaIg9wveRv08XZ",
+	"json": "{\"id\":\"iGaIg9wveRv08XZ\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Chen,+X+G+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Chen%2C+X+G+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087000260,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Chen%2C+X+G+R&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Chen,+X+G+R"
+}

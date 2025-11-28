@@ -1,0 +1,9 @@
+{
+	"id": "34W4yO2i1apO3JC",
+	"json": "{\"id\":\"34W4yO2i1apO3JC\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Tengblad,+O\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Tengblad%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086997801,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Tengblad%2C+O&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Tengblad,+O"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "8ltn4QcSdKKo4jZ",
+	"json": "{\"id\":\"8ltn4QcSdKKo4jZ\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Li,+W\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Li%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023866,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Li%2C+W&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Li,+W"
+}

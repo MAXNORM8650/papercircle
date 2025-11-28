@@ -1,0 +1,9 @@
+{
+	"id": "txsd19RQTxSNt4m",
+	"json": "{\"id\":\"txsd19RQTxSNt4m\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Campion,+S\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Campion%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988225,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Campion%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Campion,+S"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "w73X3APHfHAbENV",
+	"json": "{\"id\":\"w73X3APHfHAbENV\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Bash%2C+S\",\"uniqueKey\":\"https://arxiv.org/search?query=Bash%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087051223,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search?query=Bash%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/?searchtype=author&query=Bash%2C+S"
+}

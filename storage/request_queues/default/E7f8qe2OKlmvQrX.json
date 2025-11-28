@@ -1,0 +1,9 @@
+{
+	"id": "E7f8qe2OKlmvQrX",
+	"json": "{\"id\":\"E7f8qe2OKlmvQrX\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Sanchez,+S+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Sanchez%2C+S+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087000804,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Sanchez%2C+S+E&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Sanchez,+S+E"
+}

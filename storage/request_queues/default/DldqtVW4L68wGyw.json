@@ -1,0 +1,9 @@
+{
+	"id": "DldqtVW4L68wGyw",
+	"json": "{\"id\":\"DldqtVW4L68wGyw\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Terna,+P\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Terna%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009760,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Terna%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Terna,+P"
+}

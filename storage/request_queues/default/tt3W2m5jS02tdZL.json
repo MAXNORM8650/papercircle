@@ -1,0 +1,9 @@
+{
+	"id": "tt3W2m5jS02tdZL",
+	"json": "{\"id\":\"tt3W2m5jS02tdZL\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Scholte,+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Scholte%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087030386,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Scholte%2C+D&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Scholte,+D"
+}

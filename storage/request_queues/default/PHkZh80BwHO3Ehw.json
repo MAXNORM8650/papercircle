@@ -1,0 +1,9 @@
+{
+	"id": "PHkZh80BwHO3Ehw",
+	"json": "{\"id\":\"PHkZh80BwHO3Ehw\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Yang,+H\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Yang%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991624,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Yang%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Yang,+H"
+}

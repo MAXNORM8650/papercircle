@@ -1,0 +1,9 @@
+{
+	"id": "u7KtSVMJ23wptdZ",
+	"json": "{\"id\":\"u7KtSVMJ23wptdZ\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Rodr%C3%ADguez,+J+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Rodr%C3%ADguez%2C+J+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991668,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-th?query=Rodr%C3%ADguez%2C+J+A&searchtype=author",
+	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Rodr%C3%ADguez,+J+A"
+}

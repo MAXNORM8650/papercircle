@@ -1,0 +1,9 @@
+{
+	"id": "wJ7lrrNGcoIaFUX",
+	"json": "{\"id\":\"wJ7lrrNGcoIaFUX\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Tachella,+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Tachella%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999522,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Tachella%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Tachella,+J"
+}

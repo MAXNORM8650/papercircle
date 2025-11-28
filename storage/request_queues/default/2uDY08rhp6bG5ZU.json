@@ -1,0 +1,9 @@
+{
+	"id": "2uDY08rhp6bG5ZU",
+	"json": "{\"id\":\"2uDY08rhp6bG5ZU\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Jovanovic,+L\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Jovanovic%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987575,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Jovanovic%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Jovanovic,+L"
+}

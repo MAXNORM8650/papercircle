@@ -1,0 +1,9 @@
+{
+	"id": "euBoZMbt9wMraY5",
+	"json": "{\"id\":\"euBoZMbt9wMraY5\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Yan,+C\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Yan%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988728,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Yan%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Yan,+C"
+}

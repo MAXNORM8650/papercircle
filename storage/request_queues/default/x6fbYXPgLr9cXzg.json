@@ -1,0 +1,9 @@
+{
+	"id": "x6fbYXPgLr9cXzg",
+	"json": "{\"id\":\"x6fbYXPgLr9cXzg\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Brdar,+V\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Brdar%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992973,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Brdar%2C+V&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Brdar,+V"
+}

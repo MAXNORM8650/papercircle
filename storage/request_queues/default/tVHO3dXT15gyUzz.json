@@ -1,0 +1,9 @@
+{
+	"id": "tVHO3dXT15gyUzz",
+	"json": "{\"id\":\"tVHO3dXT15gyUzz\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Petersen,+T+K\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Petersen%2C+T+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006328,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Petersen%2C+T+K&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Petersen,+T+K"
+}

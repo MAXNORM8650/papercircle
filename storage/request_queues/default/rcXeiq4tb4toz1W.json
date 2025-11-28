@@ -1,0 +1,9 @@
+{
+	"id": "rcXeiq4tb4toz1W",
+	"json": "{\"id\":\"rcXeiq4tb4toz1W\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Guo,+F\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Guo%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087003058,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Guo%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Guo,+F"
+}

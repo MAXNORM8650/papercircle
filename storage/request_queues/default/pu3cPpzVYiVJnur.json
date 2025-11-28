@@ -1,0 +1,9 @@
+{
+	"id": "pu3cPpzVYiVJnur",
+	"json": "{\"id\":\"pu3cPpzVYiVJnur\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Nezami,+Z\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Nezami%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012577,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Nezami%2C+Z&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Nezami,+Z"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "HujkSrzC9U4pysw",
+	"json": "{\"id\":\"HujkSrzC9U4pysw\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Bakurov,+I\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Bakurov%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087029649,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Bakurov%2C+I&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Bakurov,+I"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "mznu41nxa9lO3RF",
+	"json": "{\"id\":\"mznu41nxa9lO3RF\",\"url\":\"https://arxiv.org/search/math-ph\",\"loadedUrl\":\"https://arxiv.org/search/math-ph\",\"uniqueKey\":\"https://arxiv.org/search/math-ph\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:55.784Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math-ph",
+	"url": "https://arxiv.org/search/math-ph"
+}

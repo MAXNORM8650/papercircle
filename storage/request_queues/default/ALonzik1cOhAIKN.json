@@ -1,0 +1,9 @@
+{
+	"id": "ALonzik1cOhAIKN",
+	"json": "{\"id\":\"ALonzik1cOhAIKN\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Silva,+L+C+V\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Silva%2C+L+C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999308,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Silva%2C+L+C+V&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Silva,+L+C+V"
+}

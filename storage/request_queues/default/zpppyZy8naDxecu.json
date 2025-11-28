@@ -1,0 +1,9 @@
+{
+	"id": "zpppyZy8naDxecu",
+	"json": "{\"id\":\"zpppyZy8naDxecu\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Tseng,+W\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Tseng%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087018460,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Tseng%2C+W&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Tseng,+W"
+}

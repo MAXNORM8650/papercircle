@@ -1,0 +1,9 @@
+{
+	"id": "KpX9EdsyXZBHObh",
+	"json": "{\"id\":\"KpX9EdsyXZBHObh\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Nayerifar,+A\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Nayerifar%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087020349,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Nayerifar%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Nayerifar,+A"
+}

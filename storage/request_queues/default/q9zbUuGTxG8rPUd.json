@@ -1,0 +1,9 @@
+{
+	"id": "q9zbUuGTxG8rPUd",
+	"json": "{\"id\":\"q9zbUuGTxG8rPUd\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Baker,+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Baker%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015110,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Baker%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Baker,+C"
+}

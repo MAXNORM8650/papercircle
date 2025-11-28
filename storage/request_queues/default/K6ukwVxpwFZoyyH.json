@@ -1,0 +1,9 @@
+{
+	"id": "K6ukwVxpwFZoyyH",
+	"json": "{\"id\":\"K6ukwVxpwFZoyyH\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=de+Veras,+T+M+L\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=de+Veras%2C+T+M+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014447,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=de+Veras%2C+T+M+L&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=de+Veras,+T+M+L"
+}

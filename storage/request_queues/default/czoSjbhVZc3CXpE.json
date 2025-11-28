@@ -1,0 +1,9 @@
+{
+	"id": "czoSjbhVZc3CXpE",
+	"json": "{\"id\":\"czoSjbhVZc3CXpE\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Shen,+S+Z\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Shen%2C+S+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010173,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Shen%2C+S+Z&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Shen,+S+Z"
+}

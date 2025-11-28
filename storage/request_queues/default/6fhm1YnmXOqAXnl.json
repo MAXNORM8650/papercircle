@@ -1,0 +1,9 @@
+{
+	"id": "6fhm1YnmXOqAXnl",
+	"json": "{\"id\":\"6fhm1YnmXOqAXnl\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Galarraga,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Galarraga%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087008743,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Galarraga%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Galarraga,+A"
+}

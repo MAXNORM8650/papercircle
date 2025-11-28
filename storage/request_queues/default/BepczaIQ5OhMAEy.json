@@ -1,0 +1,9 @@
+{
+	"id": "BepczaIQ5OhMAEy",
+	"json": "{\"id\":\"BepczaIQ5OhMAEy\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=K%C3%B6gel,+M\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=K%C3%B6gel%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989001,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=K%C3%B6gel%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=K%C3%B6gel,+M"
+}

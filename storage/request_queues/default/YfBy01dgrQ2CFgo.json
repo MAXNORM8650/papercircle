@@ -1,0 +1,9 @@
+{
+	"id": "YfBy01dgrQ2CFgo",
+	"json": "{\"id\":\"YfBy01dgrQ2CFgo\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Le,+T+G\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Le%2C+T+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087030894,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Le%2C+T+G&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Le,+T+G"
+}

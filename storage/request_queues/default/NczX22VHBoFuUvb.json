@@ -1,0 +1,9 @@
+{
+	"id": "NczX22VHBoFuUvb",
+	"json": "{\"id\":\"NczX22VHBoFuUvb\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=G%C3%B3mez,+A+R+C\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=G%C3%B3mez%2C+A+R+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992807,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ph?query=G%C3%B3mez%2C+A+R+C&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=G%C3%B3mez,+A+R+C"
+}

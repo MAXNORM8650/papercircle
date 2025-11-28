@@ -1,0 +1,9 @@
+{
+	"id": "DfweCTSRx7bYym8",
+	"json": "{\"id\":\"DfweCTSRx7bYym8\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Papadakis,+I+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Papadakis%2C+I+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987162,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Papadakis%2C+I+E&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Papadakis,+I+E"
+}

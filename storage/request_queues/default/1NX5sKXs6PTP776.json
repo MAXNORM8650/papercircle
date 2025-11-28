@@ -1,0 +1,9 @@
+{
+	"id": "1NX5sKXs6PTP776",
+	"json": "{\"id\":\"1NX5sKXs6PTP776\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Jablonka%2C+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Jablonka%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087060125,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Jablonka%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Jablonka%2C+P"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "ApQv1mwEKp8ccB6",
+	"json": "{\"id\":\"ApQv1mwEKp8ccB6\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Cortina,+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Cortina%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988122,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Cortina%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Cortina,+J"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "dtJgJ3TD9PXTz95",
+	"json": "{\"id\":\"dtJgJ3TD9PXTz95\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Speight,+S\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Speight%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006604,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Speight%2C+S&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Speight,+S"
+}

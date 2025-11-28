@@ -1,0 +1,9 @@
+{
+	"id": "uZBDYrtol9WkZ29",
+	"json": "{\"id\":\"uZBDYrtol9WkZ29\",\"url\":\"https://arxiv.org/search/advanced?terms-0-term=Conrad%2C+J+M&terms-0-field=author&size=50&order=-announced_date_first\",\"uniqueKey\":\"https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Conrad%2C+J+M\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087065271,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Conrad%2C+J+M",
+	"url": "https://arxiv.org/search/advanced?terms-0-term=Conrad%2C+J+M&terms-0-field=author&size=50&order=-announced_date_first"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "mcc7N5LW14voDxg",
+	"json": "{\"id\":\"mcc7N5LW14voDxg\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Chekuru,+V+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Chekuru%2C+V+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006292,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Chekuru%2C+V+P&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Chekuru,+V+P"
+}

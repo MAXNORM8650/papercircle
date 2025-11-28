@@ -1,0 +1,9 @@
+{
+	"id": "IGNCOx3hMkkT6rC",
+	"json": "{\"id\":\"IGNCOx3hMkkT6rC\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=De,+P+K\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=De%2C+P+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999397,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/quant-ph?query=De%2C+P+K&searchtype=author",
+	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=De,+P+K"
+}

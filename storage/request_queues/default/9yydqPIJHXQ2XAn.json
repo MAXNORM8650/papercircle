@@ -1,0 +1,9 @@
+{
+	"id": "9yydqPIJHXQ2XAn",
+	"json": "{\"id\":\"9yydqPIJHXQ2XAn\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Bhatti,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Bhatti%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992706,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Bhatti%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Bhatti,+A"
+}

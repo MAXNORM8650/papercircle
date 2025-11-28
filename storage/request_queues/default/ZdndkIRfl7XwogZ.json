@@ -1,0 +1,9 @@
+{
+	"id": "ZdndkIRfl7XwogZ",
+	"json": "{\"id\":\"ZdndkIRfl7XwogZ\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ma,+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ma%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012956,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Ma%2C+T&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ma,+T"
+}

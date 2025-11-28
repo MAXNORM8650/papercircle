@@ -1,0 +1,9 @@
+{
+	"id": "QAWNjXXq1yeGGHx",
+	"json": "{\"id\":\"QAWNjXXq1yeGGHx\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Weingartner,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Weingartner%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087008719,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Weingartner%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Weingartner,+A"
+}

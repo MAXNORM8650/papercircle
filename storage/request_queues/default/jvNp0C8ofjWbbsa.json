@@ -1,0 +1,9 @@
+{
+	"id": "jvNp0C8ofjWbbsa",
+	"json": "{\"id\":\"jvNp0C8ofjWbbsa\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Byrne,+C+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Byrne%2C+C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086987079,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Byrne%2C+C+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Byrne,+C+M"
+}

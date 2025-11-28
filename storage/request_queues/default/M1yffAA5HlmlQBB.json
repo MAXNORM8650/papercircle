@@ -1,0 +1,9 @@
+{
+	"id": "M1yffAA5HlmlQBB",
+	"json": "{\"id\":\"M1yffAA5HlmlQBB\",\"url\":\"https://arxiv.org/archive/quant-ph\",\"loadedUrl\":\"https://arxiv.org/archive/quant-ph\",\"uniqueKey\":\"https://arxiv.org/archive/quant-ph\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:03.571Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/archive/quant-ph",
+	"url": "https://arxiv.org/archive/quant-ph"
+}

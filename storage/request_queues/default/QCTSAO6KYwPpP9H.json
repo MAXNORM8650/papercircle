@@ -1,0 +1,9 @@
+{
+	"id": "QCTSAO6KYwPpP9H",
+	"json": "{\"id\":\"QCTSAO6KYwPpP9H\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Kraft,+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Kraft%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001329,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Kraft%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Kraft,+R"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "3mi7kO2Zs9aoCgP",
+	"json": "{\"id\":\"3mi7kO2Zs9aoCgP\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Wasmuht,+D+F\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Wasmuht%2C+D+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087030910,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Wasmuht%2C+D+F&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Wasmuht,+D+F"
+}

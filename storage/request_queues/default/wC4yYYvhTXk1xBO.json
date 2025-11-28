@@ -1,0 +1,9 @@
+{
+	"id": "wC4yYYvhTXk1xBO",
+	"json": "{\"id\":\"wC4yYYvhTXk1xBO\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Lestingi,+J\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Lestingi%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988344,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Lestingi%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Lestingi,+J"
+}

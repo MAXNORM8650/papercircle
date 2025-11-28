@@ -1,0 +1,9 @@
+{
+	"id": "5J0qo8WlN5xZSDp",
+	"json": "{\"id\":\"5J0qo8WlN5xZSDp\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=K%C3%B6hler%2C+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=K%C3%B6hler%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087085921,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=K%C3%B6hler%2C+R&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=K%C3%B6hler%2C+R"
+}

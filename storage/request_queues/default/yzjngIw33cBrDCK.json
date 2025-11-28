@@ -1,0 +1,9 @@
+{
+	"id": "yzjngIw33cBrDCK",
+	"json": "{\"id\":\"yzjngIw33cBrDCK\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Eneau,+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Eneau%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999317,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Eneau%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Eneau,+C"
+}

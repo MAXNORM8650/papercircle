@@ -1,0 +1,9 @@
+{
+	"id": "ZHOSPaLhH6zhkOs",
+	"json": "{\"id\":\"ZHOSPaLhH6zhkOs\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Laborieux,+A\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Laborieux%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016806,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/q-bio?query=Laborieux%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Laborieux,+A"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "hScNNuF2tFxwr96",
+	"json": "{\"id\":\"hScNNuF2tFxwr96\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Fioravantes,+F\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Fioravantes%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087011077,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Fioravantes%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Fioravantes,+F"
+}

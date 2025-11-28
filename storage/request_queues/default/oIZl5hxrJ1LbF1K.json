@@ -1,0 +1,9 @@
+{
+	"id": "oIZl5hxrJ1LbF1K",
+	"json": "{\"id\":\"oIZl5hxrJ1LbF1K\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ge,+L\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ge%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087016937,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Ge%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ge,+L"
+}

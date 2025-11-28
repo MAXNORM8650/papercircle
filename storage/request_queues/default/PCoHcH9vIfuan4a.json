@@ -1,0 +1,9 @@
+{
+	"id": "PCoHcH9vIfuan4a",
+	"json": "{\"id\":\"PCoHcH9vIfuan4a\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=F%C3%A4lldin,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=F%C3%A4lldin%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999614,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=F%C3%A4lldin%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=F%C3%A4lldin,+A"
+}

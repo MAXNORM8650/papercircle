@@ -1,0 +1,9 @@
+{
+	"id": "2TwdjGBx5XY2C2n",
+	"json": "{\"id\":\"2TwdjGBx5XY2C2n\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Kato,+A\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Kato%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023165,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Kato%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Kato,+A"
+}

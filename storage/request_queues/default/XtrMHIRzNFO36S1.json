@@ -1,0 +1,9 @@
+{
+	"id": "XtrMHIRzNFO36S1",
+	"json": "{\"id\":\"XtrMHIRzNFO36S1\",\"url\":\"https://arxiv.org/list/physics.app-ph/recent?skip=30&show=50\",\"uniqueKey\":\"https://arxiv.org/list/physics.app-ph/recent?show=50&skip=30\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999567,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/physics.app-ph/recent?show=50&skip=30",
+	"url": "https://arxiv.org/list/physics.app-ph/recent?skip=30&show=50"
+}

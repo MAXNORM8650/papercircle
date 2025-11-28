@@ -1,0 +1,9 @@
+{
+	"id": "Gcolyvu3y4QdW8B",
+	"json": "{\"id\":\"Gcolyvu3y4QdW8B\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Gregor\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Gregor\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Gregor&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:15.213Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Gregor&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Gregor"
+}

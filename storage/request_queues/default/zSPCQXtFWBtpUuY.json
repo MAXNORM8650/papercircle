@@ -1,0 +1,9 @@
+{
+	"id": "zSPCQXtFWBtpUuY",
+	"json": "{\"id\":\"zSPCQXtFWBtpUuY\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Sandretto,+J+A+d\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Sandretto%2C+J+A+d&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012087,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Sandretto%2C+J+A+d&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Sandretto,+J+A+d"
+}

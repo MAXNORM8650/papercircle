@@ -1,0 +1,9 @@
+{
+	"id": "vz0QynOt6gWLuJj",
+	"json": "{\"id\":\"vz0QynOt6gWLuJj\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Schifano,+F+S\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Schifano%2C+F+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992600,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Schifano%2C+F+S&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Schifano,+F+S"
+}

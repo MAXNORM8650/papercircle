@@ -1,0 +1,9 @@
+{
+	"id": "thyrs1gekYAvbTl",
+	"json": "{\"id\":\"thyrs1gekYAvbTl\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Rajca,+W\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Rajca%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015132,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Rajca%2C+W&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Rajca,+W"
+}

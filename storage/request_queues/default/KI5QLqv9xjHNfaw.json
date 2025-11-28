@@ -1,0 +1,9 @@
+{
+	"id": "KI5QLqv9xjHNfaw",
+	"json": "{\"id\":\"KI5QLqv9xjHNfaw\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Wollenhaupt,+M\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Wollenhaupt%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999117,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Wollenhaupt%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Wollenhaupt,+M"
+}

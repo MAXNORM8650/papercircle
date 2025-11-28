@@ -1,0 +1,9 @@
+{
+	"id": "N3wB8Jn1J1De5uR",
+	"json": "{\"id\":\"N3wB8Jn1J1De5uR\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Logsdon%2C+S+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Logsdon%2C+S+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087075045,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Logsdon%2C+S+E&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Logsdon%2C+S+E"
+}

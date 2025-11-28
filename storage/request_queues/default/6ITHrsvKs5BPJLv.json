@@ -1,0 +1,9 @@
+{
+	"id": "6ITHrsvKs5BPJLv",
+	"json": "{\"id\":\"6ITHrsvKs5BPJLv\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Weihs,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Weihs%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087010593,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Weihs%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Weihs,+A"
+}

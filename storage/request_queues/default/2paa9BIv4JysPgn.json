@@ -1,0 +1,9 @@
+{
+	"id": "2paa9BIv4JysPgn",
+	"json": "{\"id\":\"2paa9BIv4JysPgn\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Di+Felice,+L\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Di+Felice%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992719,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Di+Felice%2C+L&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Di+Felice,+L"
+}

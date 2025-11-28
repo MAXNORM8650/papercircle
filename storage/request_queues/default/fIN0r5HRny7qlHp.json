@@ -1,0 +1,9 @@
+{
+	"id": "fIN0r5HRny7qlHp",
+	"json": "{\"id\":\"fIN0r5HRny7qlHp\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Battley%2C+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Battley%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087072881,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Battley%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Battley%2C+M"
+}

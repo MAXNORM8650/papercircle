@@ -1,0 +1,9 @@
+{
+	"id": "ft3WX6ta8U2U6OU",
+	"json": "{\"id\":\"ft3WX6ta8U2U6OU\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Tchou,+N\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Tchou%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087005488,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Tchou%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Tchou,+N"
+}

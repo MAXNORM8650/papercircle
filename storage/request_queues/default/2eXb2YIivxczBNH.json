@@ -1,0 +1,9 @@
+{
+	"id": "2eXb2YIivxczBNH",
+	"json": "{\"id\":\"2eXb2YIivxczBNH\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Tamkin,+A\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Tamkin%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087021783,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/econ?query=Tamkin%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/econ?searchtype=author&query=Tamkin,+A"
+}

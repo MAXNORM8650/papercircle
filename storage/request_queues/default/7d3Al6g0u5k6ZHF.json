@@ -1,0 +1,9 @@
+{
+	"id": "7d3Al6g0u5k6ZHF",
+	"json": "{\"id\":\"7d3Al6g0u5k6ZHF\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Aronowitz,+H\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Aronowitz%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087025327,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Aronowitz%2C+H&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Aronowitz,+H"
+}

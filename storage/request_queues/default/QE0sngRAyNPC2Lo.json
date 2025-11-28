@@ -1,0 +1,9 @@
+{
+	"id": "QE0sngRAyNPC2Lo",
+	"json": "{\"id\":\"QE0sngRAyNPC2Lo\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Bienvenu,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Bienvenu%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087028328,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Bienvenu%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Bienvenu,+M"
+}

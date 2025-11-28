@@ -1,0 +1,9 @@
+{
+	"id": "FPZ4p3TaI8l8xbL",
+	"json": "{\"id\":\"FPZ4p3TaI8l8xbL\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Dor%C3%A9mus,+O\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Dor%C3%A9mus%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087012786,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Dor%C3%A9mus%2C+O&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Dor%C3%A9mus,+O"
+}

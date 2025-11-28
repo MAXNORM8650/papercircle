@@ -1,0 +1,9 @@
+{
+	"id": "0tkLW4NmoymHUvf",
+	"json": "{\"id\":\"0tkLW4NmoymHUvf\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Oh,+A+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Oh%2C+A+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087002202,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Oh%2C+A+J&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Oh,+A+J"
+}

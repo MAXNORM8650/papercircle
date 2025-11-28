@@ -1,0 +1,9 @@
+{
+	"id": "x6FHNbgg1Sv2zKZ",
+	"json": "{\"id\":\"x6FHNbgg1Sv2zKZ\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Vijaykumar,+A\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Vijaykumar%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086991793,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Vijaykumar%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Vijaykumar,+A"
+}

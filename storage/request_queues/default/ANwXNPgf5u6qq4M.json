@@ -1,0 +1,9 @@
+{
+	"id": "ANwXNPgf5u6qq4M",
+	"json": "{\"id\":\"ANwXNPgf5u6qq4M\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kitani,+K\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kitani%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087014971,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Kitani%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kitani,+K"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "pdnmyLGLpRHa7ys",
+	"json": "{\"id\":\"pdnmyLGLpRHa7ys\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Garc%C3%ADa-Mir%C3%B3%2C+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Garc%C3%ADa-Mir%C3%B3%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087068306,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Garc%C3%ADa-Mir%C3%B3%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Garc%C3%ADa-Mir%C3%B3%2C+C"
+}

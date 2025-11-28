@@ -1,0 +1,9 @@
+{
+	"id": "CgROok9jviJ4MnE",
+	"json": "{\"id\":\"CgROok9jviJ4MnE\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Borgne%2C+D+L\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Borgne%2C+D+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087061367,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Borgne%2C+D+L&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Borgne%2C+D+L"
+}

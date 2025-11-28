@@ -1,0 +1,9 @@
+{
+	"id": "csPgUwVZp6to0de",
+	"json": "{\"id\":\"csPgUwVZp6to0de\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Xiao,+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Xiao%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999312,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Xiao%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Xiao,+J"
+}

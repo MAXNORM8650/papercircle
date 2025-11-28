@@ -1,0 +1,9 @@
+{
+	"id": "hTIW3rWmsu6iKmK",
+	"json": "{\"id\":\"hTIW3rWmsu6iKmK\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Krolewski,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Krolewski%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086986920,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Krolewski%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Krolewski,+A"
+}

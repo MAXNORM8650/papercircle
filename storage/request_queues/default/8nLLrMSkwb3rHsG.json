@@ -1,0 +1,9 @@
+{
+	"id": "8nLLrMSkwb3rHsG",
+	"json": "{\"id\":\"8nLLrMSkwb3rHsG\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Asner,+D+M\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Asner%2C+D+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992934,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Asner%2C+D+M&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Asner,+D+M"
+}

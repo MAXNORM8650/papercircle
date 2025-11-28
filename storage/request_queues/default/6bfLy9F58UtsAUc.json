@@ -1,0 +1,9 @@
+{
+	"id": "6bfLy9F58UtsAUc",
+	"json": "{\"id\":\"6bfLy9F58UtsAUc\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Weiherer,+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Weiherer%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087000834,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Weiherer%2C+J&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Weiherer,+J"
+}

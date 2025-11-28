@@ -1,0 +1,9 @@
+{
+	"id": "h9lRnjHd5EGw9q8",
+	"json": "{\"id\":\"h9lRnjHd5EGw9q8\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Ruiz,+R+G\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Ruiz%2C+R+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988248,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Ruiz%2C+R+G&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Ruiz,+R+G"
+}

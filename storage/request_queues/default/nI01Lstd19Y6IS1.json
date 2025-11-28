@@ -1,0 +1,9 @@
+{
+	"id": "nI01Lstd19Y6IS1",
+	"json": "{\"id\":\"nI01Lstd19Y6IS1\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Hedri,+S+E\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Hedri%2C+S+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086992712,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Hedri%2C+S+E&searchtype=author",
+	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Hedri,+S+E"
+}

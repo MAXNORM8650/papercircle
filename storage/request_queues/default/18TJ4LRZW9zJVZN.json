@@ -1,0 +1,9 @@
+{
+	"id": "18TJ4LRZW9zJVZN",
+	"json": "{\"id\":\"18TJ4LRZW9zJVZN\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Carbone,+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Carbone%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988254,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Carbone%2C+C&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Carbone,+C"
+}

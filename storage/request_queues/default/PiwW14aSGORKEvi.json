@@ -1,0 +1,9 @@
+{
+	"id": "PiwW14aSGORKEvi",
+	"json": "{\"id\":\"PiwW14aSGORKEvi\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Lakaev,+S+S\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Lakaev%2C+S+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009607,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Lakaev%2C+S+S&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Lakaev,+S+S"
+}

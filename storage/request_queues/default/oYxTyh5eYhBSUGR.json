@@ -1,0 +1,9 @@
+{
+	"id": "oYxTyh5eYhBSUGR",
+	"json": "{\"id\":\"oYxTyh5eYhBSUGR\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Van+Thu,+N\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Van+Thu%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086989281,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Van+Thu%2C+N&searchtype=author",
+	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Van+Thu,+N"
+}

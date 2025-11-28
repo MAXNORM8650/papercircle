@@ -1,0 +1,9 @@
+{
+	"id": "lu62uoBra7IpyIG",
+	"json": "{\"id\":\"lu62uoBra7IpyIG\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Dyson,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Dyson%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006890,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Dyson%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Dyson,+A"
+}

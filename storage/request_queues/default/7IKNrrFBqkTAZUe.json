@@ -1,0 +1,9 @@
+{
+	"id": "7IKNrrFBqkTAZUe",
+	"json": "{\"id\":\"7IKNrrFBqkTAZUe\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Nadjimzadah,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Nadjimzadah%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087009415,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Nadjimzadah%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Nadjimzadah,+A"
+}

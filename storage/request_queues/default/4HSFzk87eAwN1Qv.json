@@ -1,0 +1,9 @@
+{
+	"id": "4HSFzk87eAwN1Qv",
+	"json": "{\"id\":\"4HSFzk87eAwN1Qv\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Fop,+M\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Fop%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023521,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/stat?query=Fop%2C+M&searchtype=author",
+	"url": "https://arxiv.org/search/stat?searchtype=author&query=Fop,+M"
+}

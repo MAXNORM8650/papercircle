@@ -1,0 +1,9 @@
+{
+	"id": "7MiXCot4vX7ejnS",
+	"json": "{\"id\":\"7MiXCot4vX7ejnS\",\"url\":\"https://arxiv.org/list/cs.HC/recent?skip=0&show=100\",\"uniqueKey\":\"https://arxiv.org/list/cs.HC/recent?show=100&skip=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087015107,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/list/cs.HC/recent?show=100&skip=0",
+	"url": "https://arxiv.org/list/cs.HC/recent?skip=0&show=100"
+}

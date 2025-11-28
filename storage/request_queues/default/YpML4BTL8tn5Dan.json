@@ -1,0 +1,9 @@
+{
+	"id": "YpML4BTL8tn5Dan",
+	"json": "{\"id\":\"YpML4BTL8tn5Dan\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Armbruster,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Armbruster%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087013077,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Armbruster%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Armbruster,+A"
+}

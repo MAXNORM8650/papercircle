@@ -1,0 +1,9 @@
+{
+	"id": "5cLvoAsISP917ch",
+	"json": "{\"id\":\"5cLvoAsISP917ch\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Falconer,+I\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Falconer%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087001937,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Falconer%2C+I&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Falconer,+I"
+}

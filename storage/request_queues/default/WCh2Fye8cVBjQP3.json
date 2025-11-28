@@ -1,0 +1,9 @@
+{
+	"id": "WCh2Fye8cVBjQP3",
+	"json": "{\"id\":\"WCh2Fye8cVBjQP3\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=B.Vamanan\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=B.Vamanan&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999169,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=B.Vamanan&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=B.Vamanan"
+}

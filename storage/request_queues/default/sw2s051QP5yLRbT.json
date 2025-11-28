@@ -1,0 +1,9 @@
+{
+	"id": "sw2s051QP5yLRbT",
+	"json": "{\"id\":\"sw2s051QP5yLRbT\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Leemann,+P\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Leemann%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087007583,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/math?query=Leemann%2C+P&searchtype=author",
+	"url": "https://arxiv.org/search/math?searchtype=author&query=Leemann,+P"
+}

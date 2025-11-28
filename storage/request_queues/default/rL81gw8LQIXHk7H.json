@@ -1,0 +1,9 @@
+{
+	"id": "rL81gw8LQIXHk7H",
+	"json": "{\"id\":\"rL81gw8LQIXHk7H\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Bayar,+F\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Bayar%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087006089,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/cs?query=Bayar%2C+F&searchtype=author",
+	"url": "https://arxiv.org/search/cs?searchtype=author&query=Bayar,+F"
+}

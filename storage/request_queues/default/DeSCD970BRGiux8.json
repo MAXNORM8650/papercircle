@@ -1,0 +1,9 @@
+{
+	"id": "DeSCD970BRGiux8",
+	"json": "{\"id\":\"DeSCD970BRGiux8\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Sommer,+K\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Sommer%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086988205,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Sommer%2C+K&searchtype=author",
+	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Sommer,+K"
+}

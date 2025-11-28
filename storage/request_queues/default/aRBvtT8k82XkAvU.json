@@ -1,0 +1,9 @@
+{
+	"id": "aRBvtT8k82XkAvU",
+	"json": "{\"id\":\"aRBvtT8k82XkAvU\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Phan,+A\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Phan%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764087023213,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/eess?query=Phan%2C+A&searchtype=author",
+	"url": "https://arxiv.org/search/eess?searchtype=author&query=Phan,+A"
+}

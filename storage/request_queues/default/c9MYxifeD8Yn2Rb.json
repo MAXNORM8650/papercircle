@@ -1,0 +1,9 @@
+{
+	"id": "c9MYxifeD8Yn2Rb",
+	"json": "{\"id\":\"c9MYxifeD8Yn2Rb\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Manrique,+S+F\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Manrique%2C+S+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1764086999127,
+	"retryCount": 0,
+	"uniqueKey": "https://arxiv.org/search/physics?query=Manrique%2C+S+F&searchtype=author",
+	"url": "https://arxiv.org/search/physics?searchtype=author&query=Manrique,+S+F"
+}
