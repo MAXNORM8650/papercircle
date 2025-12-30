@@ -1,9 +1,0 @@
-{
-	"id": "iTAdi3VtA9VaPKG",
-	"json": "{\"id\":\"iTAdi3VtA9VaPKG\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Casta%C3%B1%C3%B3n,+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Casta%C3%B1%C3%B3n%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002429,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Casta%C3%B1%C3%B3n%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Casta%C3%B1%C3%B3n,+E"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "5xeg3hqTIDbUeTZ",
-	"json": "{\"id\":\"5xeg3hqTIDbUeTZ\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=de+Souza+Leite,+J+B\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=de+Souza+Leite%2C+J+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992853,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=de+Souza+Leite%2C+J+B&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=de+Souza+Leite,+J+B"
-}

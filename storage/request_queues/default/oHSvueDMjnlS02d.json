@@ -1,9 +1,0 @@
-{
-	"id": "oHSvueDMjnlS02d",
-	"json": "{\"id\":\"oHSvueDMjnlS02d\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=de+Hoop,+M+V\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=de+Hoop%2C+M+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009503,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=de+Hoop%2C+M+V&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=de+Hoop,+M+V"
-}

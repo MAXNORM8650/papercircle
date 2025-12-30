@@ -1,9 +1,0 @@
-{
-	"id": "Xbg0MQSpiYvKGYO",
-	"json": "{\"id\":\"Xbg0MQSpiYvKGYO\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Hazan,+I\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Hazan%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012976,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Hazan%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Hazan,+I"
-}

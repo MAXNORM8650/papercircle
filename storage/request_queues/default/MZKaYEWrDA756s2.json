@@ -1,9 +1,0 @@
-{
-	"id": "MZKaYEWrDA756s2",
-	"json": "{\"id\":\"MZKaYEWrDA756s2\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Caussou,+L\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Caussou%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989919,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Caussou%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Caussou,+L"
-}

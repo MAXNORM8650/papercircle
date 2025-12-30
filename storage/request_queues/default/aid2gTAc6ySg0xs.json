@@ -1,9 +1,0 @@
-{
-	"id": "aid2gTAc6ySg0xs",
-	"json": "{\"id\":\"aid2gTAc6ySg0xs\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Sakamoto,+A\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Sakamoto%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021042,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Sakamoto%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Sakamoto,+A"
-}

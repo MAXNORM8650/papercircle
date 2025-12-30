@@ -1,9 +1,0 @@
-{
-	"id": "mHovYD2paRD6QNC",
-	"json": "{\"id\":\"mHovYD2paRD6QNC\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Maher,+S+J\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Maher%2C+S+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006066,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Maher%2C+S+J&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Maher,+S+J"
-}

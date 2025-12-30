@@ -1,9 +1,0 @@
-{
-	"id": "vg9kPhGanOuSpFv",
-	"json": "{\"id\":\"vg9kPhGanOuSpFv\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Stum,+S+L\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Stum%2C+S+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988263,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Stum%2C+S+L&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Stum,+S+L"
-}

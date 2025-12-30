@@ -1,9 +1,0 @@
-{
-	"id": "UC8VCdOVY6SiHHE",
-	"json": "{\"id\":\"UC8VCdOVY6SiHHE\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Cen,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Cen%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087031021,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Cen%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Cen,+J"
-}

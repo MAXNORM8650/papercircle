@@ -1,9 +1,0 @@
-{
-	"id": "Xm6iBarP96bSL8O",
-	"json": "{\"id\":\"Xm6iBarP96bSL8O\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kobak,+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kobak%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025843,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Kobak%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kobak,+D"
-}

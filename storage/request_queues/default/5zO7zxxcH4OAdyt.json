@@ -1,9 +1,0 @@
-{
-	"id": "5zO7zxxcH4OAdyt",
-	"json": "{\"id\":\"5zO7zxxcH4OAdyt\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Sim%C3%B5es,+T+S+A+N\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Sim%C3%B5es%2C+T+S+A+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087020336,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Sim%C3%B5es%2C+T+S+A+N&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Sim%C3%B5es,+T+S+A+N"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "UxRf1TkIfKlWCv5",
-	"json": "{\"id\":\"UxRf1TkIfKlWCv5\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Stergiou,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Stergiou%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016988,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Stergiou%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Stergiou,+A"
-}

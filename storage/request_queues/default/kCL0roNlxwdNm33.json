@@ -1,9 +1,0 @@
-{
-	"id": "kCL0roNlxwdNm33",
-	"json": "{\"id\":\"kCL0roNlxwdNm33\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Khudoyberdiyev,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Khudoyberdiyev%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009120,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Khudoyberdiyev%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Khudoyberdiyev,+A"
-}

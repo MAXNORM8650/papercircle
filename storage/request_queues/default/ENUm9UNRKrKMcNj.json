@@ -1,9 +1,0 @@
-{
-	"id": "ENUm9UNRKrKMcNj",
-	"json": "{\"id\":\"ENUm9UNRKrKMcNj\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Tran,+A\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Tran%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021656,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/econ?query=Tran%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/econ?searchtype=author&query=Tran,+A"
-}

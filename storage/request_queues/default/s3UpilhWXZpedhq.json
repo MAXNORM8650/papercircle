@@ -1,9 +1,0 @@
-{
-	"id": "s3UpilhWXZpedhq",
-	"json": "{\"id\":\"s3UpilhWXZpedhq\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Freytag,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Freytag%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087013826,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Freytag%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Freytag,+J"
-}

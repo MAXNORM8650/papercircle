@@ -1,9 +1,0 @@
-{
-	"id": "zO3uSSP67NtgmUq",
-	"json": "{\"id\":\"zO3uSSP67NtgmUq\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Chen,+M+L\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Chen%2C+M+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992897,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Chen%2C+M+L&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Chen,+M+L"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "tcM8f1XUSa3IOWc",
-	"json": "{\"id\":\"tcM8f1XUSa3IOWc\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Tal-Or%2C+L&start=50\",\"uniqueKey\":\"https://arxiv.org/search?query=Tal-Or%2C+L&searchtype=author&start=50\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087095478,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Tal-Or%2C+L&searchtype=author&start=50",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Tal-Or%2C+L&start=50"
-}

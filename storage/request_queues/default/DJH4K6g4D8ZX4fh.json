@@ -1,9 +1,0 @@
-{
-	"id": "DJH4K6g4D8ZX4fh",
-	"json": "{\"id\":\"DJH4K6g4D8ZX4fh\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kuncarayakti,+H\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Kuncarayakti%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987087,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Kuncarayakti%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Kuncarayakti,+H"
-}

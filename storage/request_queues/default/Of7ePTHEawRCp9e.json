@@ -1,9 +1,0 @@
-{
-	"id": "Of7ePTHEawRCp9e",
-	"json": "{\"id\":\"Of7ePTHEawRCp9e\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Schneider,+T+M\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Schneider%2C+T+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086996498,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Schneider%2C+T+M&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Schneider,+T+M"
-}

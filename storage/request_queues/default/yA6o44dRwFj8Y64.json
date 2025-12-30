@@ -1,9 +1,0 @@
-{
-	"id": "yA6o44dRwFj8Y64",
-	"json": "{\"id\":\"yA6o44dRwFj8Y64\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Yu,+X\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Yu%2C+X&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023723,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Yu%2C+X&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Yu,+X"
-}

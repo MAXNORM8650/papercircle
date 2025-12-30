@@ -1,9 +1,0 @@
-{
-	"id": "80i0Po3ALEVvZYm",
-	"json": "{\"id\":\"80i0Po3ALEVvZYm\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=da+Silva,+V+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=da+Silva%2C+V+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012711,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=da+Silva%2C+V+T&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=da+Silva,+V+T"
-}

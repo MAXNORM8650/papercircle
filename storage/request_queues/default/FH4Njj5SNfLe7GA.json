@@ -1,9 +1,0 @@
-{
-	"id": "FH4Njj5SNfLe7GA",
-	"json": "{\"id\":\"FH4Njj5SNfLe7GA\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Venuturimilli,+K\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Venuturimilli%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019811,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Venuturimilli%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Venuturimilli,+K"
-}

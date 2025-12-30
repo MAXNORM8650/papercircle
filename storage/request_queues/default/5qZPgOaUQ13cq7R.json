@@ -1,9 +1,0 @@
-{
-	"id": "5qZPgOaUQ13cq7R",
-	"json": "{\"id\":\"5qZPgOaUQ13cq7R\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Moorehead,+M+J\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Moorehead%2C+M+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989096,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Moorehead%2C+M+J&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Moorehead,+M+J"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "ALJeO00r3u1ea5l",
-	"json": "{\"id\":\"ALJeO00r3u1ea5l\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Pilgrim,+C\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Pilgrim%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999405,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Pilgrim%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Pilgrim,+C"
-}

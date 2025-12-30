@@ -1,9 +1,0 @@
-{
-	"id": "jaAyC9NdgxZnF3m",
-	"json": "{\"id\":\"jaAyC9NdgxZnF3m\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Wen,+W\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Wen%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012909,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Wen%2C+W&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Wen,+W"
-}

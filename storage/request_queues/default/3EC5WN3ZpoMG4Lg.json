@@ -1,9 +1,0 @@
-{
-	"id": "3EC5WN3ZpoMG4Lg",
-	"json": "{\"id\":\"3EC5WN3ZpoMG4Lg\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kalinin,+N+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kalinin%2C+N+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014346,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Kalinin%2C+N+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kalinin,+N+P"
-}

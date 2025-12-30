@@ -1,9 +1,0 @@
-{
-	"id": "J9FnqLukvP1MUtu",
-	"json": "{\"id\":\"J9FnqLukvP1MUtu\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Kopaei,+A+E\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Kopaei%2C+A+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989369,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Kopaei%2C+A+E&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Kopaei,+A+E"
-}

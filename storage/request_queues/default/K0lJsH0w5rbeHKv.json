@@ -1,9 +1,0 @@
-{
-	"id": "K0lJsH0w5rbeHKv",
-	"json": "{\"id\":\"K0lJsH0w5rbeHKv\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Ni,+B\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Ni%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999541,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Ni%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Ni,+B"
-}

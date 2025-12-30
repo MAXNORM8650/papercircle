@@ -1,9 +1,0 @@
-{
-	"id": "Cc3ETAKg37tVO7K",
-	"json": "{\"id\":\"Cc3ETAKg37tVO7K\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Carrino,+G\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Carrino%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006370,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Carrino%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Carrino,+G"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "9NuAGKpX5tC5Msp",
-	"json": "{\"id\":\"9NuAGKpX5tC5Msp\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Hansen,+E\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Hansen%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997889,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Hansen%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Hansen,+E"
-}

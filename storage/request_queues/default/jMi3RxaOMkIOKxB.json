@@ -1,9 +1,0 @@
-{
-	"id": "jMi3RxaOMkIOKxB",
-	"json": "{\"id\":\"jMi3RxaOMkIOKxB\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=de+Wasseige%2C+G&start=200\",\"uniqueKey\":\"https://arxiv.org/search?query=de+Wasseige%2C+G&searchtype=author&start=200\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087067979,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=de+Wasseige%2C+G&searchtype=author&start=200",
-	"url": "https://arxiv.org/search/?searchtype=author&query=de+Wasseige%2C+G&start=200"
-}

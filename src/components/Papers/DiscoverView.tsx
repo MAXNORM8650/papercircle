@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
-import { Search, Filter, BookmarkPlus, Calendar, ExternalLink, Code, Database as DatabaseIcon, Globe, Plus, ThumbsUp, ThumbsDown, ChevronRight, TrendingUp, BarChart3, Sparkles, Target, Lightbulb, Award, Star, CalendarDays } from 'lucide-react';
+import { Search, Filter, BookmarkPlus, Calendar, ExternalLink, Code, Database as DatabaseIcon, Globe, Plus, ThumbsUp, ThumbsDown, ChevronRight, TrendingUp, BarChart3, Sparkles, Target, Lightbulb, Award, Star, CalendarDays, X, Users } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
+import { useCommunity } from '../../contexts/CommunityContext';
 import type { Database } from '../../lib/database.types';
 import { searchArxivDirect, groupPapersByDate, formatDateDisplay, type ArxivPaper as ArxivPaperType } from '../../lib/arxivClient';
+import { AIDiscoveryView } from './AIDiscoveryView';
 
 type Paper = Database['public']['Tables']['papers']['Row'];
 type Topic = Database['public']['Tables']['topics']['Row'];
@@ -51,6 +53,7 @@ interface DiscoverViewProps {
 
 export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
   const { user } = useAuth();
+  const { communities, userCommunities, currentCommunity } = useCommunity();
   const [papers, setPapers] = useState<Paper[]>([]);
   const [arxivPapers, setArxivPapers] = useState<ArxivPaper[]>([]);
   const [groupedArxivPapers, setGroupedArxivPapers] = useState<Map<string, ArxivPaper[]>>(new Map());
@@ -94,8 +97,15 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
     loadTopics();
     loadUserRatings();
     loadSearchMetrics();
+
+    // Hide filters when switching tabs
+    setShowFilters(false);
+
     if (searchSource === 'local') {
       loadPapers();
+    } else if (searchSource === 'arxiv' && arxivPapers.length === 0) {
+      // Auto-search for past week papers when switching to arXiv tab
+      searchArxiv(0);
     }
   }, [selectedTopic, yearFilter, sortBy, searchSource]);
 
@@ -212,7 +222,13 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
       let startDate = arxivFilters.startDate;
       let endDate = arxivFilters.endDate;
 
-      if (!startDate && !endDate && dateRange !== 'custom') {
+      // Only apply date range filtering if:
+      // 1. User hasn't set custom dates AND
+      // 2. Either no search query OR dateRange is explicitly 'today'
+      const hasSearchQuery = searchQuery.trim().length > 0 || arxivFilters.author || arxivFilters.title || arxivFilters.abstract;
+      const shouldApplyDateRange = !startDate && !endDate && dateRange !== 'custom' && (!hasSearchQuery || dateRange === 'today');
+
+      if (shouldApplyDateRange) {
         const today = new Date();
         endDate = today.toISOString().split('T')[0];
 
@@ -220,22 +236,25 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
         switch (dateRange) {
           case 'today':
             start.setDate(start.getDate() - 1);
+            startDate = start.toISOString().split('T')[0];
             break;
           case 'week':
             start.setDate(start.getDate() - 7);
+            startDate = start.toISOString().split('T')[0];
             break;
           case 'month':
             start.setMonth(start.getMonth() - 1);
+            startDate = start.toISOString().split('T')[0];
             break;
         }
-        startDate = start.toISOString().split('T')[0];
       }
 
       // Build search parameters
       const searchParams: any = {
         maxResults: resultsPerPage,
         start: page * resultsPerPage,
-        sortBy: sortBy === 'recent' ? 'submittedDate' : 'relevance',
+        // Use lastUpdatedDate for sorting to get papers that appeared in recent arXiv announcements
+        sortBy: sortBy === 'recent' ? 'lastUpdatedDate' : 'relevance',
         sortOrder: 'descending',
       };
 
@@ -292,6 +311,11 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
           filters_used: { ...arxivFilters, dateRange, startDate, endDate },
           results_count: papers.length,
         });
+
+        // Auto-save arXiv papers to current community
+        if (currentCommunity && papers.length > 0) {
+          await saveArxivPapersToCommunity(papers, currentCommunity.id);
+        }
       }
     } catch (error) {
       console.error('Error searching arXiv:', error);
@@ -347,12 +371,26 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
     }
   };
 
+  const [triggerAiSearch, setTriggerAiSearch] = useState(false);
+  const [aiSearchQuery, setAiSearchQuery] = useState('');
+  const [aiDiscoveryLoading, setAiDiscoveryLoading] = useState(false);
+  const [aiDiscoveryStopFn, setAiDiscoveryStopFn] = useState<(() => void) | null>(null);
+
   const handleSearch = () => {
+    // If AI Discovery is loading, stop it
+    if (searchSource === 'ai-discovery' && aiDiscoveryLoading && aiDiscoveryStopFn) {
+      aiDiscoveryStopFn();
+      return;
+    }
+
     setCurrentPage(0);
     if (searchSource === 'arxiv') {
       searchArxiv(0);
     } else if (searchSource === 'ai-discovery') {
-      searchAiDiscovery();
+      // Trigger AI Discovery search
+      setAiSearchQuery(searchQuery);
+      setTriggerAiSearch(true);
+      setTimeout(() => setTriggerAiSearch(false), 100);
     } else {
       loadPapers();
     }
@@ -407,9 +445,15 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
     });
   };
 
-  const importArxivPaper = async (arxivPaper: ArxivPaper) => {
+  const [showImportModal, setShowImportModal] = useState(false);
+  const [paperToImport, setPaperToImport] = useState<ArxivPaper | null>(null);
+  const [selectedCommunityForImport, setSelectedCommunityForImport] = useState<string>('');
+  const [importing, setImporting] = useState(false);
+
+  const importArxivPaper = async (arxivPaper: ArxivPaper, communityId?: string) => {
     const year = new Date(arxivPaper.published).getFullYear();
 
+    // Check if paper already exists
     const { data: existing } = await supabase
       .from('papers')
       .select('id')
@@ -417,10 +461,15 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
       .maybeSingle();
 
     if (existing) {
+      // Paper exists, just add to community if specified
+      if (communityId) {
+        await addPaperToCommunity(existing.id, communityId);
+      }
       onSelectPaper(existing.id);
       return;
     }
 
+    // Create new paper
     const { data, error } = await supabase
       .from('papers')
       .insert({
@@ -436,7 +485,122 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
       .single();
 
     if (data && !error) {
+      // Add to community if specified
+      if (communityId) {
+        await addPaperToCommunity(data.id, communityId);
+      }
       onSelectPaper(data.id);
+    }
+  };
+
+  const addPaperToCommunity = async (paperId: string, communityId: string) => {
+    // Check if already added
+    const { data: existing } = await supabase
+      .from('community_papers')
+      .select('id')
+      .eq('paper_id', paperId)
+      .eq('community_id', communityId)
+      .maybeSingle();
+
+    if (!existing) {
+      await supabase.from('community_papers').insert({
+        paper_id: paperId,
+        community_id: communityId,
+        added_by: user?.id,
+      });
+    }
+  };
+
+  const saveArxivPapersToCommunity = async (papers: ArxivPaper[], communityId: string) => {
+    if (!user) return;
+
+    try {
+      let savedCount = 0;
+      for (const paper of papers) {
+        const year = new Date(paper.published).getFullYear();
+
+        // Check if paper already exists in database
+        const { data: existing } = await supabase
+          .from('papers')
+          .select('id')
+          .eq('arxiv_id', paper.id)
+          .maybeSingle();
+
+        let paperId: string;
+
+        if (existing) {
+          paperId = existing.id;
+        } else {
+          // Create new paper
+          const { data: newPaper, error: insertError } = await supabase
+            .from('papers')
+            .insert({
+              arxiv_id: paper.id,
+              title: paper.title,
+              authors: paper.authors,
+              abstract: paper.summary,
+              year,
+              pdf_url: paper.pdfLink,
+              metadata: {
+                categories: paper.categories,
+                discovered_from: 'arxiv_search',
+                discovered_at: new Date().toISOString()
+              },
+            })
+            .select('id')
+            .single();
+
+          if (insertError || !newPaper) continue;
+          paperId = newPaper.id;
+        }
+
+        // Check if already in community
+        const { data: existingCommunityPaper } = await supabase
+          .from('community_papers')
+          .select('id')
+          .eq('paper_id', paperId)
+          .eq('community_id', communityId)
+          .maybeSingle();
+
+        if (!existingCommunityPaper) {
+          // Add to community
+          const { error } = await supabase.from('community_papers').insert({
+            paper_id: paperId,
+            community_id: communityId,
+            added_by: user.id,
+          });
+
+          if (!error) savedCount++;
+        }
+      }
+
+      if (savedCount > 0) {
+        console.log(`✅ Saved ${savedCount} arXiv papers to community ${communityId}`);
+      }
+    } catch (error) {
+      console.error('Error saving arXiv papers to community:', error);
+    }
+  };
+
+  const openImportModal = (paper: ArxivPaper) => {
+    setPaperToImport(paper);
+    setShowImportModal(true);
+  };
+
+  const handleImportWithCommunity = async () => {
+    if (!paperToImport) return;
+
+    setImporting(true);
+    try {
+      await importArxivPaper(paperToImport, selectedCommunityForImport || undefined);
+      setShowImportModal(false);
+      setPaperToImport(null);
+      setSelectedCommunityForImport('');
+    } catch (error) {
+      console.error('Error importing paper:', error);
+      alert('Error importing paper. Please try again.');
+    } finally {
+      setImporting(false);
     }
   };
 
@@ -445,38 +609,10 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">Discover Papers</h1>
-        <p className="text-gray-600">Explore papers from your community library or search arXiv in realtime</p>
-      </div>
-
-      {searchMetrics && searchSource === 'arxiv' && (
-        <div className="mb-6 grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-4 border border-blue-200">
-            <div className="flex items-center space-x-2 mb-2">
-              <BarChart3 className="h-5 w-5 text-blue-600" />
-              <span className="text-sm font-medium text-blue-900">Total Searches</span>
-            </div>
-            <p className="text-2xl font-bold text-blue-900">{searchMetrics.totalSearches}</p>
-          </div>
-
-          <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-4 border border-green-200">
-            <div className="flex items-center space-x-2 mb-2">
-              <TrendingUp className="h-5 w-5 text-green-600" />
-              <span className="text-sm font-medium text-green-900">Avg Results</span>
-            </div>
-            <p className="text-2xl font-bold text-green-900">{searchMetrics.avgResults}</p>
-          </div>
-
-          <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-4 border border-purple-200">
-            <div className="flex items-center space-x-2 mb-2">
-              <Globe className="h-5 w-5 text-purple-600" />
-              <span className="text-sm font-medium text-purple-900">Top Categories</span>
-            </div>
-            <p className="text-sm font-medium text-purple-900">
-              {searchMetrics.topCategories.slice(0, 2).join(', ') || 'None yet'}
-            </p>
-          </div>
+      {searchSource !== 'ai-discovery' && (
+        <div className="mb-8">
+          <h1 className="text-3xl font-bold text-gray-900 mb-2">Discover Papers</h1>
+          <p className="text-gray-600">Explore papers from your community library or search arXiv in realtime</p>
         </div>
       )}
 
@@ -545,17 +681,28 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
           </div>
           <button
             onClick={handleSearch}
-            disabled={searching || loading}
-            className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium disabled:opacity-50"
+            disabled={(searching || loading) && !(searchSource === 'ai-discovery' && aiDiscoveryLoading)}
+            className={`px-6 py-3 text-white rounded-lg transition-colors font-medium ${
+              searchSource === 'ai-discovery' && aiDiscoveryLoading
+                ? 'bg-red-600 hover:bg-red-700'
+                : 'bg-blue-600 hover:bg-blue-700 disabled:opacity-50'
+            }`}
           >
-            {searching || loading ? 'Searching...' : 'Search'}
+            {searchSource === 'ai-discovery' && aiDiscoveryLoading
+              ? 'Stop'
+              : searching || loading
+              ? 'Searching...'
+              : 'Search'}
           </button>
-          <button
-            onClick={() => setShowFilters(!showFilters)}
-            className="px-4 py-3 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
-          >
-            <Filter className="h-5 w-5 text-gray-600" />
-          </button>
+          {(searchSource === 'arxiv' || searchSource === 'local') && (
+            <button
+              onClick={() => setShowFilters(!showFilters)}
+              className="px-4 py-3 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors flex items-center gap-2"
+            >
+              <Filter className="h-5 w-5 text-gray-600" />
+              <span className="text-sm text-gray-700">{showFilters ? 'Hide' : 'Show'} Filters</span>
+            </button>
+          )}
         </div>
 
         {showFilters && searchSource === 'arxiv' && (
@@ -800,112 +947,6 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
           </div>
         )}
 
-        {showFilters && searchSource === 'ai-discovery' && (
-          <div className="bg-gradient-to-br from-purple-50 to-indigo-50 p-6 rounded-lg space-y-4 border border-purple-200">
-            <h3 className="font-semibold text-gray-900 mb-3 flex items-center space-x-2">
-              <Sparkles className="h-5 w-5 text-purple-600" />
-              <span>AI Discovery Settings</span>
-            </h3>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-3">
-                  Discovery Mode
-                </label>
-                <div className="space-y-2">
-                  <button
-                    onClick={() => setDiscoveryMode('stable')}
-                    className={`w-full p-3 rounded-lg border-2 transition-all text-left ${
-                      discoveryMode === 'stable'
-                        ? 'border-blue-500 bg-blue-50'
-                        : 'border-gray-200 bg-white hover:border-blue-300'
-                    }`}
-                  >
-                    <div className="flex items-center space-x-2 mb-1">
-                      <Award className="h-4 w-4 text-blue-600" />
-                      <span className="font-medium text-gray-900">Stable</span>
-                    </div>
-                    <p className="text-xs text-gray-600">Established, authoritative works</p>
-                    <div className="mt-2 text-xs text-gray-500">
-                      Relevance: 50% • Authority: 40% • Novelty: 10%
-                    </div>
-                  </button>
-
-                  <button
-                    onClick={() => setDiscoveryMode('balanced')}
-                    className={`w-full p-3 rounded-lg border-2 transition-all text-left ${
-                      discoveryMode === 'balanced'
-                        ? 'border-purple-500 bg-purple-50'
-                        : 'border-gray-200 bg-white hover:border-purple-300'
-                    }`}
-                  >
-                    <div className="flex items-center space-x-2 mb-1">
-                      <Target className="h-4 w-4 text-purple-600" />
-                      <span className="font-medium text-gray-900">Balanced</span>
-                    </div>
-                    <p className="text-xs text-gray-600">Mix of both approaches</p>
-                    <div className="mt-2 text-xs text-gray-500">
-                      Relevance: 40% • Authority: 30% • Novelty: 30%
-                    </div>
-                  </button>
-
-                  <button
-                    onClick={() => setDiscoveryMode('discovery')}
-                    className={`w-full p-3 rounded-lg border-2 transition-all text-left ${
-                      discoveryMode === 'discovery'
-                        ? 'border-orange-500 bg-orange-50'
-                        : 'border-gray-200 bg-white hover:border-orange-300'
-                    }`}
-                  >
-                    <div className="flex items-center space-x-2 mb-1">
-                      <Lightbulb className="h-4 w-4 text-orange-600" />
-                      <span className="font-medium text-gray-900">Discovery</span>
-                    </div>
-                    <p className="text-xs text-gray-600">Novel, cutting-edge research</p>
-                    <div className="mt-2 text-xs text-gray-500">
-                      Relevance: 30% • Authority: 10% • Novelty: 60%
-                    </div>
-                  </button>
-                </div>
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-3">
-                  Advanced Options
-                </label>
-                <div className="space-y-3">
-                  <div className="bg-white p-3 rounded-lg border border-gray-200">
-                    <label className="flex items-center space-x-2 cursor-pointer">
-                      <input
-                        type="checkbox"
-                        checked={applyDiversity}
-                        onChange={(e) => setApplyDiversity(e.target.checked)}
-                        className="rounded text-purple-600 focus:ring-purple-500"
-                      />
-                      <div>
-                        <span className="text-sm font-medium text-gray-900">Apply Diversity (MMR)</span>
-                        <p className="text-xs text-gray-600">Re-rank results for diverse perspectives</p>
-                      </div>
-                    </label>
-                  </div>
-
-                  <div className="bg-white p-3 rounded-lg border border-gray-200">
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
-                      API Endpoint
-                    </label>
-                    <input
-                      type="text"
-                      value={discoveryApiUrl}
-                      onChange={(e) => setDiscoveryApiUrl(e.target.value)}
-                      placeholder="http://localhost:8000"
-                      className="w-full px-2 py-1 border border-gray-300 rounded text-sm focus:ring-2 focus:ring-purple-500 focus:border-transparent"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
       </div>
 
       {searching || loading ? (
@@ -916,239 +957,15 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
           </p>
         </div>
       ) : searchSource === 'ai-discovery' ? (
-        <div className="space-y-6">
-          {!discoveryResults ? (
-            <div className="text-center py-12 bg-gradient-to-br from-purple-50 to-indigo-50 rounded-lg border border-purple-200">
-              <Sparkles className="h-12 w-12 text-purple-400 mx-auto mb-3" />
-              <p className="text-gray-600 mb-2">AI-powered paper discovery ready</p>
-              <p className="text-sm text-gray-500">Enter a research query and click Search to discover papers</p>
-            </div>
-          ) : (
-            <>
-              <div className="bg-gradient-to-br from-purple-50 to-indigo-50 border border-purple-200 rounded-lg p-6">
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center space-x-3">
-                    <Sparkles className="h-6 w-6 text-purple-600" />
-                    <div>
-                      <p className="text-lg font-semibold text-gray-900">AI Discovery Results</p>
-                      <p className="text-sm text-gray-600">Found {discoveryResults.total_papers} papers using {discoveryResults.mode} mode</p>
-                    </div>
-                  </div>
-                  <div className="text-xs text-gray-600 bg-white px-3 py-2 rounded-lg border border-purple-200">
-                    <span className="font-medium">Weights:</span> Relevance {(discoveryResults.mode_weights.relevance * 100).toFixed(0)}% •
-                    Authority {(discoveryResults.mode_weights.authority * 100).toFixed(0)}% •
-                    Novelty {(discoveryResults.mode_weights.novelty * 100).toFixed(0)}%
-                  </div>
-                </div>
-
-                <div className="flex items-center space-x-2 overflow-x-auto pb-2">
-                  <button
-                    onClick={() => setActiveCategory('all')}
-                    className={`px-4 py-2 rounded-lg font-medium whitespace-nowrap transition-colors ${
-                      activeCategory === 'all'
-                        ? 'bg-purple-600 text-white'
-                        : 'bg-white text-gray-700 hover:bg-purple-100 border border-purple-200'
-                    }`}
-                  >
-                    All Papers ({discoveryResults.all_papers.length})
-                  </button>
-                  <button
-                    onClick={() => setActiveCategory('overall')}
-                    className={`px-4 py-2 rounded-lg font-medium whitespace-nowrap transition-colors ${
-                      activeCategory === 'overall'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-white text-gray-700 hover:bg-blue-100 border border-blue-200'
-                    }`}
-                  >
-                    <Star className="inline h-4 w-4 mr-1" />
-                    Top Overall ({discoveryResults.top_overall.length})
-                  </button>
-                  <button
-                    onClick={() => setActiveCategory('hidden_gems')}
-                    className={`px-4 py-2 rounded-lg font-medium whitespace-nowrap transition-colors ${
-                      activeCategory === 'hidden_gems'
-                        ? 'bg-orange-600 text-white'
-                        : 'bg-white text-gray-700 hover:bg-orange-100 border border-orange-200'
-                    }`}
-                  >
-                    <Lightbulb className="inline h-4 w-4 mr-1" />
-                    Hidden Gems ({discoveryResults.hidden_gems.length})
-                  </button>
-                  <button
-                    onClick={() => setActiveCategory('canonical')}
-                    className={`px-4 py-2 rounded-lg font-medium whitespace-nowrap transition-colors ${
-                      activeCategory === 'canonical'
-                        ? 'bg-green-600 text-white'
-                        : 'bg-white text-gray-700 hover:bg-green-100 border border-green-200'
-                    }`}
-                  >
-                    <Award className="inline h-4 w-4 mr-1" />
-                    Canonical ({discoveryResults.canonical_papers.length})
-                  </button>
-                </div>
-              </div>
-
-              {(() => {
-                let papersToShow: DiscoveredPaper[] = [];
-                if (activeCategory === 'all') papersToShow = discoveryResults.all_papers;
-                else if (activeCategory === 'overall') papersToShow = discoveryResults.top_overall;
-                else if (activeCategory === 'hidden_gems') papersToShow = discoveryResults.hidden_gems;
-                else if (activeCategory === 'canonical') papersToShow = discoveryResults.canonical_papers;
-
-                return papersToShow.map((paper) => (
-                  <div
-                    key={paper.id}
-                    className="bg-white border-2 border-purple-100 rounded-lg p-6 hover:shadow-lg transition-all"
-                  >
-                    <div className="flex justify-between items-start mb-3">
-                      <div className="flex-1">
-                        <div className="flex items-center space-x-2 mb-2 flex-wrap gap-2">
-                          <span className="px-2 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded">
-                            arXiv:{paper.id}
-                          </span>
-                          <span className="text-sm text-gray-500">
-                            📅 {new Date(paper.published).toLocaleDateString()}
-                          </span>
-                          <span className="px-2 py-1 bg-gradient-to-r from-purple-100 to-indigo-100 text-purple-800 text-xs font-semibold rounded">
-                            Score: {(paper.scores.final_score * 100).toFixed(1)}
-                          </span>
-                        </div>
-                        <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                          {paper.title}
-                        </h3>
-                      </div>
-                      <button
-                        onClick={async () => {
-                          const arxivPaper: ArxivPaper = {
-                            id: paper.id,
-                            title: paper.title,
-                            summary: paper.summary,
-                            authors: paper.authors,
-                            published: paper.published,
-                            link: `https://arxiv.org/abs/${paper.id}`,
-                            pdfLink: paper.url,
-                            categories: [],
-                          };
-                          await importArxivPaper(arxivPaper);
-                        }}
-                        className="ml-4 p-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
-                        title="Import to community library"
-                      >
-                        <Plus className="h-5 w-5" />
-                      </button>
-                    </div>
-
-                    <div className="flex items-center space-x-4 text-sm text-gray-600 mb-3">
-                      <span>{paper.authors.slice(0, 3).join(', ')}{paper.authors.length > 3 ? ', et al.' : ''}</span>
-                    </div>
-
-                    <div className="grid grid-cols-3 gap-2 mb-3">
-                      <div className="bg-blue-50 rounded-lg p-2 border border-blue-200">
-                        <div className="flex items-center justify-between">
-                          <span className="text-xs font-medium text-blue-900">Relevance</span>
-                          <Target className="h-3 w-3 text-blue-600" />
-                        </div>
-                        <div className="mt-1">
-                          <div className="text-lg font-bold text-blue-900">{(paper.scores.topic_relevance * 100).toFixed(0)}%</div>
-                          <div className="w-full bg-blue-200 rounded-full h-1.5 mt-1">
-                            <div
-                              className="bg-blue-600 h-1.5 rounded-full"
-                              style={{ width: `${paper.scores.topic_relevance * 100}%` }}
-                            ></div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="bg-orange-50 rounded-lg p-2 border border-orange-200">
-                        <div className="flex items-center justify-between">
-                          <span className="text-xs font-medium text-orange-900">Novelty</span>
-                          <Lightbulb className="h-3 w-3 text-orange-600" />
-                        </div>
-                        <div className="mt-1">
-                          <div className="text-lg font-bold text-orange-900">{(paper.scores.novelty * 100).toFixed(0)}%</div>
-                          <div className="w-full bg-orange-200 rounded-full h-1.5 mt-1">
-                            <div
-                              className="bg-orange-600 h-1.5 rounded-full"
-                              style={{ width: `${paper.scores.novelty * 100}%` }}
-                            ></div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="bg-green-50 rounded-lg p-2 border border-green-200">
-                        <div className="flex items-center justify-between">
-                          <span className="text-xs font-medium text-green-900">Authority</span>
-                          <Award className="h-3 w-3 text-green-600" />
-                        </div>
-                        <div className="mt-1">
-                          <div className="text-lg font-bold text-green-900">{(paper.scores.authority_proxy * 100).toFixed(0)}%</div>
-                          <div className="w-full bg-green-200 rounded-full h-1.5 mt-1">
-                            <div
-                              className="bg-green-600 h-1.5 rounded-full"
-                              style={{ width: `${paper.scores.authority_proxy * 100}%` }}
-                            ></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <p className="text-gray-700 mb-4 line-clamp-3">{paper.summary}</p>
-
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center space-x-3">
-                        <a
-                          href={paper.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex items-center space-x-1 text-sm text-purple-600 hover:text-purple-700 font-medium"
-                        >
-                          <ExternalLink className="h-4 w-4" />
-                          <span>PDF</span>
-                        </a>
-                        <a
-                          href={`https://arxiv.org/abs/${paper.id}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex items-center space-x-1 text-sm text-purple-600 hover:text-purple-700 font-medium"
-                        >
-                          <ExternalLink className="h-4 w-4" />
-                          <span>arXiv</span>
-                        </a>
-                      </div>
-
-                      {user && (
-                        <div className="flex items-center space-x-2">
-                          <button
-                            onClick={() => ratePaper(paper.id, null, 1)}
-                            className={`p-2 rounded-lg transition-colors ${
-                              ratings[paper.id] === 1
-                                ? 'bg-green-100 text-green-600'
-                                : 'bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-600'
-                            }`}
-                            title="Like this paper"
-                          >
-                            <ThumbsUp className="h-4 w-4" />
-                          </button>
-                          <button
-                            onClick={() => ratePaper(paper.id, null, -1)}
-                            className={`p-2 rounded-lg transition-colors ${
-                              ratings[paper.id] === -1
-                                ? 'bg-red-100 text-red-600'
-                                : 'bg-gray-100 text-gray-600 hover:bg-red-50 hover:text-red-600'
-                            }`}
-                            title="Dislike this paper"
-                          >
-                            <ThumbsDown className="h-4 w-4" />
-                          </button>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                ));
-              })()}
-            </>
-          )}
-        </div>
+        <AIDiscoveryView
+          searchQuery={aiSearchQuery}
+          triggerSearch={triggerAiSearch}
+          onSearchComplete={(count) => {
+            console.log(`AI Discovery found ${count} papers`);
+          }}
+          onLoadingChange={setAiDiscoveryLoading}
+          onStopFunctionChange={(fn) => setAiDiscoveryStopFn(() => fn)}
+        />
       ) : searchSource === 'arxiv' ? (
         <div className="space-y-4">
           {arxivPapers.length === 0 ? (
@@ -1235,7 +1052,7 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
                             </h3>
                           </div>
                           <button
-                            onClick={() => importArxivPaper(paper)}
+                            onClick={() => openImportModal(paper)}
                             className="ml-4 p-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                             title="Import to community library"
                           >
@@ -1343,7 +1160,7 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
                       </h3>
                     </div>
                     <button
-                      onClick={() => importArxivPaper(paper)}
+                      onClick={() => openImportModal(paper)}
                       className="ml-4 p-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                       title="Import to community library"
                     >
@@ -1554,6 +1371,79 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
               </div>
             ))
           )}
+        </div>
+      )}
+
+      {/* Import Paper Modal */}
+      {showImportModal && paperToImport && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-lg max-w-md w-full p-6">
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-lg font-semibold text-gray-900">Import Paper</h3>
+              <button
+                onClick={() => setShowImportModal(false)}
+                className="text-gray-400 hover:text-gray-600"
+              >
+                <X className="h-5 w-5" />
+              </button>
+            </div>
+
+            <div className="mb-4">
+              <p className="text-sm font-medium text-gray-900 mb-2">{paperToImport.title}</p>
+              <p className="text-xs text-gray-600">
+                {paperToImport.authors.slice(0, 3).join(', ')}
+                {paperToImport.authors.length > 3 ? ', et al.' : ''}
+              </p>
+            </div>
+
+            <div className="mb-6">
+              <label className="block text-sm font-medium text-gray-700 mb-2">
+                Add to Community (Optional)
+              </label>
+              <select
+                value={selectedCommunityForImport}
+                onChange={(e) => setSelectedCommunityForImport(e.target.value)}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              >
+                <option value="">Just import (no community)</option>
+                {userCommunities.map((community) => (
+                  <option key={community.id} value={community.id}>
+                    {community.name}
+                  </option>
+                ))}
+              </select>
+              <p className="mt-2 text-xs text-gray-500">
+                You can add this paper to a community now, or do it later from the paper details page.
+              </p>
+            </div>
+
+            <div className="flex space-x-3">
+              <button
+                onClick={() => setShowImportModal(false)}
+                className="flex-1 px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
+                disabled={importing}
+              >
+                Cancel
+              </button>
+              <button
+                onClick={handleImportWithCommunity}
+                disabled={importing}
+                className="flex-1 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50 flex items-center justify-center space-x-2"
+              >
+                {importing ? (
+                  <>
+                    <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></div>
+                    <span>Importing...</span>
+                  </>
+                ) : (
+                  <>
+                    <Plus className="h-4 w-4" />
+                    <span>Import</span>
+                  </>
+                )}
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </div>

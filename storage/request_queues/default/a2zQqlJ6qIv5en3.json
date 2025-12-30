@@ -1,9 +1,0 @@
-{
-	"id": "a2zQqlJ6qIv5en3",
-	"json": "{\"id\":\"a2zQqlJ6qIv5en3\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Lesanovsky,+I\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Lesanovsky%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000331,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Lesanovsky%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Lesanovsky,+I"
-}

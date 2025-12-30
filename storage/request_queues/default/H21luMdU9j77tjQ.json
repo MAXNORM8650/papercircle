@@ -1,9 +1,0 @@
-{
-	"id": "H21luMdU9j77tjQ",
-	"json": "{\"id\":\"H21luMdU9j77tjQ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Scheithauer%2C+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Scheithauer%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087082654,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Scheithauer%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Scheithauer%2C+S"
-}

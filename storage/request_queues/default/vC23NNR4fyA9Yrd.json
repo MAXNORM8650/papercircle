@@ -1,9 +1,0 @@
-{
-	"id": "vC23NNR4fyA9Yrd",
-	"json": "{\"id\":\"vC23NNR4fyA9Yrd\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kohri,+K\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Kohri%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986513,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Kohri%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Kohri,+K"
-}

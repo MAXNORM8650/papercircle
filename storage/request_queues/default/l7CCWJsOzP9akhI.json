@@ -1,9 +1,0 @@
-{
-	"id": "l7CCWJsOzP9akhI",
-	"json": "{\"id\":\"l7CCWJsOzP9akhI\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Garatti,+A+C+o\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Garatti,+A+C+o\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Garatti%2C+A+C+o&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:22.764Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Garatti%2C+A+C+o&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Garatti,+A+C+o"
-}

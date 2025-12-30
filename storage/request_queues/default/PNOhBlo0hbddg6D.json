@@ -1,9 +1,0 @@
-{
-	"id": "PNOhBlo0hbddg6D",
-	"json": "{\"id\":\"PNOhBlo0hbddg6D\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Cicero,+G\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Cicero%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989214,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Cicero%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Cicero,+G"
-}

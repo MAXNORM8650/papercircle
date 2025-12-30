@@ -1,9 +1,0 @@
-{
-	"id": "1EXCH1tcqlhFy8B",
-	"json": "{\"id\":\"1EXCH1tcqlhFy8B\",\"url\":\"https://arxiv.org/year/stat/2021\",\"uniqueKey\":\"https://arxiv.org/year/stat/2021\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023469,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/year/stat/2021",
-	"url": "https://arxiv.org/year/stat/2021"
-}

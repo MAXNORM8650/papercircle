@@ -1,9 +1,0 @@
-{
-	"id": "dcdhaNss0bpcPtZ",
-	"json": "{\"id\":\"dcdhaNss0bpcPtZ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Gonzalez-Morales,+A+X\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Gonzalez-Morales%2C+A+X&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986906,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Gonzalez-Morales%2C+A+X&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Gonzalez-Morales,+A+X"
-}

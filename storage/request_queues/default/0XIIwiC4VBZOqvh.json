@@ -1,9 +1,0 @@
-{
-	"id": "0XIIwiC4VBZOqvh",
-	"json": "{\"id\":\"0XIIwiC4VBZOqvh\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Pelletier,+S\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Pelletier%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021228,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Pelletier%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Pelletier,+S"
-}

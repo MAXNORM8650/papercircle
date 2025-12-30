@@ -1,9 +1,0 @@
-{
-	"id": "E4nOnV2Ljd9Gpck",
-	"json": "{\"id\":\"E4nOnV2Ljd9Gpck\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Wei,+Y\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Wei%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087037206,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Wei%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Wei,+Y"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "GL46x06T111TncP",
-	"json": "{\"id\":\"GL46x06T111TncP\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Jensen,+C+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Jensen%2C+C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087027135,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Jensen%2C+C+S&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Jensen,+C+S"
-}

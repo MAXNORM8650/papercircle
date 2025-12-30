@@ -1,9 +1,0 @@
-{
-	"id": "7ThkobW9uZikklP",
-	"json": "{\"id\":\"7ThkobW9uZikklP\",\"url\":\"https://arxiv.org/login\",\"loadedUrl\":\"https://arxiv.org/login\",\"uniqueKey\":\"https://arxiv.org/login\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:45.512Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/login",
-	"url": "https://arxiv.org/login"
-}

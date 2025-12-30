@@ -1,9 +1,0 @@
-{
-	"id": "tBC5hjKYj6uFzns",
-	"json": "{\"id\":\"tBC5hjKYj6uFzns\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Castro,+H\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Castro%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007025,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Castro%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Castro,+H"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "a21jAc3Q4t1l0vh",
-	"json": "{\"id\":\"a21jAc3Q4t1l0vh\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Arranz%2C+%C3%93+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Arranz%2C+%C3%93+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087091104,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Arranz%2C+%C3%93+J&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Arranz%2C+%C3%93+J"
-}

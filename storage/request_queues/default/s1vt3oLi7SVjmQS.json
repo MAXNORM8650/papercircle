@@ -1,9 +1,0 @@
-{
-	"id": "s1vt3oLi7SVjmQS",
-	"json": "{\"id\":\"s1vt3oLi7SVjmQS\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Grivas,+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Grivas%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087037351,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Grivas%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Grivas,+G"
-}

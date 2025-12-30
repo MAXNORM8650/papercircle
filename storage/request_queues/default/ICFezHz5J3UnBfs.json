@@ -1,9 +1,0 @@
-{
-	"id": "ICFezHz5J3UnBfs",
-	"json": "{\"id\":\"ICFezHz5J3UnBfs\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Dutta,+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Dutta%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005827,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Dutta%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Dutta,+M"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "S0QmvgOwU8ZNCgm",
-	"json": "{\"id\":\"S0QmvgOwU8ZNCgm\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Shytov,+M+V\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Shytov%2C+M+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991182,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Shytov%2C+M+V&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Shytov,+M+V"
-}

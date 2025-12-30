@@ -1,9 +1,0 @@
-{
-	"id": "0jzOwjOBx3HSSv5",
-	"json": "{\"id\":\"0jzOwjOBx3HSSv5\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=de+S%C3%A1,+P+L+B\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=de+S%C3%A1%2C+P+L+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991569,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=de+S%C3%A1%2C+P+L+B&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=de+S%C3%A1,+P+L+B"
-}

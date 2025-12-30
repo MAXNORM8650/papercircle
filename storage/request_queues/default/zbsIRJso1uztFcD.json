@@ -1,9 +1,0 @@
-{
-	"id": "zbsIRJso1uztFcD",
-	"json": "{\"id\":\"zbsIRJso1uztFcD\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Lovtsov,+S+V\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Lovtsov%2C+S+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087036390,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Lovtsov%2C+S+V&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Lovtsov,+S+V"
-}

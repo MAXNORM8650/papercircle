@@ -1,9 +1,0 @@
-{
-	"id": "9hez3DIU0dWYRxj",
-	"json": "{\"id\":\"9hez3DIU0dWYRxj\",\"url\":\"https://arxiv.org/list/astro-ph/1998-03?skip=100\",\"uniqueKey\":\"https://arxiv.org/list/astro-ph/1998-03?skip=100\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087034175,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/astro-ph/1998-03?skip=100",
-	"url": "https://arxiv.org/list/astro-ph/1998-03?skip=100"
-}

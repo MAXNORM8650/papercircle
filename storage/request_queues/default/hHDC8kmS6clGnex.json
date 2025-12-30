@@ -1,9 +1,0 @@
-{
-	"id": "hHDC8kmS6clGnex",
-	"json": "{\"id\":\"hHDC8kmS6clGnex\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Cosenza,+C\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Cosenza%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991227,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Cosenza%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Cosenza,+C"
-}

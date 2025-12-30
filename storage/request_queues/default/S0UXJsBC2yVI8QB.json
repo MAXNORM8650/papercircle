@@ -1,9 +1,0 @@
-{
-	"id": "S0UXJsBC2yVI8QB",
-	"json": "{\"id\":\"S0UXJsBC2yVI8QB\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Otto,+P\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Otto%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023882,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Otto%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Otto,+P"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "PMngw3hBYDPNAhs",
-	"json": "{\"id\":\"PMngw3hBYDPNAhs\",\"url\":\"https://arxiv.org/search/math-ph?searchtype=author&query=Ruiz-de-Alarc%C3%B3n,+A\",\"uniqueKey\":\"https://arxiv.org/search/math-ph?query=Ruiz-de-Alarc%C3%B3n%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989579,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math-ph?query=Ruiz-de-Alarc%C3%B3n%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/math-ph?searchtype=author&query=Ruiz-de-Alarc%C3%B3n,+A"
-}

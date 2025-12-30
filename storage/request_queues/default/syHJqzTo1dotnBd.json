@@ -1,9 +1,0 @@
-{
-	"id": "syHJqzTo1dotnBd",
-	"json": "{\"id\":\"syHJqzTo1dotnBd\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=van+der+Tak%2C+F+F+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=van+der+Tak%2C+F+F+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087052486,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=van+der+Tak%2C+F+F+S&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=van+der+Tak%2C+F+F+S"
-}

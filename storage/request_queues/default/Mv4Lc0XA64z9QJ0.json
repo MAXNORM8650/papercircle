@@ -1,9 +1,0 @@
-{
-	"id": "Mv4Lc0XA64z9QJ0",
-	"json": "{\"id\":\"Mv4Lc0XA64z9QJ0\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Bhatt,+H\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Bhatt%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997749,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Bhatt%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Bhatt,+H"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "TJ4yt62gkjmkFRm",
-	"json": "{\"id\":\"TJ4yt62gkjmkFRm\",\"url\":\"https://arxiv.org/list/cs.CY/recent?skip=0&show=100\",\"uniqueKey\":\"https://arxiv.org/list/cs.CY/recent?show=100&skip=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012689,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/cs.CY/recent?show=100&skip=0",
-	"url": "https://arxiv.org/list/cs.CY/recent?skip=0&show=100"
-}

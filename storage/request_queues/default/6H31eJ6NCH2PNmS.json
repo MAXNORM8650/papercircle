@@ -1,9 +1,0 @@
-{
-	"id": "6H31eJ6NCH2PNmS",
-	"json": "{\"id\":\"6H31eJ6NCH2PNmS\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=DUNE+Collaboration\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=DUNE+Collaboration&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087065280,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=DUNE+Collaboration&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=DUNE+Collaboration"
-}

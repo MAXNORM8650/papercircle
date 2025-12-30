@@ -1,9 +1,0 @@
-{
-	"id": "jkA8JQuK9jfI0jJ",
-	"json": "{\"id\":\"jkA8JQuK9jfI0jJ\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Wang,+C+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Wang%2C+C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087011865,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Wang%2C+C+C&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Wang,+C+C"
-}

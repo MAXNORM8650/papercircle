@@ -1,9 +1,0 @@
-{
-	"id": "N8cXGZ1S5bXPcnW",
-	"json": "{\"id\":\"N8cXGZ1S5bXPcnW\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Colzi,+L\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Colzi%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986493,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Colzi%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Colzi,+L"
-}

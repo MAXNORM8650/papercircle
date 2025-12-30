@@ -1,9 +1,0 @@
-{
-	"id": "iEqXdaYpu2C99rW",
-	"json": "{\"id\":\"iEqXdaYpu2C99rW\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Hasan,+S+M+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Hasan%2C+S+M+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012872,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Hasan%2C+S+M+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Hasan,+S+M+A"
-}

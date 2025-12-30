@@ -1,9 +1,0 @@
-{
-	"id": "TtEEh9YcH7Opw7e",
-	"json": "{\"id\":\"TtEEh9YcH7Opw7e\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Assef%2C+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Assef%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087091110,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Assef%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Assef%2C+R"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "tgMeUfE4TojD1xf",
-	"json": "{\"id\":\"tgMeUfE4TojD1xf\",\"url\":\"https://arxiv.org/list/cs.AR/new\",\"uniqueKey\":\"https://arxiv.org/list/cs.AR/new\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014956,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/cs.AR/new",
-	"url": "https://arxiv.org/list/cs.AR/new"
-}

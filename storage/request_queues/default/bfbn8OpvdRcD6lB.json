@@ -1,9 +1,0 @@
-{
-	"id": "bfbn8OpvdRcD6lB",
-	"json": "{\"id\":\"bfbn8OpvdRcD6lB\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Mei,+G\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Mei%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021003,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Mei%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Mei,+G"
-}

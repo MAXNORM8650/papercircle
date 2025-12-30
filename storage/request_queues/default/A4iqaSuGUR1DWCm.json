@@ -1,9 +1,0 @@
-{
-	"id": "A4iqaSuGUR1DWCm",
-	"json": "{\"id\":\"A4iqaSuGUR1DWCm\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Esposito%2C+F\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Esposito%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087043927,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Esposito%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Esposito%2C+F"
-}

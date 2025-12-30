@@ -1,9 +1,0 @@
-{
-	"id": "NdwWw7N3jK4jooQ",
-	"json": "{\"id\":\"NdwWw7N3jK4jooQ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Malkan,+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Malkan%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986428,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Malkan%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Malkan,+M"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "IVjaci6CR2dVAA3",
-	"json": "{\"id\":\"IVjaci6CR2dVAA3\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Fernandez,+D+A+M\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Fernandez%2C+D+A+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086990800,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Fernandez%2C+D+A+M&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Fernandez,+D+A+M"
-}

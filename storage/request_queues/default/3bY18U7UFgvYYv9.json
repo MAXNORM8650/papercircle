@@ -1,9 +1,0 @@
-{
-	"id": "3bY18U7UFgvYYv9",
-	"json": "{\"id\":\"3bY18U7UFgvYYv9\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=He,+J\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=He%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988355,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=He%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=He,+J"
-}

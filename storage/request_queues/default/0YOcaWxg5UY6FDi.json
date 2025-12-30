@@ -1,9 +1,0 @@
-{
-	"id": "0YOcaWxg5UY6FDi",
-	"json": "{\"id\":\"0YOcaWxg5UY6FDi\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Emma,+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Emma%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999651,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Emma%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Emma,+C"
-}

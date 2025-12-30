@@ -1,9 +1,0 @@
-{
-	"id": "whYPYYVGZBo9ggN",
-	"json": "{\"id\":\"whYPYYVGZBo9ggN\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Sahly,+H+M+E\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Sahly%2C+H+M+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087024028,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Sahly%2C+H+M+E&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Sahly,+H+M+E"
-}

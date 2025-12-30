@@ -1,9 +1,0 @@
-{
-	"id": "mZ9IPMxJJaQlhFp",
-	"json": "{\"id\":\"mZ9IPMxJJaQlhFp\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Ewoldt,+R+H\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Ewoldt%2C+R+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086990730,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Ewoldt%2C+R+H&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Ewoldt,+R+H"
-}

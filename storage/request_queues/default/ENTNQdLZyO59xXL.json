@@ -1,9 +1,0 @@
-{
-	"id": "ENTNQdLZyO59xXL",
-	"json": "{\"id\":\"ENTNQdLZyO59xXL\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Yang,+Y\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Yang%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000606,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Yang%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Yang,+Y"
-}

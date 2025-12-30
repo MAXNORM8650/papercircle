@@ -1,9 +1,0 @@
-{
-	"id": "ep5M9VZmw7TQseu",
-	"json": "{\"id\":\"ep5M9VZmw7TQseu\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Storhaug,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Storhaug%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025487,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Storhaug%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Storhaug,+A"
-}

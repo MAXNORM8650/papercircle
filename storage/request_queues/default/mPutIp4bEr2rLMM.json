@@ -1,9 +1,0 @@
-{
-	"id": "mPutIp4bEr2rLMM",
-	"json": "{\"id\":\"mPutIp4bEr2rLMM\",\"url\":\"https://arxiv.org/list/q-bio.PE/recent\",\"loadedUrl\":\"https://arxiv.org/list/q-bio.PE/recent\",\"uniqueKey\":\"https://arxiv.org/list/q-bio.PE/recent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:21.283Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/q-bio.PE/recent",
-	"url": "https://arxiv.org/list/q-bio.PE/recent"
-}

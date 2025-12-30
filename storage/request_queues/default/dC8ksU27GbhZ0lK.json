@@ -1,9 +1,0 @@
-{
-	"id": "dC8ksU27GbhZ0lK",
-	"json": "{\"id\":\"dC8ksU27GbhZ0lK\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kalita,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kalita%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087013587,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Kalita%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kalita,+P"
-}

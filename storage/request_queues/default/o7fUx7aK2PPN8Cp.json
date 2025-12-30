@@ -1,9 +1,0 @@
-{
-	"id": "o7fUx7aK2PPN8Cp",
-	"json": "{\"id\":\"o7fUx7aK2PPN8Cp\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Dotti,+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Dotti%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987007,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Dotti%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Dotti,+M"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "ngD4jcn1xIQaA25",
-	"json": "{\"id\":\"ngD4jcn1xIQaA25\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=He,+X\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=He%2C+X&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087001354,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=He%2C+X&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=He,+X"
-}

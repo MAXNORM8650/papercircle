@@ -1,9 +1,0 @@
-{
-	"id": "zOMTvU27PgEwSS6",
-	"json": "{\"id\":\"zOMTvU27PgEwSS6\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Tilton,+S\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Tilton%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087004910,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Tilton%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Tilton,+S"
-}

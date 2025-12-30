@@ -1,9 +1,0 @@
-{
-	"id": "vbhfa44hJty7s5D",
-	"json": "{\"id\":\"vbhfa44hJty7s5D\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=M%C3%A9sz%C3%A1ros,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=M%C3%A9sz%C3%A1ros%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005963,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=M%C3%A9sz%C3%A1ros%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=M%C3%A9sz%C3%A1ros,+A"
-}

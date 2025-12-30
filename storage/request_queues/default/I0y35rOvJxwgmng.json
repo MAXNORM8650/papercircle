@@ -1,9 +1,0 @@
-{
-	"id": "I0y35rOvJxwgmng",
-	"json": "{\"id\":\"I0y35rOvJxwgmng\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Ruip%C3%A9rez,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Ruip%C3%A9rez%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994623,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-th?query=Ruip%C3%A9rez%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Ruip%C3%A9rez,+A"
-}

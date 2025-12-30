@@ -1,9 +1,0 @@
-{
-	"id": "4LmUWuLvQKM1XAq",
-	"json": "{\"id\":\"4LmUWuLvQKM1XAq\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Blanchard,+P\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Blanchard%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002410,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Blanchard%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Blanchard,+P"
-}

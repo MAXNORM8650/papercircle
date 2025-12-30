@@ -1,9 +1,0 @@
-{
-	"id": "KGiKE7VHr3p4CdU",
-	"json": "{\"id\":\"KGiKE7VHr3p4CdU\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Jennrich%2C+O\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Jennrich%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087041971,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Jennrich%2C+O&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Jennrich%2C+O"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "yAj2KfPIDcf1cbg",
-	"json": "{\"id\":\"yAj2KfPIDcf1cbg\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Kr%C3%BCger,+K\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Kr%C3%BCger%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992798,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Kr%C3%BCger%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Kr%C3%BCger,+K"
-}

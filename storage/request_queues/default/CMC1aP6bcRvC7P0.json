@@ -1,9 +1,0 @@
-{
-	"id": "CMC1aP6bcRvC7P0",
-	"json": "{\"id\":\"CMC1aP6bcRvC7P0\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Congiu,+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Congiu%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986614,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Congiu%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Congiu,+E"
-}

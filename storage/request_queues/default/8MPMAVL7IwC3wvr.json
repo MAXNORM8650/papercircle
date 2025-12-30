@@ -1,9 +1,0 @@
-{
-	"id": "8MPMAVL7IwC3wvr",
-	"json": "{\"id\":\"8MPMAVL7IwC3wvr\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Tsesmetzis,+N\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Tsesmetzis%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087028239,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Tsesmetzis%2C+N&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Tsesmetzis,+N"
-}

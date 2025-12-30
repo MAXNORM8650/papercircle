@@ -1,9 +1,0 @@
-{
-	"id": "8v1Q2eAKJJ7QA2Y",
-	"json": "{\"id\":\"8v1Q2eAKJJ7QA2Y\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bisnovatyi-Kogan,+G+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Bisnovatyi-Kogan%2C+G+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986631,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Bisnovatyi-Kogan%2C+G+S&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Bisnovatyi-Kogan,+G+S"
-}

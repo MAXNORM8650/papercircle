@@ -1,9 +1,0 @@
-{
-	"id": "g7UFN31vFcT1J3N",
-	"json": "{\"id\":\"g7UFN31vFcT1J3N\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=S%C3%A4nger,+E+M\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=S%C3%A4nger%2C+E+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991798,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=S%C3%A4nger%2C+E+M&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=S%C3%A4nger,+E+M"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "UkfvwjT6dKIcvkp",
-	"json": "{\"id\":\"UkfvwjT6dKIcvkp\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Fisher,+M+C\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Fisher%2C+M+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021217,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Fisher%2C+M+C&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Fisher,+M+C"
-}

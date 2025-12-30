@@ -1,9 +1,0 @@
-{
-	"id": "96gcrgkoU6Z8SLN",
-	"json": "{\"id\":\"96gcrgkoU6Z8SLN\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Ratti,+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Ratti%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999344,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Ratti%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Ratti,+C"
-}

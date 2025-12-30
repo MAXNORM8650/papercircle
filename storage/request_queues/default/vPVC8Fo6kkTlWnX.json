@@ -1,9 +1,0 @@
-{
-	"id": "vPVC8Fo6kkTlWnX",
-	"json": "{\"id\":\"vPVC8Fo6kkTlWnX\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Dumarchez,+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Dumarchez%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992498,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Dumarchez%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Dumarchez,+J"
-}

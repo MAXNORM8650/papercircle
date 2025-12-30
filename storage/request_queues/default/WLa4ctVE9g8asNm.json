@@ -1,9 +1,0 @@
-{
-	"id": "WLa4ctVE9g8asNm",
-	"json": "{\"id\":\"WLa4ctVE9g8asNm\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Galindez-Acosta,+J+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Galindez-Acosta%2C+J+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015231,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Galindez-Acosta%2C+J+S&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Galindez-Acosta,+J+S"
-}

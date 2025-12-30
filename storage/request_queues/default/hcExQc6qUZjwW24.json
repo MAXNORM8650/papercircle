@@ -1,9 +1,0 @@
-{
-	"id": "hcExQc6qUZjwW24",
-	"json": "{\"id\":\"hcExQc6qUZjwW24\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Nakamura,+N\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Nakamura%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994861,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-th?query=Nakamura%2C+N&searchtype=author",
-	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Nakamura,+N"
-}

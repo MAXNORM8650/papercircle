@@ -1,9 +1,0 @@
-{
-	"id": "j8NnDiU68Ig51Xs",
-	"json": "{\"id\":\"j8NnDiU68Ig51Xs\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Wang,+J\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Wang%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087004992,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Wang%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Wang,+J"
-}

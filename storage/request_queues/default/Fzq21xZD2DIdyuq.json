@@ -1,9 +1,0 @@
-{
-	"id": "Fzq21xZD2DIdyuq",
-	"json": "{\"id\":\"Fzq21xZD2DIdyuq\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Labh,+A\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Labh%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989412,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Labh%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Labh,+A"
-}

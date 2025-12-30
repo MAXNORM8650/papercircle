@@ -1,9 +1,0 @@
-{
-	"id": "Yfwso7u9Kvy8QEd",
-	"json": "{\"id\":\"Yfwso7u9Kvy8QEd\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Tran,+N\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Tran%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999183,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Tran%2C+N&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Tran,+N"
-}

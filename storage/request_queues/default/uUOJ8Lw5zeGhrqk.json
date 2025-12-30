@@ -1,9 +1,0 @@
-{
-	"id": "uUOJ8Lw5zeGhrqk",
-	"json": "{\"id\":\"uUOJ8Lw5zeGhrqk\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Lestant,+E\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Lestant%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087026241,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/econ?query=Lestant%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/econ?searchtype=author&query=Lestant,+E"
-}

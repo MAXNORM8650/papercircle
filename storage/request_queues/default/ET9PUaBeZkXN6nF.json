@@ -1,9 +1,0 @@
-{
-	"id": "ET9PUaBeZkXN6nF",
-	"json": "{\"id\":\"ET9PUaBeZkXN6nF\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=D%C3%B6rner,+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=D%C3%B6rner%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000837,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=D%C3%B6rner%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=D%C3%B6rner,+R"
-}

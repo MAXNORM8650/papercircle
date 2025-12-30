@@ -1,9 +1,0 @@
-{
-	"id": "t8waWqVgmecou2K",
-	"json": "{\"id\":\"t8waWqVgmecou2K\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Sun,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Sun%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014513,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Sun%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Sun,+S"
-}

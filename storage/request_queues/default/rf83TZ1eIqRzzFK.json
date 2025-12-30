@@ -1,9 +1,0 @@
-{
-	"id": "rf83TZ1eIqRzzFK",
-	"json": "{\"id\":\"rf83TZ1eIqRzzFK\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Seabra,+G\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Seabra%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019809,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Seabra%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Seabra,+G"
-}

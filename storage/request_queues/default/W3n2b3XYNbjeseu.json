@@ -1,9 +1,0 @@
-{
-	"id": "W3n2b3XYNbjeseu",
-	"json": "{\"id\":\"W3n2b3XYNbjeseu\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Peng,+Z\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Peng%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025264,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Peng%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Peng,+Z"
-}

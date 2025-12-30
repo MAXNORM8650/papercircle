@@ -1,9 +1,0 @@
-{
-	"id": "jtiPCyaZP9SKHqn",
-	"json": "{\"id\":\"jtiPCyaZP9SKHqn\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Giurc%C4%83neanu,+C+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Giurc%C4%83neanu%2C+C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087029561,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Giurc%C4%83neanu%2C+C+D&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Giurc%C4%83neanu,+C+D"
-}

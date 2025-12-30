@@ -1,9 +1,0 @@
-{
-	"id": "omaqIJjF0Yk7s33",
-	"json": "{\"id\":\"omaqIJjF0Yk7s33\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Zhifeng,+L\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Zhifeng%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989448,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Zhifeng%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Zhifeng,+L"
-}

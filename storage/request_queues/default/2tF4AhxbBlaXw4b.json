@@ -1,9 +1,0 @@
-{
-	"id": "2tF4AhxbBlaXw4b",
-	"json": "{\"id\":\"2tF4AhxbBlaXw4b\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Kara,+M\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Kara%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988273,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Kara%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Kara,+M"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "mioL6hSOQ7N2tfm",
-	"json": "{\"id\":\"mioL6hSOQ7N2tfm\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Sherwin,+B+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Sherwin%2C+B+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087036963,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Sherwin%2C+B+D&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Sherwin,+B+D"
-}

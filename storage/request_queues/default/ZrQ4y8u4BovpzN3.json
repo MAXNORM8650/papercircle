@@ -1,9 +1,0 @@
-{
-	"id": "ZrQ4y8u4BovpzN3",
-	"json": "{\"id\":\"ZrQ4y8u4BovpzN3\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Le,+A+V\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Le%2C+A+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087024336,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Le%2C+A+V&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Le,+A+V"
-}

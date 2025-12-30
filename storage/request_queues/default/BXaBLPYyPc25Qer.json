@@ -1,9 +1,0 @@
-{
-	"id": "BXaBLPYyPc25Qer",
-	"json": "{\"id\":\"BXaBLPYyPc25Qer\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Hakkani-T%C3%BCr,+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Hakkani-T%C3%BCr%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087029551,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Hakkani-T%C3%BCr%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Hakkani-T%C3%BCr,+D"
-}

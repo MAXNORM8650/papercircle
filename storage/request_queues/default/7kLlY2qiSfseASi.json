@@ -1,9 +1,0 @@
-{
-	"id": "7kLlY2qiSfseASi",
-	"json": "{\"id\":\"7kLlY2qiSfseASi\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Curti,+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Curti%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987015,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Curti%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Curti,+M"
-}

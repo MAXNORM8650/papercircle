@@ -1,9 +1,0 @@
-{
-	"id": "xM38SPDoAfg6mzS",
-	"json": "{\"id\":\"xM38SPDoAfg6mzS\",\"url\":\"https://arxiv.org/search/hep-lat?searchtype=author&query=Maas,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-lat?query=Maas%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991671,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-lat?query=Maas%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/hep-lat?searchtype=author&query=Maas,+A"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "Be9ZwHCh6VzhiDk",
-	"json": "{\"id\":\"Be9ZwHCh6VzhiDk\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Ayala,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Ayala%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005138,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Ayala%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Ayala,+A"
-}

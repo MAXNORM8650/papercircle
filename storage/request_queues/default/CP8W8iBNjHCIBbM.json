@@ -1,9 +1,0 @@
-{
-	"id": "CP8W8iBNjHCIBbM",
-	"json": "{\"id\":\"CP8W8iBNjHCIBbM\",\"url\":\"https://arxiv.org/list/q-fin.PR/current\",\"uniqueKey\":\"https://arxiv.org/list/q-fin.PR/current\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021576,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/q-fin.PR/current",
-	"url": "https://arxiv.org/list/q-fin.PR/current"
-}

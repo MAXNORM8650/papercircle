@@ -1,9 +1,0 @@
-{
-	"id": "3MZt2fNWx4NzXQw",
-	"json": "{\"id\":\"3MZt2fNWx4NzXQw\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Tzur,+M+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Tzur%2C+M+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999316,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Tzur%2C+M+E&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Tzur,+M+E"
-}

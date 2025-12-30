@@ -1,9 +1,0 @@
-{
-	"id": "z7ARerDM6n3TeL8",
-	"json": "{\"id\":\"z7ARerDM6n3TeL8\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Neon\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Neon&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087018404,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Neon&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Neon"
-}

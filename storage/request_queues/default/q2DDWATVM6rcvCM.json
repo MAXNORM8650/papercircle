@@ -1,9 +1,0 @@
-{
-	"id": "q2DDWATVM6rcvCM",
-	"json": "{\"id\":\"q2DDWATVM6rcvCM\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Ghosh,+S\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Ghosh%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087003795,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Ghosh%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Ghosh,+S"
-}

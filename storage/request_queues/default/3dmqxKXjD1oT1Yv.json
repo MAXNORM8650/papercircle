@@ -1,9 +1,0 @@
-{
-	"id": "3dmqxKXjD1oT1Yv",
-	"json": "{\"id\":\"3dmqxKXjD1oT1Yv\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Samsing,+J\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Samsing,+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Samsing%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:42.241Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Samsing%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Samsing,+J"
-}

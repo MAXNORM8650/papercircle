@@ -1,9 +1,0 @@
-{
-	"id": "JQW0aoATju4P0dZ",
-	"json": "{\"id\":\"JQW0aoATju4P0dZ\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Al-Hashimi,+I\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Al-Hashimi%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010236,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Al-Hashimi%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Al-Hashimi,+I"
-}

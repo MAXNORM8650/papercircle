@@ -1,9 +1,0 @@
-{
-	"id": "PBRws6dD12Hg7yO",
-	"json": "{\"id\":\"PBRws6dD12Hg7yO\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Mishonov,+T+M\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Mishonov%2C+T+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000826,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Mishonov%2C+T+M&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Mishonov,+T+M"
-}

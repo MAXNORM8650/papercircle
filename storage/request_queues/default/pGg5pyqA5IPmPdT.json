@@ -1,9 +1,0 @@
-{
-	"id": "pGg5pyqA5IPmPdT",
-	"json": "{\"id\":\"pGg5pyqA5IPmPdT\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Palomares,+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Palomares%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992590,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Palomares%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Palomares,+C"
-}

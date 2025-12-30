@@ -1,9 +1,0 @@
-{
-	"id": "cxyal1SEGsV54PM",
-	"json": "{\"id\":\"cxyal1SEGsV54PM\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Asvesta,+F\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Asvesta%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999206,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Asvesta%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Asvesta,+F"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "ydiMPnPdIUbw6Oc",
-	"json": "{\"id\":\"ydiMPnPdIUbw6Oc\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Linde,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Linde%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087040597,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-th?query=Linde%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Linde,+A"
-}

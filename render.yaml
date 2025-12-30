@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: paperfinder-api
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: MODEL_ID
+        value: ollama_chat/gpt-oss:20b
+      - key: API_BASE
+        value: http://10.127.30.115:11434

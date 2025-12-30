@@ -1,9 +1,0 @@
-{
-	"id": "skWJg18II65f166",
-	"json": "{\"id\":\"skWJg18II65f166\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Mart%C3%ADnez-N%C3%BA%C3%B1ez%2C+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Mart%C3%ADnez-N%C3%BA%C3%B1ez%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087079683,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Mart%C3%ADnez-N%C3%BA%C3%B1ez%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Mart%C3%ADnez-N%C3%BA%C3%B1ez%2C+S"
-}

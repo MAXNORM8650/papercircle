@@ -1,9 +1,0 @@
-{
-	"id": "TPDuKlrrM5vCPCC",
-	"json": "{\"id\":\"TPDuKlrrM5vCPCC\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Costac%C3%A8que\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Costac%C3%A8que&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007834,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Costac%C3%A8que&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Costac%C3%A8que"
-}

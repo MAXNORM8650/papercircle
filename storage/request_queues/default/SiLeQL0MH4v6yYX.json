@@ -1,9 +1,0 @@
-{
-	"id": "SiLeQL0MH4v6yYX",
-	"json": "{\"id\":\"SiLeQL0MH4v6yYX\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Benavides-Mart%C3%ADnez,+I+F\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Benavides-Mart%C3%ADnez%2C+I+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019280,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Benavides-Mart%C3%ADnez%2C+I+F&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Benavides-Mart%C3%ADnez,+I+F"
-}

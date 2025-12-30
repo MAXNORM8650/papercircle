@@ -1,9 +1,0 @@
-{
-	"id": "dpYbyWG7y2f57Bf",
-	"json": "{\"id\":\"dpYbyWG7y2f57Bf\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Ivashkin,+I\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Ivashkin%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994256,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-th?query=Ivashkin%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Ivashkin,+I"
-}

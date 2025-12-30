@@ -1,9 +1,0 @@
-{
-	"id": "pMrq0ZEwnmGWlya",
-	"json": "{\"id\":\"pMrq0ZEwnmGWlya\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Mahmud,+N\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Mahmud%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087003726,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Mahmud%2C+N&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Mahmud,+N"
-}

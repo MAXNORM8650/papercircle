@@ -1,9 +1,0 @@
-{
-	"id": "11cFgQc8tWMFf1R",
-	"json": "{\"id\":\"11cFgQc8tWMFf1R\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Veitch%2C+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Veitch%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087040263,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Veitch%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Veitch%2C+J"
-}

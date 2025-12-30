@@ -1,9 +1,0 @@
-{
-	"id": "GhkZo01L6EN4SZv",
-	"json": "{\"id\":\"GhkZo01L6EN4SZv\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Horner,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Horner%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997923,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Horner%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Horner,+A"
-}

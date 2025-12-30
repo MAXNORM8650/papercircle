@@ -1,9 +1,0 @@
-{
-	"id": "WOadi71abkHKCVK",
-	"json": "{\"id\":\"WOadi71abkHKCVK\",\"url\":\"https://arxiv.org/list/physics/new\",\"loadedUrl\":\"https://arxiv.org/list/physics/new\",\"uniqueKey\":\"https://arxiv.org/list/physics/new\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:59.364Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/physics/new",
-	"url": "https://arxiv.org/list/physics/new"
-}

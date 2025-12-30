@@ -1,9 +1,0 @@
-{
-	"id": "X1RaNH5gGVhEoON",
-	"json": "{\"id\":\"X1RaNH5gGVhEoON\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Awad,+M+N+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Awad%2C+M+N+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010219,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Awad%2C+M+N+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Awad,+M+N+A"
-}

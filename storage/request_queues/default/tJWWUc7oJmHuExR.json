@@ -1,9 +1,0 @@
-{
-	"id": "tJWWUc7oJmHuExR",
-	"json": "{\"id\":\"tJWWUc7oJmHuExR\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Franchi,+B\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Franchi%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006174,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Franchi%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Franchi,+B"
-}

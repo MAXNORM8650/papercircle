@@ -1,9 +1,0 @@
-{
-	"id": "v1SWhkdRfr8VZhW",
-	"json": "{\"id\":\"v1SWhkdRfr8VZhW\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Hague,+T+J\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Hague%2C+T+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997760,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Hague%2C+T+J&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Hague,+T+J"
-}

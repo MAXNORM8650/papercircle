@@ -1,0 +1,33 @@
+# Multi-Agent Paper Review System
+# ================================
+
+# Core dependencies
+smolagents>=1.0.0
+litellm>=1.0.0
+
+# PDF Processing
+pymupdf>=1.23.0
+pdfplumber>=0.10.0
+
+# HTTP requests
+requests>=2.28.0
+
+# Data handling
+dataclasses-json>=0.6.0
+
+# Optional: Better async support
+aiohttp>=3.9.0
+asyncio>=3.4.3
+
+# Optional: For visualization
+networkx>=3.0
+matplotlib>=3.7.0
+
+# Optional: For HTML reports
+jinja2>=3.1.0
+markdown>=3.5.0
+
+# Development
+pytest>=7.0.0
+black>=23.0.0
+ruff>=0.1.0

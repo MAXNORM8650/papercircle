@@ -1,9 +1,0 @@
-{
-	"id": "rOd2nET7IedNdBZ",
-	"json": "{\"id\":\"rOd2nET7IedNdBZ\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Singh,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Singh%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999220,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Singh%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Singh,+A"
-}

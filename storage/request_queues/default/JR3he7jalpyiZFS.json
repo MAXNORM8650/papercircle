@@ -1,9 +1,0 @@
-{
-	"id": "JR3he7jalpyiZFS",
-	"json": "{\"id\":\"JR3he7jalpyiZFS\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Angelakis%2C+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Angelakis%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087040215,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Angelakis%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Angelakis%2C+E"
-}

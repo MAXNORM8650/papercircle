@@ -1,9 +1,0 @@
-{
-	"id": "5DqDzf7udCvAro8",
-	"json": "{\"id\":\"5DqDzf7udCvAro8\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Cai%2C+Y&start=200\",\"uniqueKey\":\"https://arxiv.org/search?query=Cai%2C+Y&searchtype=author&start=200\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087077884,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Cai%2C+Y&searchtype=author&start=200",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Cai%2C+Y&start=200"
-}

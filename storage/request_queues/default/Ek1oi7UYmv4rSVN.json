@@ -1,9 +1,0 @@
-{
-	"id": "Ek1oi7UYmv4rSVN",
-	"json": "{\"id\":\"Ek1oi7UYmv4rSVN\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Shvets,+I+A\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Shvets%2C+I+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988938,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Shvets%2C+I+A&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Shvets,+I+A"
-}

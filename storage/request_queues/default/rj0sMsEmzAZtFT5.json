@@ -1,9 +1,0 @@
-{
-	"id": "rj0sMsEmzAZtFT5",
-	"json": "{\"id\":\"rj0sMsEmzAZtFT5\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Diac,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Diac%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016955,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Diac%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Diac,+P"
-}

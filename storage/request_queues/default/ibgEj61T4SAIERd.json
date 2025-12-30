@@ -1,9 +1,0 @@
-{
-	"id": "ibgEj61T4SAIERd",
-	"json": "{\"id\":\"ibgEj61T4SAIERd\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ge%2C+F\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Ge%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087064690,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Ge%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Ge%2C+F"
-}

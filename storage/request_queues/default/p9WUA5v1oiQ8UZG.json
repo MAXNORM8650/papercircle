@@ -1,9 +1,0 @@
-{
-	"id": "p9WUA5v1oiQ8UZG",
-	"json": "{\"id\":\"p9WUA5v1oiQ8UZG\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Kleinbock,+D\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Kleinbock%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006940,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Kleinbock%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Kleinbock,+D"
-}

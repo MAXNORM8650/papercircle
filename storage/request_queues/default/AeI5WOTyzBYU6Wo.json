@@ -1,9 +1,0 @@
-{
-	"id": "AeI5WOTyzBYU6Wo",
-	"json": "{\"id\":\"AeI5WOTyzBYU6Wo\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Dai,+H+L\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Dai%2C+H+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992909,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Dai%2C+H+L&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Dai,+H+L"
-}

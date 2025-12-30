@@ -1,9 +1,0 @@
-{
-	"id": "62rceUxu7FbjuXR",
-	"json": "{\"id\":\"62rceUxu7FbjuXR\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Spencer,+L+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Spencer%2C+L+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087037505,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Spencer%2C+L+D&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Spencer,+L+D"
-}

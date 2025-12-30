@@ -1,9 +1,0 @@
-{
-	"id": "Jnu0bwM9qKkHkzz",
-	"json": "{\"id\":\"Jnu0bwM9qKkHkzz\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Grupp,+F\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Grupp%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988274,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Grupp%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Grupp,+F"
-}

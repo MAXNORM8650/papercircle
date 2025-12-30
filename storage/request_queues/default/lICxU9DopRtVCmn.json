@@ -1,9 +1,0 @@
-{
-	"id": "lICxU9DopRtVCmn",
-	"json": "{\"id\":\"lICxU9DopRtVCmn\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Ros%C5%82on,+K\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Ros%C5%82on%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992804,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Ros%C5%82on%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Ros%C5%82on,+K"
-}

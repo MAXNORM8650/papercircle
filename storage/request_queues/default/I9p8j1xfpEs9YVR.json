@@ -1,9 +1,0 @@
-{
-	"id": "I9p8j1xfpEs9YVR",
-	"json": "{\"id\":\"I9p8j1xfpEs9YVR\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Matuszewski,+M\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Matuszewski%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989433,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Matuszewski%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Matuszewski,+M"
-}

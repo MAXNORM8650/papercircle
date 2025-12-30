@@ -1,9 +1,0 @@
-{
-	"id": "c74PpoKboK1pKT1",
-	"json": "{\"id\":\"c74PpoKboK1pKT1\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Cheng,+B\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Cheng%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021804,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/econ?query=Cheng%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/econ?searchtype=author&query=Cheng,+B"
-}

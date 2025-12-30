@@ -1,9 +1,0 @@
-{
-	"id": "7VI5ZyEMl3bkJlz",
-	"json": "{\"id\":\"7VI5ZyEMl3bkJlz\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Yasuda,+T\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Yasuda%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009224,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Yasuda%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Yasuda,+T"
-}

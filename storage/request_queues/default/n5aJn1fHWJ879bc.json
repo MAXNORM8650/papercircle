@@ -1,9 +1,0 @@
-{
-	"id": "n5aJn1fHWJ879bc",
-	"json": "{\"id\":\"n5aJn1fHWJ879bc\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Okoudjou,+K+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Okoudjou%2C+K+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006627,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Okoudjou%2C+K+A&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Okoudjou,+K+A"
-}

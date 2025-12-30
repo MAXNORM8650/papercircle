@@ -1,9 +1,0 @@
-{
-	"id": "HDAtY3I97ulnm3j",
-	"json": "{\"id\":\"HDAtY3I97ulnm3j\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Paneque-Carre%C3%B1o,+T\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Paneque-Carre%C3%B1o%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988057,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Paneque-Carre%C3%B1o%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Paneque-Carre%C3%B1o,+T"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "CvqOjScMykZN3ST",
-	"json": "{\"id\":\"CvqOjScMykZN3ST\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Coyle,+P\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Coyle%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992698,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Coyle%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Coyle,+P"
-}

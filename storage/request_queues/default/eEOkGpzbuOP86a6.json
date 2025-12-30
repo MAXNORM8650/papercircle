@@ -1,9 +1,0 @@
-{
-	"id": "eEOkGpzbuOP86a6",
-	"json": "{\"id\":\"eEOkGpzbuOP86a6\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Piarulli,+M\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Piarulli%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991797,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Piarulli%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Piarulli,+M"
-}

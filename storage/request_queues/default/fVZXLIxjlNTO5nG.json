@@ -1,9 +1,0 @@
-{
-	"id": "fVZXLIxjlNTO5nG",
-	"json": "{\"id\":\"fVZXLIxjlNTO5nG\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Yeo,+G+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Yeo%2C+G+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087026981,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Yeo%2C+G+C&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Yeo,+G+C"
-}

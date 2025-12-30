@@ -1,9 +1,0 @@
-{
-	"id": "jOvdg9nzXXWT1uP",
-	"json": "{\"id\":\"jOvdg9nzXXWT1uP\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Stariolo,+D+A\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Stariolo%2C+D+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989436,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Stariolo%2C+D+A&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Stariolo,+D+A"
-}

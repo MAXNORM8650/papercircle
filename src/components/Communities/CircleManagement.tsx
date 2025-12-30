@@ -3,7 +3,6 @@ import { Users, Plus, Settings, UserPlus, X } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
 import { CircleDetailView } from './CircleDetailView';
-import { CreateSessionModal } from '../Sessions/CreateSessionModal';
 
 interface Community {
   id: string;
@@ -34,8 +33,6 @@ export function CircleManagement() {
   const [showCreateModal, setShowCreateModal] = useState(false);
   const [loading, setLoading] = useState(true);
   const [view, setView] = useState<'list' | 'detail'>('list');
-  const [showCreateSession, setShowCreateSession] = useState(false);
-  const [sessionCommunityId, setSessionCommunityId] = useState<string | null>(null);
 
   const [newCommunity, setNewCommunity] = useState({
     name: '',
@@ -121,34 +118,12 @@ export function CircleManagement() {
     loadCommunities();
   };
 
-  const handleCreateSession = (communityId: string) => {
-    setSessionCommunityId(communityId);
-    setShowCreateSession(true);
-  };
-
   if (view === 'detail' && selectedCommunity) {
     return (
-      <>
-        <CircleDetailView
-          communityId={selectedCommunity.id}
-          onBack={handleBackToList}
-          onCreateSession={handleCreateSession}
-        />
-        {showCreateSession && sessionCommunityId && (
-          <CreateSessionModal
-            communityId={sessionCommunityId}
-            onClose={() => {
-              setShowCreateSession(false);
-              setSessionCommunityId(null);
-            }}
-            onSuccess={() => {
-              setShowCreateSession(false);
-              setSessionCommunityId(null);
-              loadCommunities();
-            }}
-          />
-        )}
-      </>
+      <CircleDetailView
+        communityId={selectedCommunity.id}
+        onBack={handleBackToList}
+      />
     );
   }
 

@@ -1,9 +1,0 @@
-{
-	"id": "KQWBrwuHVH5G5wA",
-	"json": "{\"id\":\"KQWBrwuHVH5G5wA\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Irisarri,+L\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Irisarri%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002609,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Irisarri%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Irisarri,+L"
-}

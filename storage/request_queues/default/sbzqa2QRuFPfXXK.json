@@ -1,9 +1,0 @@
-{
-	"id": "sbzqa2QRuFPfXXK",
-	"json": "{\"id\":\"sbzqa2QRuFPfXXK\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Perez-Molina,+L\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Perez-Molina%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992592,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Perez-Molina%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Perez-Molina,+L"
-}

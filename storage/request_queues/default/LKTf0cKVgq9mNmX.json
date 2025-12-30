@@ -1,9 +1,0 @@
-{
-	"id": "LKTf0cKVgq9mNmX",
-	"json": "{\"id\":\"LKTf0cKVgq9mNmX\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Kohnen,+J+T\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Kohnen%2C+J+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086993595,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Kohnen%2C+J+T&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Kohnen,+J+T"
-}

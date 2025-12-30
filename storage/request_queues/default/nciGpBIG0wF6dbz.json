@@ -1,9 +1,0 @@
-{
-	"id": "nciGpBIG0wF6dbz",
-	"json": "{\"id\":\"nciGpBIG0wF6dbz\",\"url\":\"https://arxiv.org/archive/nucl-th\",\"loadedUrl\":\"https://arxiv.org/archive/nucl-th\",\"uniqueKey\":\"https://arxiv.org/archive/nucl-th\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:58.004Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/archive/nucl-th",
-	"url": "https://arxiv.org/archive/nucl-th"
-}

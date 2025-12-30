@@ -1,9 +1,0 @@
-{
-	"id": "BfxLRLh3ayGRjMz",
-	"json": "{\"id\":\"BfxLRLh3ayGRjMz\",\"url\":\"https://arxiv.org/search/hep-lat?searchtype=author&query=Bietenholz,+W\",\"uniqueKey\":\"https://arxiv.org/search/hep-lat?query=Bietenholz%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086993572,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-lat?query=Bietenholz%2C+W&searchtype=author",
-	"url": "https://arxiv.org/search/hep-lat?searchtype=author&query=Bietenholz,+W"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "HcsK9qixWAvTKiN",
-	"json": "{\"id\":\"HcsK9qixWAvTKiN\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Zadkov,+V+N\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Zadkov%2C+V+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086996485,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Zadkov%2C+V+N&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Zadkov,+V+N"
-}

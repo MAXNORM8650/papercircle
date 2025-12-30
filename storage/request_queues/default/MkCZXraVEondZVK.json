@@ -1,9 +1,0 @@
-{
-	"id": "MkCZXraVEondZVK",
-	"json": "{\"id\":\"MkCZXraVEondZVK\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=DePrince,+A+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=DePrince%2C+A+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999476,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=DePrince%2C+A+E&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=DePrince,+A+E"
-}

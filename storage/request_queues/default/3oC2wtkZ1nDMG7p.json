@@ -1,9 +1,0 @@
-{
-	"id": "3oC2wtkZ1nDMG7p",
-	"json": "{\"id\":\"3oC2wtkZ1nDMG7p\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ananth,+K+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ananth%2C+K+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010292,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Ananth%2C+K+S&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ananth,+K+S"
-}

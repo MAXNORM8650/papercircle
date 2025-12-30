@@ -1,9 +1,0 @@
-{
-	"id": "yW3SRK4qxVdAZup",
-	"json": "{\"id\":\"yW3SRK4qxVdAZup\",\"url\":\"https://arxiv.org/list/cond-mat.quant-gas/current\",\"uniqueKey\":\"https://arxiv.org/list/cond-mat.quant-gas/current\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988675,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/cond-mat.quant-gas/current",
-	"url": "https://arxiv.org/list/cond-mat.quant-gas/current"
-}

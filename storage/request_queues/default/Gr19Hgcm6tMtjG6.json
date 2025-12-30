@@ -1,9 +1,0 @@
-{
-	"id": "Gr19Hgcm6tMtjG6",
-	"json": "{\"id\":\"Gr19Hgcm6tMtjG6\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Razi,+A\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Razi%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019245,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Razi%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Razi,+A"
-}

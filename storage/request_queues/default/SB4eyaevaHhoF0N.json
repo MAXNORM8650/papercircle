@@ -1,9 +1,0 @@
-{
-	"id": "SB4eyaevaHhoF0N",
-	"json": "{\"id\":\"SB4eyaevaHhoF0N\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ma,+K\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ma%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012574,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Ma%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ma,+K"
-}

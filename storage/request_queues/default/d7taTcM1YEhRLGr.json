@@ -1,9 +1,0 @@
-{
-	"id": "d7taTcM1YEhRLGr",
-	"json": "{\"id\":\"d7taTcM1YEhRLGr\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Hossain,+G\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Hossain%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087018456,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Hossain%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Hossain,+G"
-}

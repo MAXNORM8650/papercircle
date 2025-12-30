@@ -1,9 +1,0 @@
-{
-	"id": "eWE7vF2PAANbJSO",
-	"json": "{\"id\":\"eWE7vF2PAANbJSO\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Hen,+O\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Hen%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992776,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Hen%2C+O&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Hen,+O"
-}

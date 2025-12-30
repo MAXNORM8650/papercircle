@@ -1,9 +1,0 @@
-{
-	"id": "DVzyGlltLtE4c3Q",
-	"json": "{\"id\":\"DVzyGlltLtE4c3Q\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Mehrabad,+M+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Mehrabad%2C+M+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989475,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Mehrabad%2C+M+J&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Mehrabad,+M+J"
-}

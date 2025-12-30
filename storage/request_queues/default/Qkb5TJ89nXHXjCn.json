@@ -1,9 +1,0 @@
-{
-	"id": "Qkb5TJ89nXHXjCn",
-	"json": "{\"id\":\"Qkb5TJ89nXHXjCn\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Degaudenzi,+H\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Degaudenzi%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988261,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Degaudenzi%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Degaudenzi,+H"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "Rd5p66CjupmTak3",
-	"json": "{\"id\":\"Rd5p66CjupmTak3\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Turetzky,+A\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Turetzky%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025324,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Turetzky%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Turetzky,+A"
-}

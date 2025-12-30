@@ -1,9 +1,0 @@
-{
-	"id": "3WORvQWN8SsW99n",
-	"json": "{\"id\":\"3WORvQWN8SsW99n\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Passas,+N\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Passas%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087017975,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Passas%2C+N&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Passas,+N"
-}

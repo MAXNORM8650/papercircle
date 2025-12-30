@@ -1,9 +1,0 @@
-{
-	"id": "MoWJ9cv02EYgbnp",
-	"json": "{\"id\":\"MoWJ9cv02EYgbnp\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Murchikova,+L\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Murchikova%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987140,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Murchikova%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Murchikova,+L"
-}

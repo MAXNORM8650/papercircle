@@ -1,9 +1,0 @@
-{
-	"id": "K9rvWxupWazcxlV",
-	"json": "{\"id\":\"K9rvWxupWazcxlV\",\"url\":\"https://arxiv.org/list/q-bio.SC/current\",\"uniqueKey\":\"https://arxiv.org/list/q-bio.SC/current\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087018809,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/q-bio.SC/current",
-	"url": "https://arxiv.org/list/q-bio.SC/current"
-}

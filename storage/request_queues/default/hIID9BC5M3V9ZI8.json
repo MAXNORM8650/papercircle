@@ -1,9 +1,0 @@
-{
-	"id": "hIID9BC5M3V9ZI8",
-	"json": "{\"id\":\"hIID9BC5M3V9ZI8\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Ji%2C+S&start=0\",\"uniqueKey\":\"https://arxiv.org/search?query=Ji%2C+S&searchtype=author&start=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087098329,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Ji%2C+S&searchtype=author&start=0",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Ji%2C+S&start=0"
-}

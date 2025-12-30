@@ -1,9 +1,0 @@
-{
-	"id": "Xo47hr5Rq2YI7w0",
-	"json": "{\"id\":\"Xo47hr5Rq2YI7w0\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Abdullah,+D\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Abdullah%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009145,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Abdullah%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Abdullah,+D"
-}

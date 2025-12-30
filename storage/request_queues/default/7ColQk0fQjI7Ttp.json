@@ -1,9 +1,0 @@
-{
-	"id": "7ColQk0fQjI7Ttp",
-	"json": "{\"id\":\"7ColQk0fQjI7Ttp\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Evenson,+P+A\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Evenson,+P+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Evenson%2C+P+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:18.194Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Evenson%2C+P+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Evenson,+P+A"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "b23q72rjRloDzmF",
-	"json": "{\"id\":\"b23q72rjRloDzmF\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Garz%C3%B3n,+N+V+O\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Garz%C3%B3n%2C+N+V+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006112,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Garz%C3%B3n%2C+N+V+O&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Garz%C3%B3n,+N+V+O"
-}

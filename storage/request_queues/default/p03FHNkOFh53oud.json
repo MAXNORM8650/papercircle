@@ -1,9 +1,0 @@
-{
-	"id": "p03FHNkOFh53oud",
-	"json": "{\"id\":\"p03FHNkOFh53oud\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Jalal,+W\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Jalal%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087018534,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Jalal%2C+W&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Jalal,+W"
-}

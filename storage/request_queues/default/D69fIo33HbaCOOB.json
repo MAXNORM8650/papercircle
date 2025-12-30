@@ -1,9 +1,0 @@
-{
-	"id": "D69fIo33HbaCOOB",
-	"json": "{\"id\":\"D69fIo33HbaCOOB\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Gao,+Y\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Gao%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006150,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Gao%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Gao,+Y"
-}

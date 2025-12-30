@@ -1,9 +1,0 @@
-{
-	"id": "hA4prL8oczRa5ez",
-	"json": "{\"id\":\"hA4prL8oczRa5ez\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Milburn%2C+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Milburn%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087070809,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Milburn%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Milburn%2C+J"
-}

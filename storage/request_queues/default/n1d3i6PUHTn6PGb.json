@@ -1,9 +1,0 @@
-{
-	"id": "n1d3i6PUHTn6PGb",
-	"json": "{\"id\":\"n1d3i6PUHTn6PGb\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Mark,+B+L\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Mark%2C+B+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025716,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Mark%2C+B+L&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Mark,+B+L"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "Xruq4GalbcXnEJW",
-	"json": "{\"id\":\"Xruq4GalbcXnEJW\",\"url\":\"https://arxiv.org/search/advanced?terms-0-term=Wilensky%2C+M+J&terms-0-field=author&size=50&order=-announced_date_first\",\"uniqueKey\":\"https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Wilensky%2C+M+J\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087086899,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Wilensky%2C+M+J",
-	"url": "https://arxiv.org/search/advanced?terms-0-term=Wilensky%2C+M+J&terms-0-field=author&size=50&order=-announced_date_first"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "g6W62dcZH8tvzYg",
-	"json": "{\"id\":\"g6W62dcZH8tvzYg\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kawakita%2C+H\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Kawakita%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087072599,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Kawakita%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Kawakita%2C+H"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "oWWnx3WqPofpGlr",
-	"json": "{\"id\":\"oWWnx3WqPofpGlr\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Mantin,+I\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Mantin%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012983,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Mantin%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Mantin,+I"
-}

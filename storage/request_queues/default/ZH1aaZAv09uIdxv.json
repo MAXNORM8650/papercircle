@@ -1,9 +1,0 @@
-{
-	"id": "ZH1aaZAv09uIdxv",
-	"json": "{\"id\":\"ZH1aaZAv09uIdxv\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Miller,+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Miller%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992511,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Miller%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Miller,+E"
-}

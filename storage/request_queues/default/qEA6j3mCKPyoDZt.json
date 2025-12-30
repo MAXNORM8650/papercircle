@@ -1,9 +1,0 @@
-{
-	"id": "qEA6j3mCKPyoDZt",
-	"json": "{\"id\":\"qEA6j3mCKPyoDZt\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Stefanini,+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Stefanini%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014560,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Stefanini%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Stefanini,+C"
-}

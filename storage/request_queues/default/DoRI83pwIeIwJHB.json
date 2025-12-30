@@ -1,9 +1,0 @@
-{
-	"id": "DoRI83pwIeIwJHB",
-	"json": "{\"id\":\"DoRI83pwIeIwJHB\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Vieira%2C+L+E+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Vieira%2C+L+E+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087081340,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Vieira%2C+L+E+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Vieira%2C+L+E+A"
-}

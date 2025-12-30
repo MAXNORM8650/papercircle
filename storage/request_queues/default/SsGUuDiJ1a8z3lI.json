@@ -1,9 +1,0 @@
-{
-	"id": "SsGUuDiJ1a8z3lI",
-	"json": "{\"id\":\"SsGUuDiJ1a8z3lI\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Wahl%C3%A9n,+E\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Wahl%C3%A9n%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086996460,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Wahl%C3%A9n%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Wahl%C3%A9n,+E"
-}

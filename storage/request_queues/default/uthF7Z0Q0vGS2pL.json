@@ -1,9 +1,0 @@
-{
-	"id": "uthF7Z0Q0vGS2pL",
-	"json": "{\"id\":\"uthF7Z0Q0vGS2pL\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Singhal,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Singhal%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087018455,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Singhal%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Singhal,+A"
-}

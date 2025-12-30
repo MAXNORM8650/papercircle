@@ -1,9 +1,0 @@
-{
-	"id": "ArN6qfVF8iw8hCa",
-	"json": "{\"id\":\"ArN6qfVF8iw8hCa\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Studen%C3%BD,+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Studen%C3%BD%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009417,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Studen%C3%BD%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Studen%C3%BD,+M"
-}

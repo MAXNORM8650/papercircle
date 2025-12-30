@@ -1,9 +1,0 @@
-{
-	"id": "wH902CHXqSS6dDI",
-	"json": "{\"id\":\"wH902CHXqSS6dDI\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Angelini,+M+C\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Angelini%2C+M+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989423,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Angelini%2C+M+C&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Angelini,+M+C"
-}

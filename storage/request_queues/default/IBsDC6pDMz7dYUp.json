@@ -1,9 +1,0 @@
-{
-	"id": "IBsDC6pDMz7dYUp",
-	"json": "{\"id\":\"IBsDC6pDMz7dYUp\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Abolade,+A+P\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Abolade%2C+A+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021575,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/econ?query=Abolade%2C+A+P&searchtype=author",
-	"url": "https://arxiv.org/search/econ?searchtype=author&query=Abolade,+A+P"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "0oi8MaLP3Rl0J4o",
-	"json": "{\"id\":\"0oi8MaLP3Rl0J4o\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Ore,+J+P\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Ore%2C+J+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015815,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Ore%2C+J+P&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Ore,+J+P"
-}

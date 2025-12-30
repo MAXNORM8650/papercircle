@@ -1,9 +1,0 @@
-{
-	"id": "uq2F8WDT6KQl52y",
-	"json": "{\"id\":\"uq2F8WDT6KQl52y\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Xia,+Q\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Xia%2C+Q&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997917,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Xia%2C+Q&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Xia,+Q"
-}

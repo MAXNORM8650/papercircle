@@ -1,9 +1,0 @@
-{
-	"id": "wVJxrxQ863CGiY3",
-	"json": "{\"id\":\"wVJxrxQ863CGiY3\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Set,+S+Y\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Set%2C+S+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999333,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Set%2C+S+Y&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Set,+S+Y"
-}

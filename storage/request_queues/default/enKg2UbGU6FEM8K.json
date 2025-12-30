@@ -1,9 +1,0 @@
-{
-	"id": "enKg2UbGU6FEM8K",
-	"json": "{\"id\":\"enKg2UbGU6FEM8K\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Pumpluen,+S\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Pumpluen%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006001,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Pumpluen%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Pumpluen,+S"
-}

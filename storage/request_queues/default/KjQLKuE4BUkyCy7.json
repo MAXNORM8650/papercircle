@@ -1,9 +1,0 @@
-{
-	"id": "KjQLKuE4BUkyCy7",
-	"json": "{\"id\":\"KjQLKuE4BUkyCy7\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Litos,+M+D\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Litos%2C+M+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999653,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Litos%2C+M+D&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Litos,+M+D"
-}

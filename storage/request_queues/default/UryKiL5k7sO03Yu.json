@@ -1,9 +1,0 @@
-{
-	"id": "UryKiL5k7sO03Yu",
-	"json": "{\"id\":\"UryKiL5k7sO03Yu\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Muir,+D+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Muir%2C+D+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016748,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Muir%2C+D+R&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Muir,+D+R"
-}

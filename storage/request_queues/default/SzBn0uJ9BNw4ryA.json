@@ -1,9 +1,0 @@
-{
-	"id": "SzBn0uJ9BNw4ryA",
-	"json": "{\"id\":\"SzBn0uJ9BNw4ryA\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Carro,+M+V\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Carro%2C+M+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087029594,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Carro%2C+M+V&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Carro,+M+V"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "D5x6zIPCCqq6hlX",
-	"json": "{\"id\":\"D5x6zIPCCqq6hlX\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Zeng,+Z\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Zeng%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002176,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Zeng%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Zeng,+Z"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "BL9Zn9M56k9v0iI",
-	"json": "{\"id\":\"BL9Zn9M56k9v0iI\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Venkatraman,+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Venkatraman%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988330,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Venkatraman%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Venkatraman,+P"
-}

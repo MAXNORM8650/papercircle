@@ -1,9 +1,0 @@
-{
-	"id": "aee0lSh5g2v2xhS",
-	"json": "{\"id\":\"aee0lSh5g2v2xhS\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Altan-Bonnet,+G\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Altan-Bonnet%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019234,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Altan-Bonnet%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Altan-Bonnet,+G"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "rNVI30VhHjGIIR3",
-	"json": "{\"id\":\"rNVI30VhHjGIIR3\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Leistedt,+B\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Leistedt%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986943,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Leistedt%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Leistedt,+B"
-}

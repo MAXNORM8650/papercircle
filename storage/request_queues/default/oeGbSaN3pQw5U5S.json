@@ -1,9 +1,0 @@
-{
-	"id": "oeGbSaN3pQw5U5S",
-	"json": "{\"id\":\"oeGbSaN3pQw5U5S\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Silalahi,+V+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Silalahi%2C+V+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999128,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Silalahi%2C+V+C&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Silalahi,+V+C"
-}

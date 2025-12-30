@@ -1,9 +1,0 @@
-{
-	"id": "3N9h9maPLe1oLAu",
-	"json": "{\"id\":\"3N9h9maPLe1oLAu\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Buy,+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Buy%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988088,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Buy%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Buy,+C"
-}

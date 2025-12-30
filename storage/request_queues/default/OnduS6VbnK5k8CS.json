@@ -1,9 +1,0 @@
-{
-	"id": "OnduS6VbnK5k8CS",
-	"json": "{\"id\":\"OnduS6VbnK5k8CS\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Petrosyan,+N\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Petrosyan%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989857,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Petrosyan%2C+N&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Petrosyan,+N"
-}

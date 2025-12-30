@@ -1,9 +1,0 @@
-{
-	"id": "E3bloKNN8d7BCy3",
-	"json": "{\"id\":\"E3bloKNN8d7BCy3\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Xu,+Y\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Xu%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019797,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Xu%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Xu,+Y"
-}

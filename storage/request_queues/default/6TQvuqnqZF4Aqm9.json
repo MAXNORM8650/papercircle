@@ -1,9 +1,0 @@
-{
-	"id": "6TQvuqnqZF4Aqm9",
-	"json": "{\"id\":\"6TQvuqnqZF4Aqm9\",\"url\":\"https://arxiv.org/list/astro-ph/2014-03\",\"uniqueKey\":\"https://arxiv.org/list/astro-ph/2014-03\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087031825,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/astro-ph/2014-03",
-	"url": "https://arxiv.org/list/astro-ph/2014-03"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "GJULiAMm92MDIxK",
-	"json": "{\"id\":\"GJULiAMm92MDIxK\",\"url\":\"https://arxiv.org/list/cs.MA/new\",\"uniqueKey\":\"https://arxiv.org/list/cs.MA/new\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016250,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/cs.MA/new",
-	"url": "https://arxiv.org/list/cs.MA/new"
-}

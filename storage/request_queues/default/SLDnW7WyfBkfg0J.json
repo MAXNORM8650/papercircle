@@ -1,9 +1,0 @@
-{
-	"id": "SLDnW7WyfBkfg0J",
-	"json": "{\"id\":\"SLDnW7WyfBkfg0J\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Dunning,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Dunning%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987124,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Dunning%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Dunning,+A"
-}

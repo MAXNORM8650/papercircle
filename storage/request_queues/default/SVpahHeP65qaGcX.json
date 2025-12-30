@@ -1,9 +1,0 @@
-{
-	"id": "SVpahHeP65qaGcX",
-	"json": "{\"id\":\"SVpahHeP65qaGcX\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Kaviti,+V+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Kaviti%2C+V+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000773,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Kaviti%2C+V+R&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Kaviti,+V+R"
-}

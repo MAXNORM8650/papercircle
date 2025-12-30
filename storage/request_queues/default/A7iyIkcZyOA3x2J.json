@@ -1,9 +1,0 @@
-{
-	"id": "A7iyIkcZyOA3x2J",
-	"json": "{\"id\":\"A7iyIkcZyOA3x2J\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Maccarone,+T\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Maccarone%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987605,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Maccarone%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Maccarone,+T"
-}

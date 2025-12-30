@@ -1,9 +1,0 @@
-{
-	"id": "0e1azHEGF6UFAV3",
-	"json": "{\"id\":\"0e1azHEGF6UFAV3\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Filzinger,+M\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Filzinger%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994270,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Filzinger%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Filzinger,+M"
-}

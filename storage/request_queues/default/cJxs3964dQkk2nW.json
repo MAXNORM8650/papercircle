@@ -1,9 +1,0 @@
-{
-	"id": "cJxs3964dQkk2nW",
-	"json": "{\"id\":\"cJxs3964dQkk2nW\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Bammer,+P\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Bammer%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087008638,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Bammer%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Bammer,+P"
-}

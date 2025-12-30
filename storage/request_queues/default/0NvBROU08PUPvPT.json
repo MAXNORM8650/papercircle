@@ -1,9 +1,0 @@
-{
-	"id": "0NvBROU08PUPvPT",
-	"json": "{\"id\":\"0NvBROU08PUPvPT\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Clark%2C+B+A&start=50\",\"uniqueKey\":\"https://arxiv.org/search?query=Clark%2C+B+A&searchtype=author&start=50\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087065341,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Clark%2C+B+A&searchtype=author&start=50",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Clark%2C+B+A&start=50"
-}

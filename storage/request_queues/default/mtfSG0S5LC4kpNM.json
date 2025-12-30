@@ -1,9 +1,0 @@
-{
-	"id": "mtfSG0S5LC4kpNM",
-	"json": "{\"id\":\"mtfSG0S5LC4kpNM\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Iribarren,+P+T\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Iribarren%2C+P+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988321,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Iribarren%2C+P+T&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Iribarren,+P+T"
-}

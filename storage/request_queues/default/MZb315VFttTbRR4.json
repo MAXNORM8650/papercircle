@@ -1,9 +1,0 @@
-{
-	"id": "MZb315VFttTbRR4",
-	"json": "{\"id\":\"MZb315VFttTbRR4\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Gootzen,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Gootzen%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014455,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Gootzen%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Gootzen,+P"
-}

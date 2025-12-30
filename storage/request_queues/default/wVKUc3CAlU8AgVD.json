@@ -1,9 +1,0 @@
-{
-	"id": "wVKUc3CAlU8AgVD",
-	"json": "{\"id\":\"wVKUc3CAlU8AgVD\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Gevorgyan,+Y\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Gevorgyan%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986446,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Gevorgyan%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Gevorgyan,+Y"
-}

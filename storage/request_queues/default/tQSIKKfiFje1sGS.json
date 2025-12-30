@@ -1,9 +1,0 @@
-{
-	"id": "tQSIKKfiFje1sGS",
-	"json": "{\"id\":\"tQSIKKfiFje1sGS\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Battisti,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Battisti%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987057,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Battisti%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Battisti,+A"
-}

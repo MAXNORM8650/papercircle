@@ -1,9 +1,0 @@
-{
-	"id": "0FgDl8GlD9Uk1Iq",
-	"json": "{\"id\":\"0FgDl8GlD9Uk1Iq\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Song,+Z\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Song%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012283,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Song%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Song,+Z"
-}

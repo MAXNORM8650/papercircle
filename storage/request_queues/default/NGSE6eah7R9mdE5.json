@@ -1,9 +1,0 @@
-{
-	"id": "NGSE6eah7R9mdE5",
-	"json": "{\"id\":\"NGSE6eah7R9mdE5\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Acikg%C3%B6z,+B\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Acikg%C3%B6z%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025726,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Acikg%C3%B6z%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Acikg%C3%B6z,+B"
-}

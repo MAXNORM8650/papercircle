@@ -1,9 +1,0 @@
-{
-	"id": "MS4Qm48kfIKEFB8",
-	"json": "{\"id\":\"MS4Qm48kfIKEFB8\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Baker,+D+L\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Baker%2C+D+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989241,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Baker%2C+D+L&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Baker,+D+L"
-}

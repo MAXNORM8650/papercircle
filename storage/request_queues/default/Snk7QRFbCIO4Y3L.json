@@ -1,9 +1,0 @@
-{
-	"id": "Snk7QRFbCIO4Y3L",
-	"json": "{\"id\":\"Snk7QRFbCIO4Y3L\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Yerzhanuly,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Yerzhanuly%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012668,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Yerzhanuly%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Yerzhanuly,+M"
-}

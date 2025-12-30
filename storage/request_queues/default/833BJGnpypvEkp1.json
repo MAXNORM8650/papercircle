@@ -1,9 +1,0 @@
-{
-	"id": "833BJGnpypvEkp1",
-	"json": "{\"id\":\"833BJGnpypvEkp1\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Su,+Q\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Su%2C+Q&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999179,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Su%2C+Q&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Su,+Q"
-}

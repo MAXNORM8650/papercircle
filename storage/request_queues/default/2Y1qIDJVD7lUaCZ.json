@@ -1,9 +1,0 @@
-{
-	"id": "2Y1qIDJVD7lUaCZ",
-	"json": "{\"id\":\"2Y1qIDJVD7lUaCZ\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Haga,+T\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Haga%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989324,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Haga%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Haga,+T"
-}

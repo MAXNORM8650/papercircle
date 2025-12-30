@@ -1,9 +1,0 @@
-{
-	"id": "ih12Gvj02XI6K8T",
-	"json": "{\"id\":\"ih12Gvj02XI6K8T\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Golnik,+R\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Golnik%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006606,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Golnik%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Golnik,+R"
-}

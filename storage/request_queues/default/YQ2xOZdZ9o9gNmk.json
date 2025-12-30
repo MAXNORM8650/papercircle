@@ -1,9 +1,0 @@
-{
-	"id": "YQ2xOZdZ9o9gNmk",
-	"json": "{\"id\":\"YQ2xOZdZ9o9gNmk\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Arakawa,+K\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Arakawa%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006645,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Arakawa%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Arakawa,+K"
-}

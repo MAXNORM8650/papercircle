@@ -1,9 +1,0 @@
-{
-	"id": "EGPCCe31bbmP20P",
-	"json": "{\"id\":\"EGPCCe31bbmP20P\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Berra,+F\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Berra%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006632,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Berra%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Berra,+F"
-}

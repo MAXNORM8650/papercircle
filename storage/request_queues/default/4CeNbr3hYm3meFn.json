@@ -1,9 +1,0 @@
-{
-	"id": "4CeNbr3hYm3meFn",
-	"json": "{\"id\":\"4CeNbr3hYm3meFn\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Scarlett,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Scarlett%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007948,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Scarlett%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Scarlett,+J"
-}

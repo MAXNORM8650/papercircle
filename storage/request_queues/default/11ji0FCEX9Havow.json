@@ -1,9 +1,0 @@
-{
-	"id": "11ji0FCEX9Havow",
-	"json": "{\"id\":\"11ji0FCEX9Havow\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Javanpeykar,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Javanpeykar%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087004924,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Javanpeykar%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Javanpeykar,+A"
-}

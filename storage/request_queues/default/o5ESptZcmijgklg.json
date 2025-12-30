@@ -1,9 +1,0 @@
-{
-	"id": "o5ESptZcmijgklg",
-	"json": "{\"id\":\"o5ESptZcmijgklg\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Melendez-Hern%C3%A1ndez,+I\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Melendez-Hern%C3%A1ndez%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994250,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Melendez-Hern%C3%A1ndez%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Melendez-Hern%C3%A1ndez,+I"
-}

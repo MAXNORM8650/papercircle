@@ -1,9 +1,0 @@
-{
-	"id": "91rBg9Stp1Cbtfp",
-	"json": "{\"id\":\"91rBg9Stp1Cbtfp\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Hogerheijde,+M+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Hogerheijde%2C+M+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986494,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Hogerheijde%2C+M+R&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Hogerheijde,+M+R"
-}

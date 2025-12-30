@@ -1,9 +1,0 @@
-{
-	"id": "zf1cDU3baQ26ye8",
-	"json": "{\"id\":\"zf1cDU3baQ26ye8\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Totev,+T\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Totev%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997911,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Totev%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Totev,+T"
-}

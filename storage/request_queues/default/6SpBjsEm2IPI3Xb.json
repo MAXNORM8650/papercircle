@@ -1,9 +1,0 @@
-{
-	"id": "6SpBjsEm2IPI3Xb",
-	"json": "{\"id\":\"6SpBjsEm2IPI3Xb\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Bai,+W\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Bai%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002249,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Bai%2C+W&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Bai,+W"
-}

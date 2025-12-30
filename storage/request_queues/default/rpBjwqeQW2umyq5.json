@@ -1,9 +1,0 @@
-{
-	"id": "rpBjwqeQW2umyq5",
-	"json": "{\"id\":\"rpBjwqeQW2umyq5\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Guzm%C3%A1n-Landa,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Guzm%C3%A1n-Landa%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010799,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Guzm%C3%A1n-Landa%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Guzm%C3%A1n-Landa,+J"
-}

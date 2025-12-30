@@ -1,9 +1,0 @@
-{
-	"id": "IBxgFPf1byYkCku",
-	"json": "{\"id\":\"IBxgFPf1byYkCku\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Molinari,+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Molinari%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087001347,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Molinari%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Molinari,+J"
-}

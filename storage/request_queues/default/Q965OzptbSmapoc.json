@@ -1,9 +1,0 @@
-{
-	"id": "Q965OzptbSmapoc",
-	"json": "{\"id\":\"Q965OzptbSmapoc\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Ajith,+M+V\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Ajith%2C+M+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007575,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Ajith%2C+M+V&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Ajith,+M+V"
-}

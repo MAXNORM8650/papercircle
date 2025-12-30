@@ -1,9 +1,0 @@
-{
-	"id": "WOsmN86t6BDyiOE",
-	"json": "{\"id\":\"WOsmN86t6BDyiOE\",\"url\":\"https://arxiv.org/help/contact\",\"loadedUrl\":\"https://info.arxiv.org/help/contact.html\",\"uniqueKey\":\"https://arxiv.org/help/contact\",\"method\":\"GET\",\"noRetry\":true,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":7}},\"handledAt\":\"2025-11-25T16:10:29.332Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/help/contact",
-	"url": "https://arxiv.org/help/contact"
-}

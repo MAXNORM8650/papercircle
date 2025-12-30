@@ -1,9 +1,0 @@
-{
-	"id": "VGDa96FiuEybLxB",
-	"json": "{\"id\":\"VGDa96FiuEybLxB\",\"url\":\"https://arxiv.org/list/eess.SY/current\",\"uniqueKey\":\"https://arxiv.org/list/eess.SY/current\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087024958,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/eess.SY/current",
-	"url": "https://arxiv.org/list/eess.SY/current"
-}

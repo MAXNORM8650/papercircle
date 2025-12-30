@@ -1,9 +1,0 @@
-{
-	"id": "a4bpbr5K6XGBg6F",
-	"json": "{\"id\":\"a4bpbr5K6XGBg6F\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Gong,+C\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Gong%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087018346,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Gong%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Gong,+C"
-}

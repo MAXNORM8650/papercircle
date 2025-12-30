@@ -1,9 +1,0 @@
-{
-	"id": "428jkVBsBQpypvK",
-	"json": "{\"id\":\"428jkVBsBQpypvK\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Michalski,+P\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Michalski%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087003543,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Michalski%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Michalski,+P"
-}

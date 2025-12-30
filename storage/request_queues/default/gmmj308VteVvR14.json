@@ -1,9 +1,0 @@
-{
-	"id": "gmmj308VteVvR14",
-	"json": "{\"id\":\"gmmj308VteVvR14\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Lustig-Yaeger%2C+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Lustig-Yaeger%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087090243,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Lustig-Yaeger%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Lustig-Yaeger%2C+J"
-}

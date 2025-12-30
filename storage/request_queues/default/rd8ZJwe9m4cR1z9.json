@@ -1,9 +1,0 @@
-{
-	"id": "rd8ZJwe9m4cR1z9",
-	"json": "{\"id\":\"rd8ZJwe9m4cR1z9\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Mazhar,+O\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Mazhar%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016485,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Mazhar%2C+O&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Mazhar,+O"
-}

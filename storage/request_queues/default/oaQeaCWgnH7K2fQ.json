@@ -1,9 +1,0 @@
-{
-	"id": "oaQeaCWgnH7K2fQ",
-	"json": "{\"id\":\"oaQeaCWgnH7K2fQ\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Lund,+R\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Lund%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023652,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Lund%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Lund,+R"
-}

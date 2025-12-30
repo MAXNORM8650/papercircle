@@ -1,9 +1,0 @@
-{
-	"id": "cCsLeM7bfFiWt5T",
-	"json": "{\"id\":\"cCsLeM7bfFiWt5T\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Smyrli,+S\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Smyrli%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005499,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Smyrli%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Smyrli,+S"
-}

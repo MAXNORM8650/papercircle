@@ -1,9 +1,0 @@
-{
-	"id": "1ZUMvy5WQ17hv50",
-	"json": "{\"id\":\"1ZUMvy5WQ17hv50\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Yiu,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Yiu%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087027134,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Yiu%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Yiu,+S"
-}

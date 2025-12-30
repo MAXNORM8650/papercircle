@@ -1,9 +1,0 @@
-{
-	"id": "ni6wVm9BT5rVBi0",
-	"json": "{\"id\":\"ni6wVm9BT5rVBi0\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Lee,+O\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Lee%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087017045,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Lee%2C+O&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Lee,+O"
-}

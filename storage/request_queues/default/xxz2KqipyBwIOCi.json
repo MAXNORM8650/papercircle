@@ -1,9 +1,0 @@
-{
-	"id": "xxz2KqipyBwIOCi",
-	"json": "{\"id\":\"xxz2KqipyBwIOCi\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Valenti,+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Valenti%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087036225,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Valenti%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Valenti,+S"
-}

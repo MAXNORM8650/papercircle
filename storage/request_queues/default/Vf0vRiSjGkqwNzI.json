@@ -1,9 +1,0 @@
-{
-	"id": "Vf0vRiSjGkqwNzI",
-	"json": "{\"id\":\"Vf0vRiSjGkqwNzI\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Rezaee,+K\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Rezaee%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087018431,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Rezaee%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Rezaee,+K"
-}

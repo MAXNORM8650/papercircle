@@ -1,9 +1,0 @@
-{
-	"id": "Dw9JWZXNAA6xKus",
-	"json": "{\"id\":\"Dw9JWZXNAA6xKus\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=%C3%96hrstr%C3%B6m,+L\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=%C3%96hrstr%C3%B6m%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086990312,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=%C3%96hrstr%C3%B6m%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=%C3%96hrstr%C3%B6m,+L"
-}

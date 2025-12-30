@@ -1,9 +1,0 @@
-{
-	"id": "EBSpjIeOn1y29Ek",
-	"json": "{\"id\":\"EBSpjIeOn1y29Ek\",\"url\":\"https://arxiv.org/search/hep-lat?searchtype=author&query=Tohme,+K\",\"uniqueKey\":\"https://arxiv.org/search/hep-lat?query=Tohme%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086993880,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-lat?query=Tohme%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/hep-lat?searchtype=author&query=Tohme,+K"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "3ypnGxpgcC2n0dN",
-	"json": "{\"id\":\"3ypnGxpgcC2n0dN\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Pavez,+E\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Pavez%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006377,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Pavez%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Pavez,+E"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "x2zSUgk1gkE0NR7",
-	"json": "{\"id\":\"x2zSUgk1gkE0NR7\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Aravkin,+A\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Aravkin%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006879,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Aravkin%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Aravkin,+A"
-}

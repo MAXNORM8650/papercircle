@@ -1,9 +1,0 @@
-{
-	"id": "KSb0Fl2OLv8Asat",
-	"json": "{\"id\":\"KSb0Fl2OLv8Asat\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Sahu,+N\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Sahu%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986813,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Sahu%2C+N&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Sahu,+N"
-}

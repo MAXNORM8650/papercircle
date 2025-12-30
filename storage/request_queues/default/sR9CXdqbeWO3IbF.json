@@ -1,9 +1,0 @@
-{
-	"id": "sR9CXdqbeWO3IbF",
-	"json": "{\"id\":\"sR9CXdqbeWO3IbF\",\"url\":\"https://arxiv.org/year/astro-ph/2004\",\"loadedUrl\":\"https://arxiv.org/year/astro-ph/2004\",\"uniqueKey\":\"https://arxiv.org/year/astro-ph/2004\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:33.057Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/year/astro-ph/2004",
-	"url": "https://arxiv.org/year/astro-ph/2004"
-}

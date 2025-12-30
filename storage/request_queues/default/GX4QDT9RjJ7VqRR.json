@@ -1,9 +1,0 @@
-{
-	"id": "GX4QDT9RjJ7VqRR",
-	"json": "{\"id\":\"GX4QDT9RjJ7VqRR\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Hsiao,+E+Y\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Hsiao%2C+E+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988295,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Hsiao%2C+E+Y&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Hsiao,+E+Y"
-}

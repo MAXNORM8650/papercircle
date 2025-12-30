@@ -1,9 +1,0 @@
-{
-	"id": "P1xsZWiuZ9jOU11",
-	"json": "{\"id\":\"P1xsZWiuZ9jOU11\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Tak%C3%A1%C4%8D,+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Tak%C3%A1%C4%8D%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005637,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Tak%C3%A1%C4%8D%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Tak%C3%A1%C4%8D,+M"
-}

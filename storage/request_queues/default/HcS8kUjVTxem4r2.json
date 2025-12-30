@@ -1,9 +1,0 @@
-{
-	"id": "HcS8kUjVTxem4r2",
-	"json": "{\"id\":\"HcS8kUjVTxem4r2\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Zwart,+S+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Zwart%2C+S+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087037118,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Zwart%2C+S+P&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Zwart,+S+P"
-}

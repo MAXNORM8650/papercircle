@@ -1,9 +1,0 @@
-{
-	"id": "ojQL1gm4Gi5wQX4",
-	"json": "{\"id\":\"ojQL1gm4Gi5wQX4\",\"url\":\"https://arxiv.org/search/advanced?terms-0-term=G%C3%B3mez-Valent%2C+A&terms-0-field=author&size=50&order=-announced_date_first\",\"uniqueKey\":\"https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=G%C3%B3mez-Valent%2C+A\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087090075,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=G%C3%B3mez-Valent%2C+A",
-	"url": "https://arxiv.org/search/advanced?terms-0-term=G%C3%B3mez-Valent%2C+A&terms-0-field=author&size=50&order=-announced_date_first"
-}

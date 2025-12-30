@@ -1,9 +1,0 @@
-{
-	"id": "JsdwdDH88Z6gpWK",
-	"json": "{\"id\":\"JsdwdDH88Z6gpWK\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=van+den+Hengel,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=van+den+Hengel%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025769,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=van+den+Hengel%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=van+den+Hengel,+A"
-}

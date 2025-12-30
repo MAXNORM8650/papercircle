@@ -1,9 +1,0 @@
-{
-	"id": "VY35CwkFI9lWFUL",
-	"json": "{\"id\":\"VY35CwkFI9lWFUL\",\"url\":\"https://arxiv.org/list/econ.TH/current\",\"uniqueKey\":\"https://arxiv.org/list/econ.TH/current\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087026040,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/econ.TH/current",
-	"url": "https://arxiv.org/list/econ.TH/current"
-}

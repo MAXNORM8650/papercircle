@@ -1,9 +1,0 @@
-{
-	"id": "CV7aGbXJc4WLOZv",
-	"json": "{\"id\":\"CV7aGbXJc4WLOZv\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Grady%2C+C+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Grady%2C+C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087083231,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Grady%2C+C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Grady%2C+C+A"
-}

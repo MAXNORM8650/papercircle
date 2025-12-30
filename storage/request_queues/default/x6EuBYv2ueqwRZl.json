@@ -1,9 +1,0 @@
-{
-	"id": "x6EuBYv2ueqwRZl",
-	"json": "{\"id\":\"x6EuBYv2ueqwRZl\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Su%2C+Z\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Su%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087048296,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Su%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Su%2C+Z"
-}

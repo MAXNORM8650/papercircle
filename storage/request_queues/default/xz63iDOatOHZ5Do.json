@@ -1,9 +1,0 @@
-{
-	"id": "xz63iDOatOHZ5Do",
-	"json": "{\"id\":\"xz63iDOatOHZ5Do\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Paukkonen,+S\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Paukkonen%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009035,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Paukkonen%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Paukkonen,+S"
-}

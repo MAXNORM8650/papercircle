@@ -1,9 +1,0 @@
-{
-	"id": "6kFrvpd1k8Ci20A",
-	"json": "{\"id\":\"6kFrvpd1k8Ci20A\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Bertemes,+M\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Bertemes%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992941,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Bertemes%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Bertemes,+M"
-}

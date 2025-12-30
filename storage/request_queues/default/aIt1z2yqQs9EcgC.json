@@ -1,9 +1,0 @@
-{
-	"id": "aIt1z2yqQs9EcgC",
-	"json": "{\"id\":\"aIt1z2yqQs9EcgC\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Shiragur,+K\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Shiragur%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015371,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Shiragur%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Shiragur,+K"
-}

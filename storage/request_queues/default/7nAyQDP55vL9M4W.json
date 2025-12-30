@@ -1,9 +1,0 @@
-{
-	"id": "7nAyQDP55vL9M4W",
-	"json": "{\"id\":\"7nAyQDP55vL9M4W\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Rivas,+J+G\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Rivas%2C+J+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989589,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Rivas%2C+J+G&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Rivas,+J+G"
-}

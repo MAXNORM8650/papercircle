@@ -1,9 +1,0 @@
-{
-	"id": "pOMySt9ZgTdIMVq",
-	"json": "{\"id\":\"pOMySt9ZgTdIMVq\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Dimple\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Dimple&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":1,\"errorMessages\":[\"Error: browserController.newPage() failed: Zkn840VIWeUUPGKOFpXdB\\nCause:browserContext.newPage: Target page, context or browser has been closed.\\n    at BrowserPool._createPageForBrowser (/Users/komal.kumar/Documents/websites/papercircle/node_modules/@crawlee/browser-pool/browser-pool.js:405:19)\\n    at runNextTicks (node:internal/process/task_queues:65:5)\\n    at process.processImmediate (node:internal/timers:459:9)\\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)\\n    at async /Users/komal.kumar/Documents/websites/papercircle/node_modules/@crawlee/browser-pool/browser-pool.js:295:20\"],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":5}}}",
-	"method": "GET",
-	"orderNo": 1764087101994,
-	"retryCount": 1,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Dimple&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Dimple"
-}

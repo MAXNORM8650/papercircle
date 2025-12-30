@@ -1,9 +1,0 @@
-{
-	"id": "ilYeIFijHfK5l2t",
-	"json": "{\"id\":\"ilYeIFijHfK5l2t\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Estrada,+J+B\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Estrada%2C+J+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087001254,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Estrada%2C+J+B&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Estrada,+J+B"
-}

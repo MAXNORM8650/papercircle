@@ -1,9 +1,0 @@
-{
-	"id": "VqSj3mcaZQe8mDZ",
-	"json": "{\"id\":\"VqSj3mcaZQe8mDZ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Lopez,+B\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Lopez%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986497,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Lopez%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Lopez,+B"
-}

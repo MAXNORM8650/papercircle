@@ -1,9 +1,0 @@
-{
-	"id": "1jvyKj19ZDNVccf",
-	"json": "{\"id\":\"1jvyKj19ZDNVccf\",\"url\":\"https://arxiv.org/search/q-fin?searchtype=author&query=Fabozzi,+F+J\",\"uniqueKey\":\"https://arxiv.org/search/q-fin?query=Fabozzi%2C+F+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021735,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-fin?query=Fabozzi%2C+F+J&searchtype=author",
-	"url": "https://arxiv.org/search/q-fin?searchtype=author&query=Fabozzi,+F+J"
-}

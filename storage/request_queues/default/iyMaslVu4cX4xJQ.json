@@ -1,9 +1,0 @@
-{
-	"id": "iyMaslVu4cX4xJQ",
-	"json": "{\"id\":\"iyMaslVu4cX4xJQ\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Tong,+G\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Tong%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023587,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Tong%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Tong,+G"
-}

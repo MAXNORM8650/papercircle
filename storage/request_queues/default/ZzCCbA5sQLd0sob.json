@@ -1,9 +1,0 @@
-{
-	"id": "ZzCCbA5sQLd0sob",
-	"json": "{\"id\":\"ZzCCbA5sQLd0sob\",\"url\":\"https://arxiv.org/search/math-ph?searchtype=author&query=Peilen,+L\",\"uniqueKey\":\"https://arxiv.org/search/math-ph?query=Peilen%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086995358,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math-ph?query=Peilen%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/math-ph?searchtype=author&query=Peilen,+L"
-}

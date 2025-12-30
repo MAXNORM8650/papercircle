@@ -1,9 +1,0 @@
-{
-	"id": "Mem6GR2jKachMAM",
-	"json": "{\"id\":\"Mem6GR2jKachMAM\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Dravid,+V+P\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Dravid%2C+V+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025320,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Dravid%2C+V+P&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Dravid,+V+P"
-}

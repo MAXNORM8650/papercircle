@@ -1,9 +1,0 @@
-{
-	"id": "CZhIwWUFynQm43K",
-	"json": "{\"id\":\"CZhIwWUFynQm43K\",\"url\":\"https://arxiv.org/search/nucl-th?searchtype=author&query=Qi,+P\",\"uniqueKey\":\"https://arxiv.org/search/nucl-th?query=Qi%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086998501,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-th?query=Qi%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-th?searchtype=author&query=Qi,+P"
-}

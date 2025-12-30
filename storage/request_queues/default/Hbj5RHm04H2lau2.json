@@ -1,9 +1,0 @@
-{
-	"id": "Hbj5RHm04H2lau2",
-	"json": "{\"id\":\"Hbj5RHm04H2lau2\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Hahlbohm,+F\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Hahlbohm%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012687,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Hahlbohm%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Hahlbohm,+F"
-}

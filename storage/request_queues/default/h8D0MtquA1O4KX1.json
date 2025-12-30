@@ -1,9 +1,0 @@
-{
-	"id": "h8D0MtquA1O4KX1",
-	"json": "{\"id\":\"h8D0MtquA1O4KX1\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Kathail,+P\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Kathail%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087020077,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Kathail%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Kathail,+P"
-}

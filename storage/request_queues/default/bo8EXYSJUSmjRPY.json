@@ -1,9 +1,0 @@
-{
-	"id": "bo8EXYSJUSmjRPY",
-	"json": "{\"id\":\"bo8EXYSJUSmjRPY\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Garg,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Garg%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015371,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Garg%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Garg,+A"
-}

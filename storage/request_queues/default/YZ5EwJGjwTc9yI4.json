@@ -1,9 +1,0 @@
-{
-	"id": "YZ5EwJGjwTc9yI4",
-	"json": "{\"id\":\"YZ5EwJGjwTc9yI4\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Ivanov,+V+I\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Ivanov%2C+V+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009237,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Ivanov%2C+V+I&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Ivanov,+V+I"
-}

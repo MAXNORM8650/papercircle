@@ -1,9 +1,0 @@
-{
-	"id": "hqVLUAxJZvZcuWK",
-	"json": "{\"id\":\"hqVLUAxJZvZcuWK\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Bart%C5%82omiejczyk,+P\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Bart%C5%82omiejczyk%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006924,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Bart%C5%82omiejczyk%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Bart%C5%82omiejczyk,+P"
-}

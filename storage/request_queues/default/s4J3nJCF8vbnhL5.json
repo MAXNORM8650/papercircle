@@ -1,9 +1,0 @@
-{
-	"id": "s4J3nJCF8vbnhL5",
-	"json": "{\"id\":\"s4J3nJCF8vbnhL5\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Svit%C3%A1k,+D\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Svit%C3%A1k%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989412,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Svit%C3%A1k%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Svit%C3%A1k,+D"
-}

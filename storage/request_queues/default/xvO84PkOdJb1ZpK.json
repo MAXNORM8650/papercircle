@@ -1,9 +1,0 @@
-{
-	"id": "xvO84PkOdJb1ZpK",
-	"json": "{\"id\":\"xvO84PkOdJb1ZpK\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Sadeghzadeh,+N\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Sadeghzadeh%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005940,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Sadeghzadeh%2C+N&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Sadeghzadeh,+N"
-}

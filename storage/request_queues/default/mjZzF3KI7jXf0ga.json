@@ -1,9 +1,0 @@
-{
-	"id": "mjZzF3KI7jXf0ga",
-	"json": "{\"id\":\"mjZzF3KI7jXf0ga\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Ciprini%2C+S\",\"uniqueKey\":\"https://arxiv.org/search?query=Ciprini%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087039896,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Ciprini%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Ciprini%2C+S"
-}

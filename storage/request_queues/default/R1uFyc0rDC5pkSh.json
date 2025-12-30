@@ -1,9 +1,0 @@
-{
-	"id": "R1uFyc0rDC5pkSh",
-	"json": "{\"id\":\"R1uFyc0rDC5pkSh\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Orestano,+P+C\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Orestano,+P+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Orestano%2C+P+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:40.101Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Orestano%2C+P+C&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Orestano,+P+C"
-}

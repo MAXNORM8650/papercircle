@@ -1,9 +1,0 @@
-{
-	"id": "M5ys1fVltp5UgRZ",
-	"json": "{\"id\":\"M5ys1fVltp5UgRZ\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Fermani,+P\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Fermani%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988241,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Fermani%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Fermani,+P"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "mbaBNoOWAUGVT8I",
-	"json": "{\"id\":\"mbaBNoOWAUGVT8I\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=L%C3%B3pez%2C+A+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=L%C3%B3pez%2C+A+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087095518,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=L%C3%B3pez%2C+A+G&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=L%C3%B3pez%2C+A+G"
-}

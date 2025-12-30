@@ -1,9 +1,0 @@
-{
-	"id": "KaAUYmXazCy5Bgk",
-	"json": "{\"id\":\"KaAUYmXazCy5Bgk\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Jiang,+C\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Jiang%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007555,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Jiang%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Jiang,+C"
-}

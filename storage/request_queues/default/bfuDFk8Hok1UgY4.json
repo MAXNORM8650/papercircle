@@ -1,9 +1,0 @@
-{
-	"id": "bfuDFk8Hok1UgY4",
-	"json": "{\"id\":\"bfuDFk8Hok1UgY4\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Jefferies%2C+S+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Jefferies%2C+S+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087084919,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Jefferies%2C+S+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Jefferies%2C+S+M"
-}

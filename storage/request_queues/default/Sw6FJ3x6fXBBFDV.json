@@ -1,9 +1,0 @@
-{
-	"id": "Sw6FJ3x6fXBBFDV",
-	"json": "{\"id\":\"Sw6FJ3x6fXBBFDV\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Raqabi,+E+M+E\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Raqabi%2C+E+M+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007471,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Raqabi%2C+E+M+E&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Raqabi,+E+M+E"
-}

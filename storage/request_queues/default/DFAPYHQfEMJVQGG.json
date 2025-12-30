@@ -1,9 +1,0 @@
-{
-	"id": "DFAPYHQfEMJVQGG",
-	"json": "{\"id\":\"DFAPYHQfEMJVQGG\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Azizi,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Azizi%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999510,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Azizi%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Azizi,+A"
-}

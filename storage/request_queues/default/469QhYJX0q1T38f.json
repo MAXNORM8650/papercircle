@@ -1,9 +1,0 @@
-{
-	"id": "469QhYJX0q1T38f",
-	"json": "{\"id\":\"469QhYJX0q1T38f\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Fabris,+L\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Fabris%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997816,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Fabris%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Fabris,+L"
-}

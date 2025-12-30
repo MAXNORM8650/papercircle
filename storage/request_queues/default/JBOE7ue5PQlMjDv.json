@@ -1,9 +1,0 @@
-{
-	"id": "JBOE7ue5PQlMjDv",
-	"json": "{\"id\":\"JBOE7ue5PQlMjDv\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Thizy,+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Thizy%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087036485,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Thizy%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Thizy,+C"
-}

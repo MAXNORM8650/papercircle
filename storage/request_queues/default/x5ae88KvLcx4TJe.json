@@ -1,9 +1,0 @@
-{
-	"id": "x5ae88KvLcx4TJe",
-	"json": "{\"id\":\"x5ae88KvLcx4TJe\",\"url\":\"https://arxiv.org/list/astro-ph/2010-04?skip=100\",\"uniqueKey\":\"https://arxiv.org/list/astro-ph/2010-04?skip=100\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087032292,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/astro-ph/2010-04?skip=100",
-	"url": "https://arxiv.org/list/astro-ph/2010-04?skip=100"
-}

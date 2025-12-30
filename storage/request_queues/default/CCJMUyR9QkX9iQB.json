@@ -1,9 +1,0 @@
-{
-	"id": "CCJMUyR9QkX9iQB",
-	"json": "{\"id\":\"CCJMUyR9QkX9iQB\",\"url\":\"https://arxiv.org/list/q-fin.PR/recent\",\"loadedUrl\":\"https://arxiv.org/list/q-fin.PR/recent\",\"uniqueKey\":\"https://arxiv.org/list/q-fin.PR/recent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:22.883Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/q-fin.PR/recent",
-	"url": "https://arxiv.org/list/q-fin.PR/recent"
-}

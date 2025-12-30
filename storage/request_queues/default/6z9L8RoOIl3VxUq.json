@@ -1,9 +1,0 @@
-{
-	"id": "6z9L8RoOIl3VxUq",
-	"json": "{\"id\":\"6z9L8RoOIl3VxUq\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=da+Silva,+L+F+A\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=da+Silva%2C+L+F+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999583,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=da+Silva%2C+L+F+A&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=da+Silva,+L+F+A"
-}

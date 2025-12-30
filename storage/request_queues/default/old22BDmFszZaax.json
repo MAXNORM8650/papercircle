@@ -1,9 +1,0 @@
-{
-	"id": "old22BDmFszZaax",
-	"json": "{\"id\":\"old22BDmFszZaax\",\"url\":\"https://arxiv.org/search/q-fin?searchtype=author&query=Arantes,+G+M\",\"uniqueKey\":\"https://arxiv.org/search/q-fin?query=Arantes%2C+G+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021752,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-fin?query=Arantes%2C+G+M&searchtype=author",
-	"url": "https://arxiv.org/search/q-fin?searchtype=author&query=Arantes,+G+M"
-}

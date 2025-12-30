@@ -1,9 +1,0 @@
-{
-	"id": "ZNU4zhUM41m3HJA",
-	"json": "{\"id\":\"ZNU4zhUM41m3HJA\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Zhu,+Z\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Zhu%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012923,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Zhu%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Zhu,+Z"
-}

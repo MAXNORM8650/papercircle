@@ -1,9 +1,0 @@
-{
-	"id": "fTQh6qKH7PWXfyU",
-	"json": "{\"id\":\"fTQh6qKH7PWXfyU\",\"url\":\"https://arxiv.org/list/cs.LO/new\",\"uniqueKey\":\"https://arxiv.org/list/cs.LO/new\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016252,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/cs.LO/new",
-	"url": "https://arxiv.org/list/cs.LO/new"
-}

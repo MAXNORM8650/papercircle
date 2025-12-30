@@ -1,9 +1,0 @@
-{
-	"id": "vbjEDx2L8OvoKz2",
-	"json": "{\"id\":\"vbjEDx2L8OvoKz2\",\"url\":\"https://arxiv.org/year/astro-ph/1994\",\"loadedUrl\":\"https://arxiv.org/year/astro-ph/1994\",\"uniqueKey\":\"https://arxiv.org/year/astro-ph/1994\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:34.748Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/year/astro-ph/1994",
-	"url": "https://arxiv.org/year/astro-ph/1994"
-}

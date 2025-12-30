@@ -1,9 +1,0 @@
-{
-	"id": "UCcxIw9EQLi0zXB",
-	"json": "{\"id\":\"UCcxIw9EQLi0zXB\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Pathiraja,+S\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Pathiraja%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023197,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Pathiraja%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Pathiraja,+S"
-}

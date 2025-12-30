@@ -1,9 +1,0 @@
-{
-	"id": "hF947uJiRYstTBg",
-	"json": "{\"id\":\"hF947uJiRYstTBg\",\"url\":\"https://arxiv.org/list/physics.atm-clus/recent?skip=0&show=25\",\"uniqueKey\":\"https://arxiv.org/list/physics.atm-clus/recent?show=25&skip=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000278,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/physics.atm-clus/recent?show=25&skip=0",
-	"url": "https://arxiv.org/list/physics.atm-clus/recent?skip=0&show=25"
-}

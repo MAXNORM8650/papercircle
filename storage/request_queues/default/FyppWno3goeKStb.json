@@ -1,9 +1,0 @@
-{
-	"id": "FyppWno3goeKStb",
-	"json": "{\"id\":\"FyppWno3goeKStb\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Yairi,+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Yairi%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016935,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Yairi%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Yairi,+T"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "Mn9CscTZTb2h162",
-	"json": "{\"id\":\"Mn9CscTZTb2h162\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=al-Asaad,+S\",\"uniqueKey\":\"https://arxiv.org/search/math?query=al-Asaad%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087004919,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=al-Asaad%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=al-Asaad,+S"
-}

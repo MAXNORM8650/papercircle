@@ -1,9 +1,0 @@
-{
-	"id": "Rxeu7sEzY34dhTr",
-	"json": "{\"id\":\"Rxeu7sEzY34dhTr\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Saad,+M\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Saad%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991050,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Saad%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Saad,+M"
-}

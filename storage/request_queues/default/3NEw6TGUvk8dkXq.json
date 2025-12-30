@@ -1,9 +1,0 @@
-{
-	"id": "3NEw6TGUvk8dkXq",
-	"json": "{\"id\":\"3NEw6TGUvk8dkXq\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Bradley,+A+M+B\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Bradley%2C+A+M+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086996517,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Bradley%2C+A+M+B&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Bradley,+A+M+B"
-}

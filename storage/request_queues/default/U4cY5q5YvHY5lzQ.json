@@ -1,9 +1,0 @@
-{
-	"id": "U4cY5q5YvHY5lzQ",
-	"json": "{\"id\":\"U4cY5q5YvHY5lzQ\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kargupta,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kargupta%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087030971,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Kargupta%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kargupta,+P"
-}

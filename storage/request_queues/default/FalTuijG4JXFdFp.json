@@ -1,9 +1,0 @@
-{
-	"id": "FalTuijG4JXFdFp",
-	"json": "{\"id\":\"FalTuijG4JXFdFp\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Sk%C3%ABnderaj,+A\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Sk%C3%ABnderaj%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087026692,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/econ?query=Sk%C3%ABnderaj%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/econ?searchtype=author&query=Sk%C3%ABnderaj,+A"
-}

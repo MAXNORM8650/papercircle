@@ -1,9 +1,0 @@
-{
-	"id": "dLEjgAXR9GKIrZG",
-	"json": "{\"id\":\"dLEjgAXR9GKIrZG\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Zucchelli,+S\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Zucchelli%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992607,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Zucchelli%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Zucchelli,+S"
-}

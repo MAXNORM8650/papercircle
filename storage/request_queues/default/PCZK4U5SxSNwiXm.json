@@ -1,9 +1,0 @@
-{
-	"id": "PCZK4U5SxSNwiXm",
-	"json": "{\"id\":\"PCZK4U5SxSNwiXm\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Kutz,+J+N\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Kutz%2C+J+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006878,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Kutz%2C+J+N&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Kutz,+J+N"
-}

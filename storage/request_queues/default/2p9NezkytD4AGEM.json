@@ -1,9 +1,0 @@
-{
-	"id": "2p9NezkytD4AGEM",
-	"json": "{\"id\":\"2p9NezkytD4AGEM\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Hajnorouzi,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Hajnorouzi%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014478,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Hajnorouzi%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Hajnorouzi,+M"
-}

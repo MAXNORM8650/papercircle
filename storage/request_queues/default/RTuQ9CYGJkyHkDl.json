@@ -1,9 +1,0 @@
-{
-	"id": "RTuQ9CYGJkyHkDl",
-	"json": "{\"id\":\"RTuQ9CYGJkyHkDl\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Dayama,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Dayama%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016356,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Dayama%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Dayama,+A"
-}

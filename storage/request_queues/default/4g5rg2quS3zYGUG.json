@@ -1,9 +1,0 @@
-{
-	"id": "4g5rg2quS3zYGUG",
-	"json": "{\"id\":\"4g5rg2quS3zYGUG\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Hollander,+S\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Hollander%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997819,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Hollander%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Hollander,+S"
-}

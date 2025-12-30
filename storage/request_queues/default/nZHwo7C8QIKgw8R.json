@@ -1,9 +1,0 @@
-{
-	"id": "nZHwo7C8QIKgw8R",
-	"json": "{\"id\":\"nZHwo7C8QIKgw8R\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Olson%2C+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Olson%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087073545,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Olson%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Olson%2C+E"
-}

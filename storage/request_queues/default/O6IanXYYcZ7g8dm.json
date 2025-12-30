@@ -1,9 +1,0 @@
-{
-	"id": "O6IanXYYcZ7g8dm",
-	"json": "{\"id\":\"O6IanXYYcZ7g8dm\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Guti%C3%A9rrez,+E\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Guti%C3%A9rrez%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014492,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Guti%C3%A9rrez%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Guti%C3%A9rrez,+E"
-}

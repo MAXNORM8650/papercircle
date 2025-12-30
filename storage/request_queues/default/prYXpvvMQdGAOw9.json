@@ -1,9 +1,0 @@
-{
-	"id": "prYXpvvMQdGAOw9",
-	"json": "{\"id\":\"prYXpvvMQdGAOw9\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Keller,+S+A\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Keller%2C+S+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023646,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Keller%2C+S+A&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Keller,+S+A"
-}

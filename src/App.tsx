@@ -1,6 +1,7 @@
 // src/App.tsx - Updated to show profile completion modal
 import { useState, useEffect } from 'react';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
+import { CommunityProvider } from './contexts/CommunityContext';
 import { Header } from './components/Layout/Header';
 import { DiscoverView } from './components/Papers/DiscoverView';
 import { PaperDetailView } from './components/Papers/PaperDetailView';
@@ -10,9 +11,10 @@ import { DashboardView } from './components/Dashboard/DashboardView';
 import { AdminView } from './components/Admin/AdminView';
 import { CircleManagement } from './components/Communities/CircleManagement';
 import { InviteAccept } from './components/Communities/InviteAccept';
+import { InviteAcceptSession } from './components/Sessions/InviteAcceptSession';
 import { CompleteProfileModal } from './components/Auth/CompleteProfileModal';
 
-type View = 'discover' | 'sessions' | 'circles' | 'lineage' | 'dashboard' | 'admin' | 'paper-detail' | 'session-detail' | 'invite';
+type View = 'discover' | 'sessions' | 'circles' | 'lineage' | 'dashboard' | 'admin' | 'paper-detail' | 'session-detail' | 'invite' | 'session-invite';
 
 function AppContent() {
   const { needsProfile } = useAuth();
@@ -20,13 +22,25 @@ function AppContent() {
   const [selectedPaperId, setSelectedPaperId] = useState<string | null>(null);
   const [selectedSessionId, setSelectedSessionId] = useState<string | null>(null);
   const [inviteCode, setInviteCode] = useState<string | null>(null);
+  const [sessionInviteCode, setSessionInviteCode] = useState<string | null>(null);
 
   useEffect(() => {
     const path = window.location.pathname;
+
+    // Check for community invite
     const inviteMatch = path.match(/^\/invite\/([a-zA-Z0-9]+)$/);
     if (inviteMatch) {
       setInviteCode(inviteMatch[1]);
       setCurrentView('invite');
+      return;
+    }
+
+    // Check for session invite
+    const sessionInviteMatch = path.match(/^\/session\/invite\/([a-zA-Z0-9]+)$/);
+    if (sessionInviteMatch) {
+      setSessionInviteCode(sessionInviteMatch[1]);
+      setCurrentView('session-invite');
+      return;
     }
   }, []);
 
@@ -76,6 +90,21 @@ function AppContent() {
             }}
           />
         ) : null;
+      case 'session-invite':
+        return sessionInviteCode ? (
+          <InviteAcceptSession
+            inviteCode={sessionInviteCode}
+            onSuccess={(sessionId) => {
+              setSelectedSessionId(sessionId);
+              setCurrentView('sessions');
+              setSessionInviteCode(null);
+            }}
+            onCancel={() => {
+              setCurrentView('discover');
+              setSessionInviteCode(null);
+            }}
+          />
+        ) : null;
       default:
         return <DiscoverView onSelectPaper={handleSelectPaper} />;
     }
@@ -84,7 +113,7 @@ function AppContent() {
   return (
     <>
       <div className="min-h-screen bg-gray-50">
-        {currentView !== 'invite' && <Header onNavigate={handleNavigate} currentView={currentView} />}
+        {currentView !== 'invite' && currentView !== 'session-invite' && <Header onNavigate={handleNavigate} currentView={currentView} />}
         <main>{renderView()}</main>
       </div>
       
@@ -97,7 +126,9 @@ function AppContent() {
 function App() {
   return (
     <AuthProvider>
-      <AppContent />
+      <CommunityProvider>
+        <AppContent />
+      </CommunityProvider>
     </AuthProvider>
   );
 }

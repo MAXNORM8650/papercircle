@@ -1,9 +1,0 @@
-{
-	"id": "6B5z5gNegv5wB5a",
-	"json": "{\"id\":\"6B5z5gNegv5wB5a\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Jiang,+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Jiang%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002214,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Jiang%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Jiang,+C"
-}

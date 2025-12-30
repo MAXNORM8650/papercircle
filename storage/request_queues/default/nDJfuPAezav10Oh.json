@@ -1,9 +1,0 @@
-{
-	"id": "nDJfuPAezav10Oh",
-	"json": "{\"id\":\"nDJfuPAezav10Oh\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=H.Br%C3%A2nza%C5%A1\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=H.Br%C3%A2nza%C5%A1&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986696,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=H.Br%C3%A2nza%C5%A1&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=H.Br%C3%A2nza%C5%A1"
-}

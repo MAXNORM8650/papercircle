@@ -1,9 +1,0 @@
-{
-	"id": "XGlCsfwD8IxpLlO",
-	"json": "{\"id\":\"XGlCsfwD8IxpLlO\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Paz,+G\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Paz%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994271,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Paz%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Paz,+G"
-}

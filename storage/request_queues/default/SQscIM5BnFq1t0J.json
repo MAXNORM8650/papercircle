@@ -1,9 +1,0 @@
-{
-	"id": "SQscIM5BnFq1t0J",
-	"json": "{\"id\":\"SQscIM5BnFq1t0J\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Falahati,+S\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Falahati%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002417,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Falahati%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Falahati,+S"
-}

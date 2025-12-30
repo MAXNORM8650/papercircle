@@ -1,9 +1,0 @@
-{
-	"id": "o3HV8cwaf3YUSyg",
-	"json": "{\"id\":\"o3HV8cwaf3YUSyg\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=%C4%86alovi%C4%87,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=%C4%86alovi%C4%87%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987446,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=%C4%86alovi%C4%87%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=%C4%86alovi%C4%87,+A"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "B4SXGuLw0Rsmwdz",
-	"json": "{\"id\":\"B4SXGuLw0Rsmwdz\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Gouin%2C+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Gouin%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087060127,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Gouin%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Gouin%2C+C"
-}

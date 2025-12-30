@@ -1,9 +1,0 @@
-{
-	"id": "uqgPKiWU59tvqzM",
-	"json": "{\"id\":\"uqgPKiWU59tvqzM\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Livingston,+J+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Livingston%2C+J+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988117,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Livingston%2C+J+D&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Livingston,+J+D"
-}

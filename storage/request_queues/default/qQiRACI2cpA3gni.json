@@ -1,9 +1,0 @@
-{
-	"id": "qQiRACI2cpA3gni",
-	"json": "{\"id\":\"qQiRACI2cpA3gni\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=De+Vita,+V\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=De+Vita%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012662,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=De+Vita%2C+V&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=De+Vita,+V"
-}

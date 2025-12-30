@@ -1,9 +1,0 @@
-{
-	"id": "1HsPgCEej6gu30C",
-	"json": "{\"id\":\"1HsPgCEej6gu30C\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Finck,+C\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Finck%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992971,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Finck%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Finck,+C"
-}

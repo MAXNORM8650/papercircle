@@ -1,9 +1,0 @@
-{
-	"id": "9ROSTYR9ubMDij0",
-	"json": "{\"id\":\"9ROSTYR9ubMDij0\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=van+Duin,+A\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=van+Duin%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000823,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=van+Duin%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=van+Duin,+A"
-}

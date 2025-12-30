@@ -1,9 +1,0 @@
-{
-	"id": "9L8vQCCAY4NtiGp",
-	"json": "{\"id\":\"9L8vQCCAY4NtiGp\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Mateos,+D\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Mateos%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991661,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-th?query=Mateos%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Mateos,+D"
-}

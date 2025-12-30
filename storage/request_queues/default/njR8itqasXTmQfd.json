@@ -1,9 +1,0 @@
-{
-	"id": "njR8itqasXTmQfd",
-	"json": "{\"id\":\"njR8itqasXTmQfd\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Capobianco,+V\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Capobianco%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988253,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Capobianco%2C+V&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Capobianco,+V"
-}

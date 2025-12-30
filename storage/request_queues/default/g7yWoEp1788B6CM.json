@@ -1,9 +1,0 @@
-{
-	"id": "g7yWoEp1788B6CM",
-	"json": "{\"id\":\"g7yWoEp1788B6CM\",\"url\":\"https://arxiv.org/search/nucl-th?searchtype=author&query=Tanaka,+M\",\"uniqueKey\":\"https://arxiv.org/search/nucl-th?query=Tanaka%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086998491,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-th?query=Tanaka%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-th?searchtype=author&query=Tanaka,+M"
-}

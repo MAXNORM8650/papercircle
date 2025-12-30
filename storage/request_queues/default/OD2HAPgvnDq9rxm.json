@@ -1,9 +1,0 @@
-{
-	"id": "OD2HAPgvnDq9rxm",
-	"json": "{\"id\":\"OD2HAPgvnDq9rxm\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Cartelle,+P+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Cartelle%2C+P+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992836,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Cartelle%2C+P+A&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Cartelle,+P+A"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "tmBCQw78Ppi523i",
-	"json": "{\"id\":\"tmBCQw78Ppi523i\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Phan,+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Phan%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087018461,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Phan%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Phan,+H"
-}

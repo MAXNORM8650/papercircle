@@ -1,9 +1,0 @@
-{
-	"id": "zjQO0vepBdiWfsf",
-	"json": "{\"id\":\"zjQO0vepBdiWfsf\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Alvarado,+I+A+R\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Alvarado%2C+I+A+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989239,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Alvarado%2C+I+A+R&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Alvarado,+I+A+R"
-}

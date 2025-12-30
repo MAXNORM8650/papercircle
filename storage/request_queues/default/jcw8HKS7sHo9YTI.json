@@ -1,9 +1,0 @@
-{
-	"id": "jcw8HKS7sHo9YTI",
-	"json": "{\"id\":\"jcw8HKS7sHo9YTI\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Carnerero,+M+I\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Carnerero%2C+M+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987164,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Carnerero%2C+M+I&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Carnerero,+M+I"
-}

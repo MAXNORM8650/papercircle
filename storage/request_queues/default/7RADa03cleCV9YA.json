@@ -1,9 +1,0 @@
-{
-	"id": "7RADa03cleCV9YA",
-	"json": "{\"id\":\"7RADa03cleCV9YA\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Ai,+X+C\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Ai%2C+X+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992883,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Ai%2C+X+C&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Ai,+X+C"
-}

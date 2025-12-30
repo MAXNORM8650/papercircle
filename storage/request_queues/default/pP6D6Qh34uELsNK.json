@@ -1,9 +1,0 @@
-{
-	"id": "pP6D6Qh34uELsNK",
-	"json": "{\"id\":\"pP6D6Qh34uELsNK\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Moln%C3%A1r,+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Moln%C3%A1r%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006252,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Moln%C3%A1r%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Moln%C3%A1r,+M"
-}

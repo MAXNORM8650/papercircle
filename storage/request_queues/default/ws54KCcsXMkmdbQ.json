@@ -1,9 +1,0 @@
-{
-	"id": "ws54KCcsXMkmdbQ",
-	"json": "{\"id\":\"ws54KCcsXMkmdbQ\",\"url\":\"https://arxiv.org/pdf/1708.05426\",\"uniqueKey\":\"https://arxiv.org/pdf/1708.05426\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087083055,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/pdf/1708.05426",
-	"url": "https://arxiv.org/pdf/1708.05426"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "8iYpssjr97nOdWb",
-	"json": "{\"id\":\"8iYpssjr97nOdWb\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Delgaudio,+J\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Delgaudio%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992717,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Delgaudio%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Delgaudio,+J"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "qQWxMk6qO9NXxzs",
-	"json": "{\"id\":\"qQWxMk6qO9NXxzs\",\"url\":\"https://arxiv.org/list/astro-ph/2001-08?skip=300\",\"uniqueKey\":\"https://arxiv.org/list/astro-ph/2001-08?skip=300\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087034060,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/astro-ph/2001-08?skip=300",
-	"url": "https://arxiv.org/list/astro-ph/2001-08?skip=300"
-}

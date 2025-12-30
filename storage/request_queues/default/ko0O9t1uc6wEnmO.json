@@ -1,9 +1,0 @@
-{
-	"id": "ko0O9t1uc6wEnmO",
-	"json": "{\"id\":\"ko0O9t1uc6wEnmO\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Fournier,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Fournier%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087037606,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Fournier%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Fournier,+A"
-}

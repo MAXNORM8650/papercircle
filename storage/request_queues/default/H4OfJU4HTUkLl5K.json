@@ -1,9 +1,0 @@
-{
-	"id": "H4OfJU4HTUkLl5K",
-	"json": "{\"id\":\"H4OfJU4HTUkLl5K\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Fox,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Fox%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021067,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Fox%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Fox,+M"
-}

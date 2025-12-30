@@ -1,9 +1,0 @@
-{
-	"id": "Bg01Vdwx3W7YnoX",
-	"json": "{\"id\":\"Bg01Vdwx3W7YnoX\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kevin,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kevin%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087011960,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Kevin%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kevin,+J"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "msWK9FyCxHSHH5e",
-	"json": "{\"id\":\"msWK9FyCxHSHH5e\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Zhong,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Zhong%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012726,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Zhong%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Zhong,+P"
-}

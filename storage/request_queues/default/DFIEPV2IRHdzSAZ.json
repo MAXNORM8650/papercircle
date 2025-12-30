@@ -1,9 +1,0 @@
-{
-	"id": "DFIEPV2IRHdzSAZ",
-	"json": "{\"id\":\"DFIEPV2IRHdzSAZ\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Mart%C3%ADn-Moruno,+P\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Mart%C3%ADn-Moruno%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986803,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Mart%C3%ADn-Moruno%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Mart%C3%ADn-Moruno,+P"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "pGjUT2iF7Hm8cQw",
-	"json": "{\"id\":\"pGjUT2iF7Hm8cQw\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Lower,+M+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Lower%2C+M+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986584,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Lower%2C+M+E&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Lower,+M+E"
-}

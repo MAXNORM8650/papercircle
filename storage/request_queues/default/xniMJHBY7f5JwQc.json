@@ -1,9 +1,0 @@
-{
-	"id": "xniMJHBY7f5JwQc",
-	"json": "{\"id\":\"xniMJHBY7f5JwQc\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Herbke,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Herbke%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025763,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Herbke%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Herbke,+P"
-}

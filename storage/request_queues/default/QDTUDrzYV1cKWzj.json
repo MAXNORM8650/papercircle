@@ -1,9 +1,0 @@
-{
-	"id": "QDTUDrzYV1cKWzj",
-	"json": "{\"id\":\"QDTUDrzYV1cKWzj\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Ling,+Y\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Ling%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087001304,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Ling%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Ling,+Y"
-}

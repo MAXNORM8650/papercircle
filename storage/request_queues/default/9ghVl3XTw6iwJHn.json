@@ -1,9 +1,0 @@
-{
-	"id": "9ghVl3XTw6iwJHn",
-	"json": "{\"id\":\"9ghVl3XTw6iwJHn\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Biegler,+L+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Biegler%2C+L+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087017756,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Biegler%2C+L+T&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Biegler,+L+T"
-}

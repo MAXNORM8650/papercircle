@@ -1,9 +1,0 @@
-{
-	"id": "LtldtWGAV18oBDr",
-	"json": "{\"id\":\"LtldtWGAV18oBDr\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Jimenez-Andrade,+E+F\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Jimenez-Andrade%2C+E+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087036019,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Jimenez-Andrade%2C+E+F&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Jimenez-Andrade,+E+F"
-}

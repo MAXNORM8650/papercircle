@@ -1,9 +1,0 @@
-{
-	"id": "uUes3prZFeI3g3A",
-	"json": "{\"id\":\"uUes3prZFeI3g3A\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Nevara,+O\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Nevara%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999668,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Nevara%2C+O&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Nevara,+O"
-}

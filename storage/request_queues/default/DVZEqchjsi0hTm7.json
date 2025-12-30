@@ -1,9 +1,0 @@
-{
-	"id": "DVZEqchjsi0hTm7",
-	"json": "{\"id\":\"DVZEqchjsi0hTm7\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Voigt-Antons,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Voigt-Antons%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015260,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Voigt-Antons%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Voigt-Antons,+J"
-}

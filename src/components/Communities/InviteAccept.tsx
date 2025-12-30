@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Users, Check, AlertCircle } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
+import { logError, getUserFriendlyErrorMessage } from '../../lib/errorHandling';
 
 interface InviteAcceptProps {
   inviteCode: string;
@@ -24,33 +25,46 @@ export function InviteAccept({ inviteCode, onSuccess }: InviteAcceptProps) {
     setLoading(true);
     setError(null);
 
+    // Use RPC function to get invitation details (bypasses RLS)
     const { data: inviteData, error: inviteError } = await supabase
-      .from('circle_invitations')
-      .select('*, communities(name, description)')
-      .eq('invite_code', inviteCode)
-      .eq('is_active', true)
-      .maybeSingle();
+      .rpc('get_circle_invitation_details', {
+        invitation_code: inviteCode,
+      });
 
-    if (inviteError || !inviteData) {
-      setError('Invalid or expired invitation link');
+    if (inviteError) {
+      logError('InviteAccept.loadInvitation', inviteError);
+      setError(getUserFriendlyErrorMessage(inviteError));
       setLoading(false);
       return;
     }
 
-    if (inviteData.expires_at && new Date(inviteData.expires_at) < new Date()) {
+    if (!inviteData || !inviteData.success) {
+      setError(inviteData?.error || 'Invalid or expired invitation link');
+      setLoading(false);
+      return;
+    }
+
+    if (inviteData.is_expired) {
       setError('This invitation has expired');
       setLoading(false);
       return;
     }
 
-    if (inviteData.max_uses && inviteData.current_uses >= inviteData.max_uses) {
+    if (inviteData.is_maxed_out) {
       setError('This invitation has reached its maximum number of uses');
       setLoading(false);
       return;
     }
 
-    setInvitation(inviteData);
-    setCommunity(inviteData.communities);
+    // Set invitation and community data from RPC response
+    setInvitation({
+      role: inviteData.role,
+      community_id: inviteData.community_id,
+    });
+    setCommunity({
+      name: inviteData.community_name,
+      description: inviteData.community_description,
+    });
     setLoading(false);
   };
 

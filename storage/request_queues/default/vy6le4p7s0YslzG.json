@@ -1,9 +1,0 @@
-{
-	"id": "vy6le4p7s0YslzG",
-	"json": "{\"id\":\"vy6le4p7s0YslzG\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Mostafavi,+A\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Mostafavi%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087024045,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Mostafavi%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Mostafavi,+A"
-}

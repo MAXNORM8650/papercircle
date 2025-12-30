@@ -1,9 +1,0 @@
-{
-	"id": "ET1swl3on0lHpxH",
-	"json": "{\"id\":\"ET1swl3on0lHpxH\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Koskinen,+D+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Koskinen%2C+D+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087044327,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Koskinen%2C+D+J&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Koskinen,+D+J"
-}

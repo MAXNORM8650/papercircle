@@ -1,9 +1,0 @@
-{
-	"id": "YbK3LfKuQgt4Vs7",
-	"json": "{\"id\":\"YbK3LfKuQgt4Vs7\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Curtis,+J+H\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Curtis%2C+J+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999882,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Curtis%2C+J+H&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Curtis,+J+H"
-}

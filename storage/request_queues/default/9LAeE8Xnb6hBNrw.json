@@ -1,9 +1,0 @@
-{
-	"id": "9LAeE8Xnb6hBNrw",
-	"json": "{\"id\":\"9LAeE8Xnb6hBNrw\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Cheshire,+J+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Cheshire%2C+J+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087036327,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Cheshire%2C+J+R&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Cheshire,+J+R"
-}

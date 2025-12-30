@@ -1,9 +1,0 @@
-{
-	"id": "0BDsPbWY08QCJUS",
-	"json": "{\"id\":\"0BDsPbWY08QCJUS\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Wilkie,+K+P\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Wilkie%2C+K+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019317,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Wilkie%2C+K+P&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Wilkie,+K+P"
-}

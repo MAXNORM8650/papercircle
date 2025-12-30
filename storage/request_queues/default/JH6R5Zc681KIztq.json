@@ -1,9 +1,0 @@
-{
-	"id": "JH6R5Zc681KIztq",
-	"json": "{\"id\":\"JH6R5Zc681KIztq\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Vescovini,+R\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Vescovini%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006194,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Vescovini%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Vescovini,+R"
-}

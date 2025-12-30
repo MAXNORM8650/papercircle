@@ -1,9 +1,0 @@
-{
-	"id": "ZRN3zzjgo8WS3OI",
-	"json": "{\"id\":\"ZRN3zzjgo8WS3OI\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Betti,+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Betti%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986689,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Betti%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Betti,+P"
-}

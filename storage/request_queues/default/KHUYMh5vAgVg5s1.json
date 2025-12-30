@@ -1,9 +1,0 @@
-{
-	"id": "KHUYMh5vAgVg5s1",
-	"json": "{\"id\":\"KHUYMh5vAgVg5s1\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Palod,+V\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Palod%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087026970,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Palod%2C+V&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Palod,+V"
-}

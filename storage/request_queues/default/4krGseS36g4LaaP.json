@@ -1,9 +1,0 @@
-{
-	"id": "4krGseS36g4LaaP",
-	"json": "{\"id\":\"4krGseS36g4LaaP\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Baghel,+N+K\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Baghel%2C+N+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992936,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Baghel%2C+N+K&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Baghel,+N+K"
-}

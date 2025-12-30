@@ -1,9 +1,0 @@
-{
-	"id": "A9PxR6iV4K9SyiC",
-	"json": "{\"id\":\"A9PxR6iV4K9SyiC\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Romanowski,+M+S\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Romanowski%2C+M+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992975,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Romanowski%2C+M+S&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Romanowski,+M+S"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "7alizRV0Tx18zyV",
-	"json": "{\"id\":\"7alizRV0Tx18zyV\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Paul,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Paul%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016919,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Paul%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Paul,+P"
-}

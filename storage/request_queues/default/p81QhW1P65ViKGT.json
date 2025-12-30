@@ -1,9 +1,0 @@
-{
-	"id": "p81QhW1P65ViKGT",
-	"json": "{\"id\":\"p81QhW1P65ViKGT\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Wang,+Y\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Wang%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997858,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Wang%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Wang,+Y"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "kr49edDv8VLUpcr",
-	"json": "{\"id\":\"kr49edDv8VLUpcr\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Willmer,+C+N+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Willmer%2C+C+N+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987046,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Willmer%2C+C+N+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Willmer,+C+N+A"
-}

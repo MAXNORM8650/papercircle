@@ -1,9 +1,0 @@
-{
-	"id": "iz9xHYxWhD4dBpr",
-	"json": "{\"id\":\"iz9xHYxWhD4dBpr\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bunker,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Bunker%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987013,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Bunker%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Bunker,+A"
-}

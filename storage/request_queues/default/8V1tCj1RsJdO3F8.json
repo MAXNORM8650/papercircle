@@ -1,9 +1,0 @@
-{
-	"id": "8V1tCj1RsJdO3F8",
-	"json": "{\"id\":\"8V1tCj1RsJdO3F8\",\"url\":\"https://arxiv.org/user/lost_password\",\"loadedUrl\":\"https://arxiv.org/user/lost_password\",\"uniqueKey\":\"https://arxiv.org/user/lost_password\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:27.586Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/user/lost_password",
-	"url": "https://arxiv.org/user/lost_password"
-}

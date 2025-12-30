@@ -1,9 +1,0 @@
-{
-	"id": "24uhhPQ4o91Mnlx",
-	"json": "{\"id\":\"24uhhPQ4o91Mnlx\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=De+Silva%2C+G+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=De+Silva%2C+G+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087075165,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=De+Silva%2C+G+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=De+Silva%2C+G+M"
-}

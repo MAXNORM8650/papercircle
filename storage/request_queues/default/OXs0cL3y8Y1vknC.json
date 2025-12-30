@@ -1,9 +1,0 @@
-{
-	"id": "OXs0cL3y8Y1vknC",
-	"json": "{\"id\":\"OXs0cL3y8Y1vknC\",\"url\":\"https://arxiv.org/list/astro-ph.IM/current?skip=0&show=100\",\"uniqueKey\":\"https://arxiv.org/list/astro-ph.IM/current?show=100&skip=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087036180,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/astro-ph.IM/current?show=100&skip=0",
-	"url": "https://arxiv.org/list/astro-ph.IM/current?skip=0&show=100"
-}

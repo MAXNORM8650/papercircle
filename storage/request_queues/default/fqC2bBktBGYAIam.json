@@ -1,9 +1,0 @@
-{
-	"id": "fqC2bBktBGYAIam",
-	"json": "{\"id\":\"fqC2bBktBGYAIam\",\"url\":\"https://arxiv.org/list/math.CV/recent?skip=19&show=50\",\"uniqueKey\":\"https://arxiv.org/list/math.CV/recent?show=50&skip=19\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006792,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/math.CV/recent?show=50&skip=19",
-	"url": "https://arxiv.org/list/math.CV/recent?skip=19&show=50"
-}

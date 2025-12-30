@@ -1,9 +1,0 @@
-{
-	"id": "tFQeGDd1b8XcXEY",
-	"json": "{\"id\":\"tFQeGDd1b8XcXEY\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Gohil,+R+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Gohil%2C+R+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087018502,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Gohil%2C+R+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Gohil,+R+P"
-}

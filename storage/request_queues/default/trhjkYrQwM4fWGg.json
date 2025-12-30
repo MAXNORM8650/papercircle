@@ -1,9 +1,0 @@
-{
-	"id": "trhjkYrQwM4fWGg",
-	"json": "{\"id\":\"trhjkYrQwM4fWGg\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Syvridis,+D\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Syvridis%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087003673,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Syvridis%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Syvridis,+D"
-}

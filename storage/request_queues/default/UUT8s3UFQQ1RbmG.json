@@ -1,9 +1,0 @@
-{
-	"id": "UUT8s3UFQQ1RbmG",
-	"json": "{\"id\":\"UUT8s3UFQQ1RbmG\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Hazumi,+M\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Hazumi%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989910,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Hazumi%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Hazumi,+M"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "eLAtYmx4lWrUDgA",
-	"json": "{\"id\":\"eLAtYmx4lWrUDgA\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Adhikari,+A\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Adhikari%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988881,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Adhikari%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Adhikari,+A"
-}

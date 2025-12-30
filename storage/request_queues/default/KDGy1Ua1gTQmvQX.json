@@ -1,9 +1,0 @@
-{
-	"id": "KDGy1Ua1gTQmvQX",
-	"json": "{\"id\":\"KDGy1Ua1gTQmvQX\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Eiximeno,+B\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Eiximeno%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999495,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Eiximeno%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Eiximeno,+B"
-}

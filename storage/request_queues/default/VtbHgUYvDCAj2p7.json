@@ -1,9 +1,0 @@
-{
-	"id": "VtbHgUYvDCAj2p7",
-	"json": "{\"id\":\"VtbHgUYvDCAj2p7\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=D%C3%ADaz,+A+F\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=D%C3%ADaz%2C+A+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992704,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=D%C3%ADaz%2C+A+F&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=D%C3%ADaz,+A+F"
-}

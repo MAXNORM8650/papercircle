@@ -1,9 +1,0 @@
-{
-	"id": "0GM2ArzSIuFLAvn",
-	"json": "{\"id\":\"0GM2ArzSIuFLAvn\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Rodrigues,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Rodrigues%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000800,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Rodrigues%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Rodrigues,+M"
-}

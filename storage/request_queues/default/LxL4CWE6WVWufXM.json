@@ -1,9 +1,0 @@
-{
-	"id": "LxL4CWE6WVWufXM",
-	"json": "{\"id\":\"LxL4CWE6WVWufXM\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bellenghi,+C\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bellenghi,+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Bellenghi%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:51.372Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Bellenghi%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Bellenghi,+C"
-}

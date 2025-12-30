@@ -1,9 +1,0 @@
-{
-	"id": "4VKmqm1yfSG0yA8",
-	"json": "{\"id\":\"4VKmqm1yfSG0yA8\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Di+Canto,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Di+Canto%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992966,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Di+Canto%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Di+Canto,+A"
-}

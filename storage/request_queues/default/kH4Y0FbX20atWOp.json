@@ -1,9 +1,0 @@
-{
-	"id": "kH4Y0FbX20atWOp",
-	"json": "{\"id\":\"kH4Y0FbX20atWOp\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Ye,+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Ye%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087004665,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Ye%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Ye,+M"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "m6hEp8ttU6F6r60",
-	"json": "{\"id\":\"m6hEp8ttU6F6r60\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Nori,+F\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Nori%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087003771,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Nori%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Nori,+F"
-}

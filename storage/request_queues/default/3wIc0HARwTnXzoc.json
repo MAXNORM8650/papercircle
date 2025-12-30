@@ -1,9 +1,0 @@
-{
-	"id": "3wIc0HARwTnXzoc",
-	"json": "{\"id\":\"3wIc0HARwTnXzoc\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Belhaj,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Belhaj%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994561,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-th?query=Belhaj%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Belhaj,+A"
-}

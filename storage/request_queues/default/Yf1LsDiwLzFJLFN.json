@@ -1,9 +1,0 @@
-{
-	"id": "Yf1LsDiwLzFJLFN",
-	"json": "{\"id\":\"Yf1LsDiwLzFJLFN\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Westbury,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Westbury%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087030934,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Westbury%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Westbury,+A"
-}

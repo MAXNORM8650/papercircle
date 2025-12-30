@@ -1,9 +1,0 @@
-{
-	"id": "rnZEIRD29CJ6wLb",
-	"json": "{\"id\":\"rnZEIRD29CJ6wLb\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Hester,+J+G+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Hester%2C+J+G+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087027192,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Hester%2C+J+G+D&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Hester,+J+G+D"
-}

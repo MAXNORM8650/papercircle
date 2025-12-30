@@ -1,9 +1,0 @@
-{
-	"id": "9IdP3n6jxFyxLKF",
-	"json": "{\"id\":\"9IdP3n6jxFyxLKF\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Liao,+H\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Liao%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087003617,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Liao%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Liao,+H"
-}

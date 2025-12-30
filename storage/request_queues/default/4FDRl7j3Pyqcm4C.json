@@ -1,9 +1,0 @@
-{
-	"id": "4FDRl7j3Pyqcm4C",
-	"json": "{\"id\":\"4FDRl7j3Pyqcm4C\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Yoo,+I\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Yoo%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999651,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Yoo%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Yoo,+I"
-}

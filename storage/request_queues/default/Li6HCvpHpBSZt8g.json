@@ -1,9 +1,0 @@
-{
-	"id": "Li6HCvpHpBSZt8g",
-	"json": "{\"id\":\"Li6HCvpHpBSZt8g\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Smolkovi%C4%8D,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Smolkovi%C4%8D%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992809,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Smolkovi%C4%8D%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Smolkovi%C4%8D,+A"
-}

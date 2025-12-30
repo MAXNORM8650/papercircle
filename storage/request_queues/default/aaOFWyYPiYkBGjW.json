@@ -1,9 +1,0 @@
-{
-	"id": "aaOFWyYPiYkBGjW",
-	"json": "{\"id\":\"aaOFWyYPiYkBGjW\",\"url\":\"https://arxiv.org/search/hep-lat?searchtype=author&query=Zahed,+I\",\"uniqueKey\":\"https://arxiv.org/search/hep-lat?query=Zahed%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086993579,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-lat?query=Zahed%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/hep-lat?searchtype=author&query=Zahed,+I"
-}

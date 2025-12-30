@@ -1,9 +1,0 @@
-{
-	"id": "g5kqm1hXQ1RD6kU",
-	"json": "{\"id\":\"g5kqm1hXQ1RD6kU\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Delgado,+D\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Delgado,+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Delgado%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:05.900Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Delgado%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Delgado,+D"
-}

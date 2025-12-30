@@ -1,9 +1,0 @@
-{
-	"id": "TEfxAHnMrARmXgZ",
-	"json": "{\"id\":\"TEfxAHnMrARmXgZ\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=ATLAS+Collaboration\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=ATLAS+Collaboration&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992991,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=ATLAS+Collaboration&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=ATLAS+Collaboration"
-}

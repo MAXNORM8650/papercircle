@@ -1,9 +1,0 @@
-{
-	"id": "ApjOh9grVJz0ts4",
-	"json": "{\"id\":\"ApjOh9grVJz0ts4\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Cao,+G+F\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Cao%2C+G+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992893,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Cao%2C+G+F&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Cao,+G+F"
-}

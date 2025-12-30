@@ -1,9 +1,0 @@
-{
-	"id": "9P5lGjbISkzBtJ7",
-	"json": "{\"id\":\"9P5lGjbISkzBtJ7\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Katrechko,+V\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Katrechko%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999643,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Katrechko%2C+V&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Katrechko,+V"
-}

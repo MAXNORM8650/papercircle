@@ -1,9 +1,0 @@
-{
-	"id": "tTsUcffXZE9wNy3",
-	"json": "{\"id\":\"tTsUcffXZE9wNy3\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Lyu,+Z\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Lyu%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988354,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Lyu%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Lyu,+Z"
-}

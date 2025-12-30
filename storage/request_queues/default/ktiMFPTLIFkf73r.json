@@ -1,9 +1,0 @@
-{
-	"id": "ktiMFPTLIFkf73r",
-	"json": "{\"id\":\"ktiMFPTLIFkf73r\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Aldajani,+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Aldajani%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087011839,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Aldajani%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Aldajani,+R"
-}

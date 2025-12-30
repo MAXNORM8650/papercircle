@@ -1,9 +1,0 @@
-{
-	"id": "r1AHPXA4wS9RQDa",
-	"json": "{\"id\":\"r1AHPXA4wS9RQDa\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=DeCost,+B\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=DeCost%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988663,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=DeCost%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=DeCost,+B"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "tYfwGQ1By1RVBJx",
-	"json": "{\"id\":\"tYfwGQ1By1RVBJx\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Eller%2C+P&start=100\",\"uniqueKey\":\"https://arxiv.org/search?query=Eller%2C+P&searchtype=author&start=100\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087074151,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Eller%2C+P&searchtype=author&start=100",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Eller%2C+P&start=100"
-}

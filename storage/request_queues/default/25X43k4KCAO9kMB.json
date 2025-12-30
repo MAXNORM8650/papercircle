@@ -1,9 +1,0 @@
-{
-	"id": "25X43k4KCAO9kMB",
-	"json": "{\"id\":\"25X43k4KCAO9kMB\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Sahu,+K+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Sahu%2C+K+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087001351,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Sahu%2C+K+C&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Sahu,+K+C"
-}

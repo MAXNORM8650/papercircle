@@ -1,9 +1,0 @@
-{
-	"id": "KOy3vizibAcXQqD",
-	"json": "{\"id\":\"KOy3vizibAcXQqD\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Zheng,+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Zheng%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010308,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Zheng%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Zheng,+T"
-}

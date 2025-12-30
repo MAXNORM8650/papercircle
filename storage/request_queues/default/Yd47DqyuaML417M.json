@@ -1,9 +1,0 @@
-{
-	"id": "Yd47DqyuaML417M",
-	"json": "{\"id\":\"Yd47DqyuaML417M\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=chen,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=chen%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016937,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=chen%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=chen,+Y"
-}

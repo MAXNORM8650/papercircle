@@ -1,9 +1,0 @@
-{
-	"id": "ZB5pq3kML0AI7WE",
-	"json": "{\"id\":\"ZB5pq3kML0AI7WE\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Zhuang,+F\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Zhuang%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015398,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Zhuang%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Zhuang,+F"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "7LApXDqGqxv7iSZ",
-	"json": "{\"id\":\"7LApXDqGqxv7iSZ\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Lantagne-Hurtubise,+%C3%89\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Lantagne-Hurtubise%2C+%C3%89&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989916,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Lantagne-Hurtubise%2C+%C3%89&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Lantagne-Hurtubise,+%C3%89"
-}

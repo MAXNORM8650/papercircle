@@ -1,9 +1,0 @@
-{
-	"id": "SkapUG6I2n6lHzW",
-	"json": "{\"id\":\"SkapUG6I2n6lHzW\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Bessner,+M\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Bessner%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992942,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Bessner%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Bessner,+M"
-}

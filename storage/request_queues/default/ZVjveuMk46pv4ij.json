@@ -1,9 +1,0 @@
-{
-	"id": "ZVjveuMk46pv4ij",
-	"json": "{\"id\":\"ZVjveuMk46pv4ij\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Duncan%2C+K\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Duncan%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087060141,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Duncan%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Duncan%2C+K"
-}

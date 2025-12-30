@@ -1,9 +1,0 @@
-{
-	"id": "o5UuFKY2vSzG7wv",
-	"json": "{\"id\":\"o5UuFKY2vSzG7wv\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Bai,+C\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Bai%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025259,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Bai%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Bai,+C"
-}

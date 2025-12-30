@@ -1,9 +1,0 @@
-{
-	"id": "kC6xBQANJO6iwWo",
-	"json": "{\"id\":\"kC6xBQANJO6iwWo\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Choudhury,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Choudhury%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087011611,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Choudhury%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Choudhury,+J"
-}

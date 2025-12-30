@@ -1,9 +1,0 @@
-{
-	"id": "h9ecB1POuZGU4Qn",
-	"json": "{\"id\":\"h9ecB1POuZGU4Qn\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Federrath,+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Federrath%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986494,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Federrath%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Federrath,+C"
-}

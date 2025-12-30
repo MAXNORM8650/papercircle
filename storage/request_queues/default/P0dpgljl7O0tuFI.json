@@ -1,9 +1,0 @@
-{
-	"id": "P0dpgljl7O0tuFI",
-	"json": "{\"id\":\"P0dpgljl7O0tuFI\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Haegeman,+J\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Haegeman%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989584,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-th?query=Haegeman%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Haegeman,+J"
-}

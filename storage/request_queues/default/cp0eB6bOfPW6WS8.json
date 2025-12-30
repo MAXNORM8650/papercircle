@@ -1,9 +1,0 @@
-{
-	"id": "cp0eB6bOfPW6WS8",
-	"json": "{\"id\":\"cp0eB6bOfPW6WS8\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Beglarian%2C+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Beglarian%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087074813,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Beglarian%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Beglarian%2C+A"
-}

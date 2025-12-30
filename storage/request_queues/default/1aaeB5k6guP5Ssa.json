@@ -1,9 +1,0 @@
-{
-	"id": "1aaeB5k6guP5Ssa",
-	"json": "{\"id\":\"1aaeB5k6guP5Ssa\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bengaly,+C+A+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Bengaly%2C+C+A+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986625,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Bengaly%2C+C+A+P&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Bengaly,+C+A+P"
-}

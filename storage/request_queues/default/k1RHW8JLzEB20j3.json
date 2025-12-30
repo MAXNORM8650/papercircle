@@ -1,9 +1,0 @@
-{
-	"id": "k1RHW8JLzEB20j3",
-	"json": "{\"id\":\"k1RHW8JLzEB20j3\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Park,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Park%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012247,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Park%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Park,+J"
-}

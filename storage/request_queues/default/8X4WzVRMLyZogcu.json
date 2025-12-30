@@ -1,9 +1,0 @@
-{
-	"id": "8X4WzVRMLyZogcu",
-	"json": "{\"id\":\"8X4WzVRMLyZogcu\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Ferrari,+M\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Ferrari%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002429,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Ferrari%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Ferrari,+M"
-}

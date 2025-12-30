@@ -1,9 +1,0 @@
-{
-	"id": "zsxGhwhjiwdtMNb",
-	"json": "{\"id\":\"zsxGhwhjiwdtMNb\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Kurt,+G+K\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Kurt%2C+G+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025219,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Kurt%2C+G+K&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Kurt,+G+K"
-}

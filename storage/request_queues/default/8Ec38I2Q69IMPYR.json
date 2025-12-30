@@ -1,9 +1,0 @@
-{
-	"id": "8Ec38I2Q69IMPYR",
-	"json": "{\"id\":\"8Ec38I2Q69IMPYR\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Bogo,+F\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Bogo%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014967,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Bogo%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Bogo,+F"
-}

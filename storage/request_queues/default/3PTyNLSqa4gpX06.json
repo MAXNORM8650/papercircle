@@ -1,9 +1,0 @@
-{
-	"id": "3PTyNLSqa4gpX06",
-	"json": "{\"id\":\"3PTyNLSqa4gpX06\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Kellermann,+K+I\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Kellermann%2C+K+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987354,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Kellermann%2C+K+I&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Kellermann,+K+I"
-}

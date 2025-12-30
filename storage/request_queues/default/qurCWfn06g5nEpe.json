@@ -1,9 +1,0 @@
-{
-	"id": "qurCWfn06g5nEpe",
-	"json": "{\"id\":\"qurCWfn06g5nEpe\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=G%C3%B6ka%C5%9Fan,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=G%C3%B6ka%C5%9Fan%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012364,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=G%C3%B6ka%C5%9Fan%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=G%C3%B6ka%C5%9Fan,+M"
-}

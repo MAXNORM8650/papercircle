@@ -1,9 +1,0 @@
-{
-	"id": "JKWBIyeowsn7s4j",
-	"json": "{\"id\":\"JKWBIyeowsn7s4j\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Bobkov,+A+M\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Bobkov%2C+A+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988939,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Bobkov%2C+A+M&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Bobkov,+A+M"
-}

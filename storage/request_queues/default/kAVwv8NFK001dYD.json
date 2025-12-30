@@ -1,9 +1,0 @@
-{
-	"id": "kAVwv8NFK001dYD",
-	"json": "{\"id\":\"kAVwv8NFK001dYD\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Chae,+C\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Chae%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009567,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Chae%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Chae,+C"
-}

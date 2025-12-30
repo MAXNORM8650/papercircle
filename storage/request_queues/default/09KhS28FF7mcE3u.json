@@ -1,9 +1,0 @@
-{
-	"id": "09KhS28FF7mcE3u",
-	"json": "{\"id\":\"09KhS28FF7mcE3u\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=M%C3%A9loux,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=M%C3%A9loux%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007546,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=M%C3%A9loux%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=M%C3%A9loux,+M"
-}

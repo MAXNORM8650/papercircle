@@ -1,9 +1,0 @@
-{
-	"id": "cdXH2fYgF2MX37n",
-	"json": "{\"id\":\"cdXH2fYgF2MX37n\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Maghraoui,+K+E\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Maghraoui%2C+K+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012081,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Maghraoui%2C+K+E&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Maghraoui,+K+E"
-}

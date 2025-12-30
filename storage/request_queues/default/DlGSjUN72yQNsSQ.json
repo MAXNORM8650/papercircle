@@ -1,9 +1,0 @@
-{
-	"id": "DlGSjUN72yQNsSQ",
-	"json": "{\"id\":\"DlGSjUN72yQNsSQ\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Mar%C3%AAch%C3%A9,+L\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Mar%C3%AAch%C3%A9%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009278,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Mar%C3%AAch%C3%A9%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Mar%C3%AAch%C3%A9,+L"
-}

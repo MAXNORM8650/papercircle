@@ -1,9 +1,0 @@
-{
-	"id": "gpTR6V2mucioM6V",
-	"json": "{\"id\":\"gpTR6V2mucioM6V\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Lundqvist,+E\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Lundqvist%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014489,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Lundqvist%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Lundqvist,+E"
-}

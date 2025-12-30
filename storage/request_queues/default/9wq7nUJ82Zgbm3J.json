@@ -1,9 +1,0 @@
-{
-	"id": "9wq7nUJ82Zgbm3J",
-	"json": "{\"id\":\"9wq7nUJ82Zgbm3J\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Perafita,+X\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Perafita%2C+X&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023951,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Perafita%2C+X&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Perafita,+X"
-}

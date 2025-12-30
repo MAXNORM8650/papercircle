@@ -1,9 +1,0 @@
-{
-	"id": "sxKt0isvnoGydfC",
-	"json": "{\"id\":\"sxKt0isvnoGydfC\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Lecocq,+V\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Lecocq%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987992,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Lecocq%2C+V&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Lecocq,+V"
-}

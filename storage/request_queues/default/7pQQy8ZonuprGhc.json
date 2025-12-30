@@ -1,9 +1,0 @@
-{
-	"id": "7pQQy8ZonuprGhc",
-	"json": "{\"id\":\"7pQQy8ZonuprGhc\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Wright,+S+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Wright%2C+S+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086990317,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Wright%2C+S+C&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Wright,+S+C"
-}

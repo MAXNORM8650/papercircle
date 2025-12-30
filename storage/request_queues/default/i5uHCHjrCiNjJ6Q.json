@@ -1,9 +1,0 @@
-{
-	"id": "i5uHCHjrCiNjJ6Q",
-	"json": "{\"id\":\"i5uHCHjrCiNjJ6Q\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Hernandez,+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Hernandez%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015699,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Hernandez%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Hernandez,+R"
-}

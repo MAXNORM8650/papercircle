@@ -1,9 +1,0 @@
-{
-	"id": "sOYmAPGLd5FyKzM",
-	"json": "{\"id\":\"sOYmAPGLd5FyKzM\",\"url\":\"https://arxiv.org/list/physics.atom-ph/current\",\"uniqueKey\":\"https://arxiv.org/list/physics.atom-ph/current\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086998764,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/physics.atom-ph/current",
-	"url": "https://arxiv.org/list/physics.atom-ph/current"
-}

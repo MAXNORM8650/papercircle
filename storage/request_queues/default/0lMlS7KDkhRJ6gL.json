@@ -1,9 +1,0 @@
-{
-	"id": "0lMlS7KDkhRJ6gL",
-	"json": "{\"id\":\"0lMlS7KDkhRJ6gL\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Souza,+G+A+L\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Souza%2C+G+A+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006032,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Souza%2C+G+A+L&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Souza,+G+A+L"
-}

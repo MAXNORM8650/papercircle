@@ -1,9 +1,0 @@
-{
-	"id": "O8YESmNvMA1Npoq",
-	"json": "{\"id\":\"O8YESmNvMA1Npoq\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Eichler%2C+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Eichler%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087095123,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Eichler%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Eichler%2C+D"
-}

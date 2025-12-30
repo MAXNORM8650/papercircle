@@ -1,9 +1,0 @@
-{
-	"id": "esRS7B6h3Zod5FI",
-	"json": "{\"id\":\"esRS7B6h3Zod5FI\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Achasov,+M+N\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Achasov%2C+M+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992883,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Achasov%2C+M+N&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Achasov,+M+N"
-}

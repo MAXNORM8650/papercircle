@@ -1,9 +1,0 @@
-{
-	"id": "JeQ744YLR9hxzqT",
-	"json": "{\"id\":\"JeQ744YLR9hxzqT\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Casali%2C+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Casali%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087081417,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Casali%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Casali%2C+G"
-}

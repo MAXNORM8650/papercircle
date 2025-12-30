@@ -1,9 +1,0 @@
-{
-	"id": "ZeVVTUy2KAFzuW5",
-	"json": "{\"id\":\"ZeVVTUy2KAFzuW5\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ispir,+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ispir%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006617,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Ispir%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ispir,+B"
-}

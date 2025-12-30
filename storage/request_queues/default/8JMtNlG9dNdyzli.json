@@ -1,9 +1,0 @@
-{
-	"id": "8JMtNlG9dNdyzli",
-	"json": "{\"id\":\"8JMtNlG9dNdyzli\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Fan,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Fan%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992722,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Fan%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Fan,+A"
-}

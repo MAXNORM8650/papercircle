@@ -1,9 +1,0 @@
-{
-	"id": "68eiT2s4ja1Tbct",
-	"json": "{\"id\":\"68eiT2s4ja1Tbct\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Adiga,+L\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Adiga%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025585,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Adiga%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Adiga,+L"
-}

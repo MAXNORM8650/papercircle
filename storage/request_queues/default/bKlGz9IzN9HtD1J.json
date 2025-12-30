@@ -1,9 +1,0 @@
-{
-	"id": "bKlGz9IzN9HtD1J",
-	"json": "{\"id\":\"bKlGz9IzN9HtD1J\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=de+la+Rosa,+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=de+la+Rosa%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025540,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=de+la+Rosa%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=de+la+Rosa,+T"
-}

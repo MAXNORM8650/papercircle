@@ -1,9 +1,0 @@
-{
-	"id": "MQxWhYppOD2fy9n",
-	"json": "{\"id\":\"MQxWhYppOD2fy9n\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Qu,+F+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Qu%2C+F+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988379,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Qu%2C+F+J&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Qu,+F+J"
-}

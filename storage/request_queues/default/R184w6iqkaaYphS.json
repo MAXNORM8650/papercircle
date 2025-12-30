@@ -1,9 +1,0 @@
-{
-	"id": "R184w6iqkaaYphS",
-	"json": "{\"id\":\"R184w6iqkaaYphS\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Sahasrabudhe,+J\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Sahasrabudhe%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006688,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Sahasrabudhe%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Sahasrabudhe,+J"
-}

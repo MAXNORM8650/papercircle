@@ -1,9 +1,0 @@
-{
-	"id": "xmjqBvhHa2G3Yx0",
-	"json": "{\"id\":\"xmjqBvhHa2G3Yx0\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Pollak,+K+I\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Pollak%2C+K+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087029719,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Pollak%2C+K+I&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Pollak,+K+I"
-}

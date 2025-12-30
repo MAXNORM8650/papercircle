@@ -1,9 +1,0 @@
-{
-	"id": "BLzDDGny5lXP4X7",
-	"json": "{\"id\":\"BLzDDGny5lXP4X7\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Tsao,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Tsao%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087017117,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Tsao%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Tsao,+Y"
-}

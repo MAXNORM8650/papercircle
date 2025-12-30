@@ -1,9 +1,0 @@
-{
-	"id": "ons9uOyuwOgdfc4",
-	"json": "{\"id\":\"ons9uOyuwOgdfc4\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Lora%2C+V\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Lora%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087086099,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Lora%2C+V&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Lora%2C+V"
-}

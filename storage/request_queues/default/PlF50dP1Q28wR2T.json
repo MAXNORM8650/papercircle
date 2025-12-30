@@ -1,9 +1,0 @@
-{
-	"id": "PlF50dP1Q28wR2T",
-	"json": "{\"id\":\"PlF50dP1Q28wR2T\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Adams%2C+J&start=50\",\"uniqueKey\":\"https://arxiv.org/search?query=Adams%2C+J&searchtype=author&start=50\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087045458,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Adams%2C+J&searchtype=author&start=50",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Adams%2C+J&start=50"
-}

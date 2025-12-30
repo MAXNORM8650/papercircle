@@ -1,9 +1,0 @@
-{
-	"id": "ptMzXf3fYTNclmO",
-	"json": "{\"id\":\"ptMzXf3fYTNclmO\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Wang,+G\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Wang%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999129,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Wang%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Wang,+G"
-}

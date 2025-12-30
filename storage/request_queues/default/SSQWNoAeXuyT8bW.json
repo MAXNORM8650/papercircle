@@ -1,9 +1,0 @@
-{
-	"id": "SSQWNoAeXuyT8bW",
-	"json": "{\"id\":\"SSQWNoAeXuyT8bW\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Pasqualetto,+E\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Pasqualetto%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007022,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Pasqualetto%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Pasqualetto,+E"
-}

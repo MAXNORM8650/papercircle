@@ -1,9 +1,0 @@
-{
-	"id": "nX4dm2v4NYuXc0l",
-	"json": "{\"id\":\"nX4dm2v4NYuXc0l\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Pang,+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Pang%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014514,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Pang%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Pang,+B"
-}

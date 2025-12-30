@@ -1,9 +1,0 @@
-{
-	"id": "U16YLg1X0w3o4CV",
-	"json": "{\"id\":\"U16YLg1X0w3o4CV\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Aditya,+J+N+H+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Aditya%2C+J+N+H+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986477,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Aditya%2C+J+N+H+S&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Aditya,+J+N+H+S"
-}

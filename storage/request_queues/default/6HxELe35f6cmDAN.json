@@ -1,9 +1,0 @@
-{
-	"id": "6HxELe35f6cmDAN",
-	"json": "{\"id\":\"6HxELe35f6cmDAN\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Gruppioni,+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Gruppioni%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087037498,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Gruppioni%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Gruppioni,+C"
-}

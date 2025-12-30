@@ -1,9 +1,0 @@
-{
-	"id": "ttIDz2V2Z7OyWqC",
-	"json": "{\"id\":\"ttIDz2V2Z7OyWqC\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Lucas,+R+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Lucas%2C+R+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087035898,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Lucas%2C+R+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Lucas,+R+A"
-}

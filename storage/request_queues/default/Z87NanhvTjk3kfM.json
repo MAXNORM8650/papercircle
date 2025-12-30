@@ -1,9 +1,0 @@
-{
-	"id": "Z87NanhvTjk3kfM",
-	"json": "{\"id\":\"Z87NanhvTjk3kfM\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Mack,+H\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Mack%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987038,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Mack%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Mack,+H"
-}

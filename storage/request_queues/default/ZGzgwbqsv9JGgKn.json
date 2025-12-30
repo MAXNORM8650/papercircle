@@ -1,9 +1,0 @@
-{
-	"id": "ZGzgwbqsv9JGgKn",
-	"json": "{\"id\":\"ZGzgwbqsv9JGgKn\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Hu,+Y\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Hu%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986485,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Hu%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Hu,+Y"
-}

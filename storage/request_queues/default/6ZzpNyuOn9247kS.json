@@ -1,9 +1,0 @@
-{
-	"id": "6ZzpNyuOn9247kS",
-	"json": "{\"id\":\"6ZzpNyuOn9247kS\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Castorena%2C+J+I\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Castorena%2C+J+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087084106,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Castorena%2C+J+I&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Castorena%2C+J+I"
-}

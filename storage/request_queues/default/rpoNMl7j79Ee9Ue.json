@@ -1,9 +1,0 @@
-{
-	"id": "rpoNMl7j79Ee9Ue",
-	"json": "{\"id\":\"rpoNMl7j79Ee9Ue\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Jose,+C+T\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Jose%2C+C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000774,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Jose%2C+C+T&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Jose,+C+T"
-}

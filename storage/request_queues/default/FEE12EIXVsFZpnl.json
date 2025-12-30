@@ -1,9 +1,0 @@
-{
-	"id": "FEE12EIXVsFZpnl",
-	"json": "{\"id\":\"FEE12EIXVsFZpnl\",\"url\":\"https://arxiv.org/year/nucl-ex/2022\",\"uniqueKey\":\"https://arxiv.org/year/nucl-ex/2022\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997477,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/year/nucl-ex/2022",
-	"url": "https://arxiv.org/year/nucl-ex/2022"
-}

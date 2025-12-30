@@ -1,9 +1,0 @@
-{
-	"id": "tuXDdbxwq63bBRT",
-	"json": "{\"id\":\"tuXDdbxwq63bBRT\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Vitagliano,+E\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Vitagliano%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087037637,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Vitagliano%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Vitagliano,+E"
-}

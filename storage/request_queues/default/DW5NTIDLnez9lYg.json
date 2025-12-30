@@ -1,9 +1,0 @@
-{
-	"id": "DW5NTIDLnez9lYg",
-	"json": "{\"id\":\"DW5NTIDLnez9lYg\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Fan,+G\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Fan%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997836,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Fan%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Fan,+G"
-}

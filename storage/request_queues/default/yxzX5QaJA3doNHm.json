@@ -1,9 +1,0 @@
-{
-	"id": "yxzX5QaJA3doNHm",
-	"json": "{\"id\":\"yxzX5QaJA3doNHm\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Ornigotti,+L\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Ornigotti%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087003622,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Ornigotti%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Ornigotti,+L"
-}

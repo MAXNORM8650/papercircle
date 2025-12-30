@@ -1,9 +1,0 @@
-{
-	"id": "F1ffC1EffkcYZN7",
-	"json": "{\"id\":\"F1ffC1EffkcYZN7\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Or%C3%BAs,+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Or%C3%BAs%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087003829,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Or%C3%BAs%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Or%C3%BAs,+R"
-}

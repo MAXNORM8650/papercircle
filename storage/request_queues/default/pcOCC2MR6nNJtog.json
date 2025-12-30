@@ -1,9 +1,0 @@
-{
-	"id": "pcOCC2MR6nNJtog",
-	"json": "{\"id\":\"pcOCC2MR6nNJtog\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Conlon,+J+P\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Conlon%2C+J+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087040584,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Conlon%2C+J+P&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Conlon,+J+P"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "VTEMQhEjf2OjTyk",
-	"json": "{\"id\":\"VTEMQhEjf2OjTyk\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Dcosta,+A+V\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Dcosta%2C+A+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025638,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Dcosta%2C+A+V&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Dcosta,+A+V"
-}

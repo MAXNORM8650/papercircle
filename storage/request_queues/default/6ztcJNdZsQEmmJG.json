@@ -1,9 +1,0 @@
-{
-	"id": "6ztcJNdZsQEmmJG",
-	"json": "{\"id\":\"6ztcJNdZsQEmmJG\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Zhai,+Z\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Zhai%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025264,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Zhai%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Zhai,+Z"
-}

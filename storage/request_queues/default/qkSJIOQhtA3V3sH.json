@@ -1,9 +1,0 @@
-{
-	"id": "qkSJIOQhtA3V3sH",
-	"json": "{\"id\":\"qkSJIOQhtA3V3sH\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Dotsenko,+V\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Dotsenko%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005848,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Dotsenko%2C+V&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Dotsenko,+V"
-}

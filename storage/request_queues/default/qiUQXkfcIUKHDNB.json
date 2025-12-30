@@ -1,9 +1,0 @@
-{
-	"id": "qiUQXkfcIUKHDNB",
-	"json": "{\"id\":\"qiUQXkfcIUKHDNB\",\"url\":\"https://arxiv.org/search/math-ph?searchtype=author&query=L%C3%B3pez-Gord%C3%B3n,+A\",\"uniqueKey\":\"https://arxiv.org/search/math-ph?query=L%C3%B3pez-Gord%C3%B3n%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000814,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math-ph?query=L%C3%B3pez-Gord%C3%B3n%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/math-ph?searchtype=author&query=L%C3%B3pez-Gord%C3%B3n,+A"
-}

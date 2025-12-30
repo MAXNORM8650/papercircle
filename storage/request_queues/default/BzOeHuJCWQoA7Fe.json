@@ -1,9 +1,0 @@
-{
-	"id": "BzOeHuJCWQoA7Fe",
-	"json": "{\"id\":\"BzOeHuJCWQoA7Fe\",\"url\":\"https://arxiv.org/list/physics.comp-ph/current\",\"uniqueKey\":\"https://arxiv.org/list/physics.comp-ph/current\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086998771,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/physics.comp-ph/current",
-	"url": "https://arxiv.org/list/physics.comp-ph/current"
-}

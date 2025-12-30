@@ -1,9 +1,0 @@
-{
-	"id": "dTOT2Jl1wx4tN8s",
-	"json": "{\"id\":\"dTOT2Jl1wx4tN8s\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Mills,+K+E\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Mills%2C+K+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019281,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Mills%2C+K+E&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Mills,+K+E"
-}

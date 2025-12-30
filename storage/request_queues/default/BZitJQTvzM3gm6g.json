@@ -1,9 +1,0 @@
-{
-	"id": "BZitJQTvzM3gm6g",
-	"json": "{\"id\":\"BZitJQTvzM3gm6g\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Moyer,+D\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Moyer%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025678,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Moyer%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Moyer,+D"
-}

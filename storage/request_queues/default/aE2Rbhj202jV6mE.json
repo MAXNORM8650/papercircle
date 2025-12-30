@@ -1,9 +1,0 @@
-{
-	"id": "aE2Rbhj202jV6mE",
-	"json": "{\"id\":\"aE2Rbhj202jV6mE\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Sowa,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Sowa%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087018422,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Sowa%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Sowa,+J"
-}

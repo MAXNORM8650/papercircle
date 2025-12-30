@@ -1,9 +1,0 @@
-{
-	"id": "VusWR1HJq1cdek8",
-	"json": "{\"id\":\"VusWR1HJq1cdek8\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Farrag,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Farrag%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999128,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Farrag%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Farrag,+A"
-}

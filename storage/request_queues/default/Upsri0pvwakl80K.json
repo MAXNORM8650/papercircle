@@ -1,9 +1,0 @@
-{
-	"id": "Upsri0pvwakl80K",
-	"json": "{\"id\":\"Upsri0pvwakl80K\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Nakamura,+N\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Nakamura%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997425,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Nakamura%2C+N&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Nakamura,+N"
-}

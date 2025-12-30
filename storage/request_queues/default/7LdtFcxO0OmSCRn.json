@@ -1,9 +1,0 @@
-{
-	"id": "7LdtFcxO0OmSCRn",
-	"json": "{\"id\":\"7LdtFcxO0OmSCRn\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Mondal,+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Mondal%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087044356,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Mondal%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Mondal,+S"
-}

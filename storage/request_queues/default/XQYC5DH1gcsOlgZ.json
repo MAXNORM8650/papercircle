@@ -1,9 +1,0 @@
-{
-	"id": "XQYC5DH1gcsOlgZ",
-	"json": "{\"id\":\"XQYC5DH1gcsOlgZ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Brodzeller,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Brodzeller%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986863,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Brodzeller%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Brodzeller,+A"
-}

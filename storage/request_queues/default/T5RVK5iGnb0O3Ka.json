@@ -1,9 +1,0 @@
-{
-	"id": "T5RVK5iGnb0O3Ka",
-	"json": "{\"id\":\"T5RVK5iGnb0O3Ka\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Eitel,+K\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Eitel%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988272,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Eitel%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Eitel,+K"
-}

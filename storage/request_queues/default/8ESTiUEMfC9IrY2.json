@@ -1,9 +1,0 @@
-{
-	"id": "8ESTiUEMfC9IrY2",
-	"json": "{\"id\":\"8ESTiUEMfC9IrY2\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Smith,+D+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Smith%2C+D+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000304,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Smith%2C+D+R&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Smith,+D+R"
-}

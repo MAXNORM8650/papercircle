@@ -1,9 +1,0 @@
-{
-	"id": "3q2nOWM1l6gtEXd",
-	"json": "{\"id\":\"3q2nOWM1l6gtEXd\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Biswas,+S\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Biswas%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000805,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Biswas%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Biswas,+S"
-}

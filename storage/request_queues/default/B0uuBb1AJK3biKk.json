@@ -1,9 +1,0 @@
-{
-	"id": "B0uuBb1AJK3biKk",
-	"json": "{\"id\":\"B0uuBb1AJK3biKk\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Davies%2C+F+B\",\"uniqueKey\":\"https://arxiv.org/search?query=Davies%2C+F+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087059906,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Davies%2C+F+B&searchtype=author",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Davies%2C+F+B"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "18RZTPLuGt0DAeP",
-	"json": "{\"id\":\"18RZTPLuGt0DAeP\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Hoque%2C+M+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Hoque%2C+M+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087045725,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Hoque%2C+M+E&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Hoque%2C+M+E"
-}

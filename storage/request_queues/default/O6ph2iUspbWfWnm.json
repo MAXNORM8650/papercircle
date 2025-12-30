@@ -1,9 +1,0 @@
-{
-	"id": "O6ph2iUspbWfWnm",
-	"json": "{\"id\":\"O6ph2iUspbWfWnm\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Cherubini,+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Cherubini%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986708,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Cherubini%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Cherubini,+S"
-}

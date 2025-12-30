@@ -1,9 +1,0 @@
-{
-	"id": "AcimKv8W7HDryzl",
-	"json": "{\"id\":\"AcimKv8W7HDryzl\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Calder,+J\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Calder%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087004502,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Calder%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Calder,+J"
-}

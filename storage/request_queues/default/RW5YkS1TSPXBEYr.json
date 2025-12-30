@@ -1,9 +1,0 @@
-{
-	"id": "RW5YkS1TSPXBEYr",
-	"json": "{\"id\":\"RW5YkS1TSPXBEYr\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ferguson,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ferguson%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014962,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Ferguson%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ferguson,+A"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "cZF3yOqcrqcxIkT",
-	"json": "{\"id\":\"cZF3yOqcrqcxIkT\",\"url\":\"https://arxiv.org/list/math.CO/recent\",\"loadedUrl\":\"https://arxiv.org/list/math.CO/recent\",\"uniqueKey\":\"https://arxiv.org/list/math.CO/recent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:06.696Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/math.CO/recent",
-	"url": "https://arxiv.org/list/math.CO/recent"
-}

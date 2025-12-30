@@ -1,9 +1,0 @@
-{
-	"id": "GgpW5BUSukPJ3mM",
-	"json": "{\"id\":\"GgpW5BUSukPJ3mM\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Bertossi,+L\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Bertossi%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087013788,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Bertossi%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Bertossi,+L"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "PpG8L7Jq0pJdSO7",
-	"json": "{\"id\":\"PpG8L7Jq0pJdSO7\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Antonsen,+F\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Antonsen%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999185,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Antonsen%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Antonsen,+F"
-}

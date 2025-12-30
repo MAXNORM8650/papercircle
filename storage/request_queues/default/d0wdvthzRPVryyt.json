@@ -1,9 +1,0 @@
-{
-	"id": "d0wdvthzRPVryyt",
-	"json": "{\"id\":\"d0wdvthzRPVryyt\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Shali,+A+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Shali%2C+A+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007482,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Shali%2C+A+H&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Shali,+A+H"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "RQbOfCVX51fntJF",
-	"json": "{\"id\":\"RQbOfCVX51fntJF\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Kravchenko,+O\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Kravchenko%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991547,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Kravchenko%2C+O&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Kravchenko,+O"
-}

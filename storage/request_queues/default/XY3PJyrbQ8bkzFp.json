@@ -1,9 +1,0 @@
-{
-	"id": "XY3PJyrbQ8bkzFp",
-	"json": "{\"id\":\"XY3PJyrbQ8bkzFp\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kelebek,+H+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kelebek%2C+H+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987540,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Kelebek%2C+H+S&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kelebek,+H+S"
-}

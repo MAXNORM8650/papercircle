@@ -1,9 +1,0 @@
-{
-	"id": "z8mmd3yEmuDbbna",
-	"json": "{\"id\":\"z8mmd3yEmuDbbna\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Polok,+A+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Polok%2C+A+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087011178,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Polok%2C+A+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Polok,+A+P"
-}

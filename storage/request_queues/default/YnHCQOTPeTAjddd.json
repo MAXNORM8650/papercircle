@@ -1,9 +1,0 @@
-{
-	"id": "YnHCQOTPeTAjddd",
-	"json": "{\"id\":\"YnHCQOTPeTAjddd\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Ralegankar,+P\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Ralegankar%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994316,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Ralegankar%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Ralegankar,+P"
-}

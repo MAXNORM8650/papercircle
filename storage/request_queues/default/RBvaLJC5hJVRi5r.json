@@ -1,9 +1,0 @@
-{
-	"id": "RBvaLJC5hJVRi5r",
-	"json": "{\"id\":\"RBvaLJC5hJVRi5r\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Estrada,+E+J\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Estrada%2C+E+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994292,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Estrada%2C+E+J&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Estrada,+E+J"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "7pypPmATHGU8ibZ",
-	"json": "{\"id\":\"7pypPmATHGU8ibZ\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Baek,+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Baek%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014192,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Baek%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Baek,+D"
-}

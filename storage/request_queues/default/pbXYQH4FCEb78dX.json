@@ -1,9 +1,0 @@
-{
-	"id": "pbXYQH4FCEb78dX",
-	"json": "{\"id\":\"pbXYQH4FCEb78dX\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=de+Vos,+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=de+Vos%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087013125,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=de+Vos%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=de+Vos,+T"
-}

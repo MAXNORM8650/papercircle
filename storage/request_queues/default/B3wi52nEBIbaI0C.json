@@ -1,9 +1,0 @@
-{
-	"id": "B3wi52nEBIbaI0C",
-	"json": "{\"id\":\"B3wi52nEBIbaI0C\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Dennehy,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Dennehy%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006869,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Dennehy%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Dennehy,+A"
-}

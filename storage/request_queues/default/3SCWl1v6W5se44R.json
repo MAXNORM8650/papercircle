@@ -1,9 +1,0 @@
-{
-	"id": "3SCWl1v6W5se44R",
-	"json": "{\"id\":\"3SCWl1v6W5se44R\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Prendergast,+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Prendergast%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988225,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Prendergast%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Prendergast,+P"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "K1yDaG2ZaNhLnHm",
-	"json": "{\"id\":\"K1yDaG2ZaNhLnHm\",\"url\":\"https://arxiv.org/archive/hep-lat\",\"loadedUrl\":\"https://arxiv.org/archive/hep-lat\",\"uniqueKey\":\"https://arxiv.org/archive/hep-lat\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:53.407Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/archive/hep-lat",
-	"url": "https://arxiv.org/archive/hep-lat"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "pVY5h7nlvTtRRuk",
-	"json": "{\"id\":\"pVY5h7nlvTtRRuk\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Barr,+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Barr%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986405,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Barr%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Barr,+E"
-}

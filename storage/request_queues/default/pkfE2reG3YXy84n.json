@@ -1,9 +1,0 @@
-{
-	"id": "pkfE2reG3YXy84n",
-	"json": "{\"id\":\"pkfE2reG3YXy84n\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Pugar,+J+A\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Pugar%2C+J+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021220,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Pugar%2C+J+A&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Pugar,+J+A"
-}

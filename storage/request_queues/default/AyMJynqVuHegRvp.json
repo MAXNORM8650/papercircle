@@ -1,9 +1,0 @@
-{
-	"id": "AyMJynqVuHegRvp",
-	"json": "{\"id\":\"AyMJynqVuHegRvp\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Chatzis,+D\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Chatzis%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994555,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-th?query=Chatzis%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Chatzis,+D"
-}

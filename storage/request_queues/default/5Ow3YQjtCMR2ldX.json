@@ -1,9 +1,0 @@
-{
-	"id": "5Ow3YQjtCMR2ldX",
-	"json": "{\"id\":\"5Ow3YQjtCMR2ldX\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Hung,+M+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Hung%2C+M+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087018372,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Hung%2C+M+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Hung,+M+P"
-}

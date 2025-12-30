@@ -1,9 +1,0 @@
-{
-	"id": "KpSExc3W4Q87MQd",
-	"json": "{\"id\":\"KpSExc3W4Q87MQd\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Sheekey,+O+I\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Sheekey%2C+O+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991159,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Sheekey%2C+O+I&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Sheekey,+O+I"
-}

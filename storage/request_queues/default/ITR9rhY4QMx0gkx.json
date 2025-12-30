@@ -1,9 +1,0 @@
-{
-	"id": "ITR9rhY4QMx0gkx",
-	"json": "{\"id\":\"ITR9rhY4QMx0gkx\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Motzkin%2C+J+Y+B\",\"uniqueKey\":\"https://arxiv.org/search?query=Motzkin%2C+J+Y+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087055017,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Motzkin%2C+J+Y+B&searchtype=author",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Motzkin%2C+J+Y+B"
-}

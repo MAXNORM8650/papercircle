@@ -1,9 +1,0 @@
-{
-	"id": "1T8ZyGFfP2vQtIa",
-	"json": "{\"id\":\"1T8ZyGFfP2vQtIa\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Kurihara,+K\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Kurihara%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006153,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Kurihara%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Kurihara,+K"
-}

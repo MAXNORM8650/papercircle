@@ -1,9 +1,0 @@
-{
-	"id": "r00KRjlWbGWlH70",
-	"json": "{\"id\":\"r00KRjlWbGWlH70\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Schuller%2C+F\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Schuller%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087081858,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Schuller%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Schuller%2C+F"
-}

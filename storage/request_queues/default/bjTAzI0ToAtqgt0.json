@@ -1,9 +1,0 @@
-{
-	"id": "bjTAzI0ToAtqgt0",
-	"json": "{\"id\":\"bjTAzI0ToAtqgt0\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Ravent%C3%B3s-Pujol,+A\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Ravent%C3%B3s-Pujol%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021601,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/econ?query=Ravent%C3%B3s-Pujol%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/econ?searchtype=author&query=Ravent%C3%B3s-Pujol,+A"
-}

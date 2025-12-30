@@ -1,9 +1,0 @@
-{
-	"id": "MM84tPgIrC6MTFJ",
-	"json": "{\"id\":\"MM84tPgIrC6MTFJ\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Oh,+C\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Oh%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087003777,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Oh%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Oh,+C"
-}

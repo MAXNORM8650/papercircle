@@ -1,9 +1,0 @@
-{
-	"id": "Zz6PwBz5L9ngBPf",
-	"json": "{\"id\":\"Zz6PwBz5L9ngBPf\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bischetti%2C+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Bischetti%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087059907,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Bischetti%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Bischetti%2C+M"
-}

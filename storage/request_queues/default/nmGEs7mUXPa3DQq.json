@@ -1,9 +1,0 @@
-{
-	"id": "nmGEs7mUXPa3DQq",
-	"json": "{\"id\":\"nmGEs7mUXPa3DQq\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Frank,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Frank%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988377,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Frank%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Frank,+P"
-}

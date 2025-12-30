@@ -1,9 +1,0 @@
-{
-	"id": "6BnXAkV6SIddEhn",
-	"json": "{\"id\":\"6BnXAkV6SIddEhn\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Sommer,+F+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Sommer%2C+F+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016815,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Sommer%2C+F+T&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Sommer,+F+T"
-}

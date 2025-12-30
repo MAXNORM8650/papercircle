@@ -1,9 +1,0 @@
-{
-	"id": "RSU2wXxkMRU1sXm",
-	"json": "{\"id\":\"RSU2wXxkMRU1sXm\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Shechtman,+S\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Shechtman%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025326,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Shechtman%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Shechtman,+S"
-}

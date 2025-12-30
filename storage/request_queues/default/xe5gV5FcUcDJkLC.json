@@ -1,9 +1,0 @@
-{
-	"id": "xe5gV5FcUcDJkLC",
-	"json": "{\"id\":\"xe5gV5FcUcDJkLC\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Berglund,+M+K\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Berglund%2C+M+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021210,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Berglund%2C+M+K&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Berglund,+M+K"
-}

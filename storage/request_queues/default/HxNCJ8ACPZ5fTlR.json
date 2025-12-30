@@ -1,9 +1,0 @@
-{
-	"id": "HxNCJ8ACPZ5fTlR",
-	"json": "{\"id\":\"HxNCJ8ACPZ5fTlR\",\"url\":\"https://arxiv.org/format/2511.19362\",\"loadedUrl\":\"https://arxiv.org/format/2511.19362\",\"uniqueKey\":\"https://arxiv.org/format/2511.19362\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:22.699Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/format/2511.19362",
-	"url": "https://arxiv.org/format/2511.19362"
-}

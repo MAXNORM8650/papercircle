@@ -1,9 +1,0 @@
-{
-	"id": "bsWZpMxaZV7KI56",
-	"json": "{\"id\":\"bsWZpMxaZV7KI56\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Allemand,+A\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Allemand%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086990743,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Allemand%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Allemand,+A"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "Q2EoOfxqSlyiKEk",
-	"json": "{\"id\":\"Q2EoOfxqSlyiKEk\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Su,+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Su%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010327,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Su%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Su,+B"
-}

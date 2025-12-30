@@ -1,9 +1,0 @@
-{
-	"id": "AFZQRE0ifkNok7K",
-	"json": "{\"id\":\"AFZQRE0ifkNok7K\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Young,+M+P\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Young%2C+M+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087004593,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Young%2C+M+P&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Young,+M+P"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "ImbE60detVXxJVL",
-	"json": "{\"id\":\"ImbE60detVXxJVL\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kaafar,+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kaafar%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014500,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Kaafar%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kaafar,+D"
-}

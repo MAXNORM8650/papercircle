@@ -1,9 +1,0 @@
-{
-	"id": "FssP9GpOdgHMD9T",
-	"json": "{\"id\":\"FssP9GpOdgHMD9T\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Cotter,+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Cotter%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000780,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Cotter%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Cotter,+E"
-}

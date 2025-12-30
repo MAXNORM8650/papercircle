@@ -1,9 +1,0 @@
-{
-	"id": "EftDDNRU7E1Ni4q",
-	"json": "{\"id\":\"EftDDNRU7E1Ni4q\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Tian,+L\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Tian%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009727,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Tian%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Tian,+L"
-}

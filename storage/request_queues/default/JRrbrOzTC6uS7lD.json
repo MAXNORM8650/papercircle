@@ -1,9 +1,0 @@
-{
-	"id": "JRrbrOzTC6uS7lD",
-	"json": "{\"id\":\"JRrbrOzTC6uS7lD\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Ferrante,+S\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Ferrante%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087038527,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Ferrante%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Ferrante,+S"
-}

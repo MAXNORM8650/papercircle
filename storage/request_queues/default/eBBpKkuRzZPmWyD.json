@@ -1,9 +1,0 @@
-{
-	"id": "eBBpKkuRzZPmWyD",
-	"json": "{\"id\":\"eBBpKkuRzZPmWyD\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Sensi,+M\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Sensi%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006912,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Sensi%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Sensi,+M"
-}

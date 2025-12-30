@@ -1,9 +1,0 @@
-{
-	"id": "WcO19a6ZBTnT8gz",
-	"json": "{\"id\":\"WcO19a6ZBTnT8gz\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Gupta,+H+V\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Gupta%2C+H+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087001910,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Gupta%2C+H+V&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Gupta,+H+V"
-}

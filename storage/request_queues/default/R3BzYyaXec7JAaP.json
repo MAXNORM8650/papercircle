@@ -1,9 +1,0 @@
-{
-	"id": "R3BzYyaXec7JAaP",
-	"json": "{\"id\":\"R3BzYyaXec7JAaP\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Fatome,+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Fatome%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999280,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Fatome%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Fatome,+J"
-}

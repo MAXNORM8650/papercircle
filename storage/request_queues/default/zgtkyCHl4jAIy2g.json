@@ -1,9 +1,0 @@
-{
-	"id": "zgtkyCHl4jAIy2g",
-	"json": "{\"id\":\"zgtkyCHl4jAIy2g\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Gan,+Z\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Gan%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009409,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Gan%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Gan,+Z"
-}

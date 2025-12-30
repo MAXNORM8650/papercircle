@@ -1,9 +1,0 @@
-{
-	"id": "74XXXgjCqefeFXB",
-	"json": "{\"id\":\"74XXXgjCqefeFXB\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Jones%2C+W+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Jones%2C+W+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087094338,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Jones%2C+W+C&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Jones%2C+W+C"
-}

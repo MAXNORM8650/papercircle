@@ -1,9 +1,0 @@
-{
-	"id": "oVZBNZb3eRxieuz",
-	"json": "{\"id\":\"oVZBNZb3eRxieuz\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Gonz%C3%A1lez-D%C3%ADaz%2C+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Gonz%C3%A1lez-D%C3%ADaz%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087081199,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Gonz%C3%A1lez-D%C3%ADaz%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Gonz%C3%A1lez-D%C3%ADaz%2C+D"
-}

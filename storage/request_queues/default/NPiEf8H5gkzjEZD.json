@@ -1,9 +1,0 @@
-{
-	"id": "NPiEf8H5gkzjEZD",
-	"json": "{\"id\":\"NPiEf8H5gkzjEZD\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Johnson,+J+C\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Johnson%2C+J+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086990787,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Johnson%2C+J+C&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Johnson,+J+C"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "AI9GHVfNn8ENCtB",
-	"json": "{\"id\":\"AI9GHVfNn8ENCtB\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Banik,+I\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Banik%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986844,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Banik%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Banik,+I"
-}

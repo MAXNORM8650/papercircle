@@ -1,9 +1,0 @@
-{
-	"id": "X7Y1iEl2KJ3cd52",
-	"json": "{\"id\":\"X7Y1iEl2KJ3cd52\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Patwardhan,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Patwardhan%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087013536,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Patwardhan%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Patwardhan,+M"
-}

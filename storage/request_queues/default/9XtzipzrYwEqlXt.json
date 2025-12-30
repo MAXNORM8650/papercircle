@@ -1,9 +1,0 @@
-{
-	"id": "9XtzipzrYwEqlXt",
-	"json": "{\"id\":\"9XtzipzrYwEqlXt\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Zughaibi,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Zughaibi%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087017191,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Zughaibi%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Zughaibi,+J"
-}

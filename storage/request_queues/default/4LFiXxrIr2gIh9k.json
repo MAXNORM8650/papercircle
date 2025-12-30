@@ -1,9 +1,0 @@
-{
-	"id": "4LFiXxrIr2gIh9k",
-	"json": "{\"id\":\"4LFiXxrIr2gIh9k\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Kolonin,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Kolonin%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087001324,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Kolonin%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Kolonin,+A"
-}

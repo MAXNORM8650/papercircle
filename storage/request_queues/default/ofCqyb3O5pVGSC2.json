@@ -1,9 +1,0 @@
-{
-	"id": "ofCqyb3O5pVGSC2",
-	"json": "{\"id\":\"ofCqyb3O5pVGSC2\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Natarajan,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Natarajan%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015016,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Natarajan%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Natarajan,+A"
-}

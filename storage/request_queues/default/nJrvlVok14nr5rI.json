@@ -1,9 +1,0 @@
-{
-	"id": "nJrvlVok14nr5rI",
-	"json": "{\"id\":\"nJrvlVok14nr5rI\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Oroszl%C3%A1ny,+L\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Oroszl%C3%A1ny%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989393,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Oroszl%C3%A1ny%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Oroszl%C3%A1ny,+L"
-}

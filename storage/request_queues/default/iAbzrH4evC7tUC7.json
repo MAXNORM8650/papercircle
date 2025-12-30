@@ -1,9 +1,0 @@
-{
-	"id": "iAbzrH4evC7tUC7",
-	"json": "{\"id\":\"iAbzrH4evC7tUC7\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Brugnera,+R\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Brugnera%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002265,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Brugnera%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Brugnera,+R"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "yaeo5shaA36pwS4",
-	"json": "{\"id\":\"yaeo5shaA36pwS4\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Duraisamy,+K\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Duraisamy%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087003066,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Duraisamy%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Duraisamy,+K"
-}

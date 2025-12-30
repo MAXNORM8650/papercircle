@@ -1,9 +1,0 @@
-{
-	"id": "BxNekkP49GtMBSh",
-	"json": "{\"id\":\"BxNekkP49GtMBSh\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Szil%C3%A1gyi%2C+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Szil%C3%A1gyi%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087081312,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Szil%C3%A1gyi%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Szil%C3%A1gyi%2C+M"
-}

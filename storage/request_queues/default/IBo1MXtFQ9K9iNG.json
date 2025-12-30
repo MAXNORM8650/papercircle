@@ -1,9 +1,0 @@
-{
-	"id": "IBo1MXtFQ9K9iNG",
-	"json": "{\"id\":\"IBo1MXtFQ9K9iNG\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Barbosa,+I\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Barbosa%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988111,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Barbosa%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Barbosa,+I"
-}

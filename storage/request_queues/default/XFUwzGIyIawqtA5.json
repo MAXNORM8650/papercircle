@@ -1,9 +1,0 @@
-{
-	"id": "XFUwzGIyIawqtA5",
-	"json": "{\"id\":\"XFUwzGIyIawqtA5\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Barbera,+R\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Barbera%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002251,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Barbera%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Barbera,+R"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "oFxVVe95pKg3o5q",
-	"json": "{\"id\":\"oFxVVe95pKg3o5q\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Zvezdov,+D+Y\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Zvezdov%2C+D+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087036408,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Zvezdov%2C+D+Y&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Zvezdov,+D+Y"
-}

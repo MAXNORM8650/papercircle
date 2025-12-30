@@ -1,9 +1,0 @@
-{
-	"id": "GCjIrzQETo8b2nV",
-	"json": "{\"id\":\"GCjIrzQETo8b2nV\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Andreola,+P\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Andreola%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992840,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Andreola%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Andreola,+P"
-}

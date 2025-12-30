@@ -1,9 +1,0 @@
-{
-	"id": "pVLPHPyhWnX17aD",
-	"json": "{\"id\":\"pVLPHPyhWnX17aD\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Panotopoulos,+G\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Panotopoulos%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991618,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Panotopoulos%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Panotopoulos,+G"
-}

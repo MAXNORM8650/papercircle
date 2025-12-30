@@ -1,9 +1,0 @@
-{
-	"id": "5UkeJkWDRYRb74J",
-	"json": "{\"id\":\"5UkeJkWDRYRb74J\",\"url\":\"https://arxiv.org/list/nlin.SI/current\",\"uniqueKey\":\"https://arxiv.org/list/nlin.SI/current\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086996105,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/nlin.SI/current",
-	"url": "https://arxiv.org/list/nlin.SI/current"
-}

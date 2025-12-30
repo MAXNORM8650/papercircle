@@ -1,9 +1,0 @@
-{
-	"id": "PpPLtgF6y9v7Ze3",
-	"json": "{\"id\":\"PpPLtgF6y9v7Ze3\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Mathov,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Mathov%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012978,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Mathov%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Mathov,+Y"
-}

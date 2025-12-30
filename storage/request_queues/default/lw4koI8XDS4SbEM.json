@@ -1,9 +1,0 @@
-{
-	"id": "lw4koI8XDS4SbEM",
-	"json": "{\"id\":\"lw4koI8XDS4SbEM\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Almeida,+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Almeida%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999867,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Almeida%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Almeida,+R"
-}

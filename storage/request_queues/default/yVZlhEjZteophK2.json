@@ -1,9 +1,0 @@
-{
-	"id": "yVZlhEjZteophK2",
-	"json": "{\"id\":\"yVZlhEjZteophK2\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Simon,+Z\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Simon%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002583,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Simon%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Simon,+Z"
-}

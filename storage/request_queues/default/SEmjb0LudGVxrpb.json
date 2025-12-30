@@ -1,9 +1,0 @@
-{
-	"id": "SEmjb0LudGVxrpb",
-	"json": "{\"id\":\"SEmjb0LudGVxrpb\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ding,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ding%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010106,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Ding%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ding,+M"
-}

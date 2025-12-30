@@ -1,9 +1,0 @@
-{
-	"id": "vu0ARzVNZA5AAeq",
-	"json": "{\"id\":\"vu0ARzVNZA5AAeq\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=MacLeod%2C+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=MacLeod%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087086093,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=MacLeod%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=MacLeod%2C+G"
-}

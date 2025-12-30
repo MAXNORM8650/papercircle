@@ -1,9 +1,0 @@
-{
-	"id": "bWJDsQb4R7Hfty2",
-	"json": "{\"id\":\"bWJDsQb4R7Hfty2\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Fern%C3%A1ndez,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Fern%C3%A1ndez%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016944,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Fern%C3%A1ndez%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Fern%C3%A1ndez,+Y"
-}

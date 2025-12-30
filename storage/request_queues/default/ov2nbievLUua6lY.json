@@ -1,9 +1,0 @@
-{
-	"id": "ov2nbievLUua6lY",
-	"json": "{\"id\":\"ov2nbievLUua6lY\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=%C4%8Cuba,+V\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=%C4%8Cuba%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002484,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=%C4%8Cuba%2C+V&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=%C4%8Cuba,+V"
-}

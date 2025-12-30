@@ -1,9 +1,0 @@
-{
-	"id": "Eyq8CWeu7keL2Md",
-	"json": "{\"id\":\"Eyq8CWeu7keL2Md\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Sun,+R\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Sun%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007793,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Sun%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Sun,+R"
-}

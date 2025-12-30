@@ -1,9 +1,0 @@
-{
-	"id": "f1XciRit0krhURD",
-	"json": "{\"id\":\"f1XciRit0krhURD\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Be%C5%88u%C5%A1ov%C3%A1,+Z\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Be%C5%88u%C5%A1ov%C3%A1%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986687,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Be%C5%88u%C5%A1ov%C3%A1%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Be%C5%88u%C5%A1ov%C3%A1,+Z"
-}

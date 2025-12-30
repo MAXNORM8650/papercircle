@@ -1,9 +1,0 @@
-{
-	"id": "5naRV6uQ6THE93o",
-	"json": "{\"id\":\"5naRV6uQ6THE93o\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Mascarell,+M+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Mascarell%2C+M+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987002,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Mascarell%2C+M+G&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Mascarell,+M+G"
-}

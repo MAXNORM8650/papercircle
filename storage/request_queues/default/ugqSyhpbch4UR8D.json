@@ -1,9 +1,0 @@
-{
-	"id": "ugqSyhpbch4UR8D",
-	"json": "{\"id\":\"ugqSyhpbch4UR8D\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Shakya,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Shakya%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087013824,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Shakya%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Shakya,+A"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "82Tcordud9CczrK",
-	"json": "{\"id\":\"82Tcordud9CczrK\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Rosotti,+G+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Rosotti%2C+G+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988050,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Rosotti%2C+G+P&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Rosotti,+G+P"
-}

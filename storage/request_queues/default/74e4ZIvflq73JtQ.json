@@ -1,9 +1,0 @@
-{
-	"id": "74e4ZIvflq73JtQ",
-	"json": "{\"id\":\"74e4ZIvflq73JtQ\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Fern%C3%A1ndez-Mendui%C3%B1a,+S\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Fern%C3%A1ndez-Mendui%C3%B1a%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006377,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Fern%C3%A1ndez-Mendui%C3%B1a%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Fern%C3%A1ndez-Mendui%C3%B1a,+S"
-}

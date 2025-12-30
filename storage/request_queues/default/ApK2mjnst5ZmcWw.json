@@ -1,9 +1,0 @@
-{
-	"id": "ApK2mjnst5ZmcWw",
-	"json": "{\"id\":\"ApK2mjnst5ZmcWw\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Elgindy,+K+T\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Elgindy%2C+K+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009157,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Elgindy%2C+K+T&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Elgindy,+K+T"
-}

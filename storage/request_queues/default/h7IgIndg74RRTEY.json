@@ -1,9 +1,0 @@
-{
-	"id": "h7IgIndg74RRTEY",
-	"json": "{\"id\":\"h7IgIndg74RRTEY\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Wogan,+N\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Wogan%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986571,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Wogan%2C+N&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Wogan,+N"
-}

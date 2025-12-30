@@ -1,9 +1,0 @@
-{
-	"id": "d2zFXYOTrKIKzzk",
-	"json": "{\"id\":\"d2zFXYOTrKIKzzk\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Lin,+Z\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Lin%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999430,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Lin%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Lin,+Z"
-}

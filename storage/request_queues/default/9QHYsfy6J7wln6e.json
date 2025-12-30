@@ -1,9 +1,0 @@
-{
-	"id": "9QHYsfy6J7wln6e",
-	"json": "{\"id\":\"9QHYsfy6J7wln6e\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Cowen%2C+D+F&start=0\",\"uniqueKey\":\"https://arxiv.org/search?query=Cowen%2C+D+F&searchtype=author&start=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087068197,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Cowen%2C+D+F&searchtype=author&start=0",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Cowen%2C+D+F&start=0"
-}

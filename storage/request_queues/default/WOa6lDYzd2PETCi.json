@@ -1,9 +1,0 @@
-{
-	"id": "WOa6lDYzd2PETCi",
-	"json": "{\"id\":\"WOa6lDYzd2PETCi\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Yeh,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Yeh%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087030886,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Yeh%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Yeh,+M"
-}

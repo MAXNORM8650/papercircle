@@ -1,9 +1,0 @@
-{
-	"id": "JJcKarmfFA1ohLH",
-	"json": "{\"id\":\"JJcKarmfFA1ohLH\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Senapati,+P\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Senapati%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087003585,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Senapati%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Senapati,+P"
-}

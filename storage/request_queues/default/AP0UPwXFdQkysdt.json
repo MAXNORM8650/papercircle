@@ -1,9 +1,0 @@
-{
-	"id": "AP0UPwXFdQkysdt",
-	"json": "{\"id\":\"AP0UPwXFdQkysdt\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Finlayson,+S+G\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Finlayson%2C+S+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010178,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Finlayson%2C+S+G&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Finlayson,+S+G"
-}

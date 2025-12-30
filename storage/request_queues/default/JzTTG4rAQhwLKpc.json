@@ -1,9 +1,0 @@
-{
-	"id": "JzTTG4rAQhwLKpc",
-	"json": "{\"id\":\"JzTTG4rAQhwLKpc\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Jofr%C3%A9%2C+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Jofr%C3%A9%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087073583,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Jofr%C3%A9%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Jofr%C3%A9%2C+P"
-}

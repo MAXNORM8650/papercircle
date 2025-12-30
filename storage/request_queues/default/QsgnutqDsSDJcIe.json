@@ -1,9 +1,0 @@
-{
-	"id": "QsgnutqDsSDJcIe",
-	"json": "{\"id\":\"QsgnutqDsSDJcIe\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=R%C3%B6ssler,+J\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=R%C3%B6ssler%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994250,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=R%C3%B6ssler%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=R%C3%B6ssler,+J"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "vKiUaoYKD86c74a",
-	"json": "{\"id\":\"vKiUaoYKD86c74a\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Franks,+M\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Franks%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992824,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Franks%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Franks,+M"
-}

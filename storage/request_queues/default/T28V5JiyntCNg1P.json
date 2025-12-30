@@ -1,9 +1,0 @@
-{
-	"id": "T28V5JiyntCNg1P",
-	"json": "{\"id\":\"T28V5JiyntCNg1P\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Liu,+J\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Liu%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087026223,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/econ?query=Liu%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/econ?searchtype=author&query=Liu,+J"
-}

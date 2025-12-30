@@ -1,9 +1,0 @@
-{
-	"id": "ihPbEQ1Uywl0pcQ",
-	"json": "{\"id\":\"ihPbEQ1Uywl0pcQ\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Singh,+S+S\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Singh%2C+S+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991515,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Singh%2C+S+S&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Singh,+S+S"
-}

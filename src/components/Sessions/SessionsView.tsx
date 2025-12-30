@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Calendar, Clock, MapPin, Users, CheckCircle, Plus, Video, Edit } from 'lucide-react';
+import { Calendar, Clock, MapPin, Users, CheckCircle, Plus, Video, Edit, Trash2 } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
 import { CreateSessionModal } from './CreateSessionModal';
@@ -35,38 +35,48 @@ export function SessionsView({ onSelectSession }: SessionsViewProps) {
 
   const loadSessions = async () => {
     setLoading(true);
+
+    // Get all sessions from user's communities
     let query = supabase
       .from('sessions')
       .select(`
         *,
-        presenter:profiles!sessions_presenter_id_fkey(display_name),
-        paper:papers(title)
+        communities:community_id (
+          id,
+          name
+        )
       `);
 
     const now = new Date().toISOString();
     if (filter === 'upcoming') {
-      query = query.gte('scheduled_at', now).order('scheduled_at', { ascending: true });
+      query = query.gte('scheduled_for', now).order('scheduled_for', { ascending: true });
     } else if (filter === 'past') {
-      query = query.lt('scheduled_at', now).order('scheduled_at', { ascending: false });
+      query = query.lt('scheduled_for', now).order('scheduled_for', { ascending: false });
     } else {
-      query = query.order('scheduled_at', { ascending: false });
+      query = query.order('scheduled_for', { ascending: false });
     }
 
-    const { data } = await query;
+    const { data, error } = await query;
+
+    if (error) {
+      console.error('Error loading sessions:', error);
+      setLoading(false);
+      return;
+    }
 
     if (data) {
       const sessionsWithRsvps = await Promise.all(
         data.map(async (session) => {
           const { count } = await supabase
-            .from('rsvps')
+            .from('session_rsvps')
             .select('*', { count: 'exact', head: true })
             .eq('session_id', session.id)
-            .eq('status', 'attending');
+            .eq('status', 'going');
 
           let userRsvp = null;
           if (user) {
             const { data: rsvpData } = await supabase
-              .from('rsvps')
+              .from('session_rsvps')
               .select('status')
               .eq('session_id', session.id)
               .eq('user_id', user.id)
@@ -87,30 +97,61 @@ export function SessionsView({ onSelectSession }: SessionsViewProps) {
     setLoading(false);
   };
 
-  const handleRSVP = async (sessionId: string, status: 'attending' | 'maybe' | 'not_attending') => {
+  const handleRSVP = async (sessionId: string, status: 'going' | 'maybe' | 'not_going') => {
     if (!user) return;
 
-    const { data: existing } = await supabase
-      .from('rsvps')
-      .select('id')
-      .eq('session_id', sessionId)
-      .eq('user_id', user.id)
-      .maybeSingle();
-
-    if (existing) {
-      await supabase
-        .from('rsvps')
-        .update({ status })
-        .eq('id', existing.id);
-    } else {
-      await supabase.from('rsvps').insert({
+    const { error } = await supabase
+      .from('session_rsvps')
+      .upsert({
         session_id: sessionId,
         user_id: user.id,
         status,
+        updated_at: new Date().toISOString(),
+      }, {
+        onConflict: 'session_id,user_id',
       });
+
+    if (!error) {
+      loadSessions();
+    }
+  };
+
+  const handleDeleteSession = async (sessionId: string) => {
+    if (!confirm('Are you sure you want to delete this session? This cannot be undone.')) {
+      return;
     }
 
-    loadSessions();
+    try {
+      const { error } = await supabase
+        .from('sessions')
+        .delete()
+        .eq('id', sessionId);
+
+      if (error) {
+        console.error('Delete error:', error);
+        alert(`Failed to delete session: ${error.message}`);
+      } else {
+        alert('Session deleted successfully!');
+        loadSessions();
+      }
+    } catch (error) {
+      console.error('Delete exception:', error);
+      alert('An unexpected error occurred while deleting the session.');
+    }
+  };
+
+  const handleEditSession = (sessionId: string) => {
+    // Find the session to edit and show the modal
+    const session = sessions.find(s => s.id === sessionId);
+    if (session) {
+      setSelectedSessionId(sessionId);
+      setShowCreateModal(true);
+    }
+  };
+
+  const handleCloseCreateModal = () => {
+    setShowCreateModal(false);
+    setSelectedSessionId(null);
   };
 
   const formatDate = (dateString: string) => {
@@ -253,12 +294,12 @@ export function SessionsView({ onSelectSession }: SessionsViewProps) {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4 text-sm text-gray-600">
                   <div className="flex items-center space-x-2">
                     <Calendar className="h-4 w-4" />
-                    <span>{formatDate(session.scheduled_at)}</span>
+                    <span>{formatDate(session.scheduled_for)}</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Clock className="h-4 w-4" />
                     <span>
-                      {formatTime(session.scheduled_at)} ({session.duration_minutes} min)
+                      {formatTime(session.scheduled_for)} ({session.duration_minutes} min)
                     </span>
                   </div>
                   {session.location && (
@@ -296,19 +337,28 @@ export function SessionsView({ onSelectSession }: SessionsViewProps) {
 
                   <div className="flex items-center space-x-2">
                     {isSessionOwner(session) && (
-                      <button
-                        onClick={() => handlePrepareSession(session.id)}
-                        className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200 transition-colors font-medium flex items-center space-x-1"
-                      >
-                        <Edit className="h-4 w-4" />
-                        <span>Prepare</span>
-                      </button>
+                      <>
+                        <button
+                          onClick={() => handleEditSession(session.id)}
+                          className="px-3 py-2 bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200 transition-colors font-medium flex items-center space-x-1"
+                        >
+                          <Edit className="h-4 w-4" />
+                          <span>Edit</span>
+                        </button>
+                        <button
+                          onClick={() => handleDeleteSession(session.id)}
+                          className="px-3 py-2 bg-red-100 text-red-700 rounded-lg hover:bg-red-200 transition-colors font-medium flex items-center space-x-1"
+                        >
+                          <Trash2 className="h-4 w-4" />
+                          <span>Delete</span>
+                        </button>
+                      </>
                     )}
-                    {user && isUpcoming(session.scheduled_at) && (
+                    {user && isUpcoming(session.scheduled_for) && (
                       <button
-                        onClick={() => handleRSVP(session.id, 'attending')}
+                        onClick={() => handleRSVP(session.id, 'going')}
                         className={`px-4 py-2 rounded-lg font-medium transition-colors ${
-                          session.user_rsvp === 'attending'
+                          session.user_rsvp === 'going'
                             ? 'bg-green-600 text-white'
                             : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                         }`}
@@ -331,12 +381,15 @@ export function SessionsView({ onSelectSession }: SessionsViewProps) {
         </div>
       )}
 
-      {showCreateModal && (
+      {showCreateModal && selectedSessionId && (
         <CreateSessionModal
-          onClose={() => setShowCreateModal(false)}
+          isOpen={showCreateModal}
+          communityId={sessions.find(s => s.id === selectedSessionId)?.community_id || ''}
+          sessionToEdit={sessions.find(s => s.id === selectedSessionId)}
+          onClose={handleCloseCreateModal}
           onSuccess={() => {
             loadSessions();
-            setShowCreateModal(false);
+            handleCloseCreateModal();
           }}
         />
       )}

@@ -1,9 +1,0 @@
-{
-	"id": "hzIFng5bkMSiE3l",
-	"json": "{\"id\":\"hzIFng5bkMSiE3l\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Golin,+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Golin%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087017802,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Golin%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Golin,+R"
-}

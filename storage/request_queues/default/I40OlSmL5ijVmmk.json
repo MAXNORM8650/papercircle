@@ -1,9 +1,0 @@
-{
-	"id": "I40OlSmL5ijVmmk",
-	"json": "{\"id\":\"I40OlSmL5ijVmmk\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Gonz%C3%A1lez-Cebri%C3%A1n,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Gonz%C3%A1lez-Cebri%C3%A1n%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002433,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Gonz%C3%A1lez-Cebri%C3%A1n%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Gonz%C3%A1lez-Cebri%C3%A1n,+A"
-}

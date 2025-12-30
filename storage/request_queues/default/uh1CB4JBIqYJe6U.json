@@ -1,9 +1,0 @@
-{
-	"id": "uh1CB4JBIqYJe6U",
-	"json": "{\"id\":\"uh1CB4JBIqYJe6U\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Kraaij,+R+C\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Kraaij%2C+R+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007728,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Kraaij%2C+R+C&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Kraaij,+R+C"
-}

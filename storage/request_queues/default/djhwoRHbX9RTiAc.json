@@ -1,9 +1,0 @@
-{
-	"id": "djhwoRHbX9RTiAc",
-	"json": "{\"id\":\"djhwoRHbX9RTiAc\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Gueye,+P\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Gueye%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997759,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Gueye%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Gueye,+P"
-}

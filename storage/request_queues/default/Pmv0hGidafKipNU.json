@@ -1,9 +1,0 @@
-{
-	"id": "Pmv0hGidafKipNU",
-	"json": "{\"id\":\"Pmv0hGidafKipNU\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Mazumdar,+A\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Mazumdar%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994358,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Mazumdar%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Mazumdar,+A"
-}

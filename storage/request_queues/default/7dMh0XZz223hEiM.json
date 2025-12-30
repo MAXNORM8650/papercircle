@@ -1,9 +1,0 @@
-{
-	"id": "7dMh0XZz223hEiM",
-	"json": "{\"id\":\"7dMh0XZz223hEiM\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Morphew,+J+W\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Morphew%2C+J+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012094,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Morphew%2C+J+W&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Morphew,+J+W"
-}

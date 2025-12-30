@@ -1,9 +1,0 @@
-{
-	"id": "cxueFKR39zMyYd1",
-	"json": "{\"id\":\"cxueFKR39zMyYd1\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Hovis-Afflerbach,+B\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Hovis-Afflerbach%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987119,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Hovis-Afflerbach%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Hovis-Afflerbach,+B"
-}

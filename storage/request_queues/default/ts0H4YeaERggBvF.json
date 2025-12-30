@@ -1,9 +1,0 @@
-{
-	"id": "ts0H4YeaERggBvF",
-	"json": "{\"id\":\"ts0H4YeaERggBvF\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Chen,+A+Y\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Chen%2C+A+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988752,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Chen%2C+A+Y&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Chen,+A+Y"
-}

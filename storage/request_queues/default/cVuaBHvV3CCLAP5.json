@@ -1,9 +1,0 @@
-{
-	"id": "cVuaBHvV3CCLAP5",
-	"json": "{\"id\":\"cVuaBHvV3CCLAP5\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Matias,+N+L+L\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Matias%2C+N+L+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000237,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Matias%2C+N+L+L&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Matias,+N+L+L"
-}

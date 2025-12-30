@@ -1,9 +1,0 @@
-{
-	"id": "lVUdr5VEl9RD1Ug",
-	"json": "{\"id\":\"lVUdr5VEl9RD1Ug\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Zhuang,+X\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Zhuang%2C+X&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999635,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Zhuang%2C+X&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Zhuang,+X"
-}

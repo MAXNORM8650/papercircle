@@ -1,9 +1,0 @@
-{
-	"id": "eYAEf5z5sc9S3CZ",
-	"json": "{\"id\":\"eYAEf5z5sc9S3CZ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Capone,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Capone%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986702,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Capone%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Capone,+A"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "10ZKrwZsg5zlWIg",
-	"json": "{\"id\":\"10ZKrwZsg5zlWIg\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Vinciotti,+V\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Vinciotti%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023596,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Vinciotti%2C+V&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Vinciotti,+V"
-}

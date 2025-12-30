@@ -1,9 +1,0 @@
-{
-	"id": "ny3thu0M53naxys",
-	"json": "{\"id\":\"ny3thu0M53naxys\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Vazirani,+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Vazirani%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087004959,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Vazirani%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Vazirani,+M"
-}

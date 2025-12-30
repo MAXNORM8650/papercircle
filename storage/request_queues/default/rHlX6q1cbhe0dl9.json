@@ -1,9 +1,0 @@
-{
-	"id": "rHlX6q1cbhe0dl9",
-	"json": "{\"id\":\"rHlX6q1cbhe0dl9\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Mankar,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Mankar%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006297,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Mankar%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Mankar,+P"
-}

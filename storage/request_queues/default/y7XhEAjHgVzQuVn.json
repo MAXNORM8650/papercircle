@@ -1,9 +1,0 @@
-{
-	"id": "y7XhEAjHgVzQuVn",
-	"json": "{\"id\":\"y7XhEAjHgVzQuVn\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Zseleva,+A\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Zseleva%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087026231,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/econ?query=Zseleva%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/econ?searchtype=author&query=Zseleva,+A"
-}

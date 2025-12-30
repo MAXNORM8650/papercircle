@@ -1,9 +1,0 @@
-{
-	"id": "uKHV54mozP1EmGv",
-	"json": "{\"id\":\"uKHV54mozP1EmGv\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Cantrell,+W\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Cantrell%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999875,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Cantrell%2C+W&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Cantrell,+W"
-}

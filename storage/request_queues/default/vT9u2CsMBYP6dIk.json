@@ -1,9 +1,0 @@
-{
-	"id": "vT9u2CsMBYP6dIk",
-	"json": "{\"id\":\"vT9u2CsMBYP6dIk\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Brisse,+H\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Brisse%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002399,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Brisse%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Brisse,+H"
-}

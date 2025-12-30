@@ -1,9 +1,0 @@
-{
-	"id": "m9p59gHl884uHsW",
-	"json": "{\"id\":\"m9p59gHl884uHsW\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Hoang,+T+X\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Hoang%2C+T+X&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989588,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Hoang%2C+T+X&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Hoang,+T+X"
-}

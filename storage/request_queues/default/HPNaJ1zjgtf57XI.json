@@ -1,9 +1,0 @@
-{
-	"id": "HPNaJ1zjgtf57XI",
-	"json": "{\"id\":\"HPNaJ1zjgtf57XI\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Kumar,+R+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Kumar%2C+R+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999197,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Kumar%2C+R+R&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Kumar,+R+R"
-}

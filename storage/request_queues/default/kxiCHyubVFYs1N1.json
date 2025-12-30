@@ -1,9 +1,0 @@
-{
-	"id": "kxiCHyubVFYs1N1",
-	"json": "{\"id\":\"kxiCHyubVFYs1N1\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bauer,+E+B\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Bauer%2C+E+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986851,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Bauer%2C+E+B&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Bauer,+E+B"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "NTUMRNdguWqAyor",
-	"json": "{\"id\":\"NTUMRNdguWqAyor\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Antelis,+J+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Antelis%2C+J+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986837,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Antelis%2C+J+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Antelis,+J+M"
-}

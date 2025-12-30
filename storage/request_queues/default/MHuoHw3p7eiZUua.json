@@ -1,9 +1,0 @@
-{
-	"id": "MHuoHw3p7eiZUua",
-	"json": "{\"id\":\"MHuoHw3p7eiZUua\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Howard%2C+W+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Howard%2C+W+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087074875,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Howard%2C+W+S&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Howard%2C+W+S"
-}

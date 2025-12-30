@@ -1,9 +1,0 @@
-{
-	"id": "0u3fVZPxTfXhJLI",
-	"json": "{\"id\":\"0u3fVZPxTfXhJLI\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Rose%2C+J+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Rose%2C+J+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087094094,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Rose%2C+J+C&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Rose%2C+J+C"
-}

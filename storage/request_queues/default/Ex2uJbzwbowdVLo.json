@@ -1,9 +1,0 @@
-{
-	"id": "Ex2uJbzwbowdVLo",
-	"json": "{\"id\":\"Ex2uJbzwbowdVLo\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Grudi%C4%87,+M+Y\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Grudi%C4%87%2C+M+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087040566,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Grudi%C4%87%2C+M+Y&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Grudi%C4%87,+M+Y"
-}

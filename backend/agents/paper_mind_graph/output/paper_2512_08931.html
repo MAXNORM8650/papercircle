@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Astra: General Interactive World Model with Autoregressive Denoising</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+        #graph { width: 100%; height: 600px; border: 1px solid #ccc; }
+        .node { cursor: pointer; }
+        .node circle { stroke: #fff; stroke-width: 2px; }
+        .node text { font-size: 10px; }
+        .link { stroke: #999; stroke-opacity: 0.6; }
+        #info { padding: 10px; background: #f5f5f5; margin-top: 10px; }
+        .node-concept circle { fill: #4CAF50; }
+        .node-method circle { fill: #2196F3; }
+        .node-experiment circle { fill: #FF9800; }
+        .node-section circle { fill: #9C27B0; }
+        .node-figure circle { fill: #E91E63; }
+        .node-table circle { fill: #00BCD4; }
+        .node-paper circle { fill: #F44336; }
+    </style>
+</head>
+<body>
+    <h1>Astra: General Interactive World Model with Autoregressive Denoising</h1>
+    <div id="graph"></div>
+    <div id="info">Click a node to see details</div>
+    
+    <script>
+        const nodes = [{"id": "paper_2512_08931", "label": "Astra: General Interactive Wor", "type": "paper", "description": "Recent advances in diffusion transformers have empowered video generation\nmodels to generate high-quality video clips from texts or images. However, world\nmodels with the ability to predict long-horiz"}, {"id": "sec_1", "label": "1 INTRODUCTION", "type": "section", "description": "Building generative world models is an emerging field where the ability to synthesize realistic and\ncoherent video trajectories serves as a proxy for understanding and simulating the underlying dy-\nna"}, {"id": "sec_2", "label": "2 Training", "type": "section", "description": "image\nchunks\n\u02500\n\u0250\u01c7\nSample\n\u0a5d(0, \u0225)\n\u0a8a\nUpdate\nGenerated video\nInference\nDec.\naction stream\n\u00d7 \u01b8\n(a) Autoregressive denoising world framework\n(b) Action-aware flow transformer\nTrainable\nFrozen\nNext chunk\nF"}, {"id": "sec_3", "label": "3 PROPOSED APPROACH", "type": "section", "description": "In this section, we present Astra, an autoregressive denoising framework that achieves real-world\nvideo prediction and enjoys high interactivity, versatility, and consistency. Our key idea is to harne"}, {"id": "sec_3_1", "label": "3.1 PRELIMINARY: AUTOREGRESSIV", "type": "section", "description": "We adopt an autoregressive denoising framework, which integrates the long-horizon modeling of\nautoregression with the high-fidelity synthesis of diffusion. Given a video sequence discretized into\nchun"}, {"id": "sec_3_2", "label": "3.2 INTERACTIVE WORLD MODELING", "type": "section", "description": "Modern video generation models (Brooks et al., 2024; Wan et al., 2025) have demonstrated re-\nmarkable progress in simulating realistic visual dynamics. These models benefit from large-scale\npretrainin"}, {"id": "sec_3_3", "label": "3.3 HISTORY CONDITION WITH NOI", "type": "section", "description": "After addressing the challenge of action control, we turn to another open problem: balancing the\nlong-term temporal consistency with responsiveness to actions. Prior works have shown that gen-\nerating"}, {"id": "sec_5", "label": "5 CONCLUSION", "type": "section", "description": "In this work, we present Astra, a simple yet effective framework for building interactive world\nmodels that unify real-world video prediction with precise action conditioning. By equipping a pre-\ntrai"}, {"id": "sec_3_4", "label": "3.4 MIXURE OF ACTION EXPERTS F", "type": "section", "description": "Interactive world modeling often involves multi-modal inputs, including camera observations, body\npose, and discrete action commands. These heterogeneous signals differ in structure and scale,\nmaking "}, {"id": "sec_4", "label": "4 EXPERIMENT", "type": "section", "description": "4.1\nEXPERIMENT SETUPS\nDatasets. To train our model, we leverage a diverse set of datasets covering autonomous driving,\negocentric exploration, multi-camera rendering, and robot control, as shown in Ta"}, {"id": "sec_850", "label": "850 Sekai (Li et al., 2025a)", "type": "section", "description": "Camera (12)\nWalking & drone view\n50K\nSpatialVid (Wang et al., 2025)\nCamera (7) & keyboard / mouse\nIn-the-wild videos\n200K\nRT-1 (Brohan et al., 2022)\nRobotic pose (7)\nRobot manipulation"}, {"id": "sec_9978", "label": "9978 Multi-Cam Video (Bai et a", "type": "section", "description": "Camera (12)\nHuman motion\n136K\nTotal\n-\n-\n\u223c397K (360 hours)\nTable 2: Quantitative comparison of different models. Astra demonstrates superior visual quality\nand instruction-following performance across "}, {"id": "sec_0_691", "label": "0.691 YUME (Mao et al., 2025)", "type": "section", "description": "2.20\n5.80\n0.268"}, {"id": "sec_0_748", "label": "0.748 NWM (Bar et al., 2025)", "type": "section", "description": "2.47\n6.13\n0.311"}, {"id": "sec_0_741", "label": "0.741 MatrixGame (He et al., 2", "type": "section", "description": "2.25\n5.63\n0.652"}, {"id": "sec_4_2", "label": "4.2 MAIN RESULTS", "type": "section", "description": "We evaluate our method on Astra-Bench and compare it against recent state-of-the-art video gen-\neration and world modeling approaches, including Wan-2.1 (Wan et al., 2025), Matrix-Game (He\net al., 202"}, {"id": "sec_4_3", "label": "4.3 ANALYSIS", "type": "section", "description": "Action integration via ACT-Adapter. Our lightweight ACT-Adapter provides an efficient way to\ninject action features into the pre-trained flow transformer. Freezing most parameters while tun-\ning only "}, {"id": "sec_4_4", "label": "4.4 EXTENDED APPLICATIONS", "type": "section", "description": "Our interactive world model is not limited to standard video prediction benchmarks, and it naturally\nextends to a wide range of real-world applications. Thanks to its balanced design of action-aware\n8"}, {"id": "sec_0_727", "label": "0.727 Astra (Ours)", "type": "section", "description": "0.669\n0.939\n0.945\n0.989\n0.531\n0.747\nconditioning, noise-augmented memory, and modular action encoding, the model can flexibly adapt\nto diverse tasks such as camera control, manipulation video predicti"}, {"id": "sec_10", "label": "10 REFERENCES", "type": "section", "description": "Niket Agarwal, Arslan Ali, Maciej Bala, Yogesh Balaji, Erik Barker, Tiffany Cai, Prithvijit Chat-\ntopadhyay, Yongxin Chen, Yin Cui, Yifan Ding, et al. Cosmos world foundation model platform\nfor physic"}, {"id": "sec_14", "label": "14 Table A: Quantitative actio", "type": "section", "description": "We complement the human-rated\ninstruction-following metric by reporting rotation and translation errors that directly measure how\nwell generated camera motions align with the commanded actions.\nMethod"}, {"id": "sec_0_635", "label": "0.635 Astra (ours)", "type": "section", "description": "1.23\n4.86\n0.669\n0.747\ndenoising model capable of faithfully following actions while maintaining long-horizon temporal\ncoherence. During inference, we set the scale s for action-free guidance (AFG) to "}, {"id": "sec_0_632", "label": "0.632 MatrixGame (He et al., 2", "type": "section", "description": "0.247\n0.923\n0.939\n0.946\n0.426"}, {"id": "sec_0_653", "label": "0.653 Yume (Mao et al., 2025)", "type": "section", "description": "0.619\n0.933\n0.927\n0.972\n0.511"}, {"id": "sec_0_628", "label": "0.628 Astra (Ours)", "type": "section", "description": "0.641\n0.948\n0.944\n0.983\n0.554\n0.695\nFigure C: Effect of visual inertia. As the history length increases, video quality improves, but the\naction-following score drops sharply, illustrating the visual i"}, {"id": "fig_1", "label": "Figure 1", "type": "figure", "description": ", Astra achieves state-of-the-"}, {"id": "fig_2", "label": "Figure 2", "type": "figure", "description": "Overview of the proposed Astra. Our autoregressive denoising world model generates"}, {"id": "fig_3", "label": "Figure 3", "type": "figure", "description": "). This design offers two advantages."}, {"id": "fig_4", "label": "Figure 4", "type": "figure", "description": ", each action modality\u2014continuous camera pose acam, robot pose arob,"}, {"id": "fig_5", "label": "Figure 5", "type": "figure", "description": "Qualitative results on action-driven real-world exploration. Starting from a single"}, {"id": "fig_6", "label": "Figure 6", "type": "figure", "description": "Qualitative comparisons on action-driven real-world exploration. Given the initial im-"}, {"id": "fig_7", "label": "Figure 7", "type": "figure", "description": ", our Astra framework is designed to generalize across a wide range of in-"}, {"id": "fig_8", "label": "Figure 8", "type": "figure", "description": "Multi-agent interaction of Astra. Given a specified action sequence, Astra generates"}, {"id": "table_1", "label": "Table 1", "type": "table", "description": ", with detailed descriptions reported as follows:"}, {"id": "table_2", "label": "Table 2", "type": "table", "description": ", our method consistently out-"}, {"id": "table_3", "label": "Table 3", "type": "table", "description": "Ablation studies. We assess the contribution of each component in Astra, ensuring all"}, {"id": "eq_1", "label": "Equation 1", "type": "equation", "description": "Y\ni=1\np(zi | z<i).\n(1)"}, {"id": "eq_2", "label": "Equation 2", "type": "equation", "description": "t = (1 \u2212t)zi\n0 + t \u03f5,\n\u03f5 \u223cN(0, I), t \u2208[0, 1],\n(2)"}, {"id": "eq_3", "label": "Equation 3", "type": "equation", "description": "2\ni\n,\n(3)"}, {"id": "eq_4", "label": "Equation 4", "type": "equation", "description": "by class-free guidance (CFG). During training, action conditions are randomly dropped, forcing the\nmodel to predict without action inputs. At inference, we compute a guided velocity field:\nvguided = v"}, {"id": "eq_7", "label": "Equation 7", "type": "equation", "description": "In-the-wild videos\n200K\nRT-1 (Brohan et al., 2022)\nRobotic pose (7)"}, {"id": "eq_12", "label": "Equation 12", "type": "equation", "description": "Robot manipulation\n9978\nMulti-Cam Video (Bai et al., 2025)\nCamera (12)"}, {"id": "concept_16ddd451", "label": "Denoising Diffusion Models", "type": "concept", "description": "A dominant paradigm in generative modeling that has become popular for its high fidelity and controllability. These models work by gradually removing noise from data during a training process."}, {"id": "concept_baf2fc78", "label": "Text-to-Image Synthesis", "type": "concept", "description": "A task in generative modeling where text descriptions are used to generate corresponding images. This approach was successfully extended from text-to-image to text-to-video generation."}, {"id": "concept_ffa4a18a", "label": "Video Generation Models", "type": "concept", "description": "Models that generate video content from various inputs such as text or images. These models extend image-based approaches to the temporal domain."}, {"id": "concept_b36b570f", "label": "UNet Architecture", "type": "concept", "description": "An image-based neural network architecture (originally introduced by Ronneberger et al., 2015) that has been extended to video generation by inflating it with additional temporal layers."}, {"id": "concept_21841345", "label": "Temporal Layers", "type": "concept", "description": "Additional layers added to image-based models to enable them to process temporal information, allowing for video generation rather than just image generation."}, {"id": "concept_b242b853", "label": "Text-to-Video Diffusion Models", "type": "concept", "description": "Advanced diffusion models that generate high-quality, high-resolution videos from text descriptions. These models represent the latest developments in the field."}, {"id": "concept_400938a5", "label": "Autoregressive denoising frame", "type": "concept", "description": "A framework that combines autoregression's long-horizon modeling with diffusion's high-fidelity synthesis for video generation. It models video sequences as a product of conditional probabilities wher"}, {"id": "concept_7c0a6f26", "label": "Flow matching", "type": "concept", "description": "A training method used to train the flow model by estimating the clean direction of noisy interpolations. It minimizes the difference between the predicted and ground-truth velocity fields during trai"}, {"id": "concept_d4e6c35e", "label": "Noisy interpolation", "type": "concept", "description": "A technique for generating noisy versions of target chunks by creating a linear interpolation between a starting point and random noise. This is used to train the denoising model in the autoregressive"}, {"id": "concept_da0ec147", "label": "Iterative AR-denoising loop", "type": "concept", "description": "The process that enables long-range, consistent, and high-quality video prediction through repeated denoising steps. It iteratively generates chunks by denoising from noise and appending to the histor"}];
+        const links = [{"source": "paper_2512_08931", "target": "sec_1", "type": "has_section"}, {"source": "paper_2512_08931", "target": "sec_1", "type": "has_section"}, {"source": "paper_2512_08931", "target": "sec_2", "type": "has_section"}, {"source": "paper_2512_08931", "target": "sec_2", "type": "has_section"}, {"source": "paper_2512_08931", "target": "sec_3", "type": "has_section"}, {"source": "paper_2512_08931", "target": "sec_2", "type": "has_section"}, {"source": "sec_3", "target": "sec_3_1", "type": "has_subsection"}, {"source": "sec_3", "target": "sec_3_2", "type": "has_subsection"}, {"source": "sec_3", "target": "sec_3_3", "type": "has_subsection"}, {"source": "paper_2512_08931", "target": "sec_5", "type": "has_section"}, {"source": "sec_3", "target": "sec_3_4", "type": "has_subsection"}, {"source": "paper_2512_08931", "target": "sec_4", "type": "has_section"}, {"source": "paper_2512_08931", "target": "sec_850", "type": "has_section"}, {"source": "paper_2512_08931", "target": "sec_9978", "type": "has_section"}, {"source": "sec_0", "target": "sec_0_691", "type": "has_subsection"}, {"source": "sec_0", "target": "sec_0_748", "type": "has_subsection"}, {"source": "sec_0", "target": "sec_0_741", "type": "has_subsection"}, {"source": "sec_4", "target": "sec_4_2", "type": "has_subsection"}, {"source": "sec_4", "target": "sec_4_3", "type": "has_subsection"}, {"source": "sec_4", "target": "sec_4_4", "type": "has_subsection"}, {"source": "sec_0", "target": "sec_0_727", "type": "has_subsection"}, {"source": "paper_2512_08931", "target": "sec_5", "type": "has_section"}, {"source": "paper_2512_08931", "target": "sec_10", "type": "has_section"}, {"source": "paper_2512_08931", "target": "sec_14", "type": "has_section"}, {"source": "sec_0", "target": "sec_0_691", "type": "has_subsection"}, {"source": "sec_0", "target": "sec_0_741", "type": "has_subsection"}, {"source": "sec_0", "target": "sec_0_748", "type": "has_subsection"}, {"source": "sec_0", "target": "sec_0_635", "type": "has_subsection"}, {"source": "sec_0", "target": "sec_0_632", "type": "has_subsection"}, {"source": "sec_0", "target": "sec_0_653", "type": "has_subsection"}, {"source": "sec_0", "target": "sec_0_628", "type": "has_subsection"}, {"source": "sec_2", "target": "concept_16ddd451", "type": "defines"}, {"source": "sec_2", "target": "concept_baf2fc78", "type": "defines"}, {"source": "sec_2", "target": "concept_ffa4a18a", "type": "defines"}, {"source": "sec_2", "target": "concept_b36b570f", "type": "defines"}, {"source": "sec_2", "target": "concept_21841345", "type": "defines"}, {"source": "sec_2", "target": "concept_b242b853", "type": "defines"}, {"source": "sec_3_1", "target": "concept_400938a5", "type": "defines"}, {"source": "sec_3_1", "target": "concept_7c0a6f26", "type": "defines"}, {"source": "sec_3_1", "target": "concept_d4e6c35e", "type": "defines"}, {"source": "sec_3_1", "target": "concept_da0ec147", "type": "defines"}, {"source": "concept_d4e6c35e", "target": "fig_7", "type": "illustrated_by"}, {"source": "concept_da0ec147", "target": "fig_7", "type": "illustrated_by"}, {"source": "concept_21841345", "target": "fig_7", "type": "illustrated_by"}];
+        
+        const width = document.getElementById('graph').clientWidth;
+        const height = 600;
+        
+        const svg = d3.select('#graph')
+            .append('svg')
+            .attr('width', width)
+            .attr('height', height);
+        
+        const simulation = d3.forceSimulation(nodes)
+            .force('link', d3.forceLink(links).id(d => d.id).distance(100))
+            .force('charge', d3.forceManyBody().strength(-200))
+            .force('center', d3.forceCenter(width / 2, height / 2));
+        
+        const link = svg.append('g')
+            .selectAll('line')
+            .data(links)
+            .join('line')
+            .attr('class', 'link');
+        
+        const node = svg.append('g')
+            .selectAll('g')
+            .data(nodes)
+            .join('g')
+            .attr('class', d => 'node node-' + d.type)
+            .call(d3.drag()
+                .on('start', dragstarted)
+                .on('drag', dragged)
+                .on('end', dragended));
+        
+        node.append('circle')
+            .attr('r', d => d.type === 'paper' ? 15 : 8);
+        
+        node.append('text')
+            .attr('dx', 12)
+            .attr('dy', 4)
+            .text(d => d.label);
+        
+        node.on('click', (event, d) => {
+            document.getElementById('info').innerHTML = 
+                '<strong>' + d.label + '</strong> (' + d.type + ')<br>' +
+                d.description;
+        });
+        
+        simulation.on('tick', () => {
+            link
+                .attr('x1', d => d.source.x)
+                .attr('y1', d => d.source.y)
+                .attr('x2', d => d.target.x)
+                .attr('y2', d => d.target.y);
+            
+            node.attr('transform', d => 'translate(' + d.x + ',' + d.y + ')');
+        });
+        
+        function dragstarted(event) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            event.subject.fx = event.subject.x;
+            event.subject.fy = event.subject.y;
+        }
+        
+        function dragged(event) {
+            event.subject.fx = event.x;
+            event.subject.fy = event.y;
+        }
+        
+        function dragended(event) {
+            if (!event.active) simulation.alphaTarget(0);
+            event.subject.fx = null;
+            event.subject.fy = null;
+        }
+    </script>
+</body>
+</html>

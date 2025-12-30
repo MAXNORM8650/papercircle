@@ -1,9 +1,0 @@
-{
-	"id": "jIOhCaFG0gbs6kM",
-	"json": "{\"id\":\"jIOhCaFG0gbs6kM\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Mazzarello,+M\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Mazzarello%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999342,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Mazzarello%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Mazzarello,+M"
-}

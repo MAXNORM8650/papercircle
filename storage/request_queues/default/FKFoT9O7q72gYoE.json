@@ -1,9 +1,0 @@
-{
-	"id": "FKFoT9O7q72gYoE",
-	"json": "{\"id\":\"FKFoT9O7q72gYoE\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Buscemi,+M\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Buscemi%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002267,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Buscemi%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Buscemi,+M"
-}

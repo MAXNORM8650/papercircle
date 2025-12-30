@@ -1,9 +1,0 @@
-{
-	"id": "0GaaarU0m9bwdyk",
-	"json": "{\"id\":\"0GaaarU0m9bwdyk\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Bae%C3%9Fler,+S\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Bae%C3%9Fler%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997812,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Bae%C3%9Fler%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Bae%C3%9Fler,+S"
-}

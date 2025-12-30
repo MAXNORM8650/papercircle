@@ -1,9 +1,0 @@
-{
-	"id": "PwibvTsPwss0hjc",
-	"json": "{\"id\":\"PwibvTsPwss0hjc\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Marin%2C+F\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Marin%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087040018,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Marin%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Marin%2C+F"
-}

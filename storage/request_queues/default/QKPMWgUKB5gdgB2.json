@@ -1,9 +1,0 @@
-{
-	"id": "QKPMWgUKB5gdgB2",
-	"json": "{\"id\":\"QKPMWgUKB5gdgB2\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Toyama,+Y\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Toyama%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997778,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Toyama%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Toyama,+Y"
-}

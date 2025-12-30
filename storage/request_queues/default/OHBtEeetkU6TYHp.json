@@ -1,9 +1,0 @@
-{
-	"id": "OHBtEeetkU6TYHp",
-	"json": "{\"id\":\"OHBtEeetkU6TYHp\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Henry,+B+I\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Henry%2C+B+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988787,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Henry%2C+B+I&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Henry,+B+I"
-}

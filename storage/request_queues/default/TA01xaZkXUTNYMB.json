@@ -1,9 +1,0 @@
-{
-	"id": "TA01xaZkXUTNYMB",
-	"json": "{\"id\":\"TA01xaZkXUTNYMB\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Mali,+U\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Mali,+U\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Mali%2C+U&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:43.522Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Mali%2C+U&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Mali,+U"
-}

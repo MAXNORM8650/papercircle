@@ -1,9 +1,0 @@
-{
-	"id": "Ej4OirjkwWwV9PB",
-	"json": "{\"id\":\"Ej4OirjkwWwV9PB\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Zelko%2C+I+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Zelko%2C+I+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087094452,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Zelko%2C+I+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Zelko%2C+I+A"
-}

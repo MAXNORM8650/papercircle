@@ -1,9 +1,0 @@
-{
-	"id": "3F4jsfkB90buEnZ",
-	"json": "{\"id\":\"3F4jsfkB90buEnZ\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Wang,+H\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Wang%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997838,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Wang%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Wang,+H"
-}

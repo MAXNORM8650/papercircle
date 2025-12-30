@@ -1,9 +1,0 @@
-{
-	"id": "w49n2jC9ca07vBC",
-	"json": "{\"id\":\"w49n2jC9ca07vBC\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Varga,+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Varga%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986494,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Varga%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Varga,+J"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "rEUSVXHN1i8q2uP",
-	"json": "{\"id\":\"rEUSVXHN1i8q2uP\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Chariss%C3%A9,+T\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Chariss%C3%A9%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002284,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Chariss%C3%A9%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Chariss%C3%A9,+T"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "5Lt44OuXXkbPdXn",
-	"json": "{\"id\":\"5Lt44OuXXkbPdXn\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Paul,+D\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Paul%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009796,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Paul%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Paul,+D"
-}

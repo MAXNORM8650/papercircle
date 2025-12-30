@@ -1,9 +1,0 @@
-{
-	"id": "4s5Oiv6lc9Xoavc",
-	"json": "{\"id\":\"4s5Oiv6lc9Xoavc\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Rykaczewski,+K\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Rykaczewski%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000775,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Rykaczewski%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Rykaczewski,+K"
-}

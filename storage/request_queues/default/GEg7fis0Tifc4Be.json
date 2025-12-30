@@ -1,9 +1,0 @@
-{
-	"id": "GEg7fis0Tifc4Be",
-	"json": "{\"id\":\"GEg7fis0Tifc4Be\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Meazza,+L\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Meazza%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992587,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Meazza%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Meazza,+L"
-}

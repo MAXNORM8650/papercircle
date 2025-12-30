@@ -1,9 +1,0 @@
-{
-	"id": "d6B2Msr1COwRtAM",
-	"json": "{\"id\":\"d6B2Msr1COwRtAM\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Luo,+L\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Luo%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014329,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Luo%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Luo,+L"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "qCFqCLaPF7zdaXp",
-	"json": "{\"id\":\"qCFqCLaPF7zdaXp\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Casella,+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Casella%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987597,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Casella%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Casella,+P"
-}

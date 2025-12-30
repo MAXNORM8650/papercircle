@@ -1,9 +1,0 @@
-{
-	"id": "M8LlWwPD0Q0lUZ8",
-	"json": "{\"id\":\"M8LlWwPD0Q0lUZ8\",\"url\":\"https://arxiv.org/list/math-ph/recent?skip=31&show=50\",\"uniqueKey\":\"https://arxiv.org/list/math-ph/recent?show=50&skip=31\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086995347,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/math-ph/recent?show=50&skip=31",
-	"url": "https://arxiv.org/list/math-ph/recent?skip=31&show=50"
-}

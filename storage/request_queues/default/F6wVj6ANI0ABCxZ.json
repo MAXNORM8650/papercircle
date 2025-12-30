@@ -1,9 +1,0 @@
-{
-	"id": "F6wVj6ANI0ABCxZ",
-	"json": "{\"id\":\"F6wVj6ANI0ABCxZ\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Maul,+T+H+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Maul%2C+T+H+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087017067,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Maul%2C+T+H+B&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Maul,+T+H+B"
-}

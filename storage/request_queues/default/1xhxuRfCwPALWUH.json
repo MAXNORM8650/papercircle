@@ -1,9 +1,0 @@
-{
-	"id": "1xhxuRfCwPALWUH",
-	"json": "{\"id\":\"1xhxuRfCwPALWUH\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Krotov,+D+S\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Krotov%2C+D+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007968,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Krotov%2C+D+S&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Krotov,+D+S"
-}

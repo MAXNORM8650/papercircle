@@ -1,9 +1,0 @@
-{
-	"id": "SfZNkBAHE9f1PvC",
-	"json": "{\"id\":\"SfZNkBAHE9f1PvC\",\"url\":\"https://arxiv.org/format/2302.05276\",\"uniqueKey\":\"https://arxiv.org/format/2302.05276\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087056084,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/format/2302.05276",
-	"url": "https://arxiv.org/format/2302.05276"
-}

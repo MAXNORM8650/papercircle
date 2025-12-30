@@ -1,9 +1,0 @@
-{
-	"id": "qkbVM85KI6ZHWU6",
-	"json": "{\"id\":\"qkbVM85KI6ZHWU6\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Illana,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Illana%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997798,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Illana%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Illana,+A"
-}

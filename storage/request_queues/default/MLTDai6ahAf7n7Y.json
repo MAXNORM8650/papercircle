@@ -1,9 +1,0 @@
-{
-	"id": "MLTDai6ahAf7n7Y",
-	"json": "{\"id\":\"MLTDai6ahAf7n7Y\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Corbally,+C+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Corbally%2C+C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988076,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Corbally%2C+C+J&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Corbally,+C+J"
-}

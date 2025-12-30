@@ -1,9 +1,0 @@
-{
-	"id": "a36dIDecaTGLBvi",
-	"json": "{\"id\":\"a36dIDecaTGLBvi\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Strauss,+M+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Strauss%2C+M+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987151,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Strauss%2C+M+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Strauss,+M+A"
-}

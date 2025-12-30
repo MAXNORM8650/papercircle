@@ -1,9 +1,0 @@
-{
-	"id": "UWpqvgzBn9Og345",
-	"json": "{\"id\":\"UWpqvgzBn9Og345\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Maiale,+F+P\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Maiale%2C+F+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006928,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Maiale%2C+F+P&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Maiale,+F+P"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "GrdiqCAWH0NkuUI",
-	"json": "{\"id\":\"GrdiqCAWH0NkuUI\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Li,+Z\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Li%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988635,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Li%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Li,+Z"
-}

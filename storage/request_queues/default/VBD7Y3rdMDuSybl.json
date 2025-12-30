@@ -1,9 +1,0 @@
-{
-	"id": "VBD7Y3rdMDuSybl",
-	"json": "{\"id\":\"VBD7Y3rdMDuSybl\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ansari,+I\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ansari%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012399,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Ansari%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ansari,+I"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "5dNEklcX0CkxpUF",
-	"json": "{\"id\":\"5dNEklcX0CkxpUF\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Neveux,+H\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Neveux%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023206,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Neveux%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Neveux,+H"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "X9CWPbX12ilobhx",
-	"json": "{\"id\":\"X9CWPbX12ilobhx\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=A.N.Zubkov\",\"uniqueKey\":\"https://arxiv.org/search/math?query=A.N.Zubkov&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009319,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=A.N.Zubkov&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=A.N.Zubkov"
-}

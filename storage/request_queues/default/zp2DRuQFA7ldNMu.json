@@ -1,9 +1,0 @@
-{
-	"id": "zp2DRuQFA7ldNMu",
-	"json": "{\"id\":\"zp2DRuQFA7ldNMu\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Xu,+S\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Xu%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087003649,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Xu%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Xu,+S"
-}

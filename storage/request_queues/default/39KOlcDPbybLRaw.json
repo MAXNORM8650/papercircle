@@ -1,9 +1,0 @@
-{
-	"id": "39KOlcDPbybLRaw",
-	"json": "{\"id\":\"39KOlcDPbybLRaw\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kelly%2C+K+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Kelly%2C+K+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087045822,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Kelly%2C+K+J&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Kelly%2C+K+J"
-}

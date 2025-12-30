@@ -1,9 +1,0 @@
-{
-	"id": "plfABtuXCfAe2gR",
-	"json": "{\"id\":\"plfABtuXCfAe2gR\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Heagerty,+P+J\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Heagerty%2C+P+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023702,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Heagerty%2C+P+J&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Heagerty,+P+J"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "85QBa62IGFxmmBX",
-	"json": "{\"id\":\"85QBa62IGFxmmBX\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=da+Silva+Maraschin,+S+T\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=da+Silva+Maraschin%2C+S+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999685,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=da+Silva+Maraschin%2C+S+T&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=da+Silva+Maraschin,+S+T"
-}

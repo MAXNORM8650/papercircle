@@ -1,9 +1,0 @@
-{
-	"id": "fg3ICwkt5ZjQQQn",
-	"json": "{\"id\":\"fg3ICwkt5ZjQQQn\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Lederer%2C+S+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Lederer%2C+S+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087075745,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Lederer%2C+S+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Lederer%2C+S+M"
-}

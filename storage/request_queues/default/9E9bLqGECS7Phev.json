@@ -1,9 +1,0 @@
-{
-	"id": "9E9bLqGECS7Phev",
-	"json": "{\"id\":\"9E9bLqGECS7Phev\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Gonz%C3%A1lez-Ruano,+C\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Gonz%C3%A1lez-Ruano%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988916,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Gonz%C3%A1lez-Ruano%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Gonz%C3%A1lez-Ruano,+C"
-}

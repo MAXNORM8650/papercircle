@@ -1,9 +1,0 @@
-{
-	"id": "MFy3QRCDhpB0SMx",
-	"json": "{\"id\":\"MFy3QRCDhpB0SMx\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Rodr%C3%ADguez,+E+R\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Rodr%C3%ADguez%2C+E+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989045,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Rodr%C3%ADguez%2C+E+R&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Rodr%C3%ADguez,+E+R"
-}

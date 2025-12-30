@@ -1,9 +1,0 @@
-{
-	"id": "46gXK45V1mVimxA",
-	"json": "{\"id\":\"46gXK45V1mVimxA\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Schmid,+S\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Schmid%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989867,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Schmid%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Schmid,+S"
-}

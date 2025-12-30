@@ -1,9 +1,0 @@
-{
-	"id": "TIxCuTtInV235Fs",
-	"json": "{\"id\":\"TIxCuTtInV235Fs\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Tierno,+P\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Tierno%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086990817,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Tierno%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Tierno,+P"
-}

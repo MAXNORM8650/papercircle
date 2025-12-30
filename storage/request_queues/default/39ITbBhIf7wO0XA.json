@@ -1,9 +1,0 @@
-{
-	"id": "39ITbBhIf7wO0XA",
-	"json": "{\"id\":\"39ITbBhIf7wO0XA\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=M%C3%B6ncke,+D\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=M%C3%B6ncke%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002388,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=M%C3%B6ncke%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=M%C3%B6ncke,+D"
-}

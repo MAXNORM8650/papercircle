@@ -1,9 +1,0 @@
-{
-	"id": "RCdUZqJavYRs5x6",
-	"json": "{\"id\":\"RCdUZqJavYRs5x6\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Pacaud,+F\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Pacaud%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009212,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Pacaud%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Pacaud,+F"
-}

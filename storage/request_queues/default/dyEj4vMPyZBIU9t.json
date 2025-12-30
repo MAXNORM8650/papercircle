@@ -1,9 +1,0 @@
-{
-	"id": "dyEj4vMPyZBIU9t",
-	"json": "{\"id\":\"dyEj4vMPyZBIU9t\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Lanusse,+F\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Lanusse%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986824,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Lanusse%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Lanusse,+F"
-}

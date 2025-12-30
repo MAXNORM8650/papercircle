@@ -1,9 +1,0 @@
-{
-	"id": "UJL5jlEca1jTTQc",
-	"json": "{\"id\":\"UJL5jlEca1jTTQc\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Alcini,+G\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Alcini%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016972,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Alcini%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Alcini,+G"
-}

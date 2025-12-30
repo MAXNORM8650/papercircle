@@ -1,9 +1,0 @@
-{
-	"id": "fxrzDX6Vgrx8s6P",
-	"json": "{\"id\":\"fxrzDX6Vgrx8s6P\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Burley%2C+R+T&start=50\",\"uniqueKey\":\"https://arxiv.org/search?query=Burley%2C+R+T&searchtype=author&start=50\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087058017,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Burley%2C+R+T&searchtype=author&start=50",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Burley%2C+R+T&start=50"
-}

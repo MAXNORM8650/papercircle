@@ -1,9 +1,0 @@
-{
-	"id": "CQBMgtb1kG1ORr6",
-	"json": "{\"id\":\"CQBMgtb1kG1ORr6\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=V%C3%A4ljako,+K\",\"uniqueKey\":\"https://arxiv.org/search/math?query=V%C3%A4ljako%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005406,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=V%C3%A4ljako%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=V%C3%A4ljako,+K"
-}

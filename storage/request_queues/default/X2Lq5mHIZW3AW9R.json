@@ -1,9 +1,0 @@
-{
-	"id": "X2Lq5mHIZW3AW9R",
-	"json": "{\"id\":\"X2Lq5mHIZW3AW9R\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Hallgren,+L\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Hallgren%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986996,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Hallgren%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Hallgren,+L"
-}

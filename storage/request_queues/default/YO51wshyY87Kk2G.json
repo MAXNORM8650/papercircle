@@ -1,9 +1,0 @@
-{
-	"id": "YO51wshyY87Kk2G",
-	"json": "{\"id\":\"YO51wshyY87Kk2G\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Coleman%2C+A&start=200\",\"uniqueKey\":\"https://arxiv.org/search?query=Coleman%2C+A&searchtype=author&start=200\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087062638,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Coleman%2C+A&searchtype=author&start=200",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Coleman%2C+A&start=200"
-}

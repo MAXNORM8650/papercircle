@@ -1,9 +1,0 @@
-{
-	"id": "ABJz7PG8rscHptZ",
-	"json": "{\"id\":\"ABJz7PG8rscHptZ\",\"url\":\"https://arxiv.org/prevnext?id=2511.19313&function=next&context=astro-ph.SR\",\"uniqueKey\":\"https://arxiv.org/prevnext?context=astro-ph.SR&function=next&id=2511.19313\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087090094,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/prevnext?context=astro-ph.SR&function=next&id=2511.19313",
-	"url": "https://arxiv.org/prevnext?id=2511.19313&function=next&context=astro-ph.SR"
-}

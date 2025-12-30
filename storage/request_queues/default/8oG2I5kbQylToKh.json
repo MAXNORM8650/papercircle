@@ -1,9 +1,0 @@
-{
-	"id": "8oG2I5kbQylToKh",
-	"json": "{\"id\":\"8oG2I5kbQylToKh\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Sahoo,+S+K\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Sahoo%2C+S+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986813,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Sahoo%2C+S+K&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Sahoo,+S+K"
-}

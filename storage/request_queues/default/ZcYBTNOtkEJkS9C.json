@@ -1,9 +1,0 @@
-{
-	"id": "ZcYBTNOtkEJkS9C",
-	"json": "{\"id\":\"ZcYBTNOtkEJkS9C\",\"url\":\"https://arxiv.org/list/cs.AR/recent\",\"loadedUrl\":\"https://arxiv.org/list/cs.AR/recent\",\"uniqueKey\":\"https://arxiv.org/list/cs.AR/recent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:15.027Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/cs.AR/recent",
-	"url": "https://arxiv.org/list/cs.AR/recent"
-}

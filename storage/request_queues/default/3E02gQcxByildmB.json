@@ -1,9 +1,0 @@
-{
-	"id": "3E02gQcxByildmB",
-	"json": "{\"id\":\"3E02gQcxByildmB\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Oh,+J+S\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Oh%2C+J+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989246,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Oh%2C+J+S&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Oh,+J+S"
-}

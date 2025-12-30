@@ -1,9 +1,0 @@
-{
-	"id": "X5cX1zCWuvC3ynU",
-	"json": "{\"id\":\"X5cX1zCWuvC3ynU\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Pe%C3%B1a,+G+F+Q\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Pe%C3%B1a%2C+G+F+Q&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987345,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Pe%C3%B1a%2C+G+F+Q&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Pe%C3%B1a,+G+F+Q"
-}

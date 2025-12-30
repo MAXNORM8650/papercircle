@@ -1,9 +1,0 @@
-{
-	"id": "nWJJ1L5QYzxrXja",
-	"json": "{\"id\":\"nWJJ1L5QYzxrXja\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Da+Silva,+R+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Da+Silva%2C+R+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992846,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Da+Silva%2C+R+A&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Da+Silva,+R+A"
-}

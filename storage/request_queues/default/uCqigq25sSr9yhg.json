@@ -1,9 +1,0 @@
-{
-	"id": "uCqigq25sSr9yhg",
-	"json": "{\"id\":\"uCqigq25sSr9yhg\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Calabria,+N+F\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Calabria%2C+N+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087036087,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Calabria%2C+N+F&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Calabria,+N+F"
-}

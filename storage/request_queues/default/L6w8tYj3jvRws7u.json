@@ -1,9 +1,0 @@
-{
-	"id": "L6w8tYj3jvRws7u",
-	"json": "{\"id\":\"L6w8tYj3jvRws7u\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Cimatti,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Cimatti%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988256,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Cimatti%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Cimatti,+A"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "Mp8G0D3XZP7scZ8",
-	"json": "{\"id\":\"Mp8G0D3XZP7scZ8\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Owen,+V\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Owen%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997771,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Owen%2C+V&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Owen,+V"
-}

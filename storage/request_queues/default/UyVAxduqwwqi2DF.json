@@ -1,9 +1,0 @@
-{
-	"id": "UyVAxduqwwqi2DF",
-	"json": "{\"id\":\"UyVAxduqwwqi2DF\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=George,+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=George%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997926,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=George%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=George,+E"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "EZQq3qk1dAhnjDt",
-	"json": "{\"id\":\"EZQq3qk1dAhnjDt\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Nishimura,+T\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Nishimura%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087018466,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Nishimura%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Nishimura,+T"
-}

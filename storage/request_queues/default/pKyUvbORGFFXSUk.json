@@ -1,9 +1,0 @@
-{
-	"id": "pKyUvbORGFFXSUk",
-	"json": "{\"id\":\"pKyUvbORGFFXSUk\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Rosado-Navarro,+S\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Rosado-Navarro%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994251,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Rosado-Navarro%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Rosado-Navarro,+S"
-}

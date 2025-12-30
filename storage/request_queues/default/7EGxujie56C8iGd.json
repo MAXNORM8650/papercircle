@@ -1,9 +1,0 @@
-{
-	"id": "7EGxujie56C8iGd",
-	"json": "{\"id\":\"7EGxujie56C8iGd\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Mansoori,+S+A+H\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Mansoori%2C+S+A+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087040576,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Mansoori%2C+S+A+H&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Mansoori,+S+A+H"
-}

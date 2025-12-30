@@ -1,9 +1,0 @@
-{
-	"id": "yP6rIeOyoaKqKy8",
-	"json": "{\"id\":\"yP6rIeOyoaKqKy8\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Cooke,+T+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Cooke%2C+T+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002870,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Cooke%2C+T+J&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Cooke,+T+J"
-}

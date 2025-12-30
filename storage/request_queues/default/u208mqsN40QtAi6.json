@@ -1,9 +1,0 @@
-{
-	"id": "u208mqsN40QtAi6",
-	"json": "{\"id\":\"u208mqsN40QtAi6\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Liang,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Liang%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999656,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Liang%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Liang,+Y"
-}

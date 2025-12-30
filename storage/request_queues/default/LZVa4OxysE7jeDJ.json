@@ -1,9 +1,0 @@
-{
-	"id": "LZVa4OxysE7jeDJ",
-	"json": "{\"id\":\"LZVa4OxysE7jeDJ\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Riemer,+N\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Riemer%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999884,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Riemer%2C+N&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Riemer,+N"
-}

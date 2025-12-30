@@ -1,9 +1,0 @@
-{
-	"id": "1BZDgBnMUtCMIsL",
-	"json": "{\"id\":\"1BZDgBnMUtCMIsL\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kervella%2C+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Kervella%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087068312,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Kervella%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Kervella%2C+P"
-}

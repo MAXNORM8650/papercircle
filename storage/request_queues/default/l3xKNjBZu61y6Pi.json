@@ -1,9 +1,0 @@
-{
-	"id": "l3xKNjBZu61y6Pi",
-	"json": "{\"id\":\"l3xKNjBZu61y6Pi\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Shi,+K\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Shi%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087011097,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Shi%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Shi,+K"
-}

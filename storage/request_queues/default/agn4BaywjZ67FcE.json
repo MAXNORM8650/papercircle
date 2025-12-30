@@ -1,9 +1,0 @@
-{
-	"id": "agn4BaywjZ67FcE",
-	"json": "{\"id\":\"agn4BaywjZ67FcE\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Abeywardana,+K\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Abeywardana%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012719,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Abeywardana%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Abeywardana,+K"
-}

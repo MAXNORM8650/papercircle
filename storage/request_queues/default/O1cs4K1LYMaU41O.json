@@ -1,9 +1,0 @@
-{
-	"id": "O1cs4K1LYMaU41O",
-	"json": "{\"id\":\"O1cs4K1LYMaU41O\",\"url\":\"https://arxiv.org/search/nlin?searchtype=author&query=Kawamura,+Y\",\"uniqueKey\":\"https://arxiv.org/search/nlin?query=Kawamura%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086996419,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nlin?query=Kawamura%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/nlin?searchtype=author&query=Kawamura,+Y"
-}

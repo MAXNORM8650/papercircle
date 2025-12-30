@@ -1,9 +1,0 @@
-{
-	"id": "kStxIpYKsjPQKe8",
-	"json": "{\"id\":\"kStxIpYKsjPQKe8\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Gusev,+K\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Gusev%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002157,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Gusev%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Gusev,+K"
-}

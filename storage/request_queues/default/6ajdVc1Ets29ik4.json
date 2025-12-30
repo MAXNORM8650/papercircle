@@ -1,9 +1,0 @@
-{
-	"id": "6ajdVc1Ets29ik4",
-	"json": "{\"id\":\"6ajdVc1Ets29ik4\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Jin,+C\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Jin%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007616,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Jin%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Jin,+C"
-}

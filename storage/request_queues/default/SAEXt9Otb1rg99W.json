@@ -1,9 +1,0 @@
-{
-	"id": "SAEXt9Otb1rg99W",
-	"json": "{\"id\":\"SAEXt9Otb1rg99W\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Nowak%2C+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Nowak%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087040070,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Nowak%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Nowak%2C+M"
-}

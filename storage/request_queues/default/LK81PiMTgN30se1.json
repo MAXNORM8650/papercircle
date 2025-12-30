@@ -1,9 +1,0 @@
-{
-	"id": "LK81PiMTgN30se1",
-	"json": "{\"id\":\"LK81PiMTgN30se1\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Goc,+K\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Goc%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087001306,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Goc%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Goc,+K"
-}

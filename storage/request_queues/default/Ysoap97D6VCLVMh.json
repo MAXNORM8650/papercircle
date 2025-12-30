@@ -1,9 +1,0 @@
-{
-	"id": "Ysoap97D6VCLVMh",
-	"json": "{\"id\":\"Ysoap97D6VCLVMh\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Bond%C3%AC,+M\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Bond%C3%AC%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992645,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Bond%C3%AC%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Bond%C3%AC,+M"
-}

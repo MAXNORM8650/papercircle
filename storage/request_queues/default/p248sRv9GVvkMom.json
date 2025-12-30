@@ -1,9 +1,0 @@
-{
-	"id": "p248sRv9GVvkMom",
-	"json": "{\"id\":\"p248sRv9GVvkMom\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Tisi,+D\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Tisi%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989465,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Tisi%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Tisi,+D"
-}

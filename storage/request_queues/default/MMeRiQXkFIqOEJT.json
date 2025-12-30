@@ -1,9 +1,0 @@
-{
-	"id": "MMeRiQXkFIqOEJT",
-	"json": "{\"id\":\"MMeRiQXkFIqOEJT\",\"url\":\"https://arxiv.org/pdf/1906.04191\",\"uniqueKey\":\"https://arxiv.org/pdf/1906.04191\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087065057,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/pdf/1906.04191",
-	"url": "https://arxiv.org/pdf/1906.04191"
-}

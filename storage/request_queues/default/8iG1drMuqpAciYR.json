@@ -1,9 +1,0 @@
-{
-	"id": "8iG1drMuqpAciYR",
-	"json": "{\"id\":\"8iG1drMuqpAciYR\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Omodei,+E\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Omodei%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999576,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Omodei%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Omodei,+E"
-}

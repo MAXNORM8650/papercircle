@@ -1,9 +1,0 @@
-{
-	"id": "AkaxUVucb8EhiRA",
-	"json": "{\"id\":\"AkaxUVucb8EhiRA\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Most%2C+E+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Most%2C+E+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087056077,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Most%2C+E+R&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Most%2C+E+R"
-}

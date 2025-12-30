@@ -1,9 +1,0 @@
-{
-	"id": "mPlvzw6f483ZGO2",
-	"json": "{\"id\":\"mPlvzw6f483ZGO2\",\"url\":\"https://arxiv.org/list/math.QA/recent?skip=13&show=50\",\"uniqueKey\":\"https://arxiv.org/list/math.QA/recent?show=50&skip=13\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009351,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/math.QA/recent?show=50&skip=13",
-	"url": "https://arxiv.org/list/math.QA/recent?skip=13&show=50"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "m7h8AHdWyVimwsK",
-	"json": "{\"id\":\"m7h8AHdWyVimwsK\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Khan,+Z\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Khan%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010112,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Khan%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Khan,+Z"
-}

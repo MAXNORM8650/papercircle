@@ -1,9 +1,0 @@
-{
-	"id": "Jz8uygdBtVQI55O",
-	"json": "{\"id\":\"Jz8uygdBtVQI55O\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Nortey,+E+N+N\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Nortey%2C+E+N+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988204,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Nortey%2C+E+N+N&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Nortey,+E+N+N"
-}

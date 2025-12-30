@@ -1,9 +1,0 @@
-{
-	"id": "Q9EsyF6uoM3ldSe",
-	"json": "{\"id\":\"Q9EsyF6uoM3ldSe\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Gainutdinov,+A+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Gainutdinov%2C+A+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009327,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Gainutdinov%2C+A+M&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Gainutdinov,+A+M"
-}

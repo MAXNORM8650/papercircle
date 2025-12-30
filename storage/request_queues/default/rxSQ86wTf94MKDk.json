@@ -1,9 +1,0 @@
-{
-	"id": "rxSQ86wTf94MKDk",
-	"json": "{\"id\":\"rxSQ86wTf94MKDk\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Gilman,+D\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Gilman,+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Gilman%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:34.523Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Gilman%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Gilman,+D"
-}

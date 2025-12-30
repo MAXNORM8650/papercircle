@@ -1,9 +1,0 @@
-{
-	"id": "jRt5AbJkOHMs9kQ",
-	"json": "{\"id\":\"jRt5AbJkOHMs9kQ\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kashmira,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kashmira%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010122,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Kashmira%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kashmira,+S"
-}

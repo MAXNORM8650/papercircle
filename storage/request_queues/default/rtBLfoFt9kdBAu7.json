@@ -1,9 +1,0 @@
-{
-	"id": "rtBLfoFt9kdBAu7",
-	"json": "{\"id\":\"rtBLfoFt9kdBAu7\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Jakob,+A+M\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Jakob%2C+A+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989602,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Jakob%2C+A+M&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Jakob,+A+M"
-}

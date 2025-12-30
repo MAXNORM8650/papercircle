@@ -1,9 +1,0 @@
-{
-	"id": "r6J2CqGDokxr6WL",
-	"json": "{\"id\":\"r6J2CqGDokxr6WL\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Regev,+S\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Regev%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087008710,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Regev%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Regev,+S"
-}

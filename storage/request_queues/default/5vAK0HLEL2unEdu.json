@@ -1,9 +1,0 @@
-{
-	"id": "5vAK0HLEL2unEdu",
-	"json": "{\"id\":\"5vAK0HLEL2unEdu\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Devereaux,+T+P\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Devereaux%2C+T+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988864,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Devereaux%2C+T+P&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Devereaux,+T+P"
-}

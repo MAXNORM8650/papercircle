@@ -1,9 +1,0 @@
-{
-	"id": "Io6L6okr72rcmwh",
-	"json": "{\"id\":\"Io6L6okr72rcmwh\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Corr%C3%AAa,+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Corr%C3%AAa%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007848,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Corr%C3%AAa%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Corr%C3%AAa,+M"
-}

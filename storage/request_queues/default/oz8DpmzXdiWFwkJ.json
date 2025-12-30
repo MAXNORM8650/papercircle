@@ -1,9 +1,0 @@
-{
-	"id": "oz8DpmzXdiWFwkJ",
-	"json": "{\"id\":\"oz8DpmzXdiWFwkJ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Gal,+R+l\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Gal%2C+R+l&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986443,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Gal%2C+R+l&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Gal,+R+l"
-}

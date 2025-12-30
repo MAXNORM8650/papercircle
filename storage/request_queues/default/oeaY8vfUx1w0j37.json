@@ -1,9 +1,0 @@
-{
-	"id": "oeaY8vfUx1w0j37",
-	"json": "{\"id\":\"oeaY8vfUx1w0j37\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=De+Clercq%2C+C&start=150\",\"uniqueKey\":\"https://arxiv.org/search?query=De+Clercq%2C+C&searchtype=author&start=150\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087066008,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=De+Clercq%2C+C&searchtype=author&start=150",
-	"url": "https://arxiv.org/search/?searchtype=author&query=De+Clercq%2C+C&start=150"
-}

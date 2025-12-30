@@ -1,9 +1,0 @@
-{
-	"id": "MAAdaB8bA6keHh1",
-	"json": "{\"id\":\"MAAdaB8bA6keHh1\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Ybert,+C\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Ybert%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086990744,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Ybert%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Ybert,+C"
-}

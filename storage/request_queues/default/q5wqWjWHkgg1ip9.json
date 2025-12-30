@@ -1,9 +1,0 @@
-{
-	"id": "q5wqWjWHkgg1ip9",
-	"json": "{\"id\":\"q5wqWjWHkgg1ip9\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Andeen%2C+K&start=0\",\"uniqueKey\":\"https://arxiv.org/search?query=Andeen%2C+K&searchtype=author&start=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087047258,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Andeen%2C+K&searchtype=author&start=0",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Andeen%2C+K&start=0"
-}

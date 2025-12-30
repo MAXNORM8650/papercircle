@@ -1,9 +1,0 @@
-{
-	"id": "n29ac2EcZEOXYhn",
-	"json": "{\"id\":\"n29ac2EcZEOXYhn\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Calvo,+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Calvo%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992568,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Calvo%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Calvo,+E"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "TwSdUqqX1kEsQ4R",
-	"json": "{\"id\":\"TwSdUqqX1kEsQ4R\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Kaczmarek,+L\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Kaczmarek%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991168,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Kaczmarek%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Kaczmarek,+L"
-}

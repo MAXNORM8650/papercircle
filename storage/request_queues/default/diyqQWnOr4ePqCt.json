@@ -1,9 +1,0 @@
-{
-	"id": "diyqQWnOr4ePqCt",
-	"json": "{\"id\":\"diyqQWnOr4ePqCt\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Gu,+X\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Gu%2C+X&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999175,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Gu%2C+X&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Gu,+X"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "X3hJZ1IDZ9mnOEb",
-	"json": "{\"id\":\"X3hJZ1IDZ9mnOEb\",\"url\":\"https://arxiv.org/search/q-fin?searchtype=author&query=Molla,+H+U\",\"uniqueKey\":\"https://arxiv.org/search/q-fin?query=Molla%2C+H+U&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021660,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-fin?query=Molla%2C+H+U&searchtype=author",
-	"url": "https://arxiv.org/search/q-fin?searchtype=author&query=Molla,+H+U"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "qn3VcEIM86wCwAT",
-	"json": "{\"id\":\"qn3VcEIM86wCwAT\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Roberts,+M+G\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Roberts%2C+M+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087040602,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Roberts%2C+M+G&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Roberts,+M+G"
-}

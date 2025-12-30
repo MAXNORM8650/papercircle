@@ -1,9 +1,0 @@
-{
-	"id": "XnBZQWQUq0wvsMN",
-	"json": "{\"id\":\"XnBZQWQUq0wvsMN\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Rosenwaks,+Z\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Rosenwaks%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015741,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Rosenwaks%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Rosenwaks,+Z"
-}

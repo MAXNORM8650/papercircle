@@ -1,9 +1,0 @@
-{
-	"id": "rpCNpfxlJEjQDyL",
-	"json": "{\"id\":\"rpCNpfxlJEjQDyL\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Ryzhikov,+V+V\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Ryzhikov%2C+V+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009397,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Ryzhikov%2C+V+V&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Ryzhikov,+V+V"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "uMaPabi1NuGokB5",
-	"json": "{\"id\":\"uMaPabi1NuGokB5\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Langlois,+T+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Langlois%2C+T+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087001375,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Langlois%2C+T+R&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Langlois,+T+R"
-}

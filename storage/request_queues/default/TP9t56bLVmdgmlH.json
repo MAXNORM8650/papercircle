@@ -1,9 +1,0 @@
-{
-	"id": "TP9t56bLVmdgmlH",
-	"json": "{\"id\":\"TP9t56bLVmdgmlH\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Jin,+X\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Jin%2C+X&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087018378,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Jin%2C+X&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Jin,+X"
-}

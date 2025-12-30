@@ -1,9 +1,0 @@
-{
-	"id": "dZD9QB6PwYb24J0",
-	"json": "{\"id\":\"dZD9QB6PwYb24J0\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Mu,+X\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Mu%2C+X&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002414,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Mu%2C+X&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Mu,+X"
-}

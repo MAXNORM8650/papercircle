@@ -1,9 +1,0 @@
-{
-	"id": "5vnE9NHxXNMNRK3",
-	"json": "{\"id\":\"5vnE9NHxXNMNRK3\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Barrios,+B\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Barrios%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002433,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Barrios%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Barrios,+B"
-}

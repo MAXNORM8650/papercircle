@@ -1,9 +1,0 @@
-{
-	"id": "86N8GvwBoFXvKmT",
-	"json": "{\"id\":\"86N8GvwBoFXvKmT\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Perrinet,+L+U\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Perrinet%2C+L+U&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087020331,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Perrinet%2C+L+U&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Perrinet,+L+U"
-}

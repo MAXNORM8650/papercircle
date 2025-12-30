@@ -1,9 +1,0 @@
-{
-	"id": "jaQYDGSPa2Mbl23",
-	"json": "{\"id\":\"jaQYDGSPa2Mbl23\",\"url\":\"https://arxiv.org/help/web_accessibility\",\"loadedUrl\":\"https://info.arxiv.org/help/web_accessibility.html\",\"uniqueKey\":\"https://arxiv.org/help/web_accessibility\",\"method\":\"GET\",\"noRetry\":true,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":7}},\"handledAt\":\"2025-11-25T16:10:30.485Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/help/web_accessibility",
-	"url": "https://arxiv.org/help/web_accessibility"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "DRr1thoZ10M1imu",
-	"json": "{\"id\":\"DRr1thoZ10M1imu\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Berdu,+N+M\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Berdu%2C+N+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019303,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Berdu%2C+N+M&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Berdu,+N+M"
-}

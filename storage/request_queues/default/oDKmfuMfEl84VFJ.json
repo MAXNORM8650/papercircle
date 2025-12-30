@@ -1,9 +1,0 @@
-{
-	"id": "oDKmfuMfEl84VFJ",
-	"json": "{\"id\":\"oDKmfuMfEl84VFJ\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Yuan,+B\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Yuan%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989332,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Yuan%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Yuan,+B"
-}

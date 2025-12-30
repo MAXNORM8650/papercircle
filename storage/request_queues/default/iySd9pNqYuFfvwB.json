@@ -1,9 +1,0 @@
-{
-	"id": "iySd9pNqYuFfvwB",
-	"json": "{\"id\":\"iySd9pNqYuFfvwB\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Singh,+O+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Singh%2C+O+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010313,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Singh%2C+O+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Singh,+O+P"
-}

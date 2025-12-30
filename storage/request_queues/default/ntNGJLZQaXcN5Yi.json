@@ -1,9 +1,0 @@
-{
-	"id": "ntNGJLZQaXcN5Yi",
-	"json": "{\"id\":\"ntNGJLZQaXcN5Yi\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Wallace,+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Wallace%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015672,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Wallace%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Wallace,+B"
-}

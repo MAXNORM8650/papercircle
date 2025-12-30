@@ -1,9 +1,0 @@
-{
-	"id": "xp3khX7oAb3AyDY",
-	"json": "{\"id\":\"xp3khX7oAb3AyDY\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Yokoya,+N\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Yokoya%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014472,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Yokoya%2C+N&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Yokoya,+N"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "3BbCkBgUENgJ7hC",
-	"json": "{\"id\":\"3BbCkBgUENgJ7hC\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Huang,+Z\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Huang%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023658,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Huang%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Huang,+Z"
-}

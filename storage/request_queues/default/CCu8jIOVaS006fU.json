@@ -1,9 +1,0 @@
-{
-	"id": "CCu8jIOVaS006fU",
-	"json": "{\"id\":\"CCu8jIOVaS006fU\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Merakos,+L\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Merakos%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087017975,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Merakos%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Merakos,+L"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "pBCcDOfSlM9L8Hf",
-	"json": "{\"id\":\"pBCcDOfSlM9L8Hf\",\"url\":\"https://arxiv.org/help/policies/privacy_policy\",\"loadedUrl\":\"https://info.arxiv.org/help/policies/privacy_policy.html\",\"uniqueKey\":\"https://arxiv.org/help/policies/privacy_policy\",\"method\":\"GET\",\"noRetry\":true,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":7}},\"handledAt\":\"2025-11-25T16:10:30.409Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/help/policies/privacy_policy",
-	"url": "https://arxiv.org/help/policies/privacy_policy"
-}

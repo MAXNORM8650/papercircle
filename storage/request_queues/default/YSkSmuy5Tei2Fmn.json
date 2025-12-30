@@ -1,9 +1,0 @@
-{
-	"id": "YSkSmuy5Tei2Fmn",
-	"json": "{\"id\":\"YSkSmuy5Tei2Fmn\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Panageas,+I\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Panageas%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087013143,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Panageas%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Panageas,+I"
-}

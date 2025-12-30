@@ -1,9 +1,0 @@
-{
-	"id": "GHvspi1EUwLaB8i",
-	"json": "{\"id\":\"GHvspi1EUwLaB8i\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Chapman,+S+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Chapman%2C+S+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986420,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Chapman%2C+S+C&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Chapman,+S+C"
-}

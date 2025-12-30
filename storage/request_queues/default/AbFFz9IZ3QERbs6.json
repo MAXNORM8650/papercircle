@@ -1,9 +1,0 @@
-{
-	"id": "AbFFz9IZ3QERbs6",
-	"json": "{\"id\":\"AbFFz9IZ3QERbs6\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Duan,+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Duan%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014349,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Duan%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Duan,+H"
-}

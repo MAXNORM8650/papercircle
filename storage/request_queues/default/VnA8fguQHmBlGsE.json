@@ -1,9 +1,0 @@
-{
-	"id": "VnA8fguQHmBlGsE",
-	"json": "{\"id\":\"VnA8fguQHmBlGsE\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Bonga,+B\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Bonga%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991790,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Bonga%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Bonga,+B"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "PCvh7MwqPo9CSLY",
-	"json": "{\"id\":\"PCvh7MwqPo9CSLY\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Vogel,+E\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Vogel%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012063,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Vogel%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Vogel,+E"
-}

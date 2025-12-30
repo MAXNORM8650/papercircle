@@ -1,9 +1,0 @@
-{
-	"id": "MfMLMnLSqv7AW2j",
-	"json": "{\"id\":\"MfMLMnLSqv7AW2j\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Runfola,+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Runfola%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012525,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Runfola%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Runfola,+D"
-}

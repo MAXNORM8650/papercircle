@@ -1,9 +1,0 @@
-{
-	"id": "q11tngyIIsHI60s",
-	"json": "{\"id\":\"q11tngyIIsHI60s\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Cloud,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Cloud%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010234,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Cloud%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Cloud,+A"
-}

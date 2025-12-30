@@ -1,9 +1,0 @@
-{
-	"id": "AZc1NTtwoOVWK9P",
-	"json": "{\"id\":\"AZc1NTtwoOVWK9P\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Patra,+S+P\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Patra%2C+S+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989916,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Patra%2C+S+P&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Patra,+S+P"
-}

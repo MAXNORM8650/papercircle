@@ -1,9 +1,0 @@
-{
-	"id": "2arvc2qMXDLg5X1",
-	"json": "{\"id\":\"2arvc2qMXDLg5X1\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Epure,+E+V\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Epure%2C+E+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015361,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Epure%2C+E+V&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Epure,+E+V"
-}

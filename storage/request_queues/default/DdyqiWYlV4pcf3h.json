@@ -1,9 +1,0 @@
-{
-	"id": "DdyqiWYlV4pcf3h",
-	"json": "{\"id\":\"DdyqiWYlV4pcf3h\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Tan,+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Tan%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087020290,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Tan%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Tan,+R"
-}

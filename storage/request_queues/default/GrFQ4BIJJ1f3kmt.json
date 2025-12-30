@@ -1,9 +1,0 @@
-{
-	"id": "GrFQ4BIJJ1f3kmt",
-	"json": "{\"id\":\"GrFQ4BIJJ1f3kmt\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Giryes,+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Giryes%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087017174,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Giryes%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Giryes,+R"
-}

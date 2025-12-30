@@ -1,9 +1,0 @@
-{
-	"id": "3RR0P0hUqBAMPos",
-	"json": "{\"id\":\"3RR0P0hUqBAMPos\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Forstneric,+F\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Forstneric%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006861,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Forstneric%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Forstneric,+F"
-}

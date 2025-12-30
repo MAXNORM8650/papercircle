@@ -1,9 +1,0 @@
-{
-	"id": "705hVhdXus69VXf",
-	"json": "{\"id\":\"705hVhdXus69VXf\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Laubmann,+J\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Laubmann%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087004646,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Laubmann%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Laubmann,+J"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "FAeXHVy2ZhOmCYJ",
-	"json": "{\"id\":\"FAeXHVy2ZhOmCYJ\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Mammei,+J\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Mammei%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997765,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Mammei%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Mammei,+J"
-}

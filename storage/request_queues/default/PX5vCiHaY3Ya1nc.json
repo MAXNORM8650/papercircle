@@ -1,9 +1,0 @@
-{
-	"id": "PX5vCiHaY3Ya1nc",
-	"json": "{\"id\":\"PX5vCiHaY3Ya1nc\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=McLaughlin,+J+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=McLaughlin%2C+J+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986453,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=McLaughlin%2C+J+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=McLaughlin,+J+A"
-}

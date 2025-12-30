@@ -1,9 +1,0 @@
-{
-	"id": "cexmBYL6xKfVhPt",
-	"json": "{\"id\":\"cexmBYL6xKfVhPt\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Mahanipour,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Mahanipour%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012760,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Mahanipour%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Mahanipour,+A"
-}

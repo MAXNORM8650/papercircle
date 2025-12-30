@@ -1,9 +1,0 @@
-{
-	"id": "npAn3e1myNzmx0X",
-	"json": "{\"id\":\"npAn3e1myNzmx0X\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Nnamdi,+M+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Nnamdi%2C+M+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010303,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Nnamdi%2C+M+C&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Nnamdi,+M+C"
-}

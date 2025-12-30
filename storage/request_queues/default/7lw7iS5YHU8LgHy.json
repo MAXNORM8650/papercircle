@@ -1,9 +1,0 @@
-{
-	"id": "7lw7iS5YHU8LgHy",
-	"json": "{\"id\":\"7lw7iS5YHU8LgHy\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Eisenstein%2C+D+J&start=150\",\"uniqueKey\":\"https://arxiv.org/search?query=Eisenstein%2C+D+J&searchtype=author&start=150\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087099288,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Eisenstein%2C+D+J&searchtype=author&start=150",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Eisenstein%2C+D+J&start=150"
-}

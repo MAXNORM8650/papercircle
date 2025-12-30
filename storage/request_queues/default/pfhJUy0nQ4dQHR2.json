@@ -1,9 +1,0 @@
-{
-	"id": "pfhJUy0nQ4dQHR2",
-	"json": "{\"id\":\"pfhJUy0nQ4dQHR2\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Dunn,+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Dunn%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999525,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Dunn%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Dunn,+E"
-}

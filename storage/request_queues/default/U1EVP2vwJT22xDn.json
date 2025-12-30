@@ -1,9 +1,0 @@
-{
-	"id": "U1EVP2vwJT22xDn",
-	"json": "{\"id\":\"U1EVP2vwJT22xDn\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kirchmeyer,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kirchmeyer%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019770,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Kirchmeyer%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kirchmeyer,+M"
-}

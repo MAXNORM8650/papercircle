@@ -1,9 +1,0 @@
-{
-	"id": "ng9wcNuVTxUA9Hn",
-	"json": "{\"id\":\"ng9wcNuVTxUA9Hn\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Xu,+K\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Xu%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002465,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Xu%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Xu,+K"
-}

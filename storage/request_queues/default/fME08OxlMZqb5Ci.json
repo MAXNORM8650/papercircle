@@ -1,9 +1,0 @@
-{
-	"id": "fME08OxlMZqb5Ci",
-	"json": "{\"id\":\"fME08OxlMZqb5Ci\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Parshall,+E\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Parshall%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087011758,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Parshall%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Parshall,+E"
-}

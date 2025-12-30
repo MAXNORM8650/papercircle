@@ -1,9 +1,0 @@
-{
-	"id": "NQjrno2jtiXw5PH",
-	"json": "{\"id\":\"NQjrno2jtiXw5PH\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Riahinia,+A\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Riahinia%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988390,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Riahinia%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Riahinia,+A"
-}

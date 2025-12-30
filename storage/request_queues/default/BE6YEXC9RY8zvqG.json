@@ -1,9 +1,0 @@
-{
-	"id": "BE6YEXC9RY8zvqG",
-	"json": "{\"id\":\"BE6YEXC9RY8zvqG\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Ribes-Metidieri,+P\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Ribes-Metidieri%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991789,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Ribes-Metidieri%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Ribes-Metidieri,+P"
-}

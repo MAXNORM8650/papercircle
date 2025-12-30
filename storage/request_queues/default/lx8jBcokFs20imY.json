@@ -1,9 +1,0 @@
-{
-	"id": "lx8jBcokFs20imY",
-	"json": "{\"id\":\"lx8jBcokFs20imY\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Deoras,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Deoras%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087028233,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Deoras%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Deoras,+A"
-}

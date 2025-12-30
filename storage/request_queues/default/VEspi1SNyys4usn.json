@@ -1,9 +1,0 @@
-{
-	"id": "VEspi1SNyys4usn",
-	"json": "{\"id\":\"VEspi1SNyys4usn\",\"url\":\"https://arxiv.org/list/physics.hist-ph/recent?skip=0&show=50\",\"uniqueKey\":\"https://arxiv.org/list/physics.hist-ph/recent?show=50&skip=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087001915,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/physics.hist-ph/recent?show=50&skip=0",
-	"url": "https://arxiv.org/list/physics.hist-ph/recent?skip=0&show=50"
-}

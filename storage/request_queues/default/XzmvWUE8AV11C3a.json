@@ -1,9 +1,0 @@
-{
-	"id": "XzmvWUE8AV11C3a",
-	"json": "{\"id\":\"XzmvWUE8AV11C3a\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Laz,+T+J+d\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Laz%2C+T+J+d&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087030223,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Laz%2C+T+J+d&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Laz,+T+J+d"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "FCRI1hw0PpiAmXz",
-	"json": "{\"id\":\"FCRI1hw0PpiAmXz\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Safonov%2C+B+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Safonov%2C+B+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087072851,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Safonov%2C+B+S&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Safonov%2C+B+S"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "a9ldYoVKg8JUbx7",
-	"json": "{\"id\":\"a9ldYoVKg8JUbx7\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Trani%2C+A+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Trani%2C+A+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087041899,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Trani%2C+A+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Trani%2C+A+A"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "pfH2a7lNyDO7MmM",
-	"json": "{\"id\":\"pfH2a7lNyDO7MmM\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Wong,+K+W+K\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Wong%2C+K+W+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012041,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Wong%2C+K+W+K&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Wong,+K+W+K"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "as5DVgkgBsWawOh",
-	"json": "{\"id\":\"as5DVgkgBsWawOh\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Kayed,+N+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Kayed%2C+N+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999552,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Kayed%2C+N+A&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Kayed,+N+A"
-}

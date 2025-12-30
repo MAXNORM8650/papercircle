@@ -1,9 +1,0 @@
-{
-	"id": "Zu6hc6WksALR4Qz",
-	"json": "{\"id\":\"Zu6hc6WksALR4Qz\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Caspi,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Caspi%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087003141,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Caspi%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Caspi,+A"
-}

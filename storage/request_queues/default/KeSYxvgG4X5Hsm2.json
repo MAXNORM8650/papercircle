@@ -1,9 +1,0 @@
-{
-	"id": "KeSYxvgG4X5Hsm2",
-	"json": "{\"id\":\"KeSYxvgG4X5Hsm2\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Castaniti,+B+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Castaniti%2C+B+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012666,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Castaniti%2C+B+D&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Castaniti,+B+D"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "Lslg0IyctalyXVM",
-	"json": "{\"id\":\"Lslg0IyctalyXVM\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Cueli%2C+M+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Cueli%2C+M+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087090369,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Cueli%2C+M+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Cueli%2C+M+M"
-}

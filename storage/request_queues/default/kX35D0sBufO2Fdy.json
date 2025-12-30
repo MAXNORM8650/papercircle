@@ -1,9 +1,0 @@
-{
-	"id": "kX35D0sBufO2Fdy",
-	"json": "{\"id\":\"kX35D0sBufO2Fdy\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Liepe,+M+U\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Liepe%2C+M+U&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991220,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Liepe%2C+M+U&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Liepe,+M+U"
-}

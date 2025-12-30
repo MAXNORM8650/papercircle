@@ -1,9 +1,0 @@
-{
-	"id": "8wc3wIDPy8qkZKj",
-	"json": "{\"id\":\"8wc3wIDPy8qkZKj\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Jeanty,+L\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Jeanty%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992478,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Jeanty%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Jeanty,+L"
-}

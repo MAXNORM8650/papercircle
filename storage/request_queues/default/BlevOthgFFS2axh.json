@@ -1,9 +1,0 @@
-{
-	"id": "BlevOthgFFS2axh",
-	"json": "{\"id\":\"BlevOthgFFS2axh\",\"url\":\"https://arxiv.org/list/cond-mat.stat-mech/recent\",\"loadedUrl\":\"https://arxiv.org/list/cond-mat.stat-mech/recent\",\"uniqueKey\":\"https://arxiv.org/list/cond-mat.stat-mech/recent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:50.765Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/cond-mat.stat-mech/recent",
-	"url": "https://arxiv.org/list/cond-mat.stat-mech/recent"
-}

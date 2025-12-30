@@ -1,9 +1,0 @@
-{
-	"id": "4rfUsfMI6TIdOyQ",
-	"json": "{\"id\":\"4rfUsfMI6TIdOyQ\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Dolai,+D+R\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Dolai%2C+D+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009603,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Dolai%2C+D+R&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Dolai,+D+R"
-}

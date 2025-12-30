@@ -1,0 +1,17 @@
+# Fast Discovery API Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# Paper Search
+arxiv==2.0.0
+requests==2.31.0
+
+# Data Processing & ML
+scikit-learn==1.3.2
+numpy==1.24.3
+pandas==2.1.3
+
+# Optional (if using smolagents)
+# smolagents==0.1.0

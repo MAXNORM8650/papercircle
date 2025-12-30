@@ -1,9 +1,0 @@
-{
-	"id": "a5hweQ8KuJ4f5JS",
-	"json": "{\"id\":\"a5hweQ8KuJ4f5JS\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Ennen,+I\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Ennen%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988968,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Ennen%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Ennen,+I"
-}

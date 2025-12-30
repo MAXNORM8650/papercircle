@@ -1,9 +1,0 @@
-{
-	"id": "pwYimosrpqAAcux",
-	"json": "{\"id\":\"pwYimosrpqAAcux\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=W%C3%BCthrich,+M+V\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=W%C3%BCthrich%2C+M+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087024022,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=W%C3%BCthrich%2C+M+V&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=W%C3%BCthrich,+M+V"
-}

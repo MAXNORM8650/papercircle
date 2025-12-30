@@ -1,9 +1,0 @@
-{
-	"id": "QpG6TwjO50xPuYy",
-	"json": "{\"id\":\"QpG6TwjO50xPuYy\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Morrissey,+L+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Morrissey%2C+L+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087035683,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Morrissey%2C+L+S&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Morrissey,+L+S"
-}

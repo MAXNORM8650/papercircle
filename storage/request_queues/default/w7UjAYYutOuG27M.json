@@ -1,9 +1,0 @@
-{
-	"id": "w7UjAYYutOuG27M",
-	"json": "{\"id\":\"w7UjAYYutOuG27M\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Ma,+H\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Ma%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000833,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Ma%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Ma,+H"
-}

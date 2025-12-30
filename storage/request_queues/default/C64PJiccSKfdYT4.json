@@ -1,9 +1,0 @@
-{
-	"id": "C64PJiccSKfdYT4",
-	"json": "{\"id\":\"C64PJiccSKfdYT4\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Chen,+L\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Chen%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087011054,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Chen%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Chen,+L"
-}

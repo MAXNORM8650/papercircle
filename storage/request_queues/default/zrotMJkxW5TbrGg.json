@@ -1,9 +1,0 @@
-{
-	"id": "zrotMJkxW5TbrGg",
-	"json": "{\"id\":\"zrotMJkxW5TbrGg\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Koh,+P+W\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Koh%2C+P+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010184,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Koh%2C+P+W&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Koh,+P+W"
-}

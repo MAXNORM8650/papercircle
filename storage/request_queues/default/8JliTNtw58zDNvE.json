@@ -1,9 +1,0 @@
-{
-	"id": "8JliTNtw58zDNvE",
-	"json": "{\"id\":\"8JliTNtw58zDNvE\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Yang,+W\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Yang%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989289,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Yang%2C+W&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Yang,+W"
-}

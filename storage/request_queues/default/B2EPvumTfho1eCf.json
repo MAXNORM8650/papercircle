@@ -1,9 +1,0 @@
-{
-	"id": "B2EPvumTfho1eCf",
-	"json": "{\"id\":\"B2EPvumTfho1eCf\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Wang,+Z\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Wang%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087036226,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Wang%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Wang,+Z"
-}

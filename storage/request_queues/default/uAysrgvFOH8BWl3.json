@@ -1,9 +1,0 @@
-{
-	"id": "uAysrgvFOH8BWl3",
-	"json": "{\"id\":\"uAysrgvFOH8BWl3\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Suberlak%2C+K\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Suberlak%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087064739,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Suberlak%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Suberlak%2C+K"
-}

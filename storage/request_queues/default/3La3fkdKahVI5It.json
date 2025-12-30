@@ -1,9 +1,0 @@
-{
-	"id": "3La3fkdKahVI5It",
-	"json": "{\"id\":\"3La3fkdKahVI5It\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Yaghoubi,+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Yaghoubi%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005941,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Yaghoubi%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Yaghoubi,+M"
-}

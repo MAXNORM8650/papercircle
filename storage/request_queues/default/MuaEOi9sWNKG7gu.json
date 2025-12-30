@@ -1,9 +1,0 @@
-{
-	"id": "MuaEOi9sWNKG7gu",
-	"json": "{\"id\":\"MuaEOi9sWNKG7gu\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=de+la+Macorra,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=de+la+Macorra%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986529,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=de+la+Macorra%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=de+la+Macorra,+A"
-}

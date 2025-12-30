@@ -1,9 +1,0 @@
-{
-	"id": "s8m8yMAFuu2k07T",
-	"json": "{\"id\":\"s8m8yMAFuu2k07T\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Watkins,+A+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Watkins%2C+A+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019775,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Watkins%2C+A+M&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Watkins,+A+M"
-}

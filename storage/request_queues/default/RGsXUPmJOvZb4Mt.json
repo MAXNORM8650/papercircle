@@ -1,9 +1,0 @@
-{
-	"id": "RGsXUPmJOvZb4Mt",
-	"json": "{\"id\":\"RGsXUPmJOvZb4Mt\",\"url\":\"https://arxiv.org/search/advanced?terms-0-term=Collin%2C+G+H&terms-0-field=author&size=50&order=-announced_date_first\",\"uniqueKey\":\"https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Collin%2C+G+H\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087066107,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Collin%2C+G+H",
-	"url": "https://arxiv.org/search/advanced?terms-0-term=Collin%2C+G+H&terms-0-field=author&size=50&order=-announced_date_first"
-}

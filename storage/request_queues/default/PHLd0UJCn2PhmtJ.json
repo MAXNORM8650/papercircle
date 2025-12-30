@@ -1,9 +1,0 @@
-{
-	"id": "PHLd0UJCn2PhmtJ",
-	"json": "{\"id\":\"PHLd0UJCn2PhmtJ\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Heuckmann,+B\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Heuckmann%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002883,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Heuckmann%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Heuckmann,+B"
-}

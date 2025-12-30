@@ -1,9 +1,0 @@
-{
-	"id": "zL5x1Bw0wqf2SoY",
-	"json": "{\"id\":\"zL5x1Bw0wqf2SoY\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Vignola,+E\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Vignola%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014966,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Vignola%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Vignola,+E"
-}

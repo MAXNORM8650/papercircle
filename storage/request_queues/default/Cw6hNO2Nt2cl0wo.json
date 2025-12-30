@@ -1,9 +1,0 @@
-{
-	"id": "Cw6hNO2Nt2cl0wo",
-	"json": "{\"id\":\"Cw6hNO2Nt2cl0wo\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Asavapibhop,+B\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Asavapibhop%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002246,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Asavapibhop%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Asavapibhop,+B"
-}

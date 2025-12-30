@@ -1,9 +1,0 @@
-{
-	"id": "fRuCXq5r3YkhHJR",
-	"json": "{\"id\":\"fRuCXq5r3YkhHJR\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Batzdorf,+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Batzdorf%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087003073,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Batzdorf%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Batzdorf,+C"
-}

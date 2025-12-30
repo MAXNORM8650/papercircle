@@ -1,9 +1,0 @@
-{
-	"id": "23mJo4KknfrCdKC",
-	"json": "{\"id\":\"23mJo4KknfrCdKC\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=%C3%96zyi%C4%9Fit,+E+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=%C3%96zyi%C4%9Fit%2C+E+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015232,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=%C3%96zyi%C4%9Fit%2C+E+B&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=%C3%96zyi%C4%9Fit,+E+B"
-}

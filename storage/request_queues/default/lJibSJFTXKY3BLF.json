@@ -1,9 +1,0 @@
-{
-	"id": "lJibSJFTXKY3BLF",
-	"json": "{\"id\":\"lJibSJFTXKY3BLF\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Rosenthal,+M\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Rosenthal%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087026198,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/econ?query=Rosenthal%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/econ?searchtype=author&query=Rosenthal,+M"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "foF1IyFa3yG65qZ",
-	"json": "{\"id\":\"foF1IyFa3yG65qZ\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Xiang,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Xiang%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988976,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Xiang%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Xiang,+Y"
-}

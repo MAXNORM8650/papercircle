@@ -1,9 +1,0 @@
-{
-	"id": "71ZrMrqlZNhzyWF",
-	"json": "{\"id\":\"71ZrMrqlZNhzyWF\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Laher,+R+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Laher%2C+R+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986465,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Laher%2C+R+R&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Laher,+R+R"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "Wt9orQ67Hs61bXq",
-	"json": "{\"id\":\"Wt9orQ67Hs61bXq\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Bertolini,+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Bertolini%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992565,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Bertolini%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Bertolini,+E"
-}

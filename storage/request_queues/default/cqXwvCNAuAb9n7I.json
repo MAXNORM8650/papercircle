@@ -1,9 +1,0 @@
-{
-	"id": "cqXwvCNAuAb9n7I",
-	"json": "{\"id\":\"cqXwvCNAuAb9n7I\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Caccianiga,+B\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Caccianiga%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002270,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Caccianiga%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Caccianiga,+B"
-}

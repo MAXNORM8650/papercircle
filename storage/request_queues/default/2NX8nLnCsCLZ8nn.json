@@ -1,9 +1,0 @@
-{
-	"id": "2NX8nLnCsCLZ8nn",
-	"json": "{\"id\":\"2NX8nLnCsCLZ8nn\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Tong,+L\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Tong%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012539,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Tong%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Tong,+L"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "1dpQf26rSQuszog",
-	"json": "{\"id\":\"1dpQf26rSQuszog\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Mubarak,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Mubarak%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087027103,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Mubarak%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Mubarak,+A"
-}

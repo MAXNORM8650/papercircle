@@ -1,9 +1,0 @@
-{
-	"id": "sohydOfS7p1lX2e",
-	"json": "{\"id\":\"sohydOfS7p1lX2e\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Rau,+M+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Rau%2C+M+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986422,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Rau%2C+M+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Rau,+M+M"
-}

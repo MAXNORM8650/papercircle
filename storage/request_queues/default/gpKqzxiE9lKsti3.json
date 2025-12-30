@@ -1,9 +1,0 @@
-{
-	"id": "gpKqzxiE9lKsti3",
-	"json": "{\"id\":\"gpKqzxiE9lKsti3\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Stuardi,+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Stuardi%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986668,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Stuardi%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Stuardi,+C"
-}

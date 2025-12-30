@@ -1,9 +1,0 @@
-{
-	"id": "fxUQOHdN05e3K7o",
-	"json": "{\"id\":\"fxUQOHdN05e3K7o\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kim,+H\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Kim%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986442,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Kim%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Kim,+H"
-}

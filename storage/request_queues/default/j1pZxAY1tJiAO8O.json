@@ -1,9 +1,0 @@
-{
-	"id": "j1pZxAY1tJiAO8O",
-	"json": "{\"id\":\"j1pZxAY1tJiAO8O\",\"url\":\"https://arxiv.org/search/nlin?searchtype=author&query=Pekcan,+A\",\"uniqueKey\":\"https://arxiv.org/search/nlin?query=Pekcan%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086996425,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nlin?query=Pekcan%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/nlin?searchtype=author&query=Pekcan,+A"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "ivNClxdnUSA8ohW",
-	"json": "{\"id\":\"ivNClxdnUSA8ohW\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Biju,+A+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Biju%2C+A+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087001344,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Biju%2C+A+E&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Biju,+A+E"
-}

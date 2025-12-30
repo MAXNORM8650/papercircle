@@ -1,9 +1,0 @@
-{
-	"id": "2C7j3YayZJI8ORn",
-	"json": "{\"id\":\"2C7j3YayZJI8ORn\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Westphal,+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Westphal%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016328,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Westphal%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Westphal,+B"
-}

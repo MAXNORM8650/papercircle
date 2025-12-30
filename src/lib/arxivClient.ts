@@ -55,16 +55,18 @@ function buildArxivQuery(params: ArxivSearchParams): string {
   if (params.startDate && params.endDate) {
     const start = params.startDate.replace(/-/g, '');
     const end = params.endDate.replace(/-/g, '');
-    parts.push(`submittedDate:[${start} TO ${end}]`);
+    parts.push(`submittedDate:[${start}0000 TO ${end}2359]`);
   } else if (params.startDate) {
     const start = params.startDate.replace(/-/g, '');
-    parts.push(`submittedDate:[${start} TO *]`);
+    parts.push(`submittedDate:[${start}0000 TO *]`);
   } else if (params.endDate) {
     const end = params.endDate.replace(/-/g, '');
-    parts.push(`submittedDate:[* TO ${end}]`);
+    parts.push(`submittedDate:[* TO ${end}2359]`);
   }
 
-  return parts.length > 0 ? parts.join(' AND ') : 'all:machine+learning';
+  // If no search terms provided, return empty string to search all papers
+  // This is important for date-only searches
+  return parts.length > 0 ? parts.join(' AND ') : '';
 }
 
 function parseArxivXML(xmlText: string): ArxivPaper[] {
@@ -146,8 +148,11 @@ export async function searchArxivDirect(params: ArxivSearchParams): Promise<Arxi
   // Make sure arxiv-proxy server is running on port 3001
   const proxyUrl = import.meta.env.VITE_ARXIV_PROXY_URL || 'http://localhost:3001/api/arxiv';
 
+  // Build query params, use 'all' if no specific query provided
+  const finalQuery = searchQuery || 'all';
+
   const queryParams = new URLSearchParams({
-    search_query: searchQuery,
+    search_query: finalQuery,
     start: start.toString(),
     max_results: maxResults.toString(),
     sortBy,

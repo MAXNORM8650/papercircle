@@ -1,9 +1,0 @@
-{
-	"id": "7XEb0MtkXFSiDtf",
-	"json": "{\"id\":\"7XEb0MtkXFSiDtf\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Voliotis,+V\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Voliotis%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989922,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Voliotis%2C+V&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Voliotis,+V"
-}

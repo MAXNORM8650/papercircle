@@ -1,9 +1,0 @@
-{
-	"id": "drVY0gOMnjPgASe",
-	"json": "{\"id\":\"drVY0gOMnjPgASe\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Creusot,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Creusot%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992699,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Creusot%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Creusot,+A"
-}

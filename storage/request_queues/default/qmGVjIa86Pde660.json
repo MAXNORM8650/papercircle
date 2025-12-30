@@ -1,9 +1,0 @@
-{
-	"id": "qmGVjIa86Pde660",
-	"json": "{\"id\":\"qmGVjIa86Pde660\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=J%C3%B3zsa%2C+G+I+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=J%C3%B3zsa%2C+G+I+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087064386,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=J%C3%B3zsa%2C+G+I+G&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=J%C3%B3zsa%2C+G+I+G"
-}

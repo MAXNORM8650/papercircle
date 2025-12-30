@@ -1,9 +1,0 @@
-{
-	"id": "lVaRagYu1Y0kMtN",
-	"json": "{\"id\":\"lVaRagYu1Y0kMtN\",\"url\":\"https://arxiv.org/list/nucl-ex/current\",\"uniqueKey\":\"https://arxiv.org/list/nucl-ex/current\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997474,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/nucl-ex/current",
-	"url": "https://arxiv.org/list/nucl-ex/current"
-}

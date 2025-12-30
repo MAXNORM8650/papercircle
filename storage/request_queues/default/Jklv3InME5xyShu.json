@@ -1,9 +1,0 @@
-{
-	"id": "Jklv3InME5xyShu",
-	"json": "{\"id\":\"Jklv3InME5xyShu\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Goldsmith-Pinkham,+P\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Goldsmith-Pinkham%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021791,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/econ?query=Goldsmith-Pinkham%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/econ?searchtype=author&query=Goldsmith-Pinkham,+P"
-}

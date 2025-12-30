@@ -1,9 +1,0 @@
-{
-	"id": "2CefpIQrlNonEoD",
-	"json": "{\"id\":\"2CefpIQrlNonEoD\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Hughes%2C+T&start=0\",\"uniqueKey\":\"https://arxiv.org/search?query=Hughes%2C+T&searchtype=author&start=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087086603,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Hughes%2C+T&searchtype=author&start=0",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Hughes%2C+T&start=0"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "yHeEx98oVBlpnua",
-	"json": "{\"id\":\"yHeEx98oVBlpnua\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Zhou,+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Zhou%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002588,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Zhou%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Zhou,+R"
-}

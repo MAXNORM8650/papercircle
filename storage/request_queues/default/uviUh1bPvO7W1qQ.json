@@ -1,9 +1,0 @@
-{
-	"id": "uviUh1bPvO7W1qQ",
-	"json": "{\"id\":\"uviUh1bPvO7W1qQ\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Althubiti,+N\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Althubiti%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992932,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Althubiti%2C+N&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Althubiti,+N"
-}

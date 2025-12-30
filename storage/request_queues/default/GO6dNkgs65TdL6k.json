@@ -1,9 +1,0 @@
-{
-	"id": "GO6dNkgs65TdL6k",
-	"json": "{\"id\":\"GO6dNkgs65TdL6k\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Thai,+G+H\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Thai%2C+G+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023212,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Thai%2C+G+H&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Thai,+G+H"
-}

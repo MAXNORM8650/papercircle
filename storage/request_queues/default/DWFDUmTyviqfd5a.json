@@ -1,9 +1,0 @@
-{
-	"id": "DWFDUmTyviqfd5a",
-	"json": "{\"id\":\"DWFDUmTyviqfd5a\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Pernice,+W+H\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Pernice%2C+W+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002393,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Pernice%2C+W+H&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Pernice,+W+H"
-}

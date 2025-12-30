@@ -1,9 +1,0 @@
-{
-	"id": "SkZS4L6Ihqa9EP3",
-	"json": "{\"id\":\"SkZS4L6Ihqa9EP3\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Idrobo,+J+C\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Idrobo%2C+J+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988890,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Idrobo%2C+J+C&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Idrobo,+J+C"
-}

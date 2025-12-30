@@ -1,9 +1,0 @@
-{
-	"id": "P1tS4NdZ0fXCORW",
-	"json": "{\"id\":\"P1tS4NdZ0fXCORW\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Chang,+P\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Chang%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992950,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Chang%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Chang,+P"
-}

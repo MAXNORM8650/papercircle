@@ -1,0 +1,1018 @@
+{
+  "query": "model predictive control with trained model",
+  "exported_at": "2025-12-12T00:20:27.640799",
+  "total": 40,
+  "papers": [
+    {
+      "title": "Hybrid Physics-Learning Model Based Predictive Control for Trajectory Tracking of Unmanned Surface Vehicles",
+      "authors": [
+        "Huarong Zheng",
+        "Jiacheng Li",
+        "Zhuoer Tian",
+        "Chenguang Liu",
+        "Wenxiang Wu"
+      ],
+      "abstract": "The trajectory tracking control of unmanned surface vehicles (USVs) generally faces challenges from complex uncertain hydrodynamics and system constraints. In this paper, we leverage the capability of the Deep Neural Networks (DNN) in approximating arbitrary nonlinear dynamics, and propose a hybrid physics-learning model based predictive control (PL-MPC) method, Neural-sailing, for USVs. The first feature of PL-MPC is robust in that it handles the modeling errors caused by either the USV uncertain hydrodynamics or the environmental disturbances. Particularly, the hybrid physics-learning model combines a conventional mass-Coriolis-damping USV maneuvering model and a DNN model. The DNN model is trained with comprehensive USV motion data. The hybrid model enables efficient model-based control design with easily pre-obtained simple models. Moreover, the stability of the PL-MPC is guaranteed following the quasi-infinite nonlinear predictive control scheme. The second feature of PL-MPC is being computationally efficient. We propose a successive linearization approach to deal with the complexity of the prediction model caused by the introduction of DNN. The optimal control sequence computed from the previous step is utilized to obtain a linearization trajectory in the current step. This is the first time that a hybrid physics-learning model is successively linearized and used for predictive control. Simulation results reveal that PL-MPC has higher tracking precision than the conventional predictive control. The PL-MPC with successive linearizations has comparable tracking control performance with that of PL-MPC. However, with successive linearizations, the controller is much more computationally efficient, and achieves the trade-off between the control performance and computational burden.",
+      "url": "https://www.semanticscholar.org/paper/570031385c1b425028f9511dc5af82e20d943b45",
+      "year": 2024,
+      "venue": "IEEE transactions on intelligent transportation systems (Print)",
+      "source": "semantic_scholar",
+      "doi": "10.1109/TITS.2024.3374796",
+      "pdf_url": "",
+      "citations": 17,
+      "categories": [],
+      "similarity_score": 0.28618495298003743,
+      "novelty_score": 0.8360128617363344,
+      "recency_score": 0.9,
+      "relevance_score": 0.0,
+      "combined_score": 0.4823080582412781
+    },
+    {
+      "title": "Model predictive control for constrained robot manipulator visual servoing tuned by reinforcement learning.",
+      "authors": [
+        "Jiashuai Li",
+        "Xiuyan Peng",
+        "Bing Li",
+        "V. Sreeram",
+        "J Wu",
+        "Ziang Chen",
+        "Mingze Li"
+      ],
+      "abstract": "For constrained image-based visual servoing (IBVS) of robot manipulators, a model predictive control (MPC) strategy tuned by reinforcement learning (RL) is proposed in this study. First, model predictive control is used to transform the image-based visual servo task into a nonlinear optimization problem while taking system constraints into consideration. In the design of the model predictive controller, a depth-independent visual servo model is presented as the predictive model. Next, a suitable model predictive control objective function weight matrix is trained and obtained by a deep-deterministic-policy-gradient-based (DDPG) RL algorithm. Then, the proposed controller gives the sequential joint signals, so that the robot manipulator can respond to the desired state quickly. Finally, appropriate comparative simulation experiments are developed to illustrate the efficacy and stability of the suggested strategy.",
+      "url": "https://www.semanticscholar.org/paper/bdc94bd8e455a878a9feee4320bd5bddf1acfaeb",
+      "year": 2023,
+      "venue": "Mathematical biosciences and engineering : MBE",
+      "source": "semantic_scholar",
+      "doi": "10.3934/mbe.2023463",
+      "pdf_url": "https://doi.org/10.3934/mbe.2023463",
+      "citations": 9,
+      "categories": [],
+      "similarity_score": 0.33707640747090645,
+      "novelty_score": 0.8482871125611745,
+      "recency_score": 0.8,
+      "relevance_score": 0.0,
+      "combined_score": 0.47303034475350686
+    },
+    {
+      "title": "Predictor-Based Data-Driven Model-Free Adaptive Predictive Control of Power Converters Using Machine Learning",
+      "authors": [
+        "Xing Liu",
+        "Lin Qiu",
+        "Youtong Fang",
+        "José Raúl Rodríguez Rodríguez"
+      ],
+      "abstract": "In this article, a novel robust data-driven model-free predictive control framework based on the I/O data of the controlled plants, which is performed by incorporating the neural predictor-based model-free adaptive control and finite control-set model predictive control, is first proposed. The salient feature of the suggested framework is that the uncertainties, such as unmodeled dynamics and external disturbances, can be explicitly addressed in controlled systems. From a practical standpoint, however, the potential of this proposal is limited by a significantly increased online computational complexity, which makes it difficult to implement. To circumvent this limitation, a supervised imitation learning technique using data labeled is developed to imitate the known suggested controller, which the majority of the online computational burden can be transformed into offline computing by utilizing a trained artificial neural network subject to robustness characteristics. In particular, this development motivates a much simpler robust predictive control solution, which is convenient to implement in applications. Thus, by this proposal, the online implementation of much more complex predictive control strategies is made possible, and it explores a new possibility for future development of the complex control methodology. Finally, extensive simulative and experimental investigations for modular multilevel converter validate the interest and viability of the proposed design methodology.",
+      "url": "https://www.semanticscholar.org/paper/f7376a0624753d21ec18a86791dda69793481b22",
+      "year": 2023,
+      "venue": "IEEE transactions on industrial electronics (1982. Print)",
+      "source": "semantic_scholar",
+      "doi": "10.1109/TIE.2022.3208594",
+      "pdf_url": "",
+      "citations": 39,
+      "categories": [],
+      "similarity_score": 0.27008677130553593,
+      "novelty_score": 0.8743169398907104,
+      "recency_score": 0.8,
+      "relevance_score": 0.0,
+      "combined_score": 0.4656394193698029
+    },
+    {
+      "title": "Approximate Scenario-Based Economic Model Predictive Control With Application to Wind Energy Conversion System",
+      "authors": [
+        "Jinghan Cui",
+        "Xiangjie Liu",
+        "T. Chai"
+      ],
+      "abstract": "This article considers the effective handling of uncertainty for economic model-predictive control with feasibility and stability guarantees. First, a stable scenario-based economic model-predictive control strategy is proposed based on Lyapunov techniques. This control strategy optimizes over a sequence of control policies instead of a sequence of control inputs, so as to take feedback into account to reduce the conservativeness. More uncertainty information over the prediction horizon is incorporated by employing an augmented prediction model with a scenario tree describing the evolution of the uncertainty. Second, since the scenario tree structure inevitably increases the optimization problem size, a trained deep neural network, as an approximation function, is resorted to modeling the scenario-based economic model-predictive control feedback control law to make online implementation tractable. The effectiveness of this approximate controller is verified through the probabilistic validation technique. Finally, the feasibility and stability of this approximate scenario-based economic model-predictive control are addressed theoretically. An application of this proposed controller on wind energy conversion systems demonstrates its effectiveness.",
+      "url": "https://www.semanticscholar.org/paper/fba7af9c3bb2557ec9904521bed6283297b02614",
+      "year": 2023,
+      "venue": "IEEE Transactions on Industrial Informatics",
+      "source": "semantic_scholar",
+      "doi": "10.1109/TII.2022.3189440",
+      "pdf_url": "",
+      "citations": 18,
+      "categories": [],
+      "similarity_score": 0.2894160477425695,
+      "novelty_score": 0.8623548922056384,
+      "recency_score": 0.8,
+      "relevance_score": 0.0,
+      "combined_score": 0.46379579276389854
+    },
+    {
+      "title": "Supervised learning pays attention",
+      "authors": [
+        "Erin Craig",
+        "Robert Tibshirani"
+      ],
+      "abstract": "In-context learning with attention enables large neural networks to make context-specific predictions by selectively focusing on relevant examples. Here, we adapt this idea to supervised learning procedures such as lasso regression and gradient boosting, for tabular data. Our goals are to (1) flexibly fit personalized models for each prediction point and (2) retain model simplicity and interpretability.\n  Our method fits a local model for each test observation by weighting the training data according to attention, a supervised similarity measure that emphasizes features and interactions that are predictive of the outcome. Attention weighting allows the method to adapt to heterogeneous data in a data-driven way, without requiring cluster or similarity pre-specification. Further, our approach is uniquely interpretable: for each test observation, we identify which features are most predictive and which training observations are most relevant. We then show how to use attention weighting for time series and spatial data, and we present a method for adapting pretrained tree-based models to distributional shift using attention-weighted residual corrections. Across real and simulated datasets, attention weighting improves predictive performance while preserving interpretability, and theory shows that attention-weighting linear models attain lower mean squared error than the standard linear model under mixture-of-models data-generating processes with known subgroup structure.",
+      "url": "http://arxiv.org/abs/2512.09912v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09912v1",
+      "citations": null,
+      "categories": [
+        "stat.ML",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "similarity_score": 0.08680055051718165,
+      "novelty_score": 0.9195402298850576,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.459948211132166
+    },
+    {
+      "title": "Flocking of Under-Actuated Unmanned Surface Vehicles via Deep Reinforcement Learning and Model Predictive Path Integral Control",
+      "authors": [
+        "Chao Pan",
+        "Zhouhua Peng",
+        "Yongming Li",
+        "Bing Han",
+        "Dan Wang"
+      ],
+      "abstract": "This article addresses flocking control of a swarm of under-actuated unmanned surface vehicles (USVs) subject to stationary and moving obstacles guided by a dynamic leader. The leader and follower USVs suffer from fully unknown models. A fully data-driven learning and control method is proposed to achieve a stable flocking behavior via deep reinforcement learning (DRL) and model predictive path integral (MPPI) control. Specifically, by leveraging the recorded input and output data, a deep neural network is first trained for approximating the dynamics model of each USV. Next, based on the learned vehicle dynamics, MPPI control laws are designed such that flocking and collision avoidance tasks can be simultaneously achieved. It is indicated that after learning by utilizing random and new data, stable flocking can be achieved without using any model information. Simulation results validate the effectiveness of the proposed fully data-driven learning and control method for flocking of under-actuated USVs.",
+      "url": "https://www.semanticscholar.org/paper/792185e114a1e0353d841317bdd664f45ab6dc6d",
+      "year": 2024,
+      "venue": "IEEE Transactions on Instrumentation and Measurement",
+      "source": "semantic_scholar",
+      "doi": "10.1109/TIM.2023.3336444",
+      "pdf_url": "",
+      "citations": 23,
+      "categories": [],
+      "similarity_score": 0.18576917670983284,
+      "novelty_score": 0.8556149732620321,
+      "recency_score": 0.9,
+      "relevance_score": 0.0,
+      "combined_score": 0.4576037476653563
+    },
+    {
+      "title": "Closing the Train-Test Gap in World Models for Gradient-Based Planning",
+      "authors": [
+        "Arjun Parthasarathy",
+        "Nimit Kalra",
+        "Rohun Agrawal",
+        "Yann LeCun",
+        "Oumayma Bounou",
+        "Pavel Izmailov",
+        "Micah Goldblum"
+      ],
+      "abstract": "World models paired with model predictive control (MPC) can be trained offline on large-scale datasets of expert trajectories and enable generalization to a wide range of planning tasks at inference time. Compared to traditional MPC procedures, which rely on slow search algorithms or on iteratively solving optimization problems exactly, gradient-based planning offers a computationally efficient alternative. However, the performance of gradient-based planning has thus far lagged behind that of other approaches. In this paper, we propose improved methods for training world models that enable efficient gradient-based planning. We begin with the observation that although a world model is trained on a next-state prediction objective, it is used at test-time to instead estimate a sequence of actions. The goal of our work is to close this train-test gap. To that end, we propose train-time data synthesis techniques that enable significantly improved gradient-based planning with existing world models. At test time, our approach outperforms or matches the classical gradient-free cross-entropy method (CEM) across a variety of object manipulation and navigation tasks in 10% of the time budget.",
+      "url": "http://arxiv.org/abs/2512.09929v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09929v1",
+      "citations": null,
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "similarity_score": 0.08510583342050386,
+      "novelty_score": 0.9070294784580498,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.45693764571776113
+    },
+    {
+      "title": "Bayesian Networks, Markov Networks, Moralisation, Triangulation: a Categorical Perspective",
+      "authors": [
+        "Antonio Lorenzin",
+        "Fabio Zanasi"
+      ],
+      "abstract": "Moralisation and Triangulation are transformations allowing to switch between different ways of factoring a probability distribution into a graphical model. Moralisation allows to view a Bayesian network (a directed model) as a Markov network (an undirected model), whereas triangulation addresses the opposite direction. We present a categorical framework where these transformations are modelled as functors between a category of Bayesian networks and one of Markov networks. The two kinds of network (the objects of these categories) are themselves represented as functors from a `syntax' domain to a `semantics' codomain. Notably, moralisation and triangulation can be defined inductively on such syntax via functor pre-composition. Moreover, while moralisation is fully syntactic, triangulation relies on semantics. This leads to a discussion of the variable elimination algorithm, reinterpreted here as a functor in its own right, that splits the triangulation procedure in two: one purely syntactic, the other purely semantic. This approach introduces a functorial perspective into the theory of probabilistic graphical models, which highlights the distinctions between syntactic and semantic modifications.",
+      "url": "http://arxiv.org/abs/2512.09908v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09908v1",
+      "citations": null,
+      "categories": [
+        "cs.AI",
+        "cs.LO",
+        "math.CT"
+      ],
+      "similarity_score": 0.04995218085361012,
+      "novelty_score": 0.9448818897637795,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.45396203220883896
+    },
+    {
+      "title": "Enhancing Road Holding and Vehicle Comfort for an Active Suspension System utilizing Model Predictive Control and Deep Learning",
+      "authors": [
+        "Do Trong Tu"
+      ],
+      "abstract": "Active Suspension Systems (ASS) with control are gaining traction as researchers strive for optimal system performance. They are significant in diverse commercial vehicle applications, catering to user demands. This study employs the advanced Model Predictive Control (MPC) technique to enhance the smoothness and safety of a half-car model. The simulation results showed the prowess of MPC controllers under varied control force signal constraints, demonstrating superiority in curtailing vehicle chassis rotation angle and speed by up to 46.93% and 43.34%, respectively. The controller was compared with an artificial neural network controller utilizing only two state signals of the system, trained from MPC data, demonstrating high accuracy with R2 reaching 0.97024 and mean squared error at 7.3557×10-5. This study contributes to the refinement of ASS by focusing on practical implementation and performance enhancement.",
+      "url": "https://www.semanticscholar.org/paper/34f1fc5c3df23852e1647977fc90a6600aff3e31",
+      "year": 2024,
+      "venue": "Engineering, Technology &amp; Applied Science Research",
+      "source": "semantic_scholar",
+      "doi": "10.48084/etasr.6582",
+      "pdf_url": "https://etasr.com/index.php/ETASR/article/download/6582/3458",
+      "citations": 10,
+      "categories": [],
+      "similarity_score": 0.18610987042408092,
+      "novelty_score": 0.8520710059171597,
+      "recency_score": 0.9,
+      "relevance_score": 0.0,
+      "combined_score": 0.45374716231065626
+    },
+    {
+      "title": "Diffusion Predictive Control with Constraints",
+      "authors": [
+        "Ralf Römer",
+        "Alexander von Rohr",
+        "Angela P. Schoellig"
+      ],
+      "abstract": "Diffusion models have become popular for policy learning in robotics due to their ability to capture high-dimensional and multimodal distributions. However, diffusion policies are stochastic and typically trained offline, limiting their ability to handle unseen and dynamic conditions where novel constraints not represented in the training data must be satisfied. To overcome this limitation, we propose diffusion predictive control with constraints (DPCC), an algorithm for diffusion-based control with explicit state and action constraints that can deviate from those in the training data. DPCC incorporates model-based projections into the denoising process of a trained trajectory diffusion model and uses constraint tightening to account for model mismatch. This allows us to generate constraint-satisfying, dynamically feasible, and goal-reaching trajectories for predictive control. We show through simulations of a robot manipulator that DPCC outperforms existing methods in satisfying novel test-time constraints while maintaining performance on the learned control task.",
+      "url": "https://www.semanticscholar.org/paper/a237d9c1146a6c8ae25faf14c7fbe13f8cb33773",
+      "year": 2024,
+      "venue": "Conference on Learning for Dynamics & Control",
+      "source": "semantic_scholar",
+      "doi": "10.48550/arXiv.2412.09342",
+      "pdf_url": "",
+      "citations": 19,
+      "categories": [],
+      "similarity_score": 0.2134802899650665,
+      "novelty_score": 0.7968127490039841,
+      "recency_score": 0.9,
+      "relevance_score": 0.0,
+      "combined_score": 0.45315663679031676
+    },
+    {
+      "title": "Connecting single-layer $t$-$J$ to Kondo lattice models: Exploration with cold atoms",
+      "authors": [
+        "Hannah Lange",
+        "Eugene Demler",
+        "Jan von Delft",
+        "Annabelle Bohrdt",
+        "Fabian Grusdt"
+      ],
+      "abstract": "The Kondo effect, a hallmark of many-body physics, emerges from the antiferromagnetic coupling between localized spins and conduction fermions, leading to a correlated many-body singlet state. Here we propose to use the mixed-dimensional (mixD) bilayer Hubbard geometry as a platform to study Kondo lattice physics with current ultracold atom experiments. At experimentally feasible temperatures, we predict that key features of the Kondo effect can be observed, including formation of the Kondo cloud around a single impurity and the competition of singlet formation with Ruderman-Kittel-Kasuya-Yosida (RKKY) interactions for multiple impurities, summarized in the Doniach phase diagram. Moreover, we show that the mixD platform provides a natural bridge between the Doniach phase diagram of the Kondo lattice model, relevant to heavy-fermion materials, and the phase diagram of cuprate superconductors as described by a single-layer Zhang-Rice type $t$-$J$ model: It is possible to continuously tune between the two regimes by changing the interlayer Kondo coupling. Our findings demonstrate that the direct connection between high-temperature superconductivity and heavy-fermion physics can be experimentally studied using currently available quantum simulation platforms.",
+      "url": "http://arxiv.org/abs/2512.09926v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09926v1",
+      "citations": null,
+      "categories": [
+        "cond-mat.quant-gas",
+        "cond-mat.str-el",
+        "quant-ph"
+      ],
+      "similarity_score": 0.031882779317076254,
+      "novelty_score": 0.9565217391304348,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.4508691816212098
+    },
+    {
+      "title": "Buoyancy-dependent induced flow by vertically migrating swimmers",
+      "authors": [
+        "Nina Mohebbi",
+        "John O. Dabiri"
+      ],
+      "abstract": "Collective vertical migrations of negatively buoyant swimmers can drive large-scale fluid transport. In the ocean, zooplankton migrate over vertical distances several orders of magnitude larger than their body length. These swimmers experience changes in their buoyancy relative to the stably stratified ocean water column. The impact of net swimmer buoyancy on the scale of aggregate-scale induced flows remains unresolved. We hypothesize that as the net buoyancy of swimmers becomes increasingly negative the speed of induced flow in the opposite direction of swimming will increase due to changes in the required force to swim upward and thus the momentum imparted on the surrounding fluid. Simultaneous three-dimensional swimmer tracking and two-dimensional two-component flow measurements are used to measure the flow induced by collective vertical migration of Artemia salina. Experiments were designed to modulate the buoyant force on the swimmers by changing environmental salinity. Experimental results supported the hypothesis and were used to develop a theoretical model, which was then used to contextualize results to ocean relevant conditions with non-dimensional analysis.",
+      "url": "http://arxiv.org/abs/2512.09916v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09916v1",
+      "citations": null,
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "similarity_score": 0.01631284552471405,
+      "novelty_score": 0.9655172413793103,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.4479973019332763
+    },
+    {
+      "title": "FALCON: Few-step Accurate Likelihoods for Continuous Flows",
+      "authors": [
+        "Danyal Rehman",
+        "Tara Akhound-Sadegh",
+        "Artem Gazizov",
+        "Yoshua Bengio",
+        "Alexander Tong"
+      ],
+      "abstract": "Scalable sampling of molecular states in thermodynamic equilibrium is a long-standing challenge in statistical physics. Boltzmann Generators tackle this problem by pairing a generative model, capable of exact likelihood computation, with importance sampling to obtain consistent samples under the target distribution. Current Boltzmann Generators primarily use continuous normalizing flows (CNFs) trained with flow matching for efficient training of powerful models. However, likelihood calculation for these models is extremely costly, requiring thousands of function evaluations per sample, severely limiting their adoption. In this work, we propose Few-step Accurate Likelihoods for Continuous Flows (FALCON), a method which allows for few-step sampling with a likelihood accurate enough for importance sampling applications by introducing a hybrid training objective that encourages invertibility. We show FALCON outperforms state-of-the-art normalizing flow models for molecular Boltzmann sampling and is two orders of magnitude faster than the equivalently performing CNF model.",
+      "url": "http://arxiv.org/abs/2512.09914v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09914v1",
+      "citations": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "similarity_score": 0.04922369249596506,
+      "novelty_score": 0.915032679738562,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.44777364369650197
+    },
+    {
+      "title": "Model Predictive Current Control for Permanent Magnet Synchronous Motor based on Neural Network",
+      "authors": [
+        "Y. Li",
+        "Weichao Guo",
+        "Dongmei Liu",
+        "Xinquan Zhang",
+        "Tingxu Wu",
+        "Yizhi Deng"
+      ],
+      "abstract": "In order to solve the problem of high computational burden of finite set multi-step model predictive current control, a neural network based predictive current control method (NMPCC) for permanent magnet synchronous motor (PMSM) model was proposed. Firstly, the traditional one-step model predicted current control model was established, and the nerve dissociation was trained to learn and approximate the voltage vector selection rule of the one-step model predicted current control, so as to replace the one-step model predicted current control algorithm. The simulation verifies the feasibility of using neural network instead of one step model to predict current control algorithm. For multi-step control, calculation burden will increase exponentially with the increase of step, but output voltage vectors will not change. Therefore, a neural-network-based two-step MPCC for PMSM established. Simulation results show neural network operates well instead to two-step MPCC controller with almost the same control performance. And two-step MPCC requires 56 predictive calculations, while the number of classification tasks for neural network control is still 7. Real-time experiments show the real-time performance of neural network is better than two-step MPCC and calculation time is decreased by 29.58%.",
+      "url": "https://www.semanticscholar.org/paper/a980586bc299837d5b8418b31b75aca6d3c41faf",
+      "year": 2023,
+      "venue": "2023 IEEE International Conference on Predictive Control of Electrical Drives and Power Electronics (PRECEDE)",
+      "source": "semantic_scholar",
+      "doi": "10.1109/PRECEDE57319.2023.10174503",
+      "pdf_url": "",
+      "citations": 5,
+      "categories": [],
+      "similarity_score": 0.25742969666505017,
+      "novelty_score": 0.8441558441558441,
+      "recency_score": 0.8,
+      "relevance_score": 0.0,
+      "combined_score": 0.4473100778306839
+    },
+    {
+      "title": "Py-DiSMech: A Scalable and Efficient Framework for Discrete Differential Geometry-Based Modeling and Control of Soft Robots",
+      "authors": [
+        "Radha Lahoti",
+        "Ryan Chaiyakul",
+        "M. Khalid Jawed"
+      ],
+      "abstract": "High-fidelity simulation has become essential to the design and control of soft robots, where large geometric deformations and complex contact interactions challenge conventional modeling tools. Recent advances in the field demand simulation frameworks that combine physical accuracy, computational scalability, and seamless integration with modern control and optimization pipelines. In this work, we present Py-DiSMech, a Python-based, open-source simulation framework for modeling and control of soft robotic structures grounded in the principles of Discrete Differential Geometry (DDG). By discretizing geometric quantities such as curvature and strain directly on meshes, Py-DiSMech captures the nonlinear deformation of rods, shells, and hybrid structures with high fidelity and reduced computational cost. The framework introduces (i) a fully vectorized NumPy implementation achieving order-of-magnitude speed-ups over existing geometry-based simulators; (ii) a penalty-energy-based fully implicit contact model that supports rod-rod, rod-shell, and shell-shell interactions; (iii) a natural-strain-based feedback-control module featuring a proportional-integral (PI) controller for shape regulation and trajectory tracking; and (iv) a modular, object-oriented software design enabling user-defined elastic energies, actuation schemes, and integration with machine-learning libraries. Benchmark comparisons demonstrate that Py-DiSMech substantially outperforms the state-of-the-art simulator Elastica in computational efficiency while maintaining physical accuracy. Together, these features establish Py-DiSMech as a scalable, extensible platform for simulation-driven design, control validation, and sim-to-real research in soft robotics.",
+      "url": "http://arxiv.org/abs/2512.09911v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09911v1",
+      "citations": null,
+      "categories": [
+        "cs.RO",
+        "physics.comp-ph"
+      ],
+      "similarity_score": 0.06859126274099339,
+      "novelty_score": 0.877914951989026,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.44616036922010327
+    },
+    {
+      "title": "A Model Intercomparison Study of Mixed-Phase Clouds in a Laboratory Chamber",
+      "authors": [
+        "Aaron Wang",
+        "Sisi Chen",
+        "Steve Krueger",
+        "Piotr Dziekan",
+        "Kotaro Enokido",
+        "Fabian Hoffmann",
+        "Agnieszka Makulska",
+        "Bernhard Mehlig",
+        "Gaetano Sardina",
+        "Grigory Sarnitsky"
+      ],
+      "abstract": "Mixed-phase clouds, composed of supercooled liquid droplets and ice crystals, play a critical role in weather and climate systems. Their complex microphysical interactions and coupling with turbulence at microscales govern the cloud properties at macroscales, yet remain challenging to observe and quantify under atmospheric conditions. This model intercomparison study utilizes ten model configurations to simulate mixed-phase cloud evolution in the Michigan Technological University's Pi Chamber. The models span a range of frameworks, including box models, direct numerical simulation, and large-eddy simulation models, and incorporate both bin and Lagrangian microphysics. Each model was tuned to reproduce the observed liquid-phase steady state prior to ice injection. Ice particles were then introduced into the domain at various rates to examine cloud glaciation behavior. By the intercomparison design, all models successfully reproduced the observed mean droplet radius and number concentration during the liquid-phase stage. Increasing ice particle injection rates led to consistent qualitative trends across models: depletion of liquid water, reduced total water content, and a shift in particle size distributions toward larger radii. However, quantitative differences arose due to variations in model treatment in dynamics and microphysics, including subgrid-scale turbulence parameterizations, wall forcing, and particle removal parameterizations. Most models that simulate the full chamber retained liquid droplets near the lower boundary, where supersaturation forcing is strongest and droplets are replenished before mixing into the core region. These surviving liquids droplets were absent in simulations assuming a well-mixed domain, excluding the near-wall region, or using coarse grid spacing.",
+      "url": "http://arxiv.org/abs/2512.09915v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09915v1",
+      "citations": null,
+      "categories": [
+        "physics.ao-ph",
+        "physics.flu-dyn"
+      ],
+      "similarity_score": 0.06725408935601522,
+      "novelty_score": 0.8764940239043825,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.4454750315876811
+    },
+    {
+      "title": "Toward Near-Globally Optimal Nonlinear Model Predictive Control via Diffusion Models",
+      "authors": [
+        "Tzu-yuan Huang",
+        "Armin Lederer",
+        "Nicolas Hoischen",
+        "Jan Brüdigam",
+        "Xuehua Xiao",
+        "Stefan Sosnowski",
+        "Sandra Hirche"
+      ],
+      "abstract": "Achieving global optimality in nonlinear model predictive control (NMPC) is challenging due to the non-convex nature of the underlying optimization problem. Since commonly employed local optimization techniques depend on carefully chosen initial guesses, this non-convexity often leads to suboptimal performance resulting from local optima. To overcome this limitation, we propose a novel diffusion model-based approach for near-globally optimal NMPC consisting of an offline and an online phase. The offline phase employs a local optimizer to sample from the distribution of optimal NMPC control sequences along generated system trajectories through random initial guesses. Subsequently, the generated diverse dataset is used to train a diffusion model to reflect the multi-modal distribution of optima. In the online phase, the trained model is leveraged to efficiently perform a variant of random shooting optimization to obtain near-globally optimal control sequences without relying on any initial guesses or online NMPC solving. The effectiveness of our approach is illustrated in a numerical simulation indicating high performance benefits compared to direct neural network approximations of NMPC and significantly lower computation times than online solving NMPC using global optimizers.",
+      "url": "https://www.semanticscholar.org/paper/48488dd9d8e2757909f12ce9004933eaec56ab0d",
+      "year": 2024,
+      "venue": "Conference on Learning for Dynamics & Control",
+      "source": "semantic_scholar",
+      "doi": "10.48550/arXiv.2412.08278",
+      "pdf_url": "",
+      "citations": 5,
+      "categories": [],
+      "similarity_score": 0.1646508755546498,
+      "novelty_score": 0.8438818565400843,
+      "recency_score": 0.9,
+      "relevance_score": 0.0,
+      "combined_score": 0.4444216339744118
+    },
+    {
+      "title": "Evaluating Function-as-a-Service (FaaS) frameworks for the Accelerator Control System",
+      "authors": [
+        "A. Jaikar",
+        "J. Diamond",
+        "A. Tiradani",
+        "B. Harrison"
+      ],
+      "abstract": "As particle accelerator control systems evolve in complexity and scale, the need for responsive, scalable, and cost-effective computational infrastructure becomes increasingly critical. Function-as-a-Service (FaaS) offers an alternative to traditional monolithic architecture by enabling event-driven execution, automatic scaling, and fine-grained resource utilization. This paper explores the applicability and performance of FaaS frameworks in the context of a modern particle accelerator control system, with the objective of evaluating their suitability for short lived and triggered workloads. In this paper, we evaluate prominent open-source FaaS platforms in executing functional logic, triggers, and diagnostics routines. Evaluation metrics consist of cold-start latency, scalability, performance, integration with other open-source tools like Kafka. Experimental workloads were designed to simulate real-world control tasks when implemented as stateless FaaS functions. These workloads were benchmarked under various invocation loads and network conditions. Self-hosted FaaS platforms, when deployed within accelerator networks, offer greater control over execution environment, better integration with legacy systems, and support for real-time guarantees when paired with message queues. Based on lessons learned and evaluation metrics, this paper describes reliability of the FaaS framework for the Accelerator Control Systems (ACS).",
+      "url": "http://arxiv.org/abs/2512.09917v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": "10.18429/JACoW-ICALEPCS2025-THBR003",
+      "pdf_url": "https://arxiv.org/pdf/2512.09917v1",
+      "citations": null,
+      "categories": [
+        "physics.acc-ph"
+      ],
+      "similarity_score": 0.060912936104238855,
+      "novelty_score": 0.8759124087591241,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.4434563625830965
+    },
+    {
+      "title": "Imitation Learning of Nonlinear Model Predictive Control for Emergency Collision Avoidance",
+      "authors": [
+        "Seungtaek Kim",
+        "Kyoungseok Han",
+        "Seibum B. Choi"
+      ],
+      "abstract": "This study proposes a control structure based on imitation learning (IL) of nonlinear model predictive control (NMPC) for vehicle collision avoidance systems. An NMPC was employed to achieve maximum collision avoidance ability by integrated steering and braking, then later imitated by a deep neural network (DNN) to satisfy real-time capability. Previous studies that imitate NMPC have proven its control performance and computation efficiency. However, there were limitations in applying to vehicle collision avoidance systems. Despite its dangerous situation, data set for imitation should be obtained by experiments using the controlled plant, and weaknesses in handling model parameters were shown. Therefore, this article proposes a novel IL-based control structure suitable for collision avoidance systems that overcame such limitations by building a feedforward feedback structure so that the data set trained for imitation can be made offline and applying an input dimensionalization process to ensure robustness to parameter changes. CarSim-based human-vehicle interactive simulation experiments demonstrated that the proposed IL-based control structure had no issue applying the offline trained DNN in the simulation while showing robustness to parameter changes.",
+      "url": "https://www.semanticscholar.org/paper/941cce4b7eb72f4fcc7e3ed4adc03689abb9e7ff",
+      "year": 2024,
+      "venue": "IEEE Transactions on Intelligent Vehicles",
+      "source": "semantic_scholar",
+      "doi": "10.1109/TIV.2023.3309962",
+      "pdf_url": "",
+      "citations": 9,
+      "categories": [],
+      "similarity_score": 0.1713065430262287,
+      "novelty_score": 0.8103130755064456,
+      "recency_score": 0.9,
+      "relevance_score": 0.0,
+      "combined_score": 0.44070457800915774
+    },
+    {
+      "title": "Photon emission by vortex particles accelerated in a linac",
+      "authors": [
+        "A. Yu. Murtazin",
+        "G. K. Sizykh",
+        "D. V. Grosman",
+        "U. G. Rybak",
+        "A. A. Shchepkin",
+        "D. V. Karlovets"
+      ],
+      "abstract": "We study the photon emission by charged spinless particles with phase vortices and an orbital angular momentum (OAM) projection in longitudinal electric and magnetic fields within the scalar QED. A realistic wave packet of an electron or ion accelerated by a radio-frequency wave locally feels a constant and spatially homogeneous field, which allows us to develop an effective model for losing the angular momentum of the vortex particle due to photon emission. For the fields typical for accelerator facilities, we find that an effective lifetime of the vortex state greatly exceeds the acceleration time. This proves that the acceleration of vortex electrons, ions, muons, and so forth to relativistic energies is possible in conventional linacs, as well as in the wake-field accelerators with higher field gradients, the OAM losses due to the photon emission are mostly negligible, and that the vortex quantum state is highly robust against these losses.",
+      "url": "http://arxiv.org/abs/2512.09921v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09921v1",
+      "citations": null,
+      "categories": [
+        "hep-ph",
+        "physics.acc-ph",
+        "quant-ph"
+      ],
+      "similarity_score": 0.01819382704437683,
+      "novelty_score": 0.9254498714652957,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.4405481224063722
+    },
+    {
+      "title": "Self-calibration of weak lensing cosmic shear biases",
+      "authors": [
+        "G. Congedo",
+        "A. N. Taylor"
+      ],
+      "abstract": "In order to reach the required performance of Stage-III and IV weak lensing surveys, cosmic shear measurements have to rely on external simulations to calibrate residual biases. Over the years, several techniques have been developed to mitigate the impact of residual biases prior to calibration, including the inference of shear responses on images to correct multiplicative biases, and the empirical correction of additive biases. We introduce a novel methodology that generalises upon the state-of-the-art approaches by inferring multiplicative and additive biases jointly from parameterised distributions of measured ellipticities, crucially without relying on external simulations and independently from cosmology. Shear biases are marginalised over the unknown hyper-parameters in the modelling, hence mitigating the impact of degeneracies. We apply the technique to a representative problem and show the performance of the estimation, even in the presence of noise. The method has a high potential for applicability to the calibration of weak lensing cosmic shear in current and future lensing surveys.",
+      "url": "http://arxiv.org/abs/2512.09922v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09922v1",
+      "citations": null,
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.IM"
+      ],
+      "similarity_score": 0.0,
+      "novelty_score": 0.9523809523809523,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.44047619047619047
+    },
+    {
+      "title": "LISN: Language-Instructed Social Navigation with VLM-based Controller Modulating",
+      "authors": [
+        "Junting Chen",
+        "Yunchuan Li",
+        "Panfeng Jiang",
+        "Jiacheng Du",
+        "Zixuan Chen",
+        "Chenrui Tie",
+        "Jiajun Deng",
+        "Lin Shao"
+      ],
+      "abstract": "Towards human-robot coexistence, socially aware navigation is significant for mobile robots. Yet existing studies on this area focus mainly on path efficiency and pedestrian collision avoidance, which are essential but represent only a fraction of social navigation. Beyond these basics, robots must also comply with user instructions, aligning their actions to task goals and social norms expressed by humans. In this work, we present LISN-Bench, the first simulation-based benchmark for language-instructed social navigation. Built on Rosnav-Arena 3.0, it is the first standardized social navigation benchmark to incorporate instruction following and scene understanding across diverse contexts. To address this task, we further propose Social-Nav-Modulator, a fast-slow hierarchical system where a VLM agent modulates costmaps and controller parameters. Decoupling low-level action generation from the slower VLM loop reduces reliance on high-frequency VLM inference while improving dynamic avoidance and perception adaptability. Our method achieves an average success rate of 91.3%, which is greater than 63% than the most competitive baseline, with most of the improvements observed in challenging tasks such as following a person in a crowd and navigating while strictly avoiding instruction-forbidden regions. The project website is at: https://social-nav.github.io/LISN-project/",
+      "url": "http://arxiv.org/abs/2512.09920v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09920v1",
+      "citations": null,
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "similarity_score": 0.0,
+      "novelty_score": 0.9523809523809523,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.44047619047619047
+    },
+    {
+      "title": "Introducing a Deep Neural Network-Based Model Predictive Control Framework for Rapid Controller Implementation",
+      "authors": [
+        "David C. Gordon",
+        "Alexander Winkler",
+        "Julian Bedei",
+        "Patrick Schaber",
+        "Jakob Andert",
+        "C. R. Koch"
+      ],
+      "abstract": "Model Predictive Control (MPC) provides an optimal control solution based on a cost function while allowing for the implementation of process constraints. As a model-based optimal control technique, the performance of MPC strongly depends on the model used where a tradeoff between model computation time and prediction performance exists. One solution is the integration of MPC with a machine learning (ML) based process model which are quick to evaluate online. This work presents the experimental implementation of a deep neural network (DNN) based nonlinear MPC for Homogeneous Charge Compression Ignition (HCCI) combustion control. The DNN model consists of a Long Short-Term Memory (LSTM) network surrounded by fully connected layers which was trained using experimental engine data and showed acceptable prediction performance with under 5% error for all outputs. Using this model, the MPC is designed to track the Indicated Mean Effective Pressure (IMEP) and combustion phasing trajectories, while minimizing several parameters. Using the acados software package to enable the real-time implementation of the MPC on an ARM Cortex A72, the optimization calculations are completed within 1.4 ms. The external A72 processor is integrated with the prototyping engine controller using a UDP connection allowing for rapid experimental deployment of the NMPC. The IMEP trajectory following of the developed controller was excellent, with a root-mean-square error of 0.133 bar, in addition to observing process constraints.",
+      "url": "https://www.semanticscholar.org/paper/61391e598a7564db92902d57049e11fd99c932f6",
+      "year": 2023,
+      "venue": "American Control Conference",
+      "source": "semantic_scholar",
+      "doi": "10.23919/ACC60939.2024.10644830",
+      "pdf_url": "",
+      "citations": 8,
+      "categories": [],
+      "similarity_score": 0.24360544674885748,
+      "novelty_score": 0.8253968253968255,
+      "recency_score": 0.8,
+      "relevance_score": 0.0,
+      "combined_score": 0.44016099910402234
+    },
+    {
+      "title": "ReViSE: Towards Reason-Informed Video Editing in Unified Models with Self-Reflective Learning",
+      "authors": [
+        "Xinyu Liu",
+        "Hangjie Yuan",
+        "Yujie Wei",
+        "Jiazheng Xing",
+        "Yujin Han",
+        "Jiahao Pan",
+        "Yanbiao Ma",
+        "Chi-Min Chan",
+        "Kang Zhao",
+        "Shiwei Zhang"
+      ],
+      "abstract": "Video unified models exhibit strong capabilities in understanding and generation, yet they struggle with reason-informed visual editing even when equipped with powerful internal vision-language models (VLMs). We attribute this gap to two factors: 1) existing datasets are inadequate for training and evaluating reasoning-aware video editing, and 2) an inherent disconnect between the models' reasoning and editing capabilities, which prevents the rich understanding from effectively instructing the editing process. Bridging this gap requires an integrated framework that connects reasoning with visual transformation. To address this gap, we introduce the Reason-Informed Video Editing (RVE) task, which requires reasoning about physical plausibility and causal dynamics during editing. To support systematic evaluation, we construct RVE-Bench, a comprehensive benchmark with two complementary subsets: Reasoning-Informed Video Editing and In-Context Video Generation. These subsets cover diverse reasoning dimensions and real-world editing scenarios. Building upon this foundation, we propose the ReViSE, a Self-Reflective Reasoning (SRF) framework that unifies generation and evaluation within a single architecture. The model's internal VLM provides intrinsic feedback by assessing whether the edited video logically satisfies the given instruction. The differential feedback that refines the generator's reasoning behavior during training. Extensive experiments on RVE-Bench demonstrate that ReViSE significantly enhances editing accuracy and visual fidelity, achieving a 32% improvement of the Overall score in the reasoning-informed video editing subset over state-of-the-art methods.",
+      "url": "http://arxiv.org/abs/2512.09924v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09924v1",
+      "citations": null,
+      "categories": [
+        "cs.CV"
+      ],
+      "similarity_score": 0.010971600637352535,
+      "novelty_score": 0.9224318658280923,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.4377778533568243
+    },
+    {
+      "title": "VisualActBench: Can VLMs See and Act like a Human?",
+      "authors": [
+        "Daoan Zhang",
+        "Pai Liu",
+        "Xiaofei Zhou",
+        "Yuan Ge",
+        "Guangchen Lan",
+        "Jing Bi",
+        "Christopher Brinton",
+        "Ehsan Hoque",
+        "Jiebo Luo"
+      ],
+      "abstract": "Vision-Language Models (VLMs) have achieved impressive progress in perceiving and describing visual environments. However, their ability to proactively reason and act based solely on visual inputs, without explicit textual prompts, remains underexplored. We introduce a new task, Visual Action Reasoning, and propose VisualActBench, a large-scale benchmark comprising 1,074 videos and 3,733 human-annotated actions across four real-world scenarios. Each action is labeled with an Action Prioritization Level (APL) and a proactive-reactive type to assess models' human-aligned reasoning and value sensitivity. We evaluate 29 VLMs on VisualActBench and find that while frontier models like GPT4o demonstrate relatively strong performance, a significant gap remains compared to human-level reasoning, particularly in generating proactive, high-priority actions. Our results highlight limitations in current VLMs' ability to interpret complex context, anticipate outcomes, and align with human decision-making frameworks. VisualActBench establishes a comprehensive foundation for assessing and improving the real-world readiness of proactive, vision-centric AI agents.",
+      "url": "http://arxiv.org/abs/2512.09907v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09907v1",
+      "citations": null,
+      "categories": [
+        "cs.CV"
+      ],
+      "similarity_score": 0.0,
+      "novelty_score": 0.9326424870466321,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.4365284974093264
+    },
+    {
+      "title": "Splatent: Splatting Diffusion Latents for Novel View Synthesis",
+      "authors": [
+        "Or Hirschorn",
+        "Omer Sela",
+        "Inbar Huberman-Spiegelglas",
+        "Netalee Efrat",
+        "Eli Alshan",
+        "Ianir Ideses",
+        "Frederic Devernay",
+        "Yochai Zvik",
+        "Lior Fritz"
+      ],
+      "abstract": "Radiance field representations have recently been explored in the latent space of VAEs that are commonly used by diffusion models. This direction offers efficient rendering and seamless integration with diffusion-based pipelines. However, these methods face a fundamental limitation: The VAE latent space lacks multi-view consistency, leading to blurred textures and missing details during 3D reconstruction. Existing approaches attempt to address this by fine-tuning the VAE, at the cost of reconstruction quality, or by relying on pre-trained diffusion models to recover fine-grained details, at the risk of some hallucinations. We present Splatent, a diffusion-based enhancement framework designed to operate on top of 3D Gaussian Splatting (3DGS) in the latent space of VAEs. Our key insight departs from the conventional 3D-centric view: rather than reconstructing fine-grained details in 3D space, we recover them in 2D from input views through multi-view attention mechanisms. This approach preserves the reconstruction quality of pretrained VAEs while achieving faithful detail recovery. Evaluated across multiple benchmarks, Splatent establishes a new state-of-the-art for VAE latent radiance field reconstruction. We further demonstrate that integrating our method with existing feed-forward frameworks, consistently improves detail preservation, opening new possibilities for high-quality sparse-view 3D reconstruction.",
+      "url": "http://arxiv.org/abs/2512.09923v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09923v1",
+      "citations": null,
+      "categories": [
+        "cs.CV"
+      ],
+      "similarity_score": 0.010102762756469917,
+      "novelty_score": 0.9169054441260746,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.4364119176521559
+    },
+    {
+      "title": "Token Expand-Merge: Training-Free Token Compression for Vision-Language-Action Models",
+      "authors": [
+        "Yifan Ye",
+        "Jiaqi Ma",
+        "Jun Cen",
+        "Zhihe Lu"
+      ],
+      "abstract": "Vision-Language-Action (VLA) models pretrained on large-scale multimodal datasets have emerged as powerful foundations for robotic perception and control. However, their massive scale, often billions of parameters, poses significant challenges for real-time deployment, as inference becomes computationally expensive and latency-sensitive in dynamic environments. To address this, we propose Token Expand-and-Merge-VLA (TEAM-VLA), a training-free token compression framework that accelerates VLA inference while preserving task performance. TEAM-VLA introduces a dynamic token expansion mechanism that identifies and samples additional informative tokens in the spatial vicinity of attention-highlighted regions, enhancing contextual completeness. These expanded tokens are then selectively merged in deeper layers under action-aware guidance, effectively reducing redundancy while maintaining semantic coherence. By coupling expansion and merging within a single feed-forward pass, TEAM-VLA achieves a balanced trade-off between efficiency and effectiveness, without any retraining or parameter updates. Extensive experiments on LIBERO benchmark demonstrate that TEAM-VLA consistently improves inference speed while maintaining or even surpassing the task success rate of full VLA models. The code is public available on \\href{https://github.com/Jasper-aaa/TEAM-VLA}{https://github.com/Jasper-aaa/TEAM-VLA}",
+      "url": "http://arxiv.org/abs/2512.09927v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09927v1",
+      "citations": null,
+      "categories": [
+        "cs.RO"
+      ],
+      "similarity_score": 0.00861552368529351,
+      "novelty_score": 0.903954802259887,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.43337561755756543
+    },
+    {
+      "title": "NordFKB: a fine-grained benchmark dataset for geospatial AI in Norway",
+      "authors": [
+        "Sander Riisøen Jyhne",
+        "Aditya Gupta",
+        "Ben Worsley",
+        "Marianne Andersen",
+        "Ivar Oveland",
+        "Alexander Salveson Nossum"
+      ],
+      "abstract": "We present NordFKB, a fine-grained benchmark dataset for geospatial AI in Norway, derived from the authoritative, highly accurate, national Felles KartdataBase (FKB). The dataset contains high-resolution orthophotos paired with detailed annotations for 36 semantic classes, including both per-class binary segmentation masks in GeoTIFF format and COCO-style bounding box annotations. Data is collected from seven geographically diverse areas, ensuring variation in climate, topography, and urbanization. Only tiles containing at least one annotated object are included, and training/validation splits are created through random sampling across areas to ensure representative class and context distributions. Human expert review and quality control ensures high annotation accuracy. Alongside the dataset, we release a benchmarking repository with standardized evaluation protocols and tools for semantic segmentation and object detection, enabling reproducible and comparable research. NordFKB provides a robust foundation for advancing AI methods in mapping, land administration, and spatial planning, and paves the way for future expansions in coverage, temporal scope, and data modalities.",
+      "url": "http://arxiv.org/abs/2512.09913v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09913v1",
+      "citations": null,
+      "categories": [
+        "cs.CV"
+      ],
+      "similarity_score": 0.012059059226800973,
+      "novelty_score": 0.8968609865470852,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.4329899150774574
+    },
+    {
+      "title": "HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models",
+      "authors": [
+        "Minghui Lin",
+        "Pengxiang Ding",
+        "Shu Wang",
+        "Zifeng Zhuang",
+        "Yang Liu",
+        "Xinyang Tong",
+        "Wenxuan Song",
+        "Shangke Lyu",
+        "Siteng Huang",
+        "Donglin Wang"
+      ],
+      "abstract": "Vision-Language-Action (VLA) models have recently enabled robotic manipulation by grounding visual and linguistic cues into actions. However, most VLAs assume the Markov property, relying only on the current observation and thus suffering from temporal myopia that degrades long-horizon coherence. In this work, we view motion as a more compact and informative representation of temporal context and world dynamics, capturing inter-state changes while filtering static pixel-level noise. Building on this idea, we propose HiF-VLA (Hindsight, Insight, and Foresight for VLAs), a unified framework that leverages motion for bidirectional temporal reasoning. HiF-VLA encodes past dynamics through hindsight priors, anticipates future motion via foresight reasoning, and integrates both through a hindsight-modulated joint expert to enable a ''think-while-acting'' paradigm for long-horizon manipulation. As a result, HiF-VLA surpasses strong baselines on LIBERO-Long and CALVIN ABC-D benchmarks, while incurring negligible additional inference latency. Furthermore, HiF-VLA achieves substantial improvements in real-world long-horizon manipulation tasks, demonstrating its broad effectiveness in practical robotic settings.",
+      "url": "http://arxiv.org/abs/2512.09928v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09928v1",
+      "citations": null,
+      "categories": [
+        "cs.RO"
+      ],
+      "similarity_score": 0.0,
+      "novelty_score": 0.9109730848861284,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.4321946169772257
+    },
+    {
+      "title": "Efficient Continual Learning in Neural Machine Translation: A Low-Rank Adaptation Approach",
+      "authors": [
+        "Salvador Carrión",
+        "Francisco Casacuberta"
+      ],
+      "abstract": "Continual learning in Neural Machine Translation (NMT) faces the dual challenges of catastrophic forgetting and the high computational cost of retraining. This study establishes Low-Rank Adaptation (LoRA) as a parameter-efficient framework to address these challenges in dedicated NMT architectures. We first demonstrate that LoRA-based fine-tuning adapts NMT models to new languages and domains with performance on par with full-parameter techniques, while utilizing only a fraction of the parameter space. Second, we propose an interactive adaptation method using a calibrated linear combination of LoRA modules. This approach functions as a gate-free mixture of experts, enabling real-time, user-controllable adjustments to domain and style without retraining. Finally, to mitigate catastrophic forgetting, we introduce a novel gradient-based regularization strategy specifically designed for low-rank decomposition matrices. Unlike methods that regularize the full parameter set, our approach weights the penalty on the low-rank updates using historical gradient information. Experimental results indicate that this strategy efficiently preserves prior domain knowledge while facilitating the acquisition of new tasks, offering a scalable paradigm for interactive and continual NMT.",
+      "url": "http://arxiv.org/abs/2512.09910v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09910v1",
+      "citations": null,
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "similarity_score": 0.0,
+      "novelty_score": 0.9109730848861284,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.4321946169772257
+    },
+    {
+      "title": "STACHE: Local Black-Box Explanations for Reinforcement Learning Policies",
+      "authors": [
+        "Andrew Elashkin",
+        "Orna Grumberg"
+      ],
+      "abstract": "Reinforcement learning agents often behave unexpectedly in sparse-reward or safety-critical environments, creating a strong need for reliable debugging and verification tools. In this paper, we propose STACHE, a comprehensive framework for generating local, black-box explanations for an agent's specific action within discrete Markov games. Our method produces a Composite Explanation consisting of two complementary components: (1) a Robustness Region, the connected neighborhood of states where the agent's action remains invariant, and (2) Minimal Counterfactuals, the smallest state perturbations required to alter that decision. By exploiting the structure of factored state spaces, we introduce an exact, search-based algorithm that circumvents the fidelity gaps of surrogate models. Empirical validation on Gymnasium environments demonstrates that our framework not only explains policy actions, but also effectively captures the evolution of policy logic during training - from erratic, unstable behavior to optimized, robust strategies - providing actionable insights into agent sensitivity and decision boundaries.",
+      "url": "http://arxiv.org/abs/2512.09909v1",
+      "year": 2025,
+      "venue": "arXiv",
+      "source": "arxiv",
+      "doi": null,
+      "pdf_url": "https://arxiv.org/pdf/2512.09909v1",
+      "citations": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "similarity_score": 0.0,
+      "novelty_score": 0.893854748603352,
+      "recency_score": 1.0,
+      "relevance_score": 0.0,
+      "combined_score": 0.4287709497206704
+    },
+    {
+      "title": "Model-Predictive Control for Omnidirectional Mobile Robots in Logistic Environments Based on Object Detection Using CNNs",
+      "authors": [
+        "Ș. Achirei",
+        "Razvan Mocanu",
+        "Alexandru-Tudor Popovici",
+        "C. Dosoftei"
+      ],
+      "abstract": "Object detection is an essential component of autonomous mobile robotic systems, enabling robots to understand and interact with the environment. Object detection and recognition have made significant progress using convolutional neural networks (CNNs). Widely used in autonomous mobile robot applications, CNNs can quickly identify complicated image patterns, such as objects in a logistic environment. Integration of environment perception algorithms and motion control algorithms is a topic subjected to significant research. On the one hand, this paper presents an object detector to better understand the robot environment and the newly acquired dataset. The model was optimized to run on the mobile platform already on the robot. On the other hand, the paper introduces a model-based predictive controller to guide an omnidirectional robot to a particular position in a logistic environment based on an object map obtained from a custom-trained CNN detector and LIDAR data. Object detection contributes to a safe, optimal, and efficient path for the omnidirectional mobile robot. In a practical scenario, we deploy a custom-trained and optimized CNN model to detect specific objects in the warehouse environment. Then we evaluate, through simulation, a predictive control approach based on the detected objects using CNNs. Results are obtained in object detection using a custom-trained CNN with an in-house acquired data set on a mobile platform and in the optimal control for the omnidirectional mobile robot.",
+      "url": "https://www.semanticscholar.org/paper/fbcdb77bf94472ee3dfe67f1a7a845a1f9cf9827",
+      "year": 2023,
+      "venue": "Italian National Conference on Sensors",
+      "source": "semantic_scholar",
+      "doi": "10.3390/s23114992",
+      "pdf_url": "https://www.mdpi.com/1424-8220/23/11/4992/pdf?version=1684830882",
+      "citations": 21,
+      "categories": [],
+      "similarity_score": 0.14201982200575158,
+      "novelty_score": 0.8982035928143713,
+      "recency_score": 0.8,
+      "relevance_score": 0.0,
+      "combined_score": 0.4274966651645998
+    },
+    {
+      "title": "A model predictive control trajectory tracking lateral controller for autonomous vehicles combined with deep deterministic policy gradient",
+      "authors": [
+        "Zhaokang Xie",
+        "Xiaoci Huang",
+        "Suyun Luo",
+        "Ruoping Zhang",
+        "Fang Ma"
+      ],
+      "abstract": "To solve the problem of trajectory tracking lateral control in autonomous driving technology, a model predictive control (MPC) controller trajectory tracking lateral control method combined with a deep deterministic policy gradient algorithm (DDPG) is proposed in this paper. This method inputs the real-time state of the vehicle into DDPG to achieve real-time automatic optimization of the prediction time domain and control time domain parameters of the MPC controller, and then affects the specific performance of the MPC controller in trajectory tracking lateral control. Specifically, the state space, action space, and reward function of DDPG are defined, and the automatic driving trajectory tracking lateral controller is designed in combination with the vehicle dynamics model. To reduce the exploration space of DDPG and improve the training efficiency of the entire model, the technique of advantage-disadvantage experience separation and extraction is introduced. Finally, the proposed method was trained and verified in various scenarios, and compared with two other lateral control methods for autonomous driving. The results showed that the learning and training time of the trajectory tracking lateral control method based on DDPG-MPC was shorter than that of the DDPG-based method, and the evaluation indicators in the trajectory tracking control process were better than those of the DDPG-based method and original MPC-based method.",
+      "url": "https://www.semanticscholar.org/paper/c9ddccdac2aac9786ae4531bb0f4d40e0e706da9",
+      "year": 2023,
+      "venue": "Transactions of the Institute of Measurement and Control",
+      "source": "semantic_scholar",
+      "doi": "10.1177/01423312231197854",
+      "pdf_url": "",
+      "citations": 6,
+      "categories": [],
+      "similarity_score": 0.16164345820368062,
+      "novelty_score": 0.851063829787234,
+      "recency_score": 0.8,
+      "relevance_score": 0.0,
+      "combined_score": 0.420205803418551
+    },
+    {
+      "title": "Unmatched Uncertainty Mitigation Through Neural Network Supported Model Predictive Control",
+      "authors": [
+        "M. V. Gasparino",
+        "Prabhat Kumar Mishra",
+        "Girish V. Chowdhary"
+      ],
+      "abstract": "This paper presents a deep learning based model predictive control (MPC) algorithm for systems with unmatched and bounded state-action dependent uncertainties of unknown structure. We utilize a deep neural network (DNN) as an oracle in the underlying optimization problem of learning based MPC (LBMPC) to estimate unmatched uncertainties. Generally, DNNs as oracle are considered difficult to employ with LBMPC due to the technical difficulties associated with the estimation of their coefficients in real time. We employ a dual-timescale adaptation mechanism, where the weights of the last layer of the neural network are updated in real time while the inner layers are trained on a slower timescale using the training data collected online and selectively stored in a buffer. Our results are validated through a numerical experiment on the compression system model of a jet engine. These results indicate that the proposed approach is implementable in real time and carries the theoretical guarantees of LBMPC.",
+      "url": "https://www.semanticscholar.org/paper/47b63d789cd69bce02b84b4afee56f87bf3d42ad",
+      "year": 2023,
+      "venue": "IEEE Conference on Decision and Control",
+      "source": "semantic_scholar",
+      "doi": "10.1109/CDC49753.2023.10384150",
+      "pdf_url": "https://arxiv.org/pdf/2304.11315",
+      "citations": 4,
+      "categories": [],
+      "similarity_score": 0.1533474519104372,
+      "novelty_score": 0.8474576271186441,
+      "recency_score": 0.8,
+      "relevance_score": 0.0,
+      "combined_score": 0.41649576099686003
+    },
+    {
+      "title": "Deep-Learning-Based Model Predictive Control of an Industrial-Scale Multistate Counter-Flow Paddy Drying Process",
+      "authors": [
+        "Ye Zhang",
+        "Zhuangdong Fang",
+        "Changyou Li",
+        "Chengjie Li"
+      ],
+      "abstract": "In practical industrial-scale paddy drying production, manual empirical operation is still widely used for process control. This often leads to poor uniformity in the moisture content distribution of discharged grains, affecting product quality. Model Predictive Control (MPC) is considered the most effective control method for paddy drying, but its implementation in industrial-scale drying is hindered by its high computational cost. This study aims to address this challenge by proposing a deep-learning-based model predictive control (DL-MPC) strategy for paddy drying. By establishing a mapping relation between the inlet and outlet paddy moisture content and paddy flow velocity, a DL-MPC strategy suitable for multistage counter-flow paddy drying systems is proposed. DL-MPC systems are developed using long short-term memory (LSTM) neural networks and trained using datasets from single-drying-stage and multistage drying systems. Simulation and analysis are conducted, followed by verification experiments on a 5HNH-15 multistage counter-flow paddy dryer. The results show that the DL-MPC system significantly improves computational speed while achieving satisfactory control performance. The predicted paddy flow velocity exhibits a smooth variation and matches field data obtained from multiple transition points, confirming the effectiveness of the designed DL-MPC system. The mean absolute error between the predicted and actual paddy moisture content under the DL-MPC system is 0.190% d.b., further supporting the effectiveness of the control system.",
+      "url": "https://www.semanticscholar.org/paper/12b8c11e9acd8d4fd583e879425335abddc5e564",
+      "year": 2023,
+      "venue": "Foods",
+      "source": "semantic_scholar",
+      "doi": "10.3390/foods13010043",
+      "pdf_url": "https://www.mdpi.com/2304-8158/13/1/43/pdf?version=1703165833",
+      "citations": 13,
+      "categories": [],
+      "similarity_score": 0.12036287373295979,
+      "novelty_score": 0.8633093525179857,
+      "recency_score": 0.8,
+      "relevance_score": 0.0,
+      "combined_score": 0.4120207326234851
+    },
+    {
+      "title": "Learning‐based model predictive control for improved mobile robot path following using Gaussian processes and feedback linearization",
+      "authors": [
+        "Jie Wang",
+        "Michael T. H. Fader",
+        "J. Marshall"
+      ],
+      "abstract": "This paper proposes a high‐performance path following algorithm that combines Gaussian processes (GP) based learning and feedback linearization (FBL) with model predictive control (MPC) for ground mobile robots operating in off‐road terrains, referred to as GP‐FBLMPC. The algorithm uses a nominal kinematic model and learns unmodeled dynamics as GP models by using observation data collected during field experiments. Extensive outdoor experiments using a Clearpath Husky A200 mobile robot show that the proposed GP‐FBLMPC algorithm's performance is comparable to existing GP learning‐based nonlinear MPC (GP‐NMPC) methods with respect to the path following errors. The advantage of GP‐FBLMPC is that it is generalizable in reducing path following errors for different paths that are not included in the GP models training process, while GP‐NMPC methods only work well on exactly the same path on which GP models are trained. GP‐FBLMPC is also computationally more efficient than the GP‐NMPC because it does not conduct iterative optimization and requires fewer GP models to make predictions over the MPC prediction horizon loop at every time step. Field tests show the effectiveness and generalization of reducing path following errors of the GP‐FBLMPC algorithm. It requires little training data to perform GP modeling before it can be used to reduce path‐following errors for new, more complex paths on the same terrain (see video at https://youtu.be/tC09jJQ0OXM).",
+      "url": "https://www.semanticscholar.org/paper/e04d7b4432fba3ad9d65d43c90ecd22fee4335ee",
+      "year": 2023,
+      "venue": "J. Field Robotics",
+      "source": "semantic_scholar",
+      "doi": "10.1002/rob.22165",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/rob.22165",
+      "citations": 43,
+      "categories": [],
+      "similarity_score": 0.06944802776665938,
+      "novelty_score": 0.8625336927223719,
+      "recency_score": 0.8,
+      "relevance_score": 0.0,
+      "combined_score": 0.40409114687447223
+    },
+    {
+      "title": "Supervised Learning Model Predictive Control Trained by ABC Algorithm for Common-Mode Voltage Suppression in NPC Inverter",
+      "authors": [
+        "M. Babaie",
+        "M. Sharifzadeh",
+        "M. Mehrasa",
+        "Gabriel Chouinard",
+        "K. Al-haddad"
+      ],
+      "abstract": "Training the weighting factors of model predictive control in multiobjective problems is a time consuming and sophisticated process. In this article, conventional model predictive control (CMPC) has been developed as supervised learning model predictive control (SLMPC) to cancel common-mode voltage (CMV) in a three-phase neutral-point-clamped (NPC) inverter, while other control objectives are desirably tracked. SLMPC is accurately and quickly trained through the artificial bee colony (ABC) algorithm to optimize the controller weighting factors. Using the optimized weighting factors, transient response is minimized and CMV is surpassed. After training the weighting factors, SLMPC containing the optimized waiting factors is applied to the three-phase NPC inverter without considering the ABC algorithm in the control loop. By applying the optimized weighting factors to the cost function, SLMPC has been evaluated under several experimental and simulation tests to show that desired control objectives, particularly CMV suppression, have been attained. The proposed training process can be generalized and used for MPC cost functions with more control objectives to obtain the best possible performance.",
+      "url": "https://www.semanticscholar.org/paper/02fb176e1a5f1649ecb0db7d0a09060f5d8a367c",
+      "year": 2021,
+      "venue": "IEEE Journal of Emerging and Selected Topics in Power Electronics",
+      "source": "semantic_scholar",
+      "doi": "10.1109/JESTPE.2020.2984674",
+      "pdf_url": "",
+      "citations": 46,
+      "categories": [],
+      "similarity_score": 0.21456293108743038,
+      "novelty_score": 0.85219707057257,
+      "recency_score": 0.6,
+      "relevance_score": 0.0,
+      "combined_score": 0.39630829344074314
+    },
+    {
+      "title": "Deep Transfer Learning for Approximate Model Predictive Control",
+      "authors": [
+        "Samuel Arce Munoz",
+        "Junho Park",
+        "Cristina M. Stewart",
+        "Adam M. Martin",
+        "J. Hedengren"
+      ],
+      "abstract": "Transfer learning is a machine learning technique that takes a pre-trained model that has already been trained on a related task, and adapts it for use on a new, related task. This is particularly useful in the context of model predictive control (MPC), where deep transfer learning is used to improve the training of the MPC by leveraging the knowledge gained from related controllers. One way in which transfer learning is applied in the context of MPC is by using a pre-trained deep learning model of the MPC, and then fine-tuning the controller training for a new process automation task. This is similar to how an equipment operator quickly learns to manually control a new processing unit because of related skills learned from controlling the prior unit. This reduces the amount of data required to train the approximate MPC controller, and also improves the performance on the target system. Additionally, learning the MPC actions alleviates the computational burden of online optimization calculations, although this approach is limited to learning from systems where an MPC has already been developed. The paper reviews approximate MPC formulations with a case study that illustrates the use of neural networks and transfer learning to create a multiple-input multiple-output (MIMO) approximate MPC. The performance of the resulting controller is similar to that of a controller trained on an existing MPC, but it requires less than a quarter of the target system data for training. The main contributions of this paper are a summary survey of approximate MPC formulations and a motivating case study that includes a discussion of future development work in this area. The case study presents an example of using neural networks and transfer learning to create a MIMO approximate MPC and discusses the potential for further research and development in this area. Overall, the goal of this paper is to provide an overview of the current state of research in approximate MPC, as well as to inspire and guide future work in transfer learning.",
+      "url": "https://www.semanticscholar.org/paper/1bd04ef01b91f0a2e4a822f6820e4511ee1f9735",
+      "year": 2023,
+      "venue": "Processes",
+      "source": "semantic_scholar",
+      "doi": "10.3390/pr11010197",
+      "pdf_url": "https://www.mdpi.com/2227-9717/11/1/197/pdf?version=1673946384",
+      "citations": 11,
+      "categories": [],
+      "similarity_score": 0.13032914913974045,
+      "novelty_score": 0.7655502392344498,
+      "recency_score": 0.8,
+      "relevance_score": 0.0,
+      "combined_score": 0.3949587925888121
+    },
+    {
+      "title": "Deep Neural Network Trained to Mimic Nonlinear Economic Model Predictive Control: an Application to a Pendulum Wave Energy Converter",
+      "authors": [
+        "E. Pasta",
+        "F. Carapellese",
+        "G. Mattiazzo"
+      ],
+      "abstract": "This paper introduces different Model Predictive Control (MPC) strategies aimed at optimizing the energy production of a Pendulum Wave Energy Converter (PeWEC). Due to MPC ability of dealing with system constraints and considering future behaviors in optimal control computation, the first proposed MPC is applied to PeWEC as a classical problem of set-point tracking using a linear model to propagate the system behaviour. Moreover, since the MPC application in wave energy conversion deviates significantly from traditional MPC ones, an economic version is also explored. The objective function of the MPC thus realized directly considers a measure of the absorbed power. However, this formulation, together with the use of a nonlinear model in predicting the system evolution, leads to an optimization problem to be solved that is neither fully quadratic nor can be guaranteed to be convex. This paper shows that this second approach brings better performances, demonstrating that it is potentially more suitable for wave energy applications. On the other side, such approach has a computational drawback from both a real-time implementation and offline design perspectives. To avoid the potentially prohibitive computational costs that an online optimization would require, this work introduces a novel control based on a Deep Neural Network (DNN) able to mimic the nonlinear economic MPC. Results arising from simulations applying the proposed strategy demonstrate the effectiveness of the presented approach.",
+      "url": "https://www.semanticscholar.org/paper/efee79da11759cf77291b59984853100f6aab92e",
+      "year": 2021,
+      "venue": "Conference on Control Technology and Applications",
+      "source": "semantic_scholar",
+      "doi": "10.1109/ccta48906.2021.9659254",
+      "pdf_url": "",
+      "citations": 14,
+      "categories": [],
+      "similarity_score": 0.15689333817077286,
+      "novelty_score": 0.8941176470588235,
+      "recency_score": 0.6,
+      "relevance_score": 0.0,
+      "combined_score": 0.3793915308629966
+    },
+    {
+      "title": "Deep Model Predictive Control With Stability Guarantees",
+      "authors": [
+        "Prabhat Kumar Mishra",
+        "M. V. Gasparino",
+        "Andres E. B. Velsasquez",
+        "Girish V. Chowdhary"
+      ],
+      "abstract": "This article presents a deep learning-based model predictive control (MPC) algorithm for control affine nonlinear discrete-time systems with matched and bounded state-dependent uncertainties of unknown structure. Since the structure of uncertainties is not known, a deep neural network is employed to approximate them. In order to avoid any unwanted behavior during the learning phase, a tube-based nonlinear model predictive controller is employed, which ensures satisfaction of constraints and input-to-state stability of the closed-loop states. In addition, the proposed approach guarantees the convergence of states to the origin under certain conditions. To make the algorithm implementable online, a dual-timescale adaptation mechanism is utilized, where the weights of the output layer of the neural network are updated each time instant using a weight update law, while the inner layers are repeatedly trained in self-supervised manner by using the adaptive actions as labels for the training. Our results are validated through a numerical experiment, which indicates that the proposed deep MPC architecture is effective in learning to control safety critical systems without suffering instability drawbacks.",
+      "url": "https://www.semanticscholar.org/paper/6186b5a1c0c973986aa873bd74f73442565aa8a7",
+      "year": 2021,
+      "venue": "IEEE Transactions on Automatic Control",
+      "source": "semantic_scholar",
+      "doi": "10.1109/TAC.2025.3550072",
+      "pdf_url": "http://arxiv.org/pdf/2104.07171",
+      "citations": 12,
+      "categories": [],
+      "similarity_score": 0.20360537161122627,
+      "novelty_score": 0.7909604519774012,
+      "recency_score": 0.6,
+      "relevance_score": 0.0,
+      "combined_score": 0.3722737018788481
+    }
+  ]
+}

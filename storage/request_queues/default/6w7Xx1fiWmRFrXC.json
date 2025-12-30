@@ -1,9 +1,0 @@
-{
-	"id": "6w7Xx1fiWmRFrXC",
-	"json": "{\"id\":\"6w7Xx1fiWmRFrXC\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Gasho,+J+O\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Gasho%2C+J+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002444,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Gasho%2C+J+O&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Gasho,+J+O"
-}

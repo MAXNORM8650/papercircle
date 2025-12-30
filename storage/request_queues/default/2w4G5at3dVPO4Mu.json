@@ -1,9 +1,0 @@
-{
-	"id": "2w4G5at3dVPO4Mu",
-	"json": "{\"id\":\"2w4G5at3dVPO4Mu\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kim,+W\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kim%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014188,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Kim%2C+W&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kim,+W"
-}

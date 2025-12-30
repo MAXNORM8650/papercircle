@@ -1,9 +1,0 @@
-{
-	"id": "CcfYxMEZ0MF0SYL",
-	"json": "{\"id\":\"CcfYxMEZ0MF0SYL\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Frascoli,+F\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Frascoli%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087020064,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Frascoli%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Frascoli,+F"
-}

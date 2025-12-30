@@ -1,9 +1,0 @@
-{
-	"id": "UXepqmficV2hXHr",
-	"json": "{\"id\":\"UXepqmficV2hXHr\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Fang,+Z\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Fang%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994222,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Fang%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Fang,+Z"
-}

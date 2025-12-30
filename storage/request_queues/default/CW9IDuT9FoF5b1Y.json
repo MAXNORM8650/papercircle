@@ -1,9 +1,0 @@
-{
-	"id": "CW9IDuT9FoF5b1Y",
-	"json": "{\"id\":\"CW9IDuT9FoF5b1Y\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Lian,+L\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Lian%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012787,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Lian%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Lian,+L"
-}

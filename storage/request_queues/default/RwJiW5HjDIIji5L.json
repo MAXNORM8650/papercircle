@@ -1,9 +1,0 @@
-{
-	"id": "RwJiW5HjDIIji5L",
-	"json": "{\"id\":\"RwJiW5HjDIIji5L\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Mendoza,+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Mendoza%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997799,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Mendoza%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Mendoza,+E"
-}

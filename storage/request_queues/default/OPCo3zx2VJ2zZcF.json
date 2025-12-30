@@ -1,9 +1,0 @@
-{
-	"id": "OPCo3zx2VJ2zZcF",
-	"json": "{\"id\":\"OPCo3zx2VJ2zZcF\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Hartmann,+F\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Hartmann%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989872,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Hartmann%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Hartmann,+F"
-}

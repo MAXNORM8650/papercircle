@@ -1,9 +1,0 @@
-{
-	"id": "AVESay7AGuYjWz0",
-	"json": "{\"id\":\"AVESay7AGuYjWz0\",\"url\":\"https://arxiv.org/list/math.AG/recent?skip=64&show=50\",\"uniqueKey\":\"https://arxiv.org/list/math.AG/recent?show=50&skip=64\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087004909,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/math.AG/recent?show=50&skip=64",
-	"url": "https://arxiv.org/list/math.AG/recent?skip=64&show=50"
-}

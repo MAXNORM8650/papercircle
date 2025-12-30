@@ -1,9 +1,0 @@
-{
-	"id": "r0EyUFnEaZTAhia",
-	"json": "{\"id\":\"r0EyUFnEaZTAhia\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Dave%2C+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Dave%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087082832,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Dave%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Dave%2C+R"
-}

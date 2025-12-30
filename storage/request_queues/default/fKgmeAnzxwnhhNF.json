@@ -1,9 +1,0 @@
-{
-	"id": "fKgmeAnzxwnhhNF",
-	"json": "{\"id\":\"fKgmeAnzxwnhhNF\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Leclerc,+G\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Leclerc%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009034,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Leclerc%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Leclerc,+G"
-}

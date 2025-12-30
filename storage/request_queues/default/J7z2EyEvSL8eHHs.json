@@ -1,9 +1,0 @@
-{
-	"id": "J7z2EyEvSL8eHHs",
-	"json": "{\"id\":\"J7z2EyEvSL8eHHs\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=del+Pino,+%C3%81\",\"uniqueKey\":\"https://arxiv.org/search/math?query=del+Pino%2C+%C3%81&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005564,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=del+Pino%2C+%C3%81&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=del+Pino,+%C3%81"
-}

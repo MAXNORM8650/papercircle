@@ -1,9 +1,0 @@
-{
-	"id": "UefzQOM3LXaLTYf",
-	"json": "{\"id\":\"UefzQOM3LXaLTYf\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Rowson,+P\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Rowson%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997907,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Rowson%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Rowson,+P"
-}

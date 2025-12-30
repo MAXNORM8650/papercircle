@@ -1,9 +1,0 @@
-{
-	"id": "jWEOjk3L8hd2mFs",
-	"json": "{\"id\":\"jWEOjk3L8hd2mFs\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Muszy%C5%84ski,+J\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Muszy%C5%84ski%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992803,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Muszy%C5%84ski%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Muszy%C5%84ski,+J"
-}

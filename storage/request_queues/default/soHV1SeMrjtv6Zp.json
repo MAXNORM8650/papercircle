@@ -1,9 +1,0 @@
-{
-	"id": "soHV1SeMrjtv6Zp",
-	"json": "{\"id\":\"soHV1SeMrjtv6Zp\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Concas,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Concas%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987023,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Concas%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Concas,+A"
-}

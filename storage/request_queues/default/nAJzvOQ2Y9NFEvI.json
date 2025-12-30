@@ -1,9 +1,0 @@
-{
-	"id": "nAJzvOQ2Y9NFEvI",
-	"json": "{\"id\":\"nAJzvOQ2Y9NFEvI\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Gonz%C3%A1lez-Avella,+J+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Gonz%C3%A1lez-Avella%2C+J+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086996506,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Gonz%C3%A1lez-Avella%2C+J+C&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Gonz%C3%A1lez-Avella,+J+C"
-}

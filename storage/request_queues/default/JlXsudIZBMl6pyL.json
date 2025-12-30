@@ -1,9 +1,0 @@
-{
-	"id": "JlXsudIZBMl6pyL",
-	"json": "{\"id\":\"JlXsudIZBMl6pyL\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Pasricha,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Pasricha%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012884,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Pasricha%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Pasricha,+S"
-}

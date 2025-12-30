@@ -1,9 +1,0 @@
-{
-	"id": "Fydy0T6un1tbQg8",
-	"json": "{\"id\":\"Fydy0T6un1tbQg8\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Lai,+Z\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Lai%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087027010,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Lai%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Lai,+Z"
-}

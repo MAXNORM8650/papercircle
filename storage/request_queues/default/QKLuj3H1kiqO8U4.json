@@ -1,9 +1,0 @@
-{
-	"id": "QKLuj3H1kiqO8U4",
-	"json": "{\"id\":\"QKLuj3H1kiqO8U4\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Rahal,+M\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Rahal%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019323,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Rahal%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Rahal,+M"
-}

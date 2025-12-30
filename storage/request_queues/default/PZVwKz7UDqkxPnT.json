@@ -1,9 +1,0 @@
-{
-	"id": "PZVwKz7UDqkxPnT",
-	"json": "{\"id\":\"PZVwKz7UDqkxPnT\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Raugei,+S\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Raugei%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019207,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Raugei%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Raugei,+S"
-}

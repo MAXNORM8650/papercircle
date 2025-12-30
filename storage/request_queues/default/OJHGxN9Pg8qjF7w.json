@@ -1,9 +1,0 @@
-{
-	"id": "OJHGxN9Pg8qjF7w",
-	"json": "{\"id\":\"OJHGxN9Pg8qjF7w\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Muzas,+A+S\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Muzas%2C+A+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000738,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Muzas%2C+A+S&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Muzas,+A+S"
-}

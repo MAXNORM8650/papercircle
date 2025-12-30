@@ -1,9 +1,0 @@
-{
-	"id": "Rkx7QO2zXRgAzSf",
-	"json": "{\"id\":\"Rkx7QO2zXRgAzSf\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Amy,+M\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Amy%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087003756,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Amy%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Amy,+M"
-}

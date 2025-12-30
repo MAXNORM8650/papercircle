@@ -1,9 +1,0 @@
-{
-	"id": "LzIPQmitPNrR0B4",
-	"json": "{\"id\":\"LzIPQmitPNrR0B4\",\"url\":\"https://arxiv.org/list/hep-th/recent\",\"loadedUrl\":\"https://arxiv.org/list/hep-th/recent\",\"uniqueKey\":\"https://arxiv.org/list/hep-th/recent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:54.874Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/hep-th/recent",
-	"url": "https://arxiv.org/list/hep-th/recent"
-}

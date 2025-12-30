@@ -1,9 +1,0 @@
-{
-	"id": "q8a24SOShX3yahV",
-	"json": "{\"id\":\"q8a24SOShX3yahV\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Palazzi%2C+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Palazzi%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087090604,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Palazzi%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Palazzi%2C+E"
-}

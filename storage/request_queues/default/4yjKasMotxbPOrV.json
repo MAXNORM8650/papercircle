@@ -1,9 +1,0 @@
-{
-	"id": "4yjKasMotxbPOrV",
-	"json": "{\"id\":\"4yjKasMotxbPOrV\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Haque,+S\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Haque%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005518,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Haque%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Haque,+S"
-}

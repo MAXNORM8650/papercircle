@@ -1,9 +1,0 @@
-{
-	"id": "2CDbBOOYuW2uaal",
-	"json": "{\"id\":\"2CDbBOOYuW2uaal\",\"url\":\"https://arxiv.org/list/nlin/recent\",\"loadedUrl\":\"https://arxiv.org/list/nlin/recent\",\"uniqueKey\":\"https://arxiv.org/list/nlin/recent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:56.523Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/nlin/recent",
-	"url": "https://arxiv.org/list/nlin/recent"
-}

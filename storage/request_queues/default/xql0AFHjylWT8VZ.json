@@ -1,9 +1,0 @@
-{
-	"id": "xql0AFHjylWT8VZ",
-	"json": "{\"id\":\"xql0AFHjylWT8VZ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Arteaga-Vel%C3%A1zquez%2C+J+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Arteaga-Vel%C3%A1zquez%2C+J+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087045621,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Arteaga-Vel%C3%A1zquez%2C+J+C&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Arteaga-Vel%C3%A1zquez%2C+J+C"
-}

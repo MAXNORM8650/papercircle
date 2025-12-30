@@ -1,9 +1,0 @@
-{
-	"id": "E7irRKCgA62TGE3",
-	"json": "{\"id\":\"E7irRKCgA62TGE3\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Kurozumi,+E\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Kurozumi%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087026234,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/econ?query=Kurozumi%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/econ?searchtype=author&query=Kurozumi,+E"
-}

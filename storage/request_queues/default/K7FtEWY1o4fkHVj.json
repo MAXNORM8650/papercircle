@@ -1,9 +1,0 @@
-{
-	"id": "K7FtEWY1o4fkHVj",
-	"json": "{\"id\":\"K7FtEWY1o4fkHVj\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Almahmoud,+Z\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Almahmoud%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087017838,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Almahmoud%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Almahmoud,+Z"
-}

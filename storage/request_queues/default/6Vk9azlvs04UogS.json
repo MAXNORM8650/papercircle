@@ -1,9 +1,0 @@
-{
-	"id": "6Vk9azlvs04UogS",
-	"json": "{\"id\":\"6Vk9azlvs04UogS\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Sanchez-Lucas,+P\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Sanchez-Lucas%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992598,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Sanchez-Lucas%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Sanchez-Lucas,+P"
-}

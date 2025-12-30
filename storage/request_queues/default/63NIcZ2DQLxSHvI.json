@@ -1,9 +1,0 @@
-{
-	"id": "63NIcZ2DQLxSHvI",
-	"json": "{\"id\":\"63NIcZ2DQLxSHvI\",\"url\":\"https://arxiv.org/list/astro-ph/2022-04?skip=1100\",\"uniqueKey\":\"https://arxiv.org/list/astro-ph/2022-04?skip=1100\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087030844,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/astro-ph/2022-04?skip=1100",
-	"url": "https://arxiv.org/list/astro-ph/2022-04?skip=1100"
-}

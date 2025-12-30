@@ -1,9 +1,0 @@
-{
-	"id": "eQ6JpSBzH2ZbfrX",
-	"json": "{\"id\":\"eQ6JpSBzH2ZbfrX\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Perez,+N+P\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Perez%2C+N+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087001369,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Perez%2C+N+P&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Perez,+N+P"
-}

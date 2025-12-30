@@ -1,9 +1,0 @@
-{
-	"id": "aW0boYfHDi5kBmy",
-	"json": "{\"id\":\"aW0boYfHDi5kBmy\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Wiesmayr,+R\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Wiesmayr%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007965,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Wiesmayr%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Wiesmayr,+R"
-}

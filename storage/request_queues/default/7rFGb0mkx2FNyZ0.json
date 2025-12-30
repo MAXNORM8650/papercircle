@@ -1,9 +1,0 @@
-{
-	"id": "7rFGb0mkx2FNyZ0",
-	"json": "{\"id\":\"7rFGb0mkx2FNyZ0\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Partovizadeh,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Partovizadeh%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087011979,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Partovizadeh%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Partovizadeh,+A"
-}

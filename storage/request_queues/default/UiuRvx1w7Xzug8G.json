@@ -1,9 +1,0 @@
-{
-	"id": "UiuRvx1w7Xzug8G",
-	"json": "{\"id\":\"UiuRvx1w7Xzug8G\",\"url\":\"https://arxiv.org/search/nucl-th?searchtype=author&query=Bernard,+R+N\",\"uniqueKey\":\"https://arxiv.org/search/nucl-th?query=Bernard%2C+R+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086998166,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-th?query=Bernard%2C+R+N&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-th?searchtype=author&query=Bernard,+R+N"
-}

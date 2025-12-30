@@ -1,9 +1,0 @@
-{
-	"id": "sIhA7Hpa60M68DO",
-	"json": "{\"id\":\"sIhA7Hpa60M68DO\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Ross%2C+A\",\"uniqueKey\":\"https://arxiv.org/search?query=Ross%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087090261,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Ross%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Ross%2C+A"
-}

@@ -1,415 +1,518 @@
 import { useState, useEffect } from 'react';
-import { X, Calendar, Clock, MapPin, Video, Users, User, Mail, FileText } from 'lucide-react';
+import { X, Calendar, Clock, MapPin, Users, FileText, Link as LinkIcon } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
+import { useCommunity } from '../../contexts/CommunityContext';
 import { useAuth } from '../../contexts/AuthContext';
+import { logError, getUserFriendlyErrorMessage } from '../../lib/errorHandling';
 
 interface CreateSessionModalProps {
+  isOpen: boolean;
   onClose: () => void;
   onSuccess: () => void;
-  communityId?: string;
+  communityId: string;
+  sessionToEdit?: any;
 }
 
-interface Community {
-  id: string;
-  name: string;
-}
-
-interface Paper {
-  id: string;
+interface SessionFormData {
   title: string;
+  description: string;
+  introduction: string;
+  scheduled_for: string;
+  duration_minutes: number;
+  location: string;
+  virtual_link: string;
+  parent_session_id: string;
+  related_session_ids: string[];
+  presenter_ids: string[];
+  paper_ids: string[];
 }
 
-interface CoPresenter {
-  name: string;
-  email: string;
-  bio: string;
-}
-
-export function CreateSessionModal({ onClose, onSuccess, communityId }: CreateSessionModalProps) {
-  const { user, profile } = useAuth();
-  const [communities, setCommunities] = useState<Community[]>([]);
-  const [papers, setPapers] = useState<Paper[]>([]);
+export function CreateSessionModal({ isOpen, onClose, onSuccess, communityId, sessionToEdit }: CreateSessionModalProps) {
+  const { user } = useAuth();
   const [loading, setLoading] = useState(false);
-  const [searchPaper, setSearchPaper] = useState('');
+  const [sessions, setSessions] = useState<any[]>([]);
+  const [members, setMembers] = useState<any[]>([]);
+  const [papers, setPapers] = useState<any[]>([]);
 
-  const [session, setSession] = useState({
+  const [formData, setFormData] = useState<SessionFormData>({
     title: '',
     description: '',
-    scheduled_at: '',
+    introduction: '',
+    scheduled_for: '',
     duration_minutes: 60,
     location: '',
     virtual_link: '',
-    presenter_name: profile?.display_name || '',
-    presenter_email: user?.email || '',
-    presenter_bio: profile?.bio || '',
-    paper_id: '',
-    community_id: communityId || '',
-    visibility: 'members' as 'public' | 'members',
-  });
-
-  const [coPresenters, setCoPresenters] = useState<CoPresenter[]>([]);
-  const [newCoPresenter, setNewCoPresenter] = useState<CoPresenter>({
-    name: '',
-    email: '',
-    bio: '',
+    parent_session_id: '',
+    related_session_ids: [],
+    presenter_ids: [],
+    paper_ids: [],
   });
 
   useEffect(() => {
-    loadCommunities();
-    loadPapers();
-  }, []);
-
-  const loadCommunities = async () => {
-    const { data } = await supabase
-      .from('communities')
-      .select('id, name')
-      .order('name');
-
-    if (data) setCommunities(data);
-  };
-
-  const loadPapers = async () => {
-    let query = supabase
-      .from('papers')
-      .select('id, title')
-      .order('created_at', { ascending: false })
-      .limit(50);
-
-    if (searchPaper) {
-      query = query.ilike('title', `%${searchPaper}%`);
+    if (isOpen) {
+      loadData();
+      if (sessionToEdit) {
+        populateEditData();
+      }
     }
+  }, [isOpen, sessionToEdit]);
 
-    const { data } = await query;
-    if (data) setPapers(data);
-  };
+  const loadData = async () => {
+    try {
+      // Load existing sessions for lineage selection
+      const { data: sessionsData } = await supabase
+        .from('sessions')
+        .select('id, title, scheduled_for')
+        .eq('community_id', communityId)
+        .order('scheduled_for', { ascending: false });
+      setSessions(sessionsData || []);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      loadPapers();
-    }, 300);
-    return () => clearTimeout(timer);
-  }, [searchPaper]);
+      // Load community members for presenter assignment
+      const { data: membersData } = await supabase
+        .from('community_members')
+        .select(`
+          user_id,
+          profiles:user_id (
+            id,
+            display_name,
+            avatar_url
+          )
+        `)
+        .eq('community_id', communityId);
+      setMembers(membersData || []);
 
-  const addCoPresenter = () => {
-    if (newCoPresenter.name && newCoPresenter.email) {
-      setCoPresenters([...coPresenters, newCoPresenter]);
-      setNewCoPresenter({ name: '', email: '', bio: '' });
+      // Load community papers
+      const { data: papersData } = await supabase
+        .from('community_papers')
+        .select(`
+          paper_id,
+          papers:paper_id (
+            id,
+            title,
+            authors
+          )
+        `)
+        .eq('community_id', communityId);
+      setPapers(papersData || []);
+    } catch (error) {
+      console.error('Error loading data:', error);
     }
   };
 
-  const removeCoPresenter = (index: number) => {
-    setCoPresenters(coPresenters.filter((_, i) => i !== index));
+  const populateEditData = () => {
+    if (!sessionToEdit) return;
+
+    setFormData({
+      title: sessionToEdit.title || '',
+      description: sessionToEdit.description || '',
+      introduction: sessionToEdit.introduction || '',
+      scheduled_for: sessionToEdit.scheduled_for ? new Date(sessionToEdit.scheduled_for).toISOString().slice(0, 16) : '',
+      duration_minutes: sessionToEdit.duration_minutes || 60,
+      location: sessionToEdit.location || '',
+      virtual_link: sessionToEdit.virtual_link || '',
+      parent_session_id: sessionToEdit.parent_session_id || '',
+      related_session_ids: sessionToEdit.related_sessions || [],
+      presenter_ids: sessionToEdit.presenters?.map((p: any) => p.user_id) || [],
+      paper_ids: sessionToEdit.papers?.map((p: any) => p.paper_id) || [],
+    });
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!user) return;
-  
+
     setLoading(true);
-  
-    // Convert empty strings to null for UUID fields
-    const sessionData = {
-      ...session,
-      created_by: user.id,
-      presenter_id: user.id,
-      co_presenters: coPresenters,
-      scheduled_at: new Date(session.scheduled_at).toISOString(),
-      // Fix: Convert empty strings to null
-      paper_id: session.paper_id || null,
-      community_id: session.community_id || null,
-    };
-  
-    const { error } = await supabase.from('sessions').insert(sessionData);
-  
-    if (error) {
-      alert('Error creating session: ' + error.message);
+    try {
+      // Create or update session
+      const sessionData = {
+        community_id: communityId,
+        title: formData.title,
+        description: formData.description,
+        introduction: formData.introduction,
+        scheduled_for: new Date(formData.scheduled_for).toISOString(),
+        duration_minutes: formData.duration_minutes,
+        location: formData.location,
+        virtual_link: formData.virtual_link,
+        parent_session_id: formData.parent_session_id || null,
+        created_by: sessionToEdit ? undefined : user.id,
+      };
+
+      let sessionId: string;
+
+      if (sessionToEdit) {
+        // Update existing session
+        const { data, error } = await supabase
+          .from('sessions')
+          .update(sessionData)
+          .eq('id', sessionToEdit.id)
+          .select()
+          .single();
+
+        if (error) throw error;
+        sessionId = data.id;
+
+        // Clear existing relationships
+        await supabase.from('session_edges').delete().eq('source_session_id', sessionId);
+        await supabase.from('session_presenters').delete().eq('session_id', sessionId);
+        await supabase.from('session_papers').delete().eq('session_id', sessionId);
+      } else {
+        // Create new session
+        const { data, error } = await supabase
+          .from('sessions')
+          .insert([sessionData])
+          .select()
+          .single();
+
+        if (error) throw error;
+        sessionId = data.id;
+      }
+
+      // Create session edges for lineage
+      if (formData.related_session_ids.length > 0) {
+        const edges = formData.related_session_ids.map(targetId => ({
+          source_session_id: sessionId,
+          target_session_id: targetId,
+          relationship_type: 'relates_to',
+          created_by: user.id,
+        }));
+
+        await supabase.from('session_edges').insert(edges);
+      }
+
+      // Add presenters (first one is primary)
+      if (formData.presenter_ids.length > 0) {
+        const presenters = formData.presenter_ids.map((userId, index) => ({
+          session_id: sessionId,
+          user_id: userId,
+          is_primary: index === 0,
+        }));
+
+        await supabase.from('session_presenters').insert(presenters);
+      }
+
+      // Add papers
+      if (formData.paper_ids.length > 0) {
+        const sessionPapers = formData.paper_ids.map((paperId, index) => ({
+          session_id: sessionId,
+          paper_id: paperId,
+          order_index: index,
+        }));
+
+        await supabase.from('session_papers').insert(sessionPapers);
+      }
+
+      onSuccess();
+      onClose();
+      resetForm();
+    } catch (error) {
+      logError('CreateSessionModal.handleSubmit', error);
+      alert(getUserFriendlyErrorMessage(error));
+    } finally {
       setLoading(false);
-      return;
     }
-  
-    onSuccess();
-    onClose();
   };
 
+  const resetForm = () => {
+    setFormData({
+      title: '',
+      description: '',
+      introduction: '',
+      scheduled_for: '',
+      duration_minutes: 60,
+      location: '',
+      virtual_link: '',
+      parent_session_id: '',
+      related_session_ids: [],
+      presenter_ids: [],
+      paper_ids: [],
+    });
+  };
+
+  const toggleRelatedSession = (sessionId: string) => {
+    setFormData(prev => ({
+      ...prev,
+      related_session_ids: prev.related_session_ids.includes(sessionId)
+        ? prev.related_session_ids.filter(id => id !== sessionId)
+        : [...prev.related_session_ids, sessionId],
+    }));
+  };
+
+  const togglePresenter = (userId: string) => {
+    setFormData(prev => ({
+      ...prev,
+      presenter_ids: prev.presenter_ids.includes(userId)
+        ? prev.presenter_ids.filter(id => id !== userId)
+        : [...prev.presenter_ids, userId],
+    }));
+  };
+
+  const togglePaper = (paperId: string) => {
+    setFormData(prev => ({
+      ...prev,
+      paper_ids: prev.paper_ids.includes(paperId)
+        ? prev.paper_ids.filter(id => id !== paperId)
+        : [...prev.paper_ids, paperId],
+    }));
+  };
+
+  if (!isOpen) return null;
+
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-      <div className="bg-white rounded-lg max-w-3xl w-full max-h-[90vh] overflow-y-auto my-8">
-        <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 rounded-t-lg flex justify-between items-center z-10">
-          <h2 className="text-2xl font-bold text-gray-900">Create New Session</h2>
-          <button
-            onClick={onClose}
-            className="text-gray-400 hover:text-gray-600 transition-colors"
-          >
-            <X className="h-6 w-6" />
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+      <div className="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+        <div className="sticky top-0 bg-white border-b px-6 py-4 flex items-center justify-between">
+          <h2 className="text-xl font-semibold">
+            {sessionToEdit ? 'Edit Session' : 'Create New Session'}
+          </h2>
+          <button onClick={onClose} className="text-gray-400 hover:text-gray-600">
+            <X className="w-6 h-6" />
           </button>
         </div>
 
         <form onSubmit={handleSubmit} className="p-6 space-y-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="md:col-span-2">
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Session Title
+          {/* Basic Information */}
+          <div className="space-y-4">
+            <h3 className="font-medium text-gray-900">Basic Information</h3>
+
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">
+                Title *
               </label>
               <input
                 type="text"
-                value={session.title}
-                onChange={(e) => setSession({ ...session, title: e.target.value })}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                placeholder="Paper Discussion: Attention Is All You Need"
                 required
+                value={formData.title}
+                onChange={e => setFormData(prev => ({ ...prev, title: e.target.value }))}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                placeholder="Introduction to Neural Networks"
               />
             </div>
 
-            <div className="md:col-span-2">
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Description
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">
+                Description *
               </label>
               <textarea
-                value={session.description}
-                onChange={(e) => setSession({ ...session, description: e.target.value })}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                required
+                value={formData.description}
+                onChange={e => setFormData(prev => ({ ...prev, description: e.target.value }))}
                 rows={3}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                 placeholder="What will be discussed in this session..."
               />
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                <Calendar className="inline h-4 w-4 mr-1" />
-                Date & Time
+              <label className="block text-sm font-medium text-gray-700 mb-1">
+                Introduction
               </label>
-              <input
-                type="datetime-local"
-                value={session.scheduled_at}
-                onChange={(e) => setSession({ ...session, scheduled_at: e.target.value })}
+              <textarea
+                value={formData.introduction}
+                onChange={e => setFormData(prev => ({ ...prev, introduction: e.target.value }))}
+                rows={2}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                required
+                placeholder="Context for this session..."
               />
-            </div>
-
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                <Clock className="inline h-4 w-4 mr-1" />
-                Duration (minutes)
-              </label>
-              <input
-                type="number"
-                value={session.duration_minutes}
-                onChange={(e) =>
-                  setSession({ ...session, duration_minutes: parseInt(e.target.value) })
-                }
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                min="15"
-                step="15"
-              />
-            </div>
-
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                <MapPin className="inline h-4 w-4 mr-1" />
-                Location (optional)
-              </label>
-              <input
-                type="text"
-                value={session.location}
-                onChange={(e) => setSession({ ...session, location: e.target.value })}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                placeholder="Room 301, CS Building"
-              />
-            </div>
-
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                <Video className="inline h-4 w-4 mr-1" />
-                Virtual Link (optional)
-              </label>
-              <input
-                type="url"
-                value={session.virtual_link}
-                onChange={(e) => setSession({ ...session, virtual_link: e.target.value })}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                placeholder="https://zoom.us/j/..."
-              />
-            </div>
-
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                <Users className="inline h-4 w-4 mr-1" />
-                Circle
-              </label>
-              <select
-                value={session.community_id}
-                onChange={(e) => setSession({ ...session, community_id: e.target.value })}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              >
-                <option value="">Select a circle</option>
-                {communities.map((community) => (
-                  <option key={community.id} value={community.id}>
-                    {community.name}
-                  </option>
-                ))}
-              </select>
-            </div>
-
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Visibility
-              </label>
-              <select
-                value={session.visibility}
-                onChange={(e) =>
-                  setSession({ ...session, visibility: e.target.value as any })
-                }
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              >
-                <option value="members">Members Only</option>
-                <option value="public">Public</option>
-              </select>
-            </div>
-
-            <div className="md:col-span-2">
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Paper (optional)
-              </label>
-              <input
-                type="text"
-                value={searchPaper}
-                onChange={(e) => setSearchPaper(e.target.value)}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent mb-2"
-                placeholder="Search for a paper..."
-              />
-              <select
-                value={session.paper_id}
-                onChange={(e) => setSession({ ...session, paper_id: e.target.value })}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              >
-                <option value="">No paper selected</option>
-                {papers.map((paper) => (
-                  <option key={paper.id} value={paper.id}>
-                    {paper.title}
-                  </option>
-                ))}
-              </select>
             </div>
           </div>
 
-          <div className="border-t border-gray-200 pt-6">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">Presenter Information</h3>
+          {/* Scheduling */}
+          <div className="space-y-4">
+            <h3 className="font-medium text-gray-900 flex items-center gap-2">
+              <Calendar className="w-5 h-5" />
+              Scheduling
+            </h3>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  <User className="inline h-4 w-4 mr-1" />
-                  Your Name
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Date & Time *
+                </label>
+                <input
+                  type="datetime-local"
+                  required
+                  value={formData.scheduled_for}
+                  onChange={e => setFormData(prev => ({ ...prev, scheduled_for: e.target.value }))}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Duration (minutes) *
+                </label>
+                <input
+                  type="number"
+                  required
+                  min="15"
+                  step="15"
+                  value={formData.duration_minutes}
+                  onChange={e => setFormData(prev => ({ ...prev, duration_minutes: parseInt(e.target.value) }))}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Location */}
+          <div className="space-y-4">
+            <h3 className="font-medium text-gray-900 flex items-center gap-2">
+              <MapPin className="w-5 h-5" />
+              Location
+            </h3>
+
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Physical Location
                 </label>
                 <input
                   type="text"
-                  value={session.presenter_name}
-                  onChange={(e) => setSession({ ...session, presenter_name: e.target.value })}
+                  value={formData.location}
+                  onChange={e => setFormData(prev => ({ ...prev, location: e.target.value }))}
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  required
+                  placeholder="Room 301, Building A"
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  <Mail className="inline h-4 w-4 mr-1" />
-                  Your Email
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Virtual Link
                 </label>
                 <input
-                  type="email"
-                  value={session.presenter_email}
-                  onChange={(e) => setSession({ ...session, presenter_email: e.target.value })}
+                  type="url"
+                  value={formData.virtual_link}
+                  onChange={e => setFormData(prev => ({ ...prev, virtual_link: e.target.value }))}
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  required
-                />
-              </div>
-
-              <div className="md:col-span-2">
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  <FileText className="inline h-4 w-4 mr-1" />
-                  Bio (optional)
-                </label>
-                <textarea
-                  value={session.presenter_bio}
-                  onChange={(e) => setSession({ ...session, presenter_bio: e.target.value })}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  rows={2}
-                  placeholder="Brief background or affiliation..."
+                  placeholder="https://zoom.us/j/..."
                 />
               </div>
             </div>
           </div>
 
-          <div className="border-t border-gray-200 pt-6">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">Co-Presenters (optional)</h3>
+          {/* Lineage */}
+          <div className="space-y-4">
+            <h3 className="font-medium text-gray-900 flex items-center gap-2">
+              <LinkIcon className="w-5 h-5" />
+              Session Lineage
+            </h3>
 
-            {coPresenters.length > 0 && (
-              <div className="space-y-2 mb-4">
-                {coPresenters.map((coPresenter, index) => (
-                  <div
-                    key={index}
-                    className="flex items-center justify-between p-3 bg-gray-50 rounded-lg"
-                  >
-                    <div>
-                      <p className="font-medium text-gray-900">{coPresenter.name}</p>
-                      <p className="text-sm text-gray-600">{coPresenter.email}</p>
-                    </div>
-                    <button
-                      type="button"
-                      onClick={() => removeCoPresenter(index)}
-                      className="text-red-600 hover:text-red-700"
-                    >
-                      <X className="h-5 w-5" />
-                    </button>
-                  </div>
-                ))}
-              </div>
-            )}
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-              <input
-                type="text"
-                value={newCoPresenter.name}
-                onChange={(e) =>
-                  setNewCoPresenter({ ...newCoPresenter, name: e.target.value })
-                }
-                className="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                placeholder="Name"
-              />
-              <input
-                type="email"
-                value={newCoPresenter.email}
-                onChange={(e) =>
-                  setNewCoPresenter({ ...newCoPresenter, email: e.target.value })
-                }
-                className="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                placeholder="Email"
-              />
-              <button
-                type="button"
-                onClick={addCoPresenter}
-                className="px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors font-medium"
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-2">
+                Parent Session (Continues From)
+              </label>
+              <select
+                value={formData.parent_session_id}
+                onChange={e => setFormData(prev => ({ ...prev, parent_session_id: e.target.value }))}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               >
-                Add Co-Presenter
-              </button>
+                <option value="">None</option>
+                {sessions.filter(s => s.id !== sessionToEdit?.id).map(session => (
+                  <option key={session.id} value={session.id}>
+                    {session.title} ({new Date(session.scheduled_for).toLocaleDateString()})
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-2">
+                Related Sessions
+              </label>
+              <div className="border border-gray-300 rounded-lg p-3 max-h-40 overflow-y-auto space-y-2">
+                {sessions.filter(s => s.id !== sessionToEdit?.id).map(session => (
+                  <label key={session.id} className="flex items-center gap-2 cursor-pointer">
+                    <input
+                      type="checkbox"
+                      checked={formData.related_session_ids.includes(session.id)}
+                      onChange={() => toggleRelatedSession(session.id)}
+                      className="rounded text-blue-600"
+                    />
+                    <span className="text-sm">
+                      {session.title} ({new Date(session.scheduled_for).toLocaleDateString()})
+                    </span>
+                  </label>
+                ))}
+                {sessions.filter(s => s.id !== sessionToEdit?.id).length === 0 && (
+                  <p className="text-sm text-gray-500">No other sessions available</p>
+                )}
+              </div>
             </div>
           </div>
 
-          <div className="flex space-x-3 pt-6 border-t border-gray-200 sticky bottom-0 bg-white pb-2">
+          {/* Presenters */}
+          <div className="space-y-4">
+            <h3 className="font-medium text-gray-900 flex items-center gap-2">
+              <Users className="w-5 h-5" />
+              Presenters
+            </h3>
+
+            <div className="border border-gray-300 rounded-lg p-3 max-h-40 overflow-y-auto space-y-2">
+              {members.map(member => (
+                <label key={member.user_id} className="flex items-center gap-2 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={formData.presenter_ids.includes(member.user_id)}
+                    onChange={() => togglePresenter(member.user_id)}
+                    className="rounded text-blue-600"
+                  />
+                  <span className="text-sm">
+                    {member.profiles?.display_name || 'Unknown'}
+                    {formData.presenter_ids[0] === member.user_id && (
+                      <span className="ml-2 text-xs text-blue-600">(Primary)</span>
+                    )}
+                  </span>
+                </label>
+              ))}
+              {members.length === 0 && (
+                <p className="text-sm text-gray-500">No members available</p>
+              )}
+            </div>
+            <p className="text-xs text-gray-500">First selected presenter will be marked as primary</p>
+          </div>
+
+          {/* Papers */}
+          <div className="space-y-4">
+            <h3 className="font-medium text-gray-900 flex items-center gap-2">
+              <FileText className="w-5 h-5" />
+              Papers to Discuss
+            </h3>
+
+            <div className="border border-gray-300 rounded-lg p-3 max-h-40 overflow-y-auto space-y-2">
+              {papers.map(paper => (
+                <label key={paper.paper_id} className="flex items-center gap-2 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={formData.paper_ids.includes(paper.paper_id)}
+                    onChange={() => togglePaper(paper.paper_id)}
+                    className="rounded text-blue-600"
+                  />
+                  <span className="text-sm">
+                    {paper.papers?.title || 'Unknown Paper'}
+                  </span>
+                </label>
+              ))}
+              {papers.length === 0 && (
+                <p className="text-sm text-gray-500">No papers available in this community</p>
+              )}
+            </div>
+          </div>
+
+          {/* Actions */}
+          <div className="flex justify-end gap-3 pt-4 border-t">
             <button
               type="button"
               onClick={onClose}
-              className="flex-1 px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors font-medium"
+              className="px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg"
             >
               Cancel
             </button>
             <button
               type="submit"
               disabled={loading}
-              className="flex-1 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium disabled:opacity-50"
+              className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50"
             >
-              {loading ? 'Creating...' : 'Create Session'}
+              {loading ? 'Saving...' : sessionToEdit ? 'Update Session' : 'Create Session'}
             </button>
           </div>
         </form>

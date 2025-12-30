@@ -1,9 +1,0 @@
-{
-	"id": "uJb2Snz0JYyKtcv",
-	"json": "{\"id\":\"uJb2Snz0JYyKtcv\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Ranjith,+K+M\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Ranjith%2C+K+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991042,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Ranjith%2C+K+M&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Ranjith,+K+M"
-}

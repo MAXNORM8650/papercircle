@@ -1,9 +1,0 @@
-{
-	"id": "IaazEdt7eFpbjp8",
-	"json": "{\"id\":\"IaazEdt7eFpbjp8\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Perndorfer,+P+F\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Perndorfer%2C+P+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988855,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Perndorfer%2C+P+F&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Perndorfer,+P+F"
-}

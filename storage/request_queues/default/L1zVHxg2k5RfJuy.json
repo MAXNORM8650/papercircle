@@ -1,9 +1,0 @@
-{
-	"id": "L1zVHxg2k5RfJuy",
-	"json": "{\"id\":\"L1zVHxg2k5RfJuy\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Perera,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Perera%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087017089,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Perera%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Perera,+A"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "xd14EcZIwZfonCN",
-	"json": "{\"id\":\"xd14EcZIwZfonCN\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Taira,+K\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Taira%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999163,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Taira%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Taira,+K"
-}

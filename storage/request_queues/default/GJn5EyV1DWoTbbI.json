@@ -1,9 +1,0 @@
-{
-	"id": "GJn5EyV1DWoTbbI",
-	"json": "{\"id\":\"GJn5EyV1DWoTbbI\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Fazely%2C+A+R&start=100\",\"uniqueKey\":\"https://arxiv.org/search?query=Fazely%2C+A+R&searchtype=author&start=100\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087079468,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Fazely%2C+A+R&searchtype=author&start=100",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Fazely%2C+A+R&start=100"
-}

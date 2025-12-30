@@ -1,9 +1,0 @@
-{
-	"id": "FrxXVsjVZ5mxP8u",
-	"json": "{\"id\":\"FrxXVsjVZ5mxP8u\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Petrova,+M\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Petrova%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025727,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Petrova%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Petrova,+M"
-}

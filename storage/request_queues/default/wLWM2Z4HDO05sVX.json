@@ -1,9 +1,0 @@
-{
-	"id": "wLWM2Z4HDO05sVX",
-	"json": "{\"id\":\"wLWM2Z4HDO05sVX\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Pettyjohn%2C+M+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Pettyjohn%2C+M+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087074972,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Pettyjohn%2C+M+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Pettyjohn%2C+M+M"
-}

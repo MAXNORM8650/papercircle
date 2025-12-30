@@ -1,9 +1,0 @@
-{
-	"id": "KDHKekjimZMv4XN",
-	"json": "{\"id\":\"KDHKekjimZMv4XN\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Shuvo,+A+A\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Shuvo%2C+A+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087018581,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Shuvo%2C+A+A&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Shuvo,+A+A"
-}

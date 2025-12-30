@@ -1,9 +1,0 @@
-{
-	"id": "iizGxSZouSop3db",
-	"json": "{\"id\":\"iizGxSZouSop3db\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=de+Ara%C3%BAjo,+E+P\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=de+Ara%C3%BAjo%2C+E+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989338,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=de+Ara%C3%BAjo%2C+E+P&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=de+Ara%C3%BAjo,+E+P"
-}

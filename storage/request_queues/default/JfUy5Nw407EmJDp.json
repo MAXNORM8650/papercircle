@@ -1,9 +1,0 @@
-{
-	"id": "JfUy5Nw407EmJDp",
-	"json": "{\"id\":\"JfUy5Nw407EmJDp\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kumari,+N\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Kumari%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987017,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Kumari%2C+N&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Kumari,+N"
-}

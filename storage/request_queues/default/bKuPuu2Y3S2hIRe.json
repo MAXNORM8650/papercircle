@@ -1,9 +1,0 @@
-{
-	"id": "bKuPuu2Y3S2hIRe",
-	"json": "{\"id\":\"bKuPuu2Y3S2hIRe\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Essick%2C+R\",\"uniqueKey\":\"https://arxiv.org/search?query=Essick%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087045503,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Essick%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Essick%2C+R"
-}

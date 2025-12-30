@@ -1,9 +1,0 @@
-{
-	"id": "L8WTWo7g1H5fDX8",
-	"json": "{\"id\":\"L8WTWo7g1H5fDX8\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Golubyatnikov,+M+P\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Golubyatnikov%2C+M+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006668,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Golubyatnikov%2C+M+P&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Golubyatnikov,+M+P"
-}

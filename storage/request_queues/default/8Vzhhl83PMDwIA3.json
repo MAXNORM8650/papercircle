@@ -1,9 +1,0 @@
-{
-	"id": "8Vzhhl83PMDwIA3",
-	"json": "{\"id\":\"8Vzhhl83PMDwIA3\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Krawczyk,+C+M\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Krawczyk%2C+C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988110,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Krawczyk%2C+C+M&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Krawczyk,+C+M"
-}

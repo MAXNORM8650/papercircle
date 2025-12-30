@@ -1,9 +1,0 @@
-{
-	"id": "Z9pM4m66kuXdjkL",
-	"json": "{\"id\":\"Z9pM4m66kuXdjkL\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Prasad,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Prasad%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010111,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Prasad%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Prasad,+A"
-}

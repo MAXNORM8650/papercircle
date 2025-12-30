@@ -1,9 +1,0 @@
-{
-	"id": "7vcC6chmkIRPalj",
-	"json": "{\"id\":\"7vcC6chmkIRPalj\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Bastard,+G\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Bastard%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989869,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Bastard%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Bastard,+G"
-}

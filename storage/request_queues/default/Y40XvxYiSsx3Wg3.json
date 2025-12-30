@@ -1,9 +1,0 @@
-{
-	"id": "Y40XvxYiSsx3Wg3",
-	"json": "{\"id\":\"Y40XvxYiSsx3Wg3\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Grau,+V\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Grau%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012563,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Grau%2C+V&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Grau,+V"
-}

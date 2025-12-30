@@ -1,9 +1,0 @@
-{
-	"id": "1A1NUFC1W2dyWmi",
-	"json": "{\"id\":\"1A1NUFC1W2dyWmi\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Reimer,+P+E\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Reimer%2C+P+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997773,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Reimer%2C+P+E&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Reimer,+P+E"
-}

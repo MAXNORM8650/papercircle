@@ -1,9 +1,0 @@
-{
-	"id": "jN3ZRRC2AbtKbAi",
-	"json": "{\"id\":\"jN3ZRRC2AbtKbAi\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Pinto,+A+N\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Pinto%2C+A+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014497,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Pinto%2C+A+N&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Pinto,+A+N"
-}

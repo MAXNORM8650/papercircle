@@ -1,9 +1,0 @@
-{
-	"id": "sMpMKDMra5p3OBo",
-	"json": "{\"id\":\"sMpMKDMra5p3OBo\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Tsai,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Tsai%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087030884,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Tsai%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Tsai,+Y"
-}

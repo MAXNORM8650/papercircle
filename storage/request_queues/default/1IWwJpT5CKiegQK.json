@@ -1,9 +1,0 @@
-{
-	"id": "1IWwJpT5CKiegQK",
-	"json": "{\"id\":\"1IWwJpT5CKiegQK\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Yung,+C\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Yung%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007916,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Yung%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Yung,+C"
-}

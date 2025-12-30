@@ -1,9 +1,0 @@
-{
-	"id": "yoLOR9414ttE04E",
-	"json": "{\"id\":\"yoLOR9414ttE04E\",\"url\":\"https://arxiv.org/list/physics.med-ph/recent\",\"loadedUrl\":\"https://arxiv.org/list/physics.med-ph/recent\",\"uniqueKey\":\"https://arxiv.org/list/physics.med-ph/recent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:02.484Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/physics.med-ph/recent",
-	"url": "https://arxiv.org/list/physics.med-ph/recent"
-}

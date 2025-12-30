@@ -1,9 +1,0 @@
-{
-	"id": "QWey8Q7t3xG0Sse",
-	"json": "{\"id\":\"QWey8Q7t3xG0Sse\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Dom%C3%ADnguez,+C\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Dom%C3%ADnguez%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087004577,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Dom%C3%ADnguez%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Dom%C3%ADnguez,+C"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "v2lLweGzq7gJn5F",
-	"json": "{\"id\":\"v2lLweGzq7gJn5F\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Thomson,+D+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Thomson%2C+D+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989174,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Thomson%2C+D+J&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Thomson,+D+J"
-}

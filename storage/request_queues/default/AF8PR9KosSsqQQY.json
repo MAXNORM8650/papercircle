@@ -1,9 +1,0 @@
-{
-	"id": "AF8PR9KosSsqQQY",
-	"json": "{\"id\":\"AF8PR9KosSsqQQY\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=J%C3%BClg,+G\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=J%C3%BClg%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002446,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=J%C3%BClg%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=J%C3%BClg,+G"
-}

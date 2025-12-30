@@ -1,9 +1,0 @@
-{
-	"id": "UEEFLP1I4AGTx5U",
-	"json": "{\"id\":\"UEEFLP1I4AGTx5U\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Maneesha,+P\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Maneesha%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988696,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Maneesha%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Maneesha,+P"
-}

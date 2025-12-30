@@ -1,9 +1,0 @@
-{
-	"id": "hg9pLvBqqU0uJoR",
-	"json": "{\"id\":\"hg9pLvBqqU0uJoR\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Calil,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Calil%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087017107,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Calil%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Calil,+J"
-}

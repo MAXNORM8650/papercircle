@@ -1,9 +1,0 @@
-{
-	"id": "0hP33riFFT4Ulaw",
-	"json": "{\"id\":\"0hP33riFFT4Ulaw\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Ga%C3%AFffas,+S\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Ga%C3%AFffas%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009486,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Ga%C3%AFffas%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Ga%C3%AFffas,+S"
-}

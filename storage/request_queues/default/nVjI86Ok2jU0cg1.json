@@ -1,9 +1,0 @@
-{
-	"id": "nVjI86Ok2jU0cg1",
-	"json": "{\"id\":\"nVjI86Ok2jU0cg1\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Gupta,+I\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Gupta%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087011815,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Gupta%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Gupta,+I"
-}

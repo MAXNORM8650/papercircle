@@ -1,9 +1,0 @@
-{
-	"id": "Mk6sPIkQ9H3ChJ3",
-	"json": "{\"id\":\"Mk6sPIkQ9H3ChJ3\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Xu,+R\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Xu%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009270,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Xu%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Xu,+R"
-}

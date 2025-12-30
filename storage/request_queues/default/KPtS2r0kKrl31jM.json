@@ -1,9 +1,0 @@
-{
-	"id": "KPtS2r0kKrl31jM",
-	"json": "{\"id\":\"KPtS2r0kKrl31jM\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Olson,+E\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Olson%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012293,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Olson%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Olson,+E"
-}

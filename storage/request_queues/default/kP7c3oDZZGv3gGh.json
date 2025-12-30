@@ -1,9 +1,0 @@
-{
-	"id": "kP7c3oDZZGv3gGh",
-	"json": "{\"id\":\"kP7c3oDZZGv3gGh\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Corcelli,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Corcelli%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087028444,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Corcelli%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Corcelli,+S"
-}

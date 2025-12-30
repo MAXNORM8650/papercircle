@@ -1,9 +1,0 @@
-{
-	"id": "wgmP3T38qE8MPRW",
-	"json": "{\"id\":\"wgmP3T38qE8MPRW\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Pati%C3%B1o-%C3%81lvarez,+V+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Pati%C3%B1o-%C3%81lvarez%2C+V+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987623,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Pati%C3%B1o-%C3%81lvarez%2C+V+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Pati%C3%B1o-%C3%81lvarez,+V+M"
-}

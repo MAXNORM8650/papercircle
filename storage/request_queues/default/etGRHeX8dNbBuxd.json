@@ -1,9 +1,0 @@
-{
-	"id": "etGRHeX8dNbBuxd",
-	"json": "{\"id\":\"etGRHeX8dNbBuxd\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Patrangenaru,+V\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Patrangenaru%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087024034,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Patrangenaru%2C+V&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Patrangenaru,+V"
-}

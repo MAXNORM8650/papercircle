@@ -1,9 +1,0 @@
-{
-	"id": "OO0lLwAZbBpHwDK",
-	"json": "{\"id\":\"OO0lLwAZbBpHwDK\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Zhong,+W\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Zhong%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005604,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Zhong%2C+W&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Zhong,+W"
-}

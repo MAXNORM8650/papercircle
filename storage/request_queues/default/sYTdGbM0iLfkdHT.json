@@ -1,9 +1,0 @@
-{
-	"id": "sYTdGbM0iLfkdHT",
-	"json": "{\"id\":\"sYTdGbM0iLfkdHT\",\"url\":\"https://arxiv.org/list/math.CA/recent?skip=0&show=25\",\"uniqueKey\":\"https://arxiv.org/list/math.CA/recent?show=25&skip=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006587,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/math.CA/recent?show=25&skip=0",
-	"url": "https://arxiv.org/list/math.CA/recent?skip=0&show=25"
-}

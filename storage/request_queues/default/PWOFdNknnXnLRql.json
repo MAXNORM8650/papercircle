@@ -1,9 +1,0 @@
-{
-	"id": "PWOFdNknnXnLRql",
-	"json": "{\"id\":\"PWOFdNknnXnLRql\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Parkhomchuk,+P\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Parkhomchuk%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988800,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Parkhomchuk%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Parkhomchuk,+P"
-}

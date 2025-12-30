@@ -1,9 +1,0 @@
-{
-	"id": "EA7Kh5ahu5b5KpF",
-	"json": "{\"id\":\"EA7Kh5ahu5b5KpF\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=P%C3%A1ndy,+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=P%C3%A1ndy%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006274,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=P%C3%A1ndy%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=P%C3%A1ndy,+M"
-}

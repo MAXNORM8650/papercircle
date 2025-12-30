@@ -1,9 +1,0 @@
-{
-	"id": "IP9vnlQWp8guitE",
-	"json": "{\"id\":\"IP9vnlQWp8guitE\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=de+Resende,+M+F+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=de+Resende%2C+M+F+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087001717,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=de+Resende%2C+M+F+A&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=de+Resende,+M+F+A"
-}

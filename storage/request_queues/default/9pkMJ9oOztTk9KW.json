@@ -1,9 +1,0 @@
-{
-	"id": "9pkMJ9oOztTk9KW",
-	"json": "{\"id\":\"9pkMJ9oOztTk9KW\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Argando%C3%B1a,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Argando%C3%B1a%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994612,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-th?query=Argando%C3%B1a%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Argando%C3%B1a,+A"
-}

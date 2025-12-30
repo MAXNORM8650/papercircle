@@ -1,9 +1,0 @@
-{
-	"id": "RBnD6kOXkSC0IYZ",
-	"json": "{\"id\":\"RBnD6kOXkSC0IYZ\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Datta,+S\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Datta%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991794,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Datta%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Datta,+S"
-}

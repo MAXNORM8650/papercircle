@@ -1,9 +1,0 @@
-{
-	"id": "VclOF8xVlU8s7yx",
-	"json": "{\"id\":\"VclOF8xVlU8s7yx\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ema,+Y\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Ema%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987050,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Ema%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Ema,+Y"
-}

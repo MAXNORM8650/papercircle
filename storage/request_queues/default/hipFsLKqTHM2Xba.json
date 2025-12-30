@@ -1,9 +1,0 @@
-{
-	"id": "hipFsLKqTHM2Xba",
-	"json": "{\"id\":\"hipFsLKqTHM2Xba\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Jaimes,+C\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Jaimes%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025617,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Jaimes%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Jaimes,+C"
-}

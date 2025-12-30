@@ -1,9 +1,0 @@
-{
-	"id": "ciSE27ok36rTEss",
-	"json": "{\"id\":\"ciSE27ok36rTEss\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=de+Oliveira,+M+J\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=de+Oliveira%2C+M+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086990758,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=de+Oliveira%2C+M+J&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=de+Oliveira,+M+J"
-}

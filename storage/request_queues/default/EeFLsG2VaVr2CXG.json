@@ -1,9 +1,0 @@
-{
-	"id": "EeFLsG2VaVr2CXG",
-	"json": "{\"id\":\"EeFLsG2VaVr2CXG\",\"url\":\"https://arxiv.org/list/cs.CY/recent?skip=91&show=50\",\"uniqueKey\":\"https://arxiv.org/list/cs.CY/recent?show=50&skip=91\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012685,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/cs.CY/recent?show=50&skip=91",
-	"url": "https://arxiv.org/list/cs.CY/recent?skip=91&show=50"
-}

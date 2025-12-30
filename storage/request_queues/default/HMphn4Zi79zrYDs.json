@@ -1,9 +1,0 @@
-{
-	"id": "HMphn4Zi79zrYDs",
-	"json": "{\"id\":\"HMphn4Zi79zrYDs\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Halabi,+M+E\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Halabi%2C+M+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087024302,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Halabi%2C+M+E&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Halabi,+M+E"
-}

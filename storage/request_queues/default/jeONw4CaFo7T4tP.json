@@ -1,9 +1,0 @@
-{
-	"id": "jeONw4CaFo7T4tP",
-	"json": "{\"id\":\"jeONw4CaFo7T4tP\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Takahashi,+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Takahashi%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010868,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Takahashi%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Takahashi,+H"
-}

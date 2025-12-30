@@ -1,9 +1,0 @@
-{
-	"id": "kiy0BZf9PTZYn6K",
-	"json": "{\"id\":\"kiy0BZf9PTZYn6K\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Faba-Moreno%2C+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Faba-Moreno%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087051655,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Faba-Moreno%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Faba-Moreno%2C+J"
-}

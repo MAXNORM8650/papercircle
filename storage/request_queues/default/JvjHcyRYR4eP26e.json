@@ -1,9 +1,0 @@
-{
-	"id": "JvjHcyRYR4eP26e",
-	"json": "{\"id\":\"JvjHcyRYR4eP26e\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Barwick%2C+S+W&start=0\",\"uniqueKey\":\"https://arxiv.org/search?query=Barwick%2C+S+W&searchtype=author&start=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087050677,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Barwick%2C+S+W&searchtype=author&start=0",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Barwick%2C+S+W&start=0"
-}

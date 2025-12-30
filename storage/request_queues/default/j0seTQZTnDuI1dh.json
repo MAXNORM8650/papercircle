@@ -1,9 +1,0 @@
-{
-	"id": "j0seTQZTnDuI1dh",
-	"json": "{\"id\":\"j0seTQZTnDuI1dh\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Kempf,+I\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Kempf%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005867,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Kempf%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Kempf,+I"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "VSg0l0oN50BXXER",
-	"json": "{\"id\":\"VSg0l0oN50BXXER\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Biswas,+K\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Biswas%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014465,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Biswas%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Biswas,+K"
-}

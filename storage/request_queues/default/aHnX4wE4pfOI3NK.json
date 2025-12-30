@@ -1,9 +1,0 @@
-{
-	"id": "aHnX4wE4pfOI3NK",
-	"json": "{\"id\":\"aHnX4wE4pfOI3NK\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Biller,+B+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Biller%2C+B+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087035416,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Biller%2C+B+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Biller,+B+A"
-}

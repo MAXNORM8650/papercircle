@@ -1,9 +1,0 @@
-{
-	"id": "2c3DDtILh75kzFd",
-	"json": "{\"id\":\"2c3DDtILh75kzFd\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Evren,+S\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Evren%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087026220,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/econ?query=Evren%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/econ?searchtype=author&query=Evren,+S"
-}

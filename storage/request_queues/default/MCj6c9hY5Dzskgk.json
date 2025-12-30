@@ -1,9 +1,0 @@
-{
-	"id": "MCj6c9hY5Dzskgk",
-	"json": "{\"id\":\"MCj6c9hY5Dzskgk\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Tian,+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Tian%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087013534,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Tian%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Tian,+R"
-}

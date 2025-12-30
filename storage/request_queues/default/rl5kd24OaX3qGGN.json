@@ -1,9 +1,0 @@
-{
-	"id": "rl5kd24OaX3qGGN",
-	"json": "{\"id\":\"rl5kd24OaX3qGGN\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Dr%C4%85%C5%BCkowska,+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Dr%C4%85%C5%BCkowska%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087035508,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Dr%C4%85%C5%BCkowska%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Dr%C4%85%C5%BCkowska,+J"
-}

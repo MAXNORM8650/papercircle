@@ -1,9 +1,0 @@
-{
-	"id": "DN5DIp0IKcAY2RO",
-	"json": "{\"id\":\"DN5DIp0IKcAY2RO\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Che,+G+R\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Che%2C+G+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992895,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Che%2C+G+R&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Che,+G+R"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "FAjZoTmdkcRTqOy",
-	"json": "{\"id\":\"FAjZoTmdkcRTqOy\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Orr%C3%B9%2C+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Orr%C3%B9%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087086007,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Orr%C3%B9%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Orr%C3%B9%2C+E"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "BVVPjmGG2aaSCBA",
-	"json": "{\"id\":\"BVVPjmGG2aaSCBA\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=LSST+Dark+Energy+Science+Collaboration\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=LSST+Dark+Energy+Science+Collaboration&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986424,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=LSST+Dark+Energy+Science+Collaboration&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=LSST+Dark+Energy+Science+Collaboration"
-}

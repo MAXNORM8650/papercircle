@@ -1,9 +1,0 @@
-{
-	"id": "IO0iax5ZoFT2913",
-	"json": "{\"id\":\"IO0iax5ZoFT2913\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Shaker,+H\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Shaker%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999675,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Shaker%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Shaker,+H"
-}

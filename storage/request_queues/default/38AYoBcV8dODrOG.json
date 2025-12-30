@@ -1,9 +1,0 @@
-{
-	"id": "38AYoBcV8dODrOG",
-	"json": "{\"id\":\"38AYoBcV8dODrOG\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Akerib,+D\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Akerib%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992697,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Akerib%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Akerib,+D"
-}

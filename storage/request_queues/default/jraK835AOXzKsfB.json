@@ -1,9 +1,0 @@
-{
-	"id": "jraK835AOXzKsfB",
-	"json": "{\"id\":\"jraK835AOXzKsfB\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bouchet%2C+F+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Bouchet%2C+F+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087064697,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Bouchet%2C+F+R&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Bouchet%2C+F+R"
-}

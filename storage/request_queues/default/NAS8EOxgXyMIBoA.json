@@ -1,9 +1,0 @@
-{
-	"id": "NAS8EOxgXyMIBoA",
-	"json": "{\"id\":\"NAS8EOxgXyMIBoA\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Montoison,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Montoison%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009212,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Montoison%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Montoison,+A"
-}

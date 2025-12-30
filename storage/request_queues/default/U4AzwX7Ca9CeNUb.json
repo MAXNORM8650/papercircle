@@ -1,9 +1,0 @@
-{
-	"id": "U4AzwX7Ca9CeNUb",
-	"json": "{\"id\":\"U4AzwX7Ca9CeNUb\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=B%C3%B6lcskei,+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=B%C3%B6lcskei%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016794,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=B%C3%B6lcskei%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=B%C3%B6lcskei,+H"
-}

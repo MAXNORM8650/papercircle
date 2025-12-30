@@ -1,9 +1,0 @@
-{
-	"id": "P0iRow6jfBLrq1E",
-	"json": "{\"id\":\"P0iRow6jfBLrq1E\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Bennett,+T+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Bennett%2C+T+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009575,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Bennett%2C+T+D&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Bennett,+T+D"
-}

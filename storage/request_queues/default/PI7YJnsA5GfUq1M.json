@@ -1,9 +1,0 @@
-{
-	"id": "PI7YJnsA5GfUq1M",
-	"json": "{\"id\":\"PI7YJnsA5GfUq1M\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Kelkar,+A+H\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Kelkar%2C+A+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086990307,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Kelkar%2C+A+H&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Kelkar,+A+H"
-}

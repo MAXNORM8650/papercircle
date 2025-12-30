@@ -1,9 +1,0 @@
-{
-	"id": "A7zRgD75FM3qSCY",
-	"json": "{\"id\":\"A7zRgD75FM3qSCY\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Stone,+H\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Stone%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087008738,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Stone%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Stone,+H"
-}

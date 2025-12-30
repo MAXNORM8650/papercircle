@@ -1,9 +1,0 @@
-{
-	"id": "ls5fTkrBPYyIUxc",
-	"json": "{\"id\":\"ls5fTkrBPYyIUxc\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Madlener,+T\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Madlener%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992799,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Madlener%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Madlener,+T"
-}

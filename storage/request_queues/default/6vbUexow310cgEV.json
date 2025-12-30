@@ -1,9 +1,0 @@
-{
-	"id": "6vbUexow310cgEV",
-	"json": "{\"id\":\"6vbUexow310cgEV\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Schwing,+A+G\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Schwing%2C+A+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025758,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Schwing%2C+A+G&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Schwing,+A+G"
-}

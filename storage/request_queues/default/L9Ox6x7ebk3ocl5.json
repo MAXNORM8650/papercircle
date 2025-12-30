@@ -1,9 +1,0 @@
-{
-	"id": "L9Ox6x7ebk3ocl5",
-	"json": "{\"id\":\"L9Ox6x7ebk3ocl5\",\"url\":\"https://arxiv.org/search/advanced?terms-0-term=Rinaldi%2C+P&terms-0-field=author&size=50&order=-announced_date_first\",\"uniqueKey\":\"https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Rinaldi%2C+P\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087099802,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Rinaldi%2C+P",
-	"url": "https://arxiv.org/search/advanced?terms-0-term=Rinaldi%2C+P&terms-0-field=author&size=50&order=-announced_date_first"
-}

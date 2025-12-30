@@ -1,9 +1,0 @@
-{
-	"id": "xH5eWgOsyZ2d37J",
-	"json": "{\"id\":\"xH5eWgOsyZ2d37J\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Caudill%2C+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Caudill%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087045622,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Caudill%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Caudill%2C+S"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "Yw8vnLXRKoVLV9c",
-	"json": "{\"id\":\"Yw8vnLXRKoVLV9c\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=H%C3%B6llerer,+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=H%C3%B6llerer%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015220,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=H%C3%B6llerer%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=H%C3%B6llerer,+T"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "9xiO3JPHaH0hH7O",
-	"json": "{\"id\":\"9xiO3JPHaH0hH7O\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Dung,+H+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Dung%2C+H+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012776,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Dung%2C+H+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Dung,+H+A"
-}

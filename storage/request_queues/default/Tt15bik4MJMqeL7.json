@@ -1,9 +1,0 @@
-{
-	"id": "Tt15bik4MJMqeL7",
-	"json": "{\"id\":\"Tt15bik4MJMqeL7\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Harris,+N+L\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Harris%2C+N+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087013585,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Harris%2C+N+L&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Harris,+N+L"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "2csZwFSH5P6LCqW",
-	"json": "{\"id\":\"2csZwFSH5P6LCqW\",\"url\":\"https://arxiv.org/search/nlin?searchtype=author&query=Gogoi,+P+B\",\"uniqueKey\":\"https://arxiv.org/search/nlin?query=Gogoi%2C+P+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086996414,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nlin?query=Gogoi%2C+P+B&searchtype=author",
-	"url": "https://arxiv.org/search/nlin?searchtype=author&query=Gogoi,+P+B"
-}

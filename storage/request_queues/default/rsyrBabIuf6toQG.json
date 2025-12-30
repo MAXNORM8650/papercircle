@@ -1,9 +1,0 @@
-{
-	"id": "rsyrBabIuf6toQG",
-	"json": "{\"id\":\"rsyrBabIuf6toQG\",\"url\":\"https://arxiv.org/search/hep-lat?searchtype=author&query=Suganuma,+H\",\"uniqueKey\":\"https://arxiv.org/search/hep-lat?query=Suganuma%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086993879,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-lat?query=Suganuma%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/hep-lat?searchtype=author&query=Suganuma,+H"
-}

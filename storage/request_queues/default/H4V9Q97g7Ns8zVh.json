@@ -1,9 +1,0 @@
-{
-	"id": "H4V9Q97g7Ns8zVh",
-	"json": "{\"id\":\"H4V9Q97g7Ns8zVh\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bosman,+S+E+I\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bosman,+S+E+I\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Bosman%2C+S+E+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:00.147Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Bosman%2C+S+E+I&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Bosman,+S+E+I"
-}

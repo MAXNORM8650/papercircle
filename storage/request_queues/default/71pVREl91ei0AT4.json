@@ -1,9 +1,0 @@
-{
-	"id": "71pVREl91ei0AT4",
-	"json": "{\"id\":\"71pVREl91ei0AT4\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Michels,+D+L\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Michels%2C+D+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087004551,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Michels%2C+D+L&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Michels,+D+L"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "IxMLHL6i2otPLLk",
-	"json": "{\"id\":\"IxMLHL6i2otPLLk\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ki,+Y\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Ki%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986672,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Ki%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Ki,+Y"
-}

@@ -54,6 +54,33 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const completeProfile = async (displayName: string) => {
     if (!user) throw new Error('No user logged in');
 
+    console.log('Completing profile for user:', user.id);
+
+    // Try RPC function first (bypasses RLS)
+    try {
+      const { data: rpcData, error: rpcError } = await supabase.rpc(
+        'create_profile_for_user',
+        {
+          user_id: user.id,
+          user_display_name: displayName
+        }
+      );
+
+      if (rpcData && !rpcError) {
+        console.log('Profile completed via RPC');
+        setProfile(rpcData);
+        setNeedsProfile(false);
+        return;
+      }
+
+      if (rpcError) {
+        console.warn('RPC method failed, trying direct insert:', rpcError);
+      }
+    } catch (rpcErr) {
+      console.warn('RPC call exception, trying direct insert:', rpcErr);
+    }
+
+    // Fallback to direct insert
     const { data, error } = await supabase
       .from('profiles')
       .insert({
@@ -64,8 +91,17 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       .select()
       .single();
 
-    if (error) throw error;
+    if (error) {
+      console.error('Profile creation error details:', {
+        message: error.message,
+        details: error.details,
+        hint: error.hint,
+        code: error.code
+      });
+      throw new Error(`Failed to create profile: ${error.message}`);
+    }
 
+    console.log('Profile completed successfully');
     setProfile(data);
     setNeedsProfile(false);
   };
@@ -110,26 +146,106 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   };
 
   const signUp = async (email: string, password: string, displayName: string) => {
-    const { data, error } = await supabase.auth.signUp({ 
-      email, 
-      password,
-      options: {
-        data: {
-          display_name: displayName
-        }
-      }
-    });
-    
-    if (error) throw error;
+    try {
+      console.log('Starting signup process for:', email);
 
-    // Try to create profile immediately
-    if (data.user) {
-      try {
-        await completeProfile(displayName);
-      } catch (err) {
-        console.error('Error creating profile:', err);
-        setNeedsProfile(true);
+      // Sign up the user with metadata
+      const { data, error } = await supabase.auth.signUp({
+        email,
+        password,
+        options: {
+          data: {
+            display_name: displayName,
+            full_name: displayName
+          }
+        }
+      });
+
+      if (error) {
+        console.error('Signup error:', error);
+        throw new Error(`Signup failed: ${error.message}`);
       }
+
+      if (!data.user) {
+        throw new Error('Signup succeeded but no user returned');
+      }
+
+      console.log('User created successfully:', data.user.id);
+
+      // Strategy 1: Wait for trigger to create profile (500ms should be enough)
+      await new Promise(resolve => setTimeout(resolve, 500));
+
+      // Check if profile was created by trigger
+      let { data: profile, error: profileError } = await supabase
+        .from('profiles')
+        .select('*')
+        .eq('id', data.user.id)
+        .maybeSingle();
+
+      if (profile) {
+        console.log('Profile created successfully by trigger');
+        setProfile(profile);
+        setNeedsProfile(false);
+        return;
+      }
+
+      // Strategy 2: Try calling the SQL function directly
+      console.log('Profile not found, calling create_profile_for_user function...');
+      try {
+        const { data: rpcData, error: rpcError } = await supabase.rpc(
+          'create_profile_for_user',
+          {
+            user_id: data.user.id,
+            user_display_name: displayName
+          }
+        );
+
+        if (rpcError) {
+          console.error('RPC error:', rpcError);
+        } else if (rpcData) {
+          console.log('Profile created via RPC function');
+          setProfile(rpcData);
+          setNeedsProfile(false);
+          return;
+        }
+      } catch (rpcErr) {
+        console.error('RPC function call failed:', rpcErr);
+      }
+
+      // Strategy 3: Try direct insert as fallback
+      console.log('Attempting direct profile insert...');
+      const { data: insertedProfile, error: insertError } = await supabase
+        .from('profiles')
+        .insert({
+          id: data.user.id,
+          display_name: displayName,
+          role: 'member',
+        })
+        .select()
+        .maybeSingle();
+
+      if (insertError) {
+        console.error('Direct insert error:', insertError);
+        // Set needsProfile flag so modal will show
+        setNeedsProfile(true);
+        throw new Error(`Failed to create user profile: ${insertError.message}. Please complete your profile manually.`);
+      }
+
+      if (insertedProfile) {
+        console.log('Profile created successfully via direct insert');
+        setProfile(insertedProfile);
+        setNeedsProfile(false);
+        return;
+      }
+
+      // If we get here, something went wrong
+      console.error('All profile creation strategies failed');
+      setNeedsProfile(true);
+      throw new Error('Unable to create user profile. Please try again or contact support.');
+
+    } catch (error) {
+      console.error('Complete signup error:', error);
+      throw error;
     }
   };
 

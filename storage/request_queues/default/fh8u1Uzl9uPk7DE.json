@@ -1,9 +1,0 @@
-{
-	"id": "fh8u1Uzl9uPk7DE",
-	"json": "{\"id\":\"fh8u1Uzl9uPk7DE\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Morales,+C+H\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Morales%2C+C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087001341,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Morales%2C+C+H&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Morales,+C+H"
-}

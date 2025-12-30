@@ -1,9 +1,0 @@
-{
-	"id": "uldtVaNyGrtSvrG",
-	"json": "{\"id\":\"uldtVaNyGrtSvrG\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Mirmahalle,+S+F+G\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Mirmahalle%2C+S+F+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999267,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Mirmahalle%2C+S+F+G&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Mirmahalle,+S+F+G"
-}

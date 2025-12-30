@@ -1,9 +1,0 @@
-{
-	"id": "T96lO9BnyZHHMN6",
-	"json": "{\"id\":\"T96lO9BnyZHHMN6\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Williams,+B\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Williams%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087004917,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Williams%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Williams,+B"
-}

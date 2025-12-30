@@ -1,9 +1,0 @@
-{
-	"id": "ghWKsFMPKSQUP32",
-	"json": "{\"id\":\"ghWKsFMPKSQUP32\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Gualandi,+F+B\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Gualandi%2C+F+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992639,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Gualandi%2C+F+B&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Gualandi,+F+B"
-}

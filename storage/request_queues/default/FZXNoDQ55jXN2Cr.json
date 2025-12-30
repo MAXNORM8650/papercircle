@@ -1,9 +1,0 @@
-{
-	"id": "FZXNoDQ55jXN2Cr",
-	"json": "{\"id\":\"FZXNoDQ55jXN2Cr\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Dongsheng,+L\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Dongsheng%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010325,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Dongsheng%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Dongsheng,+L"
-}

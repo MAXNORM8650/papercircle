@@ -1,9 +1,0 @@
-{
-	"id": "5laTYShmhOEld3Z",
-	"json": "{\"id\":\"5laTYShmhOEld3Z\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ar%C3%A8ne%2C+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Ar%C3%A8ne%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087041471,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Ar%C3%A8ne%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Ar%C3%A8ne%2C+M"
-}

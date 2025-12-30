@@ -1,9 +1,0 @@
-{
-	"id": "i7i5iMjUqZZbctR",
-	"json": "{\"id\":\"i7i5iMjUqZZbctR\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Marra,+V\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Marra%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988314,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Marra%2C+V&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Marra,+V"
-}

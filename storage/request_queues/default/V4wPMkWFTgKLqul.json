@@ -1,9 +1,0 @@
-{
-	"id": "V4wPMkWFTgKLqul",
-	"json": "{\"id\":\"V4wPMkWFTgKLqul\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Jamil,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Jamil%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014535,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Jamil%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Jamil,+A"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "arW3U8bvTpfT6be",
-	"json": "{\"id\":\"arW3U8bvTpfT6be\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Gu,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Gu%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012770,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Gu%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Gu,+J"
-}

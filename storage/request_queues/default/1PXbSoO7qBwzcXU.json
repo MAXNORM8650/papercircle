@@ -1,9 +1,0 @@
-{
-	"id": "1PXbSoO7qBwzcXU",
-	"json": "{\"id\":\"1PXbSoO7qBwzcXU\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Fang%2C+K&start=150\",\"uniqueKey\":\"https://arxiv.org/search?query=Fang%2C+K&searchtype=author&start=150\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087078935,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Fang%2C+K&searchtype=author&start=150",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Fang%2C+K&start=150"
-}

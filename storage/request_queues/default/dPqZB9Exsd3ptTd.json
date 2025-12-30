@@ -1,9 +1,0 @@
-{
-	"id": "dPqZB9Exsd3ptTd",
-	"json": "{\"id\":\"dPqZB9Exsd3ptTd\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Weaver,+J+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Weaver%2C+J+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988235,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Weaver%2C+J+R&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Weaver,+J+R"
-}

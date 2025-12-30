@@ -1,9 +1,0 @@
-{
-	"id": "sC27hFC9KsdkKJe",
-	"json": "{\"id\":\"sC27hFC9KsdkKJe\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Lachos,+V+H\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Lachos%2C+V+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023641,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Lachos%2C+V+H&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Lachos,+V+H"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "2h5sSx7rS1IQQh2",
-	"json": "{\"id\":\"2h5sSx7rS1IQQh2\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Reps,+T\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Reps%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087003788,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Reps%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Reps,+T"
-}

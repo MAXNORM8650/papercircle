@@ -1,9 +1,0 @@
-{
-	"id": "T5S65GiCiHK74DM",
-	"json": "{\"id\":\"T5S65GiCiHK74DM\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Catanesi,+M+G\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Catanesi%2C+M+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992494,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Catanesi%2C+M+G&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Catanesi,+M+G"
-}

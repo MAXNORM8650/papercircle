@@ -1,9 +1,0 @@
-{
-	"id": "yfyDk7enBSns87R",
-	"json": "{\"id\":\"yfyDk7enBSns87R\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Wu,+Z\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Wu%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010194,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Wu%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Wu,+Z"
-}

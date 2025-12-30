@@ -1,9 +1,0 @@
-{
-	"id": "SPVysPk2eiGpcP4",
-	"json": "{\"id\":\"SPVysPk2eiGpcP4\",\"url\":\"https://arxiv.org/list/math.RA/recent?skip=28&show=50\",\"uniqueKey\":\"https://arxiv.org/list/math.RA/recent?show=50&skip=28\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009460,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/math.RA/recent?show=50&skip=28",
-	"url": "https://arxiv.org/list/math.RA/recent?skip=28&show=50"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "kcKJgyywOC95Kzc",
-	"json": "{\"id\":\"kcKJgyywOC95Kzc\",\"url\":\"https://arxiv.org/list/astro-ph/2007-12?skip=800\",\"uniqueKey\":\"https://arxiv.org/list/astro-ph/2007-12?skip=800\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087032700,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/astro-ph/2007-12?skip=800",
-	"url": "https://arxiv.org/list/astro-ph/2007-12?skip=800"
-}

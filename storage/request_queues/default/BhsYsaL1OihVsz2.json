@@ -1,9 +1,0 @@
-{
-	"id": "BhsYsaL1OihVsz2",
-	"json": "{\"id\":\"BhsYsaL1OihVsz2\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Fialova,+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Fialova%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992577,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Fialova%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Fialova,+E"
-}

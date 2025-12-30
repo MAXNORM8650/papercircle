@@ -1,9 +1,0 @@
-{
-	"id": "oSljsqDuki6YxH8",
-	"json": "{\"id\":\"oSljsqDuki6YxH8\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=De+La+Motte,+S+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=De+La+Motte%2C+S+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992963,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=De+La+Motte%2C+S+A&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=De+La+Motte,+S+A"
-}

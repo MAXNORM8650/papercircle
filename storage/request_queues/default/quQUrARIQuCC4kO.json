@@ -1,9 +1,0 @@
-{
-	"id": "quQUrARIQuCC4kO",
-	"json": "{\"id\":\"quQUrARIQuCC4kO\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Rodriguez,+M\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Rodriguez%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087001255,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Rodriguez%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Rodriguez,+M"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "im7UY5xPSTRgz7m",
-	"json": "{\"id\":\"im7UY5xPSTRgz7m\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Sestini,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Sestini%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006280,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Sestini%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Sestini,+A"
-}

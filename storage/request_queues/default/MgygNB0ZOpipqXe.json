@@ -1,9 +1,0 @@
-{
-	"id": "MgygNB0ZOpipqXe",
-	"json": "{\"id\":\"MgygNB0ZOpipqXe\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Singh,+O+D\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Singh%2C+O+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007476,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Singh%2C+O+D&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Singh,+O+D"
-}

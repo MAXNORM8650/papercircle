@@ -1,9 +1,0 @@
-{
-	"id": "Q1fqtXbIXWp9E0B",
-	"json": "{\"id\":\"Q1fqtXbIXWp9E0B\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Khotyaintsev,+Y+V\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Khotyaintsev%2C+Y+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999263,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Khotyaintsev%2C+Y+V&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Khotyaintsev,+Y+V"
-}

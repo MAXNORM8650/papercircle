@@ -1,9 +1,0 @@
-{
-	"id": "MAniMw0eHRQsVXn",
-	"json": "{\"id\":\"MAniMw0eHRQsVXn\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Moursli,+R+C+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Moursli%2C+R+C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988230,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Moursli%2C+R+C+E&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Moursli,+R+C+E"
-}

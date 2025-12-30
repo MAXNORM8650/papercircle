@@ -1,9 +1,0 @@
-{
-	"id": "8LFILGnvokO9w1T",
-	"json": "{\"id\":\"8LFILGnvokO9w1T\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Coyle,+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Coyle%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986713,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Coyle%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Coyle,+P"
-}

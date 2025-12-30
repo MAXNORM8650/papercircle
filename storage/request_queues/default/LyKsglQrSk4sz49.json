@@ -1,9 +1,0 @@
-{
-	"id": "LyKsglQrSk4sz49",
-	"json": "{\"id\":\"LyKsglQrSk4sz49\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Slipko,+V+A\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Slipko%2C+V+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988720,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Slipko%2C+V+A&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Slipko,+V+A"
-}

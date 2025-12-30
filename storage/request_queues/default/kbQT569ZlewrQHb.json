@@ -1,9 +1,0 @@
-{
-	"id": "kbQT569ZlewrQHb",
-	"json": "{\"id\":\"kbQT569ZlewrQHb\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ling,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ling%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019683,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Ling%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ling,+Y"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "ZbBSawpLUTUtv0M",
-	"json": "{\"id\":\"ZbBSawpLUTUtv0M\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Ismagilov,+A+O\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Ismagilov%2C+A+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002468,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Ismagilov%2C+A+O&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Ismagilov,+A+O"
-}

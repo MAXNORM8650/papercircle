@@ -1,9 +1,0 @@
-{
-	"id": "1UnuySRsU8QV9HL",
-	"json": "{\"id\":\"1UnuySRsU8QV9HL\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Taiwade,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Taiwade%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010212,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Taiwade%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Taiwade,+Y"
-}

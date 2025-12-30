@@ -1,9 +1,0 @@
-{
-	"id": "ImuGilKTUv4JuCv",
-	"json": "{\"id\":\"ImuGilKTUv4JuCv\",\"url\":\"https://arxiv.org/format/2012.02442\",\"uniqueKey\":\"https://arxiv.org/format/2012.02442\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087082945,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/format/2012.02442",
-	"url": "https://arxiv.org/format/2012.02442"
-}

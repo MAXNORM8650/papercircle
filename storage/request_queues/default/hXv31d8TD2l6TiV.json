@@ -1,9 +1,0 @@
-{
-	"id": "hXv31d8TD2l6TiV",
-	"json": "{\"id\":\"hXv31d8TD2l6TiV\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Martin%2C+D+V\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Martin%2C+D+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087062653,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Martin%2C+D+V&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Martin%2C+D+V"
-}

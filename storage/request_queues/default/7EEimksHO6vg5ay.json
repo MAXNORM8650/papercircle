@@ -1,9 +1,0 @@
-{
-	"id": "7EEimksHO6vg5ay",
-	"json": "{\"id\":\"7EEimksHO6vg5ay\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Sandoval,+L+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Sandoval%2C+L+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988035,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Sandoval%2C+L+R&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Sandoval,+L+R"
-}

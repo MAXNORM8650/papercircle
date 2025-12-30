@@ -1,9 +1,0 @@
-{
-	"id": "PqqAgW2BBPjt62z",
-	"json": "{\"id\":\"PqqAgW2BBPjt62z\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Ben-Haim,+E\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Ben-Haim%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992864,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Ben-Haim%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Ben-Haim,+E"
-}

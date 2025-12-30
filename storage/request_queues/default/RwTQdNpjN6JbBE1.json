@@ -1,9 +1,0 @@
-{
-	"id": "RwTQdNpjN6JbBE1",
-	"json": "{\"id\":\"RwTQdNpjN6JbBE1\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Granger,+P\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Granger%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992502,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Granger%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Granger,+P"
-}

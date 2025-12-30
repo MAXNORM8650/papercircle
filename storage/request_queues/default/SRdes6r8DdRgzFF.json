@@ -1,9 +1,0 @@
-{
-	"id": "SRdes6r8DdRgzFF",
-	"json": "{\"id\":\"SRdes6r8DdRgzFF\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Gondal,+M+U\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Gondal%2C+M+U&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012747,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Gondal%2C+M+U&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Gondal,+M+U"
-}

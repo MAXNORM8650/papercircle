@@ -1,9 +1,0 @@
-{
-	"id": "vZSESrpe8MmWLY1",
-	"json": "{\"id\":\"vZSESrpe8MmWLY1\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Fernandez,+P+E\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Fernandez%2C+P+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999352,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Fernandez%2C+P+E&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Fernandez,+P+E"
-}

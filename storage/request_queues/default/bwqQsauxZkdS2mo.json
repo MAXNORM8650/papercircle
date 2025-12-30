@@ -1,9 +1,0 @@
-{
-	"id": "bwqQsauxZkdS2mo",
-	"json": "{\"id\":\"bwqQsauxZkdS2mo\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Tretten,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Tretten%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014484,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Tretten%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Tretten,+P"
-}

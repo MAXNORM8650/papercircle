@@ -1,9 +1,0 @@
-{
-	"id": "cESKhp5EfssdiCr",
-	"json": "{\"id\":\"cESKhp5EfssdiCr\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Gudmundsson,+O\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Gudmundsson%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014447,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Gudmundsson%2C+O&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Gudmundsson,+O"
-}

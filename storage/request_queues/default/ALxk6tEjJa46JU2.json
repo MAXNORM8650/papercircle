@@ -1,9 +1,0 @@
-{
-	"id": "ALxk6tEjJa46JU2",
-	"json": "{\"id\":\"ALxk6tEjJa46JU2\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Nishimura,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Nishimura%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988184,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Nishimura%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Nishimura,+A"
-}

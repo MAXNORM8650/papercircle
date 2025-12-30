@@ -1,9 +1,0 @@
-{
-	"id": "On5JFVO05Xa9tFd",
-	"json": "{\"id\":\"On5JFVO05Xa9tFd\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Isleif,+K\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Isleif%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988109,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Isleif%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Isleif,+K"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "tx73UHtKk6SkS2q",
-	"json": "{\"id\":\"tx73UHtKk6SkS2q\",\"url\":\"https://arxiv.org/pdf/2511.17565\",\"uniqueKey\":\"https://arxiv.org/pdf/2511.17565\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087011812,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/pdf/2511.17565",
-	"url": "https://arxiv.org/pdf/2511.17565"
-}

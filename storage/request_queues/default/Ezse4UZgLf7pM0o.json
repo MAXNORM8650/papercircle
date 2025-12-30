@@ -1,9 +1,0 @@
-{
-	"id": "Ezse4UZgLf7pM0o",
-	"json": "{\"id\":\"Ezse4UZgLf7pM0o\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ba%C5%9Ft%C3%BCrk%2C+%C3%96\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Ba%C5%9Ft%C3%BCrk%2C+%C3%96&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087072905,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Ba%C5%9Ft%C3%BCrk%2C+%C3%96&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Ba%C5%9Ft%C3%BCrk%2C+%C3%96"
-}

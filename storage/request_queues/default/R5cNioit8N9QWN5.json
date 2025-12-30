@@ -1,9 +1,0 @@
-{
-	"id": "R5cNioit8N9QWN5",
-	"json": "{\"id\":\"R5cNioit8N9QWN5\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Paseka,+J\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Paseka%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006617,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Paseka%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Paseka,+J"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "9iptt9RSxhD3rDr",
-	"json": "{\"id\":\"9iptt9RSxhD3rDr\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Wakuda,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Wakuda%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006018,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Wakuda%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Wakuda,+A"
-}

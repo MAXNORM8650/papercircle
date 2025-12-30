@@ -1,9 +1,0 @@
-{
-	"id": "UHBieqs8rTalt78",
-	"json": "{\"id\":\"UHBieqs8rTalt78\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Benjumea,+D+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Benjumea%2C+D+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016324,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Benjumea%2C+D+C&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Benjumea,+D+C"
-}

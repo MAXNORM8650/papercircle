@@ -1,9 +1,0 @@
-{
-	"id": "2CSi8a4wWg6thTK",
-	"json": "{\"id\":\"2CSi8a4wWg6thTK\",\"url\":\"https://arxiv.org/search/math-ph?searchtype=author&query=Amata,+L\",\"uniqueKey\":\"https://arxiv.org/search/math-ph?query=Amata%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086995374,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math-ph?query=Amata%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/math-ph?searchtype=author&query=Amata,+L"
-}

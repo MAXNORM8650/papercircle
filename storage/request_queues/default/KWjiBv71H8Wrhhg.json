@@ -1,9 +1,0 @@
-{
-	"id": "KWjiBv71H8Wrhhg",
-	"json": "{\"id\":\"KWjiBv71H8Wrhhg\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Majumdar,+A\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Majumdar%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991077,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Majumdar%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Majumdar,+A"
-}

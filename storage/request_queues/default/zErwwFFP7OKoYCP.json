@@ -1,9 +1,0 @@
-{
-	"id": "zErwwFFP7OKoYCP",
-	"json": "{\"id\":\"zErwwFFP7OKoYCP\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Messias,+H\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Messias%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987093,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Messias%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Messias,+H"
-}

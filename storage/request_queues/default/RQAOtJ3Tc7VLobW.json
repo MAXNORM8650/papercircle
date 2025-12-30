@@ -1,9 +1,0 @@
-{
-	"id": "RQAOtJ3Tc7VLobW",
-	"json": "{\"id\":\"RQAOtJ3Tc7VLobW\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Jimenez-Serra,+I\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Jimenez-Serra%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986499,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Jimenez-Serra%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Jimenez-Serra,+I"
-}

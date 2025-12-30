@@ -1,9 +1,0 @@
-{
-	"id": "LSzg7FCe5j8WXbm",
-	"json": "{\"id\":\"LSzg7FCe5j8WXbm\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Margiotta,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Margiotta%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988265,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Margiotta%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Margiotta,+A"
-}

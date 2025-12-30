@@ -1,9 +1,0 @@
-{
-	"id": "b5j42VF8KNtapCO",
-	"json": "{\"id\":\"b5j42VF8KNtapCO\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Mari,+L\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Mari%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006849,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Mari%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Mari,+L"
-}

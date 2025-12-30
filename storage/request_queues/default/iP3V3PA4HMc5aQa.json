@@ -1,9 +1,0 @@
-{
-	"id": "iP3V3PA4HMc5aQa",
-	"json": "{\"id\":\"iP3V3PA4HMc5aQa\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Sia,+B+S\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Sia%2C+B+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989516,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-th?query=Sia%2C+B+S&searchtype=author",
-	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Sia,+B+S"
-}

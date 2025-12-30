@@ -1,9 +1,0 @@
-{
-	"id": "3MZEKSCkNouYDzA",
-	"json": "{\"id\":\"3MZEKSCkNouYDzA\",\"url\":\"https://arxiv.org/abs/2511.14695\",\"uniqueKey\":\"https://arxiv.org/abs/2511.14695\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007491,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/abs/2511.14695",
-	"url": "https://arxiv.org/abs/2511.14695"
-}

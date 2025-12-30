@@ -1,9 +1,0 @@
-{
-	"id": "FQvsPO7A4UEOsck",
-	"json": "{\"id\":\"FQvsPO7A4UEOsck\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Dong,+X\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Dong%2C+X&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992917,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Dong%2C+X&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Dong,+X"
-}

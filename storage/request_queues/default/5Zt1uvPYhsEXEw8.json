@@ -1,9 +1,0 @@
-{
-	"id": "5Zt1uvPYhsEXEw8",
-	"json": "{\"id\":\"5Zt1uvPYhsEXEw8\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=B%C3%A9rczi,+K\",\"uniqueKey\":\"https://arxiv.org/search/math?query=B%C3%A9rczi%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009447,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=B%C3%A9rczi%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=B%C3%A9rczi,+K"
-}

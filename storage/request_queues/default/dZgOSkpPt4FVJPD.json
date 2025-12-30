@@ -1,9 +1,0 @@
-{
-	"id": "dZgOSkpPt4FVJPD",
-	"json": "{\"id\":\"dZgOSkpPt4FVJPD\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Bredfeldt,+J+S\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Bredfeldt%2C+J+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002448,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Bredfeldt%2C+J+S&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Bredfeldt,+J+S"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "vgM0bpIfqOXoChV",
-	"json": "{\"id\":\"vgM0bpIfqOXoChV\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Tuchinda,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Tuchinda%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012993,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Tuchinda%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Tuchinda,+P"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "mw7kRIuxAO5U2Tt",
-	"json": "{\"id\":\"mw7kRIuxAO5U2Tt\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Felici,+G\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Felici%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992923,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Felici%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Felici,+G"
-}

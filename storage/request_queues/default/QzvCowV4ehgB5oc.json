@@ -1,9 +1,0 @@
-{
-	"id": "QzvCowV4ehgB5oc",
-	"json": "{\"id\":\"QzvCowV4ehgB5oc\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Browder,+T+E\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Browder%2C+T+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992947,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Browder%2C+T+E&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Browder,+T+E"
-}

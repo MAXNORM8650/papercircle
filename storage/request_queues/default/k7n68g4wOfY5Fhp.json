@@ -1,9 +1,0 @@
-{
-	"id": "k7n68g4wOfY5Fhp",
-	"json": "{\"id\":\"k7n68g4wOfY5Fhp\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Baron,+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Baron%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988377,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Baron%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Baron,+D"
-}

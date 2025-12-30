@@ -1,9 +1,0 @@
-{
-	"id": "EaJZPbElJN1O2ra",
-	"json": "{\"id\":\"EaJZPbElJN1O2ra\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kovalev%2C+Y+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Kovalev%2C+Y+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087040453,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Kovalev%2C+Y+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Kovalev%2C+Y+A"
-}

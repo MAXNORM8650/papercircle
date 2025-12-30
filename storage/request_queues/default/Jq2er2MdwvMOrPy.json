@@ -1,9 +1,0 @@
-{
-	"id": "Jq2er2MdwvMOrPy",
-	"json": "{\"id\":\"Jq2er2MdwvMOrPy\",\"url\":\"https://arxiv.org/list/eess.SP/recent?skip=48&show=50\",\"uniqueKey\":\"https://arxiv.org/list/eess.SP/recent?show=50&skip=48\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025709,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/eess.SP/recent?show=50&skip=48",
-	"url": "https://arxiv.org/list/eess.SP/recent?skip=48&show=50"
-}

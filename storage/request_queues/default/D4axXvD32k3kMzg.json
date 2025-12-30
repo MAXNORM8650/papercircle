@@ -1,9 +1,0 @@
-{
-	"id": "D4axXvD32k3kMzg",
-	"json": "{\"id\":\"D4axXvD32k3kMzg\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Jedidi,+N\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Jedidi%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010283,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Jedidi%2C+N&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Jedidi,+N"
-}

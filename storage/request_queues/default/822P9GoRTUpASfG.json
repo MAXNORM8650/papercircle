@@ -1,9 +1,0 @@
-{
-	"id": "822P9GoRTUpASfG",
-	"json": "{\"id\":\"822P9GoRTUpASfG\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Wu,+Y\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Wu%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999226,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Wu%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Wu,+Y"
-}

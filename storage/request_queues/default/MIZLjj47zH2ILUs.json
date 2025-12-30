@@ -1,9 +1,0 @@
-{
-	"id": "MIZLjj47zH2ILUs",
-	"json": "{\"id\":\"MIZLjj47zH2ILUs\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=%C3%87elikbilek,+%C3%87\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=%C3%87elikbilek%2C+%C3%87&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087013690,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=%C3%87elikbilek%2C+%C3%87&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=%C3%87elikbilek,+%C3%87"
-}

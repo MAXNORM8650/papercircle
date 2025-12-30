@@ -1,9 +1,0 @@
-{
-	"id": "08gICrfHAe9wJep",
-	"json": "{\"id\":\"08gICrfHAe9wJep\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Levin,+D+I\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Levin%2C+D+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087001374,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Levin%2C+D+I&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Levin,+D+I"
-}

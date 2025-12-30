@@ -1,9 +1,0 @@
-{
-	"id": "QAociLRsO0VM6k9",
-	"json": "{\"id\":\"QAociLRsO0VM6k9\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Hanke,+M+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Hanke%2C+M+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016283,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Hanke%2C+M+S&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Hanke,+M+S"
-}

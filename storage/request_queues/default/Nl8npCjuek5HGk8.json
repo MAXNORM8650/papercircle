@@ -1,9 +1,0 @@
-{
-	"id": "Nl8npCjuek5HGk8",
-	"json": "{\"id\":\"Nl8npCjuek5HGk8\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=T%C3%B3th,+R\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=T%C3%B3th%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087018604,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=T%C3%B3th%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=T%C3%B3th,+R"
-}

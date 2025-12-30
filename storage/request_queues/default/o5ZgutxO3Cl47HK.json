@@ -1,9 +1,0 @@
-{
-	"id": "o5ZgutxO3Cl47HK",
-	"json": "{\"id\":\"o5ZgutxO3Cl47HK\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Prokofiev,+A\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Prokofiev%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087001312,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Prokofiev%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Prokofiev,+A"
-}

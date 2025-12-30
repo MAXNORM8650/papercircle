@@ -1,9 +1,0 @@
-{
-	"id": "mAd9JysQxC23wX4",
-	"json": "{\"id\":\"mAd9JysQxC23wX4\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Seligman,+D+Z\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Seligman%2C+D+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987441,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Seligman%2C+D+Z&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Seligman,+D+Z"
-}

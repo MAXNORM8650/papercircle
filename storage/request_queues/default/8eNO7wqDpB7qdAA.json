@@ -1,9 +1,0 @@
-{
-	"id": "8eNO7wqDpB7qdAA",
-	"json": "{\"id\":\"8eNO7wqDpB7qdAA\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kobayashi,+I\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Kobayashi%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987504,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Kobayashi%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Kobayashi,+I"
-}

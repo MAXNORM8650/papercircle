@@ -1,9 +1,0 @@
-{
-	"id": "bXpY6GvkxO9vEvV",
-	"json": "{\"id\":\"bXpY6GvkxO9vEvV\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Akanbi,+K+L\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Akanbi%2C+K+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021577,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/econ?query=Akanbi%2C+K+L&searchtype=author",
-	"url": "https://arxiv.org/search/econ?searchtype=author&query=Akanbi,+K+L"
-}

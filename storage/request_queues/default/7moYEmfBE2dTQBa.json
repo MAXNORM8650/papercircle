@@ -1,9 +1,0 @@
-{
-	"id": "7moYEmfBE2dTQBa",
-	"json": "{\"id\":\"7moYEmfBE2dTQBa\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Zhou,+D\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Zhou%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086998522,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Zhou%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Zhou,+D"
-}

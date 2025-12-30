@@ -1,9 +1,0 @@
-{
-	"id": "TLyJVnrbYD2Cx0Z",
-	"json": "{\"id\":\"TLyJVnrbYD2Cx0Z\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Humphrey,+P\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Humphrey%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019270,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Humphrey%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Humphrey,+P"
-}

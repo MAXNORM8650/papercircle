@@ -1,9 +1,0 @@
-{
-	"id": "J8pJu6OtsJG4gnn",
-	"json": "{\"id\":\"J8pJu6OtsJG4gnn\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=esz,+S+a+G+R+e\",\"uniqueKey\":\"https://arxiv.org/search/math?query=esz%2C+S+a+G+R+e&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005842,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=esz%2C+S+a+G+R+e&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=esz,+S+a+G+R+e"
-}

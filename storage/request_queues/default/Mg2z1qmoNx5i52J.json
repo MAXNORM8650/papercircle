@@ -1,9 +1,0 @@
-{
-	"id": "Mg2z1qmoNx5i52J",
-	"json": "{\"id\":\"Mg2z1qmoNx5i52J\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Baskett%2C+H\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Baskett%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087090240,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Baskett%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Baskett%2C+H"
-}

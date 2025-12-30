@@ -1,9 +1,0 @@
-{
-	"id": "7na71yyFVdiKHSg",
-	"json": "{\"id\":\"7na71yyFVdiKHSg\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Tan,+Y+K\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Tan%2C+Y+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016291,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Tan%2C+Y+K&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Tan,+Y+K"
-}

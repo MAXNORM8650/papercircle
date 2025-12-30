@@ -1,9 +1,0 @@
-{
-	"id": "zhqfnaJ3o1rBB9k",
-	"json": "{\"id\":\"zhqfnaJ3o1rBB9k\",\"url\":\"https://arxiv.org/search/nucl-th?searchtype=author&query=Chen,+P\",\"uniqueKey\":\"https://arxiv.org/search/nucl-th?query=Chen%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086998157,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-th?query=Chen%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-th?searchtype=author&query=Chen,+P"
-}

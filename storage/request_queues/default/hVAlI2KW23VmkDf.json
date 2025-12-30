@@ -1,9 +1,0 @@
-{
-	"id": "hVAlI2KW23VmkDf",
-	"json": "{\"id\":\"hVAlI2KW23VmkDf\",\"url\":\"https://arxiv.org/list/q-bio.CB/recent\",\"loadedUrl\":\"https://arxiv.org/list/q-bio.CB/recent\",\"uniqueKey\":\"https://arxiv.org/list/q-bio.CB/recent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:19.565Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/q-bio.CB/recent",
-	"url": "https://arxiv.org/list/q-bio.CB/recent"
-}

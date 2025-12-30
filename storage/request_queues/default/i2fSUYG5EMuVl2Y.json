@@ -1,9 +1,0 @@
-{
-	"id": "i2fSUYG5EMuVl2Y",
-	"json": "{\"id\":\"i2fSUYG5EMuVl2Y\",\"url\":\"https://arxiv.org/list/q-fin.EC/current\",\"uniqueKey\":\"https://arxiv.org/list/q-fin.EC/current\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021568,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/q-fin.EC/current",
-	"url": "https://arxiv.org/list/q-fin.EC/current"
-}

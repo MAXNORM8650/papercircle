@@ -1,9 +1,0 @@
-{
-	"id": "G4rsP887hlbZL73",
-	"json": "{\"id\":\"G4rsP887hlbZL73\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Arun%2C+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Arun%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087082867,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Arun%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Arun%2C+A"
-}

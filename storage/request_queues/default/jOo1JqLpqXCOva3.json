@@ -1,9 +1,0 @@
-{
-	"id": "jOo1JqLpqXCOva3",
-	"json": "{\"id\":\"jOo1JqLpqXCOva3\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Camps-Fari%C3%B1a,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Camps-Fari%C3%B1a%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087035856,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Camps-Fari%C3%B1a%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Camps-Fari%C3%B1a,+A"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "Foa0bcyhI8Wj0Kc",
-	"json": "{\"id\":\"Foa0bcyhI8Wj0Kc\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Hero,+A+O\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Hero%2C+A+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987613,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Hero%2C+A+O&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Hero,+A+O"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "9MKuZExldDAQ1xF",
-	"json": "{\"id\":\"9MKuZExldDAQ1xF\",\"url\":\"https://arxiv.org/search/econ\",\"loadedUrl\":\"https://arxiv.org/search/econ\",\"uniqueKey\":\"https://arxiv.org/search/econ\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:26.358Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/econ",
-	"url": "https://arxiv.org/search/econ"
-}

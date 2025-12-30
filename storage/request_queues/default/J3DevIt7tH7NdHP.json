@@ -1,9 +1,0 @@
-{
-	"id": "J3DevIt7tH7NdHP",
-	"json": "{\"id\":\"J3DevIt7tH7NdHP\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Couti%C3%B1odeLe%C3%B3n%2C+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Couti%C3%B1odeLe%C3%B3n%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087048210,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Couti%C3%B1odeLe%C3%B3n%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Couti%C3%B1odeLe%C3%B3n%2C+S"
-}

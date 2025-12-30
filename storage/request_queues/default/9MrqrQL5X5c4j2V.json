@@ -1,9 +1,0 @@
-{
-	"id": "9MrqrQL5X5c4j2V",
-	"json": "{\"id\":\"9MrqrQL5X5c4j2V\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Fuentes,+J+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Fuentes%2C+J+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987524,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Fuentes%2C+J+R&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Fuentes,+J+R"
-}

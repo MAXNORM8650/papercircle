@@ -1,9 +1,0 @@
-{
-	"id": "jfIMpxlTDImSc5e",
-	"json": "{\"id\":\"jfIMpxlTDImSc5e\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Araya,+E\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Araya%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023772,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Araya%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Araya,+E"
-}

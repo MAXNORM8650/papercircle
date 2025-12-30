@@ -1,9 +1,0 @@
-{
-	"id": "GffZugO6zBQ4wy3",
-	"json": "{\"id\":\"GffZugO6zBQ4wy3\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Lim,+W+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Lim%2C+W+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014509,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Lim%2C+W+S&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Lim,+W+S"
-}

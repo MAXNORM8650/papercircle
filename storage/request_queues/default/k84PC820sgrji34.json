@@ -1,9 +1,0 @@
-{
-	"id": "k84PC820sgrji34",
-	"json": "{\"id\":\"k84PC820sgrji34\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Fendley,+P\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Fendley%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989585,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-th?query=Fendley%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Fendley,+P"
-}

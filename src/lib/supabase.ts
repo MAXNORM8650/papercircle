@@ -3,11 +3,25 @@ import type { Database } from './database.types';
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
-console.log('🔍 SUPABASE_URL:', import.meta.env.VITE_SUPABASE_URL);
-console.log('🔍 SUPABASE_KEY:', import.meta.env.VITE_SUPABASE_ANON_KEY);
-console.log('🔍 All env vars:', import.meta.env);
+
+// Validate environment variables without logging them
 if (!supabaseUrl || !supabaseAnonKey) {
+  // Only log that they're missing, never log the actual values
+  if (import.meta.env.DEV) {
+    console.error('⚠️ Missing Supabase environment variables. Check your .env file.');
+  }
   throw new Error('Missing Supabase environment variables');
 }
 
-export const supabase = createClient<Database>(supabaseUrl, supabaseAnonKey);
+// Optional: Log only that connection is initialized (not the credentials)
+if (import.meta.env.DEV) {
+  console.log('✅ Supabase client initialized');
+}
+
+export const supabase = createClient<Database>(supabaseUrl, supabaseAnonKey, {
+  auth: {
+    persistSession: true,
+    autoRefreshToken: true,
+    detectSessionInUrl: true,
+  },
+});

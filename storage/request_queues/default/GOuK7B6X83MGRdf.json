@@ -1,9 +1,0 @@
-{
-	"id": "GOuK7B6X83MGRdf",
-	"json": "{\"id\":\"GOuK7B6X83MGRdf\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Huang,+K\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Huang%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025286,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Huang%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Huang,+K"
-}

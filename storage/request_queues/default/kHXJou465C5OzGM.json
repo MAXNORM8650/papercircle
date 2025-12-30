@@ -1,9 +1,0 @@
-{
-	"id": "kHXJou465C5OzGM",
-	"json": "{\"id\":\"kHXJou465C5OzGM\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bish,+H\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Bish%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986628,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Bish%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Bish,+H"
-}

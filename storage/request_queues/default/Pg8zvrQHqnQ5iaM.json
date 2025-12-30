@@ -1,9 +1,0 @@
-{
-	"id": "Pg8zvrQHqnQ5iaM",
-	"json": "{\"id\":\"Pg8zvrQHqnQ5iaM\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ackermann,+M\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ackermann,+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Ackermann%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:45.727Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Ackermann%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Ackermann,+M"
-}

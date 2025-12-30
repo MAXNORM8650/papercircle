@@ -1,9 +1,0 @@
-{
-	"id": "Pyw8OxOUOMTRTFj",
-	"json": "{\"id\":\"Pyw8OxOUOMTRTFj\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Ackernley,+T\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Ackernley%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992830,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Ackernley%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Ackernley,+T"
-}

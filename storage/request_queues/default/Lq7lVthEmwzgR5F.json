@@ -1,9 +1,0 @@
-{
-	"id": "Lq7lVthEmwzgR5F",
-	"json": "{\"id\":\"Lq7lVthEmwzgR5F\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Guo,+Z\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Guo%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989878,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Guo%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Guo,+Z"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "d4PtnNlqJ6QVItD",
-	"json": "{\"id\":\"d4PtnNlqJ6QVItD\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=de+la+Fuente-Nunez,+C\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=de+la+Fuente-Nunez%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019805,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=de+la+Fuente-Nunez%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=de+la+Fuente-Nunez,+C"
-}

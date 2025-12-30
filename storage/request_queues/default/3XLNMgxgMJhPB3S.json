@@ -1,9 +1,0 @@
-{
-	"id": "3XLNMgxgMJhPB3S",
-	"json": "{\"id\":\"3XLNMgxgMJhPB3S\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Dimitriyev,+M+S\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Dimitriyev%2C+M+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988686,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Dimitriyev%2C+M+S&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Dimitriyev,+M+S"
-}

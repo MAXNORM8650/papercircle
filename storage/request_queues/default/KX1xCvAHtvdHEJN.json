@@ -1,9 +1,0 @@
-{
-	"id": "KX1xCvAHtvdHEJN",
-	"json": "{\"id\":\"KX1xCvAHtvdHEJN\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Kostic,+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Kostic%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005401,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Kostic%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Kostic,+M"
-}

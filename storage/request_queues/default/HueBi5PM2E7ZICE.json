@@ -1,9 +1,0 @@
-{
-	"id": "HueBi5PM2E7ZICE",
-	"json": "{\"id\":\"HueBi5PM2E7ZICE\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=C,+S+K\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=C%2C+S+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999878,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=C%2C+S+K&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=C,+S+K"
-}

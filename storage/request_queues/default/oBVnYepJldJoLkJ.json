@@ -1,9 +1,0 @@
-{
-	"id": "oBVnYepJldJoLkJ",
-	"json": "{\"id\":\"oBVnYepJldJoLkJ\",\"url\":\"https://arxiv.org/IgnoreMe\",\"loadedUrl\":\"https://arxiv.org/IgnoreMe.html\",\"uniqueKey\":\"https://arxiv.org/IgnoreMe\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:45.237Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/IgnoreMe",
-	"url": "https://arxiv.org/IgnoreMe"
-}

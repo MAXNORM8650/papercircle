@@ -1,9 +1,0 @@
-{
-	"id": "RoxtWXH0BG4Hy5u",
-	"json": "{\"id\":\"RoxtWXH0BG4Hy5u\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Hoenig%2C+S+F\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Hoenig%2C+S+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087094332,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Hoenig%2C+S+F&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Hoenig%2C+S+F"
-}

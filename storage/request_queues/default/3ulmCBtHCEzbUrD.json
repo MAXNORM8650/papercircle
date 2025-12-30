@@ -1,9 +1,0 @@
-{
-	"id": "3ulmCBtHCEzbUrD",
-	"json": "{\"id\":\"3ulmCBtHCEzbUrD\",\"url\":\"https://arxiv.org/search/q-fin?searchtype=author&query=Djagba,+P\",\"uniqueKey\":\"https://arxiv.org/search/q-fin?query=Djagba%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021561,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-fin?query=Djagba%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/q-fin?searchtype=author&query=Djagba,+P"
-}

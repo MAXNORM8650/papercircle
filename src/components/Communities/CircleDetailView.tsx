@@ -1,13 +1,19 @@
 import { useState, useEffect } from 'react';
-import { ArrowLeft, Users, Calendar, Settings, Link as LinkIcon, Share2, Copy, Check, Plus, Mail, UserMinus, Crown, User, Video, Clock, MapPin, Edit } from 'lucide-react';
+import { ArrowLeft, Users, Calendar, Settings, Link as LinkIcon, Share2, Copy, Check, Plus, Mail, UserMinus, Crown, User, Video, Clock, MapPin, Edit, GitBranch, UserPlus, FileText } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
 import { EditCircleModal } from './EditCircleModal';
+import { CreateSessionModal } from '../Sessions/CreateSessionModal';
+import { SessionCard } from '../Sessions/SessionCard';
+import { AttendanceList } from '../Sessions/AttendanceList';
+import { AssignPresenterModal } from '../Sessions/AssignPresenterModal';
+import { SessionLineageView } from '../Sessions/SessionLineageView';
+import { CommunityPapersView } from '../Papers/CommunityPapersView';
+import { AnalysisHubView } from '../Papers/AnalysisHubView';
 
 interface CircleDetailViewProps {
   communityId: string;
   onBack: () => void;
-  onCreateSession: (communityId: string) => void;
 }
 
 interface Community {
@@ -48,29 +54,37 @@ interface Session {
   id: string;
   title: string;
   description: string | null;
-  scheduled_at: string;
+  introduction: string | null;
+  scheduled_for: string;
   duration_minutes: number;
-  status: string;
   location: string | null;
   virtual_link: string | null;
-  presenter?: {
-    display_name: string;
-  };
+  parent_session_id: string | null;
+  recording_url: string | null;
 }
 
-export function CircleDetailView({ communityId, onBack, onCreateSession }: CircleDetailViewProps) {
+export function CircleDetailView({ communityId, onBack }: CircleDetailViewProps) {
   const { user } = useAuth();
   const [community, setCommunity] = useState<Community | null>(null);
   const [members, setMembers] = useState<Member[]>([]);
   const [invitations, setInvitations] = useState<Invitation[]>([]);
   const [sessions, setSessions] = useState<Session[]>([]);
-  const [activeTab, setActiveTab] = useState<'overview' | 'members' | 'sessions' | 'settings'>('overview');
+  const [activeTab, setActiveTab] = useState<'overview' | 'members' | 'papers' | 'sessions' | 'analysis' | 'settings'>('overview');
   const [loading, setLoading] = useState(true);
   const [isAdmin, setIsAdmin] = useState(false);
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
+  const [showCopyToast, setShowCopyToast] = useState(false);
 
   const [showInviteModal, setShowInviteModal] = useState(false);
+  const [createdInviteLink, setCreatedInviteLink] = useState<string | null>(null);
   const [showEditCircle, setShowEditCircle] = useState(false);
+  const [showCreateSession, setShowCreateSession] = useState(false);
+  const [showAssignPresenter, setShowAssignPresenter] = useState(false);
+  const [showAttendanceList, setShowAttendanceList] = useState(false);
+  const [showLineageView, setShowLineageView] = useState(false);
+  const [selectedSession, setSelectedSession] = useState<Session | null>(null);
+  const [sessionFilter, setSessionFilter] = useState<'all' | 'upcoming' | 'past'>('upcoming');
+
   const [newInvite, setNewInvite] = useState({
     role: 'member' as 'member' | 'presenter',
     max_uses: null as number | null,
@@ -123,16 +137,16 @@ export function CircleDetailView({ communityId, onBack, onCreateSession }: Circl
         id,
         title,
         description,
-        scheduled_at,
+        introduction,
+        scheduled_for,
         duration_minutes,
-        status,
         location,
         virtual_link,
-        presenter:profiles!sessions_presenter_id_fkey(display_name)
+        parent_session_id,
+        recording_url
       `)
       .eq('community_id', communityId)
-      .order('scheduled_at', { ascending: false })
-      .limit(10);
+      .order('scheduled_for', { ascending: false });
 
     if (sessionsData) {
       setSessions(sessionsData as any);
@@ -162,9 +176,24 @@ export function CircleDetailView({ communityId, onBack, onCreateSession }: Circl
     if (error) {
       alert('Error creating invitation: ' + error.message);
     } else {
-      setShowInviteModal(false);
-      setNewInvite({ role: 'member', max_uses: null, expires_in_days: null });
+      // Show the created invitation link
+      const link = `${window.location.origin}/invite/${inviteCode}`;
+      setCreatedInviteLink(link);
       loadCommunityData();
+    }
+  };
+
+  const closeInviteModal = () => {
+    setShowInviteModal(false);
+    setCreatedInviteLink(null);
+    setNewInvite({ role: 'member', max_uses: null, expires_in_days: null });
+  };
+
+  const copyCreatedLink = () => {
+    if (createdInviteLink) {
+      navigator.clipboard.writeText(createdInviteLink);
+      setShowCopyToast(true);
+      setTimeout(() => setShowCopyToast(false), 3000);
     }
   };
 
@@ -177,7 +206,11 @@ export function CircleDetailView({ communityId, onBack, onCreateSession }: Circl
     const link = `${window.location.origin}/invite/${code}`;
     navigator.clipboard.writeText(link);
     setCopiedCode(code);
-    setTimeout(() => setCopiedCode(null), 2000);
+    setShowCopyToast(true);
+    setTimeout(() => {
+      setCopiedCode(null);
+      setShowCopyToast(false);
+    }, 3000);
   };
 
   const toggleInviteStatus = async (inviteId: string, isActive: boolean) => {
@@ -232,6 +265,22 @@ export function CircleDetailView({ communityId, onBack, onCreateSession }: Circl
       hour: 'numeric',
       minute: '2-digit',
     });
+  };
+
+  const handleSessionSelect = (session: Session) => {
+    setSelectedSession(session);
+  };
+
+  const getFilteredSessions = () => {
+    const now = new Date();
+    switch (sessionFilter) {
+      case 'upcoming':
+        return sessions.filter(s => new Date(s.scheduled_for) > now);
+      case 'past':
+        return sessions.filter(s => new Date(s.scheduled_for) <= now);
+      default:
+        return sessions;
+    }
   };
 
   if (loading || !community) {
@@ -293,7 +342,7 @@ export function CircleDetailView({ communityId, onBack, onCreateSession }: Circl
 
         <div className="border-b border-gray-200">
           <nav className="flex space-x-8 px-6">
-            {(['overview', 'members', 'sessions', 'settings'] as const).map((tab) => (
+            {(['overview', 'members', 'papers', 'sessions', 'analysis', 'settings'] as const).map((tab) => (
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
@@ -303,7 +352,7 @@ export function CircleDetailView({ communityId, onBack, onCreateSession }: Circl
                     : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
                 }`}
               >
-                {tab.charAt(0).toUpperCase() + tab.slice(1)}
+                {tab === 'analysis' ? 'Analysis Hub' : tab.charAt(0).toUpperCase() + tab.slice(1)}
               </button>
             ))}
           </nav>
@@ -315,56 +364,33 @@ export function CircleDetailView({ communityId, onBack, onCreateSession }: Circl
               <div>
                 <div className="flex items-center justify-between mb-4">
                   <h2 className="text-xl font-semibold text-gray-900">Upcoming Sessions</h2>
-                  <button
-                    onClick={() => onCreateSession(communityId)}
-                    className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
-                  >
-                    <Plus className="h-4 w-4" />
-                    <span>Create Session</span>
-                  </button>
+                  {isAdmin && (
+                    <button
+                      onClick={() => setShowCreateSession(true)}
+                      className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+                    >
+                      <Plus className="h-4 w-4" />
+                      <span>Create Session</span>
+                    </button>
+                  )}
                 </div>
-                {sessions.length === 0 ? (
+                {sessions.filter(s => new Date(s.scheduled_for) > new Date()).length === 0 ? (
                   <div className="text-center py-12 bg-gray-50 rounded-lg">
                     <Calendar className="h-12 w-12 text-gray-400 mx-auto mb-3" />
-                    <p className="text-gray-600">No sessions yet</p>
-                    <p className="text-sm text-gray-500 mt-1">Create your first session to get started</p>
+                    <p className="text-gray-600">No upcoming sessions</p>
+                    {isAdmin && (
+                      <p className="text-sm text-gray-500 mt-1">Create your first session to get started</p>
+                    )}
                   </div>
                 ) : (
                   <div className="space-y-4">
-                    {sessions.map((session) => (
-                      <div key={session.id} className="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
-                        <h3 className="text-lg font-semibold text-gray-900 mb-2">{session.title}</h3>
-                        {session.description && (
-                          <p className="text-sm text-gray-600 mb-3">{session.description}</p>
-                        )}
-                        <div className="flex flex-wrap gap-3 text-sm text-gray-600">
-                          <span className="flex items-center space-x-1">
-                            <Calendar className="h-4 w-4" />
-                            <span>{formatDateTime(session.scheduled_at)}</span>
-                          </span>
-                          <span className="flex items-center space-x-1">
-                            <Clock className="h-4 w-4" />
-                            <span>{session.duration_minutes} min</span>
-                          </span>
-                          {session.location && (
-                            <span className="flex items-center space-x-1">
-                              <MapPin className="h-4 w-4" />
-                              <span>{session.location}</span>
-                            </span>
-                          )}
-                          {session.virtual_link && (
-                            <a
-                              href={session.virtual_link}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="flex items-center space-x-1 text-blue-600 hover:text-blue-700"
-                            >
-                              <Video className="h-4 w-4" />
-                              <span>Join</span>
-                            </a>
-                          )}
-                        </div>
-                      </div>
+                    {sessions.filter(s => new Date(s.scheduled_for) > new Date()).slice(0, 5).map((session) => (
+                      <SessionCard
+                        key={session.id}
+                        session={session}
+                        onRSVPChange={loadCommunityData}
+                        showRSVPButtons={true}
+                      />
                     ))}
                   </div>
                 )}
@@ -443,63 +469,177 @@ export function CircleDetailView({ communityId, onBack, onCreateSession }: Circl
             </div>
           )}
 
+          {activeTab === 'papers' && (
+            <CommunityPapersView communityId={communityId} />
+          )}
+
           {activeTab === 'sessions' && (
             <div>
-              <div className="flex items-center justify-between mb-4">
-                <h2 className="text-xl font-semibold text-gray-900">All Sessions</h2>
-                <button
-                  onClick={() => onCreateSession(communityId)}
-                  className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
-                >
-                  <Plus className="h-4 w-4" />
-                  <span>Create Session</span>
-                </button>
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="text-xl font-semibold text-gray-900">Sessions</h2>
+                <div className="flex items-center gap-3">
+                  {/* Filter buttons */}
+                  <div className="flex gap-2">
+                    <button
+                      onClick={() => setSessionFilter('upcoming')}
+                      className={`px-3 py-1 rounded-lg text-sm font-medium ${
+                        sessionFilter === 'upcoming'
+                          ? 'bg-blue-600 text-white'
+                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                      }`}
+                    >
+                      Upcoming
+                    </button>
+                    <button
+                      onClick={() => setSessionFilter('past')}
+                      className={`px-3 py-1 rounded-lg text-sm font-medium ${
+                        sessionFilter === 'past'
+                          ? 'bg-blue-600 text-white'
+                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                      }`}
+                    >
+                      Past
+                    </button>
+                    <button
+                      onClick={() => setSessionFilter('all')}
+                      className={`px-3 py-1 rounded-lg text-sm font-medium ${
+                        sessionFilter === 'all'
+                          ? 'bg-blue-600 text-white'
+                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                      }`}
+                    >
+                      All
+                    </button>
+                  </div>
+                  {isAdmin && (
+                    <button
+                      onClick={() => setShowCreateSession(true)}
+                      className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+                    >
+                      <Plus className="h-4 w-4" />
+                      <span>Create Session</span>
+                    </button>
+                  )}
+                </div>
               </div>
-              {sessions.length === 0 ? (
-                <div className="text-center py-12 bg-gray-50 rounded-lg">
-                  <Calendar className="h-12 w-12 text-gray-400 mx-auto mb-3" />
-                  <p className="text-gray-600">No sessions yet</p>
+
+              {/* Session Detail View */}
+              {selectedSession ? (
+                <div className="space-y-6">
+                  <button
+                    onClick={() => setSelectedSession(null)}
+                    className="flex items-center gap-2 text-blue-600 hover:text-blue-700"
+                  >
+                    <ArrowLeft className="w-4 h-4" />
+                    Back to Sessions
+                  </button>
+
+                  <SessionCard
+                    session={selectedSession}
+                    onRSVPChange={loadCommunityData}
+                    showRSVPButtons={true}
+                  />
+
+                  {/* Admin Actions */}
+                  {isAdmin && (
+                    <div className="flex gap-3">
+                      <button
+                        onClick={() => setShowAssignPresenter(true)}
+                        className="px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200"
+                      >
+                        <UserPlus className="w-4 h-4 inline mr-2" />
+                        Assign Presenters
+                      </button>
+                      <button
+                        onClick={() => setShowAttendanceList(true)}
+                        className="px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200"
+                      >
+                        <Users className="w-4 h-4 inline mr-2" />
+                        View Attendance
+                      </button>
+                      <button
+                        onClick={() => setShowLineageView(true)}
+                        className="px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200"
+                      >
+                        <GitBranch className="w-4 h-4 inline mr-2" />
+                        View Lineage
+                      </button>
+                    </div>
+                  )}
+
+                  {/* Attendance List */}
+                  {showAttendanceList && (
+                    <div className="border-t pt-6">
+                      <div className="flex items-center justify-between mb-4">
+                        <h3 className="text-lg font-semibold">Attendance</h3>
+                        <button
+                          onClick={() => setShowAttendanceList(false)}
+                          className="text-gray-500 hover:text-gray-700"
+                        >
+                          Hide
+                        </button>
+                      </div>
+                      <AttendanceList sessionId={selectedSession.id} />
+                    </div>
+                  )}
+
+                  {/* Lineage View */}
+                  {showLineageView && (
+                    <div className="border-t pt-6">
+                      <div className="flex items-center justify-between mb-4">
+                        <h3 className="text-lg font-semibold">Session Lineage</h3>
+                        <button
+                          onClick={() => setShowLineageView(false)}
+                          className="text-gray-500 hover:text-gray-700"
+                        >
+                          Hide
+                        </button>
+                      </div>
+                      <SessionLineageView
+                        sessionId={selectedSession.id}
+                        onSelectSession={(id) => {
+                          const session = sessions.find(s => s.id === id);
+                          if (session) setSelectedSession(session);
+                        }}
+                      />
+                    </div>
+                  )}
                 </div>
               ) : (
-                <div className="space-y-4">
-                  {sessions.map((session) => (
-                    <div key={session.id} className="border border-gray-200 rounded-lg p-4">
-                      <div className="flex items-start justify-between mb-2">
-                        <div className="flex-1">
-                          <h3 className="text-lg font-semibold text-gray-900 mb-1">{session.title}</h3>
-                          {session.description && (
-                            <p className="text-sm text-gray-600 mb-2">{session.description}</p>
-                          )}
-                        </div>
-                        <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                          session.status === 'scheduled' ? 'bg-blue-100 text-blue-800' :
-                          session.status === 'completed' ? 'bg-green-100 text-green-800' :
-                          'bg-gray-100 text-gray-800'
-                        }`}>
-                          {session.status}
-                        </span>
-                      </div>
-                      <div className="flex flex-wrap gap-3 text-sm text-gray-600">
-                        <span className="flex items-center space-x-1">
-                          <Calendar className="h-4 w-4" />
-                          <span>{formatDateTime(session.scheduled_at)}</span>
-                        </span>
-                        <span className="flex items-center space-x-1">
-                          <Clock className="h-4 w-4" />
-                          <span>{session.duration_minutes} min</span>
-                        </span>
-                        {session.presenter && (
-                          <span className="flex items-center space-x-1">
-                            <User className="h-4 w-4" />
-                            <span>{session.presenter.display_name}</span>
-                          </span>
-                        )}
-                      </div>
+                /* Sessions List */
+                <div>
+                  {getFilteredSessions().length === 0 ? (
+                    <div className="text-center py-12 bg-gray-50 rounded-lg">
+                      <Calendar className="h-12 w-12 text-gray-400 mx-auto mb-3" />
+                      <p className="text-gray-600">No sessions found</p>
                     </div>
-                  ))}
+                  ) : (
+                    <div className="space-y-4">
+                      {getFilteredSessions().map((session) => (
+                        <div
+                          key={session.id}
+                          onClick={() => handleSessionSelect(session)}
+                          className="cursor-pointer"
+                        >
+                          <SessionCard
+                            session={session}
+                            onRSVPChange={loadCommunityData}
+                            showRSVPButtons={true}
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               )}
             </div>
+          )}
+
+          {activeTab === 'analysis' && community && (
+            <AnalysisHubView
+              communityId={communityId}
+              communityName={community.name}
+            />
           )}
 
           {activeTab === 'settings' && isAdmin && (
@@ -613,62 +753,105 @@ export function CircleDetailView({ communityId, onBack, onCreateSession }: Circl
       {showInviteModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-lg max-w-md w-full p-6">
-            <h2 className="text-xl font-bold text-gray-900 mb-4">Create Invitation Link</h2>
-            <div className="space-y-4">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Member Role
-                </label>
-                <select
-                  value={newInvite.role}
-                  onChange={(e) => setNewInvite({ ...newInvite, role: e.target.value as any })}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                >
-                  <option value="member">Member</option>
-                  <option value="presenter">Presenter</option>
-                </select>
+            <h2 className="text-xl font-bold text-gray-900 mb-4">
+              {createdInviteLink ? 'Invitation Link Created!' : 'Create Invitation Link'}
+            </h2>
+
+            {!createdInviteLink ? (
+              <div className="space-y-4">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Member Role
+                  </label>
+                  <select
+                    value={newInvite.role}
+                    onChange={(e) => setNewInvite({ ...newInvite, role: e.target.value as any })}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  >
+                    <option value="member">Member</option>
+                    <option value="presenter">Presenter</option>
+                  </select>
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Maximum Uses (optional)
+                  </label>
+                  <input
+                    type="number"
+                    value={newInvite.max_uses || ''}
+                    onChange={(e) => setNewInvite({ ...newInvite, max_uses: e.target.value ? parseInt(e.target.value) : null })}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    placeholder="Unlimited"
+                    min="1"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Expires In (days, optional)
+                  </label>
+                  <input
+                    type="number"
+                    value={newInvite.expires_in_days || ''}
+                    onChange={(e) => setNewInvite({ ...newInvite, expires_in_days: e.target.value ? parseInt(e.target.value) : null })}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    placeholder="Never expires"
+                    min="1"
+                  />
+                </div>
+                <div className="flex space-x-3 pt-4">
+                  <button
+                    onClick={closeInviteModal}
+                    className="flex-1 px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors font-medium"
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    onClick={createInvitation}
+                    className="flex-1 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+                  >
+                    Create Link
+                  </button>
+                </div>
               </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Maximum Uses (optional)
-                </label>
-                <input
-                  type="number"
-                  value={newInvite.max_uses || ''}
-                  onChange={(e) => setNewInvite({ ...newInvite, max_uses: e.target.value ? parseInt(e.target.value) : null })}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder="Unlimited"
-                  min="1"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Expires In (days, optional)
-                </label>
-                <input
-                  type="number"
-                  value={newInvite.expires_in_days || ''}
-                  onChange={(e) => setNewInvite({ ...newInvite, expires_in_days: e.target.value ? parseInt(e.target.value) : null })}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder="Never expires"
-                  min="1"
-                />
-              </div>
-              <div className="flex space-x-3 pt-4">
+            ) : (
+              <div className="space-y-4">
+                <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                  <div className="flex items-center gap-2 mb-2">
+                    <Check className="w-5 h-5 text-green-600" />
+                    <span className="text-sm font-medium text-green-900">Invitation link created successfully!</span>
+                  </div>
+                  <p className="text-sm text-green-700">Share this link with people you want to invite to your circle.</p>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Invitation Link
+                  </label>
+                  <div className="flex gap-2">
+                    <input
+                      type="text"
+                      value={createdInviteLink}
+                      readOnly
+                      className="flex-1 px-3 py-2 bg-gray-50 border border-gray-300 rounded-lg text-sm font-mono"
+                    />
+                    <button
+                      onClick={copyCreatedLink}
+                      className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 flex items-center gap-2"
+                    >
+                      <Copy className="w-4 h-4" />
+                      Copy
+                    </button>
+                  </div>
+                </div>
+
                 <button
-                  onClick={() => setShowInviteModal(false)}
-                  className="flex-1 px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors font-medium"
+                  onClick={closeInviteModal}
+                  className="w-full px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors font-medium"
                 >
-                  Cancel
-                </button>
-                <button
-                  onClick={createInvitation}
-                  className="flex-1 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
-                >
-                  Create Link
+                  Done
                 </button>
               </div>
-            </div>
+            )}
           </div>
         </div>
       )}
@@ -682,6 +865,39 @@ export function CircleDetailView({ communityId, onBack, onCreateSession }: Circl
             loadCommunityData();
           }}
         />
+      )}
+
+      {showCreateSession && (
+        <CreateSessionModal
+          isOpen={showCreateSession}
+          onClose={() => setShowCreateSession(false)}
+          onSuccess={() => {
+            setShowCreateSession(false);
+            loadCommunityData();
+          }}
+          communityId={communityId}
+        />
+      )}
+
+      {showAssignPresenter && selectedSession && (
+        <AssignPresenterModal
+          isOpen={showAssignPresenter}
+          onClose={() => setShowAssignPresenter(false)}
+          onSuccess={() => {
+            setShowAssignPresenter(false);
+            loadCommunityData();
+          }}
+          sessionId={selectedSession.id}
+          communityId={communityId}
+        />
+      )}
+
+      {/* Copy to Clipboard Toast Notification */}
+      {showCopyToast && (
+        <div className="fixed top-4 right-4 bg-green-600 text-white px-6 py-3 rounded-lg shadow-lg flex items-center gap-2 animate-fade-in z-50">
+          <Check className="w-5 h-5" />
+          <span className="font-medium">Invitation link copied to clipboard!</span>
+        </div>
       )}
     </div>
   );

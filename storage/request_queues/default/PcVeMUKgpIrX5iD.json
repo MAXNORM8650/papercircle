@@ -1,9 +1,0 @@
-{
-	"id": "PcVeMUKgpIrX5iD",
-	"json": "{\"id\":\"PcVeMUKgpIrX5iD\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Kara%C3%A7ayl%C4%B1,+N+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Kara%C3%A7ayl%C4%B1%2C+N+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986916,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Kara%C3%A7ayl%C4%B1%2C+N+G&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Kara%C3%A7ayl%C4%B1,+N+G"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "D2dKoCZ7WPv4Brt",
-	"json": "{\"id\":\"D2dKoCZ7WPv4Brt\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Canbay,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Canbay%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087018423,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Canbay%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Canbay,+A"
-}

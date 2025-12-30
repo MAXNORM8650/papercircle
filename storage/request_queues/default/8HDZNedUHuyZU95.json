@@ -1,9 +1,0 @@
-{
-	"id": "8HDZNedUHuyZU95",
-	"json": "{\"id\":\"8HDZNedUHuyZU95\",\"url\":\"https://arxiv.org/search/hep-lat?searchtype=author&query=Ringer,+F\",\"uniqueKey\":\"https://arxiv.org/search/hep-lat?query=Ringer%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086993578,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-lat?query=Ringer%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/hep-lat?searchtype=author&query=Ringer,+F"
-}

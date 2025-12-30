@@ -1,9 +1,0 @@
-{
-	"id": "JifDmmEfn9xeIin",
-	"json": "{\"id\":\"JifDmmEfn9xeIin\",\"url\":\"https://arxiv.org/archive/nlin\",\"loadedUrl\":\"https://arxiv.org/archive/nlin\",\"uniqueKey\":\"https://arxiv.org/archive/nlin\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:56.105Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/archive/nlin",
-	"url": "https://arxiv.org/archive/nlin"
-}

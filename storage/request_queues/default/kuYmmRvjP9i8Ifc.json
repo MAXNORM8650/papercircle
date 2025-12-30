@@ -1,9 +1,0 @@
-{
-	"id": "kuYmmRvjP9i8Ifc",
-	"json": "{\"id\":\"kuYmmRvjP9i8Ifc\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Hwang,+W\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Hwang%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012755,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Hwang%2C+W&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Hwang,+W"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "aeoKs1hIxvvp1A8",
-	"json": "{\"id\":\"aeoKs1hIxvvp1A8\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Mj%C3%B8s,+A+H\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Mj%C3%B8s%2C+A+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997804,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Mj%C3%B8s%2C+A+H&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Mj%C3%B8s,+A+H"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "OuWXllM7grwGvAC",
-	"json": "{\"id\":\"OuWXllM7grwGvAC\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Fedorov,+P+N\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Fedorov%2C+P+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986620,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Fedorov%2C+P+N&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Fedorov,+P+N"
-}

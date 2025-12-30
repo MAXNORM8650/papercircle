@@ -1,9 +1,0 @@
-{
-	"id": "8rWRx7bmVM3hUQI",
-	"json": "{\"id\":\"8rWRx7bmVM3hUQI\",\"url\":\"https://arxiv.org/search/q-fin?searchtype=author&query=Banarjee,+A\",\"uniqueKey\":\"https://arxiv.org/search/q-fin?query=Banarjee%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021661,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-fin?query=Banarjee%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/q-fin?searchtype=author&query=Banarjee,+A"
-}

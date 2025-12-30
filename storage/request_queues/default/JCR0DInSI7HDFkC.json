@@ -1,9 +1,0 @@
-{
-	"id": "JCR0DInSI7HDFkC",
-	"json": "{\"id\":\"JCR0DInSI7HDFkC\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Fazli,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Fazli%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015778,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Fazli%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Fazli,+P"
-}

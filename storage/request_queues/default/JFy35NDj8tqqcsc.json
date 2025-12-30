@@ -1,9 +1,0 @@
-{
-	"id": "JFy35NDj8tqqcsc",
-	"json": "{\"id\":\"JFy35NDj8tqqcsc\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Mastrovito,+P\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Mastrovito%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991228,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Mastrovito%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Mastrovito,+P"
-}

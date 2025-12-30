@@ -1,9 +1,0 @@
-{
-	"id": "Mw52j9DEUPqMZHd",
-	"json": "{\"id\":\"Mw52j9DEUPqMZHd\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Fukuda,+M\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Fukuda%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002573,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Fukuda%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Fukuda,+M"
-}

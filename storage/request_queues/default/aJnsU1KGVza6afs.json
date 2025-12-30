@@ -1,9 +1,0 @@
-{
-	"id": "aJnsU1KGVza6afs",
-	"json": "{\"id\":\"aJnsU1KGVza6afs\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Donzaud,+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Donzaud%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988236,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Donzaud%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Donzaud,+C"
-}

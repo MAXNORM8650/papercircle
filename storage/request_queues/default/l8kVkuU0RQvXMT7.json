@@ -1,9 +1,0 @@
-{
-	"id": "l8kVkuU0RQvXMT7",
-	"json": "{\"id\":\"l8kVkuU0RQvXMT7\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Motome,+Y\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Motome%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989473,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Motome%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Motome,+Y"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "0EeBVy2TendX63z",
-	"json": "{\"id\":\"0EeBVy2TendX63z\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=M%C3%BCller,+K\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=M%C3%BCller%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988275,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=M%C3%BCller%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=M%C3%BCller,+K"
-}

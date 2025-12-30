@@ -1,9 +1,0 @@
-{
-	"id": "Q2l4ibunPl9lsDe",
-	"json": "{\"id\":\"Q2l4ibunPl9lsDe\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Saraswathibhatla,+A\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Saraswathibhatla%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086990794,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Saraswathibhatla%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Saraswathibhatla,+A"
-}

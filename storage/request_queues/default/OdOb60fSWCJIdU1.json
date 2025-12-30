@@ -1,9 +1,0 @@
-{
-	"id": "OdOb60fSWCJIdU1",
-	"json": "{\"id\":\"OdOb60fSWCJIdU1\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Xiong,+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Xiong%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087029541,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Xiong%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Xiong,+C"
-}

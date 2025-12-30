@@ -1,9 +1,0 @@
-{
-	"id": "BWsUFAvV8UTDbdb",
-	"json": "{\"id\":\"BWsUFAvV8UTDbdb\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=J%C3%A4ger,+W+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=J%C3%A4ger%2C+W+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087024038,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=J%C3%A4ger%2C+W+S&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=J%C3%A4ger,+W+S"
-}

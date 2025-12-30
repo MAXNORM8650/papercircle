@@ -1,9 +1,0 @@
-{
-	"id": "vCIi0GEQCoCQS71",
-	"json": "{\"id\":\"vCIi0GEQCoCQS71\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=F%C3%BCllner,+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=F%C3%BCllner%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087024268,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=F%C3%BCllner%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=F%C3%BCllner,+C"
-}

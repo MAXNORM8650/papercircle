@@ -1,9 +1,0 @@
-{
-	"id": "fUHrrsbeVJ3Ggqr",
-	"json": "{\"id\":\"fUHrrsbeVJ3Ggqr\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Alam,+M+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Alam%2C+M+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087017212,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Alam%2C+M+J&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Alam,+M+J"
-}

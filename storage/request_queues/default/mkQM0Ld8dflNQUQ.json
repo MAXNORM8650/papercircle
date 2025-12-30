@@ -1,9 +1,0 @@
-{
-	"id": "mkQM0Ld8dflNQUQ",
-	"json": "{\"id\":\"mkQM0Ld8dflNQUQ\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Cibinetto,+G\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Cibinetto%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992906,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Cibinetto%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Cibinetto,+G"
-}

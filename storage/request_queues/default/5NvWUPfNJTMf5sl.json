@@ -1,9 +1,0 @@
-{
-	"id": "5NvWUPfNJTMf5sl",
-	"json": "{\"id\":\"5NvWUPfNJTMf5sl\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Gil,+J+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Gil%2C+J+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999548,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Gil%2C+J+J&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Gil,+J+J"
-}

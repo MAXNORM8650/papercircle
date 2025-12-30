@@ -1,9 +1,0 @@
-{
-	"id": "NfH3bwCIdh7nfGZ",
-	"json": "{\"id\":\"NfH3bwCIdh7nfGZ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Poro,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Poro%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986543,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Poro%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Poro,+A"
-}

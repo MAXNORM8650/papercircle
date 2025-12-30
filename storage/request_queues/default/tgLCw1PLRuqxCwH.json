@@ -1,9 +1,0 @@
-{
-	"id": "tgLCw1PLRuqxCwH",
-	"json": "{\"id\":\"tgLCw1PLRuqxCwH\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Pirmoradian,+R\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Pirmoradian%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994685,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Pirmoradian%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Pirmoradian,+R"
-}

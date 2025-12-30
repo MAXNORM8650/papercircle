@@ -1,9 +1,0 @@
-{
-	"id": "avbyS8D4nvPLQ5C",
-	"json": "{\"id\":\"avbyS8D4nvPLQ5C\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Bensmail,+J\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Bensmail%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087011066,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Bensmail%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Bensmail,+J"
-}

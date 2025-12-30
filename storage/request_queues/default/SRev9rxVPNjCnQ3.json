@@ -1,9 +1,0 @@
-{
-	"id": "SRev9rxVPNjCnQ3",
-	"json": "{\"id\":\"SRev9rxVPNjCnQ3\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Sotiras,+A\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Sotiras%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025246,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Sotiras%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Sotiras,+A"
-}

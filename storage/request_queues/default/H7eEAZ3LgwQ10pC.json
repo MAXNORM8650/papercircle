@@ -1,9 +1,0 @@
-{
-	"id": "H7eEAZ3LgwQ10pC",
-	"json": "{\"id\":\"H7eEAZ3LgwQ10pC\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Korol,+A+V\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Korol%2C+A+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999627,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Korol%2C+A+V&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Korol,+A+V"
-}

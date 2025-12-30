@@ -1,9 +1,0 @@
-{
-	"id": "c4KGKMMt3kaEcmt",
-	"json": "{\"id\":\"c4KGKMMt3kaEcmt\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Serino,+M\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Serino%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994597,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-th?query=Serino%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Serino,+M"
-}

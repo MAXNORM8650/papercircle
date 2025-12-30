@@ -1,9 +1,0 @@
-{
-	"id": "v86x3wWDvRyt92m",
-	"json": "{\"id\":\"v86x3wWDvRyt92m\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Archilli,+F\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Archilli%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992842,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Archilli%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Archilli,+F"
-}

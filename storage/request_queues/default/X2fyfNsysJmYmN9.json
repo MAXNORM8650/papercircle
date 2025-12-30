@@ -1,9 +1,0 @@
-{
-	"id": "X2fyfNsysJmYmN9",
-	"json": "{\"id\":\"X2fyfNsysJmYmN9\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Naik,+H+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Naik%2C+H+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087011710,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Naik%2C+H+M&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Naik,+H+M"
-}

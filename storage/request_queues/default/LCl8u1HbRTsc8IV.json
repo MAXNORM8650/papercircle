@@ -1,9 +1,0 @@
-{
-	"id": "LCl8u1HbRTsc8IV",
-	"json": "{\"id\":\"LCl8u1HbRTsc8IV\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Kokkinakis,+E+T\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Kokkinakis%2C+E+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989419,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Kokkinakis%2C+E+T&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Kokkinakis,+E+T"
-}

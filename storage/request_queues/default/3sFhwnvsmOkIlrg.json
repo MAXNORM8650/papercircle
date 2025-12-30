@@ -1,9 +1,0 @@
-{
-	"id": "3sFhwnvsmOkIlrg",
-	"json": "{\"id\":\"3sFhwnvsmOkIlrg\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Boullon,+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Boullon%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992492,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Boullon%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Boullon,+R"
-}

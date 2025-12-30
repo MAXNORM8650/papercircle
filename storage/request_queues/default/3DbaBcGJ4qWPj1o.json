@@ -1,9 +1,0 @@
-{
-	"id": "3DbaBcGJ4qWPj1o",
-	"json": "{\"id\":\"3DbaBcGJ4qWPj1o\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Timgren,+O\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Timgren%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000248,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Timgren%2C+O&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Timgren,+O"
-}

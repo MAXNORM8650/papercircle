@@ -1,9 +1,0 @@
-{
-	"id": "7OmcQF87nXWTTfp",
-	"json": "{\"id\":\"7OmcQF87nXWTTfp\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=K%C3%B6hler,+J\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=K%C3%B6hler%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087024315,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=K%C3%B6hler%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=K%C3%B6hler,+J"
-}

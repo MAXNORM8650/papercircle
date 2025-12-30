@@ -1,9 +1,0 @@
-{
-	"id": "teyO3W3P5KFgSKm",
-	"json": "{\"id\":\"teyO3W3P5KFgSKm\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Epifanio,+I\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Epifanio%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087024010,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Epifanio%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Epifanio,+I"
-}

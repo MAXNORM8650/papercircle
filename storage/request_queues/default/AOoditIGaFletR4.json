@@ -1,9 +1,0 @@
-{
-	"id": "AOoditIGaFletR4",
-	"json": "{\"id\":\"AOoditIGaFletR4\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Carpentier,+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Carpentier%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016395,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Carpentier%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Carpentier,+J"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "hd8abqEy6Lp41DP",
-	"json": "{\"id\":\"hd8abqEy6Lp41DP\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Herbschleb,+E+D\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Herbschleb%2C+E+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989910,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Herbschleb%2C+E+D&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Herbschleb,+E+D"
-}

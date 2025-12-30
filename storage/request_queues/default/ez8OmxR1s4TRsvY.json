@@ -1,9 +1,0 @@
-{
-	"id": "ez8OmxR1s4TRsvY",
-	"json": "{\"id\":\"ez8OmxR1s4TRsvY\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Ahmed,+B+S\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Ahmed%2C+B+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019324,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Ahmed%2C+B+S&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Ahmed,+B+S"
-}

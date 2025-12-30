@@ -1,9 +1,0 @@
-{
-	"id": "norurQPUE7tmKYH",
-	"json": "{\"id\":\"norurQPUE7tmKYH\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=N%C3%B8rgaard-Nielsen%2C+H+U\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=N%C3%B8rgaard-Nielsen%2C+H+U&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087060093,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=N%C3%B8rgaard-Nielsen%2C+H+U&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=N%C3%B8rgaard-Nielsen%2C+H+U"
-}

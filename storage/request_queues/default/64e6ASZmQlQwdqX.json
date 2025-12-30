@@ -1,9 +1,0 @@
-{
-	"id": "64e6ASZmQlQwdqX",
-	"json": "{\"id\":\"64e6ASZmQlQwdqX\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Dru%C5%BEeta,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Dru%C5%BEeta%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087011967,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Dru%C5%BEeta%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Dru%C5%BEeta,+S"
-}

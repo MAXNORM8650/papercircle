@@ -1,9 +1,0 @@
-{
-	"id": "nyVse5vcB8L6hVW",
-	"json": "{\"id\":\"nyVse5vcB8L6hVW\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Jimenez,+J+L\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Jimenez%2C+J+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086990303,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Jimenez%2C+J+L&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Jimenez,+J+L"
-}

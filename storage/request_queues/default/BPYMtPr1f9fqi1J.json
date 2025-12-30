@@ -1,9 +1,0 @@
-{
-	"id": "BPYMtPr1f9fqi1J",
-	"json": "{\"id\":\"BPYMtPr1f9fqi1J\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Weiss,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Weiss%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009112,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Weiss%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Weiss,+A"
-}

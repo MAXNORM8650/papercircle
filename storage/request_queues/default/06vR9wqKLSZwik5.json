@@ -1,9 +1,0 @@
-{
-	"id": "06vR9wqKLSZwik5",
-	"json": "{\"id\":\"06vR9wqKLSZwik5\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Adamska,+Z\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Adamska%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989149,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Adamska%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Adamska,+Z"
-}

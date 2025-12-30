@@ -1,9 +1,0 @@
-{
-	"id": "ExMsSBp3R6ae0qh",
-	"json": "{\"id\":\"ExMsSBp3R6ae0qh\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Spina%2C+B\",\"uniqueKey\":\"https://arxiv.org/search?query=Spina%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087059707,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Spina%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Spina%2C+B"
-}

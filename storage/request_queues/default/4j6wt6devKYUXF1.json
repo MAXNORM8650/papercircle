@@ -1,9 +1,0 @@
-{
-	"id": "4j6wt6devKYUXF1",
-	"json": "{\"id\":\"4j6wt6devKYUXF1\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Pizzirusso,+O\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Pizzirusso%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992516,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Pizzirusso%2C+O&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Pizzirusso,+O"
-}

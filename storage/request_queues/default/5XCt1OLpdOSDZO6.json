@@ -1,9 +1,0 @@
-{
-	"id": "5XCt1OLpdOSDZO6",
-	"json": "{\"id\":\"5XCt1OLpdOSDZO6\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Zanetti,+M\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Zanetti%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087017948,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Zanetti%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Zanetti,+M"
-}

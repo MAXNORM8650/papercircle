@@ -1,9 +1,0 @@
-{
-	"id": "NWPSNzjJHZD2GH5",
-	"json": "{\"id\":\"NWPSNzjJHZD2GH5\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Vesel%C3%BD,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Vesel%C3%BD%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087013063,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Vesel%C3%BD%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Vesel%C3%BD,+P"
-}

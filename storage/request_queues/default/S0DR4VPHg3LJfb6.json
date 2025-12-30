@@ -1,9 +1,0 @@
-{
-	"id": "S0DR4VPHg3LJfb6",
-	"json": "{\"id\":\"S0DR4VPHg3LJfb6\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Oelsner,+G\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Oelsner%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991169,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Oelsner%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Oelsner,+G"
-}

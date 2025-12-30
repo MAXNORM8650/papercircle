@@ -1,9 +1,0 @@
-{
-	"id": "20exY8jffNtmEEV",
-	"json": "{\"id\":\"20exY8jffNtmEEV\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Lupsasca%2C+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Lupsasca%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087066878,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Lupsasca%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Lupsasca%2C+A"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "QY5vGouL7soYUrH",
-	"json": "{\"id\":\"QY5vGouL7soYUrH\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Oesch,+P+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Oesch%2C+P+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988233,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Oesch%2C+P+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Oesch,+P+A"
-}

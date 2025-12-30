@@ -1,9 +1,0 @@
-{
-	"id": "Ujm54n3KLYK6ncd",
-	"json": "{\"id\":\"Ujm54n3KLYK6ncd\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Drouhin,+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Drouhin%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986721,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Drouhin%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Drouhin,+D"
-}

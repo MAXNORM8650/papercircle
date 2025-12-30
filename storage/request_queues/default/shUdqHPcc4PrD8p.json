@@ -1,9 +1,0 @@
-{
-	"id": "shUdqHPcc4PrD8p",
-	"json": "{\"id\":\"shUdqHPcc4PrD8p\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Hwang,+T+S\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Hwang%2C+T+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023183,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Hwang%2C+T+S&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Hwang,+T+S"
-}

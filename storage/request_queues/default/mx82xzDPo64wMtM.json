@@ -1,9 +1,0 @@
-{
-	"id": "mx82xzDPo64wMtM",
-	"json": "{\"id\":\"mx82xzDPo64wMtM\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ngo,+L+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ngo%2C+L+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012020,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Ngo%2C+L+B&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ngo,+L+B"
-}

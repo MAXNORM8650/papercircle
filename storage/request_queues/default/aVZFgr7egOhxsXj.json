@@ -1,9 +1,0 @@
-{
-	"id": "aVZFgr7egOhxsXj",
-	"json": "{\"id\":\"aVZFgr7egOhxsXj\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Yevarouskaya,+U\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Yevarouskaya%2C+U&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992529,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Yevarouskaya%2C+U&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Yevarouskaya,+U"
-}

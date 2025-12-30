@@ -1,9 +1,0 @@
-{
-	"id": "oAy1aBXJB15t0XF",
-	"json": "{\"id\":\"oAy1aBXJB15t0XF\",\"url\":\"https://arxiv.org/list/physics.gen-ph/current\",\"uniqueKey\":\"https://arxiv.org/list/physics.gen-ph/current\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086998780,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/physics.gen-ph/current",
-	"url": "https://arxiv.org/list/physics.gen-ph/current"
-}

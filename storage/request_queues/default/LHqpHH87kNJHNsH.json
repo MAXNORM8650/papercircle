@@ -1,9 +1,0 @@
-{
-	"id": "LHqpHH87kNJHNsH",
-	"json": "{\"id\":\"LHqpHH87kNJHNsH\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Olsen,+W+E\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Olsen%2C+W+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007398,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Olsen%2C+W+E&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Olsen,+W+E"
-}

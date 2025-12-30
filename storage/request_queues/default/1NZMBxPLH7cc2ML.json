@@ -1,9 +1,0 @@
-{
-	"id": "1NZMBxPLH7cc2ML",
-	"json": "{\"id\":\"1NZMBxPLH7cc2ML\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bharali%2C+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Bharali%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087060749,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Bharali%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Bharali%2C+P"
-}

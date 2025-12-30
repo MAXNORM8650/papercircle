@@ -1,9 +1,0 @@
-{
-	"id": "Z5VSpQY5aXQtMzg",
-	"json": "{\"id\":\"Z5VSpQY5aXQtMzg\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Germain,+F+G\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Germain%2C+F+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025490,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Germain%2C+F+G&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Germain,+F+G"
-}

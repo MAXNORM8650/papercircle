@@ -1,9 +1,0 @@
-{
-	"id": "Uibxm8SHA945kyk",
-	"json": "{\"id\":\"Uibxm8SHA945kyk\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Biolchini,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Biolchini%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992869,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Biolchini%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Biolchini,+A"
-}

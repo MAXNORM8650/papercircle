@@ -1,9 +1,0 @@
-{
-	"id": "d3fp3uC9TFqHdBQ",
-	"json": "{\"id\":\"d3fp3uC9TFqHdBQ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Branchini,+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Branchini%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988250,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Branchini%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Branchini,+E"
-}

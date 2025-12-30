@@ -1,9 +1,0 @@
-{
-	"id": "PZx7TkfRL83O7dZ",
-	"json": "{\"id\":\"PZx7TkfRL83O7dZ\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Mitsuhashi,+R\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Mitsuhashi%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023163,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Mitsuhashi%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Mitsuhashi,+R"
-}

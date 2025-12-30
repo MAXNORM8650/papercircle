@@ -1,9 +1,0 @@
-{
-	"id": "0s33muQIQ0HxyDT",
-	"json": "{\"id\":\"0s33muQIQ0HxyDT\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Wagner,+M+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Wagner%2C+M+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012385,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Wagner%2C+M+H&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Wagner,+M+H"
-}

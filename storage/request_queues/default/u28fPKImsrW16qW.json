@@ -1,9 +1,0 @@
-{
-	"id": "u28fPKImsrW16qW",
-	"json": "{\"id\":\"u28fPKImsrW16qW\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Pham,+A+D\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Pham%2C+A+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019312,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Pham%2C+A+D&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Pham,+A+D"
-}

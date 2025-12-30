@@ -1,9 +1,0 @@
-{
-	"id": "0Oeji0JSuYC9miC",
-	"json": "{\"id\":\"0Oeji0JSuYC9miC\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Abarghoei,+M+B\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Abarghoei%2C+M+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005863,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Abarghoei%2C+M+B&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Abarghoei,+M+B"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "EWZWcTSO0Ail2Hl",
-	"json": "{\"id\":\"EWZWcTSO0Ail2Hl\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Birkenfeld,+T\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Birkenfeld%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002259,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Birkenfeld%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Birkenfeld,+T"
-}

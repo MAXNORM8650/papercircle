@@ -1,9 +1,0 @@
-{
-	"id": "NLev0g4IgmlLReH",
-	"json": "{\"id\":\"NLev0g4IgmlLReH\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Gonz%C3%A1lez-Romero,+E+M\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Gonz%C3%A1lez-Romero%2C+E+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997797,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Gonz%C3%A1lez-Romero%2C+E+M&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Gonz%C3%A1lez-Romero,+E+M"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "LOkjzcRS5HhwKqX",
-	"json": "{\"id\":\"LOkjzcRS5HhwKqX\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Miranowicz,+A\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Miranowicz%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087003770,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Miranowicz%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Miranowicz,+A"
-}

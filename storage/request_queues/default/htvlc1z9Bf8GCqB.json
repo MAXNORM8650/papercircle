@@ -1,9 +1,0 @@
-{
-	"id": "htvlc1z9Bf8GCqB",
-	"json": "{\"id\":\"htvlc1z9Bf8GCqB\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Klinefelter,+Z\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Klinefelter%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010278,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Klinefelter%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Klinefelter,+Z"
-}

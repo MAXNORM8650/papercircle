@@ -1,9 +1,0 @@
-{
-	"id": "PMOJBxKN0wqgX7w",
-	"json": "{\"id\":\"PMOJBxKN0wqgX7w\",\"url\":\"https://arxiv.org/list/math.RA/current\",\"uniqueKey\":\"https://arxiv.org/list/math.RA/current\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087004414,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/math.RA/current",
-	"url": "https://arxiv.org/list/math.RA/current"
-}

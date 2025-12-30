@@ -1,9 +1,0 @@
-{
-	"id": "n02ciTiOaA0Vx7J",
-	"json": "{\"id\":\"n02ciTiOaA0Vx7J\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bowman%2C+D+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Bowman%2C+D+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087073622,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Bowman%2C+D+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Bowman%2C+D+M"
-}

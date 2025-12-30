@@ -1,9 +1,0 @@
-{
-	"id": "Kz5FPLSTOdN7gG9",
-	"json": "{\"id\":\"Kz5FPLSTOdN7gG9\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Lee,+J\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Lee%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988322,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Lee%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Lee,+J"
-}

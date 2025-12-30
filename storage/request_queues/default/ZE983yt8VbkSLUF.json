@@ -1,9 +1,0 @@
-{
-	"id": "ZE983yt8VbkSLUF",
-	"json": "{\"id\":\"ZE983yt8VbkSLUF\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=GuoChen\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=GuoChen&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010860,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=GuoChen&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=GuoChen"
-}

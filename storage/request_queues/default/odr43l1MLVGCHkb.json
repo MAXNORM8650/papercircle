@@ -1,9 +1,0 @@
-{
-	"id": "odr43l1MLVGCHkb",
-	"json": "{\"id\":\"odr43l1MLVGCHkb\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Costa%2C+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Costa%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087040022,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Costa%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Costa%2C+E"
-}

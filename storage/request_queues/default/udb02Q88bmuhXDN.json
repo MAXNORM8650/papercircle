@@ -1,9 +1,0 @@
-{
-	"id": "udb02Q88bmuhXDN",
-	"json": "{\"id\":\"udb02Q88bmuhXDN\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Shnir,+Y\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Shnir%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994257,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-th?query=Shnir%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Shnir,+Y"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "1SwSdpgeA4vBrJP",
-	"json": "{\"id\":\"1SwSdpgeA4vBrJP\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Marcano,+M+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Marcano%2C+M+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988037,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Marcano%2C+M+P&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Marcano,+M+P"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "OMdw5RtFMGo5kuC",
-	"json": "{\"id\":\"OMdw5RtFMGo5kuC\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Warfield,+S+K\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Warfield%2C+S+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025616,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Warfield%2C+S+K&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Warfield,+S+K"
-}

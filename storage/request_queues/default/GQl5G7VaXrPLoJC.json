@@ -1,9 +1,0 @@
-{
-	"id": "GQl5G7VaXrPLoJC",
-	"json": "{\"id\":\"GQl5G7VaXrPLoJC\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Loni,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Loni%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987027,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Loni%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Loni,+A"
-}

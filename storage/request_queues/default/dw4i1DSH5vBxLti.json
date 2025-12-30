@@ -1,9 +1,0 @@
-{
-	"id": "dw4i1DSH5vBxLti",
-	"json": "{\"id\":\"dw4i1DSH5vBxLti\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Duan,+B\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Duan%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988900,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Duan%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Duan,+B"
-}

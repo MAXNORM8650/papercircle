@@ -1,9 +1,0 @@
-{
-	"id": "P5CKP8C2myfHGHL",
-	"json": "{\"id\":\"P5CKP8C2myfHGHL\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Jiao,+H\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Jiao%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009410,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Jiao%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Jiao,+H"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "VEMhA120yu0FvFD",
-	"json": "{\"id\":\"VEMhA120yu0FvFD\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Meagher,+K\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Meagher%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006139,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Meagher%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Meagher,+K"
-}

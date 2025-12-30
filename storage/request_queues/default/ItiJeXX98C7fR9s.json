@@ -1,9 +1,0 @@
-{
-	"id": "ItiJeXX98C7fR9s",
-	"json": "{\"id\":\"ItiJeXX98C7fR9s\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Tudor,+C+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Tudor%2C+C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009078,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Tudor%2C+C+A&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Tudor,+C+A"
-}

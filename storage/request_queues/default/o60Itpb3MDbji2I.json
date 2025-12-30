@@ -1,9 +1,0 @@
-{
-	"id": "o60Itpb3MDbji2I",
-	"json": "{\"id\":\"o60Itpb3MDbji2I\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Gonz%C3%A1lez-L%C3%B3pez,+A\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Gonz%C3%A1lez-L%C3%B3pez%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086995500,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Gonz%C3%A1lez-L%C3%B3pez%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Gonz%C3%A1lez-L%C3%B3pez,+A"
-}

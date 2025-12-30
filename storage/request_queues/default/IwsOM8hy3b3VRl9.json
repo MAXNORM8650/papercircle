@@ -1,9 +1,0 @@
-{
-	"id": "IwsOM8hy3b3VRl9",
-	"json": "{\"id\":\"IwsOM8hy3b3VRl9\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Aloisi%2C+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Aloisi%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087078044,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Aloisi%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Aloisi%2C+A"
-}

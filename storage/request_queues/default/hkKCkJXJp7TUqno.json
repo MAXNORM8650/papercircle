@@ -1,9 +1,0 @@
-{
-	"id": "hkKCkJXJp7TUqno",
-	"json": "{\"id\":\"hkKCkJXJp7TUqno\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Yin,+F\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Yin%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999419,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Yin%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Yin,+F"
-}

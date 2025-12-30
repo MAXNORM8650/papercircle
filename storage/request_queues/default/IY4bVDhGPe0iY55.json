@@ -1,9 +1,0 @@
-{
-	"id": "IY4bVDhGPe0iY55",
-	"json": "{\"id\":\"IY4bVDhGPe0iY55\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=van+der+Zant,+H+S+J\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=van+der+Zant%2C+H+S+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989855,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=van+der+Zant%2C+H+S+J&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=van+der+Zant,+H+S+J"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "Aozob1AZMHBGK1D",
-	"json": "{\"id\":\"Aozob1AZMHBGK1D\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Noel,+J+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Noel%2C+J+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007627,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Noel%2C+J+A&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Noel,+J+A"
-}

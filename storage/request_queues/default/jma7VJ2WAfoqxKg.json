@@ -1,9 +1,0 @@
-{
-	"id": "jma7VJ2WAfoqxKg",
-	"json": "{\"id\":\"jma7VJ2WAfoqxKg\",\"url\":\"https://arxiv.org/list/cs.PF/new\",\"uniqueKey\":\"https://arxiv.org/list/cs.PF/new\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087017934,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/cs.PF/new",
-	"url": "https://arxiv.org/list/cs.PF/new"
-}

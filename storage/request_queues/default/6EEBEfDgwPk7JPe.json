@@ -1,9 +1,0 @@
-{
-	"id": "6EEBEfDgwPk7JPe",
-	"json": "{\"id\":\"6EEBEfDgwPk7JPe\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Rist,+F\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Rist%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087004550,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Rist%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Rist,+F"
-}

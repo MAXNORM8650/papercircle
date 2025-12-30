@@ -1,9 +1,0 @@
-{
-	"id": "mYdwn9Gj5gbMhXm",
-	"json": "{\"id\":\"mYdwn9Gj5gbMhXm\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Henrot,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Henrot%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087008551,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Henrot%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Henrot,+A"
-}

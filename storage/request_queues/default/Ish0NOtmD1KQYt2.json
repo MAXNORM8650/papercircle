@@ -1,9 +1,0 @@
-{
-	"id": "Ish0NOtmD1KQYt2",
-	"json": "{\"id\":\"Ish0NOtmD1KQYt2\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Anderson,+J+K\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Anderson%2C+J+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999462,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Anderson%2C+J+K&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Anderson,+J+K"
-}

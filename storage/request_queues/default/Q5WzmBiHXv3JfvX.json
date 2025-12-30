@@ -1,9 +1,0 @@
-{
-	"id": "Q5WzmBiHXv3JfvX",
-	"json": "{\"id\":\"Q5WzmBiHXv3JfvX\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Marino,+J\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Marino%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989318,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Marino%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Marino,+J"
-}

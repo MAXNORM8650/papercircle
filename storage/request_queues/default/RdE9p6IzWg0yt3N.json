@@ -1,9 +1,0 @@
-{
-	"id": "RdE9p6IzWg0yt3N",
-	"json": "{\"id\":\"RdE9p6IzWg0yt3N\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Yi,+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Yi%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986601,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Yi%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Yi,+S"
-}

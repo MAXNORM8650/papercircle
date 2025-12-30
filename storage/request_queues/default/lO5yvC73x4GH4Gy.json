@@ -1,9 +1,0 @@
-{
-	"id": "lO5yvC73x4GH4Gy",
-	"json": "{\"id\":\"lO5yvC73x4GH4Gy\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Verstraete%2C+L\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Verstraete%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087085783,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Verstraete%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Verstraete%2C+L"
-}

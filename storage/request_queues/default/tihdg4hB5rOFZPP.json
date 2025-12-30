@@ -1,9 +1,0 @@
-{
-	"id": "tihdg4hB5rOFZPP",
-	"json": "{\"id\":\"tihdg4hB5rOFZPP\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Shelton,+C+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Shelton%2C+C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016421,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Shelton%2C+C+R&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Shelton,+C+R"
-}

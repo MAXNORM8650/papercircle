@@ -1,9 +1,0 @@
-{
-	"id": "bLuFnG6XUKwu9RL",
-	"json": "{\"id\":\"bLuFnG6XUKwu9RL\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Rychert,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Rychert%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010901,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Rychert%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Rychert,+A"
-}

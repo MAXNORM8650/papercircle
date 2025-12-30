@@ -1,9 +1,0 @@
-{
-	"id": "CLhwnXEk6eyoQH3",
-	"json": "{\"id\":\"CLhwnXEk6eyoQH3\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Canneori,+G+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Canneori%2C+G+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006894,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Canneori%2C+G+M&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Canneori,+G+M"
-}

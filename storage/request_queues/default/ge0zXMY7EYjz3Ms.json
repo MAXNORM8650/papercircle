@@ -1,9 +1,0 @@
-{
-	"id": "ge0zXMY7EYjz3Ms",
-	"json": "{\"id\":\"ge0zXMY7EYjz3Ms\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Tan,+M\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Tan%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006897,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-th?query=Tan%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Tan,+M"
-}

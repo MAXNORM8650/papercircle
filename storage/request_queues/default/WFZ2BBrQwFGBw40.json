@@ -1,9 +1,0 @@
-{
-	"id": "WFZ2BBrQwFGBw40",
-	"json": "{\"id\":\"WFZ2BBrQwFGBw40\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Terrizzano,+I\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Terrizzano%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014336,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Terrizzano%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Terrizzano,+I"
-}

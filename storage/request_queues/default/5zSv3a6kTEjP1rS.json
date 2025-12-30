@@ -1,9 +1,0 @@
-{
-	"id": "5zSv3a6kTEjP1rS",
-	"json": "{\"id\":\"5zSv3a6kTEjP1rS\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kulmon,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kulmon%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087017306,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Kulmon%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kulmon,+P"
-}

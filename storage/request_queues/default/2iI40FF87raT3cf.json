@@ -1,9 +1,0 @@
-{
-	"id": "2iI40FF87raT3cf",
-	"json": "{\"id\":\"2iI40FF87raT3cf\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Yu,+J\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Yu%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025243,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Yu%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Yu,+J"
-}

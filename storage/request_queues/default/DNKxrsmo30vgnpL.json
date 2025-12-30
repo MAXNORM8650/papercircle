@@ -1,9 +1,0 @@
-{
-	"id": "DNKxrsmo30vgnpL",
-	"json": "{\"id\":\"DNKxrsmo30vgnpL\",\"url\":\"https://arxiv.org/list/math.ST/recent?skip=0&show=50\",\"uniqueKey\":\"https://arxiv.org/list/math.ST/recent?show=50&skip=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009675,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/math.ST/recent?show=50&skip=0",
-	"url": "https://arxiv.org/list/math.ST/recent?skip=0&show=50"
-}

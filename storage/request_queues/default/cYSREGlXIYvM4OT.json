@@ -1,9 +1,0 @@
-{
-	"id": "cYSREGlXIYvM4OT",
-	"json": "{\"id\":\"cYSREGlXIYvM4OT\",\"url\":\"https://arxiv.org/year/hep-ph/2016\",\"uniqueKey\":\"https://arxiv.org/year/hep-ph/2016\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994168,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/year/hep-ph/2016",
-	"url": "https://arxiv.org/year/hep-ph/2016"
-}

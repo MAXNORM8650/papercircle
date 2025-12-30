@@ -1,9 +1,0 @@
-{
-	"id": "q9K7hfsFifPiXwM",
-	"json": "{\"id\":\"q9K7hfsFifPiXwM\",\"url\":\"https://arxiv.org/search/nucl-ex?searchtype=author&query=Das,+R\",\"uniqueKey\":\"https://arxiv.org/search/nucl-ex?query=Das%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997756,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-ex?query=Das%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-ex?searchtype=author&query=Das,+R"
-}

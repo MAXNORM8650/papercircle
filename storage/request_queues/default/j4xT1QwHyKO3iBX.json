@@ -1,9 +1,0 @@
-{
-	"id": "j4xT1QwHyKO3iBX",
-	"json": "{\"id\":\"j4xT1QwHyKO3iBX\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Cajica-Maceda,+L+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Cajica-Maceda%2C+L+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014084,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Cajica-Maceda%2C+L+B&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Cajica-Maceda,+L+B"
-}

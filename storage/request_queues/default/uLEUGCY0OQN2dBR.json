@@ -1,9 +1,0 @@
-{
-	"id": "uLEUGCY0OQN2dBR",
-	"json": "{\"id\":\"uLEUGCY0OQN2dBR\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Holz,+D+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Holz%2C+D+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087035650,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Holz%2C+D+E&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Holz,+D+E"
-}

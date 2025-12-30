@@ -1,9 +1,0 @@
-{
-	"id": "u9zCiV7CobD2uEP",
-	"json": "{\"id\":\"u9zCiV7CobD2uEP\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Ren,+Z\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Ren%2C+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989250,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Ren%2C+Z&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Ren,+Z"
-}

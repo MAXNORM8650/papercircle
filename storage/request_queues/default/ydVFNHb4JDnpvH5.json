@@ -1,9 +1,0 @@
-{
-	"id": "ydVFNHb4JDnpvH5",
-	"json": "{\"id\":\"ydVFNHb4JDnpvH5\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Wilde,+M+M\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Wilde%2C+M+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086995424,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Wilde%2C+M+M&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Wilde,+M+M"
-}

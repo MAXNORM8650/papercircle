@@ -1,9 +1,0 @@
-{
-	"id": "Fc8wjnObX3i3yXy",
-	"json": "{\"id\":\"Fc8wjnObX3i3yXy\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Stoliker,+D\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Stoliker%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019243,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Stoliker%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Stoliker,+D"
-}

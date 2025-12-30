@@ -1,9 +1,0 @@
-{
-	"id": "m2rSOaGnwUE7YlH",
-	"json": "{\"id\":\"m2rSOaGnwUE7YlH\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Beirne,+C\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Beirne%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087030914,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Beirne%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Beirne,+C"
-}

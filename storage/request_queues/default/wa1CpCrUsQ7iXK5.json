@@ -1,9 +1,0 @@
-{
-	"id": "wa1CpCrUsQ7iXK5",
-	"json": "{\"id\":\"wa1CpCrUsQ7iXK5\",\"url\":\"https://arxiv.org/search/nucl-th?searchtype=author&query=Schwenk,+A\",\"uniqueKey\":\"https://arxiv.org/search/nucl-th?query=Schwenk%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997831,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-th?query=Schwenk%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-th?searchtype=author&query=Schwenk,+A"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "AcGY09YZdfoPvco",
-	"json": "{\"id\":\"AcGY09YZdfoPvco\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Gabarra,+L\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Gabarra%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087035973,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Gabarra%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Gabarra,+L"
-}

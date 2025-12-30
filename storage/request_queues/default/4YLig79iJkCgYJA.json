@@ -1,9 +1,0 @@
-{
-	"id": "4YLig79iJkCgYJA",
-	"json": "{\"id\":\"4YLig79iJkCgYJA\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Prumbaum,+N\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Prumbaum%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999589,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Prumbaum%2C+N&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Prumbaum,+N"
-}

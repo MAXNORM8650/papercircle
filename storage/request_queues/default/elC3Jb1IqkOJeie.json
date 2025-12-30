@@ -1,9 +1,0 @@
-{
-	"id": "elC3Jb1IqkOJeie",
-	"json": "{\"id\":\"elC3Jb1IqkOJeie\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Lammer%2C+H\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Lammer%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087075128,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Lammer%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Lammer%2C+H"
-}

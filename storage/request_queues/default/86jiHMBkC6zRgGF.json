@@ -1,9 +1,0 @@
-{
-	"id": "86jiHMBkC6zRgGF",
-	"json": "{\"id\":\"86jiHMBkC6zRgGF\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Sorai,+K\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Sorai%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987102,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Sorai%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Sorai,+K"
-}

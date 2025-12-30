@@ -1,9 +1,0 @@
-{
-	"id": "KH0VanPavHFwa6Q",
-	"json": "{\"id\":\"KH0VanPavHFwa6Q\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Yin,+G\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Yin%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012479,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Yin%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Yin,+G"
-}

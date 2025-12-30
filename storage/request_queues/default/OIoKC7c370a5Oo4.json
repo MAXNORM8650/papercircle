@@ -1,9 +1,0 @@
-{
-	"id": "OIoKC7c370a5Oo4",
-	"json": "{\"id\":\"OIoKC7c370a5Oo4\",\"url\":\"https://arxiv.org/search/advanced?terms-0-term=Li%2C+P&terms-0-field=author&size=50&order=-announced_date_first\",\"uniqueKey\":\"https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Li%2C+P\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087063321,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/advanced?order=-announced_date_first&size=50&terms-0-field=author&terms-0-term=Li%2C+P",
-	"url": "https://arxiv.org/search/advanced?terms-0-term=Li%2C+P&terms-0-field=author&size=50&order=-announced_date_first"
-}

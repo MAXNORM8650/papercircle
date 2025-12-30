@@ -1,9 +1,0 @@
-{
-	"id": "NCUl7fFHJDM88dB",
-	"json": "{\"id\":\"NCUl7fFHJDM88dB\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Muntwiler,+S\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Muntwiler%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087024315,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Muntwiler%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Muntwiler,+S"
-}

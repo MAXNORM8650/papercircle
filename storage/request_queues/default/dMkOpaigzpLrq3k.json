@@ -1,9 +1,0 @@
-{
-	"id": "dMkOpaigzpLrq3k",
-	"json": "{\"id\":\"dMkOpaigzpLrq3k\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bakos%2C+G+%C3%81\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Bakos%2C+G+%C3%81&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087072841,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Bakos%2C+G+%C3%81&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Bakos%2C+G+%C3%81"
-}

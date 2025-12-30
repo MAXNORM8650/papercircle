@@ -1,9 +1,0 @@
-{
-	"id": "GsqH4qLtz3oPuHl",
-	"json": "{\"id\":\"GsqH4qLtz3oPuHl\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Luan,+T+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Luan%2C+T+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016905,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Luan%2C+T+H&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Luan,+T+H"
-}

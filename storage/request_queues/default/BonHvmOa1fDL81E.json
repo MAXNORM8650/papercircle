@@ -1,9 +1,0 @@
-{
-	"id": "BonHvmOa1fDL81E",
-	"json": "{\"id\":\"BonHvmOa1fDL81E\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Gali,+K+F\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Gali%2C+K+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999871,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Gali%2C+K+F&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Gali,+K+F"
-}

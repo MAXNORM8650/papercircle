@@ -1,9 +1,0 @@
-{
-	"id": "nZXeZlEVjHxDr76",
-	"json": "{\"id\":\"nZXeZlEVjHxDr76\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Strobel%2C+D+F\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Strobel%2C+D+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087094312,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Strobel%2C+D+F&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Strobel%2C+D+F"
-}

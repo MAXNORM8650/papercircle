@@ -1,9 +1,0 @@
-{
-	"id": "bAmPIKAZN2zzyN4",
-	"json": "{\"id\":\"bAmPIKAZN2zzyN4\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Chattopadhyay,+P+K\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Chattopadhyay%2C+P+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991614,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Chattopadhyay%2C+P+K&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Chattopadhyay,+P+K"
-}

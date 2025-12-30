@@ -1,9 +1,0 @@
-{
-	"id": "FQPKzrNzpG1Up4W",
-	"json": "{\"id\":\"FQPKzrNzpG1Up4W\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Liu,+Z+L\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Liu%2C+Z+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999259,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Liu%2C+Z+L&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Liu,+Z+L"
-}

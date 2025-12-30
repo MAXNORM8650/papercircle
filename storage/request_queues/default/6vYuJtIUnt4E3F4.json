@@ -1,9 +1,0 @@
-{
-	"id": "6vYuJtIUnt4E3F4",
-	"json": "{\"id\":\"6vYuJtIUnt4E3F4\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Lange,+J\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Lange%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086995494,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Lange%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Lange,+J"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "KCJqVB6uX47c6Ta",
-	"json": "{\"id\":\"KCJqVB6uX47c6Ta\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Jiang,+Q\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Jiang%2C+Q&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087020841,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Jiang%2C+Q&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Jiang,+Q"
-}

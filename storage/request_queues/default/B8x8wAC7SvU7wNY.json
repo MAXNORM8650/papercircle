@@ -1,9 +1,0 @@
-{
-	"id": "B8x8wAC7SvU7wNY",
-	"json": "{\"id\":\"B8x8wAC7SvU7wNY\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ran,+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ran%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012908,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Ran%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ran,+R"
-}

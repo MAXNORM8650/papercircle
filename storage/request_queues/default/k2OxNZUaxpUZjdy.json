@@ -1,9 +1,0 @@
-{
-	"id": "k2OxNZUaxpUZjdy",
-	"json": "{\"id\":\"k2OxNZUaxpUZjdy\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Ensor,+K+B\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Ensor%2C+K+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023646,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Ensor%2C+K+B&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Ensor,+K+B"
-}

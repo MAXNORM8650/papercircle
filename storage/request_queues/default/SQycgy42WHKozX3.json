@@ -1,9 +1,0 @@
-{
-	"id": "SQycgy42WHKozX3",
-	"json": "{\"id\":\"SQycgy42WHKozX3\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bowers%2C+C+W\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Bowers%2C+C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087085937,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Bowers%2C+C+W&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Bowers%2C+C+W"
-}

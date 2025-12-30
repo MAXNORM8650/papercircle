@@ -1,9 +1,0 @@
-{
-	"id": "Nj99lfUClT4Nuqt",
-	"json": "{\"id\":\"Nj99lfUClT4Nuqt\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Lesnik,+D\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Lesnik%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087024016,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Lesnik%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Lesnik,+D"
-}

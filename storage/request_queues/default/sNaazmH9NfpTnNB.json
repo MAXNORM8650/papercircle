@@ -1,9 +1,0 @@
-{
-	"id": "sNaazmH9NfpTnNB",
-	"json": "{\"id\":\"sNaazmH9NfpTnNB\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Hons,+T\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Hons%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007885,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Hons%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Hons,+T"
-}

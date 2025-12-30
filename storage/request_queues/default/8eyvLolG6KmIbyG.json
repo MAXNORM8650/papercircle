@@ -1,9 +1,0 @@
-{
-	"id": "8eyvLolG6KmIbyG",
-	"json": "{\"id\":\"8eyvLolG6KmIbyG\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Fern%C3%A1ndez,+L\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Fern%C3%A1ndez%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006622,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Fern%C3%A1ndez%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Fern%C3%A1ndez,+L"
-}

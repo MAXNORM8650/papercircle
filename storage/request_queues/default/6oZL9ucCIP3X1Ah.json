@@ -1,9 +1,0 @@
-{
-	"id": "6oZL9ucCIP3X1Ah",
-	"json": "{\"id\":\"6oZL9ucCIP3X1Ah\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Nisoli,+C\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Nisoli%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989140,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Nisoli%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Nisoli,+C"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "L99m4eVkUOD59iI",
-	"json": "{\"id\":\"L99m4eVkUOD59iI\",\"url\":\"https://arxiv.org/search/nucl-th?searchtype=author&query=Leviatan,+A\",\"uniqueKey\":\"https://arxiv.org/search/nucl-th?query=Leviatan%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086998147,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nucl-th?query=Leviatan%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/nucl-th?searchtype=author&query=Leviatan,+A"
-}

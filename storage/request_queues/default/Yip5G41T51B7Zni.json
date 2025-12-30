@@ -1,9 +1,0 @@
-{
-	"id": "Yip5G41T51B7Zni",
-	"json": "{\"id\":\"Yip5G41T51B7Zni\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Lipan,+O\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Lipan%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989870,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Lipan%2C+O&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Lipan,+O"
-}

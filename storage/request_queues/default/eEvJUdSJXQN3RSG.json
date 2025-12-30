@@ -1,9 +1,0 @@
-{
-	"id": "eEvJUdSJXQN3RSG",
-	"json": "{\"id\":\"eEvJUdSJXQN3RSG\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=McGaugh%2C+S+S&start=0\",\"uniqueKey\":\"https://arxiv.org/search?query=McGaugh%2C+S+S&searchtype=author&start=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087063201,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=McGaugh%2C+S+S&searchtype=author&start=0",
-	"url": "https://arxiv.org/search/?searchtype=author&query=McGaugh%2C+S+S&start=0"
-}

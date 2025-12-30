@@ -1,9 +1,0 @@
-{
-	"id": "SHW0ZOuLTpa57On",
-	"json": "{\"id\":\"SHW0ZOuLTpa57On\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Dhurandhar,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Dhurandhar%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023753,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Dhurandhar%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Dhurandhar,+A"
-}

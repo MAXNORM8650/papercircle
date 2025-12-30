@@ -1,9 +1,0 @@
-{
-	"id": "xKUpNbPuSEKuTs6",
-	"json": "{\"id\":\"xKUpNbPuSEKuTs6\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Han,+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Han%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015823,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Han%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Han,+T"
-}

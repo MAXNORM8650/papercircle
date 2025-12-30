@@ -1,9 +1,0 @@
-{
-	"id": "bBjdovV8H1W1mp3",
-	"json": "{\"id\":\"bBjdovV8H1W1mp3\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Price,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Price%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010229,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Price%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Price,+S"
-}

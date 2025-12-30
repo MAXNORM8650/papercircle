@@ -1,9 +1,0 @@
-{
-	"id": "AQ6WYkEv9Lp1iM6",
-	"json": "{\"id\":\"AQ6WYkEv9Lp1iM6\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Sakthivelu,+A\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Sakthivelu%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012058,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Sakthivelu%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Sakthivelu,+A"
-}

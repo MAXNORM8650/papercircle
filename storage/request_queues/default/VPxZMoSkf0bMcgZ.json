@@ -1,9 +1,0 @@
-{
-	"id": "VPxZMoSkf0bMcgZ",
-	"json": "{\"id\":\"VPxZMoSkf0bMcgZ\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Lin,+Y\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Lin%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087008632,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Lin%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Lin,+Y"
-}

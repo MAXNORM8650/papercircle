@@ -1,9 +1,0 @@
-{
-	"id": "WdAmhoz21ou3vZ7",
-	"json": "{\"id\":\"WdAmhoz21ou3vZ7\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Shankar,+A+N\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Shankar%2C+A+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087004523,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Shankar%2C+A+N&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Shankar,+A+N"
-}

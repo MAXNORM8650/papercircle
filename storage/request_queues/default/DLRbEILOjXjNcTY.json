@@ -1,9 +1,0 @@
-{
-	"id": "DLRbEILOjXjNcTY",
-	"json": "{\"id\":\"DLRbEILOjXjNcTY\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Rohwer,+F+L\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Rohwer%2C+F+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000805,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Rohwer%2C+F+L&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Rohwer,+F+L"
-}

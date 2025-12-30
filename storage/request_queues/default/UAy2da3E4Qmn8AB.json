@@ -1,9 +1,0 @@
-{
-	"id": "UAy2da3E4Qmn8AB",
-	"json": "{\"id\":\"UAy2da3E4Qmn8AB\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Kim,+S+Y\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Kim%2C+S+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002555,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Kim%2C+S+Y&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Kim,+S+Y"
-}

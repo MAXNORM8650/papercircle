@@ -1,9 +1,0 @@
-{
-	"id": "uQCX0Sm6sfIbiQE",
-	"json": "{\"id\":\"uQCX0Sm6sfIbiQE\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Gelber,+M\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Gelber%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999124,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Gelber%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Gelber,+M"
-}

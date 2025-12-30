@@ -1,9 +1,0 @@
-{
-	"id": "NnmUKCT7d8RVOPC",
-	"json": "{\"id\":\"NnmUKCT7d8RVOPC\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Masilamani,+P+R\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Masilamani%2C+P+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012864,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Masilamani%2C+P+R&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Masilamani,+P+R"
-}

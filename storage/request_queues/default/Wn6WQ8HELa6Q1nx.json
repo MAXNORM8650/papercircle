@@ -1,9 +1,0 @@
-{
-	"id": "Wn6WQ8HELa6Q1nx",
-	"json": "{\"id\":\"Wn6WQ8HELa6Q1nx\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Daniel,+C\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Daniel%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999579,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Daniel%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Daniel,+C"
-}

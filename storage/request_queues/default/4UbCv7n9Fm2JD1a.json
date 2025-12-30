@@ -1,9 +1,0 @@
-{
-	"id": "4UbCv7n9Fm2JD1a",
-	"json": "{\"id\":\"4UbCv7n9Fm2JD1a\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Leftley,+L+H\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Leftley%2C+L+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986504,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Leftley%2C+L+H&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Leftley,+L+H"
-}

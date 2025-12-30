@@ -1,9 +1,0 @@
-{
-	"id": "wekh5nXEGMbWlZS",
-	"json": "{\"id\":\"wekh5nXEGMbWlZS\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Alden%2C+N\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Alden%2C+N&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087045740,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Alden%2C+N&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Alden%2C+N"
-}

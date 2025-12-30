@@ -1,9 +1,0 @@
-{
-	"id": "PZhoLqLe2AzJxCz",
-	"json": "{\"id\":\"PZhoLqLe2AzJxCz\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Zhang,+B\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Zhang%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014470,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Zhang%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Zhang,+B"
-}

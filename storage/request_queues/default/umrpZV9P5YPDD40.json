@@ -1,9 +1,0 @@
-{
-	"id": "umrpZV9P5YPDD40",
-	"json": "{\"id\":\"umrpZV9P5YPDD40\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Carone,+C+D\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Carone%2C+C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988362,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Carone%2C+C+D&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Carone,+C+D"
-}

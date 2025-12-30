@@ -1,9 +1,0 @@
-{
-	"id": "xMy3ClzdY1I4AVo",
-	"json": "{\"id\":\"xMy3ClzdY1I4AVo\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Kulikov,+V\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Kulikov%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087007586,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Kulikov%2C+V&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Kulikov,+V"
-}

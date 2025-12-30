@@ -1,9 +1,0 @@
-{
-	"id": "sOWaXSj874F0et6",
-	"json": "{\"id\":\"sOWaXSj874F0et6\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=da+Costa,+J+P+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=da+Costa%2C+J+P+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015259,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=da+Costa%2C+J+P+J&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=da+Costa,+J+P+J"
-}

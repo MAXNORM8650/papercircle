@@ -1,9 +1,0 @@
-{
-	"id": "wrca6Euan7SvMBJ",
-	"json": "{\"id\":\"wrca6Euan7SvMBJ\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=de+Vries,+J\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=de+Vries%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994225,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=de+Vries%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=de+Vries,+J"
-}

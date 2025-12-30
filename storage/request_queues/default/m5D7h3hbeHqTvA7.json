@@ -1,9 +1,0 @@
-{
-	"id": "m5D7h3hbeHqTvA7",
-	"json": "{\"id\":\"m5D7h3hbeHqTvA7\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Bull,+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Bull%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087027189,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Bull%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Bull,+D"
-}

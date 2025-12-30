@@ -1,9 +1,0 @@
-{
-	"id": "tD0XEdbTCeCx7rH",
-	"json": "{\"id\":\"tD0XEdbTCeCx7rH\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=de+Grijs%2C+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=de+Grijs%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087061399,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=de+Grijs%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=de+Grijs%2C+R"
-}

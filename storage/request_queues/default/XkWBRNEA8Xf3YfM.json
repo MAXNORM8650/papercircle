@@ -1,9 +1,0 @@
-{
-	"id": "XkWBRNEA8Xf3YfM",
-	"json": "{\"id\":\"XkWBRNEA8Xf3YfM\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=%C3%9Cbler,+H\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=%C3%9Cbler%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987039,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=%C3%9Cbler%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=%C3%9Cbler,+H"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "89mb5XXRvFSaFnv",
-	"json": "{\"id\":\"89mb5XXRvFSaFnv\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Emmerling,+M\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Emmerling%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989867,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Emmerling%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Emmerling,+M"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "ehHkd4TGv5e4s5M",
-	"json": "{\"id\":\"ehHkd4TGv5e4s5M\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Qian,+Y\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Qian%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987065,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Qian%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Qian,+Y"
-}

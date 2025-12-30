@@ -1,9 +1,0 @@
-{
-	"id": "pMID8BIfW9WgMXY",
-	"json": "{\"id\":\"pMID8BIfW9WgMXY\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Masuyama,+Y\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Masuyama%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025489,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Masuyama%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Masuyama,+Y"
-}

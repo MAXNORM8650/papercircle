@@ -1,9 +1,0 @@
-{
-	"id": "oCegh4L0mqjJrJN",
-	"json": "{\"id\":\"oCegh4L0mqjJrJN\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Ortiz,+W\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Ortiz%2C+W&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999257,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Ortiz%2C+W&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Ortiz,+W"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "7mXM4FWmE8uxudN",
-	"json": "{\"id\":\"7mXM4FWmE8uxudN\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Vicens,+J\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Vicens%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002569,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Vicens%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Vicens,+J"
-}

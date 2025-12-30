@@ -1,9 +1,0 @@
-{
-	"id": "HBA2OKjvZFQbgnl",
-	"json": "{\"id\":\"HBA2OKjvZFQbgnl\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Bozza,+C\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Bozza%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992649,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Bozza%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Bozza,+C"
-}

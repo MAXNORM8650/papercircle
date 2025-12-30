@@ -1,9 +1,0 @@
-{
-	"id": "mtUmTPUlty1E7Hn",
-	"json": "{\"id\":\"mtUmTPUlty1E7Hn\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Testera%2C+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Testera%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087090433,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Testera%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Testera%2C+G"
-}

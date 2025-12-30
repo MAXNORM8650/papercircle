@@ -1,9 +1,0 @@
-{
-	"id": "WnTMae2NckVoMjV",
-	"json": "{\"id\":\"WnTMae2NckVoMjV\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Zhang,+T\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Zhang%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986523,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Zhang%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Zhang,+T"
-}

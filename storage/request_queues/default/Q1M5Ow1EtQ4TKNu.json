@@ -1,9 +1,0 @@
-{
-	"id": "Q1M5Ow1EtQ4TKNu",
-	"json": "{\"id\":\"Q1M5Ow1EtQ4TKNu\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Galad%C3%AD-Enr%C3%ADquez%2C+D\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Galad%C3%AD-Enr%C3%ADquez%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087094157,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Galad%C3%AD-Enr%C3%ADquez%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Galad%C3%AD-Enr%C3%ADquez%2C+D"
-}

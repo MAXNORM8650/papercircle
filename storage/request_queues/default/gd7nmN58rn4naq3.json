@@ -1,9 +1,0 @@
-{
-	"id": "gd7nmN58rn4naq3",
-	"json": "{\"id\":\"gd7nmN58rn4naq3\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kucukmanisa,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kucukmanisa%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087018353,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Kucukmanisa%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kucukmanisa,+A"
-}

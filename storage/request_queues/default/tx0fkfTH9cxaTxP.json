@@ -1,9 +1,0 @@
-{
-	"id": "tx0fkfTH9cxaTxP",
-	"json": "{\"id\":\"tx0fkfTH9cxaTxP\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Bracco,+C\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Bracco%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006278,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Bracco%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Bracco,+C"
-}

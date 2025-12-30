@@ -1,9 +1,0 @@
-{
-	"id": "S6LchBAp3PJVJw2",
-	"json": "{\"id\":\"S6LchBAp3PJVJw2\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Borah,+K\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Borah%2C+K&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086997813,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Borah%2C+K&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Borah,+K"
-}

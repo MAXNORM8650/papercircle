@@ -1,9 +1,0 @@
-{
-	"id": "hqgPb4P7TzFTpkS",
-	"json": "{\"id\":\"hqgPb4P7TzFTpkS\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Zubeldia,+I\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Zubeldia%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016403,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Zubeldia%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Zubeldia,+I"
-}

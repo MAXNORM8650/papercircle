@@ -1,9 +1,0 @@
-{
-	"id": "N3Qti34K3buzUZZ",
-	"json": "{\"id\":\"N3Qti34K3buzUZZ\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Dandapanthula,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Dandapanthula%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087009708,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Dandapanthula%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Dandapanthula,+S"
-}

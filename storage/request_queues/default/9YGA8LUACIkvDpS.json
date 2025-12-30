@@ -1,9 +1,0 @@
-{
-	"id": "9YGA8LUACIkvDpS",
-	"json": "{\"id\":\"9YGA8LUACIkvDpS\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Romero-Roch%C3%ADn,+V\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Romero-Roch%C3%ADn%2C+V&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086990293,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Romero-Roch%C3%ADn%2C+V&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Romero-Roch%C3%ADn,+V"
-}

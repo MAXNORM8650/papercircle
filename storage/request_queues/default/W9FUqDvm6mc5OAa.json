@@ -1,9 +1,0 @@
-{
-	"id": "W9FUqDvm6mc5OAa",
-	"json": "{\"id\":\"W9FUqDvm6mc5OAa\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Nied%2C+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Nied%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087070808,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Nied%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Nied%2C+P"
-}

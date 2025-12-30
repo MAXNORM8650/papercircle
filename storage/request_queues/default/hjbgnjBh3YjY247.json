@@ -1,9 +1,0 @@
-{
-	"id": "hjbgnjBh3YjY247",
-	"json": "{\"id\":\"hjbgnjBh3YjY247\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Bailly-Salins,+L\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Bailly-Salins%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992635,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Bailly-Salins%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Bailly-Salins,+L"
-}

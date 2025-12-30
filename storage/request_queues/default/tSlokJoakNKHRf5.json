@@ -1,9 +1,0 @@
-{
-	"id": "tSlokJoakNKHRf5",
-	"json": "{\"id\":\"tSlokJoakNKHRf5\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Proch%C3%A1zkov%C3%A1,+L+P\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Proch%C3%A1zkov%C3%A1%2C+L+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002483,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Proch%C3%A1zkov%C3%A1%2C+L+P&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Proch%C3%A1zkov%C3%A1,+L+P"
-}

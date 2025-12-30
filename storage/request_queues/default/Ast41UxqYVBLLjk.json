@@ -1,9 +1,0 @@
-{
-	"id": "Ast41UxqYVBLLjk",
-	"json": "{\"id\":\"Ast41UxqYVBLLjk\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Henderson,+P\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Henderson%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012606,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Henderson%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Henderson,+P"
-}

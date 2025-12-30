@@ -1,9 +1,0 @@
-{
-	"id": "Ps0kDWsGdNW2GOM",
-	"json": "{\"id\":\"Ps0kDWsGdNW2GOM\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Leadbeater,+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Leadbeater%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987989,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Leadbeater%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Leadbeater,+R"
-}

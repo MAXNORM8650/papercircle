@@ -1,9 +1,0 @@
-{
-	"id": "sfc8GfiIvinqmMC",
-	"json": "{\"id\":\"sfc8GfiIvinqmMC\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Zhang,+H\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Zhang%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000329,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Zhang%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Zhang,+H"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "kiHhRO0A2h44BSU",
-	"json": "{\"id\":\"kiHhRO0A2h44BSU\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Liao,+I+Y\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Liao%2C+I+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087017066,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Liao%2C+I+Y&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Liao,+I+Y"
-}

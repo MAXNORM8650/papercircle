@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BookOpen, Search, Calendar, User, LogOut, BarChart3, Users } from 'lucide-react';
+import { Search, Calendar, User, LogOut, BarChart3, Users } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import { AuthModal } from '../Auth/AuthModal';
 
@@ -28,10 +28,14 @@ export function Header({ onNavigate, currentView }: HeaderProps) {
             <div className="flex items-center space-x-8">
               <button
                 onClick={() => onNavigate('discover')}
-                className="flex items-center space-x-2 text-blue-600 hover:text-blue-700 transition-colors"
+                className="flex items-center space-x-3 hover:opacity-80 transition-opacity"
               >
-                <BookOpen className="h-8 w-8" />
-                <span className="text-xl font-bold">Paper Circle</span>
+                <img
+                  src="/paper-circle-logo.svg"
+                  alt="Paper Circle Logo"
+                  className="h-10 w-10"
+                />
+                <span className="text-xl font-bold text-gray-900">Paper Circle</span>
               </button>
 
               <nav className="hidden md:flex space-x-1">

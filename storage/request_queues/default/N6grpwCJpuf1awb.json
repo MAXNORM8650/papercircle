@@ -1,9 +1,0 @@
-{
-	"id": "N6grpwCJpuf1awb",
-	"json": "{\"id\":\"N6grpwCJpuf1awb\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Rosa,+P+F+S\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Rosa%2C+P+F+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086990301,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Rosa%2C+P+F+S&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Rosa,+P+F+S"
-}

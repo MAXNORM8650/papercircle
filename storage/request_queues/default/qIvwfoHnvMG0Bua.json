@@ -1,9 +1,0 @@
-{
-	"id": "qIvwfoHnvMG0Bua",
-	"json": "{\"id\":\"qIvwfoHnvMG0Bua\",\"url\":\"https://arxiv.org/search/hep-th?searchtype=author&query=Zhao,+R\",\"uniqueKey\":\"https://arxiv.org/search/hep-th?query=Zhao%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994571,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-th?query=Zhao%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/hep-th?searchtype=author&query=Zhao,+R"
-}

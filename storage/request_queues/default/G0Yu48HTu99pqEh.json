@@ -1,9 +1,0 @@
-{
-	"id": "G0Yu48HTu99pqEh",
-	"json": "{\"id\":\"G0Yu48HTu99pqEh\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Zhou,+J\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Zhou%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019811,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Zhou%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Zhou,+J"
-}

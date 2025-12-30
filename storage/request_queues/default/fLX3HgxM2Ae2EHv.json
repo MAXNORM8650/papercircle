@@ -1,9 +1,0 @@
-{
-	"id": "fLX3HgxM2Ae2EHv",
-	"json": "{\"id\":\"fLX3HgxM2Ae2EHv\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Schilling,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Schilling%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087016720,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Schilling%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Schilling,+A"
-}

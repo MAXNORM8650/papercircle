@@ -1,9 +1,0 @@
-{
-	"id": "RN1IVAtheYkJG6u",
-	"json": "{\"id\":\"RN1IVAtheYkJG6u\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Norouzi-Fard,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Norouzi-Fard%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087024303,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Norouzi-Fard%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Norouzi-Fard,+A"
-}

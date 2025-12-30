@@ -1,9 +1,0 @@
-{
-	"id": "96FwKrEpDGFKfOF",
-	"json": "{\"id\":\"96FwKrEpDGFKfOF\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Ghag,+C\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Ghag%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992727,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Ghag%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Ghag,+C"
-}

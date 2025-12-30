@@ -1,9 +1,0 @@
-{
-	"id": "8wlnLAFwXjA2KZ6",
-	"json": "{\"id\":\"8wlnLAFwXjA2KZ6\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Maroto,+A+L\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Maroto%2C+A+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986802,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Maroto%2C+A+L&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Maroto,+A+L"
-}

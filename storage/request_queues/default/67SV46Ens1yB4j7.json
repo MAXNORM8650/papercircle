@@ -1,9 +1,0 @@
-{
-	"id": "67SV46Ens1yB4j7",
-	"json": "{\"id\":\"67SV46Ens1yB4j7\",\"url\":\"https://arxiv.org/search/math-ph?searchtype=author&query=Choque-Rivero,+A+E\",\"uniqueKey\":\"https://arxiv.org/search/math-ph?query=Choque-Rivero%2C+A+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086995399,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math-ph?query=Choque-Rivero%2C+A+E&searchtype=author",
-	"url": "https://arxiv.org/search/math-ph?searchtype=author&query=Choque-Rivero,+A+E"
-}

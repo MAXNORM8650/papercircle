@@ -1,9 +1,0 @@
-{
-	"id": "5S6VuZIAFuzIOBI",
-	"json": "{\"id\":\"5S6VuZIAFuzIOBI\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Otto,+M\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Otto%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005633,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Otto%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Otto,+M"
-}

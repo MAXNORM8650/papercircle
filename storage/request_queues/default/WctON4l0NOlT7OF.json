@@ -1,9 +1,0 @@
-{
-	"id": "WctON4l0NOlT7OF",
-	"json": "{\"id\":\"WctON4l0NOlT7OF\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Bezshyyko,+O\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Bezshyyko%2C+O&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992867,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Bezshyyko%2C+O&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Bezshyyko,+O"
-}

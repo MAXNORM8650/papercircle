@@ -1,9 +1,0 @@
-{
-	"id": "BPcyOX0YqYVjfH8",
-	"json": "{\"id\":\"BPcyOX0YqYVjfH8\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Bagheri,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Bagheri%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986447,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Bagheri%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Bagheri,+A"
-}

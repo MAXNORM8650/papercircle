@@ -1,9 +1,0 @@
-{
-	"id": "u3jvrt837xPjj0d",
-	"json": "{\"id\":\"u3jvrt837xPjj0d\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=O%27Connor,+M+J\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=O%27Connor%2C+M+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087024376,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=O%27Connor%2C+M+J&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=O%27Connor,+M+J"
-}

@@ -21,3 +21,17 @@ dist-ssr
 *.sln
 *.sw?
 .env
+
+# Python cache and virtual environment
+cache/
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+
+# Generated outputs
+outputs/
+dashboards/
+results/
+bibliographies/

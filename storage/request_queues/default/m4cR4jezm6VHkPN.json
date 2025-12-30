@@ -1,9 +1,0 @@
-{
-	"id": "m4cR4jezm6VHkPN",
-	"json": "{\"id\":\"m4cR4jezm6VHkPN\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Shiri,+I\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Shiri%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002417,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Shiri%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Shiri,+I"
-}

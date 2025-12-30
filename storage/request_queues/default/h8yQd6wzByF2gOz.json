@@ -1,9 +1,0 @@
-{
-	"id": "h8yQd6wzByF2gOz",
-	"json": "{\"id\":\"h8yQd6wzByF2gOz\",\"url\":\"https://arxiv.org/list/math.NT/recent\",\"loadedUrl\":\"https://arxiv.org/list/math.NT/recent\",\"uniqueKey\":\"https://arxiv.org/list/math.NT/recent\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:08.780Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/math.NT/recent",
-	"url": "https://arxiv.org/list/math.NT/recent"
-}

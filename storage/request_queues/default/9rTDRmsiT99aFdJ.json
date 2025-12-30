@@ -1,9 +1,0 @@
-{
-	"id": "9rTDRmsiT99aFdJ",
-	"json": "{\"id\":\"9rTDRmsiT99aFdJ\",\"url\":\"https://arxiv.org/search/?searchtype=author&query=Bontempo%2C+F&start=50\",\"uniqueKey\":\"https://arxiv.org/search?query=Bontempo%2C+F&searchtype=author&start=50\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087057210,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search?query=Bontempo%2C+F&searchtype=author&start=50",
-	"url": "https://arxiv.org/search/?searchtype=author&query=Bontempo%2C+F&start=50"
-}

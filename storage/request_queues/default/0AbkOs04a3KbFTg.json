@@ -1,9 +1,0 @@
-{
-	"id": "0AbkOs04a3KbFTg",
-	"json": "{\"id\":\"0AbkOs04a3KbFTg\",\"url\":\"https://arxiv.org/search/gr-qc?searchtype=author&query=Alves,+L+M+B\",\"uniqueKey\":\"https://arxiv.org/search/gr-qc?query=Alves%2C+L+M+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086991497,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/gr-qc?query=Alves%2C+L+M+B&searchtype=author",
-	"url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Alves,+L+M+B"
-}

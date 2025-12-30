@@ -1,9 +1,0 @@
-{
-	"id": "bnq1gg7Jh3SdRSw",
-	"json": "{\"id\":\"bnq1gg7Jh3SdRSw\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Maurice,+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Maurice%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999280,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Maurice%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Maurice,+R"
-}

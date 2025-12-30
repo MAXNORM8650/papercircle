@@ -1,9 +1,0 @@
-{
-	"id": "QMjuPWWTpuz4s45",
-	"json": "{\"id\":\"QMjuPWWTpuz4s45\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Zeimpekis,+I\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Zeimpekis%2C+I&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989175,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Zeimpekis%2C+I&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Zeimpekis,+I"
-}

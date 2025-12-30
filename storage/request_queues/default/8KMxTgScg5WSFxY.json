@@ -1,9 +1,0 @@
-{
-	"id": "8KMxTgScg5WSFxY",
-	"json": "{\"id\":\"8KMxTgScg5WSFxY\",\"url\":\"https://arxiv.org/search/math-ph?searchtype=author&query=Ricaud,+J\",\"uniqueKey\":\"https://arxiv.org/search/math-ph?query=Ricaud%2C+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086995450,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math-ph?query=Ricaud%2C+J&searchtype=author",
-	"url": "https://arxiv.org/search/math-ph?searchtype=author&query=Ricaud,+J"
-}

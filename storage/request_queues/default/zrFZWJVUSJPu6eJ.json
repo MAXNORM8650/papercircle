@@ -1,9 +1,0 @@
-{
-	"id": "zrFZWJVUSJPu6eJ",
-	"json": "{\"id\":\"zrFZWJVUSJPu6eJ\",\"url\":\"https://arxiv.org/search/q-fin?searchtype=author&query=Yang,+B\",\"uniqueKey\":\"https://arxiv.org/search/q-fin?query=Yang%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021774,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-fin?query=Yang%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/q-fin?searchtype=author&query=Yang,+B"
-}

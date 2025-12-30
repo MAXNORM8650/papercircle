@@ -1,9 +1,0 @@
-{
-	"id": "3hAYWzKfnJ37jXJ",
-	"json": "{\"id\":\"3hAYWzKfnJ37jXJ\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Silva,+H+H+B\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Silva%2C+H+H+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087039495,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Silva%2C+H+H+B&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Silva,+H+H+B"
-}

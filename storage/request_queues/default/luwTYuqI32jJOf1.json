@@ -1,9 +1,0 @@
-{
-	"id": "luwTYuqI32jJOf1",
-	"json": "{\"id\":\"luwTYuqI32jJOf1\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Wulff,+P\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Wulff%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002878,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Wulff%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Wulff,+P"
-}

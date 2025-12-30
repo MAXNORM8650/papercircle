@@ -1,9 +1,0 @@
-{
-	"id": "udYs7Za7nDtZN8A",
-	"json": "{\"id\":\"udYs7Za7nDtZN8A\",\"url\":\"https://arxiv.org/search/hep-ex?searchtype=author&query=Chai,+X+Y\",\"uniqueKey\":\"https://arxiv.org/search/hep-ex?query=Chai%2C+X+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992894,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ex?query=Chai%2C+X+Y&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ex?searchtype=author&query=Chai,+X+Y"
-}

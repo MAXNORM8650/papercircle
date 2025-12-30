@@ -1,9 +1,0 @@
-{
-	"id": "lvlJ2Y0kTitXW8U",
-	"json": "{\"id\":\"lvlJ2Y0kTitXW8U\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Dong,+D\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Dong%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087011644,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Dong%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Dong,+D"
-}

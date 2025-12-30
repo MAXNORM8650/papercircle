@@ -1,9 +1,0 @@
-{
-	"id": "cFKJFof9zdbdfVB",
-	"json": "{\"id\":\"cFKJFof9zdbdfVB\",\"url\":\"https://arxiv.org/search/eess?searchtype=author&query=Sengupta,+J+P\",\"uniqueKey\":\"https://arxiv.org/search/eess?query=Sengupta%2C+J+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087025641,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/eess?query=Sengupta%2C+J+P&searchtype=author",
-	"url": "https://arxiv.org/search/eess?searchtype=author&query=Sengupta,+J+P"
-}

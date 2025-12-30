@@ -1,9 +1,0 @@
-{
-	"id": "yprnfeRRErDaHZg",
-	"json": "{\"id\":\"yprnfeRRErDaHZg\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Christensen,+D+L\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Christensen%2C+D+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999193,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Christensen%2C+D+L&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Christensen,+D+L"
-}

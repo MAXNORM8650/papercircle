@@ -1,9 +1,0 @@
-{
-	"id": "ccGipR59W88X1kb",
-	"json": "{\"id\":\"ccGipR59W88X1kb\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Mart%C3%ADnez-Gonz%C3%A1lez%2C+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Mart%C3%ADnez-Gonz%C3%A1lez%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087090386,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Mart%C3%ADnez-Gonz%C3%A1lez%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Mart%C3%ADnez-Gonz%C3%A1lez%2C+E"
-}

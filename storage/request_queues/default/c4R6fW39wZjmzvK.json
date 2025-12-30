@@ -1,9 +1,0 @@
-{
-	"id": "c4R6fW39wZjmzvK",
-	"json": "{\"id\":\"c4R6fW39wZjmzvK\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Ramos,+V+G+B\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Ramos%2C+V+G+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005994,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Ramos%2C+V+G+B&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Ramos,+V+G+B"
-}

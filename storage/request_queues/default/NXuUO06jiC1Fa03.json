@@ -1,9 +1,0 @@
-{
-	"id": "NXuUO06jiC1Fa03",
-	"json": "{\"id\":\"NXuUO06jiC1Fa03\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Matteocci,+F\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Matteocci%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989039,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Matteocci%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Matteocci,+F"
-}

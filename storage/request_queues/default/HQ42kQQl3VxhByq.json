@@ -1,9 +1,0 @@
-{
-	"id": "HQ42kQQl3VxhByq",
-	"json": "{\"id\":\"HQ42kQQl3VxhByq\",\"url\":\"https://arxiv.org/year/astro-ph/2023\",\"loadedUrl\":\"https://arxiv.org/year/astro-ph/2023\",\"uniqueKey\":\"https://arxiv.org/year/astro-ph/2023\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:31.252Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/year/astro-ph/2023",
-	"url": "https://arxiv.org/year/astro-ph/2023"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "y5CHayaGA1cVXAe",
-	"json": "{\"id\":\"y5CHayaGA1cVXAe\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Mohammed,+A+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Mohammed%2C+A+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087010272,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Mohammed%2C+A+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Mohammed,+A+A"
-}

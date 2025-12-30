@@ -1,9 +1,0 @@
-{
-	"id": "X4Uy1GXXu4Auazv",
-	"json": "{\"id\":\"X4Uy1GXXu4Auazv\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Subba,+A\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Subba%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992486,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Subba%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Subba,+A"
-}

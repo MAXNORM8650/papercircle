@@ -1,9 +1,0 @@
-{
-	"id": "z3GJiUd5D4A7SdD",
-	"json": "{\"id\":\"z3GJiUd5D4A7SdD\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Fergusson,+J+R\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Fergusson%2C+J+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987294,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Fergusson%2C+J+R&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Fergusson,+J+R"
-}

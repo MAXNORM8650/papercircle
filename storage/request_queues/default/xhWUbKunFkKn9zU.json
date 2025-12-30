@@ -1,9 +1,0 @@
-{
-	"id": "xhWUbKunFkKn9zU",
-	"json": "{\"id\":\"xhWUbKunFkKn9zU\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Emsellem,+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Emsellem%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987054,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Emsellem%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Emsellem,+E"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "oH4v9DX0KOI3fqb",
-	"json": "{\"id\":\"oH4v9DX0KOI3fqb\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Rinaldi,+P\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Rinaldi,+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Rinaldi%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:11:39.824Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Rinaldi%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Rinaldi,+P"
-}

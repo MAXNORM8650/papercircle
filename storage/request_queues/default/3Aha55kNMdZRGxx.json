@@ -1,9 +1,0 @@
-{
-	"id": "3Aha55kNMdZRGxx",
-	"json": "{\"id\":\"3Aha55kNMdZRGxx\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Vetterlein,+T\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Vetterlein%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087006618,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Vetterlein%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Vetterlein,+T"
-}

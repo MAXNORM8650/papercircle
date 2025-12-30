@@ -1,9 +1,0 @@
-{
-	"id": "89ww2StsN6KdVyc",
-	"json": "{\"id\":\"89ww2StsN6KdVyc\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Cordero,+E\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Cordero%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086995405,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Cordero%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Cordero,+E"
-}

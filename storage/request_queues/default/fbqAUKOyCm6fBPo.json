@@ -1,9 +1,0 @@
-{
-	"id": "fbqAUKOyCm6fBPo",
-	"json": "{\"id\":\"fbqAUKOyCm6fBPo\",\"url\":\"https://arxiv.org/search/quant-ph?searchtype=author&query=Saint-Jalm,+R\",\"uniqueKey\":\"https://arxiv.org/search/quant-ph?query=Saint-Jalm%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087000240,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/quant-ph?query=Saint-Jalm%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/quant-ph?searchtype=author&query=Saint-Jalm,+R"
-}

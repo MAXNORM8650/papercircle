@@ -1,9 +1,0 @@
-{
-	"id": "EdwLOkeTUO1UMb9",
-	"json": "{\"id\":\"EdwLOkeTUO1UMb9\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Birello,+P\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Birello%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087002568,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Birello%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Birello,+P"
-}

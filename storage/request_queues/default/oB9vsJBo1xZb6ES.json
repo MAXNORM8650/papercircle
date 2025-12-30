@@ -1,9 +1,0 @@
-{
-	"id": "oB9vsJBo1xZb6ES",
-	"json": "{\"id\":\"oB9vsJBo1xZb6ES\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Efroimsky,+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Efroimsky%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986445,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Efroimsky%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Efroimsky,+M"
-}

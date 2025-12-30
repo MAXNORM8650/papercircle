@@ -1,9 +1,0 @@
-{
-	"id": "d6u9KOgAMqVKDxM",
-	"json": "{\"id\":\"d6u9KOgAMqVKDxM\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Colbrook,+M+J\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Colbrook%2C+M+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086996437,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Colbrook%2C+M+J&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Colbrook,+M+J"
-}

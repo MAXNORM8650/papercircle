@@ -1,9 +1,0 @@
-{
-	"id": "tdw09xNJCVf9M2T",
-	"json": "{\"id\":\"tdw09xNJCVf9M2T\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=de+Lera+Acedo,+E\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=de+Lera+Acedo%2C+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087035320,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=de+Lera+Acedo%2C+E&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=de+Lera+Acedo,+E"
-}

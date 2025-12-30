@@ -1,9 +1,0 @@
-{
-	"id": "uy9n6AiVOntPmNe",
-	"json": "{\"id\":\"uy9n6AiVOntPmNe\",\"url\":\"https://arxiv.org/search/econ?searchtype=author&query=Pinter,+G\",\"uniqueKey\":\"https://arxiv.org/search/econ?query=Pinter%2C+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087021771,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/econ?query=Pinter%2C+G&searchtype=author",
-	"url": "https://arxiv.org/search/econ?searchtype=author&query=Pinter,+G"
-}

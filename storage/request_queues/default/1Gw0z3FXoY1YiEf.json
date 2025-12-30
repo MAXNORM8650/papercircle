@@ -1,9 +1,0 @@
-{
-	"id": "1Gw0z3FXoY1YiEf",
-	"json": "{\"id\":\"1Gw0z3FXoY1YiEf\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Querejeta,+M\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Querejeta%2C+M&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087041766,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Querejeta%2C+M&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Querejeta,+M"
-}

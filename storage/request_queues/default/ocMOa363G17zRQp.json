@@ -1,9 +1,0 @@
-{
-	"id": "ocMOa363G17zRQp",
-	"json": "{\"id\":\"ocMOa363G17zRQp\",\"url\":\"https://arxiv.org/list/astro-ph/2003-08?skip=500\",\"uniqueKey\":\"https://arxiv.org/list/astro-ph/2003-08?skip=500\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087033184,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/list/astro-ph/2003-08?skip=500",
-	"url": "https://arxiv.org/list/astro-ph/2003-08?skip=500"
-}

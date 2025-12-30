@@ -1,9 +1,0 @@
-{
-	"id": "7zuc6b8G8t6QH0d",
-	"json": "{\"id\":\"7zuc6b8G8t6QH0d\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Bideh,+A+Z\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Bideh%2C+A+Z&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087028455,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Bideh%2C+A+Z&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Bideh,+A+Z"
-}

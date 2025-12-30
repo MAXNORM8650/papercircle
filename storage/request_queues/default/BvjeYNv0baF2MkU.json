@@ -1,9 +1,0 @@
-{
-	"id": "BvjeYNv0baF2MkU",
-	"json": "{\"id\":\"BvjeYNv0baF2MkU\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ramos,+A+F\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ramos%2C+A+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087014439,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Ramos%2C+A+F&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ramos,+A+F"
-}

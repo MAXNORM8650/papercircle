@@ -1,9 +1,0 @@
-{
-	"id": "QRjo7Y8ZgA2e6Qq",
-	"json": "{\"id\":\"QRjo7Y8ZgA2e6Qq\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Huang,+D+J\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Huang%2C+D+J&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989257,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Huang%2C+D+J&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Huang,+D+J"
-}

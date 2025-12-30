@@ -1,9 +1,0 @@
-{
-	"id": "1h2ahh0ku24Q7IJ",
-	"json": "{\"id\":\"1h2ahh0ku24Q7IJ\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Mirjalili,+R\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Mirjalili%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087024012,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Mirjalili%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Mirjalili,+R"
-}

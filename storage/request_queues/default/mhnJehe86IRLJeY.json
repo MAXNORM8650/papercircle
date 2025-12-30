@@ -1,9 +1,0 @@
-{
-	"id": "mhnJehe86IRLJeY",
-	"json": "{\"id\":\"mhnJehe86IRLJeY\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Fellenz,+B\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Fellenz%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999136,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Fellenz%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Fellenz,+B"
-}

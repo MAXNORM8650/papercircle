@@ -1,9 +1,0 @@
-{
-	"id": "8NsftRw1L4871oo",
-	"json": "{\"id\":\"8NsftRw1L4871oo\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Gr%C3%A4ter,+F\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Gr%C3%A4ter%2C+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989567,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Gr%C3%A4ter%2C+F&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Gr%C3%A4ter,+F"
-}

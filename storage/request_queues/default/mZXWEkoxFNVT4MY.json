@@ -1,9 +1,0 @@
-{
-	"id": "mZXWEkoxFNVT4MY",
-	"json": "{\"id\":\"mZXWEkoxFNVT4MY\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=B%C3%B6ser,+S\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=B%C3%B6ser,+S\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=B%C3%B6ser%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:55.106Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=B%C3%B6ser%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=B%C3%B6ser,+S"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "dI0iVtU7Ewb1q7T",
-	"json": "{\"id\":\"dI0iVtU7Ewb1q7T\",\"url\":\"https://arxiv.org/search/q-bio?searchtype=author&query=Ganguly,+A+R\",\"uniqueKey\":\"https://arxiv.org/search/q-bio?query=Ganguly%2C+A+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087019284,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/q-bio?query=Ganguly%2C+A+R&searchtype=author",
-	"url": "https://arxiv.org/search/q-bio?searchtype=author&query=Ganguly,+A+R"
-}

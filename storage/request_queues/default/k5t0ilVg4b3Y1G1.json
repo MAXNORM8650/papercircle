@@ -1,9 +1,0 @@
-{
-	"id": "k5t0ilVg4b3Y1G1",
-	"json": "{\"id\":\"k5t0ilVg4b3Y1G1\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Taman,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Taman%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015666,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Taman%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Taman,+A"
-}

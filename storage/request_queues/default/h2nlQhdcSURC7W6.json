@@ -1,9 +1,0 @@
-{
-	"id": "h2nlQhdcSURC7W6",
-	"json": "{\"id\":\"h2nlQhdcSURC7W6\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Bruijn,+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Bruijn%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086988222,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Bruijn%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Bruijn,+R"
-}

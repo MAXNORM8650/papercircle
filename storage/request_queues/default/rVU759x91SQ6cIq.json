@@ -1,9 +1,0 @@
-{
-	"id": "rVU759x91SQ6cIq",
-	"json": "{\"id\":\"rVU759x91SQ6cIq\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Ata%2C+S+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Ata%2C+S+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087074940,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Ata%2C+S+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Ata%2C+S+A"
-}

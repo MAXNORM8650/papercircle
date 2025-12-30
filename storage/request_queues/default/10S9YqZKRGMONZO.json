@@ -1,9 +1,0 @@
-{
-	"id": "10S9YqZKRGMONZO",
-	"json": "{\"id\":\"10S9YqZKRGMONZO\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Risuleo,+A+P+P+E\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Risuleo%2C+A+P+P+E&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087012665,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Risuleo%2C+A+P+P+E&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Risuleo,+A+P+P+E"
-}

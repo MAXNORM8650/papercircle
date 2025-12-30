@@ -1,9 +1,0 @@
-{
-	"id": "m6kiaOMNBASRgnE",
-	"json": "{\"id\":\"m6kiaOMNBASRgnE\",\"url\":\"https://arxiv.org/search/nlin\",\"loadedUrl\":\"https://arxiv.org/search/nlin\",\"uniqueKey\":\"https://arxiv.org/search/nlin\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:09:57.294Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/nlin",
-	"url": "https://arxiv.org/search/nlin"
-}

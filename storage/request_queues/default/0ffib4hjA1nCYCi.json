@@ -1,9 +1,0 @@
-{
-	"id": "0ffib4hjA1nCYCi",
-	"json": "{\"id\":\"0ffib4hjA1nCYCi\",\"url\":\"https://arxiv.org/search/cond-mat?searchtype=author&query=Nagahama,+S\",\"uniqueKey\":\"https://arxiv.org/search/cond-mat?query=Nagahama%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086989454,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cond-mat?query=Nagahama%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/cond-mat?searchtype=author&query=Nagahama,+S"
-}

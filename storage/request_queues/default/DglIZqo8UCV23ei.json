@@ -1,9 +1,0 @@
-{
-	"id": "DglIZqo8UCV23ei",
-	"json": "{\"id\":\"DglIZqo8UCV23ei\",\"url\":\"https://arxiv.org/search/hep-ph?searchtype=author&query=Li,+Y\",\"uniqueKey\":\"https://arxiv.org/search/hep-ph?query=Li%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086994353,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/hep-ph?query=Li%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/hep-ph?searchtype=author&query=Li,+Y"
-}

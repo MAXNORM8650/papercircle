@@ -1,9 +1,0 @@
-{
-	"id": "FC7tg40LKsxjPME",
-	"json": "{\"id\":\"FC7tg40LKsxjPME\",\"url\":\"https://arxiv.org/search/stat?searchtype=author&query=Okhrin,+Y\",\"uniqueKey\":\"https://arxiv.org/search/stat?query=Okhrin%2C+Y&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087023889,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/stat?query=Okhrin%2C+Y&searchtype=author",
-	"url": "https://arxiv.org/search/stat?searchtype=author&query=Okhrin,+Y"
-}

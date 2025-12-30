@@ -1,9 +1,0 @@
-{
-	"id": "ZJF5d4O9NQQ9LxK",
-	"json": "{\"id\":\"ZJF5d4O9NQQ9LxK\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Dieminger,+T\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Dieminger%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992823,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Dieminger%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Dieminger,+T"
-}

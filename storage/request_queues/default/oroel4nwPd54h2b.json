@@ -1,9 +1,0 @@
-{
-	"id": "oroel4nwPd54h2b",
-	"json": "{\"id\":\"oroel4nwPd54h2b\",\"url\":\"https://arxiv.org/search/math?searchtype=author&query=Sarrazola-Alzate,+A\",\"uniqueKey\":\"https://arxiv.org/search/math?query=Sarrazola-Alzate%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087005465,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/math?query=Sarrazola-Alzate%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/math?searchtype=author&query=Sarrazola-Alzate,+A"
-}

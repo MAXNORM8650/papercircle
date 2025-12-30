@@ -1,9 +1,0 @@
-{
-	"id": "x2NgYC8wBt0sf4B",
-	"json": "{\"id\":\"x2NgYC8wBt0sf4B\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Kutil,+R+H\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Kutil%2C+R+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087015259,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Kutil%2C+R+H&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Kutil,+R+H"
-}

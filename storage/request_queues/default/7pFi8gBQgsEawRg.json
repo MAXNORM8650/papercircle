@@ -1,9 +1,0 @@
-{
-	"id": "7pFi8gBQgsEawRg",
-	"json": "{\"id\":\"7pFi8gBQgsEawRg\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ho,+S\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ho%2C+S&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986825,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Ho%2C+S&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ho,+S"
-}

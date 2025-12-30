@@ -1,9 +1,0 @@
-{
-	"id": "QaSBkOHIwUpd4OD",
-	"json": "{\"id\":\"QaSBkOHIwUpd4OD\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Avdellidou,+C\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Avdellidou%2C+C&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987454,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Avdellidou%2C+C&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Avdellidou,+C"
-}

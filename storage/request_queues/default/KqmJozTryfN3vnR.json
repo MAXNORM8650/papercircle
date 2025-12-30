@@ -1,9 +1,0 @@
-{
-	"id": "KqmJozTryfN3vnR",
-	"json": "{\"id\":\"KqmJozTryfN3vnR\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=T%C3%B6ttel,+L\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=T%C3%B6ttel%2C+L&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087024254,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=T%C3%B6ttel%2C+L&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=T%C3%B6ttel,+L"
-}

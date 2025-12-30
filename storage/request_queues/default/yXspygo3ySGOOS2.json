@@ -1,9 +1,0 @@
-{
-	"id": "yXspygo3ySGOOS2",
-	"json": "{\"id\":\"yXspygo3ySGOOS2\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Burguete,+R\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Burguete%2C+R&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999287,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Burguete%2C+R&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Burguete,+R"
-}

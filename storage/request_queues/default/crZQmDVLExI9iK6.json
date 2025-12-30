@@ -1,9 +1,0 @@
-{
-	"id": "crZQmDVLExI9iK6",
-	"json": "{\"id\":\"crZQmDVLExI9iK6\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Valeev,+E+F\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Valeev%2C+E+F&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086999475,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Valeev%2C+E+F&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Valeev,+E+F"
-}

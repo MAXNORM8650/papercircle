@@ -1,9 +1,0 @@
-{
-	"id": "FZqAGK14ox5Hyna",
-	"json": "{\"id\":\"FZqAGK14ox5Hyna\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Joshi%2C+B\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Joshi%2C+B&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087064513,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Joshi%2C+B&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Joshi%2C+B"
-}

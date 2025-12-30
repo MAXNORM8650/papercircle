@@ -1,9 +1,0 @@
-{
-	"id": "JR9nF4ZCgFVD2PN",
-	"json": "{\"id\":\"JR9nF4ZCgFVD2PN\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Behrens,+P\",\"loadedUrl\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Behrens,+P\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Behrens%2C+P&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2025-11-25T16:10:50.470Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Behrens%2C+P&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Behrens,+P"
-}

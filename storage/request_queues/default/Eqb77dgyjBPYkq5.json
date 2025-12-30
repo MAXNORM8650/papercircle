@@ -1,9 +1,0 @@
-{
-	"id": "Eqb77dgyjBPYkq5",
-	"json": "{\"id\":\"Eqb77dgyjBPYkq5\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Althaus,+L+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Althaus%2C+L+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086986407,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Althaus%2C+L+G&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Althaus,+L+G"
-}

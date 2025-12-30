@@ -1,9 +1,0 @@
-{
-	"id": "4D2V07BKMxvXSSq",
-	"json": "{\"id\":\"4D2V07BKMxvXSSq\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Jonker%2C+P+G\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Jonker%2C+P+G&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087086097,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Jonker%2C+P+G&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Jonker%2C+P+G"
-}

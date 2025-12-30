@@ -1,9 +1,0 @@
-{
-	"id": "0cjTG1UdvonXTzV",
-	"json": "{\"id\":\"0cjTG1UdvonXTzV\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Puli,+A\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Puli%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087029747,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Puli%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Puli,+A"
-}

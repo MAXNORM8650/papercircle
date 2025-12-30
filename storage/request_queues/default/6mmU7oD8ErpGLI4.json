@@ -1,9 +1,0 @@
-{
-	"id": "6mmU7oD8ErpGLI4",
-	"json": "{\"id\":\"6mmU7oD8ErpGLI4\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Garsden%2C+H\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Garsden%2C+H&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":3,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087050100,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Garsden%2C+H&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Garsden%2C+H"
-}

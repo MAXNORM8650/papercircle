@@ -1,9 +1,0 @@
-{
-	"id": "4ZxK2wUB4W9cX3T",
-	"json": "{\"id\":\"4ZxK2wUB4W9cX3T\",\"url\":\"https://arxiv.org/search/physics?searchtype=author&query=Garcia-Gamez,+D\",\"uniqueKey\":\"https://arxiv.org/search/physics?query=Garcia-Gamez%2C+D&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086992581,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/physics?query=Garcia-Gamez%2C+D&searchtype=author",
-	"url": "https://arxiv.org/search/physics?searchtype=author&query=Garcia-Gamez,+D"
-}

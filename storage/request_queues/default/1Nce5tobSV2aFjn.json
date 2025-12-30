@@ -1,9 +1,0 @@
-{
-	"id": "1Nce5tobSV2aFjn",
-	"json": "{\"id\":\"1Nce5tobSV2aFjn\",\"url\":\"https://arxiv.org/search/cs?searchtype=author&query=Ferreto,+T\",\"uniqueKey\":\"https://arxiv.org/search/cs?query=Ferreto%2C+T&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764087011752,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/cs?query=Ferreto%2C+T&searchtype=author",
-	"url": "https://arxiv.org/search/cs?searchtype=author&query=Ferreto,+T"
-}

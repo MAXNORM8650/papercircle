@@ -1,9 +1,0 @@
-{
-	"id": "FcKFC0aTfxi2lDj",
-	"json": "{\"id\":\"FcKFC0aTfxi2lDj\",\"url\":\"https://arxiv.org/search/astro-ph?searchtype=author&query=Teachey,+A\",\"uniqueKey\":\"https://arxiv.org/search/astro-ph?query=Teachey%2C+A&searchtype=author\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\"}}}",
-	"method": "GET",
-	"orderNo": 1764086987570,
-	"retryCount": 0,
-	"uniqueKey": "https://arxiv.org/search/astro-ph?query=Teachey%2C+A&searchtype=author",
-	"url": "https://arxiv.org/search/astro-ph?searchtype=author&query=Teachey,+A"
-}
