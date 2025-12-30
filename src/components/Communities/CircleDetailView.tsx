@@ -32,7 +32,7 @@ interface Member {
   user_id: string;
   role: string;
   joined_at: string;
-  profiles: {
+  profile: {
     display_name: string;
     avatar_url: string | null;
     email: string;
@@ -111,7 +111,7 @@ export function CircleDetailView({ communityId, onBack }: CircleDetailViewProps)
 
     const { data: membersData } = await supabase
       .from('community_members')
-      .select('id, user_id, role, joined_at, profiles(display_name, avatar_url, email)')
+      .select('id, user_id, role, joined_at, profile:profiles(display_name, avatar_url, email)')
       .eq('community_id', communityId)
       .order('joined_at');
 
@@ -405,7 +405,7 @@ export function CircleDetailView({ communityId, onBack }: CircleDetailViewProps)
                         <User className="h-5 w-5 text-blue-600" />
                       </div>
                       <div className="flex-1">
-                        <p className="font-medium text-gray-900">{member.profiles.display_name}</p>
+                        <p className="font-medium text-gray-900">{member.profile.display_name}</p>
                         <p className="text-sm text-gray-500">{member.role}</p>
                       </div>
                     </div>
@@ -428,8 +428,8 @@ export function CircleDetailView({ communityId, onBack }: CircleDetailViewProps)
                         <User className="h-6 w-6 text-blue-600" />
                       </div>
                       <div>
-                        <p className="font-medium text-gray-900">{member.profiles.display_name}</p>
-                        <p className="text-sm text-gray-500">{member.profiles.email}</p>
+                        <p className="font-medium text-gray-900">{member.profile.display_name}</p>
+                        <p className="text-sm text-gray-500">{member.profile.email}</p>
                         <p className="text-xs text-gray-400">Joined {formatDate(member.joined_at)}</p>
                       </div>
                     </div>

@@ -48,9 +48,7 @@ export function DashboardView() {
           session:sessions(*, paper:papers(title))
         `)
         .eq('user_id', user.id)
-        .eq('status', 'attending')
-        .gte('session.scheduled_at', new Date().toISOString())
-        .limit(5),
+        .eq('status', 'attending'),
 
       Promise.all([
         supabase
@@ -80,10 +78,13 @@ export function DashboardView() {
     }
 
     if (sessionsResult.data) {
+      const now = new Date().toISOString();
       setUpcomingSessions(
         sessionsResult.data
           .map((item) => item.session)
-          .filter((s): s is UserSession => s !== null)
+          .filter((s): s is UserSession => s !== null && s.scheduled_for >= now)
+          .sort((a, b) => a.scheduled_for.localeCompare(b.scheduled_for))
+          .slice(0, 5)
       );
     }
 
