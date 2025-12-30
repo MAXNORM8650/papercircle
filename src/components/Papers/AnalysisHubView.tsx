@@ -41,6 +41,7 @@ interface AnalysisHubViewProps {
 export function AnalysisHubView({ communityId, communityName, onClose }: AnalysisHubViewProps) {
   const [overview, setOverview] = useState<AnalysisOverview | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [expandedSessions, setExpandedSessions] = useState<Set<string>>(new Set());
   const [showPapersWithoutSession, setShowPapersWithoutSession] = useState(true);
   const [selectedPaper, setSelectedPaper] = useState<{ paperId: string; arxivId?: string } | null>(null);
@@ -51,6 +52,7 @@ export function AnalysisHubView({ communityId, communityName, onClose }: Analysi
 
   const loadOverview = async () => {
     setLoading(true);
+    setError(null);
     try {
       const response = await fetch(`${API_BASE}/analysis/circle/${communityId}/overview`);
       if (response.ok) {
@@ -58,9 +60,12 @@ export function AnalysisHubView({ communityId, communityName, onClose }: Analysi
         setOverview(data);
         // Expand all sessions by default
         setExpandedSessions(new Set(data.sessions.map((s: Session) => s.id)));
+      } else {
+        setError(`API returned status ${response.status}`);
       }
     } catch (error) {
       console.error('Error loading analysis overview:', error);
+      setError('Cannot connect to Paper Analysis API. Please make sure it is running on port 8001.');
     } finally {
       setLoading(false);
     }
@@ -122,10 +127,40 @@ export function AnalysisHubView({ communityId, communityName, onClose }: Analysi
     );
   }
 
-  if (!overview) {
+  if (!overview || error) {
     return (
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <p className="text-gray-600">Failed to load analysis overview.</p>
+        <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
+          <div className="flex items-start">
+            <XCircle className="h-6 w-6 text-yellow-600 mt-1 flex-shrink-0" />
+            <div className="ml-4">
+              <h3 className="text-lg font-semibold text-yellow-900 mb-2">
+                Paper Analysis API Not Available
+              </h3>
+              <p className="text-yellow-700 mb-4">
+                {error || 'Failed to load analysis overview.'}
+              </p>
+              <div className="bg-white rounded-lg p-4 border border-yellow-300">
+                <p className="text-sm font-semibold text-gray-900 mb-2">To use the AI Hub:</p>
+                <ol className="text-sm text-gray-700 space-y-2 list-decimal list-inside">
+                  <li>Start the Paper Analysis API:</li>
+                </ol>
+                <pre className="mt-2 bg-gray-900 text-gray-100 p-3 rounded text-xs overflow-x-auto">
+bash scripts/shell/start_paper_analysis_api.sh
+                </pre>
+                <p className="mt-3 text-sm text-gray-600">
+                  Or run directly: <code className="bg-gray-100 px-2 py-1 rounded text-xs">python backend/apis/paper_analysis_api.py</code>
+                </p>
+                <button
+                  onClick={loadOverview}
+                  className="mt-4 px-4 py-2 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition-colors text-sm font-medium"
+                >
+                  Retry Connection
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
