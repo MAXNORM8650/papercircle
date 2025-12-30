@@ -21,6 +21,11 @@ dist-ssr
 *.sln
 *.sw?
 .env
+.env.*
+!.env.example
+
+# Supabase temp files (contains sensitive credentials)
+supabase/.temp/
 
 # Python cache and virtual environment
 cache/

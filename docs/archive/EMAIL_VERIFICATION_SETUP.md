@@ -24,7 +24,7 @@ The signup flow has been improved to show a proper email verification message in
 ### Check Current Settings
 
 1. Go to your Supabase Dashboard:
-   - https://supabase.com/dashboard/project/fusfnkihcwnvjzalcxgy
+   - https://supabase.com/dashboard (select your project)
 
 2. Navigate to: **Authentication → Settings → Email Auth**
 

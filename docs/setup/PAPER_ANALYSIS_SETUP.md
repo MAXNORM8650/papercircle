@@ -14,7 +14,7 @@ new row violates row-level security policy for table "papers"
 ### Step 1: Get Your Service Role Key
 
 1. Go to your Supabase dashboard: https://supabase.com/dashboard
-2. Select your project (`fusfnkihcwnvjzalcxgy`)
+2. Select your project
 3. Go to **Settings** → **API**
 4. Scroll down to **Project API keys**
 5. Copy the **`service_role`** key (⚠️ NOT the anon key!)

@@ -6,12 +6,14 @@ echo ""
 echo "Opening your Supabase dashboard..."
 echo ""
 
-# Open Supabase dashboard
-open "https://supabase.com/dashboard/project/fusfnkihcwnvjzalcxgy/settings/api"
+# Open Supabase dashboard - user needs to select their project
+open "https://supabase.com/dashboard"
 
 echo "📋 Instructions:"
 echo ""
 echo "1. In the browser window that just opened:"
+echo "   - Select your project"
+echo "   - Go to Settings -> API"
 echo "   - Scroll down to 'Project API keys'"
 echo "   - Find the 'service_role' key"
 echo "   - Click the 'Copy' button next to it"
