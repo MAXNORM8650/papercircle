@@ -96,7 +96,6 @@ export function CircleDetailView({ communityId, onBack }: CircleDetailViewProps)
 
   const loadCommunityData = async () => {
     setLoading(true);
-    console.log('Current user ID:', user?.id);
 
     const { data: communityData } = await supabase
       .from('communities')
@@ -104,25 +103,18 @@ export function CircleDetailView({ communityId, onBack }: CircleDetailViewProps)
       .eq('id', communityId)
       .maybeSingle();
 
-    console.log('Community data:', communityData);
-
     if (communityData) {
       setCommunity(communityData);
       setIsAdmin(user?.id === communityData.created_by);
     }
 
     // Use RPC function to avoid RLS recursion issues
-    console.log('Loading members for community:', communityId);
     const { data: membersData, error: membersError } = await supabase
       .rpc('get_circle_members', { circle_id: communityId });
 
-    console.log('Members RPC response:', { data: membersData, error: membersError });
-
     if (membersError) {
       console.error('Error loading members:', membersError);
-      alert(`Error loading members: ${membersError.message}`);
     } else if (membersData) {
-      console.log('Members data received:', membersData.length, 'members');
       // Transform RPC response to match Member interface
       setMembers(membersData.map((m: any) => ({
         id: m.id,
@@ -134,8 +126,6 @@ export function CircleDetailView({ communityId, onBack }: CircleDetailViewProps)
           avatar_url: m.avatar_url
         }
       })));
-    } else {
-      console.warn('No members data returned');
     }
 
     if (user?.id === communityData?.created_by) {

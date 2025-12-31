@@ -82,23 +82,19 @@ export function InviteAccept({ inviteCode, onSuccess }: InviteAcceptProps) {
         invitation_code: inviteCode,
       });
 
-      console.log('Accept invitation response:', { data, error });
-
       if (error) {
-        console.error('RPC error:', error);
+        console.error('Error accepting invitation:', error);
         setError(error.message);
         setAccepting(false);
         return;
       }
 
       if (data && !data.success) {
-        console.error('Acceptance failed:', data.error);
         setError(data.error || 'Failed to accept invitation');
         setAccepting(false);
         return;
       }
 
-      console.log('Invitation accepted successfully');
       onSuccess();
     } catch (err) {
       console.error('Unexpected error:', err);
