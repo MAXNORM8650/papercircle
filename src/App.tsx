@@ -113,7 +113,7 @@ function AppContent() {
   return (
     <>
       <div className="min-h-screen bg-gray-50">
-        {currentView !== 'invite' && currentView !== 'session-invite' && <Header onNavigate={handleNavigate} currentView={currentView} />}
+        {currentView !== 'session-invite' && <Header onNavigate={handleNavigate} currentView={currentView} />}
         <main>{renderView()}</main>
       </div>
       

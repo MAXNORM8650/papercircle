@@ -109,7 +109,7 @@ export function InviteAccept({ inviteCode, onSuccess }: InviteAcceptProps) {
 
   if (error) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+      <div className="min-h-screen flex items-center justify-center bg-gray-50 pt-16">
         <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-8 text-center">
           <AlertCircle className="h-16 w-16 text-red-500 mx-auto mb-4" />
           <h2 className="text-2xl font-bold text-gray-900 mb-2">Invalid Invitation</h2>
@@ -127,29 +127,28 @@ export function InviteAccept({ inviteCode, onSuccess }: InviteAcceptProps) {
 
   if (!user) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+      <div className="min-h-screen flex items-center justify-center bg-gray-50 pt-16">
         <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-8 text-center">
           <Users className="h-16 w-16 text-blue-600 mx-auto mb-4" />
           <h2 className="text-2xl font-bold text-gray-900 mb-2">Circle Invitation</h2>
           <p className="text-gray-600 mb-6">
             You've been invited to join <span className="font-semibold">{community?.name}</span>
           </p>
-          <p className="text-sm text-gray-500 mb-6">
-            Please sign in or create an account to accept this invitation.
-          </p>
-          <button
-            onClick={() => window.location.href = '/'}
-            className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
-          >
-            Sign In to Accept
-          </button>
+          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+            <p className="text-sm text-gray-700">
+              Please use the <span className="font-semibold">Sign In</span> button in the header above to sign in or create an account.
+            </p>
+            <p className="text-sm text-gray-600 mt-2">
+              After signing in, you'll be able to accept this invitation.
+            </p>
+          </div>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50">
+    <div className="min-h-screen flex items-center justify-center bg-gray-50 pt-16">
       <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-8">
         <div className="text-center mb-6">
           <Users className="h-16 w-16 text-blue-600 mx-auto mb-4" />
