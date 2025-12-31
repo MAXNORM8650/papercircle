@@ -37,22 +37,30 @@ export function CommunityProvider({ children }: { children: ReactNode }) {
     }
 
     if (user) {
-      const { data: memberData } = await supabase
-        .from('community_members')
-        .select('community_id, role, communities(*)')
-        .eq('user_id', user.id);
+      // Use RPC function to avoid RLS issues
+      const { data: userCirclesData, error } = await supabase.rpc('get_user_circles');
 
-      if (memberData) {
-        const userComms = memberData
-          .map((m: any) => m.communities)
-          .filter(Boolean);
+      if (error) {
+        console.error('Error loading user circles:', error);
+      } else if (userCirclesData) {
+        // Extract just the community data
+        const userComms = userCirclesData.map((circle: any) => ({
+          id: circle.id,
+          name: circle.name,
+          description: circle.description,
+          slug: circle.slug,
+          is_public: circle.is_public,
+          avatar_url: circle.avatar_url,
+          created_by: circle.created_by,
+          created_at: circle.created_at
+        }));
         setUserCommunities(userComms);
 
         if (currentCommunity) {
-          const membership = memberData.find(
-            (m: any) => m.community_id === currentCommunity.id
+          const membership = userCirclesData.find(
+            (circle: any) => circle.id === currentCommunity.id
           );
-          setUserRole(membership?.role || null);
+          setUserRole(membership?.user_role || null);
         }
       }
     }
@@ -67,14 +75,17 @@ export function CommunityProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     if (currentCommunity && user) {
       const fetchRole = async () => {
-        const { data } = await supabase
-          .from('community_members')
-          .select('role')
-          .eq('community_id', currentCommunity.id)
-          .eq('user_id', user.id)
-          .maybeSingle();
+        // Use RPC function to get user circles and find the role
+        const { data: userCirclesData } = await supabase.rpc('get_user_circles');
 
-        setUserRole(data?.role || null);
+        if (userCirclesData) {
+          const membership = userCirclesData.find(
+            (circle: any) => circle.id === currentCommunity.id
+          );
+          setUserRole(membership?.user_role || null);
+        } else {
+          setUserRole(null);
+        }
       };
       fetchRole();
     } else {
