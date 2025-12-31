@@ -35,7 +35,6 @@ interface Member {
   profile: {
     display_name: string;
     avatar_url: string | null;
-    email: string;
   };
 }
 
@@ -132,8 +131,7 @@ export function CircleDetailView({ communityId, onBack }: CircleDetailViewProps)
         joined_at: m.joined_at,
         profile: {
           display_name: m.display_name,
-          avatar_url: m.avatar_url,
-          email: m.email
+          avatar_url: m.avatar_url
         }
       })));
     } else {
@@ -450,7 +448,6 @@ export function CircleDetailView({ communityId, onBack }: CircleDetailViewProps)
                       </div>
                       <div>
                         <p className="font-medium text-gray-900">{member.profile.display_name}</p>
-                        <p className="text-sm text-gray-500">{member.profile.email}</p>
                         <p className="text-xs text-gray-400">Joined {formatDate(member.joined_at)}</p>
                       </div>
                     </div>
