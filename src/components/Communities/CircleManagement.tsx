@@ -55,24 +55,38 @@ export function CircleManagement() {
 
   const loadCommunities = async () => {
     setLoading(true);
-    const { data } = await supabase
-      .from('communities')
-      .select('*')
-      .order('created_at', { ascending: false });
+    // Use RPC function to get only circles the user is a member of
+    const { data, error } = await supabase.rpc('get_user_circles');
 
-    if (data) setCommunities(data);
+    if (error) {
+      console.error('Error loading circles:', error);
+    } else if (data) {
+      setCommunities(data);
+    }
     setLoading(false);
   };
 
   const loadMembers = async () => {
     if (!selectedCommunity) return;
 
-    const { data } = await supabase
-      .from('community_members')
-      .select('id, role, user_id, profiles(display_name, avatar_url)')
-      .eq('community_id', selectedCommunity.id);
+    // Use RPC function to avoid RLS issues
+    const { data, error } = await supabase
+      .rpc('get_circle_members', { circle_id: selectedCommunity.id });
 
-    if (data) setMembers(data as any);
+    if (error) {
+      console.error('Error loading members:', error);
+    } else if (data) {
+      // Transform RPC response to match CommunityMember interface
+      setMembers(data.map((m: any) => ({
+        id: m.id,
+        role: m.role,
+        user_id: m.user_id,
+        profiles: {
+          display_name: m.display_name,
+          avatar_url: m.avatar_url
+        }
+      })));
+    }
   };
 
   const createCommunity = async (e: React.FormEvent) => {
