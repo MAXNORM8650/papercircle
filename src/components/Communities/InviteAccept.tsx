@@ -77,23 +77,34 @@ export function InviteAccept({ inviteCode, onSuccess }: InviteAcceptProps) {
     setAccepting(true);
     setError(null);
 
-    const { data, error } = await supabase.rpc('accept_circle_invitation', {
-      invitation_code: inviteCode,
-    });
+    try {
+      const { data, error } = await supabase.rpc('accept_circle_invitation', {
+        invitation_code: inviteCode,
+      });
 
-    if (error) {
-      setError(error.message);
+      console.log('Accept invitation response:', { data, error });
+
+      if (error) {
+        console.error('RPC error:', error);
+        setError(error.message);
+        setAccepting(false);
+        return;
+      }
+
+      if (data && !data.success) {
+        console.error('Acceptance failed:', data.error);
+        setError(data.error || 'Failed to accept invitation');
+        setAccepting(false);
+        return;
+      }
+
+      console.log('Invitation accepted successfully');
+      onSuccess();
+    } catch (err) {
+      console.error('Unexpected error:', err);
+      setError('An unexpected error occurred. Please try again.');
       setAccepting(false);
-      return;
     }
-
-    if (data && !data.success) {
-      setError(data.error || 'Failed to accept invitation');
-      setAccepting(false);
-      return;
-    }
-
-    onSuccess();
   };
 
   if (loading) {

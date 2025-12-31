@@ -109,14 +109,25 @@ export function CircleDetailView({ communityId, onBack }: CircleDetailViewProps)
       setIsAdmin(user?.id === communityData.created_by);
     }
 
-    const { data: membersData } = await supabase
-      .from('community_members')
-      .select('id, user_id, role, joined_at, profile:profiles(display_name, avatar_url, email)')
-      .eq('community_id', communityId)
-      .order('joined_at');
+    // Use RPC function to avoid RLS recursion issues
+    const { data: membersData, error: membersError } = await supabase
+      .rpc('get_circle_members', { circle_id: communityId });
 
-    if (membersData) {
-      setMembers(membersData as any);
+    if (membersError) {
+      console.error('Error loading members:', membersError);
+    } else if (membersData) {
+      // Transform RPC response to match Member interface
+      setMembers(membersData.map((m: any) => ({
+        id: m.id,
+        user_id: m.user_id,
+        role: m.role,
+        joined_at: m.joined_at,
+        profile: {
+          display_name: m.display_name,
+          avatar_url: m.avatar_url,
+          email: m.email
+        }
+      })));
     }
 
     if (user?.id === communityData?.created_by) {
