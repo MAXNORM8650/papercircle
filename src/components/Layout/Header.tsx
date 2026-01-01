@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Search, Calendar, User, LogOut, BarChart3, Users } from 'lucide-react';
+import { Search, Calendar, User, LogOut, BarChart3, Users, Settings } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import { AuthModal } from '../Auth/AuthModal';
 
@@ -91,6 +91,16 @@ export function Header({ onNavigate, currentView }: HeaderProps) {
                           <span>Admin</span>
                         </button>
                       )}
+                      <button
+                        onClick={() => {
+                          onNavigate('settings');
+                          setUserMenuOpen(false);
+                        }}
+                        className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 flex items-center space-x-2"
+                      >
+                        <Settings className="h-4 w-4" />
+                        <span>Settings</span>
+                      </button>
                       <hr className="my-1" />
                       <button
                         onClick={() => {

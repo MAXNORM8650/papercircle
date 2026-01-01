@@ -51,7 +51,7 @@ if not SUPABASE_SERVICE_KEY:
     print("⚠️  Warning: Using anon key instead of service role key. Some operations may fail due to RLS.")
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
 
-# Paper Mind Graph config
+# Paper Mind Graph config (default)
 PMG_CONFIG = Config(
     api_base=os.getenv("OLLAMA_API_BASE", "http://10.127.30.115:11434"),
     model_id=os.getenv("OLLAMA_MODEL", "ollama_chat/qwen3-coder:30b"),
@@ -61,11 +61,50 @@ PMG_CONFIG = Config(
 )
 
 # ============================================================================
+# Helper Functions
+# ============================================================================
+
+def get_user_llm_config(user_id: Optional[str]) -> Config:
+    """
+    Get LLM configuration for a specific user.
+    Returns user's custom config if enabled, otherwise returns default config.
+    """
+    if not user_id:
+        return PMG_CONFIG
+
+    try:
+        # Fetch user's LLM settings from database
+        result = supabase.table('profiles').select(
+            'llm_enabled, llm_provider, llm_api_base, llm_model_id, llm_api_key'
+        ).eq('id', user_id).single().execute()
+
+        if not result.data or not result.data.get('llm_enabled'):
+            # User doesn't have custom config or it's disabled
+            return PMG_CONFIG
+
+        # Build custom config
+        custom_config = Config(
+            api_base=result.data.get('llm_api_base') or PMG_CONFIG.api_base,
+            model_id=result.data.get('llm_model_id') or PMG_CONFIG.model_id,
+            num_ctx=8192,
+            cache_dir="./paper_cache",
+            max_chunk_size=1500,
+        )
+
+        print(f"✓ Using custom LLM config for user {user_id}: {custom_config.api_base} / {custom_config.model_id}")
+        return custom_config
+
+    except Exception as e:
+        print(f"⚠️  Error loading user LLM config: {e}. Using default config.")
+        return PMG_CONFIG
+
+# ============================================================================
 # Request/Response Models
 # ============================================================================
 
 class AnalyzePaperRequest(BaseModel):
     paper_id: str
+    user_id: Optional[str] = None  # For user-specific LLM config
     community_id: Optional[str] = None
     session_id: Optional[str] = None
     force_reanalyze: bool = False
@@ -204,9 +243,12 @@ def analyze_paper_internal(
     """Internal function to analyze a paper."""
     start_time = time.time()
 
+    # Get user-specific LLM config
+    config = get_user_llm_config(user_id)
+
     # Create PaperMindGraph instance
     print(f"Analyzing paper: {paper_url}")
-    pmg = PaperMindGraph(paper_url, config=PMG_CONFIG, verbose=True)
+    pmg = PaperMindGraph(paper_url, config=config, verbose=True)
 
     # Export to different formats
     markdown = pmg.to_markdown()
@@ -268,8 +310,11 @@ def analyze_from_url_internal(
         print(f"🔍 Starting URL analysis: {paper_url}")
         start_time = time.time()
 
+        # Get user-specific LLM config
+        config = get_user_llm_config(user_id)
+
         # Analyze with paper_mind_graph
-        pmg = PaperMindGraph(paper_url, config=PMG_CONFIG, verbose=True)
+        pmg = PaperMindGraph(paper_url, config=config, verbose=True)
 
         # Export to different formats
         markdown = pmg.to_markdown()
@@ -393,7 +438,6 @@ async def analyze_from_url(
 async def analyze_paper(
     request: AnalyzePaperRequest,
     background_tasks: BackgroundTasks,
-    user_id: str = "system",  # TODO: Get from auth header
 ):
     """
     Analyze a single paper using paper_mind_graph.
@@ -440,7 +484,7 @@ async def analyze_paper(
             analyze_paper_internal,
             request.paper_id,
             paper_url,
-            user_id,
+            request.user_id or "system",  # Use user's LLM config if provided
             request.community_id,
             request.session_id,
         )

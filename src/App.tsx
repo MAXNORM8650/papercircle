@@ -13,8 +13,9 @@ import { CircleManagement } from './components/Communities/CircleManagement';
 import { InviteAccept } from './components/Communities/InviteAccept';
 import { InviteAcceptSession } from './components/Sessions/InviteAcceptSession';
 import { CompleteProfileModal } from './components/Auth/CompleteProfileModal';
+import { LLMSettings } from './components/Settings/LLMSettings';
 
-type View = 'discover' | 'sessions' | 'circles' | 'lineage' | 'dashboard' | 'admin' | 'paper-detail' | 'session-detail' | 'invite' | 'session-invite';
+type View = 'discover' | 'sessions' | 'circles' | 'lineage' | 'dashboard' | 'admin' | 'settings' | 'paper-detail' | 'session-detail' | 'invite' | 'session-invite';
 
 function AppContent() {
   const { needsProfile } = useAuth();
@@ -80,6 +81,8 @@ function AppContent() {
         return <DashboardView />;
       case 'admin':
         return <AdminView />;
+      case 'settings':
+        return <LLMSettings />;
       case 'invite':
         return inviteCode ? (
           <InviteAccept
