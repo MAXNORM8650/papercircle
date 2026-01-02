@@ -144,9 +144,11 @@ export async function searchArxivDirect(params: ArxivSearchParams): Promise<Arxi
   const sortBy = params.sortBy || 'submittedDate';
   const sortOrder = params.sortOrder || 'descending';
 
-  // Use local CORS proxy to avoid CORS issues
-  // Make sure arxiv-proxy server is running on port 3001
-  const proxyUrl = import.meta.env.VITE_ARXIV_PROXY_URL || 'http://localhost:3001/api/arxiv';
+  // Use CORS proxy
+  // Production: Uses Vercel serverless function at /api/arxiv
+  // Development: Uses local proxy at localhost:3001
+  const proxyUrl = import.meta.env.VITE_ARXIV_PROXY_URL ||
+    (import.meta.env.DEV ? 'http://localhost:3001/api/arxiv' : '/api/arxiv');
 
   // Build query params, use 'all' if no specific query provided
   const finalQuery = searchQuery || 'all';
@@ -179,7 +181,7 @@ export async function searchArxivDirect(params: ArxivSearchParams): Promise<Arxi
       console.error('Proxy error response:', errorText);
 
       if (response.status === 0 || !response.status) {
-        throw new Error('Cannot connect to arXiv proxy server. Please make sure it is running on http://localhost:3001. Run: npm install --prefix . express cors node-fetch && node arxiv-proxy.js');
+        throw new Error('Cannot connect to arXiv proxy server. In development, make sure to run: npm run dev');
       }
 
       throw new Error(`Proxy returned status ${response.status}: ${errorText.substring(0, 200)}`);
