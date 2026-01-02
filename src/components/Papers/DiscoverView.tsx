@@ -7,7 +7,6 @@ import type { Database } from '../../lib/database.types';
 import { searchArxivDirect, groupPapersByDate, formatDateDisplay, type ArxivPaper as ArxivPaperType } from '../../lib/arxivClient';
 import { AIDiscoveryViewNew as AIDiscoveryView } from './AIDiscoveryViewNew';
 import { SearchTagsSelector } from './SearchTagsSelector';
-import { CommunityPapersTab } from './CommunityPapersTab';
 
 type Paper = Database['public']['Tables']['papers']['Row'];
 type Topic = Database['public']['Tables']['topics']['Row'];
@@ -68,7 +67,7 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
   const [loading, setLoading] = useState(true);
   const [searching, setSearching] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
-  const [searchSource, setSearchSource] = useState<'local' | 'arxiv' | 'ai-discovery' | 'community-papers'>('local');
+  const [searchSource, setSearchSource] = useState<'local' | 'arxiv' | 'ai-discovery'>('local');
   const [discoveryMode, setDiscoveryMode] = useState<'stable' | 'discovery' | 'balanced'>('balanced');
   const [applyDiversity, setApplyDiversity] = useState(true);
   const [discoveryApiUrl, setDiscoveryApiUrl] = useState('http://localhost:8000');
@@ -612,7 +611,7 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      {searchSource !== 'ai-discovery' && searchSource !== 'community-papers' && (
+      {searchSource !== 'ai-discovery' && (
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Discover Papers</h1>
           <p className="text-gray-600">Explore papers from your community library or search arXiv in realtime</p>
@@ -663,24 +662,9 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
               <Sparkles className="h-4 w-4" />
               <span className="font-medium">AI Discovery</span>
             </button>
-            <button
-              onClick={() => {
-                setSearchSource('community-papers');
-              }}
-              className={`px-4 py-2 flex items-center space-x-2 transition-colors ${
-                searchSource === 'community-papers'
-                  ? 'bg-green-600 text-white'
-                  : 'bg-white text-gray-700 hover:bg-gray-50'
-              }`}
-            >
-              <Users className="h-4 w-4" />
-              <span className="font-medium">Community Papers</span>
-            </button>
           </div>
 
-          {searchSource !== 'community-papers' && (
-            <>
-              <div className="flex-1 relative">
+          <div className="flex-1 relative">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
                 <input
                   type="text"
@@ -721,8 +705,6 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
                   <span className="text-sm text-gray-700">{showFilters ? 'Hide' : 'Show'} Filters</span>
                 </button>
               )}
-            </>
-          )}
         </div>
 
         {searchSource === 'ai-discovery' && (
@@ -976,9 +958,7 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
 
       </div>
 
-      {searchSource === 'community-papers' ? (
-        <CommunityPapersTab onSelectPaper={onSelectPaper} />
-      ) : searching || loading ? (
+      {searching || loading ? (
         <div className="text-center py-12">
           <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
           <p className="mt-2 text-gray-600">
