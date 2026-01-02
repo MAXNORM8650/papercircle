@@ -574,3 +574,97 @@ export interface Database {
     };
   };
 }
+
+// ============================================================================
+// Community Papers Types
+// ============================================================================
+
+export type CommunityPaperSource = 'conference_db' | 'research_run' | 'ai_discovery' | 'arxiv';
+
+export interface CommunityPaper {
+  id: string;
+  paper_id: string;
+  title: string;
+  authors: string[];
+  abstract: string;
+  year: number | null;
+  venue: string | null;
+  conference: string | null;
+  source: CommunityPaperSource;
+  pdf_url: string | null;
+  arxiv_id: string | null;
+
+  // Engagement metrics
+  like_count: number;
+  view_count: number;
+  save_count: number;
+  discussion_count: number;
+
+  // Research run scores (if from research_output runs)
+  combined_score: number | null;
+  similarity_score: number | null;
+  novelty_score: number | null;
+  recency_score: number | null;
+
+  // Conference metadata (if from database)
+  track: string | null;
+  paper_status: string | null;
+  primary_area: string | null;
+  keywords: string[] | null;
+  tldr: string | null;
+  rating_avg: number | null;
+  confidence_avg: number | null;
+  bibtex: string | null;
+  github_url: string | null;
+  project_url: string | null;
+
+  // Import metadata
+  run_timestamp: string | null;
+  query: string | null;
+  share_token: string | null;
+  imported_at: string;
+}
+
+export interface CommunityFilters {
+  year: number | null;
+  venue: string | null;
+  source: CommunityPaperSource | null;
+  track: string | null;
+  status: string | null;
+  primaryArea: string | null;
+  minRating: number | null;
+  keywords: string;
+  sortBy: 'imported_at' | 'recency' | 'rating' | 'likes' | 'views' | 'combined_score';
+}
+
+export interface CommunityFilterOptions {
+  years: number[];
+  conferences: string[];
+  sources: string[];
+  tracks: string[];
+  statuses: string[];
+  primaryAreas: string[];
+}
+
+export interface CommunityPapersPaginatedResponse {
+  papers: CommunityPaper[];
+  total: number;
+  page: number;
+  limit: number;
+  total_pages: number;
+}
+
+export interface SyncRun {
+  id: string;
+  run_timestamp: string;
+  source_type: 'research_output' | 'conference_db' | 'full';
+  query: string | null;
+  papers_imported: number;
+  papers_skipped: number;
+  papers_updated: number;
+  status: 'pending' | 'running' | 'completed' | 'failed';
+  error_message: string | null;
+  started_at: string | null;
+  completed_at: string | null;
+  created_at: string;
+}

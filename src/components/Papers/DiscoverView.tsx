@@ -7,6 +7,7 @@ import type { Database } from '../../lib/database.types';
 import { searchArxivDirect, groupPapersByDate, formatDateDisplay, type ArxivPaper as ArxivPaperType } from '../../lib/arxivClient';
 import { AIDiscoveryViewNew as AIDiscoveryView } from './AIDiscoveryViewNew';
 import { SearchTagsSelector } from './SearchTagsSelector';
+import { CommunityPapersTab } from './CommunityPapersTab';
 
 type Paper = Database['public']['Tables']['papers']['Row'];
 type Topic = Database['public']['Tables']['topics']['Row'];
@@ -67,7 +68,7 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
   const [loading, setLoading] = useState(true);
   const [searching, setSearching] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
-  const [searchSource, setSearchSource] = useState<'local' | 'arxiv' | 'ai-discovery'>('local');
+  const [searchSource, setSearchSource] = useState<'local' | 'arxiv' | 'ai-discovery' | 'community-papers'>('local');
   const [discoveryMode, setDiscoveryMode] = useState<'stable' | 'discovery' | 'balanced'>('balanced');
   const [applyDiversity, setApplyDiversity] = useState(true);
   const [discoveryApiUrl, setDiscoveryApiUrl] = useState('http://localhost:8000');
@@ -611,7 +612,7 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      {searchSource !== 'ai-discovery' && (
+      {searchSource !== 'ai-discovery' && searchSource !== 'community-papers' && (
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Discover Papers</h1>
           <p className="text-gray-600">Explore papers from your community library or search arXiv in realtime</p>
@@ -662,48 +663,65 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
               <Sparkles className="h-4 w-4" />
               <span className="font-medium">AI Discovery</span>
             </button>
+            <button
+              onClick={() => {
+                setSearchSource('community-papers');
+              }}
+              className={`px-4 py-2 flex items-center space-x-2 transition-colors ${
+                searchSource === 'community-papers'
+                  ? 'bg-green-600 text-white'
+                  : 'bg-white text-gray-700 hover:bg-gray-50'
+              }`}
+            >
+              <Users className="h-4 w-4" />
+              <span className="font-medium">Community Papers</span>
+            </button>
           </div>
 
-          <div className="flex-1 relative">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
-              placeholder={
-                searchSource === 'arxiv'
-                  ? 'Search arXiv (use commas for multiple keywords: "transformer, attention, vision")'
-                  : searchSource === 'ai-discovery'
-                  ? 'Describe your research interest (e.g., "efficient finetuning methods for large language models")'
-                  : 'Search community papers by title, author, or keywords...'
-              }
-              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            />
-          </div>
-          <button
-            onClick={handleSearch}
-            disabled={(searching || loading) && !(searchSource === 'ai-discovery' && aiDiscoveryLoading)}
-            className={`px-6 py-3 text-white rounded-lg transition-colors font-medium ${
-              searchSource === 'ai-discovery' && aiDiscoveryLoading
-                ? 'bg-red-600 hover:bg-red-700'
-                : 'bg-blue-600 hover:bg-blue-700 disabled:opacity-50'
-            }`}
-          >
-            {searchSource === 'ai-discovery' && aiDiscoveryLoading
-              ? 'Stop'
-              : searching || loading
-              ? 'Searching...'
-              : 'Search'}
-          </button>
-          {(searchSource === 'arxiv' || searchSource === 'local') && (
-            <button
-              onClick={() => setShowFilters(!showFilters)}
-              className="px-4 py-3 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors flex items-center gap-2"
-            >
-              <Filter className="h-5 w-5 text-gray-600" />
-              <span className="text-sm text-gray-700">{showFilters ? 'Hide' : 'Show'} Filters</span>
-            </button>
+          {searchSource !== 'community-papers' && (
+            <>
+              <div className="flex-1 relative">
+                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
+                  placeholder={
+                    searchSource === 'arxiv'
+                      ? 'Search arXiv (use commas for multiple keywords: "transformer, attention, vision")'
+                      : searchSource === 'ai-discovery'
+                      ? 'Describe your research interest (e.g., "efficient finetuning methods for large language models")'
+                      : 'Search community papers by title, author, or keywords...'
+                  }
+                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                />
+              </div>
+              <button
+                onClick={handleSearch}
+                disabled={(searching || loading) && !(searchSource === 'ai-discovery' && aiDiscoveryLoading)}
+                className={`px-6 py-3 text-white rounded-lg transition-colors font-medium ${
+                  searchSource === 'ai-discovery' && aiDiscoveryLoading
+                    ? 'bg-red-600 hover:bg-red-700'
+                    : 'bg-blue-600 hover:bg-blue-700 disabled:opacity-50'
+                }`}
+              >
+                {searchSource === 'ai-discovery' && aiDiscoveryLoading
+                  ? 'Stop'
+                  : searching || loading
+                  ? 'Searching...'
+                  : 'Search'}
+              </button>
+              {(searchSource === 'arxiv' || searchSource === 'local') && (
+                <button
+                  onClick={() => setShowFilters(!showFilters)}
+                  className="px-4 py-3 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors flex items-center gap-2"
+                >
+                  <Filter className="h-5 w-5 text-gray-600" />
+                  <span className="text-sm text-gray-700">{showFilters ? 'Hide' : 'Show'} Filters</span>
+                </button>
+              )}
+            </>
           )}
         </div>
 
@@ -958,7 +976,9 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
 
       </div>
 
-      {searching || loading ? (
+      {searchSource === 'community-papers' ? (
+        <CommunityPapersTab onSelectPaper={onSelectPaper} />
+      ) : searching || loading ? (
         <div className="text-center py-12">
           <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
           <p className="mt-2 text-gray-600">

@@ -1,4 +1,4 @@
-import { Heart, MessageCircle, Bookmark, Eye, ExternalLink, Users } from 'lucide-react';
+import { Heart, MessageCircle, Bookmark, Eye, ExternalLink, Users, Share2 } from 'lucide-react';
 import { usePaperEngagement } from '../../hooks/usePaperEngagement';
 import { useEffect } from 'react';
 
@@ -18,10 +18,12 @@ interface PaperCardProps {
   communityId?: string;
   onSelectPaper?: (paperId: string) => void;
   onAddToCircle?: (paperId: string) => void;
+  onShare?: (paperId: string) => void;
   showAddToCircle?: boolean;
+  showShare?: boolean;
 }
 
-export function PaperCard({ paper, communityId, onSelectPaper, onAddToCircle, showAddToCircle = false }: PaperCardProps) {
+export function PaperCard({ paper, communityId, onSelectPaper, onAddToCircle, onShare, showAddToCircle = false, showShare = false }: PaperCardProps) {
   const { stats, userEngagement, toggleLike, toggleSave, recordView } = usePaperEngagement(paper.id, communityId);
 
   // Record view when card is displayed
@@ -155,6 +157,16 @@ export function PaperCard({ paper, communityId, onSelectPaper, onAddToCircle, sh
               >
                 <Users className="w-3 h-3" />
                 Add to Circle
+              </button>
+            )}
+
+            {showShare && onShare && (
+              <button
+                onClick={() => onShare(paper.id)}
+                className="inline-flex items-center gap-1 px-3 py-1 text-sm bg-green-50 text-green-700 rounded-lg hover:bg-green-100 transition-colors"
+              >
+                <Share2 className="w-3 h-3" />
+                Share
               </button>
             )}
 
