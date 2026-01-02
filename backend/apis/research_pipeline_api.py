@@ -235,8 +235,8 @@ async def stream_pipeline_progress(
         executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)
         future = loop.run_in_executor(executor, pipeline.run, enhanced_query)
 
-        # Register active session
-        active_sessions[timestamp] = future
+        # Register active session with both future and executor for cancellation
+        active_sessions[timestamp] = {'future': future, 'executor': executor}
 
         # Monitor output directory while pipeline runs
         last_paper_count = 0
@@ -499,14 +499,34 @@ async def cancel_research(timestamp: str):
     """
     Cancel an active research session.
 
-    Note: The backend thread cannot be forcibly stopped, but this will:
-    1. Mark the session as cancelled
-    2. Stop monitoring and streaming updates
-    3. Clean up session tracking
+    Attempts to cancel the running pipeline future.
+    Note: Already-started agent steps may complete before cancellation takes effect.
     """
     if timestamp in active_sessions:
+        session = active_sessions[timestamp]
+        future = session['future']
+        executor = session['executor']
         cancelled_sessions.add(timestamp)
-        return {"status": "cancelling", "message": f"Cancellation requested for {timestamp}"}
+
+        # Try to cancel the future (works if it hasn't started executing yet)
+        if not future.done():
+            cancelled = future.cancel()
+            if cancelled:
+                print(f"✅ Successfully cancelled future for {timestamp}")
+                executor.shutdown(wait=False, cancel_futures=True)
+                active_sessions.pop(timestamp, None)
+                return {"status": "cancelled", "message": f"Research {timestamp} cancelled successfully"}
+            else:
+                print(f"⚠️  Could not cancel future for {timestamp} (already running)")
+                # Force shutdown the executor to terminate the running thread
+                executor.shutdown(wait=False, cancel_futures=True)
+                active_sessions.pop(timestamp, None)
+                return {"status": "force_cancelled", "message": f"Research {timestamp} executor shut down. Process terminated."}
+        else:
+            print(f"ℹ️  Future for {timestamp} already completed")
+            executor.shutdown(wait=False)
+            active_sessions.pop(timestamp, None)
+            return {"status": "already_complete", "message": f"Research {timestamp} already completed"}
     else:
         return {"status": "not_found", "message": f"No active session found for {timestamp}"}
 
