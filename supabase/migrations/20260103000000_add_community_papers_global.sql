@@ -8,7 +8,7 @@
 CREATE TABLE IF NOT EXISTS community_papers_global (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   paper_id UUID REFERENCES papers(id) ON DELETE CASCADE NOT NULL,
-  run_timestamp TEXT,  -- YYYYMMDD_HHMMSS from folder name (null for conference_db)
+  run_timestamp TEXT DEFAULT 'static',  -- YYYYMMDD_HHMMSS from folder name ('static' for conference_db)
   source TEXT NOT NULL CHECK (source IN ('conference_db', 'research_run', 'ai_discovery', 'arxiv')),
   rank INTEGER,
   similarity_score NUMERIC(10, 6),
@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS community_papers_global (
   query TEXT,  -- Original search query (for research runs)
   share_token TEXT UNIQUE,  -- For public sharing URLs
   imported_at TIMESTAMPTZ DEFAULT NOW(),
-  UNIQUE(paper_id, COALESCE(run_timestamp, 'static'))  -- Allow paper to appear in multiple runs
+  UNIQUE(paper_id, run_timestamp)  -- Allow paper to appear in multiple runs
 );
 
 -- =====================================================
