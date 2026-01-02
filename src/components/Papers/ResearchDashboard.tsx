@@ -445,70 +445,71 @@ const ResearchDashboard: React.FC<ResearchDashboardProps> = ({ timestamp, onBack
 
           {/* Summary Stats */}
           {summary && (
-            <div className="mt-4 grid grid-cols-2 md:grid-cols-4 gap-4">
-              <div className="bg-blue-50 rounded-lg p-3">
-                <div className="flex items-center gap-2 text-blue-700 mb-1">
-                  <BookOpen className="w-4 h-4" />
-                  <span className="text-xs font-medium">Total Papers</span>
+            <>
+              <div className="mt-4 grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="bg-blue-50 rounded-lg p-3">
+                  <div className="flex items-center gap-2 text-blue-700 mb-1">
+                    <BookOpen className="w-4 h-4" />
+                    <span className="text-xs font-medium">Total Papers</span>
+                  </div>
+                  <p className="text-2xl font-bold text-blue-900">{summary.summary.total_papers}</p>
                 </div>
-                <p className="text-2xl font-bold text-blue-900">{summary.summary.total_papers}</p>
-              </div>
-              <div className="bg-purple-50 rounded-lg p-3">
-                <div className="flex items-center gap-2 text-purple-700 mb-1">
-                  <Calendar className="w-4 h-4" />
-                  <span className="text-xs font-medium">Year Range</span>
+                <div className="bg-purple-50 rounded-lg p-3">
+                  <div className="flex items-center gap-2 text-purple-700 mb-1">
+                    <Calendar className="w-4 h-4" />
+                    <span className="text-xs font-medium">Year Range</span>
+                  </div>
+                  <p className="text-2xl font-bold text-purple-900">
+                    {summary.summary.year_range.min}-{summary.summary.year_range.max}
+                  </p>
                 </div>
-                <p className="text-2xl font-bold text-purple-900">
-                  {summary.summary.year_range.min}-{summary.summary.year_range.max}
-                </p>
-              </div>
-              <div className="bg-green-50 rounded-lg p-3">
-                <div className="flex items-center gap-2 text-green-700 mb-1">
-                  <TrendingUp className="w-4 h-4" />
-                  <span className="text-xs font-medium">Avg Citations</span>
+                <div className="bg-green-50 rounded-lg p-3">
+                  <div className="flex items-center gap-2 text-green-700 mb-1">
+                    <TrendingUp className="w-4 h-4" />
+                    <span className="text-xs font-medium">Avg Citations</span>
+                  </div>
+                  <p className="text-2xl font-bold text-green-900">
+                    {summary.summary.citation_summary.average.toFixed(1)}
+                  </p>
                 </div>
-                <p className="text-2xl font-bold text-green-900">
-                  {summary.summary.citation_summary.average.toFixed(1)}
-                </p>
-              </div>
-              <div className="bg-orange-50 rounded-lg p-3">
-                <div className="flex items-center gap-2 text-orange-700 mb-1">
-                  <FileText className="w-4 h-4" />
-                  <span className="text-xs font-medium">With PDF</span>
+                <div className="bg-orange-50 rounded-lg p-3">
+                  <div className="flex items-center gap-2 text-orange-700 mb-1">
+                    <FileText className="w-4 h-4" />
+                    <span className="text-xs font-medium">With PDF</span>
+                  </div>
+                  <p className="text-2xl font-bold text-orange-900">
+                    {summary.summary.papers_with_pdf}
+                  </p>
                 </div>
-                <p className="text-2xl font-bold text-orange-900">
-                  {summary.summary.papers_with_pdf}
-                </p>
               </div>
-            </div>
 
-            {/* Key Insights Section */}
-            {summary && summary.insights && summary.insights.length > 0 && (
-              <div className="mt-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg border border-purple-200 p-4">
-                <div className="flex items-center gap-2 mb-3">
-                  <Sparkles className="w-5 h-5 text-purple-600" />
-                  <h3 className="font-semibold text-gray-900">Key Insights</h3>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                  {summary.insights.slice(0, 6).map((insight, idx) => (
-                    <div key={idx} className="bg-white rounded-lg p-3 border border-purple-100">
-                      <div className="flex items-start gap-2">
-                        {insight.type === 'citation' && <Award className="w-4 h-4 text-yellow-600 mt-0.5" />}
-                        {insight.type === 'author' && <Users className="w-4 h-4 text-blue-600 mt-0.5" />}
-                        {insight.type === 'trend' && <TrendingUp className="w-4 h-4 text-green-600 mt-0.5" />}
-                        {insight.type === 'source' && <BookOpen className="w-4 h-4 text-purple-600 mt-0.5" />}
-                        {insight.type === 'keywords' && <Tag className="w-4 h-4 text-indigo-600 mt-0.5" />}
-                        {insight.type === 'availability' && <FileText className="w-4 h-4 text-orange-600 mt-0.5" />}
-                        <div className="flex-1">
-                          <p className="text-xs font-semibold text-gray-700 mb-1">{String(insight.title || '')}</p>
-                          <p className="text-xs text-gray-600">{String(insight.message || '')}</p>
+              {summary.insights && summary.insights.length > 0 && (
+                <div className="mt-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg border border-purple-200 p-4">
+                  <div className="flex items-center gap-2 mb-3">
+                    <Sparkles className="w-5 h-5 text-purple-600" />
+                    <h3 className="font-semibold text-gray-900">Key Insights</h3>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                    {summary.insights.slice(0, 6).map((insight, idx) => (
+                      <div key={idx} className="bg-white rounded-lg p-3 border border-purple-100">
+                        <div className="flex items-start gap-2">
+                          {insight.type === 'citation' && <Award className="w-4 h-4 text-yellow-600 mt-0.5" />}
+                          {insight.type === 'author' && <Users className="w-4 h-4 text-blue-600 mt-0.5" />}
+                          {insight.type === 'trend' && <TrendingUp className="w-4 h-4 text-green-600 mt-0.5" />}
+                          {insight.type === 'source' && <BookOpen className="w-4 h-4 text-purple-600 mt-0.5" />}
+                          {insight.type === 'keywords' && <Tag className="w-4 h-4 text-indigo-600 mt-0.5" />}
+                          {insight.type === 'availability' && <FileText className="w-4 h-4 text-orange-600 mt-0.5" />}
+                          <div className="flex-1">
+                            <p className="text-xs font-semibold text-gray-700 mb-1">{String(insight.title || '')}</p>
+                            <p className="text-xs text-gray-600">{String(insight.message || '')}</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  ))}
+                    ))}
+                  </div>
                 </div>
-              </div>
-            )}
+              )}
+            </>
           )}
         </div>
       </div>
@@ -898,6 +899,7 @@ const ResearchDashboard: React.FC<ResearchDashboardProps> = ({ timestamp, onBack
                   </div>
                 ))}
               </div>
+              </>
             )}
           </div>
         </div>
