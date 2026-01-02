@@ -7,6 +7,7 @@ import type { Database } from '../../lib/database.types';
 import { searchArxivDirect, groupPapersByDate, formatDateDisplay, type ArxivPaper as ArxivPaperType } from '../../lib/arxivClient';
 import { AIDiscoveryViewNew as AIDiscoveryView } from './AIDiscoveryViewNew';
 import { SearchTagsSelector } from './SearchTagsSelector';
+import { CommunityPapersTab } from './CommunityPapersTab';
 
 type Paper = Database['public']['Tables']['papers']['Row'];
 type Topic = Database['public']['Tables']['topics']['Row'];
@@ -471,7 +472,7 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
       return;
     }
 
-    // Create new paper
+    // Create new paper with import_source
     const { data, error } = await supabase
       .from('papers')
       .insert({
@@ -481,12 +482,22 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
         abstract: arxivPaper.summary,
         year,
         pdf_url: arxivPaper.pdfLink,
+        import_source: 'arxiv',
         metadata: { categories: arxivPaper.categories },
       })
       .select()
       .single();
 
     if (data && !error) {
+      // Add to community_papers_global for global feed visibility
+      await supabase
+        .from('community_papers_global')
+        .upsert({
+          paper_id: data.id,
+          source: 'arxiv',
+          run_timestamp: 'manual_import',
+        }, { onConflict: 'paper_id,run_timestamp' });
+
       // Add to community if specified
       if (communityId) {
         await addPaperToCommunity(data.id, communityId);
@@ -529,11 +540,12 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
           .maybeSingle();
 
         let paperId: string;
+        let isNewPaper = false;
 
         if (existing) {
           paperId = existing.id;
         } else {
-          // Create new paper
+          // Create new paper with import_source
           const { data: newPaper, error: insertError } = await supabase
             .from('papers')
             .insert({
@@ -543,6 +555,7 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
               abstract: paper.summary,
               year,
               pdf_url: paper.pdfLink,
+              import_source: 'arxiv',
               metadata: {
                 categories: paper.categories,
                 discovered_from: 'arxiv_search',
@@ -554,6 +567,23 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
 
           if (insertError || !newPaper) continue;
           paperId = newPaper.id;
+          isNewPaper = true;
+        }
+
+        // Add to community_papers_global for global feed visibility
+        if (isNewPaper) {
+          const { error: globalError } = await supabase
+            .from('community_papers_global')
+            .upsert({
+              paper_id: paperId,
+              source: 'arxiv',
+              run_timestamp: 'live_search',
+              query: searchQuery || null,
+            }, { onConflict: 'paper_id,run_timestamp' });
+
+          if (globalError) {
+            console.warn('Could not add to community_papers_global:', globalError);
+          }
         }
 
         // Check if already in community
@@ -611,7 +641,7 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      {searchSource !== 'ai-discovery' && (
+      {searchSource !== 'ai-discovery' && searchSource !== 'local' && (
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Discover Papers</h1>
           <p className="text-gray-600">Explore papers from your community library or search arXiv in realtime</p>
@@ -664,7 +694,9 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
             </button>
           </div>
 
-          <div className="flex-1 relative">
+          {searchSource !== 'local' && (
+            <>
+              <div className="flex-1 relative">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
                 <input
                   type="text"
@@ -674,9 +706,7 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
                   placeholder={
                     searchSource === 'arxiv'
                       ? 'Search arXiv (use commas for multiple keywords: "transformer, attention, vision")'
-                      : searchSource === 'ai-discovery'
-                      ? 'Describe your research interest (e.g., "efficient finetuning methods for large language models")'
-                      : 'Search community papers by title, author, or keywords...'
+                      : 'Describe your research interest (e.g., "efficient finetuning methods for large language models")'
                   }
                   className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                 />
@@ -696,7 +726,7 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
                   ? 'Searching...'
                   : 'Search'}
               </button>
-              {(searchSource === 'arxiv' || searchSource === 'local') && (
+              {searchSource === 'arxiv' && (
                 <button
                   onClick={() => setShowFilters(!showFilters)}
                   className="px-4 py-3 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors flex items-center gap-2"
@@ -705,6 +735,8 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
                   <span className="text-sm text-gray-700">{showFilters ? 'Hide' : 'Show'} Filters</span>
                 </button>
               )}
+            </>
+          )}
         </div>
 
         {searchSource === 'ai-discovery' && (
@@ -882,75 +914,6 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
               </button>
               <div className="text-sm text-gray-600">
                 {Object.values(arxivFilters).filter(v => v && v !== 'all').length} active filters
-              </div>
-            </div>
-          </div>
-        )}
-
-        {showFilters && searchSource === 'local' && (
-          <div className="bg-gray-50 p-4 rounded-lg space-y-4">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Topic
-                </label>
-                <select
-                  value={selectedTopic}
-                  onChange={(e) => setSelectedTopic(e.target.value)}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                >
-                  <option value="">All Topics</option>
-                  {topics.map((topic) => (
-                    <option key={topic.id} value={topic.id}>
-                      {topic.name}
-                    </option>
-                  ))}
-                </select>
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Year
-                </label>
-                <select
-                  value={yearFilter}
-                  onChange={(e) => setYearFilter(e.target.value)}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                >
-                  <option value="">All Years</option>
-                  {years.map((year) => (
-                    <option key={year} value={year}>
-                      {year}
-                    </option>
-                  ))}
-                </select>
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Sort By
-                </label>
-                <select
-                  value={sortBy}
-                  onChange={(e) => setSortBy(e.target.value as any)}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                >
-                  {searchSource === 'local' ? (
-                    <>
-                      <option value="recent">📅 Most Recent</option>
-                      <option value="citations">📚 Most Cited</option>
-                      <option value="influence">⭐ Highest Influence</option>
-                      <option value="trending">🔥 Trending Now</option>
-                      <option value="popularity">👀 Most Popular (Views)</option>
-                      <option value="engagement">❤️ Most Engagement (Likes)</option>
-                    </>
-                  ) : (
-                    <>
-                      <option value="relevance">🎯 Most Relevant</option>
-                      <option value="recent">📅 Most Recent</option>
-                    </>
-                  )}
-                </select>
               </div>
             </div>
           </div>
@@ -1266,123 +1229,9 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
             </>
           )}
         </div>
-      ) : (
-        <div className="space-y-4">
-          {papers.length === 0 ? (
-            <div className="text-center py-12 bg-gray-50 rounded-lg">
-              <DatabaseIcon className="h-12 w-12 text-gray-400 mx-auto mb-3" />
-              <p className="text-gray-600">No papers found in community library.</p>
-            </div>
-          ) : (
-            papers.map((paper) => (
-              <div
-                key={paper.id}
-                className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow cursor-pointer"
-                onClick={() => onSelectPaper(paper.id)}
-              >
-                <div className="flex justify-between items-start mb-3">
-                  <h3 className="text-xl font-semibold text-gray-900 flex-1 hover:text-blue-600 transition-colors">
-                    {paper.title}
-                  </h3>
-                  {user && (
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        savePaper(paper.id);
-                      }}
-                      className="ml-4 p-2 text-gray-400 hover:text-blue-600 transition-colors"
-                      title="Save paper"
-                    >
-                      <BookmarkPlus className="h-5 w-5" />
-                    </button>
-                  )}
-                </div>
-
-                <div className="flex items-center space-x-4 text-sm text-gray-600 mb-3">
-                  {Array.isArray(paper.authors) && paper.authors.length > 0 && (
-                    <span>{(paper.authors as any[]).slice(0, 3).join(', ')}{paper.authors.length > 3 ? ', et al.' : ''}</span>
-                  )}
-                  {paper.year && <span>{paper.year}</span>}
-                  {paper.venue && <span>{paper.venue}</span>}
-                  {paper.citation_count > 0 && (
-                    <span className="font-medium">{paper.citation_count} citations</span>
-                  )}
-                </div>
-
-                <div className="flex items-center gap-3 mb-3 flex-wrap">
-                  {paper.influence_score > 0 && (
-                    <div className="flex items-center space-x-1 px-2 py-1 bg-yellow-50 text-yellow-700 rounded text-xs font-medium">
-                      <TrendingUp className="h-3 w-3" />
-                      <span>Influence: {paper.influence_score.toFixed(1)}</span>
-                    </div>
-                  )}
-                  {paper.trending_score > 0 && (
-                    <div className="flex items-center space-x-1 px-2 py-1 bg-orange-50 text-orange-700 rounded text-xs font-medium">
-                      <BarChart3 className="h-3 w-3" />
-                      <span>Trending: {paper.trending_score.toFixed(1)}</span>
-                    </div>
-                  )}
-                  {paper.view_count > 0 && (
-                    <span className="px-2 py-1 bg-blue-50 text-blue-700 rounded text-xs font-medium">
-                      👀 {paper.view_count} views
-                    </span>
-                  )}
-                  {paper.save_count > 0 && (
-                    <span className="px-2 py-1 bg-purple-50 text-purple-700 rounded text-xs font-medium">
-                      💾 {paper.save_count} saves
-                    </span>
-                  )}
-                  {paper.like_count > 0 && (
-                    <span className="px-2 py-1 bg-green-50 text-green-700 rounded text-xs font-medium">
-                      ❤️ {paper.like_count} likes
-                    </span>
-                  )}
-                </div>
-
-                {paper.abstract && (
-                  <p className="text-gray-700 mb-4 line-clamp-3">{paper.abstract}</p>
-                )}
-
-                <div className="flex items-center space-x-3">
-                  {paper.pdf_url && (
-                    <a
-                      href={paper.pdf_url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      onClick={(e) => e.stopPropagation()}
-                      className="flex items-center space-x-1 text-sm text-blue-600 hover:text-blue-700"
-                    >
-                      <ExternalLink className="h-4 w-4" />
-                      <span>PDF</span>
-                    </a>
-                  )}
-                  {paper.code_url && (
-                    <a
-                      href={paper.code_url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      onClick={(e) => e.stopPropagation()}
-                      className="flex items-center space-x-1 text-sm text-blue-600 hover:text-blue-700"
-                    >
-                      <Code className="h-4 w-4" />
-                      <span>Code</span>
-                    </a>
-                  )}
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                    }}
-                    className="flex items-center space-x-1 text-sm text-blue-600 hover:text-blue-700"
-                  >
-                    <Calendar className="h-4 w-4" />
-                    <span>Add to Session</span>
-                  </button>
-                </div>
-              </div>
-            ))
-          )}
-        </div>
-      )}
+      ) : searchSource === 'local' ? (
+        <CommunityPapersTab onSelectPaper={onSelectPaper} />
+      ) : null}
 
       {/* Import Paper Modal */}
       {showImportModal && paperToImport && (
