@@ -27,6 +27,7 @@ interface AIDiscoveryViewProps {
   selectedTags?: string[];
   onSearchComplete?: (count: number) => void;
   onLoadingChange?: (loading: boolean) => void;
+  onStopFunctionReady?: (stopFn: () => void) => void;
 }
 
 export function AIDiscoveryViewNew({
@@ -34,7 +35,8 @@ export function AIDiscoveryViewNew({
   triggerSearch,
   selectedTags = [],
   onSearchComplete,
-  onLoadingChange
+  onLoadingChange,
+  onStopFunctionReady
 }: AIDiscoveryViewProps) {
   const { user } = useAuth();
   const { currentCommunity } = useCommunity();
@@ -67,6 +69,13 @@ export function AIDiscoveryViewNew({
       onLoadingChange(loading);
     }
   }, [loading, onLoadingChange]);
+
+  // Pass stop function to parent
+  useEffect(() => {
+    if (onStopFunctionReady) {
+      onStopFunctionReady(stopResearch);
+    }
+  }, [onStopFunctionReady]);
 
   // Cleanup polling on unmount
   useEffect(() => {
@@ -420,24 +429,15 @@ export function AIDiscoveryViewNew({
       {/* Loading State - Persistent and Detailed */}
       {loading && (
         <div className="bg-gradient-to-r from-blue-50 to-purple-50 border border-blue-200 rounded-lg p-6">
-          {/* Header with Spinner and Stop Button */}
-          <div className="flex items-center justify-between mb-4">
-            <div className="flex items-center gap-3">
-              <Loader2 className="w-7 h-7 animate-spin text-blue-600" />
-              <div>
-                <p className="text-lg font-bold text-blue-900">Research in Progress</p>
-                <p className="text-sm text-blue-700">
-                  {currentAgent ? `Running: ${currentAgent}` : 'Multi-agent pipeline is analyzing...'}
-                </p>
-              </div>
+          {/* Header with Spinner */}
+          <div className="flex items-center gap-3 mb-4">
+            <Loader2 className="w-7 h-7 animate-spin text-blue-600" />
+            <div>
+              <p className="text-lg font-bold text-blue-900">Research in Progress</p>
+              <p className="text-sm text-blue-700">
+                {currentAgent ? `Running: ${currentAgent}` : 'Multi-agent pipeline is analyzing...'}
+              </p>
             </div>
-            <button
-              onClick={stopResearch}
-              className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors flex items-center gap-2 font-medium"
-            >
-              <X className="w-4 h-4" />
-              Stop
-            </button>
           </div>
 
           {/* Progress Bar */}

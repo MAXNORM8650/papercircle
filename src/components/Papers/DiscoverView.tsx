@@ -974,6 +974,7 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
             console.log(`AI Discovery found ${count} papers`);
           }}
           onLoadingChange={setAiDiscoveryLoading}
+          onStopFunctionReady={setAiDiscoveryStopFn}
         />
       ) : searchSource === 'arxiv' ? (
         <div className="space-y-4">
