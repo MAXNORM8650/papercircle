@@ -1,0 +1,225 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Token-Budget-Aware LLM Reasoning",
+        "url": "https://www.semanticscholar.org/paper/3bbf541c2a3ce0ffaed3703cd486f0e1b2febb27",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2412.18547",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Token-level Direct Preference Optimization",
+        "url": "https://www.semanticscholar.org/paper/8f2254fb38cfc8f79524fd1cd2609124808f2c8c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2404.11999",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "How Well do LLMs Compress Their Own Chain-of-Thought? A Token Complexity Approach",
+        "url": "https://www.semanticscholar.org/paper/d6d561786eb06df93e29bcecfc569a3eeb95af10",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2503.01141",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "AIM: Adaptive Inference of Multi-Modal LLMs via Token Merging and Pruning",
+        "url": "https://www.semanticscholar.org/paper/eba22fafe9a7f7cdda35539ae3dc8debd77aa714",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2412.03248",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Lockpicking LLMs: A Logit-Based Jailbreak Using Token-level Manipulation",
+        "url": "https://www.semanticscholar.org/paper/9baeb262c3961f46636c9a657a6996640af6a092",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2405.13068",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM",
+        "url": "https://www.semanticscholar.org/paper/07894aeadab9158fdb97647c4792816ede1b60b9",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2403.07816",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Discovering the Gems in Early Layers: Accelerating Long-Context LLMs with 1000x Input Token Reduction",
+        "url": "https://www.semanticscholar.org/paper/65a1f6c82840a98d0830b40e348f7243e9afb89a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2409.17422",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Ada-K Routing: Boosting the Efficiency of MoE-based LLMs",
+        "url": "https://www.semanticscholar.org/paper/b8633fd8a31bd986c35a04f3d41e44db8a43d990",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2410.10456",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention",
+        "url": "https://www.semanticscholar.org/paper/395357c372c298ce517f64aa99fd5419aed9e2bb",
+        "pdf_url": "https://arxiv.org/pdf/2407.20042",
+        "doi_url": "https://doi.org/10.1145/3650212.3680343",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Enhancing Character-Level Understanding in LLMs through Token Internal Structure Learning",
+        "url": "https://www.semanticscholar.org/paper/117b5eccd7163e7bb4d2f1bf05df0c08f6d79f8a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2411.17679",
+        "source": "semantic_scholar",
+        "year": 2024
+      }
+    ],
+    "by_source": {
+      "semantic_scholar": [
+        {
+          "title": "Token-Budget-Aware LLM Reasoning",
+          "url": "https://www.semanticscholar.org/paper/3bbf541c2a3ce0ffaed3703cd486f0e1b2febb27",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2412.18547",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Token-level Direct Preference Optimization",
+          "url": "https://www.semanticscholar.org/paper/8f2254fb38cfc8f79524fd1cd2609124808f2c8c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2404.11999",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "How Well do LLMs Compress Their Own Chain-of-Thought? A Token Complexity Approach",
+          "url": "https://www.semanticscholar.org/paper/d6d561786eb06df93e29bcecfc569a3eeb95af10",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2503.01141",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "AIM: Adaptive Inference of Multi-Modal LLMs via Token Merging and Pruning",
+          "url": "https://www.semanticscholar.org/paper/eba22fafe9a7f7cdda35539ae3dc8debd77aa714",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2412.03248",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Lockpicking LLMs: A Logit-Based Jailbreak Using Token-level Manipulation",
+          "url": "https://www.semanticscholar.org/paper/9baeb262c3961f46636c9a657a6996640af6a092",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2405.13068",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM",
+          "url": "https://www.semanticscholar.org/paper/07894aeadab9158fdb97647c4792816ede1b60b9",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2403.07816",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Discovering the Gems in Early Layers: Accelerating Long-Context LLMs with 1000x Input Token Reduction",
+          "url": "https://www.semanticscholar.org/paper/65a1f6c82840a98d0830b40e348f7243e9afb89a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2409.17422",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Ada-K Routing: Boosting the Efficiency of MoE-based LLMs",
+          "url": "https://www.semanticscholar.org/paper/b8633fd8a31bd986c35a04f3d41e44db8a43d990",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2410.10456",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention",
+          "url": "https://www.semanticscholar.org/paper/395357c372c298ce517f64aa99fd5419aed9e2bb",
+          "pdf_url": "https://arxiv.org/pdf/2407.20042",
+          "doi_url": "https://doi.org/10.1145/3650212.3680343",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Enhancing Character-Level Understanding in LLMs through Token Internal Structure Learning",
+          "url": "https://www.semanticscholar.org/paper/117b5eccd7163e7bb4d2f1bf05df0c08f6d79f8a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2411.17679",
+          "source": "semantic_scholar",
+          "year": 2024
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention",
+        "pdf": "https://arxiv.org/pdf/2407.20042"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "Token-Budget-Aware LLM Reasoning",
+        "doi": "https://doi.org/10.48550/arXiv.2412.18547"
+      },
+      {
+        "title": "Token-level Direct Preference Optimization",
+        "doi": "https://doi.org/10.48550/arXiv.2404.11999"
+      },
+      {
+        "title": "How Well do LLMs Compress Their Own Chain-of-Thought? A Token Complexity Approach",
+        "doi": "https://doi.org/10.48550/arXiv.2503.01141"
+      },
+      {
+        "title": "AIM: Adaptive Inference of Multi-Modal LLMs via Token Merging and Pruning",
+        "doi": "https://doi.org/10.48550/arXiv.2412.03248"
+      },
+      {
+        "title": "Lockpicking LLMs: A Logit-Based Jailbreak Using Token-level Manipulation",
+        "doi": "https://doi.org/10.48550/arXiv.2405.13068"
+      },
+      {
+        "title": "Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM",
+        "doi": "https://doi.org/10.48550/arXiv.2403.07816"
+      },
+      {
+        "title": "Discovering the Gems in Early Layers: Accelerating Long-Context LLMs with 1000x Input Token Reduction",
+        "doi": "https://doi.org/10.48550/arXiv.2409.17422"
+      },
+      {
+        "title": "Ada-K Routing: Boosting the Efficiency of MoE-based LLMs",
+        "doi": "https://doi.org/10.48550/arXiv.2410.10456"
+      },
+      {
+        "title": "When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention",
+        "doi": "https://doi.org/10.1145/3650212.3680343"
+      },
+      {
+        "title": "Enhancing Character-Level Understanding in LLMs through Token Internal Structure Learning",
+        "doi": "https://doi.org/10.48550/arXiv.2411.17679"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "token efficiency in LLMs",
+    "total_steps": 10,
+    "last_updated": "2026-01-02T17:06:02.365331",
+    "started_at": "2026-01-02T16:58:29.673689",
+    "total_papers": 10
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "stats": {
+    "total_papers": 10,
+    "sources": {
+      "offline_icml": 1,
+      "offline_iclr": 9
+    },
+    "year_distribution": {
+      "2026": 7,
+      "2025": 3
+    },
+    "top_authors": {
+      "Oleh Rybkin": 1,
+      "Michal Nauman": 1,
+      "Preston Fu": 1,
+      "Charlie Victor Snell": 1,
+      "Pieter Abbeel": 1,
+      "Sergey Levine": 1,
+      "Aviral Kumar": 1,
+      "Ignacio Hounie": 1,
+      "Charilaos Kanatsoulis": 1,
+      "Arnuv Tandon": 1,
+      "Alejandro Ribeiro": 1,
+      "Shay Franchi": 1,
+      "Shahar Linial": 1,
+      "Ronen Talmon": 1,
+      "Uri Shaham": 1
+    },
+    "top_venues": {
+      "ICLR 2026": 7,
+      "ICLR 2025": 2,
+      "ICML 2025": 1
+    },
+    "top_keywords": {
+      "models": 5,
+      "learning": 3,
+      "abstract": 3,
+      "world": 3,
+      "rank": 3,
+      "language": 3,
+      "latent": 2,
+      "structure": 2,
+      "dynamic": 2,
+      "compute": 2,
+      "large": 2,
+      "value": 1,
+      "deep": 1,
+      "scales": 1,
+      "predictably": 1,
+      "group": 1,
+      "structured": 1,
+      "space": 1,
+      "reusing": 1,
+      "actions": 1,
+      "hippocampal": 1,
+      "entorhinal": 1,
+      "inspired": 1,
+      "model": 1,
+      "sequences": 1,
+      "logits": 1,
+      "reveal": 1,
+      "exopredicator": 1,
+      "worlds": 1,
+      "robot": 1
+    },
+    "citation_stats": {
+      "total": 66,
+      "avg": 3.7,
+      "max": 15,
+      "min": 1,
+      "median": 2
+    },
+    "score_stats": {
+      "avg_similarity": 0.17,
+      "avg_novelty": 0.837,
+      "avg_recency": 0.97,
+      "avg_bm25": 0.805,
+      "avg_combined": 0.577
+    }
+  },
+  "leaderboard": [
+    {
+      "rank": 1,
+      "title": "Value-Based Deep RL Scales Predictably",
+      "year": 2025,
+      "citations": 0,
+      "combined_score": 0.632,
+      "similarity_score": 0.248,
+      "novelty_score": 0.909,
+      "recency_score": 0.9,
+      "bm25_score": 1.0,
+      "source": "offline_icml",
+      "has_pdf": true
+    },
+    {
+      "rank": 2,
+      "title": "Learning Abstract World Models with a Group-Structured Latent Space",
+      "year": 2026,
+      "citations": 0,
+      "combined_score": 0.6,
+      "similarity_score": 0.162,
+      "novelty_score": 0.811,
+      "recency_score": 1.0,
+      "bm25_score": 0.918,
+      "source": "offline_iclr",
+      "has_pdf": false
+    },
+    {
+      "rank": 3,
+      "title": "Learning and Reusing Abstract Latent Actions in a Hippocampal-Entorhinal-Inspire",
+      "year": 2026,
+      "citations": 0,
+      "combined_score": 0.584,
+      "similarity_score": 0.218,
+      "novelty_score": 0.846,
+      "recency_score": 1.0,
+      "bm25_score": 0.827,
+      "source": "offline_iclr",
+      "has_pdf": false
+    },
+    {
+      "rank": 4,
+      "title": "Sequences of Logits Reveal the Low Rank Structure of Language Models",
+      "year": 2026,
+      "citations": 0,
+      "combined_score": 0.584,
+      "similarity_score": 0.175,
+      "novelty_score": 0.786,
+      "recency_score": 1.0,
+      "bm25_score": 0.783,
+      "source": "offline_iclr",
+      "has_pdf": false
+    },
+    {
+      "rank": 5,
+      "title": "ExoPredicator: Learning Abstract Models of Dynamic Worlds for Robot Planning",
+      "year": 2026,
+      "citations": 0,
+      "combined_score": 0.578,
+      "similarity_score": 0.2,
+      "novelty_score": 0.806,
+      "recency_score": 1.0,
+      "bm25_score": 0.789,
+      "source": "offline_iclr",
+      "has_pdf": false
+    },
+    {
+      "rank": 6,
+      "title": "Self-Guided Low Light Object Detection Framework",
+      "year": 2026,
+      "citations": 0,
+      "combined_score": 0.575,
+      "similarity_score": 0.101,
+      "novelty_score": 0.87,
+      "recency_score": 1.0,
+      "bm25_score": 0.781,
+      "source": "offline_iclr",
+      "has_pdf": false
+    },
+    {
+      "rank": 7,
+      "title": "Compute Where It Counts: Adaptive Compute Allocation for Large Language Models v",
+      "year": 2026,
+      "citations": 0,
+      "combined_score": 0.572,
+      "similarity_score": 0.192,
+      "novelty_score": 0.852,
+      "recency_score": 1.0,
+      "bm25_score": 0.678,
+      "source": "offline_iclr",
+      "has_pdf": false
+    },
+    {
+      "rank": 8,
+      "title": "LoRTA: Low Rank Tensor Adaptation of Large Language Models",
+      "year": 2025,
+      "citations": 0,
+      "combined_score": 0.553,
+      "similarity_score": 0.11,
+      "novelty_score": 0.789,
+      "recency_score": 0.9,
+      "bm25_score": 0.834,
+      "source": "offline_iclr",
+      "has_pdf": false
+    },
+    {
+      "rank": 9,
+      "title": "Flow Equivariant World Modeling for Partially Observed Dynamic Environments",
+      "year": 2026,
+      "citations": 0,
+      "combined_score": 0.548,
+      "similarity_score": 0.187,
+      "novelty_score": 0.865,
+      "recency_score": 1.0,
+      "bm25_score": 0.638,
+      "source": "offline_iclr",
+      "has_pdf": false
+    },
+    {
+      "rank": 10,
+      "title": "Leveraging Low Rank Structure in The Lazy Regime",
+      "year": 2025,
+      "citations": 0,
+      "combined_score": 0.545,
+      "similarity_score": 0.107,
+      "novelty_score": 0.833,
+      "recency_score": 0.9,
+      "bm25_score": 0.802,
+      "source": "offline_iclr",
+      "has_pdf": false
+    }
+  ],
+  "metadata": {
+    "query": "world models AND low compute AND abstract representation",
+    "total_steps": 22,
+    "last_updated": "2026-01-03T00:23:39.612399",
+    "started_at": "2026-01-03T00:20:28.283261",
+    "total_papers": 10
+  }
+}

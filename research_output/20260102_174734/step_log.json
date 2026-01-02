@@ -1,0 +1,160 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T17:57:07.104772",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training survey review NLP'",
+      "result_preview": "Found 150 papers",
+      "details": {
+        "query": "LLM post-training survey review NLP",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 150,
+        "papers_added": 150,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 150
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-02T18:12:02.387015",
+      "agent": "online_search_agent",
+      "action": "Online search: 'survey review LLM post-training'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "survey review LLM post-training",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 25,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 175
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-02T18:12:22.764227",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training survey review'",
+      "result_preview": "Found 100 papers",
+      "details": {
+        "query": "LLM post-training survey review",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 100,
+        "papers_added": 30,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 205
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-02T18:13:16.173702",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLM post-training survey review'",
+      "result_preview": "Found 100 papers from local database",
+      "details": {
+        "query": "LLM post-training survey review",
+        "conferences": [
+          "acl",
+          "emnlp",
+          "ijcai",
+          "aaai",
+          "icml",
+          "iclr",
+          "nips",
+          "cvpr",
+          "iccv",
+          "eccv"
+        ],
+        "start_year": 2020,
+        "end_year": null,
+        "papers_found": 100,
+        "papers_added": 99,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 304
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-02T18:13:40.365885",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training survey review'",
+      "result_preview": "Found 100 papers",
+      "details": {
+        "query": "LLM post-training survey review",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 100,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 304
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-02T18:14:23.043793",
+      "agent": "online_search_agent",
+      "action": "Online search: 'survey review LLM post-training'",
+      "result_preview": "Found 150 papers",
+      "details": {
+        "query": "survey review LLM post-training",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 150,
+        "papers_added": 23,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 327
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-02T18:17:01.852379",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLM post-training'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLM post-training",
+        "conferences": [
+          "acl",
+          "emnlp",
+          "naacl",
+          "iclr",
+          "icml"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 46,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 373
+    }
+  ],
+  "current_step": 7,
+  "metadata": {
+    "query": "LLM post-training",
+    "total_steps": 7,
+    "last_updated": "2026-01-02T18:17:02.426105",
+    "started_at": "2026-01-02T17:47:34.576058",
+    "total_papers": 373
+  }
+}

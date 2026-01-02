@@ -1,0 +1,316 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T00:37:58.847652",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world model representation learning'",
+      "result_preview": "Found 106 papers",
+      "details": {
+        "query": "world model representation learning",
+        "sources": null,
+        "papers_found": 106,
+        "papers_added": 106,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 106
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T00:38:07.486278",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'world model representation learning'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "world model representation learning",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 47,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 153
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T00:38:10.220120",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world model representation learning'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "world model representation learning",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 153
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T00:38:30.412071",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world model representation learning'",
+      "result_preview": "Found 145 papers",
+      "details": {
+        "query": "world model representation learning",
+        "sources": null,
+        "papers_found": 145,
+        "papers_added": 40,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 193
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T00:38:38.804661",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'world model representation learning'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "world model representation learning",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 193
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-03T00:38:42.019488",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world model representation learning'",
+      "result_preview": "Found 200 papers",
+      "details": {
+        "query": "world model representation learning",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 200,
+        "papers_added": 98,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 291
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-03T00:39:12.379541",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world model representation learning'",
+      "result_preview": "Found 435 papers",
+      "details": {
+        "query": "world model representation learning",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 435,
+        "papers_added": 191,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 482
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-03T00:39:27.619431",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'world model representation learning'",
+      "result_preview": "Found 291 papers from local database",
+      "details": {
+        "query": "world model representation learning",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": 2020,
+        "end_year": null,
+        "papers_found": 291,
+        "papers_added": 229,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 711
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-03T00:39:37.743883",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (trends)",
+      "result_preview": "Generated insights from 711 papers",
+      "details": {
+        "analysis_type": "trends"
+      },
+      "papers_count": 711
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-03T00:39:38.679261",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (methods)",
+      "result_preview": "Generated insights from 711 papers",
+      "details": {
+        "analysis_type": "methods"
+      },
+      "papers_count": 711
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-03T00:39:39.680016",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (topics)",
+      "result_preview": "Generated insights from 711 papers",
+      "details": {
+        "analysis_type": "topics"
+      },
+      "papers_count": 711
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-03T00:39:40.683192",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (authors)",
+      "result_preview": "Generated insights from 711 papers",
+      "details": {
+        "analysis_type": "authors"
+      },
+      "papers_count": 711
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-03T00:39:41.693253",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (all)",
+      "result_preview": "Generated insights from 711 papers",
+      "details": {
+        "analysis_type": "all"
+      },
+      "papers_count": 711
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-03T00:40:01.451161",
+      "agent": "export_agent",
+      "action": "Exporting papers (json)",
+      "result_preview": "Exported 711 papers",
+      "details": {
+        "format": "json",
+        "filename": "world_model_representation_learning"
+      },
+      "papers_count": 711
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-03T00:40:02.485525",
+      "agent": "export_agent",
+      "action": "Exporting papers (csv)",
+      "result_preview": "Exported 711 papers",
+      "details": {
+        "format": "csv",
+        "filename": "world_model_representation_learning"
+      },
+      "papers_count": 711
+    },
+    {
+      "step": 16,
+      "timestamp": "2026-01-03T00:40:03.470667",
+      "agent": "export_agent",
+      "action": "Exporting papers (html)",
+      "result_preview": "Exported 711 papers",
+      "details": {
+        "format": "html",
+        "filename": "world_model_representation_learning_dashboard"
+      },
+      "papers_count": 711
+    },
+    {
+      "step": 17,
+      "timestamp": "2026-01-03T00:40:35.996280",
+      "agent": "export_agent",
+      "action": "Exporting papers (json)",
+      "result_preview": "Exported 711 papers",
+      "details": {
+        "format": "json",
+        "filename": "summary_analysis"
+      },
+      "papers_count": 711
+    },
+    {
+      "step": 18,
+      "timestamp": "2026-01-03T00:40:37.731712",
+      "agent": "export_agent",
+      "action": "Exporting papers (markdown)",
+      "result_preview": "Exported 711 papers",
+      "details": {
+        "format": "markdown",
+        "filename": "summary_markdown"
+      },
+      "papers_count": 711
+    },
+    {
+      "step": 19,
+      "timestamp": "2026-01-03T00:40:50.080035",
+      "agent": "export_agent",
+      "action": "Exporting papers (json)",
+      "result_preview": "Exported 711 papers",
+      "details": {
+        "format": "json",
+        "filename": "papers"
+      },
+      "papers_count": 711
+    }
+  ],
+  "current_step": 19,
+  "metadata": {
+    "query": "world model representation learning",
+    "total_steps": 19,
+    "last_updated": "2026-01-03T00:40:50.155241",
+    "started_at": "2026-01-03T00:37:45.206607",
+    "total_papers": 711
+  }
+}

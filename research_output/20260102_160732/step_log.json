@@ -1,0 +1,53 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T16:07:59.967460",
+      "agent": "online_search_agent",
+      "action": "Online search: 'efficient finetuning'",
+      "result_preview": "Found 79 papers",
+      "details": {
+        "query": "efficient finetuning",
+        "sources": null,
+        "papers_found": 79,
+        "papers_added": 79,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 79
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-02T16:08:22.190816",
+      "agent": "sorting_agent",
+      "action": "Sorted 79 papers by 'recency'",
+      "result_preview": "Top paper: SELFprot: Effective and Efficient Multitask Finetu...",
+      "details": {
+        "sort_by": "recency",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 79
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-02T16:08:25.793896",
+      "agent": "sorting_agent",
+      "action": "Sorted 79 papers by 'citations'",
+      "result_preview": "Top paper: QLoRA: Efficient Finetuning of Quantized LLMs...",
+      "details": {
+        "sort_by": "citations",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 79
+    }
+  ],
+  "current_step": 3,
+  "metadata": {
+    "query": "efficient finetuning",
+    "total_steps": 3,
+    "last_updated": "2026-01-02T16:08:25.815854",
+    "started_at": "2026-01-02T16:07:33.759995",
+    "total_papers": 79
+  }
+}

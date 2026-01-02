@@ -1,0 +1,84 @@
+{
+  "summary": {
+    "query": "world models AND low compute AND abstract representation",
+    "total_papers": 10,
+    "unique_sources": 2,
+    "year_range": {
+      "min": 2025,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 0,
+      "average": 0
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 1,
+    "papers_with_doi": 0,
+    "processing_steps": 22
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (7) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 7
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 9 papers (90%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 9
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Oleh Rybkin has 1 papers in this collection",
+      "data": {
+        "author": "Oleh Rybkin",
+        "count": 1
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: models, learning, abstract, world, rank",
+      "data": {
+        "keywords": {
+          "models": 5,
+          "learning": 3,
+          "abstract": 3,
+          "world": 3,
+          "rank": 3
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "1/10 papers (10%) have direct PDF links",
+      "data": {
+        "with_pdf": 1,
+        "total": 10
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 10 papers related to 'world models AND low compute AND abstract representation'",
+    "Papers collected from 2 sources: offline_icml, offline_iclr",
+    "Publication years range from 2025 to 2026",
+    "Leading researchers: Oleh Rybkin, Michal Nauman, Preston Fu"
+  ],
+  "metadata": {
+    "query": "world models AND low compute AND abstract representation",
+    "total_steps": 22,
+    "last_updated": "2026-01-03T00:23:39.613860",
+    "started_at": "2026-01-03T00:20:28.283261",
+    "total_papers": 10
+  }
+}

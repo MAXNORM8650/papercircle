@@ -1,0 +1,1659 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+        "url": "https://www.semanticscholar.org/paper/32ac52069e562d4f900afee70bdca63f53461481",
+        "pdf_url": "http://arxiv.org/pdf/2305.14314",
+        "doi_url": "https://doi.org/10.48550/arXiv.2305.14314",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Multilingual Speech Translation from Efficient Finetuning of Pretrained Models",
+        "url": "https://www.semanticscholar.org/paper/3bab3f9dcfe4d0446bb1d093593569d55c5a6ca6",
+        "pdf_url": "https://aclanthology.org/2021.acl-long.68.pdf",
+        "doi_url": "https://doi.org/10.18653/v1/2021.acl-long.68",
+        "source": "semantic_scholar",
+        "year": 2021
+      },
+      {
+        "title": "Convolution Meets LoRA: Parameter Efficient Finetuning for Segment Anything Model",
+        "url": "https://www.semanticscholar.org/paper/6d6191f396c005b6b416d75b984a7df410aaa177",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2401.17868",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Data-Efficient Finetuning Using Cross-Task Nearest Neighbors",
+        "url": "https://www.semanticscholar.org/paper/5eba60c0c5e5f1f0c6c652dfd48b07caeebf13f4",
+        "pdf_url": "http://arxiv.org/pdf/2212.00196",
+        "doi_url": "https://doi.org/10.48550/arXiv.2212.00196",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "Parameter-Efficient Finetuning of Transformers for Source Code",
+        "url": "https://www.semanticscholar.org/paper/2dc07d25a22467c01b6d5088ea148e58eb18cc2a",
+        "pdf_url": "http://arxiv.org/pdf/2212.05901",
+        "doi_url": "https://doi.org/10.48550/arXiv.2212.05901",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "KnowLA: Enhancing Parameter-efficient Finetuning with Knowledgeable Adaptation",
+        "url": "https://www.semanticscholar.org/paper/cbfafb54fb520c7c34907b686151606c5368483e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2403.14950",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Reducing Communication Overhead in Federated Learning for Pre-trained Language Models Using Parameter-Efficient Finetuning",
+        "url": "https://www.semanticscholar.org/paper/a58f00de4616fbb97f765a36c244865a4227314d",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Time Sensitive Knowledge Editing through Efficient Finetuning",
+        "url": "https://www.semanticscholar.org/paper/d9dc17570ae4e52f930e29d446819e3771ab94d1",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2406.04496",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Parameter-Efficient Finetuning for Robust Continual Multilingual Learning",
+        "url": "https://www.semanticscholar.org/paper/70a40dc42f4cb37357aca335c717bbd009ff9345",
+        "pdf_url": "https://arxiv.org/pdf/2209.06767",
+        "doi_url": "https://doi.org/10.48550/arXiv.2209.06767",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "Parameter Efficient Finetuning for Speech Emotion Recognition and Domain Adaptation",
+        "url": "https://www.semanticscholar.org/paper/2bb70628107ab32705b5c8e891a8c3bc75d80930",
+        "pdf_url": "https://arxiv.org/pdf/2402.11747",
+        "doi_url": "https://doi.org/10.1109/ICASSP48485.2024.10446272",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Customizing Large Language Model Generation Style using Parameter-Efficient Finetuning",
+        "url": "https://www.semanticscholar.org/paper/d86efe91942b93c176bf8ff5f75a2c2c35e89bb8",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2409.04574",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "PEFT-Ref: A Modular Reference Architecture and Typology for Parameter-Efficient Finetuning Techniques",
+        "url": "https://www.semanticscholar.org/paper/2afd51e83e87acf02c0044b34c6d4984e814900e",
+        "pdf_url": "http://arxiv.org/pdf/2304.12410",
+        "doi_url": "https://doi.org/10.48550/arXiv.2304.12410",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "ETHER: Efficient Finetuning of Large-Scale Models with Hyperplane Reflections",
+        "url": "https://www.semanticscholar.org/paper/e6abda46720fd6923ddbd886ee3301b203f1be25",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2405.20271",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Efficient Finetuning Large Language Models For Vietnamese Chatbot",
+        "url": "https://www.semanticscholar.org/paper/57cd349e70282f9877d9eb9689b5999b9f059dc9",
+        "pdf_url": "https://arxiv.org/pdf/2309.04646",
+        "doi_url": "https://doi.org/10.1109/MAPR59823.2023.10288647",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Dr2Net: Dynamic Reversible Dual-Residual Networks for Memory-Efficient Finetuning",
+        "url": "https://www.semanticscholar.org/paper/7bf93b509fc393bd6fd8e8e8d7da21ada1c9f926",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/CVPR52733.2024.01499",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Trans-LoRA: towards data-free Transferable Parameter Efficient Finetuning",
+        "url": "https://www.semanticscholar.org/paper/e20bb8741b6c9ef2119056ea05df389b2d173ab4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2405.17258",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "MAPLE: Multilingual Evaluation of Parameter Efficient Finetuning of Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/75bc30bf394625c784ea59f8c2fe04718a4b4042",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2401.07598",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "SubTuning: Efficient Finetuning for Multi-Task Learning",
+        "url": "https://www.semanticscholar.org/paper/240906480b02f4903d74d8b30477f45683599b95",
+        "pdf_url": "http://arxiv.org/pdf/2302.06354",
+        "doi_url": "https://doi.org/10.48550/arXiv.2302.06354",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Evaluating Parameter-Efficient Finetuning Approaches for Pre-trained Models on the Financial Domain",
+        "url": "https://www.semanticscholar.org/paper/97d75644bbcc401ba3574ba916068e4c27f80f46",
+        "pdf_url": "https://aclanthology.org/2023.findings-emnlp.1035.pdf",
+        "doi_url": "https://doi.org/10.18653/v1/2023.findings-emnlp.1035",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Parameter efficient finetuning of text-to-image models with trainable self-attention layer",
+        "url": "https://www.semanticscholar.org/paper/2157d82d0841b10acc276a951cb7c9e9553f3095",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1016/j.imavis.2024.105296",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "SELFprot: Effective and Efficient Multitask Finetuning Methods for Protein Parameter Prediction",
+        "url": "https://dblp.org/rec/journals/jcisd/WilsonCW25",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1021/ACS.JCIM.4C02230",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Few-Shot Parameter Efficient Finetuning for SAM in Salient Steel Surface Defect Detection",
+        "url": "https://dblp.org/rec/journals/tii/SuLGY25",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1109/TII.2025.3574815",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "From PEFT to DEFT: Parameter Efficient Finetuning for Reducing Activation Density in Transformers",
+        "url": "https://dblp.org/rec/conf/aaai/RunwalPC25",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1609/AAAI.V39I19.34227",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "RoCoFT: Efficient Finetuning of Large Language Models with Row-Column Updates",
+        "url": "https://dblp.org/rec/conf/acl/KowsherEYCS025",
+        "pdf_url": null,
+        "doi_url": null,
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "ClusComp: A Simple Paradigm for Model Compression and Efficient Finetuning",
+        "url": "https://dblp.org/rec/conf/acl/LiaoHHVKM25",
+        "pdf_url": null,
+        "doi_url": null,
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference",
+        "url": "https://dblp.org/rec/conf/acl/WarnerCCWHTGBLA25",
+        "pdf_url": null,
+        "doi_url": null,
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "VEEF-Multi-LLM: Effective Vocabulary Expansion and Parameter Efficient Finetuning Towards Multilingual Large Language Models",
+        "url": "https://dblp.org/rec/conf/coling/ShaZFS25",
+        "pdf_url": null,
+        "doi_url": null,
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Efficient Finetuning for Dimensional Speech Emotion Recognition in the Age of Transformers",
+        "url": "https://dblp.org/rec/conf/icassp/SampathTP25",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1109/ICASSP49660.2025.10889878",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "LLMProto: A Hardware-Efficient Finetuning Model for Few-Shot Relation Extraction with Large Language Model",
+        "url": "https://dblp.org/rec/conf/icassp/YeZ25",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1109/ICASSP49660.2025.10889770",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "HERO: Human-Feedback Efficient Reinforcement Learning for Online Diffusion Model Finetuning",
+        "url": "https://dblp.org/rec/conf/iclr/HiranakaCLKM0LS25",
+        "pdf_url": null,
+        "doi_url": null,
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "GPTAQ: Efficient Finetuning-Free Quantization for Asymmetric Calibration",
+        "url": "https://dblp.org/rec/conf/icml/0001Y0XP25",
+        "pdf_url": null,
+        "doi_url": null,
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Efficient Multilingual ASR Finetuning via LoRA Language Experts",
+        "url": "https://dblp.org/rec/conf/interspeech/LiSZLT0Q25",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.21437/INTERSPEECH.2025-1374",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "MiLoRA: Harnessing Minor Singular Components for Parameter-Efficient LLM Finetuning",
+        "url": "https://dblp.org/rec/conf/naacl/WangLWCC25",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.18653/V1/2025.NAACL-LONG.248",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Efficient Zero-Order Federated Finetuning of Language Models for Resource-Constrained Devices",
+        "url": "https://dblp.org/rec/journals/corr/abs-2502-10239",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2502.10239",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "ProtoBERT-LoRA: Parameter-Efficient Prototypical Finetuning for Immunotherapy Study Identification",
+        "url": "https://dblp.org/rec/journals/corr/abs-2503-20179",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2503.20179",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "GPTQv2: Efficient Finetuning-Free Quantization for Asymmetric Calibration",
+        "url": "https://dblp.org/rec/journals/corr/abs-2504-02692",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2504.02692",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Efficient Reinforcement Finetuning via Adaptive Curriculum Learning",
+        "url": "https://dblp.org/rec/journals/corr/abs-2504-05520",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2504.05520",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "PT-MoE: An Efficient Finetuning Framework for Integrating Mixture-of-Experts into Prompt Tuning",
+        "url": "https://dblp.org/rec/journals/corr/abs-2505-09519",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2505.09519",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Follow-Your-Motion: Video Motion Transfer via Efficient Spatial-Temporal Decoupled Finetuning",
+        "url": "https://dblp.org/rec/journals/corr/abs-2506-05207",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2506.05207",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "PLoP: Precise LoRA Placement for Efficient Finetuning of Large Models",
+        "url": "https://dblp.org/rec/journals/corr/abs-2506-20629",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2506.20629",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "url": "http://arxiv.org/abs/2512.25072v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+        "url": "http://arxiv.org/abs/2512.25061v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25061v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "url": "http://arxiv.org/abs/2512.25056v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "url": "http://arxiv.org/abs/2512.25055v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+        "url": "http://arxiv.org/abs/2512.25048v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25048v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Thin Tree Verification is coNP-Complete",
+        "url": "http://arxiv.org/abs/2512.25043v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25043v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Modeling Language as a Sequence of Thoughts",
+        "url": "http://arxiv.org/abs/2512.25026v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25026v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Modewise Additive Factor Model for Matrix Time Series",
+        "url": "http://arxiv.org/abs/2512.25025v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25025v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+        "url": "http://arxiv.org/abs/2512.25023v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25023v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Diffusion Language Models are Provably Optimal Parallel Samplers",
+        "url": "http://arxiv.org/abs/2512.25014v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25014v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "At the intersection of Numerical Analysis and Spectral Geometry",
+        "url": "http://arxiv.org/abs/2512.25012v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25012v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Fast Poisson brackets and constraint algebras in canonical gravity",
+        "url": "http://arxiv.org/abs/2512.25007v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25007v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Strategies for Overcoming Gradient Troughs in the ADAPT-VQE Algorithm",
+        "url": "http://arxiv.org/abs/2512.25004v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25004v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Bi-C2R: Bidirectional Continual Compatible Representation for Re-indexing Free Lifelong Person Re-identification",
+        "url": "http://arxiv.org/abs/2512.25000v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25000v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+        "url": "http://arxiv.org/abs/2512.24991v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24991v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Best Practices for Modelling Electrides",
+        "url": "http://arxiv.org/abs/2512.24989v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24989v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The Supersymmetry of Cuts in Pure Gauge Theory and Gravity",
+        "url": "http://arxiv.org/abs/2512.24984v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24984v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Optical Spiking Neural Networks via Rogue-Wave Statistics",
+        "url": "http://arxiv.org/abs/2512.24983v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24983v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Hierarchical Deformation Planning and Neural Tracking for DLOs in Constrained Environments",
+        "url": "http://arxiv.org/abs/2512.24974v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24974v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Evaluating the Impact of Compression Techniques on the Robustness of CNNs under Natural Corruptions",
+        "url": "http://arxiv.org/abs/2512.24971v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24971v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Random Batch Sum-of-Gaussians Method for Molecular Dynamics of Born-Mayer-Huggins Systems",
+        "url": "http://arxiv.org/abs/2512.24970v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24970v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Semi-overlapping Multi-bandit Best Arm Identification for Sequential Support Network Learning",
+        "url": "http://arxiv.org/abs/2512.24959v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24959v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "High-performance quantum interconnect between bosonic modules beyond transmission loss constraints",
+        "url": "http://arxiv.org/abs/2512.24926v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24926v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Existence, uniqueness, and approximability of solutions to the classical Melan equation in suspension bridges",
+        "url": "http://arxiv.org/abs/2512.24915v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24915v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "AI-Driven Cloud Resource Optimization for Multi-Cluster Environments",
+        "url": "http://arxiv.org/abs/2512.24914v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24914v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Videos are Sample-Efficient Supervisions: Behavior Cloning from Videos via Latent Representations",
+        "url": "https://openalex.org/W7117553115",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.21586",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.21586",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Universal Transient Stability Analysis: A Large Language Model-Enabled Dynamics Prediction Framework",
+        "url": "https://openalex.org/W7117298240",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.20970",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.20970",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "dUltra: Ultra-Fast Diffusion Language Models via Reinforcement Learning",
+        "url": "https://openalex.org/W7117584765",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.21446",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.21446",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "PairFlow: Closed-Form Source-Target Coupling for Few-Step Generation in Discrete Flow Models",
+        "url": "https://openalex.org/W7117238331",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.20063",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.20063",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning",
+        "url": "https://openalex.org/W7117251067",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.20605",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.20605",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Distilling to Hybrid Attention Models via KL-Guided Layer Selection",
+        "url": "https://openalex.org/W7117256071",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.20569",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.20569",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Designing Conversational AI for Social Robots in Corporate Contexts: A Case Study on Customizing LLMs through Action Research",
+        "url": "https://openalex.org/W7117344138",
+        "pdf_url": null,
+        "doi_url": null,
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "lehmannfa/aurora-lite-decoder: v1.0",
+        "url": "https://openalex.org/W7116720460",
+        "pdf_url": "https://doi.org/10.5281/zenodo.18009320",
+        "doi_url": "https://doi.org/10.5281/zenodo.18009320",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Delta-LLaVA: Base-then-Specialize Alignment for Token-Efficient Vision-Language Models",
+        "url": "https://openalex.org/W7117110701",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.18910",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.18910",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "EcoSplat: Efficiency-controllable Feed-forward 3D Gaussian Splatting from Multi-view Images",
+        "url": "https://openalex.org/W7117136633",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.18692",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.18692",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding",
+        "url": "https://openalex.org/W7116913312",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.17817",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.17817",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Factorized Video Generation: Decoupling Scene Construction and Temporal Synthesis in Text-to-Video Diffusion Models",
+        "url": "https://openalex.org/W4417530167",
+        "pdf_url": "https://arxiv.org/pdf/2512.16371",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.16371",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Posterior Behavioral Cloning: Pretraining BC Policies for Efficient RL Finetuning",
+        "url": "https://openalex.org/W4417531500",
+        "pdf_url": "https://arxiv.org/pdf/2512.16911",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.16911",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "3-in-1: 2D Rotary Adaptation for Efficient Finetuning, Efficient Batching and Composability",
+        "url": "https://dblp.org/rec/conf/nips/LiaoM24",
+        "pdf_url": null,
+        "doi_url": null,
+        "source": "dblp",
+        "year": 2024
+      }
+    ],
+    "by_source": {
+      "semantic_scholar": [
+        {
+          "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+          "url": "https://www.semanticscholar.org/paper/32ac52069e562d4f900afee70bdca63f53461481",
+          "pdf_url": "http://arxiv.org/pdf/2305.14314",
+          "doi_url": "https://doi.org/10.48550/arXiv.2305.14314",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Multilingual Speech Translation from Efficient Finetuning of Pretrained Models",
+          "url": "https://www.semanticscholar.org/paper/3bab3f9dcfe4d0446bb1d093593569d55c5a6ca6",
+          "pdf_url": "https://aclanthology.org/2021.acl-long.68.pdf",
+          "doi_url": "https://doi.org/10.18653/v1/2021.acl-long.68",
+          "source": "semantic_scholar",
+          "year": 2021
+        },
+        {
+          "title": "Convolution Meets LoRA: Parameter Efficient Finetuning for Segment Anything Model",
+          "url": "https://www.semanticscholar.org/paper/6d6191f396c005b6b416d75b984a7df410aaa177",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2401.17868",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Data-Efficient Finetuning Using Cross-Task Nearest Neighbors",
+          "url": "https://www.semanticscholar.org/paper/5eba60c0c5e5f1f0c6c652dfd48b07caeebf13f4",
+          "pdf_url": "http://arxiv.org/pdf/2212.00196",
+          "doi_url": "https://doi.org/10.48550/arXiv.2212.00196",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "Parameter-Efficient Finetuning of Transformers for Source Code",
+          "url": "https://www.semanticscholar.org/paper/2dc07d25a22467c01b6d5088ea148e58eb18cc2a",
+          "pdf_url": "http://arxiv.org/pdf/2212.05901",
+          "doi_url": "https://doi.org/10.48550/arXiv.2212.05901",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "KnowLA: Enhancing Parameter-efficient Finetuning with Knowledgeable Adaptation",
+          "url": "https://www.semanticscholar.org/paper/cbfafb54fb520c7c34907b686151606c5368483e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2403.14950",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Reducing Communication Overhead in Federated Learning for Pre-trained Language Models Using Parameter-Efficient Finetuning",
+          "url": "https://www.semanticscholar.org/paper/a58f00de4616fbb97f765a36c244865a4227314d",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Time Sensitive Knowledge Editing through Efficient Finetuning",
+          "url": "https://www.semanticscholar.org/paper/d9dc17570ae4e52f930e29d446819e3771ab94d1",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2406.04496",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Parameter-Efficient Finetuning for Robust Continual Multilingual Learning",
+          "url": "https://www.semanticscholar.org/paper/70a40dc42f4cb37357aca335c717bbd009ff9345",
+          "pdf_url": "https://arxiv.org/pdf/2209.06767",
+          "doi_url": "https://doi.org/10.48550/arXiv.2209.06767",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "Parameter Efficient Finetuning for Speech Emotion Recognition and Domain Adaptation",
+          "url": "https://www.semanticscholar.org/paper/2bb70628107ab32705b5c8e891a8c3bc75d80930",
+          "pdf_url": "https://arxiv.org/pdf/2402.11747",
+          "doi_url": "https://doi.org/10.1109/ICASSP48485.2024.10446272",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Customizing Large Language Model Generation Style using Parameter-Efficient Finetuning",
+          "url": "https://www.semanticscholar.org/paper/d86efe91942b93c176bf8ff5f75a2c2c35e89bb8",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2409.04574",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "PEFT-Ref: A Modular Reference Architecture and Typology for Parameter-Efficient Finetuning Techniques",
+          "url": "https://www.semanticscholar.org/paper/2afd51e83e87acf02c0044b34c6d4984e814900e",
+          "pdf_url": "http://arxiv.org/pdf/2304.12410",
+          "doi_url": "https://doi.org/10.48550/arXiv.2304.12410",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "ETHER: Efficient Finetuning of Large-Scale Models with Hyperplane Reflections",
+          "url": "https://www.semanticscholar.org/paper/e6abda46720fd6923ddbd886ee3301b203f1be25",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2405.20271",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Efficient Finetuning Large Language Models For Vietnamese Chatbot",
+          "url": "https://www.semanticscholar.org/paper/57cd349e70282f9877d9eb9689b5999b9f059dc9",
+          "pdf_url": "https://arxiv.org/pdf/2309.04646",
+          "doi_url": "https://doi.org/10.1109/MAPR59823.2023.10288647",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Dr2Net: Dynamic Reversible Dual-Residual Networks for Memory-Efficient Finetuning",
+          "url": "https://www.semanticscholar.org/paper/7bf93b509fc393bd6fd8e8e8d7da21ada1c9f926",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/CVPR52733.2024.01499",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Trans-LoRA: towards data-free Transferable Parameter Efficient Finetuning",
+          "url": "https://www.semanticscholar.org/paper/e20bb8741b6c9ef2119056ea05df389b2d173ab4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2405.17258",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "MAPLE: Multilingual Evaluation of Parameter Efficient Finetuning of Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/75bc30bf394625c784ea59f8c2fe04718a4b4042",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2401.07598",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "SubTuning: Efficient Finetuning for Multi-Task Learning",
+          "url": "https://www.semanticscholar.org/paper/240906480b02f4903d74d8b30477f45683599b95",
+          "pdf_url": "http://arxiv.org/pdf/2302.06354",
+          "doi_url": "https://doi.org/10.48550/arXiv.2302.06354",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Evaluating Parameter-Efficient Finetuning Approaches for Pre-trained Models on the Financial Domain",
+          "url": "https://www.semanticscholar.org/paper/97d75644bbcc401ba3574ba916068e4c27f80f46",
+          "pdf_url": "https://aclanthology.org/2023.findings-emnlp.1035.pdf",
+          "doi_url": "https://doi.org/10.18653/v1/2023.findings-emnlp.1035",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Parameter efficient finetuning of text-to-image models with trainable self-attention layer",
+          "url": "https://www.semanticscholar.org/paper/2157d82d0841b10acc276a951cb7c9e9553f3095",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1016/j.imavis.2024.105296",
+          "source": "semantic_scholar",
+          "year": 2024
+        }
+      ],
+      "dblp": [
+        {
+          "title": "SELFprot: Effective and Efficient Multitask Finetuning Methods for Protein Parameter Prediction",
+          "url": "https://dblp.org/rec/journals/jcisd/WilsonCW25",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1021/ACS.JCIM.4C02230",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Few-Shot Parameter Efficient Finetuning for SAM in Salient Steel Surface Defect Detection",
+          "url": "https://dblp.org/rec/journals/tii/SuLGY25",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1109/TII.2025.3574815",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "From PEFT to DEFT: Parameter Efficient Finetuning for Reducing Activation Density in Transformers",
+          "url": "https://dblp.org/rec/conf/aaai/RunwalPC25",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1609/AAAI.V39I19.34227",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "RoCoFT: Efficient Finetuning of Large Language Models with Row-Column Updates",
+          "url": "https://dblp.org/rec/conf/acl/KowsherEYCS025",
+          "pdf_url": null,
+          "doi_url": null,
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "ClusComp: A Simple Paradigm for Model Compression and Efficient Finetuning",
+          "url": "https://dblp.org/rec/conf/acl/LiaoHHVKM25",
+          "pdf_url": null,
+          "doi_url": null,
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference",
+          "url": "https://dblp.org/rec/conf/acl/WarnerCCWHTGBLA25",
+          "pdf_url": null,
+          "doi_url": null,
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "VEEF-Multi-LLM: Effective Vocabulary Expansion and Parameter Efficient Finetuning Towards Multilingual Large Language Models",
+          "url": "https://dblp.org/rec/conf/coling/ShaZFS25",
+          "pdf_url": null,
+          "doi_url": null,
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Efficient Finetuning for Dimensional Speech Emotion Recognition in the Age of Transformers",
+          "url": "https://dblp.org/rec/conf/icassp/SampathTP25",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1109/ICASSP49660.2025.10889878",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "LLMProto: A Hardware-Efficient Finetuning Model for Few-Shot Relation Extraction with Large Language Model",
+          "url": "https://dblp.org/rec/conf/icassp/YeZ25",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1109/ICASSP49660.2025.10889770",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "HERO: Human-Feedback Efficient Reinforcement Learning for Online Diffusion Model Finetuning",
+          "url": "https://dblp.org/rec/conf/iclr/HiranakaCLKM0LS25",
+          "pdf_url": null,
+          "doi_url": null,
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "GPTAQ: Efficient Finetuning-Free Quantization for Asymmetric Calibration",
+          "url": "https://dblp.org/rec/conf/icml/0001Y0XP25",
+          "pdf_url": null,
+          "doi_url": null,
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Efficient Multilingual ASR Finetuning via LoRA Language Experts",
+          "url": "https://dblp.org/rec/conf/interspeech/LiSZLT0Q25",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.21437/INTERSPEECH.2025-1374",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "MiLoRA: Harnessing Minor Singular Components for Parameter-Efficient LLM Finetuning",
+          "url": "https://dblp.org/rec/conf/naacl/WangLWCC25",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.18653/V1/2025.NAACL-LONG.248",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Efficient Zero-Order Federated Finetuning of Language Models for Resource-Constrained Devices",
+          "url": "https://dblp.org/rec/journals/corr/abs-2502-10239",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2502.10239",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "ProtoBERT-LoRA: Parameter-Efficient Prototypical Finetuning for Immunotherapy Study Identification",
+          "url": "https://dblp.org/rec/journals/corr/abs-2503-20179",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2503.20179",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "GPTQv2: Efficient Finetuning-Free Quantization for Asymmetric Calibration",
+          "url": "https://dblp.org/rec/journals/corr/abs-2504-02692",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2504.02692",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Efficient Reinforcement Finetuning via Adaptive Curriculum Learning",
+          "url": "https://dblp.org/rec/journals/corr/abs-2504-05520",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2504.05520",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "PT-MoE: An Efficient Finetuning Framework for Integrating Mixture-of-Experts into Prompt Tuning",
+          "url": "https://dblp.org/rec/journals/corr/abs-2505-09519",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2505.09519",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Follow-Your-Motion: Video Motion Transfer via Efficient Spatial-Temporal Decoupled Finetuning",
+          "url": "https://dblp.org/rec/journals/corr/abs-2506-05207",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2506.05207",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "PLoP: Precise LoRA Placement for Efficient Finetuning of Large Models",
+          "url": "https://dblp.org/rec/journals/corr/abs-2506-20629",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2506.20629",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "3-in-1: 2D Rotary Adaptation for Efficient Finetuning, Efficient Batching and Composability",
+          "url": "https://dblp.org/rec/conf/nips/LiaoM24",
+          "pdf_url": null,
+          "doi_url": null,
+          "source": "dblp",
+          "year": 2024
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "Coordinated Humanoid Manipulation with Choice Policies",
+          "url": "http://arxiv.org/abs/2512.25072v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+          "url": "http://arxiv.org/abs/2512.25061v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25061v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+          "url": "http://arxiv.org/abs/2512.25056v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+          "url": "http://arxiv.org/abs/2512.25055v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+          "url": "http://arxiv.org/abs/2512.25048v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25048v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Thin Tree Verification is coNP-Complete",
+          "url": "http://arxiv.org/abs/2512.25043v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25043v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Modeling Language as a Sequence of Thoughts",
+          "url": "http://arxiv.org/abs/2512.25026v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25026v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Modewise Additive Factor Model for Matrix Time Series",
+          "url": "http://arxiv.org/abs/2512.25025v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25025v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+          "url": "http://arxiv.org/abs/2512.25023v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25023v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Diffusion Language Models are Provably Optimal Parallel Samplers",
+          "url": "http://arxiv.org/abs/2512.25014v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25014v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "At the intersection of Numerical Analysis and Spectral Geometry",
+          "url": "http://arxiv.org/abs/2512.25012v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25012v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Fast Poisson brackets and constraint algebras in canonical gravity",
+          "url": "http://arxiv.org/abs/2512.25007v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25007v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Strategies for Overcoming Gradient Troughs in the ADAPT-VQE Algorithm",
+          "url": "http://arxiv.org/abs/2512.25004v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25004v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bi-C2R: Bidirectional Continual Compatible Representation for Re-indexing Free Lifelong Person Re-identification",
+          "url": "http://arxiv.org/abs/2512.25000v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25000v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+          "url": "http://arxiv.org/abs/2512.24991v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24991v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Best Practices for Modelling Electrides",
+          "url": "http://arxiv.org/abs/2512.24989v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24989v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The Supersymmetry of Cuts in Pure Gauge Theory and Gravity",
+          "url": "http://arxiv.org/abs/2512.24984v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24984v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Optical Spiking Neural Networks via Rogue-Wave Statistics",
+          "url": "http://arxiv.org/abs/2512.24983v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24983v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Hierarchical Deformation Planning and Neural Tracking for DLOs in Constrained Environments",
+          "url": "http://arxiv.org/abs/2512.24974v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24974v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Evaluating the Impact of Compression Techniques on the Robustness of CNNs under Natural Corruptions",
+          "url": "http://arxiv.org/abs/2512.24971v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24971v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Random Batch Sum-of-Gaussians Method for Molecular Dynamics of Born-Mayer-Huggins Systems",
+          "url": "http://arxiv.org/abs/2512.24970v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24970v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Semi-overlapping Multi-bandit Best Arm Identification for Sequential Support Network Learning",
+          "url": "http://arxiv.org/abs/2512.24959v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24959v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "High-performance quantum interconnect between bosonic modules beyond transmission loss constraints",
+          "url": "http://arxiv.org/abs/2512.24926v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24926v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Existence, uniqueness, and approximability of solutions to the classical Melan equation in suspension bridges",
+          "url": "http://arxiv.org/abs/2512.24915v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24915v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "AI-Driven Cloud Resource Optimization for Multi-Cluster Environments",
+          "url": "http://arxiv.org/abs/2512.24914v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24914v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ],
+      "openalex": [
+        {
+          "title": "Videos are Sample-Efficient Supervisions: Behavior Cloning from Videos via Latent Representations",
+          "url": "https://openalex.org/W7117553115",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.21586",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.21586",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Universal Transient Stability Analysis: A Large Language Model-Enabled Dynamics Prediction Framework",
+          "url": "https://openalex.org/W7117298240",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.20970",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.20970",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "dUltra: Ultra-Fast Diffusion Language Models via Reinforcement Learning",
+          "url": "https://openalex.org/W7117584765",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.21446",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.21446",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "PairFlow: Closed-Form Source-Target Coupling for Few-Step Generation in Discrete Flow Models",
+          "url": "https://openalex.org/W7117238331",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.20063",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.20063",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning",
+          "url": "https://openalex.org/W7117251067",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.20605",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.20605",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Distilling to Hybrid Attention Models via KL-Guided Layer Selection",
+          "url": "https://openalex.org/W7117256071",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.20569",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.20569",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Designing Conversational AI for Social Robots in Corporate Contexts: A Case Study on Customizing LLMs through Action Research",
+          "url": "https://openalex.org/W7117344138",
+          "pdf_url": null,
+          "doi_url": null,
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "lehmannfa/aurora-lite-decoder: v1.0",
+          "url": "https://openalex.org/W7116720460",
+          "pdf_url": "https://doi.org/10.5281/zenodo.18009320",
+          "doi_url": "https://doi.org/10.5281/zenodo.18009320",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Delta-LLaVA: Base-then-Specialize Alignment for Token-Efficient Vision-Language Models",
+          "url": "https://openalex.org/W7117110701",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.18910",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.18910",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "EcoSplat: Efficiency-controllable Feed-forward 3D Gaussian Splatting from Multi-view Images",
+          "url": "https://openalex.org/W7117136633",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.18692",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.18692",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding",
+          "url": "https://openalex.org/W7116913312",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.17817",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.17817",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Factorized Video Generation: Decoupling Scene Construction and Temporal Synthesis in Text-to-Video Diffusion Models",
+          "url": "https://openalex.org/W4417530167",
+          "pdf_url": "https://arxiv.org/pdf/2512.16371",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.16371",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Posterior Behavioral Cloning: Pretraining BC Policies for Efficient RL Finetuning",
+          "url": "https://openalex.org/W4417531500",
+          "pdf_url": "https://arxiv.org/pdf/2512.16911",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.16911",
+          "source": "openalex",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+        "pdf": "http://arxiv.org/pdf/2305.14314"
+      },
+      {
+        "title": "Multilingual Speech Translation from Efficient Finetuning of Pretrained Models",
+        "pdf": "https://aclanthology.org/2021.acl-long.68.pdf"
+      },
+      {
+        "title": "Data-Efficient Finetuning Using Cross-Task Nearest Neighbors",
+        "pdf": "http://arxiv.org/pdf/2212.00196"
+      },
+      {
+        "title": "Parameter-Efficient Finetuning of Transformers for Source Code",
+        "pdf": "http://arxiv.org/pdf/2212.05901"
+      },
+      {
+        "title": "Parameter-Efficient Finetuning for Robust Continual Multilingual Learning",
+        "pdf": "https://arxiv.org/pdf/2209.06767"
+      },
+      {
+        "title": "Parameter Efficient Finetuning for Speech Emotion Recognition and Domain Adaptation",
+        "pdf": "https://arxiv.org/pdf/2402.11747"
+      },
+      {
+        "title": "PEFT-Ref: A Modular Reference Architecture and Typology for Parameter-Efficient Finetuning Techniques",
+        "pdf": "http://arxiv.org/pdf/2304.12410"
+      },
+      {
+        "title": "Efficient Finetuning Large Language Models For Vietnamese Chatbot",
+        "pdf": "https://arxiv.org/pdf/2309.04646"
+      },
+      {
+        "title": "SubTuning: Efficient Finetuning for Multi-Task Learning",
+        "pdf": "http://arxiv.org/pdf/2302.06354"
+      },
+      {
+        "title": "Evaluating Parameter-Efficient Finetuning Approaches for Pre-trained Models on the Financial Domain",
+        "pdf": "https://aclanthology.org/2023.findings-emnlp.1035.pdf"
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "pdf": "https://arxiv.org/pdf/2512.25072v1"
+      },
+      {
+        "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+        "pdf": "https://arxiv.org/pdf/2512.25061v1"
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "pdf": "https://arxiv.org/pdf/2512.25056v1"
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "pdf": "https://arxiv.org/pdf/2512.25055v1"
+      },
+      {
+        "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+        "pdf": "https://arxiv.org/pdf/2512.25048v1"
+      },
+      {
+        "title": "Thin Tree Verification is coNP-Complete",
+        "pdf": "https://arxiv.org/pdf/2512.25043v1"
+      },
+      {
+        "title": "Modeling Language as a Sequence of Thoughts",
+        "pdf": "https://arxiv.org/pdf/2512.25026v1"
+      },
+      {
+        "title": "Modewise Additive Factor Model for Matrix Time Series",
+        "pdf": "https://arxiv.org/pdf/2512.25025v1"
+      },
+      {
+        "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+        "pdf": "https://arxiv.org/pdf/2512.25023v1"
+      },
+      {
+        "title": "Diffusion Language Models are Provably Optimal Parallel Samplers",
+        "pdf": "https://arxiv.org/pdf/2512.25014v1"
+      },
+      {
+        "title": "At the intersection of Numerical Analysis and Spectral Geometry",
+        "pdf": "https://arxiv.org/pdf/2512.25012v1"
+      },
+      {
+        "title": "Fast Poisson brackets and constraint algebras in canonical gravity",
+        "pdf": "https://arxiv.org/pdf/2512.25007v1"
+      },
+      {
+        "title": "Strategies for Overcoming Gradient Troughs in the ADAPT-VQE Algorithm",
+        "pdf": "https://arxiv.org/pdf/2512.25004v1"
+      },
+      {
+        "title": "Bi-C2R: Bidirectional Continual Compatible Representation for Re-indexing Free Lifelong Person Re-identification",
+        "pdf": "https://arxiv.org/pdf/2512.25000v1"
+      },
+      {
+        "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+        "pdf": "https://arxiv.org/pdf/2512.24991v1"
+      },
+      {
+        "title": "Best Practices for Modelling Electrides",
+        "pdf": "https://arxiv.org/pdf/2512.24989v1"
+      },
+      {
+        "title": "The Supersymmetry of Cuts in Pure Gauge Theory and Gravity",
+        "pdf": "https://arxiv.org/pdf/2512.24984v1"
+      },
+      {
+        "title": "Optical Spiking Neural Networks via Rogue-Wave Statistics",
+        "pdf": "https://arxiv.org/pdf/2512.24983v1"
+      },
+      {
+        "title": "Hierarchical Deformation Planning and Neural Tracking for DLOs in Constrained Environments",
+        "pdf": "https://arxiv.org/pdf/2512.24974v1"
+      },
+      {
+        "title": "Evaluating the Impact of Compression Techniques on the Robustness of CNNs under Natural Corruptions",
+        "pdf": "https://arxiv.org/pdf/2512.24971v1"
+      },
+      {
+        "title": "Random Batch Sum-of-Gaussians Method for Molecular Dynamics of Born-Mayer-Huggins Systems",
+        "pdf": "https://arxiv.org/pdf/2512.24970v1"
+      },
+      {
+        "title": "Semi-overlapping Multi-bandit Best Arm Identification for Sequential Support Network Learning",
+        "pdf": "https://arxiv.org/pdf/2512.24959v1"
+      },
+      {
+        "title": "High-performance quantum interconnect between bosonic modules beyond transmission loss constraints",
+        "pdf": "https://arxiv.org/pdf/2512.24926v1"
+      },
+      {
+        "title": "Existence, uniqueness, and approximability of solutions to the classical Melan equation in suspension bridges",
+        "pdf": "https://arxiv.org/pdf/2512.24915v1"
+      },
+      {
+        "title": "AI-Driven Cloud Resource Optimization for Multi-Cluster Environments",
+        "pdf": "https://arxiv.org/pdf/2512.24914v1"
+      },
+      {
+        "title": "Videos are Sample-Efficient Supervisions: Behavior Cloning from Videos via Latent Representations",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.21586"
+      },
+      {
+        "title": "Universal Transient Stability Analysis: A Large Language Model-Enabled Dynamics Prediction Framework",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.20970"
+      },
+      {
+        "title": "dUltra: Ultra-Fast Diffusion Language Models via Reinforcement Learning",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.21446"
+      },
+      {
+        "title": "PairFlow: Closed-Form Source-Target Coupling for Few-Step Generation in Discrete Flow Models",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.20063"
+      },
+      {
+        "title": "Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.20605"
+      },
+      {
+        "title": "Distilling to Hybrid Attention Models via KL-Guided Layer Selection",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.20569"
+      },
+      {
+        "title": "lehmannfa/aurora-lite-decoder: v1.0",
+        "pdf": "https://doi.org/10.5281/zenodo.18009320"
+      },
+      {
+        "title": "Delta-LLaVA: Base-then-Specialize Alignment for Token-Efficient Vision-Language Models",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.18910"
+      },
+      {
+        "title": "EcoSplat: Efficiency-controllable Feed-forward 3D Gaussian Splatting from Multi-view Images",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.18692"
+      },
+      {
+        "title": "Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.17817"
+      },
+      {
+        "title": "Factorized Video Generation: Decoupling Scene Construction and Temporal Synthesis in Text-to-Video Diffusion Models",
+        "pdf": "https://arxiv.org/pdf/2512.16371"
+      },
+      {
+        "title": "Posterior Behavioral Cloning: Pretraining BC Policies for Efficient RL Finetuning",
+        "pdf": "https://arxiv.org/pdf/2512.16911"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+        "doi": "https://doi.org/10.48550/arXiv.2305.14314"
+      },
+      {
+        "title": "Multilingual Speech Translation from Efficient Finetuning of Pretrained Models",
+        "doi": "https://doi.org/10.18653/v1/2021.acl-long.68"
+      },
+      {
+        "title": "Convolution Meets LoRA: Parameter Efficient Finetuning for Segment Anything Model",
+        "doi": "https://doi.org/10.48550/arXiv.2401.17868"
+      },
+      {
+        "title": "Data-Efficient Finetuning Using Cross-Task Nearest Neighbors",
+        "doi": "https://doi.org/10.48550/arXiv.2212.00196"
+      },
+      {
+        "title": "Parameter-Efficient Finetuning of Transformers for Source Code",
+        "doi": "https://doi.org/10.48550/arXiv.2212.05901"
+      },
+      {
+        "title": "KnowLA: Enhancing Parameter-efficient Finetuning with Knowledgeable Adaptation",
+        "doi": "https://doi.org/10.48550/arXiv.2403.14950"
+      },
+      {
+        "title": "Time Sensitive Knowledge Editing through Efficient Finetuning",
+        "doi": "https://doi.org/10.48550/arXiv.2406.04496"
+      },
+      {
+        "title": "Parameter-Efficient Finetuning for Robust Continual Multilingual Learning",
+        "doi": "https://doi.org/10.48550/arXiv.2209.06767"
+      },
+      {
+        "title": "Parameter Efficient Finetuning for Speech Emotion Recognition and Domain Adaptation",
+        "doi": "https://doi.org/10.1109/ICASSP48485.2024.10446272"
+      },
+      {
+        "title": "Customizing Large Language Model Generation Style using Parameter-Efficient Finetuning",
+        "doi": "https://doi.org/10.48550/arXiv.2409.04574"
+      },
+      {
+        "title": "PEFT-Ref: A Modular Reference Architecture and Typology for Parameter-Efficient Finetuning Techniques",
+        "doi": "https://doi.org/10.48550/arXiv.2304.12410"
+      },
+      {
+        "title": "ETHER: Efficient Finetuning of Large-Scale Models with Hyperplane Reflections",
+        "doi": "https://doi.org/10.48550/arXiv.2405.20271"
+      },
+      {
+        "title": "Efficient Finetuning Large Language Models For Vietnamese Chatbot",
+        "doi": "https://doi.org/10.1109/MAPR59823.2023.10288647"
+      },
+      {
+        "title": "Dr2Net: Dynamic Reversible Dual-Residual Networks for Memory-Efficient Finetuning",
+        "doi": "https://doi.org/10.1109/CVPR52733.2024.01499"
+      },
+      {
+        "title": "Trans-LoRA: towards data-free Transferable Parameter Efficient Finetuning",
+        "doi": "https://doi.org/10.48550/arXiv.2405.17258"
+      },
+      {
+        "title": "MAPLE: Multilingual Evaluation of Parameter Efficient Finetuning of Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2401.07598"
+      },
+      {
+        "title": "SubTuning: Efficient Finetuning for Multi-Task Learning",
+        "doi": "https://doi.org/10.48550/arXiv.2302.06354"
+      },
+      {
+        "title": "Evaluating Parameter-Efficient Finetuning Approaches for Pre-trained Models on the Financial Domain",
+        "doi": "https://doi.org/10.18653/v1/2023.findings-emnlp.1035"
+      },
+      {
+        "title": "Parameter efficient finetuning of text-to-image models with trainable self-attention layer",
+        "doi": "https://doi.org/10.1016/j.imavis.2024.105296"
+      },
+      {
+        "title": "SELFprot: Effective and Efficient Multitask Finetuning Methods for Protein Parameter Prediction",
+        "doi": "https://doi.org/10.1021/ACS.JCIM.4C02230"
+      },
+      {
+        "title": "Few-Shot Parameter Efficient Finetuning for SAM in Salient Steel Surface Defect Detection",
+        "doi": "https://doi.org/10.1109/TII.2025.3574815"
+      },
+      {
+        "title": "From PEFT to DEFT: Parameter Efficient Finetuning for Reducing Activation Density in Transformers",
+        "doi": "https://doi.org/10.1609/AAAI.V39I19.34227"
+      },
+      {
+        "title": "Efficient Finetuning for Dimensional Speech Emotion Recognition in the Age of Transformers",
+        "doi": "https://doi.org/10.1109/ICASSP49660.2025.10889878"
+      },
+      {
+        "title": "LLMProto: A Hardware-Efficient Finetuning Model for Few-Shot Relation Extraction with Large Language Model",
+        "doi": "https://doi.org/10.1109/ICASSP49660.2025.10889770"
+      },
+      {
+        "title": "Efficient Multilingual ASR Finetuning via LoRA Language Experts",
+        "doi": "https://doi.org/10.21437/INTERSPEECH.2025-1374"
+      },
+      {
+        "title": "MiLoRA: Harnessing Minor Singular Components for Parameter-Efficient LLM Finetuning",
+        "doi": "https://doi.org/10.18653/V1/2025.NAACL-LONG.248"
+      },
+      {
+        "title": "Efficient Zero-Order Federated Finetuning of Language Models for Resource-Constrained Devices",
+        "doi": "https://doi.org/10.48550/ARXIV.2502.10239"
+      },
+      {
+        "title": "ProtoBERT-LoRA: Parameter-Efficient Prototypical Finetuning for Immunotherapy Study Identification",
+        "doi": "https://doi.org/10.48550/ARXIV.2503.20179"
+      },
+      {
+        "title": "GPTQv2: Efficient Finetuning-Free Quantization for Asymmetric Calibration",
+        "doi": "https://doi.org/10.48550/ARXIV.2504.02692"
+      },
+      {
+        "title": "Efficient Reinforcement Finetuning via Adaptive Curriculum Learning",
+        "doi": "https://doi.org/10.48550/ARXIV.2504.05520"
+      },
+      {
+        "title": "PT-MoE: An Efficient Finetuning Framework for Integrating Mixture-of-Experts into Prompt Tuning",
+        "doi": "https://doi.org/10.48550/ARXIV.2505.09519"
+      },
+      {
+        "title": "Follow-Your-Motion: Video Motion Transfer via Efficient Spatial-Temporal Decoupled Finetuning",
+        "doi": "https://doi.org/10.48550/ARXIV.2506.05207"
+      },
+      {
+        "title": "PLoP: Precise LoRA Placement for Efficient Finetuning of Large Models",
+        "doi": "https://doi.org/10.48550/ARXIV.2506.20629"
+      },
+      {
+        "title": "Videos are Sample-Efficient Supervisions: Behavior Cloning from Videos via Latent Representations",
+        "doi": "https://doi.org/10.48550/arxiv.2512.21586"
+      },
+      {
+        "title": "Universal Transient Stability Analysis: A Large Language Model-Enabled Dynamics Prediction Framework",
+        "doi": "https://doi.org/10.48550/arxiv.2512.20970"
+      },
+      {
+        "title": "dUltra: Ultra-Fast Diffusion Language Models via Reinforcement Learning",
+        "doi": "https://doi.org/10.48550/arxiv.2512.21446"
+      },
+      {
+        "title": "PairFlow: Closed-Form Source-Target Coupling for Few-Step Generation in Discrete Flow Models",
+        "doi": "https://doi.org/10.48550/arxiv.2512.20063"
+      },
+      {
+        "title": "Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning",
+        "doi": "https://doi.org/10.48550/arxiv.2512.20605"
+      },
+      {
+        "title": "Distilling to Hybrid Attention Models via KL-Guided Layer Selection",
+        "doi": "https://doi.org/10.48550/arxiv.2512.20569"
+      },
+      {
+        "title": "lehmannfa/aurora-lite-decoder: v1.0",
+        "doi": "https://doi.org/10.5281/zenodo.18009320"
+      },
+      {
+        "title": "Delta-LLaVA: Base-then-Specialize Alignment for Token-Efficient Vision-Language Models",
+        "doi": "https://doi.org/10.48550/arxiv.2512.18910"
+      },
+      {
+        "title": "EcoSplat: Efficiency-controllable Feed-forward 3D Gaussian Splatting from Multi-view Images",
+        "doi": "https://doi.org/10.48550/arxiv.2512.18692"
+      },
+      {
+        "title": "Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding",
+        "doi": "https://doi.org/10.48550/arxiv.2512.17817"
+      },
+      {
+        "title": "Factorized Video Generation: Decoupling Scene Construction and Temporal Synthesis in Text-to-Video Diffusion Models",
+        "doi": "https://doi.org/10.48550/arxiv.2512.16371"
+      },
+      {
+        "title": "Posterior Behavioral Cloning: Pretraining BC Policies for Efficient RL Finetuning",
+        "doi": "https://doi.org/10.48550/arxiv.2512.16911"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "efficient finetuning",
+    "total_steps": 3,
+    "last_updated": "2026-01-02T16:08:25.803042",
+    "started_at": "2026-01-02T16:07:33.759995",
+    "total_papers": 79
+  }
+}

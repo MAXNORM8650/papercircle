@@ -1,0 +1,158 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T17:20:24.947799",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training'",
+      "result_preview": "Found 49 papers",
+      "details": {
+        "query": "LLM post-training",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 49,
+        "papers_added": 49,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 49
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-02T17:20:36.377833",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLM post-training'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLM post-training",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 39,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 88
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-02T17:20:45.601891",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training fine-tuning'",
+      "result_preview": "Found 40 papers",
+      "details": {
+        "query": "LLM post-training fine-tuning",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 40,
+        "papers_added": 17,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 105
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-02T17:22:01.420146",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLM post-training'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLM post-training",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": 2023,
+        "end_year": 2025,
+        "papers_found": 50,
+        "papers_added": 23,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 128
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-02T17:22:06.897319",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLM post-training'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLM post-training",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": 2023,
+        "end_year": 2025,
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 128
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-02T17:22:11.857482",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "LLM post-training",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 25,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 153
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-02T17:22:18.809793",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training'",
+      "result_preview": "Found 199 papers",
+      "details": {
+        "query": "LLM post-training",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 199,
+        "papers_added": 110,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 263
+    }
+  ],
+  "current_step": 7,
+  "metadata": {
+    "query": "LLM post-training",
+    "total_steps": 7,
+    "last_updated": "2026-01-02T17:22:18.860941",
+    "started_at": "2026-01-02T17:19:38.787466",
+    "total_papers": 263
+  }
+}

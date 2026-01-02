@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "Joint Embedding Predictive Architecture",
+    "total_papers": 100,
+    "unique_sources": 7,
+    "year_range": {
+      "min": 2014,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 619,
+      "average": 123.8
+    },
+    "top_source": "dblp",
+    "papers_with_pdf": 23,
+    "papers_with_doi": 47,
+    "processing_steps": 11
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (11) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 11
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "dblp contributes 40 papers (40%)",
+      "data": {
+        "source": "dblp",
+        "count": 40
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Yann LeCun has 7 papers in this collection",
+      "data": {
+        "author": "Yann LeCun",
+        "count": 7
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture...\" has 551 citations",
+      "data": {
+        "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+        "citations": 551
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: embedding, joint, predictive, architecture, learning",
+      "data": {
+        "keywords": {
+          "embedding": 74,
+          "joint": 72,
+          "predictive": 61,
+          "architecture": 50,
+          "learning": 36
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "23/100 papers (23%) have direct PDF links",
+      "data": {
+        "with_pdf": 23,
+        "total": 100
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 100 papers related to 'Joint Embedding Predictive Architecture'",
+    "Papers collected from 7 sources: offline_iclr, offline_icml, offline_nips, semantic_scholar, dblp, openalex, arxiv",
+    "Publication years range from 2014 to 2026",
+    "Total citations: 619, Average: 123",
+    "Leading researchers: Yann LeCun, Shentong Mo, Randall Balestriero"
+  ],
+  "metadata": {
+    "query": "Joint Embedding Predictive Architecture",
+    "total_steps": 11,
+    "last_updated": "2026-01-03T01:14:27.023411",
+    "started_at": "2026-01-03T01:13:13.306270",
+    "total_papers": 100
+  }
+}

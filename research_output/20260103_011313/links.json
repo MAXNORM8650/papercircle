@@ -1,0 +1,1913 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Learning Population-Level Representations with Joint Embedding Predictive Architectures",
+        "url": "https://openreview.net/forum?id=MZDkttBUEd",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "HiT-JEPA: A Hierarchical Self-supervised Trajectory Embedding Framework for Similarity Computation",
+        "url": "https://openreview.net/forum?id=UtFQNwWBaA",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "DEQ-MPC : Deep Equilibrium Model Predictive Control",
+        "url": "https://openreview.net/forum?id=Ty7xx0pn0a",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer",
+        "url": "https://iclr.cc/virtual/2025/poster/29514",
+        "pdf_url": "https://openreview.net/pdf?id=TqM0hifngW",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Unlocking Time Series Foundation Models with Channel Descriptions",
+        "url": "https://openreview.net/forum?id=XjWkC8bG1D",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Dense Representation Learning for a Joint-Embedding Predictive Architecture",
+        "url": "https://openreview.net/forum?id=8GCcSXlkZN",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Joint training does not transfer information between EEG and image classifiers",
+        "url": "https://openreview.net/forum?id=BK0QGRyQn8",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "TD-JEPA: Latent-predictive Representations for Zero-Shot Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=SzXDuBN8M1",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "LiDAR: Sensing Linear Probing Performance in Joint Embedding SSL Architectures",
+        "url": "https://iclr.cc/virtual/2024/poster/18199",
+        "pdf_url": "https://openreview.net/pdf?id=f3g5XpL9Kb",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Relatron: Automating Relational Machine Learning over Relational Databases",
+        "url": "https://openreview.net/forum?id=59avbH4HnU",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "TASTE: Text-Aligned Speech Tokenization and Embedding for Spoken Language Modeling",
+        "url": "https://openreview.net/forum?id=6STb8DauN1",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "SNAP: Generalizable Zero-Shot Prediction of Neural Architecture Performance via Semantic Embedding and Graph Learning",
+        "url": "https://openreview.net/forum?id=I6pTDAQE8V",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "PatchSynth: a Patch-Text Pre-trained Model",
+        "url": "https://openreview.net/forum?id=NSyacfXOyX",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Predictive Embedding as Latent Action: Towards VLA Pretraining in the Wild",
+        "url": "https://openreview.net/forum?id=iGwN4eoN6k",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Joint Metric Space Embedding by Unbalanced Optimal Transport with Gromov–Wasserstein Marginal Penalization",
+        "url": "https://icml.cc/virtual/2025/poster/46678",
+        "pdf_url": "https://openreview.net/pdf?id=0YZHfUmsJv",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "JADE: Joint Alignment and Deep Embedding for Multi-Slice Spatial Transcriptomics",
+        "url": "https://openreview.net/forum?id=pGRjDetCDM",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Hierarchical Molecular Representation Learning via Fragment-Based Self-Supervised Embedding Prediction",
+        "url": "https://openreview.net/forum?id=EWPBKHt1y4",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "JARA: Joint Alignment and Reconstruction Architecture for Region-Aware Vision-Language Pretraining",
+        "url": "https://openreview.net/forum?id=Aymp6MkZwn",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Mitigating Embedding Collapse in Diffusion Models for Categorical Data",
+        "url": "https://openreview.net/forum?id=JD6j7XSluo",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+        "url": "https://www.semanticscholar.org/paper/ee57e4d7a125f4ca8916284a857c3760d7d378d3",
+        "pdf_url": "http://arxiv.org/pdf/2301.08243",
+        "doi_url": "https://doi.org/10.1109/CVPR52729.2023.01499",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "BrainMoE: Cognition Joint Embedding via Mixture-of-Expert Towards Robust Brain Foundation Model",
+        "url": "https://openreview.net/forum?id=05cVmYJJnb",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Beyond FVD: An Enhanced Evaluation Metrics for Video Generation Distribution Quality",
+        "url": "https://iclr.cc/virtual/2025/poster/29066",
+        "pdf_url": "https://openreview.net/pdf?id=cC3LxGZasH",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "T-JEPA: Augmentation-Free Self-Supervised Learning for Tabular Data",
+        "url": "https://iclr.cc/virtual/2025/poster/28793",
+        "pdf_url": "https://openreview.net/pdf?id=gx3LMRB15C",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Spatially-aware Photo-realistic Face Relighting using Joint Embedding of Light Properties",
+        "url": "https://openreview.net/forum?id=BkLLtZX7AZ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Learning from Reward-Free Offline Data: A Case for Planning with Latent Dynamics Models",
+        "url": "https://openreview.net/forum?id=hTZ0SJCGQX",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "ALINE: Joint Amortization for Bayesian Inference and Active Data Acquisition",
+        "url": "https://openreview.net/forum?id=btm5Z5Vu8G",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Hyperion: Fused Multi-Trial and Gradient Descent for Joint Hyperparameter and Neural Architecture Optimization",
+        "url": "https://openreview.net/forum?id=UyPmWupphV",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Denoising with a Joint-Embedding Predictive Architecture",
+        "url": "https://dblp.org/rec/conf/iclr/Chen0WW25",
+        "pdf_url": null,
+        "doi_url": null,
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "JOSENet: A Joint Stream Embedding Network for Violence Detection in Surveillance Videos",
+        "url": "https://openreview.net/forum?id=MpWRCiw8g5",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Multitask Learning for Face Forgery Detection: A Joint Embedding Approach",
+        "url": "https://openreview.net/forum?id=XT9mL5vxX2",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2023
+      },
+      {
+        "title": "Evaluating Predictive Distributions: Does Bayesian Deep Learning Work?",
+        "url": "https://openreview.net/forum?id=S7vWxSkqv_M",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2022
+      },
+      {
+        "title": "JAHS-Bench-201: A Foundation For Research On Joint Architecture And Hyperparameter Search",
+        "url": "https://nips.cc/virtual/2022/poster/55729",
+        "pdf_url": "https://openreview.net/pdf?id=_HLcjaVlqJ",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2022
+      },
+      {
+        "title": "MolJET: Multimodal Joint Embedding Transformer for Conditional de novo Molecular Design and Multi-Property Optimization",
+        "url": "https://openreview.net/forum?id=7UudBVsIrr",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Joint Embedding Self-Supervised Learning in the Kernel Regime",
+        "url": "https://openreview.net/forum?id=eEoSHelICSG",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Neural Architecture Search in Embedding Space",
+        "url": "https://openreview.net/forum?id=HylWahVtwB",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2020
+      },
+      {
+        "title": "Joint-Embedding Predictive Architecture for Self-Supervised Learning of Mask Classification Architecture",
+        "url": "https://dblp.org/rec/journals/corr/abs-2407-10733",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2407.10733",
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "Improving Joint Embedding Predictive Architecture with Diffusion Noise",
+        "url": "https://dblp.org/rec/journals/corr/abs-2507-15216",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2507.15216",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Learnable Embedding Space for Efficient Neural Architecture Compression",
+        "url": "https://iclr.cc/virtual/2019/poster/834",
+        "pdf_url": "https://openreview.net/pdf?id=S1xLN3C9YX",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2019
+      },
+      {
+        "title": "Fold2Seq: A Joint Sequence(1D)-Fold(3D) Embedding-based Generative Model for Protein Design",
+        "url": "https://openreview.net/forum?id=1-Mh-cWROZ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2021
+      },
+      {
+        "title": "JEPA-T: Joint-Embedding Predictive Architecture with Text Fusion for Image Generation",
+        "url": "https://dblp.org/rec/journals/corr/abs-2510-00974",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2510.00974",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Compositional Embeddings: Joint Perception and Comparison of Class Label Sets",
+        "url": "https://openreview.net/forum?id=BJx-ZeSKDB",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2020
+      },
+      {
+        "title": "ACT-JEPA: Joint-Embedding Predictive Architecture Improves Policy Representation Learning",
+        "url": "https://dblp.org/rec/journals/corr/abs-2501-14622",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2501.14622",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "BatchQuant: Quantized-for-all Architecture Search with Robust Quantizer",
+        "url": "https://nips.cc/virtual/2021/poster/28836",
+        "pdf_url": "https://openreview.net/pdf?id=qQAtFdyDr-",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2021
+      },
+      {
+        "title": "JEPA4Rec: Learning Effective Language Representations for Sequential Recommendation via Joint Embedding Predictive Architecture",
+        "url": "https://dblp.org/rec/journals/corr/abs-2504-10512",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2504.10512",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Graph-level Representation Learning with Joint-Embedding Predictive Architectures",
+        "url": "https://dblp.org/rec/journals/tmlr/Skenderi0TC25",
+        "pdf_url": null,
+        "doi_url": null,
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "HEP-JEPA: A foundation model for collider physics using joint embedding predictive architecture",
+        "url": "https://dblp.org/rec/journals/corr/abs-2502-03933",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2502.03933",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Predictive Coding for Locally-Linear Control",
+        "url": "https://icml.cc/virtual/2020/poster/6789",
+        "pdf_url": "http://proceedings.mlr.press/v119/shu20a/shu20a.pdf",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2020
+      },
+      {
+        "title": "Efficient Multi-Objective Neural Architecture Search via Lamarckian Evolution",
+        "url": "https://iclr.cc/virtual/2019/poster/1090",
+        "pdf_url": "https://openreview.net/pdf?id=ByME42AqK7",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2019
+      },
+      {
+        "title": "T-JEPA: A Joint-Embedding Predictive Architecture for Trajectory Similarity Computation",
+        "url": "https://dblp.org/rec/conf/gis/Li00S24",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1145/3678717.3691271",
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "Interstellar: Searching Recurrent Architecture for  \tKnowledge Graph Embedding",
+        "url": "https://nips.cc/virtual/2020/poster/17597",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2020/file/722caafb4825ef5d8670710fa29087cf-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2020
+      },
+      {
+        "title": "Audio-JEPA: Joint-Embedding Predictive Architecture for Audio Representation Learning",
+        "url": "https://dblp.org/rec/journals/corr/abs-2507-02915",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2507.02915",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Joint Embedding Predictive Architecture for self-supervised pretraining on polymer molecular graphs",
+        "url": "https://dblp.org/rec/journals/corr/abs-2506-18194",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2506.18194",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Self-supervised learning of imaging and clinical signatures using a multimodal joint-embedding predictive architecture",
+        "url": "https://dblp.org/rec/journals/corr/abs-2509-15470",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2509.15470",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Point-JEPA: A Joint Embedding Predictive Architecture for Self-Supervised Learning on Point Cloud",
+        "url": "https://dblp.org/rec/conf/wacv/SaitoKP25",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1109/WACV61041.2025.00714",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Video Representation Learning with Joint-Embedding Predictive Architectures",
+        "url": "https://dblp.org/rec/journals/corr/abs-2412-10925",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2412.10925",
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "Connecting Joint-Embedding Predictive Architecture with Contrastive Self-supervised Learning",
+        "url": "https://dblp.org/rec/conf/nips/MoT24",
+        "pdf_url": null,
+        "doi_url": null,
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "Text-JEPA: A Joint Embedding Predictive Architecture for the Conversion of Natural Language into First-Order Logic",
+        "url": "https://dblp.org/rec/conf/iccci/LeTNHPBQB25",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1007/978-3-032-09318-9_14",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "S-JEPA: A Joint Embedding Predictive Architecture for Skeletal Action Recognition",
+        "url": "https://dblp.org/rec/conf/eccv/AbdelfattahA24",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1007/978-3-031-73411-3_21",
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "Self-supervised pre-training with joint-embedding predictive architecture boosts ECG classification performance",
+        "url": "https://dblp.org/rec/journals/cbm/WeimannC25",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1016/J.COMPBIOMED.2025.110809",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "REJEPA: A Novel Joint-Embedding Predictive Architecture for Efficient Remote Sensing Image Retrieval",
+        "url": "https://dblp.org/rec/conf/cvpr/ChoudhurySMB25",
+        "pdf_url": null,
+        "doi_url": null,
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "M3-JEPA: Multimodal Alignment via Multi-gate MoE based on the Joint-Embedding Predictive Architecture",
+        "url": "https://dblp.org/rec/conf/icml/LeiCQWHGWJ25",
+        "pdf_url": null,
+        "doi_url": null,
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "SparseJEPA: Sparse Representation Learning of Joint Embedding Predictive Architectures",
+        "url": "https://dblp.org/rec/journals/corr/abs-2504-16140",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2504.16140",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Unseen Action Recognition with Unpaired Adversarial Multimodal Learning",
+        "url": "https://openreview.net/forum?id=S14g5s09tm",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2019
+      },
+      {
+        "title": "LaT-PFN: A Joint Embedding Predictive Architecture for In-context Time-series Forecasting",
+        "url": "https://dblp.org/rec/journals/corr/abs-2405-10093",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2405.10093",
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "AD-L-JEPA: Self-Supervised Spatial World Models with Joint Embedding Predictive Architecture for Autonomous Driving with LiDAR Data",
+        "url": "https://dblp.org/rec/journals/corr/abs-2501-04969",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2501.04969",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "LLM-JEPA: Large Language Models Meet Joint Embedding Predictive Architectures",
+        "url": "https://dblp.org/rec/journals/corr/abs-2509-14252",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2509.14252",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Learning State-Space Models of Dynamic Systems from Arbitrary Data using Joint Embedding Predictive Architectures",
+        "url": "https://dblp.org/rec/journals/corr/abs-2508-10489",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2508.10489",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "JEP-KD: Joint-Embedding Predictive Architecture Based Knowledge Distillation for Visual Speech Recognition",
+        "url": "https://dblp.org/rec/journals/corr/abs-2403-18843",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2403.18843",
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "DMT-JEPA: Discriminative Masked Targets for Joint-Embedding Predictive Architecture",
+        "url": "https://dblp.org/rec/journals/corr/abs-2405-17995",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2405.17995",
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "CNN-JEPA: Self-Supervised Pretraining Convolutional Neural Networks Using Joint Embedding Predictive Architecture",
+        "url": "https://dblp.org/rec/conf/icmla/KalaposG24a",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1109/ICMLA61862.2024.00169",
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "Learning General Representation of 12-Lead Electrocardiogram with a Joint-Embedding Predictive Architecture",
+        "url": "https://dblp.org/rec/journals/corr/abs-2410-08559",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2410.08559",
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "JEPA for RL: Investigating Joint-Embedding Predictive Architectures for Reinforcement Learning",
+        "url": "https://dblp.org/rec/journals/corr/abs-2504-16591",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2504.16591",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "3D-JEPA: A Joint Embedding Predictive Architecture for 3D Self-Supervised Representation Learning",
+        "url": "https://dblp.org/rec/journals/corr/abs-2409-15803",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2409.15803",
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "Exploring joint embedding predictive architectures for pretraining convolutional neural networks",
+        "url": "https://openalex.org/W7108478410",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1016/j.cviu.2025.104595",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "From Video to EEG: Adapting Joint Embedding Predictive Architecture to Uncover Visual Concepts in Brain Signal Analysis",
+        "url": "https://dblp.org/rec/journals/corr/abs-2507-03633",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2507.03633",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Tutorial on Joint Embedding Predictive Architectures (JEPA): Foundations, Applications, and Future Directions",
+        "url": "https://openalex.org/W4417202127",
+        "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.176469421.19270944/v2",
+        "doi_url": "https://doi.org/10.36227/techrxiv.176469421.19270944/v2",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Zero-shot Musical Stem Retrieval with Joint-Embedding Predictive Architectures",
+        "url": "https://dblp.org/rec/conf/icassp/RiouGHLP25",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1109/ICASSP49660.2025.10888814",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Recurrent Joint Embedding Predictive Architecture with Recurrent Forward Propagation Learning",
+        "url": "https://dblp.org/rec/journals/corr/abs-2411-16695",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2411.16695",
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "Predicting gradient is better: Exploring self-supervised learning for SAR ATR with a joint-embedding predictive architecture",
+        "url": "https://www.semanticscholar.org/paper/2f60f652930784fdc3deeee0b45ca4788da06a21",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1016/j.isprsjprs.2024.09.013",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "MiME: Multilevel Medical Embedding of Electronic Health Records for Predictive Healthcare",
+        "url": "https://nips.cc/virtual/2018/poster/11448",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2018/file/934b535800b1cba8f96a5d72f72f1611-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2018
+      },
+      {
+        "title": "Joint Training of a Convolutional Network and a Graphical Model for Human Pose Estimation",
+        "url": "https://nips.cc/virtual/2014/poster/4636",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2014/file/893643e2dcd4b25212defd18141d58c4-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2014
+      },
+      {
+        "title": "CrossJEPA: Cross-Modal Joint-Embedding Predictive Architecture for Efficient 3D Representation Learning from 2D Images",
+        "url": "https://openalex.org/W7106667588",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2511.18424",
+        "doi_url": "https://doi.org/10.48550/arxiv.2511.18424",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Stem-JEPA: A Joint-Embedding Predictive Architecture for Musical Stem Compatibility Estimation",
+        "url": "https://dblp.org/rec/conf/ismir/RiouLHAP24",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.5281/ZENODO.14877415",
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "Learning Symmetry-Independent Jet Representations via Jet-Based Joint Embedding Predictive Architecture",
+        "url": "https://dblp.org/rec/journals/corr/abs-2412-05333",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2412.05333",
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "Investigating Design Choices in Joint-Embedding Predictive Architectures for General Audio Representation Learning",
+        "url": "https://dblp.org/rec/conf/icassp/RiouLHP24",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1109/ICASSPW62465.2024.10626360",
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "Animal-JEPA: Advancing Animal Behavior Studies Through Joint Embedding Predictive Architecture in Video Analysis",
+        "url": "https://dblp.org/rec/conf/bigdataconf/ZhengDYDSWC24",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1109/BIGDATA62323.2024.10826081",
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "DSeq-JEPA: Discriminative Sequential Joint-Embedding Predictive Architecture",
+        "url": "https://www.semanticscholar.org/paper/cf3f719eb0ecd3ef0f63f4db559913e712cdbb64",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Hybrid JEPA-Liquid Neural Architecture for Predictive World Modeling and Recursive Self-Improvement",
+        "url": "https://openalex.org/W7115574428",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17934305",
+        "doi_url": "https://doi.org/10.5281/zenodo.17934305",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Understanding cortical computation through the lens of joint-embedding predictive architectures",
+        "url": "https://openalex.org/W4416754263",
+        "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/11/25/2025.11.25.690220.full.pdf",
+        "doi_url": "https://doi.org/10.1101/2025.11.25.690220",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "ACT-JEPA: Novel Joint-Embedding Predictive Architecture for Efficient Policy Representation Learning",
+        "url": "https://www.semanticscholar.org/paper/c46f0114e99edefb42580106bd1080222d72e7d0",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
+        "url": "https://openalex.org/W4417297110",
+        "pdf_url": "https://arxiv.org/pdf/2512.10942",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.10942",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "JEPA-Reasoner: Decoupling Latent Reasoning from Token Generation",
+        "url": "https://openalex.org/W7117106026",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.19171",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.19171",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Self-Supervised Neural Architecture Search for Multimodal Deep Neural Networks",
+        "url": "http://arxiv.org/abs/2512.24793v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24793v1",
+        "doi_url": "https://doi.org/10.1587/transinf.2024EDL8018",
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "TI-JEPA: An Innovative Energy-based Joint Embedding Strategy for Text-Image Multimodal Systems",
+        "url": "https://www.semanticscholar.org/paper/6cfab731e9564038c80f5c1e5dea92db1b115257",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2503.06380",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Self-Supervised Learning with Joint-Embedding Predictive Architectures. (Apprentissage auto-supervisé utilisant des architectures à représentations jointes)",
+        "url": "https://dblp.org/rec/phd/hal/Bardes24",
+        "pdf_url": null,
+        "doi_url": null,
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "Self-Supervised Representation Learning with Joint Embedding Predictive Architecture for Automotive LiDAR Object Detection",
+        "url": "https://www.semanticscholar.org/paper/cc33476c5a8823eab74ce7ba7334ca1a9d7f11a0",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "SWJEPA: Improving Prostate Cancer Lesion Detection with Shear Wave Elastography and Joint Embedding Predictive Architectures",
+        "url": "https://dblp.org/rec/conf/icpr/BauerGAFM24",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1007/978-3-031-78398-2_24",
+        "source": "dblp",
+        "year": 2024
+      },
+      {
+        "title": "EgoAgent: A Joint Predictive Agent Model in Egocentric Worlds",
+        "url": "https://www.semanticscholar.org/paper/30629fd42e14b7a5007b6c5a41cabbef5489c8f9",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Latent-Only World Modeling Inspired by Aphantasia: A Decoder-Free JEPA Variant for Stable Abstract Prediction",
+        "url": "https://openalex.org/W7107954063",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17755792",
+        "doi_url": "https://doi.org/10.5281/zenodo.17755792",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "From Teleology to Adequacy=A Spinozistic Layer for World-Model AI",
+        "url": "https://openalex.org/W7116664710",
+        "pdf_url": "https://doi.org/10.5281/zenodo.18005718",
+        "doi_url": "https://doi.org/10.5281/zenodo.18005718",
+        "source": "openalex",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "offline_iclr": [
+        {
+          "title": "Learning Population-Level Representations with Joint Embedding Predictive Architectures",
+          "url": "https://openreview.net/forum?id=MZDkttBUEd",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "HiT-JEPA: A Hierarchical Self-supervised Trajectory Embedding Framework for Similarity Computation",
+          "url": "https://openreview.net/forum?id=UtFQNwWBaA",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "DEQ-MPC : Deep Equilibrium Model Predictive Control",
+          "url": "https://openreview.net/forum?id=Ty7xx0pn0a",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer",
+          "url": "https://iclr.cc/virtual/2025/poster/29514",
+          "pdf_url": "https://openreview.net/pdf?id=TqM0hifngW",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Unlocking Time Series Foundation Models with Channel Descriptions",
+          "url": "https://openreview.net/forum?id=XjWkC8bG1D",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Dense Representation Learning for a Joint-Embedding Predictive Architecture",
+          "url": "https://openreview.net/forum?id=8GCcSXlkZN",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Joint training does not transfer information between EEG and image classifiers",
+          "url": "https://openreview.net/forum?id=BK0QGRyQn8",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "TD-JEPA: Latent-predictive Representations for Zero-Shot Reinforcement Learning",
+          "url": "https://openreview.net/forum?id=SzXDuBN8M1",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LiDAR: Sensing Linear Probing Performance in Joint Embedding SSL Architectures",
+          "url": "https://iclr.cc/virtual/2024/poster/18199",
+          "pdf_url": "https://openreview.net/pdf?id=f3g5XpL9Kb",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Relatron: Automating Relational Machine Learning over Relational Databases",
+          "url": "https://openreview.net/forum?id=59avbH4HnU",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "TASTE: Text-Aligned Speech Tokenization and Embedding for Spoken Language Modeling",
+          "url": "https://openreview.net/forum?id=6STb8DauN1",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "SNAP: Generalizable Zero-Shot Prediction of Neural Architecture Performance via Semantic Embedding and Graph Learning",
+          "url": "https://openreview.net/forum?id=I6pTDAQE8V",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "PatchSynth: a Patch-Text Pre-trained Model",
+          "url": "https://openreview.net/forum?id=NSyacfXOyX",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Predictive Embedding as Latent Action: Towards VLA Pretraining in the Wild",
+          "url": "https://openreview.net/forum?id=iGwN4eoN6k",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Hierarchical Molecular Representation Learning via Fragment-Based Self-Supervised Embedding Prediction",
+          "url": "https://openreview.net/forum?id=EWPBKHt1y4",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "JARA: Joint Alignment and Reconstruction Architecture for Region-Aware Vision-Language Pretraining",
+          "url": "https://openreview.net/forum?id=Aymp6MkZwn",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Mitigating Embedding Collapse in Diffusion Models for Categorical Data",
+          "url": "https://openreview.net/forum?id=JD6j7XSluo",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Beyond FVD: An Enhanced Evaluation Metrics for Video Generation Distribution Quality",
+          "url": "https://iclr.cc/virtual/2025/poster/29066",
+          "pdf_url": "https://openreview.net/pdf?id=cC3LxGZasH",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "T-JEPA: Augmentation-Free Self-Supervised Learning for Tabular Data",
+          "url": "https://iclr.cc/virtual/2025/poster/28793",
+          "pdf_url": "https://openreview.net/pdf?id=gx3LMRB15C",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Spatially-aware Photo-realistic Face Relighting using Joint Embedding of Light Properties",
+          "url": "https://openreview.net/forum?id=BkLLtZX7AZ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Hyperion: Fused Multi-Trial and Gradient Descent for Joint Hyperparameter and Neural Architecture Optimization",
+          "url": "https://openreview.net/forum?id=UyPmWupphV",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "JOSENet: A Joint Stream Embedding Network for Violence Detection in Surveillance Videos",
+          "url": "https://openreview.net/forum?id=MpWRCiw8g5",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Evaluating Predictive Distributions: Does Bayesian Deep Learning Work?",
+          "url": "https://openreview.net/forum?id=S7vWxSkqv_M",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2022
+        },
+        {
+          "title": "MolJET: Multimodal Joint Embedding Transformer for Conditional de novo Molecular Design and Multi-Property Optimization",
+          "url": "https://openreview.net/forum?id=7UudBVsIrr",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Joint Embedding Self-Supervised Learning in the Kernel Regime",
+          "url": "https://openreview.net/forum?id=eEoSHelICSG",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Neural Architecture Search in Embedding Space",
+          "url": "https://openreview.net/forum?id=HylWahVtwB",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2020
+        },
+        {
+          "title": "Learnable Embedding Space for Efficient Neural Architecture Compression",
+          "url": "https://iclr.cc/virtual/2019/poster/834",
+          "pdf_url": "https://openreview.net/pdf?id=S1xLN3C9YX",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2019
+        },
+        {
+          "title": "Fold2Seq: A Joint Sequence(1D)-Fold(3D) Embedding-based Generative Model for Protein Design",
+          "url": "https://openreview.net/forum?id=1-Mh-cWROZ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2021
+        },
+        {
+          "title": "Compositional Embeddings: Joint Perception and Comparison of Class Label Sets",
+          "url": "https://openreview.net/forum?id=BJx-ZeSKDB",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2020
+        },
+        {
+          "title": "Efficient Multi-Objective Neural Architecture Search via Lamarckian Evolution",
+          "url": "https://iclr.cc/virtual/2019/poster/1090",
+          "pdf_url": "https://openreview.net/pdf?id=ByME42AqK7",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2019
+        },
+        {
+          "title": "Unseen Action Recognition with Unpaired Adversarial Multimodal Learning",
+          "url": "https://openreview.net/forum?id=S14g5s09tm",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2019
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "Joint Metric Space Embedding by Unbalanced Optimal Transport with Gromov–Wasserstein Marginal Penalization",
+          "url": "https://icml.cc/virtual/2025/poster/46678",
+          "pdf_url": "https://openreview.net/pdf?id=0YZHfUmsJv",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Predictive Coding for Locally-Linear Control",
+          "url": "https://icml.cc/virtual/2020/poster/6789",
+          "pdf_url": "http://proceedings.mlr.press/v119/shu20a/shu20a.pdf",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2020
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "JADE: Joint Alignment and Deep Embedding for Multi-Slice Spatial Transcriptomics",
+          "url": "https://openreview.net/forum?id=pGRjDetCDM",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "BrainMoE: Cognition Joint Embedding via Mixture-of-Expert Towards Robust Brain Foundation Model",
+          "url": "https://openreview.net/forum?id=05cVmYJJnb",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Learning from Reward-Free Offline Data: A Case for Planning with Latent Dynamics Models",
+          "url": "https://openreview.net/forum?id=hTZ0SJCGQX",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "ALINE: Joint Amortization for Bayesian Inference and Active Data Acquisition",
+          "url": "https://openreview.net/forum?id=btm5Z5Vu8G",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Multitask Learning for Face Forgery Detection: A Joint Embedding Approach",
+          "url": "https://openreview.net/forum?id=XT9mL5vxX2",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2023
+        },
+        {
+          "title": "JAHS-Bench-201: A Foundation For Research On Joint Architecture And Hyperparameter Search",
+          "url": "https://nips.cc/virtual/2022/poster/55729",
+          "pdf_url": "https://openreview.net/pdf?id=_HLcjaVlqJ",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2022
+        },
+        {
+          "title": "BatchQuant: Quantized-for-all Architecture Search with Robust Quantizer",
+          "url": "https://nips.cc/virtual/2021/poster/28836",
+          "pdf_url": "https://openreview.net/pdf?id=qQAtFdyDr-",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2021
+        },
+        {
+          "title": "Interstellar: Searching Recurrent Architecture for  \tKnowledge Graph Embedding",
+          "url": "https://nips.cc/virtual/2020/poster/17597",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2020/file/722caafb4825ef5d8670710fa29087cf-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2020
+        },
+        {
+          "title": "MiME: Multilevel Medical Embedding of Electronic Health Records for Predictive Healthcare",
+          "url": "https://nips.cc/virtual/2018/poster/11448",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2018/file/934b535800b1cba8f96a5d72f72f1611-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2018
+        },
+        {
+          "title": "Joint Training of a Convolutional Network and a Graphical Model for Human Pose Estimation",
+          "url": "https://nips.cc/virtual/2014/poster/4636",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2014/file/893643e2dcd4b25212defd18141d58c4-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2014
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+          "url": "https://www.semanticscholar.org/paper/ee57e4d7a125f4ca8916284a857c3760d7d378d3",
+          "pdf_url": "http://arxiv.org/pdf/2301.08243",
+          "doi_url": "https://doi.org/10.1109/CVPR52729.2023.01499",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Predicting gradient is better: Exploring self-supervised learning for SAR ATR with a joint-embedding predictive architecture",
+          "url": "https://www.semanticscholar.org/paper/2f60f652930784fdc3deeee0b45ca4788da06a21",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1016/j.isprsjprs.2024.09.013",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "DSeq-JEPA: Discriminative Sequential Joint-Embedding Predictive Architecture",
+          "url": "https://www.semanticscholar.org/paper/cf3f719eb0ecd3ef0f63f4db559913e712cdbb64",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "ACT-JEPA: Novel Joint-Embedding Predictive Architecture for Efficient Policy Representation Learning",
+          "url": "https://www.semanticscholar.org/paper/c46f0114e99edefb42580106bd1080222d72e7d0",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "TI-JEPA: An Innovative Energy-based Joint Embedding Strategy for Text-Image Multimodal Systems",
+          "url": "https://www.semanticscholar.org/paper/6cfab731e9564038c80f5c1e5dea92db1b115257",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2503.06380",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Self-Supervised Representation Learning with Joint Embedding Predictive Architecture for Automotive LiDAR Object Detection",
+          "url": "https://www.semanticscholar.org/paper/cc33476c5a8823eab74ce7ba7334ca1a9d7f11a0",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "EgoAgent: A Joint Predictive Agent Model in Egocentric Worlds",
+          "url": "https://www.semanticscholar.org/paper/30629fd42e14b7a5007b6c5a41cabbef5489c8f9",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        }
+      ],
+      "dblp": [
+        {
+          "title": "Denoising with a Joint-Embedding Predictive Architecture",
+          "url": "https://dblp.org/rec/conf/iclr/Chen0WW25",
+          "pdf_url": null,
+          "doi_url": null,
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Joint-Embedding Predictive Architecture for Self-Supervised Learning of Mask Classification Architecture",
+          "url": "https://dblp.org/rec/journals/corr/abs-2407-10733",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2407.10733",
+          "source": "dblp",
+          "year": 2024
+        },
+        {
+          "title": "Improving Joint Embedding Predictive Architecture with Diffusion Noise",
+          "url": "https://dblp.org/rec/journals/corr/abs-2507-15216",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2507.15216",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "JEPA-T: Joint-Embedding Predictive Architecture with Text Fusion for Image Generation",
+          "url": "https://dblp.org/rec/journals/corr/abs-2510-00974",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2510.00974",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "ACT-JEPA: Joint-Embedding Predictive Architecture Improves Policy Representation Learning",
+          "url": "https://dblp.org/rec/journals/corr/abs-2501-14622",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2501.14622",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "JEPA4Rec: Learning Effective Language Representations for Sequential Recommendation via Joint Embedding Predictive Architecture",
+          "url": "https://dblp.org/rec/journals/corr/abs-2504-10512",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2504.10512",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Graph-level Representation Learning with Joint-Embedding Predictive Architectures",
+          "url": "https://dblp.org/rec/journals/tmlr/Skenderi0TC25",
+          "pdf_url": null,
+          "doi_url": null,
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "HEP-JEPA: A foundation model for collider physics using joint embedding predictive architecture",
+          "url": "https://dblp.org/rec/journals/corr/abs-2502-03933",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2502.03933",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "T-JEPA: A Joint-Embedding Predictive Architecture for Trajectory Similarity Computation",
+          "url": "https://dblp.org/rec/conf/gis/Li00S24",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1145/3678717.3691271",
+          "source": "dblp",
+          "year": 2024
+        },
+        {
+          "title": "Audio-JEPA: Joint-Embedding Predictive Architecture for Audio Representation Learning",
+          "url": "https://dblp.org/rec/journals/corr/abs-2507-02915",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2507.02915",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Joint Embedding Predictive Architecture for self-supervised pretraining on polymer molecular graphs",
+          "url": "https://dblp.org/rec/journals/corr/abs-2506-18194",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2506.18194",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Self-supervised learning of imaging and clinical signatures using a multimodal joint-embedding predictive architecture",
+          "url": "https://dblp.org/rec/journals/corr/abs-2509-15470",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2509.15470",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Point-JEPA: A Joint Embedding Predictive Architecture for Self-Supervised Learning on Point Cloud",
+          "url": "https://dblp.org/rec/conf/wacv/SaitoKP25",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1109/WACV61041.2025.00714",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Video Representation Learning with Joint-Embedding Predictive Architectures",
+          "url": "https://dblp.org/rec/journals/corr/abs-2412-10925",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2412.10925",
+          "source": "dblp",
+          "year": 2024
+        },
+        {
+          "title": "Connecting Joint-Embedding Predictive Architecture with Contrastive Self-supervised Learning",
+          "url": "https://dblp.org/rec/conf/nips/MoT24",
+          "pdf_url": null,
+          "doi_url": null,
+          "source": "dblp",
+          "year": 2024
+        },
+        {
+          "title": "Text-JEPA: A Joint Embedding Predictive Architecture for the Conversion of Natural Language into First-Order Logic",
+          "url": "https://dblp.org/rec/conf/iccci/LeTNHPBQB25",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1007/978-3-032-09318-9_14",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "S-JEPA: A Joint Embedding Predictive Architecture for Skeletal Action Recognition",
+          "url": "https://dblp.org/rec/conf/eccv/AbdelfattahA24",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1007/978-3-031-73411-3_21",
+          "source": "dblp",
+          "year": 2024
+        },
+        {
+          "title": "Self-supervised pre-training with joint-embedding predictive architecture boosts ECG classification performance",
+          "url": "https://dblp.org/rec/journals/cbm/WeimannC25",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1016/J.COMPBIOMED.2025.110809",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "REJEPA: A Novel Joint-Embedding Predictive Architecture for Efficient Remote Sensing Image Retrieval",
+          "url": "https://dblp.org/rec/conf/cvpr/ChoudhurySMB25",
+          "pdf_url": null,
+          "doi_url": null,
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "M3-JEPA: Multimodal Alignment via Multi-gate MoE based on the Joint-Embedding Predictive Architecture",
+          "url": "https://dblp.org/rec/conf/icml/LeiCQWHGWJ25",
+          "pdf_url": null,
+          "doi_url": null,
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "SparseJEPA: Sparse Representation Learning of Joint Embedding Predictive Architectures",
+          "url": "https://dblp.org/rec/journals/corr/abs-2504-16140",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2504.16140",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "LaT-PFN: A Joint Embedding Predictive Architecture for In-context Time-series Forecasting",
+          "url": "https://dblp.org/rec/journals/corr/abs-2405-10093",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2405.10093",
+          "source": "dblp",
+          "year": 2024
+        },
+        {
+          "title": "AD-L-JEPA: Self-Supervised Spatial World Models with Joint Embedding Predictive Architecture for Autonomous Driving with LiDAR Data",
+          "url": "https://dblp.org/rec/journals/corr/abs-2501-04969",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2501.04969",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "LLM-JEPA: Large Language Models Meet Joint Embedding Predictive Architectures",
+          "url": "https://dblp.org/rec/journals/corr/abs-2509-14252",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2509.14252",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Learning State-Space Models of Dynamic Systems from Arbitrary Data using Joint Embedding Predictive Architectures",
+          "url": "https://dblp.org/rec/journals/corr/abs-2508-10489",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2508.10489",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "JEP-KD: Joint-Embedding Predictive Architecture Based Knowledge Distillation for Visual Speech Recognition",
+          "url": "https://dblp.org/rec/journals/corr/abs-2403-18843",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2403.18843",
+          "source": "dblp",
+          "year": 2024
+        },
+        {
+          "title": "DMT-JEPA: Discriminative Masked Targets for Joint-Embedding Predictive Architecture",
+          "url": "https://dblp.org/rec/journals/corr/abs-2405-17995",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2405.17995",
+          "source": "dblp",
+          "year": 2024
+        },
+        {
+          "title": "CNN-JEPA: Self-Supervised Pretraining Convolutional Neural Networks Using Joint Embedding Predictive Architecture",
+          "url": "https://dblp.org/rec/conf/icmla/KalaposG24a",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1109/ICMLA61862.2024.00169",
+          "source": "dblp",
+          "year": 2024
+        },
+        {
+          "title": "Learning General Representation of 12-Lead Electrocardiogram with a Joint-Embedding Predictive Architecture",
+          "url": "https://dblp.org/rec/journals/corr/abs-2410-08559",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2410.08559",
+          "source": "dblp",
+          "year": 2024
+        },
+        {
+          "title": "JEPA for RL: Investigating Joint-Embedding Predictive Architectures for Reinforcement Learning",
+          "url": "https://dblp.org/rec/journals/corr/abs-2504-16591",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2504.16591",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "3D-JEPA: A Joint Embedding Predictive Architecture for 3D Self-Supervised Representation Learning",
+          "url": "https://dblp.org/rec/journals/corr/abs-2409-15803",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2409.15803",
+          "source": "dblp",
+          "year": 2024
+        },
+        {
+          "title": "From Video to EEG: Adapting Joint Embedding Predictive Architecture to Uncover Visual Concepts in Brain Signal Analysis",
+          "url": "https://dblp.org/rec/journals/corr/abs-2507-03633",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2507.03633",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Zero-shot Musical Stem Retrieval with Joint-Embedding Predictive Architectures",
+          "url": "https://dblp.org/rec/conf/icassp/RiouGHLP25",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1109/ICASSP49660.2025.10888814",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Recurrent Joint Embedding Predictive Architecture with Recurrent Forward Propagation Learning",
+          "url": "https://dblp.org/rec/journals/corr/abs-2411-16695",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2411.16695",
+          "source": "dblp",
+          "year": 2024
+        },
+        {
+          "title": "Stem-JEPA: A Joint-Embedding Predictive Architecture for Musical Stem Compatibility Estimation",
+          "url": "https://dblp.org/rec/conf/ismir/RiouLHAP24",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.5281/ZENODO.14877415",
+          "source": "dblp",
+          "year": 2024
+        },
+        {
+          "title": "Learning Symmetry-Independent Jet Representations via Jet-Based Joint Embedding Predictive Architecture",
+          "url": "https://dblp.org/rec/journals/corr/abs-2412-05333",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2412.05333",
+          "source": "dblp",
+          "year": 2024
+        },
+        {
+          "title": "Investigating Design Choices in Joint-Embedding Predictive Architectures for General Audio Representation Learning",
+          "url": "https://dblp.org/rec/conf/icassp/RiouLHP24",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1109/ICASSPW62465.2024.10626360",
+          "source": "dblp",
+          "year": 2024
+        },
+        {
+          "title": "Animal-JEPA: Advancing Animal Behavior Studies Through Joint Embedding Predictive Architecture in Video Analysis",
+          "url": "https://dblp.org/rec/conf/bigdataconf/ZhengDYDSWC24",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1109/BIGDATA62323.2024.10826081",
+          "source": "dblp",
+          "year": 2024
+        },
+        {
+          "title": "Self-Supervised Learning with Joint-Embedding Predictive Architectures. (Apprentissage auto-supervisé utilisant des architectures à représentations jointes)",
+          "url": "https://dblp.org/rec/phd/hal/Bardes24",
+          "pdf_url": null,
+          "doi_url": null,
+          "source": "dblp",
+          "year": 2024
+        },
+        {
+          "title": "SWJEPA: Improving Prostate Cancer Lesion Detection with Shear Wave Elastography and Joint Embedding Predictive Architectures",
+          "url": "https://dblp.org/rec/conf/icpr/BauerGAFM24",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1007/978-3-031-78398-2_24",
+          "source": "dblp",
+          "year": 2024
+        }
+      ],
+      "openalex": [
+        {
+          "title": "Exploring joint embedding predictive architectures for pretraining convolutional neural networks",
+          "url": "https://openalex.org/W7108478410",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1016/j.cviu.2025.104595",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Tutorial on Joint Embedding Predictive Architectures (JEPA): Foundations, Applications, and Future Directions",
+          "url": "https://openalex.org/W4417202127",
+          "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.176469421.19270944/v2",
+          "doi_url": "https://doi.org/10.36227/techrxiv.176469421.19270944/v2",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "CrossJEPA: Cross-Modal Joint-Embedding Predictive Architecture for Efficient 3D Representation Learning from 2D Images",
+          "url": "https://openalex.org/W7106667588",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2511.18424",
+          "doi_url": "https://doi.org/10.48550/arxiv.2511.18424",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Hybrid JEPA-Liquid Neural Architecture for Predictive World Modeling and Recursive Self-Improvement",
+          "url": "https://openalex.org/W7115574428",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17934305",
+          "doi_url": "https://doi.org/10.5281/zenodo.17934305",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Understanding cortical computation through the lens of joint-embedding predictive architectures",
+          "url": "https://openalex.org/W4416754263",
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/11/25/2025.11.25.690220.full.pdf",
+          "doi_url": "https://doi.org/10.1101/2025.11.25.690220",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
+          "url": "https://openalex.org/W4417297110",
+          "pdf_url": "https://arxiv.org/pdf/2512.10942",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.10942",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "JEPA-Reasoner: Decoupling Latent Reasoning from Token Generation",
+          "url": "https://openalex.org/W7117106026",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.19171",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.19171",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Latent-Only World Modeling Inspired by Aphantasia: A Decoder-Free JEPA Variant for Stable Abstract Prediction",
+          "url": "https://openalex.org/W7107954063",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17755792",
+          "doi_url": "https://doi.org/10.5281/zenodo.17755792",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "From Teleology to Adequacy=A Spinozistic Layer for World-Model AI",
+          "url": "https://openalex.org/W7116664710",
+          "pdf_url": "https://doi.org/10.5281/zenodo.18005718",
+          "doi_url": "https://doi.org/10.5281/zenodo.18005718",
+          "source": "openalex",
+          "year": 2025
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "Self-Supervised Neural Architecture Search for Multimodal Deep Neural Networks",
+          "url": "http://arxiv.org/abs/2512.24793v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24793v1",
+          "doi_url": "https://doi.org/10.1587/transinf.2024EDL8018",
+          "source": "arxiv",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer",
+        "pdf": "https://openreview.net/pdf?id=TqM0hifngW"
+      },
+      {
+        "title": "LiDAR: Sensing Linear Probing Performance in Joint Embedding SSL Architectures",
+        "pdf": "https://openreview.net/pdf?id=f3g5XpL9Kb"
+      },
+      {
+        "title": "Joint Metric Space Embedding by Unbalanced Optimal Transport with Gromov–Wasserstein Marginal Penalization",
+        "pdf": "https://openreview.net/pdf?id=0YZHfUmsJv"
+      },
+      {
+        "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+        "pdf": "http://arxiv.org/pdf/2301.08243"
+      },
+      {
+        "title": "Beyond FVD: An Enhanced Evaluation Metrics for Video Generation Distribution Quality",
+        "pdf": "https://openreview.net/pdf?id=cC3LxGZasH"
+      },
+      {
+        "title": "T-JEPA: Augmentation-Free Self-Supervised Learning for Tabular Data",
+        "pdf": "https://openreview.net/pdf?id=gx3LMRB15C"
+      },
+      {
+        "title": "JAHS-Bench-201: A Foundation For Research On Joint Architecture And Hyperparameter Search",
+        "pdf": "https://openreview.net/pdf?id=_HLcjaVlqJ"
+      },
+      {
+        "title": "Learnable Embedding Space for Efficient Neural Architecture Compression",
+        "pdf": "https://openreview.net/pdf?id=S1xLN3C9YX"
+      },
+      {
+        "title": "BatchQuant: Quantized-for-all Architecture Search with Robust Quantizer",
+        "pdf": "https://openreview.net/pdf?id=qQAtFdyDr-"
+      },
+      {
+        "title": "Predictive Coding for Locally-Linear Control",
+        "pdf": "http://proceedings.mlr.press/v119/shu20a/shu20a.pdf"
+      },
+      {
+        "title": "Efficient Multi-Objective Neural Architecture Search via Lamarckian Evolution",
+        "pdf": "https://openreview.net/pdf?id=ByME42AqK7"
+      },
+      {
+        "title": "Interstellar: Searching Recurrent Architecture for  \tKnowledge Graph Embedding",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2020/file/722caafb4825ef5d8670710fa29087cf-Paper.pdf"
+      },
+      {
+        "title": "Tutorial on Joint Embedding Predictive Architectures (JEPA): Foundations, Applications, and Future Directions",
+        "pdf": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.176469421.19270944/v2"
+      },
+      {
+        "title": "MiME: Multilevel Medical Embedding of Electronic Health Records for Predictive Healthcare",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2018/file/934b535800b1cba8f96a5d72f72f1611-Paper.pdf"
+      },
+      {
+        "title": "Joint Training of a Convolutional Network and a Graphical Model for Human Pose Estimation",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2014/file/893643e2dcd4b25212defd18141d58c4-Paper.pdf"
+      },
+      {
+        "title": "CrossJEPA: Cross-Modal Joint-Embedding Predictive Architecture for Efficient 3D Representation Learning from 2D Images",
+        "pdf": "https://doi.org/10.48550/arxiv.2511.18424"
+      },
+      {
+        "title": "Hybrid JEPA-Liquid Neural Architecture for Predictive World Modeling and Recursive Self-Improvement",
+        "pdf": "https://doi.org/10.5281/zenodo.17934305"
+      },
+      {
+        "title": "Understanding cortical computation through the lens of joint-embedding predictive architectures",
+        "pdf": "https://www.biorxiv.org/content/biorxiv/early/2025/11/25/2025.11.25.690220.full.pdf"
+      },
+      {
+        "title": "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
+        "pdf": "https://arxiv.org/pdf/2512.10942"
+      },
+      {
+        "title": "JEPA-Reasoner: Decoupling Latent Reasoning from Token Generation",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.19171"
+      },
+      {
+        "title": "Self-Supervised Neural Architecture Search for Multimodal Deep Neural Networks",
+        "pdf": "https://arxiv.org/pdf/2512.24793v1"
+      },
+      {
+        "title": "Latent-Only World Modeling Inspired by Aphantasia: A Decoder-Free JEPA Variant for Stable Abstract Prediction",
+        "pdf": "https://doi.org/10.5281/zenodo.17755792"
+      },
+      {
+        "title": "From Teleology to Adequacy=A Spinozistic Layer for World-Model AI",
+        "pdf": "https://doi.org/10.5281/zenodo.18005718"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+        "doi": "https://doi.org/10.1109/CVPR52729.2023.01499"
+      },
+      {
+        "title": "Joint-Embedding Predictive Architecture for Self-Supervised Learning of Mask Classification Architecture",
+        "doi": "https://doi.org/10.48550/ARXIV.2407.10733"
+      },
+      {
+        "title": "Improving Joint Embedding Predictive Architecture with Diffusion Noise",
+        "doi": "https://doi.org/10.48550/ARXIV.2507.15216"
+      },
+      {
+        "title": "JEPA-T: Joint-Embedding Predictive Architecture with Text Fusion for Image Generation",
+        "doi": "https://doi.org/10.48550/ARXIV.2510.00974"
+      },
+      {
+        "title": "ACT-JEPA: Joint-Embedding Predictive Architecture Improves Policy Representation Learning",
+        "doi": "https://doi.org/10.48550/ARXIV.2501.14622"
+      },
+      {
+        "title": "JEPA4Rec: Learning Effective Language Representations for Sequential Recommendation via Joint Embedding Predictive Architecture",
+        "doi": "https://doi.org/10.48550/ARXIV.2504.10512"
+      },
+      {
+        "title": "HEP-JEPA: A foundation model for collider physics using joint embedding predictive architecture",
+        "doi": "https://doi.org/10.48550/ARXIV.2502.03933"
+      },
+      {
+        "title": "T-JEPA: A Joint-Embedding Predictive Architecture for Trajectory Similarity Computation",
+        "doi": "https://doi.org/10.1145/3678717.3691271"
+      },
+      {
+        "title": "Audio-JEPA: Joint-Embedding Predictive Architecture for Audio Representation Learning",
+        "doi": "https://doi.org/10.48550/ARXIV.2507.02915"
+      },
+      {
+        "title": "Joint Embedding Predictive Architecture for self-supervised pretraining on polymer molecular graphs",
+        "doi": "https://doi.org/10.48550/ARXIV.2506.18194"
+      },
+      {
+        "title": "Self-supervised learning of imaging and clinical signatures using a multimodal joint-embedding predictive architecture",
+        "doi": "https://doi.org/10.48550/ARXIV.2509.15470"
+      },
+      {
+        "title": "Point-JEPA: A Joint Embedding Predictive Architecture for Self-Supervised Learning on Point Cloud",
+        "doi": "https://doi.org/10.1109/WACV61041.2025.00714"
+      },
+      {
+        "title": "Video Representation Learning with Joint-Embedding Predictive Architectures",
+        "doi": "https://doi.org/10.48550/ARXIV.2412.10925"
+      },
+      {
+        "title": "Text-JEPA: A Joint Embedding Predictive Architecture for the Conversion of Natural Language into First-Order Logic",
+        "doi": "https://doi.org/10.1007/978-3-032-09318-9_14"
+      },
+      {
+        "title": "S-JEPA: A Joint Embedding Predictive Architecture for Skeletal Action Recognition",
+        "doi": "https://doi.org/10.1007/978-3-031-73411-3_21"
+      },
+      {
+        "title": "Self-supervised pre-training with joint-embedding predictive architecture boosts ECG classification performance",
+        "doi": "https://doi.org/10.1016/J.COMPBIOMED.2025.110809"
+      },
+      {
+        "title": "SparseJEPA: Sparse Representation Learning of Joint Embedding Predictive Architectures",
+        "doi": "https://doi.org/10.48550/ARXIV.2504.16140"
+      },
+      {
+        "title": "LaT-PFN: A Joint Embedding Predictive Architecture for In-context Time-series Forecasting",
+        "doi": "https://doi.org/10.48550/ARXIV.2405.10093"
+      },
+      {
+        "title": "AD-L-JEPA: Self-Supervised Spatial World Models with Joint Embedding Predictive Architecture for Autonomous Driving with LiDAR Data",
+        "doi": "https://doi.org/10.48550/ARXIV.2501.04969"
+      },
+      {
+        "title": "LLM-JEPA: Large Language Models Meet Joint Embedding Predictive Architectures",
+        "doi": "https://doi.org/10.48550/ARXIV.2509.14252"
+      },
+      {
+        "title": "Learning State-Space Models of Dynamic Systems from Arbitrary Data using Joint Embedding Predictive Architectures",
+        "doi": "https://doi.org/10.48550/ARXIV.2508.10489"
+      },
+      {
+        "title": "JEP-KD: Joint-Embedding Predictive Architecture Based Knowledge Distillation for Visual Speech Recognition",
+        "doi": "https://doi.org/10.48550/ARXIV.2403.18843"
+      },
+      {
+        "title": "DMT-JEPA: Discriminative Masked Targets for Joint-Embedding Predictive Architecture",
+        "doi": "https://doi.org/10.48550/ARXIV.2405.17995"
+      },
+      {
+        "title": "CNN-JEPA: Self-Supervised Pretraining Convolutional Neural Networks Using Joint Embedding Predictive Architecture",
+        "doi": "https://doi.org/10.1109/ICMLA61862.2024.00169"
+      },
+      {
+        "title": "Learning General Representation of 12-Lead Electrocardiogram with a Joint-Embedding Predictive Architecture",
+        "doi": "https://doi.org/10.48550/ARXIV.2410.08559"
+      },
+      {
+        "title": "JEPA for RL: Investigating Joint-Embedding Predictive Architectures for Reinforcement Learning",
+        "doi": "https://doi.org/10.48550/ARXIV.2504.16591"
+      },
+      {
+        "title": "3D-JEPA: A Joint Embedding Predictive Architecture for 3D Self-Supervised Representation Learning",
+        "doi": "https://doi.org/10.48550/ARXIV.2409.15803"
+      },
+      {
+        "title": "Exploring joint embedding predictive architectures for pretraining convolutional neural networks",
+        "doi": "https://doi.org/10.1016/j.cviu.2025.104595"
+      },
+      {
+        "title": "From Video to EEG: Adapting Joint Embedding Predictive Architecture to Uncover Visual Concepts in Brain Signal Analysis",
+        "doi": "https://doi.org/10.48550/ARXIV.2507.03633"
+      },
+      {
+        "title": "Tutorial on Joint Embedding Predictive Architectures (JEPA): Foundations, Applications, and Future Directions",
+        "doi": "https://doi.org/10.36227/techrxiv.176469421.19270944/v2"
+      },
+      {
+        "title": "Zero-shot Musical Stem Retrieval with Joint-Embedding Predictive Architectures",
+        "doi": "https://doi.org/10.1109/ICASSP49660.2025.10888814"
+      },
+      {
+        "title": "Recurrent Joint Embedding Predictive Architecture with Recurrent Forward Propagation Learning",
+        "doi": "https://doi.org/10.48550/ARXIV.2411.16695"
+      },
+      {
+        "title": "Predicting gradient is better: Exploring self-supervised learning for SAR ATR with a joint-embedding predictive architecture",
+        "doi": "https://doi.org/10.1016/j.isprsjprs.2024.09.013"
+      },
+      {
+        "title": "CrossJEPA: Cross-Modal Joint-Embedding Predictive Architecture for Efficient 3D Representation Learning from 2D Images",
+        "doi": "https://doi.org/10.48550/arxiv.2511.18424"
+      },
+      {
+        "title": "Stem-JEPA: A Joint-Embedding Predictive Architecture for Musical Stem Compatibility Estimation",
+        "doi": "https://doi.org/10.5281/ZENODO.14877415"
+      },
+      {
+        "title": "Learning Symmetry-Independent Jet Representations via Jet-Based Joint Embedding Predictive Architecture",
+        "doi": "https://doi.org/10.48550/ARXIV.2412.05333"
+      },
+      {
+        "title": "Investigating Design Choices in Joint-Embedding Predictive Architectures for General Audio Representation Learning",
+        "doi": "https://doi.org/10.1109/ICASSPW62465.2024.10626360"
+      },
+      {
+        "title": "Animal-JEPA: Advancing Animal Behavior Studies Through Joint Embedding Predictive Architecture in Video Analysis",
+        "doi": "https://doi.org/10.1109/BIGDATA62323.2024.10826081"
+      },
+      {
+        "title": "Hybrid JEPA-Liquid Neural Architecture for Predictive World Modeling and Recursive Self-Improvement",
+        "doi": "https://doi.org/10.5281/zenodo.17934305"
+      },
+      {
+        "title": "Understanding cortical computation through the lens of joint-embedding predictive architectures",
+        "doi": "https://doi.org/10.1101/2025.11.25.690220"
+      },
+      {
+        "title": "VL-JEPA: Joint Embedding Predictive Architecture for Vision-language",
+        "doi": "https://doi.org/10.48550/arxiv.2512.10942"
+      },
+      {
+        "title": "JEPA-Reasoner: Decoupling Latent Reasoning from Token Generation",
+        "doi": "https://doi.org/10.48550/arxiv.2512.19171"
+      },
+      {
+        "title": "Self-Supervised Neural Architecture Search for Multimodal Deep Neural Networks",
+        "doi": "https://doi.org/10.1587/transinf.2024EDL8018"
+      },
+      {
+        "title": "TI-JEPA: An Innovative Energy-based Joint Embedding Strategy for Text-Image Multimodal Systems",
+        "doi": "https://doi.org/10.48550/arXiv.2503.06380"
+      },
+      {
+        "title": "SWJEPA: Improving Prostate Cancer Lesion Detection with Shear Wave Elastography and Joint Embedding Predictive Architectures",
+        "doi": "https://doi.org/10.1007/978-3-031-78398-2_24"
+      },
+      {
+        "title": "Latent-Only World Modeling Inspired by Aphantasia: A Decoder-Free JEPA Variant for Stable Abstract Prediction",
+        "doi": "https://doi.org/10.5281/zenodo.17755792"
+      },
+      {
+        "title": "From Teleology to Adequacy=A Spinozistic Layer for World-Model AI",
+        "doi": "https://doi.org/10.5281/zenodo.18005718"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "Joint Embedding Predictive Architecture",
+    "total_steps": 11,
+    "last_updated": "2026-01-03T01:14:27.007759",
+    "started_at": "2026-01-03T01:13:13.306270",
+    "total_papers": 100
+  }
+}

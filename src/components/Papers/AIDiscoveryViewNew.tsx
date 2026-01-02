@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Bot, Sparkles, Download, FileText, Table2, AlertCircle, CheckCircle, Loader2, ExternalLink, ChevronDown, ChevronUp, X, BarChart3 } from 'lucide-react';
+import { Bot, Sparkles, Download, FileText, Table2, AlertCircle, CheckCircle, Loader2, ExternalLink, ChevronDown, ChevronUp, X, BarChart3, Search, SlidersHorizontal } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import { useCommunity } from '../../contexts/CommunityContext';
 
@@ -55,6 +55,8 @@ export function AIDiscoveryViewNew({
   const [papersCount, setPapersCount] = useState(0);
   const [currentAgent, setCurrentAgent] = useState<string | null>(null);
   const [progressPercent, setProgressPercent] = useState(0);
+  const [sortBy, setSortBy] = useState<'rank' | 'year' | 'citations' | 'score'>('rank');
+  const [filterQuery, setFilterQuery] = useState('');
 
   // API URL
   const apiUrl = 'http://localhost:8002';
@@ -85,33 +87,44 @@ export function AIDiscoveryViewNew({
     }
   }, [triggerSearch]);
 
-  // Poll for real-time updates
+  // Poll for real-time updates - using functional setState to avoid stale closures
   const startPolling = (ts: string) => {
+    console.log(`🔄 Starting polling for timestamp: ${ts}`);
     const interval = setInterval(async () => {
       try {
-        const response = await fetch(`${apiUrl}/research/poll/${ts}`);
+        // Add cache-busting to ensure fresh data
+        const pollUrl = `${apiUrl}/research/poll/${ts}?_t=${Date.now()}`;
+        console.log(`📡 Polling backend: ${pollUrl}`);
+        const response = await fetch(pollUrl);
         if (response.ok) {
           const data = await response.json();
+          console.log(`📦 Poll response: ${data.papers_count} papers, complete: ${data.is_complete}`);
 
-          // Debug logging
-          console.log('Polling data:', data);
-          console.log('Papers received:', data.papers);
-
-          // Update papers - ALWAYS update from polling to ensure we catch all backend changes
-          // (papers might be re-ranked, filtered, or added during pipeline execution)
-          if (Array.isArray(data.papers) && data.papers.length > 0) {
-            console.log(`📝 Polling update: ${data.papers.length} papers from backend`);
-            setPapers(data.papers);
+          // Update papers - ALWAYS update from polling to ensure frontend reflects backend
+          // Backend reads fresh data from disk each time
+          if (Array.isArray(data.papers)) {
+            setPapers(prevPapers => {
+              // Log updates for debugging
+              if (data.papers.length !== prevPapers.length) {
+                console.log(`📊 Papers updated: ${prevPapers.length} → ${data.papers.length}`);
+              } else {
+                console.log(`⏸️  Papers unchanged at ${prevPapers.length}`);
+              }
+              // Always return new papers to ensure we have the latest from backend
+              return data.papers;
+            });
             setPapersCount(data.papers_count || data.papers.length);
-          } else if (data.papers_count === 0) {
-            // Explicitly handle empty results
-            console.log('📝 No papers found yet');
+          } else {
+            console.warn('⚠️  Backend did not return papers array:', data);
           }
 
-          // Update steps if changed
-          if (data.steps.length > steps.length) {
-            setSteps(data.steps);
-          }
+          // Update steps - use functional setState to avoid stale closure
+          setSteps(prevSteps => {
+            if (data.steps && data.steps.length > prevSteps.length) {
+              return data.steps;
+            }
+            return prevSteps;
+          });
 
           // Update stats
           if (data.stats) {
@@ -120,9 +133,6 @@ export function AIDiscoveryViewNew({
 
           // Update summary
           if (data.summary) {
-            console.log('Setting summary:', data.summary);
-            console.log('Summary type:', typeof data.summary);
-            console.log('Summary.insights:', data.summary.insights);
             setSummary(data.summary);
           }
 
@@ -134,7 +144,6 @@ export function AIDiscoveryViewNew({
 
           // Stop polling ONLY if ACTUALLY complete
           if (data.is_complete === true) {
-            console.log('✅ Pipeline confirmed complete by backend, stopping polling');
             clearInterval(interval);
             setPollInterval(null);
             setLoading(false);
@@ -143,24 +152,30 @@ export function AIDiscoveryViewNew({
             if (onSearchComplete) {
               onSearchComplete(data.papers_count);
             }
-          } else {
-            // Ensure loading stays true while pipeline runs
-            console.log('⏳ Pipeline still running... papers:', data.papers_count, 'progress:', data.progress_percentage + '%');
-            if (!loading) {
-              setLoading(true);
-            }
           }
         }
       } catch (err) {
         console.error('Polling error:', err);
       }
-    }, 2000); // Poll every 2 seconds
+    }, 10000); // Poll every 10 seconds as requested by user
 
     setPollInterval(interval);
   };
 
-  const stopResearch = () => {
-    console.log('Stopping research - cancelling frontend polling');
+  const stopResearch = async () => {
+    console.log('Stopping research - cancelling backend and frontend');
+
+    // Cancel backend processing if we have a timestamp
+    if (timestamp) {
+      try {
+        await fetch(`${apiUrl}/research/cancel/${timestamp}`, {
+          method: 'POST'
+        });
+        console.log('Backend cancellation requested');
+      } catch (err) {
+        console.error('Failed to cancel backend:', err);
+      }
+    }
 
     // Cancel SSE stream
     if (abortController) {
@@ -177,7 +192,7 @@ export function AIDiscoveryViewNew({
     // Update UI state
     setLoading(false);
     setCurrentAgent(null);
-    setError('⚠️ Research stopped by user. Note: Backend processing may continue in the background. Showing results found so far.');
+    setError('Research stopped. Showing results found so far.');
 
     // Show results if any papers were found
     if (papers.length > 0 && onSearchComplete) {
@@ -196,6 +211,17 @@ export function AIDiscoveryViewNew({
     if (!searchQuery.trim()) {
       setError('Please enter a research query');
       return;
+    }
+
+    // Clean up any existing polling or SSE streams
+    if (pollInterval) {
+      console.log('Cleaning up previous polling interval');
+      clearInterval(pollInterval);
+      setPollInterval(null);
+    }
+    if (abortController) {
+      console.log('Aborting previous SSE stream');
+      abortController.abort();
     }
 
     // Reset state
@@ -337,25 +363,48 @@ export function AIDiscoveryViewNew({
     setExpandedAbstracts(newExpanded);
   };
 
+  // Filter and sort papers
+  const getFilteredAndSortedPapers = () => {
+    let filtered = papers.filter(paper => {
+      if (!paper || typeof paper !== 'object' || !paper.title) return false;
+
+      // Search filter
+      if (filterQuery.trim()) {
+        const query = filterQuery.toLowerCase();
+        const titleMatch = paper.title.toLowerCase().includes(query);
+        const authorsMatch = Array.isArray(paper.authors) &&
+          paper.authors.some(author =>
+            typeof author === 'string' && author.toLowerCase().includes(query)
+          );
+        return titleMatch || authorsMatch;
+      }
+
+      return true;
+    });
+
+    // Sort
+    filtered.sort((a, b) => {
+      switch (sortBy) {
+        case 'rank':
+          return ((a as any).rank || 0) - ((b as any).rank || 0);
+        case 'year':
+          return (b.year || 0) - (a.year || 0);
+        case 'citations':
+          return (b.citations || 0) - (a.citations || 0);
+        case 'score':
+          return ((b as any).combined_score || 0) - ((a as any).combined_score || 0);
+        default:
+          return 0;
+      }
+    });
+
+    return filtered;
+  };
+
+  const filteredPapers = getFilteredAndSortedPapers();
+
   return (
     <div className="space-y-6">
-      {/* Header */}
-      <div className="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-xl border-2 border-purple-200 p-6">
-        <div className="flex items-center gap-3 mb-3">
-          <Bot className="w-8 h-8 text-purple-600" />
-          <div>
-            <h3 className="text-xl font-bold text-gray-900">Multi-Agent Research Pipeline</h3>
-            <p className="text-sm text-gray-600">High-quality research discovery powered by your LLM</p>
-          </div>
-        </div>
-
-        {user && (
-          <div className="bg-white rounded-lg p-3 text-sm text-gray-700">
-            <Sparkles className="w-4 h-4 inline mr-2 text-purple-600" />
-            Using your configured LLM from Settings for unlimited research
-          </div>
-        )}
-      </div>
 
       {/* Error Message */}
       {error && (
@@ -460,7 +509,7 @@ export function AIDiscoveryViewNew({
               <div className="flex items-center justify-between mb-3">
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-green-600" />
-                  <h3 className="font-semibold text-green-900">Research Complete</h3>
+                  <h3 className="font-semibold text-green-900">Found {papers.length} papers</h3>
                 </div>
                 {timestamp && (
                   <button
@@ -468,47 +517,14 @@ export function AIDiscoveryViewNew({
                     className="px-4 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all shadow-sm flex items-center gap-2 font-medium"
                   >
                     <BarChart3 className="w-4 h-4" />
-                    Open Research Dashboard
+                    Open Dashboard
                   </button>
                 )}
               </div>
 
-              <div className="text-sm text-gray-700 mb-3">
-                <p className="font-medium">Summary:</p>
-                <p className="mt-1">Found {papers.length} papers</p>
-                {timestamp && (
-                  <p className="mt-1 text-xs text-gray-600">
-                    View detailed analysis, advanced filters, and export options in the dashboards
-                  </p>
-                )}
-              </div>
-
-              {/* Dashboard Options */}
-              {timestamp && (
-                <div className="mt-4 pt-3 border-t border-green-200">
-                  <p className="text-xs font-medium text-gray-700 mb-2">View Results:</p>
-                  <div className="flex gap-2 flex-wrap mb-3">
-                    <button
-                      onClick={openDashboard}
-                      className="px-3 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded hover:from-purple-700 hover:to-blue-700 transition-all shadow-sm flex items-center gap-2 text-sm font-medium"
-                    >
-                      <BarChart3 className="w-4 h-4" />
-                      Interactive Dashboard
-                    </button>
-                    <button
-                      onClick={() => window.open(`http://localhost:8002/research/output/${timestamp}/dashboard.html`, '_blank')}
-                      className="px-3 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded hover:from-indigo-700 hover:to-purple-700 transition-all shadow-sm flex items-center gap-2 text-sm font-medium"
-                    >
-                      <Sparkles className="w-4 h-4" />
-                      HTML Dashboard
-                    </button>
-                  </div>
-                </div>
-              )}
-
               {/* Download Options */}
               {outputDir && (
-                <div className="mt-2 pt-3 border-t border-green-200 flex gap-2 flex-wrap">
+                <div className="flex gap-2 flex-wrap">
                   <button
                     onClick={() => downloadFile('papers.json')}
                     className="px-3 py-1 bg-white border border-green-300 rounded text-xs hover:bg-green-50 flex items-center gap-1"
@@ -540,27 +556,81 @@ export function AIDiscoveryViewNew({
 
           {/* Papers List */}
           <div className="space-y-3">
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between mb-3">
               <h3 className="text-lg font-semibold text-gray-900">
-                Discovered Papers ({papers.length})
+                Discovered Papers ({filteredPapers.length}{papers.length !== filteredPapers.length && ` of ${papers.length}`})
                 {loading && <span className="ml-2 text-sm text-blue-600 font-normal">(updating...)</span>}
               </h3>
             </div>
 
-            {papers.filter(paper => paper && typeof paper === 'object' && paper.title).map((paper, idx) => {
-              // Handle authors - can be array or object
-              const authors = Array.isArray(paper.authors)
-                ? paper.authors
-                : typeof paper.authors === 'string'
-                ? [paper.authors]
-                : [];
+            {/* Filter and Sort Controls */}
+            <div className="bg-gray-50 border border-gray-200 rounded-lg p-3 mb-4">
+              <div className="flex items-center gap-3 flex-wrap">
+                <div className="flex items-center gap-2">
+                  <SlidersHorizontal className="w-4 h-4 text-gray-600" />
+                  <span className="text-sm font-medium text-gray-700">Filters:</span>
+                </div>
 
-              const displayAuthors = authors.length > 0
-                ? authors.slice(0, 3).join(', ') + (authors.length > 3 ? ` +${authors.length - 3} more` : '')
-                : 'Unknown authors';
+                {/* Search */}
+                <div className="flex-1 min-w-[200px] max-w-md relative">
+                  <Search className="w-4 h-4 text-gray-400 absolute left-3 top-1/2 transform -translate-y-1/2" />
+                  <input
+                    type="text"
+                    placeholder="Search by title or author..."
+                    value={filterQuery}
+                    onChange={(e) => setFilterQuery(e.target.value)}
+                    className="w-full pl-9 pr-3 py-1.5 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  />
+                </div>
 
-              return (
-                <div key={idx} className="bg-white border border-gray-200 rounded-lg p-4 hover:border-purple-300 transition-colors">
+                {/* Sort */}
+                <div className="flex items-center gap-2">
+                  <label className="text-sm text-gray-600">Sort by:</label>
+                  <select
+                    value={sortBy}
+                    onChange={(e) => setSortBy(e.target.value as any)}
+                    className="px-3 py-1.5 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 bg-white"
+                  >
+                    <option value="rank">Rank</option>
+                    <option value="year">Year (newest first)</option>
+                    <option value="citations">Citations (high to low)</option>
+                    <option value="score">Score (high to low)</option>
+                  </select>
+                </div>
+
+                {/* Clear filters */}
+                {filterQuery && (
+                  <button
+                    onClick={() => setFilterQuery('')}
+                    className="px-2 py-1 text-xs text-gray-600 hover:text-gray-800 underline"
+                  >
+                    Clear search
+                  </button>
+                )}
+              </div>
+            </div>
+
+            {filteredPapers.length === 0 && papers.length > 0 ? (
+              <div className="text-center py-8 bg-white border border-gray-200 rounded-lg">
+                <Search className="w-12 h-12 mx-auto mb-3 text-gray-300" />
+                <p className="text-gray-600 font-medium">No papers match your filters</p>
+                <p className="text-sm text-gray-500 mt-1">Try adjusting your search or sort criteria</p>
+              </div>
+            ) : (
+              filteredPapers.map((paper, idx) => {
+                // Handle authors - can be array or object
+                const authors = Array.isArray(paper.authors)
+                  ? paper.authors
+                  : typeof paper.authors === 'string'
+                  ? [paper.authors]
+                  : [];
+
+                const displayAuthors = authors.length > 0
+                  ? authors.slice(0, 3).join(', ') + (authors.length > 3 ? ` +${authors.length - 3} more` : '')
+                  : 'Unknown authors';
+
+                return (
+                  <div key={idx} className="bg-white border border-gray-200 rounded-lg p-4 hover:border-purple-300 transition-colors">
                   <div className="flex items-start justify-between gap-3">
                     <div className="flex-1">
                       <h4 className="font-semibold text-gray-900 mb-1">{String(paper.title || 'Untitled')}</h4>
@@ -670,7 +740,8 @@ export function AIDiscoveryViewNew({
                 </div>
               </div>
               );
-            })}
+            })
+            )}
           </div>
         </>
       )}

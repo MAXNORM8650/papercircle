@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "large language models scientific discovery",
+    "total_papers": 331,
+    "unique_sources": 8,
+    "year_range": {
+      "min": 2023,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 606,
+      "average": 10.3
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 169,
+    "papers_with_doi": 124,
+    "processing_steps": 5
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (38) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 38
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 115 papers (34%)",
+      "data": {
+        "source": "arxiv",
+        "count": 115
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Wanli Ouyang has 5 papers in this collection",
+      "data": {
+        "author": "Wanli Ouyang",
+        "count": 5
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"BioRAG: A RAG-LLM Framework for Biological Question Reasoning...\" has 58 citations",
+      "data": {
+        "title": "BioRAG: A RAG-LLM Framework for Biological Question Reasoning",
+        "citations": 58
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: discovery, scientific, language, models, large",
+      "data": {
+        "keywords": {
+          "discovery": 122,
+          "scientific": 103,
+          "language": 62,
+          "models": 54,
+          "large": 49
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "169/331 papers (51%) have direct PDF links",
+      "data": {
+        "with_pdf": 169,
+        "total": 331
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 331 papers related to 'large language models scientific discovery'",
+    "Papers collected from 8 sources: offline_nips, offline_icml, offline_iclr, offline_cvpr, arxiv, semantic_scholar, dblp, openalex",
+    "Publication years range from 2023 to 2026",
+    "Total citations: 606, Average: 10",
+    "Leading researchers: Wanli Ouyang, Tong Xie, Yang Liu"
+  ],
+  "metadata": {
+    "query": "large language models scientific discovery",
+    "total_steps": 5,
+    "last_updated": "2026-01-02T17:15:44.101080",
+    "started_at": "2026-01-02T17:10:22.735715",
+    "total_papers": 331
+  }
+}

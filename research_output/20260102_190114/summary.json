@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "medical multimodal generation unified",
+    "total_papers": 380,
+    "unique_sources": 13,
+    "year_range": {
+      "min": 2020,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 735,
+      "average": 16.7
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 271,
+    "papers_with_doi": 110,
+    "processing_steps": 20
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (26) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 26
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 63 papers (16%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 63
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Jiaqi Wang has 6 papers in this collection",
+      "data": {
+        "author": "Jiaqi Wang",
+        "count": 6
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"SEED-X: Multimodal Models with Unified Multi-granularity Comprehension and Generation...\" has 229 citations",
+      "data": {
+        "title": "SEED-X: Multimodal Models with Unified Multi-granularity Comprehension and Generation",
+        "citations": 229
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: multimodal, medical, generation, unified, language",
+      "data": {
+        "keywords": {
+          "multimodal": 119,
+          "medical": 111,
+          "generation": 88,
+          "unified": 71,
+          "language": 67
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "271/380 papers (71%) have direct PDF links",
+      "data": {
+        "with_pdf": 271,
+        "total": 380
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 380 papers related to 'medical multimodal generation unified'",
+    "Papers collected from 13 sources: offline_nips, offline_cvpr, offline_iclr, offline_aaai, offline_acl, offline_emnlp, offline_iccv, offline_eccv, offline_icml, offline_ijcai, semantic_scholar, openalex, arxiv",
+    "Publication years range from 2020 to 2026",
+    "Total citations: 735, Average: 16",
+    "Leading researchers: Jiaqi Wang, Sriparna Saha, Wei Li"
+  ],
+  "metadata": {
+    "query": "medical multimodal generation unified",
+    "total_steps": 20,
+    "last_updated": "2026-01-02T19:07:01.985270",
+    "started_at": "2026-01-02T19:01:14.525150",
+    "total_papers": 380
+  }
+}

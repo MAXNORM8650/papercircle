@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "MHC binding prediction",
+    "total_papers": 525,
+    "unique_sources": 25,
+    "year_range": {
+      "min": 1993,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 229,
+      "average": 7.6
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 373,
+    "papers_with_doi": 60,
+    "processing_steps": 14
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (73) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 73
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 219 papers (41%)",
+      "data": {
+        "source": "arxiv",
+        "count": 219
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Shay Moran has 4 papers in this collection",
+      "data": {
+        "author": "Shay Moran",
+        "count": 4
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Present and future of cancer nano-immunotherapy: opportunities, obstacles and challenges...\" has 52 citations",
+      "data": {
+        "title": "Present and future of cancer nano-immunotherapy: opportunities, obstacles and challenges",
+        "citations": 52
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: binding, learning, models, prediction, language",
+      "data": {
+        "keywords": {
+          "binding": 81,
+          "learning": 70,
+          "models": 62,
+          "prediction": 59,
+          "language": 56
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "373/525 papers (71%) have direct PDF links",
+      "data": {
+        "with_pdf": 373,
+        "total": 525
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 525 papers related to 'MHC binding prediction'",
+    "Papers collected from 25 sources: offline_eccv, offline_alt, offline_iclr, offline_naacl, offline_coling, offline_icra, offline_aaai, offline_kdd, offline_acl, offline_colt, offline_aistats, offline_iccv, offline_nips, offline_www, offline_emnlp, offline_icml, offline_cvpr, offline_colm, offline_acmmm, offline_uai, offline_siggraph, offline_ijcai, arxiv, openalex, semantic_scholar",
+    "Publication years range from 1993 to 2026",
+    "Total citations: 229, Average: 7",
+    "Leading researchers: Shay Moran, Yu Wang, Wentao Zhang"
+  ],
+  "metadata": {
+    "query": "MHC binding prediction",
+    "total_steps": 14,
+    "last_updated": "2026-01-02T19:26:54.162363",
+    "started_at": "2026-01-02T19:23:21.497659",
+    "total_papers": 525
+  }
+}

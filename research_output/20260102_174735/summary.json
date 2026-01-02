@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "survey of LLM fine-tuning and post-training techniques",
+    "total_papers": 566,
+    "unique_sources": 10,
+    "year_range": {
+      "min": 2007,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 5634,
+      "average": 38.6
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 288,
+    "papers_with_doi": 163,
+    "processing_steps": 19
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (68) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 68
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 184 papers (32%)",
+      "data": {
+        "source": "arxiv",
+        "count": 184
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Yang Liu has 6 papers in this collection",
+      "data": {
+        "author": "Yang Liu",
+        "count": 6
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Bias and Fairness in Large Language Models: A Survey...\" has 869 citations",
+      "data": {
+        "title": "Bias and Fairness in Large Language Models: A Survey",
+        "citations": 869
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: tuning, fine, models, language, large",
+      "data": {
+        "keywords": {
+          "tuning": 151,
+          "fine": 146,
+          "models": 108,
+          "language": 107,
+          "large": 91
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "288/566 papers (50%) have direct PDF links",
+      "data": {
+        "with_pdf": 288,
+        "total": 566
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 566 papers related to 'survey of LLM fine-tuning and post-training techniques'",
+    "Papers collected from 10 sources: offline_nips, offline_iclr, offline_icml, offline_ijcai, offline_aaai, offline_acl, offline_emnlp, offline_cvpr, arxiv, semantic_scholar",
+    "Publication years range from 2007 to 2026",
+    "Total citations: 5634, Average: 38",
+    "Leading researchers: Yang Liu, Pin-Yu Chen, Fei Huang"
+  ],
+  "metadata": {
+    "query": "survey of LLM fine-tuning and post-training techniques",
+    "total_steps": 19,
+    "last_updated": "2026-01-02T18:16:52.975507",
+    "started_at": "2026-01-02T17:47:35.283327",
+    "total_papers": 566
+  }
+}

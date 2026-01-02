@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "medical foundation models unified understanding generation",
+    "total_papers": 19,
+    "unique_sources": 7,
+    "year_range": {
+      "min": 2023,
+      "max": 2025
+    },
+    "citation_summary": {
+      "total": 12,
+      "average": 12.0
+    },
+    "top_source": "offline_nips",
+    "papers_with_pdf": 13,
+    "papers_with_doi": 1,
+    "processing_steps": 50
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (9) are from 2025",
+      "data": {
+        "year": 2025,
+        "count": 9
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_nips contributes 8 papers (42%)",
+      "data": {
+        "source": "offline_nips",
+        "count": 8
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Jiaqi Wang has 2 papers in this collection",
+      "data": {
+        "author": "Jiaqi Wang",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Vision-language foundation models for medical imaging: a review of current practices and innovations...\" has 12 citations",
+      "data": {
+        "title": "Vision-language foundation models for medical imaging: a review of current practices and innovations",
+        "citations": 12
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: medical, generation, language, unified, foundation",
+      "data": {
+        "keywords": {
+          "medical": 13,
+          "generation": 7,
+          "language": 7,
+          "unified": 6,
+          "foundation": 6
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "13/19 papers (68%) have direct PDF links",
+      "data": {
+        "with_pdf": 13,
+        "total": 19
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 19 papers related to 'medical foundation models unified understanding generation'",
+    "Papers collected from 7 sources: offline_cvpr, offline_nips, offline_icml, offline_acl, offline_iclr, offline_aaai, semantic_scholar",
+    "Publication years range from 2023 to 2025",
+    "Total citations: 12, Average: 12",
+    "Leading researchers: Jiaqi Wang, Tong Wu, Yufan He"
+  ],
+  "metadata": {
+    "query": "medical foundation models unified understanding generation",
+    "total_steps": 50,
+    "last_updated": "2026-01-02T19:04:50.100728",
+    "started_at": "2026-01-02T18:57:20.264074",
+    "total_papers": 19
+  }
+}

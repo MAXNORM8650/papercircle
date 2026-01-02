@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "efficient finetuning",
+    "total_papers": 79,
+    "unique_sources": 4,
+    "year_range": {
+      "min": 2021,
+      "max": 2025
+    },
+    "citation_summary": {
+      "total": 4017,
+      "average": 200.8
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 47,
+    "papers_with_doi": 45,
+    "processing_steps": 3
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (58) are from 2025",
+      "data": {
+        "year": 2025,
+        "count": 58
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 25 papers (31%)",
+      "data": {
+        "source": "arxiv",
+        "count": 25
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Jitendra Malik has 2 papers in this collection",
+      "data": {
+        "author": "Jitendra Malik",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"QLoRA: Efficient Finetuning of Quantized LLMs...\" has 3602 citations",
+      "data": {
+        "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+        "citations": 3602
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: efficient, finetuning, parameter, models, language",
+      "data": {
+        "keywords": {
+          "efficient": 46,
+          "finetuning": 42,
+          "parameter": 19,
+          "models": 18,
+          "language": 15
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "47/79 papers (59%) have direct PDF links",
+      "data": {
+        "with_pdf": 47,
+        "total": 79
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 79 papers related to 'efficient finetuning'",
+    "Papers collected from 4 sources: semantic_scholar, dblp, arxiv, openalex",
+    "Publication years range from 2021 to 2025",
+    "Total citations: 4017, Average: 200",
+    "Leading researchers: Jitendra Malik, Chen Chen, Baohao Liao"
+  ],
+  "metadata": {
+    "query": "efficient finetuning",
+    "total_steps": 3,
+    "last_updated": "2026-01-02T16:08:25.815409",
+    "started_at": "2026-01-02T16:07:33.759995",
+    "total_papers": 79
+  }
+}

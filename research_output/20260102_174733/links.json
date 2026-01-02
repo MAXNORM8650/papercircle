@@ -1,0 +1,1033 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "A Survey on Efficient Large Language Model Training: From Data-centric Perspectives",
+        "url": "https://aclanthology.org/2025.acl-long.1493/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1493.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Text Transformations in Contrastive Self-Supervised Learning: A Review",
+        "url": "https://www.ijcai.org/proceedings/2022/757",
+        "pdf_url": "https://www.ijcai.org/proceedings/2022/0757.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2022
+      },
+      {
+        "title": "LLM as a Mastermind: A Survey of Strategic Reasoning with Large Language Models",
+        "url": "https://openreview.net/forum?id=iMqJsQ4evS",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_colm",
+        "year": 2024
+      },
+      {
+        "title": "A Survey of Risk-Aware Multi-Armed Bandits",
+        "url": "https://www.ijcai.org/proceedings/2022/784",
+        "pdf_url": "https://www.ijcai.org/proceedings/2022/0784.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2022
+      },
+      {
+        "title": "A Unified Perspective and Review on Tree Search for LLMs Test-Time Scaling",
+        "url": "https://openreview.net/forum?id=h6CQPEYAVp",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "A Survey of Post-Training Scaling in Large Language Models",
+        "url": "https://aclanthology.org/2025.acl-long.140/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.140.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Bayesian Nonparametric Space Partitions: A Survey",
+        "url": "https://www.ijcai.org/proceedings/2021/602",
+        "pdf_url": "https://www.ijcai.org/proceedings/2021/0602.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2021
+      },
+      {
+        "title": "Knowledge-aware Zero-Shot Learning: Survey and Perspective",
+        "url": "https://www.ijcai.org/proceedings/2021/597",
+        "pdf_url": "https://www.ijcai.org/proceedings/2021/0597.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2021
+      },
+      {
+        "title": "A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations",
+        "url": "https://aclanthology.org/2024.emnlp-main.764/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.764.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "TravelReasoner: Reasoning-Augmented Travel Survey Simulations with Large Reasoning Models",
+        "url": "https://openreview.net/forum?id=KpZkR11SjD",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Neural Re-ranking in Multi-stage Recommender Systems: A Review",
+        "url": "https://www.ijcai.org/proceedings/2022/771",
+        "pdf_url": "https://www.ijcai.org/proceedings/2022/0771.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2022
+      },
+      {
+        "title": "Knowledge Boundary of Large Language Models: A Survey",
+        "url": "https://aclanthology.org/2025.acl-long.256/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.256.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Puzzle Solving using Reasoning of Large Language Models: A Survey",
+        "url": "https://aclanthology.org/2024.emnlp-main.646/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.646.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Related Work and Citation Text Generation: A Survey",
+        "url": "https://aclanthology.org/2024.emnlp-main.767/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.767.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Large Language Models for Data Annotation and Synthesis: A Survey",
+        "url": "https://aclanthology.org/2024.emnlp-main.54/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.54.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "An Integrative Survey on Mental Health Conversational Agents to Bridge Computer Science and Medical Perspectives",
+        "url": "https://openreview.net/forum?id=Itnbse9MMW",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "Natural Language Processing Meets Quantum Physics: A Survey and Categorization",
+        "url": "https://aclanthology.org/2021.emnlp-main.254/",
+        "pdf_url": "https://aclanthology.org/2021.emnlp-main.254.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2021
+      },
+      {
+        "title": "A Survey on Modelling Morality for Text Analysis",
+        "url": "https://aclanthology.org/2024.findings-acl.245/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.245.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Computational Meme Understanding: A Survey",
+        "url": "https://aclanthology.org/2024.emnlp-main.1184/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.1184.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions",
+        "url": "https://aclanthology.org/2025.findings-acl.385/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.385.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Large Language Models in Bioinformatics: A Survey",
+        "url": "https://aclanthology.org/2025.findings-acl.184/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.184.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "The AI Doctor Is In: A Survey of Task-Oriented Dialogue Systems for Healthcare Applications",
+        "url": "https://aclanthology.org/2022.acl-long.458/",
+        "pdf_url": "https://aclanthology.org/2022.acl-long.458.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2022
+      },
+      {
+        "title": "A Survey of Active Learning for Natural Language Processing",
+        "url": "https://aclanthology.org/2022.emnlp-main.414/",
+        "pdf_url": "https://aclanthology.org/2022.emnlp-main.414.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2022
+      },
+      {
+        "title": "A Survey of Ontology Expansion for Conversational Understanding",
+        "url": "https://aclanthology.org/2024.emnlp-main.1006/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.1006.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Multimodal Large Language Models for Text-rich Image Understanding: A Comprehensive Review",
+        "url": "https://aclanthology.org/2025.findings-acl.1023/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.1023.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "GPTEval: A Survey on Assessments of ChatGPT and GPT-4",
+        "url": "https://aclanthology.org/2024.lrec-main.693/",
+        "pdf_url": "https://aclanthology.org/2024.lrec-main.693.pdf",
+        "doi_url": null,
+        "source": "offline_coling",
+        "year": 2024
+      },
+      {
+        "title": "Personalized Generation In Large Model Era: A Survey",
+        "url": "https://aclanthology.org/2025.acl-long.1201/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1201.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Neural Unsupervised Domain Adaptation in NLP—A Survey",
+        "url": "https://aclanthology.org/2020.coling-main.603/",
+        "pdf_url": "https://aclanthology.org/2020.coling-main.603.pdf",
+        "doi_url": null,
+        "source": "offline_coling",
+        "year": 2020
+      },
+      {
+        "title": "A Survey on Evaluation of Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/888728745dbb769e29ed475d4f7661eebe1a71cf",
+        "pdf_url": "https://arxiv.org/pdf/2307.03109",
+        "doi_url": "https://doi.org/10.1145/3641289",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+        "url": "https://www.semanticscholar.org/paper/1e909e2a8cdacdcdff125ebcc566f37cb869a1c8",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3703155",
+        "doi_url": "https://doi.org/10.1145/3703155",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Recent Advances in Natural Language Processing via Large Pre-trained Language Models: A Survey",
+        "url": "https://www.semanticscholar.org/paper/c23d9d44e8bc68408cea9f305d1f24d915bc0d0d",
+        "pdf_url": "http://arxiv.org/pdf/2111.01243",
+        "doi_url": "https://doi.org/10.1145/3605943",
+        "source": "semantic_scholar",
+        "year": 2021
+      },
+      {
+        "title": "Unifying Large Language Models and Knowledge Graphs: A Roadmap",
+        "url": "https://www.semanticscholar.org/paper/9e8b7b0d4c628c12b6a65ab56ac5f33a35eff2e6",
+        "pdf_url": "http://arxiv.org/pdf/2306.08302",
+        "doi_url": "https://doi.org/10.1109/TKDE.2024.3352100",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Explainability for Large Language Models: A Survey",
+        "url": "https://www.semanticscholar.org/paper/26089bdfdbca1e6eaaceca71e3116b715bec6d47",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3639372",
+        "doi_url": "https://doi.org/10.1145/3639372",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "A Review on Large Language Models: Architectures, Applications, Taxonomies, Open Issues and Challenges",
+        "url": "https://www.semanticscholar.org/paper/5d4a6ce39cfe7bfc6305cba86464efff8bc20c97",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10433480.pdf",
+        "doi_url": "https://doi.org/10.1109/ACCESS.2024.3365742",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Large Language Models for Information Retrieval: A Survey",
+        "url": "https://www.semanticscholar.org/paper/0b220041eb83c23b7b10d32a5d08c0309d528071",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3748304",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Aligning Large Language Models with Human: A Survey",
+        "url": "https://www.semanticscholar.org/paper/ac771182d1780c863954243809d1e144433919f9",
+        "pdf_url": "https://arxiv.org/pdf/2307.12966",
+        "doi_url": "https://doi.org/10.48550/arXiv.2307.12966",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Large Language Models in Finance: A Survey",
+        "url": "https://www.semanticscholar.org/paper/5432b77bfb1dced97c5b1fc684b0fa7d0d84c424",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3604237.3626869",
+        "doi_url": "https://doi.org/10.1145/3604237.3626869",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "A Survey on Model Compression for Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/338d8f3b199abcebc85f34016b0162ab3a9d5310",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1162/tacl_a_00704",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "A Survey of GPT-3 Family Large Language Models Including ChatGPT and GPT-4",
+        "url": "https://www.semanticscholar.org/paper/fa874e7b66a5b936469872054986c8f340701146",
+        "pdf_url": "https://arxiv.org/pdf/2310.12321",
+        "doi_url": "https://doi.org/10.2139/ssrn.4593895",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "OmniQuant: Omnidirectionally Calibrated Quantization for Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/eb2c2330177f765038a2b17e2ee3498965865797",
+        "pdf_url": "https://arxiv.org/pdf/2308.13137",
+        "doi_url": "https://doi.org/10.48550/arXiv.2308.13137",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "QuIP: 2-Bit Quantization of Large Language Models With Guarantees",
+        "url": "https://www.semanticscholar.org/paper/56b828717f32251a5e0f0be9c0113077f23c8429",
+        "pdf_url": "https://arxiv.org/pdf/2307.13304",
+        "doi_url": "https://doi.org/10.48550/arXiv.2307.13304",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "SliceGPT: Compress Large Language Models by Deleting Rows and Columns",
+        "url": "https://www.semanticscholar.org/paper/7754ac3e8ff1286f17593159781487543cdddaba",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2401.15024",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Survey of Vulnerabilities in Large Language Models Revealed by Adversarial Attacks",
+        "url": "https://www.semanticscholar.org/paper/4f63c5a89c7299a864c6c48aa1844fb0fe8c9437",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2310.10844",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "A Survey on Mixture of Experts in Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/b778fd5f23b91499e4186539e66596a0ac67a13b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/TKDE.2025.3554028",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Large language models (LLMs): survey, technical frameworks, and future challenges",
+        "url": "https://www.semanticscholar.org/paper/e552d8c4e0fab1fc9afdca876917277bf0823c88",
+        "pdf_url": "https://doi.org/10.1007/s10462-024-10888-y",
+        "doi_url": "https://doi.org/10.1007/s10462-024-10888-y",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "A Review of Current Trends, Techniques, and Challenges in Large Language Models (LLMs)",
+        "url": "https://www.semanticscholar.org/paper/33c40aadd08802cfa4911dc99424922d538999c3",
+        "pdf_url": "https://www.mdpi.com/2076-3417/14/5/2074/pdf?version=1709291698",
+        "doi_url": "https://doi.org/10.3390/app14052074",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Large Language Models for Time Series: A Survey",
+        "url": "https://www.semanticscholar.org/paper/13df472c3fe81bf1b615238fbd7884c8b45d8d1c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2402.01801",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "An Empirical Evaluation of Prompting Strategies for Large Language Models in Zero-Shot Clinical Natural Language Processing: Algorithm Development and Validation Study",
+        "url": "https://www.semanticscholar.org/paper/d33a14592d68da068953cdf37f8bf562740c0085",
+        "pdf_url": "https://medinform.jmir.org/2024/1/e55318/PDF",
+        "doi_url": "https://doi.org/10.2196/55318",
+        "source": "semantic_scholar",
+        "year": 2024
+      }
+    ],
+    "by_source": {
+      "offline_acl": [
+        {
+          "title": "A Survey on Efficient Large Language Model Training: From Data-centric Perspectives",
+          "url": "https://aclanthology.org/2025.acl-long.1493/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1493.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "A Survey of Post-Training Scaling in Large Language Models",
+          "url": "https://aclanthology.org/2025.acl-long.140/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.140.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Knowledge Boundary of Large Language Models: A Survey",
+          "url": "https://aclanthology.org/2025.acl-long.256/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.256.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "A Survey on Modelling Morality for Text Analysis",
+          "url": "https://aclanthology.org/2024.findings-acl.245/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.245.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions",
+          "url": "https://aclanthology.org/2025.findings-acl.385/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.385.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Large Language Models in Bioinformatics: A Survey",
+          "url": "https://aclanthology.org/2025.findings-acl.184/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.184.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "The AI Doctor Is In: A Survey of Task-Oriented Dialogue Systems for Healthcare Applications",
+          "url": "https://aclanthology.org/2022.acl-long.458/",
+          "pdf_url": "https://aclanthology.org/2022.acl-long.458.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2022
+        },
+        {
+          "title": "Multimodal Large Language Models for Text-rich Image Understanding: A Comprehensive Review",
+          "url": "https://aclanthology.org/2025.findings-acl.1023/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.1023.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Personalized Generation In Large Model Era: A Survey",
+          "url": "https://aclanthology.org/2025.acl-long.1201/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1201.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        }
+      ],
+      "offline_ijcai": [
+        {
+          "title": "Text Transformations in Contrastive Self-Supervised Learning: A Review",
+          "url": "https://www.ijcai.org/proceedings/2022/757",
+          "pdf_url": "https://www.ijcai.org/proceedings/2022/0757.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2022
+        },
+        {
+          "title": "A Survey of Risk-Aware Multi-Armed Bandits",
+          "url": "https://www.ijcai.org/proceedings/2022/784",
+          "pdf_url": "https://www.ijcai.org/proceedings/2022/0784.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2022
+        },
+        {
+          "title": "Bayesian Nonparametric Space Partitions: A Survey",
+          "url": "https://www.ijcai.org/proceedings/2021/602",
+          "pdf_url": "https://www.ijcai.org/proceedings/2021/0602.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2021
+        },
+        {
+          "title": "Knowledge-aware Zero-Shot Learning: Survey and Perspective",
+          "url": "https://www.ijcai.org/proceedings/2021/597",
+          "pdf_url": "https://www.ijcai.org/proceedings/2021/0597.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2021
+        },
+        {
+          "title": "Neural Re-ranking in Multi-stage Recommender Systems: A Review",
+          "url": "https://www.ijcai.org/proceedings/2022/771",
+          "pdf_url": "https://www.ijcai.org/proceedings/2022/0771.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2022
+        }
+      ],
+      "offline_colm": [
+        {
+          "title": "LLM as a Mastermind: A Survey of Strategic Reasoning with Large Language Models",
+          "url": "https://openreview.net/forum?id=iMqJsQ4evS",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_colm",
+          "year": 2024
+        }
+      ],
+      "offline_iclr": [
+        {
+          "title": "A Unified Perspective and Review on Tree Search for LLMs Test-Time Scaling",
+          "url": "https://openreview.net/forum?id=h6CQPEYAVp",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "TravelReasoner: Reasoning-Augmented Travel Survey Simulations with Large Reasoning Models",
+          "url": "https://openreview.net/forum?id=KpZkR11SjD",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        }
+      ],
+      "offline_emnlp": [
+        {
+          "title": "A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations",
+          "url": "https://aclanthology.org/2024.emnlp-main.764/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.764.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Puzzle Solving using Reasoning of Large Language Models: A Survey",
+          "url": "https://aclanthology.org/2024.emnlp-main.646/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.646.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Related Work and Citation Text Generation: A Survey",
+          "url": "https://aclanthology.org/2024.emnlp-main.767/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.767.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Large Language Models for Data Annotation and Synthesis: A Survey",
+          "url": "https://aclanthology.org/2024.emnlp-main.54/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.54.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "An Integrative Survey on Mental Health Conversational Agents to Bridge Computer Science and Medical Perspectives",
+          "url": "https://openreview.net/forum?id=Itnbse9MMW",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        },
+        {
+          "title": "Natural Language Processing Meets Quantum Physics: A Survey and Categorization",
+          "url": "https://aclanthology.org/2021.emnlp-main.254/",
+          "pdf_url": "https://aclanthology.org/2021.emnlp-main.254.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2021
+        },
+        {
+          "title": "Computational Meme Understanding: A Survey",
+          "url": "https://aclanthology.org/2024.emnlp-main.1184/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.1184.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "A Survey of Active Learning for Natural Language Processing",
+          "url": "https://aclanthology.org/2022.emnlp-main.414/",
+          "pdf_url": "https://aclanthology.org/2022.emnlp-main.414.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2022
+        },
+        {
+          "title": "A Survey of Ontology Expansion for Conversational Understanding",
+          "url": "https://aclanthology.org/2024.emnlp-main.1006/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.1006.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        }
+      ],
+      "offline_coling": [
+        {
+          "title": "GPTEval: A Survey on Assessments of ChatGPT and GPT-4",
+          "url": "https://aclanthology.org/2024.lrec-main.693/",
+          "pdf_url": "https://aclanthology.org/2024.lrec-main.693.pdf",
+          "doi_url": null,
+          "source": "offline_coling",
+          "year": 2024
+        },
+        {
+          "title": "Neural Unsupervised Domain Adaptation in NLP—A Survey",
+          "url": "https://aclanthology.org/2020.coling-main.603/",
+          "pdf_url": "https://aclanthology.org/2020.coling-main.603.pdf",
+          "doi_url": null,
+          "source": "offline_coling",
+          "year": 2020
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "A Survey on Evaluation of Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/888728745dbb769e29ed475d4f7661eebe1a71cf",
+          "pdf_url": "https://arxiv.org/pdf/2307.03109",
+          "doi_url": "https://doi.org/10.1145/3641289",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+          "url": "https://www.semanticscholar.org/paper/1e909e2a8cdacdcdff125ebcc566f37cb869a1c8",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3703155",
+          "doi_url": "https://doi.org/10.1145/3703155",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Recent Advances in Natural Language Processing via Large Pre-trained Language Models: A Survey",
+          "url": "https://www.semanticscholar.org/paper/c23d9d44e8bc68408cea9f305d1f24d915bc0d0d",
+          "pdf_url": "http://arxiv.org/pdf/2111.01243",
+          "doi_url": "https://doi.org/10.1145/3605943",
+          "source": "semantic_scholar",
+          "year": 2021
+        },
+        {
+          "title": "Unifying Large Language Models and Knowledge Graphs: A Roadmap",
+          "url": "https://www.semanticscholar.org/paper/9e8b7b0d4c628c12b6a65ab56ac5f33a35eff2e6",
+          "pdf_url": "http://arxiv.org/pdf/2306.08302",
+          "doi_url": "https://doi.org/10.1109/TKDE.2024.3352100",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Explainability for Large Language Models: A Survey",
+          "url": "https://www.semanticscholar.org/paper/26089bdfdbca1e6eaaceca71e3116b715bec6d47",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3639372",
+          "doi_url": "https://doi.org/10.1145/3639372",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "A Review on Large Language Models: Architectures, Applications, Taxonomies, Open Issues and Challenges",
+          "url": "https://www.semanticscholar.org/paper/5d4a6ce39cfe7bfc6305cba86464efff8bc20c97",
+          "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10433480.pdf",
+          "doi_url": "https://doi.org/10.1109/ACCESS.2024.3365742",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Large Language Models for Information Retrieval: A Survey",
+          "url": "https://www.semanticscholar.org/paper/0b220041eb83c23b7b10d32a5d08c0309d528071",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3748304",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Aligning Large Language Models with Human: A Survey",
+          "url": "https://www.semanticscholar.org/paper/ac771182d1780c863954243809d1e144433919f9",
+          "pdf_url": "https://arxiv.org/pdf/2307.12966",
+          "doi_url": "https://doi.org/10.48550/arXiv.2307.12966",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Large Language Models in Finance: A Survey",
+          "url": "https://www.semanticscholar.org/paper/5432b77bfb1dced97c5b1fc684b0fa7d0d84c424",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3604237.3626869",
+          "doi_url": "https://doi.org/10.1145/3604237.3626869",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "A Survey on Model Compression for Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/338d8f3b199abcebc85f34016b0162ab3a9d5310",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1162/tacl_a_00704",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "A Survey of GPT-3 Family Large Language Models Including ChatGPT and GPT-4",
+          "url": "https://www.semanticscholar.org/paper/fa874e7b66a5b936469872054986c8f340701146",
+          "pdf_url": "https://arxiv.org/pdf/2310.12321",
+          "doi_url": "https://doi.org/10.2139/ssrn.4593895",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "OmniQuant: Omnidirectionally Calibrated Quantization for Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/eb2c2330177f765038a2b17e2ee3498965865797",
+          "pdf_url": "https://arxiv.org/pdf/2308.13137",
+          "doi_url": "https://doi.org/10.48550/arXiv.2308.13137",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "QuIP: 2-Bit Quantization of Large Language Models With Guarantees",
+          "url": "https://www.semanticscholar.org/paper/56b828717f32251a5e0f0be9c0113077f23c8429",
+          "pdf_url": "https://arxiv.org/pdf/2307.13304",
+          "doi_url": "https://doi.org/10.48550/arXiv.2307.13304",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "SliceGPT: Compress Large Language Models by Deleting Rows and Columns",
+          "url": "https://www.semanticscholar.org/paper/7754ac3e8ff1286f17593159781487543cdddaba",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2401.15024",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Survey of Vulnerabilities in Large Language Models Revealed by Adversarial Attacks",
+          "url": "https://www.semanticscholar.org/paper/4f63c5a89c7299a864c6c48aa1844fb0fe8c9437",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2310.10844",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "A Survey on Mixture of Experts in Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/b778fd5f23b91499e4186539e66596a0ac67a13b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/TKDE.2025.3554028",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Large language models (LLMs): survey, technical frameworks, and future challenges",
+          "url": "https://www.semanticscholar.org/paper/e552d8c4e0fab1fc9afdca876917277bf0823c88",
+          "pdf_url": "https://doi.org/10.1007/s10462-024-10888-y",
+          "doi_url": "https://doi.org/10.1007/s10462-024-10888-y",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "A Review of Current Trends, Techniques, and Challenges in Large Language Models (LLMs)",
+          "url": "https://www.semanticscholar.org/paper/33c40aadd08802cfa4911dc99424922d538999c3",
+          "pdf_url": "https://www.mdpi.com/2076-3417/14/5/2074/pdf?version=1709291698",
+          "doi_url": "https://doi.org/10.3390/app14052074",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Large Language Models for Time Series: A Survey",
+          "url": "https://www.semanticscholar.org/paper/13df472c3fe81bf1b615238fbd7884c8b45d8d1c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2402.01801",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "An Empirical Evaluation of Prompting Strategies for Large Language Models in Zero-Shot Clinical Natural Language Processing: Algorithm Development and Validation Study",
+          "url": "https://www.semanticscholar.org/paper/d33a14592d68da068953cdf37f8bf562740c0085",
+          "pdf_url": "https://medinform.jmir.org/2024/1/e55318/PDF",
+          "doi_url": "https://doi.org/10.2196/55318",
+          "source": "semantic_scholar",
+          "year": 2024
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "A Survey on Efficient Large Language Model Training: From Data-centric Perspectives",
+        "pdf": "https://aclanthology.org/2025.acl-long.1493.pdf"
+      },
+      {
+        "title": "Text Transformations in Contrastive Self-Supervised Learning: A Review",
+        "pdf": "https://www.ijcai.org/proceedings/2022/0757.pdf"
+      },
+      {
+        "title": "A Survey of Risk-Aware Multi-Armed Bandits",
+        "pdf": "https://www.ijcai.org/proceedings/2022/0784.pdf"
+      },
+      {
+        "title": "A Survey of Post-Training Scaling in Large Language Models",
+        "pdf": "https://aclanthology.org/2025.acl-long.140.pdf"
+      },
+      {
+        "title": "Bayesian Nonparametric Space Partitions: A Survey",
+        "pdf": "https://www.ijcai.org/proceedings/2021/0602.pdf"
+      },
+      {
+        "title": "Knowledge-aware Zero-Shot Learning: Survey and Perspective",
+        "pdf": "https://www.ijcai.org/proceedings/2021/0597.pdf"
+      },
+      {
+        "title": "A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.764.pdf"
+      },
+      {
+        "title": "Neural Re-ranking in Multi-stage Recommender Systems: A Review",
+        "pdf": "https://www.ijcai.org/proceedings/2022/0771.pdf"
+      },
+      {
+        "title": "Knowledge Boundary of Large Language Models: A Survey",
+        "pdf": "https://aclanthology.org/2025.acl-long.256.pdf"
+      },
+      {
+        "title": "Puzzle Solving using Reasoning of Large Language Models: A Survey",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.646.pdf"
+      },
+      {
+        "title": "Related Work and Citation Text Generation: A Survey",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.767.pdf"
+      },
+      {
+        "title": "Large Language Models for Data Annotation and Synthesis: A Survey",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.54.pdf"
+      },
+      {
+        "title": "Natural Language Processing Meets Quantum Physics: A Survey and Categorization",
+        "pdf": "https://aclanthology.org/2021.emnlp-main.254.pdf"
+      },
+      {
+        "title": "A Survey on Modelling Morality for Text Analysis",
+        "pdf": "https://aclanthology.org/2024.findings-acl.245.pdf"
+      },
+      {
+        "title": "Computational Meme Understanding: A Survey",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.1184.pdf"
+      },
+      {
+        "title": "A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions",
+        "pdf": "https://aclanthology.org/2025.findings-acl.385.pdf"
+      },
+      {
+        "title": "Large Language Models in Bioinformatics: A Survey",
+        "pdf": "https://aclanthology.org/2025.findings-acl.184.pdf"
+      },
+      {
+        "title": "The AI Doctor Is In: A Survey of Task-Oriented Dialogue Systems for Healthcare Applications",
+        "pdf": "https://aclanthology.org/2022.acl-long.458.pdf"
+      },
+      {
+        "title": "A Survey of Active Learning for Natural Language Processing",
+        "pdf": "https://aclanthology.org/2022.emnlp-main.414.pdf"
+      },
+      {
+        "title": "A Survey of Ontology Expansion for Conversational Understanding",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.1006.pdf"
+      },
+      {
+        "title": "Multimodal Large Language Models for Text-rich Image Understanding: A Comprehensive Review",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1023.pdf"
+      },
+      {
+        "title": "GPTEval: A Survey on Assessments of ChatGPT and GPT-4",
+        "pdf": "https://aclanthology.org/2024.lrec-main.693.pdf"
+      },
+      {
+        "title": "Personalized Generation In Large Model Era: A Survey",
+        "pdf": "https://aclanthology.org/2025.acl-long.1201.pdf"
+      },
+      {
+        "title": "Neural Unsupervised Domain Adaptation in NLP—A Survey",
+        "pdf": "https://aclanthology.org/2020.coling-main.603.pdf"
+      },
+      {
+        "title": "A Survey on Evaluation of Large Language Models",
+        "pdf": "https://arxiv.org/pdf/2307.03109"
+      },
+      {
+        "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3703155"
+      },
+      {
+        "title": "Recent Advances in Natural Language Processing via Large Pre-trained Language Models: A Survey",
+        "pdf": "http://arxiv.org/pdf/2111.01243"
+      },
+      {
+        "title": "Unifying Large Language Models and Knowledge Graphs: A Roadmap",
+        "pdf": "http://arxiv.org/pdf/2306.08302"
+      },
+      {
+        "title": "Explainability for Large Language Models: A Survey",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3639372"
+      },
+      {
+        "title": "A Review on Large Language Models: Architectures, Applications, Taxonomies, Open Issues and Challenges",
+        "pdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10433480.pdf"
+      },
+      {
+        "title": "Aligning Large Language Models with Human: A Survey",
+        "pdf": "https://arxiv.org/pdf/2307.12966"
+      },
+      {
+        "title": "Large Language Models in Finance: A Survey",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3604237.3626869"
+      },
+      {
+        "title": "A Survey of GPT-3 Family Large Language Models Including ChatGPT and GPT-4",
+        "pdf": "https://arxiv.org/pdf/2310.12321"
+      },
+      {
+        "title": "OmniQuant: Omnidirectionally Calibrated Quantization for Large Language Models",
+        "pdf": "https://arxiv.org/pdf/2308.13137"
+      },
+      {
+        "title": "QuIP: 2-Bit Quantization of Large Language Models With Guarantees",
+        "pdf": "https://arxiv.org/pdf/2307.13304"
+      },
+      {
+        "title": "Large language models (LLMs): survey, technical frameworks, and future challenges",
+        "pdf": "https://doi.org/10.1007/s10462-024-10888-y"
+      },
+      {
+        "title": "A Review of Current Trends, Techniques, and Challenges in Large Language Models (LLMs)",
+        "pdf": "https://www.mdpi.com/2076-3417/14/5/2074/pdf?version=1709291698"
+      },
+      {
+        "title": "An Empirical Evaluation of Prompting Strategies for Large Language Models in Zero-Shot Clinical Natural Language Processing: Algorithm Development and Validation Study",
+        "pdf": "https://medinform.jmir.org/2024/1/e55318/PDF"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "A Survey on Evaluation of Large Language Models",
+        "doi": "https://doi.org/10.1145/3641289"
+      },
+      {
+        "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+        "doi": "https://doi.org/10.1145/3703155"
+      },
+      {
+        "title": "Recent Advances in Natural Language Processing via Large Pre-trained Language Models: A Survey",
+        "doi": "https://doi.org/10.1145/3605943"
+      },
+      {
+        "title": "Unifying Large Language Models and Knowledge Graphs: A Roadmap",
+        "doi": "https://doi.org/10.1109/TKDE.2024.3352100"
+      },
+      {
+        "title": "Explainability for Large Language Models: A Survey",
+        "doi": "https://doi.org/10.1145/3639372"
+      },
+      {
+        "title": "A Review on Large Language Models: Architectures, Applications, Taxonomies, Open Issues and Challenges",
+        "doi": "https://doi.org/10.1109/ACCESS.2024.3365742"
+      },
+      {
+        "title": "Large Language Models for Information Retrieval: A Survey",
+        "doi": "https://doi.org/10.1145/3748304"
+      },
+      {
+        "title": "Aligning Large Language Models with Human: A Survey",
+        "doi": "https://doi.org/10.48550/arXiv.2307.12966"
+      },
+      {
+        "title": "Large Language Models in Finance: A Survey",
+        "doi": "https://doi.org/10.1145/3604237.3626869"
+      },
+      {
+        "title": "A Survey on Model Compression for Large Language Models",
+        "doi": "https://doi.org/10.1162/tacl_a_00704"
+      },
+      {
+        "title": "A Survey of GPT-3 Family Large Language Models Including ChatGPT and GPT-4",
+        "doi": "https://doi.org/10.2139/ssrn.4593895"
+      },
+      {
+        "title": "OmniQuant: Omnidirectionally Calibrated Quantization for Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2308.13137"
+      },
+      {
+        "title": "QuIP: 2-Bit Quantization of Large Language Models With Guarantees",
+        "doi": "https://doi.org/10.48550/arXiv.2307.13304"
+      },
+      {
+        "title": "SliceGPT: Compress Large Language Models by Deleting Rows and Columns",
+        "doi": "https://doi.org/10.48550/arXiv.2401.15024"
+      },
+      {
+        "title": "Survey of Vulnerabilities in Large Language Models Revealed by Adversarial Attacks",
+        "doi": "https://doi.org/10.48550/arXiv.2310.10844"
+      },
+      {
+        "title": "A Survey on Mixture of Experts in Large Language Models",
+        "doi": "https://doi.org/10.1109/TKDE.2025.3554028"
+      },
+      {
+        "title": "Large language models (LLMs): survey, technical frameworks, and future challenges",
+        "doi": "https://doi.org/10.1007/s10462-024-10888-y"
+      },
+      {
+        "title": "A Review of Current Trends, Techniques, and Challenges in Large Language Models (LLMs)",
+        "doi": "https://doi.org/10.3390/app14052074"
+      },
+      {
+        "title": "Large Language Models for Time Series: A Survey",
+        "doi": "https://doi.org/10.48550/arXiv.2402.01801"
+      },
+      {
+        "title": "An Empirical Evaluation of Prompting Strategies for Large Language Models in Zero-Shot Clinical Natural Language Processing: Algorithm Development and Validation Study",
+        "doi": "https://doi.org/10.2196/55318"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "LLM post-training survey review",
+    "total_steps": 19,
+    "last_updated": "2026-01-02T18:17:10.850062",
+    "started_at": "2026-01-02T17:47:33.769604",
+    "total_papers": 48
+  }
+}

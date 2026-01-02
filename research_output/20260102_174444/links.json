@@ -1,0 +1,2696 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Mitigating Forgetting in LLM Supervised Fine-Tuning and Preference Learning",
+        "url": "https://openreview.net/forum?id=YeErX16hMC",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "A Survey on Efficient Large Language Model Training: From Data-centric Perspectives",
+        "url": "https://aclanthology.org/2025.acl-long.1493/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1493.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Revisiting Parameter Server in LLM Post-Training",
+        "url": "https://openreview.net/forum?id=iIEEgI6WsF",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "$Q\\sharp$: Provably Optimal Distributional RL for LLM Post-Training",
+        "url": "https://openreview.net/forum?id=1J1Kju4rto",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Generalizable LLM Learning of Graph Synthetic Data with Post-training Alignment",
+        "url": "https://openreview.net/forum?id=0kiFgLo5al",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "First SFT, Second RL, Third UPT: Continual Improving Multi-Modal LLM Reasoning via Unsupervised Post-Training",
+        "url": "https://openreview.net/forum?id=HL1j92hb6z",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Trajectory Balance with Asynchrony: Decoupling Exploration and Learning for Fast, Scalable LLM Post-Training",
+        "url": "https://openreview.net/forum?id=VwPt1WDQNB",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "BiLLM: Pushing the Limit of Post-Training Quantization for LLMs",
+        "url": "https://icml.cc/virtual/2024/poster/32992",
+        "pdf_url": "https://openreview.net/pdf?id=qOl2WWOqFg",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "Fixing It in Post: A Comparative Study of LLM Post-Training Data Quality and Model Performance",
+        "url": "https://openreview.net/forum?id=1ybOI1VvQL",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "RiskPO: Risk-based Policy Optimization with Verifiable Reward for LLM Post-Training",
+        "url": "https://openreview.net/forum?id=KjHB7rebQO",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression",
+        "url": "https://iclr.cc/virtual/2025/poster/30003",
+        "pdf_url": "https://openreview.net/pdf?id=LNYIUouhdt",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "TesseraQ: Ultra Low-Bit LLM Post-Training Quantization with Block Reconstruction",
+        "url": "https://openreview.net/forum?id=GTe9PDhm8v",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "On the Impact of Calibration Data in Post-training Quantization and Pruning",
+        "url": "https://aclanthology.org/2024.acl-long.544/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.544.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Tuning without Peeking: Provable Privacy and Generalization Bounds for LLM Post-Training",
+        "url": "https://openreview.net/forum?id=ZEuQ4Mm1bh",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Value Drifts: Tracing Value Alignment During LLM Post-Training",
+        "url": "https://openreview.net/forum?id=0Z9DZtIZI7",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Achieving binary weight and activation for LLMs using Post-Training Quantization",
+        "url": "https://aclanthology.org/2025.findings-acl.459/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.459.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Improve LLM Pre-training with RL-Guided Annealing",
+        "url": "https://openreview.net/forum?id=Ir78DvyQA1",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "OPTIMA: Optimal One-shot Pruning for LLMs via Quadratic Programming Reconstruction",
+        "url": "https://openreview.net/forum?id=Gmq7rQllpD",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Bridging the Preference Gap: Post-Training Input Rewriting with Large Language Models",
+        "url": "https://openreview.net/forum?id=J04D9xBUCi",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Finding and Reactivating Post-Trained LLMs' Hidden Safety Mechanisms",
+        "url": "https://openreview.net/forum?id=pcG6NRJKu7",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Prompt Curriculum Learning for Efficient LLM Post-Training",
+        "url": "https://openreview.net/forum?id=zqOCacBD3P",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "BCQ: Block Clustered Quantization for 4-bit (W4A4) LLM inference",
+        "url": "https://openreview.net/forum?id=UKjAwMzX4m",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "WildChat-50M: A Deep Dive Into the Role of Synthetic Data in Post-Training",
+        "url": "https://icml.cc/virtual/2025/poster/44492",
+        "pdf_url": "https://openreview.net/pdf?id=fzmtDDOcJ3",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Expert-Integrated Active Learning for Optimizing LLM Agents",
+        "url": "https://openreview.net/forum?id=yOTm8Z9QVi",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Learning Grouped Lattice Vector Quantizers for Low-Bit LLM Compression",
+        "url": "https://openreview.net/forum?id=Ynwl0V1YH0",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "LRQ: Optimizing Post-Training Quantization for Large Language Models by Learning Low-Rank Weight-Scaling Matrices",
+        "url": "https://aclanthology.org/2025.naacl-long.393/",
+        "pdf_url": "https://aclanthology.org/2025.naacl-long.393.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2025
+      },
+      {
+        "title": "Adaptive Layer-Wise Transformations for Post-Training Quantization of Large Language Models",
+        "url": "https://openreview.net/forum?id=ncKJ7n9RaG",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Strategic Generalization Without Interaction: Can Post-Training Alone Induce Multi-Agent Behavior?",
+        "url": "https://openreview.net/forum?id=HODPRXYGKw",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "LRQuant: Learnable and Robust Post-Training Quantization for Large Language Models",
+        "url": "https://aclanthology.org/2024.acl-long.122/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.122.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Style Outweighs Substance: Failure Modes of LLM Judges in Alignment Benchmarking",
+        "url": "https://iclr.cc/virtual/2025/poster/29906",
+        "pdf_url": "https://openreview.net/pdf?id=MzHNftnAM1",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Can LLMs Serve as Causal Inference Agents? A Study on Post-Training Methods",
+        "url": "https://openreview.net/forum?id=HHQjNDiWoR",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Spinning Straw into Gold: Relabeling LLM Agent Trajectories in Hindsight for Successful Demonstrations",
+        "url": "https://openreview.net/forum?id=QNfmqMSR7r",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "GVPO: Group Variance Policy Optimization for Large Language Model Post-Training",
+        "url": "https://openreview.net/forum?id=cCYUFaR6En",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "EfficientLLM: Unified Pruning-Aware Pretraining for Auto-Designed Edge Language Models",
+        "url": "https://openreview.net/forum?id=zbNWwHLJFw",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Pruning Foundation Models for High Accuracy without Retraining",
+        "url": "https://aclanthology.org/2024.findings-emnlp.566/",
+        "pdf_url": "https://aclanthology.org/2024.findings-emnlp.566.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "P2 Law: Scaling Law for Post-Training After Model Pruning",
+        "url": "https://aclanthology.org/2025.acl-long.283/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.283.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "VPTQ: Extreme Low-bit Vector Post-Training Quantization for Large Language Models",
+        "url": "https://aclanthology.org/2024.emnlp-main.467/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.467.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models",
+        "url": "https://icml.cc/virtual/2023/poster/25228",
+        "pdf_url": "https://openreview.net/pdf?id=sHfSV8eYEp",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2023
+      },
+      {
+        "title": "Expanding the Web, Smaller Is Better: A Comprehensive Study in Post-training",
+        "url": "https://openreview.net/forum?id=EVa5OIYBoG",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "SINQ: Sinkhorn-Normalized Quantization for Calibration-Free Low-Precision LLM Weights",
+        "url": "https://openreview.net/forum?id=5F2XfLe7An",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Preserving LLM Capabilities through Calibration Data Curation: From Analysis to Optimization",
+        "url": "https://openreview.net/forum?id=Tf9eoTIIjh",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Cuckoo: An IE Free Rider Hatched by Massive Nutrition in LLM’s Nest",
+        "url": "https://aclanthology.org/2025.acl-long.66/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.66.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "S$^{2}$FT: Efficient, Scalable and Generalizable LLM Fine-tuning by Structured Sparsity",
+        "url": "https://neurips.cc/virtual/2024/poster/93843",
+        "pdf_url": "https://openreview.net/pdf?id=lEUle8S4xQ",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "What Is The Political Content in LLMs' Pre- and Post-Training Data?",
+        "url": "https://openreview.net/forum?id=8dzy2MSPCR",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Trajectory Bellman Residual Minimization: A Simple Value-Based Method for LLM Reasoning",
+        "url": "https://openreview.net/forum?id=7Eh2SK6Mo7",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "CrossQuant: A Post-Training Quantization Method with Smaller Quantization Kernel for Precise Large Lanugage Model Compression",
+        "url": "https://openreview.net/forum?id=igiQUYs53F",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "LiNeS: Post-training Layer Scaling Prevents Forgetting and Enhances Model Merging",
+        "url": "https://iclr.cc/virtual/2025/poster/30130",
+        "pdf_url": "https://openreview.net/pdf?id=J5sUOvlLbQ",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training",
+        "url": "https://openreview.net/forum?id=pBjy4ek2QV",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "HyperDPO: Hypernetwork-based Multi-Objective Fine-Tuning Framework",
+        "url": "https://openreview.net/forum?id=qBKA2844I4",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Sample-efficient LLM Optimization with Reset Replay",
+        "url": "https://openreview.net/forum?id=0SSKmVjj8O",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Unlocking the Pre-Trained Model as a Dual-Alignment Calibrator for Post-Trained LLMs",
+        "url": "https://openreview.net/forum?id=VXGmJ3qYZR",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "SPP: Sparsity-Preserved Parameter-Efficient Fine-Tuning for Large Language Models",
+        "url": "https://icml.cc/virtual/2024/poster/34806",
+        "pdf_url": "https://openreview.net/pdf?id=9Rroj9GIOQ",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "PIKA: Expert-Level Synthetic Datasets for Post-Training Alignment from Scratch",
+        "url": "https://openreview.net/forum?id=cGv4z4eaNr",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Detecting Data Contamination from Reinforcement Learning Post-training for Large Language Models",
+        "url": "https://openreview.net/forum?id=EjiJmiA6ea",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "The Geometry of LLM Quantization: GPTQ as Babai's Nearest Plane Algorithm",
+        "url": "https://openreview.net/forum?id=NFB4QGGS65",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Towards a Theoretical Understanding of Synthetic Data in LLM Post-Training: A Reverse-Bottleneck Perspective",
+        "url": "https://iclr.cc/virtual/2025/poster/29438",
+        "pdf_url": "https://openreview.net/pdf?id=UxkznlcnHf",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Rethinking Output Alignment for 1-bit Post-Training Quantization of Large Language Models",
+        "url": "https://openreview.net/forum?id=abgW71sKIt",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "BLoB: Bayesian Low-Rank Adaptation by Backpropagation for Large Language Models",
+        "url": "https://neurips.cc/virtual/2024/poster/95507",
+        "pdf_url": "https://openreview.net/pdf?id=MaDykgj4Ru",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Beyond Fixed Budgets: Dynamic Reasoning Efficiency Reward for Large Language Model",
+        "url": "https://openreview.net/forum?id=PYlbrgaJKp",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ShiftAddLLM: Accelerating Pretrained LLMs via Post-Training Multiplication-Less Reparameterization",
+        "url": "https://neurips.cc/virtual/2024/poster/95715",
+        "pdf_url": "https://openreview.net/pdf?id=JNl6h3U3oW",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "PTQTP: Post-Training Quantization to Trit-Planes for Large Language Models",
+        "url": "https://openreview.net/forum?id=0mqsIlMtfm",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "A Survey of Post-Training Scaling in Large Language Models",
+        "url": "https://aclanthology.org/2025.acl-long.140/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.140.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Plug-and-Play: An Efficient Post-training Pruning Method for Large Language Models",
+        "url": "https://iclr.cc/virtual/2024/poster/18549",
+        "pdf_url": "https://openreview.net/pdf?id=Tr0lPx9woF",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "RoSTE: An Efficient Quantization-Aware Supervised Fine-Tuning Approach for Large Language Models",
+        "url": "https://icml.cc/virtual/2025/poster/44438",
+        "pdf_url": "https://openreview.net/pdf?id=h30EzoI3s0",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Surprising Effectiveness of pretraining Ternary Language Model at Scale",
+        "url": "https://iclr.cc/virtual/2025/poster/29550",
+        "pdf_url": "https://openreview.net/pdf?id=TJo6aQb7mK",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "SPA: Enhancing 3D Multimodal LLMs with Mask-based Streamlining Preference Alignment",
+        "url": "https://openreview.net/forum?id=j80J5cyyqP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Gradient Ascent Post-training Enhances Language Model Generalization",
+        "url": "https://aclanthology.org/2023.acl-short.74/",
+        "pdf_url": "https://aclanthology.org/2023.acl-short.74.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Merge-Friendly Post-Training Quantization for Multi-Target Domain Adaptation",
+        "url": "https://icml.cc/virtual/2025/poster/44814",
+        "pdf_url": "https://openreview.net/pdf?id=aCBd1FeE5Z",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Towards Accurate Post-training Network Quantization via Bit-Split and Stitching",
+        "url": "https://icml.cc/virtual/2020/poster/5787",
+        "pdf_url": "http://proceedings.mlr.press/v119/wang20c/wang20c.pdf",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2020
+      },
+      {
+        "title": "Quadratic Coreset Selection: Certifying and Reconciling Sequence and Token Mining for Efficient Instruction Tuning",
+        "url": "https://openreview.net/forum?id=btZm6DUaDO",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Pixel-Space Post-Training of Latent-Diffusion Models",
+        "url": "https://openreview.net/forum?id=F7yPR6XhFR",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Towards Efficient Post-training Quantization of Pre-trained Language Models",
+        "url": "https://nips.cc/virtual/2022/poster/53407",
+        "pdf_url": "https://openreview.net/pdf?id=tvDRmAxGIjw",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2022
+      },
+      {
+        "title": "MagR: Weight Magnitude Reduction for Enhancing Post-Training Quantization",
+        "url": "https://neurips.cc/virtual/2024/poster/94986",
+        "pdf_url": "https://openreview.net/pdf?id=UARTFgkTqW",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Hardware-Friendly Post-Training Quantization: Input- and Output-Channelwise Scale and Offset",
+        "url": "https://openreview.net/forum?id=itJj6p7ssr",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Fine-grained Post-training for Improving Retrieval-based Dialogue Systems",
+        "url": "https://aclanthology.org/2021.naacl-main.122/",
+        "pdf_url": "https://aclanthology.org/2021.naacl-main.122.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2021
+      },
+      {
+        "title": "JARVIS-VLA: Post-Training Large-Scale Vision Language Models to Play Visual Games with Keyboards and Mouse",
+        "url": "https://aclanthology.org/2025.findings-acl.920/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.920.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Satori: Reinforcement Learning with Chain-of-Action-Thought Enhances LLM Reasoning via Autoregressive Search",
+        "url": "https://icml.cc/virtual/2025/poster/44324",
+        "pdf_url": "https://openreview.net/pdf?id=j4FXxMiDjL",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "SPARQ: Outlier-free SpeechLM with Fast Adaptation and Robust Quantization",
+        "url": "https://openreview.net/forum?id=Z2uhdwOrn0",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Asymmetric Conflict and Synergy in Post-training for LLM-based Multilingual Machine Translation",
+        "url": "https://aclanthology.org/2025.findings-acl.944/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.944.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Q-VLM: Post-training Quantization for Large Vision-Language Models",
+        "url": "https://neurips.cc/virtual/2024/poster/94107",
+        "pdf_url": "https://openreview.net/pdf?id=gxMfNArldP",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Transferable Post-training via Inverse Value Learning",
+        "url": "https://aclanthology.org/2025.naacl-long.227/",
+        "pdf_url": "https://aclanthology.org/2025.naacl-long.227.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2025
+      },
+      {
+        "title": "Steering Information Utility in Key-Value Memory for Language Model Post-Training",
+        "url": "https://openreview.net/forum?id=3rRzYrpO70",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "QuIP$\\#$: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks",
+        "url": "https://icml.cc/virtual/2024/poster/34816",
+        "pdf_url": "https://openreview.net/pdf?id=9BrydUVcoe",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "Contrastive Post-training Large Language Models on Data Curriculum",
+        "url": "https://openreview.net/forum?id=mmSmQ0gNyZ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Direct Post-Training Preference Alignment for Multi-Agent Motion Generation Model Using Implicit Feedback from Pre-training Demonstrations",
+        "url": "https://iclr.cc/virtual/2025/poster/30765",
+        "pdf_url": "https://openreview.net/pdf?id=8UFG9D8xeU",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Time-R1: Post-Training Large Vision Language Model for Temporal Video Grounding",
+        "url": "https://openreview.net/forum?id=gJ05Gm5VxQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Can Post-Training Quantization Benefit from an Additional QLoRA Integration?",
+        "url": "https://aclanthology.org/2025.naacl-industry.41/",
+        "pdf_url": "https://aclanthology.org/2025.naacl-industry.41.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2025
+      },
+      {
+        "title": "Can Compressed LLMs Truly Act? An Empirical Evaluation of Agentic Capabilities in LLM Compression",
+        "url": "https://icml.cc/virtual/2025/poster/43871",
+        "pdf_url": "https://openreview.net/pdf?id=rkwXYSDKso",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "A Frustratingly Easy Post-Training Quantization Scheme for LLMs",
+        "url": "https://openreview.net/forum?id=5PvFFNRTbp",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "Automatic Pair Construction for Contrastive Post-training",
+        "url": "https://aclanthology.org/2024.findings-naacl.11/",
+        "pdf_url": "https://aclanthology.org/2024.findings-naacl.11.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2024
+      },
+      {
+        "title": "Eliciting Reasoning in Language Models with Cognitive Tools",
+        "url": "https://openreview.net/forum?id=6H4tDTHalg",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Compressing Large Language Models using Low Rank and Low Precision Decomposition",
+        "url": "https://neurips.cc/virtual/2024/poster/93805",
+        "pdf_url": "https://openreview.net/pdf?id=lkx3OpcqSZ",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Progress or Regress? Self-Improvement Reversal in Post-training",
+        "url": "https://iclr.cc/virtual/2025/poster/29657",
+        "pdf_url": "https://openreview.net/pdf?id=RFqeoVfLHa",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning",
+        "url": "https://nips.cc/virtual/2022/poster/53412",
+        "pdf_url": "https://openreview.net/pdf?id=ksVGCOlOEba",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2022
+      },
+      {
+        "title": "Attention-aware Post-training Quantization without Backpropagation",
+        "url": "https://openreview.net/forum?id=0L8wZ9WRah",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Q-Palette: Fractional-Bit Quantizers Toward Optimal Bit Allocation for Efficient LLM Deployment",
+        "url": "https://openreview.net/forum?id=l4F50jpiVH",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Quantization Error Propagation: Revisiting Layer-Wise Post-Training Quantization",
+        "url": "https://openreview.net/forum?id=a3l3K9khbL",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "AL-QASIDA: Analyzing LLM Quality and Accuracy Systematically in Dialectal Arabic",
+        "url": "https://aclanthology.org/2025.findings-acl.1137/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.1137.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Outlier-Aware Post-Training Quantization for Discrete Graph Diffusion Models",
+        "url": "https://icml.cc/virtual/2025/poster/43639",
+        "pdf_url": "https://openreview.net/pdf?id=w5fONAEwra",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Adaptive Fission: Post-training Encoding for Low-latency Spike Neural Networks",
+        "url": "https://openreview.net/forum?id=2zZzdAMyYi",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Synthesizing Post-Training Data for LLMs through Multi-Agent Simulation",
+        "url": "https://aclanthology.org/2025.acl-long.1136/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1136.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Up or Down? Adaptive Rounding for Post-Training Quantization",
+        "url": "https://icml.cc/virtual/2020/poster/6482",
+        "pdf_url": "http://proceedings.mlr.press/v119/nagel20a/nagel20a.pdf",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2020
+      },
+      {
+        "title": "PISA Experiments: Exploring Physics Post-Training for Video Diffusion Models by Watching Stuff Drop",
+        "url": "https://icml.cc/virtual/2025/poster/45288",
+        "pdf_url": "https://openreview.net/pdf?id=RFCp1QzzHQ",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers",
+        "url": "https://nips.cc/virtual/2022/poster/54407",
+        "pdf_url": "https://openreview.net/pdf?id=f-fVCElZ-G1",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2022
+      },
+      {
+        "title": "PTNQ: Post-Training Non-Linear Quantization",
+        "url": "https://openreview.net/forum?id=AEvu2ifH1r",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Post-Training Dialogue Summarization using Pseudo-Paraphrasing",
+        "url": "https://aclanthology.org/2022.findings-naacl.125/",
+        "pdf_url": "https://aclanthology.org/2022.findings-naacl.125.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2022
+      },
+      {
+        "title": "Post-Training Weighted Quantization of Neural Networks for Language Models",
+        "url": "https://openreview.net/forum?id=2Id6XxTjz7c",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2021
+      },
+      {
+        "title": "PV-Tuning: Beyond Straight-Through Estimation for Extreme LLM Compression",
+        "url": "https://neurips.cc/virtual/2024/poster/94666",
+        "pdf_url": "https://openreview.net/pdf?id=YvA8UF0I37",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "SSP: Self-Supervised Post-training for Conversational Search",
+        "url": "https://aclanthology.org/2023.findings-acl.837/",
+        "pdf_url": "https://aclanthology.org/2023.findings-acl.837.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Diffusion Adversarial Post-Training for One-Step Video Generation",
+        "url": "https://icml.cc/virtual/2025/poster/46184",
+        "pdf_url": "https://openreview.net/pdf?id=AAgzsnhc28",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Post-Training Quantization for Vision Transformer",
+        "url": "https://nips.cc/virtual/2021/poster/26230",
+        "pdf_url": "https://openreview.net/pdf?id=9TX5OsKJvm",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2021
+      },
+      {
+        "title": "Fast Post-training Analysis of NeRFs Using A Simple Visibility Prediction Network",
+        "url": "https://openreview.net/forum?id=bDZCBjVgKW",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Lattice Quantization",
+        "url": "https://openreview.net/forum?id=ZWjEkv9rjo",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2022
+      },
+      {
+        "title": "RL Tango: Reinforcing Generator and Verifier Together for Language Reasoning",
+        "url": "https://openreview.net/forum?id=JRkFZl0TJ2",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "BoA: Attention-aware Post-training Quantization without Backpropagation",
+        "url": "https://icml.cc/virtual/2025/poster/45092",
+        "pdf_url": "https://openreview.net/pdf?id=Uvj6XcSJ5d",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Maximum Margin Based Activation Clipping for Post-Training Overfitting Mitigation in DNN Classifiers",
+        "url": "https://openreview.net/forum?id=BjjG2fH09N",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "BRiTE: Bootstrapping Reinforced Thinking Process to Enhance Language Model Reasoning",
+        "url": "https://icml.cc/virtual/2025/poster/45505",
+        "pdf_url": "https://openreview.net/pdf?id=NME3HKUHLX",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Spend Wisely: Maximizing Post-Training Gains in Iterative Synthetic Data Bootstrapping",
+        "url": "https://openreview.net/forum?id=aqpHTPC63N",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Dialog-Post: Multi-Level Self-Supervised Objectives and Hierarchical Model for Dialogue Post-Training",
+        "url": "https://aclanthology.org/2023.acl-long.564/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.564.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Can LLM Graph Reasoning Generalize beyond Pattern Memorization?",
+        "url": "https://aclanthology.org/2024.findings-emnlp.127/",
+        "pdf_url": "https://aclanthology.org/2024.findings-emnlp.127.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "RoLoRA: Fine-tuning Rotated Outlier-free LLMs for Effective Weight-Activation Quantization",
+        "url": "https://aclanthology.org/2024.findings-emnlp.444/",
+        "pdf_url": "https://aclanthology.org/2024.findings-emnlp.444.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement",
+        "url": "https://aclanthology.org/2025.acl-long.1091/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1091.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "PTQ1.61: Push the Real Limit of Extremely Low-Bit Post-Training Quantization Methods for Large Language Models",
+        "url": "https://aclanthology.org/2025.acl-long.225/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.225.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "MAPoRL: Multi-Agent Post-Co-Training for Collaborative Large Language Models with Reinforcement Learning",
+        "url": "https://aclanthology.org/2025.acl-long.1459/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1459.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Genius: A Generalizable and Purely Unsupervised Self-Training Framework For Advanced Reasoning",
+        "url": "https://aclanthology.org/2025.acl-long.644/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.644.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Dial-MAE: ConTextual Masked Auto-Encoder for Retrieval-based Dialogue Systems",
+        "url": "https://aclanthology.org/2024.naacl-long.47/",
+        "pdf_url": "https://aclanthology.org/2024.naacl-long.47.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2024
+      },
+      {
+        "title": "Re3Syn: A Dependency-Based Data Synthesis Framework for Long-Context Post-training",
+        "url": "https://aclanthology.org/2025.acl-long.1518/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1518.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "AceMath: Advancing Frontier Math Reasoning with Post-Training and Reward Modeling",
+        "url": "https://aclanthology.org/2025.findings-acl.206/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.206.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Q-Mamba: Towards more efficient Mamba models via post-training quantization",
+        "url": "https://aclanthology.org/2025.findings-acl.551/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.551.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Enhancing Computation Efficiency in Large Language Models through Weight and Activation Quantization",
+        "url": "https://openreview.net/forum?id=4Ggw1DsgRQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "Pre-training Distillation for Large Language Models: A Design Space Exploration",
+        "url": "https://aclanthology.org/2025.acl-long.181/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.181.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Tiny-NewsRec: Effective and Efficient PLM-based News Recommendation",
+        "url": "https://aclanthology.org/2022.emnlp-main.368/",
+        "pdf_url": "https://aclanthology.org/2022.emnlp-main.368.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2022
+      },
+      {
+        "title": "Bypass Back-propagation: Optimization-based Structural Pruning for Large Language Models via Policy Gradient",
+        "url": "https://aclanthology.org/2025.acl-long.1421/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1421.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "LLM-QAT: Data-Free Quantization Aware Training for Large Language Models",
+        "url": "https://aclanthology.org/2024.findings-acl.26/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.26.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Rethinking Token Reduction for State Space Models",
+        "url": "https://aclanthology.org/2024.emnlp-main.100/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.100.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "One fish, two fish, but not the whole sea: Alignment reduces language models’ conceptual diversity",
+        "url": "https://aclanthology.org/2025.naacl-long.561/",
+        "pdf_url": "https://aclanthology.org/2025.naacl-long.561.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2025
+      },
+      {
+        "title": "OptiPrune: Effective Pruning Approach for Every Target Sparsity",
+        "url": "https://aclanthology.org/2025.coling-main.243/",
+        "pdf_url": "https://aclanthology.org/2025.coling-main.243.pdf",
+        "doi_url": null,
+        "source": "offline_coling",
+        "year": 2025
+      },
+      {
+        "title": "Marco-o1 v2: Towards Widening The Distillation Bottleneck for Reasoning Models",
+        "url": "https://aclanthology.org/2025.acl-long.1145/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1145.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "DavIR: Data Selection via Implicit Reward for Large Language Models",
+        "url": "https://aclanthology.org/2025.acl-long.452/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.452.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "RQT: Hierarchical Residual Quantization for Multi-Model Compression",
+        "url": "https://aclanthology.org/2025.findings-acl.554/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.554.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Large Language and Reasoning Models are Shallow Disjunctive Reasoners",
+        "url": "https://aclanthology.org/2025.acl-long.433/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.433.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Understanding and Overcoming the Challenges of Efficient Transformer Quantization",
+        "url": "https://aclanthology.org/2021.emnlp-main.627/",
+        "pdf_url": "https://aclanthology.org/2021.emnlp-main.627.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2021
+      },
+      {
+        "title": "Attend, Select and Eliminate: Accelerating Multi-turn Response Selection with Dual-attention-based Content Elimination",
+        "url": "https://aclanthology.org/2023.findings-acl.422/",
+        "pdf_url": "https://aclanthology.org/2023.findings-acl.422.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Continual Quantization-Aware Pre-Training: When to transition from 16-bit to 1.58-bit pre-training for BitNet language models?",
+        "url": "https://aclanthology.org/2025.findings-acl.694/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.694.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "LLM-FP4: 4-Bit Floating-Point Quantized Transformers",
+        "url": "https://openreview.net/forum?id=wiI8ycNfgJ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "What Happened in LLMs Layers when Trained for Fast vs. Slow Thinking: A Gradient Perspective",
+        "url": "https://aclanthology.org/2025.acl-long.1545/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1545.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "offline_iclr": [
+        {
+          "title": "Mitigating Forgetting in LLM Supervised Fine-Tuning and Preference Learning",
+          "url": "https://openreview.net/forum?id=YeErX16hMC",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Revisiting Parameter Server in LLM Post-Training",
+          "url": "https://openreview.net/forum?id=iIEEgI6WsF",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Generalizable LLM Learning of Graph Synthetic Data with Post-training Alignment",
+          "url": "https://openreview.net/forum?id=0kiFgLo5al",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "RiskPO: Risk-based Policy Optimization with Verifiable Reward for LLM Post-Training",
+          "url": "https://openreview.net/forum?id=KjHB7rebQO",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression",
+          "url": "https://iclr.cc/virtual/2025/poster/30003",
+          "pdf_url": "https://openreview.net/pdf?id=LNYIUouhdt",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "TesseraQ: Ultra Low-Bit LLM Post-Training Quantization with Block Reconstruction",
+          "url": "https://openreview.net/forum?id=GTe9PDhm8v",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Tuning without Peeking: Provable Privacy and Generalization Bounds for LLM Post-Training",
+          "url": "https://openreview.net/forum?id=ZEuQ4Mm1bh",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Value Drifts: Tracing Value Alignment During LLM Post-Training",
+          "url": "https://openreview.net/forum?id=0Z9DZtIZI7",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Improve LLM Pre-training with RL-Guided Annealing",
+          "url": "https://openreview.net/forum?id=Ir78DvyQA1",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "OPTIMA: Optimal One-shot Pruning for LLMs via Quadratic Programming Reconstruction",
+          "url": "https://openreview.net/forum?id=Gmq7rQllpD",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Bridging the Preference Gap: Post-Training Input Rewriting with Large Language Models",
+          "url": "https://openreview.net/forum?id=J04D9xBUCi",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Prompt Curriculum Learning for Efficient LLM Post-Training",
+          "url": "https://openreview.net/forum?id=zqOCacBD3P",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "BCQ: Block Clustered Quantization for 4-bit (W4A4) LLM inference",
+          "url": "https://openreview.net/forum?id=UKjAwMzX4m",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Expert-Integrated Active Learning for Optimizing LLM Agents",
+          "url": "https://openreview.net/forum?id=yOTm8Z9QVi",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Adaptive Layer-Wise Transformations for Post-Training Quantization of Large Language Models",
+          "url": "https://openreview.net/forum?id=ncKJ7n9RaG",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Strategic Generalization Without Interaction: Can Post-Training Alone Induce Multi-Agent Behavior?",
+          "url": "https://openreview.net/forum?id=HODPRXYGKw",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Style Outweighs Substance: Failure Modes of LLM Judges in Alignment Benchmarking",
+          "url": "https://iclr.cc/virtual/2025/poster/29906",
+          "pdf_url": "https://openreview.net/pdf?id=MzHNftnAM1",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Can LLMs Serve as Causal Inference Agents? A Study on Post-Training Methods",
+          "url": "https://openreview.net/forum?id=HHQjNDiWoR",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Spinning Straw into Gold: Relabeling LLM Agent Trajectories in Hindsight for Successful Demonstrations",
+          "url": "https://openreview.net/forum?id=QNfmqMSR7r",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "EfficientLLM: Unified Pruning-Aware Pretraining for Auto-Designed Edge Language Models",
+          "url": "https://openreview.net/forum?id=zbNWwHLJFw",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Expanding the Web, Smaller Is Better: A Comprehensive Study in Post-training",
+          "url": "https://openreview.net/forum?id=EVa5OIYBoG",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "SINQ: Sinkhorn-Normalized Quantization for Calibration-Free Low-Precision LLM Weights",
+          "url": "https://openreview.net/forum?id=5F2XfLe7An",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "What Is The Political Content in LLMs' Pre- and Post-Training Data?",
+          "url": "https://openreview.net/forum?id=8dzy2MSPCR",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "CrossQuant: A Post-Training Quantization Method with Smaller Quantization Kernel for Precise Large Lanugage Model Compression",
+          "url": "https://openreview.net/forum?id=igiQUYs53F",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "LiNeS: Post-training Layer Scaling Prevents Forgetting and Enhances Model Merging",
+          "url": "https://iclr.cc/virtual/2025/poster/30130",
+          "pdf_url": "https://openreview.net/pdf?id=J5sUOvlLbQ",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training",
+          "url": "https://openreview.net/forum?id=pBjy4ek2QV",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "HyperDPO: Hypernetwork-based Multi-Objective Fine-Tuning Framework",
+          "url": "https://openreview.net/forum?id=qBKA2844I4",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Sample-efficient LLM Optimization with Reset Replay",
+          "url": "https://openreview.net/forum?id=0SSKmVjj8O",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Unlocking the Pre-Trained Model as a Dual-Alignment Calibrator for Post-Trained LLMs",
+          "url": "https://openreview.net/forum?id=VXGmJ3qYZR",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "PIKA: Expert-Level Synthetic Datasets for Post-Training Alignment from Scratch",
+          "url": "https://openreview.net/forum?id=cGv4z4eaNr",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Detecting Data Contamination from Reinforcement Learning Post-training for Large Language Models",
+          "url": "https://openreview.net/forum?id=EjiJmiA6ea",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "The Geometry of LLM Quantization: GPTQ as Babai's Nearest Plane Algorithm",
+          "url": "https://openreview.net/forum?id=NFB4QGGS65",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Towards a Theoretical Understanding of Synthetic Data in LLM Post-Training: A Reverse-Bottleneck Perspective",
+          "url": "https://iclr.cc/virtual/2025/poster/29438",
+          "pdf_url": "https://openreview.net/pdf?id=UxkznlcnHf",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Rethinking Output Alignment for 1-bit Post-Training Quantization of Large Language Models",
+          "url": "https://openreview.net/forum?id=abgW71sKIt",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Beyond Fixed Budgets: Dynamic Reasoning Efficiency Reward for Large Language Model",
+          "url": "https://openreview.net/forum?id=PYlbrgaJKp",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "PTQTP: Post-Training Quantization to Trit-Planes for Large Language Models",
+          "url": "https://openreview.net/forum?id=0mqsIlMtfm",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Plug-and-Play: An Efficient Post-training Pruning Method for Large Language Models",
+          "url": "https://iclr.cc/virtual/2024/poster/18549",
+          "pdf_url": "https://openreview.net/pdf?id=Tr0lPx9woF",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Surprising Effectiveness of pretraining Ternary Language Model at Scale",
+          "url": "https://iclr.cc/virtual/2025/poster/29550",
+          "pdf_url": "https://openreview.net/pdf?id=TJo6aQb7mK",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "SPA: Enhancing 3D Multimodal LLMs with Mask-based Streamlining Preference Alignment",
+          "url": "https://openreview.net/forum?id=j80J5cyyqP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Pixel-Space Post-Training of Latent-Diffusion Models",
+          "url": "https://openreview.net/forum?id=F7yPR6XhFR",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Hardware-Friendly Post-Training Quantization: Input- and Output-Channelwise Scale and Offset",
+          "url": "https://openreview.net/forum?id=itJj6p7ssr",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "SPARQ: Outlier-free SpeechLM with Fast Adaptation and Robust Quantization",
+          "url": "https://openreview.net/forum?id=Z2uhdwOrn0",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Contrastive Post-training Large Language Models on Data Curriculum",
+          "url": "https://openreview.net/forum?id=mmSmQ0gNyZ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Direct Post-Training Preference Alignment for Multi-Agent Motion Generation Model Using Implicit Feedback from Pre-training Demonstrations",
+          "url": "https://iclr.cc/virtual/2025/poster/30765",
+          "pdf_url": "https://openreview.net/pdf?id=8UFG9D8xeU",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Progress or Regress? Self-Improvement Reversal in Post-training",
+          "url": "https://iclr.cc/virtual/2025/poster/29657",
+          "pdf_url": "https://openreview.net/pdf?id=RFqeoVfLHa",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Attention-aware Post-training Quantization without Backpropagation",
+          "url": "https://openreview.net/forum?id=0L8wZ9WRah",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "PTNQ: Post-Training Non-Linear Quantization",
+          "url": "https://openreview.net/forum?id=AEvu2ifH1r",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Post-Training Weighted Quantization of Neural Networks for Language Models",
+          "url": "https://openreview.net/forum?id=2Id6XxTjz7c",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2021
+        },
+        {
+          "title": "Fast Post-training Analysis of NeRFs Using A Simple Visibility Prediction Network",
+          "url": "https://openreview.net/forum?id=bDZCBjVgKW",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Lattice Quantization",
+          "url": "https://openreview.net/forum?id=ZWjEkv9rjo",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2022
+        },
+        {
+          "title": "Maximum Margin Based Activation Clipping for Post-Training Overfitting Mitigation in DNN Classifiers",
+          "url": "https://openreview.net/forum?id=BjjG2fH09N",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        }
+      ],
+      "offline_acl": [
+        {
+          "title": "A Survey on Efficient Large Language Model Training: From Data-centric Perspectives",
+          "url": "https://aclanthology.org/2025.acl-long.1493/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1493.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "On the Impact of Calibration Data in Post-training Quantization and Pruning",
+          "url": "https://aclanthology.org/2024.acl-long.544/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.544.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Achieving binary weight and activation for LLMs using Post-Training Quantization",
+          "url": "https://aclanthology.org/2025.findings-acl.459/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.459.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "LRQuant: Learnable and Robust Post-Training Quantization for Large Language Models",
+          "url": "https://aclanthology.org/2024.acl-long.122/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.122.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "P2 Law: Scaling Law for Post-Training After Model Pruning",
+          "url": "https://aclanthology.org/2025.acl-long.283/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.283.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Cuckoo: An IE Free Rider Hatched by Massive Nutrition in LLM’s Nest",
+          "url": "https://aclanthology.org/2025.acl-long.66/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.66.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "A Survey of Post-Training Scaling in Large Language Models",
+          "url": "https://aclanthology.org/2025.acl-long.140/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.140.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Gradient Ascent Post-training Enhances Language Model Generalization",
+          "url": "https://aclanthology.org/2023.acl-short.74/",
+          "pdf_url": "https://aclanthology.org/2023.acl-short.74.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "JARVIS-VLA: Post-Training Large-Scale Vision Language Models to Play Visual Games with Keyboards and Mouse",
+          "url": "https://aclanthology.org/2025.findings-acl.920/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.920.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Asymmetric Conflict and Synergy in Post-training for LLM-based Multilingual Machine Translation",
+          "url": "https://aclanthology.org/2025.findings-acl.944/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.944.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "AL-QASIDA: Analyzing LLM Quality and Accuracy Systematically in Dialectal Arabic",
+          "url": "https://aclanthology.org/2025.findings-acl.1137/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.1137.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Synthesizing Post-Training Data for LLMs through Multi-Agent Simulation",
+          "url": "https://aclanthology.org/2025.acl-long.1136/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1136.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "SSP: Self-Supervised Post-training for Conversational Search",
+          "url": "https://aclanthology.org/2023.findings-acl.837/",
+          "pdf_url": "https://aclanthology.org/2023.findings-acl.837.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Dialog-Post: Multi-Level Self-Supervised Objectives and Hierarchical Model for Dialogue Post-Training",
+          "url": "https://aclanthology.org/2023.acl-long.564/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.564.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement",
+          "url": "https://aclanthology.org/2025.acl-long.1091/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1091.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "PTQ1.61: Push the Real Limit of Extremely Low-Bit Post-Training Quantization Methods for Large Language Models",
+          "url": "https://aclanthology.org/2025.acl-long.225/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.225.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "MAPoRL: Multi-Agent Post-Co-Training for Collaborative Large Language Models with Reinforcement Learning",
+          "url": "https://aclanthology.org/2025.acl-long.1459/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1459.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Genius: A Generalizable and Purely Unsupervised Self-Training Framework For Advanced Reasoning",
+          "url": "https://aclanthology.org/2025.acl-long.644/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.644.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Re3Syn: A Dependency-Based Data Synthesis Framework for Long-Context Post-training",
+          "url": "https://aclanthology.org/2025.acl-long.1518/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1518.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "AceMath: Advancing Frontier Math Reasoning with Post-Training and Reward Modeling",
+          "url": "https://aclanthology.org/2025.findings-acl.206/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.206.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Q-Mamba: Towards more efficient Mamba models via post-training quantization",
+          "url": "https://aclanthology.org/2025.findings-acl.551/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.551.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Pre-training Distillation for Large Language Models: A Design Space Exploration",
+          "url": "https://aclanthology.org/2025.acl-long.181/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.181.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Bypass Back-propagation: Optimization-based Structural Pruning for Large Language Models via Policy Gradient",
+          "url": "https://aclanthology.org/2025.acl-long.1421/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1421.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "LLM-QAT: Data-Free Quantization Aware Training for Large Language Models",
+          "url": "https://aclanthology.org/2024.findings-acl.26/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.26.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Marco-o1 v2: Towards Widening The Distillation Bottleneck for Reasoning Models",
+          "url": "https://aclanthology.org/2025.acl-long.1145/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1145.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "DavIR: Data Selection via Implicit Reward for Large Language Models",
+          "url": "https://aclanthology.org/2025.acl-long.452/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.452.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "RQT: Hierarchical Residual Quantization for Multi-Model Compression",
+          "url": "https://aclanthology.org/2025.findings-acl.554/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.554.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Large Language and Reasoning Models are Shallow Disjunctive Reasoners",
+          "url": "https://aclanthology.org/2025.acl-long.433/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.433.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Attend, Select and Eliminate: Accelerating Multi-turn Response Selection with Dual-attention-based Content Elimination",
+          "url": "https://aclanthology.org/2023.findings-acl.422/",
+          "pdf_url": "https://aclanthology.org/2023.findings-acl.422.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Continual Quantization-Aware Pre-Training: When to transition from 16-bit to 1.58-bit pre-training for BitNet language models?",
+          "url": "https://aclanthology.org/2025.findings-acl.694/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.694.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "What Happened in LLMs Layers when Trained for Fast vs. Slow Thinking: A Gradient Perspective",
+          "url": "https://aclanthology.org/2025.acl-long.1545/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1545.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "$Q\\sharp$: Provably Optimal Distributional RL for LLM Post-Training",
+          "url": "https://openreview.net/forum?id=1J1Kju4rto",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "BiLLM: Pushing the Limit of Post-Training Quantization for LLMs",
+          "url": "https://icml.cc/virtual/2024/poster/32992",
+          "pdf_url": "https://openreview.net/pdf?id=qOl2WWOqFg",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        },
+        {
+          "title": "WildChat-50M: A Deep Dive Into the Role of Synthetic Data in Post-Training",
+          "url": "https://icml.cc/virtual/2025/poster/44492",
+          "pdf_url": "https://openreview.net/pdf?id=fzmtDDOcJ3",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models",
+          "url": "https://icml.cc/virtual/2023/poster/25228",
+          "pdf_url": "https://openreview.net/pdf?id=sHfSV8eYEp",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2023
+        },
+        {
+          "title": "SPP: Sparsity-Preserved Parameter-Efficient Fine-Tuning for Large Language Models",
+          "url": "https://icml.cc/virtual/2024/poster/34806",
+          "pdf_url": "https://openreview.net/pdf?id=9Rroj9GIOQ",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        },
+        {
+          "title": "RoSTE: An Efficient Quantization-Aware Supervised Fine-Tuning Approach for Large Language Models",
+          "url": "https://icml.cc/virtual/2025/poster/44438",
+          "pdf_url": "https://openreview.net/pdf?id=h30EzoI3s0",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Merge-Friendly Post-Training Quantization for Multi-Target Domain Adaptation",
+          "url": "https://icml.cc/virtual/2025/poster/44814",
+          "pdf_url": "https://openreview.net/pdf?id=aCBd1FeE5Z",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Towards Accurate Post-training Network Quantization via Bit-Split and Stitching",
+          "url": "https://icml.cc/virtual/2020/poster/5787",
+          "pdf_url": "http://proceedings.mlr.press/v119/wang20c/wang20c.pdf",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2020
+        },
+        {
+          "title": "Satori: Reinforcement Learning with Chain-of-Action-Thought Enhances LLM Reasoning via Autoregressive Search",
+          "url": "https://icml.cc/virtual/2025/poster/44324",
+          "pdf_url": "https://openreview.net/pdf?id=j4FXxMiDjL",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "QuIP$\\#$: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks",
+          "url": "https://icml.cc/virtual/2024/poster/34816",
+          "pdf_url": "https://openreview.net/pdf?id=9BrydUVcoe",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        },
+        {
+          "title": "Can Compressed LLMs Truly Act? An Empirical Evaluation of Agentic Capabilities in LLM Compression",
+          "url": "https://icml.cc/virtual/2025/poster/43871",
+          "pdf_url": "https://openreview.net/pdf?id=rkwXYSDKso",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Outlier-Aware Post-Training Quantization for Discrete Graph Diffusion Models",
+          "url": "https://icml.cc/virtual/2025/poster/43639",
+          "pdf_url": "https://openreview.net/pdf?id=w5fONAEwra",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Up or Down? Adaptive Rounding for Post-Training Quantization",
+          "url": "https://icml.cc/virtual/2020/poster/6482",
+          "pdf_url": "http://proceedings.mlr.press/v119/nagel20a/nagel20a.pdf",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2020
+        },
+        {
+          "title": "PISA Experiments: Exploring Physics Post-Training for Video Diffusion Models by Watching Stuff Drop",
+          "url": "https://icml.cc/virtual/2025/poster/45288",
+          "pdf_url": "https://openreview.net/pdf?id=RFCp1QzzHQ",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Diffusion Adversarial Post-Training for One-Step Video Generation",
+          "url": "https://icml.cc/virtual/2025/poster/46184",
+          "pdf_url": "https://openreview.net/pdf?id=AAgzsnhc28",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "BoA: Attention-aware Post-training Quantization without Backpropagation",
+          "url": "https://icml.cc/virtual/2025/poster/45092",
+          "pdf_url": "https://openreview.net/pdf?id=Uvj6XcSJ5d",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "BRiTE: Bootstrapping Reinforced Thinking Process to Enhance Language Model Reasoning",
+          "url": "https://icml.cc/virtual/2025/poster/45505",
+          "pdf_url": "https://openreview.net/pdf?id=NME3HKUHLX",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "First SFT, Second RL, Third UPT: Continual Improving Multi-Modal LLM Reasoning via Unsupervised Post-Training",
+          "url": "https://openreview.net/forum?id=HL1j92hb6z",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Trajectory Balance with Asynchrony: Decoupling Exploration and Learning for Fast, Scalable LLM Post-Training",
+          "url": "https://openreview.net/forum?id=VwPt1WDQNB",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Fixing It in Post: A Comparative Study of LLM Post-Training Data Quality and Model Performance",
+          "url": "https://openreview.net/forum?id=1ybOI1VvQL",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Finding and Reactivating Post-Trained LLMs' Hidden Safety Mechanisms",
+          "url": "https://openreview.net/forum?id=pcG6NRJKu7",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Learning Grouped Lattice Vector Quantizers for Low-Bit LLM Compression",
+          "url": "https://openreview.net/forum?id=Ynwl0V1YH0",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "GVPO: Group Variance Policy Optimization for Large Language Model Post-Training",
+          "url": "https://openreview.net/forum?id=cCYUFaR6En",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Preserving LLM Capabilities through Calibration Data Curation: From Analysis to Optimization",
+          "url": "https://openreview.net/forum?id=Tf9eoTIIjh",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "S$^{2}$FT: Efficient, Scalable and Generalizable LLM Fine-tuning by Structured Sparsity",
+          "url": "https://neurips.cc/virtual/2024/poster/93843",
+          "pdf_url": "https://openreview.net/pdf?id=lEUle8S4xQ",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Trajectory Bellman Residual Minimization: A Simple Value-Based Method for LLM Reasoning",
+          "url": "https://openreview.net/forum?id=7Eh2SK6Mo7",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "BLoB: Bayesian Low-Rank Adaptation by Backpropagation for Large Language Models",
+          "url": "https://neurips.cc/virtual/2024/poster/95507",
+          "pdf_url": "https://openreview.net/pdf?id=MaDykgj4Ru",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "ShiftAddLLM: Accelerating Pretrained LLMs via Post-Training Multiplication-Less Reparameterization",
+          "url": "https://neurips.cc/virtual/2024/poster/95715",
+          "pdf_url": "https://openreview.net/pdf?id=JNl6h3U3oW",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Quadratic Coreset Selection: Certifying and Reconciling Sequence and Token Mining for Efficient Instruction Tuning",
+          "url": "https://openreview.net/forum?id=btZm6DUaDO",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Towards Efficient Post-training Quantization of Pre-trained Language Models",
+          "url": "https://nips.cc/virtual/2022/poster/53407",
+          "pdf_url": "https://openreview.net/pdf?id=tvDRmAxGIjw",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2022
+        },
+        {
+          "title": "MagR: Weight Magnitude Reduction for Enhancing Post-Training Quantization",
+          "url": "https://neurips.cc/virtual/2024/poster/94986",
+          "pdf_url": "https://openreview.net/pdf?id=UARTFgkTqW",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Q-VLM: Post-training Quantization for Large Vision-Language Models",
+          "url": "https://neurips.cc/virtual/2024/poster/94107",
+          "pdf_url": "https://openreview.net/pdf?id=gxMfNArldP",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Steering Information Utility in Key-Value Memory for Language Model Post-Training",
+          "url": "https://openreview.net/forum?id=3rRzYrpO70",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Time-R1: Post-Training Large Vision Language Model for Temporal Video Grounding",
+          "url": "https://openreview.net/forum?id=gJ05Gm5VxQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Eliciting Reasoning in Language Models with Cognitive Tools",
+          "url": "https://openreview.net/forum?id=6H4tDTHalg",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Compressing Large Language Models using Low Rank and Low Precision Decomposition",
+          "url": "https://neurips.cc/virtual/2024/poster/93805",
+          "pdf_url": "https://openreview.net/pdf?id=lkx3OpcqSZ",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning",
+          "url": "https://nips.cc/virtual/2022/poster/53412",
+          "pdf_url": "https://openreview.net/pdf?id=ksVGCOlOEba",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2022
+        },
+        {
+          "title": "Q-Palette: Fractional-Bit Quantizers Toward Optimal Bit Allocation for Efficient LLM Deployment",
+          "url": "https://openreview.net/forum?id=l4F50jpiVH",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Quantization Error Propagation: Revisiting Layer-Wise Post-Training Quantization",
+          "url": "https://openreview.net/forum?id=a3l3K9khbL",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Adaptive Fission: Post-training Encoding for Low-latency Spike Neural Networks",
+          "url": "https://openreview.net/forum?id=2zZzdAMyYi",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers",
+          "url": "https://nips.cc/virtual/2022/poster/54407",
+          "pdf_url": "https://openreview.net/pdf?id=f-fVCElZ-G1",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2022
+        },
+        {
+          "title": "PV-Tuning: Beyond Straight-Through Estimation for Extreme LLM Compression",
+          "url": "https://neurips.cc/virtual/2024/poster/94666",
+          "pdf_url": "https://openreview.net/pdf?id=YvA8UF0I37",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Post-Training Quantization for Vision Transformer",
+          "url": "https://nips.cc/virtual/2021/poster/26230",
+          "pdf_url": "https://openreview.net/pdf?id=9TX5OsKJvm",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2021
+        },
+        {
+          "title": "RL Tango: Reinforcing Generator and Verifier Together for Language Reasoning",
+          "url": "https://openreview.net/forum?id=JRkFZl0TJ2",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Spend Wisely: Maximizing Post-Training Gains in Iterative Synthetic Data Bootstrapping",
+          "url": "https://openreview.net/forum?id=aqpHTPC63N",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        }
+      ],
+      "offline_naacl": [
+        {
+          "title": "LRQ: Optimizing Post-Training Quantization for Large Language Models by Learning Low-Rank Weight-Scaling Matrices",
+          "url": "https://aclanthology.org/2025.naacl-long.393/",
+          "pdf_url": "https://aclanthology.org/2025.naacl-long.393.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2025
+        },
+        {
+          "title": "Fine-grained Post-training for Improving Retrieval-based Dialogue Systems",
+          "url": "https://aclanthology.org/2021.naacl-main.122/",
+          "pdf_url": "https://aclanthology.org/2021.naacl-main.122.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2021
+        },
+        {
+          "title": "Transferable Post-training via Inverse Value Learning",
+          "url": "https://aclanthology.org/2025.naacl-long.227/",
+          "pdf_url": "https://aclanthology.org/2025.naacl-long.227.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2025
+        },
+        {
+          "title": "Can Post-Training Quantization Benefit from an Additional QLoRA Integration?",
+          "url": "https://aclanthology.org/2025.naacl-industry.41/",
+          "pdf_url": "https://aclanthology.org/2025.naacl-industry.41.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2025
+        },
+        {
+          "title": "Automatic Pair Construction for Contrastive Post-training",
+          "url": "https://aclanthology.org/2024.findings-naacl.11/",
+          "pdf_url": "https://aclanthology.org/2024.findings-naacl.11.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2024
+        },
+        {
+          "title": "Post-Training Dialogue Summarization using Pseudo-Paraphrasing",
+          "url": "https://aclanthology.org/2022.findings-naacl.125/",
+          "pdf_url": "https://aclanthology.org/2022.findings-naacl.125.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2022
+        },
+        {
+          "title": "Dial-MAE: ConTextual Masked Auto-Encoder for Retrieval-based Dialogue Systems",
+          "url": "https://aclanthology.org/2024.naacl-long.47/",
+          "pdf_url": "https://aclanthology.org/2024.naacl-long.47.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2024
+        },
+        {
+          "title": "One fish, two fish, but not the whole sea: Alignment reduces language models’ conceptual diversity",
+          "url": "https://aclanthology.org/2025.naacl-long.561/",
+          "pdf_url": "https://aclanthology.org/2025.naacl-long.561.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2025
+        }
+      ],
+      "offline_emnlp": [
+        {
+          "title": "Pruning Foundation Models for High Accuracy without Retraining",
+          "url": "https://aclanthology.org/2024.findings-emnlp.566/",
+          "pdf_url": "https://aclanthology.org/2024.findings-emnlp.566.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "VPTQ: Extreme Low-bit Vector Post-Training Quantization for Large Language Models",
+          "url": "https://aclanthology.org/2024.emnlp-main.467/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.467.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "A Frustratingly Easy Post-Training Quantization Scheme for LLMs",
+          "url": "https://openreview.net/forum?id=5PvFFNRTbp",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        },
+        {
+          "title": "Can LLM Graph Reasoning Generalize beyond Pattern Memorization?",
+          "url": "https://aclanthology.org/2024.findings-emnlp.127/",
+          "pdf_url": "https://aclanthology.org/2024.findings-emnlp.127.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "RoLoRA: Fine-tuning Rotated Outlier-free LLMs for Effective Weight-Activation Quantization",
+          "url": "https://aclanthology.org/2024.findings-emnlp.444/",
+          "pdf_url": "https://aclanthology.org/2024.findings-emnlp.444.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Enhancing Computation Efficiency in Large Language Models through Weight and Activation Quantization",
+          "url": "https://openreview.net/forum?id=4Ggw1DsgRQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        },
+        {
+          "title": "Tiny-NewsRec: Effective and Efficient PLM-based News Recommendation",
+          "url": "https://aclanthology.org/2022.emnlp-main.368/",
+          "pdf_url": "https://aclanthology.org/2022.emnlp-main.368.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2022
+        },
+        {
+          "title": "Rethinking Token Reduction for State Space Models",
+          "url": "https://aclanthology.org/2024.emnlp-main.100/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.100.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Understanding and Overcoming the Challenges of Efficient Transformer Quantization",
+          "url": "https://aclanthology.org/2021.emnlp-main.627/",
+          "pdf_url": "https://aclanthology.org/2021.emnlp-main.627.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2021
+        },
+        {
+          "title": "LLM-FP4: 4-Bit Floating-Point Quantized Transformers",
+          "url": "https://openreview.net/forum?id=wiI8ycNfgJ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        }
+      ],
+      "offline_coling": [
+        {
+          "title": "OptiPrune: Effective Pruning Approach for Every Target Sparsity",
+          "url": "https://aclanthology.org/2025.coling-main.243/",
+          "pdf_url": "https://aclanthology.org/2025.coling-main.243.pdf",
+          "doi_url": null,
+          "source": "offline_coling",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "A Survey on Efficient Large Language Model Training: From Data-centric Perspectives",
+        "pdf": "https://aclanthology.org/2025.acl-long.1493.pdf"
+      },
+      {
+        "title": "BiLLM: Pushing the Limit of Post-Training Quantization for LLMs",
+        "pdf": "https://openreview.net/pdf?id=qOl2WWOqFg"
+      },
+      {
+        "title": "SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression",
+        "pdf": "https://openreview.net/pdf?id=LNYIUouhdt"
+      },
+      {
+        "title": "On the Impact of Calibration Data in Post-training Quantization and Pruning",
+        "pdf": "https://aclanthology.org/2024.acl-long.544.pdf"
+      },
+      {
+        "title": "Achieving binary weight and activation for LLMs using Post-Training Quantization",
+        "pdf": "https://aclanthology.org/2025.findings-acl.459.pdf"
+      },
+      {
+        "title": "WildChat-50M: A Deep Dive Into the Role of Synthetic Data in Post-Training",
+        "pdf": "https://openreview.net/pdf?id=fzmtDDOcJ3"
+      },
+      {
+        "title": "LRQ: Optimizing Post-Training Quantization for Large Language Models by Learning Low-Rank Weight-Scaling Matrices",
+        "pdf": "https://aclanthology.org/2025.naacl-long.393.pdf"
+      },
+      {
+        "title": "LRQuant: Learnable and Robust Post-Training Quantization for Large Language Models",
+        "pdf": "https://aclanthology.org/2024.acl-long.122.pdf"
+      },
+      {
+        "title": "Style Outweighs Substance: Failure Modes of LLM Judges in Alignment Benchmarking",
+        "pdf": "https://openreview.net/pdf?id=MzHNftnAM1"
+      },
+      {
+        "title": "Pruning Foundation Models for High Accuracy without Retraining",
+        "pdf": "https://aclanthology.org/2024.findings-emnlp.566.pdf"
+      },
+      {
+        "title": "P2 Law: Scaling Law for Post-Training After Model Pruning",
+        "pdf": "https://aclanthology.org/2025.acl-long.283.pdf"
+      },
+      {
+        "title": "VPTQ: Extreme Low-bit Vector Post-Training Quantization for Large Language Models",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.467.pdf"
+      },
+      {
+        "title": "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models",
+        "pdf": "https://openreview.net/pdf?id=sHfSV8eYEp"
+      },
+      {
+        "title": "Cuckoo: An IE Free Rider Hatched by Massive Nutrition in LLM’s Nest",
+        "pdf": "https://aclanthology.org/2025.acl-long.66.pdf"
+      },
+      {
+        "title": "S$^{2}$FT: Efficient, Scalable and Generalizable LLM Fine-tuning by Structured Sparsity",
+        "pdf": "https://openreview.net/pdf?id=lEUle8S4xQ"
+      },
+      {
+        "title": "LiNeS: Post-training Layer Scaling Prevents Forgetting and Enhances Model Merging",
+        "pdf": "https://openreview.net/pdf?id=J5sUOvlLbQ"
+      },
+      {
+        "title": "SPP: Sparsity-Preserved Parameter-Efficient Fine-Tuning for Large Language Models",
+        "pdf": "https://openreview.net/pdf?id=9Rroj9GIOQ"
+      },
+      {
+        "title": "Towards a Theoretical Understanding of Synthetic Data in LLM Post-Training: A Reverse-Bottleneck Perspective",
+        "pdf": "https://openreview.net/pdf?id=UxkznlcnHf"
+      },
+      {
+        "title": "BLoB: Bayesian Low-Rank Adaptation by Backpropagation for Large Language Models",
+        "pdf": "https://openreview.net/pdf?id=MaDykgj4Ru"
+      },
+      {
+        "title": "ShiftAddLLM: Accelerating Pretrained LLMs via Post-Training Multiplication-Less Reparameterization",
+        "pdf": "https://openreview.net/pdf?id=JNl6h3U3oW"
+      },
+      {
+        "title": "A Survey of Post-Training Scaling in Large Language Models",
+        "pdf": "https://aclanthology.org/2025.acl-long.140.pdf"
+      },
+      {
+        "title": "Plug-and-Play: An Efficient Post-training Pruning Method for Large Language Models",
+        "pdf": "https://openreview.net/pdf?id=Tr0lPx9woF"
+      },
+      {
+        "title": "RoSTE: An Efficient Quantization-Aware Supervised Fine-Tuning Approach for Large Language Models",
+        "pdf": "https://openreview.net/pdf?id=h30EzoI3s0"
+      },
+      {
+        "title": "Surprising Effectiveness of pretraining Ternary Language Model at Scale",
+        "pdf": "https://openreview.net/pdf?id=TJo6aQb7mK"
+      },
+      {
+        "title": "Gradient Ascent Post-training Enhances Language Model Generalization",
+        "pdf": "https://aclanthology.org/2023.acl-short.74.pdf"
+      },
+      {
+        "title": "Merge-Friendly Post-Training Quantization for Multi-Target Domain Adaptation",
+        "pdf": "https://openreview.net/pdf?id=aCBd1FeE5Z"
+      },
+      {
+        "title": "Towards Accurate Post-training Network Quantization via Bit-Split and Stitching",
+        "pdf": "http://proceedings.mlr.press/v119/wang20c/wang20c.pdf"
+      },
+      {
+        "title": "Towards Efficient Post-training Quantization of Pre-trained Language Models",
+        "pdf": "https://openreview.net/pdf?id=tvDRmAxGIjw"
+      },
+      {
+        "title": "MagR: Weight Magnitude Reduction for Enhancing Post-Training Quantization",
+        "pdf": "https://openreview.net/pdf?id=UARTFgkTqW"
+      },
+      {
+        "title": "Fine-grained Post-training for Improving Retrieval-based Dialogue Systems",
+        "pdf": "https://aclanthology.org/2021.naacl-main.122.pdf"
+      },
+      {
+        "title": "JARVIS-VLA: Post-Training Large-Scale Vision Language Models to Play Visual Games with Keyboards and Mouse",
+        "pdf": "https://aclanthology.org/2025.findings-acl.920.pdf"
+      },
+      {
+        "title": "Satori: Reinforcement Learning with Chain-of-Action-Thought Enhances LLM Reasoning via Autoregressive Search",
+        "pdf": "https://openreview.net/pdf?id=j4FXxMiDjL"
+      },
+      {
+        "title": "Asymmetric Conflict and Synergy in Post-training for LLM-based Multilingual Machine Translation",
+        "pdf": "https://aclanthology.org/2025.findings-acl.944.pdf"
+      },
+      {
+        "title": "Q-VLM: Post-training Quantization for Large Vision-Language Models",
+        "pdf": "https://openreview.net/pdf?id=gxMfNArldP"
+      },
+      {
+        "title": "Transferable Post-training via Inverse Value Learning",
+        "pdf": "https://aclanthology.org/2025.naacl-long.227.pdf"
+      },
+      {
+        "title": "QuIP$\\#$: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks",
+        "pdf": "https://openreview.net/pdf?id=9BrydUVcoe"
+      },
+      {
+        "title": "Direct Post-Training Preference Alignment for Multi-Agent Motion Generation Model Using Implicit Feedback from Pre-training Demonstrations",
+        "pdf": "https://openreview.net/pdf?id=8UFG9D8xeU"
+      },
+      {
+        "title": "Can Post-Training Quantization Benefit from an Additional QLoRA Integration?",
+        "pdf": "https://aclanthology.org/2025.naacl-industry.41.pdf"
+      },
+      {
+        "title": "Can Compressed LLMs Truly Act? An Empirical Evaluation of Agentic Capabilities in LLM Compression",
+        "pdf": "https://openreview.net/pdf?id=rkwXYSDKso"
+      },
+      {
+        "title": "Automatic Pair Construction for Contrastive Post-training",
+        "pdf": "https://aclanthology.org/2024.findings-naacl.11.pdf"
+      },
+      {
+        "title": "Compressing Large Language Models using Low Rank and Low Precision Decomposition",
+        "pdf": "https://openreview.net/pdf?id=lkx3OpcqSZ"
+      },
+      {
+        "title": "Progress or Regress? Self-Improvement Reversal in Post-training",
+        "pdf": "https://openreview.net/pdf?id=RFqeoVfLHa"
+      },
+      {
+        "title": "Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning",
+        "pdf": "https://openreview.net/pdf?id=ksVGCOlOEba"
+      },
+      {
+        "title": "AL-QASIDA: Analyzing LLM Quality and Accuracy Systematically in Dialectal Arabic",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1137.pdf"
+      },
+      {
+        "title": "Outlier-Aware Post-Training Quantization for Discrete Graph Diffusion Models",
+        "pdf": "https://openreview.net/pdf?id=w5fONAEwra"
+      },
+      {
+        "title": "Synthesizing Post-Training Data for LLMs through Multi-Agent Simulation",
+        "pdf": "https://aclanthology.org/2025.acl-long.1136.pdf"
+      },
+      {
+        "title": "Up or Down? Adaptive Rounding for Post-Training Quantization",
+        "pdf": "http://proceedings.mlr.press/v119/nagel20a/nagel20a.pdf"
+      },
+      {
+        "title": "PISA Experiments: Exploring Physics Post-Training for Video Diffusion Models by Watching Stuff Drop",
+        "pdf": "https://openreview.net/pdf?id=RFCp1QzzHQ"
+      },
+      {
+        "title": "ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers",
+        "pdf": "https://openreview.net/pdf?id=f-fVCElZ-G1"
+      },
+      {
+        "title": "Post-Training Dialogue Summarization using Pseudo-Paraphrasing",
+        "pdf": "https://aclanthology.org/2022.findings-naacl.125.pdf"
+      },
+      {
+        "title": "PV-Tuning: Beyond Straight-Through Estimation for Extreme LLM Compression",
+        "pdf": "https://openreview.net/pdf?id=YvA8UF0I37"
+      },
+      {
+        "title": "SSP: Self-Supervised Post-training for Conversational Search",
+        "pdf": "https://aclanthology.org/2023.findings-acl.837.pdf"
+      },
+      {
+        "title": "Diffusion Adversarial Post-Training for One-Step Video Generation",
+        "pdf": "https://openreview.net/pdf?id=AAgzsnhc28"
+      },
+      {
+        "title": "Post-Training Quantization for Vision Transformer",
+        "pdf": "https://openreview.net/pdf?id=9TX5OsKJvm"
+      },
+      {
+        "title": "BoA: Attention-aware Post-training Quantization without Backpropagation",
+        "pdf": "https://openreview.net/pdf?id=Uvj6XcSJ5d"
+      },
+      {
+        "title": "BRiTE: Bootstrapping Reinforced Thinking Process to Enhance Language Model Reasoning",
+        "pdf": "https://openreview.net/pdf?id=NME3HKUHLX"
+      },
+      {
+        "title": "Dialog-Post: Multi-Level Self-Supervised Objectives and Hierarchical Model for Dialogue Post-Training",
+        "pdf": "https://aclanthology.org/2023.acl-long.564.pdf"
+      },
+      {
+        "title": "Can LLM Graph Reasoning Generalize beyond Pattern Memorization?",
+        "pdf": "https://aclanthology.org/2024.findings-emnlp.127.pdf"
+      },
+      {
+        "title": "RoLoRA: Fine-tuning Rotated Outlier-free LLMs for Effective Weight-Activation Quantization",
+        "pdf": "https://aclanthology.org/2024.findings-emnlp.444.pdf"
+      },
+      {
+        "title": "Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement",
+        "pdf": "https://aclanthology.org/2025.acl-long.1091.pdf"
+      },
+      {
+        "title": "PTQ1.61: Push the Real Limit of Extremely Low-Bit Post-Training Quantization Methods for Large Language Models",
+        "pdf": "https://aclanthology.org/2025.acl-long.225.pdf"
+      },
+      {
+        "title": "MAPoRL: Multi-Agent Post-Co-Training for Collaborative Large Language Models with Reinforcement Learning",
+        "pdf": "https://aclanthology.org/2025.acl-long.1459.pdf"
+      },
+      {
+        "title": "Genius: A Generalizable and Purely Unsupervised Self-Training Framework For Advanced Reasoning",
+        "pdf": "https://aclanthology.org/2025.acl-long.644.pdf"
+      },
+      {
+        "title": "Dial-MAE: ConTextual Masked Auto-Encoder for Retrieval-based Dialogue Systems",
+        "pdf": "https://aclanthology.org/2024.naacl-long.47.pdf"
+      },
+      {
+        "title": "Re3Syn: A Dependency-Based Data Synthesis Framework for Long-Context Post-training",
+        "pdf": "https://aclanthology.org/2025.acl-long.1518.pdf"
+      },
+      {
+        "title": "AceMath: Advancing Frontier Math Reasoning with Post-Training and Reward Modeling",
+        "pdf": "https://aclanthology.org/2025.findings-acl.206.pdf"
+      },
+      {
+        "title": "Q-Mamba: Towards more efficient Mamba models via post-training quantization",
+        "pdf": "https://aclanthology.org/2025.findings-acl.551.pdf"
+      },
+      {
+        "title": "Pre-training Distillation for Large Language Models: A Design Space Exploration",
+        "pdf": "https://aclanthology.org/2025.acl-long.181.pdf"
+      },
+      {
+        "title": "Tiny-NewsRec: Effective and Efficient PLM-based News Recommendation",
+        "pdf": "https://aclanthology.org/2022.emnlp-main.368.pdf"
+      },
+      {
+        "title": "Bypass Back-propagation: Optimization-based Structural Pruning for Large Language Models via Policy Gradient",
+        "pdf": "https://aclanthology.org/2025.acl-long.1421.pdf"
+      },
+      {
+        "title": "LLM-QAT: Data-Free Quantization Aware Training for Large Language Models",
+        "pdf": "https://aclanthology.org/2024.findings-acl.26.pdf"
+      },
+      {
+        "title": "Rethinking Token Reduction for State Space Models",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.100.pdf"
+      },
+      {
+        "title": "One fish, two fish, but not the whole sea: Alignment reduces language models’ conceptual diversity",
+        "pdf": "https://aclanthology.org/2025.naacl-long.561.pdf"
+      },
+      {
+        "title": "OptiPrune: Effective Pruning Approach for Every Target Sparsity",
+        "pdf": "https://aclanthology.org/2025.coling-main.243.pdf"
+      },
+      {
+        "title": "Marco-o1 v2: Towards Widening The Distillation Bottleneck for Reasoning Models",
+        "pdf": "https://aclanthology.org/2025.acl-long.1145.pdf"
+      },
+      {
+        "title": "DavIR: Data Selection via Implicit Reward for Large Language Models",
+        "pdf": "https://aclanthology.org/2025.acl-long.452.pdf"
+      },
+      {
+        "title": "RQT: Hierarchical Residual Quantization for Multi-Model Compression",
+        "pdf": "https://aclanthology.org/2025.findings-acl.554.pdf"
+      },
+      {
+        "title": "Large Language and Reasoning Models are Shallow Disjunctive Reasoners",
+        "pdf": "https://aclanthology.org/2025.acl-long.433.pdf"
+      },
+      {
+        "title": "Understanding and Overcoming the Challenges of Efficient Transformer Quantization",
+        "pdf": "https://aclanthology.org/2021.emnlp-main.627.pdf"
+      },
+      {
+        "title": "Attend, Select and Eliminate: Accelerating Multi-turn Response Selection with Dual-attention-based Content Elimination",
+        "pdf": "https://aclanthology.org/2023.findings-acl.422.pdf"
+      },
+      {
+        "title": "Continual Quantization-Aware Pre-Training: When to transition from 16-bit to 1.58-bit pre-training for BitNet language models?",
+        "pdf": "https://aclanthology.org/2025.findings-acl.694.pdf"
+      },
+      {
+        "title": "What Happened in LLMs Layers when Trained for Fast vs. Slow Thinking: A Gradient Perspective",
+        "pdf": "https://aclanthology.org/2025.acl-long.1545.pdf"
+      }
+    ],
+    "dois_only": []
+  },
+  "metadata": {
+    "query": "LLM post-training survey review natural language processing",
+    "total_steps": 6,
+    "last_updated": "2026-01-02T17:56:59.263947",
+    "started_at": "2026-01-02T17:44:44.060290",
+    "total_papers": 146
+  }
+}

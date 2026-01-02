@@ -1,0 +1,84 @@
+{
+  "summary": {
+    "query": "token efficiency in LLMs AND (token usage optimization OR token compression OR LLM token efficiency)",
+    "total_papers": 25,
+    "unique_sources": 9,
+    "year_range": {
+      "min": 2022,
+      "max": 2024
+    },
+    "citation_summary": {
+      "total": 0,
+      "average": 0
+    },
+    "top_source": "offline_emnlp",
+    "papers_with_pdf": 20,
+    "papers_with_doi": 0,
+    "processing_steps": 9
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (18) are from 2024",
+      "data": {
+        "year": 2024,
+        "count": 18
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_emnlp contributes 7 papers (28%)",
+      "data": {
+        "source": "offline_emnlp",
+        "count": 7
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Varun Kumar has 2 papers in this collection",
+      "data": {
+        "author": "Varun Kumar",
+        "count": 2
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: token, efficient, language, llms, large",
+      "data": {
+        "keywords": {
+          "token": 24,
+          "efficient": 5,
+          "language": 5,
+          "llms": 5,
+          "large": 5
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "20/25 papers (80%) have direct PDF links",
+      "data": {
+        "with_pdf": 20,
+        "total": 25
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 25 papers related to 'token efficiency in LLMs AND (token usage optimization OR token compression OR LLM token efficiency)'",
+    "Papers collected from 9 sources: offline_iclr, offline_emnlp, offline_eccv, offline_iccv, offline_naacl, offline_acl, offline_nips, offline_aistats, offline_wacv",
+    "Publication years range from 2022 to 2024",
+    "Leading researchers: Varun Kumar, Ben Athiwaratkun, Jianzhe Lin"
+  ],
+  "metadata": {
+    "query": "token efficiency in LLMs AND (token usage optimization OR token compression OR LLM token efficiency)",
+    "total_steps": 9,
+    "last_updated": "2026-01-02T17:03:52.345267",
+    "started_at": "2026-01-02T16:59:13.639183",
+    "total_papers": 25
+  }
+}

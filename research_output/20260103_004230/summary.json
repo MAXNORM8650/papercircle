@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "Manifold-Constrained Hyper-Connections mathematical rigor",
+    "total_papers": 440,
+    "unique_sources": 9,
+    "year_range": {
+      "min": 2019,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 797,
+      "average": 9.0
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 353,
+    "papers_with_doi": 151,
+    "processing_steps": 32
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (3) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 3
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 195 papers (44%)",
+      "data": {
+        "source": "arxiv",
+        "count": 195
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Yang Liu has 4 papers in this collection",
+      "data": {
+        "author": "Yang Liu",
+        "count": 4
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Gibbs Sampling from Human Feedback: A Provable KL- constrained Framework for RLHF...\" has 65 citations",
+      "data": {
+        "title": "Gibbs Sampling from Human Feedback: A Provable KL- constrained Framework for RLHF",
+        "citations": 65
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: constrained, learning, manifold, neural, optimization",
+      "data": {
+        "keywords": {
+          "constrained": 63,
+          "learning": 50,
+          "manifold": 34,
+          "neural": 25,
+          "optimization": 24
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "353/440 papers (80%) have direct PDF links",
+      "data": {
+        "with_pdf": 353,
+        "total": 440
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 440 papers related to 'Manifold-Constrained Hyper-Connections mathematical rigor'",
+    "Papers collected from 9 sources: offline_iclr, offline_nips, offline_cvpr, offline_acl, offline_ijcai, offline_emnlp, semantic_scholar, openalex, arxiv",
+    "Publication years range from 2019 to 2026",
+    "Total citations: 797, Average: 8",
+    "Leading researchers: Yang Liu, Hyungjin Chung, Jong Chul Ye"
+  ],
+  "metadata": {
+    "query": "Manifold-Constrained Hyper-Connections mathematical rigor",
+    "total_steps": 32,
+    "last_updated": "2026-01-03T00:46:27.072534",
+    "started_at": "2026-01-03T00:42:30.509174",
+    "total_papers": 440
+  }
+}

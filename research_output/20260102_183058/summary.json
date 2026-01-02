@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "survey review format LLM post-training natural language processing",
+    "total_papers": 281,
+    "unique_sources": 9,
+    "year_range": {
+      "min": 2020,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 7328,
+      "average": 126.3
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 182,
+    "papers_with_doi": 102,
+    "processing_steps": 24
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (30) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 30
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 56 papers (19%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 56
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Diptesh Kanojia has 3 papers in this collection",
+      "data": {
+        "author": "Diptesh Kanojia",
+        "count": 3
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"A survey on large language model based autonomous agents...\" has 2036 citations",
+      "data": {
+        "title": "A survey on large language model based autonomous agents",
+        "citations": 2036
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: language, survey, models, large, training",
+      "data": {
+        "keywords": {
+          "language": 118,
+          "survey": 107,
+          "models": 73,
+          "large": 73,
+          "training": 44
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "182/281 papers (64%) have direct PDF links",
+      "data": {
+        "with_pdf": 182,
+        "total": 281
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 281 papers related to 'survey review format LLM post-training natural language processing'",
+    "Papers collected from 9 sources: offline_acl, offline_emnlp, offline_ijcai, offline_iclr, offline_icml, offline_nips, semantic_scholar, arxiv, openalex",
+    "Publication years range from 2020 to 2026",
+    "Total citations: 7328, Average: 126",
+    "Leading researchers: Diptesh Kanojia, Wayne Xin Zhao, Amrita Bhattacharjee"
+  ],
+  "metadata": {
+    "query": "survey review format LLM post-training natural language processing",
+    "total_steps": 24,
+    "last_updated": "2026-01-02T18:34:46.766016",
+    "started_at": "2026-01-02T18:30:59.821281",
+    "total_papers": 281
+  }
+}

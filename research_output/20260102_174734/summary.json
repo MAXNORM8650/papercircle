@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "LLM post-training",
+    "total_papers": 373,
+    "unique_sources": 10,
+    "year_range": {
+      "min": 2020,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 4871,
+      "average": 110.7
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 287,
+    "papers_with_doi": 128,
+    "processing_steps": 7
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (30) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 30
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 100 papers (26%)",
+      "data": {
+        "source": "arxiv",
+        "count": 100
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Lu Cheng has 4 papers in this collection",
+      "data": {
+        "author": "Lu Cheng",
+        "count": 4
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"A survey on large language model based autonomous agents...\" has 2036 citations",
+      "data": {
+        "title": "A survey on large language model based autonomous agents",
+        "citations": 2036
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: survey, language, models, large, training",
+      "data": {
+        "keywords": {
+          "survey": 123,
+          "language": 89,
+          "models": 75,
+          "large": 72,
+          "training": 60
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "287/373 papers (76%) have direct PDF links",
+      "data": {
+        "with_pdf": 287,
+        "total": 373
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 373 papers related to 'LLM post-training'",
+    "Papers collected from 10 sources: offline_acl, offline_emnlp, offline_ijcai, offline_iclr, offline_aaai, offline_nips, offline_icml, openalex, arxiv, semantic_scholar",
+    "Publication years range from 2020 to 2026",
+    "Total citations: 4871, Average: 110",
+    "Leading researchers: Lu Cheng, Amrita Bhattacharjee, Mansooreh Karami"
+  ],
+  "metadata": {
+    "query": "LLM post-training",
+    "total_steps": 7,
+    "last_updated": "2026-01-02T18:17:02.425319",
+    "started_at": "2026-01-02T17:47:34.576058",
+    "total_papers": 373
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "VISTA3D: A Unified Segmentation Foundation Model For 3D Medical Imaging",
+        "url": "https://cvpr.thecvf.com/virtual/2025/poster/34688",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/He_VISTA3D_A_Unified_Segmentation_Foundation_Model_For_3D_Medical_Imaging_CVPR_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2025
+      },
+      {
+        "title": "MIRA: Medical Time Series Foundation Model for Real-World Health Data",
+        "url": "https://openreview.net/forum?id=Auy2DmlJBO",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "UniGen: Enhanced Training & Test-Time Strategies for Unified Multimodal Understanding and Generation",
+        "url": "https://openreview.net/forum?id=ir8u0crTcA",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "HealthGPT: A Medical Large Vision-Language Model for Unifying Comprehension and Generation via Heterogeneous Knowledge Adaptation",
+        "url": "https://icml.cc/virtual/2025/poster/45007",
+        "pdf_url": "https://openreview.net/pdf?id=WbP2OwMULq",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Multimodal Medical Code Tokenizer",
+        "url": "https://icml.cc/virtual/2025/poster/45110",
+        "pdf_url": "https://openreview.net/pdf?id=UaTrcei5Ba",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "FEDMEKI: A Benchmark for Scaling Medical Foundation Models via Federated Knowledge Injection",
+        "url": "https://neurips.cc/virtual/2024/poster/97482",
+        "pdf_url": "https://openreview.net/pdf?id=rovpCs3ZEO",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation",
+        "url": "https://openreview.net/forum?id=GDbyUZiARK",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Toward a Vision-Language Foundation Model for Medical Data: Multimodal Dataset and Benchmarks for Vietnamese PET/CT Report Generation",
+        "url": "https://openreview.net/forum?id=OSnh4DmGx9",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Towards All-in-One Medical Image Re-Identification",
+        "url": "https://cvpr.thecvf.com/virtual/2025/poster/32452",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Tian_Towards_All-in-One_Medical_Image_Re-Identification_CVPR_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2025
+      },
+      {
+        "title": "Medical Dialogue Generation via Dual Flow Modeling",
+        "url": "https://aclanthology.org/2023.findings-acl.423/",
+        "pdf_url": "https://aclanthology.org/2023.findings-acl.423.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Unified Medical Image Pre-training in Language-Guided Common Semantic Space",
+        "url": "https://openreview.net/forum?id=XZGklkaOsL",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "LLM-CXR: Instruction-Finetuned LLM for CXR Image Understanding and Generation",
+        "url": "https://iclr.cc/virtual/2024/poster/19198",
+        "pdf_url": "https://openreview.net/pdf?id=BqHaLnans2",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models",
+        "url": "https://neurips.cc/virtual/2024/poster/97606",
+        "pdf_url": "https://openreview.net/pdf?id=cFyagd2Yh4",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "GPT4Point: A Unified Framework for Point-Language Understanding and Generation",
+        "url": "https://cvpr.thecvf.com/virtual/2024/poster/31298",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Qi_GPT4Point_A_Unified_Framework_for_Point-Language_Understanding_and_Generation_CVPR_2024_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2024
+      },
+      {
+        "title": "PediatricsGPT: Large Language Models as Chinese Medical Assistants for Pediatric Applications",
+        "url": "https://neurips.cc/virtual/2024/poster/94806",
+        "pdf_url": "https://openreview.net/pdf?id=WvoKwq12x5",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Uni-Med: A Unified Medical Generalist Foundation Model For Multi-Task Learning Via Connector-MoE",
+        "url": "https://neurips.cc/virtual/2024/poster/93590",
+        "pdf_url": "https://openreview.net/pdf?id=oyl2Fnzune",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "CLIPSyntel: CLIP and LLM Synergy for Multimodal Question Summarization in Healthcare",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30206",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30206/32143",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2024
+      },
+      {
+        "title": "Spider: A Unified Framework for Context-dependent Concept Segmentation",
+        "url": "https://icml.cc/virtual/2024/poster/33171",
+        "pdf_url": "https://openreview.net/pdf?id=mWV8NeU79e",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "Vision-language foundation models for medical imaging: a review of current practices and innovations",
+        "url": "https://www.semanticscholar.org/paper/94d4f83ab262a96a131595e9af953ce195e01ac4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/s13534-025-00484-6",
+        "source": "semantic_scholar",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "offline_cvpr": [
+        {
+          "title": "VISTA3D: A Unified Segmentation Foundation Model For 3D Medical Imaging",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/34688",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/He_VISTA3D_A_Unified_Segmentation_Foundation_Model_For_3D_Medical_Imaging_CVPR_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2025
+        },
+        {
+          "title": "Towards All-in-One Medical Image Re-Identification",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/32452",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Tian_Towards_All-in-One_Medical_Image_Re-Identification_CVPR_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2025
+        },
+        {
+          "title": "GPT4Point: A Unified Framework for Point-Language Understanding and Generation",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/31298",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Qi_GPT4Point_A_Unified_Framework_for_Point-Language_Understanding_and_Generation_CVPR_2024_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2024
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "MIRA: Medical Time Series Foundation Model for Real-World Health Data",
+          "url": "https://openreview.net/forum?id=Auy2DmlJBO",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "UniGen: Enhanced Training & Test-Time Strategies for Unified Multimodal Understanding and Generation",
+          "url": "https://openreview.net/forum?id=ir8u0crTcA",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "FEDMEKI: A Benchmark for Scaling Medical Foundation Models via Federated Knowledge Injection",
+          "url": "https://neurips.cc/virtual/2024/poster/97482",
+          "pdf_url": "https://openreview.net/pdf?id=rovpCs3ZEO",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation",
+          "url": "https://openreview.net/forum?id=GDbyUZiARK",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Toward a Vision-Language Foundation Model for Medical Data: Multimodal Dataset and Benchmarks for Vietnamese PET/CT Report Generation",
+          "url": "https://openreview.net/forum?id=OSnh4DmGx9",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models",
+          "url": "https://neurips.cc/virtual/2024/poster/97606",
+          "pdf_url": "https://openreview.net/pdf?id=cFyagd2Yh4",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "PediatricsGPT: Large Language Models as Chinese Medical Assistants for Pediatric Applications",
+          "url": "https://neurips.cc/virtual/2024/poster/94806",
+          "pdf_url": "https://openreview.net/pdf?id=WvoKwq12x5",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Uni-Med: A Unified Medical Generalist Foundation Model For Multi-Task Learning Via Connector-MoE",
+          "url": "https://neurips.cc/virtual/2024/poster/93590",
+          "pdf_url": "https://openreview.net/pdf?id=oyl2Fnzune",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "HealthGPT: A Medical Large Vision-Language Model for Unifying Comprehension and Generation via Heterogeneous Knowledge Adaptation",
+          "url": "https://icml.cc/virtual/2025/poster/45007",
+          "pdf_url": "https://openreview.net/pdf?id=WbP2OwMULq",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Multimodal Medical Code Tokenizer",
+          "url": "https://icml.cc/virtual/2025/poster/45110",
+          "pdf_url": "https://openreview.net/pdf?id=UaTrcei5Ba",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Spider: A Unified Framework for Context-dependent Concept Segmentation",
+          "url": "https://icml.cc/virtual/2024/poster/33171",
+          "pdf_url": "https://openreview.net/pdf?id=mWV8NeU79e",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        }
+      ],
+      "offline_acl": [
+        {
+          "title": "Medical Dialogue Generation via Dual Flow Modeling",
+          "url": "https://aclanthology.org/2023.findings-acl.423/",
+          "pdf_url": "https://aclanthology.org/2023.findings-acl.423.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        }
+      ],
+      "offline_iclr": [
+        {
+          "title": "Unified Medical Image Pre-training in Language-Guided Common Semantic Space",
+          "url": "https://openreview.net/forum?id=XZGklkaOsL",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "LLM-CXR: Instruction-Finetuned LLM for CXR Image Understanding and Generation",
+          "url": "https://iclr.cc/virtual/2024/poster/19198",
+          "pdf_url": "https://openreview.net/pdf?id=BqHaLnans2",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        }
+      ],
+      "offline_aaai": [
+        {
+          "title": "CLIPSyntel: CLIP and LLM Synergy for Multimodal Question Summarization in Healthcare",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30206",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30206/32143",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2024
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "Vision-language foundation models for medical imaging: a review of current practices and innovations",
+          "url": "https://www.semanticscholar.org/paper/94d4f83ab262a96a131595e9af953ce195e01ac4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/s13534-025-00484-6",
+          "source": "semantic_scholar",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "VISTA3D: A Unified Segmentation Foundation Model For 3D Medical Imaging",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/papers/He_VISTA3D_A_Unified_Segmentation_Foundation_Model_For_3D_Medical_Imaging_CVPR_2025_paper.pdf"
+      },
+      {
+        "title": "HealthGPT: A Medical Large Vision-Language Model for Unifying Comprehension and Generation via Heterogeneous Knowledge Adaptation",
+        "pdf": "https://openreview.net/pdf?id=WbP2OwMULq"
+      },
+      {
+        "title": "Multimodal Medical Code Tokenizer",
+        "pdf": "https://openreview.net/pdf?id=UaTrcei5Ba"
+      },
+      {
+        "title": "FEDMEKI: A Benchmark for Scaling Medical Foundation Models via Federated Knowledge Injection",
+        "pdf": "https://openreview.net/pdf?id=rovpCs3ZEO"
+      },
+      {
+        "title": "Towards All-in-One Medical Image Re-Identification",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/papers/Tian_Towards_All-in-One_Medical_Image_Re-Identification_CVPR_2025_paper.pdf"
+      },
+      {
+        "title": "Medical Dialogue Generation via Dual Flow Modeling",
+        "pdf": "https://aclanthology.org/2023.findings-acl.423.pdf"
+      },
+      {
+        "title": "LLM-CXR: Instruction-Finetuned LLM for CXR Image Understanding and Generation",
+        "pdf": "https://openreview.net/pdf?id=BqHaLnans2"
+      },
+      {
+        "title": "MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models",
+        "pdf": "https://openreview.net/pdf?id=cFyagd2Yh4"
+      },
+      {
+        "title": "GPT4Point: A Unified Framework for Point-Language Understanding and Generation",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2024/papers/Qi_GPT4Point_A_Unified_Framework_for_Point-Language_Understanding_and_Generation_CVPR_2024_paper.pdf"
+      },
+      {
+        "title": "PediatricsGPT: Large Language Models as Chinese Medical Assistants for Pediatric Applications",
+        "pdf": "https://openreview.net/pdf?id=WvoKwq12x5"
+      },
+      {
+        "title": "Uni-Med: A Unified Medical Generalist Foundation Model For Multi-Task Learning Via Connector-MoE",
+        "pdf": "https://openreview.net/pdf?id=oyl2Fnzune"
+      },
+      {
+        "title": "CLIPSyntel: CLIP and LLM Synergy for Multimodal Question Summarization in Healthcare",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/30206/32143"
+      },
+      {
+        "title": "Spider: A Unified Framework for Context-dependent Concept Segmentation",
+        "pdf": "https://openreview.net/pdf?id=mWV8NeU79e"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "Vision-language foundation models for medical imaging: a review of current practices and innovations",
+        "doi": "https://doi.org/10.1007/s13534-025-00484-6"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "medical foundation models unified understanding generation",
+    "total_steps": 50,
+    "last_updated": "2026-01-02T19:04:50.099348",
+    "started_at": "2026-01-02T18:57:20.264074",
+    "total_papers": 19
+  }
+}

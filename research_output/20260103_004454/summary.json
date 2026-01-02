@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "manifold learning hyper-connections",
+    "total_papers": 474,
+    "unique_sources": 18,
+    "year_range": {
+      "min": 1997,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 688,
+      "average": 17.2
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 360,
+    "papers_with_doi": 68,
+    "processing_steps": 23
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (30) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 30
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 219 papers (46%)",
+      "data": {
+        "source": "arxiv",
+        "count": 219
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Yetong Zhang has 4 papers in this collection",
+      "data": {
+        "author": "Yetong Zhang",
+        "count": 4
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"AI and 6G Into the Metaverse: Fundamentals, Challenges and Future Research Trends...\" has 127 citations",
+      "data": {
+        "title": "AI and 6G Into the Metaverse: Fundamentals, Challenges and Future Research Trends",
+        "citations": 127
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: manifold, learning, neural, diffusion, optimization",
+      "data": {
+        "keywords": {
+          "manifold": 153,
+          "learning": 70,
+          "neural": 31,
+          "diffusion": 30,
+          "optimization": 25
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "360/474 papers (75%) have direct PDF links",
+      "data": {
+        "with_pdf": 360,
+        "total": 474
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 474 papers related to 'manifold learning hyper-connections'",
+    "Papers collected from 18 sources: offline_aaai, offline_iros, offline_cvpr, offline_iclr, offline_icra, offline_nips, offline_icml, offline_aistats, offline_colt, offline_corl, offline_iccv, offline_wacv, offline_acmmm, offline_siggraph, offline_rss, arxiv, semantic_scholar, openalex",
+    "Publication years range from 1997 to 2026",
+    "Total citations: 688, Average: 17",
+    "Leading researchers: Yetong Zhang, Gerry Chen, Adam Rutkowski"
+  ],
+  "metadata": {
+    "query": "manifold learning hyper-connections",
+    "total_steps": 23,
+    "last_updated": "2026-01-03T00:52:08.150905",
+    "started_at": "2026-01-03T00:44:54.450713",
+    "total_papers": 474
+  }
+}

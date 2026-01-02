@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "total_papers": 0,
+    "sources": {},
+    "year_distribution": {},
+    "top_authors": {},
+    "top_venues": {},
+    "top_keywords": {},
+    "citation_stats": {
+      "total": 0,
+      "avg": 0,
+      "max": 0,
+      "min": 0
+    },
+    "score_stats": {
+      "avg_similarity": 0,
+      "avg_novelty": 0,
+      "avg_recency": 0
+    }
+  },
+  "leaderboard": [],
+  "metadata": {
+    "query": "",
+    "total_steps": 0,
+    "last_updated": "2026-01-02T17:18:22.822551",
+    "started_at": "2026-01-02T17:18:22.821075",
+    "total_papers": 0
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Value-Based Deep RL Scales Predictably",
+        "url": "https://icml.cc/virtual/2025/poster/45893",
+        "pdf_url": "https://openreview.net/pdf?id=FLPFPYJeVU",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Learning Abstract World Models with a Group-Structured Latent Space",
+        "url": "https://openreview.net/forum?id=YH1gieQrxH",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Learning and Reusing Abstract Latent Actions in a Hippocampal-Entorhinal-Inspired World Model",
+        "url": "https://openreview.net/forum?id=RSvfY6dRVN",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Sequences of Logits Reveal the Low Rank Structure of Language Models",
+        "url": "https://openreview.net/forum?id=gdZ6J5hZzF",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ExoPredicator: Learning Abstract Models of Dynamic Worlds for Robot Planning",
+        "url": "https://openreview.net/forum?id=a1zfcaNTkM",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Self-Guided Low Light Object Detection Framework",
+        "url": "https://openreview.net/forum?id=MGgAJ8yy2D",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Compute Where It Counts: Adaptive Compute Allocation for Large Language Models via Learned Granular Sparsity",
+        "url": "https://openreview.net/forum?id=xNeyfH3qZS",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "LoRTA: Low Rank Tensor Adaptation of Large Language Models",
+        "url": "https://openreview.net/forum?id=ayPfZIkovt",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Flow Equivariant World Modeling for Partially Observed Dynamic Environments",
+        "url": "https://openreview.net/forum?id=W7WUJTGByR",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Leveraging Low Rank Structure in The Lazy Regime",
+        "url": "https://openreview.net/forum?id=XgAKt7rbXk",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "offline_icml": [
+        {
+          "title": "Value-Based Deep RL Scales Predictably",
+          "url": "https://icml.cc/virtual/2025/poster/45893",
+          "pdf_url": "https://openreview.net/pdf?id=FLPFPYJeVU",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        }
+      ],
+      "offline_iclr": [
+        {
+          "title": "Learning Abstract World Models with a Group-Structured Latent Space",
+          "url": "https://openreview.net/forum?id=YH1gieQrxH",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Learning and Reusing Abstract Latent Actions in a Hippocampal-Entorhinal-Inspired World Model",
+          "url": "https://openreview.net/forum?id=RSvfY6dRVN",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Sequences of Logits Reveal the Low Rank Structure of Language Models",
+          "url": "https://openreview.net/forum?id=gdZ6J5hZzF",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ExoPredicator: Learning Abstract Models of Dynamic Worlds for Robot Planning",
+          "url": "https://openreview.net/forum?id=a1zfcaNTkM",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Self-Guided Low Light Object Detection Framework",
+          "url": "https://openreview.net/forum?id=MGgAJ8yy2D",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Compute Where It Counts: Adaptive Compute Allocation for Large Language Models via Learned Granular Sparsity",
+          "url": "https://openreview.net/forum?id=xNeyfH3qZS",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LoRTA: Low Rank Tensor Adaptation of Large Language Models",
+          "url": "https://openreview.net/forum?id=ayPfZIkovt",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Flow Equivariant World Modeling for Partially Observed Dynamic Environments",
+          "url": "https://openreview.net/forum?id=W7WUJTGByR",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Leveraging Low Rank Structure in The Lazy Regime",
+          "url": "https://openreview.net/forum?id=XgAKt7rbXk",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Value-Based Deep RL Scales Predictably",
+        "pdf": "https://openreview.net/pdf?id=FLPFPYJeVU"
+      }
+    ],
+    "dois_only": []
+  },
+  "metadata": {
+    "query": "world models AND low compute AND abstract representation",
+    "total_steps": 22,
+    "last_updated": "2026-01-03T00:23:39.608744",
+    "started_at": "2026-01-03T00:20:28.283261",
+    "total_papers": 10
+  }
+}

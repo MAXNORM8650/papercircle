@@ -394,7 +394,7 @@ const ResearchDashboard: React.FC<ResearchDashboardProps> = ({ timestamp, onBack
               </button>
               <div>
                 <h1 className="text-2xl font-bold text-gray-900">Research Dashboard</h1>
-                {summary && (
+                {summary && summary.summary && (
                   <p className="text-sm text-gray-600 mt-1">
                     Query: "{summary.summary.query}" • {filteredPapers.length} of {papers.length} papers
                   </p>
@@ -444,7 +444,7 @@ const ResearchDashboard: React.FC<ResearchDashboardProps> = ({ timestamp, onBack
           </div>
 
           {/* Summary Stats */}
-          {summary && (
+          {summary && summary.summary && (
             <>
               <div className="mt-4 grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div className="bg-blue-50 rounded-lg p-3">

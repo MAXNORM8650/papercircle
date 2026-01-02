@@ -1,0 +1,74 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T19:32:24.782001",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'DeepSeek mHC'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "DeepSeek mHC",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": 2023,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 50
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-02T19:32:30.971668",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'DeepSeek mHC'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "DeepSeek mHC",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": 2023,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 50
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-02T19:32:36.548332",
+      "agent": "online_search_agent",
+      "action": "Online search: 'DeepSeek mHC'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "DeepSeek mHC",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 25,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 75
+    }
+  ],
+  "current_step": 3,
+  "metadata": {
+    "query": "DeepSeek mHC",
+    "total_steps": 3,
+    "last_updated": "2026-01-02T19:32:36.570672",
+    "started_at": "2026-01-02T19:32:12.256638",
+    "total_papers": 75
+  }
+}

@@ -1,0 +1,571 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T00:52:36.124096",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Manifold-Constrained Hyper-Connections'",
+      "result_preview": "Found 136 papers",
+      "details": {
+        "query": "Manifold-Constrained Hyper-Connections",
+        "sources": null,
+        "papers_found": 136,
+        "papers_added": 136,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 136
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T00:52:51.061853",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Manifold-Constrained Hyper-Connections'",
+      "result_preview": "Found 17 papers from local database",
+      "details": {
+        "query": "Manifold-Constrained Hyper-Connections",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 17,
+        "papers_added": 17,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 153
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T00:52:53.934261",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Manifold-Constrained Hyper-Connections'",
+      "result_preview": "Found 49 papers",
+      "details": {
+        "query": "Manifold-Constrained Hyper-Connections",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 49,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 153
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T00:53:06.393886",
+      "agent": "sorting_agent",
+      "action": "Sorted 153 papers by 'relevance'",
+      "result_preview": "Top paper: Hyper-Connections...",
+      "details": {
+        "sort_by": "relevance",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 153
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T00:53:07.845074",
+      "agent": "sorting_agent",
+      "action": "Sorted 153 papers by 'citations'",
+      "result_preview": "Top paper: Hyper-Graph Regularized Constrained NMF for Select...",
+      "details": {
+        "sort_by": "citations",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 153
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-03T00:53:28.559971",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (summary)",
+      "result_preview": "Generated insights from 153 papers",
+      "details": {
+        "analysis_type": "summary"
+      },
+      "papers_count": 153
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-03T00:53:29.475607",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (trends)",
+      "result_preview": "Generated insights from 153 papers",
+      "details": {
+        "analysis_type": "trends"
+      },
+      "papers_count": 153
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-03T00:53:30.590196",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (authors)",
+      "result_preview": "Generated insights from 153 papers",
+      "details": {
+        "analysis_type": "authors"
+      },
+      "papers_count": 153
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-03T00:53:31.613359",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (venues)",
+      "result_preview": "Generated insights from 153 papers",
+      "details": {
+        "analysis_type": "venues"
+      },
+      "papers_count": 153
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-03T00:53:32.752105",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (topics)",
+      "result_preview": "Generated insights from 153 papers",
+      "details": {
+        "analysis_type": "topics"
+      },
+      "papers_count": 153
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-03T00:53:33.834487",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (all)",
+      "result_preview": "Generated insights from 153 papers",
+      "details": {
+        "analysis_type": "all"
+      },
+      "papers_count": 153
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-03T00:53:46.118833",
+      "agent": "export_agent",
+      "action": "Exporting papers (all)",
+      "result_preview": "Exported 153 papers",
+      "details": {
+        "format": "all",
+        "filename": "manifold_constrained_hyperconnections"
+      },
+      "papers_count": 153
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-03T00:53:47.891476",
+      "agent": "export_agent",
+      "action": "Exporting papers (json)",
+      "result_preview": "Exported 153 papers",
+      "details": {
+        "format": "json",
+        "filename": "top_5_papers_manifold_hyperconnections"
+      },
+      "papers_count": 153
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-03T00:54:14.089207",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Manifold-Constrained Hyper-Connections theoretical framework'",
+      "result_preview": "Found 130 papers",
+      "details": {
+        "query": "Manifold-Constrained Hyper-Connections theoretical framework",
+        "sources": null,
+        "papers_found": 130,
+        "papers_added": 98,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 251
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-03T00:54:27.731634",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Manifold-Constrained Hyper-Connections theoretical framework'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "Manifold-Constrained Hyper-Connections theoretical framework",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": 2020,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 36,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 287
+    },
+    {
+      "step": 16,
+      "timestamp": "2026-01-03T00:54:33.755937",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Manifold-Constrained Hyper-Connections'",
+      "result_preview": "Found 100 papers",
+      "details": {
+        "query": "Manifold-Constrained Hyper-Connections",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 100,
+        "papers_added": 43,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 330
+    },
+    {
+      "step": 17,
+      "timestamp": "2026-01-03T00:54:46.821617",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Manifold-Constrained Hyper-Connections'",
+      "result_preview": "Found 14 papers from local database",
+      "details": {
+        "query": "Manifold-Constrained Hyper-Connections",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": 2020,
+        "end_year": null,
+        "papers_found": 14,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 330
+    },
+    {
+      "step": 18,
+      "timestamp": "2026-01-03T00:54:54.151044",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Manifold-Constrained Hyper-Connections theoretical framework'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "Manifold-Constrained Hyper-Connections theoretical framework",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 330
+    },
+    {
+      "step": 19,
+      "timestamp": "2026-01-03T00:56:14.304510",
+      "agent": "online_search_agent",
+      "action": "Online search: 'manifold learning hyper-connection mathematical framework'",
+      "result_preview": "Found 83 papers",
+      "details": {
+        "query": "manifold learning hyper-connection mathematical framework",
+        "sources": null,
+        "papers_found": 83,
+        "papers_added": 38,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 368
+    },
+    {
+      "step": 20,
+      "timestamp": "2026-01-03T00:56:22.467938",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'manifold learning hyper-connection mathematical framework'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "manifold learning hyper-connection mathematical framework",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 49,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 417
+    },
+    {
+      "step": 21,
+      "timestamp": "2026-01-03T00:56:28.426197",
+      "agent": "online_search_agent",
+      "action": "Online search: 'manifold learning theory hyper-connection'",
+      "result_preview": "Found 100 papers",
+      "details": {
+        "query": "manifold learning theory hyper-connection",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 100,
+        "papers_added": 61,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 478
+    },
+    {
+      "step": 22,
+      "timestamp": "2026-01-03T00:56:36.458479",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'manifold learning theory hyper-connection'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "manifold learning theory hyper-connection",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 41,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 519
+    },
+    {
+      "step": 23,
+      "timestamp": "2026-01-03T00:56:41.188532",
+      "agent": "online_search_agent",
+      "action": "Online search: 'manifold constrained hyper-connection mathematical framework'",
+      "result_preview": "Found 199 papers",
+      "details": {
+        "query": "manifold constrained hyper-connection mathematical framework",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 199,
+        "papers_added": 91,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 610
+    },
+    {
+      "step": 24,
+      "timestamp": "2026-01-03T00:56:49.391047",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'manifold constrained hyper-connection mathematical framework'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "manifold constrained hyper-connection mathematical framework",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 20,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 630
+    },
+    {
+      "step": 25,
+      "timestamp": "2026-01-03T00:57:07.319440",
+      "agent": "online_search_agent",
+      "action": "Online search: 'manifold-constrained hyper-connections implementation code repository'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "manifold-constrained hyper-connections implementation code repository",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 23,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 653
+    },
+    {
+      "step": 26,
+      "timestamp": "2026-01-03T00:57:23.044213",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'manifold-constrained hyper-connections'",
+      "result_preview": "Found 17 papers from local database",
+      "details": {
+        "query": "manifold-constrained hyper-connections",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 17,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 653
+    },
+    {
+      "step": 27,
+      "timestamp": "2026-01-03T00:57:28.933622",
+      "agent": "online_search_agent",
+      "action": "Online search: 'manifold-constrained hyper-connections code implementation github'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "manifold-constrained hyper-connections code implementation github",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 653
+    },
+    {
+      "step": 28,
+      "timestamp": "2026-01-03T00:57:34.764912",
+      "agent": "online_search_agent",
+      "action": "Online search: 'hyper-connections manifold constraint implementation'",
+      "result_preview": "Found 42 papers",
+      "details": {
+        "query": "hyper-connections manifold constraint implementation",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 42,
+        "papers_added": 18,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 671
+    }
+  ],
+  "current_step": 28,
+  "metadata": {
+    "query": "hyper-connections manifold constraint implementation",
+    "total_steps": 28,
+    "last_updated": "2026-01-03T00:57:34.823265",
+    "started_at": "2026-01-03T00:52:24.153352",
+    "total_papers": 671
+  }
+}

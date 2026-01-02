@@ -1,0 +1,366 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T19:23:53.291193",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'DeepSeek mHC'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "DeepSeek mHC",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": 2023,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 50
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-02T19:24:00.607221",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'DeepSeek mHC list of papers'",
+      "result_preview": "Found 100 papers from local database",
+      "details": {
+        "query": "DeepSeek mHC list of papers",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": 2023,
+        "end_year": null,
+        "papers_found": 100,
+        "papers_added": 79,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 129
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-02T19:24:06.606944",
+      "agent": "online_search_agent",
+      "action": "Online search: 'DeepSeek mHC'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "DeepSeek mHC",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 25,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 154
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-02T19:24:23.190579",
+      "agent": "online_search_agent",
+      "action": "Online search: 'DeepSeek MHC'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "DeepSeek MHC",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 154
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-02T19:24:31.232373",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'DeepSeek'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "DeepSeek",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 1,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 155
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-02T19:24:36.334644",
+      "agent": "online_search_agent",
+      "action": "Online search: 'DeepSeek MHC'",
+      "result_preview": "Found 102 papers",
+      "details": {
+        "query": "DeepSeek MHC",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 102,
+        "papers_added": 76,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 231
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-02T19:25:11.977233",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'DeepSeek mHC list or MHC paper list'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "DeepSeek mHC list or MHC paper list",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 40,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 271
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-02T19:25:22.867970",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'DeepSeek mHC list or MHC paper list'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "DeepSeek mHC list or MHC paper list",
+        "conferences": null,
+        "start_year": 2020,
+        "end_year": 2025,
+        "papers_found": 50,
+        "papers_added": 10,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 281
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-02T19:25:26.852650",
+      "agent": "online_search_agent",
+      "action": "Online search: 'DeepSeek mHC list or MHC paper list'",
+      "result_preview": "Found 106 papers",
+      "details": {
+        "query": "DeepSeek mHC list or MHC paper list",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 106,
+        "papers_added": 105,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 386
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-02T19:26:16.868795",
+      "agent": "online_search_agent",
+      "action": "Online search: 'TopoMHC: Sequence–Topology Fusion for MHC Binding'",
+      "result_preview": "Found 0 papers",
+      "details": {
+        "query": "TopoMHC: Sequence–Topology Fusion for MHC Binding",
+        "sources": null,
+        "papers_found": 0,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 386
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-02T19:26:33.225833",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'TopoMHC Sequence–Topology Fusion for MHC Binding'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "TopoMHC Sequence–Topology Fusion for MHC Binding",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 47,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 433
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-02T19:26:35.475841",
+      "agent": "online_search_agent",
+      "action": "Online search: 'TopoMHC'",
+      "result_preview": "Found 0 papers",
+      "details": {
+        "query": "TopoMHC",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 0,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 433
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-02T19:26:38.360697",
+      "agent": "online_search_agent",
+      "action": "Online search: 'MHC binding prediction topology'",
+      "result_preview": "Found 73 papers",
+      "details": {
+        "query": "MHC binding prediction topology",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 73,
+        "papers_added": 69,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 502
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-02T19:26:54.130842",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'MHC binding prediction'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "MHC binding prediction",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 23,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 525
+    }
+  ],
+  "current_step": 14,
+  "metadata": {
+    "query": "MHC binding prediction",
+    "total_steps": 14,
+    "last_updated": "2026-01-02T19:26:54.162962",
+    "started_at": "2026-01-02T19:23:21.497659",
+    "total_papers": 525
+  }
+}

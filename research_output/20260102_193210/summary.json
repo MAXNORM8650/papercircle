@@ -1,0 +1,84 @@
+{
+  "summary": {
+    "query": "DeepSeek mHC",
+    "total_papers": 75,
+    "unique_sources": 4,
+    "year_range": {
+      "min": 2025,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 0,
+      "average": 0
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 27,
+    "papers_with_doi": 0,
+    "processing_steps": 3
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (34) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 34
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 34 papers (45%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 34
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Fan Zhang has 2 papers in this collection",
+      "data": {
+        "author": "Fan Zhang",
+        "count": 2
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: reasoning, models, language, llms, learning",
+      "data": {
+        "keywords": {
+          "reasoning": 21,
+          "models": 16,
+          "language": 16,
+          "llms": 13,
+          "learning": 10
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "27/75 papers (36%) have direct PDF links",
+      "data": {
+        "with_pdf": 27,
+        "total": 75
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 75 papers related to 'DeepSeek mHC'",
+    "Papers collected from 4 sources: offline_iclr, offline_nips, offline_icml, arxiv",
+    "Publication years range from 2025 to 2026",
+    "Leading researchers: Fan Zhang, Yang Zhang, Wei Wang"
+  ],
+  "metadata": {
+    "query": "DeepSeek mHC",
+    "total_steps": 3,
+    "last_updated": "2026-01-02T19:32:36.567824",
+    "started_at": "2026-01-02T19:32:12.256638",
+    "total_papers": 75
+  }
+}

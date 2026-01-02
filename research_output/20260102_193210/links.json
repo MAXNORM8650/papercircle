@@ -1,0 +1,1334 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "TopoMHC: Sequence–Topology Fusion for MHC Binding",
+        "url": "https://openreview.net/forum?id=i4BiQK5Ndw",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "TransMLA: Migrating GQA Models to MLA with Full DeepSeek Compatibility and Speedup",
+        "url": "https://openreview.net/forum?id=TcVCu2PKb9",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Seek-CAD: A Self-refined Generative Modeling for 3D Parametric CAD Using Local Inference via DeepSeek",
+        "url": "https://openreview.net/forum?id=PzIc2TxhwN",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Predicting the Order of Upcoming Tokens Improves Language Modeling",
+        "url": "https://openreview.net/forum?id=YJ31taYf2A",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Long CoT In-Context Learning Can Empower Pre-trained LLMs",
+        "url": "https://openreview.net/forum?id=CeBJLnb0Iw",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Can Reasoning Language Models Think More Creatively? A Study of Reasoning Ability and Overconfidence",
+        "url": "https://openreview.net/forum?id=jxxjvzXOdG",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Value-Guided Search for Efficient Chain-of-Thought Reasoning",
+        "url": "https://openreview.net/forum?id=jOsuKwiCL0",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Reinforcing Query-Level Meta-Agents",
+        "url": "https://openreview.net/forum?id=Tx9HKhGeQW",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Benchmarking Overton Pluralism in LLMs",
+        "url": "https://openreview.net/forum?id=f2VxF4QIx1",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+        "url": "https://openreview.net/forum?id=2a36EMSSTp",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "The Geometry of Self-Verification in a Task-Specific Reasoning Model",
+        "url": "https://openreview.net/forum?id=v5rV5Y1IZv",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Bypassing Prompt Guards in Production with Controlled-Release Prompting",
+        "url": "https://openreview.net/forum?id=d1fVTnq3c8",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "RelEval: A Structured Benchmark for Logical and Relational Reasoning in LLMs",
+        "url": "https://openreview.net/forum?id=CkrqfhD4fV",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems",
+        "url": "https://icml.cc/virtual/2025/poster/45823",
+        "pdf_url": "https://openreview.net/pdf?id=GazlTYxZss",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "If an LLM Were a Character, Would It Know Its Own Story? Evaluating Lifelong Learning in LLMs",
+        "url": "https://openreview.net/forum?id=cGlvmqZlox",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "GPAS: Accelerating Convergence of LLM Pretraining via Gradient-Preserving Activation Scaling",
+        "url": "https://openreview.net/forum?id=r5tbCL9vAZ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "SWINGARENA: Adversarial Programming Arena for Long-context GitHub Issue Solving",
+        "url": "https://openreview.net/forum?id=YuxgSGFaqb",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance",
+        "url": "https://icml.cc/virtual/2025/poster/44557",
+        "pdf_url": "https://openreview.net/pdf?id=ezna4V4zHs",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Hidden in Order: A Theoretical and Empirical Dissection of Positional Bias in LLMs",
+        "url": "https://openreview.net/forum?id=KwvE9rSts7",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "I Predict Therefore I Am: Is Next Token Prediction Enough to Learn Human-Interpretable Concepts from Data?",
+        "url": "https://openreview.net/forum?id=vVYD74U5KE",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "The State of Reinforcement Finetuning for Transformer-based Generative Agents",
+        "url": "https://openreview.net/forum?id=Cbg9MR6dR7",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "OpenVLThinker: Complex Vision-Language Reasoning via Iterative SFT-RL Cycles",
+        "url": "https://openreview.net/forum?id=gfX1nqBKtu",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Understanding the Role of Training Data in Test-Time Scaling",
+        "url": "https://openreview.net/forum?id=Y9FfDNa2nJ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "R2R: Efficiently Navigating Divergent Reasoning Paths with Small-Large Model Token Routing",
+        "url": "https://openreview.net/forum?id=DpeJYRFRQY",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=JWx4DI2N8k",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Base Models Know How to Reason, Thinking Models Learn When",
+        "url": "https://openreview.net/forum?id=oTgjmEuHSw",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters",
+        "url": "https://openreview.net/forum?id=E1hbqtHrvg",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Thinker: Learning to Think Fast and Slow",
+        "url": "https://openreview.net/forum?id=psfk761b6H",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "COPO: Consistency-Aware Policy Optimization",
+        "url": "https://openreview.net/forum?id=JkmKzsMaAu",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Reasoning with Confidence: Efficient Verification of LLM Reasoning Steps via Uncertainty Heads",
+        "url": "https://openreview.net/forum?id=svQuvBYaCA",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Code-enabled language models can outperform reasoning models on diverse tasks",
+        "url": "https://openreview.net/forum?id=gUIQzhao15",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Large Language Models Think Too Fast To Explore Effectively",
+        "url": "https://openreview.net/forum?id=jW8nBi6y9F",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "AlphaDrive: Unleashing the Power of VLMs in Autonomous Driving via RL and Reasoning",
+        "url": "https://openreview.net/forum?id=QRm2CEZH41",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "One for all: Zero-Shot Cross-Hardware Performance Modeling with LLMs for Tensor Program Tuning",
+        "url": "https://openreview.net/forum?id=FCFM3Yxtsm",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Does Thinking More Always Help? Mirage of Test-Time Scaling in Reasoning Models",
+        "url": "https://openreview.net/forum?id=tKPqbamNb9",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Two Samples Are Enough: Verbal Confidence Meets Self-Consistency in Reasoning LLMs",
+        "url": "https://openreview.net/forum?id=66D3rZrNjV",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "CellVerse: Do Large Language Models Really Understand Cell Biology?",
+        "url": "https://openreview.net/forum?id=FpxIViTl3C",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "S-GRPO: Early Exit via Reinforcement Learning in Reasoning Models",
+        "url": "https://openreview.net/forum?id=wNMK5o0Vfg",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Do Language Models Trust Their Own Justifications? A Study on Functional Consistency",
+        "url": "https://openreview.net/forum?id=iU6DisYw06",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "HEAPr: Hessian-based Efficient Atomic Expert Pruning in Output Space",
+        "url": "https://openreview.net/forum?id=JAbMgS7gl6",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "From Guanyin, UFOs to Paradise: Capturing Cultural Variation in Dream Interpretation",
+        "url": "https://openreview.net/forum?id=bqaClExo4A",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "QiMeng-SALV: Signal-Aware Learning for Verilog Code Generation",
+        "url": "https://openreview.net/forum?id=vaosMuNvOt",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Exploring the Limits of Sub-Billion Language Model Reasoners with Open Training Recipes",
+        "url": "https://openreview.net/forum?id=GMlZt4fZSY",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Drop or Merge? Hybrid MoE LLMs Compressors via Metric-Driven Adaptive Allocation",
+        "url": "https://openreview.net/forum?id=9ps2joMieU",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond",
+        "url": "https://openreview.net/forum?id=XtNiw8OQsy",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "MMTU: A Massive Multi-Task Table Understanding and Reasoning Benchmark",
+        "url": "https://openreview.net/forum?id=ryUzgwD6UQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "RLBFF: Binary Flexible Feedback to bridge between Human Feedback & Verifiable Rewards",
+        "url": "https://openreview.net/forum?id=P3R3S6S5Km",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "NP-ENGINE: EMPOWERING OPTIMIZATION REASON- ING IN LARGE LANGUAGE MODELS WITH VERIFIABLE SYNTHETIC NP PROBLEMS",
+        "url": "https://openreview.net/forum?id=cJqOjedwjK",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Agnostics: Learning to Synthesize Code in Any Programming Language with a Universal Reinforcement Learning Environment",
+        "url": "https://openreview.net/forum?id=mjDT60Ffms",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "FedAgentBench: Towards Automating Real-world Federated Medical Image Analysis with Server–Client LLM Agents",
+        "url": "https://openreview.net/forum?id=kCnokG3SfU",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "mHC: Manifold-Constrained Hyper-Connections",
+        "url": "http://arxiv.org/abs/2512.24880v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24880v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "SynRAG: A Large Language Model Framework for Executable Query Generation in Heterogeneous SIEM System",
+        "url": "http://arxiv.org/abs/2512.24571v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24571v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Generative AI-enhanced Sector-based Investment Portfolio Construction",
+        "url": "http://arxiv.org/abs/2512.24526v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24526v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Evaluating the Reasoning Abilities of LLMs on Underrepresented Mathematics Competition Problems",
+        "url": "http://arxiv.org/abs/2512.24505v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24505v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Evaluating Parameter Efficient Methods for RLVR",
+        "url": "http://arxiv.org/abs/2512.23165v2",
+        "pdf_url": "https://arxiv.org/pdf/2512.23165v2",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents",
+        "url": "http://arxiv.org/abs/2512.23128v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.23128v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "HiSciBench: A Hierarchical Multi-disciplinary Benchmark for Scientific Intelligence from Reading to Discovery",
+        "url": "http://arxiv.org/abs/2512.22899v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.22899v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "From Rookie to Expert: Manipulating LLMs for Automated Vulnerability Exploitation in Enterprise Software",
+        "url": "http://arxiv.org/abs/2512.22753v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.22753v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Efficient Multi-Model Orchestration for Self-Hosted Large Language Models",
+        "url": "http://arxiv.org/abs/2512.22402v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.22402v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents",
+        "url": "http://arxiv.org/abs/2512.22322v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.22322v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "CricBench: A Multilingual Benchmark for Evaluating LLMs in Cricket Analytics",
+        "url": "http://arxiv.org/abs/2512.21877v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.21877v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Leash: Adaptive Length Penalty and Reward Shaping for Efficient Large Reasoning Model",
+        "url": "http://arxiv.org/abs/2512.21540v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.21540v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Hierarchical Stacking Optimization Using Dirichlet's Process (SoDip): Towards Accelerated Design for Graft Polymerization",
+        "url": "http://arxiv.org/abs/2512.22279v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.22279v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Efficient MoE Inference with Fine-Grained Scheduling of Disaggregated Expert Parallelism",
+        "url": "http://arxiv.org/abs/2512.21487v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.21487v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Demystifying ARM SME to Optimize General Matrix Multiplications",
+        "url": "http://arxiv.org/abs/2512.21473v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.21473v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "LLMTM: Benchmarking and Optimizing LLMs for Temporal Motif Analysis in Dynamic Graphs",
+        "url": "http://arxiv.org/abs/2512.22266v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.22266v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Beyond Context: Large Language Models Failure to Grasp Users Intent",
+        "url": "http://arxiv.org/abs/2512.21110v2",
+        "pdf_url": "https://arxiv.org/pdf/2512.21110v2",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Automatic Replication of LLM Mistakes in Medical Conversations",
+        "url": "http://arxiv.org/abs/2512.20983v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.20983v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-Augmented Agent",
+        "url": "http://arxiv.org/abs/2512.20745v2",
+        "pdf_url": "https://arxiv.org/pdf/2512.20745v2",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "A DeepSeek-Powered AI System for Automated Chest Radiograph Interpretation in Clinical Practice",
+        "url": "http://arxiv.org/abs/2512.20344v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.20344v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "MolAct: An Agentic RL Framework for Molecular Editing and Property Optimization",
+        "url": "http://arxiv.org/abs/2512.20135v2",
+        "pdf_url": "https://arxiv.org/pdf/2512.20135v2",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Energy-Efficient Multi-LLM Reasoning for Binary-Free Zero-Day Detection in IoT Firmware",
+        "url": "http://arxiv.org/abs/2512.19945v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.19945v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Larger Is Not Always Better: Leveraging Structured Code Diffs for Comment Inconsistency Detection",
+        "url": "http://arxiv.org/abs/2512.19883v2",
+        "pdf_url": "https://arxiv.org/pdf/2512.19883v2",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "UCCL-EP: Portable Expert-Parallel Communication",
+        "url": "http://arxiv.org/abs/2512.19849v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.19849v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "FASTRIC: Prompt Specification Language for Verifiable LLM Interactions",
+        "url": "http://arxiv.org/abs/2512.18940v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.18940v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "offline_iclr": [
+        {
+          "title": "TopoMHC: Sequence–Topology Fusion for MHC Binding",
+          "url": "https://openreview.net/forum?id=i4BiQK5Ndw",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Seek-CAD: A Self-refined Generative Modeling for 3D Parametric CAD Using Local Inference via DeepSeek",
+          "url": "https://openreview.net/forum?id=PzIc2TxhwN",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Predicting the Order of Upcoming Tokens Improves Language Modeling",
+          "url": "https://openreview.net/forum?id=YJ31taYf2A",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Long CoT In-Context Learning Can Empower Pre-trained LLMs",
+          "url": "https://openreview.net/forum?id=CeBJLnb0Iw",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Can Reasoning Language Models Think More Creatively? A Study of Reasoning Ability and Overconfidence",
+          "url": "https://openreview.net/forum?id=jxxjvzXOdG",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Reinforcing Query-Level Meta-Agents",
+          "url": "https://openreview.net/forum?id=Tx9HKhGeQW",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Benchmarking Overton Pluralism in LLMs",
+          "url": "https://openreview.net/forum?id=f2VxF4QIx1",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "The Geometry of Self-Verification in a Task-Specific Reasoning Model",
+          "url": "https://openreview.net/forum?id=v5rV5Y1IZv",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Bypassing Prompt Guards in Production with Controlled-Release Prompting",
+          "url": "https://openreview.net/forum?id=d1fVTnq3c8",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "RelEval: A Structured Benchmark for Logical and Relational Reasoning in LLMs",
+          "url": "https://openreview.net/forum?id=CkrqfhD4fV",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "If an LLM Were a Character, Would It Know Its Own Story? Evaluating Lifelong Learning in LLMs",
+          "url": "https://openreview.net/forum?id=cGlvmqZlox",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "SWINGARENA: Adversarial Programming Arena for Long-context GitHub Issue Solving",
+          "url": "https://openreview.net/forum?id=YuxgSGFaqb",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Hidden in Order: A Theoretical and Empirical Dissection of Positional Bias in LLMs",
+          "url": "https://openreview.net/forum?id=KwvE9rSts7",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "I Predict Therefore I Am: Is Next Token Prediction Enough to Learn Human-Interpretable Concepts from Data?",
+          "url": "https://openreview.net/forum?id=vVYD74U5KE",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "The State of Reinforcement Finetuning for Transformer-based Generative Agents",
+          "url": "https://openreview.net/forum?id=Cbg9MR6dR7",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Understanding the Role of Training Data in Test-Time Scaling",
+          "url": "https://openreview.net/forum?id=Y9FfDNa2nJ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning",
+          "url": "https://openreview.net/forum?id=JWx4DI2N8k",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Base Models Know How to Reason, Thinking Models Learn When",
+          "url": "https://openreview.net/forum?id=oTgjmEuHSw",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters",
+          "url": "https://openreview.net/forum?id=E1hbqtHrvg",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "COPO: Consistency-Aware Policy Optimization",
+          "url": "https://openreview.net/forum?id=JkmKzsMaAu",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Reasoning with Confidence: Efficient Verification of LLM Reasoning Steps via Uncertainty Heads",
+          "url": "https://openreview.net/forum?id=svQuvBYaCA",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Code-enabled language models can outperform reasoning models on diverse tasks",
+          "url": "https://openreview.net/forum?id=gUIQzhao15",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "AlphaDrive: Unleashing the Power of VLMs in Autonomous Driving via RL and Reasoning",
+          "url": "https://openreview.net/forum?id=QRm2CEZH41",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "One for all: Zero-Shot Cross-Hardware Performance Modeling with LLMs for Tensor Program Tuning",
+          "url": "https://openreview.net/forum?id=FCFM3Yxtsm",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Two Samples Are Enough: Verbal Confidence Meets Self-Consistency in Reasoning LLMs",
+          "url": "https://openreview.net/forum?id=66D3rZrNjV",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Do Language Models Trust Their Own Justifications? A Study on Functional Consistency",
+          "url": "https://openreview.net/forum?id=iU6DisYw06",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "HEAPr: Hessian-based Efficient Atomic Expert Pruning in Output Space",
+          "url": "https://openreview.net/forum?id=JAbMgS7gl6",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "From Guanyin, UFOs to Paradise: Capturing Cultural Variation in Dream Interpretation",
+          "url": "https://openreview.net/forum?id=bqaClExo4A",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Exploring the Limits of Sub-Billion Language Model Reasoners with Open Training Recipes",
+          "url": "https://openreview.net/forum?id=GMlZt4fZSY",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Drop or Merge? Hybrid MoE LLMs Compressors via Metric-Driven Adaptive Allocation",
+          "url": "https://openreview.net/forum?id=9ps2joMieU",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "RLBFF: Binary Flexible Feedback to bridge between Human Feedback & Verifiable Rewards",
+          "url": "https://openreview.net/forum?id=P3R3S6S5Km",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "NP-ENGINE: EMPOWERING OPTIMIZATION REASON- ING IN LARGE LANGUAGE MODELS WITH VERIFIABLE SYNTHETIC NP PROBLEMS",
+          "url": "https://openreview.net/forum?id=cJqOjedwjK",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Agnostics: Learning to Synthesize Code in Any Programming Language with a Universal Reinforcement Learning Environment",
+          "url": "https://openreview.net/forum?id=mjDT60Ffms",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "FedAgentBench: Towards Automating Real-world Federated Medical Image Analysis with Server–Client LLM Agents",
+          "url": "https://openreview.net/forum?id=kCnokG3SfU",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "TransMLA: Migrating GQA Models to MLA with Full DeepSeek Compatibility and Speedup",
+          "url": "https://openreview.net/forum?id=TcVCu2PKb9",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Value-Guided Search for Efficient Chain-of-Thought Reasoning",
+          "url": "https://openreview.net/forum?id=jOsuKwiCL0",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+          "url": "https://openreview.net/forum?id=2a36EMSSTp",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "GPAS: Accelerating Convergence of LLM Pretraining via Gradient-Preserving Activation Scaling",
+          "url": "https://openreview.net/forum?id=r5tbCL9vAZ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "OpenVLThinker: Complex Vision-Language Reasoning via Iterative SFT-RL Cycles",
+          "url": "https://openreview.net/forum?id=gfX1nqBKtu",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "R2R: Efficiently Navigating Divergent Reasoning Paths with Small-Large Model Token Routing",
+          "url": "https://openreview.net/forum?id=DpeJYRFRQY",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Thinker: Learning to Think Fast and Slow",
+          "url": "https://openreview.net/forum?id=psfk761b6H",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Large Language Models Think Too Fast To Explore Effectively",
+          "url": "https://openreview.net/forum?id=jW8nBi6y9F",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Does Thinking More Always Help? Mirage of Test-Time Scaling in Reasoning Models",
+          "url": "https://openreview.net/forum?id=tKPqbamNb9",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "CellVerse: Do Large Language Models Really Understand Cell Biology?",
+          "url": "https://openreview.net/forum?id=FpxIViTl3C",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "S-GRPO: Early Exit via Reinforcement Learning in Reasoning Models",
+          "url": "https://openreview.net/forum?id=wNMK5o0Vfg",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "QiMeng-SALV: Signal-Aware Learning for Verilog Code Generation",
+          "url": "https://openreview.net/forum?id=vaosMuNvOt",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond",
+          "url": "https://openreview.net/forum?id=XtNiw8OQsy",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "MMTU: A Massive Multi-Task Table Understanding and Reasoning Benchmark",
+          "url": "https://openreview.net/forum?id=ryUzgwD6UQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems",
+          "url": "https://icml.cc/virtual/2025/poster/45823",
+          "pdf_url": "https://openreview.net/pdf?id=GazlTYxZss",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance",
+          "url": "https://icml.cc/virtual/2025/poster/44557",
+          "pdf_url": "https://openreview.net/pdf?id=ezna4V4zHs",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "mHC: Manifold-Constrained Hyper-Connections",
+          "url": "http://arxiv.org/abs/2512.24880v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24880v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "SynRAG: A Large Language Model Framework for Executable Query Generation in Heterogeneous SIEM System",
+          "url": "http://arxiv.org/abs/2512.24571v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24571v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Generative AI-enhanced Sector-based Investment Portfolio Construction",
+          "url": "http://arxiv.org/abs/2512.24526v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24526v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Evaluating the Reasoning Abilities of LLMs on Underrepresented Mathematics Competition Problems",
+          "url": "http://arxiv.org/abs/2512.24505v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24505v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Evaluating Parameter Efficient Methods for RLVR",
+          "url": "http://arxiv.org/abs/2512.23165v2",
+          "pdf_url": "https://arxiv.org/pdf/2512.23165v2",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents",
+          "url": "http://arxiv.org/abs/2512.23128v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.23128v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "HiSciBench: A Hierarchical Multi-disciplinary Benchmark for Scientific Intelligence from Reading to Discovery",
+          "url": "http://arxiv.org/abs/2512.22899v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.22899v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "From Rookie to Expert: Manipulating LLMs for Automated Vulnerability Exploitation in Enterprise Software",
+          "url": "http://arxiv.org/abs/2512.22753v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.22753v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Efficient Multi-Model Orchestration for Self-Hosted Large Language Models",
+          "url": "http://arxiv.org/abs/2512.22402v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.22402v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents",
+          "url": "http://arxiv.org/abs/2512.22322v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.22322v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "CricBench: A Multilingual Benchmark for Evaluating LLMs in Cricket Analytics",
+          "url": "http://arxiv.org/abs/2512.21877v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.21877v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Leash: Adaptive Length Penalty and Reward Shaping for Efficient Large Reasoning Model",
+          "url": "http://arxiv.org/abs/2512.21540v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.21540v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Hierarchical Stacking Optimization Using Dirichlet's Process (SoDip): Towards Accelerated Design for Graft Polymerization",
+          "url": "http://arxiv.org/abs/2512.22279v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.22279v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Efficient MoE Inference with Fine-Grained Scheduling of Disaggregated Expert Parallelism",
+          "url": "http://arxiv.org/abs/2512.21487v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.21487v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Demystifying ARM SME to Optimize General Matrix Multiplications",
+          "url": "http://arxiv.org/abs/2512.21473v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.21473v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "LLMTM: Benchmarking and Optimizing LLMs for Temporal Motif Analysis in Dynamic Graphs",
+          "url": "http://arxiv.org/abs/2512.22266v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.22266v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Beyond Context: Large Language Models Failure to Grasp Users Intent",
+          "url": "http://arxiv.org/abs/2512.21110v2",
+          "pdf_url": "https://arxiv.org/pdf/2512.21110v2",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Automatic Replication of LLM Mistakes in Medical Conversations",
+          "url": "http://arxiv.org/abs/2512.20983v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.20983v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-Augmented Agent",
+          "url": "http://arxiv.org/abs/2512.20745v2",
+          "pdf_url": "https://arxiv.org/pdf/2512.20745v2",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "A DeepSeek-Powered AI System for Automated Chest Radiograph Interpretation in Clinical Practice",
+          "url": "http://arxiv.org/abs/2512.20344v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.20344v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "MolAct: An Agentic RL Framework for Molecular Editing and Property Optimization",
+          "url": "http://arxiv.org/abs/2512.20135v2",
+          "pdf_url": "https://arxiv.org/pdf/2512.20135v2",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Energy-Efficient Multi-LLM Reasoning for Binary-Free Zero-Day Detection in IoT Firmware",
+          "url": "http://arxiv.org/abs/2512.19945v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.19945v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Larger Is Not Always Better: Leveraging Structured Code Diffs for Comment Inconsistency Detection",
+          "url": "http://arxiv.org/abs/2512.19883v2",
+          "pdf_url": "https://arxiv.org/pdf/2512.19883v2",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "UCCL-EP: Portable Expert-Parallel Communication",
+          "url": "http://arxiv.org/abs/2512.19849v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.19849v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FASTRIC: Prompt Specification Language for Verifiable LLM Interactions",
+          "url": "http://arxiv.org/abs/2512.18940v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.18940v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems",
+        "pdf": "https://openreview.net/pdf?id=GazlTYxZss"
+      },
+      {
+        "title": "CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance",
+        "pdf": "https://openreview.net/pdf?id=ezna4V4zHs"
+      },
+      {
+        "title": "mHC: Manifold-Constrained Hyper-Connections",
+        "pdf": "https://arxiv.org/pdf/2512.24880v1"
+      },
+      {
+        "title": "SynRAG: A Large Language Model Framework for Executable Query Generation in Heterogeneous SIEM System",
+        "pdf": "https://arxiv.org/pdf/2512.24571v1"
+      },
+      {
+        "title": "Generative AI-enhanced Sector-based Investment Portfolio Construction",
+        "pdf": "https://arxiv.org/pdf/2512.24526v1"
+      },
+      {
+        "title": "Evaluating the Reasoning Abilities of LLMs on Underrepresented Mathematics Competition Problems",
+        "pdf": "https://arxiv.org/pdf/2512.24505v1"
+      },
+      {
+        "title": "Evaluating Parameter Efficient Methods for RLVR",
+        "pdf": "https://arxiv.org/pdf/2512.23165v2"
+      },
+      {
+        "title": "It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents",
+        "pdf": "https://arxiv.org/pdf/2512.23128v1"
+      },
+      {
+        "title": "HiSciBench: A Hierarchical Multi-disciplinary Benchmark for Scientific Intelligence from Reading to Discovery",
+        "pdf": "https://arxiv.org/pdf/2512.22899v1"
+      },
+      {
+        "title": "From Rookie to Expert: Manipulating LLMs for Automated Vulnerability Exploitation in Enterprise Software",
+        "pdf": "https://arxiv.org/pdf/2512.22753v1"
+      },
+      {
+        "title": "Efficient Multi-Model Orchestration for Self-Hosted Large Language Models",
+        "pdf": "https://arxiv.org/pdf/2512.22402v1"
+      },
+      {
+        "title": "SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents",
+        "pdf": "https://arxiv.org/pdf/2512.22322v1"
+      },
+      {
+        "title": "CricBench: A Multilingual Benchmark for Evaluating LLMs in Cricket Analytics",
+        "pdf": "https://arxiv.org/pdf/2512.21877v1"
+      },
+      {
+        "title": "Leash: Adaptive Length Penalty and Reward Shaping for Efficient Large Reasoning Model",
+        "pdf": "https://arxiv.org/pdf/2512.21540v1"
+      },
+      {
+        "title": "Hierarchical Stacking Optimization Using Dirichlet's Process (SoDip): Towards Accelerated Design for Graft Polymerization",
+        "pdf": "https://arxiv.org/pdf/2512.22279v1"
+      },
+      {
+        "title": "Efficient MoE Inference with Fine-Grained Scheduling of Disaggregated Expert Parallelism",
+        "pdf": "https://arxiv.org/pdf/2512.21487v1"
+      },
+      {
+        "title": "Demystifying ARM SME to Optimize General Matrix Multiplications",
+        "pdf": "https://arxiv.org/pdf/2512.21473v1"
+      },
+      {
+        "title": "LLMTM: Benchmarking and Optimizing LLMs for Temporal Motif Analysis in Dynamic Graphs",
+        "pdf": "https://arxiv.org/pdf/2512.22266v1"
+      },
+      {
+        "title": "Beyond Context: Large Language Models Failure to Grasp Users Intent",
+        "pdf": "https://arxiv.org/pdf/2512.21110v2"
+      },
+      {
+        "title": "Automatic Replication of LLM Mistakes in Medical Conversations",
+        "pdf": "https://arxiv.org/pdf/2512.20983v1"
+      },
+      {
+        "title": "AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-Augmented Agent",
+        "pdf": "https://arxiv.org/pdf/2512.20745v2"
+      },
+      {
+        "title": "A DeepSeek-Powered AI System for Automated Chest Radiograph Interpretation in Clinical Practice",
+        "pdf": "https://arxiv.org/pdf/2512.20344v1"
+      },
+      {
+        "title": "MolAct: An Agentic RL Framework for Molecular Editing and Property Optimization",
+        "pdf": "https://arxiv.org/pdf/2512.20135v2"
+      },
+      {
+        "title": "Energy-Efficient Multi-LLM Reasoning for Binary-Free Zero-Day Detection in IoT Firmware",
+        "pdf": "https://arxiv.org/pdf/2512.19945v1"
+      },
+      {
+        "title": "Larger Is Not Always Better: Leveraging Structured Code Diffs for Comment Inconsistency Detection",
+        "pdf": "https://arxiv.org/pdf/2512.19883v2"
+      },
+      {
+        "title": "UCCL-EP: Portable Expert-Parallel Communication",
+        "pdf": "https://arxiv.org/pdf/2512.19849v1"
+      },
+      {
+        "title": "FASTRIC: Prompt Specification Language for Verifiable LLM Interactions",
+        "pdf": "https://arxiv.org/pdf/2512.18940v1"
+      }
+    ],
+    "dois_only": []
+  },
+  "metadata": {
+    "query": "DeepSeek mHC",
+    "total_steps": 3,
+    "last_updated": "2026-01-02T19:32:36.555976",
+    "started_at": "2026-01-02T19:32:12.256638",
+    "total_papers": 75
+  }
+}

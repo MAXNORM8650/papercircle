@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "world model representation learning",
+    "total_papers": 711,
+    "unique_sources": 22,
+    "year_range": {
+      "min": 2017,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 4463,
+      "average": 46.0
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 489,
+    "papers_with_doi": 136,
+    "processing_steps": 19
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (69) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 69
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 291 papers (40%)",
+      "data": {
+        "source": "arxiv",
+        "count": 291
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Song-Chun Zhu has 6 papers in this collection",
+      "data": {
+        "author": "Song-Chun Zhu",
+        "count": 6
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"GAIA-1: A Generative World Model for Autonomous Driving...\" has 404 citations",
+      "data": {
+        "title": "GAIA-1: A Generative World Model for Autonomous Driving",
+        "citations": 404
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: learning, world, models, representation, model",
+      "data": {
+        "keywords": {
+          "learning": 259,
+          "world": 250,
+          "models": 154,
+          "representation": 137,
+          "model": 111
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "489/711 papers (68%) have direct PDF links",
+      "data": {
+        "with_pdf": 489,
+        "total": 711
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 711 papers related to 'world model representation learning'",
+    "Papers collected from 22 sources: offline_iclr, offline_nips, offline_eccv, offline_iros, offline_iccv, offline_ijcai, offline_icml, offline_cvpr, offline_emnlp, offline_corl, offline_aaai, offline_icra, offline_acl, offline_colm, offline_acml, offline_acmmm, offline_coling, offline_aistats, dblp, semantic_scholar, arxiv, openalex",
+    "Publication years range from 2017 to 2026",
+    "Total citations: 4463, Average: 46",
+    "Leading researchers: Song-Chun Zhu, Chuang Gan, Sungjin Ahn"
+  ],
+  "metadata": {
+    "query": "world model representation learning",
+    "total_steps": 19,
+    "last_updated": "2026-01-03T00:40:50.154148",
+    "started_at": "2026-01-03T00:37:45.206607",
+    "total_papers": 711
+  }
+}

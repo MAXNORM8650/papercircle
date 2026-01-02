@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "verified LLM post-training",
+    "total_papers": 727,
+    "unique_sources": 18,
+    "year_range": {
+      "min": 2020,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 674,
+      "average": 25.0
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 464,
+    "papers_with_doi": 139,
+    "processing_steps": 30
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (116) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 116
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 318 papers (43%)",
+      "data": {
+        "source": "arxiv",
+        "count": 318
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Xianglong Liu has 9 papers in this collection",
+      "data": {
+        "author": "Xianglong Liu",
+        "count": 9
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"LLM-QAT: Data-Free Quantization Aware Training for Large Language Models...\" has 288 citations",
+      "data": {
+        "title": "LLM-QAT: Data-Free Quantization Aware Training for Large Language Models",
+        "citations": 288
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: training, post, language, models, quantization",
+      "data": {
+        "keywords": {
+          "training": 258,
+          "post": 239,
+          "language": 143,
+          "models": 129,
+          "quantization": 110
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "464/727 papers (63%) have direct PDF links",
+      "data": {
+        "with_pdf": 464,
+        "total": 727
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 727 papers related to 'verified LLM post-training'",
+    "Papers collected from 18 sources: offline_acl, offline_iclr, offline_icml, offline_nips, offline_emnlp, offline_colm, offline_acmmm, offline_corl, offline_eccv, offline_iccv, offline_cvpr, offline_wacv, offline_naacl, offline_aaai, arxiv, dblp, openalex, semantic_scholar",
+    "Publication years range from 2020 to 2026",
+    "Total citations: 674, Average: 24",
+    "Leading researchers: Xianglong Liu, Wei Zhang, Yongkweon Jeon"
+  ],
+  "metadata": {
+    "query": "verified LLM post-training",
+    "total_steps": 30,
+    "last_updated": "2026-01-02T17:34:27.831604",
+    "started_at": "2026-01-02T17:28:44.014828",
+    "total_papers": 727
+  }
+}

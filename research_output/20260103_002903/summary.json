@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "abstract world models computational efficiency metrics",
+    "total_papers": 776,
+    "unique_sources": 15,
+    "year_range": {
+      "min": 1987,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 7593,
+      "average": 32.7
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 429,
+    "papers_with_doi": 423,
+    "processing_steps": 16
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (23) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 23
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 329 papers (42%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 329
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "RAHEB ALI MOHAMMED SALEH AOUDH has 8 papers in this collection",
+      "data": {
+        "author": "RAHEB ALI MOHAMMED SALEH AOUDH",
+        "count": 8
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Mastering Atari with Discrete World Models...\" has 1040 citations",
+      "data": {
+        "title": "Mastering Atari with Discrete World Models",
+        "citations": 1040
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: models, learning, world, representation, language",
+      "data": {
+        "keywords": {
+          "models": 217,
+          "learning": 138,
+          "world": 123,
+          "representation": 104,
+          "language": 87
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "429/776 papers (55%) have direct PDF links",
+      "data": {
+        "with_pdf": 429,
+        "total": 776
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 776 papers related to 'abstract world models computational efficiency metrics'",
+    "Papers collected from 15 sources: offline_iclr, offline_icra, offline_icml, offline_iros, offline_emnlp, offline_acl, offline_cvpr, offline_nips, offline_aaai, offline_coling, offline_naacl, offline_siggraph, arxiv, openalex, semantic_scholar",
+    "Publication years range from 1987 to 2026",
+    "Total citations: 7593, Average: 32",
+    "Leading researchers: RAHEB ALI MOHAMMED SALEH AOUDH, Song-Chun Zhu, Yixin Zhu"
+  ],
+  "metadata": {
+    "query": "abstract world models computational efficiency metrics",
+    "total_steps": 16,
+    "last_updated": "2026-01-03T00:31:26.448362",
+    "started_at": "2026-01-03T00:29:05.060849",
+    "total_papers": 776
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "synthetic graph data training neural networks graph reasoning",
+    "total_papers": 528,
+    "unique_sources": 19,
+    "year_range": {
+      "min": 2018,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 2675,
+      "average": 34.3
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 326,
+    "papers_with_doi": 159,
+    "processing_steps": 15
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (72) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 72
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 139 papers (26%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 139
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Carl Yang has 5 papers in this collection",
+      "data": {
+        "author": "Carl Yang",
+        "count": 5
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials...\" has 1688 citations",
+      "data": {
+        "title": "E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials",
+        "citations": 1688
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: graph, learning, networks, data, neural",
+      "data": {
+        "keywords": {
+          "graph": 193,
+          "learning": 93,
+          "networks": 92,
+          "data": 90,
+          "neural": 90
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "326/528 papers (61%) have direct PDF links",
+      "data": {
+        "with_pdf": 326,
+        "total": 528
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 528 papers related to 'synthetic graph data training neural networks graph reasoning'",
+    "Papers collected from 19 sources: offline_iclr, offline_emnlp, offline_acl, offline_eccv, offline_icml, offline_nips, offline_cvpr, offline_naacl, offline_aaai, offline_colm, offline_wacv, offline_acml, offline_www, offline_coling, offline_aistats, offline_kdd, openalex, arxiv, semantic_scholar",
+    "Publication years range from 2018 to 2026",
+    "Total citations: 2675, Average: 34",
+    "Leading researchers: Carl Yang, Xin Wang, Julian McAuley"
+  ],
+  "metadata": {
+    "query": "synthetic graph data training neural networks graph reasoning",
+    "total_steps": 15,
+    "last_updated": "2026-01-02T17:42:09.693524",
+    "started_at": "2026-01-02T17:36:39.129167",
+    "total_papers": 528
+  }
+}

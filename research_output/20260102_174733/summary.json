@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "LLM post-training survey review",
+    "total_papers": 48,
+    "unique_sources": 7,
+    "year_range": {
+      "min": 2020,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 11907,
+      "average": 595.4
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 38,
+    "papers_with_doi": 20,
+    "processing_steps": 19
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (2) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 2
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 20 papers (41%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 20
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Amrita Bhattacharjee has 2 papers in this collection",
+      "data": {
+        "author": "Amrita Bhattacharjee",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"A Survey on Evaluation of Large Language Models...\" has 2687 citations",
+      "data": {
+        "title": "A Survey on Evaluation of Large Language Models",
+        "citations": 2687
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: survey, language, large, models, review",
+      "data": {
+        "keywords": {
+          "survey": 37,
+          "language": 34,
+          "large": 32,
+          "models": 30,
+          "review": 7
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "38/48 papers (79%) have direct PDF links",
+      "data": {
+        "with_pdf": 38,
+        "total": 48
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 48 papers related to 'LLM post-training survey review'",
+    "Papers collected from 7 sources: offline_acl, offline_ijcai, offline_colm, offline_iclr, offline_emnlp, offline_coling, semantic_scholar",
+    "Publication years range from 2020 to 2026",
+    "Total citations: 11907, Average: 595",
+    "Leading researchers: Amrita Bhattacharjee, Mansooreh Karami, Huan Liu"
+  ],
+  "metadata": {
+    "query": "LLM post-training survey review",
+    "total_steps": 19,
+    "last_updated": "2026-01-02T18:17:10.852075",
+    "started_at": "2026-01-02T17:47:33.769604",
+    "total_papers": 48
+  }
+}

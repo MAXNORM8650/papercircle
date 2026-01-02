@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "Joint Embedding Predictive Architecture",
+    "total_papers": 304,
+    "unique_sources": 10,
+    "year_range": {
+      "min": 2014,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 1816,
+      "average": 33.0
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 191,
+    "papers_with_doi": 109,
+    "processing_steps": 26
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (14) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 14
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 137 papers (45%)",
+      "data": {
+        "source": "arxiv",
+        "count": 137
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Yann LeCun has 16 papers in this collection",
+      "data": {
+        "author": "Yann LeCun",
+        "count": 16
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"A Path Towards Autonomous Machine Intelligence Version 0.9.2, 2022-06-27...\" has 556 citations",
+      "data": {
+        "title": "A Path Towards Autonomous Machine Intelligence Version 0.9.2, 2022-06-27",
+        "citations": 556
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: joint, embedding, predictive, learning, jepa",
+      "data": {
+        "keywords": {
+          "joint": 85,
+          "embedding": 82,
+          "predictive": 72,
+          "learning": 72,
+          "jepa": 56
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "191/304 papers (62%) have direct PDF links",
+      "data": {
+        "with_pdf": 191,
+        "total": 304
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 304 papers related to 'Joint Embedding Predictive Architecture'",
+    "Papers collected from 10 sources: offline_nips, offline_iclr, offline_eccv, offline_cvpr, offline_iccv, offline_icml, semantic_scholar, arxiv, dblp, openalex",
+    "Publication years range from 2014 to 2026",
+    "Total citations: 1816, Average: 33",
+    "Leading researchers: Yann LeCun, Etai Littwin, Nicolas Ballas"
+  ],
+  "metadata": {
+    "query": "Joint Embedding Predictive Architecture",
+    "total_steps": 26,
+    "last_updated": "2026-01-03T01:04:46.684389",
+    "started_at": "2026-01-03T01:00:04.409317",
+    "total_papers": 304
+  }
+}

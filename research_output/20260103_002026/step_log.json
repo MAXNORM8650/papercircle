@@ -1,0 +1,431 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T00:20:42.066912",
+      "agent": "online_search_agent",
+      "action": "Online search: 'abstract representation of world models with low computational requirements'",
+      "result_preview": "Found 101 papers",
+      "details": {
+        "query": "abstract representation of world models with low computational requirements",
+        "sources": null,
+        "papers_found": 101,
+        "papers_added": 101,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 101
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T00:20:50.524200",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'abstract representation of world models with low computational requirements'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "abstract representation of world models with low computational requirements",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 48,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 149
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T00:20:58.851760",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'abstract representation world models computational efficiency'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "abstract representation world models computational efficiency",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 34,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 183
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T00:21:07.146178",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'abstract representation of world models computational complexity'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "abstract representation of world models computational complexity",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 18,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 201
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T00:21:15.659161",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'efficient abstract representation world models'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "efficient abstract representation world models",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 11,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 212
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-03T00:21:23.872062",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'compact abstract representations world models'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "compact abstract representations world models",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 23,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 235
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-03T00:21:40.300408",
+      "agent": "online_search_agent",
+      "action": "Online search: 'low compute or low computational requirements in abstract representation of world models'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "low compute or low computational requirements in abstract representation of world models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 235
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-03T00:21:50.831496",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'low compute or low computational requirements in abstract representation of world models'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "low compute or low computational requirements in abstract representation of world models",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 33,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 268
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-03T00:21:56.788035",
+      "agent": "online_search_agent",
+      "action": "Online search: 'low compute or low computational requirements in abstract representation of world models'",
+      "result_preview": "Found 100 papers",
+      "details": {
+        "query": "low compute or low computational requirements in abstract representation of world models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 100,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 318
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-03T00:22:24.633308",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'abstract representation of world models AND low compute requirements'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "abstract representation of world models AND low compute requirements",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": 2023,
+        "end_year": 2026,
+        "papers_found": 50,
+        "papers_added": 26,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 344
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-03T00:22:35.493098",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'abstract representation of world models AND low compute requirements'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "abstract representation of world models AND low compute requirements",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": 2023,
+        "end_year": 2026,
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 344
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-03T00:22:40.603096",
+      "agent": "online_search_agent",
+      "action": "Online search: 'abstract representation of world models AND low compute requirements'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "abstract representation of world models AND low compute requirements",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 15,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 359
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-03T00:22:44.931003",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world models AND low compute AND abstract representation'",
+      "result_preview": "Found 70 papers",
+      "details": {
+        "query": "world models AND low compute AND abstract representation",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 70,
+        "papers_added": 44,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 403
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-03T00:22:57.307164",
+      "agent": "sorting_agent",
+      "action": "Sorted 403 papers by 'recency'",
+      "result_preview": "Top paper: Learning Abstract World Models with a Group-Struct...",
+      "details": {
+        "sort_by": "recency",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 403
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-03T00:22:59.217326",
+      "agent": "sorting_agent",
+      "action": "Sorted 10 papers by 'combined'",
+      "result_preview": "Top paper: Value-Based Deep RL Scales Predictably...",
+      "details": {
+        "sort_by": "combined",
+        "weights": "{\"recency\": 0.3, \"citations\": 0.4, \"similarity\": 0.2, \"novelty\": 0.1}",
+        "top_k": 10
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 16,
+      "timestamp": "2026-01-03T00:23:00.808546",
+      "agent": "sorting_agent",
+      "action": "Sorted 10 papers by 'citations'",
+      "result_preview": "Top paper: Value-Based Deep RL Scales Predictably...",
+      "details": {
+        "sort_by": "citations",
+        "weights": null,
+        "top_k": 10
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 17,
+      "timestamp": "2026-01-03T00:23:23.321911",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (summary)",
+      "result_preview": "Generated insights from 10 papers",
+      "details": {
+        "analysis_type": "summary"
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 18,
+      "timestamp": "2026-01-03T00:23:24.130639",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (topics)",
+      "result_preview": "Generated insights from 10 papers",
+      "details": {
+        "analysis_type": "topics"
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 19,
+      "timestamp": "2026-01-03T00:23:24.944554",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (trends)",
+      "result_preview": "Generated insights from 10 papers",
+      "details": {
+        "analysis_type": "trends"
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 20,
+      "timestamp": "2026-01-03T00:23:25.812261",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (authors)",
+      "result_preview": "Generated insights from 10 papers",
+      "details": {
+        "analysis_type": "authors"
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 21,
+      "timestamp": "2026-01-03T00:23:26.674120",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (venues)",
+      "result_preview": "Generated insights from 10 papers",
+      "details": {
+        "analysis_type": "venues"
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 22,
+      "timestamp": "2026-01-03T00:23:39.606577",
+      "agent": "export_agent",
+      "action": "Exporting papers (all)",
+      "result_preview": "Exported 10 papers",
+      "details": {
+        "format": "all",
+        "filename": "abstract_world_models"
+      },
+      "papers_count": 10
+    }
+  ],
+  "current_step": 22,
+  "metadata": {
+    "query": "world models AND low compute AND abstract representation",
+    "total_steps": 22,
+    "last_updated": "2026-01-03T00:23:39.614562",
+    "started_at": "2026-01-03T00:20:28.283261",
+    "total_papers": 10
+  }
+}

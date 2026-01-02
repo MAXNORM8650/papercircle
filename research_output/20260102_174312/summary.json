@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "LLM post-training survey review",
+    "total_papers": 587,
+    "unique_sources": 10,
+    "year_range": {
+      "min": 2020,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 7927,
+      "average": 61.9
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 427,
+    "papers_with_doi": 216,
+    "processing_steps": 18
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (3) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 3
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 169 papers (28%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 169
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Hao Chen has 4 papers in this collection",
+      "data": {
+        "author": "Hao Chen",
+        "count": 4
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"A survey on large language model based autonomous agents...\" has 2036 citations",
+      "data": {
+        "title": "A survey on large language model based autonomous agents",
+        "citations": 2036
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: language, models, survey, training, large",
+      "data": {
+        "keywords": {
+          "language": 169,
+          "models": 121,
+          "survey": 117,
+          "training": 103,
+          "large": 98
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "427/587 papers (72%) have direct PDF links",
+      "data": {
+        "with_pdf": 427,
+        "total": 587
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 587 papers related to 'LLM post-training survey review'",
+    "Papers collected from 10 sources: offline_emnlp, offline_ijcai, offline_acl, offline_iclr, offline_coling, offline_naacl, offline_aaai, semantic_scholar, arxiv, openalex",
+    "Publication years range from 2020 to 2026",
+    "Total citations: 7927, Average: 61",
+    "Leading researchers: Hao Chen, Yi Yang, Yang Liu"
+  ],
+  "metadata": {
+    "query": "LLM post-training survey review",
+    "total_steps": 18,
+    "last_updated": "2026-01-02T18:16:16.052029",
+    "started_at": "2026-01-02T17:43:13.834449",
+    "total_papers": 587
+  }
+}

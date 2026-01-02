@@ -1,0 +1,1834 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "TravelReasoner: Reasoning-Augmented Travel Survey Simulations with Large Reasoning Models",
+        "url": "https://openreview.net/forum?id=KpZkR11SjD",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "A Unified Perspective and Review on Tree Search for LLMs Test-Time Scaling",
+        "url": "https://openreview.net/forum?id=h6CQPEYAVp",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "A Survey on Efficient Large Language Model Training: From Data-centric Perspectives",
+        "url": "https://aclanthology.org/2025.acl-long.1493/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1493.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "CUAD: An Expert-Annotated NLP Dataset for Legal Contract Review",
+        "url": "https://openreview.net/forum?id=7l1Ygs3Bamw",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2021
+      },
+      {
+        "title": "FIKSurvey: An Automated Peer Review Loop to Raise the Ceiling on AI Academic Writing",
+        "url": "https://openreview.net/forum?id=SiTmdB95ad",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Stop DDoS Attacking the Research Community with AI-Generated Survey Papers",
+        "url": "https://openreview.net/forum?id=R5uuqCAPf8",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations",
+        "url": "https://aclanthology.org/2024.emnlp-main.764/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.764.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "A Survey of Post-Training Scaling in Large Language Models",
+        "url": "https://aclanthology.org/2025.acl-long.140/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.140.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Natural Language Processing Meets Quantum Physics: A Survey and Categorization",
+        "url": "https://aclanthology.org/2021.emnlp-main.254/",
+        "pdf_url": "https://aclanthology.org/2021.emnlp-main.254.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2021
+      },
+      {
+        "title": "Related Work and Citation Text Generation: A Survey",
+        "url": "https://aclanthology.org/2024.emnlp-main.767/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.767.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Are We Learning Yet? A Meta Review of Evaluation Failures Across Machine Learning",
+        "url": "https://openreview.net/forum?id=mPducS1MsEK",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2021
+      },
+      {
+        "title": "Natural Language Processing in Support of Evidence-based Medicine: A Scoping Review",
+        "url": "https://aclanthology.org/2025.findings-acl.1103/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.1103.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "A Survey on Out-of-Distribution Detection in NLP",
+        "url": "https://openreview.net/forum?id=6YQ1uh9IGG",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "A Survey of Active Learning for Natural Language Processing",
+        "url": "https://aclanthology.org/2022.emnlp-main.414/",
+        "pdf_url": "https://aclanthology.org/2022.emnlp-main.414.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2022
+      },
+      {
+        "title": "A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions",
+        "url": "https://aclanthology.org/2025.findings-acl.385/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.385.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "How to Enable Effective Cooperation Between Humans and NLP Models: A Survey of Principles, Formalizations, and Beyond",
+        "url": "https://aclanthology.org/2025.acl-long.22/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.22.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Knowledge Boundary of Large Language Models: A Survey",
+        "url": "https://aclanthology.org/2025.acl-long.256/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.256.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "OpenReviewer: Mitigating Challenges in LLM Reviewing",
+        "url": "https://openreview.net/forum?id=gqmELEp3lZ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Puzzle Solving using Reasoning of Large Language Models: A Survey",
+        "url": "https://aclanthology.org/2024.emnlp-main.646/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.646.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "APlaud: Adaptive Personalized Low-Rank Decomposition for User-Specific LLM",
+        "url": "https://openreview.net/forum?id=kZabPVFfIM",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Pragmatics in the Era of Large Language Models: A Survey on Datasets, Evaluation, Opportunities and Challenges",
+        "url": "https://aclanthology.org/2025.acl-long.425/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.425.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Rethinking Output Alignment for 1-bit Post-Training Quantization of Large Language Models",
+        "url": "https://openreview.net/forum?id=abgW71sKIt",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "The Ideation-Execution Gap: Execution Outcomes of LLM-Generated versus Human Research Ideas",
+        "url": "https://openreview.net/forum?id=Fllp8l6Puy",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Plan-based Prompting Improves Literature Review Generation",
+        "url": "https://openreview.net/forum?id=xNn2nq5kiy",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "From Replication to Redesign: Exploring Pairwise Comparisons for LLM-Based Peer Review",
+        "url": "https://openreview.net/forum?id=z5KTxW5sJd",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Coder-R3: Recognize, Review and Repair Defective Code with Finetuned LLMs in Practice",
+        "url": "https://openreview.net/forum?id=WvIa2MnS4D",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Large Language Models for Data Annotation and Synthesis: A Survey",
+        "url": "https://aclanthology.org/2024.emnlp-main.54/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.54.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "A Survey on Natural Language Counterfactual Generation",
+        "url": "https://aclanthology.org/2024.findings-emnlp.276/",
+        "pdf_url": "https://aclanthology.org/2024.findings-emnlp.276.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "HiReview: Hierarchical Taxonomy-Driven Automatic Literature Review Generation",
+        "url": "https://openreview.net/forum?id=Ncx0X8lcN1",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "An Integrative Survey on Mental Health Conversational Agents to Bridge Computer Science and Medical Perspectives",
+        "url": "https://openreview.net/forum?id=Itnbse9MMW",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "Incorporating Worker Perspectives into MTurk Annotation Practices for NLP",
+        "url": "https://openreview.net/forum?id=v6iM1bO78t",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "AI Respondents for Policy Monitoring: From Data Extraction to AI-Driven Survey Responses in the OECD STIP Compass",
+        "url": "https://openreview.net/forum?id=hDLYnurOmb",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "A Survey on Modelling Morality for Text Analysis",
+        "url": "https://aclanthology.org/2024.findings-acl.245/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.245.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Questioning the Survey Responses of Large Language Models",
+        "url": "https://neurips.cc/virtual/2024/poster/95348",
+        "pdf_url": "https://openreview.net/pdf?id=Oo7dlLgqQX",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Mitigating Forgetting in LLM Supervised Fine-Tuning and Preference Learning",
+        "url": "https://openreview.net/forum?id=YeErX16hMC",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Leveraging Historical Interactions for Factual Review Generation with Large Language Models",
+        "url": "https://openreview.net/forum?id=hiIqzvDMdm",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers",
+        "url": "https://iclr.cc/virtual/2025/poster/29961",
+        "pdf_url": "https://openreview.net/pdf?id=M23dTGWCZy",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "LLM-REVal: Can We Trust LLM Reviewers Yet?",
+        "url": "https://openreview.net/forum?id=sZIkXA6pMh",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Computational Meme Understanding: A Survey",
+        "url": "https://aclanthology.org/2024.emnlp-main.1184/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.1184.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Revisiting Parameter Server in LLM Post-Training",
+        "url": "https://openreview.net/forum?id=iIEEgI6WsF",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Gradient Ascent Post-training Enhances Language Model Generalization",
+        "url": "https://aclanthology.org/2023.acl-short.74/",
+        "pdf_url": "https://aclanthology.org/2023.acl-short.74.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "PiCO: Peer Review in LLMs based on the Consistency Optimization",
+        "url": "https://openreview.net/forum?id=uNZpvFlsg9",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Large Language Models in Bioinformatics: A Survey",
+        "url": "https://aclanthology.org/2025.findings-acl.184/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.184.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Generalizable LLM Learning of Graph Synthetic Data with Post-training Alignment",
+        "url": "https://openreview.net/forum?id=0kiFgLo5al",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "$Q\\sharp$: Provably Optimal Distributional RL for LLM Post-Training",
+        "url": "https://openreview.net/forum?id=MrRdupucYb",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "The AI Doctor Is In: A Survey of Task-Oriented Dialogue Systems for Healthcare Applications",
+        "url": "https://aclanthology.org/2022.acl-long.458/",
+        "pdf_url": "https://aclanthology.org/2022.acl-long.458.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2022
+      },
+      {
+        "title": "SurGE: A Benchmark and Evaluation Framework for Scientific Survey Generation",
+        "url": "https://openreview.net/forum?id=hXz1myTe4X",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Cooled and Relaxed Survey Propagation for MRFs",
+        "url": "https://papers.nips.cc/paper_files/paper/2007/hash/9778d5d219c5080b9a6a17bef029331c-Abstract.html",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2007/file/9778d5d219c5080b9a6a17bef029331c-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2007
+      },
+      {
+        "title": "First SFT, Second RL, Third UPT: Continual Improving Multi-Modal LLM Reasoning via Unsupervised Post-Training",
+        "url": "https://openreview.net/forum?id=HL1j92hb6z",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Deep Literature Survey Automation with an Iterative Workflow",
+        "url": "https://openreview.net/forum?id=yloeDBFHMu",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "PANORAMA: A Dataset and Benchmarks Capturing Decision Trails and Rationales in Patent Examination",
+        "url": "https://openreview.net/forum?id=JWewCpdjjq",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Multimodal Large Language Models for Text-rich Image Understanding: A Comprehensive Review",
+        "url": "https://aclanthology.org/2025.findings-acl.1023/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.1023.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "A Survey on Evidential Deep Learning For Single-Pass Uncertainty Estimation",
+        "url": "https://openreview.net/forum?id=UI4K-I2ypG",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2022
+      },
+      {
+        "title": "A Survey of Ontology Expansion for Conversational Understanding",
+        "url": "https://aclanthology.org/2024.emnlp-main.1006/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.1006.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Trajectory Balance with Asynchrony: Decoupling Exploration and Learning for Fast, Scalable LLM Post-Training",
+        "url": "https://openreview.net/forum?id=VwPt1WDQNB",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Fixing It in Post: A Comparative Study of LLM Post-Training Data Quality and Model Performance",
+        "url": "https://openreview.net/forum?id=1ybOI1VvQL",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Personalized Generation In Large Model Era: A Survey",
+        "url": "https://aclanthology.org/2025.acl-long.1201/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1201.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Collaborative Alignment of NLP Models",
+        "url": "https://nips.cc/virtual/2023/poster/70924",
+        "pdf_url": "https://openreview.net/pdf?id=f39Q3JyoIi",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2023
+      },
+      {
+        "title": "A Survey of Race, Racism, and Anti-Racism in NLP",
+        "url": "https://aclanthology.org/2021.acl-long.149/",
+        "pdf_url": "https://aclanthology.org/2021.acl-long.149.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2021
+      },
+      {
+        "title": "A Survey on Foundation Language Models for Single-cell Biology",
+        "url": "https://aclanthology.org/2025.acl-long.26/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.26.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Datasets for Online Controlled Experiments",
+        "url": "https://openreview.net/forum?id=79shW3z5Eaq",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2021
+      },
+      {
+        "title": "RiskPO: Risk-based Policy Optimization with Verifiable Reward for LLM Post-Training",
+        "url": "https://openreview.net/forum?id=KjHB7rebQO",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression",
+        "url": "https://iclr.cc/virtual/2025/poster/30003",
+        "pdf_url": "https://openreview.net/pdf?id=LNYIUouhdt",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "NLPeer: A Unified Resource for the Computational Study of Peer Review",
+        "url": "https://aclanthology.org/2023.acl-long.277/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.277.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Optimized Large Language Models Accurately Identify Recurrence of VT After Ablation from Complex Medical Notes: Will Chart Review Become Obsolete?",
+        "url": "https://openreview.net/forum?id=n2nPeZ9VJ0",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "SUSI: Semi-Structured Pruning for LLMs via Differentiable Subset Sampling",
+        "url": "https://openreview.net/forum?id=sGWY8n1ORQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "TesseraQ: Ultra Low-Bit LLM Post-Training Quantization with Block Reconstruction",
+        "url": "https://openreview.net/forum?id=GTe9PDhm8v",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Retrieving Multimodal Information for Augmented Generation: A Survey",
+        "url": "https://openreview.net/forum?id=jLEnVo0RW3",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "AgentReview: Exploring Peer Review Dynamics with LLM Agents",
+        "url": "https://aclanthology.org/2024.emnlp-main.70/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.70.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "ReviewerToo: Should AI Join The Program Committee? A Look At The Future of Peer Review",
+        "url": "https://openreview.net/forum?id=RHby8yu1Tw",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "What Characterizes Effective Reasoning? Revisiting Length, Review, and Structure of CoT",
+        "url": "https://openreview.net/forum?id=lqUyAmwbFM",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Tuning without Peeking: Provable Privacy and Generalization Bounds for LLM Post-Training",
+        "url": "https://openreview.net/forum?id=ZEuQ4Mm1bh",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Value Drifts: Tracing Value Alignment During LLM Post-Training",
+        "url": "https://openreview.net/forum?id=0Z9DZtIZI7",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Learning to Parallel: Accelerating Diffusion Large Language Models via Adaptive Parallel Decoding",
+        "url": "https://openreview.net/forum?id=bFJ8Sdr224",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "From Crowds to Codes: Minimizing Review Burden in Conference Review Protocols",
+        "url": "https://openreview.net/forum?id=VObyCv5JQm",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Defining Knowledge: Bridging Epistemology and Large Language Models",
+        "url": "https://aclanthology.org/2024.emnlp-main.900/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.900.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Vision-and-Language Navigation: A Survey of Tasks, Methods, and Future Directions",
+        "url": "https://aclanthology.org/2022.acl-long.524/",
+        "pdf_url": "https://aclanthology.org/2022.acl-long.524.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2022
+      },
+      {
+        "title": "Democratizing online marketing with novel text-augmenting technologies: leveraging NLP in marketing with AMCN2",
+        "url": "https://openreview.net/forum?id=erOd1p2Mlu",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Improve LLM Pre-training with RL-Guided Annealing",
+        "url": "https://openreview.net/forum?id=Ir78DvyQA1",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "LRQ: Optimizing Post-Training Quantization for Large Language Models by Learning Low-Rank Weight-Scaling Matrices",
+        "url": "https://openreview.net/forum?id=MU6jInwj7p",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Review Networks for Caption Generation",
+        "url": "https://nips.cc/virtual/2016/poster/6934",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2016/file/9996535e07258a7bbfd8b132435c5962-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2016
+      },
+      {
+        "title": "A Survey of Deep Learning for Mathematical Reasoning",
+        "url": "https://aclanthology.org/2023.acl-long.817/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.817.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "ReviewScore: Misinformed Peer Review Detection with Large Language Models",
+        "url": "https://openreview.net/forum?id=Zz2gtWX8wn",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "On the Impact of Calibration Data in Post-training Quantization and Pruning",
+        "url": "https://aclanthology.org/2024.acl-long.544/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.544.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Fundamental Capabilities of Large Language Models and their Applications in Domain Scenarios: A Survey",
+        "url": "https://aclanthology.org/2024.acl-long.599/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.599.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Ask in Any Modality: A Comprehensive Survey on Multimodal Retrieval-Augmented Generation",
+        "url": "https://aclanthology.org/2025.findings-acl.861/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.861.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Achieving binary weight and activation for LLMs using Post-Training Quantization",
+        "url": "https://aclanthology.org/2025.findings-acl.459/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.459.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "The Revolution of Multimodal Large Language Models: A Survey",
+        "url": "https://aclanthology.org/2024.findings-acl.807/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.807.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Large Language Models Meet NL2Code: A Survey",
+        "url": "https://aclanthology.org/2023.acl-long.411/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.411.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Video-Language Understanding: A Survey from Model Architecture, Model Training, and Data Perspectives",
+        "url": "https://aclanthology.org/2024.findings-acl.217/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.217.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Towards a Common Understanding of Contributing Factors for Cross-Lingual Transfer in Multilingual Language Models: A Review",
+        "url": "https://aclanthology.org/2023.acl-long.323/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.323.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "A Survey on Patent Analysis: From NLP to Multimodal AI",
+        "url": "https://aclanthology.org/2025.acl-long.419/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.419.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "A Survey of Mathematical Reasoning in the Era of Multimodal Large Language Model: Benchmark, Method & Challenges",
+        "url": "https://aclanthology.org/2025.findings-acl.614/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.614.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "A Survey of Uncertainty Estimation Methods on Large Language Models",
+        "url": "https://aclanthology.org/2025.findings-acl.1101/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.1101.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Non-Repeatable Experiments and Non-Reproducible Results: The Reproducibility Crisis in Human Evaluation in NLP",
+        "url": "https://aclanthology.org/2023.findings-acl.226/",
+        "pdf_url": "https://aclanthology.org/2023.findings-acl.226.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Media Framing: A typology and Survey of Computational Approaches Across Disciplines",
+        "url": "https://aclanthology.org/2024.acl-long.822/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.822.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Product Question Answering in E-Commerce: A Survey",
+        "url": "https://aclanthology.org/2023.acl-long.667/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.667.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Towards Reasoning in Large Language Models: A Survey",
+        "url": "https://aclanthology.org/2023.findings-acl.67/",
+        "pdf_url": "https://aclanthology.org/2023.findings-acl.67.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Beyond Counting Datasets: A Survey of Multilingual Dataset Construction and Necessary Resources",
+        "url": "https://aclanthology.org/2022.findings-emnlp.273/",
+        "pdf_url": "https://aclanthology.org/2022.findings-emnlp.273.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2022
+      },
+      {
+        "title": "PlanGenLLMs: A Modern Survey of LLM Planning Capabilities",
+        "url": "https://aclanthology.org/2025.acl-long.958/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.958.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "offline_iclr": [
+        {
+          "title": "TravelReasoner: Reasoning-Augmented Travel Survey Simulations with Large Reasoning Models",
+          "url": "https://openreview.net/forum?id=KpZkR11SjD",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "A Unified Perspective and Review on Tree Search for LLMs Test-Time Scaling",
+          "url": "https://openreview.net/forum?id=h6CQPEYAVp",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "FIKSurvey: An Automated Peer Review Loop to Raise the Ceiling on AI Academic Writing",
+          "url": "https://openreview.net/forum?id=SiTmdB95ad",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "OpenReviewer: Mitigating Challenges in LLM Reviewing",
+          "url": "https://openreview.net/forum?id=gqmELEp3lZ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "APlaud: Adaptive Personalized Low-Rank Decomposition for User-Specific LLM",
+          "url": "https://openreview.net/forum?id=kZabPVFfIM",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Rethinking Output Alignment for 1-bit Post-Training Quantization of Large Language Models",
+          "url": "https://openreview.net/forum?id=abgW71sKIt",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "The Ideation-Execution Gap: Execution Outcomes of LLM-Generated versus Human Research Ideas",
+          "url": "https://openreview.net/forum?id=Fllp8l6Puy",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Plan-based Prompting Improves Literature Review Generation",
+          "url": "https://openreview.net/forum?id=xNn2nq5kiy",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Coder-R3: Recognize, Review and Repair Defective Code with Finetuned LLMs in Practice",
+          "url": "https://openreview.net/forum?id=WvIa2MnS4D",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "HiReview: Hierarchical Taxonomy-Driven Automatic Literature Review Generation",
+          "url": "https://openreview.net/forum?id=Ncx0X8lcN1",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "AI Respondents for Policy Monitoring: From Data Extraction to AI-Driven Survey Responses in the OECD STIP Compass",
+          "url": "https://openreview.net/forum?id=hDLYnurOmb",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Mitigating Forgetting in LLM Supervised Fine-Tuning and Preference Learning",
+          "url": "https://openreview.net/forum?id=YeErX16hMC",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Leveraging Historical Interactions for Factual Review Generation with Large Language Models",
+          "url": "https://openreview.net/forum?id=hiIqzvDMdm",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers",
+          "url": "https://iclr.cc/virtual/2025/poster/29961",
+          "pdf_url": "https://openreview.net/pdf?id=M23dTGWCZy",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "LLM-REVal: Can We Trust LLM Reviewers Yet?",
+          "url": "https://openreview.net/forum?id=sZIkXA6pMh",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Revisiting Parameter Server in LLM Post-Training",
+          "url": "https://openreview.net/forum?id=iIEEgI6WsF",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Generalizable LLM Learning of Graph Synthetic Data with Post-training Alignment",
+          "url": "https://openreview.net/forum?id=0kiFgLo5al",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "SurGE: A Benchmark and Evaluation Framework for Scientific Survey Generation",
+          "url": "https://openreview.net/forum?id=hXz1myTe4X",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Deep Literature Survey Automation with an Iterative Workflow",
+          "url": "https://openreview.net/forum?id=yloeDBFHMu",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "A Survey on Evidential Deep Learning For Single-Pass Uncertainty Estimation",
+          "url": "https://openreview.net/forum?id=UI4K-I2ypG",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2022
+        },
+        {
+          "title": "RiskPO: Risk-based Policy Optimization with Verifiable Reward for LLM Post-Training",
+          "url": "https://openreview.net/forum?id=KjHB7rebQO",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression",
+          "url": "https://iclr.cc/virtual/2025/poster/30003",
+          "pdf_url": "https://openreview.net/pdf?id=LNYIUouhdt",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Optimized Large Language Models Accurately Identify Recurrence of VT After Ablation from Complex Medical Notes: Will Chart Review Become Obsolete?",
+          "url": "https://openreview.net/forum?id=n2nPeZ9VJ0",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "SUSI: Semi-Structured Pruning for LLMs via Differentiable Subset Sampling",
+          "url": "https://openreview.net/forum?id=sGWY8n1ORQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "TesseraQ: Ultra Low-Bit LLM Post-Training Quantization with Block Reconstruction",
+          "url": "https://openreview.net/forum?id=GTe9PDhm8v",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "ReviewerToo: Should AI Join The Program Committee? A Look At The Future of Peer Review",
+          "url": "https://openreview.net/forum?id=RHby8yu1Tw",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "What Characterizes Effective Reasoning? Revisiting Length, Review, and Structure of CoT",
+          "url": "https://openreview.net/forum?id=lqUyAmwbFM",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Tuning without Peeking: Provable Privacy and Generalization Bounds for LLM Post-Training",
+          "url": "https://openreview.net/forum?id=ZEuQ4Mm1bh",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Value Drifts: Tracing Value Alignment During LLM Post-Training",
+          "url": "https://openreview.net/forum?id=0Z9DZtIZI7",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Learning to Parallel: Accelerating Diffusion Large Language Models via Adaptive Parallel Decoding",
+          "url": "https://openreview.net/forum?id=bFJ8Sdr224",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "From Crowds to Codes: Minimizing Review Burden in Conference Review Protocols",
+          "url": "https://openreview.net/forum?id=VObyCv5JQm",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Democratizing online marketing with novel text-augmenting technologies: leveraging NLP in marketing with AMCN2",
+          "url": "https://openreview.net/forum?id=erOd1p2Mlu",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Improve LLM Pre-training with RL-Guided Annealing",
+          "url": "https://openreview.net/forum?id=Ir78DvyQA1",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LRQ: Optimizing Post-Training Quantization for Large Language Models by Learning Low-Rank Weight-Scaling Matrices",
+          "url": "https://openreview.net/forum?id=MU6jInwj7p",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "ReviewScore: Misinformed Peer Review Detection with Large Language Models",
+          "url": "https://openreview.net/forum?id=Zz2gtWX8wn",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        }
+      ],
+      "offline_acl": [
+        {
+          "title": "A Survey on Efficient Large Language Model Training: From Data-centric Perspectives",
+          "url": "https://aclanthology.org/2025.acl-long.1493/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1493.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "A Survey of Post-Training Scaling in Large Language Models",
+          "url": "https://aclanthology.org/2025.acl-long.140/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.140.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Natural Language Processing in Support of Evidence-based Medicine: A Scoping Review",
+          "url": "https://aclanthology.org/2025.findings-acl.1103/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.1103.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions",
+          "url": "https://aclanthology.org/2025.findings-acl.385/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.385.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "How to Enable Effective Cooperation Between Humans and NLP Models: A Survey of Principles, Formalizations, and Beyond",
+          "url": "https://aclanthology.org/2025.acl-long.22/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.22.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Knowledge Boundary of Large Language Models: A Survey",
+          "url": "https://aclanthology.org/2025.acl-long.256/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.256.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Pragmatics in the Era of Large Language Models: A Survey on Datasets, Evaluation, Opportunities and Challenges",
+          "url": "https://aclanthology.org/2025.acl-long.425/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.425.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "A Survey on Modelling Morality for Text Analysis",
+          "url": "https://aclanthology.org/2024.findings-acl.245/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.245.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Gradient Ascent Post-training Enhances Language Model Generalization",
+          "url": "https://aclanthology.org/2023.acl-short.74/",
+          "pdf_url": "https://aclanthology.org/2023.acl-short.74.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Large Language Models in Bioinformatics: A Survey",
+          "url": "https://aclanthology.org/2025.findings-acl.184/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.184.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "The AI Doctor Is In: A Survey of Task-Oriented Dialogue Systems for Healthcare Applications",
+          "url": "https://aclanthology.org/2022.acl-long.458/",
+          "pdf_url": "https://aclanthology.org/2022.acl-long.458.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2022
+        },
+        {
+          "title": "Multimodal Large Language Models for Text-rich Image Understanding: A Comprehensive Review",
+          "url": "https://aclanthology.org/2025.findings-acl.1023/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.1023.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Personalized Generation In Large Model Era: A Survey",
+          "url": "https://aclanthology.org/2025.acl-long.1201/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1201.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "A Survey of Race, Racism, and Anti-Racism in NLP",
+          "url": "https://aclanthology.org/2021.acl-long.149/",
+          "pdf_url": "https://aclanthology.org/2021.acl-long.149.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2021
+        },
+        {
+          "title": "A Survey on Foundation Language Models for Single-cell Biology",
+          "url": "https://aclanthology.org/2025.acl-long.26/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.26.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "NLPeer: A Unified Resource for the Computational Study of Peer Review",
+          "url": "https://aclanthology.org/2023.acl-long.277/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.277.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Vision-and-Language Navigation: A Survey of Tasks, Methods, and Future Directions",
+          "url": "https://aclanthology.org/2022.acl-long.524/",
+          "pdf_url": "https://aclanthology.org/2022.acl-long.524.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2022
+        },
+        {
+          "title": "A Survey of Deep Learning for Mathematical Reasoning",
+          "url": "https://aclanthology.org/2023.acl-long.817/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.817.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "On the Impact of Calibration Data in Post-training Quantization and Pruning",
+          "url": "https://aclanthology.org/2024.acl-long.544/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.544.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Fundamental Capabilities of Large Language Models and their Applications in Domain Scenarios: A Survey",
+          "url": "https://aclanthology.org/2024.acl-long.599/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.599.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Ask in Any Modality: A Comprehensive Survey on Multimodal Retrieval-Augmented Generation",
+          "url": "https://aclanthology.org/2025.findings-acl.861/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.861.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Achieving binary weight and activation for LLMs using Post-Training Quantization",
+          "url": "https://aclanthology.org/2025.findings-acl.459/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.459.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "The Revolution of Multimodal Large Language Models: A Survey",
+          "url": "https://aclanthology.org/2024.findings-acl.807/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.807.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Large Language Models Meet NL2Code: A Survey",
+          "url": "https://aclanthology.org/2023.acl-long.411/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.411.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Video-Language Understanding: A Survey from Model Architecture, Model Training, and Data Perspectives",
+          "url": "https://aclanthology.org/2024.findings-acl.217/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.217.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Towards a Common Understanding of Contributing Factors for Cross-Lingual Transfer in Multilingual Language Models: A Review",
+          "url": "https://aclanthology.org/2023.acl-long.323/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.323.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "A Survey on Patent Analysis: From NLP to Multimodal AI",
+          "url": "https://aclanthology.org/2025.acl-long.419/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.419.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "A Survey of Mathematical Reasoning in the Era of Multimodal Large Language Model: Benchmark, Method & Challenges",
+          "url": "https://aclanthology.org/2025.findings-acl.614/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.614.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "A Survey of Uncertainty Estimation Methods on Large Language Models",
+          "url": "https://aclanthology.org/2025.findings-acl.1101/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.1101.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Non-Repeatable Experiments and Non-Reproducible Results: The Reproducibility Crisis in Human Evaluation in NLP",
+          "url": "https://aclanthology.org/2023.findings-acl.226/",
+          "pdf_url": "https://aclanthology.org/2023.findings-acl.226.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Media Framing: A typology and Survey of Computational Approaches Across Disciplines",
+          "url": "https://aclanthology.org/2024.acl-long.822/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.822.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Product Question Answering in E-Commerce: A Survey",
+          "url": "https://aclanthology.org/2023.acl-long.667/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.667.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Towards Reasoning in Large Language Models: A Survey",
+          "url": "https://aclanthology.org/2023.findings-acl.67/",
+          "pdf_url": "https://aclanthology.org/2023.findings-acl.67.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "PlanGenLLMs: A Modern Survey of LLM Planning Capabilities",
+          "url": "https://aclanthology.org/2025.acl-long.958/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.958.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "CUAD: An Expert-Annotated NLP Dataset for Legal Contract Review",
+          "url": "https://openreview.net/forum?id=7l1Ygs3Bamw",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2021
+        },
+        {
+          "title": "Stop DDoS Attacking the Research Community with AI-Generated Survey Papers",
+          "url": "https://openreview.net/forum?id=R5uuqCAPf8",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Are We Learning Yet? A Meta Review of Evaluation Failures Across Machine Learning",
+          "url": "https://openreview.net/forum?id=mPducS1MsEK",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2021
+        },
+        {
+          "title": "From Replication to Redesign: Exploring Pairwise Comparisons for LLM-Based Peer Review",
+          "url": "https://openreview.net/forum?id=z5KTxW5sJd",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Questioning the Survey Responses of Large Language Models",
+          "url": "https://neurips.cc/virtual/2024/poster/95348",
+          "pdf_url": "https://openreview.net/pdf?id=Oo7dlLgqQX",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "PiCO: Peer Review in LLMs based on the Consistency Optimization",
+          "url": "https://openreview.net/forum?id=uNZpvFlsg9",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "$Q\\sharp$: Provably Optimal Distributional RL for LLM Post-Training",
+          "url": "https://openreview.net/forum?id=MrRdupucYb",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Cooled and Relaxed Survey Propagation for MRFs",
+          "url": "https://papers.nips.cc/paper_files/paper/2007/hash/9778d5d219c5080b9a6a17bef029331c-Abstract.html",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2007/file/9778d5d219c5080b9a6a17bef029331c-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2007
+        },
+        {
+          "title": "First SFT, Second RL, Third UPT: Continual Improving Multi-Modal LLM Reasoning via Unsupervised Post-Training",
+          "url": "https://openreview.net/forum?id=HL1j92hb6z",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "PANORAMA: A Dataset and Benchmarks Capturing Decision Trails and Rationales in Patent Examination",
+          "url": "https://openreview.net/forum?id=JWewCpdjjq",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Trajectory Balance with Asynchrony: Decoupling Exploration and Learning for Fast, Scalable LLM Post-Training",
+          "url": "https://openreview.net/forum?id=VwPt1WDQNB",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Fixing It in Post: A Comparative Study of LLM Post-Training Data Quality and Model Performance",
+          "url": "https://openreview.net/forum?id=1ybOI1VvQL",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Collaborative Alignment of NLP Models",
+          "url": "https://nips.cc/virtual/2023/poster/70924",
+          "pdf_url": "https://openreview.net/pdf?id=f39Q3JyoIi",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2023
+        },
+        {
+          "title": "Datasets for Online Controlled Experiments",
+          "url": "https://openreview.net/forum?id=79shW3z5Eaq",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2021
+        },
+        {
+          "title": "Review Networks for Caption Generation",
+          "url": "https://nips.cc/virtual/2016/poster/6934",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2016/file/9996535e07258a7bbfd8b132435c5962-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2016
+        }
+      ],
+      "offline_emnlp": [
+        {
+          "title": "A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations",
+          "url": "https://aclanthology.org/2024.emnlp-main.764/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.764.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Natural Language Processing Meets Quantum Physics: A Survey and Categorization",
+          "url": "https://aclanthology.org/2021.emnlp-main.254/",
+          "pdf_url": "https://aclanthology.org/2021.emnlp-main.254.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2021
+        },
+        {
+          "title": "Related Work and Citation Text Generation: A Survey",
+          "url": "https://aclanthology.org/2024.emnlp-main.767/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.767.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "A Survey on Out-of-Distribution Detection in NLP",
+          "url": "https://openreview.net/forum?id=6YQ1uh9IGG",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        },
+        {
+          "title": "A Survey of Active Learning for Natural Language Processing",
+          "url": "https://aclanthology.org/2022.emnlp-main.414/",
+          "pdf_url": "https://aclanthology.org/2022.emnlp-main.414.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2022
+        },
+        {
+          "title": "Puzzle Solving using Reasoning of Large Language Models: A Survey",
+          "url": "https://aclanthology.org/2024.emnlp-main.646/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.646.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Large Language Models for Data Annotation and Synthesis: A Survey",
+          "url": "https://aclanthology.org/2024.emnlp-main.54/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.54.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "A Survey on Natural Language Counterfactual Generation",
+          "url": "https://aclanthology.org/2024.findings-emnlp.276/",
+          "pdf_url": "https://aclanthology.org/2024.findings-emnlp.276.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "An Integrative Survey on Mental Health Conversational Agents to Bridge Computer Science and Medical Perspectives",
+          "url": "https://openreview.net/forum?id=Itnbse9MMW",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        },
+        {
+          "title": "Incorporating Worker Perspectives into MTurk Annotation Practices for NLP",
+          "url": "https://openreview.net/forum?id=v6iM1bO78t",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        },
+        {
+          "title": "Computational Meme Understanding: A Survey",
+          "url": "https://aclanthology.org/2024.emnlp-main.1184/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.1184.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "A Survey of Ontology Expansion for Conversational Understanding",
+          "url": "https://aclanthology.org/2024.emnlp-main.1006/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.1006.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Retrieving Multimodal Information for Augmented Generation: A Survey",
+          "url": "https://openreview.net/forum?id=jLEnVo0RW3",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        },
+        {
+          "title": "AgentReview: Exploring Peer Review Dynamics with LLM Agents",
+          "url": "https://aclanthology.org/2024.emnlp-main.70/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.70.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Defining Knowledge: Bridging Epistemology and Large Language Models",
+          "url": "https://aclanthology.org/2024.emnlp-main.900/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.900.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Beyond Counting Datasets: A Survey of Multilingual Dataset Construction and Necessary Resources",
+          "url": "https://aclanthology.org/2022.findings-emnlp.273/",
+          "pdf_url": "https://aclanthology.org/2022.findings-emnlp.273.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2022
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "A Survey on Efficient Large Language Model Training: From Data-centric Perspectives",
+        "pdf": "https://aclanthology.org/2025.acl-long.1493.pdf"
+      },
+      {
+        "title": "A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.764.pdf"
+      },
+      {
+        "title": "A Survey of Post-Training Scaling in Large Language Models",
+        "pdf": "https://aclanthology.org/2025.acl-long.140.pdf"
+      },
+      {
+        "title": "Natural Language Processing Meets Quantum Physics: A Survey and Categorization",
+        "pdf": "https://aclanthology.org/2021.emnlp-main.254.pdf"
+      },
+      {
+        "title": "Related Work and Citation Text Generation: A Survey",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.767.pdf"
+      },
+      {
+        "title": "Natural Language Processing in Support of Evidence-based Medicine: A Scoping Review",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1103.pdf"
+      },
+      {
+        "title": "A Survey of Active Learning for Natural Language Processing",
+        "pdf": "https://aclanthology.org/2022.emnlp-main.414.pdf"
+      },
+      {
+        "title": "A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions",
+        "pdf": "https://aclanthology.org/2025.findings-acl.385.pdf"
+      },
+      {
+        "title": "How to Enable Effective Cooperation Between Humans and NLP Models: A Survey of Principles, Formalizations, and Beyond",
+        "pdf": "https://aclanthology.org/2025.acl-long.22.pdf"
+      },
+      {
+        "title": "Knowledge Boundary of Large Language Models: A Survey",
+        "pdf": "https://aclanthology.org/2025.acl-long.256.pdf"
+      },
+      {
+        "title": "Puzzle Solving using Reasoning of Large Language Models: A Survey",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.646.pdf"
+      },
+      {
+        "title": "Pragmatics in the Era of Large Language Models: A Survey on Datasets, Evaluation, Opportunities and Challenges",
+        "pdf": "https://aclanthology.org/2025.acl-long.425.pdf"
+      },
+      {
+        "title": "Large Language Models for Data Annotation and Synthesis: A Survey",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.54.pdf"
+      },
+      {
+        "title": "A Survey on Natural Language Counterfactual Generation",
+        "pdf": "https://aclanthology.org/2024.findings-emnlp.276.pdf"
+      },
+      {
+        "title": "A Survey on Modelling Morality for Text Analysis",
+        "pdf": "https://aclanthology.org/2024.findings-acl.245.pdf"
+      },
+      {
+        "title": "Questioning the Survey Responses of Large Language Models",
+        "pdf": "https://openreview.net/pdf?id=Oo7dlLgqQX"
+      },
+      {
+        "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers",
+        "pdf": "https://openreview.net/pdf?id=M23dTGWCZy"
+      },
+      {
+        "title": "Computational Meme Understanding: A Survey",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.1184.pdf"
+      },
+      {
+        "title": "Gradient Ascent Post-training Enhances Language Model Generalization",
+        "pdf": "https://aclanthology.org/2023.acl-short.74.pdf"
+      },
+      {
+        "title": "Large Language Models in Bioinformatics: A Survey",
+        "pdf": "https://aclanthology.org/2025.findings-acl.184.pdf"
+      },
+      {
+        "title": "The AI Doctor Is In: A Survey of Task-Oriented Dialogue Systems for Healthcare Applications",
+        "pdf": "https://aclanthology.org/2022.acl-long.458.pdf"
+      },
+      {
+        "title": "Cooled and Relaxed Survey Propagation for MRFs",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2007/file/9778d5d219c5080b9a6a17bef029331c-Paper.pdf"
+      },
+      {
+        "title": "Multimodal Large Language Models for Text-rich Image Understanding: A Comprehensive Review",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1023.pdf"
+      },
+      {
+        "title": "A Survey of Ontology Expansion for Conversational Understanding",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.1006.pdf"
+      },
+      {
+        "title": "Personalized Generation In Large Model Era: A Survey",
+        "pdf": "https://aclanthology.org/2025.acl-long.1201.pdf"
+      },
+      {
+        "title": "Collaborative Alignment of NLP Models",
+        "pdf": "https://openreview.net/pdf?id=f39Q3JyoIi"
+      },
+      {
+        "title": "A Survey of Race, Racism, and Anti-Racism in NLP",
+        "pdf": "https://aclanthology.org/2021.acl-long.149.pdf"
+      },
+      {
+        "title": "A Survey on Foundation Language Models for Single-cell Biology",
+        "pdf": "https://aclanthology.org/2025.acl-long.26.pdf"
+      },
+      {
+        "title": "SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression",
+        "pdf": "https://openreview.net/pdf?id=LNYIUouhdt"
+      },
+      {
+        "title": "NLPeer: A Unified Resource for the Computational Study of Peer Review",
+        "pdf": "https://aclanthology.org/2023.acl-long.277.pdf"
+      },
+      {
+        "title": "AgentReview: Exploring Peer Review Dynamics with LLM Agents",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.70.pdf"
+      },
+      {
+        "title": "Defining Knowledge: Bridging Epistemology and Large Language Models",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.900.pdf"
+      },
+      {
+        "title": "Vision-and-Language Navigation: A Survey of Tasks, Methods, and Future Directions",
+        "pdf": "https://aclanthology.org/2022.acl-long.524.pdf"
+      },
+      {
+        "title": "Review Networks for Caption Generation",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2016/file/9996535e07258a7bbfd8b132435c5962-Paper.pdf"
+      },
+      {
+        "title": "A Survey of Deep Learning for Mathematical Reasoning",
+        "pdf": "https://aclanthology.org/2023.acl-long.817.pdf"
+      },
+      {
+        "title": "On the Impact of Calibration Data in Post-training Quantization and Pruning",
+        "pdf": "https://aclanthology.org/2024.acl-long.544.pdf"
+      },
+      {
+        "title": "Fundamental Capabilities of Large Language Models and their Applications in Domain Scenarios: A Survey",
+        "pdf": "https://aclanthology.org/2024.acl-long.599.pdf"
+      },
+      {
+        "title": "Ask in Any Modality: A Comprehensive Survey on Multimodal Retrieval-Augmented Generation",
+        "pdf": "https://aclanthology.org/2025.findings-acl.861.pdf"
+      },
+      {
+        "title": "Achieving binary weight and activation for LLMs using Post-Training Quantization",
+        "pdf": "https://aclanthology.org/2025.findings-acl.459.pdf"
+      },
+      {
+        "title": "The Revolution of Multimodal Large Language Models: A Survey",
+        "pdf": "https://aclanthology.org/2024.findings-acl.807.pdf"
+      },
+      {
+        "title": "Large Language Models Meet NL2Code: A Survey",
+        "pdf": "https://aclanthology.org/2023.acl-long.411.pdf"
+      },
+      {
+        "title": "Video-Language Understanding: A Survey from Model Architecture, Model Training, and Data Perspectives",
+        "pdf": "https://aclanthology.org/2024.findings-acl.217.pdf"
+      },
+      {
+        "title": "Towards a Common Understanding of Contributing Factors for Cross-Lingual Transfer in Multilingual Language Models: A Review",
+        "pdf": "https://aclanthology.org/2023.acl-long.323.pdf"
+      },
+      {
+        "title": "A Survey on Patent Analysis: From NLP to Multimodal AI",
+        "pdf": "https://aclanthology.org/2025.acl-long.419.pdf"
+      },
+      {
+        "title": "A Survey of Mathematical Reasoning in the Era of Multimodal Large Language Model: Benchmark, Method & Challenges",
+        "pdf": "https://aclanthology.org/2025.findings-acl.614.pdf"
+      },
+      {
+        "title": "A Survey of Uncertainty Estimation Methods on Large Language Models",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1101.pdf"
+      },
+      {
+        "title": "Non-Repeatable Experiments and Non-Reproducible Results: The Reproducibility Crisis in Human Evaluation in NLP",
+        "pdf": "https://aclanthology.org/2023.findings-acl.226.pdf"
+      },
+      {
+        "title": "Media Framing: A typology and Survey of Computational Approaches Across Disciplines",
+        "pdf": "https://aclanthology.org/2024.acl-long.822.pdf"
+      },
+      {
+        "title": "Product Question Answering in E-Commerce: A Survey",
+        "pdf": "https://aclanthology.org/2023.acl-long.667.pdf"
+      },
+      {
+        "title": "Towards Reasoning in Large Language Models: A Survey",
+        "pdf": "https://aclanthology.org/2023.findings-acl.67.pdf"
+      },
+      {
+        "title": "Beyond Counting Datasets: A Survey of Multilingual Dataset Construction and Necessary Resources",
+        "pdf": "https://aclanthology.org/2022.findings-emnlp.273.pdf"
+      },
+      {
+        "title": "PlanGenLLMs: A Modern Survey of LLM Planning Capabilities",
+        "pdf": "https://aclanthology.org/2025.acl-long.958.pdf"
+      }
+    ],
+    "dois_only": []
+  },
+  "metadata": {
+    "query": "post-training NLP survey",
+    "total_steps": 6,
+    "last_updated": "2026-01-02T17:56:58.489222",
+    "started_at": "2026-01-02T17:46:53.506828",
+    "total_papers": 100
+  }
+}

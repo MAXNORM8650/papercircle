@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10">
+    <title>Research Dashboard: synthetic graph data training neural networks graph reasoning</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 20px; }
+        .container { max-width: 1600px; margin: 0 auto; }
+        header { text-align: center; padding: 20px; margin-bottom: 30px; }
+        header h1 { font-size: 2em; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .meta { color: #94a3b8; margin-top: 10px; font-size: 0.9em; }
+        .grid { display: grid; gap: 20px; }
+        .grid-4 { grid-template-columns: repeat(4, 1fr); }
+        .grid-2 { grid-template-columns: repeat(2, 1fr); }
+        .grid-3 { grid-template-columns: repeat(3, 1fr); }
+        .card { background: #1e293b; border-radius: 12px; padding: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        .stat-card { text-align: center; }
+        .stat-card .value { font-size: 2.5em; font-weight: bold; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .stat-card .label { color: #94a3b8; margin-top: 5px; }
+        .card h3 { color: #f1f5f9; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+        .step-log { max-height: 300px; overflow-y: auto; }
+        .step { padding: 10px; border-left: 3px solid #667eea; margin: 10px 0; background: #0f172a; border-radius: 0 8px 8px 0; }
+        .step .agent { color: #667eea; font-weight: bold; }
+        .step .time { color: #64748b; font-size: 0.8em; }
+        .leaderboard { max-height: 400px; overflow-y: auto; }
+        .leaderboard table { width: 100%; border-collapse: collapse; }
+        .leaderboard th { text-align: left; padding: 10px; color: #94a3b8; border-bottom: 1px solid #334155; position: sticky; top: 0; background: #1e293b; }
+        .leaderboard td { padding: 10px; border-bottom: 1px solid #334155; }
+        .leaderboard tr:hover { background: #334155; }
+        .rank { color: #fbbf24; font-weight: bold; }
+        .score { color: #34d399; }
+        .insights { display: grid; gap: 15px; }
+        .insight { padding: 15px; background: #0f172a; border-radius: 8px; border-left: 4px solid #667eea; }
+        .insight.trend { border-color: #34d399; }
+        .insight.citation { border-color: #fbbf24; }
+        .insight.author { border-color: #f472b6; }
+        .insight h4 { color: #f1f5f9; margin-bottom: 5px; }
+        .insight p { color: #94a3b8; }
+        .keywords { display: flex; flex-wrap: wrap; gap: 10px; }
+        .keyword { padding: 5px 12px; background: linear-gradient(135deg, #667eea33, #764ba233); border: 1px solid #667eea55; border-radius: 20px; font-size: 0.9em; }
+        .files { display: grid; gap: 10px; }
+        .file { display: flex; align-items: center; gap: 10px; padding: 10px; background: #0f172a; border-radius: 8px; }
+        .file-icon { font-size: 1.5em; }
+        .file-name { color: #f1f5f9; }
+        .file-size { color: #64748b; font-size: 0.8em; }
+        @media (max-width: 1200px) { .grid-4 { grid-template-columns: repeat(2, 1fr); } .grid-3 { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) { .grid-4, .grid-2 { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Research Dashboard</h1>
+            <div class="meta">
+                Query: <strong>synthetic graph data training neural networks graph reasoning</strong> | 
+                Step: <strong>15</strong> | 
+                Last Updated: <strong>2026-01-02 17:42:09</strong>
+                <br>Auto-refreshes every 10 seconds
+            </div>
+        </header>
+        
+        <div class="grid grid-4" style="margin-bottom: 20px;">
+            <div class="card stat-card">
+                <div class="value">528</div>
+                <div class="label">Total Papers</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">19</div>
+                <div class="label">Sources</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">2675</div>
+                <div class="label">Total Citations</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">15</div>
+                <div class="label">Processing Steps</div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>📈 Publications Over Time</h3>
+                <canvas id="timelineChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>📊 Papers by Source</h3>
+                <canvas id="sourceChart"></canvas>
+            </div>
+        </div>
+        
+        <div class="grid grid-3" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>🏆 Paper Leaderboard</h3>
+                <div class="leaderboard">
+                    <table>
+                        <thead>
+                            <tr><th>#</th><th>Title</th><th>Year</th><th>Score</th><th>Cites</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="rank">1</td>
+                                <td>Generalizable LLM Learning of Graph Synthetic Data with Post-training Alignment...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">2</td>
+                                <td>Can LLM Graph Reasoning Generalize beyond Pattern Memorization?...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">3</td>
+                                <td>Value Drifts: Tracing Value Alignment During LLM Post-Training...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">4</td>
+                                <td>Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement...</td>
+                                <td>2025</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">5</td>
+                                <td>PIKA: Expert-Level Synthetic Datasets for Post-Training Alignment from Scratch...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">6</td>
+                                <td>Style Outweighs Substance: Failure Modes of LLM Judges in Alignment Benchmarking...</td>
+                                <td>2025</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">7</td>
+                                <td>Fine-Grained Data Distribution Alignment for Post-Training Quantization...</td>
+                                <td>2022</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">8</td>
+                                <td>WildChat-50M: A Deep Dive Into the Role of Synthetic Data in Post-Training...</td>
+                                <td>2025</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">9</td>
+                                <td>Fluent Alignment with Disfluent Judges: Post-training for lower-resource languages...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">10</td>
+                                <td>Towards a Theoretical Understanding of Synthetic Data in LLM Post-Training: A Reverse-Bottleneck Perspective...</td>
+                                <td>2025</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">11</td>
+                                <td>Fixing It in Post: A Comparative Study of LLM Post-Training Data Quality and Model Performance...</td>
+                                <td>2025</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">12</td>
+                                <td>SpecRaGE: Robust and Generalizable Multi-view Spectral Representation Learning...</td>
+                                <td>2025</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">13</td>
+                                <td>Generalizable End-to-End Tool-Use RL with Synthetic CodeGym...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">14</td>
+                                <td>Data Selection for LLM Reinforcement Learning with Improved Gradient Alignment...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">15</td>
+                                <td>First SFT, Second RL, Third UPT: Continual Improving Multi-Modal LLM Reasoning via Unsupervised Post-Training...</td>
+                                <td>2025</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>💡 Insights</h3>
+                <div class="insights">
+                    <div class="insight trend">
+                        <h4>Publication Trend</h4>
+                        <p>Most papers (72) are from 2026</p>
+                    </div><div class="insight source">
+                        <h4>Primary Source</h4>
+                        <p>offline_iclr contributes 139 papers (26%)</p>
+                    </div><div class="insight author">
+                        <h4>Prolific Author</h4>
+                        <p>Carl Yang has 5 papers in this collection</p>
+                    </div><div class="insight citation">
+                        <h4>Most Cited Paper</h4>
+                        <p>"E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials..." has 1688 citations</p>
+                    </div><div class="insight keywords">
+                        <h4>Hot Topics</h4>
+                        <p>Top keywords: graph, learning, networks, data, neural</p>
+                    </div><div class="insight availability">
+                        <h4>Open Access</h4>
+                        <p>326/528 papers (61%) have direct PDF links</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📝 Step Log</h3>
+                <div class="step-log">
+                    <div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'synthetic graph data training neural networks graph reasoning'
+                        <div class="time">Step 15 - 17:42:09</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'graph synthetic data LLM generalization'
+                        <div class="time">Step 14 - 17:40:04</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'generalizable LLM learning of graph synthetic data'
+                        <div class="time">Step 13 - 17:39:59</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'generalizable LLM learning of graph synthetic data'
+                        <div class="time">Step 12 - 17:39:50</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'Generalizable LLM Learning of Graph Synthetic Data with Post-training Alignment'
+                        <div class="time">Step 11 - 17:39:34</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: '2506.00845'
+                        <div class="time">Step 10 - 17:39:33</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'Generalizable LLM Learning of Graph Synthetic Data with Post-training Alignment'
+                        <div class="time">Step 9 - 17:39:31</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'LLM alignment graph learning'
+                        <div class="time">Step 8 - 17:39:04</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'graph neural networks LLM synthetic data'
+                        <div class="time">Step 7 - 17:38:45</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'LLM graph synthetic data post-training'
+                        <div class="time">Step 6 - 17:38:29</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <h3>🏷️ Top Keywords</h3>
+                <div class="keywords">
+                    <span class="keyword" style="font-size: 1.4em">graph (193)</span><span class="keyword" style="font-size: 1.4em">learning (93)</span><span class="keyword" style="font-size: 1.4em">networks (92)</span><span class="keyword" style="font-size: 1.4em">data (90)</span><span class="keyword" style="font-size: 1.4em">neural (90)</span><span class="keyword" style="font-size: 1.4em">alignment (88)</span><span class="keyword" style="font-size: 1.4em">training (72)</span><span class="keyword" style="font-size: 1.4em">language (65)</span><span class="keyword" style="font-size: 1.4em">models (62)</span><span class="keyword" style="font-size: 1.4em">large (56)</span><span class="keyword" style="font-size: 1.4em">synthetic (53)</span><span class="keyword" style="font-size: 1.4em">post (44)</span><span class="keyword" style="font-size: 1.4em">generalizable (43)</span><span class="keyword" style="font-size: 1.4em">multi (29)</span><span class="keyword" style="font-size: 1.4em">llms (28)</span><span class="keyword" style="font-size: 1.4em">model (27)</span><span class="keyword" style="font-size: 1.4em">generation (24)</span><span class="keyword" style="font-size: 1.4em">knowledge (23)</span><span class="keyword" style="font-size: 1.4em">framework (23)</span><span class="keyword" style="font-size: 1.4em">reasoning (21)</span><span class="keyword" style="font-size: 1.4em">preference (21)</span><span class="keyword" style="font-size: 1.4em">generalization (21)</span><span class="keyword" style="font-size: 1.4em">through (17)</span><span class="keyword" style="font-size: 1.4em">detection (16)</span><span class="keyword" style="font-size: 1.4em">graphs (16)</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📁 Output Files</h3>
+                <div class="files">
+                    <div class="file"><span class="file-icon">📄</span><span class="file-name">papers.json</span><span class="file-size">Full paper data</span></div>
+                    <div class="file"><span class="file-icon">🔗</span><span class="file-name">links.json</span><span class="file-size">Structured links</span></div>
+                    <div class="file"><span class="file-icon">📊</span><span class="file-name">stats.json</span><span class="file-size">Statistics</span></div>
+                    <div class="file"><span class="file-icon">💡</span><span class="file-name">summary.json</span><span class="file-size">Insights</span></div>
+                    <div class="file"><span class="file-icon">📑</span><span class="file-name">papers.csv</span><span class="file-size">Spreadsheet</span></div>
+                    <div class="file"><span class="file-icon">📚</span><span class="file-name">papers.bib</span><span class="file-size">BibTeX</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        new Chart(document.getElementById('timelineChart'), {
+            type: 'bar',
+            data: {
+                labels: [2018, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+                datasets: [{ label: 'Papers', data: [1, 2, 7, 19, 34, 82, 311, 72], backgroundColor: 'rgba(102, 126, 234, 0.8)', borderRadius: 5 }]
+            },
+            options: { responsive: true, plugins: { legend: { display: false } } }
+        });
+        
+        new Chart(document.getElementById('sourceChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['offline_iclr', 'offline_emnlp', 'offline_acl', 'offline_eccv', 'offline_icml', 'offline_nips', 'offline_cvpr', 'offline_naacl', 'offline_aaai', 'offline_colm', 'offline_wacv', 'offline_acml', 'offline_www', 'offline_coling', 'offline_aistats', 'offline_kdd', 'openalex', 'arxiv', 'semantic_scholar'],
+                datasets: [{ data: [139, 5, 55, 2, 23, 41, 5, 5, 7, 1, 3, 1, 2, 4, 1, 1, 89, 73, 71], backgroundColor: ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#00f2fe'] }]
+            },
+            options: { responsive: true }
+        });
+    </script>
+</body>
+</html>

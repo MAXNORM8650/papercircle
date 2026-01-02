@@ -1,0 +1,516 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "BatchPrompt: Accomplish more with less",
+        "url": "https://iclr.cc/virtual/2024/poster/19241",
+        "pdf_url": "https://openreview.net/pdf?id=Agyicd577r",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Enhancing Uncertainty-Based Hallucination Detection with Stronger Focus",
+        "url": "https://openreview.net/forum?id=vdLFYqupHA",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "PYRA: Parallel Yielding Re-Activation for Training-Inference Efficient Task Adaptation",
+        "url": "https://eccv2024.ecva.net//virtual/2024/poster/468",
+        "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01465.pdf",
+        "doi_url": null,
+        "source": "offline_eccv",
+        "year": 2024
+      },
+      {
+        "title": "Fusion Token: Enhancing Compression and Efficiency in Language Model Tokenization",
+        "url": "https://openreview.net/forum?id=tS3gexmfeT",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "DiffRate : Differentiable Compression Rate for Efficient Vision Transformers",
+        "url": "",
+        "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_DiffRate__Differentiable_Compression_Rate_for_Efficient_Vision_Transformers_ICCV_2023_paper.pdf",
+        "doi_url": null,
+        "source": "offline_iccv",
+        "year": 2023
+      },
+      {
+        "title": "Divergent Token Metrics: Measuring degradation to prune away LLM components – and optimize quantization",
+        "url": "https://aclanthology.org/2024.naacl-long.377/",
+        "pdf_url": "https://aclanthology.org/2024.naacl-long.377.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2024
+      },
+      {
+        "title": "An Expert is Worth One Token: Synergizing Multiple Expert LLMs as Generalist via Expert Token Routing",
+        "url": "https://aclanthology.org/2024.acl-long.614/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.614.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "A Peek into Token Bias: Large Language Models Are Not Yet Genuine Reasoners",
+        "url": "https://aclanthology.org/2024.emnlp-main.272/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.272.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Aligner: One Global Token is Worth Millions of Parameters When Aligning LLMs",
+        "url": "https://openreview.net/forum?id=jTdqzBGMsq",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Token Compensator: Altering Inference Cost of Vision Transformer without Re-Tuning",
+        "url": "https://eccv2024.ecva.net//virtual/2024/poster/1918",
+        "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02429.pdf",
+        "doi_url": null,
+        "source": "offline_eccv",
+        "year": 2024
+      },
+      {
+        "title": "MSDS: A Large-Scale Chinese Signature and Token Digit String Dataset for Handwriting Verification",
+        "url": "https://nips.cc/virtual/2022/poster/55653",
+        "pdf_url": "https://openreview.net/pdf?id=EONuSdDjJrp",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2022
+      },
+      {
+        "title": "Unveiling Selection Biases: Exploring Order and Token Sensitivity in Large Language Models",
+        "url": "https://aclanthology.org/2024.findings-acl.333/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.333.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "LLMs as Zero-shot Graph Learners: Alignment of GNN Representations with LLM Token Embeddings",
+        "url": "https://neurips.cc/virtual/2024/poster/96777",
+        "pdf_url": "https://openreview.net/pdf?id=32g9BWTndc",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "ZipCache: Accurate and Efficient KV Cache Quantization with Salient Token Identification",
+        "url": "https://neurips.cc/virtual/2024/poster/96563",
+        "pdf_url": "https://openreview.net/pdf?id=5t4ZAkPiJs",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Focus on the Core: Efficient Attention via Pruned Token Compression for Document Classification",
+        "url": "https://openreview.net/forum?id=8l2m7jctGv",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "TCRA-LLM: Token Compression Retrieval Augmented Large Language Model for Inference Cost Reduction",
+        "url": "https://openreview.net/forum?id=OZOrQQBDou",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "Breaking the Ceiling of the LLM Community by Treating Token Generation as a Classification for Ensembling",
+        "url": "https://aclanthology.org/2024.findings-emnlp.99/",
+        "pdf_url": "https://aclanthology.org/2024.findings-emnlp.99.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Reasoning in Token Economies: Budget-Aware Evaluation of LLM Reasoning Strategies",
+        "url": "https://aclanthology.org/2024.emnlp-main.1112/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.1112.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Adaptive Frequency Filters As Efficient Global Token Mixers",
+        "url": "",
+        "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Huang_Adaptive_Frequency_Filters_As_Efficient_Global_Token_Mixers_ICCV_2023_paper.pdf",
+        "doi_url": null,
+        "source": "offline_iccv",
+        "year": 2023
+      },
+      {
+        "title": "Token Erasure as a Footprint of Implicit Vocabulary Items in LLMs",
+        "url": "https://aclanthology.org/2024.emnlp-main.543/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.543.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "IVTP: Instruction-guided Visual Token Pruning for Large Vision-Language Models",
+        "url": "https://eccv2024.ecva.net//virtual/2024/poster/759",
+        "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02577.pdf",
+        "doi_url": null,
+        "source": "offline_eccv",
+        "year": 2024
+      },
+      {
+        "title": "Instruction Tuning-free Visual Token Complement for Multimodal LLMs",
+        "url": "https://eccv2024.ecva.net//virtual/2024/poster/758",
+        "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10652.pdf",
+        "doi_url": null,
+        "source": "offline_eccv",
+        "year": 2024
+      },
+      {
+        "title": "A principled framework for the design and analysis of token algorithms",
+        "url": "https://proceedings.mlr.press/v206/hendrikx23a.html",
+        "pdf_url": "https://proceedings.mlr.press/v206/hendrikx23a/hendrikx23a.pdf",
+        "doi_url": null,
+        "source": "offline_aistats",
+        "year": 2023
+      },
+      {
+        "title": "Accelerating Transformers with Spectrum-Preserving Token Merging",
+        "url": "https://neurips.cc/virtual/2024/poster/95316",
+        "pdf_url": "https://openreview.net/pdf?id=PPdJPIO3mV",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Token Fusion: Bridging the Gap Between Token Pruning and Token Merging",
+        "url": "https://openaccess.thecvf.com/content/WACV2024/html/Kim_Token_Fusion_Bridging_the_Gap_Between_Token_Pruning_and_Token_WACV_2024_paper.html",
+        "pdf_url": "https://openaccess.thecvf.com/content/WACV2024/papers/Kim_Token_Fusion_Bridging_the_Gap_Between_Token_Pruning_and_Token_WACV_2024_paper.pdf",
+        "doi_url": null,
+        "source": "offline_wacv",
+        "year": 2024
+      }
+    ],
+    "by_source": {
+      "offline_iclr": [
+        {
+          "title": "BatchPrompt: Accomplish more with less",
+          "url": "https://iclr.cc/virtual/2024/poster/19241",
+          "pdf_url": "https://openreview.net/pdf?id=Agyicd577r",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Fusion Token: Enhancing Compression and Efficiency in Language Model Tokenization",
+          "url": "https://openreview.net/forum?id=tS3gexmfeT",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Aligner: One Global Token is Worth Millions of Parameters When Aligning LLMs",
+          "url": "https://openreview.net/forum?id=jTdqzBGMsq",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        }
+      ],
+      "offline_emnlp": [
+        {
+          "title": "Enhancing Uncertainty-Based Hallucination Detection with Stronger Focus",
+          "url": "https://openreview.net/forum?id=vdLFYqupHA",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        },
+        {
+          "title": "A Peek into Token Bias: Large Language Models Are Not Yet Genuine Reasoners",
+          "url": "https://aclanthology.org/2024.emnlp-main.272/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.272.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Focus on the Core: Efficient Attention via Pruned Token Compression for Document Classification",
+          "url": "https://openreview.net/forum?id=8l2m7jctGv",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        },
+        {
+          "title": "TCRA-LLM: Token Compression Retrieval Augmented Large Language Model for Inference Cost Reduction",
+          "url": "https://openreview.net/forum?id=OZOrQQBDou",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        },
+        {
+          "title": "Breaking the Ceiling of the LLM Community by Treating Token Generation as a Classification for Ensembling",
+          "url": "https://aclanthology.org/2024.findings-emnlp.99/",
+          "pdf_url": "https://aclanthology.org/2024.findings-emnlp.99.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Reasoning in Token Economies: Budget-Aware Evaluation of LLM Reasoning Strategies",
+          "url": "https://aclanthology.org/2024.emnlp-main.1112/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.1112.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Token Erasure as a Footprint of Implicit Vocabulary Items in LLMs",
+          "url": "https://aclanthology.org/2024.emnlp-main.543/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.543.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        }
+      ],
+      "offline_eccv": [
+        {
+          "title": "PYRA: Parallel Yielding Re-Activation for Training-Inference Efficient Task Adaptation",
+          "url": "https://eccv2024.ecva.net//virtual/2024/poster/468",
+          "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01465.pdf",
+          "doi_url": null,
+          "source": "offline_eccv",
+          "year": 2024
+        },
+        {
+          "title": "Token Compensator: Altering Inference Cost of Vision Transformer without Re-Tuning",
+          "url": "https://eccv2024.ecva.net//virtual/2024/poster/1918",
+          "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02429.pdf",
+          "doi_url": null,
+          "source": "offline_eccv",
+          "year": 2024
+        },
+        {
+          "title": "IVTP: Instruction-guided Visual Token Pruning for Large Vision-Language Models",
+          "url": "https://eccv2024.ecva.net//virtual/2024/poster/759",
+          "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02577.pdf",
+          "doi_url": null,
+          "source": "offline_eccv",
+          "year": 2024
+        },
+        {
+          "title": "Instruction Tuning-free Visual Token Complement for Multimodal LLMs",
+          "url": "https://eccv2024.ecva.net//virtual/2024/poster/758",
+          "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10652.pdf",
+          "doi_url": null,
+          "source": "offline_eccv",
+          "year": 2024
+        }
+      ],
+      "offline_iccv": [
+        {
+          "title": "DiffRate : Differentiable Compression Rate for Efficient Vision Transformers",
+          "url": "",
+          "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_DiffRate__Differentiable_Compression_Rate_for_Efficient_Vision_Transformers_ICCV_2023_paper.pdf",
+          "doi_url": null,
+          "source": "offline_iccv",
+          "year": 2023
+        },
+        {
+          "title": "Adaptive Frequency Filters As Efficient Global Token Mixers",
+          "url": "",
+          "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Huang_Adaptive_Frequency_Filters_As_Efficient_Global_Token_Mixers_ICCV_2023_paper.pdf",
+          "doi_url": null,
+          "source": "offline_iccv",
+          "year": 2023
+        }
+      ],
+      "offline_naacl": [
+        {
+          "title": "Divergent Token Metrics: Measuring degradation to prune away LLM components – and optimize quantization",
+          "url": "https://aclanthology.org/2024.naacl-long.377/",
+          "pdf_url": "https://aclanthology.org/2024.naacl-long.377.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2024
+        }
+      ],
+      "offline_acl": [
+        {
+          "title": "An Expert is Worth One Token: Synergizing Multiple Expert LLMs as Generalist via Expert Token Routing",
+          "url": "https://aclanthology.org/2024.acl-long.614/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.614.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Unveiling Selection Biases: Exploring Order and Token Sensitivity in Large Language Models",
+          "url": "https://aclanthology.org/2024.findings-acl.333/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.333.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "MSDS: A Large-Scale Chinese Signature and Token Digit String Dataset for Handwriting Verification",
+          "url": "https://nips.cc/virtual/2022/poster/55653",
+          "pdf_url": "https://openreview.net/pdf?id=EONuSdDjJrp",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2022
+        },
+        {
+          "title": "LLMs as Zero-shot Graph Learners: Alignment of GNN Representations with LLM Token Embeddings",
+          "url": "https://neurips.cc/virtual/2024/poster/96777",
+          "pdf_url": "https://openreview.net/pdf?id=32g9BWTndc",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "ZipCache: Accurate and Efficient KV Cache Quantization with Salient Token Identification",
+          "url": "https://neurips.cc/virtual/2024/poster/96563",
+          "pdf_url": "https://openreview.net/pdf?id=5t4ZAkPiJs",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Accelerating Transformers with Spectrum-Preserving Token Merging",
+          "url": "https://neurips.cc/virtual/2024/poster/95316",
+          "pdf_url": "https://openreview.net/pdf?id=PPdJPIO3mV",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        }
+      ],
+      "offline_aistats": [
+        {
+          "title": "A principled framework for the design and analysis of token algorithms",
+          "url": "https://proceedings.mlr.press/v206/hendrikx23a.html",
+          "pdf_url": "https://proceedings.mlr.press/v206/hendrikx23a/hendrikx23a.pdf",
+          "doi_url": null,
+          "source": "offline_aistats",
+          "year": 2023
+        }
+      ],
+      "offline_wacv": [
+        {
+          "title": "Token Fusion: Bridging the Gap Between Token Pruning and Token Merging",
+          "url": "https://openaccess.thecvf.com/content/WACV2024/html/Kim_Token_Fusion_Bridging_the_Gap_Between_Token_Pruning_and_Token_WACV_2024_paper.html",
+          "pdf_url": "https://openaccess.thecvf.com/content/WACV2024/papers/Kim_Token_Fusion_Bridging_the_Gap_Between_Token_Pruning_and_Token_WACV_2024_paper.pdf",
+          "doi_url": null,
+          "source": "offline_wacv",
+          "year": 2024
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "BatchPrompt: Accomplish more with less",
+        "pdf": "https://openreview.net/pdf?id=Agyicd577r"
+      },
+      {
+        "title": "PYRA: Parallel Yielding Re-Activation for Training-Inference Efficient Task Adaptation",
+        "pdf": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01465.pdf"
+      },
+      {
+        "title": "DiffRate : Differentiable Compression Rate for Efficient Vision Transformers",
+        "pdf": "https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_DiffRate__Differentiable_Compression_Rate_for_Efficient_Vision_Transformers_ICCV_2023_paper.pdf"
+      },
+      {
+        "title": "Divergent Token Metrics: Measuring degradation to prune away LLM components – and optimize quantization",
+        "pdf": "https://aclanthology.org/2024.naacl-long.377.pdf"
+      },
+      {
+        "title": "An Expert is Worth One Token: Synergizing Multiple Expert LLMs as Generalist via Expert Token Routing",
+        "pdf": "https://aclanthology.org/2024.acl-long.614.pdf"
+      },
+      {
+        "title": "A Peek into Token Bias: Large Language Models Are Not Yet Genuine Reasoners",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.272.pdf"
+      },
+      {
+        "title": "Token Compensator: Altering Inference Cost of Vision Transformer without Re-Tuning",
+        "pdf": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02429.pdf"
+      },
+      {
+        "title": "MSDS: A Large-Scale Chinese Signature and Token Digit String Dataset for Handwriting Verification",
+        "pdf": "https://openreview.net/pdf?id=EONuSdDjJrp"
+      },
+      {
+        "title": "Unveiling Selection Biases: Exploring Order and Token Sensitivity in Large Language Models",
+        "pdf": "https://aclanthology.org/2024.findings-acl.333.pdf"
+      },
+      {
+        "title": "LLMs as Zero-shot Graph Learners: Alignment of GNN Representations with LLM Token Embeddings",
+        "pdf": "https://openreview.net/pdf?id=32g9BWTndc"
+      },
+      {
+        "title": "ZipCache: Accurate and Efficient KV Cache Quantization with Salient Token Identification",
+        "pdf": "https://openreview.net/pdf?id=5t4ZAkPiJs"
+      },
+      {
+        "title": "Breaking the Ceiling of the LLM Community by Treating Token Generation as a Classification for Ensembling",
+        "pdf": "https://aclanthology.org/2024.findings-emnlp.99.pdf"
+      },
+      {
+        "title": "Reasoning in Token Economies: Budget-Aware Evaluation of LLM Reasoning Strategies",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.1112.pdf"
+      },
+      {
+        "title": "Adaptive Frequency Filters As Efficient Global Token Mixers",
+        "pdf": "https://openaccess.thecvf.com/content/ICCV2023/papers/Huang_Adaptive_Frequency_Filters_As_Efficient_Global_Token_Mixers_ICCV_2023_paper.pdf"
+      },
+      {
+        "title": "Token Erasure as a Footprint of Implicit Vocabulary Items in LLMs",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.543.pdf"
+      },
+      {
+        "title": "IVTP: Instruction-guided Visual Token Pruning for Large Vision-Language Models",
+        "pdf": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02577.pdf"
+      },
+      {
+        "title": "Instruction Tuning-free Visual Token Complement for Multimodal LLMs",
+        "pdf": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10652.pdf"
+      },
+      {
+        "title": "A principled framework for the design and analysis of token algorithms",
+        "pdf": "https://proceedings.mlr.press/v206/hendrikx23a/hendrikx23a.pdf"
+      },
+      {
+        "title": "Accelerating Transformers with Spectrum-Preserving Token Merging",
+        "pdf": "https://openreview.net/pdf?id=PPdJPIO3mV"
+      },
+      {
+        "title": "Token Fusion: Bridging the Gap Between Token Pruning and Token Merging",
+        "pdf": "https://openaccess.thecvf.com/content/WACV2024/papers/Kim_Token_Fusion_Bridging_the_Gap_Between_Token_Pruning_and_Token_WACV_2024_paper.pdf"
+      }
+    ],
+    "dois_only": []
+  },
+  "metadata": {
+    "query": "token efficiency in LLMs AND (token usage optimization OR token compression OR LLM token efficiency)",
+    "total_steps": 9,
+    "last_updated": "2026-01-02T17:03:52.341548",
+    "started_at": "2026-01-02T16:59:13.639183",
+    "total_papers": 25
+  }
+}

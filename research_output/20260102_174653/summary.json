@@ -1,0 +1,84 @@
+{
+  "summary": {
+    "query": "post-training NLP survey",
+    "total_papers": 100,
+    "unique_sources": 4,
+    "year_range": {
+      "min": 2007,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 0,
+      "average": 0
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 52,
+    "papers_with_doi": 0,
+    "processing_steps": 6
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (24) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 24
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 35 papers (35%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 35
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Yang Deng has 3 papers in this collection",
+      "data": {
+        "author": "Yang Deng",
+        "count": 3
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: survey, language, large, models, review",
+      "data": {
+        "keywords": {
+          "survey": 47,
+          "language": 34,
+          "large": 28,
+          "models": 27,
+          "review": 23
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "52/100 papers (52%) have direct PDF links",
+      "data": {
+        "with_pdf": 52,
+        "total": 100
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 100 papers related to 'post-training NLP survey'",
+    "Papers collected from 4 sources: offline_iclr, offline_acl, offline_nips, offline_emnlp",
+    "Publication years range from 2007 to 2026",
+    "Leading researchers: Yang Deng, Tat-Seng Chua, Yiqiao Jin"
+  ],
+  "metadata": {
+    "query": "post-training NLP survey",
+    "total_steps": 6,
+    "last_updated": "2026-01-02T17:56:58.498867",
+    "started_at": "2026-01-02T17:46:53.506828",
+    "total_papers": 100
+  }
+}

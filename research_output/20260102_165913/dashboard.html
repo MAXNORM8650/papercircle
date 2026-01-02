@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10">
+    <title>Research Dashboard: token efficiency in LLMs AND (token usage optimization OR token compression OR LLM token efficiency)</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 20px; }
+        .container { max-width: 1600px; margin: 0 auto; }
+        header { text-align: center; padding: 20px; margin-bottom: 30px; }
+        header h1 { font-size: 2em; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .meta { color: #94a3b8; margin-top: 10px; font-size: 0.9em; }
+        .grid { display: grid; gap: 20px; }
+        .grid-4 { grid-template-columns: repeat(4, 1fr); }
+        .grid-2 { grid-template-columns: repeat(2, 1fr); }
+        .grid-3 { grid-template-columns: repeat(3, 1fr); }
+        .card { background: #1e293b; border-radius: 12px; padding: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        .stat-card { text-align: center; }
+        .stat-card .value { font-size: 2.5em; font-weight: bold; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .stat-card .label { color: #94a3b8; margin-top: 5px; }
+        .card h3 { color: #f1f5f9; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+        .step-log { max-height: 300px; overflow-y: auto; }
+        .step { padding: 10px; border-left: 3px solid #667eea; margin: 10px 0; background: #0f172a; border-radius: 0 8px 8px 0; }
+        .step .agent { color: #667eea; font-weight: bold; }
+        .step .time { color: #64748b; font-size: 0.8em; }
+        .leaderboard { max-height: 400px; overflow-y: auto; }
+        .leaderboard table { width: 100%; border-collapse: collapse; }
+        .leaderboard th { text-align: left; padding: 10px; color: #94a3b8; border-bottom: 1px solid #334155; position: sticky; top: 0; background: #1e293b; }
+        .leaderboard td { padding: 10px; border-bottom: 1px solid #334155; }
+        .leaderboard tr:hover { background: #334155; }
+        .rank { color: #fbbf24; font-weight: bold; }
+        .score { color: #34d399; }
+        .insights { display: grid; gap: 15px; }
+        .insight { padding: 15px; background: #0f172a; border-radius: 8px; border-left: 4px solid #667eea; }
+        .insight.trend { border-color: #34d399; }
+        .insight.citation { border-color: #fbbf24; }
+        .insight.author { border-color: #f472b6; }
+        .insight h4 { color: #f1f5f9; margin-bottom: 5px; }
+        .insight p { color: #94a3b8; }
+        .keywords { display: flex; flex-wrap: wrap; gap: 10px; }
+        .keyword { padding: 5px 12px; background: linear-gradient(135deg, #667eea33, #764ba233); border: 1px solid #667eea55; border-radius: 20px; font-size: 0.9em; }
+        .files { display: grid; gap: 10px; }
+        .file { display: flex; align-items: center; gap: 10px; padding: 10px; background: #0f172a; border-radius: 8px; }
+        .file-icon { font-size: 1.5em; }
+        .file-name { color: #f1f5f9; }
+        .file-size { color: #64748b; font-size: 0.8em; }
+        @media (max-width: 1200px) { .grid-4 { grid-template-columns: repeat(2, 1fr); } .grid-3 { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) { .grid-4, .grid-2 { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Research Dashboard</h1>
+            <div class="meta">
+                Query: <strong>token efficiency in LLMs AND (token usage optimization OR token compression OR LLM token efficiency)</strong> | 
+                Step: <strong>9</strong> | 
+                Last Updated: <strong>2026-01-02 17:03:52</strong>
+                <br>Auto-refreshes every 10 seconds
+            </div>
+        </header>
+        
+        <div class="grid grid-4" style="margin-bottom: 20px;">
+            <div class="card stat-card">
+                <div class="value">25</div>
+                <div class="label">Total Papers</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">9</div>
+                <div class="label">Sources</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">0</div>
+                <div class="label">Total Citations</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">9</div>
+                <div class="label">Processing Steps</div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>📈 Publications Over Time</h3>
+                <canvas id="timelineChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>📊 Papers by Source</h3>
+                <canvas id="sourceChart"></canvas>
+            </div>
+        </div>
+        
+        <div class="grid grid-3" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>🏆 Paper Leaderboard</h3>
+                <div class="leaderboard">
+                    <table>
+                        <thead>
+                            <tr><th>#</th><th>Title</th><th>Year</th><th>Score</th><th>Cites</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="rank">1</td>
+                                <td>BatchPrompt: Accomplish more with less</td>
+                                <td>2024</td>
+                                <td class="score">0.43</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">2</td>
+                                <td>Enhancing Uncertainty-Based Hallucination Detection with Stronger Focus...</td>
+                                <td>2023</td>
+                                <td class="score">0.42</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">3</td>
+                                <td>PYRA: Parallel Yielding Re-Activation for Training-Inference Efficient Task Adaptation...</td>
+                                <td>2024</td>
+                                <td class="score">0.45</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">4</td>
+                                <td>Fusion Token: Enhancing Compression and Efficiency in Language Model Tokenization...</td>
+                                <td>2024</td>
+                                <td class="score">0.50</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">5</td>
+                                <td>DiffRate : Differentiable Compression Rate for Efficient Vision Transformers...</td>
+                                <td>2023</td>
+                                <td class="score">0.42</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">6</td>
+                                <td>Divergent Token Metrics: Measuring degradation to prune away LLM components – and optimize quantization...</td>
+                                <td>2024</td>
+                                <td class="score">0.45</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">7</td>
+                                <td>An Expert is Worth One Token: Synergizing Multiple Expert LLMs as Generalist via Expert Token Routing...</td>
+                                <td>2024</td>
+                                <td class="score">0.44</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">8</td>
+                                <td>A Peek into Token Bias: Large Language Models Are Not Yet Genuine Reasoners...</td>
+                                <td>2024</td>
+                                <td class="score">0.44</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">9</td>
+                                <td>Aligner: One Global Token is Worth Millions of Parameters When Aligning LLMs...</td>
+                                <td>2024</td>
+                                <td class="score">0.46</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">10</td>
+                                <td>Token Compensator: Altering Inference Cost of Vision Transformer without Re-Tuning...</td>
+                                <td>2024</td>
+                                <td class="score">0.46</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">11</td>
+                                <td>MSDS: A Large-Scale Chinese Signature and Token Digit String Dataset for Handwriting Verification...</td>
+                                <td>2022</td>
+                                <td class="score">0.39</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">12</td>
+                                <td>Unveiling Selection Biases: Exploring Order and Token Sensitivity in Large Language Models...</td>
+                                <td>2024</td>
+                                <td class="score">0.44</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">13</td>
+                                <td>LLMs as Zero-shot Graph Learners: Alignment of GNN Representations with LLM Token Embeddings...</td>
+                                <td>2024</td>
+                                <td class="score">0.46</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">14</td>
+                                <td>ZipCache: Accurate and Efficient KV Cache Quantization with Salient Token Identification...</td>
+                                <td>2024</td>
+                                <td class="score">0.44</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">15</td>
+                                <td>Focus on the Core: Efficient Attention via Pruned Token Compression for Document Classification...</td>
+                                <td>2023</td>
+                                <td class="score">0.43</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>💡 Insights</h3>
+                <div class="insights">
+                    <div class="insight trend">
+                        <h4>Publication Trend</h4>
+                        <p>Most papers (18) are from 2024</p>
+                    </div><div class="insight source">
+                        <h4>Primary Source</h4>
+                        <p>offline_emnlp contributes 7 papers (28%)</p>
+                    </div><div class="insight author">
+                        <h4>Prolific Author</h4>
+                        <p>Varun Kumar has 2 papers in this collection</p>
+                    </div><div class="insight keywords">
+                        <h4>Hot Topics</h4>
+                        <p>Top keywords: token, efficient, language, llms, large</p>
+                    </div><div class="insight availability">
+                        <h4>Open Access</h4>
+                        <p>20/25 papers (80%) have direct PDF links</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📝 Step Log</h3>
+                <div class="step-log">
+                    <div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (all)
+                        <div class="time">Step 9 - 17:03:52</div>
+                    </div><div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (trends)
+                        <div class="time">Step 8 - 17:03:27</div>
+                    </div><div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (venues)
+                        <div class="time">Step 7 - 17:03:07</div>
+                    </div><div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (authors)
+                        <div class="time">Step 6 - 17:02:47</div>
+                    </div><div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (topics)
+                        <div class="time">Step 5 - 17:02:31</div>
+                    </div><div class="step">
+                        <span class="agent">sorting_agent</span>: Sorted 25 papers by 'novelty'
+                        <div class="time">Step 4 - 17:01:56</div>
+                    </div><div class="step">
+                        <span class="agent">sorting_agent</span>: Sorted 25 papers by 'citations'
+                        <div class="time">Step 3 - 17:01:47</div>
+                    </div><div class="step">
+                        <span class="agent">sorting_agent</span>: Sorted 25 papers by 'relevance'
+                        <div class="time">Step 2 - 17:01:28</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'token efficiency in LLMs AND (token usage optimization OR token compression OR LLM token efficiency)'
+                        <div class="time">Step 1 - 17:00:17</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <h3>🏷️ Top Keywords</h3>
+                <div class="keywords">
+                    <span class="keyword" style="font-size: 1.4em">token (24)</span><span class="keyword" style="font-size: 1.3em">efficient (5)</span><span class="keyword" style="font-size: 1.3em">language (5)</span><span class="keyword" style="font-size: 1.3em">llms (5)</span><span class="keyword" style="font-size: 1.3em">large (5)</span><span class="keyword" style="font-size: 1.2000000000000002em">compression (4)</span><span class="keyword" style="font-size: 1.1em">inference (3)</span><span class="keyword" style="font-size: 1.1em">vision (3)</span><span class="keyword" style="font-size: 1.1em">expert (3)</span><span class="keyword" style="font-size: 1.1em">models (3)</span><span class="keyword" style="font-size: 1.0em">enhancing (2)</span><span class="keyword" style="font-size: 1.0em">focus (2)</span><span class="keyword" style="font-size: 1.0em">fusion (2)</span><span class="keyword" style="font-size: 1.0em">model (2)</span><span class="keyword" style="font-size: 1.0em">transformers (2)</span><span class="keyword" style="font-size: 1.0em">quantization (2)</span><span class="keyword" style="font-size: 1.0em">worth (2)</span><span class="keyword" style="font-size: 1.0em">global (2)</span><span class="keyword" style="font-size: 1.0em">cost (2)</span><span class="keyword" style="font-size: 1.0em">tuning (2)</span><span class="keyword" style="font-size: 1.0em">classification (2)</span><span class="keyword" style="font-size: 1.0em">reasoning (2)</span><span class="keyword" style="font-size: 1.0em">instruction (2)</span><span class="keyword" style="font-size: 1.0em">visual (2)</span><span class="keyword" style="font-size: 1.0em">pruning (2)</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📁 Output Files</h3>
+                <div class="files">
+                    <div class="file"><span class="file-icon">📄</span><span class="file-name">papers.json</span><span class="file-size">Full paper data</span></div>
+                    <div class="file"><span class="file-icon">🔗</span><span class="file-name">links.json</span><span class="file-size">Structured links</span></div>
+                    <div class="file"><span class="file-icon">📊</span><span class="file-name">stats.json</span><span class="file-size">Statistics</span></div>
+                    <div class="file"><span class="file-icon">💡</span><span class="file-name">summary.json</span><span class="file-size">Insights</span></div>
+                    <div class="file"><span class="file-icon">📑</span><span class="file-name">papers.csv</span><span class="file-size">Spreadsheet</span></div>
+                    <div class="file"><span class="file-icon">📚</span><span class="file-name">papers.bib</span><span class="file-size">BibTeX</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        new Chart(document.getElementById('timelineChart'), {
+            type: 'bar',
+            data: {
+                labels: [2022, 2023, 2024],
+                datasets: [{ label: 'Papers', data: [1, 6, 18], backgroundColor: 'rgba(102, 126, 234, 0.8)', borderRadius: 5 }]
+            },
+            options: { responsive: true, plugins: { legend: { display: false } } }
+        });
+        
+        new Chart(document.getElementById('sourceChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['offline_iclr', 'offline_emnlp', 'offline_eccv', 'offline_iccv', 'offline_naacl', 'offline_acl', 'offline_nips', 'offline_aistats', 'offline_wacv'],
+                datasets: [{ data: [3, 7, 4, 2, 1, 2, 4, 1, 1], backgroundColor: ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#00f2fe'] }]
+            },
+            options: { responsive: true }
+        });
+    </script>
+</body>
+</html>

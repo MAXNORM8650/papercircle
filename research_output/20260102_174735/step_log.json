@@ -1,0 +1,381 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T17:54:30.482878",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training survey review papers NLP'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "LLM post-training survey review papers NLP",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 25,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 25
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-02T17:54:54.714930",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLM post-training survey review papers NLP'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLM post-training survey review papers NLP",
+        "conferences": [
+          "iclr",
+          "nips"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 75
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-02T17:55:11.334585",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training survey review papers NLP'",
+      "result_preview": "Found 100 papers",
+      "details": {
+        "query": "LLM post-training survey review papers NLP",
+        "sources": [
+          "arxiv"
+        ],
+        "papers_found": 100,
+        "papers_added": 75,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 150
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-02T17:55:32.454458",
+      "agent": "online_search_agent",
+      "action": "Online search: 'post-training techniques LLM survey NLP'",
+      "result_preview": "Found 0 papers",
+      "details": {
+        "query": "post-training techniques LLM survey NLP",
+        "sources": [
+          "semantic_scholar"
+        ],
+        "papers_found": 0,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 150
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-02T17:56:13.967851",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'post-training techniques LLM survey NLP'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "post-training techniques LLM survey NLP",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 33,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 183
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-02T18:07:10.381171",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM fine-tuning adaptation alignment NLP survey'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "LLM fine-tuning adaptation alignment NLP survey",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 8,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 191
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-02T18:07:45.573653",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLM fine-tuning adaptation alignment NLP survey'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLM fine-tuning adaptation alignment NLP survey",
+        "conferences": [
+          "iclr",
+          "icml",
+          "nips",
+          "aaai",
+          "ijcai"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 42,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 233
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-02T18:08:04.965160",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM fine-tuning adaptation alignment NLP'",
+      "result_preview": "Found 200 papers",
+      "details": {
+        "query": "LLM fine-tuning adaptation alignment NLP",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 200,
+        "papers_added": 156,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 389
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-02T18:08:37.627854",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLM fine-tuning adaptation alignment NLP'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLM fine-tuning adaptation alignment NLP",
+        "conferences": [
+          "acl",
+          "emnlp",
+          "iclr",
+          "icml",
+          "nips",
+          "aaai",
+          "ijcai"
+        ],
+        "start_year": 2020,
+        "end_year": 2024,
+        "papers_found": 50,
+        "papers_added": 37,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 426
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-02T18:09:06.408579",
+      "agent": "online_search_agent",
+      "action": "Online search: 'survey LLM fine-tuning adaptation alignment NLP'",
+      "result_preview": "Found 99 papers",
+      "details": {
+        "query": "survey LLM fine-tuning adaptation alignment NLP",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 99,
+        "papers_added": 33,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 459
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-02T18:11:28.086677",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training techniques survey'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "LLM post-training techniques survey",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 26,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 485
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-02T18:11:57.650328",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training techniques survey review'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "LLM post-training techniques survey review",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 485
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-02T18:12:53.713797",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLM post-training techniques survey review'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLM post-training techniques survey review",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 5,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 490
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-02T18:13:14.281466",
+      "agent": "online_search_agent",
+      "action": "Online search: 'survey of LLM post-training techniques'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "survey of LLM post-training techniques",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 2,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 492
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-02T18:13:38.564518",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM fine-tuning techniques survey'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "LLM fine-tuning techniques survey",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 492
+    },
+    {
+      "step": 16,
+      "timestamp": "2026-01-02T18:14:26.106276",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLM fine-tuning techniques survey'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLM fine-tuning techniques survey",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 27,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 519
+    },
+    {
+      "step": 17,
+      "timestamp": "2026-01-02T18:15:04.869346",
+      "agent": "online_search_agent",
+      "action": "Online search: 'survey of post-training methods for large language models'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "survey of post-training methods for large language models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 32,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 551
+    },
+    {
+      "step": 18,
+      "timestamp": "2026-01-02T18:16:10.739123",
+      "agent": "online_search_agent",
+      "action": "Online search: 'survey of LLM fine-tuning and post-training techniques'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "survey of LLM fine-tuning and post-training techniques",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 551
+    },
+    {
+      "step": 19,
+      "timestamp": "2026-01-02T18:16:52.178050",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'survey of LLM fine-tuning and post-training techniques'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "survey of LLM fine-tuning and post-training techniques",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 15,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 566
+    }
+  ],
+  "current_step": 19,
+  "metadata": {
+    "query": "survey of LLM fine-tuning and post-training techniques",
+    "total_steps": 19,
+    "last_updated": "2026-01-02T18:16:53.000440",
+    "started_at": "2026-01-02T17:47:35.283327",
+    "total_papers": 566
+  }
+}

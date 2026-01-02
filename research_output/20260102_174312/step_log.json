@@ -1,0 +1,364 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T17:54:42.599644",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Natural Language Processing peer-reviewed journals'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "Natural Language Processing peer-reviewed journals",
+        "conferences": [
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 50
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-02T17:55:00.187160",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'NLP journals ranking'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "NLP journals ranking",
+        "conferences": [
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 48,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 98
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-02T17:55:22.802796",
+      "agent": "online_search_agent",
+      "action": "Online search: 'top NLP journals impact factor'",
+      "result_preview": "Found 40 papers",
+      "details": {
+        "query": "top NLP journals impact factor",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 40,
+        "papers_added": 40,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 138
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-02T17:55:42.962822",
+      "agent": "online_search_agent",
+      "action": "Online search: 'NLP journal rankings 2024'",
+      "result_preview": "Found 15 papers",
+      "details": {
+        "query": "NLP journal rankings 2024",
+        "sources": [
+          "openalex"
+        ],
+        "papers_found": 15,
+        "papers_added": 15,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 153
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-02T17:56:17.010843",
+      "agent": "online_search_agent",
+      "action": "Online search: 'best NLP journals 2024'",
+      "result_preview": "Found 0 papers",
+      "details": {
+        "query": "best NLP journals 2024",
+        "sources": [
+          "dblp"
+        ],
+        "papers_found": 0,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 153
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-02T18:07:09.505603",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training'",
+      "result_preview": "Found 49 papers",
+      "details": {
+        "query": "LLM post-training",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 49,
+        "papers_added": 48,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 201
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-02T18:07:37.821557",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLM post-training'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLM post-training",
+        "conferences": [
+          "acl",
+          "tacl",
+          "cl",
+          "ijcai"
+        ],
+        "start_year": 2020,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 251
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-02T18:07:56.493648",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training fine-tuning'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "LLM post-training fine-tuning",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 24,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 275
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-02T18:08:21.400159",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLM post-training fine-tuning'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLM post-training fine-tuning",
+        "conferences": [
+          "acl",
+          "tacl",
+          "cl",
+          "ijcai"
+        ],
+        "start_year": 2020,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 16,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 291
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-02T18:08:58.323629",
+      "agent": "online_search_agent",
+      "action": "Online search: 'post-training LLM alignment'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "post-training LLM alignment",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 20,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 311
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-02T18:09:20.388438",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'post-training LLM alignment'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "post-training LLM alignment",
+        "conferences": [
+          "acl",
+          "tacl",
+          "cl",
+          "ijcai"
+        ],
+        "start_year": 2020,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 20,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 331
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-02T18:11:54.881335",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training survey review'",
+      "result_preview": "Found 150 papers",
+      "details": {
+        "query": "LLM post-training survey review",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 150,
+        "papers_added": 118,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 449
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-02T18:13:08.589531",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLM post-training survey review'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLM post-training survey review",
+        "conferences": [
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "ijcai",
+          "aaai",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "nips"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 46,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 495
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-02T18:13:25.569082",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training survey review'",
+      "result_preview": "Found 100 papers",
+      "details": {
+        "query": "LLM post-training survey review",
+        "sources": [
+          "arxiv"
+        ],
+        "papers_found": 100,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 495
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-02T18:13:54.989340",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training survey review'",
+      "result_preview": "Found 99 papers",
+      "details": {
+        "query": "LLM post-training survey review",
+        "sources": [
+          "semantic_scholar"
+        ],
+        "papers_found": 99,
+        "papers_added": 92,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 587
+    },
+    {
+      "step": 16,
+      "timestamp": "2026-01-02T18:14:35.003246",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training survey review'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "LLM post-training survey review",
+        "sources": [
+          "openalex"
+        ],
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 587
+    },
+    {
+      "step": 17,
+      "timestamp": "2026-01-02T18:15:44.064109",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training survey review'",
+      "result_preview": "Found 0 papers",
+      "details": {
+        "query": "LLM post-training survey review",
+        "sources": [
+          "dblp"
+        ],
+        "papers_found": 0,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 587
+    },
+    {
+      "step": 18,
+      "timestamp": "2026-01-02T18:16:15.659877",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training survey review'",
+      "result_preview": "Found 150 papers",
+      "details": {
+        "query": "LLM post-training survey review",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 150,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 587
+    }
+  ],
+  "current_step": 18,
+  "metadata": {
+    "query": "LLM post-training survey review",
+    "total_steps": 18,
+    "last_updated": "2026-01-02T18:16:16.053144",
+    "started_at": "2026-01-02T17:43:13.834449",
+    "total_papers": 587
+  }
+}

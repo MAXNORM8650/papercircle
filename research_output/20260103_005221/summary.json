@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "hyper-connections manifold constraint implementation",
+    "total_papers": 671,
+    "unique_sources": 13,
+    "year_range": {
+      "min": 2002,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 703,
+      "average": 6.0
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 461,
+    "papers_with_doi": 201,
+    "processing_steps": 28
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (28) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 28
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 270 papers (40%)",
+      "data": {
+        "source": "arxiv",
+        "count": 270
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Vittorio Murino has 3 papers in this collection",
+      "data": {
+        "author": "Vittorio Murino",
+        "count": 3
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Gibbs Sampling from Human Feedback: A Provable KL- constrained Framework for RLHF...\" has 65 citations",
+      "data": {
+        "title": "Gibbs Sampling from Human Feedback: A Provable KL- constrained Framework for RLHF",
+        "citations": 65
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: manifold, learning, framework, constrained, neural",
+      "data": {
+        "keywords": {
+          "manifold": 106,
+          "learning": 88,
+          "framework": 67,
+          "constrained": 57,
+          "neural": 45
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "461/671 papers (68%) have direct PDF links",
+      "data": {
+        "with_pdf": 461,
+        "total": 671
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 671 papers related to 'hyper-connections manifold constraint implementation'",
+    "Papers collected from 13 sources: offline_iclr, offline_cvpr, offline_nips, offline_icml, offline_www, offline_aaai, offline_aistats, offline_ijcai, offline_naacl, offline_rss, semantic_scholar, openalex, arxiv",
+    "Publication years range from 2002 to 2026",
+    "Total citations: 703, Average: 6",
+    "Leading researchers: Vittorio Murino, Hyungjin Chung, Jong Chul Ye"
+  ],
+  "metadata": {
+    "query": "hyper-connections manifold constraint implementation",
+    "total_steps": 28,
+    "last_updated": "2026-01-03T00:57:34.822520",
+    "started_at": "2026-01-03T00:52:24.153352",
+    "total_papers": 671
+  }
+}

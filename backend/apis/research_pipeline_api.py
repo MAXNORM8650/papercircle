@@ -52,6 +52,10 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
 DEFAULT_API_BASE = os.getenv("OLLAMA_API_BASE", "http://localhost:11434")
 DEFAULT_MODEL_ID = os.getenv("OLLAMA_MODEL", "ollama_chat/qwen2.5:7b")
 
+# Active research sessions (timestamp -> future)
+active_sessions = {}
+cancelled_sessions = set()
+
 # Request/Response Models
 class ResearchRequest(BaseModel):
     query: str
@@ -226,6 +230,9 @@ async def stream_pipeline_progress(
         executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)
         future = loop.run_in_executor(executor, pipeline.run, enhanced_query)
 
+        # Register active session
+        active_sessions[timestamp] = future
+
         # Monitor output directory while pipeline runs
         last_paper_count = 0
         last_step_count = 0
@@ -233,6 +240,13 @@ async def stream_pipeline_progress(
         step_log_path = Path(output_dir) / "step_log.json"
 
         while not future.done():
+            # Check if cancelled
+            if timestamp in cancelled_sessions:
+                yield f"data: {json.dumps({'type': 'cancelled', 'content': 'Research cancelled by user'})}\n\n"
+                cancelled_sessions.remove(timestamp)
+                active_sessions.pop(timestamp, None)
+                return
+
             await asyncio.sleep(2)  # Check every 2 seconds
 
             # Check for new papers
@@ -266,14 +280,26 @@ async def stream_pipeline_progress(
         # Pipeline completed, get result
         result = await future
 
+        # Mark research as complete in summary.json
+        summary_path = Path(output_dir) / "summary.json"
+        if summary_path.exists():
+            try:
+                with open(summary_path, 'r') as f:
+                    summary = json.load(f)
+                summary['is_complete'] = True
+                with open(summary_path, 'w') as f:
+                    json.dump(summary, f, indent=2)
+                print(f"✅ Research marked as complete in summary.json")
+            except Exception as e:
+                print(f"⚠️  Could not mark summary as complete: {e}")
+
         # Send final results
         if papers_path.exists():
             with open(papers_path) as f:
                 papers = json.load(f)
                 yield f"data: {json.dumps({'type': 'papers', 'content': papers})}\n\n"
 
-        # Send summary
-        summary_path = Path(output_dir) / "summary.json"
+        # Send summary (with is_complete flag)
         if summary_path.exists():
             with open(summary_path) as f:
                 summary = json.load(f)
@@ -289,10 +315,15 @@ async def stream_pipeline_progress(
         # Send completion
         yield f"data: {json.dumps({'type': 'done', 'content': {'output_dir': output_dir, 'result': result}})}\n\n"
 
+        # Clean up session
+        active_sessions.pop(timestamp, None)
+
     except Exception as e:
         error_msg = str(e)
         print(f"❌ Pipeline error: {error_msg}")
         yield f"data: {json.dumps({'type': 'error', 'content': error_msg})}\n\n"
+        # Clean up session on error
+        active_sessions.pop(timestamp, None)
 
 # API Endpoints
 @app.get("/")
@@ -351,7 +382,12 @@ async def get_output_file(timestamp: str, filename: str):
             content = f.read()
         return HTMLResponse(content=content)
 
-    # For other files, return as JSON
+    # For JSON files, return parsed JSON directly
+    if filename.endswith('.json'):
+        with open(file_path) as f:
+            return json.load(f)
+
+    # For other files (csv, bib, md), return as text content
     with open(file_path) as f:
         content = f.read()
 
@@ -418,7 +454,6 @@ async def poll_research_progress(timestamp: str):
 
     # Read summary.json if exists
     summary_path = output_path / "summary.json"
-    dashboard_path = output_path / "dashboard.html"
     if summary_path.exists():
         try:
             with open(summary_path) as f:
@@ -429,12 +464,9 @@ async def poll_research_progress(timestamp: str):
         except:
             pass
 
-    # Auto-detect completion: if dashboard.html exists, research is complete
-    if dashboard_path.exists() and not result["is_complete"]:
-        result["is_complete"] = True
-        # Add is_complete flag to summary
-        if result["summary"]:
-            result["summary"]["is_complete"] = True
+    # Do NOT auto-detect completion based on dashboard.html
+    # The pipeline may continue adding papers after dashboard.html is created
+    # Only trust the explicit is_complete flag from summary.json
 
     # Calculate current agent and progress
     total_expected_steps = 6  # Pipeline has 6 agents typically
@@ -456,6 +488,22 @@ async def poll_research_progress(timestamp: str):
         result["current_agent"] = None
 
     return result
+
+@app.post("/research/cancel/{timestamp}")
+async def cancel_research(timestamp: str):
+    """
+    Cancel an active research session.
+
+    Note: The backend thread cannot be forcibly stopped, but this will:
+    1. Mark the session as cancelled
+    2. Stop monitoring and streaming updates
+    3. Clean up session tracking
+    """
+    if timestamp in active_sessions:
+        cancelled_sessions.add(timestamp)
+        return {"status": "cancelling", "message": f"Cancellation requested for {timestamp}"}
+    else:
+        return {"status": "not_found", "message": f"No active session found for {timestamp}"}
 
 if __name__ == "__main__":
     import uvicorn

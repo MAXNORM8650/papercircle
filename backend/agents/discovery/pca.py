@@ -2628,13 +2628,20 @@ def create_research_pipeline(model, output_dir: str = "research_output", verbose
     # Update global state reference
     global pipeline_state
     pipeline_state = state
-
+    web_agent = ToolCallingAgent(
+        tools=[WebSearchTool(), visit_webpage],
+        model=model,
+        max_steps=1,
+        name="web_search_agent",
+        description="Runs web searches for you. Use ONLY when strictly necessary for the research task require some meaning from the web about paper search title.",
+    )
     # Create agents with shared state
     intent_agent = ToolCallingAgent(
         tools=[IntentClassificationTool()],
         model=model,
+        managed_agents=[web_agent],
         name="intent_classification_agent",
-        description="Classifies user search intent to determine search mode (online/offline/both), conferences, year ranges, and ranking preferences.",
+        description="Classifies user search intent to determine search mode (online/offline/both), conferences, year ranges, and ranking preferences and the query meaning from web if needed.",
     )
 
     # Build paper search agent description with custom instructions if provided
@@ -2669,18 +2676,11 @@ def create_research_pipeline(model, output_dir: str = "research_output", verbose
         name="export_agent",
         description="Exports papers in all formats. Gets current structured output.",
     )
-    web_agent = ToolCallingAgent(
-        tools=[WebSearchTool(), visit_webpage],
-        model=model,
-        max_steps=10,
-        name="web_search_agent",
-        description="Runs web searches for you.",
-    )
     # Orchestrator - CodeAgent for full research pipeline
     orchestrator = CodeAgent(
         tools=[],
         model=model,
-        managed_agents=[intent_agent, paper_search_agent, sorting_agent, analysis_agent, export_agent, web_agent],
+        managed_agents=[intent_agent, paper_search_agent, sorting_agent, analysis_agent, export_agent],
         additional_authorized_imports=["json", "os", "datetime", "time", "numpy", "pandas"],
         planning_interval=2,
         max_steps=10,

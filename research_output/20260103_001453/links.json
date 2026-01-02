@@ -1,0 +1,2633 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Learning and Reusing Abstract Latent Actions in a Hippocampal-Entorhinal-Inspired World Model",
+        "url": "https://openreview.net/forum?id=RSvfY6dRVN",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Understanding the Emergence of Seemingly Useless Features in Next-Token Predictors",
+        "url": "https://openreview.net/forum?id=eBAMg7w96m",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Learning Abstract World Models for Value-preserving Planning with Options",
+        "url": "https://openreview.net/forum?id=czpx02orl7",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "ExoPredicator: Learning Abstract Models of Dynamic Worlds for Robot Planning",
+        "url": "https://openreview.net/forum?id=a1zfcaNTkM",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "VisualPredicator: Learning Abstract World Models with Neuro-Symbolic Predicates for Robot Planning",
+        "url": "https://iclr.cc/virtual/2025/poster/29691",
+        "pdf_url": "https://openreview.net/pdf?id=QOfswj7hij",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "World Model Implanting for Test-time Adaptation of Embodied Agents",
+        "url": "https://icml.cc/virtual/2025/poster/43758",
+        "pdf_url": "https://openreview.net/pdf?id=tpbtodnI1p",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Learning to Play Atari in a World of Tokens",
+        "url": "https://icml.cc/virtual/2024/poster/32760",
+        "pdf_url": "https://openreview.net/pdf?id=w8BnKGFIYN",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "VLASim: World Modelling via VLM-Directed Abstraction and Simulation from a Single Image",
+        "url": "https://openreview.net/forum?id=GfPwZwZ9xZ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Unsupervised Deep Learning of State Representation Using Robotic Priors",
+        "url": "https://openreview.net/forum?id=Bkp_y7qxe",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2017
+      },
+      {
+        "title": "Learning Temporally AbstractWorld Models without Online Experimentation",
+        "url": "https://icml.cc/virtual/2023/poster/23495",
+        "pdf_url": "https://openreview.net/pdf?id=YeTYJz7th5",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2023
+      },
+      {
+        "title": "Improved Distributed Principal Component Analysis",
+        "url": "https://nips.cc/virtual/2014/poster/4627",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2014/file/e968f1646c1c6c35422b64c0934772a4-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2014
+      },
+      {
+        "title": "Compositional World Models with Interpretable Abstractions",
+        "url": "https://openreview.net/forum?id=EHmjRIA4l2",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Diffeomorphic Dimensionality Reduction",
+        "url": "https://papers.nips.cc/paper_files/paper/2008/hash/647bba344396e7c8170902bcf2e15551-Abstract.html",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2008/file/647bba344396e7c8170902bcf2e15551-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2008
+      },
+      {
+        "title": "Leveraging the Inductive Bias of Large Language Models for Abstract Textual Reasoning",
+        "url": "https://nips.cc/virtual/2021/poster/26937",
+        "pdf_url": "https://openreview.net/pdf?id=urueR03mkng",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2021
+      },
+      {
+        "title": "Generation of Internal Representation by α-Transformation",
+        "url": "https://papers.nips.cc/paper_files/paper/1993/hash/98d6f58ab0dafbb86b083a001561bb34-Abstract.html",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/1993/file/98d6f58ab0dafbb86b083a001561bb34-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 1993
+      },
+      {
+        "title": "Do LLMs Build World Representations? Probing Through the Lens of State Abstraction",
+        "url": "https://neurips.cc/virtual/2024/poster/93786",
+        "pdf_url": "https://openreview.net/pdf?id=lzfzjYuWgY",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Efficient Fairness-Performance Pareto Front Computation",
+        "url": "https://openreview.net/forum?id=VgtpRXhxli",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "A Cognitive Model for Learning Abstract Relational Structures from Memory-based Decision-Making Tasks",
+        "url": "https://iclr.cc/virtual/2024/poster/18912",
+        "pdf_url": "https://openreview.net/pdf?id=KC58bVmxyN",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Strategy Grafting in Extensive Games",
+        "url": "https://papers.nips.cc/paper_files/paper/2009/hash/e0ec453e28e061cc58ac43f91dc2f3f0-Abstract.html",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2009/file/e0ec453e28e061cc58ac43f91dc2f3f0-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2009
+      },
+      {
+        "title": "PIVOT-R: Primitive-Driven Waypoint-Aware World Model for Robotic Manipulation",
+        "url": "https://neurips.cc/virtual/2024/poster/94118",
+        "pdf_url": "https://openreview.net/pdf?id=gnXTDQyxlU",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Towards Unraveling and Improving Generalization in World Models",
+        "url": "https://openreview.net/forum?id=3sWghzJvGd",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling",
+        "url": "https://icml.cc/virtual/2023/poster/24286",
+        "pdf_url": "https://openreview.net/pdf?id=Rm5Qi57C5I",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2023
+      },
+      {
+        "title": "Towards Understanding Robustness and Generalization in World Models",
+        "url": "https://openreview.net/forum?id=k7nYm2yU5i",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Residual Connections Harm Generative Representation Learning",
+        "url": "https://openreview.net/forum?id=cxKLRM3KhC",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Contrastive Learning of Structured World Models",
+        "url": "https://openreview.net/forum?id=H1gax6VtDB",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2020
+      },
+      {
+        "title": "Abstract Visual Reasoning by Self-supervised Contrastive Learning",
+        "url": "https://openreview.net/forum?id=AvSIqjCWVId",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Roadmap towards Superhuman Speech Understanding using Large Language Models",
+        "url": "https://openreview.net/forum?id=Pnr8XNWcY0",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Visual Representation Learning for World Models by Predicting Fine-Grained Motion",
+        "url": "https://openreview.net/forum?id=8BJl6LQgW5",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Robust Low Rank Kernel Embeddings of Multivariate Distributions",
+        "url": "https://nips.cc/virtual/2013/poster/4093",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2013/file/49b8b4f95f02e055801da3b4f58e28b7-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2013
+      },
+      {
+        "title": "Hierarchical Object-Oriented POMDP Planning for Object Rearrangement",
+        "url": "https://openreview.net/forum?id=BgcapX9ers",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Low Compute Unlearning via Sparse Representations",
+        "url": "https://openreview.net/forum?id=nb3VjILNVs",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Flow Equivariant World Modeling for Partially Observed Dynamic Environments",
+        "url": "https://openreview.net/forum?id=W7WUJTGByR",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "offline_rl_ope: A Python package for off-policy evaluation of offline RL models with real world data",
+        "url": "https://openreview.net/forum?id=6PcJEFKvBD",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Dyn-O: Building Structured World Models with Object-Centric Representations",
+        "url": "https://openreview.net/forum?id=b2u1yrTwFK",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Learning Generalizable Visual Representations via Interactive Gameplay",
+        "url": "https://iclr.cc/virtual/2021/poster/2685",
+        "pdf_url": "https://openreview.net/pdf?id=UuchYL8wSZo",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2021
+      },
+      {
+        "title": "LLMs Struggle to Balance Reasoning and World Knowledge in Causal Narrative Understanding",
+        "url": "https://openreview.net/forum?id=GfVKK5sKit",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Emergent World Representations: Exploring a Sequence Model Trained on a Synthetic Task",
+        "url": "https://iclr.cc/virtual/2023/poster/11827",
+        "pdf_url": "https://openreview.net/pdf?id=DeG07_TcZvT",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Can World Models Benefit VLMs for World Dynamics?",
+        "url": "https://openreview.net/forum?id=LFCSVVIy1x",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Learning Algebraic Representation for Systematic Generalization in Abstract Reasoning",
+        "url": "https://openreview.net/forum?id=gehXu3kDU1P",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2022
+      },
+      {
+        "title": "Slot Structured World Models",
+        "url": "https://openreview.net/forum?id=OFF38XvszP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Learning Algebraic Representation for Abstract Spatial-Temporal Reasoning",
+        "url": "https://openreview.net/forum?id=jQSBcVURlpW",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2021
+      },
+      {
+        "title": "Contrastive Unsupervised Learning of World Model with Invariant Causal Features",
+        "url": "https://openreview.net/forum?id=7DtgxVZGj-y",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "DO-AutoEncoder: Learning and Intervening Bivariate Causal Mechanisms in Images",
+        "url": "https://openreview.net/forum?id=r1e7NgrYvH",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2020
+      },
+      {
+        "title": "Learning World Models with Identifiable Factorization",
+        "url": "https://nips.cc/virtual/2023/poster/72763",
+        "pdf_url": "https://openreview.net/pdf?id=6JJq5TW9Mc",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2023
+      },
+      {
+        "title": "SCALOR: Generative World Models with Scalable Object Representations",
+        "url": "https://openreview.net/forum?id=SJxrKgStDH",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2020
+      },
+      {
+        "title": "Value-Based Deep RL Scales Predictably",
+        "url": "https://icml.cc/virtual/2025/poster/45893",
+        "pdf_url": "https://openreview.net/pdf?id=FLPFPYJeVU",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "FLAMBE: Structural Complexity and Representation Learning of Low Rank MDPs",
+        "url": "https://nips.cc/virtual/2020/poster/18128",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2020/file/e894d787e2fd6c133af47140aa156f00-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2020
+      },
+      {
+        "title": "Learning Abstract World Models with a Group-Structured Latent Space",
+        "url": "https://www.semanticscholar.org/paper/ed7346dcb1fe387a64d5789c79cada4bd42205d4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.01529",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Goal-VLA: Image-Generative VLMs as Object-Centric World Models Empowering Zero-shot Robot Manipulation",
+        "url": "https://www.semanticscholar.org/paper/ffccb1b3247f4e63d1b0c8b8c31c70cb0db16e3d",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Simple Orthogonal Graph Representation Learning (Student Abstract)",
+        "url": "https://www.semanticscholar.org/paper/db73d1cb2c06a45537250c717efe90d5bb7d828a",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/30430/32509",
+        "doi_url": "https://doi.org/10.1609/aaai.v38i21.30430",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "World Models and Attention for Reinforcement Learning",
+        "url": "https://www.semanticscholar.org/paper/61df4b1589e0c96df667ab634c4764170903a064",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1162/isal_a_00471",
+        "source": "semantic_scholar",
+        "year": 2021
+      },
+      {
+        "title": "Sparse representation learning with modified q-VAE towards minimal realization of world model",
+        "url": "https://www.semanticscholar.org/paper/cd5baf2998cbd3f8ff584179f9b290ce9a1be6ff",
+        "pdf_url": "https://arxiv.org/pdf/2208.03936",
+        "doi_url": "https://doi.org/10.1080/01691864.2023.2221715",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "AtResNet: Residual Atrous CNN with Multi-scale Feature Representation for Low Complexity Acoustic Scene Classification",
+        "url": "https://www.semanticscholar.org/paper/5c0135a85e0cd03693391008e7a1bcfc1538b982",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/s00034-022-02107-2",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "Abstract 2145: Genetic ancestry associations with pancreatic cancer mutational profiles from a diverse 9,274-patient real-world cohort",
+        "url": "https://www.semanticscholar.org/paper/d21d17242525dc6e87699b8f24edea5c052703d3",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1158/1538-7445.am2024-2145",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "HYBRID DEEP LEARNING MODELS FOR MULTILINGUAL SENTIMENT ANALYSIS IN LOW-RESOURCE LANGUAGES",
+        "url": "https://www.semanticscholar.org/paper/8fe02571bdbc8699903f54cc2ccfdfc52ed2e488",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.25181/coding.v1i1.4306",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Abstract C043:\n PIN1\n mRNA expression in biliary tract cancer: A multiomic analysis of its prognostic relevance and association with tumor-immune states in a large real-world cohort",
+        "url": "https://www.semanticscholar.org/paper/aa777000708a4a6f6981d9aa45160715148365a2",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1158/1535-7163.targ-25-c043",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Exploring the footprint representation of microwave radiance observations in an Arctic limited-area data assimilation system",
+        "url": "https://www.semanticscholar.org/paper/7f1e538713569c8334654bd265f3021f606a2311",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.5194/gmd-17-6571-2024",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Comprehensive Study on Performance Evaluation and Optimization of Model Compression: Bridging Traditional Deep Learning and Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/b5e760c391804e66b610b5753e193eb5c5acf2ba",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2407.15904",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "A Fast Anomaly Detection in Hyperspectral Images Based on Low-Rank and Sparse Representation",
+        "url": "https://www.semanticscholar.org/paper/f4306a0caec2823a3f52a6cef1e90c92615d4ef2",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/IGARSS55030.2025.11243679",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Granular-ball representation-based two-stage deep learning model for text classification",
+        "url": "https://www.semanticscholar.org/paper/5dd43a62ace6c47d39fdc4c84cd75ac7df4954d7",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/s10489-025-07010-2",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Selecting and weighting dynamical models using data-driven approaches",
+        "url": "https://www.semanticscholar.org/paper/5463e75fe76900d223892f983a8d12b46ef296f1",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.5194/npg-31-303-2024",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Robust auto-weighted and dual-structural representation learning for image clustering",
+        "url": "https://www.semanticscholar.org/paper/7700b45f828ce3f9c106f38f79ef5c626ef090a1",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1117/1.JEI.33.4.043039",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Survey on Embedding Models for Knowledge Graph and its Applications",
+        "url": "https://www.semanticscholar.org/paper/cda81da1f54f9d9854e28e2e9b289b7199ea4e59",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2404.09167",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "IoT Device Authentication via RAM Trace Analysis: A Representation Learning Framework",
+        "url": "https://www.semanticscholar.org/paper/920cd3e808876d817a3caab7800c8c1c4d39279f",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/GLOBECOM52923.2024.10901561",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "ReGA: Representation-Guided Abstraction for Model-based Safeguarding of LLMs",
+        "url": "https://www.semanticscholar.org/paper/dcc59902da1b95f1f63d5f2836327822f94a276a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.01770",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Low-Rank Sparse Generative Adversarial Unsupervised Domain Adaptation for Multitarget Traffic Scene Semantic Segmentation",
+        "url": "https://www.semanticscholar.org/paper/3520845cd4900a7f4f9b82771166bd82f9282394",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/TII.2023.3291402",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "SETUP: Sentence-level English-To-Uniform Meaning Representation Parser",
+        "url": "https://www.semanticscholar.org/paper/ff0efe591c06f8be2e5cec944f348dee161ad71e",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Recommending Learning Objects through Attentive Heterogeneous Graph Convolution and Operation- Aware Neural Network (Extended Abstract)",
+        "url": "https://www.semanticscholar.org/paper/15646e51a590f658b99f4267080c2142d5a7a18f",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICDE60146.2024.00505",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Evaluating and Optimizing the Effectiveness of Neural Machine Translation in Supporting Code Retrieval Models: A Study on the CAT Benchmark",
+        "url": "https://www.semanticscholar.org/paper/f6d8199f41015fe6cbba03dc513cfae5a9f663e8",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3583780.3614869",
+        "doi_url": "https://doi.org/10.1145/3583780.3614869",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Iris matching recognition based on information quantity and complex domain in low-computational power scenarios",
+        "url": "https://www.semanticscholar.org/paper/7bbf7f2f1f1f65a3ef0153c0e7c3c82e9cd6e6e6",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1117/1.JEI.34.5.053044",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Abstract TP171: Automated Large Vessel Occlusions Detection: Improved Diagnostic Accuracy in MCA M2 Segment Using Deep Learning",
+        "url": "https://www.semanticscholar.org/paper/ffbc835b101ea4c84decae0f4da9f8edab486a5e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1161/str.56.suppl_1.tp171",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "A Switched-Capacitor Compute-in-Memory Ising Hardware Annealing Accelerator",
+        "url": "https://www.semanticscholar.org/paper/e9c190a7eedc4c090ebe8cee84c16586b3a97f28",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ISSC67739.2025.11291378",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "url": "http://arxiv.org/abs/2512.25075v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "url": "http://arxiv.org/abs/2512.25074v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "url": "http://arxiv.org/abs/2512.25071v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "url": "http://arxiv.org/abs/2512.25072v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "url": "http://arxiv.org/abs/2512.25070v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+        "url": "http://arxiv.org/abs/2512.25069v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25069v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+        "url": "http://arxiv.org/abs/2512.25068v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25068v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "url": "http://arxiv.org/abs/2512.25067v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "url": "http://arxiv.org/abs/2512.25066v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "url": "http://arxiv.org/abs/2512.25065v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "url": "http://arxiv.org/abs/2512.25064v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+        "url": "http://arxiv.org/abs/2512.25063v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25063v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "On the geometry and topology of representations: the manifolds of modular addition",
+        "url": "http://arxiv.org/abs/2512.25060v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25060v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "url": "http://arxiv.org/abs/2512.25059v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "url": "http://arxiv.org/abs/2512.25056v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "url": "http://arxiv.org/abs/2512.25055v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Emergence of 3D Superconformal Ising Criticality on the Fuzzy Sphere",
+        "url": "http://arxiv.org/abs/2512.25054v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25054v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Fluid dynamics as intersection problem",
+        "url": "http://arxiv.org/abs/2512.25053v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25053v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+        "url": "http://arxiv.org/abs/2512.25050v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25050v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Arithmetic with spatiotemporal optical vortex of integer and fractional topological charges",
+        "url": "http://arxiv.org/abs/2512.25049v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25049v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+        "url": "http://arxiv.org/abs/2512.25048v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25048v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Amplitude constraints on dark energy",
+        "url": "http://arxiv.org/abs/2512.25047v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25047v1",
+        "doi_url": "https://doi.org/10.58027/3q8k-ew90",
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "url": "http://arxiv.org/abs/2512.25046v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "url": "http://arxiv.org/abs/2512.25045v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "url": "http://arxiv.org/abs/2512.25042v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Humans rationally balance detailed and temporally abstract world models",
+        "url": "https://www.semanticscholar.org/paper/fec10312b2801c11469ff0da2aad3a9a5bf7a82d",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1038/s44271-024-00169-3",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Neurosymbolic Graph Enrichment for Grounded World Models",
+        "url": "https://www.semanticscholar.org/paper/df0f3aff33dbb48b8d095bd09b746108f7b243e4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2411.12671",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "KARNet: Kalman Filter Augmented Recurrent Neural Network for Learning World Models in Autonomous Driving Tasks",
+        "url": "https://www.semanticscholar.org/paper/f5452f1540fa0cd15a84f90f6b6e356d9e4735ed",
+        "pdf_url": "http://arxiv.org/pdf/2305.14644",
+        "doi_url": "https://doi.org/10.48550/arXiv.2305.14644",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Abstract 3519: Reconstructing a latent representation of gene expression from genomic alterations to improve clinical utility of real-world clinicogenomics data",
+        "url": "https://www.semanticscholar.org/paper/ffec34481db10375060930315082ce069d9ae97f",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1158/1538-7445.am2024-3519",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Scaling Cross-Embodiment World Models for Dexterous Manipulation",
+        "url": "https://www.semanticscholar.org/paper/9cafcf8cb712f3b1e250f750d1031e83a0cd70bb",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2511.01177",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "SketchAA: Abstract Representation for Abstract Sketches",
+        "url": "https://www.semanticscholar.org/paper/53f14a3c0cdc26793b32a17cad8687b8530660cd",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICCV48922.2021.00994",
+        "source": "semantic_scholar",
+        "year": 2021
+      },
+      {
+        "title": "Synthesis of historical reservoir operations from 1980 to 2020 for the evaluation of reservoir representation in large-scale hydrologic models",
+        "url": "https://www.semanticscholar.org/paper/27ac5dcff3b47e1513433d72014da40d7d1f8438",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.5194/hess-28-1071-2024",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Leveraging Open‐Source Geographic Databases to Enhance the Representation of Landscape Heterogeneity in Ecological Models",
+        "url": "https://www.semanticscholar.org/paper/336a02471c8be13486b67937982d2d49f3d464d0",
+        "pdf_url": "https://doi.org/10.1002/ece3.70402",
+        "doi_url": "https://doi.org/10.1002/ece3.70402",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Graphical representation of global water models",
+        "url": "https://www.semanticscholar.org/paper/ec414f79640cde11533c659c35c1f3d57c2ed60b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.5194/gmd-18-2409-2025",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Relational Causal Models with Cycles: Representation and Reasoning",
+        "url": "https://www.semanticscholar.org/paper/79cd8ce40e351e554c45316010ccbafb6c7d9634",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "Deep Representation Debiasing via Mutual Information Minimization and Maximization (Student Abstract)",
+        "url": "https://www.semanticscholar.org/paper/052cbf08c62ee03c5cef3a1e8d929be607454491",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/21619/21368",
+        "doi_url": "https://doi.org/10.1609/aaai.v36i11.21619",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "UNCERTAINTY REPRESENTATION AND QUANTIFICATION OF 3D BUILDING MODELS",
+        "url": "https://www.semanticscholar.org/paper/b13bf26b9f77595c6de3f0e418e27e45448a132e",
+        "pdf_url": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B2-2022/335/2022/isprs-archives-XLIII-B2-2022-335-2022.pdf",
+        "doi_url": "https://doi.org/10.5194/isprs-archives-xliii-b2-2022-335-2022",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "Compact Abstract Graphs for Detecting Code Vulnerability with GNN Models",
+        "url": "https://www.semanticscholar.org/paper/32469361091deb75ee738377e84175e0db3f5b28",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3564625.3564655",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "Abstract 4366996: Forecasting the Onset of Atrial Fibrillation in the Intensive Care Unit Using Real-World Telemetry Data",
+        "url": "https://www.semanticscholar.org/paper/425a82174cfb58edb1bedb962804708645335c3c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1161/circ.152.suppl_3.4366996",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Impact of improved representation of volatile organic compound emissions and production of NOx reservoirs on modeled urban ozone production",
+        "url": "https://www.semanticscholar.org/paper/57ea03a44508592faa6087d446ce34b63229ea99",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.5194/acp-24-9555-2024",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Delta-band Activity Underlies Referential Meaning Representation during Pronoun Resolution",
+        "url": "https://www.semanticscholar.org/paper/84bc6ba8a5522bb114f9e2ffdc3a41b89b456c91",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1162/jocn_a_02163",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Dense Captioning Using Abstract Meaning Representation",
+        "url": "https://www.semanticscholar.org/paper/bc7cc5f9e93d59fa6281c2299b65b1021fa0f0b4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/978-3-030-61377-8_31",
+        "source": "semantic_scholar",
+        "year": 2020
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "url": "http://arxiv.org/abs/2512.25040v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "MAP: Low-compute Model Merging with Amortized Pareto Fronts via Quadratic Approximation",
+        "url": "https://www.semanticscholar.org/paper/c51c550cc3dbac1222799a7397bf4d26daf35a7a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2406.07529",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Low-Bandwidth and Compute-Bound RGB-D Planar Semantic SLAM",
+        "url": "https://www.semanticscholar.org/paper/1a5f9a24e7ad365f45ba104c06204b8d7560ccc9",
+        "pdf_url": "https://www.mdpi.com/1424-8220/21/16/5400/pdf",
+        "doi_url": "https://doi.org/10.3390/s21165400",
+        "source": "semantic_scholar",
+        "year": 2021
+      },
+      {
+        "title": "A Lightweight Low-Power Model for the Detection of Plant Leaf Diseases",
+        "url": "https://www.semanticscholar.org/paper/0bc9ffa722e19b0c3498f009dc9943594aed6087",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/s42979-024-02658-y",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Skeleton Tracking Solutions for a Low-Cost Stroke Rehabilitation Support System",
+        "url": "https://www.semanticscholar.org/paper/1d3d02bea2df5ce75877ea8217f2bedb931052b8",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICORR58425.2023.10304749",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Furcifer: a Context Adaptive Middleware for Real-world Object Detection Exploiting Local, Edge, and Split Computing in the Cloud Continuum",
+        "url": "https://www.semanticscholar.org/paper/91ebf13471dc22e2fa69dc4229ec3d981dfafedc",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/PerCom59722.2024.10494426",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "A Survey of Methods for Low-Power Deep Learning and Computer Vision",
+        "url": "https://www.semanticscholar.org/paper/0ac0c18fdb61577b5e67c5eb23cf8e1113dac0ba",
+        "pdf_url": "https://arxiv.org/pdf/2003.11066",
+        "doi_url": "https://doi.org/10.1109/WF-IoT48130.2020.9221198",
+        "source": "semantic_scholar",
+        "year": 2020
+      },
+      {
+        "title": "Leapfrogging Medical AI in Low-Resource Contexts Using Edge Tensor Processing Unit",
+        "url": "https://www.semanticscholar.org/paper/a3ec8d93139cffacd9321c4c953736cf493dd1cf",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/HI-POCT54491.2022.9744071",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "R2E-Gym: Procedural Environments and Hybrid Verifiers for Scaling Open-Weights SWE Agents",
+        "url": "https://www.semanticscholar.org/paper/5c29ce07433679fc5e2a5bed83d3a80464b966e6",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2504.07164",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Approximating the λ-low-density Value",
+        "url": "https://www.semanticscholar.org/paper/9e4671d83ccec393a535fa07074e36a21f1bed01",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/978-3-031-49190-0_5",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "Projected Changes in the Southern Indian Ocean Cyclone Activity Assessed from High-Resolution Experiments and CMIP5 Models",
+        "url": "https://www.semanticscholar.org/paper/cf2cbc0813dcae6f604b9d0c5dc3b56ed3159c83",
+        "pdf_url": "https://hal.archives-ouvertes.fr/hal-02516828/file/Cattiaux2020JClim.pdf",
+        "doi_url": "https://doi.org/10.1175/jcli-d-19-0591.1",
+        "source": "semantic_scholar",
+        "year": 2020
+      },
+      {
+        "title": "Rethinking Generalization in American Sign Language Prediction for Edge Devices with Extremely Low Memory Footprint",
+        "url": "https://www.semanticscholar.org/paper/5fe02f9d41b21b2340365104f44a4279db12af57",
+        "pdf_url": "https://arxiv.org/pdf/2011.13741",
+        "doi_url": "https://doi.org/10.1109/RAICS51191.2020.9332480",
+        "source": "semantic_scholar",
+        "year": 2020
+      },
+      {
+        "title": "Targeting Hypertension Screening in Low‐ and Middle‐Income Countries: A Cross‐Sectional Analysis of 1.2 Million Adults in 56 Countries",
+        "url": "https://www.semanticscholar.org/paper/98510cfca9793a3197fbe6ba9174751f1d5a764f",
+        "pdf_url": "https://www.ahajournals.org/doi/pdf/10.1161/JAHA.121.021063",
+        "doi_url": "https://doi.org/10.1161/JAHA.121.021063",
+        "source": "semantic_scholar",
+        "year": 2021
+      },
+      {
+        "title": "Data-Driven Estimation of Li-Ion Battery Health: Integrating GPT-4 With Distilled Lifelong Learning",
+        "url": "https://www.semanticscholar.org/paper/590f4c071a51c6c1edf1c779599fbfab949c5d17",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/TEC.2025.3548400",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Position: The Future of Bayesian Prediction Is Prior-Fitted",
+        "url": "https://www.semanticscholar.org/paper/232be86fc232e2756debe6eaed8e375537588911",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.23947",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Vision-centric Token Compression in Large Language Model",
+        "url": "https://www.semanticscholar.org/paper/50b73ac7a0819180aba30d2059e341db5caa87fa",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2502.00791",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Polar Sparsity: High Throughput Batched LLM Inferencing with Scalable Contextual Sparsity",
+        "url": "https://www.semanticscholar.org/paper/328fcf757fa9647ea5eb96d37ee735e52a43df43",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.14884",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Identifying Sparsely Active Circuits Through Local Loss Landscape Decomposition",
+        "url": "https://www.semanticscholar.org/paper/bf4b53cceb8beba152b79d946997180363898829",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2504.00194",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "LUNE: Efficient LLM Unlearning via LoRA Fine-Tuning with Negative Examples",
+        "url": "https://www.semanticscholar.org/paper/78081516f448d8113a321f109fe6164fa4ae4baa",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "OCCAM: Towards Cost-Efficient and Accuracy-Aware Image Classification Inference",
+        "url": "https://www.semanticscholar.org/paper/43b839deec89604bb21e888d994bbf15889b921d",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2406.04508",
+        "source": "semantic_scholar",
+        "year": 2024
+      }
+    ],
+    "by_source": {
+      "offline_iclr": [
+        {
+          "title": "Learning and Reusing Abstract Latent Actions in a Hippocampal-Entorhinal-Inspired World Model",
+          "url": "https://openreview.net/forum?id=RSvfY6dRVN",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Understanding the Emergence of Seemingly Useless Features in Next-Token Predictors",
+          "url": "https://openreview.net/forum?id=eBAMg7w96m",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Learning Abstract World Models for Value-preserving Planning with Options",
+          "url": "https://openreview.net/forum?id=czpx02orl7",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "ExoPredicator: Learning Abstract Models of Dynamic Worlds for Robot Planning",
+          "url": "https://openreview.net/forum?id=a1zfcaNTkM",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "VisualPredicator: Learning Abstract World Models with Neuro-Symbolic Predicates for Robot Planning",
+          "url": "https://iclr.cc/virtual/2025/poster/29691",
+          "pdf_url": "https://openreview.net/pdf?id=QOfswj7hij",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "VLASim: World Modelling via VLM-Directed Abstraction and Simulation from a Single Image",
+          "url": "https://openreview.net/forum?id=GfPwZwZ9xZ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Unsupervised Deep Learning of State Representation Using Robotic Priors",
+          "url": "https://openreview.net/forum?id=Bkp_y7qxe",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2017
+        },
+        {
+          "title": "Compositional World Models with Interpretable Abstractions",
+          "url": "https://openreview.net/forum?id=EHmjRIA4l2",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Efficient Fairness-Performance Pareto Front Computation",
+          "url": "https://openreview.net/forum?id=VgtpRXhxli",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "A Cognitive Model for Learning Abstract Relational Structures from Memory-based Decision-Making Tasks",
+          "url": "https://iclr.cc/virtual/2024/poster/18912",
+          "pdf_url": "https://openreview.net/pdf?id=KC58bVmxyN",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Towards Understanding Robustness and Generalization in World Models",
+          "url": "https://openreview.net/forum?id=k7nYm2yU5i",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Residual Connections Harm Generative Representation Learning",
+          "url": "https://openreview.net/forum?id=cxKLRM3KhC",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Contrastive Learning of Structured World Models",
+          "url": "https://openreview.net/forum?id=H1gax6VtDB",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2020
+        },
+        {
+          "title": "Abstract Visual Reasoning by Self-supervised Contrastive Learning",
+          "url": "https://openreview.net/forum?id=AvSIqjCWVId",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Roadmap towards Superhuman Speech Understanding using Large Language Models",
+          "url": "https://openreview.net/forum?id=Pnr8XNWcY0",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Visual Representation Learning for World Models by Predicting Fine-Grained Motion",
+          "url": "https://openreview.net/forum?id=8BJl6LQgW5",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Hierarchical Object-Oriented POMDP Planning for Object Rearrangement",
+          "url": "https://openreview.net/forum?id=BgcapX9ers",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Low Compute Unlearning via Sparse Representations",
+          "url": "https://openreview.net/forum?id=nb3VjILNVs",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Flow Equivariant World Modeling for Partially Observed Dynamic Environments",
+          "url": "https://openreview.net/forum?id=W7WUJTGByR",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "offline_rl_ope: A Python package for off-policy evaluation of offline RL models with real world data",
+          "url": "https://openreview.net/forum?id=6PcJEFKvBD",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Learning Generalizable Visual Representations via Interactive Gameplay",
+          "url": "https://iclr.cc/virtual/2021/poster/2685",
+          "pdf_url": "https://openreview.net/pdf?id=UuchYL8wSZo",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2021
+        },
+        {
+          "title": "LLMs Struggle to Balance Reasoning and World Knowledge in Causal Narrative Understanding",
+          "url": "https://openreview.net/forum?id=GfVKK5sKit",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Emergent World Representations: Exploring a Sequence Model Trained on a Synthetic Task",
+          "url": "https://iclr.cc/virtual/2023/poster/11827",
+          "pdf_url": "https://openreview.net/pdf?id=DeG07_TcZvT",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Can World Models Benefit VLMs for World Dynamics?",
+          "url": "https://openreview.net/forum?id=LFCSVVIy1x",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Learning Algebraic Representation for Systematic Generalization in Abstract Reasoning",
+          "url": "https://openreview.net/forum?id=gehXu3kDU1P",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2022
+        },
+        {
+          "title": "Slot Structured World Models",
+          "url": "https://openreview.net/forum?id=OFF38XvszP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Learning Algebraic Representation for Abstract Spatial-Temporal Reasoning",
+          "url": "https://openreview.net/forum?id=jQSBcVURlpW",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2021
+        },
+        {
+          "title": "Contrastive Unsupervised Learning of World Model with Invariant Causal Features",
+          "url": "https://openreview.net/forum?id=7DtgxVZGj-y",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "DO-AutoEncoder: Learning and Intervening Bivariate Causal Mechanisms in Images",
+          "url": "https://openreview.net/forum?id=r1e7NgrYvH",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2020
+        },
+        {
+          "title": "SCALOR: Generative World Models with Scalable Object Representations",
+          "url": "https://openreview.net/forum?id=SJxrKgStDH",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2020
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "World Model Implanting for Test-time Adaptation of Embodied Agents",
+          "url": "https://icml.cc/virtual/2025/poster/43758",
+          "pdf_url": "https://openreview.net/pdf?id=tpbtodnI1p",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Learning to Play Atari in a World of Tokens",
+          "url": "https://icml.cc/virtual/2024/poster/32760",
+          "pdf_url": "https://openreview.net/pdf?id=w8BnKGFIYN",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        },
+        {
+          "title": "Learning Temporally AbstractWorld Models without Online Experimentation",
+          "url": "https://icml.cc/virtual/2023/poster/23495",
+          "pdf_url": "https://openreview.net/pdf?id=YeTYJz7th5",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2023
+        },
+        {
+          "title": "Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling",
+          "url": "https://icml.cc/virtual/2023/poster/24286",
+          "pdf_url": "https://openreview.net/pdf?id=Rm5Qi57C5I",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2023
+        },
+        {
+          "title": "Value-Based Deep RL Scales Predictably",
+          "url": "https://icml.cc/virtual/2025/poster/45893",
+          "pdf_url": "https://openreview.net/pdf?id=FLPFPYJeVU",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "Improved Distributed Principal Component Analysis",
+          "url": "https://nips.cc/virtual/2014/poster/4627",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2014/file/e968f1646c1c6c35422b64c0934772a4-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2014
+        },
+        {
+          "title": "Diffeomorphic Dimensionality Reduction",
+          "url": "https://papers.nips.cc/paper_files/paper/2008/hash/647bba344396e7c8170902bcf2e15551-Abstract.html",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2008/file/647bba344396e7c8170902bcf2e15551-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2008
+        },
+        {
+          "title": "Leveraging the Inductive Bias of Large Language Models for Abstract Textual Reasoning",
+          "url": "https://nips.cc/virtual/2021/poster/26937",
+          "pdf_url": "https://openreview.net/pdf?id=urueR03mkng",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2021
+        },
+        {
+          "title": "Generation of Internal Representation by α-Transformation",
+          "url": "https://papers.nips.cc/paper_files/paper/1993/hash/98d6f58ab0dafbb86b083a001561bb34-Abstract.html",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/1993/file/98d6f58ab0dafbb86b083a001561bb34-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 1993
+        },
+        {
+          "title": "Do LLMs Build World Representations? Probing Through the Lens of State Abstraction",
+          "url": "https://neurips.cc/virtual/2024/poster/93786",
+          "pdf_url": "https://openreview.net/pdf?id=lzfzjYuWgY",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Strategy Grafting in Extensive Games",
+          "url": "https://papers.nips.cc/paper_files/paper/2009/hash/e0ec453e28e061cc58ac43f91dc2f3f0-Abstract.html",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2009/file/e0ec453e28e061cc58ac43f91dc2f3f0-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2009
+        },
+        {
+          "title": "PIVOT-R: Primitive-Driven Waypoint-Aware World Model for Robotic Manipulation",
+          "url": "https://neurips.cc/virtual/2024/poster/94118",
+          "pdf_url": "https://openreview.net/pdf?id=gnXTDQyxlU",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Towards Unraveling and Improving Generalization in World Models",
+          "url": "https://openreview.net/forum?id=3sWghzJvGd",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Robust Low Rank Kernel Embeddings of Multivariate Distributions",
+          "url": "https://nips.cc/virtual/2013/poster/4093",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2013/file/49b8b4f95f02e055801da3b4f58e28b7-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2013
+        },
+        {
+          "title": "Dyn-O: Building Structured World Models with Object-Centric Representations",
+          "url": "https://openreview.net/forum?id=b2u1yrTwFK",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Learning World Models with Identifiable Factorization",
+          "url": "https://nips.cc/virtual/2023/poster/72763",
+          "pdf_url": "https://openreview.net/pdf?id=6JJq5TW9Mc",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2023
+        },
+        {
+          "title": "FLAMBE: Structural Complexity and Representation Learning of Low Rank MDPs",
+          "url": "https://nips.cc/virtual/2020/poster/18128",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2020/file/e894d787e2fd6c133af47140aa156f00-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2020
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "Learning Abstract World Models with a Group-Structured Latent Space",
+          "url": "https://www.semanticscholar.org/paper/ed7346dcb1fe387a64d5789c79cada4bd42205d4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.01529",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Goal-VLA: Image-Generative VLMs as Object-Centric World Models Empowering Zero-shot Robot Manipulation",
+          "url": "https://www.semanticscholar.org/paper/ffccb1b3247f4e63d1b0c8b8c31c70cb0db16e3d",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Simple Orthogonal Graph Representation Learning (Student Abstract)",
+          "url": "https://www.semanticscholar.org/paper/db73d1cb2c06a45537250c717efe90d5bb7d828a",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/30430/32509",
+          "doi_url": "https://doi.org/10.1609/aaai.v38i21.30430",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "World Models and Attention for Reinforcement Learning",
+          "url": "https://www.semanticscholar.org/paper/61df4b1589e0c96df667ab634c4764170903a064",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1162/isal_a_00471",
+          "source": "semantic_scholar",
+          "year": 2021
+        },
+        {
+          "title": "Sparse representation learning with modified q-VAE towards minimal realization of world model",
+          "url": "https://www.semanticscholar.org/paper/cd5baf2998cbd3f8ff584179f9b290ce9a1be6ff",
+          "pdf_url": "https://arxiv.org/pdf/2208.03936",
+          "doi_url": "https://doi.org/10.1080/01691864.2023.2221715",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "AtResNet: Residual Atrous CNN with Multi-scale Feature Representation for Low Complexity Acoustic Scene Classification",
+          "url": "https://www.semanticscholar.org/paper/5c0135a85e0cd03693391008e7a1bcfc1538b982",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/s00034-022-02107-2",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "Abstract 2145: Genetic ancestry associations with pancreatic cancer mutational profiles from a diverse 9,274-patient real-world cohort",
+          "url": "https://www.semanticscholar.org/paper/d21d17242525dc6e87699b8f24edea5c052703d3",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1158/1538-7445.am2024-2145",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "HYBRID DEEP LEARNING MODELS FOR MULTILINGUAL SENTIMENT ANALYSIS IN LOW-RESOURCE LANGUAGES",
+          "url": "https://www.semanticscholar.org/paper/8fe02571bdbc8699903f54cc2ccfdfc52ed2e488",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.25181/coding.v1i1.4306",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Abstract C043:\n PIN1\n mRNA expression in biliary tract cancer: A multiomic analysis of its prognostic relevance and association with tumor-immune states in a large real-world cohort",
+          "url": "https://www.semanticscholar.org/paper/aa777000708a4a6f6981d9aa45160715148365a2",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1158/1535-7163.targ-25-c043",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Exploring the footprint representation of microwave radiance observations in an Arctic limited-area data assimilation system",
+          "url": "https://www.semanticscholar.org/paper/7f1e538713569c8334654bd265f3021f606a2311",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.5194/gmd-17-6571-2024",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Comprehensive Study on Performance Evaluation and Optimization of Model Compression: Bridging Traditional Deep Learning and Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/b5e760c391804e66b610b5753e193eb5c5acf2ba",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2407.15904",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "A Fast Anomaly Detection in Hyperspectral Images Based on Low-Rank and Sparse Representation",
+          "url": "https://www.semanticscholar.org/paper/f4306a0caec2823a3f52a6cef1e90c92615d4ef2",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/IGARSS55030.2025.11243679",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Granular-ball representation-based two-stage deep learning model for text classification",
+          "url": "https://www.semanticscholar.org/paper/5dd43a62ace6c47d39fdc4c84cd75ac7df4954d7",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/s10489-025-07010-2",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Selecting and weighting dynamical models using data-driven approaches",
+          "url": "https://www.semanticscholar.org/paper/5463e75fe76900d223892f983a8d12b46ef296f1",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.5194/npg-31-303-2024",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Robust auto-weighted and dual-structural representation learning for image clustering",
+          "url": "https://www.semanticscholar.org/paper/7700b45f828ce3f9c106f38f79ef5c626ef090a1",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1117/1.JEI.33.4.043039",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Survey on Embedding Models for Knowledge Graph and its Applications",
+          "url": "https://www.semanticscholar.org/paper/cda81da1f54f9d9854e28e2e9b289b7199ea4e59",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2404.09167",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "IoT Device Authentication via RAM Trace Analysis: A Representation Learning Framework",
+          "url": "https://www.semanticscholar.org/paper/920cd3e808876d817a3caab7800c8c1c4d39279f",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/GLOBECOM52923.2024.10901561",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "ReGA: Representation-Guided Abstraction for Model-based Safeguarding of LLMs",
+          "url": "https://www.semanticscholar.org/paper/dcc59902da1b95f1f63d5f2836327822f94a276a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.01770",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Low-Rank Sparse Generative Adversarial Unsupervised Domain Adaptation for Multitarget Traffic Scene Semantic Segmentation",
+          "url": "https://www.semanticscholar.org/paper/3520845cd4900a7f4f9b82771166bd82f9282394",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/TII.2023.3291402",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "SETUP: Sentence-level English-To-Uniform Meaning Representation Parser",
+          "url": "https://www.semanticscholar.org/paper/ff0efe591c06f8be2e5cec944f348dee161ad71e",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Recommending Learning Objects through Attentive Heterogeneous Graph Convolution and Operation- Aware Neural Network (Extended Abstract)",
+          "url": "https://www.semanticscholar.org/paper/15646e51a590f658b99f4267080c2142d5a7a18f",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICDE60146.2024.00505",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Evaluating and Optimizing the Effectiveness of Neural Machine Translation in Supporting Code Retrieval Models: A Study on the CAT Benchmark",
+          "url": "https://www.semanticscholar.org/paper/f6d8199f41015fe6cbba03dc513cfae5a9f663e8",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3583780.3614869",
+          "doi_url": "https://doi.org/10.1145/3583780.3614869",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Iris matching recognition based on information quantity and complex domain in low-computational power scenarios",
+          "url": "https://www.semanticscholar.org/paper/7bbf7f2f1f1f65a3ef0153c0e7c3c82e9cd6e6e6",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1117/1.JEI.34.5.053044",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Abstract TP171: Automated Large Vessel Occlusions Detection: Improved Diagnostic Accuracy in MCA M2 Segment Using Deep Learning",
+          "url": "https://www.semanticscholar.org/paper/ffbc835b101ea4c84decae0f4da9f8edab486a5e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1161/str.56.suppl_1.tp171",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "A Switched-Capacitor Compute-in-Memory Ising Hardware Annealing Accelerator",
+          "url": "https://www.semanticscholar.org/paper/e9c190a7eedc4c090ebe8cee84c16586b3a97f28",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ISSC67739.2025.11291378",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Humans rationally balance detailed and temporally abstract world models",
+          "url": "https://www.semanticscholar.org/paper/fec10312b2801c11469ff0da2aad3a9a5bf7a82d",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1038/s44271-024-00169-3",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Neurosymbolic Graph Enrichment for Grounded World Models",
+          "url": "https://www.semanticscholar.org/paper/df0f3aff33dbb48b8d095bd09b746108f7b243e4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2411.12671",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "KARNet: Kalman Filter Augmented Recurrent Neural Network for Learning World Models in Autonomous Driving Tasks",
+          "url": "https://www.semanticscholar.org/paper/f5452f1540fa0cd15a84f90f6b6e356d9e4735ed",
+          "pdf_url": "http://arxiv.org/pdf/2305.14644",
+          "doi_url": "https://doi.org/10.48550/arXiv.2305.14644",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Abstract 3519: Reconstructing a latent representation of gene expression from genomic alterations to improve clinical utility of real-world clinicogenomics data",
+          "url": "https://www.semanticscholar.org/paper/ffec34481db10375060930315082ce069d9ae97f",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1158/1538-7445.am2024-3519",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Scaling Cross-Embodiment World Models for Dexterous Manipulation",
+          "url": "https://www.semanticscholar.org/paper/9cafcf8cb712f3b1e250f750d1031e83a0cd70bb",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2511.01177",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "SketchAA: Abstract Representation for Abstract Sketches",
+          "url": "https://www.semanticscholar.org/paper/53f14a3c0cdc26793b32a17cad8687b8530660cd",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICCV48922.2021.00994",
+          "source": "semantic_scholar",
+          "year": 2021
+        },
+        {
+          "title": "Synthesis of historical reservoir operations from 1980 to 2020 for the evaluation of reservoir representation in large-scale hydrologic models",
+          "url": "https://www.semanticscholar.org/paper/27ac5dcff3b47e1513433d72014da40d7d1f8438",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.5194/hess-28-1071-2024",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Leveraging Open‐Source Geographic Databases to Enhance the Representation of Landscape Heterogeneity in Ecological Models",
+          "url": "https://www.semanticscholar.org/paper/336a02471c8be13486b67937982d2d49f3d464d0",
+          "pdf_url": "https://doi.org/10.1002/ece3.70402",
+          "doi_url": "https://doi.org/10.1002/ece3.70402",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Graphical representation of global water models",
+          "url": "https://www.semanticscholar.org/paper/ec414f79640cde11533c659c35c1f3d57c2ed60b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.5194/gmd-18-2409-2025",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Relational Causal Models with Cycles: Representation and Reasoning",
+          "url": "https://www.semanticscholar.org/paper/79cd8ce40e351e554c45316010ccbafb6c7d9634",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "Deep Representation Debiasing via Mutual Information Minimization and Maximization (Student Abstract)",
+          "url": "https://www.semanticscholar.org/paper/052cbf08c62ee03c5cef3a1e8d929be607454491",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/21619/21368",
+          "doi_url": "https://doi.org/10.1609/aaai.v36i11.21619",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "UNCERTAINTY REPRESENTATION AND QUANTIFICATION OF 3D BUILDING MODELS",
+          "url": "https://www.semanticscholar.org/paper/b13bf26b9f77595c6de3f0e418e27e45448a132e",
+          "pdf_url": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B2-2022/335/2022/isprs-archives-XLIII-B2-2022-335-2022.pdf",
+          "doi_url": "https://doi.org/10.5194/isprs-archives-xliii-b2-2022-335-2022",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "Compact Abstract Graphs for Detecting Code Vulnerability with GNN Models",
+          "url": "https://www.semanticscholar.org/paper/32469361091deb75ee738377e84175e0db3f5b28",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3564625.3564655",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "Abstract 4366996: Forecasting the Onset of Atrial Fibrillation in the Intensive Care Unit Using Real-World Telemetry Data",
+          "url": "https://www.semanticscholar.org/paper/425a82174cfb58edb1bedb962804708645335c3c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1161/circ.152.suppl_3.4366996",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Impact of improved representation of volatile organic compound emissions and production of NOx reservoirs on modeled urban ozone production",
+          "url": "https://www.semanticscholar.org/paper/57ea03a44508592faa6087d446ce34b63229ea99",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.5194/acp-24-9555-2024",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Delta-band Activity Underlies Referential Meaning Representation during Pronoun Resolution",
+          "url": "https://www.semanticscholar.org/paper/84bc6ba8a5522bb114f9e2ffdc3a41b89b456c91",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1162/jocn_a_02163",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Dense Captioning Using Abstract Meaning Representation",
+          "url": "https://www.semanticscholar.org/paper/bc7cc5f9e93d59fa6281c2299b65b1021fa0f0b4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/978-3-030-61377-8_31",
+          "source": "semantic_scholar",
+          "year": 2020
+        },
+        {
+          "title": "MAP: Low-compute Model Merging with Amortized Pareto Fronts via Quadratic Approximation",
+          "url": "https://www.semanticscholar.org/paper/c51c550cc3dbac1222799a7397bf4d26daf35a7a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2406.07529",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Low-Bandwidth and Compute-Bound RGB-D Planar Semantic SLAM",
+          "url": "https://www.semanticscholar.org/paper/1a5f9a24e7ad365f45ba104c06204b8d7560ccc9",
+          "pdf_url": "https://www.mdpi.com/1424-8220/21/16/5400/pdf",
+          "doi_url": "https://doi.org/10.3390/s21165400",
+          "source": "semantic_scholar",
+          "year": 2021
+        },
+        {
+          "title": "A Lightweight Low-Power Model for the Detection of Plant Leaf Diseases",
+          "url": "https://www.semanticscholar.org/paper/0bc9ffa722e19b0c3498f009dc9943594aed6087",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/s42979-024-02658-y",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Skeleton Tracking Solutions for a Low-Cost Stroke Rehabilitation Support System",
+          "url": "https://www.semanticscholar.org/paper/1d3d02bea2df5ce75877ea8217f2bedb931052b8",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICORR58425.2023.10304749",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Furcifer: a Context Adaptive Middleware for Real-world Object Detection Exploiting Local, Edge, and Split Computing in the Cloud Continuum",
+          "url": "https://www.semanticscholar.org/paper/91ebf13471dc22e2fa69dc4229ec3d981dfafedc",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/PerCom59722.2024.10494426",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "A Survey of Methods for Low-Power Deep Learning and Computer Vision",
+          "url": "https://www.semanticscholar.org/paper/0ac0c18fdb61577b5e67c5eb23cf8e1113dac0ba",
+          "pdf_url": "https://arxiv.org/pdf/2003.11066",
+          "doi_url": "https://doi.org/10.1109/WF-IoT48130.2020.9221198",
+          "source": "semantic_scholar",
+          "year": 2020
+        },
+        {
+          "title": "Leapfrogging Medical AI in Low-Resource Contexts Using Edge Tensor Processing Unit",
+          "url": "https://www.semanticscholar.org/paper/a3ec8d93139cffacd9321c4c953736cf493dd1cf",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/HI-POCT54491.2022.9744071",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "R2E-Gym: Procedural Environments and Hybrid Verifiers for Scaling Open-Weights SWE Agents",
+          "url": "https://www.semanticscholar.org/paper/5c29ce07433679fc5e2a5bed83d3a80464b966e6",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2504.07164",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Approximating the λ-low-density Value",
+          "url": "https://www.semanticscholar.org/paper/9e4671d83ccec393a535fa07074e36a21f1bed01",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/978-3-031-49190-0_5",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "Projected Changes in the Southern Indian Ocean Cyclone Activity Assessed from High-Resolution Experiments and CMIP5 Models",
+          "url": "https://www.semanticscholar.org/paper/cf2cbc0813dcae6f604b9d0c5dc3b56ed3159c83",
+          "pdf_url": "https://hal.archives-ouvertes.fr/hal-02516828/file/Cattiaux2020JClim.pdf",
+          "doi_url": "https://doi.org/10.1175/jcli-d-19-0591.1",
+          "source": "semantic_scholar",
+          "year": 2020
+        },
+        {
+          "title": "Rethinking Generalization in American Sign Language Prediction for Edge Devices with Extremely Low Memory Footprint",
+          "url": "https://www.semanticscholar.org/paper/5fe02f9d41b21b2340365104f44a4279db12af57",
+          "pdf_url": "https://arxiv.org/pdf/2011.13741",
+          "doi_url": "https://doi.org/10.1109/RAICS51191.2020.9332480",
+          "source": "semantic_scholar",
+          "year": 2020
+        },
+        {
+          "title": "Targeting Hypertension Screening in Low‐ and Middle‐Income Countries: A Cross‐Sectional Analysis of 1.2 Million Adults in 56 Countries",
+          "url": "https://www.semanticscholar.org/paper/98510cfca9793a3197fbe6ba9174751f1d5a764f",
+          "pdf_url": "https://www.ahajournals.org/doi/pdf/10.1161/JAHA.121.021063",
+          "doi_url": "https://doi.org/10.1161/JAHA.121.021063",
+          "source": "semantic_scholar",
+          "year": 2021
+        },
+        {
+          "title": "Data-Driven Estimation of Li-Ion Battery Health: Integrating GPT-4 With Distilled Lifelong Learning",
+          "url": "https://www.semanticscholar.org/paper/590f4c071a51c6c1edf1c779599fbfab949c5d17",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/TEC.2025.3548400",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Position: The Future of Bayesian Prediction Is Prior-Fitted",
+          "url": "https://www.semanticscholar.org/paper/232be86fc232e2756debe6eaed8e375537588911",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.23947",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Vision-centric Token Compression in Large Language Model",
+          "url": "https://www.semanticscholar.org/paper/50b73ac7a0819180aba30d2059e341db5caa87fa",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2502.00791",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Polar Sparsity: High Throughput Batched LLM Inferencing with Scalable Contextual Sparsity",
+          "url": "https://www.semanticscholar.org/paper/328fcf757fa9647ea5eb96d37ee735e52a43df43",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.14884",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Identifying Sparsely Active Circuits Through Local Loss Landscape Decomposition",
+          "url": "https://www.semanticscholar.org/paper/bf4b53cceb8beba152b79d946997180363898829",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2504.00194",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "LUNE: Efficient LLM Unlearning via LoRA Fine-Tuning with Negative Examples",
+          "url": "https://www.semanticscholar.org/paper/78081516f448d8113a321f109fe6164fa4ae4baa",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "OCCAM: Towards Cost-Efficient and Accuracy-Aware Image Classification Inference",
+          "url": "https://www.semanticscholar.org/paper/43b839deec89604bb21e888d994bbf15889b921d",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2406.04508",
+          "source": "semantic_scholar",
+          "year": 2024
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+          "url": "http://arxiv.org/abs/2512.25075v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+          "url": "http://arxiv.org/abs/2512.25074v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+          "url": "http://arxiv.org/abs/2512.25071v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Coordinated Humanoid Manipulation with Choice Policies",
+          "url": "http://arxiv.org/abs/2512.25072v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Scaling Open-Ended Reasoning to Predict the Future",
+          "url": "http://arxiv.org/abs/2512.25070v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+          "url": "http://arxiv.org/abs/2512.25069v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25069v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+          "url": "http://arxiv.org/abs/2512.25068v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25068v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+          "url": "http://arxiv.org/abs/2512.25067v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+          "url": "http://arxiv.org/abs/2512.25066v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+          "url": "http://arxiv.org/abs/2512.25065v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+          "url": "http://arxiv.org/abs/2512.25064v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+          "url": "http://arxiv.org/abs/2512.25063v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25063v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "On the geometry and topology of representations: the manifolds of modular addition",
+          "url": "http://arxiv.org/abs/2512.25060v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25060v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+          "url": "http://arxiv.org/abs/2512.25059v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+          "url": "http://arxiv.org/abs/2512.25056v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+          "url": "http://arxiv.org/abs/2512.25055v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Emergence of 3D Superconformal Ising Criticality on the Fuzzy Sphere",
+          "url": "http://arxiv.org/abs/2512.25054v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25054v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Fluid dynamics as intersection problem",
+          "url": "http://arxiv.org/abs/2512.25053v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25053v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+          "url": "http://arxiv.org/abs/2512.25050v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25050v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Arithmetic with spatiotemporal optical vortex of integer and fractional topological charges",
+          "url": "http://arxiv.org/abs/2512.25049v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25049v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+          "url": "http://arxiv.org/abs/2512.25048v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25048v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Amplitude constraints on dark energy",
+          "url": "http://arxiv.org/abs/2512.25047v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25047v1",
+          "doi_url": "https://doi.org/10.58027/3q8k-ew90",
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Extreme nonlinear optics in optical fibers",
+          "url": "http://arxiv.org/abs/2512.25046v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+          "url": "http://arxiv.org/abs/2512.25045v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Compound Estimation for Binomials",
+          "url": "http://arxiv.org/abs/2512.25042v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+          "url": "http://arxiv.org/abs/2512.25040v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "VisualPredicator: Learning Abstract World Models with Neuro-Symbolic Predicates for Robot Planning",
+        "pdf": "https://openreview.net/pdf?id=QOfswj7hij"
+      },
+      {
+        "title": "World Model Implanting for Test-time Adaptation of Embodied Agents",
+        "pdf": "https://openreview.net/pdf?id=tpbtodnI1p"
+      },
+      {
+        "title": "Learning to Play Atari in a World of Tokens",
+        "pdf": "https://openreview.net/pdf?id=w8BnKGFIYN"
+      },
+      {
+        "title": "Learning Temporally AbstractWorld Models without Online Experimentation",
+        "pdf": "https://openreview.net/pdf?id=YeTYJz7th5"
+      },
+      {
+        "title": "Improved Distributed Principal Component Analysis",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2014/file/e968f1646c1c6c35422b64c0934772a4-Paper.pdf"
+      },
+      {
+        "title": "Diffeomorphic Dimensionality Reduction",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2008/file/647bba344396e7c8170902bcf2e15551-Paper.pdf"
+      },
+      {
+        "title": "Leveraging the Inductive Bias of Large Language Models for Abstract Textual Reasoning",
+        "pdf": "https://openreview.net/pdf?id=urueR03mkng"
+      },
+      {
+        "title": "Generation of Internal Representation by α-Transformation",
+        "pdf": "https://papers.nips.cc/paper_files/paper/1993/file/98d6f58ab0dafbb86b083a001561bb34-Paper.pdf"
+      },
+      {
+        "title": "Do LLMs Build World Representations? Probing Through the Lens of State Abstraction",
+        "pdf": "https://openreview.net/pdf?id=lzfzjYuWgY"
+      },
+      {
+        "title": "A Cognitive Model for Learning Abstract Relational Structures from Memory-based Decision-Making Tasks",
+        "pdf": "https://openreview.net/pdf?id=KC58bVmxyN"
+      },
+      {
+        "title": "Strategy Grafting in Extensive Games",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2009/file/e0ec453e28e061cc58ac43f91dc2f3f0-Paper.pdf"
+      },
+      {
+        "title": "PIVOT-R: Primitive-Driven Waypoint-Aware World Model for Robotic Manipulation",
+        "pdf": "https://openreview.net/pdf?id=gnXTDQyxlU"
+      },
+      {
+        "title": "Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling",
+        "pdf": "https://openreview.net/pdf?id=Rm5Qi57C5I"
+      },
+      {
+        "title": "Robust Low Rank Kernel Embeddings of Multivariate Distributions",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2013/file/49b8b4f95f02e055801da3b4f58e28b7-Paper.pdf"
+      },
+      {
+        "title": "Learning Generalizable Visual Representations via Interactive Gameplay",
+        "pdf": "https://openreview.net/pdf?id=UuchYL8wSZo"
+      },
+      {
+        "title": "Emergent World Representations: Exploring a Sequence Model Trained on a Synthetic Task",
+        "pdf": "https://openreview.net/pdf?id=DeG07_TcZvT"
+      },
+      {
+        "title": "Learning World Models with Identifiable Factorization",
+        "pdf": "https://openreview.net/pdf?id=6JJq5TW9Mc"
+      },
+      {
+        "title": "Value-Based Deep RL Scales Predictably",
+        "pdf": "https://openreview.net/pdf?id=FLPFPYJeVU"
+      },
+      {
+        "title": "FLAMBE: Structural Complexity and Representation Learning of Low Rank MDPs",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2020/file/e894d787e2fd6c133af47140aa156f00-Paper.pdf"
+      },
+      {
+        "title": "Simple Orthogonal Graph Representation Learning (Student Abstract)",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/download/30430/32509"
+      },
+      {
+        "title": "Sparse representation learning with modified q-VAE towards minimal realization of world model",
+        "pdf": "https://arxiv.org/pdf/2208.03936"
+      },
+      {
+        "title": "Evaluating and Optimizing the Effectiveness of Neural Machine Translation in Supporting Code Retrieval Models: A Study on the CAT Benchmark",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3583780.3614869"
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "pdf": "https://arxiv.org/pdf/2512.25075v1"
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "pdf": "https://arxiv.org/pdf/2512.25074v1"
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "pdf": "https://arxiv.org/pdf/2512.25071v1"
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "pdf": "https://arxiv.org/pdf/2512.25072v1"
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "pdf": "https://arxiv.org/pdf/2512.25070v1"
+      },
+      {
+        "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+        "pdf": "https://arxiv.org/pdf/2512.25069v1"
+      },
+      {
+        "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+        "pdf": "https://arxiv.org/pdf/2512.25068v1"
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "pdf": "https://arxiv.org/pdf/2512.25067v1"
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "pdf": "https://arxiv.org/pdf/2512.25066v1"
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "pdf": "https://arxiv.org/pdf/2512.25065v1"
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "pdf": "https://arxiv.org/pdf/2512.25064v1"
+      },
+      {
+        "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+        "pdf": "https://arxiv.org/pdf/2512.25063v1"
+      },
+      {
+        "title": "On the geometry and topology of representations: the manifolds of modular addition",
+        "pdf": "https://arxiv.org/pdf/2512.25060v1"
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "pdf": "https://arxiv.org/pdf/2512.25059v1"
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "pdf": "https://arxiv.org/pdf/2512.25056v1"
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "pdf": "https://arxiv.org/pdf/2512.25055v1"
+      },
+      {
+        "title": "Emergence of 3D Superconformal Ising Criticality on the Fuzzy Sphere",
+        "pdf": "https://arxiv.org/pdf/2512.25054v1"
+      },
+      {
+        "title": "Fluid dynamics as intersection problem",
+        "pdf": "https://arxiv.org/pdf/2512.25053v1"
+      },
+      {
+        "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+        "pdf": "https://arxiv.org/pdf/2512.25050v1"
+      },
+      {
+        "title": "Arithmetic with spatiotemporal optical vortex of integer and fractional topological charges",
+        "pdf": "https://arxiv.org/pdf/2512.25049v1"
+      },
+      {
+        "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+        "pdf": "https://arxiv.org/pdf/2512.25048v1"
+      },
+      {
+        "title": "Amplitude constraints on dark energy",
+        "pdf": "https://arxiv.org/pdf/2512.25047v1"
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "pdf": "https://arxiv.org/pdf/2512.25046v1"
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "pdf": "https://arxiv.org/pdf/2512.25045v1"
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "pdf": "https://arxiv.org/pdf/2512.25042v1"
+      },
+      {
+        "title": "KARNet: Kalman Filter Augmented Recurrent Neural Network for Learning World Models in Autonomous Driving Tasks",
+        "pdf": "http://arxiv.org/pdf/2305.14644"
+      },
+      {
+        "title": "Leveraging Open‐Source Geographic Databases to Enhance the Representation of Landscape Heterogeneity in Ecological Models",
+        "pdf": "https://doi.org/10.1002/ece3.70402"
+      },
+      {
+        "title": "Deep Representation Debiasing via Mutual Information Minimization and Maximization (Student Abstract)",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/download/21619/21368"
+      },
+      {
+        "title": "UNCERTAINTY REPRESENTATION AND QUANTIFICATION OF 3D BUILDING MODELS",
+        "pdf": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B2-2022/335/2022/isprs-archives-XLIII-B2-2022-335-2022.pdf"
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "pdf": "https://arxiv.org/pdf/2512.25040v1"
+      },
+      {
+        "title": "Low-Bandwidth and Compute-Bound RGB-D Planar Semantic SLAM",
+        "pdf": "https://www.mdpi.com/1424-8220/21/16/5400/pdf"
+      },
+      {
+        "title": "A Survey of Methods for Low-Power Deep Learning and Computer Vision",
+        "pdf": "https://arxiv.org/pdf/2003.11066"
+      },
+      {
+        "title": "Projected Changes in the Southern Indian Ocean Cyclone Activity Assessed from High-Resolution Experiments and CMIP5 Models",
+        "pdf": "https://hal.archives-ouvertes.fr/hal-02516828/file/Cattiaux2020JClim.pdf"
+      },
+      {
+        "title": "Rethinking Generalization in American Sign Language Prediction for Edge Devices with Extremely Low Memory Footprint",
+        "pdf": "https://arxiv.org/pdf/2011.13741"
+      },
+      {
+        "title": "Targeting Hypertension Screening in Low‐ and Middle‐Income Countries: A Cross‐Sectional Analysis of 1.2 Million Adults in 56 Countries",
+        "pdf": "https://www.ahajournals.org/doi/pdf/10.1161/JAHA.121.021063"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "Learning Abstract World Models with a Group-Structured Latent Space",
+        "doi": "https://doi.org/10.48550/arXiv.2506.01529"
+      },
+      {
+        "title": "Simple Orthogonal Graph Representation Learning (Student Abstract)",
+        "doi": "https://doi.org/10.1609/aaai.v38i21.30430"
+      },
+      {
+        "title": "World Models and Attention for Reinforcement Learning",
+        "doi": "https://doi.org/10.1162/isal_a_00471"
+      },
+      {
+        "title": "Sparse representation learning with modified q-VAE towards minimal realization of world model",
+        "doi": "https://doi.org/10.1080/01691864.2023.2221715"
+      },
+      {
+        "title": "AtResNet: Residual Atrous CNN with Multi-scale Feature Representation for Low Complexity Acoustic Scene Classification",
+        "doi": "https://doi.org/10.1007/s00034-022-02107-2"
+      },
+      {
+        "title": "Abstract 2145: Genetic ancestry associations with pancreatic cancer mutational profiles from a diverse 9,274-patient real-world cohort",
+        "doi": "https://doi.org/10.1158/1538-7445.am2024-2145"
+      },
+      {
+        "title": "HYBRID DEEP LEARNING MODELS FOR MULTILINGUAL SENTIMENT ANALYSIS IN LOW-RESOURCE LANGUAGES",
+        "doi": "https://doi.org/10.25181/coding.v1i1.4306"
+      },
+      {
+        "title": "Abstract C043:\n PIN1\n mRNA expression in biliary tract cancer: A multiomic analysis of its prognostic relevance and association with tumor-immune states in a large real-world cohort",
+        "doi": "https://doi.org/10.1158/1535-7163.targ-25-c043"
+      },
+      {
+        "title": "Exploring the footprint representation of microwave radiance observations in an Arctic limited-area data assimilation system",
+        "doi": "https://doi.org/10.5194/gmd-17-6571-2024"
+      },
+      {
+        "title": "Comprehensive Study on Performance Evaluation and Optimization of Model Compression: Bridging Traditional Deep Learning and Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2407.15904"
+      },
+      {
+        "title": "A Fast Anomaly Detection in Hyperspectral Images Based on Low-Rank and Sparse Representation",
+        "doi": "https://doi.org/10.1109/IGARSS55030.2025.11243679"
+      },
+      {
+        "title": "Granular-ball representation-based two-stage deep learning model for text classification",
+        "doi": "https://doi.org/10.1007/s10489-025-07010-2"
+      },
+      {
+        "title": "Selecting and weighting dynamical models using data-driven approaches",
+        "doi": "https://doi.org/10.5194/npg-31-303-2024"
+      },
+      {
+        "title": "Robust auto-weighted and dual-structural representation learning for image clustering",
+        "doi": "https://doi.org/10.1117/1.JEI.33.4.043039"
+      },
+      {
+        "title": "Survey on Embedding Models for Knowledge Graph and its Applications",
+        "doi": "https://doi.org/10.48550/arXiv.2404.09167"
+      },
+      {
+        "title": "IoT Device Authentication via RAM Trace Analysis: A Representation Learning Framework",
+        "doi": "https://doi.org/10.1109/GLOBECOM52923.2024.10901561"
+      },
+      {
+        "title": "ReGA: Representation-Guided Abstraction for Model-based Safeguarding of LLMs",
+        "doi": "https://doi.org/10.48550/arXiv.2506.01770"
+      },
+      {
+        "title": "Low-Rank Sparse Generative Adversarial Unsupervised Domain Adaptation for Multitarget Traffic Scene Semantic Segmentation",
+        "doi": "https://doi.org/10.1109/TII.2023.3291402"
+      },
+      {
+        "title": "Recommending Learning Objects through Attentive Heterogeneous Graph Convolution and Operation- Aware Neural Network (Extended Abstract)",
+        "doi": "https://doi.org/10.1109/ICDE60146.2024.00505"
+      },
+      {
+        "title": "Evaluating and Optimizing the Effectiveness of Neural Machine Translation in Supporting Code Retrieval Models: A Study on the CAT Benchmark",
+        "doi": "https://doi.org/10.1145/3583780.3614869"
+      },
+      {
+        "title": "Iris matching recognition based on information quantity and complex domain in low-computational power scenarios",
+        "doi": "https://doi.org/10.1117/1.JEI.34.5.053044"
+      },
+      {
+        "title": "Abstract TP171: Automated Large Vessel Occlusions Detection: Improved Diagnostic Accuracy in MCA M2 Segment Using Deep Learning",
+        "doi": "https://doi.org/10.1161/str.56.suppl_1.tp171"
+      },
+      {
+        "title": "A Switched-Capacitor Compute-in-Memory Ising Hardware Annealing Accelerator",
+        "doi": "https://doi.org/10.1109/ISSC67739.2025.11291378"
+      },
+      {
+        "title": "Amplitude constraints on dark energy",
+        "doi": "https://doi.org/10.58027/3q8k-ew90"
+      },
+      {
+        "title": "Humans rationally balance detailed and temporally abstract world models",
+        "doi": "https://doi.org/10.1038/s44271-024-00169-3"
+      },
+      {
+        "title": "Neurosymbolic Graph Enrichment for Grounded World Models",
+        "doi": "https://doi.org/10.48550/arXiv.2411.12671"
+      },
+      {
+        "title": "KARNet: Kalman Filter Augmented Recurrent Neural Network for Learning World Models in Autonomous Driving Tasks",
+        "doi": "https://doi.org/10.48550/arXiv.2305.14644"
+      },
+      {
+        "title": "Abstract 3519: Reconstructing a latent representation of gene expression from genomic alterations to improve clinical utility of real-world clinicogenomics data",
+        "doi": "https://doi.org/10.1158/1538-7445.am2024-3519"
+      },
+      {
+        "title": "Scaling Cross-Embodiment World Models for Dexterous Manipulation",
+        "doi": "https://doi.org/10.48550/arXiv.2511.01177"
+      },
+      {
+        "title": "SketchAA: Abstract Representation for Abstract Sketches",
+        "doi": "https://doi.org/10.1109/ICCV48922.2021.00994"
+      },
+      {
+        "title": "Synthesis of historical reservoir operations from 1980 to 2020 for the evaluation of reservoir representation in large-scale hydrologic models",
+        "doi": "https://doi.org/10.5194/hess-28-1071-2024"
+      },
+      {
+        "title": "Leveraging Open‐Source Geographic Databases to Enhance the Representation of Landscape Heterogeneity in Ecological Models",
+        "doi": "https://doi.org/10.1002/ece3.70402"
+      },
+      {
+        "title": "Graphical representation of global water models",
+        "doi": "https://doi.org/10.5194/gmd-18-2409-2025"
+      },
+      {
+        "title": "Deep Representation Debiasing via Mutual Information Minimization and Maximization (Student Abstract)",
+        "doi": "https://doi.org/10.1609/aaai.v36i11.21619"
+      },
+      {
+        "title": "UNCERTAINTY REPRESENTATION AND QUANTIFICATION OF 3D BUILDING MODELS",
+        "doi": "https://doi.org/10.5194/isprs-archives-xliii-b2-2022-335-2022"
+      },
+      {
+        "title": "Compact Abstract Graphs for Detecting Code Vulnerability with GNN Models",
+        "doi": "https://doi.org/10.1145/3564625.3564655"
+      },
+      {
+        "title": "Abstract 4366996: Forecasting the Onset of Atrial Fibrillation in the Intensive Care Unit Using Real-World Telemetry Data",
+        "doi": "https://doi.org/10.1161/circ.152.suppl_3.4366996"
+      },
+      {
+        "title": "Impact of improved representation of volatile organic compound emissions and production of NOx reservoirs on modeled urban ozone production",
+        "doi": "https://doi.org/10.5194/acp-24-9555-2024"
+      },
+      {
+        "title": "Delta-band Activity Underlies Referential Meaning Representation during Pronoun Resolution",
+        "doi": "https://doi.org/10.1162/jocn_a_02163"
+      },
+      {
+        "title": "Dense Captioning Using Abstract Meaning Representation",
+        "doi": "https://doi.org/10.1007/978-3-030-61377-8_31"
+      },
+      {
+        "title": "MAP: Low-compute Model Merging with Amortized Pareto Fronts via Quadratic Approximation",
+        "doi": "https://doi.org/10.48550/arXiv.2406.07529"
+      },
+      {
+        "title": "Low-Bandwidth and Compute-Bound RGB-D Planar Semantic SLAM",
+        "doi": "https://doi.org/10.3390/s21165400"
+      },
+      {
+        "title": "A Lightweight Low-Power Model for the Detection of Plant Leaf Diseases",
+        "doi": "https://doi.org/10.1007/s42979-024-02658-y"
+      },
+      {
+        "title": "Skeleton Tracking Solutions for a Low-Cost Stroke Rehabilitation Support System",
+        "doi": "https://doi.org/10.1109/ICORR58425.2023.10304749"
+      },
+      {
+        "title": "Furcifer: a Context Adaptive Middleware for Real-world Object Detection Exploiting Local, Edge, and Split Computing in the Cloud Continuum",
+        "doi": "https://doi.org/10.1109/PerCom59722.2024.10494426"
+      },
+      {
+        "title": "A Survey of Methods for Low-Power Deep Learning and Computer Vision",
+        "doi": "https://doi.org/10.1109/WF-IoT48130.2020.9221198"
+      },
+      {
+        "title": "Leapfrogging Medical AI in Low-Resource Contexts Using Edge Tensor Processing Unit",
+        "doi": "https://doi.org/10.1109/HI-POCT54491.2022.9744071"
+      },
+      {
+        "title": "R2E-Gym: Procedural Environments and Hybrid Verifiers for Scaling Open-Weights SWE Agents",
+        "doi": "https://doi.org/10.48550/arXiv.2504.07164"
+      },
+      {
+        "title": "Approximating the λ-low-density Value",
+        "doi": "https://doi.org/10.1007/978-3-031-49190-0_5"
+      },
+      {
+        "title": "Projected Changes in the Southern Indian Ocean Cyclone Activity Assessed from High-Resolution Experiments and CMIP5 Models",
+        "doi": "https://doi.org/10.1175/jcli-d-19-0591.1"
+      },
+      {
+        "title": "Rethinking Generalization in American Sign Language Prediction for Edge Devices with Extremely Low Memory Footprint",
+        "doi": "https://doi.org/10.1109/RAICS51191.2020.9332480"
+      },
+      {
+        "title": "Targeting Hypertension Screening in Low‐ and Middle‐Income Countries: A Cross‐Sectional Analysis of 1.2 Million Adults in 56 Countries",
+        "doi": "https://doi.org/10.1161/JAHA.121.021063"
+      },
+      {
+        "title": "Data-Driven Estimation of Li-Ion Battery Health: Integrating GPT-4 With Distilled Lifelong Learning",
+        "doi": "https://doi.org/10.1109/TEC.2025.3548400"
+      },
+      {
+        "title": "Position: The Future of Bayesian Prediction Is Prior-Fitted",
+        "doi": "https://doi.org/10.48550/arXiv.2505.23947"
+      },
+      {
+        "title": "Vision-centric Token Compression in Large Language Model",
+        "doi": "https://doi.org/10.48550/arXiv.2502.00791"
+      },
+      {
+        "title": "Polar Sparsity: High Throughput Batched LLM Inferencing with Scalable Contextual Sparsity",
+        "doi": "https://doi.org/10.48550/arXiv.2505.14884"
+      },
+      {
+        "title": "Identifying Sparsely Active Circuits Through Local Loss Landscape Decomposition",
+        "doi": "https://doi.org/10.48550/arXiv.2504.00194"
+      },
+      {
+        "title": "OCCAM: Towards Cost-Efficient and Accuracy-Aware Image Classification Inference",
+        "doi": "https://doi.org/10.48550/arXiv.2406.04508"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "abstract representation of world models",
+    "total_steps": 5,
+    "last_updated": "2026-01-03T00:15:53.106503",
+    "started_at": "2026-01-03T00:14:53.968096",
+    "total_papers": 134
+  }
+}

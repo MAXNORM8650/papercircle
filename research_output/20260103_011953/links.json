@@ -1,0 +1,3989 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Video Diffusion Models",
+        "url": "https://www.semanticscholar.org/paper/3b2a675bb617ae1a920e8e29d535cdf27826e999",
+        "pdf_url": "https://arxiv.org/pdf/2204.03458",
+        "doi_url": "https://doi.org/10.48550/arXiv.2204.03458",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer",
+        "url": "https://www.semanticscholar.org/paper/7b248d78573ccf0dca6aa2cec2743d3eccaa9d1a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2408.06072",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation",
+        "url": "https://www.semanticscholar.org/paper/1367dcff4ccb927a5e95c452041288b3f0dd0eff",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICCV51070.2023.00701",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion",
+        "url": "https://www.semanticscholar.org/paper/03e2cfa44b64489fb98f09dfbd940043fbef90ad",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2403.12008",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Show-1: Marrying Pixel and Latent Diffusion Models for Text-to-Video Generation",
+        "url": "https://www.semanticscholar.org/paper/a5b7fc1bff0910ff31975ec0a15ed30c41f0a968",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/s11263-024-02271-9",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation",
+        "url": "https://www.semanticscholar.org/paper/1e09b83fe064826a9a1ac61a7bdc00f26be41aee",
+        "pdf_url": "https://arxiv.org/pdf/2306.07954",
+        "doi_url": "https://doi.org/10.1145/3610548.3618160",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Fast High-Resolution Image Synthesis with Latent Adversarial Diffusion Distillation",
+        "url": "https://www.semanticscholar.org/paper/f6ab25605dc36db5e4b4f2f167d905944d5203c4",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680528.3687625",
+        "doi_url": "https://doi.org/10.1145/3680528.3687625",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "FreeNoise: Tuning-Free Longer Video Diffusion via Noise Rescheduling",
+        "url": "https://www.semanticscholar.org/paper/d831988859f0c077b38094446d8585a8340af223",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2310.15169",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Direct-a-Video: Customized Video Generation with User-Directed Camera Movement and Object Motion",
+        "url": "https://www.semanticscholar.org/paper/266cd6516e87580d3a4f9278c794a8896bba5cc1",
+        "pdf_url": "https://arxiv.org/pdf/2402.03162",
+        "doi_url": "https://doi.org/10.1145/3641519.3657481",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion",
+        "url": "https://www.semanticscholar.org/paper/a8e2e3ff1770fd83228659e9e4d16114ddb9404b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.08009",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "UniAnimate: taming unified video diffusion models for consistent human image animation",
+        "url": "https://www.semanticscholar.org/paper/6ddedae42ab98883bec0a2259ab65ec71bebc409",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/s11432-024-4592-3",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "LN3DIFF++: Scalable Latent Neural Fields Diffusion for Speedy 3D Generation.",
+        "url": "https://www.semanticscholar.org/paper/3262cda60389d8a58b81f00a5bae7ec87348bccd",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/TPAMI.2025.3633073",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Efficient Diffusion Models: A Comprehensive Survey from Principles to Practices",
+        "url": "https://www.semanticscholar.org/paper/140e64cf0516e556e96abe26cc21e4e35f349f36",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2410.11795",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "InstantDrag: Improving Interactivity in Drag-based Image Editing",
+        "url": "https://www.semanticscholar.org/paper/8abafadb5367da1a5c8d5476cb2bbcf8a8f241fa",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680528.3687668",
+        "doi_url": "https://doi.org/10.1145/3680528.3687668",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Hierarchical Patch Diffusion Models for High-Resolution Video Generation",
+        "url": "https://www.semanticscholar.org/paper/6955476324daf04ceca8bcdea7bcd1b9448999db",
+        "pdf_url": "https://arxiv.org/pdf/2406.07792",
+        "doi_url": "https://doi.org/10.1109/CVPR52733.2024.00723",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "PLA4D: Pixel-Level Alignments for Text-to-4D Gaussian Splatting",
+        "url": "https://www.semanticscholar.org/paper/f7cbd52cde8452d12d0f3e6569242a34ceb37625",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2405.19957",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Fast and Memory-Efficient Video Diffusion Using Streamlined Inference",
+        "url": "https://www.semanticscholar.org/paper/d690dc77e24558c71e00bc4ea25498992a059006",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2411.01171",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "SparseDM: Toward Sparse Efficient Diffusion Models",
+        "url": "https://www.semanticscholar.org/paper/729d0e15d7b1a8992d9aa94e0434fbb5511a5b33",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICME59968.2025.11209208",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Generative AI Beyond LLMs: System Implications of Multi-Modal Generation",
+        "url": "https://www.semanticscholar.org/paper/e1e6dcb3c162a2bbbcb128eff6fed01755613d1c",
+        "pdf_url": "https://arxiv.org/pdf/2312.14385",
+        "doi_url": "https://doi.org/10.1109/ISPASS61541.2024.00032",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "MiniMax-Remover: Taming Bad Noise Helps Video Object Removal",
+        "url": "https://www.semanticscholar.org/paper/f88b4cb3999cb2cb63d4414b7c046f67b79bdd89",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.24873",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "TalkingMachines: Real-Time Audio-Driven FaceTime-Style Video via Autoregressive Diffusion Models",
+        "url": "https://www.semanticscholar.org/paper/49276c3f739c4ae3f479381b631c0fc955eb5fd4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.03099",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "FlightVGM: Efficient Video Generation Model Inference with Online Sparsification and Hybrid Precision on FPGAs",
+        "url": "https://www.semanticscholar.org/paper/d88e275bc3cacddab4d2a20c0ac7484b9878a9c7",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3706628.3708864",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "EffiVED: Efficient Video Editing via Text-instruction Diffusion Models",
+        "url": "https://www.semanticscholar.org/paper/b087853373cca366961e648750ad3472c760aa81",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2403.11568",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "FPSAttention: Training-Aware FP8 and Sparsity Co-Design for Fast Video Diffusion",
+        "url": "https://www.semanticscholar.org/paper/6dd7c07555fdd1790ac76d0c5d19f6698b1af5bb",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.04648",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Magic 1-For-1: Generating One Minute Video Clips within One Minute",
+        "url": "https://www.semanticscholar.org/paper/0dac8b51df2e94a7623e3aa471058b8f57e9a449",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2502.07701",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Optical-Flow Guided Prompt Optimization for Coherent Video Generation",
+        "url": "https://www.semanticscholar.org/paper/f63329fc34175c36a63ca3aa4fdb3f28ecd9a8e6",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/CVPR52734.2025.00734",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Optimization-Free Image Immunization Against Diffusion-Based Editing",
+        "url": "https://www.semanticscholar.org/paper/14a2e5f5ad0bd5487cb187198f9459b90495f29e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2411.17957",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Beyond U: Making Diffusion Models Faster & Lighter",
+        "url": "https://www.semanticscholar.org/paper/3b1041c964c30d9d63f7e5bc78ae6595224e4e9c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2310.20092",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "AccVideo: Accelerating Video Diffusion Model with Synthetic Dataset",
+        "url": "https://www.semanticscholar.org/paper/97317329fab179b38a6580e14b046133a704157d",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2503.19462",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "The Missing U for Efficient Diffusion Models",
+        "url": "https://www.semanticscholar.org/paper/bac74fa84c99d08371f87e156a286c4bb8c8d512",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "LeanVAE: An Ultra-Efficient Reconstruction VAE for Video Diffusion Models",
+        "url": "https://www.semanticscholar.org/paper/d4233613baadd347dbb8d8532890bd997572a46d",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2503.14325",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Accelerating Video Diffusion Models via Distribution Matching",
+        "url": "https://www.semanticscholar.org/paper/a4caae8c11576ff03bbe67634c85ea0da2ae497e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2412.05899",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Tinker: Diffusion's Gift to 3D-Multi-View Consistent Editing From Sparse Inputs without Per-Scene Optimization",
+        "url": "https://www.semanticscholar.org/paper/a235b975ff8228731b024c132f6e4a59de9aca06",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2508.14811",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "4D Driving Scene Generation With Stereo Forcing",
+        "url": "https://www.semanticscholar.org/paper/9b5a1f79ba3deb79aa3bfa2a894c3d813a8dbde3",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2509.20251",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "An Intermediate Fusion ViT Enables Efficient Text-Image Alignment in Diffusion Models",
+        "url": "https://www.semanticscholar.org/paper/0e2c9745d29a6d689c132ffd624e5ead183b436d",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2403.16530",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "TITAN-Guide: Taming Inference-Time AligNment for Guided Text-to-Video Diffusion Models",
+        "url": "https://www.semanticscholar.org/paper/4dae46857270c5e7586d8ed358ab7461da7734c3",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2508.00289",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Toward Lightweight and Fast Decoders for Diffusion Models in Image and Video Generation",
+        "url": "https://www.semanticscholar.org/paper/2f16f8d464395aa0de12f608833618d64e43039a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2503.04871",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "OmnimatteZero: Training-free Real-time Omnimatte with Pre-trained Video Diffusion Models",
+        "url": "https://www.semanticscholar.org/paper/1563307159e2fa734f23ab1175b2427f0948c9a8",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2503.18033",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "OmnimatteZero: Fast Training-free Omnimatte with Pre-trained Video Diffusion Models",
+        "url": "https://www.semanticscholar.org/paper/f830df53741cb0c1df4d0d9f809112d27c03b7c3",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3757377.3763917",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "ConceptVoid: Precision Multi-Concept Erasure in Generative Video Diffusion",
+        "url": "https://www.semanticscholar.org/paper/53a7739a5298ad88d9c93796546b661848c3709a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.3390/math13162652",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Epipolar Geometry Improves Video Generation Models",
+        "url": "https://www.semanticscholar.org/paper/170a232300d7af70fe361e16c542b37bb56366c2",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2510.21615",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Flows and Diffusions on the Neural Manifold",
+        "url": "https://www.semanticscholar.org/paper/a909afbb749ae3fed379e4a95f8b408a58cbcec4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2507.10623",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "FasterVD: On Acceleration of Video Diffusion Models",
+        "url": "https://www.semanticscholar.org/paper/4463d38906296308b093eb3f80da32ae3ddc02cb",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.24963/ijcai.2024/1044",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "SNED: Superposition Network Architecture Search for Efficient Video Diffusion Model",
+        "url": "https://www.semanticscholar.org/paper/ea3a296f97570fd212d6c8fc34bba62f07c50f5c",
+        "pdf_url": "https://arxiv.org/pdf/2406.00195",
+        "doi_url": "https://doi.org/10.1109/CVPR52733.2024.00827",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Vid2World: Crafting Video Diffusion Models to Interactive World Models",
+        "url": "https://openreview.net/forum?id=pFyzqbUiF9",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Geometry Forcing: Marrying Video Diffusion and 3D Representation for Consistent World Modeling",
+        "url": "https://openreview.net/forum?id=ULXYZCms41",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "WorldPack: Compressed Memory Improves Spatial Consistency in Video World Modeling",
+        "url": "https://openreview.net/forum?id=CuNHz3zxgm",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "BWCache: Accelerating Video Diffusion Transformers through Block-Wise Caching",
+        "url": "https://openreview.net/forum?id=5bJZtzTFYy",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling",
+        "url": "https://openreview.net/forum?id=1y1YFKb9pp",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "4DNeX: Feed-Forward 4D Generative Modeling Made Easy",
+        "url": "https://openreview.net/forum?id=guUrm5IRQS",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "MoB: Mixture of Block Transformer for Accelerating Video Generation with Dynamic Routing",
+        "url": "https://openreview.net/forum?id=TTaAacQEdg",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Reinforcement Learning with Inverse Rewards for World Model Post-training",
+        "url": "https://openreview.net/forum?id=n5dkjiplv4",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ASTRAEA: A Token-wise Acceleration Framework for Video Diffusion Transformers",
+        "url": "https://openreview.net/forum?id=e8P4Oo8S6U",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "CVD-STORM: Cross-View Video Diffusion with Spatial-Temporal Reconstruction Model for Autonomous Driving",
+        "url": "https://openreview.net/forum?id=V66pMNOVC2",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
+        "url": "https://openreview.net/forum?id=wPEIStHxYH",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Large Scale Diffusion Distillation via Score-Regularized Continuous-Time Consistency",
+        "url": "https://openreview.net/forum?id=2uNlM353RI",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Can World Models Benefit VLMs for World Dynamics?",
+        "url": "https://openreview.net/forum?id=LFCSVVIy1x",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "LongScape: Advancing Long-Horizon Embodied World Models with Context-Aware MoE",
+        "url": "https://openreview.net/forum?id=76flfkkawe",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "AdaViewPlanner: Adapting Video Diffusion Models for Viewpoint Planning in 4D Scenes",
+        "url": "https://openreview.net/forum?id=c2EfS9E5CJ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "X-Streamer: Unified Human World Modeling with Audiovisual Interaction",
+        "url": "https://openreview.net/forum?id=rCNe4N7cP4",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "PAV-DiT: A Cross-modal Alignment Projected Latent Diffusion Transformer for Synchronized Audio-Video Generation",
+        "url": "https://openreview.net/forum?id=RFrc0g7pSu",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer",
+        "url": "https://openreview.net/forum?id=mzAchylAtf",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Astra: General Interactive World Model with Autoregressive Denoising",
+        "url": "https://openreview.net/forum?id=8UZpmrxoLG",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Video-GPT via Next Clip Diffusion",
+        "url": "https://openreview.net/forum?id=E0ZAcqy9TB",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "BlockVid: Block Diffusion for High-Fidelity and Coherent Minute-Long Video Generation",
+        "url": "https://openreview.net/forum?id=k8KIwW4f7P",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Learning to Generate Object Interactions with Physics-Guided Video Diffusion",
+        "url": "https://openreview.net/forum?id=vrY91av397",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Accelerating Discrete Diffusion Models with Parallel Sampling",
+        "url": "https://openreview.net/forum?id=6dyJj5a6FW",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Stream-DiffVSR: Low-Latency Streamable Video Super-Resolution via Auto-Regressive Diffusion",
+        "url": "https://openreview.net/forum?id=seyWxIzcAn",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "DC-VideoGen: Efficient Video Generation with Deep Compression Video Autoencoder",
+        "url": "https://openreview.net/forum?id=6ekx5J6mnK",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Flow Caching for Autoregressive Video Generation",
+        "url": "https://openreview.net/forum?id=vko4DuhKbh",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "SRDiffusion: Accelerate Diffusion Inference via Sketching-Rendering Cooperation",
+        "url": "https://openreview.net/forum?id=nRpWcxwYvC",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "SemCache:Adaptive Semantic-Aware Caching for Efficient Video Diffusion",
+        "url": "https://openreview.net/forum?id=WyfmWX2ncn",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "LightCache: Memory-Efficient, Training-Free Acceleration for Video Generation",
+        "url": "https://openreview.net/forum?id=NomB0oiwqI",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "TraCache: Trajectory-Aware Feature Prediction for Training-Free Diffusion Transformer Acceleration",
+        "url": "https://openreview.net/forum?id=td24jA8Kui",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Asymmetric VAE for One-Step Video Super-Resolution Acceleration",
+        "url": "https://openreview.net/forum?id=qccGDaGCtz",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ScalingCache: Extreme Acceleration of DiTs through Difference Scaling and Dynamic Interval Caching",
+        "url": "https://openreview.net/forum?id=uXmbrTlko7",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ROPA : Robust parallel diffusion sampling",
+        "url": "https://openreview.net/forum?id=EQLcuMSy8b",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Playing with Transformer at 30+ FPS via Next-Frame Diffusion",
+        "url": "https://openreview.net/forum?id=jXZZbraJpG",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Video Parallel Scaling: Aggregating Diverse Frame Subsets for VideoLLMs",
+        "url": "https://openreview.net/forum?id=ojOkkp22Fa",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "SLA: Beyond Sparsity in Diffusion Transformers via Fine-Tunable Sparse–Linear Attention",
+        "url": "https://openreview.net/forum?id=eD8IPvNoZB",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "HiCache: A Plug-in Scaled-Hermite Upgrade for Taylor-Style Cache-then-Forecast Diffusion Acceleration",
+        "url": "https://openreview.net/forum?id=faYbbo1KsQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Plug-and-Play Fidelity Optimization for Diffusion Transformer Acceleration via Cumulative Error Minimization",
+        "url": "https://openreview.net/forum?id=pt4iKnAm0M",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "DiCache: Let Diffusion Model Determine Its Own Cache",
+        "url": "https://openreview.net/forum?id=kflYZjGumW",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Compact Attention: Exploiting Structured Spatio-Temporal Sparsity for Fast Video Generation",
+        "url": "https://openreview.net/forum?id=NLsUsrOIuh",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ERTACache: Error Rectification and Timesteps Adjustment for Efficient Diffusion",
+        "url": "https://openreview.net/forum?id=InvyBiYcK5",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ETC: training-free diffusion models acceleration with Error-aware Trend Consistency",
+        "url": "https://openreview.net/forum?id=pjaE5QaFbm",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "BLADE: Block-Sparse Attention Meets Step Distillation for Efficient Video Generation",
+        "url": "https://openreview.net/forum?id=O9J20MsmRl",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Streaming Autoregressive Video Generation via Diagonal Distillation",
+        "url": "https://openreview.net/forum?id=X7YW6STzeL",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Improved Adversarial Diffusion Compression for Real-World Video Super-Resolution",
+        "url": "https://openreview.net/forum?id=U2SJE6W3wT",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Reward-Guided Trajectory Distillation for Accelerated Diffusion-Based Video Generation",
+        "url": "https://openreview.net/forum?id=N5RV691l3H",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Whisfusion: Parallel ASR Decoding via a Diffusion Transformer",
+        "url": "https://openreview.net/forum?id=JCujsFnDS7",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "DraftAttention: Fast Video Diffusion via Low-Resolution Attention Guidance",
+        "url": "https://openreview.net/forum?id=jUNmW3s45i",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Generative View Stitching",
+        "url": "https://openreview.net/forum?id=fpQpQbFPCU",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Realtime Video Frame Interpolation using One-Step Diffusion Sampling",
+        "url": "https://openreview.net/forum?id=OiWyf1BNtC",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "QuantSparse: Comprehensively Compressing Video Diffusion Transformer with Model Quantization and Attention Sparsification",
+        "url": "https://openreview.net/forum?id=4TAG3aQljJ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Frame Guidance: Training-Free Guidance for Frame-Level Control in Video Diffusion Model",
+        "url": "https://openreview.net/forum?id=y39XbEp1vK",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Let Features Decide Their Own Solvers: Hybrid Feature Caching for Diffusion Transformers",
+        "url": "https://openreview.net/forum?id=URbsHlTK8c",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Self Speculative Decoding for Diffusion Large Language Model",
+        "url": "https://openreview.net/forum?id=rKJ7A30lQQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "RAPID$^3$: Tri-Level Reinforced Acceleration Policies for Diffusion Transformer",
+        "url": "https://openreview.net/forum?id=sQ0g6EkpF7",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Dynamic-dLLM: Dynamic Cache-Budget and Adaptive Parallel Decoding for Training-Free Acceleration of Diffusion LLM",
+        "url": "https://openreview.net/forum?id=SdnkB5pGbq",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Lumos-1: On Autoregressive Video Generation with Discrete Diffusion from a Unified Model Perspective",
+        "url": "https://openreview.net/forum?id=wWAxwSCKR2",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Block-wise Adaptive Caching for Accelerating Diffusion Policy",
+        "url": "https://openreview.net/forum?id=c6ZWfQLOWD",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Accelerating Discrete Diffusion Decoding with Parallel Scan",
+        "url": "https://openreview.net/forum?id=rQM3oU9cyg",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ParaSolver-Turbo: Accelerating Parallel Diffusion Integrator via Intrinsic Partially Linear Structure",
+        "url": "https://openreview.net/forum?id=FmV289gGHp",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "NABLA: Neighborhood-Adaptive Block-Level Attention for Efficient Video Diffusion Transformers",
+        "url": "https://openreview.net/forum?id=SJ2WK6kdPJ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Synergistic Absorption-Diffusion: Dual-branch Enhanced Continuous-Time Modeling for Parallel Token Generation",
+        "url": "https://openreview.net/forum?id=Xs7DhA88bd",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Learning to Parallel: Accelerating Diffusion Large Language Models via Adaptive Parallel Decoding",
+        "url": "https://openreview.net/forum?id=bFJ8Sdr224",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding",
+        "url": "https://openreview.net/forum?id=3Z3Is6hnOT",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Parallel Sampling from Masked Diffusion Models via Conditional Independence Testing",
+        "url": "https://openreview.net/forum?id=XjcHRIu0iF",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ParallelBench: Understanding the Trade-offs of Parallel Decoding in Diffusion LLMs",
+        "url": "https://openreview.net/forum?id=OsZr5T7Cd0",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Parallel Multimodal Diffusion Language Models for Thinking-Aware Editing and Generation",
+        "url": "https://openreview.net/forum?id=mkQAd11ovn",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Diffusion Language Models are Provably Optimal Parallel Samplers",
+        "url": "https://openreview.net/forum?id=5bkAbueJwM",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "AVID: Adapting Video Diffusion Models to World Models",
+        "url": "https://openreview.net/forum?id=15ASUbzg0N",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Spiral Evolution of Visual World Model: Reclaiming Autoregression from the Diffusion Era",
+        "url": "https://openreview.net/forum?id=EIEVNiraPS",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Video Diffusion Models Learn the Structure of the Dynamic World",
+        "url": "https://openreview.net/forum?id=SIZhZrU41O",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Accelerating Diffusion Transformers with Token-wise Feature Caching",
+        "url": "https://iclr.cc/virtual/2025/poster/27718",
+        "pdf_url": "https://openreview.net/pdf?id=yYZbZGo4ei",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "PanoWan: Lifting Diffusion Video Generation Models to 360$^\\circ$ with Latitude/Longitude-aware Mechanisms",
+        "url": "https://openreview.net/forum?id=7VLxvVEtHh",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Learning World Models for Interactive Video Generation",
+        "url": "https://openreview.net/forum?id=FzfYoUp8F1",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "MaskGWM: A Generalizable Driving World Model with Video Mask Reconstruction",
+        "url": "https://cvpr.thecvf.com/virtual/2025/poster/33624",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Ni_MaskGWM_A_Generalizable_Driving_World_Model_with_Video_Mask_Reconstruction_CVPR_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2025
+      },
+      {
+        "title": "HyperNVD: Accelerating Neural Video Decomposition via Hypernetworks",
+        "url": "https://cvpr.thecvf.com/virtual/2025/poster/34434",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Pilligua_HyperNVD_Accelerating_Neural_Video_Decomposition_via_Hypernetworks_CVPR_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2025
+      },
+      {
+        "title": "FasterCache: Training-Free Video Diffusion Model Acceleration with High Quality",
+        "url": "https://iclr.cc/virtual/2025/poster/29385",
+        "pdf_url": "https://openreview.net/pdf?id=W49UjcpGxx",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "ViewPoint: Panoramic Video Generation with Pretrained Diffusion Models",
+        "url": "https://openreview.net/forum?id=EKGJl7IHRw",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "MagCache: Fast Video Generation with Magnitude-Aware Cache",
+        "url": "https://openreview.net/forum?id=KZn7TDOL4J",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Improved Video VAE for Latent Video Diffusion Model",
+        "url": "https://cvpr.thecvf.com/virtual/2025/poster/33447",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wu_Improved_Video_VAE_for_Latent_Video_Diffusion_Model_CVPR_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2025
+      },
+      {
+        "title": "VORTA: Efficient Video Diffusion via Routing Sparse Attention",
+        "url": "https://openreview.net/forum?id=gY9yOGYB48",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "ARLON: Boosting Diffusion Transformers with Autoregressive Models for Long Video Generation",
+        "url": "https://iclr.cc/virtual/2025/poster/30742",
+        "pdf_url": "https://openreview.net/pdf?id=8pusxkLEQO",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "EVA: An Embodied World Model for Future Video Anticipation",
+        "url": "https://openreview.net/forum?id=N6SccBt3EF",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Morse: Fast Sampling for Accelerating Diffusion Models Universally",
+        "url": "https://openreview.net/forum?id=UlsI4z3QQP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Mani-WM: An Interactive World Model for Real-Robot Manipulation",
+        "url": "https://openreview.net/forum?id=aVyJwS1fqQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Radial Attention: $\\mathcal O(n \\log n)$ Sparse Attention for Long Video Generation",
+        "url": "https://openreview.net/forum?id=hYovE4nHTt",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Video-Infinity: Distributed Long Video Generation",
+        "url": "https://openreview.net/forum?id=DxT3e2f1jc",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Attend to Not Attended: Structure-then-Detail Token Merging for Post-training DiT Acceleration",
+        "url": "https://cvpr.thecvf.com/virtual/2025/poster/35120",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_Attend_to_Not_Attended_Structure-then-Detail_Token_Merging_for_Post-training_DiT_CVPR_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2025
+      },
+      {
+        "title": "FastVID: Dynamic Density Pruning for Fast Video Large Language Models",
+        "url": "https://openreview.net/forum?id=2xS4VtpApy",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "SemanticDraw: Towards Real-Time Interactive Content Creation from Image Diffusion Models",
+        "url": "https://cvpr.thecvf.com/virtual/2025/poster/32785",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Lee_SemanticDraw_Towards_Real-Time_Interactive_Content_Creation_from_Image_Diffusion_Models_CVPR_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2025
+      },
+      {
+        "title": "DOVE: Efficient One-Step Diffusion Model for Real-World Video Super-Resolution",
+        "url": "https://openreview.net/forum?id=DkJImu7t3A",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Sparse VideoGen2: Accelerate Video Generation with Sparse Attention via Semantic-Aware Permutation",
+        "url": "https://openreview.net/forum?id=WPU17d1l7R",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "RayFlow: Instance-Aware Diffusion Acceleration via Adaptive Flow Trajectories",
+        "url": "https://cvpr.thecvf.com/virtual/2025/poster/33437",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Shao_RayFlow_Instance-Aware_Diffusion_Acceleration_via_Adaptive_Flow_Trajectories_CVPR_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2025
+      },
+      {
+        "title": "Streaming Video Understanding and Multi-round Interaction with Memory-enhanced Knowledge",
+        "url": "https://iclr.cc/virtual/2025/poster/30097",
+        "pdf_url": "https://openreview.net/pdf?id=JbPb6RieNC",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "ASDSV: Multimodal Generation Made Efficient with Approximate Speculative Diffusion and Speculative Verification",
+        "url": "https://openreview.net/forum?id=IIGiVRKJYa",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Real-Time Video Generation with Pyramid Attention Broadcast",
+        "url": "https://iclr.cc/virtual/2025/poster/28773",
+        "pdf_url": "https://openreview.net/pdf?id=hDBrQ4DApF",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "ViBiDSampler: Enhancing Video Interpolation Using Bidirectional Diffusion Sampler",
+        "url": "https://iclr.cc/virtual/2025/poster/28410",
+        "pdf_url": "https://openreview.net/pdf?id=nNYA7tcJSE",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Highlight Diffusion: Training-Free Attention Guided Acceleration for Text-to-Image Models",
+        "url": "https://openreview.net/forum?id=Jt1gGIumJo",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "VD3D: Taming Large Video Diffusion Transformers for 3D Camera Control",
+        "url": "https://iclr.cc/virtual/2025/poster/32114",
+        "pdf_url": "https://openreview.net/pdf?id=0n4bS0R5MM",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Live2Diff: Live Stream Translation via Uni-directional Attention in Video Diffusion Models",
+        "url": "https://openreview.net/forum?id=YA1Ur2eGFl",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Exploiting Temporal State Space Sharing for Video Semantic Segmentation",
+        "url": "https://cvpr.thecvf.com/virtual/2025/poster/34521",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Hesham_Exploiting_Temporal_State_Space_Sharing_for_Video_Semantic_Segmentation_CVPR_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2025
+      },
+      {
+        "title": "Spatio-temporal Diffusion Transformer for Action Recognition",
+        "url": "https://openreview.net/forum?id=ICR3swcnaa",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "WF-VAE: Enhancing Video VAE by Wavelet-Driven Energy Flow for Latent Video Diffusion Model",
+        "url": "https://cvpr.thecvf.com/virtual/2025/poster/32779",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_WF-VAE_Enhancing_Video_VAE_by_Wavelet-Driven_Energy_Flow_for_Latent_CVPR_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2025
+      },
+      {
+        "title": "Parallel simulation for sampling under isoperimetry and score-based diffusion models",
+        "url": "https://openreview.net/forum?id=6Gb7VfTKY7",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "ParaSolver: A Hierarchical Parallel Integral Solver for Diffusion Models",
+        "url": "https://iclr.cc/virtual/2025/poster/31147",
+        "pdf_url": "https://openreview.net/pdf?id=2JihLwirxO",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation",
+        "url": "https://iclr.cc/virtual/2025/poster/30429",
+        "pdf_url": "https://openreview.net/pdf?id=E1N1oxd63b",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Mimir: Improving Video Diffusion Models for Precise Text Understanding",
+        "url": "https://cvpr.thecvf.com/virtual/2025/poster/34408",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Tan_Mimir_Improving_Video_Diffusion_Models_for_Precise_Text_Understanding_CVPR_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2025
+      },
+      {
+        "title": "Accelerating Parallel Diffusion Model Serving with Residual Compression",
+        "url": "https://openreview.net/forum?id=jqDtzUQkmu",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "PipeFusion: Patch-level Pipeline Parallelism for Diffusion Transformers Inference",
+        "url": "https://openreview.net/forum?id=5xwyxupsLL",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Ouroboros3D: Image-to-3D Generation via 3D-aware Recursive Diffusion",
+        "url": "https://openreview.net/forum?id=bjkQTInGes",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Virtually Being: Customizing Camera-Controllable Video Diffusion Models with Volumetric Performance Captures",
+        "url": "https://www.semanticscholar.org/paper/b123d424f5d3d2889b08671bb8e07701b023c2e2",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3757377.3763888",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Virtually Being: Customizing Camera-Controllable Video Diffusion Models with Multi-View Performance Captures",
+        "url": "https://www.semanticscholar.org/paper/021631d09c28b8c5996622bad946ae97ce345ba6",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2510.14179",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "AutoRefiner: Improving Autoregressive Video Diffusion Models via Reflective Refinement Over the Stochastic Sampling Path",
+        "url": "https://www.semanticscholar.org/paper/e5c61a476e570bad1f0303ef1c57c559db3a7ae0",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "url": "http://arxiv.org/abs/2512.25075v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "url": "http://arxiv.org/abs/2512.25074v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "url": "http://arxiv.org/abs/2512.25073v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "url": "http://arxiv.org/abs/2512.25071v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "url": "http://arxiv.org/abs/2512.25072v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "url": "http://arxiv.org/abs/2512.25070v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "url": "http://arxiv.org/abs/2512.25066v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "url": "http://arxiv.org/abs/2512.25065v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "url": "http://arxiv.org/abs/2512.25064v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+        "url": "http://arxiv.org/abs/2512.25063v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25063v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+        "url": "http://arxiv.org/abs/2512.25061v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25061v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "url": "http://arxiv.org/abs/2512.25059v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "url": "http://arxiv.org/abs/2512.25056v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "url": "http://arxiv.org/abs/2512.25055v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Fluid dynamics as intersection problem",
+        "url": "http://arxiv.org/abs/2512.25053v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25053v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+        "url": "http://arxiv.org/abs/2512.25050v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25050v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+        "url": "http://arxiv.org/abs/2512.25048v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25048v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "url": "http://arxiv.org/abs/2512.25046v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "url": "http://arxiv.org/abs/2512.25045v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Thin Tree Verification is coNP-Complete",
+        "url": "http://arxiv.org/abs/2512.25043v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25043v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "url": "http://arxiv.org/abs/2512.25042v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "url": "http://arxiv.org/abs/2512.25040v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Anomalous (3+1)d Fermionic Topological Quantum Field Theories via Symmetry Extension",
+        "url": "http://arxiv.org/abs/2512.25038v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25038v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Large Neutrino-Dark Matter Interactions: From Effective Field Theory to Ultraviolet Completions",
+        "url": "http://arxiv.org/abs/2512.25035v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25035v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Generative Classifiers Avoid Shortcut Solutions",
+        "url": "http://arxiv.org/abs/2512.25034v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25034v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+        "url": "http://arxiv.org/abs/2512.25052v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25052v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+        "url": "http://arxiv.org/abs/2512.25037v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25037v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+        "url": "http://arxiv.org/abs/2512.25033v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25033v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "A Review on Background, Technology, Comparison, and Future Tendency of Video Generation",
+        "url": "https://www.semanticscholar.org/paper/135eb9744908d6d04bdb7f73f7cb217c88d8d2cc",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.54097/18313836",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Diffusion for World Modeling: Visual Details Matter in Atari",
+        "url": "https://neurips.cc/virtual/2024/poster/95428",
+        "pdf_url": "https://openreview.net/pdf?id=NadTwTODgC",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Diffusion World Models",
+        "url": "https://openreview.net/forum?id=bAXmvOLtjA",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "SciRE-Solver: Accelerating Diffusion Models Sampling by Score-integrand Solver with Recursive Difference",
+        "url": "https://openreview.net/forum?id=85Af6AcMo5",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Motion Consistency Model: Accelerating Video Diffusion with Disentangled Motion-Appearance Distillation",
+        "url": "https://neurips.cc/virtual/2024/poster/95405",
+        "pdf_url": "https://openreview.net/pdf?id=NsqxN9iOJ7",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion",
+        "url": "https://iclr.cc/virtual/2024/poster/18691",
+        "pdf_url": "https://openreview.net/pdf?id=Psl75UCoZM",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Accelerating Diffusion Models with Parallel Sampling: Inference at Sub-Linear Time Complexity",
+        "url": "https://neurips.cc/virtual/2024/poster/95999",
+        "pdf_url": "https://openreview.net/pdf?id=F9NDzHQtOl",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "VidMan: Exploiting Implicit Dynamics from Video Diffusion Model for Effective Robot Manipulation",
+        "url": "https://neurips.cc/virtual/2024/poster/94687",
+        "pdf_url": "https://openreview.net/pdf?id=YbhHz0X2j5",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "AsyncDiff: Parallelizing Diffusion Models by Asynchronous Denoising",
+        "url": "https://neurips.cc/virtual/2024/poster/96695",
+        "pdf_url": "https://openreview.net/pdf?id=46jtDC6gXu",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "IQ-VFI: Implicit Quadratic Motion Estimation for Video Frame Interpolation",
+        "url": "https://cvpr.thecvf.com/virtual/2024/poster/29424",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Hu_IQ-VFI_Implicit_Quadratic_Motion_Estimation_for_Video_Frame_Interpolation_CVPR_2024_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2024
+      },
+      {
+        "title": "Warped Diffusion: Solving Video Inverse Problems with Image Diffusion Models",
+        "url": "https://neurips.cc/virtual/2024/poster/95607",
+        "pdf_url": "https://openreview.net/pdf?id=LH94zPv8cu",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "360DVD: Controllable Panorama Video Generation with 360-Degree Video Diffusion Model",
+        "url": "https://cvpr.thecvf.com/virtual/2024/poster/29750",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_360DVD_Controllable_Panorama_Video_Generation_with_360-Degree_Video_Diffusion_Model_CVPR_2024_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2024
+      },
+      {
+        "title": "Towards More Accurate Diffusion Model Acceleration with A Timestep Tuner",
+        "url": "https://cvpr.thecvf.com/virtual/2024/poster/29381",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xia_Towards_More_Accurate_Diffusion_Model_Acceleration_with_A_Timestep_Tuner_CVPR_2024_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2024
+      },
+      {
+        "title": "Unsupervised Sign Language Translation and Generation",
+        "url": "https://openreview.net/forum?id=eeaKRQIaYd",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "VideoTetris: Towards Compositional Text-to-Video Generation",
+        "url": "https://neurips.cc/virtual/2024/poster/95173",
+        "pdf_url": "https://openreview.net/pdf?id=RPM7STrnVz",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "VidToMe: Video Token Merging for Zero-Shot Video Editing",
+        "url": "https://cvpr.thecvf.com/virtual/2024/poster/31516",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Li_VidToMe_Video_Token_Merging_for_Zero-Shot_Video_Editing_CVPR_2024_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2024
+      },
+      {
+        "title": "VONet: Unsupervised Video Object Learning With Parallel U-Net Attention and Object-wise Sequential VAE",
+        "url": "https://iclr.cc/virtual/2024/poster/17743",
+        "pdf_url": "https://openreview.net/pdf?id=qCyhvr0GG8",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Splatter a Video: Video Gaussian Representation for Versatile Processing",
+        "url": "https://neurips.cc/virtual/2024/poster/94450",
+        "pdf_url": "https://openreview.net/pdf?id=bzuQtVDxv0",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Accelerating Guided Diffusion Sampling with Splitting Numerical Methods",
+        "url": "https://iclr.cc/virtual/2023/poster/11604",
+        "pdf_url": "https://openreview.net/pdf?id=F0KTk2plQzO",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Parallel Diffusion Models of Operator and Image for Blind Inverse Problems",
+        "url": "https://cvpr.thecvf.com/virtual/2023/poster/21724",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chung_Parallel_Diffusion_Models_of_Operator_and_Image_for_Blind_Inverse_CVPR_2023_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2023
+      },
+      {
+        "title": "DiffCollage: Parallel Generation of Large Content With Diffusion Models",
+        "url": "https://cvpr.thecvf.com/virtual/2023/poster/23148",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_DiffCollage_Parallel_Generation_of_Large_Content_With_Diffusion_Models_CVPR_2023_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2023
+      },
+      {
+        "title": "Accelerating Video Object Segmentation With Compressed Video",
+        "url": "",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Accelerating_Video_Object_Segmentation_With_Compressed_Video_CVPR_2022_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2022
+      },
+      {
+        "title": "Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems Through Stochastic Contraction",
+        "url": "",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Chung_Come-Closer-Diffuse-Faster_Accelerating_Conditional_Diffusion_Models_for_Inverse_Problems_Through_Stochastic_CVPR_2022_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2022
+      },
+      {
+        "title": "Multiaffine representations mediate tradeoff between generalization and parallel processing capacity in networks trained to multitask",
+        "url": "https://openreview.net/forum?id=SGd00Q1lRrw",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2021
+      },
+      {
+        "title": "Async-RED: A Provably Convergent Asynchronous Block Parallel Stochastic Method using Deep Denoising Priors",
+        "url": "https://iclr.cc/virtual/2021/poster/3077",
+        "pdf_url": "https://openreview.net/pdf?id=9EsrXMzlFQY",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2021
+      },
+      {
+        "title": "Quadratic Video Interpolation",
+        "url": "https://nips.cc/virtual/2019/poster/14496",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2019/file/d045c59a90d7587d8d671b5f5aec4e7c-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2019
+      },
+      {
+        "title": "Jerk-Aware Video Acceleration Magnification",
+        "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Takeda_Jerk-Aware_Video_Acceleration_CVPR_2018_paper.html",
+        "pdf_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Takeda_Jerk-Aware_Video_Acceleration_CVPR_2018_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2018
+      },
+      {
+        "title": "Video Acceleration Magnification",
+        "url": "",
+        "pdf_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_Video_Acceleration_Magnification_CVPR_2017_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2017
+      },
+      {
+        "title": "Stochastic Proximal Gradient Descent with Acceleration Techniques",
+        "url": "https://nips.cc/virtual/2014/poster/4781",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2014/file/2d6cd90d4f3fa50e6d9bdbc81a2e3712-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2014
+      },
+      {
+        "title": "Parallel Inference for Latent Dirichlet Allocation on Graphics Processing Units",
+        "url": "https://papers.nips.cc/paper_files/paper/2009/hash/ed265bc903a5a097f61d3ec064d96d2e-Abstract.html",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2009/file/ed265bc903a5a097f61d3ec064d96d2e-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2009
+      },
+      {
+        "title": "Simulation of the Neocognitron on a CCD Parallel Processing Architecture",
+        "url": "https://papers.nips.cc/paper_files/paper/1990/hash/17d63b1625c816c22647a73e1482372b-Abstract.html",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/1990/file/17d63b1625c816c22647a73e1482372b-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 1990
+      }
+    ],
+    "by_source": {
+      "semantic_scholar": [
+        {
+          "title": "Video Diffusion Models",
+          "url": "https://www.semanticscholar.org/paper/3b2a675bb617ae1a920e8e29d535cdf27826e999",
+          "pdf_url": "https://arxiv.org/pdf/2204.03458",
+          "doi_url": "https://doi.org/10.48550/arXiv.2204.03458",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer",
+          "url": "https://www.semanticscholar.org/paper/7b248d78573ccf0dca6aa2cec2743d3eccaa9d1a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2408.06072",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation",
+          "url": "https://www.semanticscholar.org/paper/1367dcff4ccb927a5e95c452041288b3f0dd0eff",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICCV51070.2023.00701",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion",
+          "url": "https://www.semanticscholar.org/paper/03e2cfa44b64489fb98f09dfbd940043fbef90ad",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2403.12008",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Show-1: Marrying Pixel and Latent Diffusion Models for Text-to-Video Generation",
+          "url": "https://www.semanticscholar.org/paper/a5b7fc1bff0910ff31975ec0a15ed30c41f0a968",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/s11263-024-02271-9",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation",
+          "url": "https://www.semanticscholar.org/paper/1e09b83fe064826a9a1ac61a7bdc00f26be41aee",
+          "pdf_url": "https://arxiv.org/pdf/2306.07954",
+          "doi_url": "https://doi.org/10.1145/3610548.3618160",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Fast High-Resolution Image Synthesis with Latent Adversarial Diffusion Distillation",
+          "url": "https://www.semanticscholar.org/paper/f6ab25605dc36db5e4b4f2f167d905944d5203c4",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680528.3687625",
+          "doi_url": "https://doi.org/10.1145/3680528.3687625",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "FreeNoise: Tuning-Free Longer Video Diffusion via Noise Rescheduling",
+          "url": "https://www.semanticscholar.org/paper/d831988859f0c077b38094446d8585a8340af223",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2310.15169",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Direct-a-Video: Customized Video Generation with User-Directed Camera Movement and Object Motion",
+          "url": "https://www.semanticscholar.org/paper/266cd6516e87580d3a4f9278c794a8896bba5cc1",
+          "pdf_url": "https://arxiv.org/pdf/2402.03162",
+          "doi_url": "https://doi.org/10.1145/3641519.3657481",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion",
+          "url": "https://www.semanticscholar.org/paper/a8e2e3ff1770fd83228659e9e4d16114ddb9404b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.08009",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "UniAnimate: taming unified video diffusion models for consistent human image animation",
+          "url": "https://www.semanticscholar.org/paper/6ddedae42ab98883bec0a2259ab65ec71bebc409",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/s11432-024-4592-3",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "LN3DIFF++: Scalable Latent Neural Fields Diffusion for Speedy 3D Generation.",
+          "url": "https://www.semanticscholar.org/paper/3262cda60389d8a58b81f00a5bae7ec87348bccd",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/TPAMI.2025.3633073",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Efficient Diffusion Models: A Comprehensive Survey from Principles to Practices",
+          "url": "https://www.semanticscholar.org/paper/140e64cf0516e556e96abe26cc21e4e35f349f36",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2410.11795",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "InstantDrag: Improving Interactivity in Drag-based Image Editing",
+          "url": "https://www.semanticscholar.org/paper/8abafadb5367da1a5c8d5476cb2bbcf8a8f241fa",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680528.3687668",
+          "doi_url": "https://doi.org/10.1145/3680528.3687668",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Hierarchical Patch Diffusion Models for High-Resolution Video Generation",
+          "url": "https://www.semanticscholar.org/paper/6955476324daf04ceca8bcdea7bcd1b9448999db",
+          "pdf_url": "https://arxiv.org/pdf/2406.07792",
+          "doi_url": "https://doi.org/10.1109/CVPR52733.2024.00723",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "PLA4D: Pixel-Level Alignments for Text-to-4D Gaussian Splatting",
+          "url": "https://www.semanticscholar.org/paper/f7cbd52cde8452d12d0f3e6569242a34ceb37625",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2405.19957",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Fast and Memory-Efficient Video Diffusion Using Streamlined Inference",
+          "url": "https://www.semanticscholar.org/paper/d690dc77e24558c71e00bc4ea25498992a059006",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2411.01171",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "SparseDM: Toward Sparse Efficient Diffusion Models",
+          "url": "https://www.semanticscholar.org/paper/729d0e15d7b1a8992d9aa94e0434fbb5511a5b33",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICME59968.2025.11209208",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Generative AI Beyond LLMs: System Implications of Multi-Modal Generation",
+          "url": "https://www.semanticscholar.org/paper/e1e6dcb3c162a2bbbcb128eff6fed01755613d1c",
+          "pdf_url": "https://arxiv.org/pdf/2312.14385",
+          "doi_url": "https://doi.org/10.1109/ISPASS61541.2024.00032",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "MiniMax-Remover: Taming Bad Noise Helps Video Object Removal",
+          "url": "https://www.semanticscholar.org/paper/f88b4cb3999cb2cb63d4414b7c046f67b79bdd89",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.24873",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "TalkingMachines: Real-Time Audio-Driven FaceTime-Style Video via Autoregressive Diffusion Models",
+          "url": "https://www.semanticscholar.org/paper/49276c3f739c4ae3f479381b631c0fc955eb5fd4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.03099",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "FlightVGM: Efficient Video Generation Model Inference with Online Sparsification and Hybrid Precision on FPGAs",
+          "url": "https://www.semanticscholar.org/paper/d88e275bc3cacddab4d2a20c0ac7484b9878a9c7",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3706628.3708864",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "EffiVED: Efficient Video Editing via Text-instruction Diffusion Models",
+          "url": "https://www.semanticscholar.org/paper/b087853373cca366961e648750ad3472c760aa81",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2403.11568",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "FPSAttention: Training-Aware FP8 and Sparsity Co-Design for Fast Video Diffusion",
+          "url": "https://www.semanticscholar.org/paper/6dd7c07555fdd1790ac76d0c5d19f6698b1af5bb",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.04648",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Magic 1-For-1: Generating One Minute Video Clips within One Minute",
+          "url": "https://www.semanticscholar.org/paper/0dac8b51df2e94a7623e3aa471058b8f57e9a449",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2502.07701",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Optical-Flow Guided Prompt Optimization for Coherent Video Generation",
+          "url": "https://www.semanticscholar.org/paper/f63329fc34175c36a63ca3aa4fdb3f28ecd9a8e6",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/CVPR52734.2025.00734",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Optimization-Free Image Immunization Against Diffusion-Based Editing",
+          "url": "https://www.semanticscholar.org/paper/14a2e5f5ad0bd5487cb187198f9459b90495f29e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2411.17957",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Beyond U: Making Diffusion Models Faster & Lighter",
+          "url": "https://www.semanticscholar.org/paper/3b1041c964c30d9d63f7e5bc78ae6595224e4e9c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2310.20092",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "AccVideo: Accelerating Video Diffusion Model with Synthetic Dataset",
+          "url": "https://www.semanticscholar.org/paper/97317329fab179b38a6580e14b046133a704157d",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2503.19462",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "The Missing U for Efficient Diffusion Models",
+          "url": "https://www.semanticscholar.org/paper/bac74fa84c99d08371f87e156a286c4bb8c8d512",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "LeanVAE: An Ultra-Efficient Reconstruction VAE for Video Diffusion Models",
+          "url": "https://www.semanticscholar.org/paper/d4233613baadd347dbb8d8532890bd997572a46d",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2503.14325",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Accelerating Video Diffusion Models via Distribution Matching",
+          "url": "https://www.semanticscholar.org/paper/a4caae8c11576ff03bbe67634c85ea0da2ae497e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2412.05899",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Tinker: Diffusion's Gift to 3D-Multi-View Consistent Editing From Sparse Inputs without Per-Scene Optimization",
+          "url": "https://www.semanticscholar.org/paper/a235b975ff8228731b024c132f6e4a59de9aca06",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2508.14811",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "4D Driving Scene Generation With Stereo Forcing",
+          "url": "https://www.semanticscholar.org/paper/9b5a1f79ba3deb79aa3bfa2a894c3d813a8dbde3",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2509.20251",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "An Intermediate Fusion ViT Enables Efficient Text-Image Alignment in Diffusion Models",
+          "url": "https://www.semanticscholar.org/paper/0e2c9745d29a6d689c132ffd624e5ead183b436d",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2403.16530",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "TITAN-Guide: Taming Inference-Time AligNment for Guided Text-to-Video Diffusion Models",
+          "url": "https://www.semanticscholar.org/paper/4dae46857270c5e7586d8ed358ab7461da7734c3",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2508.00289",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Toward Lightweight and Fast Decoders for Diffusion Models in Image and Video Generation",
+          "url": "https://www.semanticscholar.org/paper/2f16f8d464395aa0de12f608833618d64e43039a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2503.04871",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "OmnimatteZero: Training-free Real-time Omnimatte with Pre-trained Video Diffusion Models",
+          "url": "https://www.semanticscholar.org/paper/1563307159e2fa734f23ab1175b2427f0948c9a8",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2503.18033",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "OmnimatteZero: Fast Training-free Omnimatte with Pre-trained Video Diffusion Models",
+          "url": "https://www.semanticscholar.org/paper/f830df53741cb0c1df4d0d9f809112d27c03b7c3",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3757377.3763917",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "ConceptVoid: Precision Multi-Concept Erasure in Generative Video Diffusion",
+          "url": "https://www.semanticscholar.org/paper/53a7739a5298ad88d9c93796546b661848c3709a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.3390/math13162652",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Epipolar Geometry Improves Video Generation Models",
+          "url": "https://www.semanticscholar.org/paper/170a232300d7af70fe361e16c542b37bb56366c2",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2510.21615",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Flows and Diffusions on the Neural Manifold",
+          "url": "https://www.semanticscholar.org/paper/a909afbb749ae3fed379e4a95f8b408a58cbcec4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2507.10623",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "FasterVD: On Acceleration of Video Diffusion Models",
+          "url": "https://www.semanticscholar.org/paper/4463d38906296308b093eb3f80da32ae3ddc02cb",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.24963/ijcai.2024/1044",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "SNED: Superposition Network Architecture Search for Efficient Video Diffusion Model",
+          "url": "https://www.semanticscholar.org/paper/ea3a296f97570fd212d6c8fc34bba62f07c50f5c",
+          "pdf_url": "https://arxiv.org/pdf/2406.00195",
+          "doi_url": "https://doi.org/10.1109/CVPR52733.2024.00827",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Virtually Being: Customizing Camera-Controllable Video Diffusion Models with Volumetric Performance Captures",
+          "url": "https://www.semanticscholar.org/paper/b123d424f5d3d2889b08671bb8e07701b023c2e2",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3757377.3763888",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Virtually Being: Customizing Camera-Controllable Video Diffusion Models with Multi-View Performance Captures",
+          "url": "https://www.semanticscholar.org/paper/021631d09c28b8c5996622bad946ae97ce345ba6",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2510.14179",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "AutoRefiner: Improving Autoregressive Video Diffusion Models via Reflective Refinement Over the Stochastic Sampling Path",
+          "url": "https://www.semanticscholar.org/paper/e5c61a476e570bad1f0303ef1c57c559db3a7ae0",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "A Review on Background, Technology, Comparison, and Future Tendency of Video Generation",
+          "url": "https://www.semanticscholar.org/paper/135eb9744908d6d04bdb7f73f7cb217c88d8d2cc",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.54097/18313836",
+          "source": "semantic_scholar",
+          "year": 2025
+        }
+      ],
+      "offline_iclr": [
+        {
+          "title": "Vid2World: Crafting Video Diffusion Models to Interactive World Models",
+          "url": "https://openreview.net/forum?id=pFyzqbUiF9",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Geometry Forcing: Marrying Video Diffusion and 3D Representation for Consistent World Modeling",
+          "url": "https://openreview.net/forum?id=ULXYZCms41",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "WorldPack: Compressed Memory Improves Spatial Consistency in Video World Modeling",
+          "url": "https://openreview.net/forum?id=CuNHz3zxgm",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "BWCache: Accelerating Video Diffusion Transformers through Block-Wise Caching",
+          "url": "https://openreview.net/forum?id=5bJZtzTFYy",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling",
+          "url": "https://openreview.net/forum?id=1y1YFKb9pp",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "4DNeX: Feed-Forward 4D Generative Modeling Made Easy",
+          "url": "https://openreview.net/forum?id=guUrm5IRQS",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "MoB: Mixture of Block Transformer for Accelerating Video Generation with Dynamic Routing",
+          "url": "https://openreview.net/forum?id=TTaAacQEdg",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Reinforcement Learning with Inverse Rewards for World Model Post-training",
+          "url": "https://openreview.net/forum?id=n5dkjiplv4",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ASTRAEA: A Token-wise Acceleration Framework for Video Diffusion Transformers",
+          "url": "https://openreview.net/forum?id=e8P4Oo8S6U",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "CVD-STORM: Cross-View Video Diffusion with Spatial-Temporal Reconstruction Model for Autonomous Driving",
+          "url": "https://openreview.net/forum?id=V66pMNOVC2",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
+          "url": "https://openreview.net/forum?id=wPEIStHxYH",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Large Scale Diffusion Distillation via Score-Regularized Continuous-Time Consistency",
+          "url": "https://openreview.net/forum?id=2uNlM353RI",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Can World Models Benefit VLMs for World Dynamics?",
+          "url": "https://openreview.net/forum?id=LFCSVVIy1x",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LongScape: Advancing Long-Horizon Embodied World Models with Context-Aware MoE",
+          "url": "https://openreview.net/forum?id=76flfkkawe",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "AdaViewPlanner: Adapting Video Diffusion Models for Viewpoint Planning in 4D Scenes",
+          "url": "https://openreview.net/forum?id=c2EfS9E5CJ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "X-Streamer: Unified Human World Modeling with Audiovisual Interaction",
+          "url": "https://openreview.net/forum?id=rCNe4N7cP4",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "PAV-DiT: A Cross-modal Alignment Projected Latent Diffusion Transformer for Synchronized Audio-Video Generation",
+          "url": "https://openreview.net/forum?id=RFrc0g7pSu",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer",
+          "url": "https://openreview.net/forum?id=mzAchylAtf",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Astra: General Interactive World Model with Autoregressive Denoising",
+          "url": "https://openreview.net/forum?id=8UZpmrxoLG",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Video-GPT via Next Clip Diffusion",
+          "url": "https://openreview.net/forum?id=E0ZAcqy9TB",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "BlockVid: Block Diffusion for High-Fidelity and Coherent Minute-Long Video Generation",
+          "url": "https://openreview.net/forum?id=k8KIwW4f7P",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Learning to Generate Object Interactions with Physics-Guided Video Diffusion",
+          "url": "https://openreview.net/forum?id=vrY91av397",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Accelerating Discrete Diffusion Models with Parallel Sampling",
+          "url": "https://openreview.net/forum?id=6dyJj5a6FW",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Stream-DiffVSR: Low-Latency Streamable Video Super-Resolution via Auto-Regressive Diffusion",
+          "url": "https://openreview.net/forum?id=seyWxIzcAn",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "DC-VideoGen: Efficient Video Generation with Deep Compression Video Autoencoder",
+          "url": "https://openreview.net/forum?id=6ekx5J6mnK",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Flow Caching for Autoregressive Video Generation",
+          "url": "https://openreview.net/forum?id=vko4DuhKbh",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "SRDiffusion: Accelerate Diffusion Inference via Sketching-Rendering Cooperation",
+          "url": "https://openreview.net/forum?id=nRpWcxwYvC",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "SemCache:Adaptive Semantic-Aware Caching for Efficient Video Diffusion",
+          "url": "https://openreview.net/forum?id=WyfmWX2ncn",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LightCache: Memory-Efficient, Training-Free Acceleration for Video Generation",
+          "url": "https://openreview.net/forum?id=NomB0oiwqI",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "TraCache: Trajectory-Aware Feature Prediction for Training-Free Diffusion Transformer Acceleration",
+          "url": "https://openreview.net/forum?id=td24jA8Kui",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Asymmetric VAE for One-Step Video Super-Resolution Acceleration",
+          "url": "https://openreview.net/forum?id=qccGDaGCtz",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ScalingCache: Extreme Acceleration of DiTs through Difference Scaling and Dynamic Interval Caching",
+          "url": "https://openreview.net/forum?id=uXmbrTlko7",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ROPA : Robust parallel diffusion sampling",
+          "url": "https://openreview.net/forum?id=EQLcuMSy8b",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Playing with Transformer at 30+ FPS via Next-Frame Diffusion",
+          "url": "https://openreview.net/forum?id=jXZZbraJpG",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Video Parallel Scaling: Aggregating Diverse Frame Subsets for VideoLLMs",
+          "url": "https://openreview.net/forum?id=ojOkkp22Fa",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "SLA: Beyond Sparsity in Diffusion Transformers via Fine-Tunable Sparse–Linear Attention",
+          "url": "https://openreview.net/forum?id=eD8IPvNoZB",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "HiCache: A Plug-in Scaled-Hermite Upgrade for Taylor-Style Cache-then-Forecast Diffusion Acceleration",
+          "url": "https://openreview.net/forum?id=faYbbo1KsQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Plug-and-Play Fidelity Optimization for Diffusion Transformer Acceleration via Cumulative Error Minimization",
+          "url": "https://openreview.net/forum?id=pt4iKnAm0M",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "DiCache: Let Diffusion Model Determine Its Own Cache",
+          "url": "https://openreview.net/forum?id=kflYZjGumW",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Compact Attention: Exploiting Structured Spatio-Temporal Sparsity for Fast Video Generation",
+          "url": "https://openreview.net/forum?id=NLsUsrOIuh",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ERTACache: Error Rectification and Timesteps Adjustment for Efficient Diffusion",
+          "url": "https://openreview.net/forum?id=InvyBiYcK5",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ETC: training-free diffusion models acceleration with Error-aware Trend Consistency",
+          "url": "https://openreview.net/forum?id=pjaE5QaFbm",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "BLADE: Block-Sparse Attention Meets Step Distillation for Efficient Video Generation",
+          "url": "https://openreview.net/forum?id=O9J20MsmRl",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Streaming Autoregressive Video Generation via Diagonal Distillation",
+          "url": "https://openreview.net/forum?id=X7YW6STzeL",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Improved Adversarial Diffusion Compression for Real-World Video Super-Resolution",
+          "url": "https://openreview.net/forum?id=U2SJE6W3wT",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Reward-Guided Trajectory Distillation for Accelerated Diffusion-Based Video Generation",
+          "url": "https://openreview.net/forum?id=N5RV691l3H",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Whisfusion: Parallel ASR Decoding via a Diffusion Transformer",
+          "url": "https://openreview.net/forum?id=JCujsFnDS7",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "DraftAttention: Fast Video Diffusion via Low-Resolution Attention Guidance",
+          "url": "https://openreview.net/forum?id=jUNmW3s45i",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Generative View Stitching",
+          "url": "https://openreview.net/forum?id=fpQpQbFPCU",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Realtime Video Frame Interpolation using One-Step Diffusion Sampling",
+          "url": "https://openreview.net/forum?id=OiWyf1BNtC",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "QuantSparse: Comprehensively Compressing Video Diffusion Transformer with Model Quantization and Attention Sparsification",
+          "url": "https://openreview.net/forum?id=4TAG3aQljJ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Frame Guidance: Training-Free Guidance for Frame-Level Control in Video Diffusion Model",
+          "url": "https://openreview.net/forum?id=y39XbEp1vK",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Let Features Decide Their Own Solvers: Hybrid Feature Caching for Diffusion Transformers",
+          "url": "https://openreview.net/forum?id=URbsHlTK8c",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Self Speculative Decoding for Diffusion Large Language Model",
+          "url": "https://openreview.net/forum?id=rKJ7A30lQQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "RAPID$^3$: Tri-Level Reinforced Acceleration Policies for Diffusion Transformer",
+          "url": "https://openreview.net/forum?id=sQ0g6EkpF7",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Dynamic-dLLM: Dynamic Cache-Budget and Adaptive Parallel Decoding for Training-Free Acceleration of Diffusion LLM",
+          "url": "https://openreview.net/forum?id=SdnkB5pGbq",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Lumos-1: On Autoregressive Video Generation with Discrete Diffusion from a Unified Model Perspective",
+          "url": "https://openreview.net/forum?id=wWAxwSCKR2",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Block-wise Adaptive Caching for Accelerating Diffusion Policy",
+          "url": "https://openreview.net/forum?id=c6ZWfQLOWD",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Accelerating Discrete Diffusion Decoding with Parallel Scan",
+          "url": "https://openreview.net/forum?id=rQM3oU9cyg",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ParaSolver-Turbo: Accelerating Parallel Diffusion Integrator via Intrinsic Partially Linear Structure",
+          "url": "https://openreview.net/forum?id=FmV289gGHp",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "NABLA: Neighborhood-Adaptive Block-Level Attention for Efficient Video Diffusion Transformers",
+          "url": "https://openreview.net/forum?id=SJ2WK6kdPJ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Synergistic Absorption-Diffusion: Dual-branch Enhanced Continuous-Time Modeling for Parallel Token Generation",
+          "url": "https://openreview.net/forum?id=Xs7DhA88bd",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Learning to Parallel: Accelerating Diffusion Large Language Models via Adaptive Parallel Decoding",
+          "url": "https://openreview.net/forum?id=bFJ8Sdr224",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding",
+          "url": "https://openreview.net/forum?id=3Z3Is6hnOT",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Parallel Sampling from Masked Diffusion Models via Conditional Independence Testing",
+          "url": "https://openreview.net/forum?id=XjcHRIu0iF",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ParallelBench: Understanding the Trade-offs of Parallel Decoding in Diffusion LLMs",
+          "url": "https://openreview.net/forum?id=OsZr5T7Cd0",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Parallel Multimodal Diffusion Language Models for Thinking-Aware Editing and Generation",
+          "url": "https://openreview.net/forum?id=mkQAd11ovn",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Diffusion Language Models are Provably Optimal Parallel Samplers",
+          "url": "https://openreview.net/forum?id=5bkAbueJwM",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "AVID: Adapting Video Diffusion Models to World Models",
+          "url": "https://openreview.net/forum?id=15ASUbzg0N",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Video Diffusion Models Learn the Structure of the Dynamic World",
+          "url": "https://openreview.net/forum?id=SIZhZrU41O",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Accelerating Diffusion Transformers with Token-wise Feature Caching",
+          "url": "https://iclr.cc/virtual/2025/poster/27718",
+          "pdf_url": "https://openreview.net/pdf?id=yYZbZGo4ei",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "FasterCache: Training-Free Video Diffusion Model Acceleration with High Quality",
+          "url": "https://iclr.cc/virtual/2025/poster/29385",
+          "pdf_url": "https://openreview.net/pdf?id=W49UjcpGxx",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "ARLON: Boosting Diffusion Transformers with Autoregressive Models for Long Video Generation",
+          "url": "https://iclr.cc/virtual/2025/poster/30742",
+          "pdf_url": "https://openreview.net/pdf?id=8pusxkLEQO",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "EVA: An Embodied World Model for Future Video Anticipation",
+          "url": "https://openreview.net/forum?id=N6SccBt3EF",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Morse: Fast Sampling for Accelerating Diffusion Models Universally",
+          "url": "https://openreview.net/forum?id=UlsI4z3QQP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Mani-WM: An Interactive World Model for Real-Robot Manipulation",
+          "url": "https://openreview.net/forum?id=aVyJwS1fqQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Video-Infinity: Distributed Long Video Generation",
+          "url": "https://openreview.net/forum?id=DxT3e2f1jc",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Streaming Video Understanding and Multi-round Interaction with Memory-enhanced Knowledge",
+          "url": "https://iclr.cc/virtual/2025/poster/30097",
+          "pdf_url": "https://openreview.net/pdf?id=JbPb6RieNC",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Real-Time Video Generation with Pyramid Attention Broadcast",
+          "url": "https://iclr.cc/virtual/2025/poster/28773",
+          "pdf_url": "https://openreview.net/pdf?id=hDBrQ4DApF",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "ViBiDSampler: Enhancing Video Interpolation Using Bidirectional Diffusion Sampler",
+          "url": "https://iclr.cc/virtual/2025/poster/28410",
+          "pdf_url": "https://openreview.net/pdf?id=nNYA7tcJSE",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Highlight Diffusion: Training-Free Attention Guided Acceleration for Text-to-Image Models",
+          "url": "https://openreview.net/forum?id=Jt1gGIumJo",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "VD3D: Taming Large Video Diffusion Transformers for 3D Camera Control",
+          "url": "https://iclr.cc/virtual/2025/poster/32114",
+          "pdf_url": "https://openreview.net/pdf?id=0n4bS0R5MM",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Live2Diff: Live Stream Translation via Uni-directional Attention in Video Diffusion Models",
+          "url": "https://openreview.net/forum?id=YA1Ur2eGFl",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Spatio-temporal Diffusion Transformer for Action Recognition",
+          "url": "https://openreview.net/forum?id=ICR3swcnaa",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Parallel simulation for sampling under isoperimetry and score-based diffusion models",
+          "url": "https://openreview.net/forum?id=6Gb7VfTKY7",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "ParaSolver: A Hierarchical Parallel Integral Solver for Diffusion Models",
+          "url": "https://iclr.cc/virtual/2025/poster/31147",
+          "pdf_url": "https://openreview.net/pdf?id=2JihLwirxO",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation",
+          "url": "https://iclr.cc/virtual/2025/poster/30429",
+          "pdf_url": "https://openreview.net/pdf?id=E1N1oxd63b",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Ouroboros3D: Image-to-3D Generation via 3D-aware Recursive Diffusion",
+          "url": "https://openreview.net/forum?id=bjkQTInGes",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Diffusion World Models",
+          "url": "https://openreview.net/forum?id=bAXmvOLtjA",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "SciRE-Solver: Accelerating Diffusion Models Sampling by Score-integrand Solver with Recursive Difference",
+          "url": "https://openreview.net/forum?id=85Af6AcMo5",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion",
+          "url": "https://iclr.cc/virtual/2024/poster/18691",
+          "pdf_url": "https://openreview.net/pdf?id=Psl75UCoZM",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Unsupervised Sign Language Translation and Generation",
+          "url": "https://openreview.net/forum?id=eeaKRQIaYd",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "VONet: Unsupervised Video Object Learning With Parallel U-Net Attention and Object-wise Sequential VAE",
+          "url": "https://iclr.cc/virtual/2024/poster/17743",
+          "pdf_url": "https://openreview.net/pdf?id=qCyhvr0GG8",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Accelerating Guided Diffusion Sampling with Splitting Numerical Methods",
+          "url": "https://iclr.cc/virtual/2023/poster/11604",
+          "pdf_url": "https://openreview.net/pdf?id=F0KTk2plQzO",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Multiaffine representations mediate tradeoff between generalization and parallel processing capacity in networks trained to multitask",
+          "url": "https://openreview.net/forum?id=SGd00Q1lRrw",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2021
+        },
+        {
+          "title": "Async-RED: A Provably Convergent Asynchronous Block Parallel Stochastic Method using Deep Denoising Priors",
+          "url": "https://iclr.cc/virtual/2021/poster/3077",
+          "pdf_url": "https://openreview.net/pdf?id=9EsrXMzlFQY",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2021
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "Spiral Evolution of Visual World Model: Reclaiming Autoregression from the Diffusion Era",
+          "url": "https://openreview.net/forum?id=EIEVNiraPS",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "PanoWan: Lifting Diffusion Video Generation Models to 360$^\\circ$ with Latitude/Longitude-aware Mechanisms",
+          "url": "https://openreview.net/forum?id=7VLxvVEtHh",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Learning World Models for Interactive Video Generation",
+          "url": "https://openreview.net/forum?id=FzfYoUp8F1",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "ViewPoint: Panoramic Video Generation with Pretrained Diffusion Models",
+          "url": "https://openreview.net/forum?id=EKGJl7IHRw",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "MagCache: Fast Video Generation with Magnitude-Aware Cache",
+          "url": "https://openreview.net/forum?id=KZn7TDOL4J",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "VORTA: Efficient Video Diffusion via Routing Sparse Attention",
+          "url": "https://openreview.net/forum?id=gY9yOGYB48",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Radial Attention: $\\mathcal O(n \\log n)$ Sparse Attention for Long Video Generation",
+          "url": "https://openreview.net/forum?id=hYovE4nHTt",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "FastVID: Dynamic Density Pruning for Fast Video Large Language Models",
+          "url": "https://openreview.net/forum?id=2xS4VtpApy",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "DOVE: Efficient One-Step Diffusion Model for Real-World Video Super-Resolution",
+          "url": "https://openreview.net/forum?id=DkJImu7t3A",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Sparse VideoGen2: Accelerate Video Generation with Sparse Attention via Semantic-Aware Permutation",
+          "url": "https://openreview.net/forum?id=WPU17d1l7R",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "ASDSV: Multimodal Generation Made Efficient with Approximate Speculative Diffusion and Speculative Verification",
+          "url": "https://openreview.net/forum?id=IIGiVRKJYa",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Accelerating Parallel Diffusion Model Serving with Residual Compression",
+          "url": "https://openreview.net/forum?id=jqDtzUQkmu",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "PipeFusion: Patch-level Pipeline Parallelism for Diffusion Transformers Inference",
+          "url": "https://openreview.net/forum?id=5xwyxupsLL",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Diffusion for World Modeling: Visual Details Matter in Atari",
+          "url": "https://neurips.cc/virtual/2024/poster/95428",
+          "pdf_url": "https://openreview.net/pdf?id=NadTwTODgC",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Motion Consistency Model: Accelerating Video Diffusion with Disentangled Motion-Appearance Distillation",
+          "url": "https://neurips.cc/virtual/2024/poster/95405",
+          "pdf_url": "https://openreview.net/pdf?id=NsqxN9iOJ7",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Accelerating Diffusion Models with Parallel Sampling: Inference at Sub-Linear Time Complexity",
+          "url": "https://neurips.cc/virtual/2024/poster/95999",
+          "pdf_url": "https://openreview.net/pdf?id=F9NDzHQtOl",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "VidMan: Exploiting Implicit Dynamics from Video Diffusion Model for Effective Robot Manipulation",
+          "url": "https://neurips.cc/virtual/2024/poster/94687",
+          "pdf_url": "https://openreview.net/pdf?id=YbhHz0X2j5",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "AsyncDiff: Parallelizing Diffusion Models by Asynchronous Denoising",
+          "url": "https://neurips.cc/virtual/2024/poster/96695",
+          "pdf_url": "https://openreview.net/pdf?id=46jtDC6gXu",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Warped Diffusion: Solving Video Inverse Problems with Image Diffusion Models",
+          "url": "https://neurips.cc/virtual/2024/poster/95607",
+          "pdf_url": "https://openreview.net/pdf?id=LH94zPv8cu",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "VideoTetris: Towards Compositional Text-to-Video Generation",
+          "url": "https://neurips.cc/virtual/2024/poster/95173",
+          "pdf_url": "https://openreview.net/pdf?id=RPM7STrnVz",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Splatter a Video: Video Gaussian Representation for Versatile Processing",
+          "url": "https://neurips.cc/virtual/2024/poster/94450",
+          "pdf_url": "https://openreview.net/pdf?id=bzuQtVDxv0",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Quadratic Video Interpolation",
+          "url": "https://nips.cc/virtual/2019/poster/14496",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2019/file/d045c59a90d7587d8d671b5f5aec4e7c-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2019
+        },
+        {
+          "title": "Stochastic Proximal Gradient Descent with Acceleration Techniques",
+          "url": "https://nips.cc/virtual/2014/poster/4781",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2014/file/2d6cd90d4f3fa50e6d9bdbc81a2e3712-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2014
+        },
+        {
+          "title": "Parallel Inference for Latent Dirichlet Allocation on Graphics Processing Units",
+          "url": "https://papers.nips.cc/paper_files/paper/2009/hash/ed265bc903a5a097f61d3ec064d96d2e-Abstract.html",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2009/file/ed265bc903a5a097f61d3ec064d96d2e-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2009
+        },
+        {
+          "title": "Simulation of the Neocognitron on a CCD Parallel Processing Architecture",
+          "url": "https://papers.nips.cc/paper_files/paper/1990/hash/17d63b1625c816c22647a73e1482372b-Abstract.html",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/1990/file/17d63b1625c816c22647a73e1482372b-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 1990
+        }
+      ],
+      "offline_cvpr": [
+        {
+          "title": "MaskGWM: A Generalizable Driving World Model with Video Mask Reconstruction",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/33624",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Ni_MaskGWM_A_Generalizable_Driving_World_Model_with_Video_Mask_Reconstruction_CVPR_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2025
+        },
+        {
+          "title": "HyperNVD: Accelerating Neural Video Decomposition via Hypernetworks",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/34434",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Pilligua_HyperNVD_Accelerating_Neural_Video_Decomposition_via_Hypernetworks_CVPR_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2025
+        },
+        {
+          "title": "Improved Video VAE for Latent Video Diffusion Model",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/33447",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wu_Improved_Video_VAE_for_Latent_Video_Diffusion_Model_CVPR_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2025
+        },
+        {
+          "title": "Attend to Not Attended: Structure-then-Detail Token Merging for Post-training DiT Acceleration",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/35120",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_Attend_to_Not_Attended_Structure-then-Detail_Token_Merging_for_Post-training_DiT_CVPR_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2025
+        },
+        {
+          "title": "SemanticDraw: Towards Real-Time Interactive Content Creation from Image Diffusion Models",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/32785",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Lee_SemanticDraw_Towards_Real-Time_Interactive_Content_Creation_from_Image_Diffusion_Models_CVPR_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2025
+        },
+        {
+          "title": "RayFlow: Instance-Aware Diffusion Acceleration via Adaptive Flow Trajectories",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/33437",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Shao_RayFlow_Instance-Aware_Diffusion_Acceleration_via_Adaptive_Flow_Trajectories_CVPR_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2025
+        },
+        {
+          "title": "Exploiting Temporal State Space Sharing for Video Semantic Segmentation",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/34521",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Hesham_Exploiting_Temporal_State_Space_Sharing_for_Video_Semantic_Segmentation_CVPR_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2025
+        },
+        {
+          "title": "WF-VAE: Enhancing Video VAE by Wavelet-Driven Energy Flow for Latent Video Diffusion Model",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/32779",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_WF-VAE_Enhancing_Video_VAE_by_Wavelet-Driven_Energy_Flow_for_Latent_CVPR_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2025
+        },
+        {
+          "title": "Mimir: Improving Video Diffusion Models for Precise Text Understanding",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/34408",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Tan_Mimir_Improving_Video_Diffusion_Models_for_Precise_Text_Understanding_CVPR_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2025
+        },
+        {
+          "title": "IQ-VFI: Implicit Quadratic Motion Estimation for Video Frame Interpolation",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/29424",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Hu_IQ-VFI_Implicit_Quadratic_Motion_Estimation_for_Video_Frame_Interpolation_CVPR_2024_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2024
+        },
+        {
+          "title": "360DVD: Controllable Panorama Video Generation with 360-Degree Video Diffusion Model",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/29750",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_360DVD_Controllable_Panorama_Video_Generation_with_360-Degree_Video_Diffusion_Model_CVPR_2024_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2024
+        },
+        {
+          "title": "Towards More Accurate Diffusion Model Acceleration with A Timestep Tuner",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/29381",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xia_Towards_More_Accurate_Diffusion_Model_Acceleration_with_A_Timestep_Tuner_CVPR_2024_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2024
+        },
+        {
+          "title": "VidToMe: Video Token Merging for Zero-Shot Video Editing",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/31516",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Li_VidToMe_Video_Token_Merging_for_Zero-Shot_Video_Editing_CVPR_2024_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2024
+        },
+        {
+          "title": "Parallel Diffusion Models of Operator and Image for Blind Inverse Problems",
+          "url": "https://cvpr.thecvf.com/virtual/2023/poster/21724",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chung_Parallel_Diffusion_Models_of_Operator_and_Image_for_Blind_Inverse_CVPR_2023_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2023
+        },
+        {
+          "title": "DiffCollage: Parallel Generation of Large Content With Diffusion Models",
+          "url": "https://cvpr.thecvf.com/virtual/2023/poster/23148",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_DiffCollage_Parallel_Generation_of_Large_Content_With_Diffusion_Models_CVPR_2023_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2023
+        },
+        {
+          "title": "Accelerating Video Object Segmentation With Compressed Video",
+          "url": "",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Accelerating_Video_Object_Segmentation_With_Compressed_Video_CVPR_2022_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2022
+        },
+        {
+          "title": "Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems Through Stochastic Contraction",
+          "url": "",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Chung_Come-Closer-Diffuse-Faster_Accelerating_Conditional_Diffusion_Models_for_Inverse_Problems_Through_Stochastic_CVPR_2022_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2022
+        },
+        {
+          "title": "Jerk-Aware Video Acceleration Magnification",
+          "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Takeda_Jerk-Aware_Video_Acceleration_CVPR_2018_paper.html",
+          "pdf_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Takeda_Jerk-Aware_Video_Acceleration_CVPR_2018_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2018
+        },
+        {
+          "title": "Video Acceleration Magnification",
+          "url": "",
+          "pdf_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_Video_Acceleration_Magnification_CVPR_2017_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2017
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+          "url": "http://arxiv.org/abs/2512.25075v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+          "url": "http://arxiv.org/abs/2512.25074v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+          "url": "http://arxiv.org/abs/2512.25073v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+          "url": "http://arxiv.org/abs/2512.25071v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Coordinated Humanoid Manipulation with Choice Policies",
+          "url": "http://arxiv.org/abs/2512.25072v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Scaling Open-Ended Reasoning to Predict the Future",
+          "url": "http://arxiv.org/abs/2512.25070v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+          "url": "http://arxiv.org/abs/2512.25066v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+          "url": "http://arxiv.org/abs/2512.25065v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+          "url": "http://arxiv.org/abs/2512.25064v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+          "url": "http://arxiv.org/abs/2512.25063v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25063v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+          "url": "http://arxiv.org/abs/2512.25061v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25061v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+          "url": "http://arxiv.org/abs/2512.25059v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+          "url": "http://arxiv.org/abs/2512.25056v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+          "url": "http://arxiv.org/abs/2512.25055v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Fluid dynamics as intersection problem",
+          "url": "http://arxiv.org/abs/2512.25053v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25053v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+          "url": "http://arxiv.org/abs/2512.25050v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25050v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+          "url": "http://arxiv.org/abs/2512.25048v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25048v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Extreme nonlinear optics in optical fibers",
+          "url": "http://arxiv.org/abs/2512.25046v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+          "url": "http://arxiv.org/abs/2512.25045v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Thin Tree Verification is coNP-Complete",
+          "url": "http://arxiv.org/abs/2512.25043v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25043v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Compound Estimation for Binomials",
+          "url": "http://arxiv.org/abs/2512.25042v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+          "url": "http://arxiv.org/abs/2512.25040v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Anomalous (3+1)d Fermionic Topological Quantum Field Theories via Symmetry Extension",
+          "url": "http://arxiv.org/abs/2512.25038v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25038v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Large Neutrino-Dark Matter Interactions: From Effective Field Theory to Ultraviolet Completions",
+          "url": "http://arxiv.org/abs/2512.25035v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25035v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Generative Classifiers Avoid Shortcut Solutions",
+          "url": "http://arxiv.org/abs/2512.25034v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25034v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+          "url": "http://arxiv.org/abs/2512.25052v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25052v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+          "url": "http://arxiv.org/abs/2512.25037v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25037v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+          "url": "http://arxiv.org/abs/2512.25033v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25033v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Video Diffusion Models",
+        "pdf": "https://arxiv.org/pdf/2204.03458"
+      },
+      {
+        "title": "Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation",
+        "pdf": "https://arxiv.org/pdf/2306.07954"
+      },
+      {
+        "title": "Fast High-Resolution Image Synthesis with Latent Adversarial Diffusion Distillation",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3680528.3687625"
+      },
+      {
+        "title": "Direct-a-Video: Customized Video Generation with User-Directed Camera Movement and Object Motion",
+        "pdf": "https://arxiv.org/pdf/2402.03162"
+      },
+      {
+        "title": "InstantDrag: Improving Interactivity in Drag-based Image Editing",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3680528.3687668"
+      },
+      {
+        "title": "Hierarchical Patch Diffusion Models for High-Resolution Video Generation",
+        "pdf": "https://arxiv.org/pdf/2406.07792"
+      },
+      {
+        "title": "Generative AI Beyond LLMs: System Implications of Multi-Modal Generation",
+        "pdf": "https://arxiv.org/pdf/2312.14385"
+      },
+      {
+        "title": "SNED: Superposition Network Architecture Search for Efficient Video Diffusion Model",
+        "pdf": "https://arxiv.org/pdf/2406.00195"
+      },
+      {
+        "title": "Accelerating Diffusion Transformers with Token-wise Feature Caching",
+        "pdf": "https://openreview.net/pdf?id=yYZbZGo4ei"
+      },
+      {
+        "title": "MaskGWM: A Generalizable Driving World Model with Video Mask Reconstruction",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/papers/Ni_MaskGWM_A_Generalizable_Driving_World_Model_with_Video_Mask_Reconstruction_CVPR_2025_paper.pdf"
+      },
+      {
+        "title": "HyperNVD: Accelerating Neural Video Decomposition via Hypernetworks",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/papers/Pilligua_HyperNVD_Accelerating_Neural_Video_Decomposition_via_Hypernetworks_CVPR_2025_paper.pdf"
+      },
+      {
+        "title": "FasterCache: Training-Free Video Diffusion Model Acceleration with High Quality",
+        "pdf": "https://openreview.net/pdf?id=W49UjcpGxx"
+      },
+      {
+        "title": "Improved Video VAE for Latent Video Diffusion Model",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wu_Improved_Video_VAE_for_Latent_Video_Diffusion_Model_CVPR_2025_paper.pdf"
+      },
+      {
+        "title": "ARLON: Boosting Diffusion Transformers with Autoregressive Models for Long Video Generation",
+        "pdf": "https://openreview.net/pdf?id=8pusxkLEQO"
+      },
+      {
+        "title": "Attend to Not Attended: Structure-then-Detail Token Merging for Post-training DiT Acceleration",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_Attend_to_Not_Attended_Structure-then-Detail_Token_Merging_for_Post-training_DiT_CVPR_2025_paper.pdf"
+      },
+      {
+        "title": "SemanticDraw: Towards Real-Time Interactive Content Creation from Image Diffusion Models",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/papers/Lee_SemanticDraw_Towards_Real-Time_Interactive_Content_Creation_from_Image_Diffusion_Models_CVPR_2025_paper.pdf"
+      },
+      {
+        "title": "RayFlow: Instance-Aware Diffusion Acceleration via Adaptive Flow Trajectories",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/papers/Shao_RayFlow_Instance-Aware_Diffusion_Acceleration_via_Adaptive_Flow_Trajectories_CVPR_2025_paper.pdf"
+      },
+      {
+        "title": "Streaming Video Understanding and Multi-round Interaction with Memory-enhanced Knowledge",
+        "pdf": "https://openreview.net/pdf?id=JbPb6RieNC"
+      },
+      {
+        "title": "Real-Time Video Generation with Pyramid Attention Broadcast",
+        "pdf": "https://openreview.net/pdf?id=hDBrQ4DApF"
+      },
+      {
+        "title": "ViBiDSampler: Enhancing Video Interpolation Using Bidirectional Diffusion Sampler",
+        "pdf": "https://openreview.net/pdf?id=nNYA7tcJSE"
+      },
+      {
+        "title": "VD3D: Taming Large Video Diffusion Transformers for 3D Camera Control",
+        "pdf": "https://openreview.net/pdf?id=0n4bS0R5MM"
+      },
+      {
+        "title": "Exploiting Temporal State Space Sharing for Video Semantic Segmentation",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/papers/Hesham_Exploiting_Temporal_State_Space_Sharing_for_Video_Semantic_Segmentation_CVPR_2025_paper.pdf"
+      },
+      {
+        "title": "WF-VAE: Enhancing Video VAE by Wavelet-Driven Energy Flow for Latent Video Diffusion Model",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_WF-VAE_Enhancing_Video_VAE_by_Wavelet-Driven_Energy_Flow_for_Latent_CVPR_2025_paper.pdf"
+      },
+      {
+        "title": "ParaSolver: A Hierarchical Parallel Integral Solver for Diffusion Models",
+        "pdf": "https://openreview.net/pdf?id=2JihLwirxO"
+      },
+      {
+        "title": "ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation",
+        "pdf": "https://openreview.net/pdf?id=E1N1oxd63b"
+      },
+      {
+        "title": "Mimir: Improving Video Diffusion Models for Precise Text Understanding",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/papers/Tan_Mimir_Improving_Video_Diffusion_Models_for_Precise_Text_Understanding_CVPR_2025_paper.pdf"
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "pdf": "https://arxiv.org/pdf/2512.25075v1"
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "pdf": "https://arxiv.org/pdf/2512.25074v1"
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2512.25073v1"
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "pdf": "https://arxiv.org/pdf/2512.25071v1"
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "pdf": "https://arxiv.org/pdf/2512.25072v1"
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "pdf": "https://arxiv.org/pdf/2512.25070v1"
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "pdf": "https://arxiv.org/pdf/2512.25066v1"
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "pdf": "https://arxiv.org/pdf/2512.25065v1"
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "pdf": "https://arxiv.org/pdf/2512.25064v1"
+      },
+      {
+        "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+        "pdf": "https://arxiv.org/pdf/2512.25063v1"
+      },
+      {
+        "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+        "pdf": "https://arxiv.org/pdf/2512.25061v1"
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "pdf": "https://arxiv.org/pdf/2512.25059v1"
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "pdf": "https://arxiv.org/pdf/2512.25056v1"
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "pdf": "https://arxiv.org/pdf/2512.25055v1"
+      },
+      {
+        "title": "Fluid dynamics as intersection problem",
+        "pdf": "https://arxiv.org/pdf/2512.25053v1"
+      },
+      {
+        "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+        "pdf": "https://arxiv.org/pdf/2512.25050v1"
+      },
+      {
+        "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+        "pdf": "https://arxiv.org/pdf/2512.25048v1"
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "pdf": "https://arxiv.org/pdf/2512.25046v1"
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "pdf": "https://arxiv.org/pdf/2512.25045v1"
+      },
+      {
+        "title": "Thin Tree Verification is coNP-Complete",
+        "pdf": "https://arxiv.org/pdf/2512.25043v1"
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "pdf": "https://arxiv.org/pdf/2512.25042v1"
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "pdf": "https://arxiv.org/pdf/2512.25040v1"
+      },
+      {
+        "title": "Anomalous (3+1)d Fermionic Topological Quantum Field Theories via Symmetry Extension",
+        "pdf": "https://arxiv.org/pdf/2512.25038v1"
+      },
+      {
+        "title": "Large Neutrino-Dark Matter Interactions: From Effective Field Theory to Ultraviolet Completions",
+        "pdf": "https://arxiv.org/pdf/2512.25035v1"
+      },
+      {
+        "title": "Generative Classifiers Avoid Shortcut Solutions",
+        "pdf": "https://arxiv.org/pdf/2512.25034v1"
+      },
+      {
+        "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+        "pdf": "https://arxiv.org/pdf/2512.25052v1"
+      },
+      {
+        "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+        "pdf": "https://arxiv.org/pdf/2512.25037v1"
+      },
+      {
+        "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+        "pdf": "https://arxiv.org/pdf/2512.25033v1"
+      },
+      {
+        "title": "Diffusion for World Modeling: Visual Details Matter in Atari",
+        "pdf": "https://openreview.net/pdf?id=NadTwTODgC"
+      },
+      {
+        "title": "Motion Consistency Model: Accelerating Video Diffusion with Disentangled Motion-Appearance Distillation",
+        "pdf": "https://openreview.net/pdf?id=NsqxN9iOJ7"
+      },
+      {
+        "title": "Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion",
+        "pdf": "https://openreview.net/pdf?id=Psl75UCoZM"
+      },
+      {
+        "title": "Accelerating Diffusion Models with Parallel Sampling: Inference at Sub-Linear Time Complexity",
+        "pdf": "https://openreview.net/pdf?id=F9NDzHQtOl"
+      },
+      {
+        "title": "VidMan: Exploiting Implicit Dynamics from Video Diffusion Model for Effective Robot Manipulation",
+        "pdf": "https://openreview.net/pdf?id=YbhHz0X2j5"
+      },
+      {
+        "title": "AsyncDiff: Parallelizing Diffusion Models by Asynchronous Denoising",
+        "pdf": "https://openreview.net/pdf?id=46jtDC6gXu"
+      },
+      {
+        "title": "IQ-VFI: Implicit Quadratic Motion Estimation for Video Frame Interpolation",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2024/papers/Hu_IQ-VFI_Implicit_Quadratic_Motion_Estimation_for_Video_Frame_Interpolation_CVPR_2024_paper.pdf"
+      },
+      {
+        "title": "Warped Diffusion: Solving Video Inverse Problems with Image Diffusion Models",
+        "pdf": "https://openreview.net/pdf?id=LH94zPv8cu"
+      },
+      {
+        "title": "360DVD: Controllable Panorama Video Generation with 360-Degree Video Diffusion Model",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_360DVD_Controllable_Panorama_Video_Generation_with_360-Degree_Video_Diffusion_Model_CVPR_2024_paper.pdf"
+      },
+      {
+        "title": "Towards More Accurate Diffusion Model Acceleration with A Timestep Tuner",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xia_Towards_More_Accurate_Diffusion_Model_Acceleration_with_A_Timestep_Tuner_CVPR_2024_paper.pdf"
+      },
+      {
+        "title": "VideoTetris: Towards Compositional Text-to-Video Generation",
+        "pdf": "https://openreview.net/pdf?id=RPM7STrnVz"
+      },
+      {
+        "title": "VidToMe: Video Token Merging for Zero-Shot Video Editing",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2024/papers/Li_VidToMe_Video_Token_Merging_for_Zero-Shot_Video_Editing_CVPR_2024_paper.pdf"
+      },
+      {
+        "title": "VONet: Unsupervised Video Object Learning With Parallel U-Net Attention and Object-wise Sequential VAE",
+        "pdf": "https://openreview.net/pdf?id=qCyhvr0GG8"
+      },
+      {
+        "title": "Splatter a Video: Video Gaussian Representation for Versatile Processing",
+        "pdf": "https://openreview.net/pdf?id=bzuQtVDxv0"
+      },
+      {
+        "title": "Accelerating Guided Diffusion Sampling with Splitting Numerical Methods",
+        "pdf": "https://openreview.net/pdf?id=F0KTk2plQzO"
+      },
+      {
+        "title": "Parallel Diffusion Models of Operator and Image for Blind Inverse Problems",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chung_Parallel_Diffusion_Models_of_Operator_and_Image_for_Blind_Inverse_CVPR_2023_paper.pdf"
+      },
+      {
+        "title": "DiffCollage: Parallel Generation of Large Content With Diffusion Models",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_DiffCollage_Parallel_Generation_of_Large_Content_With_Diffusion_Models_CVPR_2023_paper.pdf"
+      },
+      {
+        "title": "Accelerating Video Object Segmentation With Compressed Video",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Accelerating_Video_Object_Segmentation_With_Compressed_Video_CVPR_2022_paper.pdf"
+      },
+      {
+        "title": "Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems Through Stochastic Contraction",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2022/papers/Chung_Come-Closer-Diffuse-Faster_Accelerating_Conditional_Diffusion_Models_for_Inverse_Problems_Through_Stochastic_CVPR_2022_paper.pdf"
+      },
+      {
+        "title": "Async-RED: A Provably Convergent Asynchronous Block Parallel Stochastic Method using Deep Denoising Priors",
+        "pdf": "https://openreview.net/pdf?id=9EsrXMzlFQY"
+      },
+      {
+        "title": "Quadratic Video Interpolation",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2019/file/d045c59a90d7587d8d671b5f5aec4e7c-Paper.pdf"
+      },
+      {
+        "title": "Jerk-Aware Video Acceleration Magnification",
+        "pdf": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Takeda_Jerk-Aware_Video_Acceleration_CVPR_2018_paper.pdf"
+      },
+      {
+        "title": "Video Acceleration Magnification",
+        "pdf": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_Video_Acceleration_Magnification_CVPR_2017_paper.pdf"
+      },
+      {
+        "title": "Stochastic Proximal Gradient Descent with Acceleration Techniques",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2014/file/2d6cd90d4f3fa50e6d9bdbc81a2e3712-Paper.pdf"
+      },
+      {
+        "title": "Parallel Inference for Latent Dirichlet Allocation on Graphics Processing Units",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2009/file/ed265bc903a5a097f61d3ec064d96d2e-Paper.pdf"
+      },
+      {
+        "title": "Simulation of the Neocognitron on a CCD Parallel Processing Architecture",
+        "pdf": "https://papers.nips.cc/paper_files/paper/1990/file/17d63b1625c816c22647a73e1482372b-Paper.pdf"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "Video Diffusion Models",
+        "doi": "https://doi.org/10.48550/arXiv.2204.03458"
+      },
+      {
+        "title": "CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer",
+        "doi": "https://doi.org/10.48550/arXiv.2408.06072"
+      },
+      {
+        "title": "Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation",
+        "doi": "https://doi.org/10.1109/ICCV51070.2023.00701"
+      },
+      {
+        "title": "SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion",
+        "doi": "https://doi.org/10.48550/arXiv.2403.12008"
+      },
+      {
+        "title": "Show-1: Marrying Pixel and Latent Diffusion Models for Text-to-Video Generation",
+        "doi": "https://doi.org/10.1007/s11263-024-02271-9"
+      },
+      {
+        "title": "Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation",
+        "doi": "https://doi.org/10.1145/3610548.3618160"
+      },
+      {
+        "title": "Fast High-Resolution Image Synthesis with Latent Adversarial Diffusion Distillation",
+        "doi": "https://doi.org/10.1145/3680528.3687625"
+      },
+      {
+        "title": "FreeNoise: Tuning-Free Longer Video Diffusion via Noise Rescheduling",
+        "doi": "https://doi.org/10.48550/arXiv.2310.15169"
+      },
+      {
+        "title": "Direct-a-Video: Customized Video Generation with User-Directed Camera Movement and Object Motion",
+        "doi": "https://doi.org/10.1145/3641519.3657481"
+      },
+      {
+        "title": "Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion",
+        "doi": "https://doi.org/10.48550/arXiv.2506.08009"
+      },
+      {
+        "title": "UniAnimate: taming unified video diffusion models for consistent human image animation",
+        "doi": "https://doi.org/10.1007/s11432-024-4592-3"
+      },
+      {
+        "title": "LN3DIFF++: Scalable Latent Neural Fields Diffusion for Speedy 3D Generation.",
+        "doi": "https://doi.org/10.1109/TPAMI.2025.3633073"
+      },
+      {
+        "title": "Efficient Diffusion Models: A Comprehensive Survey from Principles to Practices",
+        "doi": "https://doi.org/10.48550/arXiv.2410.11795"
+      },
+      {
+        "title": "InstantDrag: Improving Interactivity in Drag-based Image Editing",
+        "doi": "https://doi.org/10.1145/3680528.3687668"
+      },
+      {
+        "title": "Hierarchical Patch Diffusion Models for High-Resolution Video Generation",
+        "doi": "https://doi.org/10.1109/CVPR52733.2024.00723"
+      },
+      {
+        "title": "PLA4D: Pixel-Level Alignments for Text-to-4D Gaussian Splatting",
+        "doi": "https://doi.org/10.48550/arXiv.2405.19957"
+      },
+      {
+        "title": "Fast and Memory-Efficient Video Diffusion Using Streamlined Inference",
+        "doi": "https://doi.org/10.48550/arXiv.2411.01171"
+      },
+      {
+        "title": "SparseDM: Toward Sparse Efficient Diffusion Models",
+        "doi": "https://doi.org/10.1109/ICME59968.2025.11209208"
+      },
+      {
+        "title": "Generative AI Beyond LLMs: System Implications of Multi-Modal Generation",
+        "doi": "https://doi.org/10.1109/ISPASS61541.2024.00032"
+      },
+      {
+        "title": "MiniMax-Remover: Taming Bad Noise Helps Video Object Removal",
+        "doi": "https://doi.org/10.48550/arXiv.2505.24873"
+      },
+      {
+        "title": "TalkingMachines: Real-Time Audio-Driven FaceTime-Style Video via Autoregressive Diffusion Models",
+        "doi": "https://doi.org/10.48550/arXiv.2506.03099"
+      },
+      {
+        "title": "FlightVGM: Efficient Video Generation Model Inference with Online Sparsification and Hybrid Precision on FPGAs",
+        "doi": "https://doi.org/10.1145/3706628.3708864"
+      },
+      {
+        "title": "EffiVED: Efficient Video Editing via Text-instruction Diffusion Models",
+        "doi": "https://doi.org/10.48550/arXiv.2403.11568"
+      },
+      {
+        "title": "FPSAttention: Training-Aware FP8 and Sparsity Co-Design for Fast Video Diffusion",
+        "doi": "https://doi.org/10.48550/arXiv.2506.04648"
+      },
+      {
+        "title": "Magic 1-For-1: Generating One Minute Video Clips within One Minute",
+        "doi": "https://doi.org/10.48550/arXiv.2502.07701"
+      },
+      {
+        "title": "Optical-Flow Guided Prompt Optimization for Coherent Video Generation",
+        "doi": "https://doi.org/10.1109/CVPR52734.2025.00734"
+      },
+      {
+        "title": "Optimization-Free Image Immunization Against Diffusion-Based Editing",
+        "doi": "https://doi.org/10.48550/arXiv.2411.17957"
+      },
+      {
+        "title": "Beyond U: Making Diffusion Models Faster & Lighter",
+        "doi": "https://doi.org/10.48550/arXiv.2310.20092"
+      },
+      {
+        "title": "AccVideo: Accelerating Video Diffusion Model with Synthetic Dataset",
+        "doi": "https://doi.org/10.48550/arXiv.2503.19462"
+      },
+      {
+        "title": "LeanVAE: An Ultra-Efficient Reconstruction VAE for Video Diffusion Models",
+        "doi": "https://doi.org/10.48550/arXiv.2503.14325"
+      },
+      {
+        "title": "Accelerating Video Diffusion Models via Distribution Matching",
+        "doi": "https://doi.org/10.48550/arXiv.2412.05899"
+      },
+      {
+        "title": "Tinker: Diffusion's Gift to 3D-Multi-View Consistent Editing From Sparse Inputs without Per-Scene Optimization",
+        "doi": "https://doi.org/10.48550/arXiv.2508.14811"
+      },
+      {
+        "title": "4D Driving Scene Generation With Stereo Forcing",
+        "doi": "https://doi.org/10.48550/arXiv.2509.20251"
+      },
+      {
+        "title": "An Intermediate Fusion ViT Enables Efficient Text-Image Alignment in Diffusion Models",
+        "doi": "https://doi.org/10.48550/arXiv.2403.16530"
+      },
+      {
+        "title": "TITAN-Guide: Taming Inference-Time AligNment for Guided Text-to-Video Diffusion Models",
+        "doi": "https://doi.org/10.48550/arXiv.2508.00289"
+      },
+      {
+        "title": "Toward Lightweight and Fast Decoders for Diffusion Models in Image and Video Generation",
+        "doi": "https://doi.org/10.48550/arXiv.2503.04871"
+      },
+      {
+        "title": "OmnimatteZero: Training-free Real-time Omnimatte with Pre-trained Video Diffusion Models",
+        "doi": "https://doi.org/10.48550/arXiv.2503.18033"
+      },
+      {
+        "title": "OmnimatteZero: Fast Training-free Omnimatte with Pre-trained Video Diffusion Models",
+        "doi": "https://doi.org/10.1145/3757377.3763917"
+      },
+      {
+        "title": "ConceptVoid: Precision Multi-Concept Erasure in Generative Video Diffusion",
+        "doi": "https://doi.org/10.3390/math13162652"
+      },
+      {
+        "title": "Epipolar Geometry Improves Video Generation Models",
+        "doi": "https://doi.org/10.48550/arXiv.2510.21615"
+      },
+      {
+        "title": "Flows and Diffusions on the Neural Manifold",
+        "doi": "https://doi.org/10.48550/arXiv.2507.10623"
+      },
+      {
+        "title": "FasterVD: On Acceleration of Video Diffusion Models",
+        "doi": "https://doi.org/10.24963/ijcai.2024/1044"
+      },
+      {
+        "title": "SNED: Superposition Network Architecture Search for Efficient Video Diffusion Model",
+        "doi": "https://doi.org/10.1109/CVPR52733.2024.00827"
+      },
+      {
+        "title": "Virtually Being: Customizing Camera-Controllable Video Diffusion Models with Volumetric Performance Captures",
+        "doi": "https://doi.org/10.1145/3757377.3763888"
+      },
+      {
+        "title": "Virtually Being: Customizing Camera-Controllable Video Diffusion Models with Multi-View Performance Captures",
+        "doi": "https://doi.org/10.48550/arXiv.2510.14179"
+      },
+      {
+        "title": "A Review on Background, Technology, Comparison, and Future Tendency of Video Generation",
+        "doi": "https://doi.org/10.54097/18313836"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "video diffusion models parallel processing",
+    "total_steps": 14,
+    "last_updated": "2026-01-03T01:22:05.031961",
+    "started_at": "2026-01-03T01:19:55.659540",
+    "total_papers": 216
+  }
+}

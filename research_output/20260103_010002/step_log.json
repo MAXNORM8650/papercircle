@@ -1,0 +1,423 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T01:01:10.783428",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 134 papers",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "sources": null,
+        "papers_found": 134,
+        "papers_added": 134,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 134
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T01:01:18.329467",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "conferences": [
+          "iclr",
+          "icml",
+          "nips"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 43,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 177
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T01:01:21.621414",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 199 papers",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 199,
+        "papers_added": 90,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 267
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T01:01:34.701367",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 99 papers",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 99,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 267
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T01:01:45.596675",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling"
+        ],
+        "start_year": 2020,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 11,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 278
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-03T01:01:52.350196",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 66 papers",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 66,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 278
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-03T01:02:11.873348",
+      "agent": "sorting_agent",
+      "action": "Sorted 278 papers by 'recency'",
+      "result_preview": "Top paper: HiT-JEPA: A Hierarchical Self-supervised Trajector...",
+      "details": {
+        "sort_by": "recency",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 278
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-03T01:02:13.309449",
+      "agent": "sorting_agent",
+      "action": "Sorted 10 papers by 'relevance'",
+      "result_preview": "Top paper: Learning Population-Level Representations with Joi...",
+      "details": {
+        "sort_by": "relevance",
+        "weights": null,
+        "top_k": 10
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-03T01:02:26.007041",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (summary)",
+      "result_preview": "Generated insights from 10 papers",
+      "details": {
+        "analysis_type": "summary"
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-03T01:02:26.876852",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (trends)",
+      "result_preview": "Generated insights from 10 papers",
+      "details": {
+        "analysis_type": "trends"
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-03T01:02:27.701220",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (authors)",
+      "result_preview": "Generated insights from 10 papers",
+      "details": {
+        "analysis_type": "authors"
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-03T01:02:28.611484",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (venues)",
+      "result_preview": "Generated insights from 10 papers",
+      "details": {
+        "analysis_type": "venues"
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-03T01:02:29.500318",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (topics)",
+      "result_preview": "Generated insights from 10 papers",
+      "details": {
+        "analysis_type": "topics"
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-03T01:02:50.725553",
+      "agent": "export_agent",
+      "action": "Exporting papers (all)",
+      "result_preview": "Exported 10 papers",
+      "details": {
+        "format": "all",
+        "filename": "JEPA_papers"
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-03T01:03:31.504181",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'JEPA'",
+      "result_preview": "Found 8 papers from local database",
+      "details": {
+        "query": "JEPA",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 8,
+        "papers_added": 8,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 18
+    },
+    {
+      "step": 16,
+      "timestamp": "2026-01-03T01:03:33.705653",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'JEPA'",
+      "result_preview": "Found 0 papers from local database",
+      "details": {
+        "query": "JEPA",
+        "conferences": [
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 0,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 18
+    },
+    {
+      "step": 17,
+      "timestamp": "2026-01-03T01:03:37.176891",
+      "agent": "online_search_agent",
+      "action": "Online search: 'JEPA'",
+      "result_preview": "Found 86 papers",
+      "details": {
+        "query": "JEPA",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 86,
+        "papers_added": 82,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 100
+    },
+    {
+      "step": 18,
+      "timestamp": "2026-01-03T01:03:39.956775",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 40 papers",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 40,
+        "papers_added": 29,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 129
+    },
+    {
+      "step": 19,
+      "timestamp": "2026-01-03T01:04:16.985999",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 134 papers",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "sources": null,
+        "papers_found": 134,
+        "papers_added": 71,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 200
+    },
+    {
+      "step": 20,
+      "timestamp": "2026-01-03T01:04:25.970424",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 28,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 228
+    },
+    {
+      "step": 21,
+      "timestamp": "2026-01-03T01:04:29.453989",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 199 papers",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 199,
+        "papers_added": 76,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 304
+    },
+    {
+      "step": 22,
+      "timestamp": "2026-01-03T01:04:42.715095",
+      "agent": "export_agent",
+      "action": "Exporting papers (json)",
+      "result_preview": "Exported 304 papers",
+      "details": {
+        "format": "json",
+        "filename": "jepa_papers_json"
+      },
+      "papers_count": 304
+    },
+    {
+      "step": 23,
+      "timestamp": "2026-01-03T01:04:43.710355",
+      "agent": "export_agent",
+      "action": "Exporting papers (csv)",
+      "result_preview": "Exported 304 papers",
+      "details": {
+        "format": "csv",
+        "filename": "jepa_papers_csv"
+      },
+      "papers_count": 304
+    },
+    {
+      "step": 24,
+      "timestamp": "2026-01-03T01:04:44.665763",
+      "agent": "export_agent",
+      "action": "Exporting papers (bib)",
+      "result_preview": "Exported 304 papers",
+      "details": {
+        "format": "bib",
+        "filename": "jepa_papers_bib"
+      },
+      "papers_count": 304
+    },
+    {
+      "step": 25,
+      "timestamp": "2026-01-03T01:04:45.648597",
+      "agent": "export_agent",
+      "action": "Exporting papers (markdown)",
+      "result_preview": "Exported 304 papers",
+      "details": {
+        "format": "markdown",
+        "filename": "jepa_papers_md"
+      },
+      "papers_count": 304
+    },
+    {
+      "step": 26,
+      "timestamp": "2026-01-03T01:04:46.640812",
+      "agent": "export_agent",
+      "action": "Exporting papers (html)",
+      "result_preview": "Exported 304 papers",
+      "details": {
+        "format": "html",
+        "filename": "jepa_papers_html"
+      },
+      "papers_count": 304
+    }
+  ],
+  "current_step": 26,
+  "metadata": {
+    "query": "Joint Embedding Predictive Architecture",
+    "total_steps": 26,
+    "last_updated": "2026-01-03T01:04:46.685060",
+    "started_at": "2026-01-03T01:00:04.409317",
+    "total_papers": 304
+  }
+}

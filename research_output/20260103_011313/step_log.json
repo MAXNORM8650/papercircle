@@ -1,0 +1,159 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T01:13:26.552033",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 134 papers",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "sources": null,
+        "papers_found": 134,
+        "papers_added": 134,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 134
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T01:13:34.348534",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "conferences": [
+          "iclr",
+          "icml",
+          "nips"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 43,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 177
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T01:13:40.186683",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 100 papers",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 100,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 227
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T01:13:50.641985",
+      "agent": "sorting_agent",
+      "action": "Sorted 227 papers by 'recency'",
+      "result_preview": "Top paper: HiT-JEPA: A Hierarchical Self-supervised Trajector...",
+      "details": {
+        "sort_by": "recency",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 227
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T01:13:52.057870",
+      "agent": "sorting_agent",
+      "action": "Sorted 100 papers by 'relevance'",
+      "result_preview": "Top paper: Learning Population-Level Representations with Joi...",
+      "details": {
+        "sort_by": "relevance",
+        "weights": null,
+        "top_k": 100
+      },
+      "papers_count": 100
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-03T01:14:10.140565",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (summary)",
+      "result_preview": "Generated insights from 100 papers",
+      "details": {
+        "analysis_type": "summary"
+      },
+      "papers_count": 100
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-03T01:14:10.996641",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (trends)",
+      "result_preview": "Generated insights from 100 papers",
+      "details": {
+        "analysis_type": "trends"
+      },
+      "papers_count": 100
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-03T01:14:11.853892",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (authors)",
+      "result_preview": "Generated insights from 100 papers",
+      "details": {
+        "analysis_type": "authors"
+      },
+      "papers_count": 100
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-03T01:14:12.737016",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (venues)",
+      "result_preview": "Generated insights from 100 papers",
+      "details": {
+        "analysis_type": "venues"
+      },
+      "papers_count": 100
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-03T01:14:13.628487",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (topics)",
+      "result_preview": "Generated insights from 100 papers",
+      "details": {
+        "analysis_type": "topics"
+      },
+      "papers_count": 100
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-03T01:14:26.989159",
+      "agent": "export_agent",
+      "action": "Exporting papers (all)",
+      "result_preview": "Exported 100 papers",
+      "details": {
+        "format": "all",
+        "filename": "Joint_Embedding_Predictive_Architecture"
+      },
+      "papers_count": 100
+    }
+  ],
+  "current_step": 11,
+  "metadata": {
+    "query": "Joint Embedding Predictive Architecture",
+    "total_steps": 11,
+    "last_updated": "2026-01-03T01:14:27.025583",
+    "started_at": "2026-01-03T01:13:13.306270",
+    "total_papers": 100
+  }
+}

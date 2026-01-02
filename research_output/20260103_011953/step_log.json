@@ -1,0 +1,216 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T01:20:28.053713",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'accelerating video diffusion models for world models'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "accelerating video diffusion models for world models",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 49,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 49
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T01:20:35.657924",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'video diffusion models acceleration techniques'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "video diffusion models acceleration techniques",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 47,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 96
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T01:20:40.201877",
+      "agent": "online_search_agent",
+      "action": "Online search: 'video diffusion models efficient inference'",
+      "result_preview": "Found 49 papers",
+      "details": {
+        "query": "video diffusion models efficient inference",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 49,
+        "papers_added": 48,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 144
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T01:20:46.560162",
+      "agent": "online_search_agent",
+      "action": "Online search: 'video diffusion models optimization techniques'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "video diffusion models optimization techniques",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 28,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 172
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T01:20:54.388007",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'video diffusion models parallel processing'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "video diffusion models parallel processing",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 44,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 216
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-03T01:21:28.596707",
+      "agent": "sorting_agent",
+      "action": "Sorted 216 papers by 'recency'",
+      "result_preview": "Top paper: Vid2World: Crafting Video Diffusion Models to Inte...",
+      "details": {
+        "sort_by": "recency",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 216
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-03T01:21:29.854826",
+      "agent": "sorting_agent",
+      "action": "Sorted 216 papers by 'citations'",
+      "result_preview": "Top paper: Video Diffusion Models...",
+      "details": {
+        "sort_by": "citations",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 216
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-03T01:21:42.167212",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (topics)",
+      "result_preview": "Generated insights from 216 papers",
+      "details": {
+        "analysis_type": "topics"
+      },
+      "papers_count": 216
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-03T01:21:43.018222",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (trends)",
+      "result_preview": "Generated insights from 216 papers",
+      "details": {
+        "analysis_type": "trends"
+      },
+      "papers_count": 216
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-03T01:21:43.884391",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (authors)",
+      "result_preview": "Generated insights from 216 papers",
+      "details": {
+        "analysis_type": "authors"
+      },
+      "papers_count": 216
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-03T01:21:44.795214",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (venues)",
+      "result_preview": "Generated insights from 216 papers",
+      "details": {
+        "analysis_type": "venues"
+      },
+      "papers_count": 216
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-03T01:21:45.628598",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (summary)",
+      "result_preview": "Generated insights from 216 papers",
+      "details": {
+        "analysis_type": "summary"
+      },
+      "papers_count": 216
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-03T01:22:03.244512",
+      "agent": "export_agent",
+      "action": "Exporting papers (json)",
+      "result_preview": "Exported 216 papers",
+      "details": {
+        "format": "json",
+        "filename": "video_diffusion_acceleration"
+      },
+      "papers_count": 216
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-03T01:22:05.011630",
+      "agent": "export_agent",
+      "action": "Exporting papers (markdown)",
+      "result_preview": "Exported 216 papers",
+      "details": {
+        "format": "markdown",
+        "filename": "video_diffusion_acceleration_findings"
+      },
+      "papers_count": 216
+    }
+  ],
+  "current_step": 14,
+  "metadata": {
+    "query": "video diffusion models parallel processing",
+    "total_steps": 14,
+    "last_updated": "2026-01-03T01:22:05.055671",
+    "started_at": "2026-01-03T01:19:55.659540",
+    "total_papers": 216
+  }
+}

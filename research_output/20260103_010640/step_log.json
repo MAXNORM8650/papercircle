@@ -1,0 +1,460 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T01:06:49.636321",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 134 papers",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "sources": null,
+        "papers_found": 134,
+        "papers_added": 134,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 134
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T01:06:58.198961",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 41,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 175
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T01:07:01.970304",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 199 papers",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 199,
+        "papers_added": 89,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 264
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T01:07:05.466731",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 75 papers",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "sources": [
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 75,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 264
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T01:07:22.237690",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 264
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-03T01:07:31.116289",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 7,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 271
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-03T01:07:38.737717",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Joint Embedding Predictive Architecture technical details methodology'",
+      "result_preview": "Found 40 papers",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture technical details methodology",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 40,
+        "papers_added": 11,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 282
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-03T01:07:45.268603",
+      "agent": "online_search_agent",
+      "action": "Online search: 'JEPA architecture technical details'",
+      "result_preview": "Found 15 papers",
+      "details": {
+        "query": "JEPA architecture technical details",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 15,
+        "papers_added": 6,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 288
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-03T01:08:09.522014",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 3,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 291
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-03T01:08:17.490411",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 291
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-03T01:08:20.243383",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Joint Embedding Predictive Architecture computer vision'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture computer vision",
+        "conferences": [
+          "cvpr",
+          "iccv",
+          "eccv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 41,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 332
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-03T01:08:27.917174",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'representation learning Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "representation learning Joint Embedding Predictive Architecture",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 24,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 356
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-03T01:08:30.913135",
+      "agent": "online_search_agent",
+      "action": "Online search: 'JEPA'",
+      "result_preview": "Found 129 papers",
+      "details": {
+        "query": "JEPA",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 129,
+        "papers_added": 51,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 407
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-03T01:08:48.265934",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'JEPA architecture Vision Transformer masking strategies predictive loss functions'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "JEPA architecture Vision Transformer masking strategies predictive loss functions",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 40,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 447
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-03T01:08:55.726993",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'JEPA architecture Vision Transformer components'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "JEPA architecture Vision Transformer components",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 38,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 485
+    },
+    {
+      "step": 16,
+      "timestamp": "2026-01-03T01:09:03.124863",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'JEPA architecture masking strategies'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "JEPA architecture masking strategies",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 34,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 519
+    },
+    {
+      "step": 17,
+      "timestamp": "2026-01-03T01:09:11.446443",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'JEPA architecture predictive loss functions'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "JEPA architecture predictive loss functions",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 27,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 546
+    },
+    {
+      "step": 18,
+      "timestamp": "2026-01-03T01:09:17.996554",
+      "agent": "online_search_agent",
+      "action": "Online search: 'JEPA architecture technical specifications'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "JEPA architecture technical specifications",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 34,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 580
+    },
+    {
+      "step": 19,
+      "timestamp": "2026-01-03T01:09:40.455764",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 580
+    },
+    {
+      "step": 20,
+      "timestamp": "2026-01-03T01:09:49.101230",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Joint Embedding Predictive Architecture'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 580
+    },
+    {
+      "step": 21,
+      "timestamp": "2026-01-03T01:09:55.123283",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Joint Embedding Predictive Architecture original paper'",
+      "result_preview": "Found 10 papers",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture original paper",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 10,
+        "papers_added": 1,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 581
+    },
+    {
+      "step": 22,
+      "timestamp": "2026-01-03T01:10:02.492504",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Joint Embedding Predictive Architecture original paper'",
+      "result_preview": "Found 10 papers from local database",
+      "details": {
+        "query": "Joint Embedding Predictive Architecture original paper",
+        "conferences": null,
+        "start_year": 2020,
+        "end_year": 2023,
+        "papers_found": 10,
+        "papers_added": 6,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 587
+    },
+    {
+      "step": 23,
+      "timestamp": "2026-01-03T01:10:08.254517",
+      "agent": "online_search_agent",
+      "action": "Online search: 'JEPA foundational work'",
+      "result_preview": "Found 15 papers",
+      "details": {
+        "query": "JEPA foundational work",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 15,
+        "papers_added": 8,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 595
+    }
+  ],
+  "current_step": 23,
+  "metadata": {
+    "query": "JEPA foundational work",
+    "total_steps": 23,
+    "last_updated": "2026-01-03T01:10:08.303516",
+    "started_at": "2026-01-03T01:06:40.636804",
+    "total_papers": 595
+  }
+}

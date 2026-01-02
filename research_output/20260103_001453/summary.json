@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "abstract representation of world models",
+    "total_papers": 134,
+    "unique_sources": 5,
+    "year_range": {
+      "min": 1993,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 383,
+      "average": 8.1
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 57,
+    "papers_with_doi": 58,
+    "processing_steps": 5
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (7) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 7
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 61 papers (45%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 61
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Qiaoyi Fang has 2 papers in this collection",
+      "data": {
+        "author": "Qiaoyi Fang",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"A Survey of Methods for Low-Power Deep Learning and Computer Vision...\" has 100 citations",
+      "data": {
+        "title": "A Survey of Methods for Low-Power Deep Learning and Computer Vision",
+        "citations": 100
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: world, models, learning, representation, abstract",
+      "data": {
+        "keywords": {
+          "world": 38,
+          "models": 36,
+          "learning": 33,
+          "representation": 28,
+          "abstract": 23
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "57/134 papers (42%) have direct PDF links",
+      "data": {
+        "with_pdf": 57,
+        "total": 134
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 134 papers related to 'abstract representation of world models'",
+    "Papers collected from 5 sources: offline_iclr, offline_icml, offline_nips, semantic_scholar, arxiv",
+    "Publication years range from 1993 to 2026",
+    "Total citations: 383, Average: 8",
+    "Leading researchers: Qiaoyi Fang, Weiyu Du, Hang Wang"
+  ],
+  "metadata": {
+    "query": "abstract representation of world models",
+    "total_steps": 5,
+    "last_updated": "2026-01-03T00:15:53.111489",
+    "started_at": "2026-01-03T00:14:53.968096",
+    "total_papers": 134
+  }
+}

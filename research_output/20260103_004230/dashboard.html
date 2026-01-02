@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10">
+    <title>Research Dashboard: Manifold-Constrained Hyper-Connections mathematical rigor</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 20px; }
+        .container { max-width: 1600px; margin: 0 auto; }
+        header { text-align: center; padding: 20px; margin-bottom: 30px; }
+        header h1 { font-size: 2em; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .meta { color: #94a3b8; margin-top: 10px; font-size: 0.9em; }
+        .grid { display: grid; gap: 20px; }
+        .grid-4 { grid-template-columns: repeat(4, 1fr); }
+        .grid-2 { grid-template-columns: repeat(2, 1fr); }
+        .grid-3 { grid-template-columns: repeat(3, 1fr); }
+        .card { background: #1e293b; border-radius: 12px; padding: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        .stat-card { text-align: center; }
+        .stat-card .value { font-size: 2.5em; font-weight: bold; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .stat-card .label { color: #94a3b8; margin-top: 5px; }
+        .card h3 { color: #f1f5f9; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+        .step-log { max-height: 300px; overflow-y: auto; }
+        .step { padding: 10px; border-left: 3px solid #667eea; margin: 10px 0; background: #0f172a; border-radius: 0 8px 8px 0; }
+        .step .agent { color: #667eea; font-weight: bold; }
+        .step .time { color: #64748b; font-size: 0.8em; }
+        .leaderboard { max-height: 400px; overflow-y: auto; }
+        .leaderboard table { width: 100%; border-collapse: collapse; }
+        .leaderboard th { text-align: left; padding: 10px; color: #94a3b8; border-bottom: 1px solid #334155; position: sticky; top: 0; background: #1e293b; }
+        .leaderboard td { padding: 10px; border-bottom: 1px solid #334155; }
+        .leaderboard tr:hover { background: #334155; }
+        .rank { color: #fbbf24; font-weight: bold; }
+        .score { color: #34d399; }
+        .insights { display: grid; gap: 15px; }
+        .insight { padding: 15px; background: #0f172a; border-radius: 8px; border-left: 4px solid #667eea; }
+        .insight.trend { border-color: #34d399; }
+        .insight.citation { border-color: #fbbf24; }
+        .insight.author { border-color: #f472b6; }
+        .insight h4 { color: #f1f5f9; margin-bottom: 5px; }
+        .insight p { color: #94a3b8; }
+        .keywords { display: flex; flex-wrap: wrap; gap: 10px; }
+        .keyword { padding: 5px 12px; background: linear-gradient(135deg, #667eea33, #764ba233); border: 1px solid #667eea55; border-radius: 20px; font-size: 0.9em; }
+        .files { display: grid; gap: 10px; }
+        .file { display: flex; align-items: center; gap: 10px; padding: 10px; background: #0f172a; border-radius: 8px; }
+        .file-icon { font-size: 1.5em; }
+        .file-name { color: #f1f5f9; }
+        .file-size { color: #64748b; font-size: 0.8em; }
+        @media (max-width: 1200px) { .grid-4 { grid-template-columns: repeat(2, 1fr); } .grid-3 { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) { .grid-4, .grid-2 { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Research Dashboard</h1>
+            <div class="meta">
+                Query: <strong>Manifold-Constrained Hyper-Connections mathematical rigor</strong> | 
+                Step: <strong>32</strong> | 
+                Last Updated: <strong>2026-01-03 00:46:27</strong>
+                <br>Auto-refreshes every 10 seconds
+            </div>
+        </header>
+        
+        <div class="grid grid-4" style="margin-bottom: 20px;">
+            <div class="card stat-card">
+                <div class="value">440</div>
+                <div class="label">Total Papers</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">9</div>
+                <div class="label">Sources</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">797</div>
+                <div class="label">Total Citations</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">32</div>
+                <div class="label">Processing Steps</div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>📈 Publications Over Time</h3>
+                <canvas id="timelineChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>📊 Papers by Source</h3>
+                <canvas id="sourceChart"></canvas>
+            </div>
+        </div>
+        
+        <div class="grid grid-3" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>🏆 Paper Leaderboard</h3>
+                <div class="leaderboard">
+                    <table>
+                        <thead>
+                            <tr><th>#</th><th>Title</th><th>Year</th><th>Score</th><th>Cites</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="rank">1</td>
+                                <td>Hyper-Connections</td>
+                                <td>2025</td>
+                                <td class="score">0.63</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">2</td>
+                                <td>Value-Alignment via Safe Semantic Manifold-Constrained Latent Diffusion...</td>
+                                <td>2026</td>
+                                <td class="score">0.43</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">3</td>
+                                <td>ManiPose: Manifold-Constrained Multi-Hypothesis 3D Human Pose Estimation...</td>
+                                <td>2024</td>
+                                <td class="score">0.39</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">4</td>
+                                <td>MCNC: Manifold-Constrained Reparameterization for Neural Compression...</td>
+                                <td>2025</td>
+                                <td class="score">0.40</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">5</td>
+                                <td>Gradual Domain Adaptation via Manifold-Constrained Distributionally Robust Optimization...</td>
+                                <td>2024</td>
+                                <td class="score">0.38</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">6</td>
+                                <td>Derivative-Free Diffusion Manifold-Constrained Gradient for Unified XAI...</td>
+                                <td>2025</td>
+                                <td class="score">0.40</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">7</td>
+                                <td>Manifold-Constrained Gaussian Process Inference for One-shot Learning of Unknown Ordinary Differential Equations...</td>
+                                <td>2026</td>
+                                <td class="score">0.40</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">8</td>
+                                <td>CFG++: Manifold-constrained Classifier Free Guidance for Diffusion Models...</td>
+                                <td>2025</td>
+                                <td class="score">0.37</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">9</td>
+                                <td>STEMM: Self-learning with Speech-text Manifold Mixup for Speech Translation...</td>
+                                <td>2022</td>
+                                <td class="score">0.29</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">10</td>
+                                <td>Neural Architecture Search of SPD Manifold Networks...</td>
+                                <td>2021</td>
+                                <td class="score">0.26</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">11</td>
+                                <td>Pruning via Merging: Compressing LLMs via Manifold Alignment Based Layer Merging...</td>
+                                <td>2024</td>
+                                <td class="score">0.32</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">12</td>
+                                <td>From Standard Summarization to New Tasks and Beyond: Summarization with Manifold Information...</td>
+                                <td>2020</td>
+                                <td class="score">0.24</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">13</td>
+                                <td>MLS3RDUH: Deep Unsupervised Hashing via Manifold based Local Semantic Similarity Structure Reconstructing...</td>
+                                <td>2020</td>
+                                <td class="score">0.23</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">14</td>
+                                <td>Soul-Mix: Enhancing Multimodal Machine Translation with Manifold Mixup...</td>
+                                <td>2024</td>
+                                <td class="score">0.31</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">15</td>
+                                <td>A Grassmannian Manifold Self-Attention Network for Signal Classification...</td>
+                                <td>2024</td>
+                                <td class="score">0.32</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>💡 Insights</h3>
+                <div class="insights">
+                    <div class="insight trend">
+                        <h4>Publication Trend</h4>
+                        <p>Most papers (3) are from 2026</p>
+                    </div><div class="insight source">
+                        <h4>Primary Source</h4>
+                        <p>arxiv contributes 195 papers (44%)</p>
+                    </div><div class="insight author">
+                        <h4>Prolific Author</h4>
+                        <p>Yang Liu has 4 papers in this collection</p>
+                    </div><div class="insight citation">
+                        <h4>Most Cited Paper</h4>
+                        <p>"Gibbs Sampling from Human Feedback: A Provable KL- constrained Framework for RLHF..." has 65 citations</p>
+                    </div><div class="insight keywords">
+                        <h4>Hot Topics</h4>
+                        <p>Top keywords: constrained, learning, manifold, neural, optimization</p>
+                    </div><div class="insight availability">
+                        <h4>Open Access</h4>
+                        <p>353/440 papers (80%) have direct PDF links</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📝 Step Log</h3>
+                <div class="step-log">
+                    <div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (all)
+                        <div class="time">Step 32 - 00:46:27</div>
+                    </div><div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (trends)
+                        <div class="time">Step 31 - 00:46:24</div>
+                    </div><div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (authors)
+                        <div class="time">Step 30 - 00:46:21</div>
+                    </div><div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (topics)
+                        <div class="time">Step 29 - 00:46:20</div>
+                    </div><div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (summary)
+                        <div class="time">Step 28 - 00:46:17</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'Manifold-Constrained Hyper-Connections mathematical rigor'
+                        <div class="time">Step 27 - 00:45:50</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'Manifold-Constrained Hyper-Connections'
+                        <div class="time">Step 26 - 00:45:42</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'Manifold-Constrained Hyper-Connections mathematical formulations theoretical foundations core concepts'
+                        <div class="time">Step 25 - 00:45:33</div>
+                    </div><div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (all)
+                        <div class="time">Step 24 - 00:45:01</div>
+                    </div><div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (topics)
+                        <div class="time">Step 23 - 00:44:54</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <h3>🏷️ Top Keywords</h3>
+                <div class="keywords">
+                    <span class="keyword" style="font-size: 1.4em">constrained (63)</span><span class="keyword" style="font-size: 1.4em">learning (50)</span><span class="keyword" style="font-size: 1.4em">manifold (34)</span><span class="keyword" style="font-size: 1.4em">neural (25)</span><span class="keyword" style="font-size: 1.4em">optimization (24)</span><span class="keyword" style="font-size: 1.4em">quantum (23)</span><span class="keyword" style="font-size: 1.4em">models (22)</span><span class="keyword" style="font-size: 1.4em">time (21)</span><span class="keyword" style="font-size: 1.4em">networks (20)</span><span class="keyword" style="font-size: 1.4em">multi (19)</span><span class="keyword" style="font-size: 1.4em">generation (18)</span><span class="keyword" style="font-size: 1.4em">language (17)</span><span class="keyword" style="font-size: 1.4em">model (17)</span><span class="keyword" style="font-size: 1.4em">diffusion (16)</span><span class="keyword" style="font-size: 1.4em">manifolds (16)</span><span class="keyword" style="font-size: 1.4em">systems (16)</span><span class="keyword" style="font-size: 1.4em">connections (15)</span><span class="keyword" style="font-size: 1.4em">deep (15)</span><span class="keyword" style="font-size: 1.4em">machine (15)</span><span class="keyword" style="font-size: 1.4em">framework (15)</span><span class="keyword" style="font-size: 1.4em">dynamics (15)</span><span class="keyword" style="font-size: 1.4em">hyper (14)</span><span class="keyword" style="font-size: 1.4em">geometry (14)</span><span class="keyword" style="font-size: 1.4em">theory (14)</span><span class="keyword" style="font-size: 1.4em">unified (12)</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📁 Output Files</h3>
+                <div class="files">
+                    <div class="file"><span class="file-icon">📄</span><span class="file-name">papers.json</span><span class="file-size">Full paper data</span></div>
+                    <div class="file"><span class="file-icon">🔗</span><span class="file-name">links.json</span><span class="file-size">Structured links</span></div>
+                    <div class="file"><span class="file-icon">📊</span><span class="file-name">stats.json</span><span class="file-size">Statistics</span></div>
+                    <div class="file"><span class="file-icon">💡</span><span class="file-name">summary.json</span><span class="file-size">Insights</span></div>
+                    <div class="file"><span class="file-icon">📑</span><span class="file-name">papers.csv</span><span class="file-size">Spreadsheet</span></div>
+                    <div class="file"><span class="file-icon">📚</span><span class="file-name">papers.bib</span><span class="file-size">BibTeX</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        new Chart(document.getElementById('timelineChart'), {
+            type: 'bar',
+            data: {
+                labels: [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+                datasets: [{ label: 'Papers', data: [2, 25, 29, 32, 26, 35, 288, 3], backgroundColor: 'rgba(102, 126, 234, 0.8)', borderRadius: 5 }]
+            },
+            options: { responsive: true, plugins: { legend: { display: false } } }
+        });
+        
+        new Chart(document.getElementById('sourceChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['offline_iclr', 'offline_nips', 'offline_cvpr', 'offline_acl', 'offline_ijcai', 'offline_emnlp', 'semantic_scholar', 'openalex', 'arxiv'],
+                datasets: [{ data: [8, 7, 1, 17, 21, 12, 114, 65, 195], backgroundColor: ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#00f2fe'] }]
+            },
+            options: { responsive: true }
+        });
+    </script>
+</body>
+</html>

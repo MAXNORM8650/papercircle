@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "token efficiency in LLMs",
+    "total_papers": 10,
+    "unique_sources": 1,
+    "year_range": {
+      "min": 2024,
+      "max": 2025
+    },
+    "citation_summary": {
+      "total": 491,
+      "average": 49.1
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 1,
+    "papers_with_doi": 10,
+    "processing_steps": 10
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (1) are from 2025",
+      "data": {
+        "year": 2025,
+        "count": 1
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 10 papers (100%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 10
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Tingxu Han has 1 papers in this collection",
+      "data": {
+        "author": "Tingxu Han",
+        "count": 1
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Token-Budget-Aware LLM Reasoning...\" has 117 citations",
+      "data": {
+        "title": "Token-Budget-Aware LLM Reasoning",
+        "citations": 117
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: token, llms, level, budget, aware",
+      "data": {
+        "keywords": {
+          "token": 8,
+          "llms": 8,
+          "level": 3,
+          "budget": 1,
+          "aware": 1
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "1/10 papers (10%) have direct PDF links",
+      "data": {
+        "with_pdf": 1,
+        "total": 10
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 10 papers related to 'token efficiency in LLMs'",
+    "Papers collected from 1 sources: semantic_scholar",
+    "Publication years range from 2024 to 2025",
+    "Total citations: 491, Average: 49",
+    "Leading researchers: Tingxu Han, Zhenting Wang, Chunrong Fang"
+  ],
+  "metadata": {
+    "query": "token efficiency in LLMs",
+    "total_steps": 10,
+    "last_updated": "2026-01-02T17:06:02.371418",
+    "started_at": "2026-01-02T16:58:29.673689",
+    "total_papers": 10
+  }
+}

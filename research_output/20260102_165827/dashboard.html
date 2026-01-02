@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10">
+    <title>Research Dashboard: token efficiency in LLMs</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 20px; }
+        .container { max-width: 1600px; margin: 0 auto; }
+        header { text-align: center; padding: 20px; margin-bottom: 30px; }
+        header h1 { font-size: 2em; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .meta { color: #94a3b8; margin-top: 10px; font-size: 0.9em; }
+        .grid { display: grid; gap: 20px; }
+        .grid-4 { grid-template-columns: repeat(4, 1fr); }
+        .grid-2 { grid-template-columns: repeat(2, 1fr); }
+        .grid-3 { grid-template-columns: repeat(3, 1fr); }
+        .card { background: #1e293b; border-radius: 12px; padding: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        .stat-card { text-align: center; }
+        .stat-card .value { font-size: 2.5em; font-weight: bold; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .stat-card .label { color: #94a3b8; margin-top: 5px; }
+        .card h3 { color: #f1f5f9; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+        .step-log { max-height: 300px; overflow-y: auto; }
+        .step { padding: 10px; border-left: 3px solid #667eea; margin: 10px 0; background: #0f172a; border-radius: 0 8px 8px 0; }
+        .step .agent { color: #667eea; font-weight: bold; }
+        .step .time { color: #64748b; font-size: 0.8em; }
+        .leaderboard { max-height: 400px; overflow-y: auto; }
+        .leaderboard table { width: 100%; border-collapse: collapse; }
+        .leaderboard th { text-align: left; padding: 10px; color: #94a3b8; border-bottom: 1px solid #334155; position: sticky; top: 0; background: #1e293b; }
+        .leaderboard td { padding: 10px; border-bottom: 1px solid #334155; }
+        .leaderboard tr:hover { background: #334155; }
+        .rank { color: #fbbf24; font-weight: bold; }
+        .score { color: #34d399; }
+        .insights { display: grid; gap: 15px; }
+        .insight { padding: 15px; background: #0f172a; border-radius: 8px; border-left: 4px solid #667eea; }
+        .insight.trend { border-color: #34d399; }
+        .insight.citation { border-color: #fbbf24; }
+        .insight.author { border-color: #f472b6; }
+        .insight h4 { color: #f1f5f9; margin-bottom: 5px; }
+        .insight p { color: #94a3b8; }
+        .keywords { display: flex; flex-wrap: wrap; gap: 10px; }
+        .keyword { padding: 5px 12px; background: linear-gradient(135deg, #667eea33, #764ba233); border: 1px solid #667eea55; border-radius: 20px; font-size: 0.9em; }
+        .files { display: grid; gap: 10px; }
+        .file { display: flex; align-items: center; gap: 10px; padding: 10px; background: #0f172a; border-radius: 8px; }
+        .file-icon { font-size: 1.5em; }
+        .file-name { color: #f1f5f9; }
+        .file-size { color: #64748b; font-size: 0.8em; }
+        @media (max-width: 1200px) { .grid-4 { grid-template-columns: repeat(2, 1fr); } .grid-3 { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) { .grid-4, .grid-2 { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Research Dashboard</h1>
+            <div class="meta">
+                Query: <strong>token efficiency in LLMs</strong> | 
+                Step: <strong>10</strong> | 
+                Last Updated: <strong>2026-01-02 17:06:02</strong>
+                <br>Auto-refreshes every 10 seconds
+            </div>
+        </header>
+        
+        <div class="grid grid-4" style="margin-bottom: 20px;">
+            <div class="card stat-card">
+                <div class="value">10</div>
+                <div class="label">Total Papers</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">1</div>
+                <div class="label">Sources</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">491</div>
+                <div class="label">Total Citations</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">10</div>
+                <div class="label">Processing Steps</div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>📈 Publications Over Time</h3>
+                <canvas id="timelineChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>📊 Papers by Source</h3>
+                <canvas id="sourceChart"></canvas>
+            </div>
+        </div>
+        
+        <div class="grid grid-3" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>🏆 Paper Leaderboard</h3>
+                <div class="leaderboard">
+                    <table>
+                        <thead>
+                            <tr><th>#</th><th>Title</th><th>Year</th><th>Score</th><th>Cites</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="rank">1</td>
+                                <td>Token-Budget-Aware LLM Reasoning</td>
+                                <td>2024</td>
+                                <td class="score">0.26</td>
+                                <td>117</td>
+                            </tr><tr>
+                                <td class="rank">2</td>
+                                <td>Token-level Direct Preference Optimization</td>
+                                <td>2024</td>
+                                <td class="score">0.25</td>
+                                <td>104</td>
+                            </tr><tr>
+                                <td class="rank">3</td>
+                                <td>How Well do LLMs Compress Their Own Chain-of-Thought? A Token Complexity Approach...</td>
+                                <td>2025</td>
+                                <td class="score">0.24</td>
+                                <td>61</td>
+                            </tr><tr>
+                                <td class="rank">4</td>
+                                <td>AIM: Adaptive Inference of Multi-Modal LLMs via Token Merging and Pruning...</td>
+                                <td>2024</td>
+                                <td class="score">0.23</td>
+                                <td>19</td>
+                            </tr><tr>
+                                <td class="rank">5</td>
+                                <td>Lockpicking LLMs: A Logit-Based Jailbreak Using Token-level Manipulation...</td>
+                                <td>2024</td>
+                                <td class="score">0.22</td>
+                                <td>18</td>
+                            </tr><tr>
+                                <td class="rank">6</td>
+                                <td>Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM...</td>
+                                <td>2024</td>
+                                <td class="score">0.22</td>
+                                <td>89</td>
+                            </tr><tr>
+                                <td class="rank">7</td>
+                                <td>Discovering the Gems in Early Layers: Accelerating Long-Context LLMs with 1000x Input Token Reduction...</td>
+                                <td>2024</td>
+                                <td class="score">0.20</td>
+                                <td>41</td>
+                            </tr><tr>
+                                <td class="rank">8</td>
+                                <td>Ada-K Routing: Boosting the Efficiency of MoE-based LLMs...</td>
+                                <td>2024</td>
+                                <td class="score">0.20</td>
+                                <td>8</td>
+                            </tr><tr>
+                                <td class="rank">9</td>
+                                <td>When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention...</td>
+                                <td>2024</td>
+                                <td class="score">0.20</td>
+                                <td>30</td>
+                            </tr><tr>
+                                <td class="rank">10</td>
+                                <td>Enhancing Character-Level Understanding in LLMs through Token Internal Structure Learning...</td>
+                                <td>2024</td>
+                                <td class="score">0.20</td>
+                                <td>4</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>💡 Insights</h3>
+                <div class="insights">
+                    <div class="insight trend">
+                        <h4>Publication Trend</h4>
+                        <p>Most papers (1) are from 2025</p>
+                    </div><div class="insight source">
+                        <h4>Primary Source</h4>
+                        <p>semantic_scholar contributes 10 papers (100%)</p>
+                    </div><div class="insight author">
+                        <h4>Prolific Author</h4>
+                        <p>Tingxu Han has 1 papers in this collection</p>
+                    </div><div class="insight citation">
+                        <h4>Most Cited Paper</h4>
+                        <p>"Token-Budget-Aware LLM Reasoning..." has 117 citations</p>
+                    </div><div class="insight keywords">
+                        <h4>Hot Topics</h4>
+                        <p>Top keywords: token, llms, level, budget, aware</p>
+                    </div><div class="insight availability">
+                        <h4>Open Access</h4>
+                        <p>1/10 papers (10%) have direct PDF links</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📝 Step Log</h3>
+                <div class="step-log">
+                    <div class="step">
+                        <span class="agent">export_agent</span>: Exporting papers (json)
+                        <div class="time">Step 10 - 17:06:02</div>
+                    </div><div class="step">
+                        <span class="agent">sorting_agent</span>: Sorted 10 papers by 'relevance'
+                        <div class="time">Step 9 - 17:03:23</div>
+                    </div><div class="step">
+                        <span class="agent">sorting_agent</span>: Sorted 10 papers by 'relevance'
+                        <div class="time">Step 8 - 17:03:03</div>
+                    </div><div class="step">
+                        <span class="agent">sorting_agent</span>: Sorted 10 papers by 'combined'
+                        <div class="time">Step 7 - 17:02:44</div>
+                    </div><div class="step">
+                        <span class="agent">sorting_agent</span>: Sorted 10 papers by 'bm25'
+                        <div class="time">Step 6 - 17:02:30</div>
+                    </div><div class="step">
+                        <span class="agent">sorting_agent</span>: Sorted 10 papers by 'novelty'
+                        <div class="time">Step 5 - 17:02:01</div>
+                    </div><div class="step">
+                        <span class="agent">sorting_agent</span>: Sorted 10 papers by 'citations'
+                        <div class="time">Step 4 - 17:01:49</div>
+                    </div><div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (all)
+                        <div class="time">Step 3 - 17:01:02</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'token efficiency in LLMs'
+                        <div class="time">Step 2 - 16:59:13</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'token efficiency in LLMs'
+                        <div class="time">Step 1 - 16:59:03</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <h3>🏷️ Top Keywords</h3>
+                <div class="keywords">
+                    <span class="keyword" style="font-size: 1.4em">token (8)</span><span class="keyword" style="font-size: 1.4em">llms (8)</span><span class="keyword" style="font-size: 1.1em">level (3)</span><span class="keyword" style="font-size: 0.9em">budget (1)</span><span class="keyword" style="font-size: 0.9em">aware (1)</span><span class="keyword" style="font-size: 0.9em">reasoning (1)</span><span class="keyword" style="font-size: 0.9em">direct (1)</span><span class="keyword" style="font-size: 0.9em">preference (1)</span><span class="keyword" style="font-size: 0.9em">optimization (1)</span><span class="keyword" style="font-size: 0.9em">well (1)</span><span class="keyword" style="font-size: 0.9em">compress (1)</span><span class="keyword" style="font-size: 0.9em">their (1)</span><span class="keyword" style="font-size: 0.9em">chain (1)</span><span class="keyword" style="font-size: 0.9em">thought (1)</span><span class="keyword" style="font-size: 0.9em">complexity (1)</span><span class="keyword" style="font-size: 0.9em">approach (1)</span><span class="keyword" style="font-size: 0.9em">adaptive (1)</span><span class="keyword" style="font-size: 0.9em">inference (1)</span><span class="keyword" style="font-size: 0.9em">multi (1)</span><span class="keyword" style="font-size: 0.9em">modal (1)</span><span class="keyword" style="font-size: 0.9em">merging (1)</span><span class="keyword" style="font-size: 0.9em">pruning (1)</span><span class="keyword" style="font-size: 0.9em">lockpicking (1)</span><span class="keyword" style="font-size: 0.9em">logit (1)</span><span class="keyword" style="font-size: 0.9em">jailbreak (1)</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📁 Output Files</h3>
+                <div class="files">
+                    <div class="file"><span class="file-icon">📄</span><span class="file-name">papers.json</span><span class="file-size">Full paper data</span></div>
+                    <div class="file"><span class="file-icon">🔗</span><span class="file-name">links.json</span><span class="file-size">Structured links</span></div>
+                    <div class="file"><span class="file-icon">📊</span><span class="file-name">stats.json</span><span class="file-size">Statistics</span></div>
+                    <div class="file"><span class="file-icon">💡</span><span class="file-name">summary.json</span><span class="file-size">Insights</span></div>
+                    <div class="file"><span class="file-icon">📑</span><span class="file-name">papers.csv</span><span class="file-size">Spreadsheet</span></div>
+                    <div class="file"><span class="file-icon">📚</span><span class="file-name">papers.bib</span><span class="file-size">BibTeX</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        new Chart(document.getElementById('timelineChart'), {
+            type: 'bar',
+            data: {
+                labels: [2024, 2025],
+                datasets: [{ label: 'Papers', data: [9, 1], backgroundColor: 'rgba(102, 126, 234, 0.8)', borderRadius: 5 }]
+            },
+            options: { responsive: true, plugins: { legend: { display: false } } }
+        });
+        
+        new Chart(document.getElementById('sourceChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['semantic_scholar'],
+                datasets: [{ data: [10], backgroundColor: ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#00f2fe'] }]
+            },
+            options: { responsive: true }
+        });
+    </script>
+</body>
+</html>

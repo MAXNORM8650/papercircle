@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "video diffusion models parallel processing",
+    "total_papers": 216,
+    "unique_sources": 5,
+    "year_range": {
+      "min": 1990,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 6265,
+      "average": 142.4
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 80,
+    "papers_with_doi": 46,
+    "processing_steps": 14
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (68) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 68
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 96 papers (44%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 96
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Ziwei Liu has 4 papers in this collection",
+      "data": {
+        "author": "Ziwei Liu",
+        "count": 4
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Video Diffusion Models...\" has 2179 citations",
+      "data": {
+        "title": "Video Diffusion Models",
+        "citations": 2179
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: diffusion, video, models, generation, parallel",
+      "data": {
+        "keywords": {
+          "diffusion": 128,
+          "video": 119,
+          "models": 60,
+          "generation": 43,
+          "parallel": 26
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "80/216 papers (37%) have direct PDF links",
+      "data": {
+        "with_pdf": 80,
+        "total": 216
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 216 papers related to 'video diffusion models parallel processing'",
+    "Papers collected from 5 sources: semantic_scholar, offline_iclr, offline_nips, offline_cvpr, arxiv",
+    "Publication years range from 1990 to 2026",
+    "Total citations: 6265, Average: 142",
+    "Leading researchers: Ziwei Liu, Yanzhi Wang, Jong Chul Ye"
+  ],
+  "metadata": {
+    "query": "video diffusion models parallel processing",
+    "total_steps": 14,
+    "last_updated": "2026-01-03T01:22:05.053318",
+    "started_at": "2026-01-03T01:19:55.659540",
+    "total_papers": 216
+  },
+  "is_complete": true
+}

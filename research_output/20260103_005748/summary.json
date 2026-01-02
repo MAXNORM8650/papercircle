@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "Manifold-Constrained Hyper-Connections",
+    "total_papers": 227,
+    "unique_sources": 7,
+    "year_range": {
+      "min": 2019,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 413,
+      "average": 7.1
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 169,
+    "papers_with_doi": 98,
+    "processing_steps": 11
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (3) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 3
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 95 papers (41%)",
+      "data": {
+        "source": "arxiv",
+        "count": 95
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Hyungjin Chung has 3 papers in this collection",
+      "data": {
+        "author": "Hyungjin Chung",
+        "count": 3
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Hyper-Graph Regularized Constrained NMF for Selecting Differentially Expressed Genes and Tumor Classification...\" has 46 citations",
+      "data": {
+        "title": "Hyper-Graph Regularized Constrained NMF for Selecting Differentially Expressed Genes and Tumor Classification",
+        "citations": 46
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: manifold, learning, constrained, quantum, optimization",
+      "data": {
+        "keywords": {
+          "manifold": 28,
+          "learning": 27,
+          "constrained": 26,
+          "quantum": 17,
+          "optimization": 16
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "169/227 papers (74%) have direct PDF links",
+      "data": {
+        "with_pdf": 169,
+        "total": 227
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 227 papers related to 'Manifold-Constrained Hyper-Connections'",
+    "Papers collected from 7 sources: semantic_scholar, openalex, offline_iclr, offline_cvpr, offline_nips, arxiv, offline_rss",
+    "Publication years range from 2019 to 2026",
+    "Total citations: 413, Average: 7",
+    "Leading researchers: Hyungjin Chung, Jong Chul Ye, Valerii Likhosherstov"
+  ],
+  "metadata": {
+    "query": "Manifold-Constrained Hyper-Connections",
+    "total_steps": 11,
+    "last_updated": "2026-01-03T00:59:08.698853",
+    "started_at": "2026-01-03T00:57:50.393887",
+    "total_papers": 227
+  }
+}

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10">
+    <title>Research Dashboard: video diffusion models parallel processing</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 20px; }
+        .container { max-width: 1600px; margin: 0 auto; }
+        header { text-align: center; padding: 20px; margin-bottom: 30px; }
+        header h1 { font-size: 2em; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .meta { color: #94a3b8; margin-top: 10px; font-size: 0.9em; }
+        .grid { display: grid; gap: 20px; }
+        .grid-4 { grid-template-columns: repeat(4, 1fr); }
+        .grid-2 { grid-template-columns: repeat(2, 1fr); }
+        .grid-3 { grid-template-columns: repeat(3, 1fr); }
+        .card { background: #1e293b; border-radius: 12px; padding: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        .stat-card { text-align: center; }
+        .stat-card .value { font-size: 2.5em; font-weight: bold; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .stat-card .label { color: #94a3b8; margin-top: 5px; }
+        .card h3 { color: #f1f5f9; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+        .step-log { max-height: 300px; overflow-y: auto; }
+        .step { padding: 10px; border-left: 3px solid #667eea; margin: 10px 0; background: #0f172a; border-radius: 0 8px 8px 0; }
+        .step .agent { color: #667eea; font-weight: bold; }
+        .step .time { color: #64748b; font-size: 0.8em; }
+        .leaderboard { max-height: 400px; overflow-y: auto; }
+        .leaderboard table { width: 100%; border-collapse: collapse; }
+        .leaderboard th { text-align: left; padding: 10px; color: #94a3b8; border-bottom: 1px solid #334155; position: sticky; top: 0; background: #1e293b; }
+        .leaderboard td { padding: 10px; border-bottom: 1px solid #334155; }
+        .leaderboard tr:hover { background: #334155; }
+        .rank { color: #fbbf24; font-weight: bold; }
+        .score { color: #34d399; }
+        .insights { display: grid; gap: 15px; }
+        .insight { padding: 15px; background: #0f172a; border-radius: 8px; border-left: 4px solid #667eea; }
+        .insight.trend { border-color: #34d399; }
+        .insight.citation { border-color: #fbbf24; }
+        .insight.author { border-color: #f472b6; }
+        .insight h4 { color: #f1f5f9; margin-bottom: 5px; }
+        .insight p { color: #94a3b8; }
+        .keywords { display: flex; flex-wrap: wrap; gap: 10px; }
+        .keyword { padding: 5px 12px; background: linear-gradient(135deg, #667eea33, #764ba233); border: 1px solid #667eea55; border-radius: 20px; font-size: 0.9em; }
+        .files { display: grid; gap: 10px; }
+        .file { display: flex; align-items: center; gap: 10px; padding: 10px; background: #0f172a; border-radius: 8px; }
+        .file-icon { font-size: 1.5em; }
+        .file-name { color: #f1f5f9; }
+        .file-size { color: #64748b; font-size: 0.8em; }
+        @media (max-width: 1200px) { .grid-4 { grid-template-columns: repeat(2, 1fr); } .grid-3 { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) { .grid-4, .grid-2 { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Research Dashboard</h1>
+            <div class="meta">
+                Query: <strong>video diffusion models parallel processing</strong> | 
+                Step: <strong>14</strong> | 
+                Last Updated: <strong>2026-01-03 01:22:05</strong>
+                <br>Auto-refreshes every 10 seconds
+            </div>
+        </header>
+        
+        <div class="grid grid-4" style="margin-bottom: 20px;">
+            <div class="card stat-card">
+                <div class="value">216</div>
+                <div class="label">Total Papers</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">5</div>
+                <div class="label">Sources</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">6265</div>
+                <div class="label">Total Citations</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">14</div>
+                <div class="label">Processing Steps</div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>📈 Publications Over Time</h3>
+                <canvas id="timelineChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>📊 Papers by Source</h3>
+                <canvas id="sourceChart"></canvas>
+            </div>
+        </div>
+        
+        <div class="grid grid-3" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>🏆 Paper Leaderboard</h3>
+                <div class="leaderboard">
+                    <table>
+                        <thead>
+                            <tr><th>#</th><th>Title</th><th>Year</th><th>Score</th><th>Cites</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="rank">1</td>
+                                <td>Video Diffusion Models</td>
+                                <td>2022</td>
+                                <td class="score">0.00</td>
+                                <td>2179</td>
+                            </tr><tr>
+                                <td class="rank">2</td>
+                                <td>CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>1244</td>
+                            </tr><tr>
+                                <td class="rank">3</td>
+                                <td>Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation...</td>
+                                <td>2022</td>
+                                <td class="score">0.00</td>
+                                <td>989</td>
+                            </tr><tr>
+                                <td class="rank">4</td>
+                                <td>SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>308</td>
+                            </tr><tr>
+                                <td class="rank">5</td>
+                                <td>Show-1: Marrying Pixel and Latent Diffusion Models for Text-to-Video Generation...</td>
+                                <td>2023</td>
+                                <td class="score">0.00</td>
+                                <td>286</td>
+                            </tr><tr>
+                                <td class="rank">6</td>
+                                <td>Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation...</td>
+                                <td>2023</td>
+                                <td class="score">0.00</td>
+                                <td>285</td>
+                            </tr><tr>
+                                <td class="rank">7</td>
+                                <td>Fast High-Resolution Image Synthesis with Latent Adversarial Diffusion Distillation...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>213</td>
+                            </tr><tr>
+                                <td class="rank">8</td>
+                                <td>FreeNoise: Tuning-Free Longer Video Diffusion via Noise Rescheduling...</td>
+                                <td>2023</td>
+                                <td class="score">0.00</td>
+                                <td>148</td>
+                            </tr><tr>
+                                <td class="rank">9</td>
+                                <td>Direct-a-Video: Customized Video Generation with User-Directed Camera Movement and Object Motion...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>134</td>
+                            </tr><tr>
+                                <td class="rank">10</td>
+                                <td>Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion...</td>
+                                <td>2025</td>
+                                <td class="score">0.00</td>
+                                <td>95</td>
+                            </tr><tr>
+                                <td class="rank">11</td>
+                                <td>UniAnimate: taming unified video diffusion models for consistent human image animation...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>75</td>
+                            </tr><tr>
+                                <td class="rank">12</td>
+                                <td>LN3DIFF++: Scalable Latent Neural Fields Diffusion for Speedy 3D Generation....</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>72</td>
+                            </tr><tr>
+                                <td class="rank">13</td>
+                                <td>Efficient Diffusion Models: A Comprehensive Survey from Principles to Practices...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>30</td>
+                            </tr><tr>
+                                <td class="rank">14</td>
+                                <td>InstantDrag: Improving Interactivity in Drag-based Image Editing...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>25</td>
+                            </tr><tr>
+                                <td class="rank">15</td>
+                                <td>Hierarchical Patch Diffusion Models for High-Resolution Video Generation...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>20</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>💡 Insights</h3>
+                <div class="insights">
+                    <div class="insight trend">
+                        <h4>Publication Trend</h4>
+                        <p>Most papers (68) are from 2026</p>
+                    </div><div class="insight source">
+                        <h4>Primary Source</h4>
+                        <p>offline_iclr contributes 96 papers (44%)</p>
+                    </div><div class="insight author">
+                        <h4>Prolific Author</h4>
+                        <p>Ziwei Liu has 4 papers in this collection</p>
+                    </div><div class="insight citation">
+                        <h4>Most Cited Paper</h4>
+                        <p>"Video Diffusion Models..." has 2179 citations</p>
+                    </div><div class="insight keywords">
+                        <h4>Hot Topics</h4>
+                        <p>Top keywords: diffusion, video, models, generation, parallel</p>
+                    </div><div class="insight availability">
+                        <h4>Open Access</h4>
+                        <p>80/216 papers (37%) have direct PDF links</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📝 Step Log</h3>
+                <div class="step-log">
+                    <div class="step">
+                        <span class="agent">export_agent</span>: Exporting papers (markdown)
+                        <div class="time">Step 14 - 01:22:05</div>
+                    </div><div class="step">
+                        <span class="agent">export_agent</span>: Exporting papers (json)
+                        <div class="time">Step 13 - 01:22:03</div>
+                    </div><div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (summary)
+                        <div class="time">Step 12 - 01:21:45</div>
+                    </div><div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (venues)
+                        <div class="time">Step 11 - 01:21:44</div>
+                    </div><div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (authors)
+                        <div class="time">Step 10 - 01:21:43</div>
+                    </div><div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (trends)
+                        <div class="time">Step 9 - 01:21:43</div>
+                    </div><div class="step">
+                        <span class="agent">analysis_agent</span>: Analyzing papers (topics)
+                        <div class="time">Step 8 - 01:21:42</div>
+                    </div><div class="step">
+                        <span class="agent">sorting_agent</span>: Sorted 216 papers by 'citations'
+                        <div class="time">Step 7 - 01:21:29</div>
+                    </div><div class="step">
+                        <span class="agent">sorting_agent</span>: Sorted 216 papers by 'recency'
+                        <div class="time">Step 6 - 01:21:28</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'video diffusion models parallel processing'
+                        <div class="time">Step 5 - 01:20:54</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <h3>🏷️ Top Keywords</h3>
+                <div class="keywords">
+                    <span class="keyword" style="font-size: 1.4em">diffusion (128)</span><span class="keyword" style="font-size: 1.4em">video (119)</span><span class="keyword" style="font-size: 1.4em">models (60)</span><span class="keyword" style="font-size: 1.4em">generation (43)</span><span class="keyword" style="font-size: 1.4em">parallel (26)</span><span class="keyword" style="font-size: 1.4em">model (25)</span><span class="keyword" style="font-size: 1.4em">world (22)</span><span class="keyword" style="font-size: 1.4em">efficient (20)</span><span class="keyword" style="font-size: 1.4em">acceleration (20)</span><span class="keyword" style="font-size: 1.4em">accelerating (19)</span><span class="keyword" style="font-size: 1.4em">aware (15)</span><span class="keyword" style="font-size: 1.4em">image (14)</span><span class="keyword" style="font-size: 1.4em">training (14)</span><span class="keyword" style="font-size: 1.4em">attention (14)</span><span class="keyword" style="font-size: 1.4em">free (12)</span><span class="keyword" style="font-size: 1.4em">text (11)</span><span class="keyword" style="font-size: 1.4em">transformer (11)</span><span class="keyword" style="font-size: 1.4em">fast (11)</span><span class="keyword" style="font-size: 1.4em">transformers (11)</span><span class="keyword" style="font-size: 1.4em">sparse (10)</span><span class="keyword" style="font-size: 1.4em">sampling (10)</span><span class="keyword" style="font-size: 1.4em">multi (9)</span><span class="keyword" style="font-size: 1.4em">time (9)</span><span class="keyword" style="font-size: 1.4em">latent (8)</span><span class="keyword" style="font-size: 1.4em">autoregressive (8)</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📁 Output Files</h3>
+                <div class="files">
+                    <div class="file"><span class="file-icon">📄</span><span class="file-name">papers.json</span><span class="file-size">Full paper data</span></div>
+                    <div class="file"><span class="file-icon">🔗</span><span class="file-name">links.json</span><span class="file-size">Structured links</span></div>
+                    <div class="file"><span class="file-icon">📊</span><span class="file-name">stats.json</span><span class="file-size">Statistics</span></div>
+                    <div class="file"><span class="file-icon">💡</span><span class="file-name">summary.json</span><span class="file-size">Insights</span></div>
+                    <div class="file"><span class="file-icon">📑</span><span class="file-name">papers.csv</span><span class="file-size">Spreadsheet</span></div>
+                    <div class="file"><span class="file-icon">📚</span><span class="file-name">papers.bib</span><span class="file-size">BibTeX</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        new Chart(document.getElementById('timelineChart'), {
+            type: 'bar',
+            data: {
+                labels: [1990, 2009, 2014, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026],
+                datasets: [{ label: 'Papers', data: [1, 1, 1, 1, 1, 1, 2, 4, 9, 36, 91, 68], backgroundColor: 'rgba(102, 126, 234, 0.8)', borderRadius: 5 }]
+            },
+            options: { responsive: true, plugins: { legend: { display: false } } }
+        });
+        
+        new Chart(document.getElementById('sourceChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['semantic_scholar', 'offline_iclr', 'offline_nips', 'offline_cvpr', 'arxiv'],
+                datasets: [{ data: [48, 96, 25, 19, 28], backgroundColor: ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#00f2fe'] }]
+            },
+            options: { responsive: true }
+        });
+    </script>
+</body>
+</html>

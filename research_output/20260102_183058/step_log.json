@@ -1,0 +1,486 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T18:31:30.379493",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training natural language processing survey review papers'",
+      "result_preview": "Found 100 papers",
+      "details": {
+        "query": "LLM post-training natural language processing survey review papers",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 100,
+        "papers_added": 100,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 100
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-02T18:31:43.379352",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLM post-training natural language processing survey review papers'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLM post-training natural language processing survey review papers",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": 2020,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 150
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-02T18:31:50.866348",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training survey review papers'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "LLM post-training survey review papers",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 19,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 169
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-02T18:32:04.810206",
+      "agent": "online_search_agent",
+      "action": "Online search: 'high citation survey review papers LLM post-training natural language processing peer-reviewed journals'",
+      "result_preview": "Found 94 papers",
+      "details": {
+        "query": "high citation survey review papers LLM post-training natural language processing peer-reviewed journals",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 94,
+        "papers_added": 57,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 226
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-02T18:32:07.160652",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'high citation survey review papers LLM post-training natural language processing peer-reviewed journals'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "high citation survey review papers LLM post-training natural language processing peer-reviewed journals",
+        "conferences": [
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling"
+        ],
+        "start_year": 2020,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 25,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 251
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-02T18:32:14.827023",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'transformers survey review papers'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "transformers survey review papers",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": 2020,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 46,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 297
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-02T18:32:35.538686",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training natural language processing survey review papers peer-reviewed journals'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "LLM post-training natural language processing survey review papers peer-reviewed journals",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 297
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-02T18:32:50.950326",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLM post-training natural language processing survey review papers peer-reviewed journals'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLM post-training natural language processing survey review papers peer-reviewed journals",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 2,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 299
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-02T18:32:58.393591",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training survey natural language processing'",
+      "result_preview": "Found 60 papers",
+      "details": {
+        "query": "LLM post-training survey natural language processing",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 60,
+        "papers_added": 25,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 324
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-02T18:33:08.366186",
+      "agent": "sorting_agent",
+      "action": "Sorted 10 papers by 'citations'",
+      "result_preview": "Top paper: A survey on large language model based autonomous ...",
+      "details": {
+        "sort_by": "citations",
+        "weights": null,
+        "top_k": 10
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-02T18:33:09.539878",
+      "agent": "sorting_agent",
+      "action": "Sorted 10 papers by 'relevance'",
+      "result_preview": "Top paper: A Survey on Large Language Models for Code Generat...",
+      "details": {
+        "sort_by": "relevance",
+        "weights": null,
+        "top_k": 10
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-02T18:33:33.165774",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM post-training natural language processing survey'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "LLM post-training natural language processing survey",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 49,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 59
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-02T18:33:41.938565",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLM post-training natural language processing survey'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLM post-training natural language processing survey",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 46,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 105
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-02T18:33:47.495434",
+      "agent": "online_search_agent",
+      "action": "Online search: 'large language model post-training survey natural language processing'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "large language model post-training survey natural language processing",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 50,
+        "papers_added": 36,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 141
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-02T18:33:54.873210",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'large language model post-training survey natural language processing'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "large language model post-training survey natural language processing",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp"
+        ],
+        "start_year": 2020,
+        "end_year": 2024,
+        "papers_found": 50,
+        "papers_added": 49,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 190
+    },
+    {
+      "step": 16,
+      "timestamp": "2026-01-02T18:34:06.227662",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (summary)",
+      "result_preview": "Generated insights from 190 papers",
+      "details": {
+        "analysis_type": "summary"
+      },
+      "papers_count": 190
+    },
+    {
+      "step": 17,
+      "timestamp": "2026-01-02T18:34:07.026166",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (trends)",
+      "result_preview": "Generated insights from 190 papers",
+      "details": {
+        "analysis_type": "trends"
+      },
+      "papers_count": 190
+    },
+    {
+      "step": 18,
+      "timestamp": "2026-01-02T18:34:07.846071",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (authors)",
+      "result_preview": "Generated insights from 190 papers",
+      "details": {
+        "analysis_type": "authors"
+      },
+      "papers_count": 190
+    },
+    {
+      "step": 19,
+      "timestamp": "2026-01-02T18:34:08.719799",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (venues)",
+      "result_preview": "Generated insights from 190 papers",
+      "details": {
+        "analysis_type": "venues"
+      },
+      "papers_count": 190
+    },
+    {
+      "step": 20,
+      "timestamp": "2026-01-02T18:34:09.606305",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (topics)",
+      "result_preview": "Generated insights from 190 papers",
+      "details": {
+        "analysis_type": "topics"
+      },
+      "papers_count": 190
+    },
+    {
+      "step": 21,
+      "timestamp": "2026-01-02T18:34:10.495130",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (all)",
+      "result_preview": "Generated insights from 190 papers",
+      "details": {
+        "analysis_type": "all"
+      },
+      "papers_count": 190
+    },
+    {
+      "step": 22,
+      "timestamp": "2026-01-02T18:34:35.326213",
+      "agent": "online_search_agent",
+      "action": "Online search: 'peer-reviewed journal papers survey review format LLM post-training natural language processing 2024-2026'",
+      "result_preview": "Found 30 papers",
+      "details": {
+        "query": "peer-reviewed journal papers survey review format LLM post-training natural language processing 2024-2026",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 30,
+        "papers_added": 8,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 198
+    },
+    {
+      "step": 23,
+      "timestamp": "2026-01-02T18:34:42.853414",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'peer-reviewed journal papers survey review format LLM post-training natural language processing 2024-2026'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "peer-reviewed journal papers survey review format LLM post-training natural language processing 2024-2026",
+        "conferences": [
+          "acl",
+          "emnlp",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "nips"
+        ],
+        "start_year": 2024,
+        "end_year": 2026,
+        "papers_found": 50,
+        "papers_added": 40,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 238
+    },
+    {
+      "step": 24,
+      "timestamp": "2026-01-02T18:34:46.753326",
+      "agent": "online_search_agent",
+      "action": "Online search: 'survey review format LLM post-training natural language processing'",
+      "result_preview": "Found 75 papers",
+      "details": {
+        "query": "survey review format LLM post-training natural language processing",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 75,
+        "papers_added": 43,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 281
+    }
+  ],
+  "current_step": 24,
+  "metadata": {
+    "query": "survey review format LLM post-training natural language processing",
+    "total_steps": 24,
+    "last_updated": "2026-01-02T18:34:46.766728",
+    "started_at": "2026-01-02T18:30:59.821281",
+    "total_papers": 281
+  }
+}
