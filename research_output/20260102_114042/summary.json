@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "AI world model framework",
+    "total_papers": 349,
+    "unique_sources": 21,
+    "year_range": {
+      "min": 2003,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 1109,
+      "average": 15.6
+    },
+    "top_source": "openalex",
+    "papers_with_pdf": 177,
+    "papers_with_doi": 175,
+    "processing_steps": 18
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (48) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 48
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "openalex contributes 96 papers (27%)",
+      "data": {
+        "source": "openalex",
+        "count": 96
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Shenlong Wang has 3 papers in this collection",
+      "data": {
+        "author": "Shenlong Wang",
+        "count": 3
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"TPTU: Task Planning and Tool Usage of Large Language Model-based AI Agents...\" has 164 citations",
+      "data": {
+        "title": "TPTU: Task Planning and Tool Usage of Large Language Model-based AI Agents",
+        "citations": 164
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: world, interactive, models, learning, model",
+      "data": {
+        "keywords": {
+          "world": 109,
+          "interactive": 67,
+          "models": 61,
+          "learning": 57,
+          "model": 53
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "177/349 papers (50%) have direct PDF links",
+      "data": {
+        "with_pdf": 177,
+        "total": 349
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 349 papers related to 'AI world model framework'",
+    "Papers collected from 21 sources: semantic_scholar, openalex, offline_nips, offline_iclr, offline_cvpr, offline_iccv, offline_acl, offline_corl, offline_icml, offline_icra, offline_siggraphasia, offline_siggraph, offline_aaai, offline_eccv, offline_emnlp, offline_ijcai, offline_coling, dblp, offline_iros, offline_rss, arxiv",
+    "Publication years range from 2003 to 2026",
+    "Total citations: 1109, Average: 15",
+    "Leading researchers: Shenlong Wang, Amir Hussain, D. Niyato"
+  ],
+  "metadata": {
+    "query": "AI world model framework",
+    "total_steps": 18,
+    "last_updated": "2026-01-02T11:45:37.502226",
+    "started_at": "2026-01-02T11:40:44.377884",
+    "total_papers": 349
+  }
+}

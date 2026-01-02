@@ -1,0 +1,27 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T11:20:27.013522",
+      "agent": "online_search_agent",
+      "action": "Online search: 'self-evolving LLMs multi-agent math questions single-step fast'",
+      "result_preview": "Found 51 papers",
+      "details": {
+        "query": "self-evolving LLMs multi-agent math questions single-step fast",
+        "sources": null,
+        "papers_found": 51,
+        "papers_added": 51,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 51
+    }
+  ],
+  "current_step": 1,
+  "metadata": {
+    "query": "self-evolving LLMs multi-agent math questions single-step fast",
+    "total_steps": 1,
+    "last_updated": "2026-01-02T11:20:27.024618",
+    "started_at": "2026-01-02T11:19:54.606866",
+    "total_papers": 51
+  }
+}

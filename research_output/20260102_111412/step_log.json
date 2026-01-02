@@ -1,0 +1,151 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T11:14:45.666496",
+      "agent": "online_search_agent",
+      "action": "Online search: 'self-evolving LLMs solving math problems using multi-agent systems'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "self-evolving LLMs solving math problems using multi-agent systems",
+        "sources": null,
+        "papers_found": 25,
+        "papers_added": 25,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 25
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-02T11:15:03.253291",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'self-evolving LLMs solving math problems using multi-agent systems'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "self-evolving LLMs solving math problems using multi-agent systems",
+        "conferences": null,
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 75
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-02T11:15:10.209118",
+      "agent": "online_search_agent",
+      "action": "Online search: 'self-evolving LLMs solving math problems using multi-agent systems'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "self-evolving LLMs solving math problems using multi-agent systems",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 75
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-02T11:16:32.995118",
+      "agent": "online_search_agent",
+      "action": "Online search: 'self-evolving LLMs solving math problems using multi-agent systems, single-step collaboration'",
+      "result_preview": "Found 30 papers",
+      "details": {
+        "query": "self-evolving LLMs solving math problems using multi-agent systems, single-step collaboration",
+        "sources": null,
+        "papers_found": 30,
+        "papers_added": 20,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 95
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-02T11:18:49.311563",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'self-evolving LLMs solving math problems using multi-agent systems'",
+      "result_preview": "Found 10 papers from local database",
+      "details": {
+        "query": "self-evolving LLMs solving math problems using multi-agent systems",
+        "conferences": [
+          "acl",
+          "emnlp",
+          "naacl",
+          "iclr",
+          "icml",
+          "cvpr",
+          "eccv",
+          "aaai",
+          "ijcai"
+        ],
+        "start_year": 2020,
+        "end_year": 2025,
+        "papers_found": 10,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 95
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-02T11:18:54.271408",
+      "agent": "online_search_agent",
+      "action": "Online search: 'self-evolving LLMs solving math problems using multi-agent systems'",
+      "result_preview": "Found 59 papers",
+      "details": {
+        "query": "self-evolving LLMs solving math problems using multi-agent systems",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 59,
+        "papers_added": 27,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 122
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-02T11:19:04.869984",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'self-evolving LLMs solving math problems using multi-agent systems'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "self-evolving LLMs solving math problems using multi-agent systems",
+        "conferences": [
+          "acl",
+          "emnlp",
+          "naacl",
+          "iclr",
+          "icml",
+          "cvpr",
+          "eccv",
+          "aaai",
+          "ijcai"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 7,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 129
+    }
+  ],
+  "current_step": 7,
+  "metadata": {
+    "query": "self-evolving LLMs solving math problems using multi-agent systems",
+    "total_steps": 7,
+    "last_updated": "2026-01-02T11:19:04.879176",
+    "started_at": "2026-01-02T11:14:12.263321",
+    "total_papers": 129
+  }
+}

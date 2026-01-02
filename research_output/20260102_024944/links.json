@@ -1,0 +1,645 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Accuracy of LLMs to retrieve numeric data for meta-analysis in dentistry",
+        "url": "https://openalex.org/W4416416033",
+        "pdf_url": "https://doi.org/10.1016/j.jdent.2025.106245",
+        "doi_url": "https://doi.org/10.1016/j.jdent.2025.106245",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "The Impact of Thermocycling on the Marginal Discrepancy of Zirconia CAD/CAM Generation on Central Incisors: An In Vitro Study",
+        "url": "https://openalex.org/W4414376362",
+        "pdf_url": "https://doi.org/10.5005/jp-journals-10005-3287",
+        "doi_url": "https://doi.org/10.5005/jp-journals-10005-3287",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Classifying Tooth Loss and Assessing Risk Factors in U.S. Adults: A Machine Learning Analysis of BRFSS 2022 Data",
+        "url": "https://openalex.org/W4414065602",
+        "pdf_url": "https://www.mdpi.com/2079-9292/14/17/3559/pdf?version=1757326927",
+        "doi_url": "https://doi.org/10.3390/electronics14173559",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Comparative Analysis of the Effects of Acidic and Alkaline Beverages on the Optical Properties, Surface Topography, and Bacterial Activity of Zirconia Materials",
+        "url": "https://openalex.org/W4414020590",
+        "pdf_url": "https://www.mdpi.com/2079-4983/16/9/329/pdf?version=1757064097",
+        "doi_url": "https://doi.org/10.3390/jfb16090329",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Finite element analysis of the influence of surface layer on frictional wear in a follow-up screw-rod kinematic node in GGS stabilization",
+        "url": "https://openalex.org/W4413895030",
+        "pdf_url": "https://www.nature.com/articles/s41598-025-16928-z.pdf",
+        "doi_url": "https://doi.org/10.1038/s41598-025-16928-z",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Mouth Breathing and Its Impact on Sleep Breathing Disorders in Children: A Cross-Sectional Study in Bandung, Indonesia",
+        "url": "https://openalex.org/W4413895670",
+        "pdf_url": "https://www.dovepress.com/article/download/106429",
+        "doi_url": "https://doi.org/10.2147/ccide.s536188",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Performance of large language models in fluoride-related dental knowledge: a comparative evaluation study of ChatGPT-4, Claude 3.5 Sonnet, Copilot, and Grok 3",
+        "url": "https://openalex.org/W4413923855",
+        "pdf_url": "https://www.e-jyms.org/upload/pdf/jyms-2025-42-53.pdf",
+        "doi_url": "https://doi.org/10.12701/jyms.2025.42.53",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "S M Nazmuz Sakib Formula on Immunological Resilience Model (Sakib-FIRM): A Dynamic Approach to Immune System Adaptability in Response to Pathogen Load and Cytokine Imbalance",
+        "url": "https://openalex.org/W4413489737",
+        "pdf_url": "https://medvixpublications.org/get/1-JMCCR20250915150I Galley Proof-1756101915.pdf",
+        "doi_url": "https://doi.org/10.61615/jmccr/2025/aug027140825",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "The Importance of Cone Beam Computed Tomography (CBCT) as a Modern and Essential Radiodiagnostic Techniquein the Evaluation of Odonto-Periodontal Pathology in Diabetic Patients",
+        "url": "https://openalex.org/W4413412016",
+        "pdf_url": "https://www.mdpi.com/2076-3417/15/17/9238/pdf?version=1755856082",
+        "doi_url": "https://doi.org/10.3390/app15179238",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Do DanGer-SHOCK-like patients benefit from VA-ECMO treatment in infarct-related cardiogenic shock? results of an individual patient data meta-analysis.",
+        "url": "https://www.semanticscholar.org/paper/28e75efb216bd65f41174d5bfc2400f8342850cd",
+        "pdf_url": "https://academic.oup.com/ehjacc/advance-article-pdf/doi/10.1093/ehjacc/zuae093/58970350/zuae093.pdf",
+        "doi_url": "https://doi.org/10.1093/ehjacc/zuae093",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Performance of ChatGPT-3.5 and GPT-4 in national licensing examinations for medicine, pharmacy, dentistry, and nursing: a systematic review and meta-analysis",
+        "url": "https://www.semanticscholar.org/paper/26db69e6e0dc12a704ede8d18e76f3c3746e5b6b",
+        "pdf_url": "https://doi.org/10.1186/s12909-024-05944-8",
+        "doi_url": "https://doi.org/10.1186/s12909-024-05944-8",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Is there a rise of prevalence for Molar Incisor Hypomineralization? A meta-analysis of published data",
+        "url": "https://www.semanticscholar.org/paper/bd4a4b165b9a21f5f79531ced82867c6431b7ea8",
+        "pdf_url": "https://bmcoralhealth.biomedcentral.com/counter/pdf/10.1186/s12903-023-03637-0",
+        "doi_url": "https://doi.org/10.1186/s12903-023-03637-0",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Do DAN-GER-SHOCK eligible patients benefit from VA-ECMO treatment in infarct-related cardiogenic shock ? Results of an individual patient data meta-analysis.",
+        "url": "https://www.semanticscholar.org/paper/63e72a615200fcb10eefb433641ee5fd48a4ab28",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1093/eurheartj/ehae666.1696",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Losartan in hospitalized patients with COVID-19 in North America: An individual participant data meta-analysis",
+        "url": "https://www.semanticscholar.org/paper/91c8523d9c6a8c7b2b773510fbf81877896c5654",
+        "pdf_url": "https://doi.org/10.1097/md.0000000000033904",
+        "doi_url": "https://doi.org/10.1097/MD.0000000000033904",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Individual Patient Data Meta-Analysis of Consensus Molecular Subtypes as Biomarkers of First-Line Treatment in RAS Wild-Type Metastatic Colorectal Cancer.",
+        "url": "https://www.semanticscholar.org/paper/b7d548ea3eecfffcd05c602025f592f1a95a3119",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1200/JCO-25-00596",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Calcium Silicate-Based Cements in Restorative Dentistry: Vital Pulp Therapy Clinical, Radiographic, and Histological Outcomes on Deciduous and Permanent Dentition—A Systematic Review and Meta-Analysis",
+        "url": "https://www.semanticscholar.org/paper/1f9099ee5475fbf3e41d8932853cf542e968cb4e",
+        "pdf_url": "https://doi.org/10.3390/ma17174264",
+        "doi_url": "https://doi.org/10.3390/ma17174264",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "The effect of virtual reality for anxiety and pain in dentistry: A systematic review and meta-analysis",
+        "url": "https://www.semanticscholar.org/paper/f4e215de47b589771da44e2ce5475b8b1199e443",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1922/CDH_00160Nezhad08",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Hydroxychloroquine/chloroquine for the treatment of hospitalized patients with COVID-19: An individual participant data meta-analysis",
+        "url": "https://www.semanticscholar.org/paper/af977dbe6553102c0e2324f5d709881cac90dabd",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0273526&type=printable",
+        "doi_url": "https://doi.org/10.1371/journal.pone.0273526",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "url": "http://arxiv.org/abs/2512.25075v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "url": "http://arxiv.org/abs/2512.25074v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "url": "http://arxiv.org/abs/2512.25073v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "url": "http://arxiv.org/abs/2512.25072v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "url": "http://arxiv.org/abs/2512.25070v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+        "url": "http://arxiv.org/abs/2512.25069v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25069v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+        "url": "http://arxiv.org/abs/2512.25068v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25068v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "url": "http://arxiv.org/abs/2512.25067v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "url": "http://arxiv.org/abs/2512.25066v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "url": "http://arxiv.org/abs/2512.25064v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "openalex": [
+        {
+          "title": "Accuracy of LLMs to retrieve numeric data for meta-analysis in dentistry",
+          "url": "https://openalex.org/W4416416033",
+          "pdf_url": "https://doi.org/10.1016/j.jdent.2025.106245",
+          "doi_url": "https://doi.org/10.1016/j.jdent.2025.106245",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "The Impact of Thermocycling on the Marginal Discrepancy of Zirconia CAD/CAM Generation on Central Incisors: An In Vitro Study",
+          "url": "https://openalex.org/W4414376362",
+          "pdf_url": "https://doi.org/10.5005/jp-journals-10005-3287",
+          "doi_url": "https://doi.org/10.5005/jp-journals-10005-3287",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Classifying Tooth Loss and Assessing Risk Factors in U.S. Adults: A Machine Learning Analysis of BRFSS 2022 Data",
+          "url": "https://openalex.org/W4414065602",
+          "pdf_url": "https://www.mdpi.com/2079-9292/14/17/3559/pdf?version=1757326927",
+          "doi_url": "https://doi.org/10.3390/electronics14173559",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Comparative Analysis of the Effects of Acidic and Alkaline Beverages on the Optical Properties, Surface Topography, and Bacterial Activity of Zirconia Materials",
+          "url": "https://openalex.org/W4414020590",
+          "pdf_url": "https://www.mdpi.com/2079-4983/16/9/329/pdf?version=1757064097",
+          "doi_url": "https://doi.org/10.3390/jfb16090329",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Finite element analysis of the influence of surface layer on frictional wear in a follow-up screw-rod kinematic node in GGS stabilization",
+          "url": "https://openalex.org/W4413895030",
+          "pdf_url": "https://www.nature.com/articles/s41598-025-16928-z.pdf",
+          "doi_url": "https://doi.org/10.1038/s41598-025-16928-z",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Mouth Breathing and Its Impact on Sleep Breathing Disorders in Children: A Cross-Sectional Study in Bandung, Indonesia",
+          "url": "https://openalex.org/W4413895670",
+          "pdf_url": "https://www.dovepress.com/article/download/106429",
+          "doi_url": "https://doi.org/10.2147/ccide.s536188",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Performance of large language models in fluoride-related dental knowledge: a comparative evaluation study of ChatGPT-4, Claude 3.5 Sonnet, Copilot, and Grok 3",
+          "url": "https://openalex.org/W4413923855",
+          "pdf_url": "https://www.e-jyms.org/upload/pdf/jyms-2025-42-53.pdf",
+          "doi_url": "https://doi.org/10.12701/jyms.2025.42.53",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "S M Nazmuz Sakib Formula on Immunological Resilience Model (Sakib-FIRM): A Dynamic Approach to Immune System Adaptability in Response to Pathogen Load and Cytokine Imbalance",
+          "url": "https://openalex.org/W4413489737",
+          "pdf_url": "https://medvixpublications.org/get/1-JMCCR20250915150I Galley Proof-1756101915.pdf",
+          "doi_url": "https://doi.org/10.61615/jmccr/2025/aug027140825",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "The Importance of Cone Beam Computed Tomography (CBCT) as a Modern and Essential Radiodiagnostic Techniquein the Evaluation of Odonto-Periodontal Pathology in Diabetic Patients",
+          "url": "https://openalex.org/W4413412016",
+          "pdf_url": "https://www.mdpi.com/2076-3417/15/17/9238/pdf?version=1755856082",
+          "doi_url": "https://doi.org/10.3390/app15179238",
+          "source": "openalex",
+          "year": 2025
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "Do DanGer-SHOCK-like patients benefit from VA-ECMO treatment in infarct-related cardiogenic shock? results of an individual patient data meta-analysis.",
+          "url": "https://www.semanticscholar.org/paper/28e75efb216bd65f41174d5bfc2400f8342850cd",
+          "pdf_url": "https://academic.oup.com/ehjacc/advance-article-pdf/doi/10.1093/ehjacc/zuae093/58970350/zuae093.pdf",
+          "doi_url": "https://doi.org/10.1093/ehjacc/zuae093",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Performance of ChatGPT-3.5 and GPT-4 in national licensing examinations for medicine, pharmacy, dentistry, and nursing: a systematic review and meta-analysis",
+          "url": "https://www.semanticscholar.org/paper/26db69e6e0dc12a704ede8d18e76f3c3746e5b6b",
+          "pdf_url": "https://doi.org/10.1186/s12909-024-05944-8",
+          "doi_url": "https://doi.org/10.1186/s12909-024-05944-8",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Is there a rise of prevalence for Molar Incisor Hypomineralization? A meta-analysis of published data",
+          "url": "https://www.semanticscholar.org/paper/bd4a4b165b9a21f5f79531ced82867c6431b7ea8",
+          "pdf_url": "https://bmcoralhealth.biomedcentral.com/counter/pdf/10.1186/s12903-023-03637-0",
+          "doi_url": "https://doi.org/10.1186/s12903-023-03637-0",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Do DAN-GER-SHOCK eligible patients benefit from VA-ECMO treatment in infarct-related cardiogenic shock ? Results of an individual patient data meta-analysis.",
+          "url": "https://www.semanticscholar.org/paper/63e72a615200fcb10eefb433641ee5fd48a4ab28",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1093/eurheartj/ehae666.1696",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Losartan in hospitalized patients with COVID-19 in North America: An individual participant data meta-analysis",
+          "url": "https://www.semanticscholar.org/paper/91c8523d9c6a8c7b2b773510fbf81877896c5654",
+          "pdf_url": "https://doi.org/10.1097/md.0000000000033904",
+          "doi_url": "https://doi.org/10.1097/MD.0000000000033904",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Individual Patient Data Meta-Analysis of Consensus Molecular Subtypes as Biomarkers of First-Line Treatment in RAS Wild-Type Metastatic Colorectal Cancer.",
+          "url": "https://www.semanticscholar.org/paper/b7d548ea3eecfffcd05c602025f592f1a95a3119",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1200/JCO-25-00596",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Calcium Silicate-Based Cements in Restorative Dentistry: Vital Pulp Therapy Clinical, Radiographic, and Histological Outcomes on Deciduous and Permanent Dentition—A Systematic Review and Meta-Analysis",
+          "url": "https://www.semanticscholar.org/paper/1f9099ee5475fbf3e41d8932853cf542e968cb4e",
+          "pdf_url": "https://doi.org/10.3390/ma17174264",
+          "doi_url": "https://doi.org/10.3390/ma17174264",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "The effect of virtual reality for anxiety and pain in dentistry: A systematic review and meta-analysis",
+          "url": "https://www.semanticscholar.org/paper/f4e215de47b589771da44e2ce5475b8b1199e443",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1922/CDH_00160Nezhad08",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Hydroxychloroquine/chloroquine for the treatment of hospitalized patients with COVID-19: An individual participant data meta-analysis",
+          "url": "https://www.semanticscholar.org/paper/af977dbe6553102c0e2324f5d709881cac90dabd",
+          "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0273526&type=printable",
+          "doi_url": "https://doi.org/10.1371/journal.pone.0273526",
+          "source": "semantic_scholar",
+          "year": 2022
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+          "url": "http://arxiv.org/abs/2512.25075v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+          "url": "http://arxiv.org/abs/2512.25074v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+          "url": "http://arxiv.org/abs/2512.25073v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Coordinated Humanoid Manipulation with Choice Policies",
+          "url": "http://arxiv.org/abs/2512.25072v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Scaling Open-Ended Reasoning to Predict the Future",
+          "url": "http://arxiv.org/abs/2512.25070v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+          "url": "http://arxiv.org/abs/2512.25069v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25069v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+          "url": "http://arxiv.org/abs/2512.25068v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25068v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+          "url": "http://arxiv.org/abs/2512.25067v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+          "url": "http://arxiv.org/abs/2512.25066v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+          "url": "http://arxiv.org/abs/2512.25064v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Accuracy of LLMs to retrieve numeric data for meta-analysis in dentistry",
+        "pdf": "https://doi.org/10.1016/j.jdent.2025.106245"
+      },
+      {
+        "title": "The Impact of Thermocycling on the Marginal Discrepancy of Zirconia CAD/CAM Generation on Central Incisors: An In Vitro Study",
+        "pdf": "https://doi.org/10.5005/jp-journals-10005-3287"
+      },
+      {
+        "title": "Classifying Tooth Loss and Assessing Risk Factors in U.S. Adults: A Machine Learning Analysis of BRFSS 2022 Data",
+        "pdf": "https://www.mdpi.com/2079-9292/14/17/3559/pdf?version=1757326927"
+      },
+      {
+        "title": "Comparative Analysis of the Effects of Acidic and Alkaline Beverages on the Optical Properties, Surface Topography, and Bacterial Activity of Zirconia Materials",
+        "pdf": "https://www.mdpi.com/2079-4983/16/9/329/pdf?version=1757064097"
+      },
+      {
+        "title": "Finite element analysis of the influence of surface layer on frictional wear in a follow-up screw-rod kinematic node in GGS stabilization",
+        "pdf": "https://www.nature.com/articles/s41598-025-16928-z.pdf"
+      },
+      {
+        "title": "Mouth Breathing and Its Impact on Sleep Breathing Disorders in Children: A Cross-Sectional Study in Bandung, Indonesia",
+        "pdf": "https://www.dovepress.com/article/download/106429"
+      },
+      {
+        "title": "Performance of large language models in fluoride-related dental knowledge: a comparative evaluation study of ChatGPT-4, Claude 3.5 Sonnet, Copilot, and Grok 3",
+        "pdf": "https://www.e-jyms.org/upload/pdf/jyms-2025-42-53.pdf"
+      },
+      {
+        "title": "S M Nazmuz Sakib Formula on Immunological Resilience Model (Sakib-FIRM): A Dynamic Approach to Immune System Adaptability in Response to Pathogen Load and Cytokine Imbalance",
+        "pdf": "https://medvixpublications.org/get/1-JMCCR20250915150I Galley Proof-1756101915.pdf"
+      },
+      {
+        "title": "The Importance of Cone Beam Computed Tomography (CBCT) as a Modern and Essential Radiodiagnostic Techniquein the Evaluation of Odonto-Periodontal Pathology in Diabetic Patients",
+        "pdf": "https://www.mdpi.com/2076-3417/15/17/9238/pdf?version=1755856082"
+      },
+      {
+        "title": "Do DanGer-SHOCK-like patients benefit from VA-ECMO treatment in infarct-related cardiogenic shock? results of an individual patient data meta-analysis.",
+        "pdf": "https://academic.oup.com/ehjacc/advance-article-pdf/doi/10.1093/ehjacc/zuae093/58970350/zuae093.pdf"
+      },
+      {
+        "title": "Performance of ChatGPT-3.5 and GPT-4 in national licensing examinations for medicine, pharmacy, dentistry, and nursing: a systematic review and meta-analysis",
+        "pdf": "https://doi.org/10.1186/s12909-024-05944-8"
+      },
+      {
+        "title": "Is there a rise of prevalence for Molar Incisor Hypomineralization? A meta-analysis of published data",
+        "pdf": "https://bmcoralhealth.biomedcentral.com/counter/pdf/10.1186/s12903-023-03637-0"
+      },
+      {
+        "title": "Losartan in hospitalized patients with COVID-19 in North America: An individual participant data meta-analysis",
+        "pdf": "https://doi.org/10.1097/md.0000000000033904"
+      },
+      {
+        "title": "Calcium Silicate-Based Cements in Restorative Dentistry: Vital Pulp Therapy Clinical, Radiographic, and Histological Outcomes on Deciduous and Permanent Dentition—A Systematic Review and Meta-Analysis",
+        "pdf": "https://doi.org/10.3390/ma17174264"
+      },
+      {
+        "title": "Hydroxychloroquine/chloroquine for the treatment of hospitalized patients with COVID-19: An individual participant data meta-analysis",
+        "pdf": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0273526&type=printable"
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "pdf": "https://arxiv.org/pdf/2512.25075v1"
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "pdf": "https://arxiv.org/pdf/2512.25074v1"
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2512.25073v1"
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "pdf": "https://arxiv.org/pdf/2512.25072v1"
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "pdf": "https://arxiv.org/pdf/2512.25070v1"
+      },
+      {
+        "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+        "pdf": "https://arxiv.org/pdf/2512.25069v1"
+      },
+      {
+        "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+        "pdf": "https://arxiv.org/pdf/2512.25068v1"
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "pdf": "https://arxiv.org/pdf/2512.25067v1"
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "pdf": "https://arxiv.org/pdf/2512.25066v1"
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "pdf": "https://arxiv.org/pdf/2512.25064v1"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "Accuracy of LLMs to retrieve numeric data for meta-analysis in dentistry",
+        "doi": "https://doi.org/10.1016/j.jdent.2025.106245"
+      },
+      {
+        "title": "The Impact of Thermocycling on the Marginal Discrepancy of Zirconia CAD/CAM Generation on Central Incisors: An In Vitro Study",
+        "doi": "https://doi.org/10.5005/jp-journals-10005-3287"
+      },
+      {
+        "title": "Classifying Tooth Loss and Assessing Risk Factors in U.S. Adults: A Machine Learning Analysis of BRFSS 2022 Data",
+        "doi": "https://doi.org/10.3390/electronics14173559"
+      },
+      {
+        "title": "Comparative Analysis of the Effects of Acidic and Alkaline Beverages on the Optical Properties, Surface Topography, and Bacterial Activity of Zirconia Materials",
+        "doi": "https://doi.org/10.3390/jfb16090329"
+      },
+      {
+        "title": "Finite element analysis of the influence of surface layer on frictional wear in a follow-up screw-rod kinematic node in GGS stabilization",
+        "doi": "https://doi.org/10.1038/s41598-025-16928-z"
+      },
+      {
+        "title": "Mouth Breathing and Its Impact on Sleep Breathing Disorders in Children: A Cross-Sectional Study in Bandung, Indonesia",
+        "doi": "https://doi.org/10.2147/ccide.s536188"
+      },
+      {
+        "title": "Performance of large language models in fluoride-related dental knowledge: a comparative evaluation study of ChatGPT-4, Claude 3.5 Sonnet, Copilot, and Grok 3",
+        "doi": "https://doi.org/10.12701/jyms.2025.42.53"
+      },
+      {
+        "title": "S M Nazmuz Sakib Formula on Immunological Resilience Model (Sakib-FIRM): A Dynamic Approach to Immune System Adaptability in Response to Pathogen Load and Cytokine Imbalance",
+        "doi": "https://doi.org/10.61615/jmccr/2025/aug027140825"
+      },
+      {
+        "title": "The Importance of Cone Beam Computed Tomography (CBCT) as a Modern and Essential Radiodiagnostic Techniquein the Evaluation of Odonto-Periodontal Pathology in Diabetic Patients",
+        "doi": "https://doi.org/10.3390/app15179238"
+      },
+      {
+        "title": "Do DanGer-SHOCK-like patients benefit from VA-ECMO treatment in infarct-related cardiogenic shock? results of an individual patient data meta-analysis.",
+        "doi": "https://doi.org/10.1093/ehjacc/zuae093"
+      },
+      {
+        "title": "Performance of ChatGPT-3.5 and GPT-4 in national licensing examinations for medicine, pharmacy, dentistry, and nursing: a systematic review and meta-analysis",
+        "doi": "https://doi.org/10.1186/s12909-024-05944-8"
+      },
+      {
+        "title": "Is there a rise of prevalence for Molar Incisor Hypomineralization? A meta-analysis of published data",
+        "doi": "https://doi.org/10.1186/s12903-023-03637-0"
+      },
+      {
+        "title": "Do DAN-GER-SHOCK eligible patients benefit from VA-ECMO treatment in infarct-related cardiogenic shock ? Results of an individual patient data meta-analysis.",
+        "doi": "https://doi.org/10.1093/eurheartj/ehae666.1696"
+      },
+      {
+        "title": "Losartan in hospitalized patients with COVID-19 in North America: An individual participant data meta-analysis",
+        "doi": "https://doi.org/10.1097/MD.0000000000033904"
+      },
+      {
+        "title": "Individual Patient Data Meta-Analysis of Consensus Molecular Subtypes as Biomarkers of First-Line Treatment in RAS Wild-Type Metastatic Colorectal Cancer.",
+        "doi": "https://doi.org/10.1200/JCO-25-00596"
+      },
+      {
+        "title": "Calcium Silicate-Based Cements in Restorative Dentistry: Vital Pulp Therapy Clinical, Radiographic, and Histological Outcomes on Deciduous and Permanent Dentition—A Systematic Review and Meta-Analysis",
+        "doi": "https://doi.org/10.3390/ma17174264"
+      },
+      {
+        "title": "The effect of virtual reality for anxiety and pain in dentistry: A systematic review and meta-analysis",
+        "doi": "https://doi.org/10.1922/CDH_00160Nezhad08"
+      },
+      {
+        "title": "Hydroxychloroquine/chloroquine for the treatment of hospitalized patients with COVID-19: An individual participant data meta-analysis",
+        "doi": "https://doi.org/10.1371/journal.pone.0273526"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "dentistry numeric data meta-analysis",
+    "total_steps": 2,
+    "last_updated": "2026-01-02T02:51:01.051657",
+    "started_at": "2026-01-02T02:49:46.693679",
+    "total_papers": 28
+  }
+}

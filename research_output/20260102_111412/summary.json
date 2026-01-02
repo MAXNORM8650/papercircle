@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "self-evolving LLMs solving math problems using multi-agent systems",
+    "total_papers": 129,
+    "unique_sources": 12,
+    "year_range": {
+      "min": 2020,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 148,
+      "average": 8.7
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 81,
+    "papers_with_doi": 43,
+    "processing_steps": 7
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (14) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 14
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 27 papers (20%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 27
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Zhenwen Liang has 3 papers in this collection",
+      "data": {
+        "author": "Zhenwen Liang",
+        "count": 3
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Benchmark Self-Evolving: A Multi-Agent Framework for Dynamic LLM Evaluation...\" has 64 citations",
+      "data": {
+        "title": "Benchmark Self-Evolving: A Multi-Agent Framework for Dynamic LLM Evaluation",
+        "citations": 64
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: math, multi, agent, problems, reasoning",
+      "data": {
+        "keywords": {
+          "math": 32,
+          "multi": 30,
+          "agent": 30,
+          "problems": 28,
+          "reasoning": 28
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "81/129 papers (62%) have direct PDF links",
+      "data": {
+        "with_pdf": 81,
+        "total": 129
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 129 papers related to 'self-evolving LLMs solving math problems using multi-agent systems'",
+    "Papers collected from 12 sources: offline_aaai, offline_acl, offline_iclr, offline_emnlp, offline_coling, offline_nips, offline_icml, offline_ijcai, offline_naacl, arxiv, openalex, semantic_scholar",
+    "Publication years range from 2020 to 2026",
+    "Total citations: 148, Average: 8",
+    "Leading researchers: Zhenwen Liang, Xiangliang Zhang, Caiming Xiong"
+  ],
+  "metadata": {
+    "query": "self-evolving LLMs solving math problems using multi-agent systems",
+    "total_steps": 7,
+    "last_updated": "2026-01-02T11:19:04.878567",
+    "started_at": "2026-01-02T11:14:12.263321",
+    "total_papers": 129
+  }
+}

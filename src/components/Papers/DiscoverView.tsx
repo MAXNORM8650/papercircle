@@ -5,7 +5,8 @@ import { useAuth } from '../../contexts/AuthContext';
 import { useCommunity } from '../../contexts/CommunityContext';
 import type { Database } from '../../lib/database.types';
 import { searchArxivDirect, groupPapersByDate, formatDateDisplay, type ArxivPaper as ArxivPaperType } from '../../lib/arxivClient';
-import { AIDiscoveryView } from './AIDiscoveryView';
+import { AIDiscoveryViewNew as AIDiscoveryView } from './AIDiscoveryViewNew';
+import { SearchTagsSelector } from './SearchTagsSelector';
 
 type Paper = Database['public']['Tables']['papers']['Row'];
 type Topic = Database['public']['Tables']['topics']['Row'];
@@ -82,6 +83,7 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
     startDate: '',
     endDate: '',
   });
+  const [selectedTags, setSelectedTags] = useState<string[]>([]);
 
   const [currentPage, setCurrentPage] = useState(0);
   const [totalResults, setTotalResults] = useState(0);
@@ -705,6 +707,13 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
           )}
         </div>
 
+        {searchSource === 'ai-discovery' && (
+          <SearchTagsSelector
+            selectedTags={selectedTags}
+            onTagsChange={setSelectedTags}
+          />
+        )}
+
         {showFilters && searchSource === 'arxiv' && (
           <div className="bg-blue-50 p-6 rounded-lg space-y-4 border border-blue-200">
             <div className="flex items-center justify-between mb-3">
@@ -960,11 +969,11 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
         <AIDiscoveryView
           searchQuery={aiSearchQuery}
           triggerSearch={triggerAiSearch}
+          selectedTags={selectedTags}
           onSearchComplete={(count) => {
             console.log(`AI Discovery found ${count} papers`);
           }}
           onLoadingChange={setAiDiscoveryLoading}
-          onStopFunctionChange={(fn) => setAiDiscoveryStopFn(() => fn)}
         />
       ) : searchSource === 'arxiv' ? (
         <div className="space-y-4">

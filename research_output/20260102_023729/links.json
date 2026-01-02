@@ -1,0 +1,257 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Development Education",
+        "url": "https://openalex.org/W2522369617",
+        "pdf_url": "https://lirias.kuleuven.be/bitstream/123456789/82197/1/UNESCOENGELS.pdf",
+        "doi_url": "https://doi.org/10.5040/9781350441491.ch-12",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "European Scientific Journal ESJ",
+        "url": "https://openalex.org/W4211172052",
+        "pdf_url": "https://doi.org/10.19044/esj",
+        "doi_url": "https://doi.org/10.19044/esj",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Influence of human factors on the safety performance in Saudi Arabian construction industry",
+        "url": "https://openalex.org/W3094925317",
+        "pdf_url": "http://usir.salford.ac.uk/id/eprint/58136/1/Yasir%20Azmat%20PhD%20thesis%20%2803.09.2020%29%20Influence%20of%20Human%20Factors%20on%20the%20safety%20performance%20of%20Saudi%20Arabian%20construction%20industry.pdf",
+        "doi_url": "https://doi.org/10.17866/rk7m-5a20",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "The Impact of Early Investments in Urban School Systems in the United States",
+        "url": "https://openalex.org/W3141894555",
+        "pdf_url": "http://www.nber.org/papers/w25663.pdf",
+        "doi_url": "https://doi.org/10.3886/icpsr301057",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "The effect of the U.S. - Colombia trade promotion agreement on violence against colombian unionists",
+        "url": "https://openalex.org/W3130267958",
+        "pdf_url": "http://hdl.handle.net/1992/48627",
+        "doi_url": "https://doi.org/10.71590/1992/48627",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Drawbacks of convenience: on the decline of the monograph and the ways of reading in the humanities today",
+        "url": "https://openalex.org/W3212998913",
+        "pdf_url": "https://hdl.handle.net/1887/3204567",
+        "doi_url": "https://doi.org/10.60602/1887/3204567",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "(E-)Reading in a foreign language and dictionary use: a literature review: does the medium matter?",
+        "url": "https://openalex.org/W3213234428",
+        "pdf_url": "https://hdl.handle.net/1887/3204540",
+        "doi_url": "https://doi.org/10.60602/1887/3204540",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Christians in Gilgit: Negotiating subalternity and citizenship",
+        "url": "https://openalex.org/W1901311493",
+        "pdf_url": "https://journals.sub.uni-hamburg.de/ethnoscripts/article/download/774/769",
+        "doi_url": "https://doi.org/10.15460/ethnoscripts.2014.16.1.774",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "STRATEGI KOMUNIKASI INTERPERSONAL PADA PROGRAM T-CARE DI AUTO2000 KARAWANG",
+        "url": "https://openalex.org/W7113157564",
+        "pdf_url": "https://mpra.ub.uni-muenchen.de/81908/1/MPRA_paper_81908.pdf",
+        "doi_url": null,
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Setting out a vision for the civil service in Ireland",
+        "url": "https://openalex.org/W2187342036",
+        "pdf_url": "https://reference-global.com/2/v2/download/article/10.2478/admin-2025-0027.pdf",
+        "doi_url": "https://doi.org/10.2478/admin-2025-0027",
+        "source": "openalex",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "openalex": [
+        {
+          "title": "Development Education",
+          "url": "https://openalex.org/W2522369617",
+          "pdf_url": "https://lirias.kuleuven.be/bitstream/123456789/82197/1/UNESCOENGELS.pdf",
+          "doi_url": "https://doi.org/10.5040/9781350441491.ch-12",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "European Scientific Journal ESJ",
+          "url": "https://openalex.org/W4211172052",
+          "pdf_url": "https://doi.org/10.19044/esj",
+          "doi_url": "https://doi.org/10.19044/esj",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Influence of human factors on the safety performance in Saudi Arabian construction industry",
+          "url": "https://openalex.org/W3094925317",
+          "pdf_url": "http://usir.salford.ac.uk/id/eprint/58136/1/Yasir%20Azmat%20PhD%20thesis%20%2803.09.2020%29%20Influence%20of%20Human%20Factors%20on%20the%20safety%20performance%20of%20Saudi%20Arabian%20construction%20industry.pdf",
+          "doi_url": "https://doi.org/10.17866/rk7m-5a20",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "The Impact of Early Investments in Urban School Systems in the United States",
+          "url": "https://openalex.org/W3141894555",
+          "pdf_url": "http://www.nber.org/papers/w25663.pdf",
+          "doi_url": "https://doi.org/10.3886/icpsr301057",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "The effect of the U.S. - Colombia trade promotion agreement on violence against colombian unionists",
+          "url": "https://openalex.org/W3130267958",
+          "pdf_url": "http://hdl.handle.net/1992/48627",
+          "doi_url": "https://doi.org/10.71590/1992/48627",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Drawbacks of convenience: on the decline of the monograph and the ways of reading in the humanities today",
+          "url": "https://openalex.org/W3212998913",
+          "pdf_url": "https://hdl.handle.net/1887/3204567",
+          "doi_url": "https://doi.org/10.60602/1887/3204567",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "(E-)Reading in a foreign language and dictionary use: a literature review: does the medium matter?",
+          "url": "https://openalex.org/W3213234428",
+          "pdf_url": "https://hdl.handle.net/1887/3204540",
+          "doi_url": "https://doi.org/10.60602/1887/3204540",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Christians in Gilgit: Negotiating subalternity and citizenship",
+          "url": "https://openalex.org/W1901311493",
+          "pdf_url": "https://journals.sub.uni-hamburg.de/ethnoscripts/article/download/774/769",
+          "doi_url": "https://doi.org/10.15460/ethnoscripts.2014.16.1.774",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "STRATEGI KOMUNIKASI INTERPERSONAL PADA PROGRAM T-CARE DI AUTO2000 KARAWANG",
+          "url": "https://openalex.org/W7113157564",
+          "pdf_url": "https://mpra.ub.uni-muenchen.de/81908/1/MPRA_paper_81908.pdf",
+          "doi_url": null,
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Setting out a vision for the civil service in Ireland",
+          "url": "https://openalex.org/W2187342036",
+          "pdf_url": "https://reference-global.com/2/v2/download/article/10.2478/admin-2025-0027.pdf",
+          "doi_url": "https://doi.org/10.2478/admin-2025-0027",
+          "source": "openalex",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Development Education",
+        "pdf": "https://lirias.kuleuven.be/bitstream/123456789/82197/1/UNESCOENGELS.pdf"
+      },
+      {
+        "title": "European Scientific Journal ESJ",
+        "pdf": "https://doi.org/10.19044/esj"
+      },
+      {
+        "title": "Influence of human factors on the safety performance in Saudi Arabian construction industry",
+        "pdf": "http://usir.salford.ac.uk/id/eprint/58136/1/Yasir%20Azmat%20PhD%20thesis%20%2803.09.2020%29%20Influence%20of%20Human%20Factors%20on%20the%20safety%20performance%20of%20Saudi%20Arabian%20construction%20industry.pdf"
+      },
+      {
+        "title": "The Impact of Early Investments in Urban School Systems in the United States",
+        "pdf": "http://www.nber.org/papers/w25663.pdf"
+      },
+      {
+        "title": "The effect of the U.S. - Colombia trade promotion agreement on violence against colombian unionists",
+        "pdf": "http://hdl.handle.net/1992/48627"
+      },
+      {
+        "title": "Drawbacks of convenience: on the decline of the monograph and the ways of reading in the humanities today",
+        "pdf": "https://hdl.handle.net/1887/3204567"
+      },
+      {
+        "title": "(E-)Reading in a foreign language and dictionary use: a literature review: does the medium matter?",
+        "pdf": "https://hdl.handle.net/1887/3204540"
+      },
+      {
+        "title": "Christians in Gilgit: Negotiating subalternity and citizenship",
+        "pdf": "https://journals.sub.uni-hamburg.de/ethnoscripts/article/download/774/769"
+      },
+      {
+        "title": "STRATEGI KOMUNIKASI INTERPERSONAL PADA PROGRAM T-CARE DI AUTO2000 KARAWANG",
+        "pdf": "https://mpra.ub.uni-muenchen.de/81908/1/MPRA_paper_81908.pdf"
+      },
+      {
+        "title": "Setting out a vision for the civil service in Ireland",
+        "pdf": "https://reference-global.com/2/v2/download/article/10.2478/admin-2025-0027.pdf"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "Development Education",
+        "doi": "https://doi.org/10.5040/9781350441491.ch-12"
+      },
+      {
+        "title": "European Scientific Journal ESJ",
+        "doi": "https://doi.org/10.19044/esj"
+      },
+      {
+        "title": "Influence of human factors on the safety performance in Saudi Arabian construction industry",
+        "doi": "https://doi.org/10.17866/rk7m-5a20"
+      },
+      {
+        "title": "The Impact of Early Investments in Urban School Systems in the United States",
+        "doi": "https://doi.org/10.3886/icpsr301057"
+      },
+      {
+        "title": "The effect of the U.S. - Colombia trade promotion agreement on violence against colombian unionists",
+        "doi": "https://doi.org/10.71590/1992/48627"
+      },
+      {
+        "title": "Drawbacks of convenience: on the decline of the monograph and the ways of reading in the humanities today",
+        "doi": "https://doi.org/10.60602/1887/3204567"
+      },
+      {
+        "title": "(E-)Reading in a foreign language and dictionary use: a literature review: does the medium matter?",
+        "doi": "https://doi.org/10.60602/1887/3204540"
+      },
+      {
+        "title": "Christians in Gilgit: Negotiating subalternity and citizenship",
+        "doi": "https://doi.org/10.15460/ethnoscripts.2014.16.1.774"
+      },
+      {
+        "title": "Setting out a vision for the civil service in Ireland",
+        "doi": "https://doi.org/10.2478/admin-2025-0027"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "why human services very less",
+    "total_steps": 4,
+    "last_updated": "2026-01-02T02:38:41.390108",
+    "started_at": "2026-01-02T02:37:31.199351",
+    "total_papers": 10
+  }
+}

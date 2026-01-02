@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "benchmarks for evaluating AI agents in machine learning engineering",
+    "total_papers": 98,
+    "unique_sources": 11,
+    "year_range": {
+      "min": 2022,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 1,
+      "average": 1.0
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 62,
+    "papers_with_doi": 23,
+    "processing_steps": 3
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (19) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 19
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 27 papers (27%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 27
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Jun Shern Chan has 2 papers in this collection",
+      "data": {
+        "author": "Jun Shern Chan",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Emotional AI and the rise of pseudo-intimacy: are we trading authenticity for algorithmic affection?...\" has 1 citations",
+      "data": {
+        "title": "Emotional AI and the rise of pseudo-intimacy: are we trading authenticity for algorithmic affection?",
+        "citations": 1
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: agents, learning, evaluating, engineering, software",
+      "data": {
+        "keywords": {
+          "agents": 34,
+          "learning": 17,
+          "evaluating": 16,
+          "engineering": 16,
+          "software": 13
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "62/98 papers (63%) have direct PDF links",
+      "data": {
+        "with_pdf": 62,
+        "total": 98
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 98 papers related to 'benchmarks for evaluating AI agents in machine learning engineering'",
+    "Papers collected from 11 sources: offline_iclr, offline_nips, offline_icml, offline_colm, offline_acl, offline_ijcai, offline_aaai, offline_emnlp, offline_naacl, openalex, arxiv",
+    "Publication years range from 2022 to 2026",
+    "Total citations: 1, Average: 1",
+    "Leading researchers: Jun Shern Chan, Oliver Jaffe, James Aung"
+  ],
+  "metadata": {
+    "query": "benchmarks for evaluating AI agents in machine learning engineering",
+    "total_steps": 3,
+    "last_updated": "2026-01-02T11:49:24.127632",
+    "started_at": "2026-01-02T11:47:51.521627",
+    "total_papers": 98
+  }
+}

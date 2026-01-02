@@ -30,6 +30,13 @@ const DEFAULT_CONFIGS = {
   },
 };
 
+interface QuotaInfo {
+  used_today: number;
+  daily_limit: number;
+  is_unlimited: boolean;
+  remaining: number;
+}
+
 export function LLMSettings() {
   const { user } = useAuth();
   const [config, setConfig] = useState<LLMConfig>({
@@ -39,14 +46,31 @@ export function LLMSettings() {
     llm_model_id: '',
     llm_api_key: '',
   });
+  const [quota, setQuota] = useState<QuotaInfo | null>(null);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [testing, setTesting] = useState(false);
   const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
+  const [showHelp, setShowHelp] = useState(false);
+  const [showSecurity, setShowSecurity] = useState(false);
 
   useEffect(() => {
     loadSettings();
   }, [user]);
+
+  const loadQuota = async () => {
+    if (!user) return;
+
+    try {
+      const response = await fetch(`http://localhost:8001/quota/${user.id}`);
+      if (response.ok) {
+        const data = await response.json();
+        setQuota(data);
+      }
+    } catch (error) {
+      console.error('Error loading quota:', error);
+    }
+  };
 
   const loadSettings = async () => {
     if (!user) return;
@@ -71,6 +95,9 @@ export function LLMSettings() {
       console.error('Error loading LLM settings:', error);
     }
 
+    // Load quota information
+    await loadQuota();
+
     setLoading(false);
   };
 
@@ -86,6 +113,26 @@ export function LLMSettings() {
 
   const handleSave = async () => {
     if (!user) return;
+
+    // Warn about localhost URLs for remote users
+    if (config.llm_enabled && config.llm_provider === 'ollama') {
+      const isLocalhost = config.llm_api_base.includes('localhost') ||
+                         config.llm_api_base.includes('127.0.0.1') ||
+                         config.llm_api_base.includes('0.0.0.0');
+
+      if (isLocalhost) {
+        const confirmed = window.confirm(
+          '⚠️ Localhost URLs only work if your backend server is on the same machine as your Ollama.\n\n' +
+          'If you are the deployer/admin running the backend locally, this will work.\n\n' +
+          'If you are a remote user, use ngrok or Cloudflare Tunnel instead.\n\n' +
+          'Continue anyway?'
+        );
+
+        if (!confirmed) {
+          return;
+        }
+      }
+    }
 
     setSaving(true);
     setMessage(null);
@@ -115,19 +162,34 @@ export function LLMSettings() {
     setMessage(null);
 
     try {
-      // Simple test - try to connect to the API
-      const response = await fetch(`${config.llm_api_base}/api/tags`, {
-        method: 'GET',
-        headers: config.llm_api_key ? { 'Authorization': `Bearer ${config.llm_api_key}` } : {},
+      // Call backend API to test connection (avoids CORS issues)
+      const response = await fetch('http://localhost:8001/test-llm-connection', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          api_base: config.llm_api_base,
+          provider: config.llm_provider,
+        }),
       });
 
-      if (response.ok) {
-        setMessage({ type: 'success', text: 'Successfully connected to LLM server!' });
+      const result = await response.json();
+
+      if (result.success) {
+        let message = result.message;
+        if (result.models && result.models.length > 0) {
+          message += `\n\nAvailable models: ${result.models.join(', ')}`;
+        }
+        setMessage({ type: 'success', text: message });
       } else {
-        setMessage({ type: 'error', text: `Connection failed: ${response.status} ${response.statusText}` });
+        setMessage({ type: 'error', text: result.message });
       }
     } catch (error: any) {
-      setMessage({ type: 'error', text: `Connection failed: ${error.message}` });
+      setMessage({
+        type: 'error',
+        text: `Connection test failed: ${error.message}\n\nMake sure the Paper Analysis API is running on port 8001.`
+      });
     }
 
     setTesting(false);
@@ -150,9 +212,49 @@ export function LLMSettings() {
         </div>
 
         <p className="text-gray-600 mb-6">
-          Configure your own LLM server for paper analysis. You can use local models (Ollama, LM Studio)
-          or commercial APIs (OpenAI, Anthropic). If disabled, the system default will be used.
+          Configure your own LLM for unlimited paper analysis, or use the free tier (5 papers/day).
         </p>
+
+        {/* Current Tier and Quota */}
+        {quota && (
+          <div className={`rounded-lg p-4 mb-6 ${
+            quota.is_unlimited || config.llm_enabled
+              ? 'bg-green-50 border border-green-200'
+              : 'bg-gray-50 border border-gray-200'
+          }`}>
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="font-semibold text-gray-900">
+                  {quota.is_unlimited || config.llm_enabled ? '✨ Unlimited Tier' : '🆓 Free Tier'}
+                </h3>
+                {quota.is_unlimited || config.llm_enabled ? (
+                  <p className="text-sm text-gray-600 mt-1">
+                    Using your own LLM - analyze unlimited papers
+                  </p>
+                ) : (
+                  <p className="text-sm text-gray-600 mt-1">
+                    Daily limit: {quota.used_today} / {quota.daily_limit} papers analyzed today
+                  </p>
+                )}
+              </div>
+              {!quota.is_unlimited && !config.llm_enabled && (
+                <div className="text-right">
+                  <div className="text-2xl font-bold text-purple-600">
+                    {quota.remaining}
+                  </div>
+                  <div className="text-xs text-gray-500">remaining</div>
+                </div>
+              )}
+            </div>
+            {!quota.is_unlimited && !config.llm_enabled && quota.remaining === 0 && (
+              <div className="mt-3 pt-3 border-t border-gray-200">
+                <p className="text-sm text-amber-700">
+                  ⚠️ You've reached your daily limit. Enable custom LLM below for unlimited access.
+                </p>
+              </div>
+            )}
+          </div>
+        )}
 
         {/* Enable/Disable Toggle */}
         <div className="mb-6">
@@ -197,13 +299,25 @@ export function LLMSettings() {
                 type="text"
                 value={config.llm_api_base}
                 onChange={(e) => setConfig({ ...config, llm_api_base: e.target.value })}
-                placeholder="http://localhost:11434"
+                placeholder={
+                  config.llm_provider === 'ollama'
+                    ? 'https://your-tunnel-url.ngrok.io'
+                    : config.llm_provider === 'openai'
+                    ? 'https://api.openai.com/v1'
+                    : 'https://api.anthropic.com'
+                }
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
               />
+              {config.llm_provider === 'ollama' && (
+                <p className="mt-1 text-sm text-amber-600 flex items-start">
+                  <AlertCircle className="h-4 w-4 mr-1 mt-0.5 flex-shrink-0" />
+                  <span>Localhost URLs only work for deployers/admins. Remote users should use ngrok or Cloudflare Tunnel.</span>
+                </p>
+              )}
               <p className="mt-1 text-sm text-gray-500">
-                {config.llm_provider === 'ollama' && 'Example: http://localhost:11434'}
-                {config.llm_provider === 'openai' && 'Example: https://api.openai.com/v1'}
-                {config.llm_provider === 'anthropic' && 'Example: https://api.anthropic.com'}
+                {config.llm_provider === 'ollama' && 'Example: https://abc123.ngrok.io'}
+                {config.llm_provider === 'openai' && 'Default: https://api.openai.com/v1'}
+                {config.llm_provider === 'anthropic' && 'Default: https://api.anthropic.com'}
               </p>
             </div>
 
@@ -305,19 +419,96 @@ export function LLMSettings() {
         </div>
       </div>
 
-      {/* Help Section */}
-      <div className="mt-6 bg-blue-50 border border-blue-200 rounded-lg p-6">
-        <h3 className="text-lg font-semibold text-blue-900 mb-3">How to set up local LLM</h3>
-        <div className="text-sm text-blue-800 space-y-2">
-          <p><strong>Ollama:</strong></p>
-          <ol className="list-decimal list-inside ml-4 space-y-1">
-            <li>Install Ollama from <a href="https://ollama.ai" target="_blank" rel="noopener noreferrer" className="underline">ollama.ai</a></li>
-            <li>Run: <code className="bg-blue-100 px-2 py-0.5 rounded">ollama pull qwen3-coder:30b</code></li>
-            <li>Start Ollama server (it runs on http://localhost:11434 by default)</li>
-            <li>Use API Base: <code className="bg-blue-100 px-2 py-0.5 rounded">http://localhost:11434</code></li>
-            <li>Use Model ID: <code className="bg-blue-100 px-2 py-0.5 rounded">ollama_chat/qwen3-coder:30b</code></li>
-          </ol>
-        </div>
+      {/* Help Section - Collapsible */}
+      <div className="mt-6">
+        <button
+          onClick={() => setShowHelp(!showHelp)}
+          className="w-full flex items-center justify-between p-4 bg-blue-50 border border-blue-200 rounded-lg hover:bg-blue-100 transition-colors"
+        >
+          <h3 className="text-lg font-semibold text-blue-900">How to set up your own LLM</h3>
+          <span className="text-blue-600">{showHelp ? '▼' : '▶'}</span>
+        </button>
+
+        {showHelp && (
+          <div className="mt-2 bg-blue-50 border border-blue-200 rounded-lg p-6">
+            <div className="text-sm text-blue-800 space-y-4">
+          <div>
+            <p className="font-semibold mb-2">Important: Bring Your Own LLM</p>
+            <p className="mb-2">
+              Paper analysis runs on your own LLM server to save computational resources.
+              Local LLM servers must be <strong>publicly accessible</strong> (localhost URLs won't work).
+            </p>
+          </div>
+
+          <div>
+            <p className="font-semibold mb-2">Step 1: Install and Run Ollama</p>
+            <ol className="list-decimal list-inside ml-4 space-y-1">
+              <li>Install Ollama from <a href="https://ollama.ai" target="_blank" rel="noopener noreferrer" className="underline">ollama.ai</a></li>
+              <li>Pull a model: <code className="bg-blue-100 px-2 py-0.5 rounded">ollama pull qwen2.5:7b</code></li>
+              <li>Start Ollama: <code className="bg-blue-100 px-2 py-0.5 rounded">ollama serve</code></li>
+            </ol>
+          </div>
+
+          <div>
+            <p className="font-semibold mb-2">Step 2: Expose Your Server (Required)</p>
+            <p className="mb-2">Choose one option:</p>
+
+            <div className="ml-4 space-y-2">
+              <div>
+                <p className="font-semibold">Option A: ngrok (Easiest)</p>
+                <ol className="list-decimal list-inside ml-4 space-y-1">
+                  <li>Install ngrok from <a href="https://ngrok.com" target="_blank" rel="noopener noreferrer" className="underline">ngrok.com</a></li>
+                  <li>Run: <code className="bg-blue-100 px-2 py-0.5 rounded">ngrok http 11434</code></li>
+                  <li>Copy the public URL (e.g., <code className="bg-blue-100 px-2 py-0.5 rounded">https://abc123.ngrok.io</code>)</li>
+                  <li>Use that URL as your API Base</li>
+                </ol>
+              </div>
+
+              <div>
+                <p className="font-semibold">Option B: Cloudflare Tunnel</p>
+                <ol className="list-decimal list-inside ml-4 space-y-1">
+                  <li>Install cloudflared from <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation" target="_blank" rel="noopener noreferrer" className="underline">Cloudflare</a></li>
+                  <li>Run: <code className="bg-blue-100 px-2 py-0.5 rounded">cloudflared tunnel --url http://localhost:11434</code></li>
+                  <li>Copy the public URL and use as your API Base</li>
+                </ol>
+              </div>
+
+              <div>
+                <p className="font-semibold">Option C: Cloud LLM (No setup needed)</p>
+                <p>Use OpenAI or Anthropic with your own API key - works from anywhere!</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-red-50 border border-red-200 rounded p-3">
+            <p className="font-semibold text-red-900 mb-2">🔒 Security Warning</p>
+            <p className="text-sm text-red-800 mb-2">
+              When you expose your Ollama server publicly, <strong>anyone with the URL can use it</strong>.
+              This could result in unauthorized usage and high compute costs.
+            </p>
+            <p className="text-sm text-red-800 font-semibold">
+              Recommended: Add authentication to protect your endpoint
+            </p>
+            <p className="text-sm text-red-800 mt-2">
+              • Use ngrok's built-in auth: <code className="bg-red-100 px-1 rounded">ngrok http 11434 --basic-auth "user:pass"</code><br/>
+              • Or set up a reverse proxy (nginx/caddy) with API key validation<br/>
+              • Store your auth credentials securely and never share them
+            </p>
+          </div>
+
+          <div>
+            <p className="font-semibold mb-2">Step 3: Configure Settings</p>
+            <ol className="list-decimal list-inside ml-4 space-y-1">
+              <li>Select your provider (Ollama, OpenAI, or Anthropic)</li>
+              <li>Enter your public URL (e.g., <code className="bg-blue-100 px-2 py-0.5 rounded">https://abc123.ngrok.io</code>)</li>
+              <li>Enter your model ID (e.g., <code className="bg-blue-100 px-2 py-0.5 rounded">ollama_chat/qwen2.5:7b</code>)</li>
+              <li>Test Connection to verify it works</li>
+              <li>Save Settings</li>
+            </ol>
+          </div>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

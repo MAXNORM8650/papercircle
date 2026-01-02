@@ -1,0 +1,303 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T02:15:51.702690",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLMs'",
+      "result_preview": "Found 93 papers",
+      "details": {
+        "query": "LLMs",
+        "sources": null,
+        "papers_found": 93,
+        "papers_added": 93,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 93
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-02T02:15:58.545651",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLMs'",
+      "result_preview": "Found 93 papers",
+      "details": {
+        "query": "LLMs",
+        "sources": null,
+        "papers_found": 93,
+        "papers_added": 1,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 94
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-02T02:16:01.971479",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLMs'",
+      "result_preview": "Found 93 papers",
+      "details": {
+        "query": "LLMs",
+        "sources": null,
+        "papers_found": 93,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 94
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-02T02:17:13.481948",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (topics)",
+      "result_preview": "Generated insights from 94 papers",
+      "details": {
+        "analysis_type": "topics"
+      },
+      "papers_count": 94
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-02T02:17:15.157269",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (authors)",
+      "result_preview": "Generated insights from 94 papers",
+      "details": {
+        "analysis_type": "authors"
+      },
+      "papers_count": 94
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-02T02:17:16.879042",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (venues)",
+      "result_preview": "Generated insights from 94 papers",
+      "details": {
+        "analysis_type": "venues"
+      },
+      "papers_count": 94
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-02T02:17:18.657233",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (trends)",
+      "result_preview": "Generated insights from 94 papers",
+      "details": {
+        "analysis_type": "trends"
+      },
+      "papers_count": 94
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-02T02:17:20.468497",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (all)",
+      "result_preview": "Generated insights from 94 papers",
+      "details": {
+        "analysis_type": "all"
+      },
+      "papers_count": 94
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-02T02:17:39.914094",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLMs that are not diffusion models'",
+      "result_preview": "Found 48 papers",
+      "details": {
+        "query": "LLMs that are not diffusion models",
+        "sources": null,
+        "papers_found": 48,
+        "papers_added": 44,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 138
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-02T02:17:47.588959",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLMs that are not diffusion models'",
+      "result_preview": "Found 48 papers",
+      "details": {
+        "query": "LLMs that are not diffusion models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 48,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 138
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-02T02:18:06.225938",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLMs that are not diffusion models'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLMs that are not diffusion models",
+        "conferences": [
+          "acl",
+          "naacl",
+          "emnlp",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 48,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 186
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-02T02:18:17.506771",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLMs that are not diffusion models'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLMs that are not diffusion models",
+        "conferences": [
+          "acl",
+          "naacl",
+          "emnlp",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai"
+        ],
+        "start_year": 2020,
+        "end_year": 2025,
+        "papers_found": 50,
+        "papers_added": 12,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 198
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-02T02:18:25.326631",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLMs that are not diffusion models'",
+      "result_preview": "Found 48 papers",
+      "details": {
+        "query": "LLMs that are not diffusion models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 48,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 198
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-02T02:18:33.216413",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLMs that are not diffusion models'",
+      "result_preview": "Found 48 papers",
+      "details": {
+        "query": "LLMs that are not diffusion models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 48,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 198
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-02T02:19:59.645993",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLMs'",
+      "result_preview": "Found 93 papers",
+      "details": {
+        "query": "LLMs",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 93,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 198
+    },
+    {
+      "step": 16,
+      "timestamp": "2026-01-02T02:20:06.867579",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLMs NOT diffusion models'",
+      "result_preview": "Found 72 papers",
+      "details": {
+        "query": "LLMs NOT diffusion models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 72,
+        "papers_added": 51,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 249
+    },
+    {
+      "step": 17,
+      "timestamp": "2026-01-02T02:20:14.792334",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLMs and diffusion models'",
+      "result_preview": "Found 47 papers",
+      "details": {
+        "query": "LLMs and diffusion models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 47,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 249
+    }
+  ],
+  "current_step": 17,
+  "metadata": {
+    "query": "LLMs and diffusion models",
+    "total_steps": 17,
+    "last_updated": "2026-01-02T02:20:14.827914",
+    "started_at": "2026-01-02T02:15:21.298668",
+    "total_papers": 249
+  }
+}

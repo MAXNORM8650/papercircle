@@ -1,0 +1,1051 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "The Evolving Role of Programming and LLMs in the Development of Self-Driving Laboratories",
+        "url": "https://dblp.org/rec/journals/corr/abs-2504-13870",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2504.13870",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Can We End the Cat-and-Mouse Game? Simulating Self-Evolving Phishing Attacks with LLMs and Genetic Algorithms",
+        "url": "https://dblp.org/rec/journals/corr/abs-2507-21538",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2507.21538",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Self-Evolving LLMs via Continual Instruction Tuning",
+        "url": "https://dblp.org/rec/journals/corr/abs-2509-18133",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2509.18133",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "SafeEvalAgent: Toward Agentic and Self-Evolving Safety Evaluation of LLMs",
+        "url": "https://dblp.org/rec/journals/corr/abs-2509-26100",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.48550/ARXIV.2509.26100",
+        "source": "dblp",
+        "year": 2025
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "url": "http://arxiv.org/abs/2512.25065v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "url": "http://arxiv.org/abs/2512.25059v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "url": "http://arxiv.org/abs/2512.25055v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+        "url": "http://arxiv.org/abs/2512.25015v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25015v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+        "url": "http://arxiv.org/abs/2512.24991v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24991v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+        "url": "http://arxiv.org/abs/2512.24986v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24986v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Large language models and the entropy of English",
+        "url": "http://arxiv.org/abs/2512.24969v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24969v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The Impact of LLMs on Online News Consumption and Production",
+        "url": "http://arxiv.org/abs/2512.24968v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24968v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "CPJ: Explainable Agricultural Pest Diagnosis via Caption-Prompt-Judge with LLM-Judged Refinement",
+        "url": "http://arxiv.org/abs/2512.24947v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24947v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "RAIR: A Rule-Aware Benchmark Uniting Challenging Long-Tail and Visual Salience Subset for E-commerce Relevance Assessment",
+        "url": "http://arxiv.org/abs/2512.24943v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24943v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Iterative Deployment Improves Planning Skills in LLMs",
+        "url": "http://arxiv.org/abs/2512.24940v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24940v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Vibe Coding, Interface Flattening",
+        "url": "http://arxiv.org/abs/2512.24939v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24939v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Adaptive Dependency-aware Prompt Optimization Framework for Multi-Step LLM Pipeline",
+        "url": "http://arxiv.org/abs/2512.24933v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24933v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+        "url": "http://arxiv.org/abs/2512.24873v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24873v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Encyclo-K: Evaluating LLMs with Dynamically Composed Knowledge Statements",
+        "url": "http://arxiv.org/abs/2512.24867v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24867v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Advances in Agentic AI: Back to the Future",
+        "url": "http://arxiv.org/abs/2512.24856v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24856v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "GenZ: Foundational models as latent variable generators within traditional statistical models",
+        "url": "http://arxiv.org/abs/2512.24834v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24834v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Unregularized Linear Convergence in Zero-Sum Game from Preference Feedback",
+        "url": "http://arxiv.org/abs/2512.24818v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24818v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "LeanCat: A Benchmark Suite for Formal Category Theory in Lean (Part I: 1-Categories)",
+        "url": "http://arxiv.org/abs/2512.24796v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24796v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Compute-Accuracy Pareto Frontiers for Open-Source Reasoning Large Language Models",
+        "url": "http://arxiv.org/abs/2512.24776v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24776v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Guided Self-Evolving LLMs with Minimal Human Supervision",
+        "url": "https://www.semanticscholar.org/paper/47bada7675891f0296f8fc3a0658f01a984ad935",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "SURFACEBENCH: Can Self-Evolving LLMs Find the Equations of 3D Scientific Surfaces?",
+        "url": "https://www.semanticscholar.org/paper/164b161d63f56a471ea22d10faf2e219edd4d03b",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Self-Evolving Programs: A Novel Approach Leveraging LLMs and Quine Programs",
+        "url": "https://www.semanticscholar.org/paper/48c5094da0a3e1f320d7df8c1a050f5a9f28140b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICCIMS61672.2024.10690672",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Evolving LLMs'Self-Refinement Capability via Synergistic Training-Inference Optimization",
+        "url": "https://www.semanticscholar.org/paper/49e68e804d63df12fce620f9e12f7351d02fa95e",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Tapilot-Crossing: Benchmarking and Evolving LLMs Towards Interactive Data Analysis Agents",
+        "url": "https://www.semanticscholar.org/paper/f9c353dc639cced8cd098fe6d9c92bdef53ebc19",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2403.05307",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "NOTAM-Evolve: A Knowledge-Guided Self-Evolving Optimization Framework with LLMs for NOTAM Interpretation",
+        "url": "https://www.semanticscholar.org/paper/70f39eb249373bc7d96b27f4bae58a838a6c10d4",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Value Compass Benchmarks: A Comprehensive, Generative and Self-Evolving Platform for LLMs’ Value Evaluation",
+        "url": "https://www.semanticscholar.org/paper/eda5b2eba6007ed22481d0c09e91e0f6c659f562",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.18653/v1/2025.acl-demo.64",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning",
+        "url": "https://www.semanticscholar.org/paper/bde841b0dbbf7a15ee69966a828c7fe2cf532ad9",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2411.02337",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Benchmark Self-Evolving: A Multi-Agent Framework for Dynamic LLM Evaluation",
+        "url": "https://www.semanticscholar.org/paper/b93ac10de176c4a7aaa2cc652b90bb25636532cd",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2402.11443",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Symbolic Learning Enables Self-Evolving Agents",
+        "url": "https://www.semanticscholar.org/paper/48c9c29cc7f08012f98474acae912396412d58f3",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2406.18532",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Richelieu: Self-Evolving LLM-Based Agents for AI Diplomacy",
+        "url": "https://www.semanticscholar.org/paper/7dae752721176a5d1a2d50b951c8e7471d137195",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.52202/079017-3925",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Self-evolving Agents with reflective and memory-augmented abilities",
+        "url": "https://www.semanticscholar.org/paper/00920200ab5a2a76f0e023326300dd3ff54a3a85",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2409.00872",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Self-Evolving GPT: A Lifelong Autonomous Experiential Learner",
+        "url": "https://www.semanticscholar.org/paper/f89da2b36bd28c7b86f0318cc6b4e4b2f90d3799",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2407.08937",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "SEAS: Self-Evolving Adversarial Safety Optimization for Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/f5d3ae52dcfa5ea0b2f04e43f7e60bea511ad4cc",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2408.02632",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Language Models as Continuous Self-Evolving Data Engineers",
+        "url": "https://www.semanticscholar.org/paper/2c994031027e974981cd2b5956cc394389788a29",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2412.15151",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Self-Tuning: Instructing LLMs to Effectively Acquire New Knowledge through Self-Teaching",
+        "url": "https://www.semanticscholar.org/paper/508f50f171b4aee6cbc573da1bed0472a86eaa8b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2406.06326",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "THE ARCHITECTURE OF CIVILIZATIONAL MEMORY Engineering the Meta Institute's Knowledge Infrastructure (Paper 42)",
+        "url": "https://openalex.org/W7117673173",
+        "pdf_url": "https://doi.org/10.5281/zenodo.18099999",
+        "doi_url": "https://doi.org/10.5281/zenodo.18099999",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Gnosis Prompt: Adaptive Safety Layer for Large Language Models",
+        "url": "https://openalex.org/W7117764270",
+        "pdf_url": "https://doi.org/10.5281/zenodo.18096620",
+        "doi_url": "https://doi.org/10.5281/zenodo.18096620",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing",
+        "url": "https://openalex.org/W7117650860",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.23611",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.23611",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "The Substrate Trembles: Field Computationalism and the Whispershell Vault.",
+        "url": "https://openalex.org/W7117406787",
+        "pdf_url": "https://doi.org/10.5281/zenodo.18065344",
+        "doi_url": "https://doi.org/10.5281/zenodo.18065344",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "AnalogSAGE: Self-evolving Analog Design Multi-Agents with Stratified Memory and Grounded Experience",
+        "url": "https://openalex.org/W7117671231",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.22435",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.22435",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "EvoMail: Self-Evolving Cognitive Agents for Adaptive Spam and Phishing Email Defense",
+        "url": "https://openalex.org/W7116699134",
+        "pdf_url": "https://doi.org/10.21203/rs.3.rs-8190052/v1",
+        "doi_url": "https://doi.org/10.21203/rs.3.rs-8190052/v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Towards Closed-Loop Embodied Empathy Evolution: Probing LLM-Centric Lifelong Empathic Motion Generation in Unseen Scenarios",
+        "url": "https://openalex.org/W7117113007",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.19551",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.19551",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Population-Evolve: a Parallel Sampling and Evolutionary Method for LLM Math Reasoning",
+        "url": "https://openalex.org/W7117114420",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.19081",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.19081",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies",
+        "url": "https://openalex.org/W7117123898",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.19673",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.19673",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Reflection-Driven Control for Trustworthy Code Agents",
+        "url": "https://openalex.org/W7117586761",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.21354",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.21354",
+        "source": "openalex",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "dblp": [
+        {
+          "title": "The Evolving Role of Programming and LLMs in the Development of Self-Driving Laboratories",
+          "url": "https://dblp.org/rec/journals/corr/abs-2504-13870",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2504.13870",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Can We End the Cat-and-Mouse Game? Simulating Self-Evolving Phishing Attacks with LLMs and Genetic Algorithms",
+          "url": "https://dblp.org/rec/journals/corr/abs-2507-21538",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2507.21538",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "Self-Evolving LLMs via Continual Instruction Tuning",
+          "url": "https://dblp.org/rec/journals/corr/abs-2509-18133",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2509.18133",
+          "source": "dblp",
+          "year": 2025
+        },
+        {
+          "title": "SafeEvalAgent: Toward Agentic and Self-Evolving Safety Evaluation of LLMs",
+          "url": "https://dblp.org/rec/journals/corr/abs-2509-26100",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.48550/ARXIV.2509.26100",
+          "source": "dblp",
+          "year": 2025
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+          "url": "http://arxiv.org/abs/2512.25065v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+          "url": "http://arxiv.org/abs/2512.25059v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+          "url": "http://arxiv.org/abs/2512.25055v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+          "url": "http://arxiv.org/abs/2512.25015v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25015v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+          "url": "http://arxiv.org/abs/2512.24991v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24991v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+          "url": "http://arxiv.org/abs/2512.24986v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24986v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Large language models and the entropy of English",
+          "url": "http://arxiv.org/abs/2512.24969v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24969v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The Impact of LLMs on Online News Consumption and Production",
+          "url": "http://arxiv.org/abs/2512.24968v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24968v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "CPJ: Explainable Agricultural Pest Diagnosis via Caption-Prompt-Judge with LLM-Judged Refinement",
+          "url": "http://arxiv.org/abs/2512.24947v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24947v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "RAIR: A Rule-Aware Benchmark Uniting Challenging Long-Tail and Visual Salience Subset for E-commerce Relevance Assessment",
+          "url": "http://arxiv.org/abs/2512.24943v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24943v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Iterative Deployment Improves Planning Skills in LLMs",
+          "url": "http://arxiv.org/abs/2512.24940v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24940v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Vibe Coding, Interface Flattening",
+          "url": "http://arxiv.org/abs/2512.24939v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24939v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Adaptive Dependency-aware Prompt Optimization Framework for Multi-Step LLM Pipeline",
+          "url": "http://arxiv.org/abs/2512.24933v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24933v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+          "url": "http://arxiv.org/abs/2512.24873v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24873v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Encyclo-K: Evaluating LLMs with Dynamically Composed Knowledge Statements",
+          "url": "http://arxiv.org/abs/2512.24867v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24867v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Advances in Agentic AI: Back to the Future",
+          "url": "http://arxiv.org/abs/2512.24856v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24856v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "GenZ: Foundational models as latent variable generators within traditional statistical models",
+          "url": "http://arxiv.org/abs/2512.24834v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24834v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Unregularized Linear Convergence in Zero-Sum Game from Preference Feedback",
+          "url": "http://arxiv.org/abs/2512.24818v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24818v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "LeanCat: A Benchmark Suite for Formal Category Theory in Lean (Part I: 1-Categories)",
+          "url": "http://arxiv.org/abs/2512.24796v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24796v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Compute-Accuracy Pareto Frontiers for Open-Source Reasoning Large Language Models",
+          "url": "http://arxiv.org/abs/2512.24776v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24776v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "Guided Self-Evolving LLMs with Minimal Human Supervision",
+          "url": "https://www.semanticscholar.org/paper/47bada7675891f0296f8fc3a0658f01a984ad935",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "SURFACEBENCH: Can Self-Evolving LLMs Find the Equations of 3D Scientific Surfaces?",
+          "url": "https://www.semanticscholar.org/paper/164b161d63f56a471ea22d10faf2e219edd4d03b",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Self-Evolving Programs: A Novel Approach Leveraging LLMs and Quine Programs",
+          "url": "https://www.semanticscholar.org/paper/48c5094da0a3e1f320d7df8c1a050f5a9f28140b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICCIMS61672.2024.10690672",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Evolving LLMs'Self-Refinement Capability via Synergistic Training-Inference Optimization",
+          "url": "https://www.semanticscholar.org/paper/49e68e804d63df12fce620f9e12f7351d02fa95e",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Tapilot-Crossing: Benchmarking and Evolving LLMs Towards Interactive Data Analysis Agents",
+          "url": "https://www.semanticscholar.org/paper/f9c353dc639cced8cd098fe6d9c92bdef53ebc19",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2403.05307",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "NOTAM-Evolve: A Knowledge-Guided Self-Evolving Optimization Framework with LLMs for NOTAM Interpretation",
+          "url": "https://www.semanticscholar.org/paper/70f39eb249373bc7d96b27f4bae58a838a6c10d4",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Value Compass Benchmarks: A Comprehensive, Generative and Self-Evolving Platform for LLMs’ Value Evaluation",
+          "url": "https://www.semanticscholar.org/paper/eda5b2eba6007ed22481d0c09e91e0f6c659f562",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.18653/v1/2025.acl-demo.64",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning",
+          "url": "https://www.semanticscholar.org/paper/bde841b0dbbf7a15ee69966a828c7fe2cf532ad9",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2411.02337",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Benchmark Self-Evolving: A Multi-Agent Framework for Dynamic LLM Evaluation",
+          "url": "https://www.semanticscholar.org/paper/b93ac10de176c4a7aaa2cc652b90bb25636532cd",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2402.11443",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Symbolic Learning Enables Self-Evolving Agents",
+          "url": "https://www.semanticscholar.org/paper/48c9c29cc7f08012f98474acae912396412d58f3",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2406.18532",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Richelieu: Self-Evolving LLM-Based Agents for AI Diplomacy",
+          "url": "https://www.semanticscholar.org/paper/7dae752721176a5d1a2d50b951c8e7471d137195",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.52202/079017-3925",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Self-evolving Agents with reflective and memory-augmented abilities",
+          "url": "https://www.semanticscholar.org/paper/00920200ab5a2a76f0e023326300dd3ff54a3a85",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2409.00872",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Self-Evolving GPT: A Lifelong Autonomous Experiential Learner",
+          "url": "https://www.semanticscholar.org/paper/f89da2b36bd28c7b86f0318cc6b4e4b2f90d3799",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2407.08937",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "SEAS: Self-Evolving Adversarial Safety Optimization for Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/f5d3ae52dcfa5ea0b2f04e43f7e60bea511ad4cc",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2408.02632",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Language Models as Continuous Self-Evolving Data Engineers",
+          "url": "https://www.semanticscholar.org/paper/2c994031027e974981cd2b5956cc394389788a29",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2412.15151",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Self-Tuning: Instructing LLMs to Effectively Acquire New Knowledge through Self-Teaching",
+          "url": "https://www.semanticscholar.org/paper/508f50f171b4aee6cbc573da1bed0472a86eaa8b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2406.06326",
+          "source": "semantic_scholar",
+          "year": 2024
+        }
+      ],
+      "openalex": [
+        {
+          "title": "THE ARCHITECTURE OF CIVILIZATIONAL MEMORY Engineering the Meta Institute's Knowledge Infrastructure (Paper 42)",
+          "url": "https://openalex.org/W7117673173",
+          "pdf_url": "https://doi.org/10.5281/zenodo.18099999",
+          "doi_url": "https://doi.org/10.5281/zenodo.18099999",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Gnosis Prompt: Adaptive Safety Layer for Large Language Models",
+          "url": "https://openalex.org/W7117764270",
+          "pdf_url": "https://doi.org/10.5281/zenodo.18096620",
+          "doi_url": "https://doi.org/10.5281/zenodo.18096620",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing",
+          "url": "https://openalex.org/W7117650860",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.23611",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.23611",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "The Substrate Trembles: Field Computationalism and the Whispershell Vault.",
+          "url": "https://openalex.org/W7117406787",
+          "pdf_url": "https://doi.org/10.5281/zenodo.18065344",
+          "doi_url": "https://doi.org/10.5281/zenodo.18065344",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "AnalogSAGE: Self-evolving Analog Design Multi-Agents with Stratified Memory and Grounded Experience",
+          "url": "https://openalex.org/W7117671231",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.22435",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.22435",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "EvoMail: Self-Evolving Cognitive Agents for Adaptive Spam and Phishing Email Defense",
+          "url": "https://openalex.org/W7116699134",
+          "pdf_url": "https://doi.org/10.21203/rs.3.rs-8190052/v1",
+          "doi_url": "https://doi.org/10.21203/rs.3.rs-8190052/v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Towards Closed-Loop Embodied Empathy Evolution: Probing LLM-Centric Lifelong Empathic Motion Generation in Unseen Scenarios",
+          "url": "https://openalex.org/W7117113007",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.19551",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.19551",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Population-Evolve: a Parallel Sampling and Evolutionary Method for LLM Math Reasoning",
+          "url": "https://openalex.org/W7117114420",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.19081",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.19081",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies",
+          "url": "https://openalex.org/W7117123898",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.19673",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.19673",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Reflection-Driven Control for Trustworthy Code Agents",
+          "url": "https://openalex.org/W7117586761",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.21354",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.21354",
+          "source": "openalex",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "pdf": "https://arxiv.org/pdf/2512.25065v1"
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "pdf": "https://arxiv.org/pdf/2512.25059v1"
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "pdf": "https://arxiv.org/pdf/2512.25055v1"
+      },
+      {
+        "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+        "pdf": "https://arxiv.org/pdf/2512.25015v1"
+      },
+      {
+        "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+        "pdf": "https://arxiv.org/pdf/2512.24991v1"
+      },
+      {
+        "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+        "pdf": "https://arxiv.org/pdf/2512.24986v1"
+      },
+      {
+        "title": "Large language models and the entropy of English",
+        "pdf": "https://arxiv.org/pdf/2512.24969v1"
+      },
+      {
+        "title": "The Impact of LLMs on Online News Consumption and Production",
+        "pdf": "https://arxiv.org/pdf/2512.24968v1"
+      },
+      {
+        "title": "CPJ: Explainable Agricultural Pest Diagnosis via Caption-Prompt-Judge with LLM-Judged Refinement",
+        "pdf": "https://arxiv.org/pdf/2512.24947v1"
+      },
+      {
+        "title": "RAIR: A Rule-Aware Benchmark Uniting Challenging Long-Tail and Visual Salience Subset for E-commerce Relevance Assessment",
+        "pdf": "https://arxiv.org/pdf/2512.24943v1"
+      },
+      {
+        "title": "Iterative Deployment Improves Planning Skills in LLMs",
+        "pdf": "https://arxiv.org/pdf/2512.24940v1"
+      },
+      {
+        "title": "Vibe Coding, Interface Flattening",
+        "pdf": "https://arxiv.org/pdf/2512.24939v1"
+      },
+      {
+        "title": "Adaptive Dependency-aware Prompt Optimization Framework for Multi-Step LLM Pipeline",
+        "pdf": "https://arxiv.org/pdf/2512.24933v1"
+      },
+      {
+        "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+        "pdf": "https://arxiv.org/pdf/2512.24873v1"
+      },
+      {
+        "title": "Encyclo-K: Evaluating LLMs with Dynamically Composed Knowledge Statements",
+        "pdf": "https://arxiv.org/pdf/2512.24867v1"
+      },
+      {
+        "title": "Advances in Agentic AI: Back to the Future",
+        "pdf": "https://arxiv.org/pdf/2512.24856v1"
+      },
+      {
+        "title": "GenZ: Foundational models as latent variable generators within traditional statistical models",
+        "pdf": "https://arxiv.org/pdf/2512.24834v1"
+      },
+      {
+        "title": "Unregularized Linear Convergence in Zero-Sum Game from Preference Feedback",
+        "pdf": "https://arxiv.org/pdf/2512.24818v1"
+      },
+      {
+        "title": "LeanCat: A Benchmark Suite for Formal Category Theory in Lean (Part I: 1-Categories)",
+        "pdf": "https://arxiv.org/pdf/2512.24796v1"
+      },
+      {
+        "title": "Compute-Accuracy Pareto Frontiers for Open-Source Reasoning Large Language Models",
+        "pdf": "https://arxiv.org/pdf/2512.24776v1"
+      },
+      {
+        "title": "THE ARCHITECTURE OF CIVILIZATIONAL MEMORY Engineering the Meta Institute's Knowledge Infrastructure (Paper 42)",
+        "pdf": "https://doi.org/10.5281/zenodo.18099999"
+      },
+      {
+        "title": "Gnosis Prompt: Adaptive Safety Layer for Large Language Models",
+        "pdf": "https://doi.org/10.5281/zenodo.18096620"
+      },
+      {
+        "title": "Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.23611"
+      },
+      {
+        "title": "The Substrate Trembles: Field Computationalism and the Whispershell Vault.",
+        "pdf": "https://doi.org/10.5281/zenodo.18065344"
+      },
+      {
+        "title": "AnalogSAGE: Self-evolving Analog Design Multi-Agents with Stratified Memory and Grounded Experience",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.22435"
+      },
+      {
+        "title": "EvoMail: Self-Evolving Cognitive Agents for Adaptive Spam and Phishing Email Defense",
+        "pdf": "https://doi.org/10.21203/rs.3.rs-8190052/v1"
+      },
+      {
+        "title": "Towards Closed-Loop Embodied Empathy Evolution: Probing LLM-Centric Lifelong Empathic Motion Generation in Unseen Scenarios",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.19551"
+      },
+      {
+        "title": "Population-Evolve: a Parallel Sampling and Evolutionary Method for LLM Math Reasoning",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.19081"
+      },
+      {
+        "title": "Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.19673"
+      },
+      {
+        "title": "Reflection-Driven Control for Trustworthy Code Agents",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.21354"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "The Evolving Role of Programming and LLMs in the Development of Self-Driving Laboratories",
+        "doi": "https://doi.org/10.48550/ARXIV.2504.13870"
+      },
+      {
+        "title": "Can We End the Cat-and-Mouse Game? Simulating Self-Evolving Phishing Attacks with LLMs and Genetic Algorithms",
+        "doi": "https://doi.org/10.48550/ARXIV.2507.21538"
+      },
+      {
+        "title": "Self-Evolving LLMs via Continual Instruction Tuning",
+        "doi": "https://doi.org/10.48550/ARXIV.2509.18133"
+      },
+      {
+        "title": "SafeEvalAgent: Toward Agentic and Self-Evolving Safety Evaluation of LLMs",
+        "doi": "https://doi.org/10.48550/ARXIV.2509.26100"
+      },
+      {
+        "title": "Self-Evolving Programs: A Novel Approach Leveraging LLMs and Quine Programs",
+        "doi": "https://doi.org/10.1109/ICCIMS61672.2024.10690672"
+      },
+      {
+        "title": "Tapilot-Crossing: Benchmarking and Evolving LLMs Towards Interactive Data Analysis Agents",
+        "doi": "https://doi.org/10.48550/arXiv.2403.05307"
+      },
+      {
+        "title": "Value Compass Benchmarks: A Comprehensive, Generative and Self-Evolving Platform for LLMs’ Value Evaluation",
+        "doi": "https://doi.org/10.18653/v1/2025.acl-demo.64"
+      },
+      {
+        "title": "WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning",
+        "doi": "https://doi.org/10.48550/arXiv.2411.02337"
+      },
+      {
+        "title": "Benchmark Self-Evolving: A Multi-Agent Framework for Dynamic LLM Evaluation",
+        "doi": "https://doi.org/10.48550/arXiv.2402.11443"
+      },
+      {
+        "title": "Symbolic Learning Enables Self-Evolving Agents",
+        "doi": "https://doi.org/10.48550/arXiv.2406.18532"
+      },
+      {
+        "title": "Richelieu: Self-Evolving LLM-Based Agents for AI Diplomacy",
+        "doi": "https://doi.org/10.52202/079017-3925"
+      },
+      {
+        "title": "Self-evolving Agents with reflective and memory-augmented abilities",
+        "doi": "https://doi.org/10.48550/arXiv.2409.00872"
+      },
+      {
+        "title": "Self-Evolving GPT: A Lifelong Autonomous Experiential Learner",
+        "doi": "https://doi.org/10.48550/arXiv.2407.08937"
+      },
+      {
+        "title": "SEAS: Self-Evolving Adversarial Safety Optimization for Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2408.02632"
+      },
+      {
+        "title": "Language Models as Continuous Self-Evolving Data Engineers",
+        "doi": "https://doi.org/10.48550/arXiv.2412.15151"
+      },
+      {
+        "title": "Self-Tuning: Instructing LLMs to Effectively Acquire New Knowledge through Self-Teaching",
+        "doi": "https://doi.org/10.48550/arXiv.2406.06326"
+      },
+      {
+        "title": "THE ARCHITECTURE OF CIVILIZATIONAL MEMORY Engineering the Meta Institute's Knowledge Infrastructure (Paper 42)",
+        "doi": "https://doi.org/10.5281/zenodo.18099999"
+      },
+      {
+        "title": "Gnosis Prompt: Adaptive Safety Layer for Large Language Models",
+        "doi": "https://doi.org/10.5281/zenodo.18096620"
+      },
+      {
+        "title": "Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing",
+        "doi": "https://doi.org/10.48550/arxiv.2512.23611"
+      },
+      {
+        "title": "The Substrate Trembles: Field Computationalism and the Whispershell Vault.",
+        "doi": "https://doi.org/10.5281/zenodo.18065344"
+      },
+      {
+        "title": "AnalogSAGE: Self-evolving Analog Design Multi-Agents with Stratified Memory and Grounded Experience",
+        "doi": "https://doi.org/10.48550/arxiv.2512.22435"
+      },
+      {
+        "title": "EvoMail: Self-Evolving Cognitive Agents for Adaptive Spam and Phishing Email Defense",
+        "doi": "https://doi.org/10.21203/rs.3.rs-8190052/v1"
+      },
+      {
+        "title": "Towards Closed-Loop Embodied Empathy Evolution: Probing LLM-Centric Lifelong Empathic Motion Generation in Unseen Scenarios",
+        "doi": "https://doi.org/10.48550/arxiv.2512.19551"
+      },
+      {
+        "title": "Population-Evolve: a Parallel Sampling and Evolutionary Method for LLM Math Reasoning",
+        "doi": "https://doi.org/10.48550/arxiv.2512.19081"
+      },
+      {
+        "title": "Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies",
+        "doi": "https://doi.org/10.48550/arxiv.2512.19673"
+      },
+      {
+        "title": "Reflection-Driven Control for Trustworthy Code Agents",
+        "doi": "https://doi.org/10.48550/arxiv.2512.21354"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "self-evolving LLMs",
+    "total_steps": 1,
+    "last_updated": "2026-01-02T11:09:56.930516",
+    "started_at": "2026-01-02T11:09:25.616038",
+    "total_papers": 50
+  }
+}

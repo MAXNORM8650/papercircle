@@ -1,0 +1,39 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T02:43:52.629036",
+      "agent": "online_search_agent",
+      "action": "Online search: 'general research topics'",
+      "result_preview": "Found 29 papers",
+      "details": {
+        "query": "general research topics",
+        "sources": null,
+        "papers_found": 29,
+        "papers_added": 29,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 29
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-02T02:44:25.769199",
+      "agent": "export_agent",
+      "action": "Exporting papers (json)",
+      "result_preview": "Exported 29 papers",
+      "details": {
+        "format": "json",
+        "filename": "top_papers_export"
+      },
+      "papers_count": 29
+    }
+  ],
+  "current_step": 2,
+  "metadata": {
+    "query": "general research topics",
+    "total_steps": 2,
+    "last_updated": "2026-01-02T02:44:25.779641",
+    "started_at": "2026-01-02T02:43:19.820974",
+    "total_papers": 29
+  }
+}

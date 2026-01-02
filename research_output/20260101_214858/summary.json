@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "LLMs world models generative models simulation planning",
+    "total_papers": 165,
+    "unique_sources": 8,
+    "year_range": {
+      "min": 2023,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 1965,
+      "average": 39.3
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 96,
+    "papers_with_doi": 70,
+    "processing_steps": 3
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (21) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 21
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 50 papers (30%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 50
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Chuang Gan has 3 papers in this collection",
+      "data": {
+        "author": "Chuang Gan",
+        "count": 3
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning...\" has 248 citations",
+      "data": {
+        "title": "Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning",
+        "citations": 248
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: models, world, planning, generative, language",
+      "data": {
+        "keywords": {
+          "models": 55,
+          "world": 52,
+          "planning": 40,
+          "generative": 36,
+          "language": 26
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "96/165 papers (58%) have direct PDF links",
+      "data": {
+        "with_pdf": 96,
+        "total": 165
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 165 papers related to 'LLMs world models generative models simulation planning'",
+    "Papers collected from 8 sources: offline_iclr, offline_iccv, offline_nips, offline_cvpr, offline_icml, semantic_scholar, arxiv, openalex",
+    "Publication years range from 2023 to 2026",
+    "Total citations: 1965, Average: 39",
+    "Leading researchers: Chuang Gan, Yilun Du, Hongxin Zhang"
+  ],
+  "metadata": {
+    "query": "LLMs world models generative models simulation planning",
+    "total_steps": 3,
+    "last_updated": "2026-01-01T21:52:59.168165",
+    "started_at": "2026-01-01T21:48:58.774528",
+    "total_papers": 165
+  }
+}

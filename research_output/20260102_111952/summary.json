@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "self-evolving LLMs multi-agent math questions single-step fast",
+    "total_papers": 51,
+    "unique_sources": 3,
+    "year_range": {
+      "min": 2024,
+      "max": 2025
+    },
+    "citation_summary": {
+      "total": 45,
+      "average": 7.5
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 50,
+    "papers_with_doi": 25,
+    "processing_steps": 1
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (50) are from 2025",
+      "data": {
+        "year": 2025,
+        "count": 50
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 25 papers (49%)",
+      "data": {
+        "source": "arxiv",
+        "count": 25
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Kristen W. Carlson has 2 papers in this collection",
+      "data": {
+        "author": "Kristen W. Carlson",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"An AI Agent for Fully Automated Multi‐Omic Analyses...\" has 38 citations",
+      "data": {
+        "title": "An AI Agent for Fully Automated Multi‐Omic Analyses",
+        "citations": 38
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: language, reasoning, review, systems, intelligence",
+      "data": {
+        "keywords": {
+          "language": 5,
+          "reasoning": 4,
+          "review": 4,
+          "systems": 4,
+          "intelligence": 3
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "50/51 papers (98%) have direct PDF links",
+      "data": {
+        "with_pdf": 50,
+        "total": 51
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 51 papers related to 'self-evolving LLMs multi-agent math questions single-step fast'",
+    "Papers collected from 3 sources: openalex, arxiv, semantic_scholar",
+    "Publication years range from 2024 to 2025",
+    "Total citations: 45, Average: 7",
+    "Leading researchers: Kristen W. Carlson, Sukai Huang, Trevor Cohn"
+  ],
+  "metadata": {
+    "query": "self-evolving LLMs multi-agent math questions single-step fast",
+    "total_steps": 1,
+    "last_updated": "2026-01-02T11:20:27.023542",
+    "started_at": "2026-01-02T11:19:54.606866",
+    "total_papers": 51
+  }
+}

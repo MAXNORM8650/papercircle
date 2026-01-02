@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "LLMs and diffusion models",
+    "total_papers": 249,
+    "unique_sources": 12,
+    "year_range": {
+      "min": 2022,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 18393,
+      "average": 367.9
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 143,
+    "papers_with_doi": 92,
+    "processing_steps": 17
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (36) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 36
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 70 papers (28%)",
+      "data": {
+        "source": "arxiv",
+        "count": 70
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Justin Deschenaux has 2 papers in this collection",
+      "data": {
+        "author": "Justin Deschenaux",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning...\" has 5325 citations",
+      "data": {
+        "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+        "citations": 5325
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: llms, models, diffusion, language, large",
+      "data": {
+        "keywords": {
+          "llms": 112,
+          "models": 82,
+          "diffusion": 68,
+          "language": 36,
+          "large": 33
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "143/249 papers (57%) have direct PDF links",
+      "data": {
+        "with_pdf": 143,
+        "total": 249
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 249 papers related to 'LLMs and diffusion models'",
+    "Papers collected from 12 sources: offline_iclr, offline_naacl, offline_emnlp, offline_acl, offline_icml, offline_eccv, offline_aaai, offline_cvpr, dblp, openalex, semantic_scholar, arxiv",
+    "Publication years range from 2022 to 2026",
+    "Total citations: 18393, Average: 367",
+    "Leading researchers: Justin Deschenaux, Caglar Gulcehre, Zhili Feng"
+  ],
+  "metadata": {
+    "query": "LLMs and diffusion models",
+    "total_steps": 17,
+    "last_updated": "2026-01-02T02:20:14.826859",
+    "started_at": "2026-01-02T02:15:21.298668",
+    "total_papers": 249
+  }
+}

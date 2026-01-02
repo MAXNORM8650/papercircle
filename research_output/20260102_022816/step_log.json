@@ -1,0 +1,39 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T02:28:46.493621",
+      "agent": "online_search_agent",
+      "action": "Online search: 'maths science and friction'",
+      "result_preview": "Found 20 papers",
+      "details": {
+        "query": "maths science and friction",
+        "sources": null,
+        "papers_found": 20,
+        "papers_added": 20,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 20
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-02T02:29:08.888388",
+      "agent": "export_agent",
+      "action": "Exporting papers (all)",
+      "result_preview": "Exported 20 papers",
+      "details": {
+        "format": "all",
+        "filename": "maths_science_friction"
+      },
+      "papers_count": 20
+    }
+  ],
+  "current_step": 2,
+  "metadata": {
+    "query": "maths science and friction",
+    "total_steps": 2,
+    "last_updated": "2026-01-02T02:29:08.897586",
+    "started_at": "2026-01-02T02:28:16.723278",
+    "total_papers": 20
+  }
+}

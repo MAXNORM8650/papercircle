@@ -14,8 +14,9 @@ import { InviteAccept } from './components/Communities/InviteAccept';
 import { InviteAcceptSession } from './components/Sessions/InviteAcceptSession';
 import { CompleteProfileModal } from './components/Auth/CompleteProfileModal';
 import { LLMSettings } from './components/Settings/LLMSettings';
+import ResearchDashboard from './components/Papers/ResearchDashboard';
 
-type View = 'discover' | 'sessions' | 'circles' | 'lineage' | 'dashboard' | 'admin' | 'settings' | 'paper-detail' | 'session-detail' | 'invite' | 'session-invite';
+type View = 'discover' | 'sessions' | 'circles' | 'lineage' | 'dashboard' | 'admin' | 'settings' | 'paper-detail' | 'session-detail' | 'invite' | 'session-invite' | 'research-dashboard';
 
 function AppContent() {
   const { needsProfile } = useAuth();
@@ -24,9 +25,18 @@ function AppContent() {
   const [selectedSessionId, setSelectedSessionId] = useState<string | null>(null);
   const [inviteCode, setInviteCode] = useState<string | null>(null);
   const [sessionInviteCode, setSessionInviteCode] = useState<string | null>(null);
+  const [researchTimestamp, setResearchTimestamp] = useState<string | null>(null);
 
   useEffect(() => {
     const path = window.location.pathname;
+
+    // Check for research dashboard
+    const researchMatch = path.match(/^\/research-dashboard\/([a-zA-Z0-9_]+)$/);
+    if (researchMatch) {
+      setResearchTimestamp(researchMatch[1]);
+      setCurrentView('research-dashboard');
+      return;
+    }
 
     // Check for community invite
     const inviteMatch = path.match(/^\/invite\/([a-zA-Z0-9]+)$/);
@@ -106,6 +116,13 @@ function AppContent() {
               setCurrentView('discover');
               setSessionInviteCode(null);
             }}
+          />
+        ) : null;
+      case 'research-dashboard':
+        return researchTimestamp ? (
+          <ResearchDashboard
+            timestamp={researchTimestamp}
+            onBack={() => setCurrentView('discover')}
           />
         ) : null;
       default:

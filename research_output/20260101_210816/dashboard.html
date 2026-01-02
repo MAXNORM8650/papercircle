@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10">
+    <title>Research Dashboard: computational efficiency optimization techniques large language models</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 20px; }
+        .container { max-width: 1600px; margin: 0 auto; }
+        header { text-align: center; padding: 20px; margin-bottom: 30px; }
+        header h1 { font-size: 2em; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .meta { color: #94a3b8; margin-top: 10px; font-size: 0.9em; }
+        .grid { display: grid; gap: 20px; }
+        .grid-4 { grid-template-columns: repeat(4, 1fr); }
+        .grid-2 { grid-template-columns: repeat(2, 1fr); }
+        .grid-3 { grid-template-columns: repeat(3, 1fr); }
+        .card { background: #1e293b; border-radius: 12px; padding: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        .stat-card { text-align: center; }
+        .stat-card .value { font-size: 2.5em; font-weight: bold; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .stat-card .label { color: #94a3b8; margin-top: 5px; }
+        .card h3 { color: #f1f5f9; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+        .step-log { max-height: 300px; overflow-y: auto; }
+        .step { padding: 10px; border-left: 3px solid #667eea; margin: 10px 0; background: #0f172a; border-radius: 0 8px 8px 0; }
+        .step .agent { color: #667eea; font-weight: bold; }
+        .step .time { color: #64748b; font-size: 0.8em; }
+        .leaderboard { max-height: 400px; overflow-y: auto; }
+        .leaderboard table { width: 100%; border-collapse: collapse; }
+        .leaderboard th { text-align: left; padding: 10px; color: #94a3b8; border-bottom: 1px solid #334155; position: sticky; top: 0; background: #1e293b; }
+        .leaderboard td { padding: 10px; border-bottom: 1px solid #334155; }
+        .leaderboard tr:hover { background: #334155; }
+        .rank { color: #fbbf24; font-weight: bold; }
+        .score { color: #34d399; }
+        .insights { display: grid; gap: 15px; }
+        .insight { padding: 15px; background: #0f172a; border-radius: 8px; border-left: 4px solid #667eea; }
+        .insight.trend { border-color: #34d399; }
+        .insight.citation { border-color: #fbbf24; }
+        .insight.author { border-color: #f472b6; }
+        .insight h4 { color: #f1f5f9; margin-bottom: 5px; }
+        .insight p { color: #94a3b8; }
+        .keywords { display: flex; flex-wrap: wrap; gap: 10px; }
+        .keyword { padding: 5px 12px; background: linear-gradient(135deg, #667eea33, #764ba233); border: 1px solid #667eea55; border-radius: 20px; font-size: 0.9em; }
+        .files { display: grid; gap: 10px; }
+        .file { display: flex; align-items: center; gap: 10px; padding: 10px; background: #0f172a; border-radius: 8px; }
+        .file-icon { font-size: 1.5em; }
+        .file-name { color: #f1f5f9; }
+        .file-size { color: #64748b; font-size: 0.8em; }
+        @media (max-width: 1200px) { .grid-4 { grid-template-columns: repeat(2, 1fr); } .grid-3 { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) { .grid-4, .grid-2 { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Research Dashboard</h1>
+            <div class="meta">
+                Query: <strong>computational efficiency optimization techniques large language models</strong> | 
+                Step: <strong>5</strong> | 
+                Last Updated: <strong>2026-01-01 21:45:49</strong>
+                <br>Auto-refreshes every 10 seconds
+            </div>
+        </header>
+        
+        <div class="grid grid-4" style="margin-bottom: 20px;">
+            <div class="card stat-card">
+                <div class="value">118</div>
+                <div class="label">Total Papers</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">6</div>
+                <div class="label">Sources</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">905</div>
+                <div class="label">Total Citations</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">5</div>
+                <div class="label">Processing Steps</div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>📈 Publications Over Time</h3>
+                <canvas id="timelineChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>📊 Papers by Source</h3>
+                <canvas id="sourceChart"></canvas>
+            </div>
+        </div>
+        
+        <div class="grid grid-3" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>🏆 Paper Leaderboard</h3>
+                <div class="leaderboard">
+                    <table>
+                        <thead>
+                            <tr><th>#</th><th>Title</th><th>Year</th><th>Score</th><th>Cites</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="rank">1</td>
+                                <td>Towards Efficient Mixture of Experts: A Holistic Study of Compression Techniques...</td>
+                                <td>2025</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">2</td>
+                                <td>P-BERT: Hardware-Aware Optimization of BERT Using Evolutionary Techniques...</td>
+                                <td>2025</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">3</td>
+                                <td>LLMCBench: Benchmarking Large Language Model Compression for Efficient Deployment...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">4</td>
+                                <td>Finite-State Autoregressive Entropy Coding for Efficient Learned Lossless Compression...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">5</td>
+                                <td>ZSMerge: Zero-Shot KV Cache Compression for Memory-Efficient Long-Context LLMs...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">6</td>
+                                <td>Fusion Token: Enhancing Compression and Efficiency in Language Model Tokenization...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">7</td>
+                                <td>Thanos: A Block-wise Pruning Algorithm for Efficient Large Language Model Compression...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">8</td>
+                                <td>Dense2MoE: Unifying Pruning and Upcycling for Efficient Large Language Models...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">9</td>
+                                <td>PV-Tuning: Beyond Straight-Through Estimation for Extreme LLM Compression...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">10</td>
+                                <td>No Loss, No Gain: Gated Refinement and Adaptive Compression for Prompt Optimization...</td>
+                                <td>2025</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">11</td>
+                                <td>Efficient Multi-modal Large Language Models via Progressive Consistency Distillation...</td>
+                                <td>2025</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">12</td>
+                                <td>SLIM: Structure-aware Low-rank Inference Model</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">13</td>
+                                <td>LaCo: Efficient Layer-wise Compression of Visual Tokens for Multimodal Large Language Models...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">14</td>
+                                <td>Less Is More, but Where? Dynamic Token Compression via LLM-Guided Keyframe Prior...</td>
+                                <td>2025</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">15</td>
+                                <td>Gradient-Constrained Training for Distributed Large Language Models...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>💡 Insights</h3>
+                <div class="insights">
+                    <div class="insight trend">
+                        <h4>Publication Trend</h4>
+                        <p>Most papers (28) are from 2026</p>
+                    </div><div class="insight source">
+                        <h4>Primary Source</h4>
+                        <p>offline_iclr contributes 47 papers (39%)</p>
+                    </div><div class="insight author">
+                        <h4>Prolific Author</h4>
+                        <p>Denis Kuznedelev has 4 papers in this collection</p>
+                    </div><div class="insight citation">
+                        <h4>Most Cited Paper</h4>
+                        <p>"A Survey on Model Compression for Large Language Models..." has 347 citations</p>
+                    </div><div class="insight keywords">
+                        <h4>Hot Topics</h4>
+                        <p>Top keywords: language, large, compression, models, efficient</p>
+                    </div><div class="insight availability">
+                        <h4>Open Access</h4>
+                        <p>49/118 papers (41%) have direct PDF links</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📝 Step Log</h3>
+                <div class="step-log">
+                    <div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'computational efficiency optimization techniques large language models'
+                        <div class="time">Step 5 - 21:45:49</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'model compression techniques for large language models'
+                        <div class="time">Step 4 - 21:39:58</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'efficient Large Language Models model compression optimization techniques computational efficiency'
+                        <div class="time">Step 3 - 21:37:17</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'efficient Large Language Models model compression optimization techniques computational efficiency'
+                        <div class="time">Step 2 - 21:34:04</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'efficient Large Language Models model compression optimization techniques computational efficiency'
+                        <div class="time">Step 1 - 21:25:21</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <h3>🏷️ Top Keywords</h3>
+                <div class="keywords">
+                    <span class="keyword" style="font-size: 1.4em">language (58)</span><span class="keyword" style="font-size: 1.4em">large (54)</span><span class="keyword" style="font-size: 1.4em">compression (52)</span><span class="keyword" style="font-size: 1.4em">models (45)</span><span class="keyword" style="font-size: 1.4em">efficient (41)</span><span class="keyword" style="font-size: 1.4em">model (20)</span><span class="keyword" style="font-size: 1.4em">optimization (14)</span><span class="keyword" style="font-size: 1.4em">context (11)</span><span class="keyword" style="font-size: 1.4em">aware (9)</span><span class="keyword" style="font-size: 1.4em">pruning (9)</span><span class="keyword" style="font-size: 1.4em">sparse (9)</span><span class="keyword" style="font-size: 1.4em">cache (8)</span><span class="keyword" style="font-size: 1.4em">efficiency (8)</span><span class="keyword" style="font-size: 1.4em">adaptive (8)</span><span class="keyword" style="font-size: 1.4em">inference (8)</span><span class="keyword" style="font-size: 1.4em">techniques (6)</span><span class="keyword" style="font-size: 1.4em">long (6)</span><span class="keyword" style="font-size: 1.4em">token (6)</span><span class="keyword" style="font-size: 1.4em">rank (6)</span><span class="keyword" style="font-size: 1.4em">dynamic (6)</span><span class="keyword" style="font-size: 1.4em">training (6)</span><span class="keyword" style="font-size: 1.3em">tuning (5)</span><span class="keyword" style="font-size: 1.3em">through (5)</span><span class="keyword" style="font-size: 1.3em">layer (5)</span><span class="keyword" style="font-size: 1.3em">vision (5)</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📁 Output Files</h3>
+                <div class="files">
+                    <div class="file"><span class="file-icon">📄</span><span class="file-name">papers.json</span><span class="file-size">Full paper data</span></div>
+                    <div class="file"><span class="file-icon">🔗</span><span class="file-name">links.json</span><span class="file-size">Structured links</span></div>
+                    <div class="file"><span class="file-icon">📊</span><span class="file-name">stats.json</span><span class="file-size">Statistics</span></div>
+                    <div class="file"><span class="file-icon">💡</span><span class="file-name">summary.json</span><span class="file-size">Insights</span></div>
+                    <div class="file"><span class="file-icon">📑</span><span class="file-name">papers.csv</span><span class="file-size">Spreadsheet</span></div>
+                    <div class="file"><span class="file-icon">📚</span><span class="file-name">papers.bib</span><span class="file-size">BibTeX</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        new Chart(document.getElementById('timelineChart'), {
+            type: 'bar',
+            data: {
+                labels: [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+                datasets: [{ label: 'Papers', data: [2, 1, 2, 3, 23, 59, 28], backgroundColor: 'rgba(102, 126, 234, 0.8)', borderRadius: 5 }]
+            },
+            options: { responsive: true, plugins: { legend: { display: false } } }
+        });
+        
+        new Chart(document.getElementById('sourceChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['offline_iclr', 'offline_nips', 'offline_icml', 'offline_cvpr', 'semantic_scholar', 'arxiv'],
+                datasets: [{ data: [47, 13, 7, 1, 25, 25], backgroundColor: ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#00f2fe'] }]
+            },
+            options: { responsive: true }
+        });
+    </script>
+</body>
+</html>

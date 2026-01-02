@@ -1,0 +1,29 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T03:10:38.226800",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'EVALUATING MACHINE LEARNING AGENTS'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "EVALUATING MACHINE LEARNING AGENTS",
+        "conferences": null,
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 50
+    }
+  ],
+  "current_step": 1,
+  "metadata": {
+    "query": "EVALUATING MACHINE LEARNING AGENTS",
+    "total_steps": 1,
+    "last_updated": "2026-01-02T03:10:38.242446",
+    "started_at": "2026-01-02T03:09:52.212130",
+    "total_papers": 50
+  }
+}

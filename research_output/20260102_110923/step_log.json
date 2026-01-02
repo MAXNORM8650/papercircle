@@ -1,0 +1,32 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T11:09:56.926059",
+      "agent": "online_search_agent",
+      "action": "Online search: 'self-evolving LLMs'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "self-evolving LLMs",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 50
+    }
+  ],
+  "current_step": 1,
+  "metadata": {
+    "query": "self-evolving LLMs",
+    "total_steps": 1,
+    "last_updated": "2026-01-02T11:09:56.937488",
+    "started_at": "2026-01-02T11:09:25.616038",
+    "total_papers": 50
+  }
+}

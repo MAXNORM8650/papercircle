@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "maths science and friction",
+    "total_papers": 20,
+    "unique_sources": 2,
+    "year_range": {
+      "min": 2023,
+      "max": 2025
+    },
+    "citation_summary": {
+      "total": 9,
+      "average": 3.0
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 18,
+    "papers_with_doi": 10,
+    "processing_steps": 2
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (11) are from 2025",
+      "data": {
+        "year": 2025,
+        "count": 11
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 10 papers (50%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 10
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Advances in Materials Science and Engineering has 7 papers in this collection",
+      "data": {
+        "author": "Advances in Materials Science and Engineering",
+        "count": 7
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Friction by Machine: How to Slow Down Reasoning with Computational Methods...\" has 7 citations",
+      "data": {
+        "title": "Friction by Machine: How to Slow Down Reasoning with Computational Methods",
+        "citations": 7
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: friction, retracted, stir, welding, optimization",
+      "data": {
+        "keywords": {
+          "friction": 9,
+          "retracted": 7,
+          "stir": 7,
+          "welding": 6,
+          "optimization": 4
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "18/20 papers (90%) have direct PDF links",
+      "data": {
+        "with_pdf": 18,
+        "total": 20
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 20 papers related to 'maths science and friction'",
+    "Papers collected from 2 sources: semantic_scholar, arxiv",
+    "Publication years range from 2023 to 2025",
+    "Total citations: 9, Average: 3",
+    "Leading researchers: Advances in Materials Science and Engineering, E. Nordhagen, H. A. Sveinsson"
+  ],
+  "metadata": {
+    "query": "maths science and friction",
+    "total_steps": 2,
+    "last_updated": "2026-01-02T02:29:08.896777",
+    "started_at": "2026-01-02T02:28:16.723278",
+    "total_papers": 20
+  }
+}

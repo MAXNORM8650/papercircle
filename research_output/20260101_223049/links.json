@@ -1,0 +1,224 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "The Promises and Pitfalls of LLM Annotations in Dataset Labeling: a Case Study on Media Bias Detection",
+        "url": "https://aclanthology.org/2025.findings-naacl.75/",
+        "pdf_url": "https://aclanthology.org/2025.findings-naacl.75.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2025
+      },
+      {
+        "title": "Investigating Bias in LLM-Based Bias Detection: Disparities between LLMs and Human Perception",
+        "url": "https://aclanthology.org/2025.coling-main.709/",
+        "pdf_url": "https://aclanthology.org/2025.coling-main.709.pdf",
+        "doi_url": null,
+        "source": "offline_coling",
+        "year": 2025
+      },
+      {
+        "title": "Multi-document Summarization through Multi-document Event Relation Graph Reasoning in LLMs: a case study in Framing Bias Mitigation",
+        "url": "https://aclanthology.org/2025.acl-long.1291/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1291.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Exploring Large Language Models for Effective Rumor Detection on Social Media",
+        "url": "https://aclanthology.org/2025.naacl-long.128/",
+        "pdf_url": "https://aclanthology.org/2025.naacl-long.128.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2025
+      },
+      {
+        "title": "PCoT: Persuasion-Augmented Chain of Thought for Detecting Fake News and Social Media Disinformation",
+        "url": "https://aclanthology.org/2025.acl-long.1215/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1215.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Profiling News Media for Factuality and Bias Using LLMs and the Fact-Checking Methodology of Human Experts",
+        "url": "https://aclanthology.org/2025.findings-acl.45/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.45.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media",
+        "url": "https://aclanthology.org/2025.acl-long.1120/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1120.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Narrative Media Framing in Political Discourse",
+        "url": "https://aclanthology.org/2025.findings-acl.477/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.477.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "CrisisTS: Coupling Social Media Textual Data and Meteorological Time Series for Urgency Classification",
+        "url": "https://aclanthology.org/2025.acl-long.783/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.783.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "ManiTweet: A New Benchmark for Identifying Manipulation of News on Social Media",
+        "url": "https://aclanthology.org/2025.coling-main.739/",
+        "pdf_url": "https://aclanthology.org/2025.coling-main.739.pdf",
+        "doi_url": null,
+        "source": "offline_coling",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "offline_naacl": [
+        {
+          "title": "The Promises and Pitfalls of LLM Annotations in Dataset Labeling: a Case Study on Media Bias Detection",
+          "url": "https://aclanthology.org/2025.findings-naacl.75/",
+          "pdf_url": "https://aclanthology.org/2025.findings-naacl.75.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2025
+        },
+        {
+          "title": "Exploring Large Language Models for Effective Rumor Detection on Social Media",
+          "url": "https://aclanthology.org/2025.naacl-long.128/",
+          "pdf_url": "https://aclanthology.org/2025.naacl-long.128.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2025
+        }
+      ],
+      "offline_coling": [
+        {
+          "title": "Investigating Bias in LLM-Based Bias Detection: Disparities between LLMs and Human Perception",
+          "url": "https://aclanthology.org/2025.coling-main.709/",
+          "pdf_url": "https://aclanthology.org/2025.coling-main.709.pdf",
+          "doi_url": null,
+          "source": "offline_coling",
+          "year": 2025
+        },
+        {
+          "title": "ManiTweet: A New Benchmark for Identifying Manipulation of News on Social Media",
+          "url": "https://aclanthology.org/2025.coling-main.739/",
+          "pdf_url": "https://aclanthology.org/2025.coling-main.739.pdf",
+          "doi_url": null,
+          "source": "offline_coling",
+          "year": 2025
+        }
+      ],
+      "offline_acl": [
+        {
+          "title": "Multi-document Summarization through Multi-document Event Relation Graph Reasoning in LLMs: a case study in Framing Bias Mitigation",
+          "url": "https://aclanthology.org/2025.acl-long.1291/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1291.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "PCoT: Persuasion-Augmented Chain of Thought for Detecting Fake News and Social Media Disinformation",
+          "url": "https://aclanthology.org/2025.acl-long.1215/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1215.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Profiling News Media for Factuality and Bias Using LLMs and the Fact-Checking Methodology of Human Experts",
+          "url": "https://aclanthology.org/2025.findings-acl.45/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.45.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media",
+          "url": "https://aclanthology.org/2025.acl-long.1120/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1120.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Narrative Media Framing in Political Discourse",
+          "url": "https://aclanthology.org/2025.findings-acl.477/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.477.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "CrisisTS: Coupling Social Media Textual Data and Meteorological Time Series for Urgency Classification",
+          "url": "https://aclanthology.org/2025.acl-long.783/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.783.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "The Promises and Pitfalls of LLM Annotations in Dataset Labeling: a Case Study on Media Bias Detection",
+        "pdf": "https://aclanthology.org/2025.findings-naacl.75.pdf"
+      },
+      {
+        "title": "Investigating Bias in LLM-Based Bias Detection: Disparities between LLMs and Human Perception",
+        "pdf": "https://aclanthology.org/2025.coling-main.709.pdf"
+      },
+      {
+        "title": "Multi-document Summarization through Multi-document Event Relation Graph Reasoning in LLMs: a case study in Framing Bias Mitigation",
+        "pdf": "https://aclanthology.org/2025.acl-long.1291.pdf"
+      },
+      {
+        "title": "Exploring Large Language Models for Effective Rumor Detection on Social Media",
+        "pdf": "https://aclanthology.org/2025.naacl-long.128.pdf"
+      },
+      {
+        "title": "PCoT: Persuasion-Augmented Chain of Thought for Detecting Fake News and Social Media Disinformation",
+        "pdf": "https://aclanthology.org/2025.acl-long.1215.pdf"
+      },
+      {
+        "title": "Profiling News Media for Factuality and Bias Using LLMs and the Fact-Checking Methodology of Human Experts",
+        "pdf": "https://aclanthology.org/2025.findings-acl.45.pdf"
+      },
+      {
+        "title": "Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media",
+        "pdf": "https://aclanthology.org/2025.acl-long.1120.pdf"
+      },
+      {
+        "title": "Narrative Media Framing in Political Discourse",
+        "pdf": "https://aclanthology.org/2025.findings-acl.477.pdf"
+      },
+      {
+        "title": "CrisisTS: Coupling Social Media Textual Data and Meteorological Time Series for Urgency Classification",
+        "pdf": "https://aclanthology.org/2025.acl-long.783.pdf"
+      },
+      {
+        "title": "ManiTweet: A New Benchmark for Identifying Manipulation of News on Social Media",
+        "pdf": "https://aclanthology.org/2025.coling-main.739.pdf"
+      }
+    ],
+    "dois_only": []
+  },
+  "metadata": {
+    "query": "LLMs in media",
+    "total_steps": 4,
+    "last_updated": "2026-01-01T22:32:38.484297",
+    "started_at": "2026-01-01T22:30:50.915442",
+    "total_papers": 10
+  }
+}

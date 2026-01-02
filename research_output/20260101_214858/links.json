@@ -1,0 +1,3339 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Query-Efficient Planning with Language Models",
+        "url": "https://openreview.net/forum?id=OPdmIxdkPb",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Virtual Community: A Generative Social World for Embodied AI",
+        "url": "https://openreview.net/forum?id=aRxLDcxFcL",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "DrivingGPT: Unifying Driving World Modeling and Planning with Multi-modal Autoregressive Transformers",
+        "url": "https://iccv.thecvf.com/virtual/2025/poster/2088",
+        "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_DrivingGPT_Unifying_Driving_World_Modeling_and_Planning_with_Multi-modal_Autoregressive_ICCV_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_iccv",
+        "year": 2025
+      },
+      {
+        "title": "From Forecasting to Planning: Policy World Model for Collaborative State-Action Prediction",
+        "url": "https://openreview.net/forum?id=rMQvbxxmLe",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Tree-of-Options: Temporally Extended World Modeling, Planning, and Execution with Large Language Models",
+        "url": "https://openreview.net/forum?id=XdaX5kFXVQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Deliberate Reasoning for LLMs as Structure-aware Planning with Accurate World Model",
+        "url": "https://openreview.net/forum?id=BaMkS6E2Du",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "DiZCo: Planning Zero-Shot Coordination in World Models",
+        "url": "https://openreview.net/forum?id=Y47Ab11TjP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "APEX: Empowering LLMs with Physics-Based Task Planning for Real-time Insight",
+        "url": "https://openreview.net/forum?id=ROB3ALLKIX",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Large Language Models as Commonsense Knowledge for Large-Scale Task Planning",
+        "url": "https://nips.cc/virtual/2023/poster/71394",
+        "pdf_url": "https://openreview.net/pdf?id=Wjp1AYB8lH",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2023
+      },
+      {
+        "title": "Planning with Generative Cognitive Maps",
+        "url": "https://openreview.net/forum?id=Z3nbvxUat0",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Planning with an Ensemble of World Models",
+        "url": "https://openreview.net/forum?id=cvGdPXaydP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "SceneDiffuser++: City-Scale Traffic Simulation via a Generative World Model",
+        "url": "https://cvpr.thecvf.com/virtual/2025/poster/34407",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Tan_SceneDiffuser_City-Scale_Traffic_Simulation_via_a_Generative_World_Model_CVPR_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2025
+      },
+      {
+        "title": "One Demo Is All It Takes: Planning Domain Derivation with LLMs from A Single Demonstration",
+        "url": "https://openreview.net/forum?id=Y1VgLHbzCC",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Dyna-Think: Synergizing Reasoning, Acting, and World Model Simulation in AI Agents",
+        "url": "https://openreview.net/forum?id=0z0xhXRbN3",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "PlanBench: An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change",
+        "url": "https://nips.cc/virtual/2023/poster/73553",
+        "pdf_url": "https://openreview.net/pdf?id=YXogl4uQUO",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2023
+      },
+      {
+        "title": "LLaMA Rider: Spurring Large Language Models to Explore the Open World",
+        "url": "https://openreview.net/forum?id=cos5cegz0c",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "SkillWrapper: Generative Predicate Invention for Skill Abstraction",
+        "url": "https://openreview.net/forum?id=IDdUGp5EJU",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ReSim: Reliable World Simulation for Autonomous Driving",
+        "url": "https://openreview.net/forum?id=T0CiI4gDFB",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "WetBench: LLM-Based Simulation Environment to Evaluate Wet-Lab Experiment Planning and Design",
+        "url": "https://openreview.net/forum?id=SxFOEwQLMT",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "GenEx: Generating an Explorable World",
+        "url": "https://iclr.cc/virtual/2025/poster/30770",
+        "pdf_url": "https://openreview.net/pdf?id=8NlUL0Cv1L",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Teaching Physical Awareness to LLMs through Sounds",
+        "url": "https://icml.cc/virtual/2025/poster/46139",
+        "pdf_url": "https://openreview.net/pdf?id=Aycl60Rhbt",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "UrbanPlanBench: A Comprehensive Assessment of Urban Planning Abilities in Large Language Models",
+        "url": "https://openreview.net/forum?id=Dl5JaX7zoN",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "ChronoEdit: Towards Temporal Reasoning for In-Context Image Editing and World Simulation",
+        "url": "https://openreview.net/forum?id=MbMzoQ91Gk",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "WoW: Scaling Embodied Omni-World Model For Generalizable Manipulation Simulation",
+        "url": "https://openreview.net/forum?id=d6mwFoLkg2",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
+        "url": "https://openreview.net/forum?id=wPEIStHxYH",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "DriveArena: A Closed-loop Generative Simulation Platform for Autonomous Driving",
+        "url": "https://openreview.net/forum?id=4S9bBbX1be",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "CARL: Constraint-Aware Reinforcement Learning for Planning with LLMs",
+        "url": "https://openreview.net/forum?id=5MOGAO0YXd",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Open-World Planning via Lifted Regression with LLM-based Affordances for Embodied Agents",
+        "url": "https://openreview.net/forum?id=pRIPRDALBV",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Closing the Train-Test Gap in World Models for Gradient-Based Planning",
+        "url": "https://openreview.net/forum?id=By4u7V6tAx",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "VLASim: World Modelling via VLM-Directed Abstraction and Simulation from a Single Image",
+        "url": "https://openreview.net/forum?id=GfPwZwZ9xZ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena",
+        "url": "https://openreview.net/forum?id=crMMk4I8Wy",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Learning Hierarchical World Models with Adaptive Temporal Abstractions from Discrete Latent Dynamics",
+        "url": "https://iclr.cc/virtual/2024/poster/18558",
+        "pdf_url": "https://openreview.net/pdf?id=TjCDNssXKU",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Do LLMs Build World Representations? Probing Through the Lens of State Abstraction",
+        "url": "https://neurips.cc/virtual/2024/poster/93786",
+        "pdf_url": "https://openreview.net/pdf?id=lzfzjYuWgY",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "HDFlow: Hierarchical Diffusion-Flow Planning for Long-horizon Robotic Assembly",
+        "url": "https://openreview.net/forum?id=nokbt6AbcM",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Semantic World Models",
+        "url": "https://openreview.net/forum?id=KfaZaYYCvt",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Sparse Imagination for Efficient Visual World Model Planning",
+        "url": "https://openreview.net/forum?id=faxcxKINBC",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Code Driven Planning with Domain-Adaptive Selector",
+        "url": "https://openreview.net/forum?id=yDbJHQlrbf",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "PointWorld: Scaling 3D World Models for In-The-Wild Robotic Manipulation",
+        "url": "https://openreview.net/forum?id=XZ0pRezf4O",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "EDGI: Equivariant Diffusion for Planning with Embodied Agents",
+        "url": "https://nips.cc/virtual/2023/poster/71127",
+        "pdf_url": "https://openreview.net/pdf?id=bpmM6SkDUy",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2023
+      },
+      {
+        "title": "R-WoM: Retrieval-augmented World Model For Computer-use Agents",
+        "url": "https://openreview.net/forum?id=5ZaoXB3MdP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Agent Planning with World Knowledge Model",
+        "url": "https://neurips.cc/virtual/2024/poster/93977",
+        "pdf_url": "https://openreview.net/pdf?id=j6kJSS9O6I",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "LMGenDrive: LLM Reasoning Meets World Models for End-to-End Driving",
+        "url": "https://openreview.net/forum?id=fSnYZZ6v49",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "3D-VLA: A 3D Vision-Language-Action Generative World Model",
+        "url": "https://icml.cc/virtual/2024/poster/34575",
+        "pdf_url": "https://openreview.net/pdf?id=EZcFK8HupF",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "TPML: Task Planning for Multi-UAV System with Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/8913acd46056751a8a9073350aa629473bfb9101",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICCA62789.2024.10591846",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "LLM-Guided Hybrid Architecture for Autonomous Fire Response: Dialog-Driven Planning in Space and Disaster Missions",
+        "url": "https://www.semanticscholar.org/paper/9eba0d93e89d81fb9933e55e7f0a2457389ae951",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/AIIoT65859.2025.11105239",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Position: Prospective of Autonomous Driving - Multimodal LLMs, World Models, Embodied Intelligence, AI Alignment, and Mamba",
+        "url": "https://www.semanticscholar.org/paper/a45dabf50cea2ee2e4a734196059d31145d1c095",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/WACVW65960.2025.00114",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Gen2Sim: Scaling up Robot Learning in Simulation with Generative Models",
+        "url": "https://www.semanticscholar.org/paper/a9c4efebbeda0c38601eee232a07c5c307582140",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICRA57147.2024.10610566",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "On the Prospects of Incorporating Large Language Models (LLMs) in Automated Planning and Scheduling (APS)",
+        "url": "https://www.semanticscholar.org/paper/24ec095f35bc76e2557a63baf5bcc6dd735aabce",
+        "pdf_url": "https://ojs.aaai.org/index.php/ICAPS/article/download/31503/33663",
+        "doi_url": "https://doi.org/10.1609/icaps.v34i1.31503",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Probing Multimodal LLMs as World Models for Driving",
+        "url": "https://www.semanticscholar.org/paper/dcd357113a9ff1d1e8c66d1385173cef85f01617",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/LRA.2025.3608656",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Planning, Creation, Usage: Benchmarking LLMs for Comprehensive Tool Utilization in Real-World Complex Scenarios",
+        "url": "https://www.semanticscholar.org/paper/5a9f79660472e894e482bae011c122f35f9a5095",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2401.17167",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "LLMs as World Models: Data-Driven and Human-Centered Pre-Event Simulation for Disaster Impact Assessment",
+        "url": "https://www.semanticscholar.org/paper/c377613d2cca252962a42fd3acf05d62f687f0c0",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.06355",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic",
+        "url": "https://www.semanticscholar.org/paper/a0fba82ec86a08f4ea7ea4fc3b555bd26a345397",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/978-3-031-73235-5_4",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Grounding LLMs For Robot Task Planning Using Closed-loop State Feedback",
+        "url": "https://www.semanticscholar.org/paper/0ebad08c67e9bb775bd0bd7a0c5acf7555679c2d",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1002/adrr.202500072",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Glue pizza and eat rocks - Exploiting Vulnerabilities in Retrieval-Augmented Generative Models",
+        "url": "https://www.semanticscholar.org/paper/50d65e1bf5cee30b24c3872afc6aabae87f44e66",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2406.19417",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "When LLMs step into the 3D World: A Survey and Meta-Analysis of 3D Tasks via Multi-modal Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/bc3965a843b80e720aa03116d3f2cf3896e40592",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2405.10255",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning",
+        "url": "https://www.semanticscholar.org/paper/4f601b4e561557c7a0bd5a741a54cabaec7dc70e",
+        "pdf_url": "http://arxiv.org/pdf/2305.14909",
+        "doi_url": "https://doi.org/10.48550/arXiv.2305.14909",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Cross-Domain Integration for General Sensor Data Synthesis: Leveraging LLMs and Domain-Specific Generative Models in Collaborative Environments",
+        "url": "https://www.semanticscholar.org/paper/a84da5fa6720df1e3e1833f9fb93d14efdfa9da9",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/JSEN.2024.3480932",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Advancing General Sensor Data Synthesis by Integrating LLMs and Domain-Specific Generative Models",
+        "url": "https://www.semanticscholar.org/paper/258da67287fffa8b88f21ff880a90998fcaf3ae2",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/LSENS.2024.3470748",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search",
+        "url": "https://www.semanticscholar.org/paper/f1239277af35b24e174aeb81a1225dfd1e5ff0c0",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2405.15383",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Language Agents Meet Causality - Bridging LLMs and Causal World Models",
+        "url": "https://www.semanticscholar.org/paper/48b44bd68fe8ca3e738eb871735d70722513263b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2410.19923",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "COMBO: Compositional World Models for Embodied Multi-Agent Cooperation",
+        "url": "https://www.semanticscholar.org/paper/33f421e1c921f10e608ae6249be4b79633909d28",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2404.10775",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Medical World Model: Generative Simulation of Tumor Evolution for Treatment Planning",
+        "url": "https://www.semanticscholar.org/paper/25df1e0d17fdc4665b4105eeb06e6aecf8ff9df0",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.02327",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "AriGraph: Learning Knowledge Graph World Models with Episodic Memory for LLM Agents",
+        "url": "https://www.semanticscholar.org/paper/e2687f80077e8466918e4aeb2ea52e591bfe7e81",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2407.04363",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "The World of Generative AI: Deepfakes and Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/7fc523c5ca675d1126f4846040c16e1a48f9ac75",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2402.04373",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond",
+        "url": "https://www.semanticscholar.org/paper/d7fbdba317e195c3b49dbcdb14b7b52a05bfb3f4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2405.03520",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "SurrealDriver: Designing Generative Driver Agent Simulation Framework in Urban Contexts based on Large Language Model",
+        "url": "https://www.semanticscholar.org/paper/825298ea1933f01f1cfbff0c5e9bca4c60fdb5cd",
+        "pdf_url": "https://arxiv.org/pdf/2309.13193",
+        "doi_url": "https://doi.org/10.48550/arXiv.2309.13193",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "When Prolog Meets Generative Models: a New Approach for Managing Knowledge and Planning in Robotic Applications",
+        "url": "https://www.semanticscholar.org/paper/662f6eb7579a5e27f385023596becc9c21b0ad96",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICRA57147.2024.10610800",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "From Word Models to World Models: Translating from Natural Language to the Probabilistic Language of Thought",
+        "url": "https://www.semanticscholar.org/paper/17d648a0a8ec8a9b30c7bedccbc38b3ed0a5cdda",
+        "pdf_url": "http://arxiv.org/pdf/2306.12672",
+        "doi_url": "https://doi.org/10.48550/arXiv.2306.12672",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Generative Expressive Robot Behaviors using Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/4ab2091901b56b2d94f0fd1e8d18de3469a618ff",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3610977.3634999",
+        "doi_url": "https://doi.org/10.1145/3610977.3634999",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Uncertainty of Thoughts: Uncertainty-Aware Planning Enhances Information Seeking in LLMs",
+        "url": "https://www.semanticscholar.org/paper/8c46669ae82b8110239ff34111348216476dd8b4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.52202/079017-0762",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "LidarDM: Generative LiDAR Simulation in a Generated World",
+        "url": "https://www.semanticscholar.org/paper/c78be14aaf7e48d07c554f55cd69556812d16256",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICRA55743.2025.11128001",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Generative AI and simulation modeling: how should you (not) use large language models like ChatGPT",
+        "url": "https://www.semanticscholar.org/paper/047e9f75a7b6ff60189a7711ce978bf063fb3826",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/sdr.1773",
+        "doi_url": "https://doi.org/10.1002/sdr.1773",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "FLIP: Flow-Centric Generative Planning as General-Purpose Manipulation World Model",
+        "url": "https://www.semanticscholar.org/paper/ce1120ec964019399d17a103e0431e2ddda3a43c",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Advancements and Applications of Generative Artificial Intelligence and Large Language Models on Business Management: A Comprehensive Review",
+        "url": "https://www.semanticscholar.org/paper/535dc052b6d65746d09ee866f826250e1042dc99",
+        "pdf_url": "https://al-kindipublisher.com/index.php/jcsts/article/download/6947/5843",
+        "doi_url": "https://doi.org/10.32996/jcsts.2024.6.1.26",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "LLM-as-BT-Planner: Leveraging LLMs for Behavior Tree Generation in Robot Task Planning",
+        "url": "https://www.semanticscholar.org/paper/7c03cbd425bf4e80fccda67658a43c6f57f8e22a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICRA55743.2025.11128454",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Synthesizing Post-Training Data for LLMs through Multi-Agent Simulation",
+        "url": "https://www.semanticscholar.org/paper/e0ea2443e8af4acc4c8e1729363fc6730d1a29ac",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2410.14251",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Evaluating World Models with LLM for Decision Making",
+        "url": "https://www.semanticscholar.org/paper/7be969e09e91a35a13c1242afc74d6a4a6fd642b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2411.08794",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Cognitive Planning for Object Goal Navigation using Generative AI Models",
+        "url": "https://www.semanticscholar.org/paper/68bd733e6c024044fc5b970cdf7597fdee873f59",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving",
+        "url": "https://www.semanticscholar.org/paper/9e5af074e3022dc74e70ee4f02a8c24d32c5b329",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2408.14197",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "FinGPT: Large Generative Models for a Small Language",
+        "url": "https://www.semanticscholar.org/paper/1a849f298dcd49fe99ebca6749c0564585aa3018",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2311.05640",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Generative AI for Transformative Healthcare: A Comprehensive Study of Emerging Models, Applications, Case Studies, and Limitations",
+        "url": "https://www.semanticscholar.org/paper/0b9d0bee85e4ef4261147f35be885010e62ad1fb",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10440330.pdf",
+        "doi_url": "https://doi.org/10.1109/ACCESS.2024.3367715",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Neural representation in active inference: Using generative models to interact with—and understand—the lived world",
+        "url": "https://www.semanticscholar.org/paper/9ff18d233397e8d683dac3336e6cecc5f48c3566",
+        "pdf_url": "http://arxiv.org/pdf/2310.14810",
+        "doi_url": "https://doi.org/10.1111/nyas.15118",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "TrafficBots: Towards World Models for Autonomous Driving Simulation and Motion Prediction",
+        "url": "https://www.semanticscholar.org/paper/564c10232f544ed46d7dd6d324278598662b4c44",
+        "pdf_url": "https://www.research-collection.ethz.ch/bitstream/20.500.11850/643397/4/TrafficBots_ICRA_23.pdf",
+        "doi_url": "https://doi.org/10.1109/ICRA48891.2023.10161243",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Can LLMs Fix Issues with Reasoning Models? Towards More Likely Models for AI Planning",
+        "url": "https://www.semanticscholar.org/paper/c0360ba128a6865c1fe41b4402c98c84a3e27fcf",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/29984/31727",
+        "doi_url": "https://doi.org/10.1609/aaai.v38i18.29984",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Solving Motion Planning Tasks with a Scalable Generative Model",
+        "url": "https://www.semanticscholar.org/paper/bff0c3d026afc75f82833e90a58fdabcf92fc834",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2407.02797",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "From Simulation to Prediction: Enhancing Digital Twins with Advanced Generative AI Technologies",
+        "url": "https://www.semanticscholar.org/paper/206d97a41e97000839bb3ee9c1b22541d1bc147c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICCA62789.2024.10591881",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "MarS: a Financial Market Simulation Engine Powered by Generative Foundation Model",
+        "url": "https://www.semanticscholar.org/paper/ef0cf7ac825cdea530ea5842314acea2532b5759",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2409.07486",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Enabling Cognitive Process Automation Using LLMs in ERP Systems with Generative AI",
+        "url": "https://www.semanticscholar.org/paper/bd17a9566625b8ad3ee4e640802c41fac57b5190",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.30574/wjaets.2025.15.3.1045",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "GenAI against humanity: nefarious applications of generative artificial intelligence and large language models",
+        "url": "https://www.semanticscholar.org/paper/98d158d4f4c20fc560e8451fd8122cb5ae1cc4fd",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s42001-024-00250-1.pdf",
+        "doi_url": "https://doi.org/10.1007/s42001-024-00250-1",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Chiplet Cloud: Building AI Supercomputers for Serving Large Generative Language Models",
+        "url": "https://www.semanticscholar.org/paper/a595271dd931673f06b184b68c5bf73830d9dc91",
+        "pdf_url": "https://arxiv.org/pdf/2307.02666",
+        "doi_url": "https://doi.org/10.48550/arXiv.2307.02666",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Bench2Drive-R: Turning Real World Data into Reactive Closed-Loop Autonomous Driving Benchmark by Generative Model",
+        "url": "https://www.semanticscholar.org/paper/af064a15da5991efd262426094167608ed630edf",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2412.09647",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models",
+        "url": "https://www.semanticscholar.org/paper/7090d35c316afe869440ede6ad61fdeec85b8bc8",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2401.03360",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "iVideoGPT: Interactive VideoGPTs are Scalable World Models",
+        "url": "https://www.semanticscholar.org/paper/2667a5c50bdb924b46d2e195c92f1047870c1b41",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2405.15223",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "url": "http://arxiv.org/abs/2512.25075v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "url": "http://arxiv.org/abs/2512.25074v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "url": "http://arxiv.org/abs/2512.25073v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "url": "http://arxiv.org/abs/2512.25071v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "url": "http://arxiv.org/abs/2512.25072v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "url": "http://arxiv.org/abs/2512.25070v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+        "url": "http://arxiv.org/abs/2512.25069v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25069v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+        "url": "http://arxiv.org/abs/2512.25068v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25068v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "url": "http://arxiv.org/abs/2512.25067v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "url": "http://arxiv.org/abs/2512.25066v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "url": "http://arxiv.org/abs/2512.25065v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "url": "http://arxiv.org/abs/2512.25064v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+        "url": "http://arxiv.org/abs/2512.25063v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25063v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+        "url": "http://arxiv.org/abs/2512.25061v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25061v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "url": "http://arxiv.org/abs/2512.25059v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The variety of orthogonal frames",
+        "url": "http://arxiv.org/abs/2512.25058v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25058v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The Logical Structure of Physical Laws: A Fixed Point Reconstruction",
+        "url": "http://arxiv.org/abs/2512.25057v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25057v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "url": "http://arxiv.org/abs/2512.25056v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "url": "http://arxiv.org/abs/2512.25055v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Fluid dynamics as intersection problem",
+        "url": "http://arxiv.org/abs/2512.25053v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25053v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+        "url": "http://arxiv.org/abs/2512.25052v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25052v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Bilinear tau forms of quantum Painlevé equations and $\\mathbb{C}^2/\\mathbb{Z}_2$ blowup relations in SUSY gauge theories",
+        "url": "http://arxiv.org/abs/2512.25051v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25051v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+        "url": "http://arxiv.org/abs/2512.25050v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25050v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+        "url": "http://arxiv.org/abs/2512.25048v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25048v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "url": "http://arxiv.org/abs/2512.25046v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "url": "http://arxiv.org/abs/2512.25045v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Primordial black hole dark matter from ultra-slow-roll inflation in Horndeski gravity",
+        "url": "http://arxiv.org/abs/2512.25044v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25044v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "url": "http://arxiv.org/abs/2512.25042v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "On exact Observability for Compactly perturbed infinite dimension system",
+        "url": "http://arxiv.org/abs/2512.25041v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25041v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "url": "http://arxiv.org/abs/2512.25040v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The Hochschild homology of a noncommutative symmetric quotient stack",
+        "url": "http://arxiv.org/abs/2512.25039v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25039v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Anomalous (3+1)d Fermionic Topological Quantum Field Theories via Symmetry Extension",
+        "url": "http://arxiv.org/abs/2512.25038v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25038v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+        "url": "http://arxiv.org/abs/2512.25037v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25037v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Perturbative Kondo destruction and global phase diagram of heavy fermion metals",
+        "url": "http://arxiv.org/abs/2512.25036v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25036v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Large Neutrino-Dark Matter Interactions: From Effective Field Theory to Ultraviolet Completions",
+        "url": "http://arxiv.org/abs/2512.25035v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25035v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Generative Classifiers Avoid Shortcut Solutions",
+        "url": "http://arxiv.org/abs/2512.25034v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25034v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+        "url": "http://arxiv.org/abs/2512.25033v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25033v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Testing Monotonicity in a Finite Population",
+        "url": "http://arxiv.org/abs/2512.25032v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25032v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Fractal conduction pathways governing ionic transport in a glass",
+        "url": "http://arxiv.org/abs/2512.25031v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25031v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Multivariate Generalized Counting Process via Gamma Subordination",
+        "url": "http://arxiv.org/abs/2512.25030v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25030v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Mod $p$ Poincaré duality for $p$-adic period domains",
+        "url": "http://arxiv.org/abs/2512.25029v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25029v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Universal Seesaw Pati-Salam Model with P for Strong CP",
+        "url": "http://arxiv.org/abs/2512.25028v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25028v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Computational Analysis of Disease Progression in Pediatric Pulmonary Arterial Hypertension",
+        "url": "http://arxiv.org/abs/2512.25027v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25027v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Modeling Language as a Sequence of Thoughts",
+        "url": "http://arxiv.org/abs/2512.25026v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25026v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Modewise Additive Factor Model for Matrix Time Series",
+        "url": "http://arxiv.org/abs/2512.25025v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25025v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "On Nonlinear Inertial Transformations",
+        "url": "http://arxiv.org/abs/2512.25024v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25024v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+        "url": "http://arxiv.org/abs/2512.25023v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25023v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Real Riemann Surfaces: Smooth and Discrete",
+        "url": "http://arxiv.org/abs/2512.25022v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25022v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Approximation Algorithms for Fair Repetitive Scheduling",
+        "url": "http://arxiv.org/abs/2512.25020v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25020v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Loop-Level Lepton Flavor Violation and Diphoton Signals in the Minimal Left-Right Symmetric Model",
+        "url": "http://arxiv.org/abs/2512.25019v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25019v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations",
+        "url": "https://openalex.org/W7117737637",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.23328",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.23328",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Hybrid systems for human-centered robotics: combining symbolic and generative AI for flexible and adaptive plan generation and execution",
+        "url": "https://openalex.org/W4417485533",
+        "pdf_url": "https://doi.org/10.5821/dissertation-2117-449392",
+        "doi_url": "https://doi.org/10.5821/dissertation-2117-449392",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "PAN: A World Model for General, Interactable, and Long-Horizon World Simulation",
+        "url": "https://openalex.org/W4416245331",
+        "pdf_url": "https://arxiv.org/pdf/2511.09057",
+        "doi_url": "https://doi.org/10.48550/arxiv.2511.09057",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "AI-Native O-RAN Architectures for 6G: Towards Real-Time Adaptation, Conflict Resolution, and Efficient Resource Management",
+        "url": "https://openalex.org/W4414365797",
+        "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175825547.74922399/v1",
+        "doi_url": "https://doi.org/10.36227/techrxiv.175825547.74922399/v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Emotional AI and the rise of pseudo-intimacy: are we trading authenticity for algorithmic affection?",
+        "url": "https://openalex.org/W4414340090",
+        "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1679324/pdf",
+        "doi_url": "https://doi.org/10.3389/fpsyg.2025.1679324",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Virtual 3D City Model Generation in CityGML",
+        "url": "https://openalex.org/W4414317882",
+        "pdf_url": "https://isprs-annals.copernicus.org/articles/X-4-W6-2025/257/2025/isprs-annals-X-4-W6-2025-257-2025.pdf",
+        "doi_url": "https://doi.org/10.5194/isprs-annals-x-4-w6-2025-257-2025",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Checking Medical Process Conformance by Exploiting LLMs",
+        "url": "https://openalex.org/W4414340659",
+        "pdf_url": "https://www.mdpi.com/2076-3417/15/18/10184/pdf?version=1758263681",
+        "doi_url": "https://doi.org/10.3390/app151810184",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "TPACK-based Professional Development for the AI Era: Fostering Pre-service Teachers' Acceptance of Generative AI in Mathematics Classrooms",
+        "url": "https://openalex.org/W4414290472",
+        "pdf_url": "https://www.researchsquare.com/article/rs-7622889/latest.pdf",
+        "doi_url": "https://doi.org/10.21203/rs.3.rs-7622889/v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Improving Bug Reporting by Fine-Tuning the T5 Model: An Evaluation in a Software Industry",
+        "url": "https://openalex.org/W4414276003",
+        "pdf_url": "https://sol.sbc.org.br/index.php/sast/article/download/36893/36679",
+        "doi_url": "https://doi.org/10.5753/sast.2025.13591",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Evaluating LLMs for Multimodal GUI Test Generation in Android Applications",
+        "url": "https://openalex.org/W4414276228",
+        "pdf_url": "https://sol.sbc.org.br/index.php/sast/article/download/36880/36666",
+        "doi_url": "https://doi.org/10.5753/sast.2025.13852",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "AI Mistakes in the Classroom",
+        "url": "https://openalex.org/W4414276299",
+        "pdf_url": "https://jfi-aof.org/index.php/jfi/article/download/10179/9114",
+        "doi_url": "https://doi.org/10.58886/jfi.v23i2.10179",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "No Consciousness? No Meaning (and no AGI!)",
+        "url": "https://openalex.org/W4414292622",
+        "pdf_url": "https://www.qeios.com/read/DN232Y.5/pdf",
+        "doi_url": "https://doi.org/10.32388/dn232y.5",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Dynamic adaptive algorithms in personalized literacy interventions: A data-driven analysis of vocabulary development outcomes",
+        "url": "https://openalex.org/W4414295341",
+        "pdf_url": "https://www.j-psp.com/download/dynamic-adaptive-algorithms-in-personalized-literacy-interventions-a-data-driven-analysis-of-17079.pdf",
+        "doi_url": "https://doi.org/10.33902/jpsp.202535544",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Hybrid AI-Driven Computer-Aided Engineering Optimization: Large Language Models Versus Regression-Based Models Validated Through Finite-Element Analysis",
+        "url": "https://openalex.org/W4414295467",
+        "pdf_url": "https://www.mdpi.com/2076-3417/15/18/10123/pdf?version=1758095133",
+        "doi_url": "https://doi.org/10.3390/app151810123",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Building Sequences of Ads Relying on Discourse Analysis",
+        "url": "https://openalex.org/W4414315874",
+        "pdf_url": "https://www.preprints.org/frontend/manuscript/cc931dba5de25185abee213de4088103/download_pub",
+        "doi_url": "https://doi.org/10.20944/preprints202509.1423.v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "ADS Safety Validation Based on Human Accidents and Conflicts",
+        "url": "https://openalex.org/W4414171601",
+        "pdf_url": "https://www.cambridge.org/engage/api-gateway/coe/assets/orp/resource/item/68b9c878a94eede154a24d50/original/ads-safety-validation-based-on-human-accidents-and-conflicts.pdf",
+        "doi_url": "https://doi.org/10.33774/coe-2025-0gk1b",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Qualitative Research in an Era of AI: A Pragmatic Approach to Data Analysis, Workflow, and Computation",
+        "url": "https://openalex.org/W4414229989",
+        "pdf_url": "https://osf.io/7bsgy_v1/download",
+        "doi_url": "https://doi.org/10.31235/osf.io/7bsgy_v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Exploring a Multimodal Conversational Agent for Construction Site Safety: A Low-Code Approach to Hazard Detection and Compliance Assessment",
+        "url": "https://openalex.org/W4414240514",
+        "pdf_url": "https://www.mdpi.com/2075-5309/15/18/3352/pdf?version=1758027500",
+        "doi_url": "https://doi.org/10.3390/buildings15183352",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "The Algorithmic Clinician: AI’s Transformative Role in Modern Medicine",
+        "url": "https://openalex.org/W4414245579",
+        "pdf_url": "https://doi.org/10.52106/3069-0641.1011",
+        "doi_url": "https://doi.org/10.52106/3069-0641.1011",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Agentic GenAI for Infectious Disease Management: A Comprehensive Review",
+        "url": "https://openalex.org/W4414304283",
+        "pdf_url": "https://www.preprints.org/frontend/manuscript/c4ad86d032e72d5f690e31e3a613f08e/download_pub",
+        "doi_url": "https://doi.org/10.20944/preprints202509.1333.v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Large Language Model Agents for Biomedicine: A Comprehensive Review of Methods, Evaluations, Challenges, and Future Directions",
+        "url": "https://openalex.org/W4414199736",
+        "pdf_url": "https://www.authorea.com/doi/pdf/10.22541/au.175795684.47167615/v1",
+        "doi_url": "https://doi.org/10.22541/au.175795684.47167615/v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Navigating the Complexity of Bilingual Aphasia: Current Insights and Future Directions",
+        "url": "https://openalex.org/W4414249723",
+        "pdf_url": "https://www.mdpi.com/2076-3425/15/9/989/pdf?version=1757846730",
+        "doi_url": "https://doi.org/10.3390/brainsci15090989",
+        "source": "openalex",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "offline_iclr": [
+        {
+          "title": "Query-Efficient Planning with Language Models",
+          "url": "https://openreview.net/forum?id=OPdmIxdkPb",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Virtual Community: A Generative Social World for Embodied AI",
+          "url": "https://openreview.net/forum?id=aRxLDcxFcL",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Tree-of-Options: Temporally Extended World Modeling, Planning, and Execution with Large Language Models",
+          "url": "https://openreview.net/forum?id=XdaX5kFXVQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Deliberate Reasoning for LLMs as Structure-aware Planning with Accurate World Model",
+          "url": "https://openreview.net/forum?id=BaMkS6E2Du",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "DiZCo: Planning Zero-Shot Coordination in World Models",
+          "url": "https://openreview.net/forum?id=Y47Ab11TjP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "APEX: Empowering LLMs with Physics-Based Task Planning for Real-time Insight",
+          "url": "https://openreview.net/forum?id=ROB3ALLKIX",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Planning with Generative Cognitive Maps",
+          "url": "https://openreview.net/forum?id=Z3nbvxUat0",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Planning with an Ensemble of World Models",
+          "url": "https://openreview.net/forum?id=cvGdPXaydP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "One Demo Is All It Takes: Planning Domain Derivation with LLMs from A Single Demonstration",
+          "url": "https://openreview.net/forum?id=Y1VgLHbzCC",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Dyna-Think: Synergizing Reasoning, Acting, and World Model Simulation in AI Agents",
+          "url": "https://openreview.net/forum?id=0z0xhXRbN3",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LLaMA Rider: Spurring Large Language Models to Explore the Open World",
+          "url": "https://openreview.net/forum?id=cos5cegz0c",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "SkillWrapper: Generative Predicate Invention for Skill Abstraction",
+          "url": "https://openreview.net/forum?id=IDdUGp5EJU",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "WetBench: LLM-Based Simulation Environment to Evaluate Wet-Lab Experiment Planning and Design",
+          "url": "https://openreview.net/forum?id=SxFOEwQLMT",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "GenEx: Generating an Explorable World",
+          "url": "https://iclr.cc/virtual/2025/poster/30770",
+          "pdf_url": "https://openreview.net/pdf?id=8NlUL0Cv1L",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "UrbanPlanBench: A Comprehensive Assessment of Urban Planning Abilities in Large Language Models",
+          "url": "https://openreview.net/forum?id=Dl5JaX7zoN",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "ChronoEdit: Towards Temporal Reasoning for In-Context Image Editing and World Simulation",
+          "url": "https://openreview.net/forum?id=MbMzoQ91Gk",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "WoW: Scaling Embodied Omni-World Model For Generalizable Manipulation Simulation",
+          "url": "https://openreview.net/forum?id=d6mwFoLkg2",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
+          "url": "https://openreview.net/forum?id=wPEIStHxYH",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "DriveArena: A Closed-loop Generative Simulation Platform for Autonomous Driving",
+          "url": "https://openreview.net/forum?id=4S9bBbX1be",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "CARL: Constraint-Aware Reinforcement Learning for Planning with LLMs",
+          "url": "https://openreview.net/forum?id=5MOGAO0YXd",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Open-World Planning via Lifted Regression with LLM-based Affordances for Embodied Agents",
+          "url": "https://openreview.net/forum?id=pRIPRDALBV",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Closing the Train-Test Gap in World Models for Gradient-Based Planning",
+          "url": "https://openreview.net/forum?id=By4u7V6tAx",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "VLASim: World Modelling via VLM-Directed Abstraction and Simulation from a Single Image",
+          "url": "https://openreview.net/forum?id=GfPwZwZ9xZ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena",
+          "url": "https://openreview.net/forum?id=crMMk4I8Wy",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Learning Hierarchical World Models with Adaptive Temporal Abstractions from Discrete Latent Dynamics",
+          "url": "https://iclr.cc/virtual/2024/poster/18558",
+          "pdf_url": "https://openreview.net/pdf?id=TjCDNssXKU",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "HDFlow: Hierarchical Diffusion-Flow Planning for Long-horizon Robotic Assembly",
+          "url": "https://openreview.net/forum?id=nokbt6AbcM",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Semantic World Models",
+          "url": "https://openreview.net/forum?id=KfaZaYYCvt",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Sparse Imagination for Efficient Visual World Model Planning",
+          "url": "https://openreview.net/forum?id=faxcxKINBC",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Code Driven Planning with Domain-Adaptive Selector",
+          "url": "https://openreview.net/forum?id=yDbJHQlrbf",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "PointWorld: Scaling 3D World Models for In-The-Wild Robotic Manipulation",
+          "url": "https://openreview.net/forum?id=XZ0pRezf4O",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "R-WoM: Retrieval-augmented World Model For Computer-use Agents",
+          "url": "https://openreview.net/forum?id=5ZaoXB3MdP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LMGenDrive: LLM Reasoning Meets World Models for End-to-End Driving",
+          "url": "https://openreview.net/forum?id=fSnYZZ6v49",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        }
+      ],
+      "offline_iccv": [
+        {
+          "title": "DrivingGPT: Unifying Driving World Modeling and Planning with Multi-modal Autoregressive Transformers",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/2088",
+          "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_DrivingGPT_Unifying_Driving_World_Modeling_and_Planning_with_Multi-modal_Autoregressive_ICCV_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_iccv",
+          "year": 2025
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "From Forecasting to Planning: Policy World Model for Collaborative State-Action Prediction",
+          "url": "https://openreview.net/forum?id=rMQvbxxmLe",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Large Language Models as Commonsense Knowledge for Large-Scale Task Planning",
+          "url": "https://nips.cc/virtual/2023/poster/71394",
+          "pdf_url": "https://openreview.net/pdf?id=Wjp1AYB8lH",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2023
+        },
+        {
+          "title": "PlanBench: An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change",
+          "url": "https://nips.cc/virtual/2023/poster/73553",
+          "pdf_url": "https://openreview.net/pdf?id=YXogl4uQUO",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2023
+        },
+        {
+          "title": "ReSim: Reliable World Simulation for Autonomous Driving",
+          "url": "https://openreview.net/forum?id=T0CiI4gDFB",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Do LLMs Build World Representations? Probing Through the Lens of State Abstraction",
+          "url": "https://neurips.cc/virtual/2024/poster/93786",
+          "pdf_url": "https://openreview.net/pdf?id=lzfzjYuWgY",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "EDGI: Equivariant Diffusion for Planning with Embodied Agents",
+          "url": "https://nips.cc/virtual/2023/poster/71127",
+          "pdf_url": "https://openreview.net/pdf?id=bpmM6SkDUy",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2023
+        },
+        {
+          "title": "Agent Planning with World Knowledge Model",
+          "url": "https://neurips.cc/virtual/2024/poster/93977",
+          "pdf_url": "https://openreview.net/pdf?id=j6kJSS9O6I",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        }
+      ],
+      "offline_cvpr": [
+        {
+          "title": "SceneDiffuser++: City-Scale Traffic Simulation via a Generative World Model",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/34407",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Tan_SceneDiffuser_City-Scale_Traffic_Simulation_via_a_Generative_World_Model_CVPR_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2025
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "Teaching Physical Awareness to LLMs through Sounds",
+          "url": "https://icml.cc/virtual/2025/poster/46139",
+          "pdf_url": "https://openreview.net/pdf?id=Aycl60Rhbt",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "3D-VLA: A 3D Vision-Language-Action Generative World Model",
+          "url": "https://icml.cc/virtual/2024/poster/34575",
+          "pdf_url": "https://openreview.net/pdf?id=EZcFK8HupF",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "TPML: Task Planning for Multi-UAV System with Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/8913acd46056751a8a9073350aa629473bfb9101",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICCA62789.2024.10591846",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "LLM-Guided Hybrid Architecture for Autonomous Fire Response: Dialog-Driven Planning in Space and Disaster Missions",
+          "url": "https://www.semanticscholar.org/paper/9eba0d93e89d81fb9933e55e7f0a2457389ae951",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/AIIoT65859.2025.11105239",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Position: Prospective of Autonomous Driving - Multimodal LLMs, World Models, Embodied Intelligence, AI Alignment, and Mamba",
+          "url": "https://www.semanticscholar.org/paper/a45dabf50cea2ee2e4a734196059d31145d1c095",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/WACVW65960.2025.00114",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Gen2Sim: Scaling up Robot Learning in Simulation with Generative Models",
+          "url": "https://www.semanticscholar.org/paper/a9c4efebbeda0c38601eee232a07c5c307582140",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICRA57147.2024.10610566",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "On the Prospects of Incorporating Large Language Models (LLMs) in Automated Planning and Scheduling (APS)",
+          "url": "https://www.semanticscholar.org/paper/24ec095f35bc76e2557a63baf5bcc6dd735aabce",
+          "pdf_url": "https://ojs.aaai.org/index.php/ICAPS/article/download/31503/33663",
+          "doi_url": "https://doi.org/10.1609/icaps.v34i1.31503",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Probing Multimodal LLMs as World Models for Driving",
+          "url": "https://www.semanticscholar.org/paper/dcd357113a9ff1d1e8c66d1385173cef85f01617",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/LRA.2025.3608656",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Planning, Creation, Usage: Benchmarking LLMs for Comprehensive Tool Utilization in Real-World Complex Scenarios",
+          "url": "https://www.semanticscholar.org/paper/5a9f79660472e894e482bae011c122f35f9a5095",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2401.17167",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "LLMs as World Models: Data-Driven and Human-Centered Pre-Event Simulation for Disaster Impact Assessment",
+          "url": "https://www.semanticscholar.org/paper/c377613d2cca252962a42fd3acf05d62f687f0c0",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.06355",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic",
+          "url": "https://www.semanticscholar.org/paper/a0fba82ec86a08f4ea7ea4fc3b555bd26a345397",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/978-3-031-73235-5_4",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Grounding LLMs For Robot Task Planning Using Closed-loop State Feedback",
+          "url": "https://www.semanticscholar.org/paper/0ebad08c67e9bb775bd0bd7a0c5acf7555679c2d",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1002/adrr.202500072",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Glue pizza and eat rocks - Exploiting Vulnerabilities in Retrieval-Augmented Generative Models",
+          "url": "https://www.semanticscholar.org/paper/50d65e1bf5cee30b24c3872afc6aabae87f44e66",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2406.19417",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "When LLMs step into the 3D World: A Survey and Meta-Analysis of 3D Tasks via Multi-modal Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/bc3965a843b80e720aa03116d3f2cf3896e40592",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2405.10255",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning",
+          "url": "https://www.semanticscholar.org/paper/4f601b4e561557c7a0bd5a741a54cabaec7dc70e",
+          "pdf_url": "http://arxiv.org/pdf/2305.14909",
+          "doi_url": "https://doi.org/10.48550/arXiv.2305.14909",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Cross-Domain Integration for General Sensor Data Synthesis: Leveraging LLMs and Domain-Specific Generative Models in Collaborative Environments",
+          "url": "https://www.semanticscholar.org/paper/a84da5fa6720df1e3e1833f9fb93d14efdfa9da9",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/JSEN.2024.3480932",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Advancing General Sensor Data Synthesis by Integrating LLMs and Domain-Specific Generative Models",
+          "url": "https://www.semanticscholar.org/paper/258da67287fffa8b88f21ff880a90998fcaf3ae2",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/LSENS.2024.3470748",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search",
+          "url": "https://www.semanticscholar.org/paper/f1239277af35b24e174aeb81a1225dfd1e5ff0c0",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2405.15383",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Language Agents Meet Causality - Bridging LLMs and Causal World Models",
+          "url": "https://www.semanticscholar.org/paper/48b44bd68fe8ca3e738eb871735d70722513263b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2410.19923",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "COMBO: Compositional World Models for Embodied Multi-Agent Cooperation",
+          "url": "https://www.semanticscholar.org/paper/33f421e1c921f10e608ae6249be4b79633909d28",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2404.10775",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Medical World Model: Generative Simulation of Tumor Evolution for Treatment Planning",
+          "url": "https://www.semanticscholar.org/paper/25df1e0d17fdc4665b4105eeb06e6aecf8ff9df0",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.02327",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "AriGraph: Learning Knowledge Graph World Models with Episodic Memory for LLM Agents",
+          "url": "https://www.semanticscholar.org/paper/e2687f80077e8466918e4aeb2ea52e591bfe7e81",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2407.04363",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "The World of Generative AI: Deepfakes and Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/7fc523c5ca675d1126f4846040c16e1a48f9ac75",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2402.04373",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond",
+          "url": "https://www.semanticscholar.org/paper/d7fbdba317e195c3b49dbcdb14b7b52a05bfb3f4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2405.03520",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "SurrealDriver: Designing Generative Driver Agent Simulation Framework in Urban Contexts based on Large Language Model",
+          "url": "https://www.semanticscholar.org/paper/825298ea1933f01f1cfbff0c5e9bca4c60fdb5cd",
+          "pdf_url": "https://arxiv.org/pdf/2309.13193",
+          "doi_url": "https://doi.org/10.48550/arXiv.2309.13193",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "When Prolog Meets Generative Models: a New Approach for Managing Knowledge and Planning in Robotic Applications",
+          "url": "https://www.semanticscholar.org/paper/662f6eb7579a5e27f385023596becc9c21b0ad96",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICRA57147.2024.10610800",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "From Word Models to World Models: Translating from Natural Language to the Probabilistic Language of Thought",
+          "url": "https://www.semanticscholar.org/paper/17d648a0a8ec8a9b30c7bedccbc38b3ed0a5cdda",
+          "pdf_url": "http://arxiv.org/pdf/2306.12672",
+          "doi_url": "https://doi.org/10.48550/arXiv.2306.12672",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Generative Expressive Robot Behaviors using Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/4ab2091901b56b2d94f0fd1e8d18de3469a618ff",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3610977.3634999",
+          "doi_url": "https://doi.org/10.1145/3610977.3634999",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Uncertainty of Thoughts: Uncertainty-Aware Planning Enhances Information Seeking in LLMs",
+          "url": "https://www.semanticscholar.org/paper/8c46669ae82b8110239ff34111348216476dd8b4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.52202/079017-0762",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "LidarDM: Generative LiDAR Simulation in a Generated World",
+          "url": "https://www.semanticscholar.org/paper/c78be14aaf7e48d07c554f55cd69556812d16256",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICRA55743.2025.11128001",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Generative AI and simulation modeling: how should you (not) use large language models like ChatGPT",
+          "url": "https://www.semanticscholar.org/paper/047e9f75a7b6ff60189a7711ce978bf063fb3826",
+          "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/sdr.1773",
+          "doi_url": "https://doi.org/10.1002/sdr.1773",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "FLIP: Flow-Centric Generative Planning as General-Purpose Manipulation World Model",
+          "url": "https://www.semanticscholar.org/paper/ce1120ec964019399d17a103e0431e2ddda3a43c",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Advancements and Applications of Generative Artificial Intelligence and Large Language Models on Business Management: A Comprehensive Review",
+          "url": "https://www.semanticscholar.org/paper/535dc052b6d65746d09ee866f826250e1042dc99",
+          "pdf_url": "https://al-kindipublisher.com/index.php/jcsts/article/download/6947/5843",
+          "doi_url": "https://doi.org/10.32996/jcsts.2024.6.1.26",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "LLM-as-BT-Planner: Leveraging LLMs for Behavior Tree Generation in Robot Task Planning",
+          "url": "https://www.semanticscholar.org/paper/7c03cbd425bf4e80fccda67658a43c6f57f8e22a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICRA55743.2025.11128454",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Synthesizing Post-Training Data for LLMs through Multi-Agent Simulation",
+          "url": "https://www.semanticscholar.org/paper/e0ea2443e8af4acc4c8e1729363fc6730d1a29ac",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2410.14251",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Evaluating World Models with LLM for Decision Making",
+          "url": "https://www.semanticscholar.org/paper/7be969e09e91a35a13c1242afc74d6a4a6fd642b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2411.08794",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Cognitive Planning for Object Goal Navigation using Generative AI Models",
+          "url": "https://www.semanticscholar.org/paper/68bd733e6c024044fc5b970cdf7597fdee873f59",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving",
+          "url": "https://www.semanticscholar.org/paper/9e5af074e3022dc74e70ee4f02a8c24d32c5b329",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2408.14197",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "FinGPT: Large Generative Models for a Small Language",
+          "url": "https://www.semanticscholar.org/paper/1a849f298dcd49fe99ebca6749c0564585aa3018",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2311.05640",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Generative AI for Transformative Healthcare: A Comprehensive Study of Emerging Models, Applications, Case Studies, and Limitations",
+          "url": "https://www.semanticscholar.org/paper/0b9d0bee85e4ef4261147f35be885010e62ad1fb",
+          "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10440330.pdf",
+          "doi_url": "https://doi.org/10.1109/ACCESS.2024.3367715",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Neural representation in active inference: Using generative models to interact with—and understand—the lived world",
+          "url": "https://www.semanticscholar.org/paper/9ff18d233397e8d683dac3336e6cecc5f48c3566",
+          "pdf_url": "http://arxiv.org/pdf/2310.14810",
+          "doi_url": "https://doi.org/10.1111/nyas.15118",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "TrafficBots: Towards World Models for Autonomous Driving Simulation and Motion Prediction",
+          "url": "https://www.semanticscholar.org/paper/564c10232f544ed46d7dd6d324278598662b4c44",
+          "pdf_url": "https://www.research-collection.ethz.ch/bitstream/20.500.11850/643397/4/TrafficBots_ICRA_23.pdf",
+          "doi_url": "https://doi.org/10.1109/ICRA48891.2023.10161243",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Can LLMs Fix Issues with Reasoning Models? Towards More Likely Models for AI Planning",
+          "url": "https://www.semanticscholar.org/paper/c0360ba128a6865c1fe41b4402c98c84a3e27fcf",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/29984/31727",
+          "doi_url": "https://doi.org/10.1609/aaai.v38i18.29984",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Solving Motion Planning Tasks with a Scalable Generative Model",
+          "url": "https://www.semanticscholar.org/paper/bff0c3d026afc75f82833e90a58fdabcf92fc834",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2407.02797",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "From Simulation to Prediction: Enhancing Digital Twins with Advanced Generative AI Technologies",
+          "url": "https://www.semanticscholar.org/paper/206d97a41e97000839bb3ee9c1b22541d1bc147c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICCA62789.2024.10591881",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "MarS: a Financial Market Simulation Engine Powered by Generative Foundation Model",
+          "url": "https://www.semanticscholar.org/paper/ef0cf7ac825cdea530ea5842314acea2532b5759",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2409.07486",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Enabling Cognitive Process Automation Using LLMs in ERP Systems with Generative AI",
+          "url": "https://www.semanticscholar.org/paper/bd17a9566625b8ad3ee4e640802c41fac57b5190",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.30574/wjaets.2025.15.3.1045",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "GenAI against humanity: nefarious applications of generative artificial intelligence and large language models",
+          "url": "https://www.semanticscholar.org/paper/98d158d4f4c20fc560e8451fd8122cb5ae1cc4fd",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s42001-024-00250-1.pdf",
+          "doi_url": "https://doi.org/10.1007/s42001-024-00250-1",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Chiplet Cloud: Building AI Supercomputers for Serving Large Generative Language Models",
+          "url": "https://www.semanticscholar.org/paper/a595271dd931673f06b184b68c5bf73830d9dc91",
+          "pdf_url": "https://arxiv.org/pdf/2307.02666",
+          "doi_url": "https://doi.org/10.48550/arXiv.2307.02666",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Bench2Drive-R: Turning Real World Data into Reactive Closed-Loop Autonomous Driving Benchmark by Generative Model",
+          "url": "https://www.semanticscholar.org/paper/af064a15da5991efd262426094167608ed630edf",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2412.09647",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models",
+          "url": "https://www.semanticscholar.org/paper/7090d35c316afe869440ede6ad61fdeec85b8bc8",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2401.03360",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "iVideoGPT: Interactive VideoGPTs are Scalable World Models",
+          "url": "https://www.semanticscholar.org/paper/2667a5c50bdb924b46d2e195c92f1047870c1b41",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2405.15223",
+          "source": "semantic_scholar",
+          "year": 2024
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+          "url": "http://arxiv.org/abs/2512.25075v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+          "url": "http://arxiv.org/abs/2512.25074v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+          "url": "http://arxiv.org/abs/2512.25073v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+          "url": "http://arxiv.org/abs/2512.25071v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Coordinated Humanoid Manipulation with Choice Policies",
+          "url": "http://arxiv.org/abs/2512.25072v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Scaling Open-Ended Reasoning to Predict the Future",
+          "url": "http://arxiv.org/abs/2512.25070v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+          "url": "http://arxiv.org/abs/2512.25069v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25069v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+          "url": "http://arxiv.org/abs/2512.25068v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25068v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+          "url": "http://arxiv.org/abs/2512.25067v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+          "url": "http://arxiv.org/abs/2512.25066v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+          "url": "http://arxiv.org/abs/2512.25065v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+          "url": "http://arxiv.org/abs/2512.25064v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+          "url": "http://arxiv.org/abs/2512.25063v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25063v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+          "url": "http://arxiv.org/abs/2512.25061v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25061v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+          "url": "http://arxiv.org/abs/2512.25059v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The variety of orthogonal frames",
+          "url": "http://arxiv.org/abs/2512.25058v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25058v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The Logical Structure of Physical Laws: A Fixed Point Reconstruction",
+          "url": "http://arxiv.org/abs/2512.25057v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25057v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+          "url": "http://arxiv.org/abs/2512.25056v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+          "url": "http://arxiv.org/abs/2512.25055v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Fluid dynamics as intersection problem",
+          "url": "http://arxiv.org/abs/2512.25053v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25053v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+          "url": "http://arxiv.org/abs/2512.25052v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25052v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bilinear tau forms of quantum Painlevé equations and $\\mathbb{C}^2/\\mathbb{Z}_2$ blowup relations in SUSY gauge theories",
+          "url": "http://arxiv.org/abs/2512.25051v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25051v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+          "url": "http://arxiv.org/abs/2512.25050v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25050v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+          "url": "http://arxiv.org/abs/2512.25048v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25048v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Extreme nonlinear optics in optical fibers",
+          "url": "http://arxiv.org/abs/2512.25046v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+          "url": "http://arxiv.org/abs/2512.25045v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Primordial black hole dark matter from ultra-slow-roll inflation in Horndeski gravity",
+          "url": "http://arxiv.org/abs/2512.25044v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25044v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Compound Estimation for Binomials",
+          "url": "http://arxiv.org/abs/2512.25042v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "On exact Observability for Compactly perturbed infinite dimension system",
+          "url": "http://arxiv.org/abs/2512.25041v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25041v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+          "url": "http://arxiv.org/abs/2512.25040v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The Hochschild homology of a noncommutative symmetric quotient stack",
+          "url": "http://arxiv.org/abs/2512.25039v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25039v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Anomalous (3+1)d Fermionic Topological Quantum Field Theories via Symmetry Extension",
+          "url": "http://arxiv.org/abs/2512.25038v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25038v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+          "url": "http://arxiv.org/abs/2512.25037v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25037v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Perturbative Kondo destruction and global phase diagram of heavy fermion metals",
+          "url": "http://arxiv.org/abs/2512.25036v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25036v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Large Neutrino-Dark Matter Interactions: From Effective Field Theory to Ultraviolet Completions",
+          "url": "http://arxiv.org/abs/2512.25035v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25035v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Generative Classifiers Avoid Shortcut Solutions",
+          "url": "http://arxiv.org/abs/2512.25034v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25034v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+          "url": "http://arxiv.org/abs/2512.25033v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25033v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Testing Monotonicity in a Finite Population",
+          "url": "http://arxiv.org/abs/2512.25032v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25032v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Fractal conduction pathways governing ionic transport in a glass",
+          "url": "http://arxiv.org/abs/2512.25031v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25031v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Multivariate Generalized Counting Process via Gamma Subordination",
+          "url": "http://arxiv.org/abs/2512.25030v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25030v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Mod $p$ Poincaré duality for $p$-adic period domains",
+          "url": "http://arxiv.org/abs/2512.25029v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25029v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Universal Seesaw Pati-Salam Model with P for Strong CP",
+          "url": "http://arxiv.org/abs/2512.25028v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25028v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Computational Analysis of Disease Progression in Pediatric Pulmonary Arterial Hypertension",
+          "url": "http://arxiv.org/abs/2512.25027v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25027v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Modeling Language as a Sequence of Thoughts",
+          "url": "http://arxiv.org/abs/2512.25026v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25026v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Modewise Additive Factor Model for Matrix Time Series",
+          "url": "http://arxiv.org/abs/2512.25025v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25025v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "On Nonlinear Inertial Transformations",
+          "url": "http://arxiv.org/abs/2512.25024v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25024v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+          "url": "http://arxiv.org/abs/2512.25023v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25023v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Real Riemann Surfaces: Smooth and Discrete",
+          "url": "http://arxiv.org/abs/2512.25022v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25022v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Approximation Algorithms for Fair Repetitive Scheduling",
+          "url": "http://arxiv.org/abs/2512.25020v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25020v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Loop-Level Lepton Flavor Violation and Diphoton Signals in the Minimal Left-Right Symmetric Model",
+          "url": "http://arxiv.org/abs/2512.25019v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25019v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ],
+      "openalex": [
+        {
+          "title": "CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations",
+          "url": "https://openalex.org/W7117737637",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.23328",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.23328",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Hybrid systems for human-centered robotics: combining symbolic and generative AI for flexible and adaptive plan generation and execution",
+          "url": "https://openalex.org/W4417485533",
+          "pdf_url": "https://doi.org/10.5821/dissertation-2117-449392",
+          "doi_url": "https://doi.org/10.5821/dissertation-2117-449392",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "PAN: A World Model for General, Interactable, and Long-Horizon World Simulation",
+          "url": "https://openalex.org/W4416245331",
+          "pdf_url": "https://arxiv.org/pdf/2511.09057",
+          "doi_url": "https://doi.org/10.48550/arxiv.2511.09057",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "AI-Native O-RAN Architectures for 6G: Towards Real-Time Adaptation, Conflict Resolution, and Efficient Resource Management",
+          "url": "https://openalex.org/W4414365797",
+          "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175825547.74922399/v1",
+          "doi_url": "https://doi.org/10.36227/techrxiv.175825547.74922399/v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Emotional AI and the rise of pseudo-intimacy: are we trading authenticity for algorithmic affection?",
+          "url": "https://openalex.org/W4414340090",
+          "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1679324/pdf",
+          "doi_url": "https://doi.org/10.3389/fpsyg.2025.1679324",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Virtual 3D City Model Generation in CityGML",
+          "url": "https://openalex.org/W4414317882",
+          "pdf_url": "https://isprs-annals.copernicus.org/articles/X-4-W6-2025/257/2025/isprs-annals-X-4-W6-2025-257-2025.pdf",
+          "doi_url": "https://doi.org/10.5194/isprs-annals-x-4-w6-2025-257-2025",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Checking Medical Process Conformance by Exploiting LLMs",
+          "url": "https://openalex.org/W4414340659",
+          "pdf_url": "https://www.mdpi.com/2076-3417/15/18/10184/pdf?version=1758263681",
+          "doi_url": "https://doi.org/10.3390/app151810184",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "TPACK-based Professional Development for the AI Era: Fostering Pre-service Teachers' Acceptance of Generative AI in Mathematics Classrooms",
+          "url": "https://openalex.org/W4414290472",
+          "pdf_url": "https://www.researchsquare.com/article/rs-7622889/latest.pdf",
+          "doi_url": "https://doi.org/10.21203/rs.3.rs-7622889/v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Improving Bug Reporting by Fine-Tuning the T5 Model: An Evaluation in a Software Industry",
+          "url": "https://openalex.org/W4414276003",
+          "pdf_url": "https://sol.sbc.org.br/index.php/sast/article/download/36893/36679",
+          "doi_url": "https://doi.org/10.5753/sast.2025.13591",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Evaluating LLMs for Multimodal GUI Test Generation in Android Applications",
+          "url": "https://openalex.org/W4414276228",
+          "pdf_url": "https://sol.sbc.org.br/index.php/sast/article/download/36880/36666",
+          "doi_url": "https://doi.org/10.5753/sast.2025.13852",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "AI Mistakes in the Classroom",
+          "url": "https://openalex.org/W4414276299",
+          "pdf_url": "https://jfi-aof.org/index.php/jfi/article/download/10179/9114",
+          "doi_url": "https://doi.org/10.58886/jfi.v23i2.10179",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "No Consciousness? No Meaning (and no AGI!)",
+          "url": "https://openalex.org/W4414292622",
+          "pdf_url": "https://www.qeios.com/read/DN232Y.5/pdf",
+          "doi_url": "https://doi.org/10.32388/dn232y.5",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Dynamic adaptive algorithms in personalized literacy interventions: A data-driven analysis of vocabulary development outcomes",
+          "url": "https://openalex.org/W4414295341",
+          "pdf_url": "https://www.j-psp.com/download/dynamic-adaptive-algorithms-in-personalized-literacy-interventions-a-data-driven-analysis-of-17079.pdf",
+          "doi_url": "https://doi.org/10.33902/jpsp.202535544",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Hybrid AI-Driven Computer-Aided Engineering Optimization: Large Language Models Versus Regression-Based Models Validated Through Finite-Element Analysis",
+          "url": "https://openalex.org/W4414295467",
+          "pdf_url": "https://www.mdpi.com/2076-3417/15/18/10123/pdf?version=1758095133",
+          "doi_url": "https://doi.org/10.3390/app151810123",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Building Sequences of Ads Relying on Discourse Analysis",
+          "url": "https://openalex.org/W4414315874",
+          "pdf_url": "https://www.preprints.org/frontend/manuscript/cc931dba5de25185abee213de4088103/download_pub",
+          "doi_url": "https://doi.org/10.20944/preprints202509.1423.v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "ADS Safety Validation Based on Human Accidents and Conflicts",
+          "url": "https://openalex.org/W4414171601",
+          "pdf_url": "https://www.cambridge.org/engage/api-gateway/coe/assets/orp/resource/item/68b9c878a94eede154a24d50/original/ads-safety-validation-based-on-human-accidents-and-conflicts.pdf",
+          "doi_url": "https://doi.org/10.33774/coe-2025-0gk1b",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Qualitative Research in an Era of AI: A Pragmatic Approach to Data Analysis, Workflow, and Computation",
+          "url": "https://openalex.org/W4414229989",
+          "pdf_url": "https://osf.io/7bsgy_v1/download",
+          "doi_url": "https://doi.org/10.31235/osf.io/7bsgy_v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Exploring a Multimodal Conversational Agent for Construction Site Safety: A Low-Code Approach to Hazard Detection and Compliance Assessment",
+          "url": "https://openalex.org/W4414240514",
+          "pdf_url": "https://www.mdpi.com/2075-5309/15/18/3352/pdf?version=1758027500",
+          "doi_url": "https://doi.org/10.3390/buildings15183352",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "The Algorithmic Clinician: AI’s Transformative Role in Modern Medicine",
+          "url": "https://openalex.org/W4414245579",
+          "pdf_url": "https://doi.org/10.52106/3069-0641.1011",
+          "doi_url": "https://doi.org/10.52106/3069-0641.1011",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Agentic GenAI for Infectious Disease Management: A Comprehensive Review",
+          "url": "https://openalex.org/W4414304283",
+          "pdf_url": "https://www.preprints.org/frontend/manuscript/c4ad86d032e72d5f690e31e3a613f08e/download_pub",
+          "doi_url": "https://doi.org/10.20944/preprints202509.1333.v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Large Language Model Agents for Biomedicine: A Comprehensive Review of Methods, Evaluations, Challenges, and Future Directions",
+          "url": "https://openalex.org/W4414199736",
+          "pdf_url": "https://www.authorea.com/doi/pdf/10.22541/au.175795684.47167615/v1",
+          "doi_url": "https://doi.org/10.22541/au.175795684.47167615/v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Navigating the Complexity of Bilingual Aphasia: Current Insights and Future Directions",
+          "url": "https://openalex.org/W4414249723",
+          "pdf_url": "https://www.mdpi.com/2076-3425/15/9/989/pdf?version=1757846730",
+          "doi_url": "https://doi.org/10.3390/brainsci15090989",
+          "source": "openalex",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "DrivingGPT: Unifying Driving World Modeling and Planning with Multi-modal Autoregressive Transformers",
+        "pdf": "https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_DrivingGPT_Unifying_Driving_World_Modeling_and_Planning_with_Multi-modal_Autoregressive_ICCV_2025_paper.pdf"
+      },
+      {
+        "title": "Large Language Models as Commonsense Knowledge for Large-Scale Task Planning",
+        "pdf": "https://openreview.net/pdf?id=Wjp1AYB8lH"
+      },
+      {
+        "title": "SceneDiffuser++: City-Scale Traffic Simulation via a Generative World Model",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/papers/Tan_SceneDiffuser_City-Scale_Traffic_Simulation_via_a_Generative_World_Model_CVPR_2025_paper.pdf"
+      },
+      {
+        "title": "PlanBench: An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change",
+        "pdf": "https://openreview.net/pdf?id=YXogl4uQUO"
+      },
+      {
+        "title": "GenEx: Generating an Explorable World",
+        "pdf": "https://openreview.net/pdf?id=8NlUL0Cv1L"
+      },
+      {
+        "title": "Teaching Physical Awareness to LLMs through Sounds",
+        "pdf": "https://openreview.net/pdf?id=Aycl60Rhbt"
+      },
+      {
+        "title": "Learning Hierarchical World Models with Adaptive Temporal Abstractions from Discrete Latent Dynamics",
+        "pdf": "https://openreview.net/pdf?id=TjCDNssXKU"
+      },
+      {
+        "title": "Do LLMs Build World Representations? Probing Through the Lens of State Abstraction",
+        "pdf": "https://openreview.net/pdf?id=lzfzjYuWgY"
+      },
+      {
+        "title": "EDGI: Equivariant Diffusion for Planning with Embodied Agents",
+        "pdf": "https://openreview.net/pdf?id=bpmM6SkDUy"
+      },
+      {
+        "title": "Agent Planning with World Knowledge Model",
+        "pdf": "https://openreview.net/pdf?id=j6kJSS9O6I"
+      },
+      {
+        "title": "3D-VLA: A 3D Vision-Language-Action Generative World Model",
+        "pdf": "https://openreview.net/pdf?id=EZcFK8HupF"
+      },
+      {
+        "title": "On the Prospects of Incorporating Large Language Models (LLMs) in Automated Planning and Scheduling (APS)",
+        "pdf": "https://ojs.aaai.org/index.php/ICAPS/article/download/31503/33663"
+      },
+      {
+        "title": "Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning",
+        "pdf": "http://arxiv.org/pdf/2305.14909"
+      },
+      {
+        "title": "SurrealDriver: Designing Generative Driver Agent Simulation Framework in Urban Contexts based on Large Language Model",
+        "pdf": "https://arxiv.org/pdf/2309.13193"
+      },
+      {
+        "title": "From Word Models to World Models: Translating from Natural Language to the Probabilistic Language of Thought",
+        "pdf": "http://arxiv.org/pdf/2306.12672"
+      },
+      {
+        "title": "Generative Expressive Robot Behaviors using Large Language Models",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3610977.3634999"
+      },
+      {
+        "title": "Generative AI and simulation modeling: how should you (not) use large language models like ChatGPT",
+        "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/sdr.1773"
+      },
+      {
+        "title": "Advancements and Applications of Generative Artificial Intelligence and Large Language Models on Business Management: A Comprehensive Review",
+        "pdf": "https://al-kindipublisher.com/index.php/jcsts/article/download/6947/5843"
+      },
+      {
+        "title": "Generative AI for Transformative Healthcare: A Comprehensive Study of Emerging Models, Applications, Case Studies, and Limitations",
+        "pdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10440330.pdf"
+      },
+      {
+        "title": "Neural representation in active inference: Using generative models to interact with—and understand—the lived world",
+        "pdf": "http://arxiv.org/pdf/2310.14810"
+      },
+      {
+        "title": "TrafficBots: Towards World Models for Autonomous Driving Simulation and Motion Prediction",
+        "pdf": "https://www.research-collection.ethz.ch/bitstream/20.500.11850/643397/4/TrafficBots_ICRA_23.pdf"
+      },
+      {
+        "title": "Can LLMs Fix Issues with Reasoning Models? Towards More Likely Models for AI Planning",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/download/29984/31727"
+      },
+      {
+        "title": "GenAI against humanity: nefarious applications of generative artificial intelligence and large language models",
+        "pdf": "https://link.springer.com/content/pdf/10.1007/s42001-024-00250-1.pdf"
+      },
+      {
+        "title": "Chiplet Cloud: Building AI Supercomputers for Serving Large Generative Language Models",
+        "pdf": "https://arxiv.org/pdf/2307.02666"
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "pdf": "https://arxiv.org/pdf/2512.25075v1"
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "pdf": "https://arxiv.org/pdf/2512.25074v1"
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2512.25073v1"
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "pdf": "https://arxiv.org/pdf/2512.25071v1"
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "pdf": "https://arxiv.org/pdf/2512.25072v1"
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "pdf": "https://arxiv.org/pdf/2512.25070v1"
+      },
+      {
+        "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+        "pdf": "https://arxiv.org/pdf/2512.25069v1"
+      },
+      {
+        "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+        "pdf": "https://arxiv.org/pdf/2512.25068v1"
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "pdf": "https://arxiv.org/pdf/2512.25067v1"
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "pdf": "https://arxiv.org/pdf/2512.25066v1"
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "pdf": "https://arxiv.org/pdf/2512.25065v1"
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "pdf": "https://arxiv.org/pdf/2512.25064v1"
+      },
+      {
+        "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+        "pdf": "https://arxiv.org/pdf/2512.25063v1"
+      },
+      {
+        "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+        "pdf": "https://arxiv.org/pdf/2512.25061v1"
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "pdf": "https://arxiv.org/pdf/2512.25059v1"
+      },
+      {
+        "title": "The variety of orthogonal frames",
+        "pdf": "https://arxiv.org/pdf/2512.25058v1"
+      },
+      {
+        "title": "The Logical Structure of Physical Laws: A Fixed Point Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2512.25057v1"
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "pdf": "https://arxiv.org/pdf/2512.25056v1"
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "pdf": "https://arxiv.org/pdf/2512.25055v1"
+      },
+      {
+        "title": "Fluid dynamics as intersection problem",
+        "pdf": "https://arxiv.org/pdf/2512.25053v1"
+      },
+      {
+        "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+        "pdf": "https://arxiv.org/pdf/2512.25052v1"
+      },
+      {
+        "title": "Bilinear tau forms of quantum Painlevé equations and $\\mathbb{C}^2/\\mathbb{Z}_2$ blowup relations in SUSY gauge theories",
+        "pdf": "https://arxiv.org/pdf/2512.25051v1"
+      },
+      {
+        "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+        "pdf": "https://arxiv.org/pdf/2512.25050v1"
+      },
+      {
+        "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+        "pdf": "https://arxiv.org/pdf/2512.25048v1"
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "pdf": "https://arxiv.org/pdf/2512.25046v1"
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "pdf": "https://arxiv.org/pdf/2512.25045v1"
+      },
+      {
+        "title": "Primordial black hole dark matter from ultra-slow-roll inflation in Horndeski gravity",
+        "pdf": "https://arxiv.org/pdf/2512.25044v1"
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "pdf": "https://arxiv.org/pdf/2512.25042v1"
+      },
+      {
+        "title": "On exact Observability for Compactly perturbed infinite dimension system",
+        "pdf": "https://arxiv.org/pdf/2512.25041v1"
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "pdf": "https://arxiv.org/pdf/2512.25040v1"
+      },
+      {
+        "title": "The Hochschild homology of a noncommutative symmetric quotient stack",
+        "pdf": "https://arxiv.org/pdf/2512.25039v1"
+      },
+      {
+        "title": "Anomalous (3+1)d Fermionic Topological Quantum Field Theories via Symmetry Extension",
+        "pdf": "https://arxiv.org/pdf/2512.25038v1"
+      },
+      {
+        "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+        "pdf": "https://arxiv.org/pdf/2512.25037v1"
+      },
+      {
+        "title": "Perturbative Kondo destruction and global phase diagram of heavy fermion metals",
+        "pdf": "https://arxiv.org/pdf/2512.25036v1"
+      },
+      {
+        "title": "Large Neutrino-Dark Matter Interactions: From Effective Field Theory to Ultraviolet Completions",
+        "pdf": "https://arxiv.org/pdf/2512.25035v1"
+      },
+      {
+        "title": "Generative Classifiers Avoid Shortcut Solutions",
+        "pdf": "https://arxiv.org/pdf/2512.25034v1"
+      },
+      {
+        "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+        "pdf": "https://arxiv.org/pdf/2512.25033v1"
+      },
+      {
+        "title": "Testing Monotonicity in a Finite Population",
+        "pdf": "https://arxiv.org/pdf/2512.25032v1"
+      },
+      {
+        "title": "Fractal conduction pathways governing ionic transport in a glass",
+        "pdf": "https://arxiv.org/pdf/2512.25031v1"
+      },
+      {
+        "title": "Multivariate Generalized Counting Process via Gamma Subordination",
+        "pdf": "https://arxiv.org/pdf/2512.25030v1"
+      },
+      {
+        "title": "Mod $p$ Poincaré duality for $p$-adic period domains",
+        "pdf": "https://arxiv.org/pdf/2512.25029v1"
+      },
+      {
+        "title": "Universal Seesaw Pati-Salam Model with P for Strong CP",
+        "pdf": "https://arxiv.org/pdf/2512.25028v1"
+      },
+      {
+        "title": "Computational Analysis of Disease Progression in Pediatric Pulmonary Arterial Hypertension",
+        "pdf": "https://arxiv.org/pdf/2512.25027v1"
+      },
+      {
+        "title": "Modeling Language as a Sequence of Thoughts",
+        "pdf": "https://arxiv.org/pdf/2512.25026v1"
+      },
+      {
+        "title": "Modewise Additive Factor Model for Matrix Time Series",
+        "pdf": "https://arxiv.org/pdf/2512.25025v1"
+      },
+      {
+        "title": "On Nonlinear Inertial Transformations",
+        "pdf": "https://arxiv.org/pdf/2512.25024v1"
+      },
+      {
+        "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+        "pdf": "https://arxiv.org/pdf/2512.25023v1"
+      },
+      {
+        "title": "Real Riemann Surfaces: Smooth and Discrete",
+        "pdf": "https://arxiv.org/pdf/2512.25022v1"
+      },
+      {
+        "title": "Approximation Algorithms for Fair Repetitive Scheduling",
+        "pdf": "https://arxiv.org/pdf/2512.25020v1"
+      },
+      {
+        "title": "Loop-Level Lepton Flavor Violation and Diphoton Signals in the Minimal Left-Right Symmetric Model",
+        "pdf": "https://arxiv.org/pdf/2512.25019v1"
+      },
+      {
+        "title": "CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.23328"
+      },
+      {
+        "title": "Hybrid systems for human-centered robotics: combining symbolic and generative AI for flexible and adaptive plan generation and execution",
+        "pdf": "https://doi.org/10.5821/dissertation-2117-449392"
+      },
+      {
+        "title": "PAN: A World Model for General, Interactable, and Long-Horizon World Simulation",
+        "pdf": "https://arxiv.org/pdf/2511.09057"
+      },
+      {
+        "title": "AI-Native O-RAN Architectures for 6G: Towards Real-Time Adaptation, Conflict Resolution, and Efficient Resource Management",
+        "pdf": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175825547.74922399/v1"
+      },
+      {
+        "title": "Emotional AI and the rise of pseudo-intimacy: are we trading authenticity for algorithmic affection?",
+        "pdf": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1679324/pdf"
+      },
+      {
+        "title": "Virtual 3D City Model Generation in CityGML",
+        "pdf": "https://isprs-annals.copernicus.org/articles/X-4-W6-2025/257/2025/isprs-annals-X-4-W6-2025-257-2025.pdf"
+      },
+      {
+        "title": "Checking Medical Process Conformance by Exploiting LLMs",
+        "pdf": "https://www.mdpi.com/2076-3417/15/18/10184/pdf?version=1758263681"
+      },
+      {
+        "title": "TPACK-based Professional Development for the AI Era: Fostering Pre-service Teachers' Acceptance of Generative AI in Mathematics Classrooms",
+        "pdf": "https://www.researchsquare.com/article/rs-7622889/latest.pdf"
+      },
+      {
+        "title": "Improving Bug Reporting by Fine-Tuning the T5 Model: An Evaluation in a Software Industry",
+        "pdf": "https://sol.sbc.org.br/index.php/sast/article/download/36893/36679"
+      },
+      {
+        "title": "Evaluating LLMs for Multimodal GUI Test Generation in Android Applications",
+        "pdf": "https://sol.sbc.org.br/index.php/sast/article/download/36880/36666"
+      },
+      {
+        "title": "AI Mistakes in the Classroom",
+        "pdf": "https://jfi-aof.org/index.php/jfi/article/download/10179/9114"
+      },
+      {
+        "title": "No Consciousness? No Meaning (and no AGI!)",
+        "pdf": "https://www.qeios.com/read/DN232Y.5/pdf"
+      },
+      {
+        "title": "Dynamic adaptive algorithms in personalized literacy interventions: A data-driven analysis of vocabulary development outcomes",
+        "pdf": "https://www.j-psp.com/download/dynamic-adaptive-algorithms-in-personalized-literacy-interventions-a-data-driven-analysis-of-17079.pdf"
+      },
+      {
+        "title": "Hybrid AI-Driven Computer-Aided Engineering Optimization: Large Language Models Versus Regression-Based Models Validated Through Finite-Element Analysis",
+        "pdf": "https://www.mdpi.com/2076-3417/15/18/10123/pdf?version=1758095133"
+      },
+      {
+        "title": "Building Sequences of Ads Relying on Discourse Analysis",
+        "pdf": "https://www.preprints.org/frontend/manuscript/cc931dba5de25185abee213de4088103/download_pub"
+      },
+      {
+        "title": "ADS Safety Validation Based on Human Accidents and Conflicts",
+        "pdf": "https://www.cambridge.org/engage/api-gateway/coe/assets/orp/resource/item/68b9c878a94eede154a24d50/original/ads-safety-validation-based-on-human-accidents-and-conflicts.pdf"
+      },
+      {
+        "title": "Qualitative Research in an Era of AI: A Pragmatic Approach to Data Analysis, Workflow, and Computation",
+        "pdf": "https://osf.io/7bsgy_v1/download"
+      },
+      {
+        "title": "Exploring a Multimodal Conversational Agent for Construction Site Safety: A Low-Code Approach to Hazard Detection and Compliance Assessment",
+        "pdf": "https://www.mdpi.com/2075-5309/15/18/3352/pdf?version=1758027500"
+      },
+      {
+        "title": "The Algorithmic Clinician: AI’s Transformative Role in Modern Medicine",
+        "pdf": "https://doi.org/10.52106/3069-0641.1011"
+      },
+      {
+        "title": "Agentic GenAI for Infectious Disease Management: A Comprehensive Review",
+        "pdf": "https://www.preprints.org/frontend/manuscript/c4ad86d032e72d5f690e31e3a613f08e/download_pub"
+      },
+      {
+        "title": "Large Language Model Agents for Biomedicine: A Comprehensive Review of Methods, Evaluations, Challenges, and Future Directions",
+        "pdf": "https://www.authorea.com/doi/pdf/10.22541/au.175795684.47167615/v1"
+      },
+      {
+        "title": "Navigating the Complexity of Bilingual Aphasia: Current Insights and Future Directions",
+        "pdf": "https://www.mdpi.com/2076-3425/15/9/989/pdf?version=1757846730"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "TPML: Task Planning for Multi-UAV System with Large Language Models",
+        "doi": "https://doi.org/10.1109/ICCA62789.2024.10591846"
+      },
+      {
+        "title": "LLM-Guided Hybrid Architecture for Autonomous Fire Response: Dialog-Driven Planning in Space and Disaster Missions",
+        "doi": "https://doi.org/10.1109/AIIoT65859.2025.11105239"
+      },
+      {
+        "title": "Position: Prospective of Autonomous Driving - Multimodal LLMs, World Models, Embodied Intelligence, AI Alignment, and Mamba",
+        "doi": "https://doi.org/10.1109/WACVW65960.2025.00114"
+      },
+      {
+        "title": "Gen2Sim: Scaling up Robot Learning in Simulation with Generative Models",
+        "doi": "https://doi.org/10.1109/ICRA57147.2024.10610566"
+      },
+      {
+        "title": "On the Prospects of Incorporating Large Language Models (LLMs) in Automated Planning and Scheduling (APS)",
+        "doi": "https://doi.org/10.1609/icaps.v34i1.31503"
+      },
+      {
+        "title": "Probing Multimodal LLMs as World Models for Driving",
+        "doi": "https://doi.org/10.1109/LRA.2025.3608656"
+      },
+      {
+        "title": "Planning, Creation, Usage: Benchmarking LLMs for Comprehensive Tool Utilization in Real-World Complex Scenarios",
+        "doi": "https://doi.org/10.48550/arXiv.2401.17167"
+      },
+      {
+        "title": "LLMs as World Models: Data-Driven and Human-Centered Pre-Event Simulation for Disaster Impact Assessment",
+        "doi": "https://doi.org/10.48550/arXiv.2506.06355"
+      },
+      {
+        "title": "SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic",
+        "doi": "https://doi.org/10.1007/978-3-031-73235-5_4"
+      },
+      {
+        "title": "Grounding LLMs For Robot Task Planning Using Closed-loop State Feedback",
+        "doi": "https://doi.org/10.1002/adrr.202500072"
+      },
+      {
+        "title": "Glue pizza and eat rocks - Exploiting Vulnerabilities in Retrieval-Augmented Generative Models",
+        "doi": "https://doi.org/10.48550/arXiv.2406.19417"
+      },
+      {
+        "title": "When LLMs step into the 3D World: A Survey and Meta-Analysis of 3D Tasks via Multi-modal Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2405.10255"
+      },
+      {
+        "title": "Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning",
+        "doi": "https://doi.org/10.48550/arXiv.2305.14909"
+      },
+      {
+        "title": "Cross-Domain Integration for General Sensor Data Synthesis: Leveraging LLMs and Domain-Specific Generative Models in Collaborative Environments",
+        "doi": "https://doi.org/10.1109/JSEN.2024.3480932"
+      },
+      {
+        "title": "Advancing General Sensor Data Synthesis by Integrating LLMs and Domain-Specific Generative Models",
+        "doi": "https://doi.org/10.1109/LSENS.2024.3470748"
+      },
+      {
+        "title": "Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search",
+        "doi": "https://doi.org/10.48550/arXiv.2405.15383"
+      },
+      {
+        "title": "Language Agents Meet Causality - Bridging LLMs and Causal World Models",
+        "doi": "https://doi.org/10.48550/arXiv.2410.19923"
+      },
+      {
+        "title": "COMBO: Compositional World Models for Embodied Multi-Agent Cooperation",
+        "doi": "https://doi.org/10.48550/arXiv.2404.10775"
+      },
+      {
+        "title": "Medical World Model: Generative Simulation of Tumor Evolution for Treatment Planning",
+        "doi": "https://doi.org/10.48550/arXiv.2506.02327"
+      },
+      {
+        "title": "AriGraph: Learning Knowledge Graph World Models with Episodic Memory for LLM Agents",
+        "doi": "https://doi.org/10.48550/arXiv.2407.04363"
+      },
+      {
+        "title": "The World of Generative AI: Deepfakes and Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2402.04373"
+      },
+      {
+        "title": "Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond",
+        "doi": "https://doi.org/10.48550/arXiv.2405.03520"
+      },
+      {
+        "title": "SurrealDriver: Designing Generative Driver Agent Simulation Framework in Urban Contexts based on Large Language Model",
+        "doi": "https://doi.org/10.48550/arXiv.2309.13193"
+      },
+      {
+        "title": "When Prolog Meets Generative Models: a New Approach for Managing Knowledge and Planning in Robotic Applications",
+        "doi": "https://doi.org/10.1109/ICRA57147.2024.10610800"
+      },
+      {
+        "title": "From Word Models to World Models: Translating from Natural Language to the Probabilistic Language of Thought",
+        "doi": "https://doi.org/10.48550/arXiv.2306.12672"
+      },
+      {
+        "title": "Generative Expressive Robot Behaviors using Large Language Models",
+        "doi": "https://doi.org/10.1145/3610977.3634999"
+      },
+      {
+        "title": "Uncertainty of Thoughts: Uncertainty-Aware Planning Enhances Information Seeking in LLMs",
+        "doi": "https://doi.org/10.52202/079017-0762"
+      },
+      {
+        "title": "LidarDM: Generative LiDAR Simulation in a Generated World",
+        "doi": "https://doi.org/10.1109/ICRA55743.2025.11128001"
+      },
+      {
+        "title": "Generative AI and simulation modeling: how should you (not) use large language models like ChatGPT",
+        "doi": "https://doi.org/10.1002/sdr.1773"
+      },
+      {
+        "title": "Advancements and Applications of Generative Artificial Intelligence and Large Language Models on Business Management: A Comprehensive Review",
+        "doi": "https://doi.org/10.32996/jcsts.2024.6.1.26"
+      },
+      {
+        "title": "LLM-as-BT-Planner: Leveraging LLMs for Behavior Tree Generation in Robot Task Planning",
+        "doi": "https://doi.org/10.1109/ICRA55743.2025.11128454"
+      },
+      {
+        "title": "Synthesizing Post-Training Data for LLMs through Multi-Agent Simulation",
+        "doi": "https://doi.org/10.48550/arXiv.2410.14251"
+      },
+      {
+        "title": "Evaluating World Models with LLM for Decision Making",
+        "doi": "https://doi.org/10.48550/arXiv.2411.08794"
+      },
+      {
+        "title": "Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving",
+        "doi": "https://doi.org/10.48550/arXiv.2408.14197"
+      },
+      {
+        "title": "FinGPT: Large Generative Models for a Small Language",
+        "doi": "https://doi.org/10.48550/arXiv.2311.05640"
+      },
+      {
+        "title": "Generative AI for Transformative Healthcare: A Comprehensive Study of Emerging Models, Applications, Case Studies, and Limitations",
+        "doi": "https://doi.org/10.1109/ACCESS.2024.3367715"
+      },
+      {
+        "title": "Neural representation in active inference: Using generative models to interact with—and understand—the lived world",
+        "doi": "https://doi.org/10.1111/nyas.15118"
+      },
+      {
+        "title": "TrafficBots: Towards World Models for Autonomous Driving Simulation and Motion Prediction",
+        "doi": "https://doi.org/10.1109/ICRA48891.2023.10161243"
+      },
+      {
+        "title": "Can LLMs Fix Issues with Reasoning Models? Towards More Likely Models for AI Planning",
+        "doi": "https://doi.org/10.1609/aaai.v38i18.29984"
+      },
+      {
+        "title": "Solving Motion Planning Tasks with a Scalable Generative Model",
+        "doi": "https://doi.org/10.48550/arXiv.2407.02797"
+      },
+      {
+        "title": "From Simulation to Prediction: Enhancing Digital Twins with Advanced Generative AI Technologies",
+        "doi": "https://doi.org/10.1109/ICCA62789.2024.10591881"
+      },
+      {
+        "title": "MarS: a Financial Market Simulation Engine Powered by Generative Foundation Model",
+        "doi": "https://doi.org/10.48550/arXiv.2409.07486"
+      },
+      {
+        "title": "Enabling Cognitive Process Automation Using LLMs in ERP Systems with Generative AI",
+        "doi": "https://doi.org/10.30574/wjaets.2025.15.3.1045"
+      },
+      {
+        "title": "GenAI against humanity: nefarious applications of generative artificial intelligence and large language models",
+        "doi": "https://doi.org/10.1007/s42001-024-00250-1"
+      },
+      {
+        "title": "Chiplet Cloud: Building AI Supercomputers for Serving Large Generative Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2307.02666"
+      },
+      {
+        "title": "Bench2Drive-R: Turning Real World Data into Reactive Closed-Loop Autonomous Driving Benchmark by Generative Model",
+        "doi": "https://doi.org/10.48550/arXiv.2412.09647"
+      },
+      {
+        "title": "Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models",
+        "doi": "https://doi.org/10.48550/arXiv.2401.03360"
+      },
+      {
+        "title": "iVideoGPT: Interactive VideoGPTs are Scalable World Models",
+        "doi": "https://doi.org/10.48550/arXiv.2405.15223"
+      },
+      {
+        "title": "CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations",
+        "doi": "https://doi.org/10.48550/arxiv.2512.23328"
+      },
+      {
+        "title": "Hybrid systems for human-centered robotics: combining symbolic and generative AI for flexible and adaptive plan generation and execution",
+        "doi": "https://doi.org/10.5821/dissertation-2117-449392"
+      },
+      {
+        "title": "PAN: A World Model for General, Interactable, and Long-Horizon World Simulation",
+        "doi": "https://doi.org/10.48550/arxiv.2511.09057"
+      },
+      {
+        "title": "AI-Native O-RAN Architectures for 6G: Towards Real-Time Adaptation, Conflict Resolution, and Efficient Resource Management",
+        "doi": "https://doi.org/10.36227/techrxiv.175825547.74922399/v1"
+      },
+      {
+        "title": "Emotional AI and the rise of pseudo-intimacy: are we trading authenticity for algorithmic affection?",
+        "doi": "https://doi.org/10.3389/fpsyg.2025.1679324"
+      },
+      {
+        "title": "Virtual 3D City Model Generation in CityGML",
+        "doi": "https://doi.org/10.5194/isprs-annals-x-4-w6-2025-257-2025"
+      },
+      {
+        "title": "Checking Medical Process Conformance by Exploiting LLMs",
+        "doi": "https://doi.org/10.3390/app151810184"
+      },
+      {
+        "title": "TPACK-based Professional Development for the AI Era: Fostering Pre-service Teachers' Acceptance of Generative AI in Mathematics Classrooms",
+        "doi": "https://doi.org/10.21203/rs.3.rs-7622889/v1"
+      },
+      {
+        "title": "Improving Bug Reporting by Fine-Tuning the T5 Model: An Evaluation in a Software Industry",
+        "doi": "https://doi.org/10.5753/sast.2025.13591"
+      },
+      {
+        "title": "Evaluating LLMs for Multimodal GUI Test Generation in Android Applications",
+        "doi": "https://doi.org/10.5753/sast.2025.13852"
+      },
+      {
+        "title": "AI Mistakes in the Classroom",
+        "doi": "https://doi.org/10.58886/jfi.v23i2.10179"
+      },
+      {
+        "title": "No Consciousness? No Meaning (and no AGI!)",
+        "doi": "https://doi.org/10.32388/dn232y.5"
+      },
+      {
+        "title": "Dynamic adaptive algorithms in personalized literacy interventions: A data-driven analysis of vocabulary development outcomes",
+        "doi": "https://doi.org/10.33902/jpsp.202535544"
+      },
+      {
+        "title": "Hybrid AI-Driven Computer-Aided Engineering Optimization: Large Language Models Versus Regression-Based Models Validated Through Finite-Element Analysis",
+        "doi": "https://doi.org/10.3390/app151810123"
+      },
+      {
+        "title": "Building Sequences of Ads Relying on Discourse Analysis",
+        "doi": "https://doi.org/10.20944/preprints202509.1423.v1"
+      },
+      {
+        "title": "ADS Safety Validation Based on Human Accidents and Conflicts",
+        "doi": "https://doi.org/10.33774/coe-2025-0gk1b"
+      },
+      {
+        "title": "Qualitative Research in an Era of AI: A Pragmatic Approach to Data Analysis, Workflow, and Computation",
+        "doi": "https://doi.org/10.31235/osf.io/7bsgy_v1"
+      },
+      {
+        "title": "Exploring a Multimodal Conversational Agent for Construction Site Safety: A Low-Code Approach to Hazard Detection and Compliance Assessment",
+        "doi": "https://doi.org/10.3390/buildings15183352"
+      },
+      {
+        "title": "The Algorithmic Clinician: AI’s Transformative Role in Modern Medicine",
+        "doi": "https://doi.org/10.52106/3069-0641.1011"
+      },
+      {
+        "title": "Agentic GenAI for Infectious Disease Management: A Comprehensive Review",
+        "doi": "https://doi.org/10.20944/preprints202509.1333.v1"
+      },
+      {
+        "title": "Large Language Model Agents for Biomedicine: A Comprehensive Review of Methods, Evaluations, Challenges, and Future Directions",
+        "doi": "https://doi.org/10.22541/au.175795684.47167615/v1"
+      },
+      {
+        "title": "Navigating the Complexity of Bilingual Aphasia: Current Insights and Future Directions",
+        "doi": "https://doi.org/10.3390/brainsci15090989"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "LLMs world models generative models simulation planning",
+    "total_steps": 3,
+    "last_updated": "2026-01-01T21:52:59.156859",
+    "started_at": "2026-01-01T21:48:58.774528",
+    "total_papers": 165
+  }
+}

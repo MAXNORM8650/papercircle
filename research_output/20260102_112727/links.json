@@ -1,0 +1,122 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Cohesive Conversations: Enhancing Authenticity in Multi-Agent Simulated Dialogues",
+        "url": "https://openreview.net/forum?id=3ypWPhMGhV",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_colm",
+        "year": 2024
+      },
+      {
+        "title": "NegoLog: An Integrated Python-based Automated Negotiation Framework with Enhanced Assessment Components",
+        "url": "https://www.ijcai.org/proceedings/2024/998",
+        "pdf_url": "https://www.ijcai.org/proceedings/2024/0998.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2024
+      },
+      {
+        "title": "NEGOTIATOR: A Comprehensive Framework for Human-Agent Negotiation Integrating Preferences, Interaction, and Emotion",
+        "url": "https://www.ijcai.org/proceedings/2024/1012",
+        "pdf_url": "https://www.ijcai.org/proceedings/2024/1012.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2024
+      },
+      {
+        "title": "Cheap Talk Discovery and Utilization in Multi-Agent Reinforcement Learning",
+        "url": "https://iclr.cc/virtual/2023/poster/11921",
+        "pdf_url": "https://openreview.net/pdf?id=cddbeL1HWaD",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Hierarchical Multi-Agent Skill Discovery",
+        "url": "https://nips.cc/virtual/2023/poster/70014",
+        "pdf_url": "https://openreview.net/pdf?id=xMgO04HDOS",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2023
+      }
+    ],
+    "by_source": {
+      "offline_colm": [
+        {
+          "title": "Cohesive Conversations: Enhancing Authenticity in Multi-Agent Simulated Dialogues",
+          "url": "https://openreview.net/forum?id=3ypWPhMGhV",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_colm",
+          "year": 2024
+        }
+      ],
+      "offline_ijcai": [
+        {
+          "title": "NegoLog: An Integrated Python-based Automated Negotiation Framework with Enhanced Assessment Components",
+          "url": "https://www.ijcai.org/proceedings/2024/998",
+          "pdf_url": "https://www.ijcai.org/proceedings/2024/0998.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2024
+        },
+        {
+          "title": "NEGOTIATOR: A Comprehensive Framework for Human-Agent Negotiation Integrating Preferences, Interaction, and Emotion",
+          "url": "https://www.ijcai.org/proceedings/2024/1012",
+          "pdf_url": "https://www.ijcai.org/proceedings/2024/1012.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2024
+        }
+      ],
+      "offline_iclr": [
+        {
+          "title": "Cheap Talk Discovery and Utilization in Multi-Agent Reinforcement Learning",
+          "url": "https://iclr.cc/virtual/2023/poster/11921",
+          "pdf_url": "https://openreview.net/pdf?id=cddbeL1HWaD",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "Hierarchical Multi-Agent Skill Discovery",
+          "url": "https://nips.cc/virtual/2023/poster/70014",
+          "pdf_url": "https://openreview.net/pdf?id=xMgO04HDOS",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2023
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "NegoLog: An Integrated Python-based Automated Negotiation Framework with Enhanced Assessment Components",
+        "pdf": "https://www.ijcai.org/proceedings/2024/0998.pdf"
+      },
+      {
+        "title": "NEGOTIATOR: A Comprehensive Framework for Human-Agent Negotiation Integrating Preferences, Interaction, and Emotion",
+        "pdf": "https://www.ijcai.org/proceedings/2024/1012.pdf"
+      },
+      {
+        "title": "Cheap Talk Discovery and Utilization in Multi-Agent Reinforcement Learning",
+        "pdf": "https://openreview.net/pdf?id=cddbeL1HWaD"
+      },
+      {
+        "title": "Hierarchical Multi-Agent Skill Discovery",
+        "pdf": "https://openreview.net/pdf?id=xMgO04HDOS"
+      }
+    ],
+    "dois_only": []
+  },
+  "metadata": {
+    "query": "multi-agent research paper discovery and analysis framework",
+    "total_steps": 16,
+    "last_updated": "2026-01-02T11:32:34.174709",
+    "started_at": "2026-01-02T11:27:29.888671",
+    "total_papers": 5
+  }
+}

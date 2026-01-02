@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "computational efficiency optimization techniques large language models",
+    "total_papers": 118,
+    "unique_sources": 6,
+    "year_range": {
+      "min": 2020,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 905,
+      "average": 47.6
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 49,
+    "papers_with_doi": 24,
+    "processing_steps": 5
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (28) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 28
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 47 papers (39%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 47
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Denis Kuznedelev has 4 papers in this collection",
+      "data": {
+        "author": "Denis Kuznedelev",
+        "count": 4
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"A Survey on Model Compression for Large Language Models...\" has 347 citations",
+      "data": {
+        "title": "A Survey on Model Compression for Large Language Models",
+        "citations": 347
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: language, large, compression, models, efficient",
+      "data": {
+        "keywords": {
+          "language": 58,
+          "large": 54,
+          "compression": 52,
+          "models": 45,
+          "efficient": 41
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "49/118 papers (41%) have direct PDF links",
+      "data": {
+        "with_pdf": 49,
+        "total": 118
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 118 papers related to 'computational efficiency optimization techniques large language models'",
+    "Papers collected from 6 sources: offline_iclr, offline_nips, offline_icml, offline_cvpr, semantic_scholar, arxiv",
+    "Publication years range from 2020 to 2026",
+    "Total citations: 905, Average: 47",
+    "Leading researchers: Denis Kuznedelev, Dan Alistarh, Haotong Qin"
+  ],
+  "metadata": {
+    "query": "computational efficiency optimization techniques large language models",
+    "total_steps": 5,
+    "last_updated": "2026-01-01T21:45:49.400116",
+    "started_at": "2026-01-01T21:08:16.368921",
+    "total_papers": 118
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "summary": {
+    "query": "LLMs in media",
+    "total_papers": 10,
+    "unique_sources": 3,
+    "year_range": {
+      "min": 2025,
+      "max": 2025
+    },
+    "citation_summary": {
+      "total": 0,
+      "average": 0
+    },
+    "top_source": "offline_acl",
+    "papers_with_pdf": 10,
+    "papers_with_doi": 0,
+    "processing_steps": 4
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (10) are from 2025",
+      "data": {
+        "year": 2025,
+        "count": 10
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_acl contributes 6 papers (60%)",
+      "data": {
+        "source": "offline_acl",
+        "count": 6
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Tomáš Horych has 1 papers in this collection",
+      "data": {
+        "author": "Tomáš Horych",
+        "count": 1
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: media, bias, social, detection, llms",
+      "data": {
+        "keywords": {
+          "media": 8,
+          "bias": 5,
+          "social": 5,
+          "detection": 3,
+          "llms": 3
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "10/10 papers (100%) have direct PDF links",
+      "data": {
+        "with_pdf": 10,
+        "total": 10
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 10 papers related to 'LLMs in media'",
+    "Papers collected from 3 sources: offline_naacl, offline_coling, offline_acl",
+    "Publication years range from 2025 to 2025",
+    "Leading researchers: Tomáš Horych, Christoph Mandl, Terry Ruas"
+  ],
+  "metadata": {
+    "query": "LLMs in media",
+    "total_steps": 4,
+    "last_updated": "2026-01-01T22:32:38.485666",
+    "started_at": "2026-01-01T22:30:50.915442",
+    "total_papers": 10
+  }
+}

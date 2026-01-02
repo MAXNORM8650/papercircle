@@ -1,0 +1,262 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T11:28:04.711067",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'multi-agent research paper discovery and analysis framework'",
+      "result_preview": "Found 10 papers from local database",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework",
+        "conferences": [
+          "nips",
+          "iclr",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": 2020,
+        "end_year": 2024,
+        "papers_found": 10,
+        "papers_added": 10,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-02T11:28:14.017039",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework'",
+      "result_preview": "Found 5 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 5,
+        "papers_added": 5,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 15
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-02T11:28:22.908263",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework'",
+      "result_preview": "Found 13 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 13,
+        "papers_added": 8,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 23
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-02T11:28:52.804890",
+      "agent": "sorting_agent",
+      "action": "Sorted 5 papers by 'relevance'",
+      "result_preview": "Top paper: NegoLog: An Integrated Python-based Automated Nego...",
+      "details": {
+        "sort_by": "relevance",
+        "weights": "{\"relevance\": 0.4, \"citations\": 0.3, \"recency\": 0.2, \"novelty\": 0.1}",
+        "top_k": 5
+      },
+      "papers_count": 5
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-02T11:28:56.251271",
+      "agent": "sorting_agent",
+      "action": "Sorted 5 papers by 'citations'",
+      "result_preview": "Top paper: NegoLog: An Integrated Python-based Automated Nego...",
+      "details": {
+        "sort_by": "citations",
+        "weights": "{\"citations\": 0.4, \"relevance\": 0.3, \"recency\": 0.2, \"novelty\": 0.1}",
+        "top_k": 5
+      },
+      "papers_count": 5
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-02T11:28:59.843332",
+      "agent": "sorting_agent",
+      "action": "Sorted 5 papers by 'recency'",
+      "result_preview": "Top paper: NegoLog: An Integrated Python-based Automated Nego...",
+      "details": {
+        "sort_by": "recency",
+        "weights": "{\"recency\": 0.4, \"citations\": 0.3, \"relevance\": 0.2, \"novelty\": 0.1}",
+        "top_k": 5
+      },
+      "papers_count": 5
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-02T11:29:03.673660",
+      "agent": "sorting_agent",
+      "action": "Sorted 5 papers by 'novelty'",
+      "result_preview": "Top paper: NegoLog: An Integrated Python-based Automated Nego...",
+      "details": {
+        "sort_by": "novelty",
+        "weights": "{\"novelty\": 0.4, \"citations\": 0.3, \"relevance\": 0.2, \"recency\": 0.1}",
+        "top_k": 5
+      },
+      "papers_count": 5
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-02T11:29:07.630785",
+      "agent": "sorting_agent",
+      "action": "Sorted 5 papers by 'combined'",
+      "result_preview": "Top paper: Cohesive Conversations: Enhancing Authenticity in ...",
+      "details": {
+        "sort_by": "combined",
+        "weights": "{\"relevance\": 0.3, \"citations\": 0.3, \"recency\": 0.2, \"novelty\": 0.2}",
+        "top_k": 5
+      },
+      "papers_count": 5
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-02T11:29:11.222847",
+      "agent": "sorting_agent",
+      "action": "Sorted 5 papers by 'relevance'",
+      "result_preview": "Top paper: Cohesive Conversations: Enhancing Authenticity in ...",
+      "details": {
+        "sort_by": "relevance",
+        "weights": null,
+        "top_k": 5
+      },
+      "papers_count": 5
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-02T11:29:27.675131",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (all)",
+      "result_preview": "Generated insights from 5 papers",
+      "details": {
+        "analysis_type": "all"
+      },
+      "papers_count": 5
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-02T11:29:42.232491",
+      "agent": "export_agent",
+      "action": "Exporting papers (markdown)",
+      "result_preview": "Exported 5 papers",
+      "details": {
+        "format": "markdown",
+        "filename": "multi_agent_papers"
+      },
+      "papers_count": 5
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-02T11:31:14.719488",
+      "agent": "sorting_agent",
+      "action": "Sorted 5 papers by 'relevance'",
+      "result_preview": "Top paper: Cohesive Conversations: Enhancing Authenticity in ...",
+      "details": {
+        "sort_by": "relevance",
+        "weights": "{\"relevance\": 0.4, \"citations\": 0.3, \"recency\": 0.2, \"novelty\": 0.1}",
+        "top_k": 5
+      },
+      "papers_count": 5
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-02T11:31:31.153069",
+      "agent": "sorting_agent",
+      "action": "Sorted 5 papers by 'citations'",
+      "result_preview": "Top paper: Cohesive Conversations: Enhancing Authenticity in ...",
+      "details": {
+        "sort_by": "citations",
+        "weights": "{\"citations\": 0.4, \"relevance\": 0.3, \"recency\": 0.2, \"novelty\": 0.1}",
+        "top_k": 5
+      },
+      "papers_count": 5
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-02T11:31:50.688250",
+      "agent": "sorting_agent",
+      "action": "Sorted 5 papers by 'recency'",
+      "result_preview": "Top paper: Cohesive Conversations: Enhancing Authenticity in ...",
+      "details": {
+        "sort_by": "recency",
+        "weights": "{\"recency\": 0.4, \"citations\": 0.3, \"relevance\": 0.2, \"novelty\": 0.1}",
+        "top_k": 5
+      },
+      "papers_count": 5
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-02T11:32:04.160120",
+      "agent": "sorting_agent",
+      "action": "Sorted 5 papers by 'novelty'",
+      "result_preview": "Top paper: NegoLog: An Integrated Python-based Automated Nego...",
+      "details": {
+        "sort_by": "novelty",
+        "weights": "{\"novelty\": 0.4, \"citations\": 0.3, \"relevance\": 0.2, \"recency\": 0.1}",
+        "top_k": 5
+      },
+      "papers_count": 5
+    },
+    {
+      "step": 16,
+      "timestamp": "2026-01-02T11:32:34.172606",
+      "agent": "sorting_agent",
+      "action": "Sorted 5 papers by 'combined'",
+      "result_preview": "Top paper: Cohesive Conversations: Enhancing Authenticity in ...",
+      "details": {
+        "sort_by": "combined",
+        "weights": "{\"recency\": 0.3, \"citations\": 0.4, \"bm25\": 0.2, \"novelty\": 0.1}",
+        "top_k": 5
+      },
+      "papers_count": 5
+    }
+  ],
+  "current_step": 16,
+  "metadata": {
+    "query": "multi-agent research paper discovery and analysis framework",
+    "total_steps": 16,
+    "last_updated": "2026-01-02T11:32:34.178274",
+    "started_at": "2026-01-02T11:27:29.888671",
+    "total_papers": 5
+  }
+}

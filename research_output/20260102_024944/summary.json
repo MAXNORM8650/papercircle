@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "dentistry numeric data meta-analysis",
+    "total_papers": 28,
+    "unique_sources": 3,
+    "year_range": {
+      "min": 2022,
+      "max": 2025
+    },
+    "citation_summary": {
+      "total": 89,
+      "average": 12.7
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 25,
+    "papers_with_doi": 18,
+    "processing_steps": 2
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (20) are from 2025",
+      "data": {
+        "year": 2025,
+        "count": 20
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 10 papers (35%)",
+      "data": {
+        "source": "arxiv",
+        "count": 10
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "U. Zeymer has 2 papers in this collection",
+      "data": {
+        "author": "U. Zeymer",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Performance of ChatGPT-3.5 and GPT-4 in national licensing examinations for medicine, pharmacy, dentistry, and nursing: a systematic review and meta-analysis...\" has 44 citations",
+      "data": {
+        "title": "Performance of ChatGPT-3.5 and GPT-4 in national licensing examinations for medicine, pharmacy, dentistry, and nursing: a systematic review and meta-analysis",
+        "citations": 44
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: analysis, meta, data, patients, individual",
+      "data": {
+        "keywords": {
+          "analysis": 13,
+          "meta": 10,
+          "data": 8,
+          "patients": 5,
+          "individual": 5
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "25/28 papers (89%) have direct PDF links",
+      "data": {
+        "with_pdf": 25,
+        "total": 28
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 28 papers related to 'dentistry numeric data meta-analysis'",
+    "Papers collected from 3 sources: openalex, semantic_scholar, arxiv",
+    "Publication years range from 2022 to 2025",
+    "Total citations: 89, Average: 12",
+    "Leading researchers: U. Zeymer, A. Freund, M. Hochadel"
+  ],
+  "metadata": {
+    "query": "dentistry numeric data meta-analysis",
+    "total_steps": 2,
+    "last_updated": "2026-01-02T02:51:01.059030",
+    "started_at": "2026-01-02T02:49:46.693679",
+    "total_papers": 28
+  }
+}

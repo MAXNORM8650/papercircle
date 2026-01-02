@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "general research topics",
+    "total_papers": 29,
+    "unique_sources": 4,
+    "year_range": {
+      "min": 2020,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 107,
+      "average": 10.7
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 23,
+    "papers_with_doi": 17,
+    "processing_steps": 2
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (3) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 3
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 10 papers (34%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 10
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Farhad Fatehi has 1 papers in this collection",
+      "data": {
+        "author": "Farhad Fatehi",
+        "count": 1
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"The psychological and cognitive impact of Covid-19 on individuals with neurocognitive impairments: research topics and remote intervention proposals...\" has 41 citations",
+      "data": {
+        "title": "The psychological and cognitive impact of Covid-19 on individuals with neurocognitive impairments: research topics and remote intervention proposals",
+        "citations": 41
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: research, topics, analysis, health, review",
+      "data": {
+        "keywords": {
+          "research": 14,
+          "topics": 11,
+          "analysis": 3,
+          "health": 3,
+          "review": 3
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "23/29 papers (79%) have direct PDF links",
+      "data": {
+        "with_pdf": 23,
+        "total": 29
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 29 papers related to 'general research topics'",
+    "Papers collected from 4 sources: dblp, semantic_scholar, openalex, arxiv",
+    "Publication years range from 2020 to 2026",
+    "Total citations: 107, Average: 10",
+    "Leading researchers: Farhad Fatehi, Farkhondeh Hassandoust, Ryan K. L. Ko"
+  ],
+  "metadata": {
+    "query": "general research topics",
+    "total_steps": 2,
+    "last_updated": "2026-01-02T02:44:25.776710",
+    "started_at": "2026-01-02T02:43:19.820974",
+    "total_papers": 29
+  }
+}

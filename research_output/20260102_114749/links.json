@@ -1,0 +1,1949 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+        "url": "https://iclr.cc/virtual/2025/poster/30860",
+        "pdf_url": "https://openreview.net/pdf?id=6s5uXNWGIh",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "TimeSeriesGym: A Scalable Benchmark for (Time Series) Machine Learning Engineering Agents",
+        "url": "https://openreview.net/forum?id=8gdfWRilR7",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "AI Research Agents for Machine Learning: Search, Exploration, and Generalization in MLE-bench",
+        "url": "https://openreview.net/forum?id=RwfrdKSgCE",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "MLE-Dojo: Interactive Environments for Empowering LLM Agents in Machine Learning Engineering",
+        "url": "https://openreview.net/forum?id=5W5mFU4oMO",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "OpenAgentSafety: A Comprehensive Framework For Evaluating Real-World AI Agent Safety",
+        "url": "https://openreview.net/forum?id=xggSxCFQbA",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "RE-Bench: Evaluating Frontier AI R&D Capabilities of Language Model Agents against Human Experts",
+        "url": "https://icml.cc/virtual/2025/poster/46519",
+        "pdf_url": "https://openreview.net/pdf?id=3rB0bVU6z6",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research",
+        "url": "https://openreview.net/forum?id=JX9DE6colf",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "SWE-PolyBench: A multi-language benchmark for repository level evaluation of coding agents",
+        "url": "https://openreview.net/forum?id=n577FC6CKk",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Interactive Agents to Overcome Underspecificity in Software Engineering",
+        "url": "https://openreview.net/forum?id=X2yzXtH4wp",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "PaperBench: Evaluating AI’s Ability to Replicate AI Research",
+        "url": "https://icml.cc/virtual/2025/poster/43586",
+        "pdf_url": "https://openreview.net/pdf?id=xF5PuTLPbn",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "OmniCode: A Benchmark for Evaluating Software Development Agents",
+        "url": "https://openreview.net/forum?id=VP204Aa0gH",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "MineAnyBuild: Benchmarking Spatial Planning for Open-world AI Agents",
+        "url": "https://openreview.net/forum?id=UlwaJPzLs2",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Establishing Best Practices in Building Rigorous Agentic Benchmarks",
+        "url": "https://openreview.net/forum?id=E58HNCqoaA",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents",
+        "url": "https://openreview.net/forum?id=IIzehISTBe",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Beyond Truthfulness: Evaluating Honesty in Large Language Models",
+        "url": "https://openreview.net/forum?id=jTHWqtQuDi",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "$\\tau^2$-bench: : Evaluating Conversational Agents in a Dual-Control Environment",
+        "url": "https://openreview.net/forum?id=LGmO9VvuP5",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "MLGym: A New Framework and Benchmark for Advancing AI Research Agents",
+        "url": "https://openreview.net/forum?id=ryTr83DxRq",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_colm",
+        "year": 2025
+      },
+      {
+        "title": "InnoGym: Benchmarking the Innovation Potential of AI Agents",
+        "url": "https://openreview.net/forum?id=GRufFX1gAy",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "DevOps-Gym: Benchmarking AI Agents in Software DevOps Cycle",
+        "url": "https://openreview.net/forum?id=bP48r4dt7Z",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ArchPilot: A Proxy-Guided Multi-Agent Approach for Machine Learning Engineering",
+        "url": "https://openreview.net/forum?id=qZVgiiWQUt",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ProMediate: A Socio-cognitive framework for evaluating proactive agents in multi-party negotiation",
+        "url": "https://openreview.net/forum?id=1m8ODIMkax",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ALE-Bench: A Benchmark for Long-Horizon Objective-Driven Algorithm Engineering",
+        "url": "https://openreview.net/forum?id=JCjGvbsOmQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "WebUIBench: A Comprehensive Benchmark for Evaluating Multimodal Large Language Models in WebUI-to-Code",
+        "url": "https://aclanthology.org/2025.findings-acl.815/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.815.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "CoMind: Towards Community-Driven Agents for Machine Learning Engineering",
+        "url": "https://openreview.net/forum?id=P479BoN8BD",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Reinforcement Learning for Machine Learning Engineering Agents",
+        "url": "https://openreview.net/forum?id=mfIbSouoaZ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ITBench: Evaluating AI Agents across Diverse Real-World IT Automation Tasks",
+        "url": "https://icml.cc/virtual/2025/poster/44303",
+        "pdf_url": "https://openreview.net/pdf?id=jP59rz1bZk",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+        "url": "https://iclr.cc/virtual/2025/poster/29831",
+        "pdf_url": "https://openreview.net/pdf?id=OJd3ayDDoF",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?",
+        "url": "https://openreview.net/forum?id=9R2iUHhVfr",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Process-Level Trajectory Evaluation for Environment Configuration in Software Engineering Agents",
+        "url": "https://openreview.net/forum?id=Q8qgloDKUO",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "HAICOSYSTEM: An Ecosystem for Sandboxing Safety Risks in Interactive AI Agents",
+        "url": "https://openreview.net/forum?id=KI1WQ6rLiy",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_colm",
+        "year": 2025
+      },
+      {
+        "title": "DigiData: Training and Evaluating General-Purpose Mobile Control Agents",
+        "url": "https://openreview.net/forum?id=gJ2N5awCHb",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "DataPerf: Benchmarks for Data-Centric AI Development",
+        "url": "https://nips.cc/virtual/2023/poster/73622",
+        "pdf_url": "https://openreview.net/pdf?id=LaFKTgrZMG",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2023
+      },
+      {
+        "title": "Diversity Empowers Intelligence: Integrating Expertise of Software Engineering Agents",
+        "url": "https://iclr.cc/virtual/2025/poster/29057",
+        "pdf_url": "https://openreview.net/pdf?id=cKlzKs3Nnb",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Position: Future Research and Challenges Remain Towards AI for Software Engineering",
+        "url": "https://icml.cc/virtual/2025/poster/40141",
+        "pdf_url": "https://openreview.net/pdf?id=RuLsq4LSZK",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Deciphering Digital Detectives: Understanding LLM Behaviors and Capabilities in Multi-Agent Mystery Games",
+        "url": "https://aclanthology.org/2024.findings-acl.490/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.490.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Beyond Shortest-Paths: A Benchmark for Reinforcement Learning on Traffic Engineering",
+        "url": "https://openreview.net/forum?id=4jBL79L5QS",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "CTRL-ALT-DECEIT Sabotage Evaluations for Automated AI R&D",
+        "url": "https://openreview.net/forum?id=XBMjXb6f4w",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "AutoModel: Autonomous Model Development for Image Classification with LLM Agents",
+        "url": "https://openreview.net/forum?id=6ofUPFtqPF",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Tradformer: A Transformer Model of Traditional Music Transcriptions",
+        "url": "https://www.ijcai.org/proceedings/2022/681",
+        "pdf_url": "https://www.ijcai.org/proceedings/2022/0681.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2022
+      },
+      {
+        "title": "Beyond Software Development: Continuous Integration with coding agents",
+        "url": "https://openreview.net/forum?id=n8lAJLVdVN",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Benchmarking Large Language Models as AI Research Agents",
+        "url": "https://openreview.net/forum?id=N9wD4RFWY0",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "SoftPhy: Soft-Body Physical Concept Learning and Reasoning from Videos",
+        "url": "https://openreview.net/forum?id=pNlntv7A9X",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "From Reproduction to Replication: Evaluating Research Agents with Progressive Code Masking",
+        "url": "https://openreview.net/forum?id=qBcHWGBnIb",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "CVE-Bench: A Benchmark for AI Agents’ Ability to Exploit Real-World Web Application Vulnerabilities",
+        "url": "https://icml.cc/virtual/2025/poster/46522",
+        "pdf_url": "https://openreview.net/pdf?id=3pk0p4NGmQ",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Bridging the AI Gap: Evaluating the Impact of an AI Education Program for Caregivers on Parental Leave",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/35174",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/35174/37329",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2025
+      },
+      {
+        "title": "SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks",
+        "url": "https://openreview.net/forum?id=QQhQIqons0",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "MT-GenEval: A Counterfactual and Contextual Dataset for Evaluating Gender Accuracy in Machine Translation",
+        "url": "https://aclanthology.org/2022.emnlp-main.288/",
+        "pdf_url": "https://aclanthology.org/2022.emnlp-main.288.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2022
+      },
+      {
+        "title": "STRATUS: A Multi-agent System for Autonomous Reliability Engineering of Modern Clouds",
+        "url": "https://openreview.net/forum?id=fYW1PKawwJ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "CRMArena: Understanding the Capacity of LLM Agents to Perform Professional CRM Tasks in Realistic Environments",
+        "url": "https://aclanthology.org/2025.naacl-long.194/",
+        "pdf_url": "https://aclanthology.org/2025.naacl-long.194.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2025
+      },
+      {
+        "title": "A Benchmark for Self-Evolving Agents via Experience-Driven Lifelong Learning",
+        "url": "https://openreview.net/forum?id=vznmtmUPmA",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ReX-MLE: The Autonomous Agent Benchmark for Medical Imaging Challenges",
+        "url": "https://openalex.org/W7116978705",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.17838",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.17838",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Generative AI for the Design of Molecules: Advances and Challenges",
+        "url": "https://openalex.org/W4416395717",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1021/acs.jcim.5c02234",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Post-Hoc Interpretation of POMDP Policies",
+        "url": "https://openalex.org/W4415195019",
+        "pdf_url": "https://doi.org/10.3233/faia251379",
+        "doi_url": "https://doi.org/10.3233/faia251379",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "What You See Is What It Does: A Structural Pattern for Legible Software",
+        "url": "https://openalex.org/W4415008885",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3759429.3762628",
+        "doi_url": "https://doi.org/10.1145/3759429.3762628",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "A Survey on Stereotype Detection in Natural Language Processing",
+        "url": "https://openalex.org/W4414863587",
+        "pdf_url": "https://doi.org/10.1145/3770754",
+        "doi_url": "https://doi.org/10.1145/3770754",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Extremum Flow Matching for Offline Goal Conditioned Reinforcement Learning",
+        "url": "https://openalex.org/W4414881463",
+        "pdf_url": "https://arxiv.org/pdf/2505.19717",
+        "doi_url": "https://doi.org/10.1109/humanoids65713.2025.11203207",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "GUARD: Dual-Agent based Backdoor Defense on Chain-of-Thought in Neural Code Generation",
+        "url": "https://openalex.org/W4415405281",
+        "pdf_url": "https://doi.org/10.18293/seke2025-018",
+        "doi_url": "https://doi.org/10.18293/seke2025-018",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Demystifying Reward Design in Reinforcement Learning for Upper Extremity Interaction: Practical Guidelines for Biomechanical Simulations in HCI",
+        "url": "https://openalex.org/W4416051537",
+        "pdf_url": "https://arxiv.org/pdf/2508.15727",
+        "doi_url": "https://doi.org/10.1145/3746059.3747779",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Investigating the Performance of the Attention Mechanism and the Interpretability in the Concrete Strength Prediction Model",
+        "url": "https://openalex.org/W4414349547",
+        "pdf_url": "https://www.mdpi.com/2075-5309/15/18/3405/pdf?version=1758298702",
+        "doi_url": "https://doi.org/10.3390/buildings15183405",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Machine Learning in Near-Field Communication for 6G: A Survey",
+        "url": "https://openalex.org/W4414365051",
+        "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175696105.52959598/v2",
+        "doi_url": "https://doi.org/10.36227/techrxiv.175696105.52959598/v2",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Enterprise AI-Enabled Multi-Agent Threat Hunting: A Comprehensive Framework for Autonomous Cybersecurity Operations",
+        "url": "https://openalex.org/W4414365930",
+        "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175825523.37911598/v1",
+        "doi_url": "https://doi.org/10.36227/techrxiv.175825523.37911598/v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "SECURING PERSONAL DATA IN THE SMARTPHONE AGE: A STUDY OF MOBILE DEVICE SECURITY",
+        "url": "https://openalex.org/W4414367340",
+        "pdf_url": "https://taapublications.com/tijsrat/article/download/716/804",
+        "doi_url": "https://doi.org/10.70382/tijsrat.v09i9.050",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Emotional AI and the rise of pseudo-intimacy: are we trading authenticity for algorithmic affection?",
+        "url": "https://openalex.org/W4414340090",
+        "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1679324/pdf",
+        "doi_url": "https://doi.org/10.3389/fpsyg.2025.1679324",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "The Evolution and Impact of Artificial Intelligence in Chemistry",
+        "url": "https://openalex.org/W4414317055",
+        "pdf_url": "https://www.preprints.org/frontend/manuscript/1bfa955ffef705c432f143b9815dfa7e/download_pub",
+        "doi_url": "https://doi.org/10.20944/preprints202509.1557.v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Energy optimization design and implementation of building engineering based on intelligent decision-making algorithm",
+        "url": "https://openalex.org/W4414319369",
+        "pdf_url": "https://iopscience.iop.org/article/10.1088/2631-8695/ae091c/pdf",
+        "doi_url": "https://doi.org/10.1088/2631-8695/ae091c",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Web-Based Platform for Quantitative Depression Risk Prediction via VAD Regression on Korean Text and Multi-Anchor Distance Scoring",
+        "url": "https://openalex.org/W4414329350",
+        "pdf_url": "https://www.mdpi.com/2076-3417/15/18/10170/pdf?version=1758189604",
+        "doi_url": "https://doi.org/10.3390/app151810170",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "AI IN DEVOPS: A FRAMEWORK FOR PREDICTIVE MAINTENANCE AND AUTOMATED ISSUE RESOLUTION",
+        "url": "https://openalex.org/W4414332386",
+        "pdf_url": "https://ijamjournal.org/ijam/publication/index.php/ijam/article/download/83/81",
+        "doi_url": "https://doi.org/10.12732/ijam.v38i2s.83",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Checking Medical Process Conformance by Exploiting LLMs",
+        "url": "https://openalex.org/W4414340659",
+        "pdf_url": "https://www.mdpi.com/2076-3417/15/18/10184/pdf?version=1758263681",
+        "doi_url": "https://doi.org/10.3390/app151810184",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Investigating the use of Large Language Models in software security requirements: Results of a literature review",
+        "url": "https://openalex.org/W4414276043",
+        "pdf_url": "https://sol.sbc.org.br/index.php/ise/article/download/36863/36649",
+        "doi_url": "https://doi.org/10.5753/ise.2025.14892",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Automated Summarization of Software Documents: An LLM-based Multi-Agent Approach",
+        "url": "https://openalex.org/W4414280973",
+        "pdf_url": "https://www.researchsquare.com/article/rs-7539426/latest.pdf",
+        "doi_url": "https://doi.org/10.21203/rs.3.rs-7539426/v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "WHO–WHAT–HOW: A Product Operating Model for Agile, Technology-Enabled Digital Transformation",
+        "url": "https://openalex.org/W4414288527",
+        "pdf_url": "https://www.mdpi.com/2076-3387/15/9/368/pdf?version=1758101746",
+        "doi_url": "https://doi.org/10.3390/admsci15090368",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "No Consciousness? No Meaning (and no AGI!)",
+        "url": "https://openalex.org/W4414292622",
+        "pdf_url": "https://www.qeios.com/read/DN232Y.5/pdf",
+        "doi_url": "https://doi.org/10.32388/dn232y.5",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Hybrid AI-Driven Computer-Aided Engineering Optimization: Large Language Models Versus Regression-Based Models Validated Through Finite-Element Analysis",
+        "url": "https://openalex.org/W4414295467",
+        "pdf_url": "https://www.mdpi.com/2076-3417/15/18/10123/pdf?version=1758095133",
+        "doi_url": "https://doi.org/10.3390/app151810123",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "url": "http://arxiv.org/abs/2512.25075v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "url": "http://arxiv.org/abs/2512.25074v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "url": "http://arxiv.org/abs/2512.25071v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "url": "http://arxiv.org/abs/2512.25072v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "url": "http://arxiv.org/abs/2512.25070v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "url": "http://arxiv.org/abs/2512.25067v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "url": "http://arxiv.org/abs/2512.25066v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "url": "http://arxiv.org/abs/2512.25064v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+        "url": "http://arxiv.org/abs/2512.25063v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25063v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+        "url": "http://arxiv.org/abs/2512.25061v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25061v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "On the geometry and topology of representations: the manifolds of modular addition",
+        "url": "http://arxiv.org/abs/2512.25060v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25060v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "url": "http://arxiv.org/abs/2512.25059v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "url": "http://arxiv.org/abs/2512.25055v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+        "url": "http://arxiv.org/abs/2512.25048v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25048v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "url": "http://arxiv.org/abs/2512.25042v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "url": "http://arxiv.org/abs/2512.25040v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Generative Classifiers Avoid Shortcut Solutions",
+        "url": "http://arxiv.org/abs/2512.25034v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25034v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+        "url": "http://arxiv.org/abs/2512.25033v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25033v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Testing Monotonicity in a Finite Population",
+        "url": "http://arxiv.org/abs/2512.25032v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25032v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+        "url": "http://arxiv.org/abs/2512.25023v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25023v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Approximation Algorithms for Fair Repetitive Scheduling",
+        "url": "http://arxiv.org/abs/2512.25020v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25020v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Convergence of the generalization error for deep gradient flow methods for PDEs",
+        "url": "http://arxiv.org/abs/2512.25017v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25017v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+        "url": "http://arxiv.org/abs/2512.25015v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25015v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Diffusion Language Models are Provably Optimal Parallel Samplers",
+        "url": "http://arxiv.org/abs/2512.25014v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25014v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM",
+        "url": "http://arxiv.org/abs/2512.25008v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25008v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "offline_iclr": [
+        {
+          "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+          "url": "https://iclr.cc/virtual/2025/poster/30860",
+          "pdf_url": "https://openreview.net/pdf?id=6s5uXNWGIh",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "TimeSeriesGym: A Scalable Benchmark for (Time Series) Machine Learning Engineering Agents",
+          "url": "https://openreview.net/forum?id=8gdfWRilR7",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "OpenAgentSafety: A Comprehensive Framework For Evaluating Real-World AI Agent Safety",
+          "url": "https://openreview.net/forum?id=xggSxCFQbA",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "SWE-PolyBench: A multi-language benchmark for repository level evaluation of coding agents",
+          "url": "https://openreview.net/forum?id=n577FC6CKk",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Interactive Agents to Overcome Underspecificity in Software Engineering",
+          "url": "https://openreview.net/forum?id=X2yzXtH4wp",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "OmniCode: A Benchmark for Evaluating Software Development Agents",
+          "url": "https://openreview.net/forum?id=VP204Aa0gH",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents",
+          "url": "https://openreview.net/forum?id=IIzehISTBe",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Beyond Truthfulness: Evaluating Honesty in Large Language Models",
+          "url": "https://openreview.net/forum?id=jTHWqtQuDi",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "$\\tau^2$-bench: : Evaluating Conversational Agents in a Dual-Control Environment",
+          "url": "https://openreview.net/forum?id=LGmO9VvuP5",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "InnoGym: Benchmarking the Innovation Potential of AI Agents",
+          "url": "https://openreview.net/forum?id=GRufFX1gAy",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "DevOps-Gym: Benchmarking AI Agents in Software DevOps Cycle",
+          "url": "https://openreview.net/forum?id=bP48r4dt7Z",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ArchPilot: A Proxy-Guided Multi-Agent Approach for Machine Learning Engineering",
+          "url": "https://openreview.net/forum?id=qZVgiiWQUt",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ProMediate: A Socio-cognitive framework for evaluating proactive agents in multi-party negotiation",
+          "url": "https://openreview.net/forum?id=1m8ODIMkax",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "CoMind: Towards Community-Driven Agents for Machine Learning Engineering",
+          "url": "https://openreview.net/forum?id=P479BoN8BD",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Reinforcement Learning for Machine Learning Engineering Agents",
+          "url": "https://openreview.net/forum?id=mfIbSouoaZ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+          "url": "https://iclr.cc/virtual/2025/poster/29831",
+          "pdf_url": "https://openreview.net/pdf?id=OJd3ayDDoF",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?",
+          "url": "https://openreview.net/forum?id=9R2iUHhVfr",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Process-Level Trajectory Evaluation for Environment Configuration in Software Engineering Agents",
+          "url": "https://openreview.net/forum?id=Q8qgloDKUO",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "DigiData: Training and Evaluating General-Purpose Mobile Control Agents",
+          "url": "https://openreview.net/forum?id=gJ2N5awCHb",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Diversity Empowers Intelligence: Integrating Expertise of Software Engineering Agents",
+          "url": "https://iclr.cc/virtual/2025/poster/29057",
+          "pdf_url": "https://openreview.net/pdf?id=cKlzKs3Nnb",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Beyond Shortest-Paths: A Benchmark for Reinforcement Learning on Traffic Engineering",
+          "url": "https://openreview.net/forum?id=4jBL79L5QS",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "AutoModel: Autonomous Model Development for Image Classification with LLM Agents",
+          "url": "https://openreview.net/forum?id=6ofUPFtqPF",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Beyond Software Development: Continuous Integration with coding agents",
+          "url": "https://openreview.net/forum?id=n8lAJLVdVN",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Benchmarking Large Language Models as AI Research Agents",
+          "url": "https://openreview.net/forum?id=N9wD4RFWY0",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "SoftPhy: Soft-Body Physical Concept Learning and Reasoning from Videos",
+          "url": "https://openreview.net/forum?id=pNlntv7A9X",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "From Reproduction to Replication: Evaluating Research Agents with Progressive Code Masking",
+          "url": "https://openreview.net/forum?id=qBcHWGBnIb",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "A Benchmark for Self-Evolving Agents via Experience-Driven Lifelong Learning",
+          "url": "https://openreview.net/forum?id=vznmtmUPmA",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "AI Research Agents for Machine Learning: Search, Exploration, and Generalization in MLE-bench",
+          "url": "https://openreview.net/forum?id=RwfrdKSgCE",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "MLE-Dojo: Interactive Environments for Empowering LLM Agents in Machine Learning Engineering",
+          "url": "https://openreview.net/forum?id=5W5mFU4oMO",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research",
+          "url": "https://openreview.net/forum?id=JX9DE6colf",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "MineAnyBuild: Benchmarking Spatial Planning for Open-world AI Agents",
+          "url": "https://openreview.net/forum?id=UlwaJPzLs2",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Establishing Best Practices in Building Rigorous Agentic Benchmarks",
+          "url": "https://openreview.net/forum?id=E58HNCqoaA",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "ALE-Bench: A Benchmark for Long-Horizon Objective-Driven Algorithm Engineering",
+          "url": "https://openreview.net/forum?id=JCjGvbsOmQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "DataPerf: Benchmarks for Data-Centric AI Development",
+          "url": "https://nips.cc/virtual/2023/poster/73622",
+          "pdf_url": "https://openreview.net/pdf?id=LaFKTgrZMG",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2023
+        },
+        {
+          "title": "CTRL-ALT-DECEIT Sabotage Evaluations for Automated AI R&D",
+          "url": "https://openreview.net/forum?id=XBMjXb6f4w",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks",
+          "url": "https://openreview.net/forum?id=QQhQIqons0",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "STRATUS: A Multi-agent System for Autonomous Reliability Engineering of Modern Clouds",
+          "url": "https://openreview.net/forum?id=fYW1PKawwJ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "RE-Bench: Evaluating Frontier AI R&D Capabilities of Language Model Agents against Human Experts",
+          "url": "https://icml.cc/virtual/2025/poster/46519",
+          "pdf_url": "https://openreview.net/pdf?id=3rB0bVU6z6",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "PaperBench: Evaluating AI’s Ability to Replicate AI Research",
+          "url": "https://icml.cc/virtual/2025/poster/43586",
+          "pdf_url": "https://openreview.net/pdf?id=xF5PuTLPbn",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "ITBench: Evaluating AI Agents across Diverse Real-World IT Automation Tasks",
+          "url": "https://icml.cc/virtual/2025/poster/44303",
+          "pdf_url": "https://openreview.net/pdf?id=jP59rz1bZk",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Position: Future Research and Challenges Remain Towards AI for Software Engineering",
+          "url": "https://icml.cc/virtual/2025/poster/40141",
+          "pdf_url": "https://openreview.net/pdf?id=RuLsq4LSZK",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "CVE-Bench: A Benchmark for AI Agents’ Ability to Exploit Real-World Web Application Vulnerabilities",
+          "url": "https://icml.cc/virtual/2025/poster/46522",
+          "pdf_url": "https://openreview.net/pdf?id=3pk0p4NGmQ",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        }
+      ],
+      "offline_colm": [
+        {
+          "title": "MLGym: A New Framework and Benchmark for Advancing AI Research Agents",
+          "url": "https://openreview.net/forum?id=ryTr83DxRq",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_colm",
+          "year": 2025
+        },
+        {
+          "title": "HAICOSYSTEM: An Ecosystem for Sandboxing Safety Risks in Interactive AI Agents",
+          "url": "https://openreview.net/forum?id=KI1WQ6rLiy",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_colm",
+          "year": 2025
+        }
+      ],
+      "offline_acl": [
+        {
+          "title": "WebUIBench: A Comprehensive Benchmark for Evaluating Multimodal Large Language Models in WebUI-to-Code",
+          "url": "https://aclanthology.org/2025.findings-acl.815/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.815.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Deciphering Digital Detectives: Understanding LLM Behaviors and Capabilities in Multi-Agent Mystery Games",
+          "url": "https://aclanthology.org/2024.findings-acl.490/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.490.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        }
+      ],
+      "offline_ijcai": [
+        {
+          "title": "Tradformer: A Transformer Model of Traditional Music Transcriptions",
+          "url": "https://www.ijcai.org/proceedings/2022/681",
+          "pdf_url": "https://www.ijcai.org/proceedings/2022/0681.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2022
+        }
+      ],
+      "offline_aaai": [
+        {
+          "title": "Bridging the AI Gap: Evaluating the Impact of an AI Education Program for Caregivers on Parental Leave",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/35174",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/35174/37329",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2025
+        }
+      ],
+      "offline_emnlp": [
+        {
+          "title": "MT-GenEval: A Counterfactual and Contextual Dataset for Evaluating Gender Accuracy in Machine Translation",
+          "url": "https://aclanthology.org/2022.emnlp-main.288/",
+          "pdf_url": "https://aclanthology.org/2022.emnlp-main.288.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2022
+        }
+      ],
+      "offline_naacl": [
+        {
+          "title": "CRMArena: Understanding the Capacity of LLM Agents to Perform Professional CRM Tasks in Realistic Environments",
+          "url": "https://aclanthology.org/2025.naacl-long.194/",
+          "pdf_url": "https://aclanthology.org/2025.naacl-long.194.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2025
+        }
+      ],
+      "openalex": [
+        {
+          "title": "ReX-MLE: The Autonomous Agent Benchmark for Medical Imaging Challenges",
+          "url": "https://openalex.org/W7116978705",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.17838",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.17838",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Generative AI for the Design of Molecules: Advances and Challenges",
+          "url": "https://openalex.org/W4416395717",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1021/acs.jcim.5c02234",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Post-Hoc Interpretation of POMDP Policies",
+          "url": "https://openalex.org/W4415195019",
+          "pdf_url": "https://doi.org/10.3233/faia251379",
+          "doi_url": "https://doi.org/10.3233/faia251379",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "What You See Is What It Does: A Structural Pattern for Legible Software",
+          "url": "https://openalex.org/W4415008885",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3759429.3762628",
+          "doi_url": "https://doi.org/10.1145/3759429.3762628",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "A Survey on Stereotype Detection in Natural Language Processing",
+          "url": "https://openalex.org/W4414863587",
+          "pdf_url": "https://doi.org/10.1145/3770754",
+          "doi_url": "https://doi.org/10.1145/3770754",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Extremum Flow Matching for Offline Goal Conditioned Reinforcement Learning",
+          "url": "https://openalex.org/W4414881463",
+          "pdf_url": "https://arxiv.org/pdf/2505.19717",
+          "doi_url": "https://doi.org/10.1109/humanoids65713.2025.11203207",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "GUARD: Dual-Agent based Backdoor Defense on Chain-of-Thought in Neural Code Generation",
+          "url": "https://openalex.org/W4415405281",
+          "pdf_url": "https://doi.org/10.18293/seke2025-018",
+          "doi_url": "https://doi.org/10.18293/seke2025-018",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Demystifying Reward Design in Reinforcement Learning for Upper Extremity Interaction: Practical Guidelines for Biomechanical Simulations in HCI",
+          "url": "https://openalex.org/W4416051537",
+          "pdf_url": "https://arxiv.org/pdf/2508.15727",
+          "doi_url": "https://doi.org/10.1145/3746059.3747779",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Investigating the Performance of the Attention Mechanism and the Interpretability in the Concrete Strength Prediction Model",
+          "url": "https://openalex.org/W4414349547",
+          "pdf_url": "https://www.mdpi.com/2075-5309/15/18/3405/pdf?version=1758298702",
+          "doi_url": "https://doi.org/10.3390/buildings15183405",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Machine Learning in Near-Field Communication for 6G: A Survey",
+          "url": "https://openalex.org/W4414365051",
+          "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175696105.52959598/v2",
+          "doi_url": "https://doi.org/10.36227/techrxiv.175696105.52959598/v2",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Enterprise AI-Enabled Multi-Agent Threat Hunting: A Comprehensive Framework for Autonomous Cybersecurity Operations",
+          "url": "https://openalex.org/W4414365930",
+          "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175825523.37911598/v1",
+          "doi_url": "https://doi.org/10.36227/techrxiv.175825523.37911598/v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "SECURING PERSONAL DATA IN THE SMARTPHONE AGE: A STUDY OF MOBILE DEVICE SECURITY",
+          "url": "https://openalex.org/W4414367340",
+          "pdf_url": "https://taapublications.com/tijsrat/article/download/716/804",
+          "doi_url": "https://doi.org/10.70382/tijsrat.v09i9.050",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Emotional AI and the rise of pseudo-intimacy: are we trading authenticity for algorithmic affection?",
+          "url": "https://openalex.org/W4414340090",
+          "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1679324/pdf",
+          "doi_url": "https://doi.org/10.3389/fpsyg.2025.1679324",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "The Evolution and Impact of Artificial Intelligence in Chemistry",
+          "url": "https://openalex.org/W4414317055",
+          "pdf_url": "https://www.preprints.org/frontend/manuscript/1bfa955ffef705c432f143b9815dfa7e/download_pub",
+          "doi_url": "https://doi.org/10.20944/preprints202509.1557.v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Energy optimization design and implementation of building engineering based on intelligent decision-making algorithm",
+          "url": "https://openalex.org/W4414319369",
+          "pdf_url": "https://iopscience.iop.org/article/10.1088/2631-8695/ae091c/pdf",
+          "doi_url": "https://doi.org/10.1088/2631-8695/ae091c",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Web-Based Platform for Quantitative Depression Risk Prediction via VAD Regression on Korean Text and Multi-Anchor Distance Scoring",
+          "url": "https://openalex.org/W4414329350",
+          "pdf_url": "https://www.mdpi.com/2076-3417/15/18/10170/pdf?version=1758189604",
+          "doi_url": "https://doi.org/10.3390/app151810170",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "AI IN DEVOPS: A FRAMEWORK FOR PREDICTIVE MAINTENANCE AND AUTOMATED ISSUE RESOLUTION",
+          "url": "https://openalex.org/W4414332386",
+          "pdf_url": "https://ijamjournal.org/ijam/publication/index.php/ijam/article/download/83/81",
+          "doi_url": "https://doi.org/10.12732/ijam.v38i2s.83",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Checking Medical Process Conformance by Exploiting LLMs",
+          "url": "https://openalex.org/W4414340659",
+          "pdf_url": "https://www.mdpi.com/2076-3417/15/18/10184/pdf?version=1758263681",
+          "doi_url": "https://doi.org/10.3390/app151810184",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Investigating the use of Large Language Models in software security requirements: Results of a literature review",
+          "url": "https://openalex.org/W4414276043",
+          "pdf_url": "https://sol.sbc.org.br/index.php/ise/article/download/36863/36649",
+          "doi_url": "https://doi.org/10.5753/ise.2025.14892",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Automated Summarization of Software Documents: An LLM-based Multi-Agent Approach",
+          "url": "https://openalex.org/W4414280973",
+          "pdf_url": "https://www.researchsquare.com/article/rs-7539426/latest.pdf",
+          "doi_url": "https://doi.org/10.21203/rs.3.rs-7539426/v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "WHO–WHAT–HOW: A Product Operating Model for Agile, Technology-Enabled Digital Transformation",
+          "url": "https://openalex.org/W4414288527",
+          "pdf_url": "https://www.mdpi.com/2076-3387/15/9/368/pdf?version=1758101746",
+          "doi_url": "https://doi.org/10.3390/admsci15090368",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "No Consciousness? No Meaning (and no AGI!)",
+          "url": "https://openalex.org/W4414292622",
+          "pdf_url": "https://www.qeios.com/read/DN232Y.5/pdf",
+          "doi_url": "https://doi.org/10.32388/dn232y.5",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Hybrid AI-Driven Computer-Aided Engineering Optimization: Large Language Models Versus Regression-Based Models Validated Through Finite-Element Analysis",
+          "url": "https://openalex.org/W4414295467",
+          "pdf_url": "https://www.mdpi.com/2076-3417/15/18/10123/pdf?version=1758095133",
+          "doi_url": "https://doi.org/10.3390/app151810123",
+          "source": "openalex",
+          "year": 2025
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+          "url": "http://arxiv.org/abs/2512.25075v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+          "url": "http://arxiv.org/abs/2512.25074v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+          "url": "http://arxiv.org/abs/2512.25071v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Coordinated Humanoid Manipulation with Choice Policies",
+          "url": "http://arxiv.org/abs/2512.25072v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Scaling Open-Ended Reasoning to Predict the Future",
+          "url": "http://arxiv.org/abs/2512.25070v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+          "url": "http://arxiv.org/abs/2512.25067v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+          "url": "http://arxiv.org/abs/2512.25066v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+          "url": "http://arxiv.org/abs/2512.25064v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+          "url": "http://arxiv.org/abs/2512.25063v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25063v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+          "url": "http://arxiv.org/abs/2512.25061v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25061v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "On the geometry and topology of representations: the manifolds of modular addition",
+          "url": "http://arxiv.org/abs/2512.25060v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25060v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+          "url": "http://arxiv.org/abs/2512.25059v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+          "url": "http://arxiv.org/abs/2512.25055v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+          "url": "http://arxiv.org/abs/2512.25048v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25048v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Compound Estimation for Binomials",
+          "url": "http://arxiv.org/abs/2512.25042v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+          "url": "http://arxiv.org/abs/2512.25040v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Generative Classifiers Avoid Shortcut Solutions",
+          "url": "http://arxiv.org/abs/2512.25034v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25034v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+          "url": "http://arxiv.org/abs/2512.25033v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25033v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Testing Monotonicity in a Finite Population",
+          "url": "http://arxiv.org/abs/2512.25032v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25032v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+          "url": "http://arxiv.org/abs/2512.25023v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25023v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Approximation Algorithms for Fair Repetitive Scheduling",
+          "url": "http://arxiv.org/abs/2512.25020v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25020v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Convergence of the generalization error for deep gradient flow methods for PDEs",
+          "url": "http://arxiv.org/abs/2512.25017v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25017v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+          "url": "http://arxiv.org/abs/2512.25015v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25015v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Diffusion Language Models are Provably Optimal Parallel Samplers",
+          "url": "http://arxiv.org/abs/2512.25014v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25014v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM",
+          "url": "http://arxiv.org/abs/2512.25008v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25008v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+        "pdf": "https://openreview.net/pdf?id=6s5uXNWGIh"
+      },
+      {
+        "title": "RE-Bench: Evaluating Frontier AI R&D Capabilities of Language Model Agents against Human Experts",
+        "pdf": "https://openreview.net/pdf?id=3rB0bVU6z6"
+      },
+      {
+        "title": "PaperBench: Evaluating AI’s Ability to Replicate AI Research",
+        "pdf": "https://openreview.net/pdf?id=xF5PuTLPbn"
+      },
+      {
+        "title": "WebUIBench: A Comprehensive Benchmark for Evaluating Multimodal Large Language Models in WebUI-to-Code",
+        "pdf": "https://aclanthology.org/2025.findings-acl.815.pdf"
+      },
+      {
+        "title": "ITBench: Evaluating AI Agents across Diverse Real-World IT Automation Tasks",
+        "pdf": "https://openreview.net/pdf?id=jP59rz1bZk"
+      },
+      {
+        "title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+        "pdf": "https://openreview.net/pdf?id=OJd3ayDDoF"
+      },
+      {
+        "title": "DataPerf: Benchmarks for Data-Centric AI Development",
+        "pdf": "https://openreview.net/pdf?id=LaFKTgrZMG"
+      },
+      {
+        "title": "Diversity Empowers Intelligence: Integrating Expertise of Software Engineering Agents",
+        "pdf": "https://openreview.net/pdf?id=cKlzKs3Nnb"
+      },
+      {
+        "title": "Position: Future Research and Challenges Remain Towards AI for Software Engineering",
+        "pdf": "https://openreview.net/pdf?id=RuLsq4LSZK"
+      },
+      {
+        "title": "Deciphering Digital Detectives: Understanding LLM Behaviors and Capabilities in Multi-Agent Mystery Games",
+        "pdf": "https://aclanthology.org/2024.findings-acl.490.pdf"
+      },
+      {
+        "title": "Tradformer: A Transformer Model of Traditional Music Transcriptions",
+        "pdf": "https://www.ijcai.org/proceedings/2022/0681.pdf"
+      },
+      {
+        "title": "CVE-Bench: A Benchmark for AI Agents’ Ability to Exploit Real-World Web Application Vulnerabilities",
+        "pdf": "https://openreview.net/pdf?id=3pk0p4NGmQ"
+      },
+      {
+        "title": "Bridging the AI Gap: Evaluating the Impact of an AI Education Program for Caregivers on Parental Leave",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/35174/37329"
+      },
+      {
+        "title": "MT-GenEval: A Counterfactual and Contextual Dataset for Evaluating Gender Accuracy in Machine Translation",
+        "pdf": "https://aclanthology.org/2022.emnlp-main.288.pdf"
+      },
+      {
+        "title": "CRMArena: Understanding the Capacity of LLM Agents to Perform Professional CRM Tasks in Realistic Environments",
+        "pdf": "https://aclanthology.org/2025.naacl-long.194.pdf"
+      },
+      {
+        "title": "ReX-MLE: The Autonomous Agent Benchmark for Medical Imaging Challenges",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.17838"
+      },
+      {
+        "title": "Post-Hoc Interpretation of POMDP Policies",
+        "pdf": "https://doi.org/10.3233/faia251379"
+      },
+      {
+        "title": "What You See Is What It Does: A Structural Pattern for Legible Software",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3759429.3762628"
+      },
+      {
+        "title": "A Survey on Stereotype Detection in Natural Language Processing",
+        "pdf": "https://doi.org/10.1145/3770754"
+      },
+      {
+        "title": "Extremum Flow Matching for Offline Goal Conditioned Reinforcement Learning",
+        "pdf": "https://arxiv.org/pdf/2505.19717"
+      },
+      {
+        "title": "GUARD: Dual-Agent based Backdoor Defense on Chain-of-Thought in Neural Code Generation",
+        "pdf": "https://doi.org/10.18293/seke2025-018"
+      },
+      {
+        "title": "Demystifying Reward Design in Reinforcement Learning for Upper Extremity Interaction: Practical Guidelines for Biomechanical Simulations in HCI",
+        "pdf": "https://arxiv.org/pdf/2508.15727"
+      },
+      {
+        "title": "Investigating the Performance of the Attention Mechanism and the Interpretability in the Concrete Strength Prediction Model",
+        "pdf": "https://www.mdpi.com/2075-5309/15/18/3405/pdf?version=1758298702"
+      },
+      {
+        "title": "Machine Learning in Near-Field Communication for 6G: A Survey",
+        "pdf": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175696105.52959598/v2"
+      },
+      {
+        "title": "Enterprise AI-Enabled Multi-Agent Threat Hunting: A Comprehensive Framework for Autonomous Cybersecurity Operations",
+        "pdf": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175825523.37911598/v1"
+      },
+      {
+        "title": "SECURING PERSONAL DATA IN THE SMARTPHONE AGE: A STUDY OF MOBILE DEVICE SECURITY",
+        "pdf": "https://taapublications.com/tijsrat/article/download/716/804"
+      },
+      {
+        "title": "Emotional AI and the rise of pseudo-intimacy: are we trading authenticity for algorithmic affection?",
+        "pdf": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1679324/pdf"
+      },
+      {
+        "title": "The Evolution and Impact of Artificial Intelligence in Chemistry",
+        "pdf": "https://www.preprints.org/frontend/manuscript/1bfa955ffef705c432f143b9815dfa7e/download_pub"
+      },
+      {
+        "title": "Energy optimization design and implementation of building engineering based on intelligent decision-making algorithm",
+        "pdf": "https://iopscience.iop.org/article/10.1088/2631-8695/ae091c/pdf"
+      },
+      {
+        "title": "Web-Based Platform for Quantitative Depression Risk Prediction via VAD Regression on Korean Text and Multi-Anchor Distance Scoring",
+        "pdf": "https://www.mdpi.com/2076-3417/15/18/10170/pdf?version=1758189604"
+      },
+      {
+        "title": "AI IN DEVOPS: A FRAMEWORK FOR PREDICTIVE MAINTENANCE AND AUTOMATED ISSUE RESOLUTION",
+        "pdf": "https://ijamjournal.org/ijam/publication/index.php/ijam/article/download/83/81"
+      },
+      {
+        "title": "Checking Medical Process Conformance by Exploiting LLMs",
+        "pdf": "https://www.mdpi.com/2076-3417/15/18/10184/pdf?version=1758263681"
+      },
+      {
+        "title": "Investigating the use of Large Language Models in software security requirements: Results of a literature review",
+        "pdf": "https://sol.sbc.org.br/index.php/ise/article/download/36863/36649"
+      },
+      {
+        "title": "Automated Summarization of Software Documents: An LLM-based Multi-Agent Approach",
+        "pdf": "https://www.researchsquare.com/article/rs-7539426/latest.pdf"
+      },
+      {
+        "title": "WHO–WHAT–HOW: A Product Operating Model for Agile, Technology-Enabled Digital Transformation",
+        "pdf": "https://www.mdpi.com/2076-3387/15/9/368/pdf?version=1758101746"
+      },
+      {
+        "title": "No Consciousness? No Meaning (and no AGI!)",
+        "pdf": "https://www.qeios.com/read/DN232Y.5/pdf"
+      },
+      {
+        "title": "Hybrid AI-Driven Computer-Aided Engineering Optimization: Large Language Models Versus Regression-Based Models Validated Through Finite-Element Analysis",
+        "pdf": "https://www.mdpi.com/2076-3417/15/18/10123/pdf?version=1758095133"
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "pdf": "https://arxiv.org/pdf/2512.25075v1"
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "pdf": "https://arxiv.org/pdf/2512.25074v1"
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "pdf": "https://arxiv.org/pdf/2512.25071v1"
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "pdf": "https://arxiv.org/pdf/2512.25072v1"
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "pdf": "https://arxiv.org/pdf/2512.25070v1"
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "pdf": "https://arxiv.org/pdf/2512.25067v1"
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "pdf": "https://arxiv.org/pdf/2512.25066v1"
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "pdf": "https://arxiv.org/pdf/2512.25064v1"
+      },
+      {
+        "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+        "pdf": "https://arxiv.org/pdf/2512.25063v1"
+      },
+      {
+        "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+        "pdf": "https://arxiv.org/pdf/2512.25061v1"
+      },
+      {
+        "title": "On the geometry and topology of representations: the manifolds of modular addition",
+        "pdf": "https://arxiv.org/pdf/2512.25060v1"
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "pdf": "https://arxiv.org/pdf/2512.25059v1"
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "pdf": "https://arxiv.org/pdf/2512.25055v1"
+      },
+      {
+        "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+        "pdf": "https://arxiv.org/pdf/2512.25048v1"
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "pdf": "https://arxiv.org/pdf/2512.25042v1"
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "pdf": "https://arxiv.org/pdf/2512.25040v1"
+      },
+      {
+        "title": "Generative Classifiers Avoid Shortcut Solutions",
+        "pdf": "https://arxiv.org/pdf/2512.25034v1"
+      },
+      {
+        "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+        "pdf": "https://arxiv.org/pdf/2512.25033v1"
+      },
+      {
+        "title": "Testing Monotonicity in a Finite Population",
+        "pdf": "https://arxiv.org/pdf/2512.25032v1"
+      },
+      {
+        "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+        "pdf": "https://arxiv.org/pdf/2512.25023v1"
+      },
+      {
+        "title": "Approximation Algorithms for Fair Repetitive Scheduling",
+        "pdf": "https://arxiv.org/pdf/2512.25020v1"
+      },
+      {
+        "title": "Convergence of the generalization error for deep gradient flow methods for PDEs",
+        "pdf": "https://arxiv.org/pdf/2512.25017v1"
+      },
+      {
+        "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+        "pdf": "https://arxiv.org/pdf/2512.25015v1"
+      },
+      {
+        "title": "Diffusion Language Models are Provably Optimal Parallel Samplers",
+        "pdf": "https://arxiv.org/pdf/2512.25014v1"
+      },
+      {
+        "title": "FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM",
+        "pdf": "https://arxiv.org/pdf/2512.25008v1"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "ReX-MLE: The Autonomous Agent Benchmark for Medical Imaging Challenges",
+        "doi": "https://doi.org/10.48550/arxiv.2512.17838"
+      },
+      {
+        "title": "Generative AI for the Design of Molecules: Advances and Challenges",
+        "doi": "https://doi.org/10.1021/acs.jcim.5c02234"
+      },
+      {
+        "title": "Post-Hoc Interpretation of POMDP Policies",
+        "doi": "https://doi.org/10.3233/faia251379"
+      },
+      {
+        "title": "What You See Is What It Does: A Structural Pattern for Legible Software",
+        "doi": "https://doi.org/10.1145/3759429.3762628"
+      },
+      {
+        "title": "A Survey on Stereotype Detection in Natural Language Processing",
+        "doi": "https://doi.org/10.1145/3770754"
+      },
+      {
+        "title": "Extremum Flow Matching for Offline Goal Conditioned Reinforcement Learning",
+        "doi": "https://doi.org/10.1109/humanoids65713.2025.11203207"
+      },
+      {
+        "title": "GUARD: Dual-Agent based Backdoor Defense on Chain-of-Thought in Neural Code Generation",
+        "doi": "https://doi.org/10.18293/seke2025-018"
+      },
+      {
+        "title": "Demystifying Reward Design in Reinforcement Learning for Upper Extremity Interaction: Practical Guidelines for Biomechanical Simulations in HCI",
+        "doi": "https://doi.org/10.1145/3746059.3747779"
+      },
+      {
+        "title": "Investigating the Performance of the Attention Mechanism and the Interpretability in the Concrete Strength Prediction Model",
+        "doi": "https://doi.org/10.3390/buildings15183405"
+      },
+      {
+        "title": "Machine Learning in Near-Field Communication for 6G: A Survey",
+        "doi": "https://doi.org/10.36227/techrxiv.175696105.52959598/v2"
+      },
+      {
+        "title": "Enterprise AI-Enabled Multi-Agent Threat Hunting: A Comprehensive Framework for Autonomous Cybersecurity Operations",
+        "doi": "https://doi.org/10.36227/techrxiv.175825523.37911598/v1"
+      },
+      {
+        "title": "SECURING PERSONAL DATA IN THE SMARTPHONE AGE: A STUDY OF MOBILE DEVICE SECURITY",
+        "doi": "https://doi.org/10.70382/tijsrat.v09i9.050"
+      },
+      {
+        "title": "Emotional AI and the rise of pseudo-intimacy: are we trading authenticity for algorithmic affection?",
+        "doi": "https://doi.org/10.3389/fpsyg.2025.1679324"
+      },
+      {
+        "title": "The Evolution and Impact of Artificial Intelligence in Chemistry",
+        "doi": "https://doi.org/10.20944/preprints202509.1557.v1"
+      },
+      {
+        "title": "Energy optimization design and implementation of building engineering based on intelligent decision-making algorithm",
+        "doi": "https://doi.org/10.1088/2631-8695/ae091c"
+      },
+      {
+        "title": "Web-Based Platform for Quantitative Depression Risk Prediction via VAD Regression on Korean Text and Multi-Anchor Distance Scoring",
+        "doi": "https://doi.org/10.3390/app151810170"
+      },
+      {
+        "title": "AI IN DEVOPS: A FRAMEWORK FOR PREDICTIVE MAINTENANCE AND AUTOMATED ISSUE RESOLUTION",
+        "doi": "https://doi.org/10.12732/ijam.v38i2s.83"
+      },
+      {
+        "title": "Checking Medical Process Conformance by Exploiting LLMs",
+        "doi": "https://doi.org/10.3390/app151810184"
+      },
+      {
+        "title": "Investigating the use of Large Language Models in software security requirements: Results of a literature review",
+        "doi": "https://doi.org/10.5753/ise.2025.14892"
+      },
+      {
+        "title": "Automated Summarization of Software Documents: An LLM-based Multi-Agent Approach",
+        "doi": "https://doi.org/10.21203/rs.3.rs-7539426/v1"
+      },
+      {
+        "title": "WHO–WHAT–HOW: A Product Operating Model for Agile, Technology-Enabled Digital Transformation",
+        "doi": "https://doi.org/10.3390/admsci15090368"
+      },
+      {
+        "title": "No Consciousness? No Meaning (and no AGI!)",
+        "doi": "https://doi.org/10.32388/dn232y.5"
+      },
+      {
+        "title": "Hybrid AI-Driven Computer-Aided Engineering Optimization: Large Language Models Versus Regression-Based Models Validated Through Finite-Element Analysis",
+        "doi": "https://doi.org/10.3390/app151810123"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "benchmarks for evaluating AI agents in machine learning engineering",
+    "total_steps": 3,
+    "last_updated": "2026-01-02T11:49:24.119337",
+    "started_at": "2026-01-02T11:47:51.521627",
+    "total_papers": 98
+  }
+}

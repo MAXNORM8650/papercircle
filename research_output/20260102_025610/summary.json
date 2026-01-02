@@ -1,0 +1,84 @@
+{
+  "summary": {
+    "query": "multi-agent research pipeline AND sep OR separator",
+    "total_papers": 58,
+    "unique_sources": 3,
+    "year_range": {
+      "min": 2024,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 0,
+      "average": 0
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 55,
+    "papers_with_doi": 13,
+    "processing_steps": 4
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (1) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 1
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 43 papers (74%)",
+      "data": {
+        "source": "arxiv",
+        "count": 43
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Antoine Laurent has 1 papers in this collection",
+      "data": {
+        "author": "Antoine Laurent",
+        "count": 1
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: multi, agent, framework, learning, language",
+      "data": {
+        "keywords": {
+          "multi": 14,
+          "agent": 7,
+          "framework": 6,
+          "learning": 6,
+          "language": 6
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "55/58 papers (94%) have direct PDF links",
+      "data": {
+        "with_pdf": 55,
+        "total": 58
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 58 papers related to 'multi-agent research pipeline AND sep OR separator'",
+    "Papers collected from 3 sources: openalex, arxiv, semantic_scholar",
+    "Publication years range from 2024 to 2026",
+    "Leading researchers: Antoine Laurent, Sameer Khurana, Anthony Larcher"
+  ],
+  "metadata": {
+    "query": "multi-agent research pipeline AND sep OR separator",
+    "total_steps": 4,
+    "last_updated": "2026-01-02T02:57:49.338599",
+    "started_at": "2026-01-02T02:56:11.902846",
+    "total_papers": 58
+  }
+}

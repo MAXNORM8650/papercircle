@@ -1,0 +1,4 @@
+\section{Retrieval Pipeline}
+Paper Circle supports both offline and online retrieval to balance coverage and speed. Offline search loads papers from a local JSON corpus and applies conference and year filters at load time. Online search aggregates papers from arXiv, Semantic Scholar, OpenAlex, and DBLP, with additional support for external discovery via the \texttt{findpapers} CLI. A query builder constructs source-appropriate queries, and expanded terms can be injected to improve recall.
+
+After retrieval, the system performs deduplication by DOI (when available) and then by normalized title. The deduplication heuristic prefers entries with richer metadata such as abstracts or URLs. The resulting list is used as the input for scoring and ranking.

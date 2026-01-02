@@ -1,0 +1,2497 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Multi-Agent Causal Discovery Using Large Language Models",
+        "url": "https://openreview.net/forum?id=Idygh9MX0N",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Research Town: Simulator of Research Community",
+        "url": "https://openreview.net/forum?id=IwhvaDrL39",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "CellAgent: LLM-Driven Multi-Agent Framework for Natural Language-Based Single-Cell Analysis",
+        "url": "https://openreview.net/forum?id=BsA2GNkJhz",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ResearchTown: Simulator of Human Research Community",
+        "url": "https://icml.cc/virtual/2025/poster/46055",
+        "pdf_url": "https://openreview.net/pdf?id=CZPOIZqWwd",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Learning Keypoints for Multi-Agent Behavior Analysis using Self-Supervision",
+        "url": "https://openaccess.thecvf.com/content/WACV2025/html/Khalil_Learning_Keypoints_for_Multi-Agent_Behavior_Analysis_using_Self-Supervision_WACV_2025_paper.html",
+        "pdf_url": "https://openaccess.thecvf.com/content/WACV2025/papers/Khalil_Learning_Keypoints_for_Multi-Agent_Behavior_Analysis_using_Self-Supervision_WACV_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_wacv",
+        "year": 2025
+      },
+      {
+        "title": "LLM-based Multi-Agent Blackboard System for Information Discovery in Data Science",
+        "url": "https://openreview.net/forum?id=egTQgf89Lm",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "PiFlow: Principle-aware Scientific Discovery with Multi-Agent Collaboration",
+        "url": "https://openreview.net/forum?id=Is2oXblRtP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "CausalSteward: An Agentic Divide-Conquer-Combine Copilot for Causal Discovery",
+        "url": "https://openreview.net/forum?id=3lFAyPa9Fe",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "PaTSy-Neural-EM: Geometry-Aware Truth Discovery for Real-Time Multi-Agent Perception",
+        "url": "https://openreview.net/forum?id=24xsYuKKnt",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "R3DM: Enabling Role Discovery and Diversity Through Dynamics Models in Multi-agent Reinforcement Learning",
+        "url": "https://icml.cc/virtual/2025/poster/45066",
+        "pdf_url": "https://openreview.net/pdf?id=VSIjdKPGp8",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "AI-Driven Automation Can Become the Foundation of Next-Era Science of Science Research",
+        "url": "https://openreview.net/forum?id=u0FB996GIH",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "DatasetResearch: Benchmarking Agent Systems for Demand-Driven Dataset Discovery",
+        "url": "https://openreview.net/forum?id=obapzpANpf",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Inter-Agent Relative Representations for Multi-Agent Option Discovery",
+        "url": "https://openreview.net/forum?id=Fte7TOqnQp",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "GeoEvolve: Automating Geospatial Model Discovery via Multi-Agent Large Language Models",
+        "url": "https://openreview.net/forum?id=XaFbHtdoGF",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "EvoCF: Multi-agent Collaboration with Memory-guided Evolutionary Counterfactual Planning",
+        "url": "https://openreview.net/forum?id=KpvZ1kGOjH",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "MARFT: Multi-Agent Reinforcement Fine-Tuning",
+        "url": "https://openreview.net/forum?id=Yu1ZsRlqeK",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ChemThinker: Thinking Like a Chemist with Multi-Agent LLMs for Deep Molecular Insights",
+        "url": "https://openreview.net/forum?id=zlAUnwhE2v",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "AlphaResearch: Accelerating New Algorithm Discovery with Language Models",
+        "url": "https://openreview.net/forum?id=FF2Lbu9U6Y",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Learning Communication in Offline Multi-Agent Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=NZSsN8cL0r",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "O-Reseacher: An Open Ended Deep Research Model via Multi-Agent Distillation and Agentic RL",
+        "url": "https://openreview.net/forum?id=eiAqz3TsSI",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "MARS: Optimizing Dual-System Deep Research via Multi-Agent Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=abxVxyXNhW",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "NegoLog: An Integrated Python-based Automated Negotiation Framework with Enhanced Assessment Components",
+        "url": "https://www.ijcai.org/proceedings/2024/998",
+        "pdf_url": "https://www.ijcai.org/proceedings/2024/0998.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2024
+      },
+      {
+        "title": "REDEREF: RECURSIVE DELEGATION AND REFLECTION FOR MULTI-TURN LLM AGENT COLLABORATION WITH DYNAMIC CAPABILITY DISCOVERY",
+        "url": "https://openreview.net/forum?id=bQgaTaN2eG",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Decentralized and Lifelong-Adaptive Multi-Agent Collaborative Learning",
+        "url": "https://openreview.net/forum?id=ZkP0Mw3PAi",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "LiveResearchBench: Benchmarking Single- and Multi-Agent Systems for Citation-Grounded Deep Research",
+        "url": "https://openreview.net/forum?id=ghwbZ3uhEd",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses",
+        "url": "https://iclr.cc/virtual/2025/poster/29319",
+        "pdf_url": "https://openreview.net/pdf?id=X9OfMNNepI",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "ChemBOMAS: Accelerated Bayesian Optimization for Scientific Discovery in Chemistry with LLM-Enhanced Multi-Agent System",
+        "url": "https://openreview.net/forum?id=XEkQu1ZWGN",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Cohesive Conversations: Enhancing Authenticity in Multi-Agent Simulated Dialogues",
+        "url": "https://openreview.net/forum?id=3ypWPhMGhV",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_colm",
+        "year": 2024
+      },
+      {
+        "title": "Partner-Aware Hierarchical Skill Discovery for Robust Human-AI Collaboration",
+        "url": "https://openreview.net/forum?id=vKkEX3a0rP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "R&D-Agent-Quant: A Multi-Agent Framework for Data-Centric Factors and Model Joint Optimization",
+        "url": "https://openreview.net/forum?id=9VxTXAUH7G",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Towards Scientific Discovery with Generative AI: Progress, Opportunities, and Challenges",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/35084",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/35084/37239",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2025
+      },
+      {
+        "title": "NEGOTIATOR: A Comprehensive Framework for Human-Agent Negotiation Integrating Preferences, Interaction, and Emotion",
+        "url": "https://www.ijcai.org/proceedings/2024/1012",
+        "pdf_url": "https://www.ijcai.org/proceedings/2024/1012.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2024
+      },
+      {
+        "title": "Sparse Causal Model: A Novel Approach for Causal Discovery and Attributions on Sparse Dataset",
+        "url": "https://openreview.net/forum?id=fSxiromxAq",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Benchmark Self-Evolving: A Multi-Agent Framework for Dynamic LLM Evaluation",
+        "url": "https://aclanthology.org/2025.coling-main.223/",
+        "pdf_url": "https://aclanthology.org/2025.coling-main.223.pdf",
+        "doi_url": null,
+        "source": "offline_coling",
+        "year": 2025
+      },
+      {
+        "title": "MoodAngels: A Retrieval-augmented Multi-agent Framework for Psychiatry Diagnosis",
+        "url": "https://openreview.net/forum?id=AWU93F6Bup",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Cheap Talk Discovery and Utilization in Multi-Agent Reinforcement Learning",
+        "url": "https://iclr.cc/virtual/2023/poster/11921",
+        "pdf_url": "https://openreview.net/pdf?id=cddbeL1HWaD",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Hierarchical Multi-Agent Framework for Carbon-Efficient Liquid-Cooled Data Center Clusters",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/35370",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/35370/37525",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2025
+      },
+      {
+        "title": "Hypothesis Generation for Materials Discovery and Design Using Goal-Driven and Constraint-Guided LLM Agents",
+        "url": "https://aclanthology.org/2025.findings-naacl.420/",
+        "pdf_url": "https://aclanthology.org/2025.findings-naacl.420.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2025
+      },
+      {
+        "title": "PsySafe: A Comprehensive Framework for Psychological-based Attack, Defense, and Evaluation of Multi-agent System Safety",
+        "url": "https://aclanthology.org/2024.acl-long.812/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.812.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "A Diachronic Analysis of Paradigm Shifts in NLP Research: When, How, and Why?",
+        "url": "https://openreview.net/forum?id=qhwYFIrSm7",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "Hierarchical Multi-Agent Skill Discovery",
+        "url": "https://nips.cc/virtual/2023/poster/70014",
+        "pdf_url": "https://openreview.net/pdf?id=xMgO04HDOS",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2023
+      },
+      {
+        "title": "Integrated Systems for Computational Scientific Discovery",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30269",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30269/32263",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2024
+      },
+      {
+        "title": "SurroCBM: Concept Bottleneck Surrogate Models for Joint Unsupervised Concept Discovery and Post-hoc Explanation",
+        "url": "https://openreview.net/forum?id=Jh6m4e8Ief",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Effective and Stable Role-Based Multi-Agent Collaboration by Structural Information Principles",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26390",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/26390/26162",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2023
+      },
+      {
+        "title": "Decentralized Autonomous Organizations and Multi-agent Systems for Artificial Intelligence Applications and Data Analysis",
+        "url": "https://www.ijcai.org/proceedings/2022/828",
+        "pdf_url": "https://www.ijcai.org/proceedings/2022/0828.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2022
+      },
+      {
+        "title": "A Computational Model of Ostrom's Institutional Analysis and Development Framework (Extended Abstract)",
+        "url": "https://www.ijcai.org/proceedings/2023/786",
+        "pdf_url": "https://www.ijcai.org/proceedings/2023/0786.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2023
+      },
+      {
+        "title": "Improved Structural Discovery and Representation Learning of Multi-Agent Data",
+        "url": "https://openreview.net/forum?id=H1ervR4FwH",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2020
+      },
+      {
+        "title": "A SURVEY ON STOCK INVESTMENT RISK ANALYSIS USING CREWAI MULTI- AGENT SYSTEM",
+        "url": "https://www.semanticscholar.org/paper/f17c5b4bc435f7ad7714290797036250717bcaec",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.56726/irjmets66945",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Avtomatizacija raziskovalnega procesa z agentnimi velikimi jezikovnimi modeli",
+        "url": "https://openalex.org/W7113529719",
+        "pdf_url": "https://repozitorij.uni-lj.si/IzpisGradiva.php?id=174624",
+        "doi_url": null,
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Enhancing Research Productivity Through Agentic AI Workflows: A Multi-Agent Framework for Intelligent Research Assistance",
+        "url": "https://www.semanticscholar.org/paper/59c0d40225fbd1ffc026fd885fbe4e5e43f371c2",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.36348/sjet.2025.v10i06.004",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Integrating Traditional Technical Analysis with AI: A Multi-Agent LLM-Based Approach to Stock Market Forecasting",
+        "url": "https://www.semanticscholar.org/paper/d96ce80541b552fd703291594939bc9d624bb7ae",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.5220/0013191200003890",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "DORA AI Scientist: Multi-agent Virtual Research Team for Scientific Exploration Discovery and Automated Report Generation",
+        "url": "https://www.semanticscholar.org/paper/b913baa47245a4a76054bb12e04d61c3c88fb532",
+        "pdf_url": "https://doi.org/10.1101/2025.03.06.641840",
+        "doi_url": "https://doi.org/10.1101/2025.03.06.641840",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "PhenoGraph: A Multi-Agent Framework for Phenotype-driven Discovery in Spatial Transcriptomics Data Augmented with Knowledge Graphs",
+        "url": "https://www.semanticscholar.org/paper/9dc71ca68ad2977dbebbcf6137f198a41ffb4ee2",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1101/2025.06.06.658341",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Multi-Agent AI Systems for Biological and Clinical Data Analysis",
+        "url": "https://openalex.org/W7117730344",
+        "pdf_url": "https://doi.org/10.20944/preprints202512.2602.v1",
+        "doi_url": "https://doi.org/10.20944/preprints202512.2602.v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Multi-Agent Geophysical AI Workflow for Automated Reservoir Characterization",
+        "url": "https://openalex.org/W4415970586",
+        "pdf_url": "https://eartharxiv.org/repository/object/10718/download/19712/",
+        "doi_url": "https://doi.org/10.31223/x5r16v",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Aleks: AI powered Multi Agent System for Autonomous Scientific Discovery via Data-Driven Approaches in Plant Science",
+        "url": "https://www.semanticscholar.org/paper/8104a9cbc9d2e9b9c36bec0c42abac88f57392b5",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2508.19383",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Accelerating Drug Discovery Through Agentic AI: A Multi-Agent Approach to Laboratory Automation in the DMTA Cycle",
+        "url": "https://www.semanticscholar.org/paper/7778c3dc1ca422cd87c6482cfc451a29ec941e5f",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2507.09023",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "ASTRAFIN:- AI Financial Agent",
+        "url": "https://www.semanticscholar.org/paper/27124a1778b69afd77b169c4e5145fbee8706040",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.55041/ijsrem54152",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Synergistic minds: A collaborative multi-agent framework for integrated AI tool development using diverse large language models",
+        "url": "https://www.semanticscholar.org/paper/be235a38449b7d489af5f6a583b734979fe2100d",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.30574/wjarr.2025.27.2.1806",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Research on key factors of safety and reliability of distribution technology based on artificial intelligence analysis",
+        "url": "https://openalex.org/W4414368656",
+        "pdf_url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13795/137951E/Research-on-key-factors-of-safety-and-reliability-of-distribution/10.1117/12.3086309.pdf",
+        "doi_url": "https://doi.org/10.1117/12.3086309",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Multi-Agent Conversational System for Automated Stock Market Analysis and Decision Support Toward Inclusive Economic Growth",
+        "url": "https://www.semanticscholar.org/paper/4039f48fe1e58c7982baa3a3d542b20004cab3ac",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICoAIT67446.2025.11308989",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "EvoResearch: A Multi-Agent AI Framework for Automated Paper Analysis",
+        "url": "https://www.semanticscholar.org/paper/d05a5180798bbbdc411aad66e441c053b382ea44",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.26562/ijirae.2025.v1211.25",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Abstract B016: Multi-Agent Framework for Deep Research in Cancer Immunogenomics via TCR Datasets and Scientific Literature Search",
+        "url": "https://www.semanticscholar.org/paper/fedc3607becb3e40bb2080ae8fee1dd6688f496c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1158/1557-3265.aimachine-b016",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Technical Implementation of Tippy: Multi-Agent Architecture and System Design for Drug Discovery Laboratory Automation",
+        "url": "https://www.semanticscholar.org/paper/94f62979ef01002239716239882e7c11041b4ec5",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2507.17852",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Scaling Generalist Data-Analytic Agents",
+        "url": "https://openalex.org/W4415337623",
+        "pdf_url": "https://arxiv.org/pdf/2509.25084",
+        "doi_url": "https://doi.org/10.48550/arxiv.2509.25084",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Modeling Response Consistency in Multi-Agent LLM Systems: A Comparative Analysis of Shared and Separate Context Approaches",
+        "url": "https://www.semanticscholar.org/paper/7cac6fd998b511d0e58d6463e8212a0c3d3c28cd",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2504.07303",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "TriAgent: Automated Biomarker Discovery with Deep Research Grounding for Triage in Acute Care by LLM-Based Multi-Agent Collaboration",
+        "url": "https://www.semanticscholar.org/paper/ad263de3d074a43ac99936071271eaafe5289fd0",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2510.16080",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "A Multi-LLM-Agent-Based Framework for Economic and Public Policy Analysis",
+        "url": "https://www.semanticscholar.org/paper/b4ca92e7891dfec585ce1c3d17bb23bc213fbf85",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2502.16879",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "An Adversarial Testing Framework for Multi-Agent Red–Blue Systems in Automated Software Hardening",
+        "url": "https://www.semanticscholar.org/paper/da5b36776bad4ab28a154b9d63ae6a1257278f82",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.55041/ijsrem53169",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "An Agentic AI-Enhanced Curriculum Framework for Rare Earth Elements from K-12 to Veteran Training for Educators and Policy Makers",
+        "url": "https://openalex.org/W4415600184",
+        "pdf_url": "https://doi.org/10.20944/preprints202510.1990.v1",
+        "doi_url": "https://doi.org/10.20944/preprints202510.1990.v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Debate-Feedback: A Multi-Agent Framework for Efficient Legal Judgment Prediction",
+        "url": "https://www.semanticscholar.org/paper/5c89d9fbe8ab72296d628d9646e3faac981911e9",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2504.05358",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Values of the T-shaped Leader: Applying the 4M Framework to Address SoTL Grand Challenges and Foster Sustainable Development Goals in Higher Education",
+        "url": "https://openalex.org/W4414338783",
+        "pdf_url": "https://open-publishing.org/journals/index.php/jutlp/article/download/1235/1091",
+        "doi_url": "https://doi.org/10.53761/0z732113",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Feirbrand/forgeos-public: Cognitive Mage v1.0: How a Performance Coach Created 100% Symbolic AI Through Narrative Identity Architecture",
+        "url": "https://openalex.org/W7106014098",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17643267",
+        "doi_url": "https://doi.org/10.5281/zenodo.17643267",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "GridMind: A Multi-Agent NLP Framework for Unified, Cross-Modal NFL Data Insights",
+        "url": "https://www.semanticscholar.org/paper/b738c12b39a0c55f24cfcde1ba3e2b57666758a9",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2504.08747",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "url": "http://arxiv.org/abs/2512.25073v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Combined Neural Network and Rule-Based Framework for Probabilistic Pattern Recognition and Discovery",
+        "url": "https://papers.nips.cc/paper_files/paper/1991/hash/46922a0880a8f11f8f69cbb52b1396be-Abstract.html",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/1991/file/46922a0880a8f11f8f69cbb52b1396be-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 1991
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "url": "http://arxiv.org/abs/2512.25071v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "url": "http://arxiv.org/abs/2512.25055v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Multivariate Generalized Counting Process via Gamma Subordination",
+        "url": "http://arxiv.org/abs/2512.25030v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25030v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "url": "http://arxiv.org/abs/2512.25046v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Thin Tree Verification is coNP-Complete",
+        "url": "http://arxiv.org/abs/2512.25043v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25043v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Large Neutrino-Dark Matter Interactions: From Effective Field Theory to Ultraviolet Completions",
+        "url": "http://arxiv.org/abs/2512.25035v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25035v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "url": "http://arxiv.org/abs/2512.25045v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "On exact Observability for Compactly perturbed infinite dimension system",
+        "url": "http://arxiv.org/abs/2512.25041v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25041v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+        "url": "http://arxiv.org/abs/2512.25050v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25050v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "url": "http://arxiv.org/abs/2512.25072v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Enhancing Anomaly Detection in Financial Markets with an LLM-based Multi-Agent Framework",
+        "url": "https://www.semanticscholar.org/paper/a4d33353dfdc546d499726c87456bf5dfc0e7bf2",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "url": "http://arxiv.org/abs/2512.25070v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Vascular Dementia: From Pathophysiology to Therapeutic Frontiers",
+        "url": "https://openalex.org/W4414341765",
+        "pdf_url": "https://www.mdpi.com/2077-0383/14/18/6611/pdf?version=1758282695",
+        "doi_url": "https://doi.org/10.3390/jcm14186611",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Categorical Axioms of Resonant Existence: large A Unified Framework Linking Life, Incompleteness, and the Riemann Critical Symmetry",
+        "url": "https://openalex.org/W7109616145",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17834678",
+        "doi_url": "https://doi.org/10.5281/zenodo.17834678",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Fractal conduction pathways governing ionic transport in a glass",
+        "url": "http://arxiv.org/abs/2512.25031v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25031v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "url": "http://arxiv.org/abs/2512.25040v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+        "url": "http://arxiv.org/abs/2512.25052v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25052v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "url": "http://arxiv.org/abs/2512.25065v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Multi-agent probabilistic search in a sequential decision-theoretic framework",
+        "url": "https://ieeexplore.ieee.org/document/4543200/",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_icra",
+        "year": 2008
+      },
+      {
+        "title": "Perturbative Kondo destruction and global phase diagram of heavy fermion metals",
+        "url": "http://arxiv.org/abs/2512.25036v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25036v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "A Distributed Adaptive QoS-Aware TSCH Scheduling to Support Heterogeneous Traffic in IIoT Using Fuzzy Reinforcement Learning",
+        "url": "https://openalex.org/W4414335541",
+        "pdf_url": "https://www.researchsquare.com/article/rs-7470984/latest.pdf",
+        "doi_url": "https://doi.org/10.21203/rs.3.rs-7470984/v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "url": "http://arxiv.org/abs/2512.25067v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Mod $p$ Poincaré duality for $p$-adic period domains",
+        "url": "http://arxiv.org/abs/2512.25029v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25029v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "PATENT-FREE SCIENCE IN THE JANUS ERA Governance, Constraint Physics & The CollectiveOS Standard",
+        "url": "https://openalex.org/W7108069431",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17768403",
+        "doi_url": "https://doi.org/10.5281/zenodo.17768403",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+        "url": "http://arxiv.org/abs/2512.25037v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25037v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "SECURING PERSONAL DATA IN THE SMARTPHONE AGE: A STUDY OF MOBILE DEVICE SECURITY",
+        "url": "https://openalex.org/W4414367340",
+        "pdf_url": "https://taapublications.com/tijsrat/article/download/716/804",
+        "doi_url": "https://doi.org/10.70382/tijsrat.v09i9.050",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Recent advances in microwave-assisted dry reforming of methane: catalyst, performance, and fundamentals",
+        "url": "https://openalex.org/W4414284074",
+        "pdf_url": "https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2025.1681282/pdf",
+        "doi_url": "https://doi.org/10.3389/fchem.2025.1681282",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Bilinear tau forms of quantum Painlevé equations and $\\mathbb{C}^2/\\mathbb{Z}_2$ blowup relations in SUSY gauge theories",
+        "url": "http://arxiv.org/abs/2512.25051v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25051v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+        "url": "http://arxiv.org/abs/2512.25068v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25068v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Government-Citizen Interactive Communication through the ACACAE Model: A Comprehensive Discussion",
+        "url": "https://openalex.org/W4414353950",
+        "pdf_url": "https://www.ijsr.net/archive/v14i9/SR25917021716.pdf",
+        "doi_url": "https://doi.org/10.21275/sr25917021716",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "The variety of orthogonal frames",
+        "url": "http://arxiv.org/abs/2512.25058v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25058v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Arithmetic with spatiotemporal optical vortex of integer and fractional topological charges",
+        "url": "http://arxiv.org/abs/2512.25049v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25049v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "url": "http://arxiv.org/abs/2512.25056v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "url": "http://arxiv.org/abs/2512.25064v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The Six Elements of the Collective  AI-Engineered Matter for the Post-Classical Age",
+        "url": "https://openalex.org/W7104572722",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17566386",
+        "doi_url": "https://doi.org/10.5281/zenodo.17566386",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "url": "http://arxiv.org/abs/2512.25066v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Active Learning for Neurosymbolic Program Synthesis",
+        "url": "https://openalex.org/W4414977305",
+        "pdf_url": "https://doi.org/10.1145/3763102",
+        "doi_url": "https://doi.org/10.1145/3763102",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Detecting Drone Threats at Stadiums and Public Venues: Overview, Operational Considerations, and Technical Implementation",
+        "url": "https://openalex.org/W4415748867",
+        "pdf_url": "https://doi.org/10.5038/1944-0472.18.3.2410",
+        "doi_url": "https://doi.org/10.5038/1944-0472.18.3.2410",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "The Evolution and Impact of Artificial Intelligence in Chemistry",
+        "url": "https://openalex.org/W4414317055",
+        "pdf_url": "https://www.preprints.org/frontend/manuscript/1bfa955ffef705c432f143b9815dfa7e/download_pub",
+        "doi_url": "https://doi.org/10.20944/preprints202509.1557.v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+        "url": "http://arxiv.org/abs/2512.25069v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25069v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "url": "http://arxiv.org/abs/2512.25042v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Representing Dental Caries and Dysbiosis within the Oral Microbiome in the Oral Health and Disease Ontology",
+        "url": "https://openalex.org/W4414351194",
+        "pdf_url": "https://www.researchsquare.com/article/rs-7265626/latest.pdf",
+        "doi_url": "https://doi.org/10.21203/rs.3.rs-7265626/v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Balancing Caregiving and Self-Care: Exploring Mental Health Needs of Alzheimer's and Dementia Caregivers",
+        "url": "https://openalex.org/W4415250188",
+        "pdf_url": "https://doi.org/10.1145/3757555",
+        "doi_url": "https://doi.org/10.1145/3757555",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Forensic Analysis of Artifacts from Microsoft's Multi-Agent LLM Platform AutoGen",
+        "url": "https://www.semanticscholar.org/paper/8e39c6435cd4b030c32065a72ef4d97358323852",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3664476.3670908",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Finite- Time Analysis of Asynchronous Multi-Agent TD Learning",
+        "url": "https://www.semanticscholar.org/paper/cc88e43e103419c89f4797fcdc4469b597538bea",
+        "pdf_url": "http://arxiv.org/pdf/2407.20441",
+        "doi_url": "https://doi.org/10.23919/ACC60939.2024.10644447",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Bus Ridership Prediction and Scenario Analysis through ML and Multi-Agent Simulations",
+        "url": "https://www.semanticscholar.org/paper/b4aa9d51bb8acf5f55e71bcb70e0ad25c4940fc6",
+        "pdf_url": "https://doi.org/10.14201/adcaij.31866",
+        "doi_url": "https://doi.org/10.14201/adcaij.31866",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Seeds of Cross-Sector Collaboration: A Multi-Agent Evolutionary Game Theoretical Framework Illustrated by the Breeding of Salt-Tolerant Rice",
+        "url": "https://www.semanticscholar.org/paper/a5c990f86444ecf35ed03b2e9dbfd86f283eb442",
+        "pdf_url": "https://www.mdpi.com/2077-0472/14/2/300/pdf?version=1707836224",
+        "doi_url": "https://doi.org/10.3390/agriculture14020300",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "The Discovery and Solution of the Pseudo-Reasoning Issue for Constructing Cost-Effective Multi-Agent Frameworks in Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/8ad221538fc18b46ebd20588a1b31e8966bd159b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/AiDAS63860.2024.10730162",
+        "source": "semantic_scholar",
+        "year": 2024
+      }
+    ],
+    "by_source": {
+      "offline_iclr": [
+        {
+          "title": "Multi-Agent Causal Discovery Using Large Language Models",
+          "url": "https://openreview.net/forum?id=Idygh9MX0N",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Research Town: Simulator of Research Community",
+          "url": "https://openreview.net/forum?id=IwhvaDrL39",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "CellAgent: LLM-Driven Multi-Agent Framework for Natural Language-Based Single-Cell Analysis",
+          "url": "https://openreview.net/forum?id=BsA2GNkJhz",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LLM-based Multi-Agent Blackboard System for Information Discovery in Data Science",
+          "url": "https://openreview.net/forum?id=egTQgf89Lm",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "PiFlow: Principle-aware Scientific Discovery with Multi-Agent Collaboration",
+          "url": "https://openreview.net/forum?id=Is2oXblRtP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "CausalSteward: An Agentic Divide-Conquer-Combine Copilot for Causal Discovery",
+          "url": "https://openreview.net/forum?id=3lFAyPa9Fe",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "PaTSy-Neural-EM: Geometry-Aware Truth Discovery for Real-Time Multi-Agent Perception",
+          "url": "https://openreview.net/forum?id=24xsYuKKnt",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "DatasetResearch: Benchmarking Agent Systems for Demand-Driven Dataset Discovery",
+          "url": "https://openreview.net/forum?id=obapzpANpf",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Inter-Agent Relative Representations for Multi-Agent Option Discovery",
+          "url": "https://openreview.net/forum?id=Fte7TOqnQp",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "GeoEvolve: Automating Geospatial Model Discovery via Multi-Agent Large Language Models",
+          "url": "https://openreview.net/forum?id=XaFbHtdoGF",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "EvoCF: Multi-agent Collaboration with Memory-guided Evolutionary Counterfactual Planning",
+          "url": "https://openreview.net/forum?id=KpvZ1kGOjH",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "MARFT: Multi-Agent Reinforcement Fine-Tuning",
+          "url": "https://openreview.net/forum?id=Yu1ZsRlqeK",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ChemThinker: Thinking Like a Chemist with Multi-Agent LLMs for Deep Molecular Insights",
+          "url": "https://openreview.net/forum?id=zlAUnwhE2v",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "AlphaResearch: Accelerating New Algorithm Discovery with Language Models",
+          "url": "https://openreview.net/forum?id=FF2Lbu9U6Y",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Learning Communication in Offline Multi-Agent Reinforcement Learning",
+          "url": "https://openreview.net/forum?id=NZSsN8cL0r",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "O-Reseacher: An Open Ended Deep Research Model via Multi-Agent Distillation and Agentic RL",
+          "url": "https://openreview.net/forum?id=eiAqz3TsSI",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "MARS: Optimizing Dual-System Deep Research via Multi-Agent Reinforcement Learning",
+          "url": "https://openreview.net/forum?id=abxVxyXNhW",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "REDEREF: RECURSIVE DELEGATION AND REFLECTION FOR MULTI-TURN LLM AGENT COLLABORATION WITH DYNAMIC CAPABILITY DISCOVERY",
+          "url": "https://openreview.net/forum?id=bQgaTaN2eG",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Decentralized and Lifelong-Adaptive Multi-Agent Collaborative Learning",
+          "url": "https://openreview.net/forum?id=ZkP0Mw3PAi",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LiveResearchBench: Benchmarking Single- and Multi-Agent Systems for Citation-Grounded Deep Research",
+          "url": "https://openreview.net/forum?id=ghwbZ3uhEd",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses",
+          "url": "https://iclr.cc/virtual/2025/poster/29319",
+          "pdf_url": "https://openreview.net/pdf?id=X9OfMNNepI",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "ChemBOMAS: Accelerated Bayesian Optimization for Scientific Discovery in Chemistry with LLM-Enhanced Multi-Agent System",
+          "url": "https://openreview.net/forum?id=XEkQu1ZWGN",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Partner-Aware Hierarchical Skill Discovery for Robust Human-AI Collaboration",
+          "url": "https://openreview.net/forum?id=vKkEX3a0rP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Sparse Causal Model: A Novel Approach for Causal Discovery and Attributions on Sparse Dataset",
+          "url": "https://openreview.net/forum?id=fSxiromxAq",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Cheap Talk Discovery and Utilization in Multi-Agent Reinforcement Learning",
+          "url": "https://iclr.cc/virtual/2023/poster/11921",
+          "pdf_url": "https://openreview.net/pdf?id=cddbeL1HWaD",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "SurroCBM: Concept Bottleneck Surrogate Models for Joint Unsupervised Concept Discovery and Post-hoc Explanation",
+          "url": "https://openreview.net/forum?id=Jh6m4e8Ief",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Improved Structural Discovery and Representation Learning of Multi-Agent Data",
+          "url": "https://openreview.net/forum?id=H1ervR4FwH",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2020
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "ResearchTown: Simulator of Human Research Community",
+          "url": "https://icml.cc/virtual/2025/poster/46055",
+          "pdf_url": "https://openreview.net/pdf?id=CZPOIZqWwd",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "R3DM: Enabling Role Discovery and Diversity Through Dynamics Models in Multi-agent Reinforcement Learning",
+          "url": "https://icml.cc/virtual/2025/poster/45066",
+          "pdf_url": "https://openreview.net/pdf?id=VSIjdKPGp8",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        }
+      ],
+      "offline_wacv": [
+        {
+          "title": "Learning Keypoints for Multi-Agent Behavior Analysis using Self-Supervision",
+          "url": "https://openaccess.thecvf.com/content/WACV2025/html/Khalil_Learning_Keypoints_for_Multi-Agent_Behavior_Analysis_using_Self-Supervision_WACV_2025_paper.html",
+          "pdf_url": "https://openaccess.thecvf.com/content/WACV2025/papers/Khalil_Learning_Keypoints_for_Multi-Agent_Behavior_Analysis_using_Self-Supervision_WACV_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_wacv",
+          "year": 2025
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "AI-Driven Automation Can Become the Foundation of Next-Era Science of Science Research",
+          "url": "https://openreview.net/forum?id=u0FB996GIH",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "R&D-Agent-Quant: A Multi-Agent Framework for Data-Centric Factors and Model Joint Optimization",
+          "url": "https://openreview.net/forum?id=9VxTXAUH7G",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "MoodAngels: A Retrieval-augmented Multi-agent Framework for Psychiatry Diagnosis",
+          "url": "https://openreview.net/forum?id=AWU93F6Bup",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Hierarchical Multi-Agent Skill Discovery",
+          "url": "https://nips.cc/virtual/2023/poster/70014",
+          "pdf_url": "https://openreview.net/pdf?id=xMgO04HDOS",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2023
+        },
+        {
+          "title": "Combined Neural Network and Rule-Based Framework for Probabilistic Pattern Recognition and Discovery",
+          "url": "https://papers.nips.cc/paper_files/paper/1991/hash/46922a0880a8f11f8f69cbb52b1396be-Abstract.html",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/1991/file/46922a0880a8f11f8f69cbb52b1396be-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 1991
+        }
+      ],
+      "offline_ijcai": [
+        {
+          "title": "NegoLog: An Integrated Python-based Automated Negotiation Framework with Enhanced Assessment Components",
+          "url": "https://www.ijcai.org/proceedings/2024/998",
+          "pdf_url": "https://www.ijcai.org/proceedings/2024/0998.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2024
+        },
+        {
+          "title": "NEGOTIATOR: A Comprehensive Framework for Human-Agent Negotiation Integrating Preferences, Interaction, and Emotion",
+          "url": "https://www.ijcai.org/proceedings/2024/1012",
+          "pdf_url": "https://www.ijcai.org/proceedings/2024/1012.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2024
+        },
+        {
+          "title": "Decentralized Autonomous Organizations and Multi-agent Systems for Artificial Intelligence Applications and Data Analysis",
+          "url": "https://www.ijcai.org/proceedings/2022/828",
+          "pdf_url": "https://www.ijcai.org/proceedings/2022/0828.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2022
+        },
+        {
+          "title": "A Computational Model of Ostrom's Institutional Analysis and Development Framework (Extended Abstract)",
+          "url": "https://www.ijcai.org/proceedings/2023/786",
+          "pdf_url": "https://www.ijcai.org/proceedings/2023/0786.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2023
+        }
+      ],
+      "offline_colm": [
+        {
+          "title": "Cohesive Conversations: Enhancing Authenticity in Multi-Agent Simulated Dialogues",
+          "url": "https://openreview.net/forum?id=3ypWPhMGhV",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_colm",
+          "year": 2024
+        }
+      ],
+      "offline_aaai": [
+        {
+          "title": "Towards Scientific Discovery with Generative AI: Progress, Opportunities, and Challenges",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/35084",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/35084/37239",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2025
+        },
+        {
+          "title": "Hierarchical Multi-Agent Framework for Carbon-Efficient Liquid-Cooled Data Center Clusters",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/35370",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/35370/37525",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2025
+        },
+        {
+          "title": "Integrated Systems for Computational Scientific Discovery",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30269",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30269/32263",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2024
+        },
+        {
+          "title": "Effective and Stable Role-Based Multi-Agent Collaboration by Structural Information Principles",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26390",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/26390/26162",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2023
+        }
+      ],
+      "offline_coling": [
+        {
+          "title": "Benchmark Self-Evolving: A Multi-Agent Framework for Dynamic LLM Evaluation",
+          "url": "https://aclanthology.org/2025.coling-main.223/",
+          "pdf_url": "https://aclanthology.org/2025.coling-main.223.pdf",
+          "doi_url": null,
+          "source": "offline_coling",
+          "year": 2025
+        }
+      ],
+      "offline_naacl": [
+        {
+          "title": "Hypothesis Generation for Materials Discovery and Design Using Goal-Driven and Constraint-Guided LLM Agents",
+          "url": "https://aclanthology.org/2025.findings-naacl.420/",
+          "pdf_url": "https://aclanthology.org/2025.findings-naacl.420.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2025
+        }
+      ],
+      "offline_acl": [
+        {
+          "title": "PsySafe: A Comprehensive Framework for Psychological-based Attack, Defense, and Evaluation of Multi-agent System Safety",
+          "url": "https://aclanthology.org/2024.acl-long.812/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.812.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        }
+      ],
+      "offline_emnlp": [
+        {
+          "title": "A Diachronic Analysis of Paradigm Shifts in NLP Research: When, How, and Why?",
+          "url": "https://openreview.net/forum?id=qhwYFIrSm7",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "A SURVEY ON STOCK INVESTMENT RISK ANALYSIS USING CREWAI MULTI- AGENT SYSTEM",
+          "url": "https://www.semanticscholar.org/paper/f17c5b4bc435f7ad7714290797036250717bcaec",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.56726/irjmets66945",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Enhancing Research Productivity Through Agentic AI Workflows: A Multi-Agent Framework for Intelligent Research Assistance",
+          "url": "https://www.semanticscholar.org/paper/59c0d40225fbd1ffc026fd885fbe4e5e43f371c2",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.36348/sjet.2025.v10i06.004",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Integrating Traditional Technical Analysis with AI: A Multi-Agent LLM-Based Approach to Stock Market Forecasting",
+          "url": "https://www.semanticscholar.org/paper/d96ce80541b552fd703291594939bc9d624bb7ae",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.5220/0013191200003890",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "DORA AI Scientist: Multi-agent Virtual Research Team for Scientific Exploration Discovery and Automated Report Generation",
+          "url": "https://www.semanticscholar.org/paper/b913baa47245a4a76054bb12e04d61c3c88fb532",
+          "pdf_url": "https://doi.org/10.1101/2025.03.06.641840",
+          "doi_url": "https://doi.org/10.1101/2025.03.06.641840",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "PhenoGraph: A Multi-Agent Framework for Phenotype-driven Discovery in Spatial Transcriptomics Data Augmented with Knowledge Graphs",
+          "url": "https://www.semanticscholar.org/paper/9dc71ca68ad2977dbebbcf6137f198a41ffb4ee2",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1101/2025.06.06.658341",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Aleks: AI powered Multi Agent System for Autonomous Scientific Discovery via Data-Driven Approaches in Plant Science",
+          "url": "https://www.semanticscholar.org/paper/8104a9cbc9d2e9b9c36bec0c42abac88f57392b5",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2508.19383",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Accelerating Drug Discovery Through Agentic AI: A Multi-Agent Approach to Laboratory Automation in the DMTA Cycle",
+          "url": "https://www.semanticscholar.org/paper/7778c3dc1ca422cd87c6482cfc451a29ec941e5f",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2507.09023",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "ASTRAFIN:- AI Financial Agent",
+          "url": "https://www.semanticscholar.org/paper/27124a1778b69afd77b169c4e5145fbee8706040",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.55041/ijsrem54152",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Synergistic minds: A collaborative multi-agent framework for integrated AI tool development using diverse large language models",
+          "url": "https://www.semanticscholar.org/paper/be235a38449b7d489af5f6a583b734979fe2100d",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.30574/wjarr.2025.27.2.1806",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Multi-Agent Conversational System for Automated Stock Market Analysis and Decision Support Toward Inclusive Economic Growth",
+          "url": "https://www.semanticscholar.org/paper/4039f48fe1e58c7982baa3a3d542b20004cab3ac",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICoAIT67446.2025.11308989",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "EvoResearch: A Multi-Agent AI Framework for Automated Paper Analysis",
+          "url": "https://www.semanticscholar.org/paper/d05a5180798bbbdc411aad66e441c053b382ea44",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.26562/ijirae.2025.v1211.25",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Abstract B016: Multi-Agent Framework for Deep Research in Cancer Immunogenomics via TCR Datasets and Scientific Literature Search",
+          "url": "https://www.semanticscholar.org/paper/fedc3607becb3e40bb2080ae8fee1dd6688f496c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1158/1557-3265.aimachine-b016",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Technical Implementation of Tippy: Multi-Agent Architecture and System Design for Drug Discovery Laboratory Automation",
+          "url": "https://www.semanticscholar.org/paper/94f62979ef01002239716239882e7c11041b4ec5",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2507.17852",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Modeling Response Consistency in Multi-Agent LLM Systems: A Comparative Analysis of Shared and Separate Context Approaches",
+          "url": "https://www.semanticscholar.org/paper/7cac6fd998b511d0e58d6463e8212a0c3d3c28cd",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2504.07303",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "TriAgent: Automated Biomarker Discovery with Deep Research Grounding for Triage in Acute Care by LLM-Based Multi-Agent Collaboration",
+          "url": "https://www.semanticscholar.org/paper/ad263de3d074a43ac99936071271eaafe5289fd0",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2510.16080",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "A Multi-LLM-Agent-Based Framework for Economic and Public Policy Analysis",
+          "url": "https://www.semanticscholar.org/paper/b4ca92e7891dfec585ce1c3d17bb23bc213fbf85",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2502.16879",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "An Adversarial Testing Framework for Multi-Agent Red–Blue Systems in Automated Software Hardening",
+          "url": "https://www.semanticscholar.org/paper/da5b36776bad4ab28a154b9d63ae6a1257278f82",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.55041/ijsrem53169",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Debate-Feedback: A Multi-Agent Framework for Efficient Legal Judgment Prediction",
+          "url": "https://www.semanticscholar.org/paper/5c89d9fbe8ab72296d628d9646e3faac981911e9",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2504.05358",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "GridMind: A Multi-Agent NLP Framework for Unified, Cross-Modal NFL Data Insights",
+          "url": "https://www.semanticscholar.org/paper/b738c12b39a0c55f24cfcde1ba3e2b57666758a9",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2504.08747",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Enhancing Anomaly Detection in Financial Markets with an LLM-based Multi-Agent Framework",
+          "url": "https://www.semanticscholar.org/paper/a4d33353dfdc546d499726c87456bf5dfc0e7bf2",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Forensic Analysis of Artifacts from Microsoft's Multi-Agent LLM Platform AutoGen",
+          "url": "https://www.semanticscholar.org/paper/8e39c6435cd4b030c32065a72ef4d97358323852",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3664476.3670908",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Finite- Time Analysis of Asynchronous Multi-Agent TD Learning",
+          "url": "https://www.semanticscholar.org/paper/cc88e43e103419c89f4797fcdc4469b597538bea",
+          "pdf_url": "http://arxiv.org/pdf/2407.20441",
+          "doi_url": "https://doi.org/10.23919/ACC60939.2024.10644447",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Bus Ridership Prediction and Scenario Analysis through ML and Multi-Agent Simulations",
+          "url": "https://www.semanticscholar.org/paper/b4aa9d51bb8acf5f55e71bcb70e0ad25c4940fc6",
+          "pdf_url": "https://doi.org/10.14201/adcaij.31866",
+          "doi_url": "https://doi.org/10.14201/adcaij.31866",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Seeds of Cross-Sector Collaboration: A Multi-Agent Evolutionary Game Theoretical Framework Illustrated by the Breeding of Salt-Tolerant Rice",
+          "url": "https://www.semanticscholar.org/paper/a5c990f86444ecf35ed03b2e9dbfd86f283eb442",
+          "pdf_url": "https://www.mdpi.com/2077-0472/14/2/300/pdf?version=1707836224",
+          "doi_url": "https://doi.org/10.3390/agriculture14020300",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "The Discovery and Solution of the Pseudo-Reasoning Issue for Constructing Cost-Effective Multi-Agent Frameworks in Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/8ad221538fc18b46ebd20588a1b31e8966bd159b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/AiDAS63860.2024.10730162",
+          "source": "semantic_scholar",
+          "year": 2024
+        }
+      ],
+      "openalex": [
+        {
+          "title": "Avtomatizacija raziskovalnega procesa z agentnimi velikimi jezikovnimi modeli",
+          "url": "https://openalex.org/W7113529719",
+          "pdf_url": "https://repozitorij.uni-lj.si/IzpisGradiva.php?id=174624",
+          "doi_url": null,
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Multi-Agent AI Systems for Biological and Clinical Data Analysis",
+          "url": "https://openalex.org/W7117730344",
+          "pdf_url": "https://doi.org/10.20944/preprints202512.2602.v1",
+          "doi_url": "https://doi.org/10.20944/preprints202512.2602.v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Multi-Agent Geophysical AI Workflow for Automated Reservoir Characterization",
+          "url": "https://openalex.org/W4415970586",
+          "pdf_url": "https://eartharxiv.org/repository/object/10718/download/19712/",
+          "doi_url": "https://doi.org/10.31223/x5r16v",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Research on key factors of safety and reliability of distribution technology based on artificial intelligence analysis",
+          "url": "https://openalex.org/W4414368656",
+          "pdf_url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13795/137951E/Research-on-key-factors-of-safety-and-reliability-of-distribution/10.1117/12.3086309.pdf",
+          "doi_url": "https://doi.org/10.1117/12.3086309",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Scaling Generalist Data-Analytic Agents",
+          "url": "https://openalex.org/W4415337623",
+          "pdf_url": "https://arxiv.org/pdf/2509.25084",
+          "doi_url": "https://doi.org/10.48550/arxiv.2509.25084",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "An Agentic AI-Enhanced Curriculum Framework for Rare Earth Elements from K-12 to Veteran Training for Educators and Policy Makers",
+          "url": "https://openalex.org/W4415600184",
+          "pdf_url": "https://doi.org/10.20944/preprints202510.1990.v1",
+          "doi_url": "https://doi.org/10.20944/preprints202510.1990.v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Values of the T-shaped Leader: Applying the 4M Framework to Address SoTL Grand Challenges and Foster Sustainable Development Goals in Higher Education",
+          "url": "https://openalex.org/W4414338783",
+          "pdf_url": "https://open-publishing.org/journals/index.php/jutlp/article/download/1235/1091",
+          "doi_url": "https://doi.org/10.53761/0z732113",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Feirbrand/forgeos-public: Cognitive Mage v1.0: How a Performance Coach Created 100% Symbolic AI Through Narrative Identity Architecture",
+          "url": "https://openalex.org/W7106014098",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17643267",
+          "doi_url": "https://doi.org/10.5281/zenodo.17643267",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Vascular Dementia: From Pathophysiology to Therapeutic Frontiers",
+          "url": "https://openalex.org/W4414341765",
+          "pdf_url": "https://www.mdpi.com/2077-0383/14/18/6611/pdf?version=1758282695",
+          "doi_url": "https://doi.org/10.3390/jcm14186611",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Categorical Axioms of Resonant Existence: large A Unified Framework Linking Life, Incompleteness, and the Riemann Critical Symmetry",
+          "url": "https://openalex.org/W7109616145",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17834678",
+          "doi_url": "https://doi.org/10.5281/zenodo.17834678",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "A Distributed Adaptive QoS-Aware TSCH Scheduling to Support Heterogeneous Traffic in IIoT Using Fuzzy Reinforcement Learning",
+          "url": "https://openalex.org/W4414335541",
+          "pdf_url": "https://www.researchsquare.com/article/rs-7470984/latest.pdf",
+          "doi_url": "https://doi.org/10.21203/rs.3.rs-7470984/v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "PATENT-FREE SCIENCE IN THE JANUS ERA Governance, Constraint Physics & The CollectiveOS Standard",
+          "url": "https://openalex.org/W7108069431",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17768403",
+          "doi_url": "https://doi.org/10.5281/zenodo.17768403",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "SECURING PERSONAL DATA IN THE SMARTPHONE AGE: A STUDY OF MOBILE DEVICE SECURITY",
+          "url": "https://openalex.org/W4414367340",
+          "pdf_url": "https://taapublications.com/tijsrat/article/download/716/804",
+          "doi_url": "https://doi.org/10.70382/tijsrat.v09i9.050",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Recent advances in microwave-assisted dry reforming of methane: catalyst, performance, and fundamentals",
+          "url": "https://openalex.org/W4414284074",
+          "pdf_url": "https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2025.1681282/pdf",
+          "doi_url": "https://doi.org/10.3389/fchem.2025.1681282",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Government-Citizen Interactive Communication through the ACACAE Model: A Comprehensive Discussion",
+          "url": "https://openalex.org/W4414353950",
+          "pdf_url": "https://www.ijsr.net/archive/v14i9/SR25917021716.pdf",
+          "doi_url": "https://doi.org/10.21275/sr25917021716",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "The Six Elements of the Collective  AI-Engineered Matter for the Post-Classical Age",
+          "url": "https://openalex.org/W7104572722",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17566386",
+          "doi_url": "https://doi.org/10.5281/zenodo.17566386",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Active Learning for Neurosymbolic Program Synthesis",
+          "url": "https://openalex.org/W4414977305",
+          "pdf_url": "https://doi.org/10.1145/3763102",
+          "doi_url": "https://doi.org/10.1145/3763102",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Detecting Drone Threats at Stadiums and Public Venues: Overview, Operational Considerations, and Technical Implementation",
+          "url": "https://openalex.org/W4415748867",
+          "pdf_url": "https://doi.org/10.5038/1944-0472.18.3.2410",
+          "doi_url": "https://doi.org/10.5038/1944-0472.18.3.2410",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "The Evolution and Impact of Artificial Intelligence in Chemistry",
+          "url": "https://openalex.org/W4414317055",
+          "pdf_url": "https://www.preprints.org/frontend/manuscript/1bfa955ffef705c432f143b9815dfa7e/download_pub",
+          "doi_url": "https://doi.org/10.20944/preprints202509.1557.v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Representing Dental Caries and Dysbiosis within the Oral Microbiome in the Oral Health and Disease Ontology",
+          "url": "https://openalex.org/W4414351194",
+          "pdf_url": "https://www.researchsquare.com/article/rs-7265626/latest.pdf",
+          "doi_url": "https://doi.org/10.21203/rs.3.rs-7265626/v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Balancing Caregiving and Self-Care: Exploring Mental Health Needs of Alzheimer's and Dementia Caregivers",
+          "url": "https://openalex.org/W4415250188",
+          "pdf_url": "https://doi.org/10.1145/3757555",
+          "doi_url": "https://doi.org/10.1145/3757555",
+          "source": "openalex",
+          "year": 2025
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+          "url": "http://arxiv.org/abs/2512.25073v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+          "url": "http://arxiv.org/abs/2512.25071v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+          "url": "http://arxiv.org/abs/2512.25055v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Multivariate Generalized Counting Process via Gamma Subordination",
+          "url": "http://arxiv.org/abs/2512.25030v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25030v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Extreme nonlinear optics in optical fibers",
+          "url": "http://arxiv.org/abs/2512.25046v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Thin Tree Verification is coNP-Complete",
+          "url": "http://arxiv.org/abs/2512.25043v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25043v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Large Neutrino-Dark Matter Interactions: From Effective Field Theory to Ultraviolet Completions",
+          "url": "http://arxiv.org/abs/2512.25035v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25035v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+          "url": "http://arxiv.org/abs/2512.25045v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "On exact Observability for Compactly perturbed infinite dimension system",
+          "url": "http://arxiv.org/abs/2512.25041v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25041v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+          "url": "http://arxiv.org/abs/2512.25050v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25050v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Coordinated Humanoid Manipulation with Choice Policies",
+          "url": "http://arxiv.org/abs/2512.25072v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Scaling Open-Ended Reasoning to Predict the Future",
+          "url": "http://arxiv.org/abs/2512.25070v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Fractal conduction pathways governing ionic transport in a glass",
+          "url": "http://arxiv.org/abs/2512.25031v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25031v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+          "url": "http://arxiv.org/abs/2512.25040v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+          "url": "http://arxiv.org/abs/2512.25052v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25052v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+          "url": "http://arxiv.org/abs/2512.25065v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Perturbative Kondo destruction and global phase diagram of heavy fermion metals",
+          "url": "http://arxiv.org/abs/2512.25036v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25036v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+          "url": "http://arxiv.org/abs/2512.25067v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Mod $p$ Poincaré duality for $p$-adic period domains",
+          "url": "http://arxiv.org/abs/2512.25029v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25029v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+          "url": "http://arxiv.org/abs/2512.25037v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25037v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bilinear tau forms of quantum Painlevé equations and $\\mathbb{C}^2/\\mathbb{Z}_2$ blowup relations in SUSY gauge theories",
+          "url": "http://arxiv.org/abs/2512.25051v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25051v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+          "url": "http://arxiv.org/abs/2512.25068v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25068v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The variety of orthogonal frames",
+          "url": "http://arxiv.org/abs/2512.25058v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25058v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Arithmetic with spatiotemporal optical vortex of integer and fractional topological charges",
+          "url": "http://arxiv.org/abs/2512.25049v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25049v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+          "url": "http://arxiv.org/abs/2512.25056v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+          "url": "http://arxiv.org/abs/2512.25064v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+          "url": "http://arxiv.org/abs/2512.25066v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+          "url": "http://arxiv.org/abs/2512.25069v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25069v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Compound Estimation for Binomials",
+          "url": "http://arxiv.org/abs/2512.25042v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ],
+      "offline_icra": [
+        {
+          "title": "Multi-agent probabilistic search in a sequential decision-theoretic framework",
+          "url": "https://ieeexplore.ieee.org/document/4543200/",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_icra",
+          "year": 2008
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "ResearchTown: Simulator of Human Research Community",
+        "pdf": "https://openreview.net/pdf?id=CZPOIZqWwd"
+      },
+      {
+        "title": "Learning Keypoints for Multi-Agent Behavior Analysis using Self-Supervision",
+        "pdf": "https://openaccess.thecvf.com/content/WACV2025/papers/Khalil_Learning_Keypoints_for_Multi-Agent_Behavior_Analysis_using_Self-Supervision_WACV_2025_paper.pdf"
+      },
+      {
+        "title": "R3DM: Enabling Role Discovery and Diversity Through Dynamics Models in Multi-agent Reinforcement Learning",
+        "pdf": "https://openreview.net/pdf?id=VSIjdKPGp8"
+      },
+      {
+        "title": "NegoLog: An Integrated Python-based Automated Negotiation Framework with Enhanced Assessment Components",
+        "pdf": "https://www.ijcai.org/proceedings/2024/0998.pdf"
+      },
+      {
+        "title": "MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses",
+        "pdf": "https://openreview.net/pdf?id=X9OfMNNepI"
+      },
+      {
+        "title": "Towards Scientific Discovery with Generative AI: Progress, Opportunities, and Challenges",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/35084/37239"
+      },
+      {
+        "title": "NEGOTIATOR: A Comprehensive Framework for Human-Agent Negotiation Integrating Preferences, Interaction, and Emotion",
+        "pdf": "https://www.ijcai.org/proceedings/2024/1012.pdf"
+      },
+      {
+        "title": "Benchmark Self-Evolving: A Multi-Agent Framework for Dynamic LLM Evaluation",
+        "pdf": "https://aclanthology.org/2025.coling-main.223.pdf"
+      },
+      {
+        "title": "Cheap Talk Discovery and Utilization in Multi-Agent Reinforcement Learning",
+        "pdf": "https://openreview.net/pdf?id=cddbeL1HWaD"
+      },
+      {
+        "title": "Hierarchical Multi-Agent Framework for Carbon-Efficient Liquid-Cooled Data Center Clusters",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/35370/37525"
+      },
+      {
+        "title": "Hypothesis Generation for Materials Discovery and Design Using Goal-Driven and Constraint-Guided LLM Agents",
+        "pdf": "https://aclanthology.org/2025.findings-naacl.420.pdf"
+      },
+      {
+        "title": "PsySafe: A Comprehensive Framework for Psychological-based Attack, Defense, and Evaluation of Multi-agent System Safety",
+        "pdf": "https://aclanthology.org/2024.acl-long.812.pdf"
+      },
+      {
+        "title": "Hierarchical Multi-Agent Skill Discovery",
+        "pdf": "https://openreview.net/pdf?id=xMgO04HDOS"
+      },
+      {
+        "title": "Integrated Systems for Computational Scientific Discovery",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/30269/32263"
+      },
+      {
+        "title": "Effective and Stable Role-Based Multi-Agent Collaboration by Structural Information Principles",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/26390/26162"
+      },
+      {
+        "title": "Decentralized Autonomous Organizations and Multi-agent Systems for Artificial Intelligence Applications and Data Analysis",
+        "pdf": "https://www.ijcai.org/proceedings/2022/0828.pdf"
+      },
+      {
+        "title": "A Computational Model of Ostrom's Institutional Analysis and Development Framework (Extended Abstract)",
+        "pdf": "https://www.ijcai.org/proceedings/2023/0786.pdf"
+      },
+      {
+        "title": "Avtomatizacija raziskovalnega procesa z agentnimi velikimi jezikovnimi modeli",
+        "pdf": "https://repozitorij.uni-lj.si/IzpisGradiva.php?id=174624"
+      },
+      {
+        "title": "DORA AI Scientist: Multi-agent Virtual Research Team for Scientific Exploration Discovery and Automated Report Generation",
+        "pdf": "https://doi.org/10.1101/2025.03.06.641840"
+      },
+      {
+        "title": "Multi-Agent AI Systems for Biological and Clinical Data Analysis",
+        "pdf": "https://doi.org/10.20944/preprints202512.2602.v1"
+      },
+      {
+        "title": "Multi-Agent Geophysical AI Workflow for Automated Reservoir Characterization",
+        "pdf": "https://eartharxiv.org/repository/object/10718/download/19712/"
+      },
+      {
+        "title": "Research on key factors of safety and reliability of distribution technology based on artificial intelligence analysis",
+        "pdf": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13795/137951E/Research-on-key-factors-of-safety-and-reliability-of-distribution/10.1117/12.3086309.pdf"
+      },
+      {
+        "title": "Scaling Generalist Data-Analytic Agents",
+        "pdf": "https://arxiv.org/pdf/2509.25084"
+      },
+      {
+        "title": "An Agentic AI-Enhanced Curriculum Framework for Rare Earth Elements from K-12 to Veteran Training for Educators and Policy Makers",
+        "pdf": "https://doi.org/10.20944/preprints202510.1990.v1"
+      },
+      {
+        "title": "Values of the T-shaped Leader: Applying the 4M Framework to Address SoTL Grand Challenges and Foster Sustainable Development Goals in Higher Education",
+        "pdf": "https://open-publishing.org/journals/index.php/jutlp/article/download/1235/1091"
+      },
+      {
+        "title": "Feirbrand/forgeos-public: Cognitive Mage v1.0: How a Performance Coach Created 100% Symbolic AI Through Narrative Identity Architecture",
+        "pdf": "https://doi.org/10.5281/zenodo.17643267"
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2512.25073v1"
+      },
+      {
+        "title": "Combined Neural Network and Rule-Based Framework for Probabilistic Pattern Recognition and Discovery",
+        "pdf": "https://papers.nips.cc/paper_files/paper/1991/file/46922a0880a8f11f8f69cbb52b1396be-Paper.pdf"
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "pdf": "https://arxiv.org/pdf/2512.25071v1"
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "pdf": "https://arxiv.org/pdf/2512.25055v1"
+      },
+      {
+        "title": "Multivariate Generalized Counting Process via Gamma Subordination",
+        "pdf": "https://arxiv.org/pdf/2512.25030v1"
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "pdf": "https://arxiv.org/pdf/2512.25046v1"
+      },
+      {
+        "title": "Thin Tree Verification is coNP-Complete",
+        "pdf": "https://arxiv.org/pdf/2512.25043v1"
+      },
+      {
+        "title": "Large Neutrino-Dark Matter Interactions: From Effective Field Theory to Ultraviolet Completions",
+        "pdf": "https://arxiv.org/pdf/2512.25035v1"
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "pdf": "https://arxiv.org/pdf/2512.25045v1"
+      },
+      {
+        "title": "On exact Observability for Compactly perturbed infinite dimension system",
+        "pdf": "https://arxiv.org/pdf/2512.25041v1"
+      },
+      {
+        "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+        "pdf": "https://arxiv.org/pdf/2512.25050v1"
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "pdf": "https://arxiv.org/pdf/2512.25072v1"
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "pdf": "https://arxiv.org/pdf/2512.25070v1"
+      },
+      {
+        "title": "Vascular Dementia: From Pathophysiology to Therapeutic Frontiers",
+        "pdf": "https://www.mdpi.com/2077-0383/14/18/6611/pdf?version=1758282695"
+      },
+      {
+        "title": "Categorical Axioms of Resonant Existence: large A Unified Framework Linking Life, Incompleteness, and the Riemann Critical Symmetry",
+        "pdf": "https://doi.org/10.5281/zenodo.17834678"
+      },
+      {
+        "title": "Fractal conduction pathways governing ionic transport in a glass",
+        "pdf": "https://arxiv.org/pdf/2512.25031v1"
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "pdf": "https://arxiv.org/pdf/2512.25040v1"
+      },
+      {
+        "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+        "pdf": "https://arxiv.org/pdf/2512.25052v1"
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "pdf": "https://arxiv.org/pdf/2512.25065v1"
+      },
+      {
+        "title": "Perturbative Kondo destruction and global phase diagram of heavy fermion metals",
+        "pdf": "https://arxiv.org/pdf/2512.25036v1"
+      },
+      {
+        "title": "A Distributed Adaptive QoS-Aware TSCH Scheduling to Support Heterogeneous Traffic in IIoT Using Fuzzy Reinforcement Learning",
+        "pdf": "https://www.researchsquare.com/article/rs-7470984/latest.pdf"
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "pdf": "https://arxiv.org/pdf/2512.25067v1"
+      },
+      {
+        "title": "Mod $p$ Poincaré duality for $p$-adic period domains",
+        "pdf": "https://arxiv.org/pdf/2512.25029v1"
+      },
+      {
+        "title": "PATENT-FREE SCIENCE IN THE JANUS ERA Governance, Constraint Physics & The CollectiveOS Standard",
+        "pdf": "https://doi.org/10.5281/zenodo.17768403"
+      },
+      {
+        "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+        "pdf": "https://arxiv.org/pdf/2512.25037v1"
+      },
+      {
+        "title": "SECURING PERSONAL DATA IN THE SMARTPHONE AGE: A STUDY OF MOBILE DEVICE SECURITY",
+        "pdf": "https://taapublications.com/tijsrat/article/download/716/804"
+      },
+      {
+        "title": "Recent advances in microwave-assisted dry reforming of methane: catalyst, performance, and fundamentals",
+        "pdf": "https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2025.1681282/pdf"
+      },
+      {
+        "title": "Bilinear tau forms of quantum Painlevé equations and $\\mathbb{C}^2/\\mathbb{Z}_2$ blowup relations in SUSY gauge theories",
+        "pdf": "https://arxiv.org/pdf/2512.25051v1"
+      },
+      {
+        "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+        "pdf": "https://arxiv.org/pdf/2512.25068v1"
+      },
+      {
+        "title": "Government-Citizen Interactive Communication through the ACACAE Model: A Comprehensive Discussion",
+        "pdf": "https://www.ijsr.net/archive/v14i9/SR25917021716.pdf"
+      },
+      {
+        "title": "The variety of orthogonal frames",
+        "pdf": "https://arxiv.org/pdf/2512.25058v1"
+      },
+      {
+        "title": "Arithmetic with spatiotemporal optical vortex of integer and fractional topological charges",
+        "pdf": "https://arxiv.org/pdf/2512.25049v1"
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "pdf": "https://arxiv.org/pdf/2512.25056v1"
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "pdf": "https://arxiv.org/pdf/2512.25064v1"
+      },
+      {
+        "title": "The Six Elements of the Collective  AI-Engineered Matter for the Post-Classical Age",
+        "pdf": "https://doi.org/10.5281/zenodo.17566386"
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "pdf": "https://arxiv.org/pdf/2512.25066v1"
+      },
+      {
+        "title": "Active Learning for Neurosymbolic Program Synthesis",
+        "pdf": "https://doi.org/10.1145/3763102"
+      },
+      {
+        "title": "Detecting Drone Threats at Stadiums and Public Venues: Overview, Operational Considerations, and Technical Implementation",
+        "pdf": "https://doi.org/10.5038/1944-0472.18.3.2410"
+      },
+      {
+        "title": "The Evolution and Impact of Artificial Intelligence in Chemistry",
+        "pdf": "https://www.preprints.org/frontend/manuscript/1bfa955ffef705c432f143b9815dfa7e/download_pub"
+      },
+      {
+        "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+        "pdf": "https://arxiv.org/pdf/2512.25069v1"
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "pdf": "https://arxiv.org/pdf/2512.25042v1"
+      },
+      {
+        "title": "Representing Dental Caries and Dysbiosis within the Oral Microbiome in the Oral Health and Disease Ontology",
+        "pdf": "https://www.researchsquare.com/article/rs-7265626/latest.pdf"
+      },
+      {
+        "title": "Balancing Caregiving and Self-Care: Exploring Mental Health Needs of Alzheimer's and Dementia Caregivers",
+        "pdf": "https://doi.org/10.1145/3757555"
+      },
+      {
+        "title": "Finite- Time Analysis of Asynchronous Multi-Agent TD Learning",
+        "pdf": "http://arxiv.org/pdf/2407.20441"
+      },
+      {
+        "title": "Bus Ridership Prediction and Scenario Analysis through ML and Multi-Agent Simulations",
+        "pdf": "https://doi.org/10.14201/adcaij.31866"
+      },
+      {
+        "title": "Seeds of Cross-Sector Collaboration: A Multi-Agent Evolutionary Game Theoretical Framework Illustrated by the Breeding of Salt-Tolerant Rice",
+        "pdf": "https://www.mdpi.com/2077-0472/14/2/300/pdf?version=1707836224"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "A SURVEY ON STOCK INVESTMENT RISK ANALYSIS USING CREWAI MULTI- AGENT SYSTEM",
+        "doi": "https://doi.org/10.56726/irjmets66945"
+      },
+      {
+        "title": "Enhancing Research Productivity Through Agentic AI Workflows: A Multi-Agent Framework for Intelligent Research Assistance",
+        "doi": "https://doi.org/10.36348/sjet.2025.v10i06.004"
+      },
+      {
+        "title": "Integrating Traditional Technical Analysis with AI: A Multi-Agent LLM-Based Approach to Stock Market Forecasting",
+        "doi": "https://doi.org/10.5220/0013191200003890"
+      },
+      {
+        "title": "DORA AI Scientist: Multi-agent Virtual Research Team for Scientific Exploration Discovery and Automated Report Generation",
+        "doi": "https://doi.org/10.1101/2025.03.06.641840"
+      },
+      {
+        "title": "PhenoGraph: A Multi-Agent Framework for Phenotype-driven Discovery in Spatial Transcriptomics Data Augmented with Knowledge Graphs",
+        "doi": "https://doi.org/10.1101/2025.06.06.658341"
+      },
+      {
+        "title": "Multi-Agent AI Systems for Biological and Clinical Data Analysis",
+        "doi": "https://doi.org/10.20944/preprints202512.2602.v1"
+      },
+      {
+        "title": "Multi-Agent Geophysical AI Workflow for Automated Reservoir Characterization",
+        "doi": "https://doi.org/10.31223/x5r16v"
+      },
+      {
+        "title": "Aleks: AI powered Multi Agent System for Autonomous Scientific Discovery via Data-Driven Approaches in Plant Science",
+        "doi": "https://doi.org/10.48550/arXiv.2508.19383"
+      },
+      {
+        "title": "Accelerating Drug Discovery Through Agentic AI: A Multi-Agent Approach to Laboratory Automation in the DMTA Cycle",
+        "doi": "https://doi.org/10.48550/arXiv.2507.09023"
+      },
+      {
+        "title": "ASTRAFIN:- AI Financial Agent",
+        "doi": "https://doi.org/10.55041/ijsrem54152"
+      },
+      {
+        "title": "Synergistic minds: A collaborative multi-agent framework for integrated AI tool development using diverse large language models",
+        "doi": "https://doi.org/10.30574/wjarr.2025.27.2.1806"
+      },
+      {
+        "title": "Research on key factors of safety and reliability of distribution technology based on artificial intelligence analysis",
+        "doi": "https://doi.org/10.1117/12.3086309"
+      },
+      {
+        "title": "Multi-Agent Conversational System for Automated Stock Market Analysis and Decision Support Toward Inclusive Economic Growth",
+        "doi": "https://doi.org/10.1109/ICoAIT67446.2025.11308989"
+      },
+      {
+        "title": "EvoResearch: A Multi-Agent AI Framework for Automated Paper Analysis",
+        "doi": "https://doi.org/10.26562/ijirae.2025.v1211.25"
+      },
+      {
+        "title": "Abstract B016: Multi-Agent Framework for Deep Research in Cancer Immunogenomics via TCR Datasets and Scientific Literature Search",
+        "doi": "https://doi.org/10.1158/1557-3265.aimachine-b016"
+      },
+      {
+        "title": "Technical Implementation of Tippy: Multi-Agent Architecture and System Design for Drug Discovery Laboratory Automation",
+        "doi": "https://doi.org/10.48550/arXiv.2507.17852"
+      },
+      {
+        "title": "Scaling Generalist Data-Analytic Agents",
+        "doi": "https://doi.org/10.48550/arxiv.2509.25084"
+      },
+      {
+        "title": "Modeling Response Consistency in Multi-Agent LLM Systems: A Comparative Analysis of Shared and Separate Context Approaches",
+        "doi": "https://doi.org/10.48550/arXiv.2504.07303"
+      },
+      {
+        "title": "TriAgent: Automated Biomarker Discovery with Deep Research Grounding for Triage in Acute Care by LLM-Based Multi-Agent Collaboration",
+        "doi": "https://doi.org/10.48550/arXiv.2510.16080"
+      },
+      {
+        "title": "A Multi-LLM-Agent-Based Framework for Economic and Public Policy Analysis",
+        "doi": "https://doi.org/10.48550/arXiv.2502.16879"
+      },
+      {
+        "title": "An Adversarial Testing Framework for Multi-Agent Red–Blue Systems in Automated Software Hardening",
+        "doi": "https://doi.org/10.55041/ijsrem53169"
+      },
+      {
+        "title": "An Agentic AI-Enhanced Curriculum Framework for Rare Earth Elements from K-12 to Veteran Training for Educators and Policy Makers",
+        "doi": "https://doi.org/10.20944/preprints202510.1990.v1"
+      },
+      {
+        "title": "Debate-Feedback: A Multi-Agent Framework for Efficient Legal Judgment Prediction",
+        "doi": "https://doi.org/10.48550/arXiv.2504.05358"
+      },
+      {
+        "title": "Values of the T-shaped Leader: Applying the 4M Framework to Address SoTL Grand Challenges and Foster Sustainable Development Goals in Higher Education",
+        "doi": "https://doi.org/10.53761/0z732113"
+      },
+      {
+        "title": "Feirbrand/forgeos-public: Cognitive Mage v1.0: How a Performance Coach Created 100% Symbolic AI Through Narrative Identity Architecture",
+        "doi": "https://doi.org/10.5281/zenodo.17643267"
+      },
+      {
+        "title": "GridMind: A Multi-Agent NLP Framework for Unified, Cross-Modal NFL Data Insights",
+        "doi": "https://doi.org/10.48550/arXiv.2504.08747"
+      },
+      {
+        "title": "Vascular Dementia: From Pathophysiology to Therapeutic Frontiers",
+        "doi": "https://doi.org/10.3390/jcm14186611"
+      },
+      {
+        "title": "Categorical Axioms of Resonant Existence: large A Unified Framework Linking Life, Incompleteness, and the Riemann Critical Symmetry",
+        "doi": "https://doi.org/10.5281/zenodo.17834678"
+      },
+      {
+        "title": "A Distributed Adaptive QoS-Aware TSCH Scheduling to Support Heterogeneous Traffic in IIoT Using Fuzzy Reinforcement Learning",
+        "doi": "https://doi.org/10.21203/rs.3.rs-7470984/v1"
+      },
+      {
+        "title": "PATENT-FREE SCIENCE IN THE JANUS ERA Governance, Constraint Physics & The CollectiveOS Standard",
+        "doi": "https://doi.org/10.5281/zenodo.17768403"
+      },
+      {
+        "title": "SECURING PERSONAL DATA IN THE SMARTPHONE AGE: A STUDY OF MOBILE DEVICE SECURITY",
+        "doi": "https://doi.org/10.70382/tijsrat.v09i9.050"
+      },
+      {
+        "title": "Recent advances in microwave-assisted dry reforming of methane: catalyst, performance, and fundamentals",
+        "doi": "https://doi.org/10.3389/fchem.2025.1681282"
+      },
+      {
+        "title": "Government-Citizen Interactive Communication through the ACACAE Model: A Comprehensive Discussion",
+        "doi": "https://doi.org/10.21275/sr25917021716"
+      },
+      {
+        "title": "The Six Elements of the Collective  AI-Engineered Matter for the Post-Classical Age",
+        "doi": "https://doi.org/10.5281/zenodo.17566386"
+      },
+      {
+        "title": "Active Learning for Neurosymbolic Program Synthesis",
+        "doi": "https://doi.org/10.1145/3763102"
+      },
+      {
+        "title": "Detecting Drone Threats at Stadiums and Public Venues: Overview, Operational Considerations, and Technical Implementation",
+        "doi": "https://doi.org/10.5038/1944-0472.18.3.2410"
+      },
+      {
+        "title": "The Evolution and Impact of Artificial Intelligence in Chemistry",
+        "doi": "https://doi.org/10.20944/preprints202509.1557.v1"
+      },
+      {
+        "title": "Representing Dental Caries and Dysbiosis within the Oral Microbiome in the Oral Health and Disease Ontology",
+        "doi": "https://doi.org/10.21203/rs.3.rs-7265626/v1"
+      },
+      {
+        "title": "Balancing Caregiving and Self-Care: Exploring Mental Health Needs of Alzheimer's and Dementia Caregivers",
+        "doi": "https://doi.org/10.1145/3757555"
+      },
+      {
+        "title": "Forensic Analysis of Artifacts from Microsoft's Multi-Agent LLM Platform AutoGen",
+        "doi": "https://doi.org/10.1145/3664476.3670908"
+      },
+      {
+        "title": "Finite- Time Analysis of Asynchronous Multi-Agent TD Learning",
+        "doi": "https://doi.org/10.23919/ACC60939.2024.10644447"
+      },
+      {
+        "title": "Bus Ridership Prediction and Scenario Analysis through ML and Multi-Agent Simulations",
+        "doi": "https://doi.org/10.14201/adcaij.31866"
+      },
+      {
+        "title": "Seeds of Cross-Sector Collaboration: A Multi-Agent Evolutionary Game Theoretical Framework Illustrated by the Breeding of Salt-Tolerant Rice",
+        "doi": "https://doi.org/10.3390/agriculture14020300"
+      },
+      {
+        "title": "The Discovery and Solution of the Pseudo-Reasoning Issue for Constructing Cost-Effective Multi-Agent Frameworks in Large Language Models",
+        "doi": "https://doi.org/10.1109/AiDAS63860.2024.10730162"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "multi-agent research paper discovery and analysis framework",
+    "total_steps": 6,
+    "last_updated": "2026-01-01T23:31:23.458040",
+    "started_at": "2026-01-01T23:27:02.500112",
+    "total_papers": 124
+  }
+}

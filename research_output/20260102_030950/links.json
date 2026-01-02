@@ -1,0 +1,916 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+        "url": "https://iclr.cc/virtual/2025/poster/30860",
+        "pdf_url": "https://openreview.net/pdf?id=6s5uXNWGIh",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research",
+        "url": "https://openreview.net/forum?id=JX9DE6colf",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation",
+        "url": "https://icml.cc/virtual/2024/poster/35159",
+        "pdf_url": "https://openreview.net/pdf?id=1Fs1LvjYQW",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "From Reproduction to Replication: Evaluating Research Agents with Progressive Code Masking",
+        "url": "https://openreview.net/forum?id=qBcHWGBnIb",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "RE-Bench: Evaluating Frontier AI R&D Capabilities of Language Model Agents against Human Experts",
+        "url": "https://icml.cc/virtual/2025/poster/46519",
+        "pdf_url": "https://openreview.net/pdf?id=3rB0bVU6z6",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "A Benchmark for Automatic ML Research Agents Highlighting the Importance of Exploration Breadth",
+        "url": "https://openreview.net/forum?id=h6BT8RhrNc",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ML-Bench: Evaluating Large Language Models for Code Generation in Repository-Level Machine Learning Tasks",
+        "url": "https://openreview.net/forum?id=sf1u3vTRjm",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "TimeSeriesGym: A Scalable Benchmark for (Time Series) Machine Learning Engineering Agents",
+        "url": "https://openreview.net/forum?id=8gdfWRilR7",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "BRIDGE: A Risk-Aware Framework for Evaluating Behavioral Fidelity in LLM Agents",
+        "url": "https://openreview.net/forum?id=OvgcxUZyZV",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners",
+        "url": "https://openreview.net/forum?id=MYqAKKsjF9",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Evaluating Agents Without Rewards",
+        "url": "https://openreview.net/forum?id=FoM-RnF6SNe",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2021
+      },
+      {
+        "title": "Toward Evaluating Robustness of Deep Reinforcement Learning with Continuous Control",
+        "url": "https://openreview.net/forum?id=SylL0krYPS",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2020
+      },
+      {
+        "title": "Benchmarking Large Language Models as AI Research Agents",
+        "url": "https://openreview.net/forum?id=N9wD4RFWY0",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Evaluating the Effectiveness of Machine Learning Algorithms in Stock Price Prediction Across Different Time Frames",
+        "url": "https://openreview.net/forum?id=5FWDiJyIpB",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_ai4x",
+        "year": 2025
+      },
+      {
+        "title": "SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories",
+        "url": "https://aclanthology.org/2024.emnlp-main.702/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.702.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "AgentGym: Evaluating and Training Large Language Model-based Agents across Diverse Environments",
+        "url": "https://aclanthology.org/2025.acl-long.1355/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1355.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "DigiData: Training and Evaluating General-Purpose Mobile Control Agents",
+        "url": "https://openreview.net/forum?id=gJ2N5awCHb",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "FIRE-Bench: Evaluating Research Agents on the Rediscovery of Scientific Insights",
+        "url": "https://openreview.net/forum?id=454tA4k8yJ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "The Neural Testbed: Evaluating Joint Predictions",
+        "url": "https://nips.cc/virtual/2022/poster/53958",
+        "pdf_url": "https://openreview.net/pdf?id=JyTT03dqCFD",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2022
+      },
+      {
+        "title": "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks",
+        "url": "https://aclanthology.org/2024.acl-long.50/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.50.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Continual Lifelong Learning for Intelligent Agents",
+        "url": "https://www.ijcai.org/proceedings/2021/691",
+        "pdf_url": "https://www.ijcai.org/proceedings/2021/0691.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2021
+      },
+      {
+        "title": "EVALUATING MEMORY IN LLM AGENTS VIA INCRE- MENTAL MULTI-TURN INTERACTIONS",
+        "url": "https://openreview.net/forum?id=DT7JyQC3MR",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ThinkGeo: Evaluating Tool-Augmented Agents for Remote Sensing Tasks",
+        "url": "https://openreview.net/forum?id=qSs6tJ5RjC",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "DialSim: A Real-Time Simulator for Evaluating Long-Term Multi-Party Dialogue Understanding of Conversational Agents",
+        "url": "https://openreview.net/forum?id=W1x77vRucB",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Evaluating Generalization Capabilities of LLM-Based Agents in Mixed-Motive Scenarios Using Concordia",
+        "url": "https://openreview.net/forum?id=yG4Fj0voJZ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "InfiAgent-DABench: Evaluating Agents on Data Analysis Tasks",
+        "url": "https://icml.cc/virtual/2024/poster/33569",
+        "pdf_url": "https://openreview.net/pdf?id=d5LURMSfTx",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "SmartPlay : A Benchmark for LLMs as Intelligent Agents",
+        "url": "https://iclr.cc/virtual/2024/poster/18620",
+        "pdf_url": "https://openreview.net/pdf?id=S2oTVrlcp3",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Substance over Style: Evaluating Proactive Conversational Coaching Agents",
+        "url": "https://aclanthology.org/2025.acl-long.1017/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1017.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents",
+        "url": "https://openreview.net/forum?id=MuCDzH0ctf",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Search-Based Testing of Reinforcement Learning",
+        "url": "https://www.ijcai.org/proceedings/2022/72",
+        "pdf_url": "https://www.ijcai.org/proceedings/2022/0072.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2022
+      },
+      {
+        "title": "AgentGym: Evaluating and Evolving Large Language Model-based Agents across Diverse Envronments",
+        "url": "https://openreview.net/forum?id=b8eEutZlPb",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Evaluating Robustness of Cooperative MARL",
+        "url": "https://openreview.net/forum?id=HHpWuWayMo",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2022
+      },
+      {
+        "title": "Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games",
+        "url": "https://openreview.net/forum?id=H1ncX6O6Yh",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "DiscoveryWorld: A Virtual Environment for Developing and Evaluating Automated Scientific Discovery Agents",
+        "url": "https://neurips.cc/virtual/2024/poster/97607",
+        "pdf_url": "https://openreview.net/pdf?id=cDYqckEt6d",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "ITBench: Evaluating AI Agents across Diverse Real-World IT Automation Tasks",
+        "url": "https://icml.cc/virtual/2025/poster/44303",
+        "pdf_url": "https://openreview.net/pdf?id=jP59rz1bZk",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "OdysseyBench: Evaluating LLM Agents on Long-Horizon Complex Office Application Workflows",
+        "url": "https://openreview.net/forum?id=tMbmBCfSTz",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "InCharacter: Evaluating Personality Fidelity in Role-Playing Agents through Psychological Interviews",
+        "url": "https://aclanthology.org/2024.acl-long.102/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.102.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "AgentBench: Evaluating LLMs as Agents",
+        "url": "https://iclr.cc/virtual/2024/poster/17388",
+        "pdf_url": "https://openreview.net/pdf?id=zAdUB0aCTQ",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "MLGym: A New Framework and Benchmark for Advancing AI Research Agents",
+        "url": "https://openreview.net/forum?id=ryTr83DxRq",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_colm",
+        "year": 2025
+      },
+      {
+        "title": "Evaluating high-order predictive distributions in deep learning",
+        "url": "https://proceedings.mlr.press/v180/osband22a.html",
+        "pdf_url": "https://proceedings.mlr.press/v180/osband22a/osband22a.pdf",
+        "doi_url": null,
+        "source": "offline_uai",
+        "year": 2022
+      },
+      {
+        "title": "BrowserArena: Evaluating LLM Agents on Real-World Web Navigation Tasks",
+        "url": "https://openreview.net/forum?id=lmeXa6aaoR",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Collaborative Gym: A Framework for Enabling and Evaluating Human-Agent Collaboration",
+        "url": "https://openreview.net/forum?id=GDYueXtKXT",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "LifelongSotopia: Evaluating Social Intelligence Of Language Agents Over Lifelong Social Interactions",
+        "url": "https://openreview.net/forum?id=XdcuqZRhjQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "EmoCharacter: Evaluating the Emotional Fidelity of Role-Playing Agents in Dialogues",
+        "url": "https://aclanthology.org/2025.naacl-long.316/",
+        "pdf_url": "https://aclanthology.org/2025.naacl-long.316.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2025
+      },
+      {
+        "title": "Evaluating Cultural and Social Awareness of LLM Web Agents",
+        "url": "https://aclanthology.org/2025.findings-naacl.222/",
+        "pdf_url": "https://aclanthology.org/2025.findings-naacl.222.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2025
+      },
+      {
+        "title": "Towards Adaptive ML Benchmarks: Web-Agent-Driven Construction, Domain Expansion, and Metric Optimization",
+        "url": "https://openreview.net/forum?id=XNk56rmmiy",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "AI Research Agents for Machine Learning: Search, Exploration, and Generalization in MLE-bench",
+        "url": "https://openreview.net/forum?id=RwfrdKSgCE",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control",
+        "url": "https://openreview.net/forum?id=lpBzjYlt3u",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Evaluating Robustness of Cooperative MARL: A Model-based Approach",
+        "url": "https://openreview.net/forum?id=kugE_tCwsC",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Evaluating techniques for learning a feedback controller for low-cost manipulators",
+        "url": "https://ieeexplore.ieee.org/document/6696428/",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iros",
+        "year": 2013
+      }
+    ],
+    "by_source": {
+      "offline_iclr": [
+        {
+          "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+          "url": "https://iclr.cc/virtual/2025/poster/30860",
+          "pdf_url": "https://openreview.net/pdf?id=6s5uXNWGIh",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "From Reproduction to Replication: Evaluating Research Agents with Progressive Code Masking",
+          "url": "https://openreview.net/forum?id=qBcHWGBnIb",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "A Benchmark for Automatic ML Research Agents Highlighting the Importance of Exploration Breadth",
+          "url": "https://openreview.net/forum?id=h6BT8RhrNc",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ML-Bench: Evaluating Large Language Models for Code Generation in Repository-Level Machine Learning Tasks",
+          "url": "https://openreview.net/forum?id=sf1u3vTRjm",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "TimeSeriesGym: A Scalable Benchmark for (Time Series) Machine Learning Engineering Agents",
+          "url": "https://openreview.net/forum?id=8gdfWRilR7",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "BRIDGE: A Risk-Aware Framework for Evaluating Behavioral Fidelity in LLM Agents",
+          "url": "https://openreview.net/forum?id=OvgcxUZyZV",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners",
+          "url": "https://openreview.net/forum?id=MYqAKKsjF9",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Evaluating Agents Without Rewards",
+          "url": "https://openreview.net/forum?id=FoM-RnF6SNe",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2021
+        },
+        {
+          "title": "Toward Evaluating Robustness of Deep Reinforcement Learning with Continuous Control",
+          "url": "https://openreview.net/forum?id=SylL0krYPS",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2020
+        },
+        {
+          "title": "Benchmarking Large Language Models as AI Research Agents",
+          "url": "https://openreview.net/forum?id=N9wD4RFWY0",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "DigiData: Training and Evaluating General-Purpose Mobile Control Agents",
+          "url": "https://openreview.net/forum?id=gJ2N5awCHb",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "FIRE-Bench: Evaluating Research Agents on the Rediscovery of Scientific Insights",
+          "url": "https://openreview.net/forum?id=454tA4k8yJ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "EVALUATING MEMORY IN LLM AGENTS VIA INCRE- MENTAL MULTI-TURN INTERACTIONS",
+          "url": "https://openreview.net/forum?id=DT7JyQC3MR",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ThinkGeo: Evaluating Tool-Augmented Agents for Remote Sensing Tasks",
+          "url": "https://openreview.net/forum?id=qSs6tJ5RjC",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "DialSim: A Real-Time Simulator for Evaluating Long-Term Multi-Party Dialogue Understanding of Conversational Agents",
+          "url": "https://openreview.net/forum?id=W1x77vRucB",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "SmartPlay : A Benchmark for LLMs as Intelligent Agents",
+          "url": "https://iclr.cc/virtual/2024/poster/18620",
+          "pdf_url": "https://openreview.net/pdf?id=S2oTVrlcp3",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents",
+          "url": "https://openreview.net/forum?id=MuCDzH0ctf",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "AgentGym: Evaluating and Evolving Large Language Model-based Agents across Diverse Envronments",
+          "url": "https://openreview.net/forum?id=b8eEutZlPb",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Evaluating Robustness of Cooperative MARL",
+          "url": "https://openreview.net/forum?id=HHpWuWayMo",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2022
+        },
+        {
+          "title": "Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games",
+          "url": "https://openreview.net/forum?id=H1ncX6O6Yh",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "OdysseyBench: Evaluating LLM Agents on Long-Horizon Complex Office Application Workflows",
+          "url": "https://openreview.net/forum?id=tMbmBCfSTz",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "AgentBench: Evaluating LLMs as Agents",
+          "url": "https://iclr.cc/virtual/2024/poster/17388",
+          "pdf_url": "https://openreview.net/pdf?id=zAdUB0aCTQ",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "BrowserArena: Evaluating LLM Agents on Real-World Web Navigation Tasks",
+          "url": "https://openreview.net/forum?id=lmeXa6aaoR",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Collaborative Gym: A Framework for Enabling and Evaluating Human-Agent Collaboration",
+          "url": "https://openreview.net/forum?id=GDYueXtKXT",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LifelongSotopia: Evaluating Social Intelligence Of Language Agents Over Lifelong Social Interactions",
+          "url": "https://openreview.net/forum?id=XdcuqZRhjQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Towards Adaptive ML Benchmarks: Web-Agent-Driven Construction, Domain Expansion, and Metric Optimization",
+          "url": "https://openreview.net/forum?id=XNk56rmmiy",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control",
+          "url": "https://openreview.net/forum?id=lpBzjYlt3u",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Evaluating Robustness of Cooperative MARL: A Model-based Approach",
+          "url": "https://openreview.net/forum?id=kugE_tCwsC",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research",
+          "url": "https://openreview.net/forum?id=JX9DE6colf",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "The Neural Testbed: Evaluating Joint Predictions",
+          "url": "https://nips.cc/virtual/2022/poster/53958",
+          "pdf_url": "https://openreview.net/pdf?id=JyTT03dqCFD",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2022
+        },
+        {
+          "title": "Evaluating Generalization Capabilities of LLM-Based Agents in Mixed-Motive Scenarios Using Concordia",
+          "url": "https://openreview.net/forum?id=yG4Fj0voJZ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "DiscoveryWorld: A Virtual Environment for Developing and Evaluating Automated Scientific Discovery Agents",
+          "url": "https://neurips.cc/virtual/2024/poster/97607",
+          "pdf_url": "https://openreview.net/pdf?id=cDYqckEt6d",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "AI Research Agents for Machine Learning: Search, Exploration, and Generalization in MLE-bench",
+          "url": "https://openreview.net/forum?id=RwfrdKSgCE",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation",
+          "url": "https://icml.cc/virtual/2024/poster/35159",
+          "pdf_url": "https://openreview.net/pdf?id=1Fs1LvjYQW",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        },
+        {
+          "title": "RE-Bench: Evaluating Frontier AI R&D Capabilities of Language Model Agents against Human Experts",
+          "url": "https://icml.cc/virtual/2025/poster/46519",
+          "pdf_url": "https://openreview.net/pdf?id=3rB0bVU6z6",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "InfiAgent-DABench: Evaluating Agents on Data Analysis Tasks",
+          "url": "https://icml.cc/virtual/2024/poster/33569",
+          "pdf_url": "https://openreview.net/pdf?id=d5LURMSfTx",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        },
+        {
+          "title": "ITBench: Evaluating AI Agents across Diverse Real-World IT Automation Tasks",
+          "url": "https://icml.cc/virtual/2025/poster/44303",
+          "pdf_url": "https://openreview.net/pdf?id=jP59rz1bZk",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        }
+      ],
+      "offline_ai4x": [
+        {
+          "title": "Evaluating the Effectiveness of Machine Learning Algorithms in Stock Price Prediction Across Different Time Frames",
+          "url": "https://openreview.net/forum?id=5FWDiJyIpB",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_ai4x",
+          "year": 2025
+        }
+      ],
+      "offline_emnlp": [
+        {
+          "title": "SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories",
+          "url": "https://aclanthology.org/2024.emnlp-main.702/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.702.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        }
+      ],
+      "offline_acl": [
+        {
+          "title": "AgentGym: Evaluating and Training Large Language Model-based Agents across Diverse Environments",
+          "url": "https://aclanthology.org/2025.acl-long.1355/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1355.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks",
+          "url": "https://aclanthology.org/2024.acl-long.50/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.50.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Substance over Style: Evaluating Proactive Conversational Coaching Agents",
+          "url": "https://aclanthology.org/2025.acl-long.1017/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1017.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "InCharacter: Evaluating Personality Fidelity in Role-Playing Agents through Psychological Interviews",
+          "url": "https://aclanthology.org/2024.acl-long.102/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.102.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        }
+      ],
+      "offline_ijcai": [
+        {
+          "title": "Continual Lifelong Learning for Intelligent Agents",
+          "url": "https://www.ijcai.org/proceedings/2021/691",
+          "pdf_url": "https://www.ijcai.org/proceedings/2021/0691.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2021
+        },
+        {
+          "title": "Search-Based Testing of Reinforcement Learning",
+          "url": "https://www.ijcai.org/proceedings/2022/72",
+          "pdf_url": "https://www.ijcai.org/proceedings/2022/0072.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2022
+        }
+      ],
+      "offline_colm": [
+        {
+          "title": "MLGym: A New Framework and Benchmark for Advancing AI Research Agents",
+          "url": "https://openreview.net/forum?id=ryTr83DxRq",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_colm",
+          "year": 2025
+        }
+      ],
+      "offline_uai": [
+        {
+          "title": "Evaluating high-order predictive distributions in deep learning",
+          "url": "https://proceedings.mlr.press/v180/osband22a.html",
+          "pdf_url": "https://proceedings.mlr.press/v180/osband22a/osband22a.pdf",
+          "doi_url": null,
+          "source": "offline_uai",
+          "year": 2022
+        }
+      ],
+      "offline_naacl": [
+        {
+          "title": "EmoCharacter: Evaluating the Emotional Fidelity of Role-Playing Agents in Dialogues",
+          "url": "https://aclanthology.org/2025.naacl-long.316/",
+          "pdf_url": "https://aclanthology.org/2025.naacl-long.316.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2025
+        },
+        {
+          "title": "Evaluating Cultural and Social Awareness of LLM Web Agents",
+          "url": "https://aclanthology.org/2025.findings-naacl.222/",
+          "pdf_url": "https://aclanthology.org/2025.findings-naacl.222.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2025
+        }
+      ],
+      "offline_iros": [
+        {
+          "title": "Evaluating techniques for learning a feedback controller for low-cost manipulators",
+          "url": "https://ieeexplore.ieee.org/document/6696428/",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iros",
+          "year": 2013
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+        "pdf": "https://openreview.net/pdf?id=6s5uXNWGIh"
+      },
+      {
+        "title": "MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation",
+        "pdf": "https://openreview.net/pdf?id=1Fs1LvjYQW"
+      },
+      {
+        "title": "RE-Bench: Evaluating Frontier AI R&D Capabilities of Language Model Agents against Human Experts",
+        "pdf": "https://openreview.net/pdf?id=3rB0bVU6z6"
+      },
+      {
+        "title": "SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.702.pdf"
+      },
+      {
+        "title": "AgentGym: Evaluating and Training Large Language Model-based Agents across Diverse Environments",
+        "pdf": "https://aclanthology.org/2025.acl-long.1355.pdf"
+      },
+      {
+        "title": "The Neural Testbed: Evaluating Joint Predictions",
+        "pdf": "https://openreview.net/pdf?id=JyTT03dqCFD"
+      },
+      {
+        "title": "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks",
+        "pdf": "https://aclanthology.org/2024.acl-long.50.pdf"
+      },
+      {
+        "title": "Continual Lifelong Learning for Intelligent Agents",
+        "pdf": "https://www.ijcai.org/proceedings/2021/0691.pdf"
+      },
+      {
+        "title": "InfiAgent-DABench: Evaluating Agents on Data Analysis Tasks",
+        "pdf": "https://openreview.net/pdf?id=d5LURMSfTx"
+      },
+      {
+        "title": "SmartPlay : A Benchmark for LLMs as Intelligent Agents",
+        "pdf": "https://openreview.net/pdf?id=S2oTVrlcp3"
+      },
+      {
+        "title": "Substance over Style: Evaluating Proactive Conversational Coaching Agents",
+        "pdf": "https://aclanthology.org/2025.acl-long.1017.pdf"
+      },
+      {
+        "title": "Search-Based Testing of Reinforcement Learning",
+        "pdf": "https://www.ijcai.org/proceedings/2022/0072.pdf"
+      },
+      {
+        "title": "DiscoveryWorld: A Virtual Environment for Developing and Evaluating Automated Scientific Discovery Agents",
+        "pdf": "https://openreview.net/pdf?id=cDYqckEt6d"
+      },
+      {
+        "title": "ITBench: Evaluating AI Agents across Diverse Real-World IT Automation Tasks",
+        "pdf": "https://openreview.net/pdf?id=jP59rz1bZk"
+      },
+      {
+        "title": "InCharacter: Evaluating Personality Fidelity in Role-Playing Agents through Psychological Interviews",
+        "pdf": "https://aclanthology.org/2024.acl-long.102.pdf"
+      },
+      {
+        "title": "AgentBench: Evaluating LLMs as Agents",
+        "pdf": "https://openreview.net/pdf?id=zAdUB0aCTQ"
+      },
+      {
+        "title": "Evaluating high-order predictive distributions in deep learning",
+        "pdf": "https://proceedings.mlr.press/v180/osband22a/osband22a.pdf"
+      },
+      {
+        "title": "EmoCharacter: Evaluating the Emotional Fidelity of Role-Playing Agents in Dialogues",
+        "pdf": "https://aclanthology.org/2025.naacl-long.316.pdf"
+      },
+      {
+        "title": "Evaluating Cultural and Social Awareness of LLM Web Agents",
+        "pdf": "https://aclanthology.org/2025.findings-naacl.222.pdf"
+      }
+    ],
+    "dois_only": []
+  },
+  "metadata": {
+    "query": "EVALUATING MACHINE LEARNING AGENTS",
+    "total_steps": 1,
+    "last_updated": "2026-01-02T03:10:38.228879",
+    "started_at": "2026-01-02T03:09:52.212130",
+    "total_papers": 50
+  }
+}

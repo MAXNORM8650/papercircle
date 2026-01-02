@@ -1,0 +1,1225 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Universal Audio Generation",
+        "url": "https://openalex.org/W4414932055",
+        "pdf_url": "https://hal.science/hal-05110014v1/document",
+        "doi_url": null,
+        "source": "openalex",
+        "year": 2026
+      },
+      {
+        "title": "Joint Cross-Layer Optimization Framework for 5G-Enabled Wireless Sensor Networks in Environmental Monitoring Systems",
+        "url": "https://openalex.org/W7117416592",
+        "pdf_url": "https://doi.org/10.5281/zenodo.18060457",
+        "doi_url": "https://doi.org/10.5281/zenodo.18060457",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Agent2World: Learning to Generate Symbolic World Models via Adaptive Multi-Agent Feedback",
+        "url": "https://openalex.org/W7117715996",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.22336",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.22336",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "The AI Committee: A Multi-Agent Framework for Automated Validation and Remediation of Web-Sourced Data",
+        "url": "https://openalex.org/W7117568983",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.21481",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.21481",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Securing the Modern Software Supply Chain: AI-Driven Threat Analysis and Defense-in-Depth Architecture",
+        "url": "https://openalex.org/W7117240249",
+        "pdf_url": "https://doi.org/10.5281/zenodo.18041109",
+        "doi_url": "https://doi.org/10.5281/zenodo.18041109",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Intelligent Science, One World: A Pan-Disciplinary Review of Data Science, Python, Machine Learning &amp; AI Across Big Data, Cloud–Edge &amp; HPC/Quantum, IoT &amp; Robotics, Cybersecurity, Bio/Health Informatics, Geospatial/Remote Sensing, Blockchain, Digital Twins, and Responsible Governance",
+        "url": "https://openalex.org/W7117464590",
+        "pdf_url": "https://saspublishers.com/article/23457/download/",
+        "doi_url": "https://doi.org/10.36347/sjet.2025.v13i12.006",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "TableGPT-R1: Advancing Tabular Reasoning Through Reinforcement Learning",
+        "url": "https://openalex.org/W7117252075",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.20312",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.20312",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "From Guidelines to Interactive Guidance: AI Systems to Scaffold the Academic Peer Review Ecosystem",
+        "url": "https://openalex.org/W7117341919",
+        "pdf_url": null,
+        "doi_url": null,
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Advanced AI-enabled UAV Swarms for Real-time Air Traffic Surveillance",
+        "url": "https://openalex.org/W7116730523",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1108/978-1-80592-062-520251006",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "AI-Driven Software Supply Chain Security: A Unified Analysis of Threats, Detection, and Defense-in-Depth Strategies",
+        "url": "https://openalex.org/W7116739963",
+        "pdf_url": "https://doi.org/10.5281/zenodo.18005868",
+        "doi_url": "https://doi.org/10.5281/zenodo.18005868",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Multi-Agent LLM Committees for Autonomous Software Beta Testing",
+        "url": "https://openalex.org/W7117583530",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.21352",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.21352",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Augmenting dissertation mentorship through multi-modal generative AI: adapting language and visuals to diverse learning styles",
+        "url": "https://openalex.org/W4417488245",
+        "pdf_url": "https://doi.org/10.1108/aiie-05-2025-0085",
+        "doi_url": "https://doi.org/10.1108/aiie-05-2025-0085",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "HEPTAPOD: Orchestrating High Energy Physics Workflows Towards Autonomous Agency",
+        "url": "https://openalex.org/W4417534113",
+        "pdf_url": "https://arxiv.org/pdf/2512.15867",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.15867",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Revisiting Task-Oriented Dataset Search in the Era of Large Language Models: Challenges, Benchmark, and Solution",
+        "url": "https://openalex.org/W7116060974",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.15363",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.15363",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "url": "http://arxiv.org/abs/2512.25073v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "url": "http://arxiv.org/abs/2512.25070v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "url": "http://arxiv.org/abs/2512.25055v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Arithmetic with spatiotemporal optical vortex of integer and fractional topological charges",
+        "url": "http://arxiv.org/abs/2512.25049v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25049v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "url": "http://arxiv.org/abs/2512.25046v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "url": "http://arxiv.org/abs/2512.25040v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+        "url": "http://arxiv.org/abs/2512.25015v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25015v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Classifying long legal documents using short random chunks",
+        "url": "http://arxiv.org/abs/2512.24997v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24997v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+        "url": "http://arxiv.org/abs/2512.24986v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24986v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "DarkEQA: Benchmarking Vision-Language Models for Embodied Question Answering in Low-Light Indoor Environments",
+        "url": "http://arxiv.org/abs/2512.24985v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24985v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Lindbladian PT phase transitions",
+        "url": "http://arxiv.org/abs/2512.24981v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24981v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "SymSeqBench: a unified framework for the generation and analysis of rule-based symbolic sequences and datasets",
+        "url": "http://arxiv.org/abs/2512.24977v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24977v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Attribution-Guided Distillation of Matryoshka Sparse Autoencoders",
+        "url": "http://arxiv.org/abs/2512.24975v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24975v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "GEQIE Framework for Rapid Quantum Image Encoding",
+        "url": "http://arxiv.org/abs/2512.24973v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24973v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Semi-overlapping Multi-bandit Best Arm Identification for Sequential Support Network Learning",
+        "url": "http://arxiv.org/abs/2512.24959v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24959v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Adaptive Dependency-aware Prompt Optimization Framework for Multi-Step LLM Pipeline",
+        "url": "http://arxiv.org/abs/2512.24933v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24933v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Towards Provably Secure Generative AI: Reliable Consensus Sampling",
+        "url": "http://arxiv.org/abs/2512.24925v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24925v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "FinMMDocR: Benchmarking Financial Multimodal Reasoning with Scenario Awareness, Document Understanding, and Multi-Step Computation",
+        "url": "http://arxiv.org/abs/2512.24903v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24903v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Spectral Graph Neural Networks for Cognitive Task Classification in fMRI Connectomes",
+        "url": "http://arxiv.org/abs/2512.24901v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24901v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Semi-Automated Data Annotation in Multisensor Datasets for Autonomous Vehicle Testing",
+        "url": "http://arxiv.org/abs/2512.24896v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24896v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "SoK: Web3 RegTech for Cryptocurrency VASP AML/CFT Compliance",
+        "url": "http://arxiv.org/abs/2512.24888v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24888v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Heterogeneous Multi-Agent Multi-Target Tracking using Cellular Sheaves",
+        "url": "http://arxiv.org/abs/2512.24886v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24886v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+        "url": "http://arxiv.org/abs/2512.24873v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24873v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Antecedents of Consumer Regret Frequency: The Roles of Decision Agency, Status Signaling, and Online Shopping Preference",
+        "url": "http://arxiv.org/abs/2512.24862v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24862v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Advances in Agentic AI: Back to the Future",
+        "url": "http://arxiv.org/abs/2512.24856v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24856v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "VLN-MME: Diagnosing MLLMs as Language-guided Visual Navigation agents",
+        "url": "http://arxiv.org/abs/2512.24851v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24851v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "PrivacyBench: A Conversational Benchmark for Evaluating Privacy in Personalized AI",
+        "url": "http://arxiv.org/abs/2512.24848v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24848v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Discovering Coordinated Joint Options via Inter-Agent Relative Dynamics",
+        "url": "http://arxiv.org/abs/2512.24827v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24827v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Sidelink Positioning: Standardization Advancements, Challenges and Opportunities",
+        "url": "http://arxiv.org/abs/2512.24803v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24803v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "LeanCat: A Benchmark Suite for Formal Category Theory in Lean (Part I: 1-Categories)",
+        "url": "http://arxiv.org/abs/2512.24796v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24796v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "OpenOneRec Technical Report",
+        "url": "http://arxiv.org/abs/2512.24762v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24762v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "AstroReview: An LLM-driven Multi-Agent Framework for Telescope Proposal Peer Review and Refinement",
+        "url": "http://arxiv.org/abs/2512.24754v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24754v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Coronal flux tube illuminated by strong shock spot: New Year's Eve solar eruption of 2023-Dec-31",
+        "url": "http://arxiv.org/abs/2512.24749v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24749v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Abstract B003: Advancing biomarker discovery using a novel window of opportunity (WOO) trial for pancreatic ductal adenocarcinoma: Trial updates",
+        "url": "https://www.semanticscholar.org/paper/b89e3e804b12ec3271a27e48cbf54a64f26e1a42",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1158/1538-7445.panca2023-b003",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "url": "http://arxiv.org/abs/2512.25065v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "url": "http://arxiv.org/abs/2512.25064v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Fluid dynamics as intersection problem",
+        "url": "http://arxiv.org/abs/2512.25053v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25053v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Modewise Additive Factor Model for Matrix Time Series",
+        "url": "http://arxiv.org/abs/2512.25025v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25025v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Real Riemann Surfaces: Smooth and Discrete",
+        "url": "http://arxiv.org/abs/2512.25022v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25022v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Uniqueness for stochastic differential equations in Hilbert spaces with irregular drift",
+        "url": "http://arxiv.org/abs/2512.25003v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25003v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Distributions of wide binary stars in theory and in Gaia data: III. Orbital momenta, masses, and manifestations of MOND",
+        "url": "http://arxiv.org/abs/2512.25002v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25002v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Strong Gravitational Lensing by a Black Hole with a Global Monopole in Kalb-Ramond Bumblebee Gravity",
+        "url": "http://arxiv.org/abs/2512.24995v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24995v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Multi-Frequency Study of FRB20201124A with the uGMRT",
+        "url": "http://arxiv.org/abs/2512.24978v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24978v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Large language models and the entropy of English",
+        "url": "http://arxiv.org/abs/2512.24969v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24969v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "openalex": [
+        {
+          "title": "Universal Audio Generation",
+          "url": "https://openalex.org/W4414932055",
+          "pdf_url": "https://hal.science/hal-05110014v1/document",
+          "doi_url": null,
+          "source": "openalex",
+          "year": 2026
+        },
+        {
+          "title": "Joint Cross-Layer Optimization Framework for 5G-Enabled Wireless Sensor Networks in Environmental Monitoring Systems",
+          "url": "https://openalex.org/W7117416592",
+          "pdf_url": "https://doi.org/10.5281/zenodo.18060457",
+          "doi_url": "https://doi.org/10.5281/zenodo.18060457",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Agent2World: Learning to Generate Symbolic World Models via Adaptive Multi-Agent Feedback",
+          "url": "https://openalex.org/W7117715996",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.22336",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.22336",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "The AI Committee: A Multi-Agent Framework for Automated Validation and Remediation of Web-Sourced Data",
+          "url": "https://openalex.org/W7117568983",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.21481",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.21481",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Securing the Modern Software Supply Chain: AI-Driven Threat Analysis and Defense-in-Depth Architecture",
+          "url": "https://openalex.org/W7117240249",
+          "pdf_url": "https://doi.org/10.5281/zenodo.18041109",
+          "doi_url": "https://doi.org/10.5281/zenodo.18041109",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Intelligent Science, One World: A Pan-Disciplinary Review of Data Science, Python, Machine Learning &amp; AI Across Big Data, Cloud–Edge &amp; HPC/Quantum, IoT &amp; Robotics, Cybersecurity, Bio/Health Informatics, Geospatial/Remote Sensing, Blockchain, Digital Twins, and Responsible Governance",
+          "url": "https://openalex.org/W7117464590",
+          "pdf_url": "https://saspublishers.com/article/23457/download/",
+          "doi_url": "https://doi.org/10.36347/sjet.2025.v13i12.006",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "TableGPT-R1: Advancing Tabular Reasoning Through Reinforcement Learning",
+          "url": "https://openalex.org/W7117252075",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.20312",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.20312",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "From Guidelines to Interactive Guidance: AI Systems to Scaffold the Academic Peer Review Ecosystem",
+          "url": "https://openalex.org/W7117341919",
+          "pdf_url": null,
+          "doi_url": null,
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Advanced AI-enabled UAV Swarms for Real-time Air Traffic Surveillance",
+          "url": "https://openalex.org/W7116730523",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1108/978-1-80592-062-520251006",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "AI-Driven Software Supply Chain Security: A Unified Analysis of Threats, Detection, and Defense-in-Depth Strategies",
+          "url": "https://openalex.org/W7116739963",
+          "pdf_url": "https://doi.org/10.5281/zenodo.18005868",
+          "doi_url": "https://doi.org/10.5281/zenodo.18005868",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Multi-Agent LLM Committees for Autonomous Software Beta Testing",
+          "url": "https://openalex.org/W7117583530",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.21352",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.21352",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Augmenting dissertation mentorship through multi-modal generative AI: adapting language and visuals to diverse learning styles",
+          "url": "https://openalex.org/W4417488245",
+          "pdf_url": "https://doi.org/10.1108/aiie-05-2025-0085",
+          "doi_url": "https://doi.org/10.1108/aiie-05-2025-0085",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "HEPTAPOD: Orchestrating High Energy Physics Workflows Towards Autonomous Agency",
+          "url": "https://openalex.org/W4417534113",
+          "pdf_url": "https://arxiv.org/pdf/2512.15867",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.15867",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Revisiting Task-Oriented Dataset Search in the Era of Large Language Models: Challenges, Benchmark, and Solution",
+          "url": "https://openalex.org/W7116060974",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.15363",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.15363",
+          "source": "openalex",
+          "year": 2025
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+          "url": "http://arxiv.org/abs/2512.25073v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Scaling Open-Ended Reasoning to Predict the Future",
+          "url": "http://arxiv.org/abs/2512.25070v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+          "url": "http://arxiv.org/abs/2512.25055v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Arithmetic with spatiotemporal optical vortex of integer and fractional topological charges",
+          "url": "http://arxiv.org/abs/2512.25049v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25049v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Extreme nonlinear optics in optical fibers",
+          "url": "http://arxiv.org/abs/2512.25046v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+          "url": "http://arxiv.org/abs/2512.25040v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+          "url": "http://arxiv.org/abs/2512.25015v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25015v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Classifying long legal documents using short random chunks",
+          "url": "http://arxiv.org/abs/2512.24997v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24997v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+          "url": "http://arxiv.org/abs/2512.24986v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24986v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "DarkEQA: Benchmarking Vision-Language Models for Embodied Question Answering in Low-Light Indoor Environments",
+          "url": "http://arxiv.org/abs/2512.24985v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24985v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Lindbladian PT phase transitions",
+          "url": "http://arxiv.org/abs/2512.24981v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24981v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "SymSeqBench: a unified framework for the generation and analysis of rule-based symbolic sequences and datasets",
+          "url": "http://arxiv.org/abs/2512.24977v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24977v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Attribution-Guided Distillation of Matryoshka Sparse Autoencoders",
+          "url": "http://arxiv.org/abs/2512.24975v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24975v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "GEQIE Framework for Rapid Quantum Image Encoding",
+          "url": "http://arxiv.org/abs/2512.24973v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24973v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Semi-overlapping Multi-bandit Best Arm Identification for Sequential Support Network Learning",
+          "url": "http://arxiv.org/abs/2512.24959v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24959v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Adaptive Dependency-aware Prompt Optimization Framework for Multi-Step LLM Pipeline",
+          "url": "http://arxiv.org/abs/2512.24933v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24933v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Towards Provably Secure Generative AI: Reliable Consensus Sampling",
+          "url": "http://arxiv.org/abs/2512.24925v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24925v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FinMMDocR: Benchmarking Financial Multimodal Reasoning with Scenario Awareness, Document Understanding, and Multi-Step Computation",
+          "url": "http://arxiv.org/abs/2512.24903v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24903v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Spectral Graph Neural Networks for Cognitive Task Classification in fMRI Connectomes",
+          "url": "http://arxiv.org/abs/2512.24901v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24901v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Semi-Automated Data Annotation in Multisensor Datasets for Autonomous Vehicle Testing",
+          "url": "http://arxiv.org/abs/2512.24896v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24896v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "SoK: Web3 RegTech for Cryptocurrency VASP AML/CFT Compliance",
+          "url": "http://arxiv.org/abs/2512.24888v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24888v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Heterogeneous Multi-Agent Multi-Target Tracking using Cellular Sheaves",
+          "url": "http://arxiv.org/abs/2512.24886v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24886v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+          "url": "http://arxiv.org/abs/2512.24873v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24873v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Antecedents of Consumer Regret Frequency: The Roles of Decision Agency, Status Signaling, and Online Shopping Preference",
+          "url": "http://arxiv.org/abs/2512.24862v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24862v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Advances in Agentic AI: Back to the Future",
+          "url": "http://arxiv.org/abs/2512.24856v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24856v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "VLN-MME: Diagnosing MLLMs as Language-guided Visual Navigation agents",
+          "url": "http://arxiv.org/abs/2512.24851v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24851v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "PrivacyBench: A Conversational Benchmark for Evaluating Privacy in Personalized AI",
+          "url": "http://arxiv.org/abs/2512.24848v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24848v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Discovering Coordinated Joint Options via Inter-Agent Relative Dynamics",
+          "url": "http://arxiv.org/abs/2512.24827v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24827v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Sidelink Positioning: Standardization Advancements, Challenges and Opportunities",
+          "url": "http://arxiv.org/abs/2512.24803v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24803v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "LeanCat: A Benchmark Suite for Formal Category Theory in Lean (Part I: 1-Categories)",
+          "url": "http://arxiv.org/abs/2512.24796v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24796v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "OpenOneRec Technical Report",
+          "url": "http://arxiv.org/abs/2512.24762v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24762v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "AstroReview: An LLM-driven Multi-Agent Framework for Telescope Proposal Peer Review and Refinement",
+          "url": "http://arxiv.org/abs/2512.24754v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24754v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Coronal flux tube illuminated by strong shock spot: New Year's Eve solar eruption of 2023-Dec-31",
+          "url": "http://arxiv.org/abs/2512.24749v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24749v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+          "url": "http://arxiv.org/abs/2512.25065v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+          "url": "http://arxiv.org/abs/2512.25064v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Fluid dynamics as intersection problem",
+          "url": "http://arxiv.org/abs/2512.25053v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25053v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Modewise Additive Factor Model for Matrix Time Series",
+          "url": "http://arxiv.org/abs/2512.25025v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25025v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Real Riemann Surfaces: Smooth and Discrete",
+          "url": "http://arxiv.org/abs/2512.25022v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25022v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Uniqueness for stochastic differential equations in Hilbert spaces with irregular drift",
+          "url": "http://arxiv.org/abs/2512.25003v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25003v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Distributions of wide binary stars in theory and in Gaia data: III. Orbital momenta, masses, and manifestations of MOND",
+          "url": "http://arxiv.org/abs/2512.25002v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25002v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Strong Gravitational Lensing by a Black Hole with a Global Monopole in Kalb-Ramond Bumblebee Gravity",
+          "url": "http://arxiv.org/abs/2512.24995v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24995v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Multi-Frequency Study of FRB20201124A with the uGMRT",
+          "url": "http://arxiv.org/abs/2512.24978v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24978v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Large language models and the entropy of English",
+          "url": "http://arxiv.org/abs/2512.24969v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24969v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "Abstract B003: Advancing biomarker discovery using a novel window of opportunity (WOO) trial for pancreatic ductal adenocarcinoma: Trial updates",
+          "url": "https://www.semanticscholar.org/paper/b89e3e804b12ec3271a27e48cbf54a64f26e1a42",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1158/1538-7445.panca2023-b003",
+          "source": "semantic_scholar",
+          "year": 2024
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Universal Audio Generation",
+        "pdf": "https://hal.science/hal-05110014v1/document"
+      },
+      {
+        "title": "Joint Cross-Layer Optimization Framework for 5G-Enabled Wireless Sensor Networks in Environmental Monitoring Systems",
+        "pdf": "https://doi.org/10.5281/zenodo.18060457"
+      },
+      {
+        "title": "Agent2World: Learning to Generate Symbolic World Models via Adaptive Multi-Agent Feedback",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.22336"
+      },
+      {
+        "title": "The AI Committee: A Multi-Agent Framework for Automated Validation and Remediation of Web-Sourced Data",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.21481"
+      },
+      {
+        "title": "Securing the Modern Software Supply Chain: AI-Driven Threat Analysis and Defense-in-Depth Architecture",
+        "pdf": "https://doi.org/10.5281/zenodo.18041109"
+      },
+      {
+        "title": "Intelligent Science, One World: A Pan-Disciplinary Review of Data Science, Python, Machine Learning &amp; AI Across Big Data, Cloud–Edge &amp; HPC/Quantum, IoT &amp; Robotics, Cybersecurity, Bio/Health Informatics, Geospatial/Remote Sensing, Blockchain, Digital Twins, and Responsible Governance",
+        "pdf": "https://saspublishers.com/article/23457/download/"
+      },
+      {
+        "title": "TableGPT-R1: Advancing Tabular Reasoning Through Reinforcement Learning",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.20312"
+      },
+      {
+        "title": "AI-Driven Software Supply Chain Security: A Unified Analysis of Threats, Detection, and Defense-in-Depth Strategies",
+        "pdf": "https://doi.org/10.5281/zenodo.18005868"
+      },
+      {
+        "title": "Multi-Agent LLM Committees for Autonomous Software Beta Testing",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.21352"
+      },
+      {
+        "title": "Augmenting dissertation mentorship through multi-modal generative AI: adapting language and visuals to diverse learning styles",
+        "pdf": "https://doi.org/10.1108/aiie-05-2025-0085"
+      },
+      {
+        "title": "HEPTAPOD: Orchestrating High Energy Physics Workflows Towards Autonomous Agency",
+        "pdf": "https://arxiv.org/pdf/2512.15867"
+      },
+      {
+        "title": "Revisiting Task-Oriented Dataset Search in the Era of Large Language Models: Challenges, Benchmark, and Solution",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.15363"
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2512.25073v1"
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "pdf": "https://arxiv.org/pdf/2512.25070v1"
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "pdf": "https://arxiv.org/pdf/2512.25055v1"
+      },
+      {
+        "title": "Arithmetic with spatiotemporal optical vortex of integer and fractional topological charges",
+        "pdf": "https://arxiv.org/pdf/2512.25049v1"
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "pdf": "https://arxiv.org/pdf/2512.25046v1"
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "pdf": "https://arxiv.org/pdf/2512.25040v1"
+      },
+      {
+        "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+        "pdf": "https://arxiv.org/pdf/2512.25015v1"
+      },
+      {
+        "title": "Classifying long legal documents using short random chunks",
+        "pdf": "https://arxiv.org/pdf/2512.24997v1"
+      },
+      {
+        "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+        "pdf": "https://arxiv.org/pdf/2512.24986v1"
+      },
+      {
+        "title": "DarkEQA: Benchmarking Vision-Language Models for Embodied Question Answering in Low-Light Indoor Environments",
+        "pdf": "https://arxiv.org/pdf/2512.24985v1"
+      },
+      {
+        "title": "Lindbladian PT phase transitions",
+        "pdf": "https://arxiv.org/pdf/2512.24981v1"
+      },
+      {
+        "title": "SymSeqBench: a unified framework for the generation and analysis of rule-based symbolic sequences and datasets",
+        "pdf": "https://arxiv.org/pdf/2512.24977v1"
+      },
+      {
+        "title": "Attribution-Guided Distillation of Matryoshka Sparse Autoencoders",
+        "pdf": "https://arxiv.org/pdf/2512.24975v1"
+      },
+      {
+        "title": "GEQIE Framework for Rapid Quantum Image Encoding",
+        "pdf": "https://arxiv.org/pdf/2512.24973v1"
+      },
+      {
+        "title": "Semi-overlapping Multi-bandit Best Arm Identification for Sequential Support Network Learning",
+        "pdf": "https://arxiv.org/pdf/2512.24959v1"
+      },
+      {
+        "title": "Adaptive Dependency-aware Prompt Optimization Framework for Multi-Step LLM Pipeline",
+        "pdf": "https://arxiv.org/pdf/2512.24933v1"
+      },
+      {
+        "title": "Towards Provably Secure Generative AI: Reliable Consensus Sampling",
+        "pdf": "https://arxiv.org/pdf/2512.24925v1"
+      },
+      {
+        "title": "FinMMDocR: Benchmarking Financial Multimodal Reasoning with Scenario Awareness, Document Understanding, and Multi-Step Computation",
+        "pdf": "https://arxiv.org/pdf/2512.24903v1"
+      },
+      {
+        "title": "Spectral Graph Neural Networks for Cognitive Task Classification in fMRI Connectomes",
+        "pdf": "https://arxiv.org/pdf/2512.24901v1"
+      },
+      {
+        "title": "Semi-Automated Data Annotation in Multisensor Datasets for Autonomous Vehicle Testing",
+        "pdf": "https://arxiv.org/pdf/2512.24896v1"
+      },
+      {
+        "title": "SoK: Web3 RegTech for Cryptocurrency VASP AML/CFT Compliance",
+        "pdf": "https://arxiv.org/pdf/2512.24888v1"
+      },
+      {
+        "title": "Heterogeneous Multi-Agent Multi-Target Tracking using Cellular Sheaves",
+        "pdf": "https://arxiv.org/pdf/2512.24886v1"
+      },
+      {
+        "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+        "pdf": "https://arxiv.org/pdf/2512.24873v1"
+      },
+      {
+        "title": "Antecedents of Consumer Regret Frequency: The Roles of Decision Agency, Status Signaling, and Online Shopping Preference",
+        "pdf": "https://arxiv.org/pdf/2512.24862v1"
+      },
+      {
+        "title": "Advances in Agentic AI: Back to the Future",
+        "pdf": "https://arxiv.org/pdf/2512.24856v1"
+      },
+      {
+        "title": "VLN-MME: Diagnosing MLLMs as Language-guided Visual Navigation agents",
+        "pdf": "https://arxiv.org/pdf/2512.24851v1"
+      },
+      {
+        "title": "PrivacyBench: A Conversational Benchmark for Evaluating Privacy in Personalized AI",
+        "pdf": "https://arxiv.org/pdf/2512.24848v1"
+      },
+      {
+        "title": "Discovering Coordinated Joint Options via Inter-Agent Relative Dynamics",
+        "pdf": "https://arxiv.org/pdf/2512.24827v1"
+      },
+      {
+        "title": "Sidelink Positioning: Standardization Advancements, Challenges and Opportunities",
+        "pdf": "https://arxiv.org/pdf/2512.24803v1"
+      },
+      {
+        "title": "LeanCat: A Benchmark Suite for Formal Category Theory in Lean (Part I: 1-Categories)",
+        "pdf": "https://arxiv.org/pdf/2512.24796v1"
+      },
+      {
+        "title": "OpenOneRec Technical Report",
+        "pdf": "https://arxiv.org/pdf/2512.24762v1"
+      },
+      {
+        "title": "AstroReview: An LLM-driven Multi-Agent Framework for Telescope Proposal Peer Review and Refinement",
+        "pdf": "https://arxiv.org/pdf/2512.24754v1"
+      },
+      {
+        "title": "Coronal flux tube illuminated by strong shock spot: New Year's Eve solar eruption of 2023-Dec-31",
+        "pdf": "https://arxiv.org/pdf/2512.24749v1"
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "pdf": "https://arxiv.org/pdf/2512.25065v1"
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "pdf": "https://arxiv.org/pdf/2512.25064v1"
+      },
+      {
+        "title": "Fluid dynamics as intersection problem",
+        "pdf": "https://arxiv.org/pdf/2512.25053v1"
+      },
+      {
+        "title": "Modewise Additive Factor Model for Matrix Time Series",
+        "pdf": "https://arxiv.org/pdf/2512.25025v1"
+      },
+      {
+        "title": "Real Riemann Surfaces: Smooth and Discrete",
+        "pdf": "https://arxiv.org/pdf/2512.25022v1"
+      },
+      {
+        "title": "Uniqueness for stochastic differential equations in Hilbert spaces with irregular drift",
+        "pdf": "https://arxiv.org/pdf/2512.25003v1"
+      },
+      {
+        "title": "Distributions of wide binary stars in theory and in Gaia data: III. Orbital momenta, masses, and manifestations of MOND",
+        "pdf": "https://arxiv.org/pdf/2512.25002v1"
+      },
+      {
+        "title": "Strong Gravitational Lensing by a Black Hole with a Global Monopole in Kalb-Ramond Bumblebee Gravity",
+        "pdf": "https://arxiv.org/pdf/2512.24995v1"
+      },
+      {
+        "title": "Multi-Frequency Study of FRB20201124A with the uGMRT",
+        "pdf": "https://arxiv.org/pdf/2512.24978v1"
+      },
+      {
+        "title": "Large language models and the entropy of English",
+        "pdf": "https://arxiv.org/pdf/2512.24969v1"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "Joint Cross-Layer Optimization Framework for 5G-Enabled Wireless Sensor Networks in Environmental Monitoring Systems",
+        "doi": "https://doi.org/10.5281/zenodo.18060457"
+      },
+      {
+        "title": "Agent2World: Learning to Generate Symbolic World Models via Adaptive Multi-Agent Feedback",
+        "doi": "https://doi.org/10.48550/arxiv.2512.22336"
+      },
+      {
+        "title": "The AI Committee: A Multi-Agent Framework for Automated Validation and Remediation of Web-Sourced Data",
+        "doi": "https://doi.org/10.48550/arxiv.2512.21481"
+      },
+      {
+        "title": "Securing the Modern Software Supply Chain: AI-Driven Threat Analysis and Defense-in-Depth Architecture",
+        "doi": "https://doi.org/10.5281/zenodo.18041109"
+      },
+      {
+        "title": "Intelligent Science, One World: A Pan-Disciplinary Review of Data Science, Python, Machine Learning &amp; AI Across Big Data, Cloud–Edge &amp; HPC/Quantum, IoT &amp; Robotics, Cybersecurity, Bio/Health Informatics, Geospatial/Remote Sensing, Blockchain, Digital Twins, and Responsible Governance",
+        "doi": "https://doi.org/10.36347/sjet.2025.v13i12.006"
+      },
+      {
+        "title": "TableGPT-R1: Advancing Tabular Reasoning Through Reinforcement Learning",
+        "doi": "https://doi.org/10.48550/arxiv.2512.20312"
+      },
+      {
+        "title": "Advanced AI-enabled UAV Swarms for Real-time Air Traffic Surveillance",
+        "doi": "https://doi.org/10.1108/978-1-80592-062-520251006"
+      },
+      {
+        "title": "AI-Driven Software Supply Chain Security: A Unified Analysis of Threats, Detection, and Defense-in-Depth Strategies",
+        "doi": "https://doi.org/10.5281/zenodo.18005868"
+      },
+      {
+        "title": "Multi-Agent LLM Committees for Autonomous Software Beta Testing",
+        "doi": "https://doi.org/10.48550/arxiv.2512.21352"
+      },
+      {
+        "title": "Augmenting dissertation mentorship through multi-modal generative AI: adapting language and visuals to diverse learning styles",
+        "doi": "https://doi.org/10.1108/aiie-05-2025-0085"
+      },
+      {
+        "title": "HEPTAPOD: Orchestrating High Energy Physics Workflows Towards Autonomous Agency",
+        "doi": "https://doi.org/10.48550/arxiv.2512.15867"
+      },
+      {
+        "title": "Revisiting Task-Oriented Dataset Search in the Era of Large Language Models: Challenges, Benchmark, and Solution",
+        "doi": "https://doi.org/10.48550/arxiv.2512.15363"
+      },
+      {
+        "title": "Abstract B003: Advancing biomarker discovery using a novel window of opportunity (WOO) trial for pancreatic ductal adenocarcinoma: Trial updates",
+        "doi": "https://doi.org/10.1158/1538-7445.panca2023-b003"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "multi-agent research pipeline AND sep OR separator",
+    "total_steps": 4,
+    "last_updated": "2026-01-02T02:57:49.333359",
+    "started_at": "2026-01-02T02:56:11.902846",
+    "total_papers": 58
+  }
+}

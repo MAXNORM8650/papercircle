@@ -1,0 +1,12 @@
+\section{Agent Design}
+The discovery subsystem is composed of multiple agents, each bound to a small, explicit tool interface. The core agents are:
+\begin{itemize}
+  \item \textbf{Intent Classification Agent}: Parses user text into search mode (offline, online, or both), conference filters, year range, and ranking preferences.
+  \item \textbf{Paper Search Agent}: Executes offline or online retrieval based on intent, merges results, performs deduplication, and updates state and outputs.
+  \item \textbf{Sorting Agent}: Reorders papers using recency, citations, similarity, novelty, BM25, or combined weights; optionally applies a cross-encoder reranker.
+  \item \textbf{Analysis Agent}: Computes aggregate statistics and insights, including source distribution, year trends, and top authors.
+  \item \textbf{Export Agent}: Produces synchronized exports and provides a consistent interface for downstream consumption.
+  \item \textbf{Web Search Agent}: Provides auxiliary access to web search tools when online lookups are required.
+\end{itemize}
+
+In addition, the refactored discovery pipeline uses a query generation agent that converts user text into a structured search specification. This specification includes core keywords, required constraints, optional related terms, negative keywords, and plausible paper titles. The resulting structured spec drives retrieval and scoring decisions and ensures consistent query construction across sources.

@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "multi-agent research paper discovery and analysis framework",
+    "total_papers": 124,
+    "unique_sources": 15,
+    "year_range": {
+      "min": 1991,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 69,
+      "average": 4.1
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 72,
+    "papers_with_doi": 44,
+    "processing_steps": 6
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (19) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 19
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 29 papers (23%)",
+      "data": {
+        "source": "arxiv",
+        "count": 29
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Haofei Yu has 2 papers in this collection",
+      "data": {
+        "author": "Haofei Yu",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Enhancing Anomaly Detection in Financial Markets with an LLM-based Multi-Agent Framework...\" has 23 citations",
+      "data": {
+        "title": "Enhancing Anomaly Detection in Financial Markets with an LLM-based Multi-Agent Framework",
+        "citations": 23
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: agent, multi, discovery, framework, analysis",
+      "data": {
+        "keywords": {
+          "agent": 62,
+          "multi": 58,
+          "discovery": 29,
+          "framework": 27,
+          "analysis": 16
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "72/124 papers (58%) have direct PDF links",
+      "data": {
+        "with_pdf": 72,
+        "total": 124
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 124 papers related to 'multi-agent research paper discovery and analysis framework'",
+    "Papers collected from 15 sources: offline_iclr, offline_icml, offline_wacv, offline_nips, offline_ijcai, offline_colm, offline_aaai, offline_coling, offline_naacl, offline_acl, offline_emnlp, semantic_scholar, openalex, arxiv, offline_icra",
+    "Publication years range from 1991 to 2026",
+    "Total citations: 69, Average: 4",
+    "Leading researchers: Haofei Yu, Zirui Cheng, Zhaochen Hong"
+  ],
+  "metadata": {
+    "query": "multi-agent research paper discovery and analysis framework",
+    "total_steps": 6,
+    "last_updated": "2026-01-01T23:31:23.465949",
+    "started_at": "2026-01-01T23:27:02.500112",
+    "total_papers": 124
+  }
+}

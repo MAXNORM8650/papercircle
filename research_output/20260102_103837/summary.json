@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "Guided Self-Evolving LLMs with Minimal Human Supervision",
+    "total_papers": 183,
+    "unique_sources": 4,
+    "year_range": {
+      "min": 2022,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 1160,
+      "average": 25.8
+    },
+    "top_source": "openalex",
+    "papers_with_pdf": 122,
+    "papers_with_doi": 123,
+    "processing_steps": 18
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (1) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 1
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "openalex contributes 68 papers (37%)",
+      "data": {
+        "source": "openalex",
+        "count": 68
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Haitao Mi has 3 papers in this collection",
+      "data": {
+        "author": "Haitao Mi",
+        "count": 3
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning...\" has 102 citations",
+      "data": {
+        "title": "WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning",
+        "citations": 102
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: self, llms, adaptive, language, evolving",
+      "data": {
+        "keywords": {
+          "self": 60,
+          "llms": 33,
+          "adaptive": 33,
+          "language": 29,
+          "evolving": 26
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "122/183 papers (66%) have direct PDF links",
+      "data": {
+        "with_pdf": 122,
+        "total": 183
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 183 papers related to 'Guided Self-Evolving LLMs with Minimal Human Supervision'",
+    "Papers collected from 4 sources: dblp, semantic_scholar, openalex, arxiv",
+    "Publication years range from 2022 to 2026",
+    "Total citations: 1160, Average: 25",
+    "Leading researchers: Haitao Mi, Min Zhang, Ruoxi Sun"
+  ],
+  "metadata": {
+    "query": "Guided Self-Evolving LLMs with Minimal Human Supervision",
+    "total_steps": 18,
+    "last_updated": "2026-01-02T10:45:08.410966",
+    "started_at": "2026-01-02T10:38:39.438330",
+    "total_papers": 183
+  }
+}

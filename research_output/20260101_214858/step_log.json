@@ -1,0 +1,73 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-01T21:50:57.171572",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLMs world models generative models simulation planning'",
+      "result_preview": "Found 100 papers",
+      "details": {
+        "query": "LLMs world models generative models simulation planning",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 100,
+        "papers_added": 100,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 100
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-01T21:51:52.148310",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLMs world models generative models simulation planning'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLMs world models generative models simulation planning",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 43,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 143
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-01T21:52:59.145725",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLMs world models generative models simulation planning'",
+      "result_preview": "Found 72 papers",
+      "details": {
+        "query": "LLMs world models generative models simulation planning",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 72,
+        "papers_added": 22,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 165
+    }
+  ],
+  "current_step": 3,
+  "metadata": {
+    "query": "LLMs world models generative models simulation planning",
+    "total_steps": 3,
+    "last_updated": "2026-01-01T21:52:59.169151",
+    "started_at": "2026-01-01T21:48:58.774528",
+    "total_papers": 165
+  }
+}

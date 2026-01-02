@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "multi-agent research paper discovery and analysis framework 2014",
+    "total_papers": 283,
+    "unique_sources": 17,
+    "year_range": {
+      "min": 1991,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 785,
+      "average": 15.1
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 152,
+    "papers_with_doi": 132,
+    "processing_steps": 24
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (17) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 17
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 107 papers (37%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 107
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Haofei Yu has 2 papers in this collection",
+      "data": {
+        "author": "Haofei Yu",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Researchers' perspectives on Industry 4.0: multi-disciplinary analysis and opportunities for operations management...\" has 353 citations",
+      "data": {
+        "title": "Researchers' perspectives on Industry 4.0: multi-disciplinary analysis and opportunities for operations management",
+        "citations": 353
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: multi, agent, discovery, framework, analysis",
+      "data": {
+        "keywords": {
+          "multi": 90,
+          "agent": 86,
+          "discovery": 41,
+          "framework": 38,
+          "analysis": 35
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "152/283 papers (53%) have direct PDF links",
+      "data": {
+        "with_pdf": 152,
+        "total": 283
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 283 papers related to 'multi-agent research paper discovery and analysis framework 2014'",
+    "Papers collected from 17 sources: offline_iclr, offline_wacv, offline_icml, offline_ijcai, offline_aaai, offline_colm, offline_nips, offline_emnlp, offline_icra, offline_coling, offline_cvpr, offline_acl, offline_naacl, offline_uai, openalex, arxiv, semantic_scholar",
+    "Publication years range from 1991 to 2026",
+    "Total citations: 785, Average: 15",
+    "Leading researchers: Haofei Yu, Zirui Cheng, Zhaochen Hong"
+  ],
+  "metadata": {
+    "query": "multi-agent research paper discovery and analysis framework 2014",
+    "total_steps": 24,
+    "last_updated": "2026-01-02T11:27:01.882919",
+    "started_at": "2026-01-02T11:21:51.879286",
+    "total_papers": 283
+  }
+}

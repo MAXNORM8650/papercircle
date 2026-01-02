@@ -1,0 +1,221 @@
+{
+  "stats": {
+    "total_papers": 10,
+    "sources": {
+      "openalex": 10
+    },
+    "year_distribution": {
+      "2025": 10
+    },
+    "top_authors": {
+      "Jef Verhoeven": 1,
+      "Passaro Pierluigi": 1,
+      "Di Vittorio Arianna": 1,
+      "Yasir Azmat": 1,
+      "Ethan Schmick": 1,
+      "Allison Shertzer": 1,
+      "Elizabeth Ann Lambdin": 1,
+      "Jaka Gercar": 1,
+      "Pasqualina Sorrentino": 1,
+      "Gerhard Lauer": 1,
+      "Maria Beimborn": 1,
+      "Wardiantino, Sabro": 1,
+      "Anne Barrington": 1,
+      "Breffini Carpenter": 1,
+      "Stephen MacFeely": 1
+    },
+    "top_venues": {
+      "European Scientific Journal ESJ": 1,
+      "University of Salford Institutional Repository (University of Salford)": 1,
+      "RePEc: Research Papers in Economics": 1,
+      "Ethnoscripts": 1,
+      "Munich Personal RePEc Archive (Ludwig Maximilian University of Munich)": 1,
+      "Administration": 1
+    },
+    "top_keywords": {
+      "reading": 2,
+      "development": 1,
+      "education": 1,
+      "european": 1,
+      "scientific": 1,
+      "journal": 1,
+      "influence": 1,
+      "human": 1,
+      "factors": 1,
+      "safety": 1,
+      "performance": 1,
+      "saudi": 1,
+      "arabian": 1,
+      "construction": 1,
+      "industry": 1,
+      "impact": 1,
+      "early": 1,
+      "investments": 1,
+      "urban": 1,
+      "school": 1,
+      "systems": 1,
+      "united": 1,
+      "states": 1,
+      "effect": 1,
+      "colombia": 1,
+      "trade": 1,
+      "promotion": 1,
+      "agreement": 1,
+      "violence": 1,
+      "against": 1
+    },
+    "citation_stats": {
+      "total": 379,
+      "avg": 126.3,
+      "max": 197,
+      "min": 4,
+      "median": 178
+    },
+    "score_stats": {
+      "avg_similarity": 0.008,
+      "avg_novelty": 0.811,
+      "avg_recency": 0.9,
+      "avg_bm25": 0.0,
+      "avg_combined": 0.198
+    }
+  },
+  "leaderboard": [
+    {
+      "rank": 1,
+      "title": "Development Education",
+      "year": 2025,
+      "citations": 197,
+      "combined_score": 0.259,
+      "similarity_score": 0.0,
+      "novelty_score": 0.909,
+      "recency_score": 0.9,
+      "bm25_score": 0.0,
+      "source": "openalex",
+      "has_pdf": true
+    },
+    {
+      "rank": 2,
+      "title": "European Scientific Journal ESJ",
+      "year": 2025,
+      "citations": 178,
+      "combined_score": 0.251,
+      "similarity_score": 0.0,
+      "novelty_score": 0.909,
+      "recency_score": 0.9,
+      "bm25_score": 0.0,
+      "source": "openalex",
+      "has_pdf": true
+    },
+    {
+      "rank": 3,
+      "title": "Influence of human factors on the safety performance in Saudi Arabian constructi",
+      "year": 2025,
+      "citations": 4,
+      "combined_score": 0.207,
+      "similarity_score": 0.085,
+      "novelty_score": 0.783,
+      "recency_score": 0.9,
+      "bm25_score": 0.0,
+      "source": "openalex",
+      "has_pdf": true
+    },
+    {
+      "rank": 4,
+      "title": "The Impact of Early Investments in Urban School Systems in the United States",
+      "year": 2025,
+      "citations": 0,
+      "combined_score": 0.18,
+      "similarity_score": 0.0,
+      "novelty_score": 0.722,
+      "recency_score": 0.9,
+      "bm25_score": 0.0,
+      "source": "openalex",
+      "has_pdf": true
+    },
+    {
+      "rank": 5,
+      "title": "The effect of the U.S. - Colombia trade promotion agreement on violence against ",
+      "year": 2025,
+      "citations": 0,
+      "combined_score": 0.18,
+      "similarity_score": 0.0,
+      "novelty_score": 0.781,
+      "recency_score": 0.9,
+      "bm25_score": 0.0,
+      "source": "openalex",
+      "has_pdf": true
+    },
+    {
+      "rank": 6,
+      "title": "Drawbacks of convenience: on the decline of the monograph and the ways of readin",
+      "year": 2025,
+      "citations": 0,
+      "combined_score": 0.18,
+      "similarity_score": 0.0,
+      "novelty_score": 0.684,
+      "recency_score": 0.9,
+      "bm25_score": 0.0,
+      "source": "openalex",
+      "has_pdf": true
+    },
+    {
+      "rank": 7,
+      "title": "(E-)Reading in a foreign language and dictionary use: a literature review: does ",
+      "year": 2025,
+      "citations": 0,
+      "combined_score": 0.18,
+      "similarity_score": 0.0,
+      "novelty_score": 0.802,
+      "recency_score": 0.9,
+      "bm25_score": 0.0,
+      "source": "openalex",
+      "has_pdf": true
+    },
+    {
+      "rank": 8,
+      "title": "Christians in Gilgit: Negotiating subalternity and citizenship",
+      "year": 2025,
+      "citations": 0,
+      "combined_score": 0.18,
+      "similarity_score": 0.0,
+      "novelty_score": 0.824,
+      "recency_score": 0.9,
+      "bm25_score": 0.0,
+      "source": "openalex",
+      "has_pdf": true
+    },
+    {
+      "rank": 9,
+      "title": "STRATEGI KOMUNIKASI INTERPERSONAL PADA PROGRAM T-CARE DI AUTO2000 KARAWANG",
+      "year": 2025,
+      "citations": 0,
+      "combined_score": 0.18,
+      "similarity_score": 0.0,
+      "novelty_score": 0.909,
+      "recency_score": 0.9,
+      "bm25_score": 0.0,
+      "source": "openalex",
+      "has_pdf": true
+    },
+    {
+      "rank": 10,
+      "title": "Setting out a vision for the civil service in Ireland",
+      "year": 2025,
+      "citations": 0,
+      "combined_score": 0.18,
+      "similarity_score": 0.0,
+      "novelty_score": 0.781,
+      "recency_score": 0.9,
+      "bm25_score": 0.0,
+      "source": "openalex",
+      "has_pdf": true
+    }
+  ],
+  "metadata": {
+    "query": "why human services very less",
+    "total_steps": 4,
+    "last_updated": "2026-01-02T02:38:41.391498",
+    "started_at": "2026-01-02T02:37:31.199351",
+    "total_papers": 10
+  }
+}

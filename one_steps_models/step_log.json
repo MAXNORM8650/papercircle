@@ -1,0 +1,218 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-01T22:50:55.426626",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'one step generative models without teacher model'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "one step generative models without teacher model",
+        "conferences": [
+          "nips",
+          "iclr",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 49,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 49
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-01T22:51:01.024650",
+      "agent": "online_search_agent",
+      "action": "Online search: 'one step generative models without teacher model'",
+      "result_preview": "Found 149 papers",
+      "details": {
+        "query": "one step generative models without teacher model",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 149,
+        "papers_added": 142,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 191
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-01T22:51:46.008609",
+      "agent": "sorting_agent",
+      "action": "Sorted 191 papers by 'combined'",
+      "result_preview": "Top paper: Towards Training One-Step Diffusion Models Without...",
+      "details": {
+        "sort_by": "combined",
+        "weights": "{\"recency\": 0.3, \"citations\": 0.4, \"similarity\": 0.2, \"novelty\": 0.1, \"bm25\": 0.2}",
+        "top_k": null
+      },
+      "papers_count": 191
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-01T22:54:37.409389",
+      "agent": "export_agent",
+      "action": "Exporting papers (all)",
+      "result_preview": "Exported 191 papers",
+      "details": {
+        "format": "all",
+        "filename": "exported_results"
+      },
+      "papers_count": 191
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-01T22:56:40.069821",
+      "agent": "export_agent",
+      "action": "Exporting papers (all)",
+      "result_preview": "Exported 191 papers",
+      "details": {
+        "format": "all",
+        "filename": "exported_results"
+      },
+      "papers_count": 191
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-01T22:58:54.740510",
+      "agent": "export_agent",
+      "action": "Exporting papers (all)",
+      "result_preview": "Exported 191 papers",
+      "details": {
+        "format": "all",
+        "filename": null
+      },
+      "papers_count": 191
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-01T23:00:03.158127",
+      "agent": "online_search_agent",
+      "action": "Online search: 'one-step generative models teacher-free or verified'",
+      "result_preview": "Found 20 papers",
+      "details": {
+        "query": "one-step generative models teacher-free or verified",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 20,
+        "papers_added": 3,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 194
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-01T23:00:31.771661",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'generative models'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "generative models",
+        "conferences": [
+          "nips",
+          "iclr",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 244
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-01T23:00:47.391169",
+      "agent": "sorting_agent",
+      "action": "Sorted 244 papers by 'combined_score'",
+      "result_preview": "Top paper: Generative Bayesian Optimization: Generative Model...",
+      "details": {
+        "sort_by": "combined_score",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 244
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-01T23:01:07.164906",
+      "agent": "export_agent",
+      "action": "Exporting papers (all)",
+      "result_preview": "Exported 244 papers",
+      "details": {
+        "format": "all",
+        "filename": "exported_papers"
+      },
+      "papers_count": 244
+    }
+  ],
+  "current_step": 10,
+  "metadata": {
+    "query": "generative models",
+    "total_steps": 10,
+    "last_updated": "2026-01-01T23:01:07.196401",
+    "started_at": "2026-01-01T22:50:13.204739",
+    "total_papers": 244
+  }
+}

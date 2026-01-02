@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "total_papers": 5,
+    "sources": {
+      "offline_colm": 1,
+      "offline_ijcai": 2,
+      "offline_iclr": 1,
+      "offline_nips": 1
+    },
+    "year_distribution": {
+      "2024": 3,
+      "2023": 2
+    },
+    "top_authors": {
+      "Anıl Doğru": 2,
+      "Mehmet Onur Keskin": 2,
+      "Reyhan Aydoğan": 2,
+      "KuanChao Chu": 1,
+      "Yi-Pei Chen": 1,
+      "Hideki Nakayama": 1,
+      "Catholijn M. Jonker": 1,
+      "Tim Baarslag": 1,
+      "Berk Buzcu": 1,
+      "Berkecan Koçyiğit": 1,
+      "Umut Çakan": 1,
+      "Yat Long Lo": 1,
+      "Christian Schroeder de Witt": 1,
+      "Samuel Sokota": 1,
+      "Jakob Nicolaus Foerster": 1,
+      "Shimon Whiteson": 1,
+      "Mingyu Yang": 1,
+      "Yaodong Yang": 1,
+      "Zhenbo Lu": 1,
+      "Wengang Zhou": 1
+    },
+    "top_venues": {
+      "IJCAI 2024": 2,
+      "COLM 2024": 1,
+      "ICLR 2023": 1,
+      "NIPS 2023": 1
+    },
+    "top_keywords": {
+      "agent": 4,
+      "multi": 3,
+      "negotiation": 2,
+      "framework": 2,
+      "discovery": 2,
+      "cohesive": 1,
+      "conversations": 1,
+      "enhancing": 1,
+      "authenticity": 1,
+      "simulated": 1,
+      "dialogues": 1,
+      "negolog": 1,
+      "integrated": 1,
+      "python": 1,
+      "automated": 1,
+      "enhanced": 1,
+      "assessment": 1,
+      "components": 1,
+      "negotiator": 1,
+      "comprehensive": 1,
+      "human": 1,
+      "integrating": 1,
+      "preferences": 1,
+      "interaction": 1,
+      "emotion": 1,
+      "cheap": 1,
+      "talk": 1,
+      "utilization": 1,
+      "reinforcement": 1,
+      "learning": 1
+    },
+    "citation_stats": {
+      "total": 4,
+      "avg": 4.0,
+      "max": 4,
+      "min": 4,
+      "median": 4
+    },
+    "score_stats": {
+      "avg_similarity": 0.169,
+      "avg_novelty": 0.779,
+      "avg_recency": 0.76,
+      "avg_bm25": 0.939,
+      "avg_combined": 0.536
+    }
+  },
+  "leaderboard": [
+    {
+      "rank": 1,
+      "title": "Cohesive Conversations: Enhancing Authenticity in Multi-Agent Simulated Dialogue",
+      "year": 2024,
+      "citations": 0,
+      "combined_score": 0.554,
+      "similarity_score": 0.198,
+      "novelty_score": 0.784,
+      "recency_score": 0.8,
+      "bm25_score": 0.929,
+      "source": "offline_colm",
+      "has_pdf": false
+    },
+    {
+      "rank": 2,
+      "title": "NegoLog: An Integrated Python-based Automated Negotiation Framework with Enhance",
+      "year": 2024,
+      "citations": 0,
+      "combined_score": 0.549,
+      "similarity_score": 0.132,
+      "novelty_score": 0.809,
+      "recency_score": 0.8,
+      "bm25_score": 0.975,
+      "source": "offline_ijcai",
+      "has_pdf": true
+    },
+    {
+      "rank": 3,
+      "title": "NEGOTIATOR: A Comprehensive Framework for Human-Agent Negotiation Integrating Pr",
+      "year": 2024,
+      "citations": 0,
+      "combined_score": 0.539,
+      "similarity_score": 0.164,
+      "novelty_score": 0.8,
+      "recency_score": 0.8,
+      "bm25_score": 0.89,
+      "source": "offline_ijcai",
+      "has_pdf": true
+    },
+    {
+      "rank": 4,
+      "title": "Cheap Talk Discovery and Utilization in Multi-Agent Reinforcement Learning",
+      "year": 2023,
+      "citations": 0,
+      "combined_score": 0.52,
+      "similarity_score": 0.135,
+      "novelty_score": 0.763,
+      "recency_score": 0.7,
+      "bm25_score": 1.0,
+      "source": "offline_iclr",
+      "has_pdf": true
+    },
+    {
+      "rank": 5,
+      "title": "Hierarchical Multi-Agent Skill Discovery",
+      "year": 2023,
+      "citations": 0,
+      "combined_score": 0.518,
+      "similarity_score": 0.218,
+      "novelty_score": 0.741,
+      "recency_score": 0.7,
+      "bm25_score": 0.9,
+      "source": "offline_nips",
+      "has_pdf": true
+    }
+  ],
+  "metadata": {
+    "query": "multi-agent research paper discovery and analysis framework",
+    "total_steps": 16,
+    "last_updated": "2026-01-02T11:32:34.176408",
+    "started_at": "2026-01-02T11:27:29.888671",
+    "total_papers": 5
+  }
+}

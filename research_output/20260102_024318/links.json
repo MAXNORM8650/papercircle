@@ -1,0 +1,651 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "General Data Protection Regulation (GDPR) in Healthcare: Hot Topics and Research Fronts",
+        "url": "https://dblp.org/rec/conf/mie/FatehiHKA20",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.3233/SHTI200336",
+        "source": "dblp",
+        "year": 2020
+      },
+      {
+        "title": "Thinking about spiking neural P systems: some theories, tools, and research topics",
+        "url": "https://www.semanticscholar.org/paper/1a1e626bf95104aeff26e9337bedea833241f872",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/s41965-024-00147-y",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Research landscape analysis on dual diagnosis of substance use and mental health disorders: key contributors, research hotspots, and emerging research topics",
+        "url": "https://www.semanticscholar.org/paper/7ef831adba4454f86ae521b3c7378c2db22990b5",
+        "pdf_url": "https://annals-general-psychiatry.biomedcentral.com/counter/pdf/10.1186/s12991-024-00517-x",
+        "doi_url": "https://doi.org/10.1186/s12991-024-00517-x",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Exploring the Landscape of Children’s Rights in Sports: A Scoping Review of Research Topics and Approaches in Social Sciences",
+        "url": "https://www.semanticscholar.org/paper/7fe42b6d96bd50de1c1b87fad0f56bb38b30a60f",
+        "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/11033088241226556",
+        "doi_url": "https://doi.org/10.1177/11033088241226556",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "A Bibliometric Review of Reinforced Soil Wall Research Topics",
+        "url": "https://www.semanticscholar.org/paper/da8d525b477baebd2f6c3644c691cb067caf06ab",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40891-024-00537-3.pdf",
+        "doi_url": "https://doi.org/10.1007/s40891-024-00537-3",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Discovering Mental Health Research Topics with Topic Modeling",
+        "url": "https://www.semanticscholar.org/paper/764619934d6c20aa55000ee0ec12355688bbbf7c",
+        "pdf_url": "https://arxiv.org/pdf/2308.13569",
+        "doi_url": "https://doi.org/10.48550/arXiv.2308.13569",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Future Research in General Medicine Has Diverse Topics and is Highly Promising: Opinions Based on a Questionnaire Survey",
+        "url": "https://www.semanticscholar.org/paper/4c9f99702a7e090edfc4b10017fdb17bcde68fc9",
+        "pdf_url": "https://www.dovepress.com/getfile.php?fileID=82566",
+        "doi_url": "https://doi.org/10.2147/IJGM.S369856",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "Research topics in intellectual disabilities in North Korea: A scoping review.",
+        "url": "https://www.semanticscholar.org/paper/84ef0e85294114de8ce5f4d9f3fc90b6e4e89c7e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1111/jar.12956",
+        "source": "semantic_scholar",
+        "year": 2021
+      },
+      {
+        "title": "The psychological and cognitive impact of Covid-19 on individuals with neurocognitive impairments: research topics and remote intervention proposals",
+        "url": "https://www.semanticscholar.org/paper/56c80668aa16fa2ec470952f027053c0d8b3619f",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40520-020-01637-6.pdf",
+        "doi_url": "https://doi.org/10.1007/s40520-020-01637-6",
+        "source": "semantic_scholar",
+        "year": 2020
+      },
+      {
+        "title": "Analysis of Health Research Topics in Indonesia Using the LDA (Latent Dirichlet Allocation) Topic Modeling Method",
+        "url": "https://www.semanticscholar.org/paper/f606c50daf726222707f35461519136108ae79ca",
+        "pdf_url": "http://jurnal.iaii.or.id/index.php/RESTI/article/download/1821/236",
+        "doi_url": "https://doi.org/10.29207/resti.v4i2.1821",
+        "source": "semantic_scholar",
+        "year": 2020
+      },
+      {
+        "title": "Three Decades of Educational Effectiveness Research in Belgium and the Netherlands: Key Studies, Main Research Topics and Findings",
+        "url": "https://www.semanticscholar.org/paper/ed813a541061436b9266ba510810c48fe47c67c7",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/978-3-030-44810-3_10",
+        "source": "semantic_scholar",
+        "year": 2020
+      },
+      {
+        "title": "Universal Audio Generation",
+        "url": "https://openalex.org/W4414932055",
+        "pdf_url": "https://hal.science/hal-05110014v1/document",
+        "doi_url": null,
+        "source": "openalex",
+        "year": 2026
+      },
+      {
+        "title": "CODE-SWITCHING AMONG SAUDI INFLUENCERS IN SOCIAL MEDIA: A CASE STUDY TOWARD DOCUMENTING PATTERNS OF ARABIC DIGLOSSIA",
+        "url": "https://openalex.org/W7103877661",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17517381",
+        "doi_url": "https://doi.org/10.5281/zenodo.17517381",
+        "source": "openalex",
+        "year": 2026
+      },
+      {
+        "title": "Methodologies and Strategies for Cultural Heritage Protection and Conservation Against Climate Changes, Natural and Anthropic Risks",
+        "url": "https://openalex.org/W7113108412",
+        "pdf_url": null,
+        "doi_url": null,
+        "source": "openalex",
+        "year": 2026
+      },
+      {
+        "title": "Between Ottoman Legacy and Hybrid Dance Identity",
+        "url": "https://openalex.org/W7117687180",
+        "pdf_url": "https://doi.org/10.33906/musicologist.1672939",
+        "doi_url": "https://doi.org/10.33906/musicologist.1672939",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "A Bibliometric Analysis of Generative Linguistics: A Study Based on Web ofScience Data",
+        "url": "https://openalex.org/W7117703141",
+        "pdf_url": "https://doi.org/10.46423/izujed.1818973",
+        "doi_url": "https://doi.org/10.46423/izujed.1818973",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Truncated Fusion Learning on Supervised Clustering and Its Fast Stagewise Algorithm",
+        "url": "https://openalex.org/W7117726608",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1287/ijoc.2024.0840",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "The Activities of Don Partisan Loners During the Great Patriotic War",
+        "url": "https://openalex.org/W7117726693",
+        "pdf_url": "https://doi.org/10.23947/2414-1143-2025-11-4-69-75",
+        "doi_url": "https://doi.org/10.23947/2414-1143-2025-11-4-69-75",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Learner Autonomy: A Comparison of Instructor and Learner Perspective",
+        "url": "https://openalex.org/W7117756622",
+        "pdf_url": "https://doi.org/10.17984/adyuebd.1695072",
+        "doi_url": "https://doi.org/10.17984/adyuebd.1695072",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "url": "http://arxiv.org/abs/2512.25075v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "url": "http://arxiv.org/abs/2512.25074v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "url": "http://arxiv.org/abs/2512.25073v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "url": "http://arxiv.org/abs/2512.25071v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "url": "http://arxiv.org/abs/2512.25072v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "url": "http://arxiv.org/abs/2512.25070v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+        "url": "http://arxiv.org/abs/2512.25069v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25069v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+        "url": "http://arxiv.org/abs/2512.25068v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25068v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "url": "http://arxiv.org/abs/2512.25067v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "url": "http://arxiv.org/abs/2512.25066v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "dblp": [
+        {
+          "title": "General Data Protection Regulation (GDPR) in Healthcare: Hot Topics and Research Fronts",
+          "url": "https://dblp.org/rec/conf/mie/FatehiHKA20",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.3233/SHTI200336",
+          "source": "dblp",
+          "year": 2020
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "Thinking about spiking neural P systems: some theories, tools, and research topics",
+          "url": "https://www.semanticscholar.org/paper/1a1e626bf95104aeff26e9337bedea833241f872",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/s41965-024-00147-y",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Research landscape analysis on dual diagnosis of substance use and mental health disorders: key contributors, research hotspots, and emerging research topics",
+          "url": "https://www.semanticscholar.org/paper/7ef831adba4454f86ae521b3c7378c2db22990b5",
+          "pdf_url": "https://annals-general-psychiatry.biomedcentral.com/counter/pdf/10.1186/s12991-024-00517-x",
+          "doi_url": "https://doi.org/10.1186/s12991-024-00517-x",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Exploring the Landscape of Children’s Rights in Sports: A Scoping Review of Research Topics and Approaches in Social Sciences",
+          "url": "https://www.semanticscholar.org/paper/7fe42b6d96bd50de1c1b87fad0f56bb38b30a60f",
+          "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/11033088241226556",
+          "doi_url": "https://doi.org/10.1177/11033088241226556",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "A Bibliometric Review of Reinforced Soil Wall Research Topics",
+          "url": "https://www.semanticscholar.org/paper/da8d525b477baebd2f6c3644c691cb067caf06ab",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40891-024-00537-3.pdf",
+          "doi_url": "https://doi.org/10.1007/s40891-024-00537-3",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Discovering Mental Health Research Topics with Topic Modeling",
+          "url": "https://www.semanticscholar.org/paper/764619934d6c20aa55000ee0ec12355688bbbf7c",
+          "pdf_url": "https://arxiv.org/pdf/2308.13569",
+          "doi_url": "https://doi.org/10.48550/arXiv.2308.13569",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Future Research in General Medicine Has Diverse Topics and is Highly Promising: Opinions Based on a Questionnaire Survey",
+          "url": "https://www.semanticscholar.org/paper/4c9f99702a7e090edfc4b10017fdb17bcde68fc9",
+          "pdf_url": "https://www.dovepress.com/getfile.php?fileID=82566",
+          "doi_url": "https://doi.org/10.2147/IJGM.S369856",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "Research topics in intellectual disabilities in North Korea: A scoping review.",
+          "url": "https://www.semanticscholar.org/paper/84ef0e85294114de8ce5f4d9f3fc90b6e4e89c7e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1111/jar.12956",
+          "source": "semantic_scholar",
+          "year": 2021
+        },
+        {
+          "title": "The psychological and cognitive impact of Covid-19 on individuals with neurocognitive impairments: research topics and remote intervention proposals",
+          "url": "https://www.semanticscholar.org/paper/56c80668aa16fa2ec470952f027053c0d8b3619f",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40520-020-01637-6.pdf",
+          "doi_url": "https://doi.org/10.1007/s40520-020-01637-6",
+          "source": "semantic_scholar",
+          "year": 2020
+        },
+        {
+          "title": "Analysis of Health Research Topics in Indonesia Using the LDA (Latent Dirichlet Allocation) Topic Modeling Method",
+          "url": "https://www.semanticscholar.org/paper/f606c50daf726222707f35461519136108ae79ca",
+          "pdf_url": "http://jurnal.iaii.or.id/index.php/RESTI/article/download/1821/236",
+          "doi_url": "https://doi.org/10.29207/resti.v4i2.1821",
+          "source": "semantic_scholar",
+          "year": 2020
+        },
+        {
+          "title": "Three Decades of Educational Effectiveness Research in Belgium and the Netherlands: Key Studies, Main Research Topics and Findings",
+          "url": "https://www.semanticscholar.org/paper/ed813a541061436b9266ba510810c48fe47c67c7",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/978-3-030-44810-3_10",
+          "source": "semantic_scholar",
+          "year": 2020
+        }
+      ],
+      "openalex": [
+        {
+          "title": "Universal Audio Generation",
+          "url": "https://openalex.org/W4414932055",
+          "pdf_url": "https://hal.science/hal-05110014v1/document",
+          "doi_url": null,
+          "source": "openalex",
+          "year": 2026
+        },
+        {
+          "title": "CODE-SWITCHING AMONG SAUDI INFLUENCERS IN SOCIAL MEDIA: A CASE STUDY TOWARD DOCUMENTING PATTERNS OF ARABIC DIGLOSSIA",
+          "url": "https://openalex.org/W7103877661",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17517381",
+          "doi_url": "https://doi.org/10.5281/zenodo.17517381",
+          "source": "openalex",
+          "year": 2026
+        },
+        {
+          "title": "Methodologies and Strategies for Cultural Heritage Protection and Conservation Against Climate Changes, Natural and Anthropic Risks",
+          "url": "https://openalex.org/W7113108412",
+          "pdf_url": null,
+          "doi_url": null,
+          "source": "openalex",
+          "year": 2026
+        },
+        {
+          "title": "Between Ottoman Legacy and Hybrid Dance Identity",
+          "url": "https://openalex.org/W7117687180",
+          "pdf_url": "https://doi.org/10.33906/musicologist.1672939",
+          "doi_url": "https://doi.org/10.33906/musicologist.1672939",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "A Bibliometric Analysis of Generative Linguistics: A Study Based on Web ofScience Data",
+          "url": "https://openalex.org/W7117703141",
+          "pdf_url": "https://doi.org/10.46423/izujed.1818973",
+          "doi_url": "https://doi.org/10.46423/izujed.1818973",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Truncated Fusion Learning on Supervised Clustering and Its Fast Stagewise Algorithm",
+          "url": "https://openalex.org/W7117726608",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1287/ijoc.2024.0840",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "The Activities of Don Partisan Loners During the Great Patriotic War",
+          "url": "https://openalex.org/W7117726693",
+          "pdf_url": "https://doi.org/10.23947/2414-1143-2025-11-4-69-75",
+          "doi_url": "https://doi.org/10.23947/2414-1143-2025-11-4-69-75",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Learner Autonomy: A Comparison of Instructor and Learner Perspective",
+          "url": "https://openalex.org/W7117756622",
+          "pdf_url": "https://doi.org/10.17984/adyuebd.1695072",
+          "doi_url": "https://doi.org/10.17984/adyuebd.1695072",
+          "source": "openalex",
+          "year": 2025
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+          "url": "http://arxiv.org/abs/2512.25075v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+          "url": "http://arxiv.org/abs/2512.25074v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+          "url": "http://arxiv.org/abs/2512.25073v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+          "url": "http://arxiv.org/abs/2512.25071v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Coordinated Humanoid Manipulation with Choice Policies",
+          "url": "http://arxiv.org/abs/2512.25072v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Scaling Open-Ended Reasoning to Predict the Future",
+          "url": "http://arxiv.org/abs/2512.25070v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+          "url": "http://arxiv.org/abs/2512.25069v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25069v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+          "url": "http://arxiv.org/abs/2512.25068v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25068v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+          "url": "http://arxiv.org/abs/2512.25067v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+          "url": "http://arxiv.org/abs/2512.25066v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Research landscape analysis on dual diagnosis of substance use and mental health disorders: key contributors, research hotspots, and emerging research topics",
+        "pdf": "https://annals-general-psychiatry.biomedcentral.com/counter/pdf/10.1186/s12991-024-00517-x"
+      },
+      {
+        "title": "Exploring the Landscape of Children’s Rights in Sports: A Scoping Review of Research Topics and Approaches in Social Sciences",
+        "pdf": "https://journals.sagepub.com/doi/pdf/10.1177/11033088241226556"
+      },
+      {
+        "title": "A Bibliometric Review of Reinforced Soil Wall Research Topics",
+        "pdf": "https://link.springer.com/content/pdf/10.1007/s40891-024-00537-3.pdf"
+      },
+      {
+        "title": "Discovering Mental Health Research Topics with Topic Modeling",
+        "pdf": "https://arxiv.org/pdf/2308.13569"
+      },
+      {
+        "title": "Future Research in General Medicine Has Diverse Topics and is Highly Promising: Opinions Based on a Questionnaire Survey",
+        "pdf": "https://www.dovepress.com/getfile.php?fileID=82566"
+      },
+      {
+        "title": "The psychological and cognitive impact of Covid-19 on individuals with neurocognitive impairments: research topics and remote intervention proposals",
+        "pdf": "https://link.springer.com/content/pdf/10.1007/s40520-020-01637-6.pdf"
+      },
+      {
+        "title": "Analysis of Health Research Topics in Indonesia Using the LDA (Latent Dirichlet Allocation) Topic Modeling Method",
+        "pdf": "http://jurnal.iaii.or.id/index.php/RESTI/article/download/1821/236"
+      },
+      {
+        "title": "Universal Audio Generation",
+        "pdf": "https://hal.science/hal-05110014v1/document"
+      },
+      {
+        "title": "CODE-SWITCHING AMONG SAUDI INFLUENCERS IN SOCIAL MEDIA: A CASE STUDY TOWARD DOCUMENTING PATTERNS OF ARABIC DIGLOSSIA",
+        "pdf": "https://doi.org/10.5281/zenodo.17517381"
+      },
+      {
+        "title": "Between Ottoman Legacy and Hybrid Dance Identity",
+        "pdf": "https://doi.org/10.33906/musicologist.1672939"
+      },
+      {
+        "title": "A Bibliometric Analysis of Generative Linguistics: A Study Based on Web ofScience Data",
+        "pdf": "https://doi.org/10.46423/izujed.1818973"
+      },
+      {
+        "title": "The Activities of Don Partisan Loners During the Great Patriotic War",
+        "pdf": "https://doi.org/10.23947/2414-1143-2025-11-4-69-75"
+      },
+      {
+        "title": "Learner Autonomy: A Comparison of Instructor and Learner Perspective",
+        "pdf": "https://doi.org/10.17984/adyuebd.1695072"
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "pdf": "https://arxiv.org/pdf/2512.25075v1"
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "pdf": "https://arxiv.org/pdf/2512.25074v1"
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2512.25073v1"
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "pdf": "https://arxiv.org/pdf/2512.25071v1"
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "pdf": "https://arxiv.org/pdf/2512.25072v1"
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "pdf": "https://arxiv.org/pdf/2512.25070v1"
+      },
+      {
+        "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+        "pdf": "https://arxiv.org/pdf/2512.25069v1"
+      },
+      {
+        "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+        "pdf": "https://arxiv.org/pdf/2512.25068v1"
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "pdf": "https://arxiv.org/pdf/2512.25067v1"
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "pdf": "https://arxiv.org/pdf/2512.25066v1"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "General Data Protection Regulation (GDPR) in Healthcare: Hot Topics and Research Fronts",
+        "doi": "https://doi.org/10.3233/SHTI200336"
+      },
+      {
+        "title": "Thinking about spiking neural P systems: some theories, tools, and research topics",
+        "doi": "https://doi.org/10.1007/s41965-024-00147-y"
+      },
+      {
+        "title": "Research landscape analysis on dual diagnosis of substance use and mental health disorders: key contributors, research hotspots, and emerging research topics",
+        "doi": "https://doi.org/10.1186/s12991-024-00517-x"
+      },
+      {
+        "title": "Exploring the Landscape of Children’s Rights in Sports: A Scoping Review of Research Topics and Approaches in Social Sciences",
+        "doi": "https://doi.org/10.1177/11033088241226556"
+      },
+      {
+        "title": "A Bibliometric Review of Reinforced Soil Wall Research Topics",
+        "doi": "https://doi.org/10.1007/s40891-024-00537-3"
+      },
+      {
+        "title": "Discovering Mental Health Research Topics with Topic Modeling",
+        "doi": "https://doi.org/10.48550/arXiv.2308.13569"
+      },
+      {
+        "title": "Future Research in General Medicine Has Diverse Topics and is Highly Promising: Opinions Based on a Questionnaire Survey",
+        "doi": "https://doi.org/10.2147/IJGM.S369856"
+      },
+      {
+        "title": "Research topics in intellectual disabilities in North Korea: A scoping review.",
+        "doi": "https://doi.org/10.1111/jar.12956"
+      },
+      {
+        "title": "The psychological and cognitive impact of Covid-19 on individuals with neurocognitive impairments: research topics and remote intervention proposals",
+        "doi": "https://doi.org/10.1007/s40520-020-01637-6"
+      },
+      {
+        "title": "Analysis of Health Research Topics in Indonesia Using the LDA (Latent Dirichlet Allocation) Topic Modeling Method",
+        "doi": "https://doi.org/10.29207/resti.v4i2.1821"
+      },
+      {
+        "title": "Three Decades of Educational Effectiveness Research in Belgium and the Netherlands: Key Studies, Main Research Topics and Findings",
+        "doi": "https://doi.org/10.1007/978-3-030-44810-3_10"
+      },
+      {
+        "title": "CODE-SWITCHING AMONG SAUDI INFLUENCERS IN SOCIAL MEDIA: A CASE STUDY TOWARD DOCUMENTING PATTERNS OF ARABIC DIGLOSSIA",
+        "doi": "https://doi.org/10.5281/zenodo.17517381"
+      },
+      {
+        "title": "Between Ottoman Legacy and Hybrid Dance Identity",
+        "doi": "https://doi.org/10.33906/musicologist.1672939"
+      },
+      {
+        "title": "A Bibliometric Analysis of Generative Linguistics: A Study Based on Web ofScience Data",
+        "doi": "https://doi.org/10.46423/izujed.1818973"
+      },
+      {
+        "title": "Truncated Fusion Learning on Supervised Clustering and Its Fast Stagewise Algorithm",
+        "doi": "https://doi.org/10.1287/ijoc.2024.0840"
+      },
+      {
+        "title": "The Activities of Don Partisan Loners During the Great Patriotic War",
+        "doi": "https://doi.org/10.23947/2414-1143-2025-11-4-69-75"
+      },
+      {
+        "title": "Learner Autonomy: A Comparison of Instructor and Learner Perspective",
+        "doi": "https://doi.org/10.17984/adyuebd.1695072"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "general research topics",
+    "total_steps": 2,
+    "last_updated": "2026-01-02T02:44:25.772467",
+    "started_at": "2026-01-02T02:43:19.820974",
+    "total_papers": 29
+  }
+}

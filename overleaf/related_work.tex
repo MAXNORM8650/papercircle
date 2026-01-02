@@ -1,0 +1,13 @@
+\section{Related Work}
+
+\subsection{Research Community Simulation}
+ResearchTown models collaborative research as an agent--data graph and simulates community activities such as reading and writing, providing a community-centric view of how ideas propagate in scientific ecosystems \cite{yu2025_1,yu2025_3}. These works motivate Paper Circle's emphasis on collaboration and structured outputs that capture the lineage of discovery steps. Unlike community simulators, Paper Circle targets operational discovery workflows for real users and prioritizes reproducibility of search steps over simulating research behavior.
+
+\subsection{Agentic Research Assistance}
+DORA AI Scientist and EvoResearch present end-to-end agentic systems for scientific exploration and automated paper analysis, respectively \cite{naumov2025_51,gajjar2025_61}. Paper Circle aligns with this direction but focuses on reproducible discovery pipelines with explicit scoring, ranking, and export mechanisms integrated into a reading community platform. In contrast to fully autonomous research agents, Paper Circle emphasizes user-facing transparency through deterministic ranking and synchronized artifacts.
+
+\subsection{Multi-Agent Discovery Pipelines}
+PiFlow and the LLM-based blackboard system propose multi-agent coordination strategies for scientific and information discovery tasks \cite{unknown2026_6,unknown2026_5}. AlphaResearch and MARS extend this line by treating research as an autonomous, multi-step process or a reinforcement-learning optimization problem \cite{unknown2026_17,unknown2026_20}. Paper Circle shares the multi-agent premise but uses deterministic retrieval and scoring to improve traceability. Unlike learned policy optimization, Paper Circle's design is intentionally constrained to produce repeatable rankings for collaborative curation.
+
+\subsection{Benchmarks and Evaluation}
+LiveResearchBench and DatasetResearch focus on benchmarking discovery agents and citation-grounded research workflows \cite{unknown2026_24,unknown2026_11}. These efforts complement Paper Circle's built-in evaluation metrics (MRR, Recall@K, and hit rates) and suggest directions for future standardized evaluations. Paper Circle does not propose a new benchmark; instead, it embeds lightweight evaluation hooks to make iterative discovery workflows measurable.

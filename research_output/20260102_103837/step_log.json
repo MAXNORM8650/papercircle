@@ -1,0 +1,268 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T10:39:27.150958",
+      "agent": "online_search_agent",
+      "action": "Online search: 'self-evolving LLMs'",
+      "result_preview": "Found 63 papers",
+      "details": {
+        "query": "self-evolving LLMs",
+        "sources": null,
+        "papers_found": 63,
+        "papers_added": 63,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 63
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-02T10:40:10.546617",
+      "agent": "online_search_agent",
+      "action": "Online search: 'self-evolving LLMs'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "self-evolving LLMs",
+        "sources": [
+          "arxiv",
+          "openreview"
+        ],
+        "papers_found": 25,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 63
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-02T10:40:36.053035",
+      "agent": "sorting_agent",
+      "action": "Sorted 63 papers by 'relevance'",
+      "result_preview": "Top paper: Self-Evolving LLMs via Continual Instruction Tunin...",
+      "details": {
+        "sort_by": "relevance",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 63
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-02T10:40:40.029241",
+      "agent": "sorting_agent",
+      "action": "Sorted 63 papers by 'recency'",
+      "result_preview": "Top paper: Self-Evolving LLMs via Continual Instruction Tunin...",
+      "details": {
+        "sort_by": "recency",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 63
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-02T10:40:44.349644",
+      "agent": "sorting_agent",
+      "action": "Sorted 63 papers by 'citations'",
+      "result_preview": "Top paper: WebRL: Training LLM Web Agents via Self-Evolving O...",
+      "details": {
+        "sort_by": "citations",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 63
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-02T10:40:48.867210",
+      "agent": "sorting_agent",
+      "action": "Sorted 63 papers by 'combined'",
+      "result_preview": "Top paper: Self-Evolving LLMs via Continual Instruction Tunin...",
+      "details": {
+        "sort_by": "combined",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 63
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-02T10:40:53.690945",
+      "agent": "sorting_agent",
+      "action": "Sorted 63 papers by 'relevance'",
+      "result_preview": "Top paper: Self-Evolving LLMs via Continual Instruction Tunin...",
+      "details": {
+        "sort_by": "relevance",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 63
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-02T10:41:51.937759",
+      "agent": "online_search_agent",
+      "action": "Online search: 'self-evolving LLMs'",
+      "result_preview": "Found 63 papers",
+      "details": {
+        "query": "self-evolving LLMs",
+        "sources": null,
+        "papers_found": 63,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 63
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-02T10:41:56.292059",
+      "agent": "online_search_agent",
+      "action": "Online search: 'self-adaptive LLMs'",
+      "result_preview": "Found 66 papers",
+      "details": {
+        "query": "self-adaptive LLMs",
+        "sources": null,
+        "papers_found": 66,
+        "papers_added": 38,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 101
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-02T10:42:02.614957",
+      "agent": "online_search_agent",
+      "action": "Online search: 'autonomous LLM evolution'",
+      "result_preview": "Found 43 papers",
+      "details": {
+        "query": "autonomous LLM evolution",
+        "sources": null,
+        "papers_found": 43,
+        "papers_added": 29,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 130
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-02T10:42:09.066692",
+      "agent": "online_search_agent",
+      "action": "Online search: 'evolutionary LLMs'",
+      "result_preview": "Found 41 papers",
+      "details": {
+        "query": "evolutionary LLMs",
+        "sources": null,
+        "papers_found": 41,
+        "papers_added": 18,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 148
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-02T10:42:44.772354",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (all)",
+      "result_preview": "Generated insights from 148 papers",
+      "details": {
+        "analysis_type": "all"
+      },
+      "papers_count": 148
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-02T10:44:01.207572",
+      "agent": "online_search_agent",
+      "action": "Online search: 'WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning...'",
+      "result_preview": "Found 14 papers",
+      "details": {
+        "query": "WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning...",
+        "sources": null,
+        "papers_found": 14,
+        "papers_added": 13,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 161
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-02T10:44:08.525215",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Self-Evolving LLMs via Continual Instruction Tuning...'",
+      "result_preview": "Found 15 papers",
+      "details": {
+        "query": "Self-Evolving LLMs via Continual Instruction Tuning...",
+        "sources": null,
+        "papers_found": 15,
+        "papers_added": 11,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 172
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-02T10:44:15.598604",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Can We End the Cat-and-Mouse Game? Simulating Self-Evolving Phishing Attacks...'",
+      "result_preview": "Found 11 papers",
+      "details": {
+        "query": "Can We End the Cat-and-Mouse Game? Simulating Self-Evolving Phishing Attacks...",
+        "sources": null,
+        "papers_found": 11,
+        "papers_added": 5,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 177
+    },
+    {
+      "step": 16,
+      "timestamp": "2026-01-02T10:44:21.115383",
+      "agent": "online_search_agent",
+      "action": "Online search: 'SafeEvalAgent: Toward Agentic and Self-Evolving Safety Evaluation...'",
+      "result_preview": "Found 9 papers",
+      "details": {
+        "query": "SafeEvalAgent: Toward Agentic and Self-Evolving Safety Evaluation...",
+        "sources": null,
+        "papers_found": 9,
+        "papers_added": 2,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 179
+    },
+    {
+      "step": 17,
+      "timestamp": "2026-01-02T10:44:27.847131",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Guided Self-Evolving LLMs with Minimal Human Supervision'",
+      "result_preview": "Found 10 papers",
+      "details": {
+        "query": "Guided Self-Evolving LLMs with Minimal Human Supervision",
+        "sources": null,
+        "papers_found": 10,
+        "papers_added": 4,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 183
+    },
+    {
+      "step": 18,
+      "timestamp": "2026-01-02T10:45:08.380088",
+      "agent": "export_agent",
+      "action": "Exporting papers (json)",
+      "result_preview": "Exported 183 papers",
+      "details": {
+        "format": "json",
+        "filename": "self_evolving_llms_summary"
+      },
+      "papers_count": 183
+    }
+  ],
+  "current_step": 18,
+  "metadata": {
+    "query": "Guided Self-Evolving LLMs with Minimal Human Supervision",
+    "total_steps": 18,
+    "last_updated": "2026-01-02T10:45:08.411654",
+    "started_at": "2026-01-02T10:38:39.438330",
+    "total_papers": 183
+  }
+}

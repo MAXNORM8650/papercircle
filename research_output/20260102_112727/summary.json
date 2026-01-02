@@ -1,0 +1,84 @@
+{
+  "summary": {
+    "query": "multi-agent research paper discovery and analysis framework",
+    "total_papers": 5,
+    "unique_sources": 4,
+    "year_range": {
+      "min": 2023,
+      "max": 2024
+    },
+    "citation_summary": {
+      "total": 0,
+      "average": 0
+    },
+    "top_source": "offline_ijcai",
+    "papers_with_pdf": 4,
+    "papers_with_doi": 0,
+    "processing_steps": 16
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (3) are from 2024",
+      "data": {
+        "year": 2024,
+        "count": 3
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_ijcai contributes 2 papers (40%)",
+      "data": {
+        "source": "offline_ijcai",
+        "count": 2
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Anıl Doğru has 2 papers in this collection",
+      "data": {
+        "author": "Anıl Doğru",
+        "count": 2
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: agent, multi, negotiation, framework, discovery",
+      "data": {
+        "keywords": {
+          "agent": 4,
+          "multi": 3,
+          "negotiation": 2,
+          "framework": 2,
+          "discovery": 2
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "4/5 papers (80%) have direct PDF links",
+      "data": {
+        "with_pdf": 4,
+        "total": 5
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 5 papers related to 'multi-agent research paper discovery and analysis framework'",
+    "Papers collected from 4 sources: offline_colm, offline_ijcai, offline_iclr, offline_nips",
+    "Publication years range from 2023 to 2024",
+    "Leading researchers: Anıl Doğru, Mehmet Onur Keskin, Reyhan Aydoğan"
+  ],
+  "metadata": {
+    "query": "multi-agent research paper discovery and analysis framework",
+    "total_steps": 16,
+    "last_updated": "2026-01-02T11:32:34.177521",
+    "started_at": "2026-01-02T11:27:29.888671",
+    "total_papers": 5
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "fast methods LLMs mathematics",
+    "total_papers": 211,
+    "unique_sources": 5,
+    "year_range": {
+      "min": 1994,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 3555,
+      "average": 49.4
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 90,
+    "papers_with_doi": 77,
+    "processing_steps": 6
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (24) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 24
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 81 papers (38%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 81
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Gabriel Poesia has 3 papers in this collection",
+      "data": {
+        "author": "Gabriel Poesia",
+        "count": 3
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?...\" has 422 citations",
+      "data": {
+        "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+        "citations": 422
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: llms, reasoning, mathematics, learning, fast",
+      "data": {
+        "keywords": {
+          "llms": 86,
+          "reasoning": 82,
+          "mathematics": 24,
+          "learning": 23,
+          "fast": 23
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "90/211 papers (42%) have direct PDF links",
+      "data": {
+        "with_pdf": 90,
+        "total": 211
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 211 papers related to 'fast methods LLMs mathematics'",
+    "Papers collected from 5 sources: offline_nips, offline_iclr, offline_icml, arxiv, semantic_scholar",
+    "Publication years range from 1994 to 2026",
+    "Total citations: 3555, Average: 49",
+    "Leading researchers: Gabriel Poesia, Ke Wang, Erik Y. Wang"
+  ],
+  "metadata": {
+    "query": "fast methods LLMs mathematics",
+    "total_steps": 6,
+    "last_updated": "2026-01-01T22:16:20.853563",
+    "started_at": "2026-01-01T22:10:49.594521",
+    "total_papers": 211
+  }
+}

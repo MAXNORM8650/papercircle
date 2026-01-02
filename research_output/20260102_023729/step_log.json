@@ -1,0 +1,65 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T02:38:06.251221",
+      "agent": "online_search_agent",
+      "action": "Online search: 'why human services very less'",
+      "result_preview": "Found 75 papers",
+      "details": {
+        "query": "why human services very less",
+        "sources": null,
+        "papers_found": 75,
+        "papers_added": 75,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 75
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-02T02:38:19.623227",
+      "agent": "sorting_agent",
+      "action": "Sorted 10 papers by 'recency'",
+      "result_preview": "Top paper: Development Education...",
+      "details": {
+        "sort_by": "recency",
+        "weights": "{\"recency\": 0.5, \"relevance\": 0.5}",
+        "top_k": 10
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-02T02:38:24.271772",
+      "agent": "sorting_agent",
+      "action": "Sorted 10 papers by 'relevance'",
+      "result_preview": "Top paper: Development Education...",
+      "details": {
+        "sort_by": "relevance",
+        "weights": "{\"relevance\": 1.0}",
+        "top_k": 10
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-02T02:38:41.387163",
+      "agent": "export_agent",
+      "action": "Exporting papers (all)",
+      "result_preview": "Exported 10 papers",
+      "details": {
+        "format": "all",
+        "filename": "top_20_papers"
+      },
+      "papers_count": 10
+    }
+  ],
+  "current_step": 4,
+  "metadata": {
+    "query": "why human services very less",
+    "total_steps": 4,
+    "last_updated": "2026-01-02T02:38:41.393285",
+    "started_at": "2026-01-02T02:37:31.199351",
+    "total_papers": 10
+  }
+}

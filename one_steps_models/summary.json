@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "generative models",
+    "total_papers": 244,
+    "unique_sources": 17,
+    "year_range": {
+      "min": 2014,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 1064,
+      "average": 23.6
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 155,
+    "papers_with_doi": 91,
+    "processing_steps": 10
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (15) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 15
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 54 papers (22%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 54
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Mingyuan Zhou has 4 papers in this collection",
+      "data": {
+        "author": "Mingyuan Zhou",
+        "count": 4
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"One-Step Effective Diffusion Network for Real-World Image Super-Resolution...\" has 151 citations",
+      "data": {
+        "title": "One-Step Effective Diffusion Network for Real-World Image Super-Resolution",
+        "citations": 151
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: generative, models, step, diffusion, distillation",
+      "data": {
+        "keywords": {
+          "generative": 86,
+          "models": 82,
+          "step": 59,
+          "diffusion": 48,
+          "distillation": 35
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "155/244 papers (63%) have direct PDF links",
+      "data": {
+        "with_pdf": 155,
+        "total": 244
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 244 papers related to 'generative models'",
+    "Papers collected from 17 sources: offline_iclr, offline_aaai, offline_nips, offline_www, offline_kdd, offline_cvpr, offline_emnlp, offline_ijcai, offline_iccv, offline_acmmm, offline_acl, offline_eccv, offline_wacv, offline_iros, semantic_scholar, openalex, arxiv",
+    "Publication years range from 2014 to 2026",
+    "Total citations: 1064, Average: 23",
+    "Leading researchers: Mingyuan Zhou, Zhendong Wang, Zhengyang Geng"
+  ],
+  "metadata": {
+    "query": "generative models",
+    "total_steps": 10,
+    "last_updated": "2026-01-01T23:01:07.195746",
+    "started_at": "2026-01-01T22:50:13.204739",
+    "total_papers": 244
+  }
+}

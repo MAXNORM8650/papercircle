@@ -64,6 +64,45 @@ PMG_CONFIG = Config(
 # Helper Functions
 # ============================================================================
 
+def check_user_quota(user_id: str) -> dict:
+    """
+    Check if user has remaining quota for paper analysis.
+    Returns dict with has_quota, used_today, daily_limit, is_unlimited.
+    """
+    try:
+        result = supabase.rpc('check_user_analysis_quota', {'p_user_id': user_id}).execute()
+        if result.data:
+            return result.data[0]
+        return {'has_quota': False, 'used_today': 0, 'daily_limit': 5, 'is_unlimited': False}
+    except Exception as e:
+        print(f"⚠️  Error checking quota: {e}")
+        return {'has_quota': False, 'used_today': 0, 'daily_limit': 5, 'is_unlimited': False}
+
+def record_usage(
+    user_id: str,
+    paper_id: Optional[str],
+    analysis_id: Optional[str],
+    used_custom_llm: bool,
+    llm_provider: str,
+    processing_time: float,
+    success: bool,
+    error_message: Optional[str] = None
+):
+    """Record analysis usage for quota tracking."""
+    try:
+        supabase.rpc('record_analysis_usage', {
+            'p_user_id': user_id,
+            'p_paper_id': paper_id,
+            'p_analysis_id': analysis_id,
+            'p_used_custom_llm': used_custom_llm,
+            'p_llm_provider': llm_provider,
+            'p_processing_time': processing_time,
+            'p_success': success,
+            'p_error_message': error_message
+        }).execute()
+    except Exception as e:
+        print(f"⚠️  Error recording usage: {e}")
+
 def get_user_llm_config(user_id: Optional[str]) -> Config:
     """
     Get LLM configuration for a specific user.
@@ -82,9 +121,15 @@ def get_user_llm_config(user_id: Optional[str]) -> Config:
             # User doesn't have custom config or it's disabled
             return PMG_CONFIG
 
+        api_base = result.data.get('llm_api_base') or PMG_CONFIG.api_base
+
+        # Warn about localhost URLs (they only work if Ollama is on same machine as backend)
+        if any(host in api_base.lower() for host in ['localhost', '127.0.0.1', '0.0.0.0']):
+            print(f"⚠️  User {user_id} configured localhost URL: {api_base}. This only works if Ollama is on the same machine as the backend server.")
+
         # Build custom config
         custom_config = Config(
-            api_base=result.data.get('llm_api_base') or PMG_CONFIG.api_base,
+            api_base=api_base,
             model_id=result.data.get('llm_model_id') or PMG_CONFIG.model_id,
             num_ctx=8192,
             cache_dir="./paper_cache",
@@ -144,6 +189,10 @@ class QuestionResponse(BaseModel):
     relevant_sections: List[str]
     relevant_figures: List[str]
     relevant_tables: List[str]
+
+class TestLLMConnectionRequest(BaseModel):
+    api_base: str
+    provider: str
 
 # ============================================================================
 # Helper Functions
@@ -242,50 +291,90 @@ def analyze_paper_internal(
 ) -> str:
     """Internal function to analyze a paper."""
     start_time = time.time()
+    analysis_id = None
+    success = False
+    error_message = None
 
-    # Get user-specific LLM config
-    config = get_user_llm_config(user_id)
+    try:
+        # Get user-specific LLM config
+        config = get_user_llm_config(user_id)
+        used_custom_llm = config != PMG_CONFIG
 
-    # Create PaperMindGraph instance
-    print(f"Analyzing paper: {paper_url}")
-    pmg = PaperMindGraph(paper_url, config=config, verbose=True)
+        # Determine provider
+        llm_provider = "default"
+        if used_custom_llm:
+            # Try to detect provider from config
+            if "ollama" in config.api_base.lower():
+                llm_provider = "ollama"
+            elif "openai" in config.api_base.lower():
+                llm_provider = "openai"
+            elif "anthropic" in config.api_base.lower():
+                llm_provider = "anthropic"
+            else:
+                llm_provider = "custom"
 
-    # Export to different formats
-    markdown = pmg.to_markdown()
-    mindmap = pmg.export("mermaid-mindmap")
-    flowchart = pmg.export("mermaid-flowchart")
-    html = pmg.export("html")
-    json_data = json.loads(pmg.to_json())
+        # Create PaperMindGraph instance
+        print(f"Analyzing paper: {paper_url} (using {llm_provider})")
+        pmg = PaperMindGraph(paper_url, config=config, verbose=True)
 
-    # Calculate statistics
-    stats = {
-        "concepts": pmg.num_concepts,
-        "methods": pmg.num_methods,
-        "experiments": len(pmg.get_experiments()),
-        "figures": len(pmg.get_figures()),
-        "tables": len(pmg.get_tables()),
-        "nodes": len(pmg.graph.nodes),
-        "edges": len(pmg.graph.edges),
-    }
+        # Export to different formats
+        markdown = pmg.to_markdown()
+        mindmap = pmg.export("mermaid-mindmap")
+        flowchart = pmg.export("mermaid-flowchart")
+        html = pmg.export("html")
+        json_data = json.loads(pmg.to_json())
 
-    processing_time = time.time() - start_time
+        # Calculate statistics
+        stats = {
+            "concepts": pmg.num_concepts,
+            "methods": pmg.num_methods,
+            "experiments": len(pmg.get_experiments()),
+            "figures": len(pmg.get_figures()),
+            "tables": len(pmg.get_tables()),
+            "nodes": len(pmg.graph.nodes),
+            "edges": len(pmg.graph.edges),
+        }
 
-    # Save to database
-    analysis_id = save_analysis(
-        paper_id=paper_id,
-        analysis_data=json_data,
-        markdown=markdown,
-        mindmap=mindmap,
-        flowchart=flowchart,
-        html=html,
-        stats=stats,
-        processing_time=processing_time,
-        user_id=user_id,
-        community_id=community_id,
-        session_id=session_id,
-    )
+        processing_time = time.time() - start_time
 
-    print(f"Analysis completed in {processing_time:.2f}s. Saved as {analysis_id}")
+        # Save to database
+        analysis_id = save_analysis(
+            paper_id=paper_id,
+            analysis_data=json_data,
+            markdown=markdown,
+            mindmap=mindmap,
+            flowchart=flowchart,
+            html=html,
+            stats=stats,
+            processing_time=processing_time,
+            user_id=user_id,
+            community_id=community_id,
+            session_id=session_id,
+        )
+
+        success = True
+        print(f"Analysis completed in {processing_time:.2f}s. Saved as {analysis_id}")
+
+    except Exception as e:
+        error_message = str(e)
+        processing_time = time.time() - start_time
+        print(f"❌ Analysis failed: {error_message}")
+        raise
+
+    finally:
+        # Record usage for quota tracking (always record, even on failure)
+        if user_id and user_id != "system":
+            record_usage(
+                user_id=user_id,
+                paper_id=paper_id,
+                analysis_id=analysis_id,
+                used_custom_llm=used_custom_llm,
+                llm_provider=llm_provider,
+                processing_time=processing_time,
+                success=success,
+                error_message=error_message
+            )
+
     return analysis_id
 
 # ============================================================================
@@ -296,6 +385,29 @@ def analyze_paper_internal(
 def read_root():
     """Health check endpoint."""
     return {"status": "ok", "message": "Paper Analysis API is running"}
+
+@app.get("/quota/{user_id}")
+async def get_user_quota(user_id: str):
+    """
+    Get user's current quota status and usage.
+
+    Args:
+        user_id: User ID to check quota for
+
+    Returns:
+        Quota information including used_today, daily_limit, is_unlimited
+    """
+    try:
+        quota = check_user_quota(user_id)
+        return {
+            "has_quota": quota['has_quota'],
+            "used_today": quota['used_today'],
+            "daily_limit": quota['daily_limit'],
+            "is_unlimited": quota['is_unlimited'],
+            "remaining": max(0, quota['daily_limit'] - quota['used_today']) if not quota['is_unlimited'] else -1
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get quota: {str(e)}")
 
 def analyze_from_url_internal(
     arxiv_id: str,
@@ -445,12 +557,27 @@ async def analyze_paper(
     Args:
         request: AnalyzePaperRequest with paper_id, optional community_id/session_id
         background_tasks: FastAPI background tasks
-        user_id: User ID from auth (TODO: implement auth)
+        user_id: User ID from auth
 
     Returns:
         Analysis ID and status
     """
     try:
+        user_id = request.user_id or "system"
+
+        # Check quota if using default LLM (not custom)
+        if user_id != "system":
+            quota = check_user_quota(user_id)
+
+            if not quota['has_quota'] and not quota['is_unlimited']:
+                # User exceeded quota
+                return {
+                    "status": "quota_exceeded",
+                    "message": f"Daily limit reached ({quota['used_today']}/{quota['daily_limit']} papers analyzed today). Configure your own LLM in Settings for unlimited access.",
+                    "used_today": str(quota['used_today']),
+                    "daily_limit": str(quota['daily_limit'])
+                }
+
         # Get paper info
         paper = get_paper_info(request.paper_id)
 
@@ -484,7 +611,7 @@ async def analyze_paper(
             analyze_paper_internal,
             request.paper_id,
             paper_url,
-            request.user_id or "system",  # Use user's LLM config if provided
+            user_id,
             request.community_id,
             request.session_id,
         )
@@ -870,6 +997,71 @@ async def ask_question(request: AskQuestionRequest):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/test-llm-connection")
+async def test_llm_connection(request: TestLLMConnectionRequest):
+    """
+    Test connection to an LLM server.
+    This endpoint runs server-side to avoid CORS issues.
+
+    Args:
+        request: TestLLMConnectionRequest with api_base and provider
+
+    Returns:
+        Success status and available models (if applicable)
+    """
+    import httpx
+
+    try:
+        async with httpx.AsyncClient(timeout=10.0) as client:
+            if request.provider == "ollama":
+                # Test Ollama /api/tags endpoint
+                response = await client.get(f"{request.api_base}/api/tags")
+                if response.status_code == 200:
+                    data = response.json()
+                    models = [model.get("name", "unknown") for model in data.get("models", [])]
+                    return {
+                        "success": True,
+                        "message": f"Connected successfully! Found {len(models)} models.",
+                        "models": models[:5]  # Return first 5 models
+                    }
+                else:
+                    return {
+                        "success": False,
+                        "message": f"Server responded with status {response.status_code}"
+                    }
+
+            elif request.provider in ["openai", "anthropic"]:
+                # For commercial APIs, just check if the base URL is reachable
+                response = await client.get(request.api_base, timeout=5.0)
+                return {
+                    "success": True,
+                    "message": "API endpoint is reachable"
+                }
+
+            else:
+                # For custom providers, just try to connect
+                response = await client.get(request.api_base, timeout=5.0)
+                return {
+                    "success": response.status_code < 500,
+                    "message": f"Server responded with status {response.status_code}"
+                }
+
+    except httpx.ConnectError:
+        return {
+            "success": False,
+            "message": f"Cannot connect to {request.api_base}. Make sure the server is running and the URL is correct."
+        }
+    except httpx.TimeoutException:
+        return {
+            "success": False,
+            "message": "Connection timeout. The server took too long to respond."
+        }
+    except Exception as e:
+        return {
+            "success": False,
+            "message": f"Connection failed: {str(e)}"
+        }
 
 # ============================================================================
 # Main

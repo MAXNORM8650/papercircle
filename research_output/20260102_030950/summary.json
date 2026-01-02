@@ -1,0 +1,84 @@
+{
+  "summary": {
+    "query": "EVALUATING MACHINE LEARNING AGENTS",
+    "total_papers": 50,
+    "unique_sources": 11,
+    "year_range": {
+      "min": 2013,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 0,
+      "average": 0
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 19,
+    "papers_with_doi": 0,
+    "processing_steps": 1
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (15) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 15
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 28 papers (56%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 28
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Tsui-Wei Weng has 3 papers in this collection",
+      "data": {
+        "author": "Tsui-Wei Weng",
+        "count": 3
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: evaluating, agents, learning, machine, research",
+      "data": {
+        "keywords": {
+          "evaluating": 41,
+          "agents": 39,
+          "learning": 13,
+          "machine": 8,
+          "research": 8
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "19/50 papers (38%) have direct PDF links",
+      "data": {
+        "with_pdf": 19,
+        "total": 50
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 50 papers related to 'EVALUATING MACHINE LEARNING AGENTS'",
+    "Papers collected from 11 sources: offline_iclr, offline_nips, offline_icml, offline_ai4x, offline_emnlp, offline_acl, offline_ijcai, offline_colm, offline_uai, offline_naacl, offline_iros",
+    "Publication years range from 2013 to 2026",
+    "Leading researchers: Tsui-Wei Weng, Qian Huang, Jian Vora"
+  ],
+  "metadata": {
+    "query": "EVALUATING MACHINE LEARNING AGENTS",
+    "total_steps": 1,
+    "last_updated": "2026-01-02T03:10:38.232962",
+    "started_at": "2026-01-02T03:09:52.212130",
+    "total_papers": 50
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-01T23:27:36.774209",
+      "agent": "online_search_agent",
+      "action": "Online search: 'A multi-agent research paper discovery and analysis framework'",
+      "result_preview": "Found 46 papers",
+      "details": {
+        "query": "A multi-agent research paper discovery and analysis framework",
+        "sources": null,
+        "papers_found": 46,
+        "papers_added": 46,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 46
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-01T23:28:46.849013",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework'",
+      "result_preview": "Found 71 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework",
+        "sources": null,
+        "papers_found": 71,
+        "papers_added": 29,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 75
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-01T23:29:04.300601",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'multi-agent research paper discovery and analysis framework'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework",
+        "conferences": null,
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 49,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 124
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-01T23:29:51.486962",
+      "agent": "sorting_agent",
+      "action": "Sorted 124 papers by 'combined'",
+      "result_preview": "Top paper: Multi-Agent Causal Discovery Using Large Language ...",
+      "details": {
+        "sort_by": "combined",
+        "weights": "{\"bm25\": 0.4, \"citations\": 0.3, \"recency\": 0.3}",
+        "top_k": 199
+      },
+      "papers_count": 124
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-01T23:30:33.219248",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (all)",
+      "result_preview": "Generated insights from 124 papers",
+      "details": {
+        "analysis_type": "all"
+      },
+      "papers_count": 124
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-01T23:31:23.440995",
+      "agent": "export_agent",
+      "action": "Exporting papers (all)",
+      "result_preview": "Exported 124 papers",
+      "details": {
+        "format": "all",
+        "filename": "exported_papers"
+      },
+      "papers_count": 124
+    }
+  ],
+  "current_step": 6,
+  "metadata": {
+    "query": "multi-agent research paper discovery and analysis framework",
+    "total_steps": 6,
+    "last_updated": "2026-01-01T23:31:23.466568",
+    "started_at": "2026-01-01T23:27:02.500112",
+    "total_papers": 124
+  }
+}

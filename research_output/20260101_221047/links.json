@@ -1,0 +1,4073 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "RealMath: A Continuous Benchmark for Evaluating Language Models on Research-Level Mathematics",
+        "url": "https://openreview.net/forum?id=RBssYVpQEr",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Finding the Cracks: Improving LLMs Reasoning with Paraphrastic Probing and Consistency Verification",
+        "url": "https://openreview.net/forum?id=vqBatdoexa",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "HARDMath: A Benchmark Dataset for Challenging Problems in Applied Mathematics",
+        "url": "https://iclr.cc/virtual/2025/poster/28419",
+        "pdf_url": "https://openreview.net/pdf?id=nDTvP6tBMd",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Do LLMs Perform Multilingual Multi-step Reasoning?",
+        "url": "https://openreview.net/forum?id=71RJC2vTjQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "CellDuality: Unlocking Biological Reasoning in LLMs with Self-Supervised RLVR",
+        "url": "https://openreview.net/forum?id=I4meJN28Ol",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Improving Rationality in the Reasoning Process of Language Models through Self-playing Game",
+        "url": "https://icml.cc/virtual/2025/poster/45387",
+        "pdf_url": "https://openreview.net/pdf?id=PPsiS5nSlv",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Mixing Expert Knowledge: Bring Human Thoughts Back To the Game of Go",
+        "url": "https://openreview.net/forum?id=baNBqpzvMT",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "FEABench: Evaluating Language Models on Real World Physics Reasoning Ability",
+        "url": "https://openreview.net/forum?id=hDkLpu1E64",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "CS-Bench: A Comprehensive Benchmark for Large Language Models towards Computer Science Mastery",
+        "url": "https://iclr.cc/virtual/2025/poster/28862",
+        "pdf_url": "https://openreview.net/pdf?id=fjEZ2LPceZ",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Don't Trust: Verify -- Grounding LLM Quantitative Reasoning with Autoformalization",
+        "url": "https://iclr.cc/virtual/2024/poster/18508",
+        "pdf_url": "https://openreview.net/pdf?id=V5tdi14ple",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "From Abstract to Contextual: What LLMs Still Cannot Do in Mathematics",
+        "url": "https://openreview.net/forum?id=KBknLdXxTa",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Think in Games: Learning to Reason in Games via Reinforcement Learning with Large Language Models",
+        "url": "https://openreview.net/forum?id=LlvOaj1bqF",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Beyond Chemical QA: Evaluating LLM's Chemical Reasoning with Modular Chemical Operations",
+        "url": "https://openreview.net/forum?id=mvahXacGWg",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "PRISM-Physics: Causal DAG-Based Process Evaluation for Physics Reasoning",
+        "url": "https://openreview.net/forum?id=4PZMeopXzP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "SolidGeo: Measuring Multimodal Spatial Math Reasoning in Solid Geometry",
+        "url": "https://openreview.net/forum?id=nQq4bMcP7L",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Paramanu-Ganita: An Efficient Pre-trained Generative Mathematics Language Model with Chain-of-Thought Instruction Fine-Tuning",
+        "url": "https://openreview.net/forum?id=v3DwQlyGbv",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "NeuralPCG: Learning Preconditioner for Solving Partial Differential Equations with Graph Neural Network",
+        "url": "https://openreview.net/forum?id=IDSXUFQeZO5",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Voice Evaluation of Reasoning Ability: Diagnosing the Modality-Induced Performance Gap",
+        "url": "https://openreview.net/forum?id=bA51NZVNFT",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "CombiGraph-Vis: A Multimodal Olympiad Benchmark for Discrete Mathematical Reasoning",
+        "url": "https://openreview.net/forum?id=WvH8ZVw3m9",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Knowledge-to-Verification: Unlocking Reinforcement Learning with Verifiable Rewards for LLMs in Knowledge-Intensive Domains",
+        "url": "https://openreview.net/forum?id=EVS7SeKBqI",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "VisioMath: Benchmarking Figure-based Mathematical Reasoning in LMMs",
+        "url": "https://openreview.net/forum?id=31pzK2VSQQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "CLAWS:Creativity detection for LLM-generated solutions using Attention Window of Sections",
+        "url": "https://openreview.net/forum?id=yiSoT2pHfk",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Analysing Mathematical Reasoning Abilities of Neural Models",
+        "url": "https://iclr.cc/virtual/2019/poster/933",
+        "pdf_url": "https://openreview.net/pdf?id=H1gR5iR5FX",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2019
+      },
+      {
+        "title": "HDFlow: Enhancing LLM Complex Problem-Solving with Hybrid Thinking and Dynamic Workflows",
+        "url": "https://openreview.net/forum?id=wGqf7YMF8R",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "EDINET-Bench: Evaluating LLMs on Complex Financial Tasks using Japanese Financial Statements",
+        "url": "https://openreview.net/forum?id=Dxns0cj15A",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Scaling up Multi-Turn Off-Policy RL and Multi-Agent Tree Search for LLM Step-Provers",
+        "url": "https://openreview.net/forum?id=TfwePIKzXJ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Scaling Physical Reasoning with the PHYSICS Dataset",
+        "url": "https://openreview.net/forum?id=1lo778KztK",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "IndiMathBench: Autoformalizing Mathematical Reasoning Problems with a Human Touch",
+        "url": "https://openreview.net/forum?id=tmReo37kl2",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "TopoAlign: A Framework for Aligning Code to Math via Topological Decomposition",
+        "url": "https://openreview.net/forum?id=OEPP8T0zUX",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "SubgoalXL: Subgoal-based Expert Learning for Theorem Proving",
+        "url": "https://openreview.net/forum?id=mb2rHLcKN5",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "TCMReasonSet: A Dataset for Explainable Medical Reasoning in Traditional Chinese Medicine",
+        "url": "https://openreview.net/forum?id=XbiluWvVWO",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Convergence Properties of the K-Means Algorithms",
+        "url": "https://papers.nips.cc/paper_files/paper/1994/hash/a1140a3d0df1c81e24ae954d935e8926-Abstract.html",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/1994/file/a1140a3d0df1c81e24ae954d935e8926-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 1994
+      },
+      {
+        "title": "Learning Formal Mathematics From Intrinsic Motivation",
+        "url": "https://neurips.cc/virtual/2024/poster/93276",
+        "pdf_url": "https://openreview.net/pdf?id=uNKlTQ8mBD",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Deep Learning For Symbolic Mathematics",
+        "url": "https://openreview.net/forum?id=S1eZYeHFDS",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2020
+      },
+      {
+        "title": "miniF2F: a cross-system benchmark for formal Olympiad-level mathematics",
+        "url": "https://iclr.cc/virtual/2022/poster/6258",
+        "pdf_url": "https://openreview.net/pdf?id=9ZPegFuFTFv",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2022
+      },
+      {
+        "title": "Generative Adversarial Optimization: Dual-Reward Reinforcement Learning for Mathematics Reasoning",
+        "url": "https://openreview.net/forum?id=Ccu21bGqRv",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ProofNet: Autoformalizing and Formally Proving Undergraduate-Level Mathematics",
+        "url": "https://openreview.net/forum?id=Zix86UbMGh",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Pretrained Language Models are Symbolic Mathematics Solvers too!",
+        "url": "https://openreview.net/forum?id=F7_odJIeQ26",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2022
+      },
+      {
+        "title": "OptiBench Meets ReSocratic: Measure and Improve LLMs for Optimization Modeling",
+        "url": "https://iclr.cc/virtual/2025/poster/28850",
+        "pdf_url": "https://openreview.net/pdf?id=fsDZwS49uY",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Towards a Mathematics Formalisation Assistant using Large Language Models",
+        "url": "https://openreview.net/forum?id=pKu077C57fH",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Llemma: An Open Language Model for Mathematics",
+        "url": "https://iclr.cc/virtual/2024/poster/19459",
+        "pdf_url": "https://openreview.net/pdf?id=4WnqRR915j",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Machine Learning meets Algebraic Combinatorics: A Suite of Datasets Capturing Research-level Conjecturing Ability in Pure Mathematics",
+        "url": "https://icml.cc/virtual/2025/poster/43763",
+        "pdf_url": "https://openreview.net/pdf?id=tlniJJFUW2",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "UpSkill: Mutual Information Skill learning for Structured Response Diversity in LLMs",
+        "url": "https://openreview.net/forum?id=cNZEPEKKEh",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Formal Mathematics Statement Curriculum Learning",
+        "url": "https://iclr.cc/virtual/2023/poster/11923",
+        "pdf_url": "https://openreview.net/pdf?id=-P7G-8dmSh4",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs",
+        "url": "https://icml.cc/virtual/2025/poster/44613",
+        "pdf_url": "https://openreview.net/pdf?id=dqcl5SNbc8",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Proving Olympiad Inequalities by Synergizing LLMs and Symbolic Reasoning",
+        "url": "https://iclr.cc/virtual/2025/poster/30331",
+        "pdf_url": "https://openreview.net/pdf?id=FiyS0ecSm0",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "BrokenMath: A Benchmark for Sycophancy in Theorem Proving with LLMs",
+        "url": "https://openreview.net/forum?id=o7avj3PWNC",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "RefGrader: Automated Grading of Mathematical Competition Proofs using Agentic Workflows",
+        "url": "https://openreview.net/forum?id=IpOlERVGgv",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "xLSTM 7B: A Recurrent LLM for Fast and Efficient Inference",
+        "url": "https://icml.cc/virtual/2025/poster/45587",
+        "pdf_url": "https://openreview.net/pdf?id=LV3DpKD08B",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Contrastive Reinforcement Learning of Symbolic Reasoning Domains",
+        "url": "https://nips.cc/virtual/2021/poster/26839",
+        "pdf_url": "https://openreview.net/pdf?id=ZarM_uLVyGw",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2021
+      },
+      {
+        "title": "Graft: Integrating the Domain Knowledge via Efficient Parameter Synergy for LLMs",
+        "url": "https://openreview.net/forum?id=jJskRGo4N5",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition",
+        "url": "https://neurips.cc/virtual/2024/poster/97811",
+        "pdf_url": "https://openreview.net/pdf?id=ChKCF75Ocd",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Fast Best-of-N Decoding via Speculative Rejection",
+        "url": "https://neurips.cc/virtual/2024/poster/96774",
+        "pdf_url": "https://openreview.net/pdf?id=348hfcprUs",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Developing Bug-Free Machine Learning Systems With Formal Mathematics",
+        "url": "https://icml.cc/virtual/2017/poster/849",
+        "pdf_url": "http://proceedings.mlr.press/v70/selsam17a/selsam17a.pdf",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2017
+      },
+      {
+        "title": "Retro-R1: LLM-based Agentic Retrosynthesis",
+        "url": "https://openreview.net/forum?id=30iBKSQMXn",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Large Language Models Think Too Fast To Explore Effectively",
+        "url": "https://openreview.net/forum?id=jW8nBi6y9F",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Usefulness-driven Learning of Formal Mathematics",
+        "url": "https://openreview.net/forum?id=zQGHxC6hr0",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "$\\texttt{CLR-Bench}$: Evaluating Large Language Models in College-Level Reasoning",
+        "url": "https://openreview.net/forum?id=ToVvoHpk4L",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "SwiReasoning: Switch-Thinking in Latent and Explicit for Pareto-Superior Reasoning LLMs",
+        "url": "https://openreview.net/forum?id=t33kMzEAg8",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Which LLMs Get the Joke? Probing Non-STEM Reasoning Abilities with HumorBench",
+        "url": "https://openreview.net/forum?id=tgJubHar53",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Hierarchy-Aided Sparse Attention For Fast LLMs Prefilling Inference",
+        "url": "https://openreview.net/forum?id=Hjk1tWIdvL",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Mathematical Capabilities of ChatGPT",
+        "url": "https://nips.cc/virtual/2023/poster/73421",
+        "pdf_url": "https://openreview.net/pdf?id=xJ7YWXQOrg",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2023
+      },
+      {
+        "title": "Autoformalization with Large Language Models",
+        "url": "https://nips.cc/virtual/2022/poster/52916",
+        "pdf_url": "https://openreview.net/pdf?id=IUikebJ1Bf0",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2022
+      },
+      {
+        "title": "HARDMath2: A Benchmark for Applied Mathematics Built by Students as Part of a Graduate Class",
+        "url": "https://openreview.net/forum?id=Oomuu63IqO",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "JudgeRail: Harnessing Open-Source LLMs for Fast Harmful Text Detection with Judicial Prompting and Logit Rectification",
+        "url": "https://openreview.net/forum?id=CEvGuwMum0",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Reforming the Mechanism: Editing Reasoning Patterns in LLMs with Circuit Reshaping",
+        "url": "https://openreview.net/forum?id=Af16P0ODP6",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "OMEGA: Can LLMs Reason Outside the Box in Math? Evaluating Exploratory, Compositional, and Transformative Generalization",
+        "url": "https://openreview.net/forum?id=gBxpAKxg22",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Beyond Autoregression: Fast LLMs via Self-Distillation Through Time",
+        "url": "https://iclr.cc/virtual/2025/poster/27972",
+        "pdf_url": "https://openreview.net/pdf?id=uZ5K4HeNwd",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "url": "http://arxiv.org/abs/2512.25073v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "url": "http://arxiv.org/abs/2512.25071v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "url": "http://arxiv.org/abs/2512.25072v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+        "url": "http://arxiv.org/abs/2512.25068v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25068v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "url": "http://arxiv.org/abs/2512.25067v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "url": "http://arxiv.org/abs/2512.25066v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "url": "http://arxiv.org/abs/2512.25065v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "On the geometry and topology of representations: the manifolds of modular addition",
+        "url": "http://arxiv.org/abs/2512.25060v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25060v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "url": "http://arxiv.org/abs/2512.25059v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The variety of orthogonal frames",
+        "url": "http://arxiv.org/abs/2512.25058v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25058v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The Logical Structure of Physical Laws: A Fixed Point Reconstruction",
+        "url": "http://arxiv.org/abs/2512.25057v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25057v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "url": "http://arxiv.org/abs/2512.25056v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "url": "http://arxiv.org/abs/2512.25055v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Bilinear tau forms of quantum Painlevé equations and $\\mathbb{C}^2/\\mathbb{Z}_2$ blowup relations in SUSY gauge theories",
+        "url": "http://arxiv.org/abs/2512.25051v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25051v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+        "url": "http://arxiv.org/abs/2512.25050v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25050v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Arithmetic with spatiotemporal optical vortex of integer and fractional topological charges",
+        "url": "http://arxiv.org/abs/2512.25049v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25049v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "url": "http://arxiv.org/abs/2512.25045v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "url": "http://arxiv.org/abs/2512.25042v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "On exact Observability for Compactly perturbed infinite dimension system",
+        "url": "http://arxiv.org/abs/2512.25041v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25041v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "url": "http://arxiv.org/abs/2512.25040v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The Hochschild homology of a noncommutative symmetric quotient stack",
+        "url": "http://arxiv.org/abs/2512.25039v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25039v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+        "url": "http://arxiv.org/abs/2512.25037v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25037v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Testing Monotonicity in a Finite Population",
+        "url": "http://arxiv.org/abs/2512.25032v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25032v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Multivariate Generalized Counting Process via Gamma Subordination",
+        "url": "http://arxiv.org/abs/2512.25030v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25030v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Mod $p$ Poincaré duality for $p$-adic period domains",
+        "url": "http://arxiv.org/abs/2512.25029v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25029v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Modewise Additive Factor Model for Matrix Time Series",
+        "url": "http://arxiv.org/abs/2512.25025v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25025v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "On Nonlinear Inertial Transformations",
+        "url": "http://arxiv.org/abs/2512.25024v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25024v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+        "url": "http://arxiv.org/abs/2512.25023v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25023v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Real Riemann Surfaces: Smooth and Discrete",
+        "url": "http://arxiv.org/abs/2512.25022v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25022v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Approximation Algorithms for Fair Repetitive Scheduling",
+        "url": "http://arxiv.org/abs/2512.25020v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25020v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Strengthening Dual Bounds for Multicommodity Capacitated Network Design with Unsplittable Flow Constraints",
+        "url": "http://arxiv.org/abs/2512.25018v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25018v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Convergence of the generalization error for deep gradient flow methods for PDEs",
+        "url": "http://arxiv.org/abs/2512.25017v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25017v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Approximations for the Weighted Reversal, Transposition, and Indel Distance Problem with Intergenic Region Information",
+        "url": "http://arxiv.org/abs/2512.25016v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25016v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+        "url": "http://arxiv.org/abs/2512.25015v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25015v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "A note on semistable unitary operators on $L^2(\\mathbb{R})$",
+        "url": "http://arxiv.org/abs/2512.25013v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25013v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "At the intersection of Numerical Analysis and Spectral Geometry",
+        "url": "http://arxiv.org/abs/2512.25012v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25012v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Bounding regularity of $\\mathrm{VI}^m$-modules",
+        "url": "http://arxiv.org/abs/2512.25010v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25010v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The splitting field and generators of the elliptic surface $Y^2=X^3 +t^{360} +1$",
+        "url": "http://arxiv.org/abs/2512.25009v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25009v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM",
+        "url": "http://arxiv.org/abs/2512.25008v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25008v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Fast Poisson brackets and constraint algebras in canonical gravity",
+        "url": "http://arxiv.org/abs/2512.25007v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25007v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Limit Theorems for Fixed Point Biased Pattern Avoiding Involutions",
+        "url": "http://arxiv.org/abs/2512.25006v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25006v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Grassmannian Geometries for Non-Planar On-Shell Diagrams",
+        "url": "http://arxiv.org/abs/2512.25005v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25005v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Uniqueness for stochastic differential equations in Hilbert spaces with irregular drift",
+        "url": "http://arxiv.org/abs/2512.25003v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25003v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The local limit of weighted spanning trees on balanced networks",
+        "url": "http://arxiv.org/abs/2512.25001v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25001v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Bi-C2R: Bidirectional Continual Compatible Representation for Re-indexing Free Lifelong Person Re-identification",
+        "url": "http://arxiv.org/abs/2512.25000v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25000v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Basic Inequalities for First-Order Optimization with Applications to Statistical Risk Analysis",
+        "url": "http://arxiv.org/abs/2512.24999v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24999v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Numerical study of boson mixtures with multi-component continuous matrix product states",
+        "url": "http://arxiv.org/abs/2512.24998v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24998v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Manifold classification from the descriptive viewpoint",
+        "url": "http://arxiv.org/abs/2512.24996v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24996v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+        "url": "http://arxiv.org/abs/2512.24991v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24991v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The Fourier extension conjecture for the paraboloid",
+        "url": "http://arxiv.org/abs/2512.24990v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24990v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "url": "http://arxiv.org/abs/2512.25070v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "A guide to the $2$-generated axial algebras of Monster type",
+        "url": "http://arxiv.org/abs/2512.24987v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24987v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+        "url": "http://arxiv.org/abs/2512.24986v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24986v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "DarkEQA: Benchmarking Vision-Language Models for Embodied Question Answering in Low-Light Indoor Environments",
+        "url": "http://arxiv.org/abs/2512.24985v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24985v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "A Modal Logic for Possibilistic Reasoning with Fuzzy Formal Contexts",
+        "url": "http://arxiv.org/abs/2512.24980v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24980v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Multi-Frequency Study of FRB20201124A with the uGMRT",
+        "url": "http://arxiv.org/abs/2512.24978v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24978v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Graphicality of power-law and double power-law degree sequences",
+        "url": "http://arxiv.org/abs/2512.24976v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24976v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "From Complex-Analytic Models to Sparse Domination: A Dyadic Approach of Hypersingular Operators via Bourgain's Interpolation Method",
+        "url": "http://arxiv.org/abs/2512.24972v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24972v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Large language models and the entropy of English",
+        "url": "http://arxiv.org/abs/2512.24969v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24969v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The Impact of LLMs on Online News Consumption and Production",
+        "url": "http://arxiv.org/abs/2512.24968v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24968v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Cartier duality for gerbes of vector bundles",
+        "url": "http://arxiv.org/abs/2512.24967v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24967v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Approximating evolution operators of linear delay equations: a general framework for the convergence analysis",
+        "url": "http://arxiv.org/abs/2512.24964v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24964v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Decoupling Knowledge and Reasoning in LLMs: An Exploration Using Cognitive Dual-System Theory",
+        "url": "https://www.semanticscholar.org/paper/7edf4896643cf4df934e846cb1217d7c06e3b591",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2507.18178",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "From System 1 to System 2: A Survey of Reasoning Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/f4195d4e283e289665cfc7a65fde2fa7b8814091",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2502.17419",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Pangu Embedded: An Efficient Dual-system LLM Reasoner with Metacognition",
+        "url": "https://www.semanticscholar.org/paper/c2699ff6ea7c112c7e6fc38d4306593c28e711f4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.22375",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "MASA: LLM-Driven Multi-Agent Systems for Autoformalization",
+        "url": "https://www.semanticscholar.org/paper/2566390661f701cf95eb420df337fa7a566409b8",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.18653/v1/2025.emnlp-demos.44",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "HuatuoGPT-o1, Towards Medical Complex Reasoning with LLMs",
+        "url": "https://www.semanticscholar.org/paper/a9161bb1bf727532e1a4aacb7ba1d7cf175edde0",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2412.18925",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Dualformer: Controllable Fast and Slow Thinking by Learning with Randomized Reasoning Traces",
+        "url": "https://www.semanticscholar.org/paper/48472a217174053a146b0ebd3821e71b53f05a36",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2410.09918",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "What Happened in LLMs Layers when Trained for Fast vs. Slow Thinking: A Gradient Perspective",
+        "url": "https://www.semanticscholar.org/paper/64f5265fa0cf844fe6a61c0889e4e8edf29da6a2",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2410.23743",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Can We Further Elicit Reasoning in LLMs? Critic-Guided Planning with Retrieval-Augmentation for Solving Challenging Tasks",
+        "url": "https://www.semanticscholar.org/paper/8e90bba98fdd41a9046ba00ad527441a447c56bb",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2410.01428",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Bias Runs Deep: Implicit Reasoning Biases in Persona-Assigned LLMs",
+        "url": "https://www.semanticscholar.org/paper/1b0e3360b3341fc411a6c7841173a8d78ac2ab43",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2311.04892",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+        "url": "https://www.semanticscholar.org/paper/143e18bfd7c356592e7c1439738a3525d3e16279",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2504.13837",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "CMM-Math: A Chinese Multimodal Math Dataset To Evaluate and Enhance the Mathematics Reasoning of Large Multimodal Models",
+        "url": "https://www.semanticscholar.org/paper/344a9642b76c83143289db8f9fc535e74afd0421",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3746027.3758193",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs",
+        "url": "https://www.semanticscholar.org/paper/501f8a0200a12a6f3906c1e4f3f40715e0e7d23a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2406.18629",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Assessing the Reasoning Capabilities of LLMs in the context of Evidence-based Claim Verification",
+        "url": "https://www.semanticscholar.org/paper/a0a495e4bab4d236fd284dc0edc62062761b0a09",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.18653/v1/2025.findings-acl.1059",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+        "url": "https://www.semanticscholar.org/paper/829b25b13de12d81be2eedda52a2309b8a8fccd4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1038/s41586-025-09422-z",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Advancing Multimodal LLMs: A Focus on Geometry Problem Solving Reasoning and Sequential Scoring",
+        "url": "https://www.semanticscholar.org/paper/f2707632bef94d88f41f181b162476c5adbeef0d",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3696409.3700262",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "CriticBench: Benchmarking LLMs for Critique-Correct Reasoning",
+        "url": "https://www.semanticscholar.org/paper/6f24e0782300dca8a4cefcb5a3ccba94bfbb1395",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2402.14809",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "MathGenie: Generating Synthetic Data with Question Back-translation for Enhancing Mathematical Reasoning of LLMs",
+        "url": "https://www.semanticscholar.org/paper/135da052891fdcf3842901b6b7585ca8c258f1c2",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2402.16352",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "How Numerical Precision Affects Arithmetical Reasoning Capabilities of LLMs",
+        "url": "https://www.semanticscholar.org/paper/aad23e8f699bec8c1c6ebf2636f5446ec970033e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.18653/v1/2025.findings-acl.3",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Tree-of-Mixed-Thought: Combining Fast and Slow Thinking for Multi-hop Visual Reasoning",
+        "url": "https://www.semanticscholar.org/paper/ecfe2becc1040d3810c10f006d4be43b4eef3c41",
+        "pdf_url": "https://arxiv.org/pdf/2308.09658",
+        "doi_url": "https://doi.org/10.48550/arXiv.2308.09658",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "From Next-Token to Mathematics: The Learning Dynamics of Mathematical Reasoning in Language Models",
+        "url": "https://www.semanticscholar.org/paper/4d44edd5c040f215bb04b99298c6f2ba5f8150b7",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Can Language Models Rival Mathematics Students? Evaluating Mathematical Reasoning through Textual Manipulation and Human Experiments",
+        "url": "https://www.semanticscholar.org/paper/41158974c85e97f0c5575c0b5b3413640c14c567",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2412.11908",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Evaluating LLMs' Mathematical Reasoning in Financial Document Question Answering",
+        "url": "https://www.semanticscholar.org/paper/a4feb9b216ac5c84ac636fdd2f608105709cf979",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2402.11194",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "CHAMP: A Competition-level Dataset for Fine-Grained Analyses of LLMs' Mathematical Reasoning Capabilities",
+        "url": "https://www.semanticscholar.org/paper/bc8e76e9541dd07a094540d262a864b65505cab7",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2401.06961",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "MindStar: Enhancing Math Reasoning in Pre-trained LLMs at Inference Time",
+        "url": "https://www.semanticscholar.org/paper/36e6a2fecd40f41e3c45d79d3ed44e505ea10ac3",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2405.16265",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "LLMs can Find Mathematical Reasoning Mistakes by Pedagogical Chain-of-Thought",
+        "url": "https://www.semanticscholar.org/paper/e9aef5349df9eaf151b6cbdb60a2e269206e70b7",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2405.06705",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "BIDTrainer: An LLMs-driven Education Tool for Enhancing the Understanding and Reasoning in Bio-inspired Design",
+        "url": "https://www.semanticscholar.org/paper/d673bf9be37a7c6b41b39439846eac444d894125",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3613904.3642887",
+        "doi_url": "https://doi.org/10.1145/3613904.3642887",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning",
+        "url": "https://www.semanticscholar.org/paper/cddb552f6c3464a54a02b0b64b2d1af56c086606",
+        "pdf_url": "https://arxiv.org/pdf/2310.03731",
+        "doi_url": "https://doi.org/10.48550/arXiv.2310.03731",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Time Series Forecasting as Reasoning: A Slow-Thinking Approach with Reinforced LLMs",
+        "url": "https://www.semanticscholar.org/paper/14998ec52d42803c891295d00e1dbd8183427342",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.10630",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Reasoning on a Spectrum: Aligning LLMs to System 1 and System 2 Thinking",
+        "url": "https://www.semanticscholar.org/paper/e446584d601cba65c5155b2fc4cf110fc0c7da79",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2502.12470",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "A Survey of Slow Thinking-based Reasoning LLMs using Reinforced Learning and Inference-time Scaling Law",
+        "url": "https://www.semanticscholar.org/paper/c2feda1e804700d0980d71cfc71ce66d369b6b6c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.02665",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "TIME: A Multi-level Benchmark for Temporal Reasoning of LLMs in Real-World Scenarios",
+        "url": "https://www.semanticscholar.org/paper/61cf800a8669b76592a08b3e84bd24a6aac26a9c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.12891",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Win Fast or Lose Slow: Balancing Speed and Accuracy in Latency-Sensitive Decisions of LLMs",
+        "url": "https://www.semanticscholar.org/paper/c34cee11069f9181e83b8dfc3023b2fb6bac0811",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.19481",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "ABench-Physics: Benchmarking Physical Reasoning in LLMs via High-Difficulty and Dynamic Physics Problems",
+        "url": "https://www.semanticscholar.org/paper/1a7b627b5a905eab8a799000475143a4abc1da85",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2507.04766",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "One Example Shown, Many Concepts Known! Counterexample-Driven Conceptual Reasoning in Mathematical LLMs",
+        "url": "https://www.semanticscholar.org/paper/15eee39bb4d976b31d34beac789e7077fc4794e7",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2502.10454",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "PDE-Controller: LLMs for Autoformalization and Reasoning of PDEs",
+        "url": "https://www.semanticscholar.org/paper/f4fc225ffe0b925f04ae1929f15d5406971f56b3",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2502.00963",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Direct Reasoning Optimization: LLMs Can Reward And Refine Their Own Reasoning for Open-Ended Tasks",
+        "url": "https://www.semanticscholar.org/paper/1d1ae58b4c12c0f8d9774d0ce1410d34a3773422",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.13351",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "EPO: Explicit Policy Optimization for Strategic Reasoning in LLMs via Reinforcement Learning",
+        "url": "https://www.semanticscholar.org/paper/e495cdd1c62281b67677103650b885d4eaf151c5",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2502.12486",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Psyche-R1: Towards Reliable Psychological LLMs through Unified Empathy, Expertise, and Reasoning",
+        "url": "https://www.semanticscholar.org/paper/16bc1e802ebe56fc6aba0e0f5fa9a9d9cf20c355",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2508.10848",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Benchmarking LLMs'Mathematical Reasoning with Unseen Random Variables Questions",
+        "url": "https://www.semanticscholar.org/paper/ebec6f3b2780ebc3e2b6e7761bffc876fed505d2",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "HiPO: Hybrid Policy Optimization for Dynamic Reasoning in LLMs",
+        "url": "https://www.semanticscholar.org/paper/232f1332c85b96a06d59442260d81728a6fabcba",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2509.23967",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Training LLMs for EHR-Based Reasoning Tasks via Reinforcement Learning",
+        "url": "https://www.semanticscholar.org/paper/d9d8984f2cf7e8eae12fe1a4b2f21e1bf7160202",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.24105",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "SAND-Math: Using LLMs to Generate Novel, Difficult and Useful Mathematics Questions and Answers",
+        "url": "https://www.semanticscholar.org/paper/5dfb28ff182f11234ed685471b450b393e180c62",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2507.20527",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Weaker LLMs' Opinions Also Matter: Mixture of Opinions Enhances LLM's Mathematical Reasoning",
+        "url": "https://www.semanticscholar.org/paper/8ed670805abf99b723a3ae4fe9abc58ae1bd8c2e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2502.19622",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "From Reasoning to Generalization: Knowledge-Augmented LLMs for ARC Benchmark",
+        "url": "https://www.semanticscholar.org/paper/857b67284f81a87143abc8cf9911b7f14121b24f",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.17482",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Thinking Machines: Mathematical Reasoning in the Age of LLMs",
+        "url": "https://www.semanticscholar.org/paper/59d66d2bb1895cf54d2d89036db8e8092852c664",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2508.00459",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "SuperCLUE-Math6: Graded Multi-Step Math Reasoning Benchmark for LLMs in Chinese",
+        "url": "https://www.semanticscholar.org/paper/b15ef4e49d4757316337dad2c65066227f10cbd0",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2401.11819",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Graph-ToolFormer: To Empower LLMs with Graph Reasoning Ability via Prompt Augmented by ChatGPT",
+        "url": "https://www.semanticscholar.org/paper/0d502a1e300336ae628f5c8b99ee4d3766c8f60b",
+        "pdf_url": "http://arxiv.org/pdf/2304.11116",
+        "doi_url": "https://doi.org/10.48550/arXiv.2304.11116",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/05506581cade1a8ef6372616cec20b81a3d5c366",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Think Silently, Think Fast: Dynamic Latent Compression of LLM Reasoning Chains",
+        "url": "https://www.semanticscholar.org/paper/ab4800a924508f49d644ced8ba236ec92f54f566",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.16552",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Exposing the Achilles' Heel: Evaluating LLMs Ability to Handle Mistakes in Mathematical Reasoning",
+        "url": "https://www.semanticscholar.org/paper/a95e16c6bbf912a2452fc974d3f6a50482726877",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2406.10834",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Fast, Slow, and Tool-augmented Thinking for LLMs: A Review",
+        "url": "https://www.semanticscholar.org/paper/7bdda23a6e293ff03db8be0a19fa51855e7de51c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2508.12265",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Integrating LLMs and RAG Techniques Into Mathematics Learning for Engineering Students",
+        "url": "https://www.semanticscholar.org/paper/c98f3d2fcba60f714b46da82ed1e27916046fe52",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/AIR63653.2024.00021",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Extracting Reasoning Patterns from Knowledge Graph to Enhance LLMs' Reasoning Capability",
+        "url": "https://www.semanticscholar.org/paper/65ec23977f6bbe06688961f4ab65b663b536c00f",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/JCC67032.2025.00010",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Evaluating LLMs on Kazakhstan's mathematics exam for university admission",
+        "url": "https://www.semanticscholar.org/paper/1178192ba92ac054078d83f4b7adfb203cb4dc99",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.3389/frai.2025.1642570",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "ChemAU: Harness the Reasoning of LLMs in Chemical Research with Adaptive Uncertainty Estimation",
+        "url": "https://www.semanticscholar.org/paper/19b7d83e982518c76e3c19cda532ac13f03592d5",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.01116",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Thinking Fast and Right: Balancing Accuracy and Reasoning Length with Adaptive Rewards",
+        "url": "https://www.semanticscholar.org/paper/0ba8cbebdbb3a91f984313d33e76fe5946b96ad4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.18298",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Fast on the Easy, Deep on the Hard: Efficient Reasoning via Powered Length Penalty",
+        "url": "https://www.semanticscholar.org/paper/010c508b6e23d253bb47934ea3433251d3aebc33",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.10446",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Scheherazade: Evaluating Chain-of-Thought Math Reasoning in LLMs with Chain-of-Problems",
+        "url": "https://www.semanticscholar.org/paper/a3eacbe7f70240a5c8830ec729ad786d018b922e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2410.00151",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Fast Think-on-Graph: Wider, Deeper and Faster Reasoning of Large Language Model on Knowledge Graph",
+        "url": "https://www.semanticscholar.org/paper/1dc16188838dfd053a17e77a5154348f62c5db33",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2501.14300",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Enhancing Mathematical Reasoning in LLMs by Stepwise Correction",
+        "url": "https://www.semanticscholar.org/paper/8d402896d7afd49cc1289978347347c8c1c0dfc1",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2410.12934",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Multilingual Mathematical Reasoning: Advancing Open-Source LLMs in Hindi and English",
+        "url": "https://www.semanticscholar.org/paper/8147c5503cb8ea33ed25540c854fdfadaabc1032",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2412.18415",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Federated Prompting and Chain-of-Thought Reasoning for Improving LLMs Answering",
+        "url": "https://www.semanticscholar.org/paper/a7c0d9bf44045c9d4c41e329e2a87df0ae7e0af6",
+        "pdf_url": "http://arxiv.org/pdf/2304.13911",
+        "doi_url": "https://doi.org/10.48550/arXiv.2304.13911",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "FRoG: Evaluating Fuzzy Reasoning of Generalized Quantifiers in LLMs",
+        "url": "https://www.semanticscholar.org/paper/3b0bd8fc6dfe28840e282f20bb195b7d105bd6a6",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.18653/v1/2024.emnlp-main.411",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Guiding LLMs The Right Way: Fast, Non-Invasive Constrained Generation",
+        "url": "https://www.semanticscholar.org/paper/b95ca121a606da32180ab8bb0c0c58bf19b1499b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2403.06988",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Hallucination Detection in LLMs: Fast and Memory-Efficient Finetuned Models",
+        "url": "https://www.semanticscholar.org/paper/e66f9a0fbda43e311d51ab0f0e9d1637c41b3385",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2409.02976",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "A Comprehensive Study on NLP Data Augmentation for Hate Speech Detection: Legacy Methods, BERT, and LLMs",
+        "url": "https://www.semanticscholar.org/paper/8fbeb8fff13e9489d6e9f0cf7459e18b024b3d10",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2404.00303",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "FASTTRACK: Fast and Accurate Fact Tracing for LLMs",
+        "url": "https://www.semanticscholar.org/paper/187eaacc793b283bc9295fbca5238e158631cdc7",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2404.15157",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Small and Fast LLMs on Commodity Hardware: Post-Training Quantization in llama. cpp",
+        "url": "https://www.semanticscholar.org/paper/972768785c213c433e853d6ca68a02cb5b3af745",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/DSAA65442.2025.11247985",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Efficient Adversarial Training in LLMs with Continuous Attacks",
+        "url": "https://www.semanticscholar.org/paper/723ae07c5c8921eb94ac52528c8a53bec837c5a9",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2405.15589",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Everybody Prune Now: Structured Pruning of LLMs with only Forward Passes",
+        "url": "https://www.semanticscholar.org/paper/6f7f4f97890dae5cdee3d5df9ca932cae486e1ba",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2402.05406",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Integrating LLMs into Mathematics Laboratories Alongside CAS",
+        "url": "https://www.semanticscholar.org/paper/b3e0df73848d18309b827b98d58550255a6a028d",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.3991/ijep.v15i3.53151",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "EBFT: Effective and Block-Wise Fine-Tuning for Sparse LLMs",
+        "url": "https://www.semanticscholar.org/paper/0c41cfc99c77c0cca5eff8767ac60128dafa124a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2402.12419",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Rollout Roulette: A Probabilistic Inference Approach to Inference-Time Scaling of LLMs using Particle-Based Monte Carlo Methods",
+        "url": "https://www.semanticscholar.org/paper/38af83f87c61177aa96eeba8a07a1e0922241532",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Have LLMs Advanced Enough? A Challenging Problem Solving Benchmark For Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/2cf1f6c723006f258599fd9f000bb616ae83387a",
+        "pdf_url": "https://arxiv.org/pdf/2305.15074",
+        "doi_url": "https://doi.org/10.48550/arXiv.2305.15074",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "PipeRAG: Fast Retrieval-Augmented Generation via Algorithm-System Co-design",
+        "url": "https://www.semanticscholar.org/paper/858cbd99d5a3d2658254d055cd26e06f81050927",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2403.05676",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "TheoremLlama: Transforming General-Purpose LLMs into Lean4 Experts",
+        "url": "https://www.semanticscholar.org/paper/a9de58b1ad7e052dfc21f0363ec3809b5f9e5b7b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2407.03203",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "How to Train Data-Efficient LLMs",
+        "url": "https://www.semanticscholar.org/paper/31b2918acc77682b5a499da1aa111f34e76d9603",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2402.09668",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Preference Fine-Tuning of LLMs Should Leverage Suboptimal, On-Policy Data",
+        "url": "https://www.semanticscholar.org/paper/cd3359ed7119210bfa0b34ba5796d1314a05e212",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2404.14367",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "BitDistiller: Unleashing the Potential of Sub-4-Bit LLMs via Self-Distillation",
+        "url": "https://www.semanticscholar.org/paper/52258e9110f8e73cca24f6394bfc483341b459a4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2402.10631",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "HOBBIT: A Mixed Precision Expert Offloading System for Fast MoE Inference",
+        "url": "https://www.semanticscholar.org/paper/300f45605c373826bf7d1800749bc85305276a7f",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2411.01433",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "GaLore+: Boosting Low-Rank Adaptation for LLMs with Cross-Head Projection",
+        "url": "https://www.semanticscholar.org/paper/aad8d15c32ef86a1ad77cbd3d432f6d9d4183ac6",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2412.19820",
+        "source": "semantic_scholar",
+        "year": 2024
+      }
+    ],
+    "by_source": {
+      "offline_nips": [
+        {
+          "title": "RealMath: A Continuous Benchmark for Evaluating Language Models on Research-Level Mathematics",
+          "url": "https://openreview.net/forum?id=RBssYVpQEr",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Mixing Expert Knowledge: Bring Human Thoughts Back To the Game of Go",
+          "url": "https://openreview.net/forum?id=baNBqpzvMT",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Beyond Chemical QA: Evaluating LLM's Chemical Reasoning with Modular Chemical Operations",
+          "url": "https://openreview.net/forum?id=mvahXacGWg",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "SolidGeo: Measuring Multimodal Spatial Math Reasoning in Solid Geometry",
+          "url": "https://openreview.net/forum?id=nQq4bMcP7L",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "CLAWS:Creativity detection for LLM-generated solutions using Attention Window of Sections",
+          "url": "https://openreview.net/forum?id=yiSoT2pHfk",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Scaling Physical Reasoning with the PHYSICS Dataset",
+          "url": "https://openreview.net/forum?id=1lo778KztK",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Convergence Properties of the K-Means Algorithms",
+          "url": "https://papers.nips.cc/paper_files/paper/1994/hash/a1140a3d0df1c81e24ae954d935e8926-Abstract.html",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/1994/file/a1140a3d0df1c81e24ae954d935e8926-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 1994
+        },
+        {
+          "title": "Learning Formal Mathematics From Intrinsic Motivation",
+          "url": "https://neurips.cc/virtual/2024/poster/93276",
+          "pdf_url": "https://openreview.net/pdf?id=uNKlTQ8mBD",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Contrastive Reinforcement Learning of Symbolic Reasoning Domains",
+          "url": "https://nips.cc/virtual/2021/poster/26839",
+          "pdf_url": "https://openreview.net/pdf?id=ZarM_uLVyGw",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2021
+        },
+        {
+          "title": "PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition",
+          "url": "https://neurips.cc/virtual/2024/poster/97811",
+          "pdf_url": "https://openreview.net/pdf?id=ChKCF75Ocd",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Fast Best-of-N Decoding via Speculative Rejection",
+          "url": "https://neurips.cc/virtual/2024/poster/96774",
+          "pdf_url": "https://openreview.net/pdf?id=348hfcprUs",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Retro-R1: LLM-based Agentic Retrosynthesis",
+          "url": "https://openreview.net/forum?id=30iBKSQMXn",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Large Language Models Think Too Fast To Explore Effectively",
+          "url": "https://openreview.net/forum?id=jW8nBi6y9F",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Mathematical Capabilities of ChatGPT",
+          "url": "https://nips.cc/virtual/2023/poster/73421",
+          "pdf_url": "https://openreview.net/pdf?id=xJ7YWXQOrg",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2023
+        },
+        {
+          "title": "Autoformalization with Large Language Models",
+          "url": "https://nips.cc/virtual/2022/poster/52916",
+          "pdf_url": "https://openreview.net/pdf?id=IUikebJ1Bf0",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2022
+        },
+        {
+          "title": "HARDMath2: A Benchmark for Applied Mathematics Built by Students as Part of a Graduate Class",
+          "url": "https://openreview.net/forum?id=Oomuu63IqO",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "OMEGA: Can LLMs Reason Outside the Box in Math? Evaluating Exploratory, Compositional, and Transformative Generalization",
+          "url": "https://openreview.net/forum?id=gBxpAKxg22",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        }
+      ],
+      "offline_iclr": [
+        {
+          "title": "Finding the Cracks: Improving LLMs Reasoning with Paraphrastic Probing and Consistency Verification",
+          "url": "https://openreview.net/forum?id=vqBatdoexa",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "HARDMath: A Benchmark Dataset for Challenging Problems in Applied Mathematics",
+          "url": "https://iclr.cc/virtual/2025/poster/28419",
+          "pdf_url": "https://openreview.net/pdf?id=nDTvP6tBMd",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Do LLMs Perform Multilingual Multi-step Reasoning?",
+          "url": "https://openreview.net/forum?id=71RJC2vTjQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "CellDuality: Unlocking Biological Reasoning in LLMs with Self-Supervised RLVR",
+          "url": "https://openreview.net/forum?id=I4meJN28Ol",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "FEABench: Evaluating Language Models on Real World Physics Reasoning Ability",
+          "url": "https://openreview.net/forum?id=hDkLpu1E64",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "CS-Bench: A Comprehensive Benchmark for Large Language Models towards Computer Science Mastery",
+          "url": "https://iclr.cc/virtual/2025/poster/28862",
+          "pdf_url": "https://openreview.net/pdf?id=fjEZ2LPceZ",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Don't Trust: Verify -- Grounding LLM Quantitative Reasoning with Autoformalization",
+          "url": "https://iclr.cc/virtual/2024/poster/18508",
+          "pdf_url": "https://openreview.net/pdf?id=V5tdi14ple",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "From Abstract to Contextual: What LLMs Still Cannot Do in Mathematics",
+          "url": "https://openreview.net/forum?id=KBknLdXxTa",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Think in Games: Learning to Reason in Games via Reinforcement Learning with Large Language Models",
+          "url": "https://openreview.net/forum?id=LlvOaj1bqF",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "PRISM-Physics: Causal DAG-Based Process Evaluation for Physics Reasoning",
+          "url": "https://openreview.net/forum?id=4PZMeopXzP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Paramanu-Ganita: An Efficient Pre-trained Generative Mathematics Language Model with Chain-of-Thought Instruction Fine-Tuning",
+          "url": "https://openreview.net/forum?id=v3DwQlyGbv",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "NeuralPCG: Learning Preconditioner for Solving Partial Differential Equations with Graph Neural Network",
+          "url": "https://openreview.net/forum?id=IDSXUFQeZO5",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Voice Evaluation of Reasoning Ability: Diagnosing the Modality-Induced Performance Gap",
+          "url": "https://openreview.net/forum?id=bA51NZVNFT",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "CombiGraph-Vis: A Multimodal Olympiad Benchmark for Discrete Mathematical Reasoning",
+          "url": "https://openreview.net/forum?id=WvH8ZVw3m9",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Knowledge-to-Verification: Unlocking Reinforcement Learning with Verifiable Rewards for LLMs in Knowledge-Intensive Domains",
+          "url": "https://openreview.net/forum?id=EVS7SeKBqI",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "VisioMath: Benchmarking Figure-based Mathematical Reasoning in LMMs",
+          "url": "https://openreview.net/forum?id=31pzK2VSQQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Analysing Mathematical Reasoning Abilities of Neural Models",
+          "url": "https://iclr.cc/virtual/2019/poster/933",
+          "pdf_url": "https://openreview.net/pdf?id=H1gR5iR5FX",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2019
+        },
+        {
+          "title": "HDFlow: Enhancing LLM Complex Problem-Solving with Hybrid Thinking and Dynamic Workflows",
+          "url": "https://openreview.net/forum?id=wGqf7YMF8R",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "EDINET-Bench: Evaluating LLMs on Complex Financial Tasks using Japanese Financial Statements",
+          "url": "https://openreview.net/forum?id=Dxns0cj15A",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Scaling up Multi-Turn Off-Policy RL and Multi-Agent Tree Search for LLM Step-Provers",
+          "url": "https://openreview.net/forum?id=TfwePIKzXJ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "IndiMathBench: Autoformalizing Mathematical Reasoning Problems with a Human Touch",
+          "url": "https://openreview.net/forum?id=tmReo37kl2",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "TopoAlign: A Framework for Aligning Code to Math via Topological Decomposition",
+          "url": "https://openreview.net/forum?id=OEPP8T0zUX",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "SubgoalXL: Subgoal-based Expert Learning for Theorem Proving",
+          "url": "https://openreview.net/forum?id=mb2rHLcKN5",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "TCMReasonSet: A Dataset for Explainable Medical Reasoning in Traditional Chinese Medicine",
+          "url": "https://openreview.net/forum?id=XbiluWvVWO",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Deep Learning For Symbolic Mathematics",
+          "url": "https://openreview.net/forum?id=S1eZYeHFDS",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2020
+        },
+        {
+          "title": "miniF2F: a cross-system benchmark for formal Olympiad-level mathematics",
+          "url": "https://iclr.cc/virtual/2022/poster/6258",
+          "pdf_url": "https://openreview.net/pdf?id=9ZPegFuFTFv",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2022
+        },
+        {
+          "title": "Generative Adversarial Optimization: Dual-Reward Reinforcement Learning for Mathematics Reasoning",
+          "url": "https://openreview.net/forum?id=Ccu21bGqRv",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ProofNet: Autoformalizing and Formally Proving Undergraduate-Level Mathematics",
+          "url": "https://openreview.net/forum?id=Zix86UbMGh",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Pretrained Language Models are Symbolic Mathematics Solvers too!",
+          "url": "https://openreview.net/forum?id=F7_odJIeQ26",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2022
+        },
+        {
+          "title": "OptiBench Meets ReSocratic: Measure and Improve LLMs for Optimization Modeling",
+          "url": "https://iclr.cc/virtual/2025/poster/28850",
+          "pdf_url": "https://openreview.net/pdf?id=fsDZwS49uY",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Towards a Mathematics Formalisation Assistant using Large Language Models",
+          "url": "https://openreview.net/forum?id=pKu077C57fH",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Llemma: An Open Language Model for Mathematics",
+          "url": "https://iclr.cc/virtual/2024/poster/19459",
+          "pdf_url": "https://openreview.net/pdf?id=4WnqRR915j",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "UpSkill: Mutual Information Skill learning for Structured Response Diversity in LLMs",
+          "url": "https://openreview.net/forum?id=cNZEPEKKEh",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Formal Mathematics Statement Curriculum Learning",
+          "url": "https://iclr.cc/virtual/2023/poster/11923",
+          "pdf_url": "https://openreview.net/pdf?id=-P7G-8dmSh4",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Proving Olympiad Inequalities by Synergizing LLMs and Symbolic Reasoning",
+          "url": "https://iclr.cc/virtual/2025/poster/30331",
+          "pdf_url": "https://openreview.net/pdf?id=FiyS0ecSm0",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "BrokenMath: A Benchmark for Sycophancy in Theorem Proving with LLMs",
+          "url": "https://openreview.net/forum?id=o7avj3PWNC",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "RefGrader: Automated Grading of Mathematical Competition Proofs using Agentic Workflows",
+          "url": "https://openreview.net/forum?id=IpOlERVGgv",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Graft: Integrating the Domain Knowledge via Efficient Parameter Synergy for LLMs",
+          "url": "https://openreview.net/forum?id=jJskRGo4N5",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Usefulness-driven Learning of Formal Mathematics",
+          "url": "https://openreview.net/forum?id=zQGHxC6hr0",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "$\\texttt{CLR-Bench}$: Evaluating Large Language Models in College-Level Reasoning",
+          "url": "https://openreview.net/forum?id=ToVvoHpk4L",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "SwiReasoning: Switch-Thinking in Latent and Explicit for Pareto-Superior Reasoning LLMs",
+          "url": "https://openreview.net/forum?id=t33kMzEAg8",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Which LLMs Get the Joke? Probing Non-STEM Reasoning Abilities with HumorBench",
+          "url": "https://openreview.net/forum?id=tgJubHar53",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Hierarchy-Aided Sparse Attention For Fast LLMs Prefilling Inference",
+          "url": "https://openreview.net/forum?id=Hjk1tWIdvL",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "JudgeRail: Harnessing Open-Source LLMs for Fast Harmful Text Detection with Judicial Prompting and Logit Rectification",
+          "url": "https://openreview.net/forum?id=CEvGuwMum0",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Reforming the Mechanism: Editing Reasoning Patterns in LLMs with Circuit Reshaping",
+          "url": "https://openreview.net/forum?id=Af16P0ODP6",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Beyond Autoregression: Fast LLMs via Self-Distillation Through Time",
+          "url": "https://iclr.cc/virtual/2025/poster/27972",
+          "pdf_url": "https://openreview.net/pdf?id=uZ5K4HeNwd",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "Improving Rationality in the Reasoning Process of Language Models through Self-playing Game",
+          "url": "https://icml.cc/virtual/2025/poster/45387",
+          "pdf_url": "https://openreview.net/pdf?id=PPsiS5nSlv",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Machine Learning meets Algebraic Combinatorics: A Suite of Datasets Capturing Research-level Conjecturing Ability in Pure Mathematics",
+          "url": "https://icml.cc/virtual/2025/poster/43763",
+          "pdf_url": "https://openreview.net/pdf?id=tlniJJFUW2",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs",
+          "url": "https://icml.cc/virtual/2025/poster/44613",
+          "pdf_url": "https://openreview.net/pdf?id=dqcl5SNbc8",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "xLSTM 7B: A Recurrent LLM for Fast and Efficient Inference",
+          "url": "https://icml.cc/virtual/2025/poster/45587",
+          "pdf_url": "https://openreview.net/pdf?id=LV3DpKD08B",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Developing Bug-Free Machine Learning Systems With Formal Mathematics",
+          "url": "https://icml.cc/virtual/2017/poster/849",
+          "pdf_url": "http://proceedings.mlr.press/v70/selsam17a/selsam17a.pdf",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2017
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+          "url": "http://arxiv.org/abs/2512.25073v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+          "url": "http://arxiv.org/abs/2512.25071v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Coordinated Humanoid Manipulation with Choice Policies",
+          "url": "http://arxiv.org/abs/2512.25072v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+          "url": "http://arxiv.org/abs/2512.25068v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25068v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+          "url": "http://arxiv.org/abs/2512.25067v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+          "url": "http://arxiv.org/abs/2512.25066v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+          "url": "http://arxiv.org/abs/2512.25065v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "On the geometry and topology of representations: the manifolds of modular addition",
+          "url": "http://arxiv.org/abs/2512.25060v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25060v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+          "url": "http://arxiv.org/abs/2512.25059v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The variety of orthogonal frames",
+          "url": "http://arxiv.org/abs/2512.25058v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25058v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The Logical Structure of Physical Laws: A Fixed Point Reconstruction",
+          "url": "http://arxiv.org/abs/2512.25057v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25057v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+          "url": "http://arxiv.org/abs/2512.25056v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+          "url": "http://arxiv.org/abs/2512.25055v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bilinear tau forms of quantum Painlevé equations and $\\mathbb{C}^2/\\mathbb{Z}_2$ blowup relations in SUSY gauge theories",
+          "url": "http://arxiv.org/abs/2512.25051v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25051v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+          "url": "http://arxiv.org/abs/2512.25050v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25050v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Arithmetic with spatiotemporal optical vortex of integer and fractional topological charges",
+          "url": "http://arxiv.org/abs/2512.25049v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25049v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+          "url": "http://arxiv.org/abs/2512.25045v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Compound Estimation for Binomials",
+          "url": "http://arxiv.org/abs/2512.25042v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "On exact Observability for Compactly perturbed infinite dimension system",
+          "url": "http://arxiv.org/abs/2512.25041v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25041v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+          "url": "http://arxiv.org/abs/2512.25040v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The Hochschild homology of a noncommutative symmetric quotient stack",
+          "url": "http://arxiv.org/abs/2512.25039v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25039v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+          "url": "http://arxiv.org/abs/2512.25037v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25037v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Testing Monotonicity in a Finite Population",
+          "url": "http://arxiv.org/abs/2512.25032v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25032v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Multivariate Generalized Counting Process via Gamma Subordination",
+          "url": "http://arxiv.org/abs/2512.25030v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25030v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Mod $p$ Poincaré duality for $p$-adic period domains",
+          "url": "http://arxiv.org/abs/2512.25029v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25029v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Modewise Additive Factor Model for Matrix Time Series",
+          "url": "http://arxiv.org/abs/2512.25025v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25025v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "On Nonlinear Inertial Transformations",
+          "url": "http://arxiv.org/abs/2512.25024v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25024v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+          "url": "http://arxiv.org/abs/2512.25023v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25023v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Real Riemann Surfaces: Smooth and Discrete",
+          "url": "http://arxiv.org/abs/2512.25022v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25022v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Approximation Algorithms for Fair Repetitive Scheduling",
+          "url": "http://arxiv.org/abs/2512.25020v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25020v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Strengthening Dual Bounds for Multicommodity Capacitated Network Design with Unsplittable Flow Constraints",
+          "url": "http://arxiv.org/abs/2512.25018v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25018v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Convergence of the generalization error for deep gradient flow methods for PDEs",
+          "url": "http://arxiv.org/abs/2512.25017v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25017v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Approximations for the Weighted Reversal, Transposition, and Indel Distance Problem with Intergenic Region Information",
+          "url": "http://arxiv.org/abs/2512.25016v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25016v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+          "url": "http://arxiv.org/abs/2512.25015v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25015v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "A note on semistable unitary operators on $L^2(\\mathbb{R})$",
+          "url": "http://arxiv.org/abs/2512.25013v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25013v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "At the intersection of Numerical Analysis and Spectral Geometry",
+          "url": "http://arxiv.org/abs/2512.25012v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25012v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bounding regularity of $\\mathrm{VI}^m$-modules",
+          "url": "http://arxiv.org/abs/2512.25010v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25010v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The splitting field and generators of the elliptic surface $Y^2=X^3 +t^{360} +1$",
+          "url": "http://arxiv.org/abs/2512.25009v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25009v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM",
+          "url": "http://arxiv.org/abs/2512.25008v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25008v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Fast Poisson brackets and constraint algebras in canonical gravity",
+          "url": "http://arxiv.org/abs/2512.25007v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25007v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Limit Theorems for Fixed Point Biased Pattern Avoiding Involutions",
+          "url": "http://arxiv.org/abs/2512.25006v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25006v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Grassmannian Geometries for Non-Planar On-Shell Diagrams",
+          "url": "http://arxiv.org/abs/2512.25005v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25005v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Uniqueness for stochastic differential equations in Hilbert spaces with irregular drift",
+          "url": "http://arxiv.org/abs/2512.25003v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25003v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The local limit of weighted spanning trees on balanced networks",
+          "url": "http://arxiv.org/abs/2512.25001v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25001v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bi-C2R: Bidirectional Continual Compatible Representation for Re-indexing Free Lifelong Person Re-identification",
+          "url": "http://arxiv.org/abs/2512.25000v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25000v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Basic Inequalities for First-Order Optimization with Applications to Statistical Risk Analysis",
+          "url": "http://arxiv.org/abs/2512.24999v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24999v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Numerical study of boson mixtures with multi-component continuous matrix product states",
+          "url": "http://arxiv.org/abs/2512.24998v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24998v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Manifold classification from the descriptive viewpoint",
+          "url": "http://arxiv.org/abs/2512.24996v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24996v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+          "url": "http://arxiv.org/abs/2512.24991v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24991v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The Fourier extension conjecture for the paraboloid",
+          "url": "http://arxiv.org/abs/2512.24990v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24990v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Scaling Open-Ended Reasoning to Predict the Future",
+          "url": "http://arxiv.org/abs/2512.25070v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "A guide to the $2$-generated axial algebras of Monster type",
+          "url": "http://arxiv.org/abs/2512.24987v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24987v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+          "url": "http://arxiv.org/abs/2512.24986v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24986v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "DarkEQA: Benchmarking Vision-Language Models for Embodied Question Answering in Low-Light Indoor Environments",
+          "url": "http://arxiv.org/abs/2512.24985v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24985v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "A Modal Logic for Possibilistic Reasoning with Fuzzy Formal Contexts",
+          "url": "http://arxiv.org/abs/2512.24980v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24980v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Multi-Frequency Study of FRB20201124A with the uGMRT",
+          "url": "http://arxiv.org/abs/2512.24978v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24978v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Graphicality of power-law and double power-law degree sequences",
+          "url": "http://arxiv.org/abs/2512.24976v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24976v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "From Complex-Analytic Models to Sparse Domination: A Dyadic Approach of Hypersingular Operators via Bourgain's Interpolation Method",
+          "url": "http://arxiv.org/abs/2512.24972v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24972v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Large language models and the entropy of English",
+          "url": "http://arxiv.org/abs/2512.24969v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24969v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The Impact of LLMs on Online News Consumption and Production",
+          "url": "http://arxiv.org/abs/2512.24968v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24968v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Cartier duality for gerbes of vector bundles",
+          "url": "http://arxiv.org/abs/2512.24967v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24967v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Approximating evolution operators of linear delay equations: a general framework for the convergence analysis",
+          "url": "http://arxiv.org/abs/2512.24964v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24964v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "Decoupling Knowledge and Reasoning in LLMs: An Exploration Using Cognitive Dual-System Theory",
+          "url": "https://www.semanticscholar.org/paper/7edf4896643cf4df934e846cb1217d7c06e3b591",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2507.18178",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "From System 1 to System 2: A Survey of Reasoning Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/f4195d4e283e289665cfc7a65fde2fa7b8814091",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2502.17419",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Pangu Embedded: An Efficient Dual-system LLM Reasoner with Metacognition",
+          "url": "https://www.semanticscholar.org/paper/c2699ff6ea7c112c7e6fc38d4306593c28e711f4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.22375",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "MASA: LLM-Driven Multi-Agent Systems for Autoformalization",
+          "url": "https://www.semanticscholar.org/paper/2566390661f701cf95eb420df337fa7a566409b8",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.18653/v1/2025.emnlp-demos.44",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "HuatuoGPT-o1, Towards Medical Complex Reasoning with LLMs",
+          "url": "https://www.semanticscholar.org/paper/a9161bb1bf727532e1a4aacb7ba1d7cf175edde0",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2412.18925",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Dualformer: Controllable Fast and Slow Thinking by Learning with Randomized Reasoning Traces",
+          "url": "https://www.semanticscholar.org/paper/48472a217174053a146b0ebd3821e71b53f05a36",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2410.09918",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "What Happened in LLMs Layers when Trained for Fast vs. Slow Thinking: A Gradient Perspective",
+          "url": "https://www.semanticscholar.org/paper/64f5265fa0cf844fe6a61c0889e4e8edf29da6a2",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2410.23743",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Can We Further Elicit Reasoning in LLMs? Critic-Guided Planning with Retrieval-Augmentation for Solving Challenging Tasks",
+          "url": "https://www.semanticscholar.org/paper/8e90bba98fdd41a9046ba00ad527441a447c56bb",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2410.01428",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Bias Runs Deep: Implicit Reasoning Biases in Persona-Assigned LLMs",
+          "url": "https://www.semanticscholar.org/paper/1b0e3360b3341fc411a6c7841173a8d78ac2ab43",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2311.04892",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+          "url": "https://www.semanticscholar.org/paper/143e18bfd7c356592e7c1439738a3525d3e16279",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2504.13837",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "CMM-Math: A Chinese Multimodal Math Dataset To Evaluate and Enhance the Mathematics Reasoning of Large Multimodal Models",
+          "url": "https://www.semanticscholar.org/paper/344a9642b76c83143289db8f9fc535e74afd0421",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3746027.3758193",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs",
+          "url": "https://www.semanticscholar.org/paper/501f8a0200a12a6f3906c1e4f3f40715e0e7d23a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2406.18629",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Assessing the Reasoning Capabilities of LLMs in the context of Evidence-based Claim Verification",
+          "url": "https://www.semanticscholar.org/paper/a0a495e4bab4d236fd284dc0edc62062761b0a09",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.18653/v1/2025.findings-acl.1059",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+          "url": "https://www.semanticscholar.org/paper/829b25b13de12d81be2eedda52a2309b8a8fccd4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1038/s41586-025-09422-z",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Advancing Multimodal LLMs: A Focus on Geometry Problem Solving Reasoning and Sequential Scoring",
+          "url": "https://www.semanticscholar.org/paper/f2707632bef94d88f41f181b162476c5adbeef0d",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3696409.3700262",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "CriticBench: Benchmarking LLMs for Critique-Correct Reasoning",
+          "url": "https://www.semanticscholar.org/paper/6f24e0782300dca8a4cefcb5a3ccba94bfbb1395",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2402.14809",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "MathGenie: Generating Synthetic Data with Question Back-translation for Enhancing Mathematical Reasoning of LLMs",
+          "url": "https://www.semanticscholar.org/paper/135da052891fdcf3842901b6b7585ca8c258f1c2",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2402.16352",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "How Numerical Precision Affects Arithmetical Reasoning Capabilities of LLMs",
+          "url": "https://www.semanticscholar.org/paper/aad23e8f699bec8c1c6ebf2636f5446ec970033e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.18653/v1/2025.findings-acl.3",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Tree-of-Mixed-Thought: Combining Fast and Slow Thinking for Multi-hop Visual Reasoning",
+          "url": "https://www.semanticscholar.org/paper/ecfe2becc1040d3810c10f006d4be43b4eef3c41",
+          "pdf_url": "https://arxiv.org/pdf/2308.09658",
+          "doi_url": "https://doi.org/10.48550/arXiv.2308.09658",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "From Next-Token to Mathematics: The Learning Dynamics of Mathematical Reasoning in Language Models",
+          "url": "https://www.semanticscholar.org/paper/4d44edd5c040f215bb04b99298c6f2ba5f8150b7",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Can Language Models Rival Mathematics Students? Evaluating Mathematical Reasoning through Textual Manipulation and Human Experiments",
+          "url": "https://www.semanticscholar.org/paper/41158974c85e97f0c5575c0b5b3413640c14c567",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2412.11908",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Evaluating LLMs' Mathematical Reasoning in Financial Document Question Answering",
+          "url": "https://www.semanticscholar.org/paper/a4feb9b216ac5c84ac636fdd2f608105709cf979",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2402.11194",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "CHAMP: A Competition-level Dataset for Fine-Grained Analyses of LLMs' Mathematical Reasoning Capabilities",
+          "url": "https://www.semanticscholar.org/paper/bc8e76e9541dd07a094540d262a864b65505cab7",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2401.06961",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "MindStar: Enhancing Math Reasoning in Pre-trained LLMs at Inference Time",
+          "url": "https://www.semanticscholar.org/paper/36e6a2fecd40f41e3c45d79d3ed44e505ea10ac3",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2405.16265",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "LLMs can Find Mathematical Reasoning Mistakes by Pedagogical Chain-of-Thought",
+          "url": "https://www.semanticscholar.org/paper/e9aef5349df9eaf151b6cbdb60a2e269206e70b7",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2405.06705",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "BIDTrainer: An LLMs-driven Education Tool for Enhancing the Understanding and Reasoning in Bio-inspired Design",
+          "url": "https://www.semanticscholar.org/paper/d673bf9be37a7c6b41b39439846eac444d894125",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3613904.3642887",
+          "doi_url": "https://doi.org/10.1145/3613904.3642887",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning",
+          "url": "https://www.semanticscholar.org/paper/cddb552f6c3464a54a02b0b64b2d1af56c086606",
+          "pdf_url": "https://arxiv.org/pdf/2310.03731",
+          "doi_url": "https://doi.org/10.48550/arXiv.2310.03731",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Time Series Forecasting as Reasoning: A Slow-Thinking Approach with Reinforced LLMs",
+          "url": "https://www.semanticscholar.org/paper/14998ec52d42803c891295d00e1dbd8183427342",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.10630",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Reasoning on a Spectrum: Aligning LLMs to System 1 and System 2 Thinking",
+          "url": "https://www.semanticscholar.org/paper/e446584d601cba65c5155b2fc4cf110fc0c7da79",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2502.12470",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "A Survey of Slow Thinking-based Reasoning LLMs using Reinforced Learning and Inference-time Scaling Law",
+          "url": "https://www.semanticscholar.org/paper/c2feda1e804700d0980d71cfc71ce66d369b6b6c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.02665",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "TIME: A Multi-level Benchmark for Temporal Reasoning of LLMs in Real-World Scenarios",
+          "url": "https://www.semanticscholar.org/paper/61cf800a8669b76592a08b3e84bd24a6aac26a9c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.12891",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Win Fast or Lose Slow: Balancing Speed and Accuracy in Latency-Sensitive Decisions of LLMs",
+          "url": "https://www.semanticscholar.org/paper/c34cee11069f9181e83b8dfc3023b2fb6bac0811",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.19481",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "ABench-Physics: Benchmarking Physical Reasoning in LLMs via High-Difficulty and Dynamic Physics Problems",
+          "url": "https://www.semanticscholar.org/paper/1a7b627b5a905eab8a799000475143a4abc1da85",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2507.04766",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "One Example Shown, Many Concepts Known! Counterexample-Driven Conceptual Reasoning in Mathematical LLMs",
+          "url": "https://www.semanticscholar.org/paper/15eee39bb4d976b31d34beac789e7077fc4794e7",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2502.10454",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "PDE-Controller: LLMs for Autoformalization and Reasoning of PDEs",
+          "url": "https://www.semanticscholar.org/paper/f4fc225ffe0b925f04ae1929f15d5406971f56b3",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2502.00963",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Direct Reasoning Optimization: LLMs Can Reward And Refine Their Own Reasoning for Open-Ended Tasks",
+          "url": "https://www.semanticscholar.org/paper/1d1ae58b4c12c0f8d9774d0ce1410d34a3773422",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.13351",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "EPO: Explicit Policy Optimization for Strategic Reasoning in LLMs via Reinforcement Learning",
+          "url": "https://www.semanticscholar.org/paper/e495cdd1c62281b67677103650b885d4eaf151c5",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2502.12486",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Psyche-R1: Towards Reliable Psychological LLMs through Unified Empathy, Expertise, and Reasoning",
+          "url": "https://www.semanticscholar.org/paper/16bc1e802ebe56fc6aba0e0f5fa9a9d9cf20c355",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2508.10848",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Benchmarking LLMs'Mathematical Reasoning with Unseen Random Variables Questions",
+          "url": "https://www.semanticscholar.org/paper/ebec6f3b2780ebc3e2b6e7761bffc876fed505d2",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "HiPO: Hybrid Policy Optimization for Dynamic Reasoning in LLMs",
+          "url": "https://www.semanticscholar.org/paper/232f1332c85b96a06d59442260d81728a6fabcba",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2509.23967",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Training LLMs for EHR-Based Reasoning Tasks via Reinforcement Learning",
+          "url": "https://www.semanticscholar.org/paper/d9d8984f2cf7e8eae12fe1a4b2f21e1bf7160202",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.24105",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "SAND-Math: Using LLMs to Generate Novel, Difficult and Useful Mathematics Questions and Answers",
+          "url": "https://www.semanticscholar.org/paper/5dfb28ff182f11234ed685471b450b393e180c62",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2507.20527",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Weaker LLMs' Opinions Also Matter: Mixture of Opinions Enhances LLM's Mathematical Reasoning",
+          "url": "https://www.semanticscholar.org/paper/8ed670805abf99b723a3ae4fe9abc58ae1bd8c2e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2502.19622",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "From Reasoning to Generalization: Knowledge-Augmented LLMs for ARC Benchmark",
+          "url": "https://www.semanticscholar.org/paper/857b67284f81a87143abc8cf9911b7f14121b24f",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.17482",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Thinking Machines: Mathematical Reasoning in the Age of LLMs",
+          "url": "https://www.semanticscholar.org/paper/59d66d2bb1895cf54d2d89036db8e8092852c664",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2508.00459",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "SuperCLUE-Math6: Graded Multi-Step Math Reasoning Benchmark for LLMs in Chinese",
+          "url": "https://www.semanticscholar.org/paper/b15ef4e49d4757316337dad2c65066227f10cbd0",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2401.11819",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Graph-ToolFormer: To Empower LLMs with Graph Reasoning Ability via Prompt Augmented by ChatGPT",
+          "url": "https://www.semanticscholar.org/paper/0d502a1e300336ae628f5c8b99ee4d3766c8f60b",
+          "pdf_url": "http://arxiv.org/pdf/2304.11116",
+          "doi_url": "https://doi.org/10.48550/arXiv.2304.11116",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/05506581cade1a8ef6372616cec20b81a3d5c366",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Think Silently, Think Fast: Dynamic Latent Compression of LLM Reasoning Chains",
+          "url": "https://www.semanticscholar.org/paper/ab4800a924508f49d644ced8ba236ec92f54f566",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.16552",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Exposing the Achilles' Heel: Evaluating LLMs Ability to Handle Mistakes in Mathematical Reasoning",
+          "url": "https://www.semanticscholar.org/paper/a95e16c6bbf912a2452fc974d3f6a50482726877",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2406.10834",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Fast, Slow, and Tool-augmented Thinking for LLMs: A Review",
+          "url": "https://www.semanticscholar.org/paper/7bdda23a6e293ff03db8be0a19fa51855e7de51c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2508.12265",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Integrating LLMs and RAG Techniques Into Mathematics Learning for Engineering Students",
+          "url": "https://www.semanticscholar.org/paper/c98f3d2fcba60f714b46da82ed1e27916046fe52",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/AIR63653.2024.00021",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Extracting Reasoning Patterns from Knowledge Graph to Enhance LLMs' Reasoning Capability",
+          "url": "https://www.semanticscholar.org/paper/65ec23977f6bbe06688961f4ab65b663b536c00f",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/JCC67032.2025.00010",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Evaluating LLMs on Kazakhstan's mathematics exam for university admission",
+          "url": "https://www.semanticscholar.org/paper/1178192ba92ac054078d83f4b7adfb203cb4dc99",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.3389/frai.2025.1642570",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "ChemAU: Harness the Reasoning of LLMs in Chemical Research with Adaptive Uncertainty Estimation",
+          "url": "https://www.semanticscholar.org/paper/19b7d83e982518c76e3c19cda532ac13f03592d5",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.01116",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Thinking Fast and Right: Balancing Accuracy and Reasoning Length with Adaptive Rewards",
+          "url": "https://www.semanticscholar.org/paper/0ba8cbebdbb3a91f984313d33e76fe5946b96ad4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.18298",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Fast on the Easy, Deep on the Hard: Efficient Reasoning via Powered Length Penalty",
+          "url": "https://www.semanticscholar.org/paper/010c508b6e23d253bb47934ea3433251d3aebc33",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.10446",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Scheherazade: Evaluating Chain-of-Thought Math Reasoning in LLMs with Chain-of-Problems",
+          "url": "https://www.semanticscholar.org/paper/a3eacbe7f70240a5c8830ec729ad786d018b922e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2410.00151",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Fast Think-on-Graph: Wider, Deeper and Faster Reasoning of Large Language Model on Knowledge Graph",
+          "url": "https://www.semanticscholar.org/paper/1dc16188838dfd053a17e77a5154348f62c5db33",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2501.14300",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Enhancing Mathematical Reasoning in LLMs by Stepwise Correction",
+          "url": "https://www.semanticscholar.org/paper/8d402896d7afd49cc1289978347347c8c1c0dfc1",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2410.12934",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Multilingual Mathematical Reasoning: Advancing Open-Source LLMs in Hindi and English",
+          "url": "https://www.semanticscholar.org/paper/8147c5503cb8ea33ed25540c854fdfadaabc1032",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2412.18415",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Federated Prompting and Chain-of-Thought Reasoning for Improving LLMs Answering",
+          "url": "https://www.semanticscholar.org/paper/a7c0d9bf44045c9d4c41e329e2a87df0ae7e0af6",
+          "pdf_url": "http://arxiv.org/pdf/2304.13911",
+          "doi_url": "https://doi.org/10.48550/arXiv.2304.13911",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "FRoG: Evaluating Fuzzy Reasoning of Generalized Quantifiers in LLMs",
+          "url": "https://www.semanticscholar.org/paper/3b0bd8fc6dfe28840e282f20bb195b7d105bd6a6",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.18653/v1/2024.emnlp-main.411",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Guiding LLMs The Right Way: Fast, Non-Invasive Constrained Generation",
+          "url": "https://www.semanticscholar.org/paper/b95ca121a606da32180ab8bb0c0c58bf19b1499b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2403.06988",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Hallucination Detection in LLMs: Fast and Memory-Efficient Finetuned Models",
+          "url": "https://www.semanticscholar.org/paper/e66f9a0fbda43e311d51ab0f0e9d1637c41b3385",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2409.02976",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "A Comprehensive Study on NLP Data Augmentation for Hate Speech Detection: Legacy Methods, BERT, and LLMs",
+          "url": "https://www.semanticscholar.org/paper/8fbeb8fff13e9489d6e9f0cf7459e18b024b3d10",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2404.00303",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "FASTTRACK: Fast and Accurate Fact Tracing for LLMs",
+          "url": "https://www.semanticscholar.org/paper/187eaacc793b283bc9295fbca5238e158631cdc7",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2404.15157",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Small and Fast LLMs on Commodity Hardware: Post-Training Quantization in llama. cpp",
+          "url": "https://www.semanticscholar.org/paper/972768785c213c433e853d6ca68a02cb5b3af745",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/DSAA65442.2025.11247985",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Efficient Adversarial Training in LLMs with Continuous Attacks",
+          "url": "https://www.semanticscholar.org/paper/723ae07c5c8921eb94ac52528c8a53bec837c5a9",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2405.15589",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Everybody Prune Now: Structured Pruning of LLMs with only Forward Passes",
+          "url": "https://www.semanticscholar.org/paper/6f7f4f97890dae5cdee3d5df9ca932cae486e1ba",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2402.05406",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Integrating LLMs into Mathematics Laboratories Alongside CAS",
+          "url": "https://www.semanticscholar.org/paper/b3e0df73848d18309b827b98d58550255a6a028d",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.3991/ijep.v15i3.53151",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "EBFT: Effective and Block-Wise Fine-Tuning for Sparse LLMs",
+          "url": "https://www.semanticscholar.org/paper/0c41cfc99c77c0cca5eff8767ac60128dafa124a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2402.12419",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Rollout Roulette: A Probabilistic Inference Approach to Inference-Time Scaling of LLMs using Particle-Based Monte Carlo Methods",
+          "url": "https://www.semanticscholar.org/paper/38af83f87c61177aa96eeba8a07a1e0922241532",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Have LLMs Advanced Enough? A Challenging Problem Solving Benchmark For Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/2cf1f6c723006f258599fd9f000bb616ae83387a",
+          "pdf_url": "https://arxiv.org/pdf/2305.15074",
+          "doi_url": "https://doi.org/10.48550/arXiv.2305.15074",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "PipeRAG: Fast Retrieval-Augmented Generation via Algorithm-System Co-design",
+          "url": "https://www.semanticscholar.org/paper/858cbd99d5a3d2658254d055cd26e06f81050927",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2403.05676",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "TheoremLlama: Transforming General-Purpose LLMs into Lean4 Experts",
+          "url": "https://www.semanticscholar.org/paper/a9de58b1ad7e052dfc21f0363ec3809b5f9e5b7b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2407.03203",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "How to Train Data-Efficient LLMs",
+          "url": "https://www.semanticscholar.org/paper/31b2918acc77682b5a499da1aa111f34e76d9603",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2402.09668",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Preference Fine-Tuning of LLMs Should Leverage Suboptimal, On-Policy Data",
+          "url": "https://www.semanticscholar.org/paper/cd3359ed7119210bfa0b34ba5796d1314a05e212",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2404.14367",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "BitDistiller: Unleashing the Potential of Sub-4-Bit LLMs via Self-Distillation",
+          "url": "https://www.semanticscholar.org/paper/52258e9110f8e73cca24f6394bfc483341b459a4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2402.10631",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "HOBBIT: A Mixed Precision Expert Offloading System for Fast MoE Inference",
+          "url": "https://www.semanticscholar.org/paper/300f45605c373826bf7d1800749bc85305276a7f",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2411.01433",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "GaLore+: Boosting Low-Rank Adaptation for LLMs with Cross-Head Projection",
+          "url": "https://www.semanticscholar.org/paper/aad8d15c32ef86a1ad77cbd3d432f6d9d4183ac6",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2412.19820",
+          "source": "semantic_scholar",
+          "year": 2024
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "HARDMath: A Benchmark Dataset for Challenging Problems in Applied Mathematics",
+        "pdf": "https://openreview.net/pdf?id=nDTvP6tBMd"
+      },
+      {
+        "title": "Improving Rationality in the Reasoning Process of Language Models through Self-playing Game",
+        "pdf": "https://openreview.net/pdf?id=PPsiS5nSlv"
+      },
+      {
+        "title": "CS-Bench: A Comprehensive Benchmark for Large Language Models towards Computer Science Mastery",
+        "pdf": "https://openreview.net/pdf?id=fjEZ2LPceZ"
+      },
+      {
+        "title": "Don't Trust: Verify -- Grounding LLM Quantitative Reasoning with Autoformalization",
+        "pdf": "https://openreview.net/pdf?id=V5tdi14ple"
+      },
+      {
+        "title": "Analysing Mathematical Reasoning Abilities of Neural Models",
+        "pdf": "https://openreview.net/pdf?id=H1gR5iR5FX"
+      },
+      {
+        "title": "Convergence Properties of the K-Means Algorithms",
+        "pdf": "https://papers.nips.cc/paper_files/paper/1994/file/a1140a3d0df1c81e24ae954d935e8926-Paper.pdf"
+      },
+      {
+        "title": "Learning Formal Mathematics From Intrinsic Motivation",
+        "pdf": "https://openreview.net/pdf?id=uNKlTQ8mBD"
+      },
+      {
+        "title": "miniF2F: a cross-system benchmark for formal Olympiad-level mathematics",
+        "pdf": "https://openreview.net/pdf?id=9ZPegFuFTFv"
+      },
+      {
+        "title": "OptiBench Meets ReSocratic: Measure and Improve LLMs for Optimization Modeling",
+        "pdf": "https://openreview.net/pdf?id=fsDZwS49uY"
+      },
+      {
+        "title": "Llemma: An Open Language Model for Mathematics",
+        "pdf": "https://openreview.net/pdf?id=4WnqRR915j"
+      },
+      {
+        "title": "Machine Learning meets Algebraic Combinatorics: A Suite of Datasets Capturing Research-level Conjecturing Ability in Pure Mathematics",
+        "pdf": "https://openreview.net/pdf?id=tlniJJFUW2"
+      },
+      {
+        "title": "Formal Mathematics Statement Curriculum Learning",
+        "pdf": "https://openreview.net/pdf?id=-P7G-8dmSh4"
+      },
+      {
+        "title": "AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs",
+        "pdf": "https://openreview.net/pdf?id=dqcl5SNbc8"
+      },
+      {
+        "title": "Proving Olympiad Inequalities by Synergizing LLMs and Symbolic Reasoning",
+        "pdf": "https://openreview.net/pdf?id=FiyS0ecSm0"
+      },
+      {
+        "title": "xLSTM 7B: A Recurrent LLM for Fast and Efficient Inference",
+        "pdf": "https://openreview.net/pdf?id=LV3DpKD08B"
+      },
+      {
+        "title": "Contrastive Reinforcement Learning of Symbolic Reasoning Domains",
+        "pdf": "https://openreview.net/pdf?id=ZarM_uLVyGw"
+      },
+      {
+        "title": "PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition",
+        "pdf": "https://openreview.net/pdf?id=ChKCF75Ocd"
+      },
+      {
+        "title": "Fast Best-of-N Decoding via Speculative Rejection",
+        "pdf": "https://openreview.net/pdf?id=348hfcprUs"
+      },
+      {
+        "title": "Developing Bug-Free Machine Learning Systems With Formal Mathematics",
+        "pdf": "http://proceedings.mlr.press/v70/selsam17a/selsam17a.pdf"
+      },
+      {
+        "title": "Mathematical Capabilities of ChatGPT",
+        "pdf": "https://openreview.net/pdf?id=xJ7YWXQOrg"
+      },
+      {
+        "title": "Autoformalization with Large Language Models",
+        "pdf": "https://openreview.net/pdf?id=IUikebJ1Bf0"
+      },
+      {
+        "title": "Beyond Autoregression: Fast LLMs via Self-Distillation Through Time",
+        "pdf": "https://openreview.net/pdf?id=uZ5K4HeNwd"
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2512.25073v1"
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "pdf": "https://arxiv.org/pdf/2512.25071v1"
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "pdf": "https://arxiv.org/pdf/2512.25072v1"
+      },
+      {
+        "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+        "pdf": "https://arxiv.org/pdf/2512.25068v1"
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "pdf": "https://arxiv.org/pdf/2512.25067v1"
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "pdf": "https://arxiv.org/pdf/2512.25066v1"
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "pdf": "https://arxiv.org/pdf/2512.25065v1"
+      },
+      {
+        "title": "On the geometry and topology of representations: the manifolds of modular addition",
+        "pdf": "https://arxiv.org/pdf/2512.25060v1"
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "pdf": "https://arxiv.org/pdf/2512.25059v1"
+      },
+      {
+        "title": "The variety of orthogonal frames",
+        "pdf": "https://arxiv.org/pdf/2512.25058v1"
+      },
+      {
+        "title": "The Logical Structure of Physical Laws: A Fixed Point Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2512.25057v1"
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "pdf": "https://arxiv.org/pdf/2512.25056v1"
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "pdf": "https://arxiv.org/pdf/2512.25055v1"
+      },
+      {
+        "title": "Bilinear tau forms of quantum Painlevé equations and $\\mathbb{C}^2/\\mathbb{Z}_2$ blowup relations in SUSY gauge theories",
+        "pdf": "https://arxiv.org/pdf/2512.25051v1"
+      },
+      {
+        "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+        "pdf": "https://arxiv.org/pdf/2512.25050v1"
+      },
+      {
+        "title": "Arithmetic with spatiotemporal optical vortex of integer and fractional topological charges",
+        "pdf": "https://arxiv.org/pdf/2512.25049v1"
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "pdf": "https://arxiv.org/pdf/2512.25045v1"
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "pdf": "https://arxiv.org/pdf/2512.25042v1"
+      },
+      {
+        "title": "On exact Observability for Compactly perturbed infinite dimension system",
+        "pdf": "https://arxiv.org/pdf/2512.25041v1"
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "pdf": "https://arxiv.org/pdf/2512.25040v1"
+      },
+      {
+        "title": "The Hochschild homology of a noncommutative symmetric quotient stack",
+        "pdf": "https://arxiv.org/pdf/2512.25039v1"
+      },
+      {
+        "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+        "pdf": "https://arxiv.org/pdf/2512.25037v1"
+      },
+      {
+        "title": "Testing Monotonicity in a Finite Population",
+        "pdf": "https://arxiv.org/pdf/2512.25032v1"
+      },
+      {
+        "title": "Multivariate Generalized Counting Process via Gamma Subordination",
+        "pdf": "https://arxiv.org/pdf/2512.25030v1"
+      },
+      {
+        "title": "Mod $p$ Poincaré duality for $p$-adic period domains",
+        "pdf": "https://arxiv.org/pdf/2512.25029v1"
+      },
+      {
+        "title": "Modewise Additive Factor Model for Matrix Time Series",
+        "pdf": "https://arxiv.org/pdf/2512.25025v1"
+      },
+      {
+        "title": "On Nonlinear Inertial Transformations",
+        "pdf": "https://arxiv.org/pdf/2512.25024v1"
+      },
+      {
+        "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+        "pdf": "https://arxiv.org/pdf/2512.25023v1"
+      },
+      {
+        "title": "Real Riemann Surfaces: Smooth and Discrete",
+        "pdf": "https://arxiv.org/pdf/2512.25022v1"
+      },
+      {
+        "title": "Approximation Algorithms for Fair Repetitive Scheduling",
+        "pdf": "https://arxiv.org/pdf/2512.25020v1"
+      },
+      {
+        "title": "Strengthening Dual Bounds for Multicommodity Capacitated Network Design with Unsplittable Flow Constraints",
+        "pdf": "https://arxiv.org/pdf/2512.25018v1"
+      },
+      {
+        "title": "Convergence of the generalization error for deep gradient flow methods for PDEs",
+        "pdf": "https://arxiv.org/pdf/2512.25017v1"
+      },
+      {
+        "title": "Approximations for the Weighted Reversal, Transposition, and Indel Distance Problem with Intergenic Region Information",
+        "pdf": "https://arxiv.org/pdf/2512.25016v1"
+      },
+      {
+        "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+        "pdf": "https://arxiv.org/pdf/2512.25015v1"
+      },
+      {
+        "title": "A note on semistable unitary operators on $L^2(\\mathbb{R})$",
+        "pdf": "https://arxiv.org/pdf/2512.25013v1"
+      },
+      {
+        "title": "At the intersection of Numerical Analysis and Spectral Geometry",
+        "pdf": "https://arxiv.org/pdf/2512.25012v1"
+      },
+      {
+        "title": "Bounding regularity of $\\mathrm{VI}^m$-modules",
+        "pdf": "https://arxiv.org/pdf/2512.25010v1"
+      },
+      {
+        "title": "The splitting field and generators of the elliptic surface $Y^2=X^3 +t^{360} +1$",
+        "pdf": "https://arxiv.org/pdf/2512.25009v1"
+      },
+      {
+        "title": "FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM",
+        "pdf": "https://arxiv.org/pdf/2512.25008v1"
+      },
+      {
+        "title": "Fast Poisson brackets and constraint algebras in canonical gravity",
+        "pdf": "https://arxiv.org/pdf/2512.25007v1"
+      },
+      {
+        "title": "Limit Theorems for Fixed Point Biased Pattern Avoiding Involutions",
+        "pdf": "https://arxiv.org/pdf/2512.25006v1"
+      },
+      {
+        "title": "Grassmannian Geometries for Non-Planar On-Shell Diagrams",
+        "pdf": "https://arxiv.org/pdf/2512.25005v1"
+      },
+      {
+        "title": "Uniqueness for stochastic differential equations in Hilbert spaces with irregular drift",
+        "pdf": "https://arxiv.org/pdf/2512.25003v1"
+      },
+      {
+        "title": "The local limit of weighted spanning trees on balanced networks",
+        "pdf": "https://arxiv.org/pdf/2512.25001v1"
+      },
+      {
+        "title": "Bi-C2R: Bidirectional Continual Compatible Representation for Re-indexing Free Lifelong Person Re-identification",
+        "pdf": "https://arxiv.org/pdf/2512.25000v1"
+      },
+      {
+        "title": "Basic Inequalities for First-Order Optimization with Applications to Statistical Risk Analysis",
+        "pdf": "https://arxiv.org/pdf/2512.24999v1"
+      },
+      {
+        "title": "Numerical study of boson mixtures with multi-component continuous matrix product states",
+        "pdf": "https://arxiv.org/pdf/2512.24998v1"
+      },
+      {
+        "title": "Manifold classification from the descriptive viewpoint",
+        "pdf": "https://arxiv.org/pdf/2512.24996v1"
+      },
+      {
+        "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+        "pdf": "https://arxiv.org/pdf/2512.24991v1"
+      },
+      {
+        "title": "The Fourier extension conjecture for the paraboloid",
+        "pdf": "https://arxiv.org/pdf/2512.24990v1"
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "pdf": "https://arxiv.org/pdf/2512.25070v1"
+      },
+      {
+        "title": "A guide to the $2$-generated axial algebras of Monster type",
+        "pdf": "https://arxiv.org/pdf/2512.24987v1"
+      },
+      {
+        "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+        "pdf": "https://arxiv.org/pdf/2512.24986v1"
+      },
+      {
+        "title": "DarkEQA: Benchmarking Vision-Language Models for Embodied Question Answering in Low-Light Indoor Environments",
+        "pdf": "https://arxiv.org/pdf/2512.24985v1"
+      },
+      {
+        "title": "A Modal Logic for Possibilistic Reasoning with Fuzzy Formal Contexts",
+        "pdf": "https://arxiv.org/pdf/2512.24980v1"
+      },
+      {
+        "title": "Multi-Frequency Study of FRB20201124A with the uGMRT",
+        "pdf": "https://arxiv.org/pdf/2512.24978v1"
+      },
+      {
+        "title": "Graphicality of power-law and double power-law degree sequences",
+        "pdf": "https://arxiv.org/pdf/2512.24976v1"
+      },
+      {
+        "title": "From Complex-Analytic Models to Sparse Domination: A Dyadic Approach of Hypersingular Operators via Bourgain's Interpolation Method",
+        "pdf": "https://arxiv.org/pdf/2512.24972v1"
+      },
+      {
+        "title": "Large language models and the entropy of English",
+        "pdf": "https://arxiv.org/pdf/2512.24969v1"
+      },
+      {
+        "title": "The Impact of LLMs on Online News Consumption and Production",
+        "pdf": "https://arxiv.org/pdf/2512.24968v1"
+      },
+      {
+        "title": "Cartier duality for gerbes of vector bundles",
+        "pdf": "https://arxiv.org/pdf/2512.24967v1"
+      },
+      {
+        "title": "Approximating evolution operators of linear delay equations: a general framework for the convergence analysis",
+        "pdf": "https://arxiv.org/pdf/2512.24964v1"
+      },
+      {
+        "title": "Tree-of-Mixed-Thought: Combining Fast and Slow Thinking for Multi-hop Visual Reasoning",
+        "pdf": "https://arxiv.org/pdf/2308.09658"
+      },
+      {
+        "title": "BIDTrainer: An LLMs-driven Education Tool for Enhancing the Understanding and Reasoning in Bio-inspired Design",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3613904.3642887"
+      },
+      {
+        "title": "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning",
+        "pdf": "https://arxiv.org/pdf/2310.03731"
+      },
+      {
+        "title": "Graph-ToolFormer: To Empower LLMs with Graph Reasoning Ability via Prompt Augmented by ChatGPT",
+        "pdf": "http://arxiv.org/pdf/2304.11116"
+      },
+      {
+        "title": "Federated Prompting and Chain-of-Thought Reasoning for Improving LLMs Answering",
+        "pdf": "http://arxiv.org/pdf/2304.13911"
+      },
+      {
+        "title": "Have LLMs Advanced Enough? A Challenging Problem Solving Benchmark For Large Language Models",
+        "pdf": "https://arxiv.org/pdf/2305.15074"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "Decoupling Knowledge and Reasoning in LLMs: An Exploration Using Cognitive Dual-System Theory",
+        "doi": "https://doi.org/10.48550/arXiv.2507.18178"
+      },
+      {
+        "title": "From System 1 to System 2: A Survey of Reasoning Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2502.17419"
+      },
+      {
+        "title": "Pangu Embedded: An Efficient Dual-system LLM Reasoner with Metacognition",
+        "doi": "https://doi.org/10.48550/arXiv.2505.22375"
+      },
+      {
+        "title": "MASA: LLM-Driven Multi-Agent Systems for Autoformalization",
+        "doi": "https://doi.org/10.18653/v1/2025.emnlp-demos.44"
+      },
+      {
+        "title": "HuatuoGPT-o1, Towards Medical Complex Reasoning with LLMs",
+        "doi": "https://doi.org/10.48550/arXiv.2412.18925"
+      },
+      {
+        "title": "Dualformer: Controllable Fast and Slow Thinking by Learning with Randomized Reasoning Traces",
+        "doi": "https://doi.org/10.48550/arXiv.2410.09918"
+      },
+      {
+        "title": "What Happened in LLMs Layers when Trained for Fast vs. Slow Thinking: A Gradient Perspective",
+        "doi": "https://doi.org/10.48550/arXiv.2410.23743"
+      },
+      {
+        "title": "Can We Further Elicit Reasoning in LLMs? Critic-Guided Planning with Retrieval-Augmentation for Solving Challenging Tasks",
+        "doi": "https://doi.org/10.48550/arXiv.2410.01428"
+      },
+      {
+        "title": "Bias Runs Deep: Implicit Reasoning Biases in Persona-Assigned LLMs",
+        "doi": "https://doi.org/10.48550/arXiv.2311.04892"
+      },
+      {
+        "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+        "doi": "https://doi.org/10.48550/arXiv.2504.13837"
+      },
+      {
+        "title": "CMM-Math: A Chinese Multimodal Math Dataset To Evaluate and Enhance the Mathematics Reasoning of Large Multimodal Models",
+        "doi": "https://doi.org/10.1145/3746027.3758193"
+      },
+      {
+        "title": "Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs",
+        "doi": "https://doi.org/10.48550/arXiv.2406.18629"
+      },
+      {
+        "title": "Assessing the Reasoning Capabilities of LLMs in the context of Evidence-based Claim Verification",
+        "doi": "https://doi.org/10.18653/v1/2025.findings-acl.1059"
+      },
+      {
+        "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+        "doi": "https://doi.org/10.1038/s41586-025-09422-z"
+      },
+      {
+        "title": "Advancing Multimodal LLMs: A Focus on Geometry Problem Solving Reasoning and Sequential Scoring",
+        "doi": "https://doi.org/10.1145/3696409.3700262"
+      },
+      {
+        "title": "CriticBench: Benchmarking LLMs for Critique-Correct Reasoning",
+        "doi": "https://doi.org/10.48550/arXiv.2402.14809"
+      },
+      {
+        "title": "MathGenie: Generating Synthetic Data with Question Back-translation for Enhancing Mathematical Reasoning of LLMs",
+        "doi": "https://doi.org/10.48550/arXiv.2402.16352"
+      },
+      {
+        "title": "How Numerical Precision Affects Arithmetical Reasoning Capabilities of LLMs",
+        "doi": "https://doi.org/10.18653/v1/2025.findings-acl.3"
+      },
+      {
+        "title": "Tree-of-Mixed-Thought: Combining Fast and Slow Thinking for Multi-hop Visual Reasoning",
+        "doi": "https://doi.org/10.48550/arXiv.2308.09658"
+      },
+      {
+        "title": "Can Language Models Rival Mathematics Students? Evaluating Mathematical Reasoning through Textual Manipulation and Human Experiments",
+        "doi": "https://doi.org/10.48550/arXiv.2412.11908"
+      },
+      {
+        "title": "Evaluating LLMs' Mathematical Reasoning in Financial Document Question Answering",
+        "doi": "https://doi.org/10.48550/arXiv.2402.11194"
+      },
+      {
+        "title": "CHAMP: A Competition-level Dataset for Fine-Grained Analyses of LLMs' Mathematical Reasoning Capabilities",
+        "doi": "https://doi.org/10.48550/arXiv.2401.06961"
+      },
+      {
+        "title": "MindStar: Enhancing Math Reasoning in Pre-trained LLMs at Inference Time",
+        "doi": "https://doi.org/10.48550/arXiv.2405.16265"
+      },
+      {
+        "title": "LLMs can Find Mathematical Reasoning Mistakes by Pedagogical Chain-of-Thought",
+        "doi": "https://doi.org/10.48550/arXiv.2405.06705"
+      },
+      {
+        "title": "BIDTrainer: An LLMs-driven Education Tool for Enhancing the Understanding and Reasoning in Bio-inspired Design",
+        "doi": "https://doi.org/10.1145/3613904.3642887"
+      },
+      {
+        "title": "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning",
+        "doi": "https://doi.org/10.48550/arXiv.2310.03731"
+      },
+      {
+        "title": "Time Series Forecasting as Reasoning: A Slow-Thinking Approach with Reinforced LLMs",
+        "doi": "https://doi.org/10.48550/arXiv.2506.10630"
+      },
+      {
+        "title": "Reasoning on a Spectrum: Aligning LLMs to System 1 and System 2 Thinking",
+        "doi": "https://doi.org/10.48550/arXiv.2502.12470"
+      },
+      {
+        "title": "A Survey of Slow Thinking-based Reasoning LLMs using Reinforced Learning and Inference-time Scaling Law",
+        "doi": "https://doi.org/10.48550/arXiv.2505.02665"
+      },
+      {
+        "title": "TIME: A Multi-level Benchmark for Temporal Reasoning of LLMs in Real-World Scenarios",
+        "doi": "https://doi.org/10.48550/arXiv.2505.12891"
+      },
+      {
+        "title": "Win Fast or Lose Slow: Balancing Speed and Accuracy in Latency-Sensitive Decisions of LLMs",
+        "doi": "https://doi.org/10.48550/arXiv.2505.19481"
+      },
+      {
+        "title": "ABench-Physics: Benchmarking Physical Reasoning in LLMs via High-Difficulty and Dynamic Physics Problems",
+        "doi": "https://doi.org/10.48550/arXiv.2507.04766"
+      },
+      {
+        "title": "One Example Shown, Many Concepts Known! Counterexample-Driven Conceptual Reasoning in Mathematical LLMs",
+        "doi": "https://doi.org/10.48550/arXiv.2502.10454"
+      },
+      {
+        "title": "PDE-Controller: LLMs for Autoformalization and Reasoning of PDEs",
+        "doi": "https://doi.org/10.48550/arXiv.2502.00963"
+      },
+      {
+        "title": "Direct Reasoning Optimization: LLMs Can Reward And Refine Their Own Reasoning for Open-Ended Tasks",
+        "doi": "https://doi.org/10.48550/arXiv.2506.13351"
+      },
+      {
+        "title": "EPO: Explicit Policy Optimization for Strategic Reasoning in LLMs via Reinforcement Learning",
+        "doi": "https://doi.org/10.48550/arXiv.2502.12486"
+      },
+      {
+        "title": "Psyche-R1: Towards Reliable Psychological LLMs through Unified Empathy, Expertise, and Reasoning",
+        "doi": "https://doi.org/10.48550/arXiv.2508.10848"
+      },
+      {
+        "title": "HiPO: Hybrid Policy Optimization for Dynamic Reasoning in LLMs",
+        "doi": "https://doi.org/10.48550/arXiv.2509.23967"
+      },
+      {
+        "title": "Training LLMs for EHR-Based Reasoning Tasks via Reinforcement Learning",
+        "doi": "https://doi.org/10.48550/arXiv.2505.24105"
+      },
+      {
+        "title": "SAND-Math: Using LLMs to Generate Novel, Difficult and Useful Mathematics Questions and Answers",
+        "doi": "https://doi.org/10.48550/arXiv.2507.20527"
+      },
+      {
+        "title": "Weaker LLMs' Opinions Also Matter: Mixture of Opinions Enhances LLM's Mathematical Reasoning",
+        "doi": "https://doi.org/10.48550/arXiv.2502.19622"
+      },
+      {
+        "title": "From Reasoning to Generalization: Knowledge-Augmented LLMs for ARC Benchmark",
+        "doi": "https://doi.org/10.48550/arXiv.2505.17482"
+      },
+      {
+        "title": "Thinking Machines: Mathematical Reasoning in the Age of LLMs",
+        "doi": "https://doi.org/10.48550/arXiv.2508.00459"
+      },
+      {
+        "title": "SuperCLUE-Math6: Graded Multi-Step Math Reasoning Benchmark for LLMs in Chinese",
+        "doi": "https://doi.org/10.48550/arXiv.2401.11819"
+      },
+      {
+        "title": "Graph-ToolFormer: To Empower LLMs with Graph Reasoning Ability via Prompt Augmented by ChatGPT",
+        "doi": "https://doi.org/10.48550/arXiv.2304.11116"
+      },
+      {
+        "title": "Think Silently, Think Fast: Dynamic Latent Compression of LLM Reasoning Chains",
+        "doi": "https://doi.org/10.48550/arXiv.2505.16552"
+      },
+      {
+        "title": "Exposing the Achilles' Heel: Evaluating LLMs Ability to Handle Mistakes in Mathematical Reasoning",
+        "doi": "https://doi.org/10.48550/arXiv.2406.10834"
+      },
+      {
+        "title": "Fast, Slow, and Tool-augmented Thinking for LLMs: A Review",
+        "doi": "https://doi.org/10.48550/arXiv.2508.12265"
+      },
+      {
+        "title": "Integrating LLMs and RAG Techniques Into Mathematics Learning for Engineering Students",
+        "doi": "https://doi.org/10.1109/AIR63653.2024.00021"
+      },
+      {
+        "title": "Extracting Reasoning Patterns from Knowledge Graph to Enhance LLMs' Reasoning Capability",
+        "doi": "https://doi.org/10.1109/JCC67032.2025.00010"
+      },
+      {
+        "title": "Evaluating LLMs on Kazakhstan's mathematics exam for university admission",
+        "doi": "https://doi.org/10.3389/frai.2025.1642570"
+      },
+      {
+        "title": "ChemAU: Harness the Reasoning of LLMs in Chemical Research with Adaptive Uncertainty Estimation",
+        "doi": "https://doi.org/10.48550/arXiv.2506.01116"
+      },
+      {
+        "title": "Thinking Fast and Right: Balancing Accuracy and Reasoning Length with Adaptive Rewards",
+        "doi": "https://doi.org/10.48550/arXiv.2505.18298"
+      },
+      {
+        "title": "Fast on the Easy, Deep on the Hard: Efficient Reasoning via Powered Length Penalty",
+        "doi": "https://doi.org/10.48550/arXiv.2506.10446"
+      },
+      {
+        "title": "Scheherazade: Evaluating Chain-of-Thought Math Reasoning in LLMs with Chain-of-Problems",
+        "doi": "https://doi.org/10.48550/arXiv.2410.00151"
+      },
+      {
+        "title": "Fast Think-on-Graph: Wider, Deeper and Faster Reasoning of Large Language Model on Knowledge Graph",
+        "doi": "https://doi.org/10.48550/arXiv.2501.14300"
+      },
+      {
+        "title": "Enhancing Mathematical Reasoning in LLMs by Stepwise Correction",
+        "doi": "https://doi.org/10.48550/arXiv.2410.12934"
+      },
+      {
+        "title": "Multilingual Mathematical Reasoning: Advancing Open-Source LLMs in Hindi and English",
+        "doi": "https://doi.org/10.48550/arXiv.2412.18415"
+      },
+      {
+        "title": "Federated Prompting and Chain-of-Thought Reasoning for Improving LLMs Answering",
+        "doi": "https://doi.org/10.48550/arXiv.2304.13911"
+      },
+      {
+        "title": "FRoG: Evaluating Fuzzy Reasoning of Generalized Quantifiers in LLMs",
+        "doi": "https://doi.org/10.18653/v1/2024.emnlp-main.411"
+      },
+      {
+        "title": "Guiding LLMs The Right Way: Fast, Non-Invasive Constrained Generation",
+        "doi": "https://doi.org/10.48550/arXiv.2403.06988"
+      },
+      {
+        "title": "Hallucination Detection in LLMs: Fast and Memory-Efficient Finetuned Models",
+        "doi": "https://doi.org/10.48550/arXiv.2409.02976"
+      },
+      {
+        "title": "A Comprehensive Study on NLP Data Augmentation for Hate Speech Detection: Legacy Methods, BERT, and LLMs",
+        "doi": "https://doi.org/10.48550/arXiv.2404.00303"
+      },
+      {
+        "title": "FASTTRACK: Fast and Accurate Fact Tracing for LLMs",
+        "doi": "https://doi.org/10.48550/arXiv.2404.15157"
+      },
+      {
+        "title": "Small and Fast LLMs on Commodity Hardware: Post-Training Quantization in llama. cpp",
+        "doi": "https://doi.org/10.1109/DSAA65442.2025.11247985"
+      },
+      {
+        "title": "Efficient Adversarial Training in LLMs with Continuous Attacks",
+        "doi": "https://doi.org/10.48550/arXiv.2405.15589"
+      },
+      {
+        "title": "Everybody Prune Now: Structured Pruning of LLMs with only Forward Passes",
+        "doi": "https://doi.org/10.48550/arXiv.2402.05406"
+      },
+      {
+        "title": "Integrating LLMs into Mathematics Laboratories Alongside CAS",
+        "doi": "https://doi.org/10.3991/ijep.v15i3.53151"
+      },
+      {
+        "title": "EBFT: Effective and Block-Wise Fine-Tuning for Sparse LLMs",
+        "doi": "https://doi.org/10.48550/arXiv.2402.12419"
+      },
+      {
+        "title": "Have LLMs Advanced Enough? A Challenging Problem Solving Benchmark For Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2305.15074"
+      },
+      {
+        "title": "PipeRAG: Fast Retrieval-Augmented Generation via Algorithm-System Co-design",
+        "doi": "https://doi.org/10.48550/arXiv.2403.05676"
+      },
+      {
+        "title": "TheoremLlama: Transforming General-Purpose LLMs into Lean4 Experts",
+        "doi": "https://doi.org/10.48550/arXiv.2407.03203"
+      },
+      {
+        "title": "How to Train Data-Efficient LLMs",
+        "doi": "https://doi.org/10.48550/arXiv.2402.09668"
+      },
+      {
+        "title": "Preference Fine-Tuning of LLMs Should Leverage Suboptimal, On-Policy Data",
+        "doi": "https://doi.org/10.48550/arXiv.2404.14367"
+      },
+      {
+        "title": "BitDistiller: Unleashing the Potential of Sub-4-Bit LLMs via Self-Distillation",
+        "doi": "https://doi.org/10.48550/arXiv.2402.10631"
+      },
+      {
+        "title": "HOBBIT: A Mixed Precision Expert Offloading System for Fast MoE Inference",
+        "doi": "https://doi.org/10.48550/arXiv.2411.01433"
+      },
+      {
+        "title": "GaLore+: Boosting Low-Rank Adaptation for LLMs with Cross-Head Projection",
+        "doi": "https://doi.org/10.48550/arXiv.2412.19820"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "fast methods LLMs mathematics",
+    "total_steps": 6,
+    "last_updated": "2026-01-01T22:16:20.839453",
+    "started_at": "2026-01-01T22:10:49.594521",
+    "total_papers": 211
+  }
+}

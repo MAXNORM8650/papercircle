@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "self-evolving LLMs",
+    "total_papers": 50,
+    "unique_sources": 4,
+    "year_range": {
+      "min": 2024,
+      "max": 2025
+    },
+    "citation_summary": {
+      "total": 333,
+      "average": 23.8
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 30,
+    "papers_with_doi": 26,
+    "processing_steps": 1
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (39) are from 2025",
+      "data": {
+        "year": 2025,
+        "count": 39
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 20 papers (40%)",
+      "data": {
+        "source": "arxiv",
+        "count": 20
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Haitao Mi has 2 papers in this collection",
+      "data": {
+        "author": "Haitao Mi",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning...\" has 102 citations",
+      "data": {
+        "title": "WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning",
+        "citations": 102
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: self, evolving, llms, agents, language",
+      "data": {
+        "keywords": {
+          "self": 22,
+          "evolving": 21,
+          "llms": 15,
+          "agents": 9,
+          "language": 8
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "30/50 papers (60%) have direct PDF links",
+      "data": {
+        "with_pdf": 30,
+        "total": 50
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 50 papers related to 'self-evolving LLMs'",
+    "Papers collected from 4 sources: dblp, arxiv, semantic_scholar, openalex",
+    "Publication years range from 2024 to 2025",
+    "Total citations: 333, Average: 23",
+    "Leading researchers: Haitao Mi, John R. Kitchin, Seiji Sato"
+  ],
+  "metadata": {
+    "query": "self-evolving LLMs",
+    "total_steps": 1,
+    "last_updated": "2026-01-02T11:09:56.936341",
+    "started_at": "2026-01-02T11:09:25.616038",
+    "total_papers": 50
+  }
+}

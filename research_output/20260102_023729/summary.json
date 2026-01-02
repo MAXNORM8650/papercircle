@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "why human services very less",
+    "total_papers": 10,
+    "unique_sources": 1,
+    "year_range": {
+      "min": 2025,
+      "max": 2025
+    },
+    "citation_summary": {
+      "total": 379,
+      "average": 126.3
+    },
+    "top_source": "openalex",
+    "papers_with_pdf": 10,
+    "papers_with_doi": 9,
+    "processing_steps": 4
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (10) are from 2025",
+      "data": {
+        "year": 2025,
+        "count": 10
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "openalex contributes 10 papers (100%)",
+      "data": {
+        "source": "openalex",
+        "count": 10
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Jef Verhoeven has 1 papers in this collection",
+      "data": {
+        "author": "Jef Verhoeven",
+        "count": 1
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Development Education...\" has 197 citations",
+      "data": {
+        "title": "Development Education",
+        "citations": 197
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: reading, development, education, european, scientific",
+      "data": {
+        "keywords": {
+          "reading": 2,
+          "development": 1,
+          "education": 1,
+          "european": 1,
+          "scientific": 1
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "10/10 papers (100%) have direct PDF links",
+      "data": {
+        "with_pdf": 10,
+        "total": 10
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 10 papers related to 'why human services very less'",
+    "Papers collected from 1 sources: openalex",
+    "Publication years range from 2025 to 2025",
+    "Total citations: 379, Average: 126",
+    "Leading researchers: Jef Verhoeven, Passaro Pierluigi, Di Vittorio Arianna"
+  ],
+  "metadata": {
+    "query": "why human services very less",
+    "total_steps": 4,
+    "last_updated": "2026-01-02T02:38:41.392577",
+    "started_at": "2026-01-02T02:37:31.199351",
+    "total_papers": 10
+  }
+}

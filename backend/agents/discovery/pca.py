@@ -2604,25 +2604,31 @@ class GetStructuredOutputTool(Tool):
 # Create Pipeline
 # ============================================================================
 
-def create_research_pipeline(model, output_dir: str = "research_output", verbose: bool = True):
+def create_research_pipeline(model, output_dir: str = "research_output", verbose: bool = True, custom_instructions: str = None):
     """
     Create multi-agent research pipeline with structured outputs at each step.
-    
+
     Outputs updated at each step:
     - papers.json: All papers with details
     - links.json: Structured web links
     - stats.json: Statistics leaderboard
     - summary.json: Insights and summary
     - dashboard.html: Interactive visualization
+
+    Args:
+        model: LLM model to use
+        output_dir: Directory for output files
+        verbose: Enable verbose logging
+        custom_instructions: Optional custom instructions for paper search agent
     """
-    
+
     # Initialize state
     state = PipelineState(output_dir=output_dir)
-    
+
     # Update global state reference
     global pipeline_state
     pipeline_state = state
-    
+
     # Create agents with shared state
     intent_agent = ToolCallingAgent(
         tools=[IntentClassificationTool()],
@@ -2631,11 +2637,16 @@ def create_research_pipeline(model, output_dir: str = "research_output", verbose
         description="Classifies user search intent to determine search mode (online/offline/both), conferences, year ranges, and ranking preferences.",
     )
 
+    # Build paper search agent description with custom instructions if provided
+    paper_search_description = "Searches academic papers (online or offline). Supports multi-step accumulative search with deduplication. Updates papers.json, links.json, stats.json at each search."
+    if custom_instructions:
+        paper_search_description = f"{paper_search_description}\n\nIMPORTANT INSTRUCTIONS:\n{custom_instructions}"
+
     paper_search_agent = ToolCallingAgent(
         tools=[PaperSearchTool(state)],
         model=model,
         name="paper_search_agent",
-        description="Searches academic papers (online or offline). Supports multi-step accumulative search with deduplication. Updates papers.json, links.json, stats.json at each search.",
+        description=paper_search_description,
     )
 
     sorting_agent = ToolCallingAgent(
@@ -3032,8 +3043,8 @@ def aggregate_benchmark_metrics(results: List[dict]) -> dict:
 
 if __name__ == "__main__":
     from smolagents import LiteLLMModel
-    API_BASE = "http://localhost:11431"
-    MODEL_ID = "ollama_chat/qooba/qwen3-coder-30b-a3b-instruct:q3_k_m"
+    API_BASE = "http://localhost:11434"
+    MODEL_ID = "ollama_chat/relational/orlex:latest"
 
     model = LiteLLMModel(
         model_id=MODEL_ID,
@@ -3041,11 +3052,12 @@ if __name__ == "__main__":
         num_ctx=8192
     )
 # {"id":"q000001","query":"from the offline corpus, research on score-regularized policy optimization using diffusion behavior models from ICLR in the poster track (2024), especially works that extract deterministic inference policies from pretrained diffusion behavior models","filters":{"conferences":["iclr"],"years":[2024],"tracks":["poster"],"keywords":["diffusion","policy optimization","offline reinforcement learning"]},"database_option":"offline","relevant_id":"iclr2024:xCRr9DrolJ","relevant_title":"Score Regularized Policy Optimization through Diffusion Behavior"}
-    pipeline = create_research_pipeline(model, output_dir="complex_research_output")
+    pipeline = create_research_pipeline(model, output_dir="paper_circle_related_work")
     result = pipeline.run("""
-    1. Search for offline and online only varified papers, find workshop or poster papers (not main-track) that explicitly propose extracting a deterministic policy from pretrained diffusion-behavior models to avoid iterative sampling (ICLR/OpenReview/poster; 2023–2024)".
-    2. Sort by combined score
-    3. Export all formats
+    1. Search for offline and online only varified, A multi-agent research paper discovery and analysis framework".
+    2. Sort by best papers
+    3. Analyze trends and insights  
+    4. Export all formats
     """)
     # pipeline = create_research_pipeline(model, output_dir="my_research")
     # result = pipeline.run('''

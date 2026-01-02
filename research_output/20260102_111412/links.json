@@ -1,0 +1,2603 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Solving Math Word Problems concerning Systems of Equations with GPT-3",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26896",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/26896/26668",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2023
+      },
+      {
+        "title": "DocMath-Eval: Evaluating Math Reasoning Capabilities of LLMs in Understanding Long and Specialized Documents",
+        "url": "https://aclanthology.org/2024.acl-long.852/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.852.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "MorphAgent: Empowering Agents through Self-Evolving Profiles and Decentralized Collaboration",
+        "url": "https://openreview.net/forum?id=8wIgDG87jn",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Improving Large Language Model Fine-tuning for Solving Math Problems",
+        "url": "https://openreview.net/forum?id=E4hK8t7Fts",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Solving for X and Beyond: Can Large Language Models Solve Complex Math Problems with More-Than-Two Unknowns?",
+        "url": "https://aclanthology.org/2024.findings-emnlp.980/",
+        "pdf_url": "https://aclanthology.org/2024.findings-emnlp.980.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "MathAttack: Attacking Large Language Models towards Math Solving Ability",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29949",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29949/31658",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2024
+      },
+      {
+        "title": "BackMATH: Towards Backward Reasoning for Solving Math Problems Step by Step",
+        "url": "https://aclanthology.org/2025.coling-industry.40/",
+        "pdf_url": "https://aclanthology.org/2025.coling-industry.40.pdf",
+        "doi_url": null,
+        "source": "offline_coling",
+        "year": 2025
+      },
+      {
+        "title": "Self-Evolving Multi-Agent Collaboration Networks for Software Development",
+        "url": "https://iclr.cc/virtual/2025/poster/31011",
+        "pdf_url": "https://openreview.net/pdf?id=4R71pdPBZp",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "MACM: Utilizing a Multi-Agent System for Condition Mining in Solving Complex Mathematical Problems",
+        "url": "https://neurips.cc/virtual/2024/poster/94899",
+        "pdf_url": "https://openreview.net/pdf?id=VR2RdSxtzs",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Leveraging Online Olympiad-Level Math Problems for LLMs Training and Contamination-Resistant Evaluation",
+        "url": "https://icml.cc/virtual/2025/poster/44681",
+        "pdf_url": "https://openreview.net/pdf?id=cZi1njoRT6",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "EvoCurr: Self-evolving Curriculum with Behavior Code Generation for Complex Decision-making",
+        "url": "https://openreview.net/forum?id=xToDNYv0GZ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "AoPS Dataset: Leveraging Online Olympiad-Level Math Problems for LLMs Training and Contamination-Resistant Evaluation",
+        "url": "https://openreview.net/forum?id=Bgz3okeZ7H",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "FinanceMATH: Knowledge-Intensive Math Reasoning in Finance Domains",
+        "url": "https://aclanthology.org/2024.acl-long.693/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.693.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Augmenting Math Word Problems via Iterative Question Composing",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34640",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34640/36795",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2025
+      },
+      {
+        "title": "Solving Math Word Problems with Teacher Supervision",
+        "url": "https://www.ijcai.org/proceedings/2021/485",
+        "pdf_url": "https://www.ijcai.org/proceedings/2021/0485.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2021
+      },
+      {
+        "title": "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning",
+        "url": "https://iclr.cc/virtual/2024/poster/17389",
+        "pdf_url": "https://openreview.net/pdf?id=z8TW0ttBPp",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Enumerate-Conjecture-Prove: Formally Solving Answer-Construction Problems in Math Competitions",
+        "url": "https://openreview.net/forum?id=YDmkmdoC3M",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Lean Workbook: A large-scale Lean problem set formalized from natural language math problems",
+        "url": "https://neurips.cc/virtual/2024/poster/97664",
+        "pdf_url": "https://openreview.net/pdf?id=Vcw3vzjHDb",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "World Models for Math Story Problems",
+        "url": "https://aclanthology.org/2023.findings-acl.579/",
+        "pdf_url": "https://aclanthology.org/2023.findings-acl.579.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "HexMachina: Self-Evolving Multi-Agent System for Continual Learning of Catan",
+        "url": "https://openreview.net/forum?id=V0Fb4pwhS4",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Diversity for The Win: Towards Building Multi-Agent Systems with Heterogeneous LLMs",
+        "url": "https://openreview.net/forum?id=ptUxbqOGrC",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "SafeEvalAgent: Toward Agentic and Self-Evolving Safety Evaluation of LLMs",
+        "url": "https://openreview.net/forum?id=BRG43Nc7ec",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Learning Optimal Temperature Region for Solving Mixed Integer Functional DCOPs",
+        "url": "https://www.ijcai.org/proceedings/2020/38",
+        "pdf_url": "https://www.ijcai.org/proceedings/2020/0038.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2020
+      },
+      {
+        "title": "MathOdyssey: Benchmarking Mathematical Problem-Solving Skills in Large Language Models Using Odyssey Math Data",
+        "url": "https://openreview.net/forum?id=owR9ofvkFQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "A Survey of LLM-based Multi-agent Systems in Medicine",
+        "url": "https://openreview.net/forum?id=MvlBFwAwK8",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "MathScale: Scaling Instruction Tuning for Mathematical Reasoning",
+        "url": "https://icml.cc/virtual/2024/poster/34329",
+        "pdf_url": "https://openreview.net/pdf?id=Kjww7ZN47M",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "Solving Math Word Problems with Multi-Encoders and Multi-Decoders",
+        "url": "https://aclanthology.org/2020.coling-main.262/",
+        "pdf_url": "https://aclanthology.org/2020.coling-main.262.pdf",
+        "doi_url": null,
+        "source": "offline_coling",
+        "year": 2020
+      },
+      {
+        "title": "Fill in the Blank: Exploring and Enhancing LLM Capabilities for Backward Reasoning in Math Word Problems",
+        "url": "https://openreview.net/forum?id=ABIcBDLBVG",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Disentangling Text and Math in Word Problems: Evidence for the Bidimensional Structure of Large Language Models’ Reasoning",
+        "url": "https://aclanthology.org/2025.findings-acl.656/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.656.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Textual Enhanced Contrastive Learning for Solving Math Word Problems",
+        "url": "https://aclanthology.org/2022.findings-emnlp.316/",
+        "pdf_url": "https://aclanthology.org/2022.findings-emnlp.316.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2022
+      },
+      {
+        "title": "Can LLMs Solve Longer Math Word Problems Better?",
+        "url": "https://iclr.cc/virtual/2025/poster/30529",
+        "pdf_url": "https://openreview.net/pdf?id=C9ju8QQSCv",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Agent-Oriented Planning in Multi-Agent Systems",
+        "url": "https://iclr.cc/virtual/2025/poster/30386",
+        "pdf_url": "https://openreview.net/pdf?id=EqcLAU6gyU",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "What Makes Math Word Problems Challenging for LLMs?",
+        "url": "https://aclanthology.org/2024.findings-naacl.72/",
+        "pdf_url": "https://aclanthology.org/2024.findings-naacl.72.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2024
+      },
+      {
+        "title": "MAgICoRe: Multi-Agent, Iterative, Coarse-to-Fine Refinement for Reasoning",
+        "url": "https://openreview.net/forum?id=j9wBgcxa7N",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "LONG-HORIZON REASONING AGENT FOR OLYMPIAD- LEVEL MATHEMATICAL PROBLEM SOLVING",
+        "url": "https://openreview.net/forum?id=YH1wtz2pbo",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "GNS: Solving Plane Geometry Problems by Neural-Symbolic Reasoning with Multi-Modal LLMs",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34679",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34679/36834",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2025
+      },
+      {
+        "title": "Seeking Patterns, Not just Memorizing Procedures: Contrastive Learning for Solving Math Word Problems",
+        "url": "https://aclanthology.org/2022.findings-acl.195/",
+        "pdf_url": "https://aclanthology.org/2022.findings-acl.195.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2022
+      },
+      {
+        "title": "AgentsNet: Coordination and Collaborative Reasoning in Multi-Agent LLMs",
+        "url": "https://openreview.net/forum?id=gsSIH0mZ0Y",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Modeling Complex Mathematical Reasoning via Large Language Model based MathAgent",
+        "url": "https://openreview.net/forum?id=Ge7ZqrKG9t",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Math Word Problem Solving with Explicit Numerical Values",
+        "url": "https://aclanthology.org/2021.acl-long.455/",
+        "pdf_url": "https://aclanthology.org/2021.acl-long.455.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2021
+      },
+      {
+        "title": "Solving Challenging Math Word Problems Using GPT-4 Code Interpreter with Code-based Self-Verification",
+        "url": "https://iclr.cc/virtual/2024/poster/18306",
+        "pdf_url": "https://openreview.net/pdf?id=c8McWs4Av0",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "NUMCoT: Numerals and Units of Measurement in Chain-of-Thought Reasoning using Large Language Models",
+        "url": "https://aclanthology.org/2024.findings-acl.848/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.848.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Analogical Math Word Problems Solving with Enhanced Problem-Solution Association",
+        "url": "https://aclanthology.org/2022.emnlp-main.643/",
+        "pdf_url": "https://aclanthology.org/2022.emnlp-main.643.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2022
+      },
+      {
+        "title": "Noun-MWP: Math Word Problems Meet Noun Answers",
+        "url": "https://aclanthology.org/2022.coling-1.338/",
+        "pdf_url": "https://aclanthology.org/2022.coling-1.338.pdf",
+        "doi_url": null,
+        "source": "offline_coling",
+        "year": 2022
+      },
+      {
+        "title": "Ladders of Thought: A Self-Evolving Curriculum of Progressively Simplified Reasoning Traces",
+        "url": "https://openreview.net/forum?id=IC5WZt23gv",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "MathPrompter: Mathematical Reasoning using Large Language Models",
+        "url": "https://aclanthology.org/2023.acl-industry.4/",
+        "pdf_url": "https://aclanthology.org/2023.acl-industry.4.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "UGMathBench: A Diverse and Dynamic Benchmark for Undergraduate-Level Mathematical Reasoning with Large Language Models",
+        "url": "https://iclr.cc/virtual/2025/poster/28857",
+        "pdf_url": "https://openreview.net/pdf?id=fovPyqPcKY",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Large Language Models Miss the Multi-agent Mark",
+        "url": "https://openreview.net/forum?id=FfsxgSZW0c",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Evaluating and Improving Tool-Augmented Computation-Intensive Math Reasoning",
+        "url": "https://nips.cc/virtual/2023/poster/73611",
+        "pdf_url": "https://openreview.net/pdf?id=OB10WTlwmX",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2023
+      },
+      {
+        "title": "Solving Math Word Problems via Cooperative Reasoning induced Language Models",
+        "url": "https://aclanthology.org/2023.acl-long.245/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.245.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Adversarial Robustness of LLM-Based Multi-Agent Systems for Engineering Problems",
+        "url": "https://openreview.net/forum?id=xcBV0fK0ZK",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "A Generation-based Deductive Method for Math Word Problems",
+        "url": "https://openreview.net/forum?id=sOTbFCUrDj",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "MathViz-Bench: Evaluating Text-to-Image Models on Visually Solving Math Problems",
+        "url": "https://openreview.net/forum?id=UDeDdxZOwl",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Beyond Solving Math Quiz: Evaluating the Ability of Large Reasoning Models to Ask for Information",
+        "url": "https://openreview.net/forum?id=UEr2bzsDXn",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Compositional Mathematical Encoding for Math Word Problems",
+        "url": "https://aclanthology.org/2023.findings-acl.635/",
+        "pdf_url": "https://aclanthology.org/2023.findings-acl.635.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "R-Zero: Self-Evolving Reasoning LLM from Zero Data",
+        "url": "https://openreview.net/forum?id=96apU6YzSO",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Toward Self-Evolving Systems of LLM Agents through Exploration and Iterative Feedback",
+        "url": "https://openreview.net/forum?id=uO3gGxzu8k",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "url": "http://arxiv.org/abs/2512.25074v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "url": "http://arxiv.org/abs/2512.25072v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "url": "http://arxiv.org/abs/2512.25070v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+        "url": "http://arxiv.org/abs/2512.25069v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25069v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "url": "http://arxiv.org/abs/2512.25067v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "url": "http://arxiv.org/abs/2512.25066v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "url": "http://arxiv.org/abs/2512.25065v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+        "url": "http://arxiv.org/abs/2512.25063v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25063v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Local approximations of global Hamiltonian from inclusion of algebras",
+        "url": "http://arxiv.org/abs/2512.25062v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25062v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+        "url": "http://arxiv.org/abs/2512.25061v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25061v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "url": "http://arxiv.org/abs/2512.25059v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The variety of orthogonal frames",
+        "url": "http://arxiv.org/abs/2512.25058v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25058v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The Logical Structure of Physical Laws: A Fixed Point Reconstruction",
+        "url": "http://arxiv.org/abs/2512.25057v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25057v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "url": "http://arxiv.org/abs/2512.25056v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "url": "http://arxiv.org/abs/2512.25055v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Emergence of 3D Superconformal Ising Criticality on the Fuzzy Sphere",
+        "url": "http://arxiv.org/abs/2512.25054v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25054v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Fluid dynamics as intersection problem",
+        "url": "http://arxiv.org/abs/2512.25053v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25053v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+        "url": "http://arxiv.org/abs/2512.25052v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25052v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Bilinear tau forms of quantum Painlevé equations and $\\mathbb{C}^2/\\mathbb{Z}_2$ blowup relations in SUSY gauge theories",
+        "url": "http://arxiv.org/abs/2512.25051v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25051v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+        "url": "http://arxiv.org/abs/2512.25050v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25050v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Amplitude constraints on dark energy",
+        "url": "http://arxiv.org/abs/2512.25047v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25047v1",
+        "doi_url": "https://doi.org/10.58027/3q8k-ew90",
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "url": "http://arxiv.org/abs/2512.25046v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "url": "http://arxiv.org/abs/2512.25045v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Thin Tree Verification is coNP-Complete",
+        "url": "http://arxiv.org/abs/2512.25043v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25043v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "url": "http://arxiv.org/abs/2512.25042v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Impact of Artificial Intelligence on Education and Research: Pedagogy, Learning Analytics, and Academic Transformation",
+        "url": "https://openalex.org/W4414201528",
+        "pdf_url": "https://www.deepscienceresearch.com/dsr/catalog/download/304/1459/2845",
+        "doi_url": "https://doi.org/10.70593/978-93-7185-525-9",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "AI Reasoning for Wireless Communications and Networking: A Survey and Perspectives",
+        "url": "https://openalex.org/W4417071390",
+        "pdf_url": "https://arxiv.org/pdf/2509.09193",
+        "doi_url": "https://doi.org/10.48550/arxiv.2509.09193",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Building Trustworthy Autonomous AI: Essential Principles beyond Traditional Software Design",
+        "url": "https://openalex.org/W4413992056",
+        "pdf_url": "https://www.acigjournal.com/pdf-208710-128314?filename=Building Trustworthy.pdf",
+        "doi_url": "https://doi.org/10.60097/acig/208710",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "AI Agents for Economic Research",
+        "url": "https://openalex.org/W4414156829",
+        "pdf_url": "https://doi.org/10.3386/w34202",
+        "doi_url": "https://doi.org/10.3386/w34202",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Big Loop and Atomization: A Holistic Review on the Expansion Capabilities of Large Language Models",
+        "url": "https://openalex.org/W4413832627",
+        "pdf_url": "https://www.mdpi.com/2076-3417/15/17/9466/pdf?version=1756391648",
+        "doi_url": "https://doi.org/10.3390/app15179466",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "AI and Financial Fragility: A Framework for Measuring Systemic Risk in Deployment of Generative AI for Stock Price Predictions",
+        "url": "https://openalex.org/W4413696618",
+        "pdf_url": "https://www.mdpi.com/1911-8074/18/9/475/pdf?version=1756196971",
+        "doi_url": "https://doi.org/10.3390/jrfm18090475",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Enhancing Teacher Professional Development Through a Human-AI Co-Intelligent System for Scalable Automated Feedback in Computing Education",
+        "url": "https://openalex.org/W4413478117",
+        "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175606386.61533946",
+        "doi_url": "https://doi.org/10.36227/techrxiv.175606386.61533946/v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Prompt Orchestration Markup Language",
+        "url": "https://openalex.org/W4415014182",
+        "pdf_url": "https://arxiv.org/pdf/2508.13948",
+        "doi_url": null,
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Artificial ignorance: Understanding the role of AI in modern agnotology",
+        "url": "https://openalex.org/W4413271901",
+        "pdf_url": "https://firstmonday.org/ojs/index.php/fm/article/download/13890/12068",
+        "doi_url": "https://doi.org/10.5210/fm.v30i8.13890",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Frontiers",
+        "url": "https://openalex.org/W4413330000",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3736539",
+        "doi_url": "https://doi.org/10.1145/3736539",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Optimal-Agent-Selection: State-Aware Routing Framework for Efficient Multi-Agent Collaboration",
+        "url": "https://www.semanticscholar.org/paper/1f24e18ba7106b464a7c9081300d4c2f3b661c11",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2511.02200",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "MAS-ZERO: Designing Multi-Agent Systems with Zero Supervision",
+        "url": "https://www.semanticscholar.org/paper/097e2138daa8d6af8ef1af85ac9cc6e031540aa1",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.14996",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Self-evolving expertise in complex non-verifiable subject domains: dialogue as implicit meta-RL",
+        "url": "https://www.semanticscholar.org/paper/931ebc2b83e8ef4775001f2a8bd81b6395f77d96",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2510.15772",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Agent0: Unleashing Self-Evolving Agents from Zero Data via Tool-Integrated Reasoning",
+        "url": "https://www.semanticscholar.org/paper/a647788b47b1bac9c137ab192316f72de52471d4",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "AdvEvo-MARL: Shaping Internalized Safety through Adversarial Co-Evolution in Multi-Agent Reinforcement Learning",
+        "url": "https://www.semanticscholar.org/paper/7a44b3e5b5151aa1c9fd533e2374578a1ddbc4df",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2510.01586",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Xolver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team",
+        "url": "https://www.semanticscholar.org/paper/3bd17cf2227ca49163bf74519cc64b5e2d359227",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.14234",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "HERMES: Towards Efficient and Verifiable Mathematical Reasoning in LLMs",
+        "url": "https://www.semanticscholar.org/paper/8a3d33aac79b05d94d3634851658155c8f9a6f37",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "LiveTradeBench: Seeking Real-World Alpha with Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/9b8944c299cd7ce32db8bf187b96b508bede49d1",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Multi Uav Cooperative Surveillance With Spatio Temporal",
+        "url": "https://www.semanticscholar.org/paper/03244ebd14a553b3f47cf287f744ce73d6a99e1d",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "CollaPipe: Adaptive Segment-Optimized Pipeline Parallelism for Collaborative LLM Training in Heterogeneous Edge Networks",
+        "url": "https://www.semanticscholar.org/paper/dea03e01eb6704b2bf8648d5520a6d59161bc0b1",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2509.19855",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Charting AI’s Trajectory: Historical Foundations and Future Directions",
+        "url": "https://openalex.org/W4414315743",
+        "pdf_url": "https://www.preprints.org/frontend/manuscript/80177d030026724d3a816dadd53a77e5/download_pub",
+        "doi_url": "https://doi.org/10.20944/preprints202509.1217.v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Chasing Progress, Not Perfection: Revisiting Strategies for End-to-End LLM Plan Generation",
+        "url": "https://openalex.org/W4414222903",
+        "pdf_url": "https://ojs.aaai.org/index.php/ICAPS/article/download/36119/38273",
+        "doi_url": "https://doi.org/10.1609/icaps.v35i1.36119",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Lyotard’s ‘Brain’, and/or the Mathematical Universe",
+        "url": "https://openalex.org/W4414297538",
+        "pdf_url": "https://technophany.philosophyandtechnology.network/article/download/19598/25857",
+        "doi_url": "https://doi.org/10.54195/technophany.19598",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Gödelian embodied self-referential genomic intelligence: lessons for AI and AGI from the genomic blockchain",
+        "url": "https://openalex.org/W4414184733",
+        "pdf_url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1624695/pdf",
+        "doi_url": "https://doi.org/10.3389/frobt.2025.1624695",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Biotechnology in materials science: A storied past and a bold future",
+        "url": "https://openalex.org/W4414086134",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1557/s43577-025-00929-4.pdf",
+        "doi_url": "https://doi.org/10.1557/s43577-025-00929-4",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Why unequal AI access enhances team productivity: the mediating role of interaction processes and cognitive diversity",
+        "url": "https://openalex.org/W4414072495",
+        "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1636906/pdf",
+        "doi_url": "https://doi.org/10.3389/fpsyg.2025.1636906",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Minds in Crisis: How the AI Revolution is Impacting Mental Health",
+        "url": "https://openalex.org/W4414239927",
+        "pdf_url": "https://doi.org/10.29245/2578-2959/2025/3.1352",
+        "doi_url": "https://doi.org/10.29245/2578-2959/2025/3.1352",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Agua: A Concept-Based Explainer for Learning-Enabled Systems",
+        "url": "https://openalex.org/W4413756881",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3718958.3754341",
+        "doi_url": "https://doi.org/10.1145/3718958.3754341",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Transduction is All You Need for Structured Data Workflows",
+        "url": "https://openalex.org/W4415337318",
+        "pdf_url": "https://arxiv.org/pdf/2508.15610",
+        "doi_url": "https://doi.org/10.48550/arxiv.2508.15610",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Probing for consciousness in machines",
+        "url": "https://openalex.org/W4413363322",
+        "pdf_url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1610225/pdf",
+        "doi_url": "https://doi.org/10.3389/frai.2025.1610225",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers",
+        "url": "https://openalex.org/W4415240829",
+        "pdf_url": "https://arxiv.org/pdf/2508.14704",
+        "doi_url": "https://doi.org/10.48550/arxiv.2508.14704",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Digital twins as self-models for intelligent structures",
+        "url": "https://openalex.org/W4413330590",
+        "pdf_url": "https://www.nature.com/articles/s41598-025-14347-8.pdf",
+        "doi_url": "https://doi.org/10.1038/s41598-025-14347-8",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Benchmark Self-Evolving: A Multi-Agent Framework for Dynamic LLM Evaluation",
+        "url": "https://www.semanticscholar.org/paper/b93ac10de176c4a7aaa2cc652b90bb25636532cd",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2402.11443",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Deciding the Path: Leveraging Multi-Agent Systems for Solving Complex Tasks",
+        "url": "https://www.semanticscholar.org/paper/0dcf56342e4d8b443638fa81f84904d90fc6cc02",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/CVPRW67362.2025.00405",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "CoTGuard: Using Chain-of-Thought Triggering for Copyright Protection in Multi-Agent LLM Systems",
+        "url": "https://www.semanticscholar.org/paper/bd7107b697981c50cf683b6b5df762f8a82b81e6",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.19405",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning",
+        "url": "https://www.semanticscholar.org/paper/6ac8d8bfc7cf6dd6ad6cbc764cedffe673aef346",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.24119",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "SEW: Self-Evolving Agentic Workflows for Automated Code Generation",
+        "url": "https://www.semanticscholar.org/paper/5019a83ed9737ee59616070a26ca7581b1bd566c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.18646",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "ReSo: A Reward-driven Self-organizing LLM-based Multi-Agent System for Reasoning Tasks",
+        "url": "https://www.semanticscholar.org/paper/499979b1347c53cc3cadedf66575623cc0d6a727",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2503.02390",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Enhancing Online Learning Through Multi-Agent Debates for CS University Students",
+        "url": "https://www.semanticscholar.org/paper/9dfedd53ef2e8e8d0fae09371013fd6612eed36a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.3390/app15115877",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Knowledge Tagging with Large Language Model based Multi-Agent System",
+        "url": "https://www.semanticscholar.org/paper/ee0814fb2b065205cf08019314d0e21ce09ad977",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2409.08406",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "E3-MAS: A Self-Evolution Multi-Agent System Framework",
+        "url": "https://www.semanticscholar.org/paper/44f5ae089324cad7a0d9a0d27380c521c78acd30",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICCE-Asia67487.2025.11263582",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Polymath: A Self-Optimizing Agent with Dynamic Hierarchical Workflow",
+        "url": "https://www.semanticscholar.org/paper/9718bb2429dee2cacf5f9316a174e26b815694a2",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2508.02959",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "ApexCodium: a Multi-Agent System for Code Generation with Enhanced Self-Reflection",
+        "url": "https://www.semanticscholar.org/paper/5872513f36f2fa0e35c3fe71abd6b5412e46416b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICAIET65052.2025.11211133",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "InfiAgent: Self-Evolving Pyramid Agent Framework for Infinite Scenarios",
+        "url": "https://www.semanticscholar.org/paper/e65bbc15263d37ace731287af9bff60c283294a3",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2509.22502",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Intrinsic Memory Agents: Heterogeneous Multi-Agent LLM Systems through Structured Contextual Memory",
+        "url": "https://www.semanticscholar.org/paper/6dafab866aee42bac0e0df26f9206170e711f0e1",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2508.08997",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "A Genetic Programming-based Framework for Semi-automated Multi-agent Systems Engineering",
+        "url": "https://www.semanticscholar.org/paper/7f108e5f67a638da0e56678a516aadd4e868b9cf",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3584731",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "A Survey of Slow Thinking-based Reasoning LLMs using Reinforced Learning and Inference-time Scaling Law",
+        "url": "https://www.semanticscholar.org/paper/c2feda1e804700d0980d71cfc71ce66d369b6b6c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.02665",
+        "source": "semantic_scholar",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "offline_aaai": [
+        {
+          "title": "Solving Math Word Problems concerning Systems of Equations with GPT-3",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26896",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/26896/26668",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2023
+        },
+        {
+          "title": "MathAttack: Attacking Large Language Models towards Math Solving Ability",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29949",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29949/31658",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2024
+        },
+        {
+          "title": "Augmenting Math Word Problems via Iterative Question Composing",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34640",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34640/36795",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2025
+        },
+        {
+          "title": "GNS: Solving Plane Geometry Problems by Neural-Symbolic Reasoning with Multi-Modal LLMs",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34679",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34679/36834",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2025
+        }
+      ],
+      "offline_acl": [
+        {
+          "title": "DocMath-Eval: Evaluating Math Reasoning Capabilities of LLMs in Understanding Long and Specialized Documents",
+          "url": "https://aclanthology.org/2024.acl-long.852/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.852.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "FinanceMATH: Knowledge-Intensive Math Reasoning in Finance Domains",
+          "url": "https://aclanthology.org/2024.acl-long.693/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.693.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "World Models for Math Story Problems",
+          "url": "https://aclanthology.org/2023.findings-acl.579/",
+          "pdf_url": "https://aclanthology.org/2023.findings-acl.579.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Disentangling Text and Math in Word Problems: Evidence for the Bidimensional Structure of Large Language Models’ Reasoning",
+          "url": "https://aclanthology.org/2025.findings-acl.656/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.656.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Seeking Patterns, Not just Memorizing Procedures: Contrastive Learning for Solving Math Word Problems",
+          "url": "https://aclanthology.org/2022.findings-acl.195/",
+          "pdf_url": "https://aclanthology.org/2022.findings-acl.195.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2022
+        },
+        {
+          "title": "Math Word Problem Solving with Explicit Numerical Values",
+          "url": "https://aclanthology.org/2021.acl-long.455/",
+          "pdf_url": "https://aclanthology.org/2021.acl-long.455.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2021
+        },
+        {
+          "title": "NUMCoT: Numerals and Units of Measurement in Chain-of-Thought Reasoning using Large Language Models",
+          "url": "https://aclanthology.org/2024.findings-acl.848/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.848.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "MathPrompter: Mathematical Reasoning using Large Language Models",
+          "url": "https://aclanthology.org/2023.acl-industry.4/",
+          "pdf_url": "https://aclanthology.org/2023.acl-industry.4.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Solving Math Word Problems via Cooperative Reasoning induced Language Models",
+          "url": "https://aclanthology.org/2023.acl-long.245/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.245.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Compositional Mathematical Encoding for Math Word Problems",
+          "url": "https://aclanthology.org/2023.findings-acl.635/",
+          "pdf_url": "https://aclanthology.org/2023.findings-acl.635.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        }
+      ],
+      "offline_iclr": [
+        {
+          "title": "MorphAgent: Empowering Agents through Self-Evolving Profiles and Decentralized Collaboration",
+          "url": "https://openreview.net/forum?id=8wIgDG87jn",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Improving Large Language Model Fine-tuning for Solving Math Problems",
+          "url": "https://openreview.net/forum?id=E4hK8t7Fts",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Self-Evolving Multi-Agent Collaboration Networks for Software Development",
+          "url": "https://iclr.cc/virtual/2025/poster/31011",
+          "pdf_url": "https://openreview.net/pdf?id=4R71pdPBZp",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "EvoCurr: Self-evolving Curriculum with Behavior Code Generation for Complex Decision-making",
+          "url": "https://openreview.net/forum?id=xToDNYv0GZ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "AoPS Dataset: Leveraging Online Olympiad-Level Math Problems for LLMs Training and Contamination-Resistant Evaluation",
+          "url": "https://openreview.net/forum?id=Bgz3okeZ7H",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning",
+          "url": "https://iclr.cc/virtual/2024/poster/17389",
+          "pdf_url": "https://openreview.net/pdf?id=z8TW0ttBPp",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Enumerate-Conjecture-Prove: Formally Solving Answer-Construction Problems in Math Competitions",
+          "url": "https://openreview.net/forum?id=YDmkmdoC3M",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "HexMachina: Self-Evolving Multi-Agent System for Continual Learning of Catan",
+          "url": "https://openreview.net/forum?id=V0Fb4pwhS4",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Diversity for The Win: Towards Building Multi-Agent Systems with Heterogeneous LLMs",
+          "url": "https://openreview.net/forum?id=ptUxbqOGrC",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "SafeEvalAgent: Toward Agentic and Self-Evolving Safety Evaluation of LLMs",
+          "url": "https://openreview.net/forum?id=BRG43Nc7ec",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "MathOdyssey: Benchmarking Mathematical Problem-Solving Skills in Large Language Models Using Odyssey Math Data",
+          "url": "https://openreview.net/forum?id=owR9ofvkFQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "A Survey of LLM-based Multi-agent Systems in Medicine",
+          "url": "https://openreview.net/forum?id=MvlBFwAwK8",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Fill in the Blank: Exploring and Enhancing LLM Capabilities for Backward Reasoning in Math Word Problems",
+          "url": "https://openreview.net/forum?id=ABIcBDLBVG",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Can LLMs Solve Longer Math Word Problems Better?",
+          "url": "https://iclr.cc/virtual/2025/poster/30529",
+          "pdf_url": "https://openreview.net/pdf?id=C9ju8QQSCv",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Agent-Oriented Planning in Multi-Agent Systems",
+          "url": "https://iclr.cc/virtual/2025/poster/30386",
+          "pdf_url": "https://openreview.net/pdf?id=EqcLAU6gyU",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "MAgICoRe: Multi-Agent, Iterative, Coarse-to-Fine Refinement for Reasoning",
+          "url": "https://openreview.net/forum?id=j9wBgcxa7N",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "LONG-HORIZON REASONING AGENT FOR OLYMPIAD- LEVEL MATHEMATICAL PROBLEM SOLVING",
+          "url": "https://openreview.net/forum?id=YH1wtz2pbo",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "AgentsNet: Coordination and Collaborative Reasoning in Multi-Agent LLMs",
+          "url": "https://openreview.net/forum?id=gsSIH0mZ0Y",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Modeling Complex Mathematical Reasoning via Large Language Model based MathAgent",
+          "url": "https://openreview.net/forum?id=Ge7ZqrKG9t",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Solving Challenging Math Word Problems Using GPT-4 Code Interpreter with Code-based Self-Verification",
+          "url": "https://iclr.cc/virtual/2024/poster/18306",
+          "pdf_url": "https://openreview.net/pdf?id=c8McWs4Av0",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Ladders of Thought: A Self-Evolving Curriculum of Progressively Simplified Reasoning Traces",
+          "url": "https://openreview.net/forum?id=IC5WZt23gv",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "UGMathBench: A Diverse and Dynamic Benchmark for Undergraduate-Level Mathematical Reasoning with Large Language Models",
+          "url": "https://iclr.cc/virtual/2025/poster/28857",
+          "pdf_url": "https://openreview.net/pdf?id=fovPyqPcKY",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Adversarial Robustness of LLM-Based Multi-Agent Systems for Engineering Problems",
+          "url": "https://openreview.net/forum?id=xcBV0fK0ZK",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "MathViz-Bench: Evaluating Text-to-Image Models on Visually Solving Math Problems",
+          "url": "https://openreview.net/forum?id=UDeDdxZOwl",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Beyond Solving Math Quiz: Evaluating the Ability of Large Reasoning Models to Ask for Information",
+          "url": "https://openreview.net/forum?id=UEr2bzsDXn",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "R-Zero: Self-Evolving Reasoning LLM from Zero Data",
+          "url": "https://openreview.net/forum?id=96apU6YzSO",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Toward Self-Evolving Systems of LLM Agents through Exploration and Iterative Feedback",
+          "url": "https://openreview.net/forum?id=uO3gGxzu8k",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        }
+      ],
+      "offline_emnlp": [
+        {
+          "title": "Solving for X and Beyond: Can Large Language Models Solve Complex Math Problems with More-Than-Two Unknowns?",
+          "url": "https://aclanthology.org/2024.findings-emnlp.980/",
+          "pdf_url": "https://aclanthology.org/2024.findings-emnlp.980.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Textual Enhanced Contrastive Learning for Solving Math Word Problems",
+          "url": "https://aclanthology.org/2022.findings-emnlp.316/",
+          "pdf_url": "https://aclanthology.org/2022.findings-emnlp.316.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2022
+        },
+        {
+          "title": "Analogical Math Word Problems Solving with Enhanced Problem-Solution Association",
+          "url": "https://aclanthology.org/2022.emnlp-main.643/",
+          "pdf_url": "https://aclanthology.org/2022.emnlp-main.643.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2022
+        },
+        {
+          "title": "A Generation-based Deductive Method for Math Word Problems",
+          "url": "https://openreview.net/forum?id=sOTbFCUrDj",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        }
+      ],
+      "offline_coling": [
+        {
+          "title": "BackMATH: Towards Backward Reasoning for Solving Math Problems Step by Step",
+          "url": "https://aclanthology.org/2025.coling-industry.40/",
+          "pdf_url": "https://aclanthology.org/2025.coling-industry.40.pdf",
+          "doi_url": null,
+          "source": "offline_coling",
+          "year": 2025
+        },
+        {
+          "title": "Solving Math Word Problems with Multi-Encoders and Multi-Decoders",
+          "url": "https://aclanthology.org/2020.coling-main.262/",
+          "pdf_url": "https://aclanthology.org/2020.coling-main.262.pdf",
+          "doi_url": null,
+          "source": "offline_coling",
+          "year": 2020
+        },
+        {
+          "title": "Noun-MWP: Math Word Problems Meet Noun Answers",
+          "url": "https://aclanthology.org/2022.coling-1.338/",
+          "pdf_url": "https://aclanthology.org/2022.coling-1.338.pdf",
+          "doi_url": null,
+          "source": "offline_coling",
+          "year": 2022
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "MACM: Utilizing a Multi-Agent System for Condition Mining in Solving Complex Mathematical Problems",
+          "url": "https://neurips.cc/virtual/2024/poster/94899",
+          "pdf_url": "https://openreview.net/pdf?id=VR2RdSxtzs",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Lean Workbook: A large-scale Lean problem set formalized from natural language math problems",
+          "url": "https://neurips.cc/virtual/2024/poster/97664",
+          "pdf_url": "https://openreview.net/pdf?id=Vcw3vzjHDb",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Large Language Models Miss the Multi-agent Mark",
+          "url": "https://openreview.net/forum?id=FfsxgSZW0c",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Evaluating and Improving Tool-Augmented Computation-Intensive Math Reasoning",
+          "url": "https://nips.cc/virtual/2023/poster/73611",
+          "pdf_url": "https://openreview.net/pdf?id=OB10WTlwmX",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2023
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "Leveraging Online Olympiad-Level Math Problems for LLMs Training and Contamination-Resistant Evaluation",
+          "url": "https://icml.cc/virtual/2025/poster/44681",
+          "pdf_url": "https://openreview.net/pdf?id=cZi1njoRT6",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "MathScale: Scaling Instruction Tuning for Mathematical Reasoning",
+          "url": "https://icml.cc/virtual/2024/poster/34329",
+          "pdf_url": "https://openreview.net/pdf?id=Kjww7ZN47M",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        }
+      ],
+      "offline_ijcai": [
+        {
+          "title": "Solving Math Word Problems with Teacher Supervision",
+          "url": "https://www.ijcai.org/proceedings/2021/485",
+          "pdf_url": "https://www.ijcai.org/proceedings/2021/0485.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2021
+        },
+        {
+          "title": "Learning Optimal Temperature Region for Solving Mixed Integer Functional DCOPs",
+          "url": "https://www.ijcai.org/proceedings/2020/38",
+          "pdf_url": "https://www.ijcai.org/proceedings/2020/0038.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2020
+        }
+      ],
+      "offline_naacl": [
+        {
+          "title": "What Makes Math Word Problems Challenging for LLMs?",
+          "url": "https://aclanthology.org/2024.findings-naacl.72/",
+          "pdf_url": "https://aclanthology.org/2024.findings-naacl.72.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2024
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+          "url": "http://arxiv.org/abs/2512.25074v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Coordinated Humanoid Manipulation with Choice Policies",
+          "url": "http://arxiv.org/abs/2512.25072v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Scaling Open-Ended Reasoning to Predict the Future",
+          "url": "http://arxiv.org/abs/2512.25070v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+          "url": "http://arxiv.org/abs/2512.25069v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25069v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+          "url": "http://arxiv.org/abs/2512.25067v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+          "url": "http://arxiv.org/abs/2512.25066v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+          "url": "http://arxiv.org/abs/2512.25065v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+          "url": "http://arxiv.org/abs/2512.25063v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25063v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Local approximations of global Hamiltonian from inclusion of algebras",
+          "url": "http://arxiv.org/abs/2512.25062v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25062v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+          "url": "http://arxiv.org/abs/2512.25061v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25061v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+          "url": "http://arxiv.org/abs/2512.25059v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The variety of orthogonal frames",
+          "url": "http://arxiv.org/abs/2512.25058v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25058v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The Logical Structure of Physical Laws: A Fixed Point Reconstruction",
+          "url": "http://arxiv.org/abs/2512.25057v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25057v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+          "url": "http://arxiv.org/abs/2512.25056v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+          "url": "http://arxiv.org/abs/2512.25055v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Emergence of 3D Superconformal Ising Criticality on the Fuzzy Sphere",
+          "url": "http://arxiv.org/abs/2512.25054v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25054v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Fluid dynamics as intersection problem",
+          "url": "http://arxiv.org/abs/2512.25053v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25053v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+          "url": "http://arxiv.org/abs/2512.25052v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25052v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bilinear tau forms of quantum Painlevé equations and $\\mathbb{C}^2/\\mathbb{Z}_2$ blowup relations in SUSY gauge theories",
+          "url": "http://arxiv.org/abs/2512.25051v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25051v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+          "url": "http://arxiv.org/abs/2512.25050v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25050v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Amplitude constraints on dark energy",
+          "url": "http://arxiv.org/abs/2512.25047v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25047v1",
+          "doi_url": "https://doi.org/10.58027/3q8k-ew90",
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Extreme nonlinear optics in optical fibers",
+          "url": "http://arxiv.org/abs/2512.25046v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+          "url": "http://arxiv.org/abs/2512.25045v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Thin Tree Verification is coNP-Complete",
+          "url": "http://arxiv.org/abs/2512.25043v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25043v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Compound Estimation for Binomials",
+          "url": "http://arxiv.org/abs/2512.25042v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ],
+      "openalex": [
+        {
+          "title": "Impact of Artificial Intelligence on Education and Research: Pedagogy, Learning Analytics, and Academic Transformation",
+          "url": "https://openalex.org/W4414201528",
+          "pdf_url": "https://www.deepscienceresearch.com/dsr/catalog/download/304/1459/2845",
+          "doi_url": "https://doi.org/10.70593/978-93-7185-525-9",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "AI Reasoning for Wireless Communications and Networking: A Survey and Perspectives",
+          "url": "https://openalex.org/W4417071390",
+          "pdf_url": "https://arxiv.org/pdf/2509.09193",
+          "doi_url": "https://doi.org/10.48550/arxiv.2509.09193",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Building Trustworthy Autonomous AI: Essential Principles beyond Traditional Software Design",
+          "url": "https://openalex.org/W4413992056",
+          "pdf_url": "https://www.acigjournal.com/pdf-208710-128314?filename=Building Trustworthy.pdf",
+          "doi_url": "https://doi.org/10.60097/acig/208710",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "AI Agents for Economic Research",
+          "url": "https://openalex.org/W4414156829",
+          "pdf_url": "https://doi.org/10.3386/w34202",
+          "doi_url": "https://doi.org/10.3386/w34202",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Big Loop and Atomization: A Holistic Review on the Expansion Capabilities of Large Language Models",
+          "url": "https://openalex.org/W4413832627",
+          "pdf_url": "https://www.mdpi.com/2076-3417/15/17/9466/pdf?version=1756391648",
+          "doi_url": "https://doi.org/10.3390/app15179466",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "AI and Financial Fragility: A Framework for Measuring Systemic Risk in Deployment of Generative AI for Stock Price Predictions",
+          "url": "https://openalex.org/W4413696618",
+          "pdf_url": "https://www.mdpi.com/1911-8074/18/9/475/pdf?version=1756196971",
+          "doi_url": "https://doi.org/10.3390/jrfm18090475",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Enhancing Teacher Professional Development Through a Human-AI Co-Intelligent System for Scalable Automated Feedback in Computing Education",
+          "url": "https://openalex.org/W4413478117",
+          "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175606386.61533946",
+          "doi_url": "https://doi.org/10.36227/techrxiv.175606386.61533946/v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Prompt Orchestration Markup Language",
+          "url": "https://openalex.org/W4415014182",
+          "pdf_url": "https://arxiv.org/pdf/2508.13948",
+          "doi_url": null,
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Artificial ignorance: Understanding the role of AI in modern agnotology",
+          "url": "https://openalex.org/W4413271901",
+          "pdf_url": "https://firstmonday.org/ojs/index.php/fm/article/download/13890/12068",
+          "doi_url": "https://doi.org/10.5210/fm.v30i8.13890",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Frontiers",
+          "url": "https://openalex.org/W4413330000",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3736539",
+          "doi_url": "https://doi.org/10.1145/3736539",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Charting AI’s Trajectory: Historical Foundations and Future Directions",
+          "url": "https://openalex.org/W4414315743",
+          "pdf_url": "https://www.preprints.org/frontend/manuscript/80177d030026724d3a816dadd53a77e5/download_pub",
+          "doi_url": "https://doi.org/10.20944/preprints202509.1217.v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Chasing Progress, Not Perfection: Revisiting Strategies for End-to-End LLM Plan Generation",
+          "url": "https://openalex.org/W4414222903",
+          "pdf_url": "https://ojs.aaai.org/index.php/ICAPS/article/download/36119/38273",
+          "doi_url": "https://doi.org/10.1609/icaps.v35i1.36119",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Lyotard’s ‘Brain’, and/or the Mathematical Universe",
+          "url": "https://openalex.org/W4414297538",
+          "pdf_url": "https://technophany.philosophyandtechnology.network/article/download/19598/25857",
+          "doi_url": "https://doi.org/10.54195/technophany.19598",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Gödelian embodied self-referential genomic intelligence: lessons for AI and AGI from the genomic blockchain",
+          "url": "https://openalex.org/W4414184733",
+          "pdf_url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1624695/pdf",
+          "doi_url": "https://doi.org/10.3389/frobt.2025.1624695",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Biotechnology in materials science: A storied past and a bold future",
+          "url": "https://openalex.org/W4414086134",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1557/s43577-025-00929-4.pdf",
+          "doi_url": "https://doi.org/10.1557/s43577-025-00929-4",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Why unequal AI access enhances team productivity: the mediating role of interaction processes and cognitive diversity",
+          "url": "https://openalex.org/W4414072495",
+          "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1636906/pdf",
+          "doi_url": "https://doi.org/10.3389/fpsyg.2025.1636906",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Minds in Crisis: How the AI Revolution is Impacting Mental Health",
+          "url": "https://openalex.org/W4414239927",
+          "pdf_url": "https://doi.org/10.29245/2578-2959/2025/3.1352",
+          "doi_url": "https://doi.org/10.29245/2578-2959/2025/3.1352",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Agua: A Concept-Based Explainer for Learning-Enabled Systems",
+          "url": "https://openalex.org/W4413756881",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3718958.3754341",
+          "doi_url": "https://doi.org/10.1145/3718958.3754341",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Transduction is All You Need for Structured Data Workflows",
+          "url": "https://openalex.org/W4415337318",
+          "pdf_url": "https://arxiv.org/pdf/2508.15610",
+          "doi_url": "https://doi.org/10.48550/arxiv.2508.15610",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Probing for consciousness in machines",
+          "url": "https://openalex.org/W4413363322",
+          "pdf_url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1610225/pdf",
+          "doi_url": "https://doi.org/10.3389/frai.2025.1610225",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers",
+          "url": "https://openalex.org/W4415240829",
+          "pdf_url": "https://arxiv.org/pdf/2508.14704",
+          "doi_url": "https://doi.org/10.48550/arxiv.2508.14704",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Digital twins as self-models for intelligent structures",
+          "url": "https://openalex.org/W4413330590",
+          "pdf_url": "https://www.nature.com/articles/s41598-025-14347-8.pdf",
+          "doi_url": "https://doi.org/10.1038/s41598-025-14347-8",
+          "source": "openalex",
+          "year": 2025
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "Optimal-Agent-Selection: State-Aware Routing Framework for Efficient Multi-Agent Collaboration",
+          "url": "https://www.semanticscholar.org/paper/1f24e18ba7106b464a7c9081300d4c2f3b661c11",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2511.02200",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "MAS-ZERO: Designing Multi-Agent Systems with Zero Supervision",
+          "url": "https://www.semanticscholar.org/paper/097e2138daa8d6af8ef1af85ac9cc6e031540aa1",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.14996",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Self-evolving expertise in complex non-verifiable subject domains: dialogue as implicit meta-RL",
+          "url": "https://www.semanticscholar.org/paper/931ebc2b83e8ef4775001f2a8bd81b6395f77d96",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2510.15772",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Agent0: Unleashing Self-Evolving Agents from Zero Data via Tool-Integrated Reasoning",
+          "url": "https://www.semanticscholar.org/paper/a647788b47b1bac9c137ab192316f72de52471d4",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "AdvEvo-MARL: Shaping Internalized Safety through Adversarial Co-Evolution in Multi-Agent Reinforcement Learning",
+          "url": "https://www.semanticscholar.org/paper/7a44b3e5b5151aa1c9fd533e2374578a1ddbc4df",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2510.01586",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Xolver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team",
+          "url": "https://www.semanticscholar.org/paper/3bd17cf2227ca49163bf74519cc64b5e2d359227",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.14234",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "HERMES: Towards Efficient and Verifiable Mathematical Reasoning in LLMs",
+          "url": "https://www.semanticscholar.org/paper/8a3d33aac79b05d94d3634851658155c8f9a6f37",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "LiveTradeBench: Seeking Real-World Alpha with Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/9b8944c299cd7ce32db8bf187b96b508bede49d1",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Multi Uav Cooperative Surveillance With Spatio Temporal",
+          "url": "https://www.semanticscholar.org/paper/03244ebd14a553b3f47cf287f744ce73d6a99e1d",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "CollaPipe: Adaptive Segment-Optimized Pipeline Parallelism for Collaborative LLM Training in Heterogeneous Edge Networks",
+          "url": "https://www.semanticscholar.org/paper/dea03e01eb6704b2bf8648d5520a6d59161bc0b1",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2509.19855",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Benchmark Self-Evolving: A Multi-Agent Framework for Dynamic LLM Evaluation",
+          "url": "https://www.semanticscholar.org/paper/b93ac10de176c4a7aaa2cc652b90bb25636532cd",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2402.11443",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Deciding the Path: Leveraging Multi-Agent Systems for Solving Complex Tasks",
+          "url": "https://www.semanticscholar.org/paper/0dcf56342e4d8b443638fa81f84904d90fc6cc02",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/CVPRW67362.2025.00405",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "CoTGuard: Using Chain-of-Thought Triggering for Copyright Protection in Multi-Agent LLM Systems",
+          "url": "https://www.semanticscholar.org/paper/bd7107b697981c50cf683b6b5df762f8a82b81e6",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.19405",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning",
+          "url": "https://www.semanticscholar.org/paper/6ac8d8bfc7cf6dd6ad6cbc764cedffe673aef346",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.24119",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "SEW: Self-Evolving Agentic Workflows for Automated Code Generation",
+          "url": "https://www.semanticscholar.org/paper/5019a83ed9737ee59616070a26ca7581b1bd566c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.18646",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "ReSo: A Reward-driven Self-organizing LLM-based Multi-Agent System for Reasoning Tasks",
+          "url": "https://www.semanticscholar.org/paper/499979b1347c53cc3cadedf66575623cc0d6a727",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2503.02390",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Enhancing Online Learning Through Multi-Agent Debates for CS University Students",
+          "url": "https://www.semanticscholar.org/paper/9dfedd53ef2e8e8d0fae09371013fd6612eed36a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.3390/app15115877",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Knowledge Tagging with Large Language Model based Multi-Agent System",
+          "url": "https://www.semanticscholar.org/paper/ee0814fb2b065205cf08019314d0e21ce09ad977",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2409.08406",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "E3-MAS: A Self-Evolution Multi-Agent System Framework",
+          "url": "https://www.semanticscholar.org/paper/44f5ae089324cad7a0d9a0d27380c521c78acd30",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICCE-Asia67487.2025.11263582",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Polymath: A Self-Optimizing Agent with Dynamic Hierarchical Workflow",
+          "url": "https://www.semanticscholar.org/paper/9718bb2429dee2cacf5f9316a174e26b815694a2",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2508.02959",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "ApexCodium: a Multi-Agent System for Code Generation with Enhanced Self-Reflection",
+          "url": "https://www.semanticscholar.org/paper/5872513f36f2fa0e35c3fe71abd6b5412e46416b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICAIET65052.2025.11211133",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "InfiAgent: Self-Evolving Pyramid Agent Framework for Infinite Scenarios",
+          "url": "https://www.semanticscholar.org/paper/e65bbc15263d37ace731287af9bff60c283294a3",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2509.22502",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Intrinsic Memory Agents: Heterogeneous Multi-Agent LLM Systems through Structured Contextual Memory",
+          "url": "https://www.semanticscholar.org/paper/6dafab866aee42bac0e0df26f9206170e711f0e1",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2508.08997",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "A Genetic Programming-based Framework for Semi-automated Multi-agent Systems Engineering",
+          "url": "https://www.semanticscholar.org/paper/7f108e5f67a638da0e56678a516aadd4e868b9cf",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3584731",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "A Survey of Slow Thinking-based Reasoning LLMs using Reinforced Learning and Inference-time Scaling Law",
+          "url": "https://www.semanticscholar.org/paper/c2feda1e804700d0980d71cfc71ce66d369b6b6c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.02665",
+          "source": "semantic_scholar",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Solving Math Word Problems concerning Systems of Equations with GPT-3",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/26896/26668"
+      },
+      {
+        "title": "DocMath-Eval: Evaluating Math Reasoning Capabilities of LLMs in Understanding Long and Specialized Documents",
+        "pdf": "https://aclanthology.org/2024.acl-long.852.pdf"
+      },
+      {
+        "title": "Solving for X and Beyond: Can Large Language Models Solve Complex Math Problems with More-Than-Two Unknowns?",
+        "pdf": "https://aclanthology.org/2024.findings-emnlp.980.pdf"
+      },
+      {
+        "title": "MathAttack: Attacking Large Language Models towards Math Solving Ability",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/29949/31658"
+      },
+      {
+        "title": "BackMATH: Towards Backward Reasoning for Solving Math Problems Step by Step",
+        "pdf": "https://aclanthology.org/2025.coling-industry.40.pdf"
+      },
+      {
+        "title": "Self-Evolving Multi-Agent Collaboration Networks for Software Development",
+        "pdf": "https://openreview.net/pdf?id=4R71pdPBZp"
+      },
+      {
+        "title": "MACM: Utilizing a Multi-Agent System for Condition Mining in Solving Complex Mathematical Problems",
+        "pdf": "https://openreview.net/pdf?id=VR2RdSxtzs"
+      },
+      {
+        "title": "Leveraging Online Olympiad-Level Math Problems for LLMs Training and Contamination-Resistant Evaluation",
+        "pdf": "https://openreview.net/pdf?id=cZi1njoRT6"
+      },
+      {
+        "title": "FinanceMATH: Knowledge-Intensive Math Reasoning in Finance Domains",
+        "pdf": "https://aclanthology.org/2024.acl-long.693.pdf"
+      },
+      {
+        "title": "Augmenting Math Word Problems via Iterative Question Composing",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/34640/36795"
+      },
+      {
+        "title": "Solving Math Word Problems with Teacher Supervision",
+        "pdf": "https://www.ijcai.org/proceedings/2021/0485.pdf"
+      },
+      {
+        "title": "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning",
+        "pdf": "https://openreview.net/pdf?id=z8TW0ttBPp"
+      },
+      {
+        "title": "Lean Workbook: A large-scale Lean problem set formalized from natural language math problems",
+        "pdf": "https://openreview.net/pdf?id=Vcw3vzjHDb"
+      },
+      {
+        "title": "World Models for Math Story Problems",
+        "pdf": "https://aclanthology.org/2023.findings-acl.579.pdf"
+      },
+      {
+        "title": "Learning Optimal Temperature Region for Solving Mixed Integer Functional DCOPs",
+        "pdf": "https://www.ijcai.org/proceedings/2020/0038.pdf"
+      },
+      {
+        "title": "MathScale: Scaling Instruction Tuning for Mathematical Reasoning",
+        "pdf": "https://openreview.net/pdf?id=Kjww7ZN47M"
+      },
+      {
+        "title": "Solving Math Word Problems with Multi-Encoders and Multi-Decoders",
+        "pdf": "https://aclanthology.org/2020.coling-main.262.pdf"
+      },
+      {
+        "title": "Disentangling Text and Math in Word Problems: Evidence for the Bidimensional Structure of Large Language Models’ Reasoning",
+        "pdf": "https://aclanthology.org/2025.findings-acl.656.pdf"
+      },
+      {
+        "title": "Textual Enhanced Contrastive Learning for Solving Math Word Problems",
+        "pdf": "https://aclanthology.org/2022.findings-emnlp.316.pdf"
+      },
+      {
+        "title": "Can LLMs Solve Longer Math Word Problems Better?",
+        "pdf": "https://openreview.net/pdf?id=C9ju8QQSCv"
+      },
+      {
+        "title": "Agent-Oriented Planning in Multi-Agent Systems",
+        "pdf": "https://openreview.net/pdf?id=EqcLAU6gyU"
+      },
+      {
+        "title": "What Makes Math Word Problems Challenging for LLMs?",
+        "pdf": "https://aclanthology.org/2024.findings-naacl.72.pdf"
+      },
+      {
+        "title": "GNS: Solving Plane Geometry Problems by Neural-Symbolic Reasoning with Multi-Modal LLMs",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/34679/36834"
+      },
+      {
+        "title": "Seeking Patterns, Not just Memorizing Procedures: Contrastive Learning for Solving Math Word Problems",
+        "pdf": "https://aclanthology.org/2022.findings-acl.195.pdf"
+      },
+      {
+        "title": "Math Word Problem Solving with Explicit Numerical Values",
+        "pdf": "https://aclanthology.org/2021.acl-long.455.pdf"
+      },
+      {
+        "title": "Solving Challenging Math Word Problems Using GPT-4 Code Interpreter with Code-based Self-Verification",
+        "pdf": "https://openreview.net/pdf?id=c8McWs4Av0"
+      },
+      {
+        "title": "NUMCoT: Numerals and Units of Measurement in Chain-of-Thought Reasoning using Large Language Models",
+        "pdf": "https://aclanthology.org/2024.findings-acl.848.pdf"
+      },
+      {
+        "title": "Analogical Math Word Problems Solving with Enhanced Problem-Solution Association",
+        "pdf": "https://aclanthology.org/2022.emnlp-main.643.pdf"
+      },
+      {
+        "title": "Noun-MWP: Math Word Problems Meet Noun Answers",
+        "pdf": "https://aclanthology.org/2022.coling-1.338.pdf"
+      },
+      {
+        "title": "MathPrompter: Mathematical Reasoning using Large Language Models",
+        "pdf": "https://aclanthology.org/2023.acl-industry.4.pdf"
+      },
+      {
+        "title": "UGMathBench: A Diverse and Dynamic Benchmark for Undergraduate-Level Mathematical Reasoning with Large Language Models",
+        "pdf": "https://openreview.net/pdf?id=fovPyqPcKY"
+      },
+      {
+        "title": "Evaluating and Improving Tool-Augmented Computation-Intensive Math Reasoning",
+        "pdf": "https://openreview.net/pdf?id=OB10WTlwmX"
+      },
+      {
+        "title": "Solving Math Word Problems via Cooperative Reasoning induced Language Models",
+        "pdf": "https://aclanthology.org/2023.acl-long.245.pdf"
+      },
+      {
+        "title": "Compositional Mathematical Encoding for Math Word Problems",
+        "pdf": "https://aclanthology.org/2023.findings-acl.635.pdf"
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "pdf": "https://arxiv.org/pdf/2512.25074v1"
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "pdf": "https://arxiv.org/pdf/2512.25072v1"
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "pdf": "https://arxiv.org/pdf/2512.25070v1"
+      },
+      {
+        "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+        "pdf": "https://arxiv.org/pdf/2512.25069v1"
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "pdf": "https://arxiv.org/pdf/2512.25067v1"
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "pdf": "https://arxiv.org/pdf/2512.25066v1"
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "pdf": "https://arxiv.org/pdf/2512.25065v1"
+      },
+      {
+        "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+        "pdf": "https://arxiv.org/pdf/2512.25063v1"
+      },
+      {
+        "title": "Local approximations of global Hamiltonian from inclusion of algebras",
+        "pdf": "https://arxiv.org/pdf/2512.25062v1"
+      },
+      {
+        "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+        "pdf": "https://arxiv.org/pdf/2512.25061v1"
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "pdf": "https://arxiv.org/pdf/2512.25059v1"
+      },
+      {
+        "title": "The variety of orthogonal frames",
+        "pdf": "https://arxiv.org/pdf/2512.25058v1"
+      },
+      {
+        "title": "The Logical Structure of Physical Laws: A Fixed Point Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2512.25057v1"
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "pdf": "https://arxiv.org/pdf/2512.25056v1"
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "pdf": "https://arxiv.org/pdf/2512.25055v1"
+      },
+      {
+        "title": "Emergence of 3D Superconformal Ising Criticality on the Fuzzy Sphere",
+        "pdf": "https://arxiv.org/pdf/2512.25054v1"
+      },
+      {
+        "title": "Fluid dynamics as intersection problem",
+        "pdf": "https://arxiv.org/pdf/2512.25053v1"
+      },
+      {
+        "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+        "pdf": "https://arxiv.org/pdf/2512.25052v1"
+      },
+      {
+        "title": "Bilinear tau forms of quantum Painlevé equations and $\\mathbb{C}^2/\\mathbb{Z}_2$ blowup relations in SUSY gauge theories",
+        "pdf": "https://arxiv.org/pdf/2512.25051v1"
+      },
+      {
+        "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+        "pdf": "https://arxiv.org/pdf/2512.25050v1"
+      },
+      {
+        "title": "Amplitude constraints on dark energy",
+        "pdf": "https://arxiv.org/pdf/2512.25047v1"
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "pdf": "https://arxiv.org/pdf/2512.25046v1"
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "pdf": "https://arxiv.org/pdf/2512.25045v1"
+      },
+      {
+        "title": "Thin Tree Verification is coNP-Complete",
+        "pdf": "https://arxiv.org/pdf/2512.25043v1"
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "pdf": "https://arxiv.org/pdf/2512.25042v1"
+      },
+      {
+        "title": "Impact of Artificial Intelligence on Education and Research: Pedagogy, Learning Analytics, and Academic Transformation",
+        "pdf": "https://www.deepscienceresearch.com/dsr/catalog/download/304/1459/2845"
+      },
+      {
+        "title": "AI Reasoning for Wireless Communications and Networking: A Survey and Perspectives",
+        "pdf": "https://arxiv.org/pdf/2509.09193"
+      },
+      {
+        "title": "Building Trustworthy Autonomous AI: Essential Principles beyond Traditional Software Design",
+        "pdf": "https://www.acigjournal.com/pdf-208710-128314?filename=Building Trustworthy.pdf"
+      },
+      {
+        "title": "AI Agents for Economic Research",
+        "pdf": "https://doi.org/10.3386/w34202"
+      },
+      {
+        "title": "Big Loop and Atomization: A Holistic Review on the Expansion Capabilities of Large Language Models",
+        "pdf": "https://www.mdpi.com/2076-3417/15/17/9466/pdf?version=1756391648"
+      },
+      {
+        "title": "AI and Financial Fragility: A Framework for Measuring Systemic Risk in Deployment of Generative AI for Stock Price Predictions",
+        "pdf": "https://www.mdpi.com/1911-8074/18/9/475/pdf?version=1756196971"
+      },
+      {
+        "title": "Enhancing Teacher Professional Development Through a Human-AI Co-Intelligent System for Scalable Automated Feedback in Computing Education",
+        "pdf": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175606386.61533946"
+      },
+      {
+        "title": "Prompt Orchestration Markup Language",
+        "pdf": "https://arxiv.org/pdf/2508.13948"
+      },
+      {
+        "title": "Artificial ignorance: Understanding the role of AI in modern agnotology",
+        "pdf": "https://firstmonday.org/ojs/index.php/fm/article/download/13890/12068"
+      },
+      {
+        "title": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Frontiers",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3736539"
+      },
+      {
+        "title": "Charting AI’s Trajectory: Historical Foundations and Future Directions",
+        "pdf": "https://www.preprints.org/frontend/manuscript/80177d030026724d3a816dadd53a77e5/download_pub"
+      },
+      {
+        "title": "Chasing Progress, Not Perfection: Revisiting Strategies for End-to-End LLM Plan Generation",
+        "pdf": "https://ojs.aaai.org/index.php/ICAPS/article/download/36119/38273"
+      },
+      {
+        "title": "Lyotard’s ‘Brain’, and/or the Mathematical Universe",
+        "pdf": "https://technophany.philosophyandtechnology.network/article/download/19598/25857"
+      },
+      {
+        "title": "Gödelian embodied self-referential genomic intelligence: lessons for AI and AGI from the genomic blockchain",
+        "pdf": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1624695/pdf"
+      },
+      {
+        "title": "Biotechnology in materials science: A storied past and a bold future",
+        "pdf": "https://link.springer.com/content/pdf/10.1557/s43577-025-00929-4.pdf"
+      },
+      {
+        "title": "Why unequal AI access enhances team productivity: the mediating role of interaction processes and cognitive diversity",
+        "pdf": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1636906/pdf"
+      },
+      {
+        "title": "Minds in Crisis: How the AI Revolution is Impacting Mental Health",
+        "pdf": "https://doi.org/10.29245/2578-2959/2025/3.1352"
+      },
+      {
+        "title": "Agua: A Concept-Based Explainer for Learning-Enabled Systems",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3718958.3754341"
+      },
+      {
+        "title": "Transduction is All You Need for Structured Data Workflows",
+        "pdf": "https://arxiv.org/pdf/2508.15610"
+      },
+      {
+        "title": "Probing for consciousness in machines",
+        "pdf": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1610225/pdf"
+      },
+      {
+        "title": "MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers",
+        "pdf": "https://arxiv.org/pdf/2508.14704"
+      },
+      {
+        "title": "Digital twins as self-models for intelligent structures",
+        "pdf": "https://www.nature.com/articles/s41598-025-14347-8.pdf"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "Amplitude constraints on dark energy",
+        "doi": "https://doi.org/10.58027/3q8k-ew90"
+      },
+      {
+        "title": "Impact of Artificial Intelligence on Education and Research: Pedagogy, Learning Analytics, and Academic Transformation",
+        "doi": "https://doi.org/10.70593/978-93-7185-525-9"
+      },
+      {
+        "title": "AI Reasoning for Wireless Communications and Networking: A Survey and Perspectives",
+        "doi": "https://doi.org/10.48550/arxiv.2509.09193"
+      },
+      {
+        "title": "Building Trustworthy Autonomous AI: Essential Principles beyond Traditional Software Design",
+        "doi": "https://doi.org/10.60097/acig/208710"
+      },
+      {
+        "title": "AI Agents for Economic Research",
+        "doi": "https://doi.org/10.3386/w34202"
+      },
+      {
+        "title": "Big Loop and Atomization: A Holistic Review on the Expansion Capabilities of Large Language Models",
+        "doi": "https://doi.org/10.3390/app15179466"
+      },
+      {
+        "title": "AI and Financial Fragility: A Framework for Measuring Systemic Risk in Deployment of Generative AI for Stock Price Predictions",
+        "doi": "https://doi.org/10.3390/jrfm18090475"
+      },
+      {
+        "title": "Enhancing Teacher Professional Development Through a Human-AI Co-Intelligent System for Scalable Automated Feedback in Computing Education",
+        "doi": "https://doi.org/10.36227/techrxiv.175606386.61533946/v1"
+      },
+      {
+        "title": "Artificial ignorance: Understanding the role of AI in modern agnotology",
+        "doi": "https://doi.org/10.5210/fm.v30i8.13890"
+      },
+      {
+        "title": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Frontiers",
+        "doi": "https://doi.org/10.1145/3736539"
+      },
+      {
+        "title": "Optimal-Agent-Selection: State-Aware Routing Framework for Efficient Multi-Agent Collaboration",
+        "doi": "https://doi.org/10.48550/arXiv.2511.02200"
+      },
+      {
+        "title": "MAS-ZERO: Designing Multi-Agent Systems with Zero Supervision",
+        "doi": "https://doi.org/10.48550/arXiv.2505.14996"
+      },
+      {
+        "title": "Self-evolving expertise in complex non-verifiable subject domains: dialogue as implicit meta-RL",
+        "doi": "https://doi.org/10.48550/arXiv.2510.15772"
+      },
+      {
+        "title": "AdvEvo-MARL: Shaping Internalized Safety through Adversarial Co-Evolution in Multi-Agent Reinforcement Learning",
+        "doi": "https://doi.org/10.48550/arXiv.2510.01586"
+      },
+      {
+        "title": "Xolver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team",
+        "doi": "https://doi.org/10.48550/arXiv.2506.14234"
+      },
+      {
+        "title": "CollaPipe: Adaptive Segment-Optimized Pipeline Parallelism for Collaborative LLM Training in Heterogeneous Edge Networks",
+        "doi": "https://doi.org/10.48550/arXiv.2509.19855"
+      },
+      {
+        "title": "Charting AI’s Trajectory: Historical Foundations and Future Directions",
+        "doi": "https://doi.org/10.20944/preprints202509.1217.v1"
+      },
+      {
+        "title": "Chasing Progress, Not Perfection: Revisiting Strategies for End-to-End LLM Plan Generation",
+        "doi": "https://doi.org/10.1609/icaps.v35i1.36119"
+      },
+      {
+        "title": "Lyotard’s ‘Brain’, and/or the Mathematical Universe",
+        "doi": "https://doi.org/10.54195/technophany.19598"
+      },
+      {
+        "title": "Gödelian embodied self-referential genomic intelligence: lessons for AI and AGI from the genomic blockchain",
+        "doi": "https://doi.org/10.3389/frobt.2025.1624695"
+      },
+      {
+        "title": "Biotechnology in materials science: A storied past and a bold future",
+        "doi": "https://doi.org/10.1557/s43577-025-00929-4"
+      },
+      {
+        "title": "Why unequal AI access enhances team productivity: the mediating role of interaction processes and cognitive diversity",
+        "doi": "https://doi.org/10.3389/fpsyg.2025.1636906"
+      },
+      {
+        "title": "Minds in Crisis: How the AI Revolution is Impacting Mental Health",
+        "doi": "https://doi.org/10.29245/2578-2959/2025/3.1352"
+      },
+      {
+        "title": "Agua: A Concept-Based Explainer for Learning-Enabled Systems",
+        "doi": "https://doi.org/10.1145/3718958.3754341"
+      },
+      {
+        "title": "Transduction is All You Need for Structured Data Workflows",
+        "doi": "https://doi.org/10.48550/arxiv.2508.15610"
+      },
+      {
+        "title": "Probing for consciousness in machines",
+        "doi": "https://doi.org/10.3389/frai.2025.1610225"
+      },
+      {
+        "title": "MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers",
+        "doi": "https://doi.org/10.48550/arxiv.2508.14704"
+      },
+      {
+        "title": "Digital twins as self-models for intelligent structures",
+        "doi": "https://doi.org/10.1038/s41598-025-14347-8"
+      },
+      {
+        "title": "Benchmark Self-Evolving: A Multi-Agent Framework for Dynamic LLM Evaluation",
+        "doi": "https://doi.org/10.48550/arXiv.2402.11443"
+      },
+      {
+        "title": "Deciding the Path: Leveraging Multi-Agent Systems for Solving Complex Tasks",
+        "doi": "https://doi.org/10.1109/CVPRW67362.2025.00405"
+      },
+      {
+        "title": "CoTGuard: Using Chain-of-Thought Triggering for Copyright Protection in Multi-Agent LLM Systems",
+        "doi": "https://doi.org/10.48550/arXiv.2505.19405"
+      },
+      {
+        "title": "SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning",
+        "doi": "https://doi.org/10.48550/arXiv.2506.24119"
+      },
+      {
+        "title": "SEW: Self-Evolving Agentic Workflows for Automated Code Generation",
+        "doi": "https://doi.org/10.48550/arXiv.2505.18646"
+      },
+      {
+        "title": "ReSo: A Reward-driven Self-organizing LLM-based Multi-Agent System for Reasoning Tasks",
+        "doi": "https://doi.org/10.48550/arXiv.2503.02390"
+      },
+      {
+        "title": "Enhancing Online Learning Through Multi-Agent Debates for CS University Students",
+        "doi": "https://doi.org/10.3390/app15115877"
+      },
+      {
+        "title": "Knowledge Tagging with Large Language Model based Multi-Agent System",
+        "doi": "https://doi.org/10.48550/arXiv.2409.08406"
+      },
+      {
+        "title": "E3-MAS: A Self-Evolution Multi-Agent System Framework",
+        "doi": "https://doi.org/10.1109/ICCE-Asia67487.2025.11263582"
+      },
+      {
+        "title": "Polymath: A Self-Optimizing Agent with Dynamic Hierarchical Workflow",
+        "doi": "https://doi.org/10.48550/arXiv.2508.02959"
+      },
+      {
+        "title": "ApexCodium: a Multi-Agent System for Code Generation with Enhanced Self-Reflection",
+        "doi": "https://doi.org/10.1109/ICAIET65052.2025.11211133"
+      },
+      {
+        "title": "InfiAgent: Self-Evolving Pyramid Agent Framework for Infinite Scenarios",
+        "doi": "https://doi.org/10.48550/arXiv.2509.22502"
+      },
+      {
+        "title": "Intrinsic Memory Agents: Heterogeneous Multi-Agent LLM Systems through Structured Contextual Memory",
+        "doi": "https://doi.org/10.48550/arXiv.2508.08997"
+      },
+      {
+        "title": "A Genetic Programming-based Framework for Semi-automated Multi-agent Systems Engineering",
+        "doi": "https://doi.org/10.1145/3584731"
+      },
+      {
+        "title": "A Survey of Slow Thinking-based Reasoning LLMs using Reinforced Learning and Inference-time Scaling Law",
+        "doi": "https://doi.org/10.48550/arXiv.2505.02665"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "self-evolving LLMs solving math problems using multi-agent systems",
+    "total_steps": 7,
+    "last_updated": "2026-01-02T11:19:04.874480",
+    "started_at": "2026-01-02T11:14:12.263321",
+    "total_papers": 129
+  }
+}

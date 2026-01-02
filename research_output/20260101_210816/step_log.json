@@ -1,0 +1,114 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-01T21:25:21.475776",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'efficient Large Language Models model compression optimization techniques computational efficiency'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "efficient Large Language Models model compression optimization techniques computational efficiency",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 50
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-01T21:34:04.448511",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'efficient Large Language Models model compression optimization techniques computational efficiency'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "efficient Large Language Models model compression optimization techniques computational efficiency",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 50
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-01T21:37:17.607056",
+      "agent": "online_search_agent",
+      "action": "Online search: 'efficient Large Language Models model compression optimization techniques computational efficiency'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "efficient Large Language Models model compression optimization techniques computational efficiency",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 100
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-01T21:39:58.174059",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'model compression techniques for large language models'",
+      "result_preview": "Found 25 papers from local database",
+      "details": {
+        "query": "model compression techniques for large language models",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 25,
+        "papers_added": 18,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 118
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-01T21:45:49.370299",
+      "agent": "online_search_agent",
+      "action": "Online search: 'computational efficiency optimization techniques large language models'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "computational efficiency optimization techniques large language models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 118
+    }
+  ],
+  "current_step": 5,
+  "metadata": {
+    "query": "computational efficiency optimization techniques large language models",
+    "total_steps": 5,
+    "last_updated": "2026-01-01T21:45:49.401398",
+    "started_at": "2026-01-01T21:08:16.368921",
+    "total_papers": 118
+  }
+}

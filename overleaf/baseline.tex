@@ -1,0 +1,4 @@
+\section{Baseline: smolagents}
+The baseline orchestration layer is implemented using the smolagents framework. smolagents provides a minimal abstraction for tool invocation and multi-step reasoning through a \texttt{CodeAgent} orchestrator and \texttt{ToolCallingAgent} workers. Paper Circle preserves this baseline by implementing each functional capability (search, sorting, analysis, export) as a tool attached to a dedicated agent. This structure allows the orchestrator to plan minimal workflows and delegate well-scoped actions to specialized agents.
+
+Paper Circle extends the baseline by introducing a shared, stateful \texttt{PipelineState}, structured step logs, and deterministic export formats. These additions enable reproducibility and auditing without altering the underlying smolagents interaction model.

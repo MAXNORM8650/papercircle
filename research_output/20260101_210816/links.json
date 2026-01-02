@@ -1,0 +1,2211 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Towards Efficient Mixture of Experts: A Holistic Study of Compression Techniques",
+        "url": "https://openreview.net/forum?id=qh1goDZ0ZQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "P-BERT: Hardware-Aware Optimization of BERT Using Evolutionary Techniques",
+        "url": "https://openreview.net/forum?id=xaXvHdH9Y4",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "LLMCBench: Benchmarking Large Language Model Compression for Efficient Deployment",
+        "url": "https://neurips.cc/virtual/2024/poster/97446",
+        "pdf_url": "https://openreview.net/pdf?id=wmO7z57wNK",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Finite-State Autoregressive Entropy Coding for Efficient Learned Lossless Compression",
+        "url": "https://iclr.cc/virtual/2024/poster/19153",
+        "pdf_url": "https://openreview.net/pdf?id=D5mJSNtUtv",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "ZSMerge: Zero-Shot KV Cache Compression for Memory-Efficient Long-Context LLMs",
+        "url": "https://openreview.net/forum?id=WJ5BIKfc5A",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Fusion Token: Enhancing Compression and Efficiency in Language Model Tokenization",
+        "url": "https://openreview.net/forum?id=tS3gexmfeT",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Thanos: A Block-wise Pruning Algorithm for Efficient Large Language Model Compression",
+        "url": "https://openreview.net/forum?id=4TFfiG17ec",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Dense2MoE: Unifying Pruning and Upcycling for Efficient Large Language Models",
+        "url": "https://openreview.net/forum?id=hYGPetyGSr",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "PV-Tuning: Beyond Straight-Through Estimation for Extreme LLM Compression",
+        "url": "https://neurips.cc/virtual/2024/poster/94666",
+        "pdf_url": "https://openreview.net/pdf?id=YvA8UF0I37",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "No Loss, No Gain: Gated Refinement and Adaptive Compression for Prompt Optimization",
+        "url": "https://openreview.net/forum?id=JEqlA8N88d",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Efficient Multi-modal Large Language Models via Progressive Consistency Distillation",
+        "url": "https://openreview.net/forum?id=gZjPllL9jM",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "SLIM: Structure-aware Low-rank Inference Model",
+        "url": "https://openreview.net/forum?id=iY0Wi8UIjA",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "LaCo: Efficient Layer-wise Compression of Visual Tokens for Multimodal Large Language Models",
+        "url": "https://openreview.net/forum?id=UDCiCnVGhq",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Less Is More, but Where? Dynamic Token Compression via LLM-Guided Keyframe Prior",
+        "url": "https://openreview.net/forum?id=uhFx1RGD1g",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Gradient-Constrained Training for Distributed Large Language Models",
+        "url": "https://openreview.net/forum?id=RRtwIvoYoh",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Efficient Low-rank and Sparse Approximation and Adaptation for Large Language Models",
+        "url": "https://openreview.net/forum?id=FcQdppbqDo",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Glance2Gaze: Efficient Vision-Language Models from Glance Fusion to Gaze Compression",
+        "url": "https://openreview.net/forum?id=gm65gK3uOJ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Layer-wise Sensitivity-aware Sparsity Allocation for Efficient LLM Inference",
+        "url": "https://openreview.net/forum?id=erGq3kjCmy",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Deep Low Rank Projector for KV Cache Compression",
+        "url": "https://openreview.net/forum?id=EbIL1Po0Vf",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Efficient Prompt Compression with Evaluator Heads for Long-Context Transformer Inference",
+        "url": "https://openreview.net/forum?id=yOs12gdsaL",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "KV-Distill: Nearly Lossless Context Compression for Transformers",
+        "url": "https://openreview.net/forum?id=p7vJ3wsm34",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression",
+        "url": "https://iclr.cc/virtual/2025/poster/30003",
+        "pdf_url": "https://openreview.net/pdf?id=LNYIUouhdt",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "MoDeGPT: Modular Decomposition for Large Language Model Compression",
+        "url": "https://iclr.cc/virtual/2025/poster/30778",
+        "pdf_url": "https://openreview.net/pdf?id=8EfxjTCg2k",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "HAPPI: Efficient KV cache compression with Hadamard PCA-based Power iteration",
+        "url": "https://openreview.net/forum?id=BRDgQzdtWr",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "CompLLM: Compression for Long Context Q&A",
+        "url": "https://openreview.net/forum?id=6AWWE08NnN",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "TGRS: Teacher-Guided Rank-Sensitive Quantization for Large Language Models",
+        "url": "https://openreview.net/forum?id=Kml0FCdUl5",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Extreme Language Model Compression with Optimal Subwords and Shared Projections",
+        "url": "https://openreview.net/forum?id=S1x6ueSKPr",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2020
+      },
+      {
+        "title": "Cache Me If You Must: Adaptive Key-Value Quantization for Large Language Models",
+        "url": "https://icml.cc/virtual/2025/poster/46067",
+        "pdf_url": "https://openreview.net/pdf?id=COowwJOAZi",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "VisionSelector: End-to-End Learnable Visual Token Compression for Efficient Multimodal LLMs",
+        "url": "https://openreview.net/forum?id=uRBKM7Ykeh",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Mixture of Scales: Memory-Efficient Token-Adaptive Binarization for Large Language Models",
+        "url": "https://neurips.cc/virtual/2024/poster/93569",
+        "pdf_url": "https://openreview.net/pdf?id=pGOBEYcXzs",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Extreme Compression of Large Language Models via Additive Quantization",
+        "url": "https://icml.cc/virtual/2024/poster/34964",
+        "pdf_url": "https://openreview.net/pdf?id=5mCaITRTmO",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "Basis Sharing: Cross-Layer Parameter Sharing for Large Language Model Compression",
+        "url": "https://iclr.cc/virtual/2025/poster/28800",
+        "pdf_url": "https://openreview.net/pdf?id=gp32jvUquq",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "EvoPress: Accurate Dynamic Model Compression via Evolutionary Search",
+        "url": "https://icml.cc/virtual/2025/poster/44217",
+        "pdf_url": "https://openreview.net/pdf?id=l7QzcZpjc5",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "PureKV: Plug-and-Play KV Cache Optimization with Spatial-Temporal Sparse Attention for Vision-Language Large Models",
+        "url": "https://openreview.net/forum?id=XtpVQ21bcY",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Deep Compression of Pre-trained Transformer Models",
+        "url": "https://nips.cc/virtual/2022/poster/53013",
+        "pdf_url": "https://openreview.net/pdf?id=EZQnauHn-77",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2022
+      },
+      {
+        "title": "Layer-wise dynamic rank for compressing large language models",
+        "url": "https://openreview.net/forum?id=qDQAiayjQI",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "When MLLMs Meets Compression Distortion: A Coding Paradigm Tailored to MLLMs",
+        "url": "https://openreview.net/forum?id=YDRoTtmXu1",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "LAPO: Internalizing Reasoning Efficiency via Length-Adaptive Policy Optimization",
+        "url": "https://openreview.net/forum?id=qwxSBnEPEc",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Efficient Large Multi-modal Models via Visual Context Compression",
+        "url": "https://neurips.cc/virtual/2024/poster/96558",
+        "pdf_url": "https://openreview.net/pdf?id=5ujp72CiYB",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "ACT-IN-LLM: Adaptively Compression Vision Tokens in LLM for High-Resolution Multimodal Large Language Models",
+        "url": "https://openreview.net/forum?id=3Ofy2jNsNL",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "NIRVANA: Structured Pruning Reimagined for Large Language Models Compression",
+        "url": "https://openreview.net/forum?id=55K9BdoOlo",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Efficient Bayesian DNN Compression through Sparse Quantized Sub-distributions",
+        "url": "https://openreview.net/forum?id=u48BF5O7oL",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "LayerDecompose: Exploring weight sharing for Large Language Model Compression",
+        "url": "https://openreview.net/forum?id=0IWZjbMmry",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Plug-and-Fold: Weight-Preserving Structured Compression for Large Language Models",
+        "url": "https://openreview.net/forum?id=b2cFQD4GjA",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "AdaSVD: Adaptive Singular Value Decomposition for Large Language Models",
+        "url": "https://openreview.net/forum?id=ey7CXUBn1g",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Towards Structured Dynamic Sparse Pre-Training of BERT",
+        "url": "https://openreview.net/forum?id=-e7awdzWsOc",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2022
+      },
+      {
+        "title": "Radio: Rate–Distortion Optimization for Large Language Model Compression",
+        "url": "https://icml.cc/virtual/2025/poster/44344",
+        "pdf_url": "https://openreview.net/pdf?id=ifnxXCCEiM",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "SOLOS: Sparse Optimization For Long Sequence In Context Compression Enhanced LLMs",
+        "url": "https://openreview.net/forum?id=DUsqifwwf5",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "On the Efficiency-Safety Dilemma in Large Reasoning Models",
+        "url": "https://openreview.net/forum?id=PYkGKPHBi0",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "MARC: Memory-Augmented RL Token Compression for Efficient Video Understanding",
+        "url": "https://openreview.net/forum?id=5gLgjn3MVT",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ERC-SVD: Error-Controlled SVD for Large Language Model Compression",
+        "url": "https://openreview.net/forum?id=WL4qCY0nBk",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Task-Agnostic and Adaptive-Size BERT Compression",
+        "url": "https://openreview.net/forum?id=wZ4yWvQ_g2y",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2021
+      },
+      {
+        "title": "DLP: Dynamic Layerwise Pruning in Large Language Models",
+        "url": "https://icml.cc/virtual/2025/poster/46657",
+        "pdf_url": "https://openreview.net/pdf?id=11id5ppGZ8",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "ARC-Encoder: learning compressed text representations for large language models",
+        "url": "https://openreview.net/forum?id=3axAvkv3ef",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Projected Compression: Trainable Projections for Efficient Transformer Compression",
+        "url": "https://openreview.net/forum?id=SUzzJbLHoj",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ChunkKV: Semantic-Preserving KV Cache Compression for Efficient Long-Context LLM Inference",
+        "url": "https://openreview.net/forum?id=20JDhbJqn3",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Solving Sparse \\& High-Dimensional-Output Regression via Compression",
+        "url": "https://neurips.cc/virtual/2024/poster/93897",
+        "pdf_url": "https://openreview.net/pdf?id=kPGNE4CrTq",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Train Big, Then Compress: Rethinking Model Size for Efficient Training and Inference of Transformers",
+        "url": "https://icml.cc/virtual/2020/poster/6828",
+        "pdf_url": "http://proceedings.mlr.press/v119/li20m/li20m.pdf",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2020
+      },
+      {
+        "title": "L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on Large Language Models",
+        "url": "https://openreview.net/forum?id=KJzz4UwqTb",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "COMCAT: Towards Efficient Compression and Customization of Attention-Based Vision Models",
+        "url": "https://icml.cc/virtual/2023/poster/23868",
+        "pdf_url": "https://openreview.net/pdf?id=LrDkno4B3u",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2023
+      },
+      {
+        "title": "Bilevel ZOFO: Bridging Parameter-Efficient and Zeroth-Order Techniques for Efficient LLM Fine-Tuning and Meta-Training",
+        "url": "https://openreview.net/forum?id=wO8WbhsjNG",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "AmoebaLLM: Constructing Any-Shape Large Language Models for Efficient and Instant Deployment",
+        "url": "https://neurips.cc/virtual/2024/poster/95934",
+        "pdf_url": "https://openreview.net/pdf?id=G0yxFmP87g",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "VoCo-LLaMA: Towards Vision Compression with Large Language Models",
+        "url": "https://cvpr.thecvf.com/virtual/2025/poster/33214",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Ye_VoCo-LLaMA_Towards_Vision_Compression_with_Large_Language_Models_CVPR_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2025
+      },
+      {
+        "title": "RazorAttention: Efficient KV Cache Compression Through Retrieval Heads",
+        "url": "https://iclr.cc/virtual/2025/poster/28028",
+        "pdf_url": "https://openreview.net/pdf?id=tkiZQlL04w",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "BitStack: Any-Size Compression of Large Language Models in Variable Memory Environments",
+        "url": "https://iclr.cc/virtual/2025/poster/28531",
+        "pdf_url": "https://openreview.net/pdf?id=lBntjGbyv0",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Large Language Model Compression with Global Rank and Sparsity Optimization",
+        "url": "https://openreview.net/forum?id=ZaPmQ0NHs4",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Exploring Redundancy and Shared Representations for Transformer Models Optimization",
+        "url": "https://openreview.net/forum?id=4YBRDJ5TN3",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "IntelLLM: Little Hints Make a Big Difference for LLM KV Cache Compression",
+        "url": "https://openreview.net/forum?id=4QWPCTLq20",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Survey on Efficient Large Language Models: Principles, Algorithms, Applications, and Open Issues.",
+        "url": "https://www.semanticscholar.org/paper/98c5653f348bd14a92a875bacea1459d7325b8cd",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/TNNLS.2025.3628671",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Language-Specific Pruning for Efficient Reduction of Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/3a9bb1d557158c4c3d940991f78946acca26e410",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/ce68fb6929a08d7c29d0ec9a17b42b10f33b733a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3676151.3719379",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Decoding Efficiency: A Comprehensive Review of Knowledge Distillation Techniques in Large Language Model",
+        "url": "https://www.semanticscholar.org/paper/6e1b05d7500d5658ca2f866d36bc4fa86c1b4355",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.22214/ijraset.2025.73930",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "TACO-RL: Task Aware Prompt Compression Optimization with Reinforcement Learning",
+        "url": "https://www.semanticscholar.org/paper/70b49c248edee60d0ad5c53b5010f480f0a3828b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2409.13035",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "LLM Serving Optimization Techniques: A Comprehensive Analysis",
+        "url": "https://www.semanticscholar.org/paper/7a88307f6368ff5605d8720ef6b467d3e10454d0",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.32996/jcsts.2025.7.5.23",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "The Current Application Status and Prospects of Pruning Methods in natural language Processing",
+        "url": "https://www.semanticscholar.org/paper/79dcfcb184a349cb54d50e9eb589910d7ba5dae4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.54254/2755-2721/2025.ast26375",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGAs",
+        "url": "https://www.semanticscholar.org/paper/3695739b3a8b0e92b8ae90081124d098ae33b15c",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3626202.3637562",
+        "doi_url": "https://doi.org/10.1145/3626202.3637562",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Synergized Data Efficiency and Compression (SEC) Optimization for Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/65e901570f357348c25d3f44fcd40bcd3bbe8858",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/EIECS63941.2024.10800533",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "A Survey on Efficient Inference for Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/5be7e6b04c5a240cff340034aae2b57c677e211f",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2404.14294",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/001cca7910f507f7f75b8402b826c2dc07afef00",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2401.00625",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Search for Efficient Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/18465f8ecb733960c17b22c468a196440a59cf0f",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2409.17372",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Sliding Window Attention Training for Efficient Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/8d37a72500ea7243e21e7c5d82917ab7b99d4ee5",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2502.18845",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Prompt Compression for Large Language Models: A Survey",
+        "url": "https://www.semanticscholar.org/paper/91d7605a00b58e1f9c454992c98b3ac60cb654e8",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2410.12388",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "EDGE-LLM: Enabling Efficient Large Language Model Adaptation on Edge Devices via Unified Compression and Adaptive Layer Voting",
+        "url": "https://www.semanticscholar.org/paper/33cb737e120915c386c904fadc53fc48edf8b926",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3649329.3658473",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Enabling On-Device Inference of Large Language Models : Challenges, Techniques, and Applications",
+        "url": "https://www.semanticscholar.org/paper/6ee12c3075c9b6e49ae02c0de3f5b35966dd8b2d",
+        "pdf_url": "https://doi.org/10.32628/cseit241061100",
+        "doi_url": "https://doi.org/10.32628/cseit241061100",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Efficient Large Language Model Fine-Tuning with Joint Structural Pruning and Parameter Sharing",
+        "url": "https://www.semanticscholar.org/paper/e861c93038f8db05ff72f579a3c91ad8bccd48b8",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICCVDM66874.2025.11290442",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Efficiency Optimization of Large-Scale Language Models Based on Deep Learning in Natural Language Processing Tasks",
+        "url": "https://www.semanticscholar.org/paper/e8c6f51dfa1eb58af00d1cac54705387aabd6707",
+        "pdf_url": "https://arxiv.org/pdf/2405.11704",
+        "doi_url": "https://doi.org/10.1109/ICSECE61636.2024.10729518",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "LongRecipe: Recipe for Efficient Long Context Generalization in Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/188bdd2edb3126b357dc646f2ff1f0b2699ad407",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2409.00509",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Hybrid and Unitary PEFT for Resource-Efficient Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/ff018094be4737aaf78b32afa274383bf0fa296c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.11648/j.ajcst.20250804.17",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Mini-GPTs: Efficient Large Language Models through Contextual Pruning",
+        "url": "https://www.semanticscholar.org/paper/81711474e3f37a72d90c42dd10f46e431330f890",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2312.12682",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "ALPS: Improved Optimization for Highly Sparse One-Shot Pruning for Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/009fbc219ff636ddfb57ac17e1fa9a94dbd280cb",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2406.07831",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Efficient Compressing and Tuning Methods for Large Language Models: A Systematic Literature Review",
+        "url": "https://www.semanticscholar.org/paper/b073de891287423915b1709c4cc90f40756c38b9",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3728636",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "A Survey on Model Compression for Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/338d8f3b199abcebc85f34016b0162ab3a9d5310",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1162/tacl_a_00704",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Feature Alignment-Based Knowledge Distillation for Efficient Compression of Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/118ca17fc491e4ce0c577a3db3dd47e738364108",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/NNICE64954.2025.11063887",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "url": "http://arxiv.org/abs/2512.25075v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "url": "http://arxiv.org/abs/2512.25074v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "url": "http://arxiv.org/abs/2512.25073v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "url": "http://arxiv.org/abs/2512.25071v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "url": "http://arxiv.org/abs/2512.25072v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "url": "http://arxiv.org/abs/2512.25070v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+        "url": "http://arxiv.org/abs/2512.25069v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25069v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+        "url": "http://arxiv.org/abs/2512.25068v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25068v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "url": "http://arxiv.org/abs/2512.25066v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "url": "http://arxiv.org/abs/2512.25065v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "url": "http://arxiv.org/abs/2512.25064v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+        "url": "http://arxiv.org/abs/2512.25063v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25063v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+        "url": "http://arxiv.org/abs/2512.25061v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25061v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "url": "http://arxiv.org/abs/2512.25059v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "url": "http://arxiv.org/abs/2512.25056v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "url": "http://arxiv.org/abs/2512.25055v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Fluid dynamics as intersection problem",
+        "url": "http://arxiv.org/abs/2512.25053v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25053v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+        "url": "http://arxiv.org/abs/2512.25052v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25052v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+        "url": "http://arxiv.org/abs/2512.25050v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25050v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Arithmetic with spatiotemporal optical vortex of integer and fractional topological charges",
+        "url": "http://arxiv.org/abs/2512.25049v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25049v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+        "url": "http://arxiv.org/abs/2512.25048v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25048v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "url": "http://arxiv.org/abs/2512.25046v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "url": "http://arxiv.org/abs/2512.25045v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Thin Tree Verification is coNP-Complete",
+        "url": "http://arxiv.org/abs/2512.25043v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25043v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "url": "http://arxiv.org/abs/2512.25042v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "offline_iclr": [
+        {
+          "title": "Towards Efficient Mixture of Experts: A Holistic Study of Compression Techniques",
+          "url": "https://openreview.net/forum?id=qh1goDZ0ZQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "P-BERT: Hardware-Aware Optimization of BERT Using Evolutionary Techniques",
+          "url": "https://openreview.net/forum?id=xaXvHdH9Y4",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Finite-State Autoregressive Entropy Coding for Efficient Learned Lossless Compression",
+          "url": "https://iclr.cc/virtual/2024/poster/19153",
+          "pdf_url": "https://openreview.net/pdf?id=D5mJSNtUtv",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "ZSMerge: Zero-Shot KV Cache Compression for Memory-Efficient Long-Context LLMs",
+          "url": "https://openreview.net/forum?id=WJ5BIKfc5A",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Fusion Token: Enhancing Compression and Efficiency in Language Model Tokenization",
+          "url": "https://openreview.net/forum?id=tS3gexmfeT",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Thanos: A Block-wise Pruning Algorithm for Efficient Large Language Model Compression",
+          "url": "https://openreview.net/forum?id=4TFfiG17ec",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Dense2MoE: Unifying Pruning and Upcycling for Efficient Large Language Models",
+          "url": "https://openreview.net/forum?id=hYGPetyGSr",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "SLIM: Structure-aware Low-rank Inference Model",
+          "url": "https://openreview.net/forum?id=iY0Wi8UIjA",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LaCo: Efficient Layer-wise Compression of Visual Tokens for Multimodal Large Language Models",
+          "url": "https://openreview.net/forum?id=UDCiCnVGhq",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Gradient-Constrained Training for Distributed Large Language Models",
+          "url": "https://openreview.net/forum?id=RRtwIvoYoh",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Efficient Low-rank and Sparse Approximation and Adaptation for Large Language Models",
+          "url": "https://openreview.net/forum?id=FcQdppbqDo",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Layer-wise Sensitivity-aware Sparsity Allocation for Efficient LLM Inference",
+          "url": "https://openreview.net/forum?id=erGq3kjCmy",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Deep Low Rank Projector for KV Cache Compression",
+          "url": "https://openreview.net/forum?id=EbIL1Po0Vf",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "KV-Distill: Nearly Lossless Context Compression for Transformers",
+          "url": "https://openreview.net/forum?id=p7vJ3wsm34",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression",
+          "url": "https://iclr.cc/virtual/2025/poster/30003",
+          "pdf_url": "https://openreview.net/pdf?id=LNYIUouhdt",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "MoDeGPT: Modular Decomposition for Large Language Model Compression",
+          "url": "https://iclr.cc/virtual/2025/poster/30778",
+          "pdf_url": "https://openreview.net/pdf?id=8EfxjTCg2k",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "HAPPI: Efficient KV cache compression with Hadamard PCA-based Power iteration",
+          "url": "https://openreview.net/forum?id=BRDgQzdtWr",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "CompLLM: Compression for Long Context Q&A",
+          "url": "https://openreview.net/forum?id=6AWWE08NnN",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "TGRS: Teacher-Guided Rank-Sensitive Quantization for Large Language Models",
+          "url": "https://openreview.net/forum?id=Kml0FCdUl5",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Extreme Language Model Compression with Optimal Subwords and Shared Projections",
+          "url": "https://openreview.net/forum?id=S1x6ueSKPr",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2020
+        },
+        {
+          "title": "VisionSelector: End-to-End Learnable Visual Token Compression for Efficient Multimodal LLMs",
+          "url": "https://openreview.net/forum?id=uRBKM7Ykeh",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Basis Sharing: Cross-Layer Parameter Sharing for Large Language Model Compression",
+          "url": "https://iclr.cc/virtual/2025/poster/28800",
+          "pdf_url": "https://openreview.net/pdf?id=gp32jvUquq",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "PureKV: Plug-and-Play KV Cache Optimization with Spatial-Temporal Sparse Attention for Vision-Language Large Models",
+          "url": "https://openreview.net/forum?id=XtpVQ21bcY",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Layer-wise dynamic rank for compressing large language models",
+          "url": "https://openreview.net/forum?id=qDQAiayjQI",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "When MLLMs Meets Compression Distortion: A Coding Paradigm Tailored to MLLMs",
+          "url": "https://openreview.net/forum?id=YDRoTtmXu1",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LAPO: Internalizing Reasoning Efficiency via Length-Adaptive Policy Optimization",
+          "url": "https://openreview.net/forum?id=qwxSBnEPEc",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ACT-IN-LLM: Adaptively Compression Vision Tokens in LLM for High-Resolution Multimodal Large Language Models",
+          "url": "https://openreview.net/forum?id=3Ofy2jNsNL",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "NIRVANA: Structured Pruning Reimagined for Large Language Models Compression",
+          "url": "https://openreview.net/forum?id=55K9BdoOlo",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Efficient Bayesian DNN Compression through Sparse Quantized Sub-distributions",
+          "url": "https://openreview.net/forum?id=u48BF5O7oL",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "LayerDecompose: Exploring weight sharing for Large Language Model Compression",
+          "url": "https://openreview.net/forum?id=0IWZjbMmry",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Plug-and-Fold: Weight-Preserving Structured Compression for Large Language Models",
+          "url": "https://openreview.net/forum?id=b2cFQD4GjA",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "AdaSVD: Adaptive Singular Value Decomposition for Large Language Models",
+          "url": "https://openreview.net/forum?id=ey7CXUBn1g",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Towards Structured Dynamic Sparse Pre-Training of BERT",
+          "url": "https://openreview.net/forum?id=-e7awdzWsOc",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2022
+        },
+        {
+          "title": "SOLOS: Sparse Optimization For Long Sequence In Context Compression Enhanced LLMs",
+          "url": "https://openreview.net/forum?id=DUsqifwwf5",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "On the Efficiency-Safety Dilemma in Large Reasoning Models",
+          "url": "https://openreview.net/forum?id=PYkGKPHBi0",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "MARC: Memory-Augmented RL Token Compression for Efficient Video Understanding",
+          "url": "https://openreview.net/forum?id=5gLgjn3MVT",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ERC-SVD: Error-Controlled SVD for Large Language Model Compression",
+          "url": "https://openreview.net/forum?id=WL4qCY0nBk",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Task-Agnostic and Adaptive-Size BERT Compression",
+          "url": "https://openreview.net/forum?id=wZ4yWvQ_g2y",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2021
+        },
+        {
+          "title": "ARC-Encoder: learning compressed text representations for large language models",
+          "url": "https://openreview.net/forum?id=3axAvkv3ef",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Projected Compression: Trainable Projections for Efficient Transformer Compression",
+          "url": "https://openreview.net/forum?id=SUzzJbLHoj",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on Large Language Models",
+          "url": "https://openreview.net/forum?id=KJzz4UwqTb",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Bilevel ZOFO: Bridging Parameter-Efficient and Zeroth-Order Techniques for Efficient LLM Fine-Tuning and Meta-Training",
+          "url": "https://openreview.net/forum?id=wO8WbhsjNG",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "RazorAttention: Efficient KV Cache Compression Through Retrieval Heads",
+          "url": "https://iclr.cc/virtual/2025/poster/28028",
+          "pdf_url": "https://openreview.net/pdf?id=tkiZQlL04w",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "BitStack: Any-Size Compression of Large Language Models in Variable Memory Environments",
+          "url": "https://iclr.cc/virtual/2025/poster/28531",
+          "pdf_url": "https://openreview.net/pdf?id=lBntjGbyv0",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Large Language Model Compression with Global Rank and Sparsity Optimization",
+          "url": "https://openreview.net/forum?id=ZaPmQ0NHs4",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Exploring Redundancy and Shared Representations for Transformer Models Optimization",
+          "url": "https://openreview.net/forum?id=4YBRDJ5TN3",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "IntelLLM: Little Hints Make a Big Difference for LLM KV Cache Compression",
+          "url": "https://openreview.net/forum?id=4QWPCTLq20",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "LLMCBench: Benchmarking Large Language Model Compression for Efficient Deployment",
+          "url": "https://neurips.cc/virtual/2024/poster/97446",
+          "pdf_url": "https://openreview.net/pdf?id=wmO7z57wNK",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "PV-Tuning: Beyond Straight-Through Estimation for Extreme LLM Compression",
+          "url": "https://neurips.cc/virtual/2024/poster/94666",
+          "pdf_url": "https://openreview.net/pdf?id=YvA8UF0I37",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "No Loss, No Gain: Gated Refinement and Adaptive Compression for Prompt Optimization",
+          "url": "https://openreview.net/forum?id=JEqlA8N88d",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Efficient Multi-modal Large Language Models via Progressive Consistency Distillation",
+          "url": "https://openreview.net/forum?id=gZjPllL9jM",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Less Is More, but Where? Dynamic Token Compression via LLM-Guided Keyframe Prior",
+          "url": "https://openreview.net/forum?id=uhFx1RGD1g",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Glance2Gaze: Efficient Vision-Language Models from Glance Fusion to Gaze Compression",
+          "url": "https://openreview.net/forum?id=gm65gK3uOJ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Efficient Prompt Compression with Evaluator Heads for Long-Context Transformer Inference",
+          "url": "https://openreview.net/forum?id=yOs12gdsaL",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Mixture of Scales: Memory-Efficient Token-Adaptive Binarization for Large Language Models",
+          "url": "https://neurips.cc/virtual/2024/poster/93569",
+          "pdf_url": "https://openreview.net/pdf?id=pGOBEYcXzs",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Deep Compression of Pre-trained Transformer Models",
+          "url": "https://nips.cc/virtual/2022/poster/53013",
+          "pdf_url": "https://openreview.net/pdf?id=EZQnauHn-77",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2022
+        },
+        {
+          "title": "Efficient Large Multi-modal Models via Visual Context Compression",
+          "url": "https://neurips.cc/virtual/2024/poster/96558",
+          "pdf_url": "https://openreview.net/pdf?id=5ujp72CiYB",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "ChunkKV: Semantic-Preserving KV Cache Compression for Efficient Long-Context LLM Inference",
+          "url": "https://openreview.net/forum?id=20JDhbJqn3",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Solving Sparse \\& High-Dimensional-Output Regression via Compression",
+          "url": "https://neurips.cc/virtual/2024/poster/93897",
+          "pdf_url": "https://openreview.net/pdf?id=kPGNE4CrTq",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "AmoebaLLM: Constructing Any-Shape Large Language Models for Efficient and Instant Deployment",
+          "url": "https://neurips.cc/virtual/2024/poster/95934",
+          "pdf_url": "https://openreview.net/pdf?id=G0yxFmP87g",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "Cache Me If You Must: Adaptive Key-Value Quantization for Large Language Models",
+          "url": "https://icml.cc/virtual/2025/poster/46067",
+          "pdf_url": "https://openreview.net/pdf?id=COowwJOAZi",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Extreme Compression of Large Language Models via Additive Quantization",
+          "url": "https://icml.cc/virtual/2024/poster/34964",
+          "pdf_url": "https://openreview.net/pdf?id=5mCaITRTmO",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        },
+        {
+          "title": "EvoPress: Accurate Dynamic Model Compression via Evolutionary Search",
+          "url": "https://icml.cc/virtual/2025/poster/44217",
+          "pdf_url": "https://openreview.net/pdf?id=l7QzcZpjc5",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Radio: Rate–Distortion Optimization for Large Language Model Compression",
+          "url": "https://icml.cc/virtual/2025/poster/44344",
+          "pdf_url": "https://openreview.net/pdf?id=ifnxXCCEiM",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "DLP: Dynamic Layerwise Pruning in Large Language Models",
+          "url": "https://icml.cc/virtual/2025/poster/46657",
+          "pdf_url": "https://openreview.net/pdf?id=11id5ppGZ8",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Train Big, Then Compress: Rethinking Model Size for Efficient Training and Inference of Transformers",
+          "url": "https://icml.cc/virtual/2020/poster/6828",
+          "pdf_url": "http://proceedings.mlr.press/v119/li20m/li20m.pdf",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2020
+        },
+        {
+          "title": "COMCAT: Towards Efficient Compression and Customization of Attention-Based Vision Models",
+          "url": "https://icml.cc/virtual/2023/poster/23868",
+          "pdf_url": "https://openreview.net/pdf?id=LrDkno4B3u",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2023
+        }
+      ],
+      "offline_cvpr": [
+        {
+          "title": "VoCo-LLaMA: Towards Vision Compression with Large Language Models",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/33214",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Ye_VoCo-LLaMA_Towards_Vision_Compression_with_Large_Language_Models_CVPR_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2025
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "Survey on Efficient Large Language Models: Principles, Algorithms, Applications, and Open Issues.",
+          "url": "https://www.semanticscholar.org/paper/98c5653f348bd14a92a875bacea1459d7325b8cd",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/TNNLS.2025.3628671",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Language-Specific Pruning for Efficient Reduction of Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/3a9bb1d557158c4c3d940991f78946acca26e410",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/ce68fb6929a08d7c29d0ec9a17b42b10f33b733a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3676151.3719379",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Decoding Efficiency: A Comprehensive Review of Knowledge Distillation Techniques in Large Language Model",
+          "url": "https://www.semanticscholar.org/paper/6e1b05d7500d5658ca2f866d36bc4fa86c1b4355",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.22214/ijraset.2025.73930",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "TACO-RL: Task Aware Prompt Compression Optimization with Reinforcement Learning",
+          "url": "https://www.semanticscholar.org/paper/70b49c248edee60d0ad5c53b5010f480f0a3828b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2409.13035",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "LLM Serving Optimization Techniques: A Comprehensive Analysis",
+          "url": "https://www.semanticscholar.org/paper/7a88307f6368ff5605d8720ef6b467d3e10454d0",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.32996/jcsts.2025.7.5.23",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "The Current Application Status and Prospects of Pruning Methods in natural language Processing",
+          "url": "https://www.semanticscholar.org/paper/79dcfcb184a349cb54d50e9eb589910d7ba5dae4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.54254/2755-2721/2025.ast26375",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGAs",
+          "url": "https://www.semanticscholar.org/paper/3695739b3a8b0e92b8ae90081124d098ae33b15c",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3626202.3637562",
+          "doi_url": "https://doi.org/10.1145/3626202.3637562",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Synergized Data Efficiency and Compression (SEC) Optimization for Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/65e901570f357348c25d3f44fcd40bcd3bbe8858",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/EIECS63941.2024.10800533",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "A Survey on Efficient Inference for Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/5be7e6b04c5a240cff340034aae2b57c677e211f",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2404.14294",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/001cca7910f507f7f75b8402b826c2dc07afef00",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2401.00625",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Search for Efficient Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/18465f8ecb733960c17b22c468a196440a59cf0f",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2409.17372",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Sliding Window Attention Training for Efficient Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/8d37a72500ea7243e21e7c5d82917ab7b99d4ee5",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2502.18845",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Prompt Compression for Large Language Models: A Survey",
+          "url": "https://www.semanticscholar.org/paper/91d7605a00b58e1f9c454992c98b3ac60cb654e8",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2410.12388",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "EDGE-LLM: Enabling Efficient Large Language Model Adaptation on Edge Devices via Unified Compression and Adaptive Layer Voting",
+          "url": "https://www.semanticscholar.org/paper/33cb737e120915c386c904fadc53fc48edf8b926",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3649329.3658473",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Enabling On-Device Inference of Large Language Models : Challenges, Techniques, and Applications",
+          "url": "https://www.semanticscholar.org/paper/6ee12c3075c9b6e49ae02c0de3f5b35966dd8b2d",
+          "pdf_url": "https://doi.org/10.32628/cseit241061100",
+          "doi_url": "https://doi.org/10.32628/cseit241061100",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Efficient Large Language Model Fine-Tuning with Joint Structural Pruning and Parameter Sharing",
+          "url": "https://www.semanticscholar.org/paper/e861c93038f8db05ff72f579a3c91ad8bccd48b8",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICCVDM66874.2025.11290442",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Efficiency Optimization of Large-Scale Language Models Based on Deep Learning in Natural Language Processing Tasks",
+          "url": "https://www.semanticscholar.org/paper/e8c6f51dfa1eb58af00d1cac54705387aabd6707",
+          "pdf_url": "https://arxiv.org/pdf/2405.11704",
+          "doi_url": "https://doi.org/10.1109/ICSECE61636.2024.10729518",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "LongRecipe: Recipe for Efficient Long Context Generalization in Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/188bdd2edb3126b357dc646f2ff1f0b2699ad407",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2409.00509",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Hybrid and Unitary PEFT for Resource-Efficient Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/ff018094be4737aaf78b32afa274383bf0fa296c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.11648/j.ajcst.20250804.17",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Mini-GPTs: Efficient Large Language Models through Contextual Pruning",
+          "url": "https://www.semanticscholar.org/paper/81711474e3f37a72d90c42dd10f46e431330f890",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2312.12682",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "ALPS: Improved Optimization for Highly Sparse One-Shot Pruning for Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/009fbc219ff636ddfb57ac17e1fa9a94dbd280cb",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2406.07831",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Efficient Compressing and Tuning Methods for Large Language Models: A Systematic Literature Review",
+          "url": "https://www.semanticscholar.org/paper/b073de891287423915b1709c4cc90f40756c38b9",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3728636",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "A Survey on Model Compression for Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/338d8f3b199abcebc85f34016b0162ab3a9d5310",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1162/tacl_a_00704",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Feature Alignment-Based Knowledge Distillation for Efficient Compression of Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/118ca17fc491e4ce0c577a3db3dd47e738364108",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/NNICE64954.2025.11063887",
+          "source": "semantic_scholar",
+          "year": 2024
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+          "url": "http://arxiv.org/abs/2512.25075v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+          "url": "http://arxiv.org/abs/2512.25074v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+          "url": "http://arxiv.org/abs/2512.25073v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+          "url": "http://arxiv.org/abs/2512.25071v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Coordinated Humanoid Manipulation with Choice Policies",
+          "url": "http://arxiv.org/abs/2512.25072v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Scaling Open-Ended Reasoning to Predict the Future",
+          "url": "http://arxiv.org/abs/2512.25070v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+          "url": "http://arxiv.org/abs/2512.25069v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25069v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+          "url": "http://arxiv.org/abs/2512.25068v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25068v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+          "url": "http://arxiv.org/abs/2512.25066v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+          "url": "http://arxiv.org/abs/2512.25065v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+          "url": "http://arxiv.org/abs/2512.25064v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+          "url": "http://arxiv.org/abs/2512.25063v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25063v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+          "url": "http://arxiv.org/abs/2512.25061v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25061v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+          "url": "http://arxiv.org/abs/2512.25059v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+          "url": "http://arxiv.org/abs/2512.25056v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+          "url": "http://arxiv.org/abs/2512.25055v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Fluid dynamics as intersection problem",
+          "url": "http://arxiv.org/abs/2512.25053v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25053v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+          "url": "http://arxiv.org/abs/2512.25052v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25052v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+          "url": "http://arxiv.org/abs/2512.25050v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25050v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Arithmetic with spatiotemporal optical vortex of integer and fractional topological charges",
+          "url": "http://arxiv.org/abs/2512.25049v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25049v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+          "url": "http://arxiv.org/abs/2512.25048v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25048v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Extreme nonlinear optics in optical fibers",
+          "url": "http://arxiv.org/abs/2512.25046v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+          "url": "http://arxiv.org/abs/2512.25045v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Thin Tree Verification is coNP-Complete",
+          "url": "http://arxiv.org/abs/2512.25043v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25043v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Compound Estimation for Binomials",
+          "url": "http://arxiv.org/abs/2512.25042v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "LLMCBench: Benchmarking Large Language Model Compression for Efficient Deployment",
+        "pdf": "https://openreview.net/pdf?id=wmO7z57wNK"
+      },
+      {
+        "title": "Finite-State Autoregressive Entropy Coding for Efficient Learned Lossless Compression",
+        "pdf": "https://openreview.net/pdf?id=D5mJSNtUtv"
+      },
+      {
+        "title": "PV-Tuning: Beyond Straight-Through Estimation for Extreme LLM Compression",
+        "pdf": "https://openreview.net/pdf?id=YvA8UF0I37"
+      },
+      {
+        "title": "SVD-LLM: Truncation-aware Singular Value Decomposition for Large Language Model Compression",
+        "pdf": "https://openreview.net/pdf?id=LNYIUouhdt"
+      },
+      {
+        "title": "MoDeGPT: Modular Decomposition for Large Language Model Compression",
+        "pdf": "https://openreview.net/pdf?id=8EfxjTCg2k"
+      },
+      {
+        "title": "Cache Me If You Must: Adaptive Key-Value Quantization for Large Language Models",
+        "pdf": "https://openreview.net/pdf?id=COowwJOAZi"
+      },
+      {
+        "title": "Mixture of Scales: Memory-Efficient Token-Adaptive Binarization for Large Language Models",
+        "pdf": "https://openreview.net/pdf?id=pGOBEYcXzs"
+      },
+      {
+        "title": "Extreme Compression of Large Language Models via Additive Quantization",
+        "pdf": "https://openreview.net/pdf?id=5mCaITRTmO"
+      },
+      {
+        "title": "Basis Sharing: Cross-Layer Parameter Sharing for Large Language Model Compression",
+        "pdf": "https://openreview.net/pdf?id=gp32jvUquq"
+      },
+      {
+        "title": "EvoPress: Accurate Dynamic Model Compression via Evolutionary Search",
+        "pdf": "https://openreview.net/pdf?id=l7QzcZpjc5"
+      },
+      {
+        "title": "Deep Compression of Pre-trained Transformer Models",
+        "pdf": "https://openreview.net/pdf?id=EZQnauHn-77"
+      },
+      {
+        "title": "Efficient Large Multi-modal Models via Visual Context Compression",
+        "pdf": "https://openreview.net/pdf?id=5ujp72CiYB"
+      },
+      {
+        "title": "Radio: Rate–Distortion Optimization for Large Language Model Compression",
+        "pdf": "https://openreview.net/pdf?id=ifnxXCCEiM"
+      },
+      {
+        "title": "DLP: Dynamic Layerwise Pruning in Large Language Models",
+        "pdf": "https://openreview.net/pdf?id=11id5ppGZ8"
+      },
+      {
+        "title": "Solving Sparse \\& High-Dimensional-Output Regression via Compression",
+        "pdf": "https://openreview.net/pdf?id=kPGNE4CrTq"
+      },
+      {
+        "title": "Train Big, Then Compress: Rethinking Model Size for Efficient Training and Inference of Transformers",
+        "pdf": "http://proceedings.mlr.press/v119/li20m/li20m.pdf"
+      },
+      {
+        "title": "COMCAT: Towards Efficient Compression and Customization of Attention-Based Vision Models",
+        "pdf": "https://openreview.net/pdf?id=LrDkno4B3u"
+      },
+      {
+        "title": "AmoebaLLM: Constructing Any-Shape Large Language Models for Efficient and Instant Deployment",
+        "pdf": "https://openreview.net/pdf?id=G0yxFmP87g"
+      },
+      {
+        "title": "VoCo-LLaMA: Towards Vision Compression with Large Language Models",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/papers/Ye_VoCo-LLaMA_Towards_Vision_Compression_with_Large_Language_Models_CVPR_2025_paper.pdf"
+      },
+      {
+        "title": "RazorAttention: Efficient KV Cache Compression Through Retrieval Heads",
+        "pdf": "https://openreview.net/pdf?id=tkiZQlL04w"
+      },
+      {
+        "title": "BitStack: Any-Size Compression of Large Language Models in Variable Memory Environments",
+        "pdf": "https://openreview.net/pdf?id=lBntjGbyv0"
+      },
+      {
+        "title": "FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGAs",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3626202.3637562"
+      },
+      {
+        "title": "Enabling On-Device Inference of Large Language Models : Challenges, Techniques, and Applications",
+        "pdf": "https://doi.org/10.32628/cseit241061100"
+      },
+      {
+        "title": "Efficiency Optimization of Large-Scale Language Models Based on Deep Learning in Natural Language Processing Tasks",
+        "pdf": "https://arxiv.org/pdf/2405.11704"
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "pdf": "https://arxiv.org/pdf/2512.25075v1"
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "pdf": "https://arxiv.org/pdf/2512.25074v1"
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2512.25073v1"
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "pdf": "https://arxiv.org/pdf/2512.25071v1"
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "pdf": "https://arxiv.org/pdf/2512.25072v1"
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "pdf": "https://arxiv.org/pdf/2512.25070v1"
+      },
+      {
+        "title": "Classification of Interacting Topological Crystalline Superconductors in Three Dimensions and Beyond",
+        "pdf": "https://arxiv.org/pdf/2512.25069v1"
+      },
+      {
+        "title": "No-cost Bell Nonlocality Certification from Quantum Tomography and Its Applications in Quantum Magic Witnessing",
+        "pdf": "https://arxiv.org/pdf/2512.25068v1"
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "pdf": "https://arxiv.org/pdf/2512.25066v1"
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "pdf": "https://arxiv.org/pdf/2512.25065v1"
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "pdf": "https://arxiv.org/pdf/2512.25064v1"
+      },
+      {
+        "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+        "pdf": "https://arxiv.org/pdf/2512.25063v1"
+      },
+      {
+        "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+        "pdf": "https://arxiv.org/pdf/2512.25061v1"
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "pdf": "https://arxiv.org/pdf/2512.25059v1"
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "pdf": "https://arxiv.org/pdf/2512.25056v1"
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "pdf": "https://arxiv.org/pdf/2512.25055v1"
+      },
+      {
+        "title": "Fluid dynamics as intersection problem",
+        "pdf": "https://arxiv.org/pdf/2512.25053v1"
+      },
+      {
+        "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+        "pdf": "https://arxiv.org/pdf/2512.25052v1"
+      },
+      {
+        "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+        "pdf": "https://arxiv.org/pdf/2512.25050v1"
+      },
+      {
+        "title": "Arithmetic with spatiotemporal optical vortex of integer and fractional topological charges",
+        "pdf": "https://arxiv.org/pdf/2512.25049v1"
+      },
+      {
+        "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+        "pdf": "https://arxiv.org/pdf/2512.25048v1"
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "pdf": "https://arxiv.org/pdf/2512.25046v1"
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "pdf": "https://arxiv.org/pdf/2512.25045v1"
+      },
+      {
+        "title": "Thin Tree Verification is coNP-Complete",
+        "pdf": "https://arxiv.org/pdf/2512.25043v1"
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "pdf": "https://arxiv.org/pdf/2512.25042v1"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "Survey on Efficient Large Language Models: Principles, Algorithms, Applications, and Open Issues.",
+        "doi": "https://doi.org/10.1109/TNNLS.2025.3628671"
+      },
+      {
+        "title": "Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models",
+        "doi": "https://doi.org/10.1145/3676151.3719379"
+      },
+      {
+        "title": "Decoding Efficiency: A Comprehensive Review of Knowledge Distillation Techniques in Large Language Model",
+        "doi": "https://doi.org/10.22214/ijraset.2025.73930"
+      },
+      {
+        "title": "TACO-RL: Task Aware Prompt Compression Optimization with Reinforcement Learning",
+        "doi": "https://doi.org/10.48550/arXiv.2409.13035"
+      },
+      {
+        "title": "LLM Serving Optimization Techniques: A Comprehensive Analysis",
+        "doi": "https://doi.org/10.32996/jcsts.2025.7.5.23"
+      },
+      {
+        "title": "The Current Application Status and Prospects of Pruning Methods in natural language Processing",
+        "doi": "https://doi.org/10.54254/2755-2721/2025.ast26375"
+      },
+      {
+        "title": "FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGAs",
+        "doi": "https://doi.org/10.1145/3626202.3637562"
+      },
+      {
+        "title": "Synergized Data Efficiency and Compression (SEC) Optimization for Large Language Models",
+        "doi": "https://doi.org/10.1109/EIECS63941.2024.10800533"
+      },
+      {
+        "title": "A Survey on Efficient Inference for Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2404.14294"
+      },
+      {
+        "title": "Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2401.00625"
+      },
+      {
+        "title": "Search for Efficient Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2409.17372"
+      },
+      {
+        "title": "Sliding Window Attention Training for Efficient Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2502.18845"
+      },
+      {
+        "title": "Prompt Compression for Large Language Models: A Survey",
+        "doi": "https://doi.org/10.48550/arXiv.2410.12388"
+      },
+      {
+        "title": "EDGE-LLM: Enabling Efficient Large Language Model Adaptation on Edge Devices via Unified Compression and Adaptive Layer Voting",
+        "doi": "https://doi.org/10.1145/3649329.3658473"
+      },
+      {
+        "title": "Enabling On-Device Inference of Large Language Models : Challenges, Techniques, and Applications",
+        "doi": "https://doi.org/10.32628/cseit241061100"
+      },
+      {
+        "title": "Efficient Large Language Model Fine-Tuning with Joint Structural Pruning and Parameter Sharing",
+        "doi": "https://doi.org/10.1109/ICCVDM66874.2025.11290442"
+      },
+      {
+        "title": "Efficiency Optimization of Large-Scale Language Models Based on Deep Learning in Natural Language Processing Tasks",
+        "doi": "https://doi.org/10.1109/ICSECE61636.2024.10729518"
+      },
+      {
+        "title": "LongRecipe: Recipe for Efficient Long Context Generalization in Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2409.00509"
+      },
+      {
+        "title": "Hybrid and Unitary PEFT for Resource-Efficient Large Language Models",
+        "doi": "https://doi.org/10.11648/j.ajcst.20250804.17"
+      },
+      {
+        "title": "Mini-GPTs: Efficient Large Language Models through Contextual Pruning",
+        "doi": "https://doi.org/10.48550/arXiv.2312.12682"
+      },
+      {
+        "title": "ALPS: Improved Optimization for Highly Sparse One-Shot Pruning for Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2406.07831"
+      },
+      {
+        "title": "Efficient Compressing and Tuning Methods for Large Language Models: A Systematic Literature Review",
+        "doi": "https://doi.org/10.1145/3728636"
+      },
+      {
+        "title": "A Survey on Model Compression for Large Language Models",
+        "doi": "https://doi.org/10.1162/tacl_a_00704"
+      },
+      {
+        "title": "Feature Alignment-Based Knowledge Distillation for Efficient Compression of Large Language Models",
+        "doi": "https://doi.org/10.1109/NNICE64954.2025.11063887"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "computational efficiency optimization techniques large language models",
+    "total_steps": 5,
+    "last_updated": "2026-01-01T21:45:49.389236",
+    "started_at": "2026-01-01T21:08:16.368921",
+    "total_papers": 118
+  }
+}

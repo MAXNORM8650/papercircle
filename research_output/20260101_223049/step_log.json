@@ -1,0 +1,82 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-01T22:32:01.635053",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLMs in media'",
+      "result_preview": "Found 79 papers",
+      "details": {
+        "query": "LLMs in media",
+        "sources": null,
+        "papers_found": 79,
+        "papers_added": 79,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 79
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-01T22:32:05.616308",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLMs in media'",
+      "result_preview": "Found 78 papers",
+      "details": {
+        "query": "LLMs in media",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 78,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 79
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-01T22:32:09.049614",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLMs in media'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "LLMs in media",
+        "conferences": [
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 47,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 126
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-01T22:32:38.483390",
+      "agent": "sorting_agent",
+      "action": "Sorted 10 papers by 'combined'",
+      "result_preview": "Top paper: The Promises and Pitfalls of LLM Annotations in Da...",
+      "details": {
+        "sort_by": "combined",
+        "weights": "{\"recency\": 0.5, \"citations\": 0.5}",
+        "top_k": 10
+      },
+      "papers_count": 10
+    }
+  ],
+  "current_step": 4,
+  "metadata": {
+    "query": "LLMs in media",
+    "total_steps": 4,
+    "last_updated": "2026-01-01T22:32:38.486384",
+    "started_at": "2026-01-01T22:30:50.915442",
+    "total_papers": 10
+  }
+}

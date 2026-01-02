@@ -1,0 +1,496 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T11:22:24.285316",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework'",
+      "result_preview": "Found 71 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework",
+        "sources": null,
+        "papers_found": 71,
+        "papers_added": 71,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 71
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-02T11:22:31.488797",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework'",
+      "result_preview": "Found 16 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 16,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 71
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-02T11:22:50.212832",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'multi-agent research paper discovery and analysis framework'",
+      "result_preview": "Found 10 papers from local database",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 10,
+        "papers_added": 10,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 81
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-02T11:23:03.641699",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'multi-agent research paper discovery and analysis framework'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework",
+        "conferences": [
+          "nips",
+          "iclr",
+          "cvpr",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": 2021,
+        "end_year": 2025,
+        "papers_found": 50,
+        "papers_added": 43,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 124
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-02T11:23:08.575098",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework'",
+      "result_preview": "Found 56 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 56,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 124
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-02T11:23:16.195918",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework'",
+      "result_preview": "Found 46 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 46,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 124
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-02T11:23:29.846374",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'multi-agent research paper discovery and analysis framework'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework",
+        "conferences": [
+          "nips",
+          "iclr",
+          "cvpr",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": 2020,
+        "end_year": 2025,
+        "papers_found": 50,
+        "papers_added": 2,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 126
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-02T11:23:38.037343",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework'",
+      "result_preview": "Found 71 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 71,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 126
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-02T11:23:45.361822",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework'",
+      "result_preview": "Found 46 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 46,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 126
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-02T11:24:33.216653",
+      "agent": "online_search_agent",
+      "action": "Online search: 'verified multi-agent research paper discovery and analysis framework'",
+      "result_preview": "Found 73 papers",
+      "details": {
+        "query": "verified multi-agent research paper discovery and analysis framework",
+        "sources": null,
+        "papers_found": 73,
+        "papers_added": 35,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 161
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-02T11:24:40.559766",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery framework'",
+      "result_preview": "Found 44 papers",
+      "details": {
+        "query": "multi-agent research paper discovery framework",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 44,
+        "papers_added": 9,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 170
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-02T11:24:59.604656",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'verified multi-agent research paper discovery and analysis framework'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "verified multi-agent research paper discovery and analysis framework",
+        "conferences": null,
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 21,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 191
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-02T11:25:07.212216",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework 2025'",
+      "result_preview": "Found 48 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework 2025",
+        "sources": null,
+        "papers_found": 48,
+        "papers_added": 14,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 205
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-02T11:25:13.452421",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework 2024'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework 2024",
+        "sources": null,
+        "papers_found": 50,
+        "papers_added": 3,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 208
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-02T11:25:19.405162",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework 2023'",
+      "result_preview": "Found 72 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework 2023",
+        "sources": null,
+        "papers_found": 72,
+        "papers_added": 13,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 221
+    },
+    {
+      "step": 16,
+      "timestamp": "2026-01-02T11:25:26.122215",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework 2022'",
+      "result_preview": "Found 69 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework 2022",
+        "sources": null,
+        "papers_found": 69,
+        "papers_added": 7,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 228
+    },
+    {
+      "step": 17,
+      "timestamp": "2026-01-02T11:25:33.195098",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework 2021'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework 2021",
+        "sources": null,
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 228
+    },
+    {
+      "step": 18,
+      "timestamp": "2026-01-02T11:25:40.261559",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework 2020'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework 2020",
+        "sources": null,
+        "papers_found": 50,
+        "papers_added": 2,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 230
+    },
+    {
+      "step": 19,
+      "timestamp": "2026-01-02T11:25:47.161678",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework 2019'",
+      "result_preview": "Found 75 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework 2019",
+        "sources": null,
+        "papers_found": 75,
+        "papers_added": 13,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 243
+    },
+    {
+      "step": 20,
+      "timestamp": "2026-01-02T11:25:55.216514",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework 2018'",
+      "result_preview": "Found 75 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework 2018",
+        "sources": null,
+        "papers_found": 75,
+        "papers_added": 8,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 251
+    },
+    {
+      "step": 21,
+      "timestamp": "2026-01-02T11:26:01.705767",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework 2017'",
+      "result_preview": "Found 75 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework 2017",
+        "sources": null,
+        "papers_found": 75,
+        "papers_added": 9,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 260
+    },
+    {
+      "step": 22,
+      "timestamp": "2026-01-02T11:26:19.911571",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework 2016'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework 2016",
+        "sources": null,
+        "papers_found": 50,
+        "papers_added": 1,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 261
+    },
+    {
+      "step": 23,
+      "timestamp": "2026-01-02T11:26:42.403748",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework 2015'",
+      "result_preview": "Found 75 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework 2015",
+        "sources": null,
+        "papers_found": 75,
+        "papers_added": 11,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 272
+    },
+    {
+      "step": 24,
+      "timestamp": "2026-01-02T11:27:01.838142",
+      "agent": "online_search_agent",
+      "action": "Online search: 'multi-agent research paper discovery and analysis framework 2014'",
+      "result_preview": "Found 75 papers",
+      "details": {
+        "query": "multi-agent research paper discovery and analysis framework 2014",
+        "sources": null,
+        "papers_found": 75,
+        "papers_added": 11,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 283
+    }
+  ],
+  "current_step": 24,
+  "metadata": {
+    "query": "multi-agent research paper discovery and analysis framework 2014",
+    "total_steps": 24,
+    "last_updated": "2026-01-02T11:27:01.883725",
+    "started_at": "2026-01-02T11:21:51.879286",
+    "total_papers": 283
+  }
+}

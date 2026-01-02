@@ -1,0 +1,311 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-02T11:41:31.369556",
+      "agent": "online_search_agent",
+      "action": "Online search: 'A Systematic Framework for Interactive World Modeling'",
+      "result_preview": "Found 43 papers",
+      "details": {
+        "query": "A Systematic Framework for Interactive World Modeling",
+        "sources": null,
+        "papers_found": 43,
+        "papers_added": 43,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 43
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-02T11:42:15.387835",
+      "agent": "online_search_agent",
+      "action": "Online search: 'interactive world modeling framework'",
+      "result_preview": "Found 71 papers",
+      "details": {
+        "query": "interactive world modeling framework",
+        "sources": null,
+        "papers_found": 71,
+        "papers_added": 41,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 84
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-02T11:42:23.334913",
+      "agent": "online_search_agent",
+      "action": "Online search: 'interactive world modeling framework'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "interactive world modeling framework",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 84
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-02T11:42:39.476713",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'interactive world modeling framework'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "interactive world modeling framework",
+        "conferences": null,
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 47,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 131
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-02T11:42:52.607163",
+      "agent": "online_search_agent",
+      "action": "Online search: 'systematic framework for world models in AI'",
+      "result_preview": "Found 47 papers",
+      "details": {
+        "query": "systematic framework for world models in AI",
+        "sources": null,
+        "papers_found": 47,
+        "papers_added": 20,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 151
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-02T11:43:06.952011",
+      "agent": "online_search_agent",
+      "action": "Online search: 'cognitive interactive world models'",
+      "result_preview": "Found 69 papers",
+      "details": {
+        "query": "cognitive interactive world models",
+        "sources": null,
+        "papers_found": 69,
+        "papers_added": 40,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 191
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-02T11:43:23.089873",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'cognitive interactive world models'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "cognitive interactive world models",
+        "conferences": null,
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 30,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 221
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-02T11:43:39.212488",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'cognitive interactive world models'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "cognitive interactive world models",
+        "conferences": [
+          "nips",
+          "iclr",
+          "cvpr",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 3,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 224
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-02T11:43:47.157196",
+      "agent": "online_search_agent",
+      "action": "Online search: 'cognitive interactive world models'",
+      "result_preview": "Found 69 papers",
+      "details": {
+        "query": "cognitive interactive world models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 69,
+        "papers_added": 1,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 225
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-02T11:44:01.689637",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world model design'",
+      "result_preview": "Found 63 papers",
+      "details": {
+        "query": "world model design",
+        "sources": null,
+        "papers_found": 63,
+        "papers_added": 39,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 264
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-02T11:44:18.167083",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'world model design'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "world model design",
+        "conferences": null,
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 44,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 308
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-02T11:44:33.524309",
+      "agent": "online_search_agent",
+      "action": "Online search: 'AI world model framework'",
+      "result_preview": "Found 68 papers",
+      "details": {
+        "query": "AI world model framework",
+        "sources": null,
+        "papers_found": 68,
+        "papers_added": 41,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 349
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-02T11:45:09.859065",
+      "agent": "sorting_agent",
+      "action": "Sorted 349 papers by 'recency'",
+      "result_preview": "Top paper: HistoBench: World History Event Extraction and Cog...",
+      "details": {
+        "sort_by": "recency",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 349
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-02T11:45:13.621445",
+      "agent": "sorting_agent",
+      "action": "Sorted 349 papers by 'relevance'",
+      "result_preview": "Top paper: DrivingDojo Dataset: Advancing Interactive and Kno...",
+      "details": {
+        "sort_by": "relevance",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 349
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-02T11:45:17.804813",
+      "agent": "sorting_agent",
+      "action": "Sorted 349 papers by 'citations'",
+      "result_preview": "Top paper: TPTU: Task Planning and Tool Usage of Large Langua...",
+      "details": {
+        "sort_by": "citations",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 349
+    },
+    {
+      "step": 16,
+      "timestamp": "2026-01-02T11:45:34.087083",
+      "agent": "export_agent",
+      "action": "Exporting papers (json)",
+      "result_preview": "Exported 349 papers",
+      "details": {
+        "format": "json",
+        "filename": null
+      },
+      "papers_count": 349
+    },
+    {
+      "step": 17,
+      "timestamp": "2026-01-02T11:45:35.905390",
+      "agent": "export_agent",
+      "action": "Exporting papers (html)",
+      "result_preview": "Exported 349 papers",
+      "details": {
+        "format": "html",
+        "filename": null
+      },
+      "papers_count": 349
+    },
+    {
+      "step": 18,
+      "timestamp": "2026-01-02T11:45:37.461290",
+      "agent": "export_agent",
+      "action": "Exporting papers (pdf)",
+      "result_preview": "Exported 349 papers",
+      "details": {
+        "format": "pdf",
+        "filename": null
+      },
+      "papers_count": 349
+    }
+  ],
+  "current_step": 18,
+  "metadata": {
+    "query": "AI world model framework",
+    "total_steps": 18,
+    "last_updated": "2026-01-02T11:45:37.502553",
+    "started_at": "2026-01-02T11:40:44.377884",
+    "total_papers": 349
+  }
+}
