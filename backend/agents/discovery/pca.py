@@ -905,7 +905,7 @@ pipeline_state = PipelineState()
 class OfflinePaperSearchEngine:
     """Search papers from local database folder with BM25 and semantic ranking."""
 
-    def __init__(self, database_path: str = "/Users/komal.kumar/Documents/websites/pc-data/database",
+    def __init__(self, database_path: str = "./research_output/database",
                  use_semantic: bool = False, use_bm25: bool = True, use_cache: bool = False,
                  use_reranker: bool = False, reranker_backend: str = "vllm",
                  reranker_model: str = "Qwen/Qwen3-Reranker-0.6B", first_stage_k: int = 200):
@@ -2682,8 +2682,8 @@ def create_research_pipeline(model, output_dir: str = "research_output", verbose
         model=model,
         managed_agents=[intent_agent, paper_search_agent, sorting_agent, analysis_agent, export_agent],
         additional_authorized_imports=["json", "os", "datetime", "time", "numpy", "pandas"],
-        planning_interval=2,
-        max_steps=10,
+        planning_interval=1,
+        max_steps=2,
         instructions="""                                                                                                                                                    
             CRITICAL INSTRUCTIONS FOR EFFICIENCY:                                                                                                                                       
             When query says "offline:" or mentions conferences, use paper_search_agent FIRST with offline database                                                                   
