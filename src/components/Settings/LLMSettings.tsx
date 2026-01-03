@@ -3,9 +3,6 @@ import { Save, RefreshCw, AlertCircle, CheckCircle, Server, Key } from 'lucide-r
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
 
-// Use environment variable or fallback to localhost for local development
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8001';
-
 interface LLMConfig {
   llm_enabled: boolean;
   llm_provider: 'ollama' | 'openai' | 'anthropic' | 'custom';
@@ -65,22 +62,13 @@ export function LLMSettings() {
     if (!user) return;
 
     try {
-      // Add timeout to prevent hanging
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 5000); // 5 second timeout
-
-      const response = await fetch(`${API_BASE_URL}/quota/${user.id}`, {
-        signal: controller.signal
-      });
-      clearTimeout(timeoutId);
-
+      const response = await fetch(`http://localhost:8001/quota/${user.id}`);
       if (response.ok) {
         const data = await response.json();
         setQuota(data);
       }
-    } catch (error: any) {
-      // Silently fail for quota - it's not critical for settings to load
-      console.warn('Could not load quota (API may be offline):', error.message);
+    } catch (error) {
+      console.error('Error loading quota:', error);
     }
   };
 
@@ -174,12 +162,8 @@ export function LLMSettings() {
     setMessage(null);
 
     try {
-      // Add timeout to prevent hanging
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second timeout
-
       // Call backend API to test connection (avoids CORS issues)
-      const response = await fetch(`${API_BASE_URL}/test-llm-connection`, {
+      const response = await fetch('http://localhost:8001/test-llm-connection', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -188,9 +172,7 @@ export function LLMSettings() {
           api_base: config.llm_api_base,
           provider: config.llm_provider,
         }),
-        signal: controller.signal
       });
-      clearTimeout(timeoutId);
 
       const result = await response.json();
 
@@ -204,12 +186,9 @@ export function LLMSettings() {
         setMessage({ type: 'error', text: result.message });
       }
     } catch (error: any) {
-      const isTimeout = error.name === 'AbortError';
       setMessage({
         type: 'error',
-        text: isTimeout
-          ? `Connection test timed out. The Analysis API at ${API_BASE_URL} is not responding.\n\nMake sure it's running and accessible.`
-          : `Connection test failed: ${error.message}\n\nMake sure the Paper Analysis API is accessible at ${API_BASE_URL}.`
+        text: `Connection test failed: ${error.message}\n\nMake sure the Paper Analysis API is running on port 8001.`
       });
     }
 
@@ -239,8 +218,8 @@ export function LLMSettings() {
         {/* Current Tier and Quota */}
         {quota && (
           <div className={`rounded-lg p-4 mb-6 ${quota.is_unlimited || config.llm_enabled
-            ? 'bg-green-50 border border-green-200'
-            : 'bg-gray-50 border border-gray-200'
+              ? 'bg-green-50 border border-green-200'
+              : 'bg-gray-50 border border-gray-200'
             }`}>
             <div className="flex items-center justify-between">
               <div>

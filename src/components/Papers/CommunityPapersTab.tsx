@@ -67,7 +67,7 @@ function CommunityPaperCard({
           created_at,
           user_id,
           profiles:user_id (
-            full_name,
+            display_name,
             avatar_url
           )
         `)
@@ -108,7 +108,7 @@ function CommunityPaperCard({
           created_at,
           user_id,
           profiles:user_id (
-            full_name,
+            display_name,
             avatar_url
           )
         `)
@@ -454,12 +454,12 @@ function CommunityPaperCard({
                 <div key={comment.id} className="bg-white p-4 rounded-lg shadow-sm">
                   <div className="flex items-start gap-3">
                     <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center text-white font-semibold text-sm">
-                      {comment.profiles?.full_name?.[0] || 'U'}
+                      {comment.profiles?.display_name?.[0] || 'U'}
                     </div>
                     <div className="flex-1">
                       <div className="flex items-center justify-between mb-1">
                         <span className="font-semibold text-gray-900">
-                          {comment.profiles?.full_name || 'Anonymous'}
+                          {comment.profiles?.display_name || 'Anonymous'}
                         </span>
                         <span className="text-xs text-gray-500">
                           {formatTimeAgo(comment.created_at)}

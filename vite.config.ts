@@ -14,30 +14,9 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  plugins: [
-    react({
-      // Disable fast refresh in production to avoid eval
-      // This ensures CSP compliance
-      jsxRuntime: 'automatic',
-    })
-  ],
+  plugins: [react()],
   server: {
     host: true,
     allowedHosts: true,
-  },
-  build: {
-    // Ensure no eval is used in production builds
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: false,
-      },
-    },
-    // Generate source maps for debugging without eval
-    sourcemap: false,
-  },
-  // Optimize dependencies
-  optimizeDeps: {
-    exclude: [],
   },
 });
