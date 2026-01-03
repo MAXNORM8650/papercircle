@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "physics simulation AND diffusion models",
+    "total_papers": 306,
+    "unique_sources": 13,
+    "year_range": {
+      "min": 2006,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 852,
+      "average": 11.2
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 183,
+    "papers_with_doi": 149,
+    "processing_steps": 6
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (13) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 13
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 98 papers (32%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 98
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Chuang Gan has 6 papers in this collection",
+      "data": {
+        "author": "Chuang Gan",
+        "count": 6
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Fast point cloud generation with diffusion models in high energy physics...\" has 66 citations",
+      "data": {
+        "title": "Fast point cloud generation with diffusion models in high energy physics",
+        "citations": 66
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: physics, diffusion, models, simulation, model",
+      "data": {
+        "keywords": {
+          "physics": 92,
+          "diffusion": 78,
+          "models": 51,
+          "simulation": 50,
+          "model": 38
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "183/306 papers (59%) have direct PDF links",
+      "data": {
+        "with_pdf": 183,
+        "total": 306
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 306 papers related to 'physics simulation AND diffusion models'",
+    "Papers collected from 13 sources: offline_iclr, offline_cvpr, offline_nips, offline_icml, offline_siggraph, offline_iccv, offline_aaai, offline_eccv, offline_icra, offline_iros, openalex, arxiv, semantic_scholar",
+    "Publication years range from 2006 to 2026",
+    "Total citations: 852, Average: 11",
+    "Leading researchers: Chuang Gan, Junchi Yan, Zhengyi Luo"
+  ],
+  "metadata": {
+    "query": "physics simulation AND diffusion models",
+    "total_steps": 6,
+    "last_updated": "2026-01-03T16:52:24.682042",
+    "started_at": "2026-01-03T16:50:55.369747",
+    "total_papers": 306
+  },
+  "is_complete": true
+}

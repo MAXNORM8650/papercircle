@@ -1,0 +1,118 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T18:41:45.367491",
+      "agent": "online_search_agent",
+      "action": "Online search: 'motion generation'",
+      "result_preview": "Found 130 papers",
+      "details": {
+        "query": "motion generation",
+        "sources": null,
+        "papers_found": 130,
+        "papers_added": 130,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 130
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T18:42:00.637045",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'motion generation'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "motion generation",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": 2020,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 44,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 174
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T18:42:07.220523",
+      "agent": "online_search_agent",
+      "action": "Online search: 'motion generation'",
+      "result_preview": "Found 200 papers",
+      "details": {
+        "query": "motion generation",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 200,
+        "papers_added": 128,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 302
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T18:42:22.657802",
+      "agent": "sorting_agent",
+      "action": "Sorted 302 papers by 'recency'",
+      "result_preview": "Top paper: Learning Text-driven 3D Human Motion Generation fr...",
+      "details": {
+        "sort_by": "recency",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 302
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T18:42:23.829131",
+      "agent": "sorting_agent",
+      "action": "Sorted 302 papers by 'citations'",
+      "result_preview": "Top paper: MotionDiffuse: Text-Driven Human Motion Generation...",
+      "details": {
+        "sort_by": "citations",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 302
+    }
+  ],
+  "current_step": 5,
+  "metadata": {
+    "query": "motion generation",
+    "total_steps": 5,
+    "last_updated": "2026-01-03T18:42:23.861194",
+    "started_at": "2026-01-03T18:41:13.128985",
+    "total_papers": 302
+  }
+}

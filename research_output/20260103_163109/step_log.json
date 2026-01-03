@@ -1,0 +1,141 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T16:31:20.755283",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world model evaluation'",
+      "result_preview": "Found 133 papers",
+      "details": {
+        "query": "world model evaluation",
+        "sources": null,
+        "papers_found": 133,
+        "papers_added": 133,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 133
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T16:31:29.456864",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'world model evaluation'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "world model evaluation",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 45,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 178
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T16:31:35.076827",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world model evaluation benchmark'",
+      "result_preview": "Found 47 papers",
+      "details": {
+        "query": "world model evaluation benchmark",
+        "sources": null,
+        "papers_found": 47,
+        "papers_added": 12,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 190
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T16:31:43.298777",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'world model evaluation benchmark'",
+      "result_preview": "Found 25 papers from local database",
+      "details": {
+        "query": "world model evaluation benchmark",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 25,
+        "papers_added": 4,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 194
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T16:32:02.643213",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world model evaluation metrics methodology'",
+      "result_preview": "Found 86 papers",
+      "details": {
+        "query": "world model evaluation metrics methodology",
+        "sources": null,
+        "papers_found": 86,
+        "papers_added": 36,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 230
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-03T16:32:12.273985",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'world model evaluation metrics methodology'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "world model evaluation metrics methodology",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 37,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 267
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-03T16:32:17.599767",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world model evaluation metrics methodology'",
+      "result_preview": "Found 100 papers",
+      "details": {
+        "query": "world model evaluation metrics methodology",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 100,
+        "papers_added": 47,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 314
+    }
+  ],
+  "current_step": 7,
+  "metadata": {
+    "query": "world model evaluation metrics methodology",
+    "total_steps": 7,
+    "last_updated": "2026-01-03T16:32:17.643892",
+    "started_at": "2026-01-03T16:31:09.302329",
+    "total_papers": 314
+  }
+}

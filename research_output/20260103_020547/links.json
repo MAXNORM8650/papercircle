@@ -1,0 +1,1516 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Few-shot clinical entity recognition in English, French and Spanish: masked language models outperform generative model prompting",
+        "url": "https://aclanthology.org/2024.findings-emnlp.400/",
+        "pdf_url": "https://aclanthology.org/2024.findings-emnlp.400.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Preserving Generalization of Language models in Few-shot Continual Relation Extraction",
+        "url": "https://aclanthology.org/2024.emnlp-main.763/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.763.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "LLM-Informed Semi-Supervised Learning for Text Classification",
+        "url": "https://openreview.net/forum?id=Mu2tNzS0AM",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Small Visual Language Models can also be Open-Ended Few-Shot Learners",
+        "url": "https://openreview.net/forum?id=vg31nvdrzF",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Multilingual Large Language Models Are Not (Yet) Code-Switchers",
+        "url": "https://openreview.net/forum?id=DgB01RzOqo",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "Boosting Transformers and Language Models for Clinical Prediction in Immunotherapy",
+        "url": "https://aclanthology.org/2023.acl-industry.32/",
+        "pdf_url": "https://aclanthology.org/2023.acl-industry.32.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Making Pre-trained Language Models Better Learn Few-Shot Spoken Language Understanding in More Practical Scenarios",
+        "url": "https://aclanthology.org/2023.findings-acl.853/",
+        "pdf_url": "https://aclanthology.org/2023.findings-acl.853.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "PivotFEC: Enhancing Few-shot Factual Error Correction with a Pivot Task Approach using Large Language Models",
+        "url": "https://openreview.net/forum?id=Nx9D21g1lW",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "CodeIE: Large Code Generation Models are Better Few-Shot Information Extractors",
+        "url": "https://aclanthology.org/2023.acl-long.855/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.855.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Prompt to be Consistent is Better than Self-Consistent? Few-Shot and Zero-Shot Fact Verification with Pre-trained Language Models",
+        "url": "https://aclanthology.org/2023.findings-acl.278/",
+        "pdf_url": "https://aclanthology.org/2023.findings-acl.278.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Large Language Models are Few-Shot Training Example Generators: A Case Study in Fallacy Recognition",
+        "url": "https://aclanthology.org/2024.findings-acl.732/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.732.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Large Language Models are Demonstration Pre-Selectors for Themselves",
+        "url": "https://openreview.net/forum?id=diKRhKs5yl",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "The Representation Landscape of Few-Shot Learning and Fine-Tuning in Large Language Models",
+        "url": "https://neurips.cc/virtual/2024/poster/93666",
+        "pdf_url": "https://openreview.net/pdf?id=nmUkwoOHFO",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Language Models Get a Gender Makeover: Mitigating Gender Bias with Few-Shot Data Interventions",
+        "url": "https://aclanthology.org/2023.acl-short.30/",
+        "pdf_url": "https://aclanthology.org/2023.acl-short.30.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "IntentGPT: Few-Shot Intent Discovery with Large Language Models",
+        "url": "https://openreview.net/forum?id=2kvDzdC5rh",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning",
+        "url": "https://openreview.net/forum?id=D7omx8QyFP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "IntGrad MT: Enhancing LLMs' Machine Translation Capabilities with Sentence Interpolation Guided Gradual MT",
+        "url": "https://openreview.net/forum?id=SmxM4POTBk",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Context-Alignment: Activating and Enhancing LLMs Capabilities in Time Series",
+        "url": "https://iclr.cc/virtual/2025/poster/28084",
+        "pdf_url": "https://openreview.net/pdf?id=syC2764fPc",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Improving the Language Understanding Capabilities of Large Language Models Using Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=ZK1NnjpjEs",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "UniAudio 1.5: Large Language Model-Driven Audio Codec is A Few-Shot Audio Task Learner",
+        "url": "https://neurips.cc/virtual/2024/poster/95454",
+        "pdf_url": "https://openreview.net/pdf?id=NGrINZyZKk",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "CLEAR: Understanding the Reasoning Capabilities of Large Language Models",
+        "url": "https://openreview.net/forum?id=3LnTTHDWER",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Dissecting Zero-Shot Visual Reasoning Capabilities in Vision and Language Models",
+        "url": "https://openreview.net/forum?id=UndmcWatBN",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Language Models Can Improve Event Prediction by Few-Shot Abductive Reasoning",
+        "url": "https://nips.cc/virtual/2023/poster/71194",
+        "pdf_url": "https://openreview.net/pdf?id=aW9BqtRQkh",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2023
+      },
+      {
+        "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+        "url": "https://openreview.net/forum?id=QAwaaLJNCk",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Making Text Embedders Few-Shot Learners",
+        "url": "https://iclr.cc/virtual/2025/poster/27833",
+        "pdf_url": "https://openreview.net/pdf?id=wfLuiDjQ0u",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Model ensemble instead of prompt fusion: a sample-specific knowledge transfer method for few-shot prompt tuning",
+        "url": "https://iclr.cc/virtual/2023/poster/11794",
+        "pdf_url": "https://openreview.net/pdf?id=p0yrSRbN5Bu",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Conversational Few-Shot Prompting: Rethinking Few-Shot Prompting for Chat Language Model",
+        "url": "https://openreview.net/forum?id=ewRkjUX4SY",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks",
+        "url": "https://nips.cc/virtual/2023/poster/73716",
+        "pdf_url": "https://openreview.net/pdf?id=1ngbR3SZHW",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2023
+      },
+      {
+        "title": "Language Quantized AutoEncoders: Towards Unsupervised Text-Image Alignment",
+        "url": "https://nips.cc/virtual/2023/poster/70538",
+        "pdf_url": "https://openreview.net/pdf?id=mlxRLIy7kc",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2023
+      },
+      {
+        "title": "Optimization Inspired Few-Shot Adaptation for Large Language Models",
+        "url": "https://openreview.net/forum?id=rZ2nSt1X58",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "LLaFS: When Large Language Models Meet Few-Shot Segmentation",
+        "url": "https://cvpr.thecvf.com/virtual/2024/poster/30546",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_LLaFS_When_Large_Language_Models_Meet_Few-Shot_Segmentation_CVPR_2024_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2024
+      },
+      {
+        "title": "Large Language Models are Human-Level Prompt Engineers",
+        "url": "https://iclr.cc/virtual/2023/poster/10850",
+        "pdf_url": "https://openreview.net/pdf?id=92gvk82DE-",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Efficient Training of Language Models using Few-Shot Learning",
+        "url": "https://icml.cc/virtual/2023/poster/23961",
+        "pdf_url": "https://openreview.net/pdf?id=SpFIO5Mdso",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2023
+      },
+      {
+        "title": "Internet-augmented language models through few-shot prompting for open-domain question answering",
+        "url": "https://openreview.net/forum?id=hFCUPkSSRE",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "ChemEval: A Multi-level and Fine-grained Chemical Capability Evaluation for Large Language Models",
+        "url": "https://openreview.net/forum?id=dVb96Endxa",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Context-Aware Adapter Tuning for Few-Shot Relation Learning in Knowledge Graphs",
+        "url": "https://aclanthology.org/2024.emnlp-main.970/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.970.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Analyzing Context Contributions in LLM-based Machine Translation",
+        "url": "https://aclanthology.org/2024.findings-emnlp.876/",
+        "pdf_url": "https://aclanthology.org/2024.findings-emnlp.876.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Few-shot Style-Conditioned LLM Text Generation via Latent Interpolation",
+        "url": "https://openreview.net/forum?id=kVcEiWtld9",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "PALM: Few-Shot Prompt Learning for Audio Language Models",
+        "url": "https://aclanthology.org/2024.emnlp-main.1030/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.1030.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "DS2-ABSA: Dual-Stream Data Synthesis with Label Refinement for Few-Shot Aspect-Based Sentiment Analysis",
+        "url": "https://aclanthology.org/2025.acl-long.752/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.752.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "LLM Distillation for Efficient Few-Shot Multiple Choice Question Answering",
+        "url": "https://openreview.net/forum?id=1TJSnL3ywS",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "BUFFET: Benchmarking Large Language Models for Few-shot Cross-lingual Transfer",
+        "url": "https://aclanthology.org/2024.naacl-long.100/",
+        "pdf_url": "https://aclanthology.org/2024.naacl-long.100.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2024
+      },
+      {
+        "title": "Multitask Pre-training of Modular Prompt for Chinese Few-Shot Learning",
+        "url": "https://aclanthology.org/2023.acl-long.625/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.625.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "C-ICL: Contrastive In-context Learning for Information Extraction",
+        "url": "https://aclanthology.org/2024.findings-emnlp.590/",
+        "pdf_url": "https://aclanthology.org/2024.findings-emnlp.590.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "GRADUAL: Granularity-aware Dual Prototype Learning for Better Few-Shot Relation Extraction",
+        "url": "https://aclanthology.org/2024.findings-acl.805/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.805.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "LLMs Are Few-Shot In-Context Low-Resource Language Learners",
+        "url": "https://aclanthology.org/2024.naacl-long.24/",
+        "pdf_url": "https://aclanthology.org/2024.naacl-long.24.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2024
+      },
+      {
+        "title": "Consistent Prototype Learning for Few-Shot Continual Relation Extraction",
+        "url": "https://aclanthology.org/2023.acl-long.409/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.409.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Efficient Information Extraction in Few-Shot Relation Classification through Contrastive Representation Learning",
+        "url": "https://aclanthology.org/2024.naacl-short.54/",
+        "pdf_url": "https://aclanthology.org/2024.naacl-short.54.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2024
+      },
+      {
+        "title": "PromptRefine: Enhancing Few-Shot Performance on Low-Resource Indic Languages with Example Selection from related Example Banks",
+        "url": "https://aclanthology.org/2025.naacl-long.17/",
+        "pdf_url": "https://aclanthology.org/2025.naacl-long.17.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2025
+      },
+      {
+        "title": "miCSE: Mutual Information Contrastive Learning for Low-shot Sentence Embeddings",
+        "url": "https://aclanthology.org/2023.acl-long.339/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.339.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Few-Shot Data-to-Text Generation via Unified Representation and Multi-Source Learning",
+        "url": "https://aclanthology.org/2023.acl-long.894/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.894.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "FLamE: Few-shot Learning from Natural Language Explanations",
+        "url": "https://aclanthology.org/2023.acl-long.372/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.372.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "A Coarse-to-Fine Prototype Learning Approach for Multi-Label Few-Shot Intent Detection",
+        "url": "https://aclanthology.org/2024.findings-emnlp.140/",
+        "pdf_url": "https://aclanthology.org/2024.findings-emnlp.140.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "SynthDetoxM: Modern LLMs are Few-Shot Parallel Detoxification Data Annotators",
+        "url": "https://aclanthology.org/2025.naacl-long.294/",
+        "pdf_url": "https://aclanthology.org/2025.naacl-long.294.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2025
+      },
+      {
+        "title": "2INER: Instructive and In-Context Learning on Few-Shot Named Entity Recognition",
+        "url": "https://openreview.net/forum?id=mrARDvuKi2",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "FastFit: Fast and Effective Few-Shot Text Classification with a Multitude of Classes",
+        "url": "https://aclanthology.org/2024.naacl-demo.18/",
+        "pdf_url": "https://aclanthology.org/2024.naacl-demo.18.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2024
+      },
+      {
+        "title": "Adversarial Robustness of Prompt-based Few-Shot Learning for Natural Language Understanding",
+        "url": "https://aclanthology.org/2023.findings-acl.138/",
+        "pdf_url": "https://aclanthology.org/2023.findings-acl.138.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Prospector: Improving LLM Agents with Self-Asking and Trajectory Ranking",
+        "url": "https://openreview.net/forum?id=YKK1jXEWja",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "AcademicEval: Live Long-Context LLM Benchmark",
+        "url": "https://openreview.net/forum?id=iRYExPKnxm",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "PromptNER : Prompting For FewShot Named Entity Recognition",
+        "url": "https://openreview.net/forum?id=WDQ9ZzsgDL",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Group Preference Optimization: Few-Shot Alignment of Large Language Models",
+        "url": "https://iclr.cc/virtual/2024/poster/19125",
+        "pdf_url": "https://openreview.net/pdf?id=DpFeMH4l8Q",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "SCALE: Synergized Collaboration of Asymmetric Language Translation Engines",
+        "url": "https://openreview.net/forum?id=yisfNWUEsD",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "FSTLLM: Spatio-Temporal LLM for Few Shot Time Series Forecasting",
+        "url": "https://icml.cc/virtual/2025/poster/44031",
+        "pdf_url": "https://openreview.net/pdf?id=oyoiHf51es",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning",
+        "url": "https://openreview.net/forum?id=V8sDJ1oMEy",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "PLHF: Prompt Learning from Few-shot Human Feedback",
+        "url": "https://openreview.net/forum?id=8U4NGFE0po",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Large Language Models Can Automatically Engineer Features for Few-Shot Tabular Learning",
+        "url": "https://icml.cc/virtual/2024/poster/33464",
+        "pdf_url": "https://openreview.net/pdf?id=fRG45xL1WT",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "What Makes In-context Learning Effective for Mathematical Reasoning",
+        "url": "https://icml.cc/virtual/2025/poster/43714",
+        "pdf_url": "https://openreview.net/pdf?id=upSPbQoViI",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "ProtoLLM: Training and Example-free LLMs for Few-shot Tabular Learning",
+        "url": "https://openreview.net/forum?id=kymuzakf7V",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Divide-Verify-Refine: Aligning LLM Responses with Complex Instructions",
+        "url": "https://openreview.net/forum?id=zfQA8y3n2o",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types",
+        "url": "https://neurips.cc/virtual/2024/poster/97610",
+        "pdf_url": "https://openreview.net/pdf?id=c4JE1gemWc",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "An Empirical Study on Enhancing LLMs' Alignment Capabilities through Restyled In-Context Learning Demonstration Examples",
+        "url": "https://openreview.net/forum?id=IHqlU2J5ia",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Tree-as-a-Prompt: Boosting Black-Box Large Language Models on Few-Shot Classification of Tabular Data",
+        "url": "https://openreview.net/forum?id=SJTSvRtGsN",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Distilling Transformers into Neural Nets for Few-Shot Tabular Classification",
+        "url": "https://openreview.net/forum?id=osnZzbnIWY",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Training-free LLM Verification via Recycling Few-shot Examples",
+        "url": "https://openreview.net/forum?id=2ng0VavPXv",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Pointing at Parts: Training-Free Few-Shot Grounding in Multimodal LLMs",
+        "url": "https://openreview.net/forum?id=kCIqoW70oG",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "SimFLi: Simple Few-Shot Linear Modeling for On-Device LLM Latency Profiling",
+        "url": "https://openreview.net/forum?id=iWfIzLcSif",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Evaluating LLM In-Context Few-Shot Learning on Legal Entity Annotation Task",
+        "url": "https://openreview.net/forum?id=QA4wj30Bhf",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "GNN-as-Judge: Unleashing the Power of LLMs for Graph Few-shot Semi-supervised Learning with GNN Feedback",
+        "url": "https://openreview.net/forum?id=nOlhDjNXKa",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Automatic Instance Selection with Genetic Updating for Few-shot LLM Jailbreak",
+        "url": "https://openreview.net/forum?id=B7oQWswV7y",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "GRAFTa: A Graph Attentional Few-Shot Audio Tagging Network",
+        "url": "https://openreview.net/forum?id=QWYNKkg8mN",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Adaptive Concept Discovery for Interpretable Few-Shot Text Classification",
+        "url": "https://openreview.net/forum?id=UZBQ7iZzYz",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Few-Shot Adversarial Low-Rank Fine-Tuning of Vision-Language Models",
+        "url": "https://openreview.net/forum?id=neG0h10Be5",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      }
+    ],
+    "by_source": {
+      "offline_emnlp": [
+        {
+          "title": "Few-shot clinical entity recognition in English, French and Spanish: masked language models outperform generative model prompting",
+          "url": "https://aclanthology.org/2024.findings-emnlp.400/",
+          "pdf_url": "https://aclanthology.org/2024.findings-emnlp.400.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Preserving Generalization of Language models in Few-shot Continual Relation Extraction",
+          "url": "https://aclanthology.org/2024.emnlp-main.763/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.763.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Multilingual Large Language Models Are Not (Yet) Code-Switchers",
+          "url": "https://openreview.net/forum?id=DgB01RzOqo",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        },
+        {
+          "title": "PivotFEC: Enhancing Few-shot Factual Error Correction with a Pivot Task Approach using Large Language Models",
+          "url": "https://openreview.net/forum?id=Nx9D21g1lW",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        },
+        {
+          "title": "The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning",
+          "url": "https://openreview.net/forum?id=D7omx8QyFP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        },
+        {
+          "title": "Context-Aware Adapter Tuning for Few-Shot Relation Learning in Knowledge Graphs",
+          "url": "https://aclanthology.org/2024.emnlp-main.970/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.970.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Analyzing Context Contributions in LLM-based Machine Translation",
+          "url": "https://aclanthology.org/2024.findings-emnlp.876/",
+          "pdf_url": "https://aclanthology.org/2024.findings-emnlp.876.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "PALM: Few-Shot Prompt Learning for Audio Language Models",
+          "url": "https://aclanthology.org/2024.emnlp-main.1030/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.1030.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "C-ICL: Contrastive In-context Learning for Information Extraction",
+          "url": "https://aclanthology.org/2024.findings-emnlp.590/",
+          "pdf_url": "https://aclanthology.org/2024.findings-emnlp.590.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "A Coarse-to-Fine Prototype Learning Approach for Multi-Label Few-Shot Intent Detection",
+          "url": "https://aclanthology.org/2024.findings-emnlp.140/",
+          "pdf_url": "https://aclanthology.org/2024.findings-emnlp.140.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "2INER: Instructive and In-Context Learning on Few-Shot Named Entity Recognition",
+          "url": "https://openreview.net/forum?id=mrARDvuKi2",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        }
+      ],
+      "offline_iclr": [
+        {
+          "title": "LLM-Informed Semi-Supervised Learning for Text Classification",
+          "url": "https://openreview.net/forum?id=Mu2tNzS0AM",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Small Visual Language Models can also be Open-Ended Few-Shot Learners",
+          "url": "https://openreview.net/forum?id=vg31nvdrzF",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Large Language Models are Demonstration Pre-Selectors for Themselves",
+          "url": "https://openreview.net/forum?id=diKRhKs5yl",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "IntentGPT: Few-Shot Intent Discovery with Large Language Models",
+          "url": "https://openreview.net/forum?id=2kvDzdC5rh",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "IntGrad MT: Enhancing LLMs' Machine Translation Capabilities with Sentence Interpolation Guided Gradual MT",
+          "url": "https://openreview.net/forum?id=SmxM4POTBk",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Context-Alignment: Activating and Enhancing LLMs Capabilities in Time Series",
+          "url": "https://iclr.cc/virtual/2025/poster/28084",
+          "pdf_url": "https://openreview.net/pdf?id=syC2764fPc",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Improving the Language Understanding Capabilities of Large Language Models Using Reinforcement Learning",
+          "url": "https://openreview.net/forum?id=ZK1NnjpjEs",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "CLEAR: Understanding the Reasoning Capabilities of Large Language Models",
+          "url": "https://openreview.net/forum?id=3LnTTHDWER",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Dissecting Zero-Shot Visual Reasoning Capabilities in Vision and Language Models",
+          "url": "https://openreview.net/forum?id=UndmcWatBN",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+          "url": "https://openreview.net/forum?id=QAwaaLJNCk",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Making Text Embedders Few-Shot Learners",
+          "url": "https://iclr.cc/virtual/2025/poster/27833",
+          "pdf_url": "https://openreview.net/pdf?id=wfLuiDjQ0u",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Model ensemble instead of prompt fusion: a sample-specific knowledge transfer method for few-shot prompt tuning",
+          "url": "https://iclr.cc/virtual/2023/poster/11794",
+          "pdf_url": "https://openreview.net/pdf?id=p0yrSRbN5Bu",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Conversational Few-Shot Prompting: Rethinking Few-Shot Prompting for Chat Language Model",
+          "url": "https://openreview.net/forum?id=ewRkjUX4SY",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Large Language Models are Human-Level Prompt Engineers",
+          "url": "https://iclr.cc/virtual/2023/poster/10850",
+          "pdf_url": "https://openreview.net/pdf?id=92gvk82DE-",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Internet-augmented language models through few-shot prompting for open-domain question answering",
+          "url": "https://openreview.net/forum?id=hFCUPkSSRE",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Few-shot Style-Conditioned LLM Text Generation via Latent Interpolation",
+          "url": "https://openreview.net/forum?id=kVcEiWtld9",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "LLM Distillation for Efficient Few-Shot Multiple Choice Question Answering",
+          "url": "https://openreview.net/forum?id=1TJSnL3ywS",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Prospector: Improving LLM Agents with Self-Asking and Trajectory Ranking",
+          "url": "https://openreview.net/forum?id=YKK1jXEWja",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "AcademicEval: Live Long-Context LLM Benchmark",
+          "url": "https://openreview.net/forum?id=iRYExPKnxm",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "PromptNER : Prompting For FewShot Named Entity Recognition",
+          "url": "https://openreview.net/forum?id=WDQ9ZzsgDL",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Group Preference Optimization: Few-Shot Alignment of Large Language Models",
+          "url": "https://iclr.cc/virtual/2024/poster/19125",
+          "pdf_url": "https://openreview.net/pdf?id=DpFeMH4l8Q",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "SCALE: Synergized Collaboration of Asymmetric Language Translation Engines",
+          "url": "https://openreview.net/forum?id=yisfNWUEsD",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "PLHF: Prompt Learning from Few-shot Human Feedback",
+          "url": "https://openreview.net/forum?id=8U4NGFE0po",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "ProtoLLM: Training and Example-free LLMs for Few-shot Tabular Learning",
+          "url": "https://openreview.net/forum?id=kymuzakf7V",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Divide-Verify-Refine: Aligning LLM Responses with Complex Instructions",
+          "url": "https://openreview.net/forum?id=zfQA8y3n2o",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "An Empirical Study on Enhancing LLMs' Alignment Capabilities through Restyled In-Context Learning Demonstration Examples",
+          "url": "https://openreview.net/forum?id=IHqlU2J5ia",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Tree-as-a-Prompt: Boosting Black-Box Large Language Models on Few-Shot Classification of Tabular Data",
+          "url": "https://openreview.net/forum?id=SJTSvRtGsN",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Distilling Transformers into Neural Nets for Few-Shot Tabular Classification",
+          "url": "https://openreview.net/forum?id=osnZzbnIWY",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Training-free LLM Verification via Recycling Few-shot Examples",
+          "url": "https://openreview.net/forum?id=2ng0VavPXv",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Pointing at Parts: Training-Free Few-Shot Grounding in Multimodal LLMs",
+          "url": "https://openreview.net/forum?id=kCIqoW70oG",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "SimFLi: Simple Few-Shot Linear Modeling for On-Device LLM Latency Profiling",
+          "url": "https://openreview.net/forum?id=iWfIzLcSif",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Evaluating LLM In-Context Few-Shot Learning on Legal Entity Annotation Task",
+          "url": "https://openreview.net/forum?id=QA4wj30Bhf",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "GNN-as-Judge: Unleashing the Power of LLMs for Graph Few-shot Semi-supervised Learning with GNN Feedback",
+          "url": "https://openreview.net/forum?id=nOlhDjNXKa",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Automatic Instance Selection with Genetic Updating for Few-shot LLM Jailbreak",
+          "url": "https://openreview.net/forum?id=B7oQWswV7y",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "GRAFTa: A Graph Attentional Few-Shot Audio Tagging Network",
+          "url": "https://openreview.net/forum?id=QWYNKkg8mN",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Adaptive Concept Discovery for Interpretable Few-Shot Text Classification",
+          "url": "https://openreview.net/forum?id=UZBQ7iZzYz",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Few-Shot Adversarial Low-Rank Fine-Tuning of Vision-Language Models",
+          "url": "https://openreview.net/forum?id=neG0h10Be5",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        }
+      ],
+      "offline_acl": [
+        {
+          "title": "Boosting Transformers and Language Models for Clinical Prediction in Immunotherapy",
+          "url": "https://aclanthology.org/2023.acl-industry.32/",
+          "pdf_url": "https://aclanthology.org/2023.acl-industry.32.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Making Pre-trained Language Models Better Learn Few-Shot Spoken Language Understanding in More Practical Scenarios",
+          "url": "https://aclanthology.org/2023.findings-acl.853/",
+          "pdf_url": "https://aclanthology.org/2023.findings-acl.853.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "CodeIE: Large Code Generation Models are Better Few-Shot Information Extractors",
+          "url": "https://aclanthology.org/2023.acl-long.855/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.855.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Prompt to be Consistent is Better than Self-Consistent? Few-Shot and Zero-Shot Fact Verification with Pre-trained Language Models",
+          "url": "https://aclanthology.org/2023.findings-acl.278/",
+          "pdf_url": "https://aclanthology.org/2023.findings-acl.278.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Large Language Models are Few-Shot Training Example Generators: A Case Study in Fallacy Recognition",
+          "url": "https://aclanthology.org/2024.findings-acl.732/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.732.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Language Models Get a Gender Makeover: Mitigating Gender Bias with Few-Shot Data Interventions",
+          "url": "https://aclanthology.org/2023.acl-short.30/",
+          "pdf_url": "https://aclanthology.org/2023.acl-short.30.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "DS2-ABSA: Dual-Stream Data Synthesis with Label Refinement for Few-Shot Aspect-Based Sentiment Analysis",
+          "url": "https://aclanthology.org/2025.acl-long.752/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.752.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Multitask Pre-training of Modular Prompt for Chinese Few-Shot Learning",
+          "url": "https://aclanthology.org/2023.acl-long.625/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.625.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "GRADUAL: Granularity-aware Dual Prototype Learning for Better Few-Shot Relation Extraction",
+          "url": "https://aclanthology.org/2024.findings-acl.805/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.805.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Consistent Prototype Learning for Few-Shot Continual Relation Extraction",
+          "url": "https://aclanthology.org/2023.acl-long.409/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.409.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "miCSE: Mutual Information Contrastive Learning for Low-shot Sentence Embeddings",
+          "url": "https://aclanthology.org/2023.acl-long.339/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.339.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Few-Shot Data-to-Text Generation via Unified Representation and Multi-Source Learning",
+          "url": "https://aclanthology.org/2023.acl-long.894/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.894.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "FLamE: Few-shot Learning from Natural Language Explanations",
+          "url": "https://aclanthology.org/2023.acl-long.372/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.372.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Adversarial Robustness of Prompt-based Few-Shot Learning for Natural Language Understanding",
+          "url": "https://aclanthology.org/2023.findings-acl.138/",
+          "pdf_url": "https://aclanthology.org/2023.findings-acl.138.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "The Representation Landscape of Few-Shot Learning and Fine-Tuning in Large Language Models",
+          "url": "https://neurips.cc/virtual/2024/poster/93666",
+          "pdf_url": "https://openreview.net/pdf?id=nmUkwoOHFO",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "UniAudio 1.5: Large Language Model-Driven Audio Codec is A Few-Shot Audio Task Learner",
+          "url": "https://neurips.cc/virtual/2024/poster/95454",
+          "pdf_url": "https://openreview.net/pdf?id=NGrINZyZKk",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Language Models Can Improve Event Prediction by Few-Shot Abductive Reasoning",
+          "url": "https://nips.cc/virtual/2023/poster/71194",
+          "pdf_url": "https://openreview.net/pdf?id=aW9BqtRQkh",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2023
+        },
+        {
+          "title": "What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks",
+          "url": "https://nips.cc/virtual/2023/poster/73716",
+          "pdf_url": "https://openreview.net/pdf?id=1ngbR3SZHW",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2023
+        },
+        {
+          "title": "Language Quantized AutoEncoders: Towards Unsupervised Text-Image Alignment",
+          "url": "https://nips.cc/virtual/2023/poster/70538",
+          "pdf_url": "https://openreview.net/pdf?id=mlxRLIy7kc",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2023
+        },
+        {
+          "title": "Optimization Inspired Few-Shot Adaptation for Large Language Models",
+          "url": "https://openreview.net/forum?id=rZ2nSt1X58",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "ChemEval: A Multi-level and Fine-grained Chemical Capability Evaluation for Large Language Models",
+          "url": "https://openreview.net/forum?id=dVb96Endxa",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning",
+          "url": "https://openreview.net/forum?id=V8sDJ1oMEy",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types",
+          "url": "https://neurips.cc/virtual/2024/poster/97610",
+          "pdf_url": "https://openreview.net/pdf?id=c4JE1gemWc",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        }
+      ],
+      "offline_cvpr": [
+        {
+          "title": "LLaFS: When Large Language Models Meet Few-Shot Segmentation",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/30546",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_LLaFS_When_Large_Language_Models_Meet_Few-Shot_Segmentation_CVPR_2024_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2024
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "Efficient Training of Language Models using Few-Shot Learning",
+          "url": "https://icml.cc/virtual/2023/poster/23961",
+          "pdf_url": "https://openreview.net/pdf?id=SpFIO5Mdso",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2023
+        },
+        {
+          "title": "FSTLLM: Spatio-Temporal LLM for Few Shot Time Series Forecasting",
+          "url": "https://icml.cc/virtual/2025/poster/44031",
+          "pdf_url": "https://openreview.net/pdf?id=oyoiHf51es",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Large Language Models Can Automatically Engineer Features for Few-Shot Tabular Learning",
+          "url": "https://icml.cc/virtual/2024/poster/33464",
+          "pdf_url": "https://openreview.net/pdf?id=fRG45xL1WT",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        },
+        {
+          "title": "What Makes In-context Learning Effective for Mathematical Reasoning",
+          "url": "https://icml.cc/virtual/2025/poster/43714",
+          "pdf_url": "https://openreview.net/pdf?id=upSPbQoViI",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        }
+      ],
+      "offline_naacl": [
+        {
+          "title": "BUFFET: Benchmarking Large Language Models for Few-shot Cross-lingual Transfer",
+          "url": "https://aclanthology.org/2024.naacl-long.100/",
+          "pdf_url": "https://aclanthology.org/2024.naacl-long.100.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2024
+        },
+        {
+          "title": "LLMs Are Few-Shot In-Context Low-Resource Language Learners",
+          "url": "https://aclanthology.org/2024.naacl-long.24/",
+          "pdf_url": "https://aclanthology.org/2024.naacl-long.24.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2024
+        },
+        {
+          "title": "Efficient Information Extraction in Few-Shot Relation Classification through Contrastive Representation Learning",
+          "url": "https://aclanthology.org/2024.naacl-short.54/",
+          "pdf_url": "https://aclanthology.org/2024.naacl-short.54.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2024
+        },
+        {
+          "title": "PromptRefine: Enhancing Few-Shot Performance on Low-Resource Indic Languages with Example Selection from related Example Banks",
+          "url": "https://aclanthology.org/2025.naacl-long.17/",
+          "pdf_url": "https://aclanthology.org/2025.naacl-long.17.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2025
+        },
+        {
+          "title": "SynthDetoxM: Modern LLMs are Few-Shot Parallel Detoxification Data Annotators",
+          "url": "https://aclanthology.org/2025.naacl-long.294/",
+          "pdf_url": "https://aclanthology.org/2025.naacl-long.294.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2025
+        },
+        {
+          "title": "FastFit: Fast and Effective Few-Shot Text Classification with a Multitude of Classes",
+          "url": "https://aclanthology.org/2024.naacl-demo.18/",
+          "pdf_url": "https://aclanthology.org/2024.naacl-demo.18.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2024
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Few-shot clinical entity recognition in English, French and Spanish: masked language models outperform generative model prompting",
+        "pdf": "https://aclanthology.org/2024.findings-emnlp.400.pdf"
+      },
+      {
+        "title": "Preserving Generalization of Language models in Few-shot Continual Relation Extraction",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.763.pdf"
+      },
+      {
+        "title": "Boosting Transformers and Language Models for Clinical Prediction in Immunotherapy",
+        "pdf": "https://aclanthology.org/2023.acl-industry.32.pdf"
+      },
+      {
+        "title": "Making Pre-trained Language Models Better Learn Few-Shot Spoken Language Understanding in More Practical Scenarios",
+        "pdf": "https://aclanthology.org/2023.findings-acl.853.pdf"
+      },
+      {
+        "title": "CodeIE: Large Code Generation Models are Better Few-Shot Information Extractors",
+        "pdf": "https://aclanthology.org/2023.acl-long.855.pdf"
+      },
+      {
+        "title": "Prompt to be Consistent is Better than Self-Consistent? Few-Shot and Zero-Shot Fact Verification with Pre-trained Language Models",
+        "pdf": "https://aclanthology.org/2023.findings-acl.278.pdf"
+      },
+      {
+        "title": "Large Language Models are Few-Shot Training Example Generators: A Case Study in Fallacy Recognition",
+        "pdf": "https://aclanthology.org/2024.findings-acl.732.pdf"
+      },
+      {
+        "title": "The Representation Landscape of Few-Shot Learning and Fine-Tuning in Large Language Models",
+        "pdf": "https://openreview.net/pdf?id=nmUkwoOHFO"
+      },
+      {
+        "title": "Language Models Get a Gender Makeover: Mitigating Gender Bias with Few-Shot Data Interventions",
+        "pdf": "https://aclanthology.org/2023.acl-short.30.pdf"
+      },
+      {
+        "title": "Context-Alignment: Activating and Enhancing LLMs Capabilities in Time Series",
+        "pdf": "https://openreview.net/pdf?id=syC2764fPc"
+      },
+      {
+        "title": "UniAudio 1.5: Large Language Model-Driven Audio Codec is A Few-Shot Audio Task Learner",
+        "pdf": "https://openreview.net/pdf?id=NGrINZyZKk"
+      },
+      {
+        "title": "Language Models Can Improve Event Prediction by Few-Shot Abductive Reasoning",
+        "pdf": "https://openreview.net/pdf?id=aW9BqtRQkh"
+      },
+      {
+        "title": "Making Text Embedders Few-Shot Learners",
+        "pdf": "https://openreview.net/pdf?id=wfLuiDjQ0u"
+      },
+      {
+        "title": "Model ensemble instead of prompt fusion: a sample-specific knowledge transfer method for few-shot prompt tuning",
+        "pdf": "https://openreview.net/pdf?id=p0yrSRbN5Bu"
+      },
+      {
+        "title": "What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks",
+        "pdf": "https://openreview.net/pdf?id=1ngbR3SZHW"
+      },
+      {
+        "title": "Language Quantized AutoEncoders: Towards Unsupervised Text-Image Alignment",
+        "pdf": "https://openreview.net/pdf?id=mlxRLIy7kc"
+      },
+      {
+        "title": "LLaFS: When Large Language Models Meet Few-Shot Segmentation",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_LLaFS_When_Large_Language_Models_Meet_Few-Shot_Segmentation_CVPR_2024_paper.pdf"
+      },
+      {
+        "title": "Large Language Models are Human-Level Prompt Engineers",
+        "pdf": "https://openreview.net/pdf?id=92gvk82DE-"
+      },
+      {
+        "title": "Efficient Training of Language Models using Few-Shot Learning",
+        "pdf": "https://openreview.net/pdf?id=SpFIO5Mdso"
+      },
+      {
+        "title": "Context-Aware Adapter Tuning for Few-Shot Relation Learning in Knowledge Graphs",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.970.pdf"
+      },
+      {
+        "title": "Analyzing Context Contributions in LLM-based Machine Translation",
+        "pdf": "https://aclanthology.org/2024.findings-emnlp.876.pdf"
+      },
+      {
+        "title": "PALM: Few-Shot Prompt Learning for Audio Language Models",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.1030.pdf"
+      },
+      {
+        "title": "DS2-ABSA: Dual-Stream Data Synthesis with Label Refinement for Few-Shot Aspect-Based Sentiment Analysis",
+        "pdf": "https://aclanthology.org/2025.acl-long.752.pdf"
+      },
+      {
+        "title": "BUFFET: Benchmarking Large Language Models for Few-shot Cross-lingual Transfer",
+        "pdf": "https://aclanthology.org/2024.naacl-long.100.pdf"
+      },
+      {
+        "title": "Multitask Pre-training of Modular Prompt for Chinese Few-Shot Learning",
+        "pdf": "https://aclanthology.org/2023.acl-long.625.pdf"
+      },
+      {
+        "title": "C-ICL: Contrastive In-context Learning for Information Extraction",
+        "pdf": "https://aclanthology.org/2024.findings-emnlp.590.pdf"
+      },
+      {
+        "title": "GRADUAL: Granularity-aware Dual Prototype Learning for Better Few-Shot Relation Extraction",
+        "pdf": "https://aclanthology.org/2024.findings-acl.805.pdf"
+      },
+      {
+        "title": "LLMs Are Few-Shot In-Context Low-Resource Language Learners",
+        "pdf": "https://aclanthology.org/2024.naacl-long.24.pdf"
+      },
+      {
+        "title": "Consistent Prototype Learning for Few-Shot Continual Relation Extraction",
+        "pdf": "https://aclanthology.org/2023.acl-long.409.pdf"
+      },
+      {
+        "title": "Efficient Information Extraction in Few-Shot Relation Classification through Contrastive Representation Learning",
+        "pdf": "https://aclanthology.org/2024.naacl-short.54.pdf"
+      },
+      {
+        "title": "PromptRefine: Enhancing Few-Shot Performance on Low-Resource Indic Languages with Example Selection from related Example Banks",
+        "pdf": "https://aclanthology.org/2025.naacl-long.17.pdf"
+      },
+      {
+        "title": "miCSE: Mutual Information Contrastive Learning for Low-shot Sentence Embeddings",
+        "pdf": "https://aclanthology.org/2023.acl-long.339.pdf"
+      },
+      {
+        "title": "Few-Shot Data-to-Text Generation via Unified Representation and Multi-Source Learning",
+        "pdf": "https://aclanthology.org/2023.acl-long.894.pdf"
+      },
+      {
+        "title": "FLamE: Few-shot Learning from Natural Language Explanations",
+        "pdf": "https://aclanthology.org/2023.acl-long.372.pdf"
+      },
+      {
+        "title": "A Coarse-to-Fine Prototype Learning Approach for Multi-Label Few-Shot Intent Detection",
+        "pdf": "https://aclanthology.org/2024.findings-emnlp.140.pdf"
+      },
+      {
+        "title": "SynthDetoxM: Modern LLMs are Few-Shot Parallel Detoxification Data Annotators",
+        "pdf": "https://aclanthology.org/2025.naacl-long.294.pdf"
+      },
+      {
+        "title": "FastFit: Fast and Effective Few-Shot Text Classification with a Multitude of Classes",
+        "pdf": "https://aclanthology.org/2024.naacl-demo.18.pdf"
+      },
+      {
+        "title": "Adversarial Robustness of Prompt-based Few-Shot Learning for Natural Language Understanding",
+        "pdf": "https://aclanthology.org/2023.findings-acl.138.pdf"
+      },
+      {
+        "title": "Group Preference Optimization: Few-Shot Alignment of Large Language Models",
+        "pdf": "https://openreview.net/pdf?id=DpFeMH4l8Q"
+      },
+      {
+        "title": "FSTLLM: Spatio-Temporal LLM for Few Shot Time Series Forecasting",
+        "pdf": "https://openreview.net/pdf?id=oyoiHf51es"
+      },
+      {
+        "title": "Large Language Models Can Automatically Engineer Features for Few-Shot Tabular Learning",
+        "pdf": "https://openreview.net/pdf?id=fRG45xL1WT"
+      },
+      {
+        "title": "What Makes In-context Learning Effective for Mathematical Reasoning",
+        "pdf": "https://openreview.net/pdf?id=upSPbQoViI"
+      },
+      {
+        "title": "SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types",
+        "pdf": "https://openreview.net/pdf?id=c4JE1gemWc"
+      }
+    ],
+    "dois_only": []
+  },
+  "metadata": {
+    "query": "few-shot learning in large language models",
+    "total_steps": 16,
+    "last_updated": "2026-01-03T02:08:02.314764",
+    "started_at": "2026-01-03T02:05:50.051003",
+    "total_papers": 82
+  }
+}

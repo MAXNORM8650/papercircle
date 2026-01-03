@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "market prediction LLMs",
+    "total_papers": 484,
+    "unique_sources": 13,
+    "year_range": {
+      "min": 2019,
+      "max": 2027
+    },
+    "citation_summary": {
+      "total": 8972,
+      "average": 58.3
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 287,
+    "papers_with_doi": 293,
+    "processing_steps": 15
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (1) are from 2027",
+      "data": {
+        "year": 2027,
+        "count": 1
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 182 papers (37%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 182
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Qianqian Xie has 7 papers in this collection",
+      "data": {
+        "author": "Qianqian Xie",
+        "count": 7
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"A Survey of Large Language Models...\" has 3806 citations",
+      "data": {
+        "title": "A Survey of Large Language Models",
+        "citations": 3806
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: language, models, large, financial, finance",
+      "data": {
+        "keywords": {
+          "language": 152,
+          "models": 147,
+          "large": 134,
+          "financial": 87,
+          "finance": 83
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "287/484 papers (59%) have direct PDF links",
+      "data": {
+        "with_pdf": 287,
+        "total": 484
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 484 papers related to 'market prediction LLMs'",
+    "Papers collected from 13 sources: offline_acl, offline_iclr, offline_aaai, offline_ijcai, offline_emnlp, offline_nips, offline_icml, offline_kdd, offline_icra, offline_www, openalex, arxiv, semantic_scholar",
+    "Publication years range from 2019 to 2027",
+    "Total citations: 8972, Average: 58",
+    "Leading researchers: Qianqian Xie, Min Peng, Jimin Huang"
+  ],
+  "metadata": {
+    "query": "market prediction LLMs",
+    "total_steps": 15,
+    "last_updated": "2026-01-03T16:59:19.867194",
+    "started_at": "2026-01-03T16:56:57.553259",
+    "total_papers": 484
+  },
+  "is_complete": true
+}

@@ -1,0 +1,84 @@
+{
+  "summary": {
+    "query": "few-shot learning in large language models",
+    "total_papers": 82,
+    "unique_sources": 7,
+    "year_range": {
+      "min": 2023,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 0,
+      "average": 0
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 43,
+    "papers_with_doi": 0,
+    "processing_steps": 16
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (10) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 10
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 37 papers (45%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 37
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Samuel Cahyawijaya has 2 papers in this collection",
+      "data": {
+        "author": "Samuel Cahyawijaya",
+        "count": 2
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: shot, language, models, learning, large",
+      "data": {
+        "keywords": {
+          "shot": 62,
+          "language": 41,
+          "models": 33,
+          "learning": 26,
+          "large": 19
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "43/82 papers (52%) have direct PDF links",
+      "data": {
+        "with_pdf": 43,
+        "total": 82
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 82 papers related to 'few-shot learning in large language models'",
+    "Papers collected from 7 sources: offline_emnlp, offline_iclr, offline_acl, offline_nips, offline_cvpr, offline_icml, offline_naacl",
+    "Publication years range from 2023 to 2026",
+    "Leading researchers: Samuel Cahyawijaya, Tianxiang Sun, Xuanjing Huang"
+  ],
+  "metadata": {
+    "query": "few-shot learning in large language models",
+    "total_steps": 16,
+    "last_updated": "2026-01-03T02:08:02.324301",
+    "started_at": "2026-01-03T02:05:50.051003",
+    "total_papers": 82
+  }
+}

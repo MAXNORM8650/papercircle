@@ -1,0 +1,147 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T16:51:26.960088",
+      "agent": "online_search_agent",
+      "action": "Online search: 'physics simulated diffusion models'",
+      "result_preview": "Found 137 papers",
+      "details": {
+        "query": "physics simulated diffusion models",
+        "sources": null,
+        "papers_found": 137,
+        "papers_added": 137,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 137
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T16:51:43.814445",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'physics simulated diffusion models'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "physics simulated diffusion models",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 48,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 185
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T16:51:50.605029",
+      "agent": "online_search_agent",
+      "action": "Online search: 'physics simulation diffusion models'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "physics simulation diffusion models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 19,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 204
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T16:52:12.845885",
+      "agent": "online_search_agent",
+      "action": "Online search: 'physics simulated diffusion models AND (physics simulation OR physical simulation)'",
+      "result_preview": "Found 129 papers",
+      "details": {
+        "query": "physics simulated diffusion models AND (physics simulation OR physical simulation)",
+        "sources": null,
+        "papers_found": 129,
+        "papers_added": 64,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 268
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T16:52:21.213209",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'physics simulated diffusion models AND (physics simulation OR physical simulation)'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "physics simulated diffusion models AND (physics simulation OR physical simulation)",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 36,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 304
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-03T16:52:24.635228",
+      "agent": "online_search_agent",
+      "action": "Online search: 'physics simulation AND diffusion models'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "physics simulation AND diffusion models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 2,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 306
+    }
+  ],
+  "current_step": 6,
+  "metadata": {
+    "query": "physics simulation AND diffusion models",
+    "total_steps": 6,
+    "last_updated": "2026-01-03T16:52:24.683087",
+    "started_at": "2026-01-03T16:50:55.369747",
+    "total_papers": 306
+  }
+}

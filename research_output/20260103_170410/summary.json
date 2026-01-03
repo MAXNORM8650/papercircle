@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "AI cardiac diagnosis",
+    "total_papers": 330,
+    "unique_sources": 19,
+    "year_range": {
+      "min": 1994,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 1390,
+      "average": 33.1
+    },
+    "top_source": "openalex",
+    "papers_with_pdf": 167,
+    "papers_with_doi": 140,
+    "processing_steps": 11
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (45) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 45
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "openalex contributes 55 papers (16%)",
+      "data": {
+        "source": "openalex",
+        "count": 55
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Robert D. Howe has 6 papers in this collection",
+      "data": {
+        "author": "Robert D. Howe",
+        "count": 6
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Heart Disease Prediction Using Machine Learning Algorithms...\" has 489 citations",
+      "data": {
+        "title": "Heart Disease Prediction Using Machine Learning Algorithms",
+        "citations": 489
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: learning, disease, heart, machine, prediction",
+      "data": {
+        "keywords": {
+          "learning": 159,
+          "disease": 124,
+          "heart": 94,
+          "machine": 68,
+          "prediction": 64
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "167/330 papers (50%) have direct PDF links",
+      "data": {
+        "with_pdf": 167,
+        "total": 330
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 330 papers related to 'AI cardiac diagnosis'",
+    "Papers collected from 19 sources: offline_ijcai, offline_eccv, offline_nips, offline_icml, offline_iclr, offline_aaai, offline_cvpr, offline_emnlp, offline_aistats, offline_wacv, offline_icra, offline_iccv, offline_iros, offline_acl, offline_uai, dblp, openalex, arxiv, semantic_scholar",
+    "Publication years range from 1994 to 2026",
+    "Total citations: 1390, Average: 33",
+    "Leading researchers: Robert D. Howe, Tingting Zhu, David A. Clifton"
+  ],
+  "metadata": {
+    "query": "AI cardiac diagnosis",
+    "total_steps": 11,
+    "last_updated": "2026-01-03T17:06:08.036990",
+    "started_at": "2026-01-03T17:04:10.460994",
+    "total_papers": 330
+  },
+  "is_complete": true
+}

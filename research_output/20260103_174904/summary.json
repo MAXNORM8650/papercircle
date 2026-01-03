@@ -1,0 +1,85 @@
+{
+  "summary": {
+    "query": "foundational papers on catastrophic forgetting",
+    "total_papers": 108,
+    "unique_sources": 5,
+    "year_range": {
+      "min": 2013,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 0,
+      "average": 0
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 64,
+    "papers_with_doi": 0,
+    "processing_steps": 3
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (4) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 4
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 54 papers (50%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 54
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Hippolyt Ritter has 3 papers in this collection",
+      "data": {
+        "author": "Hippolyt Ritter",
+        "count": 3
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: learning, forgetting, catastrophic, continual, overcoming",
+      "data": {
+        "keywords": {
+          "learning": 48,
+          "forgetting": 41,
+          "catastrophic": 38,
+          "continual": 31,
+          "overcoming": 11
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "64/108 papers (59%) have direct PDF links",
+      "data": {
+        "with_pdf": 64,
+        "total": 108
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 108 papers related to 'foundational papers on catastrophic forgetting'",
+    "Papers collected from 5 sources: offline_iclr, offline_icml, offline_nips, offline_cvpr, arxiv",
+    "Publication years range from 2013 to 2026",
+    "Leading researchers: Hippolyt Ritter, David Barber, Vinay Venkatesh Ramasesh"
+  ],
+  "metadata": {
+    "query": "foundational papers on catastrophic forgetting",
+    "total_steps": 3,
+    "last_updated": "2026-01-03T17:50:31.716225",
+    "started_at": "2026-01-03T17:49:04.938899",
+    "total_papers": 108
+  },
+  "is_complete": true
+}

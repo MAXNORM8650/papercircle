@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "world model evaluation benchmark",
+    "total_papers": 10,
+    "unique_sources": 1,
+    "year_range": {
+      "min": 2021,
+      "max": 2024
+    },
+    "citation_summary": {
+      "total": 4159,
+      "average": 415.9
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 6,
+    "papers_with_doi": 9,
+    "processing_steps": 6
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (3) are from 2024",
+      "data": {
+        "year": 2024,
+        "count": 3
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 10 papers (100%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 10
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Yiran Qin has 1 papers in this collection",
+      "data": {
+        "author": "Yiran Qin",
+        "count": 1
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"SWE-bench: Can Language Models Resolve Real-World GitHub Issues?...\" has 1247 citations",
+      "data": {
+        "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+        "citations": 1247
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: world, model, evaluation, language, models",
+      "data": {
+        "keywords": {
+          "world": 5,
+          "model": 5,
+          "evaluation": 4,
+          "language": 4,
+          "models": 3
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "6/10 papers (60%) have direct PDF links",
+      "data": {
+        "with_pdf": 6,
+        "total": 10
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 10 papers related to 'world model evaluation benchmark'",
+    "Papers collected from 1 sources: semantic_scholar",
+    "Publication years range from 2021 to 2024",
+    "Total citations: 4159, Average: 415",
+    "Leading researchers: Yiran Qin, Zhelun Shi, Jiwen Yu"
+  ],
+  "metadata": {
+    "query": "world model evaluation benchmark",
+    "total_steps": 6,
+    "last_updated": "2026-01-03T16:35:33.681581",
+    "started_at": "2026-01-03T16:34:51.174825",
+    "total_papers": 10
+  },
+  "is_complete": true
+}

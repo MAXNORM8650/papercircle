@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "world models generation evaluation",
+    "total_papers": 251,
+    "unique_sources": 7,
+    "year_range": {
+      "min": 2015,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 6825,
+      "average": 133.8
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 159,
+    "papers_with_doi": 107,
+    "processing_steps": 7
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (38) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 38
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 66 papers (26%)",
+      "data": {
+        "source": "arxiv",
+        "count": 66
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Wenzhao Zheng has 4 papers in this collection",
+      "data": {
+        "author": "Wenzhao Zheng",
+        "count": 4
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Holistic Evaluation of Language Models...\" has 1278 citations",
+      "data": {
+        "title": "Holistic Evaluation of Language Models",
+        "citations": 1278
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: world, models, generation, evaluation, language",
+      "data": {
+        "keywords": {
+          "world": 93,
+          "models": 66,
+          "generation": 59,
+          "evaluation": 44,
+          "language": 34
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "159/251 papers (63%) have direct PDF links",
+      "data": {
+        "with_pdf": 159,
+        "total": 251
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 251 papers related to 'world models generation evaluation'",
+    "Papers collected from 7 sources: openalex, offline_iclr, semantic_scholar, offline_nips, offline_icml, offline_cvpr, arxiv",
+    "Publication years range from 2015 to 2026",
+    "Total citations: 6825, Average: 133",
+    "Leading researchers: Wenzhao Zheng, Jie Zhou, Jiwen Lu"
+  ],
+  "metadata": {
+    "query": "world models generation evaluation",
+    "total_steps": 7,
+    "last_updated": "2026-01-03T16:45:29.375213",
+    "started_at": "2026-01-03T16:44:23.119519",
+    "total_papers": 251
+  },
+  "is_complete": true
+}

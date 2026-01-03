@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10">
+    <title>Research Dashboard: motion generation</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 20px; }
+        .container { max-width: 1600px; margin: 0 auto; }
+        header { text-align: center; padding: 20px; margin-bottom: 30px; }
+        header h1 { font-size: 2em; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .meta { color: #94a3b8; margin-top: 10px; font-size: 0.9em; }
+        .grid { display: grid; gap: 20px; }
+        .grid-4 { grid-template-columns: repeat(4, 1fr); }
+        .grid-2 { grid-template-columns: repeat(2, 1fr); }
+        .grid-3 { grid-template-columns: repeat(3, 1fr); }
+        .card { background: #1e293b; border-radius: 12px; padding: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        .stat-card { text-align: center; }
+        .stat-card .value { font-size: 2.5em; font-weight: bold; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .stat-card .label { color: #94a3b8; margin-top: 5px; }
+        .card h3 { color: #f1f5f9; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+        .step-log { max-height: 300px; overflow-y: auto; }
+        .step { padding: 10px; border-left: 3px solid #667eea; margin: 10px 0; background: #0f172a; border-radius: 0 8px 8px 0; }
+        .step .agent { color: #667eea; font-weight: bold; }
+        .step .time { color: #64748b; font-size: 0.8em; }
+        .leaderboard { max-height: 400px; overflow-y: auto; }
+        .leaderboard table { width: 100%; border-collapse: collapse; }
+        .leaderboard th { text-align: left; padding: 10px; color: #94a3b8; border-bottom: 1px solid #334155; position: sticky; top: 0; background: #1e293b; }
+        .leaderboard td { padding: 10px; border-bottom: 1px solid #334155; }
+        .leaderboard tr:hover { background: #334155; }
+        .rank { color: #fbbf24; font-weight: bold; }
+        .score { color: #34d399; }
+        .insights { display: grid; gap: 15px; }
+        .insight { padding: 15px; background: #0f172a; border-radius: 8px; border-left: 4px solid #667eea; }
+        .insight.trend { border-color: #34d399; }
+        .insight.citation { border-color: #fbbf24; }
+        .insight.author { border-color: #f472b6; }
+        .insight h4 { color: #f1f5f9; margin-bottom: 5px; }
+        .insight p { color: #94a3b8; }
+        .keywords { display: flex; flex-wrap: wrap; gap: 10px; }
+        .keyword { padding: 5px 12px; background: linear-gradient(135deg, #667eea33, #764ba233); border: 1px solid #667eea55; border-radius: 20px; font-size: 0.9em; }
+        .files { display: grid; gap: 10px; }
+        .file { display: flex; align-items: center; gap: 10px; padding: 10px; background: #0f172a; border-radius: 8px; }
+        .file-icon { font-size: 1.5em; }
+        .file-name { color: #f1f5f9; }
+        .file-size { color: #64748b; font-size: 0.8em; }
+        @media (max-width: 1200px) { .grid-4 { grid-template-columns: repeat(2, 1fr); } .grid-3 { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) { .grid-4, .grid-2 { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Research Dashboard</h1>
+            <div class="meta">
+                Query: <strong>motion generation</strong> | 
+                Step: <strong>5</strong> | 
+                Last Updated: <strong>2026-01-03 18:42:23</strong>
+                <br>Auto-refreshes every 10 seconds
+            </div>
+        </header>
+        
+        <div class="grid grid-4" style="margin-bottom: 20px;">
+            <div class="card stat-card">
+                <div class="value">302</div>
+                <div class="label">Total Papers</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">14</div>
+                <div class="label">Sources</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">3679</div>
+                <div class="label">Total Citations</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">5</div>
+                <div class="label">Processing Steps</div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>📈 Publications Over Time</h3>
+                <canvas id="timelineChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>📊 Papers by Source</h3>
+                <canvas id="sourceChart"></canvas>
+            </div>
+        </div>
+        
+        <div class="grid grid-3" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>🏆 Paper Leaderboard</h3>
+                <div class="leaderboard">
+                    <table>
+                        <thead>
+                            <tr><th>#</th><th>Title</th><th>Year</th><th>Score</th><th>Cites</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="rank">1</td>
+                                <td>MotionDiffuse: Text-Driven Human Motion Generation With Diffusion Model...</td>
+                                <td>2022</td>
+                                <td class="score">0.00</td>
+                                <td>792</td>
+                            </tr><tr>
+                                <td class="rank">2</td>
+                                <td>MotionCLIP: Exposing Human Motion Generation to CLIP Space...</td>
+                                <td>2022</td>
+                                <td class="score">0.00</td>
+                                <td>457</td>
+                            </tr><tr>
+                                <td class="rank">3</td>
+                                <td>OmniControl: Control Any Joint at Any Time for Human Motion Generation...</td>
+                                <td>2023</td>
+                                <td class="score">0.00</td>
+                                <td>188</td>
+                            </tr><tr>
+                                <td class="rank">4</td>
+                                <td>InterGen: Diffusion-Based Multi-human Motion Generation Under Complex Interactions...</td>
+                                <td>2023</td>
+                                <td class="score">0.00</td>
+                                <td>180</td>
+                            </tr><tr>
+                                <td class="rank">5</td>
+                                <td>HUMANISE: Language-conditioned Human Motion Generation in 3D Scenes...</td>
+                                <td>2022</td>
+                                <td class="score">0.00</td>
+                                <td>164</td>
+                            </tr><tr>
+                                <td class="rank">6</td>
+                                <td>CuRobo: Parallelized Collision-Free Robot Motion Generation...</td>
+                                <td>2023</td>
+                                <td class="score">0.00</td>
+                                <td>123</td>
+                            </tr><tr>
+                                <td class="rank">7</td>
+                                <td>Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>105</td>
+                            </tr><tr>
+                                <td class="rank">8</td>
+                                <td>Human Motion Generation: A Survey</td>
+                                <td>2023</td>
+                                <td class="score">0.00</td>
+                                <td>103</td>
+                            </tr><tr>
+                                <td class="rank">9</td>
+                                <td>AttT2M: Text-Driven Human Motion Generation with Multi-Perspective Attention Mechanism...</td>
+                                <td>2023</td>
+                                <td class="score">0.00</td>
+                                <td>96</td>
+                            </tr><tr>
+                                <td class="rank">10</td>
+                                <td>Fg-T2M: Fine-Grained Text-Driven Human Motion Generation via Diffusion Model...</td>
+                                <td>2023</td>
+                                <td class="score">0.00</td>
+                                <td>82</td>
+                            </tr><tr>
+                                <td class="rank">11</td>
+                                <td>Move as you Say, Interact as you can: Language-Guided Human Motion Generation with Scene Affordance...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>77</td>
+                            </tr><tr>
+                                <td class="rank">12</td>
+                                <td>EMDM: Efficient Motion Diffusion Model for Fast, High-Quality Motion Generation...</td>
+                                <td>2023</td>
+                                <td class="score">0.00</td>
+                                <td>76</td>
+                            </tr><tr>
+                                <td class="rank">13</td>
+                                <td>Multi-Track Timeline Control for Text-Driven 3D Human Motion Generation...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>68</td>
+                            </tr><tr>
+                                <td class="rank">14</td>
+                                <td>Priority-Centric Human Motion Generation in Discrete Latent Space...</td>
+                                <td>2023</td>
+                                <td class="score">0.00</td>
+                                <td>68</td>
+                            </tr><tr>
+                                <td class="rank">15</td>
+                                <td>CuRobo: Parallelized Collision-Free Minimum-Jerk Robot Motion Generation...</td>
+                                <td>2023</td>
+                                <td class="score">0.00</td>
+                                <td>65</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>💡 Insights</h3>
+                <div class="insights">
+                    <div class="insight trend">
+                        <h4>Publication Trend</h4>
+                        <p>Most papers (13) are from 2026</p>
+                    </div><div class="insight source">
+                        <h4>Primary Source</h4>
+                        <p>arxiv contributes 100 papers (33%)</p>
+                    </div><div class="insight author">
+                        <h4>Prolific Author</h4>
+                        <p>Zeyu Zhang has 5 papers in this collection</p>
+                    </div><div class="insight citation">
+                        <h4>Most Cited Paper</h4>
+                        <p>"MotionDiffuse: Text-Driven Human Motion Generation With Diffusion Model..." has 792 citations</p>
+                    </div><div class="insight keywords">
+                        <h4>Hot Topics</h4>
+                        <p>Top keywords: motion, generation, human, diffusion, text</p>
+                    </div><div class="insight availability">
+                        <h4>Open Access</h4>
+                        <p>182/302 papers (60%) have direct PDF links</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📝 Step Log</h3>
+                <div class="step-log">
+                    <div class="step">
+                        <span class="agent">sorting_agent</span>: Sorted 302 papers by 'citations'
+                        <div class="time">Step 5 - 18:42:23</div>
+                    </div><div class="step">
+                        <span class="agent">sorting_agent</span>: Sorted 302 papers by 'recency'
+                        <div class="time">Step 4 - 18:42:22</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'motion generation'
+                        <div class="time">Step 3 - 18:42:07</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'motion generation'
+                        <div class="time">Step 2 - 18:42:00</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'motion generation'
+                        <div class="time">Step 1 - 18:41:45</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <h3>🏷️ Top Keywords</h3>
+                <div class="keywords">
+                    <span class="keyword" style="font-size: 1.4em">motion (219)</span><span class="keyword" style="font-size: 1.4em">generation (175)</span><span class="keyword" style="font-size: 1.4em">human (56)</span><span class="keyword" style="font-size: 1.4em">diffusion (32)</span><span class="keyword" style="font-size: 1.4em">text (31)</span><span class="keyword" style="font-size: 1.4em">model (26)</span><span class="keyword" style="font-size: 1.4em">multi (25)</span><span class="keyword" style="font-size: 1.4em">video (25)</span><span class="keyword" style="font-size: 1.4em">driven (18)</span><span class="keyword" style="font-size: 1.4em">aware (16)</span><span class="keyword" style="font-size: 1.4em">control (14)</span><span class="keyword" style="font-size: 1.4em">framework (14)</span><span class="keyword" style="font-size: 1.4em">language (13)</span><span class="keyword" style="font-size: 1.4em">models (13)</span><span class="keyword" style="font-size: 1.4em">free (12)</span><span class="keyword" style="font-size: 1.4em">time (11)</span><span class="keyword" style="font-size: 1.4em">guided (11)</span><span class="keyword" style="font-size: 1.4em">editing (11)</span><span class="keyword" style="font-size: 1.4em">learning (11)</span><span class="keyword" style="font-size: 1.4em">unified (11)</span><span class="keyword" style="font-size: 1.4em">systems (10)</span><span class="keyword" style="font-size: 1.4em">space (9)</span><span class="keyword" style="font-size: 1.4em">latent (9)</span><span class="keyword" style="font-size: 1.4em">towards (9)</span><span class="keyword" style="font-size: 1.4em">controllable (9)</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📁 Output Files</h3>
+                <div class="files">
+                    <div class="file"><span class="file-icon">📄</span><span class="file-name">papers.json</span><span class="file-size">Full paper data</span></div>
+                    <div class="file"><span class="file-icon">🔗</span><span class="file-name">links.json</span><span class="file-size">Structured links</span></div>
+                    <div class="file"><span class="file-icon">📊</span><span class="file-name">stats.json</span><span class="file-size">Statistics</span></div>
+                    <div class="file"><span class="file-icon">💡</span><span class="file-name">summary.json</span><span class="file-size">Insights</span></div>
+                    <div class="file"><span class="file-icon">📑</span><span class="file-name">papers.csv</span><span class="file-size">Spreadsheet</span></div>
+                    <div class="file"><span class="file-icon">📚</span><span class="file-name">papers.bib</span><span class="file-size">BibTeX</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        new Chart(document.getElementById('timelineChart'), {
+            type: 'bar',
+            data: {
+                labels: [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+                datasets: [{ label: 'Papers', data: [1, 1, 3, 28, 66, 190, 13], backgroundColor: 'rgba(102, 126, 234, 0.8)', borderRadius: 5 }]
+            },
+            options: { responsive: true, plugins: { legend: { display: false } } }
+        });
+        
+        new Chart(document.getElementById('sourceChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['semantic_scholar', 'offline_iclr', 'dblp', 'openalex', 'offline_nips', 'offline_siggraph', 'offline_iccv', 'offline_cvpr', 'offline_wacv', 'offline_icml', 'offline_aaai', 'arxiv', 'offline_eccv', 'offline_acmmm'],
+                datasets: [{ data: [78, 10, 42, 38, 7, 8, 5, 2, 3, 1, 1, 100, 4, 3], backgroundColor: ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#00f2fe'] }]
+            },
+            options: { responsive: true }
+        });
+    </script>
+</body>
+</html>

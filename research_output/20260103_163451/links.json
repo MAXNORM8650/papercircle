@@ -1,0 +1,241 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "WorldSimBench: Towards Video Generation Models as World Simulators",
+        "url": "https://www.semanticscholar.org/paper/bc2ddba47a9d6b378abd8a8584849f3e4c410f24",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2410.18072",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Spanish Pre-trained BERT Model and Evaluation Data",
+        "url": "https://www.semanticscholar.org/paper/79926aa63d4daee6af06a8e9a7c2480b31cb7ed9",
+        "pdf_url": "https://arxiv.org/pdf/2308.02976",
+        "doi_url": "https://doi.org/10.48550/arXiv.2308.02976",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+        "url": "https://www.semanticscholar.org/paper/94a5f96308729e31c1ffbc0f0618db87795092fe",
+        "pdf_url": "https://arxiv.org/pdf/2310.06770",
+        "doi_url": "https://doi.org/10.48550/arXiv.2310.06770",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark",
+        "url": "https://www.semanticscholar.org/paper/881ebd6d94065e5157f2290009b147b87eaf4ec9",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2409.02813",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "LVLM-EHub: A Comprehensive Evaluation Benchmark for Large Vision-Language Models",
+        "url": "https://www.semanticscholar.org/paper/a8d02ff6d075c3cc48f0b97801cc52765c8f9ac9",
+        "pdf_url": "https://doi.org/10.1109/tpami.2024.3507000",
+        "doi_url": "https://doi.org/10.1109/TPAMI.2024.3507000",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Driving Into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving",
+        "url": "https://www.semanticscholar.org/paper/db2aae1bd6e71e7c23716d0eb50d12aa72a0f0f2",
+        "pdf_url": "http://arxiv.org/pdf/2311.17918",
+        "doi_url": "https://doi.org/10.1109/CVPR52733.2024.01397",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "CBLUE: A Chinese Biomedical Language Understanding Evaluation Benchmark",
+        "url": "https://www.semanticscholar.org/paper/cb2a38002e2f346b084e7dd6c9fcf2bb45de5a9e",
+        "pdf_url": "https://aclanthology.org/2022.acl-long.544.pdf",
+        "doi_url": "https://doi.org/10.18653/v1/2022.acl-long.544",
+        "source": "semantic_scholar",
+        "year": 2021
+      },
+      {
+        "title": "Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue",
+        "url": "https://www.semanticscholar.org/paper/a50d4fd8f584276c0fd8560255884edd57aa926e",
+        "pdf_url": "https://arxiv.org/pdf/2308.03549",
+        "doi_url": "https://doi.org/10.48550/arXiv.2308.03549",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "How Far is Video Generation from World Model: A Physical Law Perspective",
+        "url": "https://www.semanticscholar.org/paper/7a0f9a591fbb8b224e385351256b61c7a54be8f9",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2411.02385",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "OpenXAI: Towards a Transparent Evaluation of Model Explanations",
+        "url": "https://www.semanticscholar.org/paper/868e35374cb9c0fc6e4cfb17f96835aefcf520cc",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2022
+      }
+    ],
+    "by_source": {
+      "semantic_scholar": [
+        {
+          "title": "WorldSimBench: Towards Video Generation Models as World Simulators",
+          "url": "https://www.semanticscholar.org/paper/bc2ddba47a9d6b378abd8a8584849f3e4c410f24",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2410.18072",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Spanish Pre-trained BERT Model and Evaluation Data",
+          "url": "https://www.semanticscholar.org/paper/79926aa63d4daee6af06a8e9a7c2480b31cb7ed9",
+          "pdf_url": "https://arxiv.org/pdf/2308.02976",
+          "doi_url": "https://doi.org/10.48550/arXiv.2308.02976",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+          "url": "https://www.semanticscholar.org/paper/94a5f96308729e31c1ffbc0f0618db87795092fe",
+          "pdf_url": "https://arxiv.org/pdf/2310.06770",
+          "doi_url": "https://doi.org/10.48550/arXiv.2310.06770",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark",
+          "url": "https://www.semanticscholar.org/paper/881ebd6d94065e5157f2290009b147b87eaf4ec9",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2409.02813",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "LVLM-EHub: A Comprehensive Evaluation Benchmark for Large Vision-Language Models",
+          "url": "https://www.semanticscholar.org/paper/a8d02ff6d075c3cc48f0b97801cc52765c8f9ac9",
+          "pdf_url": "https://doi.org/10.1109/tpami.2024.3507000",
+          "doi_url": "https://doi.org/10.1109/TPAMI.2024.3507000",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Driving Into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving",
+          "url": "https://www.semanticscholar.org/paper/db2aae1bd6e71e7c23716d0eb50d12aa72a0f0f2",
+          "pdf_url": "http://arxiv.org/pdf/2311.17918",
+          "doi_url": "https://doi.org/10.1109/CVPR52733.2024.01397",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "CBLUE: A Chinese Biomedical Language Understanding Evaluation Benchmark",
+          "url": "https://www.semanticscholar.org/paper/cb2a38002e2f346b084e7dd6c9fcf2bb45de5a9e",
+          "pdf_url": "https://aclanthology.org/2022.acl-long.544.pdf",
+          "doi_url": "https://doi.org/10.18653/v1/2022.acl-long.544",
+          "source": "semantic_scholar",
+          "year": 2021
+        },
+        {
+          "title": "Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue",
+          "url": "https://www.semanticscholar.org/paper/a50d4fd8f584276c0fd8560255884edd57aa926e",
+          "pdf_url": "https://arxiv.org/pdf/2308.03549",
+          "doi_url": "https://doi.org/10.48550/arXiv.2308.03549",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "How Far is Video Generation from World Model: A Physical Law Perspective",
+          "url": "https://www.semanticscholar.org/paper/7a0f9a591fbb8b224e385351256b61c7a54be8f9",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2411.02385",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "OpenXAI: Towards a Transparent Evaluation of Model Explanations",
+          "url": "https://www.semanticscholar.org/paper/868e35374cb9c0fc6e4cfb17f96835aefcf520cc",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2022
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Spanish Pre-trained BERT Model and Evaluation Data",
+        "pdf": "https://arxiv.org/pdf/2308.02976"
+      },
+      {
+        "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+        "pdf": "https://arxiv.org/pdf/2310.06770"
+      },
+      {
+        "title": "LVLM-EHub: A Comprehensive Evaluation Benchmark for Large Vision-Language Models",
+        "pdf": "https://doi.org/10.1109/tpami.2024.3507000"
+      },
+      {
+        "title": "Driving Into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving",
+        "pdf": "http://arxiv.org/pdf/2311.17918"
+      },
+      {
+        "title": "CBLUE: A Chinese Biomedical Language Understanding Evaluation Benchmark",
+        "pdf": "https://aclanthology.org/2022.acl-long.544.pdf"
+      },
+      {
+        "title": "Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue",
+        "pdf": "https://arxiv.org/pdf/2308.03549"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "WorldSimBench: Towards Video Generation Models as World Simulators",
+        "doi": "https://doi.org/10.48550/arXiv.2410.18072"
+      },
+      {
+        "title": "Spanish Pre-trained BERT Model and Evaluation Data",
+        "doi": "https://doi.org/10.48550/arXiv.2308.02976"
+      },
+      {
+        "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+        "doi": "https://doi.org/10.48550/arXiv.2310.06770"
+      },
+      {
+        "title": "MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark",
+        "doi": "https://doi.org/10.48550/arXiv.2409.02813"
+      },
+      {
+        "title": "LVLM-EHub: A Comprehensive Evaluation Benchmark for Large Vision-Language Models",
+        "doi": "https://doi.org/10.1109/TPAMI.2024.3507000"
+      },
+      {
+        "title": "Driving Into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving",
+        "doi": "https://doi.org/10.1109/CVPR52733.2024.01397"
+      },
+      {
+        "title": "CBLUE: A Chinese Biomedical Language Understanding Evaluation Benchmark",
+        "doi": "https://doi.org/10.18653/v1/2022.acl-long.544"
+      },
+      {
+        "title": "Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue",
+        "doi": "https://doi.org/10.48550/arXiv.2308.03549"
+      },
+      {
+        "title": "How Far is Video Generation from World Model: A Physical Law Perspective",
+        "doi": "https://doi.org/10.48550/arXiv.2411.02385"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "world model evaluation benchmark",
+    "total_steps": 6,
+    "last_updated": "2026-01-03T16:35:33.674901",
+    "started_at": "2026-01-03T16:34:51.174825",
+    "total_papers": 10
+  }
+}

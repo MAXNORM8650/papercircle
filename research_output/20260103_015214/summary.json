@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "open source AI coding agents",
+    "total_papers": 173,
+    "unique_sources": 12,
+    "year_range": {
+      "min": 2021,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 1711,
+      "average": 46.2
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 101,
+    "papers_with_doi": 67,
+    "processing_steps": 17
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (19) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 19
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 50 papers (28%)",
+      "data": {
+        "source": "arxiv",
+        "count": 50
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Hao Li has 3 papers in this collection",
+      "data": {
+        "author": "Hao Li",
+        "count": 3
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"DeepSeek LLM: Scaling Open-Source Language Models with Longtermism...\" has 595 citations",
+      "data": {
+        "title": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+        "citations": 595
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: open, agents, source, coding, agent",
+      "data": {
+        "keywords": {
+          "open": 58,
+          "agents": 46,
+          "source": 44,
+          "coding": 29,
+          "agent": 18
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "101/173 papers (58%) have direct PDF links",
+      "data": {
+        "with_pdf": 101,
+        "total": 173
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 173 papers related to 'open source AI coding agents'",
+    "Papers collected from 12 sources: offline_iclr, offline_nips, offline_emnlp, offline_acl, offline_naacl, offline_icml, offline_cvpr, offline_aaai, offline_ijcai, semantic_scholar, openalex, arxiv",
+    "Publication years range from 2021 to 2026",
+    "Total citations: 1711, Average: 46",
+    "Leading researchers: Hao Li, Ahmed E. Hassan, Shuo Li"
+  ],
+  "metadata": {
+    "query": "open source AI coding agents",
+    "total_steps": 17,
+    "last_updated": "2026-01-03T01:54:10.211671",
+    "started_at": "2026-01-03T01:52:16.852862",
+    "total_papers": 173
+  }
+}

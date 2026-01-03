@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10">
+    <title>Research Dashboard: market prediction LLMs</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 20px; }
+        .container { max-width: 1600px; margin: 0 auto; }
+        header { text-align: center; padding: 20px; margin-bottom: 30px; }
+        header h1 { font-size: 2em; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .meta { color: #94a3b8; margin-top: 10px; font-size: 0.9em; }
+        .grid { display: grid; gap: 20px; }
+        .grid-4 { grid-template-columns: repeat(4, 1fr); }
+        .grid-2 { grid-template-columns: repeat(2, 1fr); }
+        .grid-3 { grid-template-columns: repeat(3, 1fr); }
+        .card { background: #1e293b; border-radius: 12px; padding: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        .stat-card { text-align: center; }
+        .stat-card .value { font-size: 2.5em; font-weight: bold; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .stat-card .label { color: #94a3b8; margin-top: 5px; }
+        .card h3 { color: #f1f5f9; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+        .step-log { max-height: 300px; overflow-y: auto; }
+        .step { padding: 10px; border-left: 3px solid #667eea; margin: 10px 0; background: #0f172a; border-radius: 0 8px 8px 0; }
+        .step .agent { color: #667eea; font-weight: bold; }
+        .step .time { color: #64748b; font-size: 0.8em; }
+        .leaderboard { max-height: 400px; overflow-y: auto; }
+        .leaderboard table { width: 100%; border-collapse: collapse; }
+        .leaderboard th { text-align: left; padding: 10px; color: #94a3b8; border-bottom: 1px solid #334155; position: sticky; top: 0; background: #1e293b; }
+        .leaderboard td { padding: 10px; border-bottom: 1px solid #334155; }
+        .leaderboard tr:hover { background: #334155; }
+        .rank { color: #fbbf24; font-weight: bold; }
+        .score { color: #34d399; }
+        .insights { display: grid; gap: 15px; }
+        .insight { padding: 15px; background: #0f172a; border-radius: 8px; border-left: 4px solid #667eea; }
+        .insight.trend { border-color: #34d399; }
+        .insight.citation { border-color: #fbbf24; }
+        .insight.author { border-color: #f472b6; }
+        .insight h4 { color: #f1f5f9; margin-bottom: 5px; }
+        .insight p { color: #94a3b8; }
+        .keywords { display: flex; flex-wrap: wrap; gap: 10px; }
+        .keyword { padding: 5px 12px; background: linear-gradient(135deg, #667eea33, #764ba233); border: 1px solid #667eea55; border-radius: 20px; font-size: 0.9em; }
+        .files { display: grid; gap: 10px; }
+        .file { display: flex; align-items: center; gap: 10px; padding: 10px; background: #0f172a; border-radius: 8px; }
+        .file-icon { font-size: 1.5em; }
+        .file-name { color: #f1f5f9; }
+        .file-size { color: #64748b; font-size: 0.8em; }
+        @media (max-width: 1200px) { .grid-4 { grid-template-columns: repeat(2, 1fr); } .grid-3 { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) { .grid-4, .grid-2 { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Research Dashboard</h1>
+            <div class="meta">
+                Query: <strong>market prediction LLMs</strong> | 
+                Step: <strong>15</strong> | 
+                Last Updated: <strong>2026-01-03 16:59:19</strong>
+                <br>Auto-refreshes every 10 seconds
+            </div>
+        </header>
+        
+        <div class="grid grid-4" style="margin-bottom: 20px;">
+            <div class="card stat-card">
+                <div class="value">484</div>
+                <div class="label">Total Papers</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">13</div>
+                <div class="label">Sources</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">8972</div>
+                <div class="label">Total Citations</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">15</div>
+                <div class="label">Processing Steps</div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>📈 Publications Over Time</h3>
+                <canvas id="timelineChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>📊 Papers by Source</h3>
+                <canvas id="sourceChart"></canvas>
+            </div>
+        </div>
+        
+        <div class="grid grid-3" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>🏆 Paper Leaderboard</h3>
+                <div class="leaderboard">
+                    <table>
+                        <thead>
+                            <tr><th>#</th><th>Title</th><th>Year</th><th>Score</th><th>Cites</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="rank">1</td>
+                                <td>Measuring Consistency in Text-based Financial Forecasting Models...</td>
+                                <td>2023</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">2</td>
+                                <td>LLM-based Stock Market Trend Prediction</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">3</td>
+                                <td>NumHTML: Numeric-Oriented Hierarchical Transformer Model for Multi-Task Financial Forecasting...</td>
+                                <td>2022</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">4</td>
+                                <td>A Collaborative Attention Adaptive Network for Financial Market Forecasting...</td>
+                                <td>2022</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">5</td>
+                                <td>Adversarial Attacks on Machine Learning Systems for High-Frequency Trading...</td>
+                                <td>2021</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">6</td>
+                                <td>Guided Attention Multimodal Multitask Financial Forecasting with Inter-Company Relationships and Global and Local News...</td>
+                                <td>2022</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">7</td>
+                                <td>Data-Driven Market-Making via Model-Free Learning</td>
+                                <td>2020</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">8</td>
+                                <td>Financial Forecasting from Textual and Tabular Time Series...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">9</td>
+                                <td>Evaluating and Finetuning Models For Financial Time Series Forecasting...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">10</td>
+                                <td>Risk-Averse Trust Region Optimization for Reward-Volatility Reduction...</td>
+                                <td>2020</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">11</td>
+                                <td>Is ChatGPT a Financial Expert? Evaluating Language Models on Financial Natural Language Processing...</td>
+                                <td>2023</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">12</td>
+                                <td>Risk Management in Image Generative Models through Model Fingerprinting...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">13</td>
+                                <td>Parameter Efficient Instruction Tuning of LLMs for Financial Applications...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">14</td>
+                                <td>Forecasting Earnings Surprises from Conference Call Transcripts...</td>
+                                <td>2023</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">15</td>
+                                <td>A Data-Centric Approach for Financial Large Language Models with Abductive Augmentation Reasoning...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>💡 Insights</h3>
+                <div class="insights">
+                    <div class="insight trend">
+                        <h4>Publication Trend</h4>
+                        <p>Most papers (1) are from 2027</p>
+                    </div><div class="insight source">
+                        <h4>Primary Source</h4>
+                        <p>semantic_scholar contributes 182 papers (37%)</p>
+                    </div><div class="insight author">
+                        <h4>Prolific Author</h4>
+                        <p>Qianqian Xie has 7 papers in this collection</p>
+                    </div><div class="insight citation">
+                        <h4>Most Cited Paper</h4>
+                        <p>"A Survey of Large Language Models..." has 3806 citations</p>
+                    </div><div class="insight keywords">
+                        <h4>Hot Topics</h4>
+                        <p>Top keywords: language, models, large, financial, finance</p>
+                    </div><div class="insight availability">
+                        <h4>Open Access</h4>
+                        <p>287/484 papers (59%) have direct PDF links</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📝 Step Log</h3>
+                <div class="step-log">
+                    <div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'market prediction LLMs'
+                        <div class="time">Step 15 - 16:59:19</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'risk management LLMs'
+                        <div class="time">Step 14 - 16:59:10</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'financial forecasting LLMs'
+                        <div class="time">Step 13 - 16:59:00</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'algorithmic trading LLMs'
+                        <div class="time">Step 12 - 16:58:50</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'LLMs financial modeling'
+                        <div class="time">Step 11 - 16:58:41</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'large language models finance'
+                        <div class="time">Step 10 - 16:58:32</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'AI finance'
+                        <div class="time">Step 9 - 16:58:08</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'NLP finance'
+                        <div class="time">Step 8 - 16:57:55</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'market prediction large language models'
+                        <div class="time">Step 7 - 16:57:52</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'risk management large language models'
+                        <div class="time">Step 6 - 16:57:37</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <h3>🏷️ Top Keywords</h3>
+                <div class="keywords">
+                    <span class="keyword" style="font-size: 1.4em">language (152)</span><span class="keyword" style="font-size: 1.4em">models (147)</span><span class="keyword" style="font-size: 1.4em">large (134)</span><span class="keyword" style="font-size: 1.4em">financial (87)</span><span class="keyword" style="font-size: 1.4em">finance (83)</span><span class="keyword" style="font-size: 1.4em">llms (47)</span><span class="keyword" style="font-size: 1.4em">learning (43)</span><span class="keyword" style="font-size: 1.4em">management (39)</span><span class="keyword" style="font-size: 1.4em">prediction (38)</span><span class="keyword" style="font-size: 1.4em">market (36)</span><span class="keyword" style="font-size: 1.4em">risk (35)</span><span class="keyword" style="font-size: 1.4em">forecasting (33)</span><span class="keyword" style="font-size: 1.4em">model (32)</span><span class="keyword" style="font-size: 1.4em">multi (32)</span><span class="keyword" style="font-size: 1.4em">analysis (32)</span><span class="keyword" style="font-size: 1.4em">data (30)</span><span class="keyword" style="font-size: 1.4em">trading (28)</span><span class="keyword" style="font-size: 1.4em">intelligence (25)</span><span class="keyword" style="font-size: 1.4em">stock (24)</span><span class="keyword" style="font-size: 1.4em">time (23)</span><span class="keyword" style="font-size: 1.4em">sentiment (23)</span><span class="keyword" style="font-size: 1.4em">framework (22)</span><span class="keyword" style="font-size: 1.4em">driven (20)</span><span class="keyword" style="font-size: 1.4em">series (19)</span><span class="keyword" style="font-size: 1.4em">reasoning (19)</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📁 Output Files</h3>
+                <div class="files">
+                    <div class="file"><span class="file-icon">📄</span><span class="file-name">papers.json</span><span class="file-size">Full paper data</span></div>
+                    <div class="file"><span class="file-icon">🔗</span><span class="file-name">links.json</span><span class="file-size">Structured links</span></div>
+                    <div class="file"><span class="file-icon">📊</span><span class="file-name">stats.json</span><span class="file-size">Statistics</span></div>
+                    <div class="file"><span class="file-icon">💡</span><span class="file-name">summary.json</span><span class="file-size">Insights</span></div>
+                    <div class="file"><span class="file-icon">📑</span><span class="file-name">papers.csv</span><span class="file-size">Spreadsheet</span></div>
+                    <div class="file"><span class="file-icon">📚</span><span class="file-name">papers.bib</span><span class="file-size">BibTeX</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        new Chart(document.getElementById('timelineChart'), {
+            type: 'bar',
+            data: {
+                labels: [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027],
+                datasets: [{ label: 'Papers', data: [2, 14, 15, 14, 43, 130, 252, 13, 1], backgroundColor: 'rgba(102, 126, 234, 0.8)', borderRadius: 5 }]
+            },
+            options: { responsive: true, plugins: { legend: { display: false } } }
+        });
+        
+        new Chart(document.getElementById('sourceChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['offline_acl', 'offline_iclr', 'offline_aaai', 'offline_ijcai', 'offline_emnlp', 'offline_nips', 'offline_icml', 'offline_kdd', 'offline_icra', 'offline_www', 'openalex', 'arxiv', 'semantic_scholar'],
+                datasets: [{ data: [12, 15, 13, 20, 14, 15, 2, 7, 2, 2, 126, 74, 182], backgroundColor: ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#00f2fe'] }]
+            },
+            options: { responsive: true }
+        });
+    </script>
+</body>
+</html>

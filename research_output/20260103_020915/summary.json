@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "parameter-efficient methods vision transformers sparse learning",
+    "total_papers": 5,
+    "unique_sources": 2,
+    "year_range": {
+      "min": 2022,
+      "max": 2025
+    },
+    "citation_summary": {
+      "total": 1188,
+      "average": 237.6
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 2,
+    "papers_with_doi": 5,
+    "processing_steps": 15
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (1) are from 2025",
+      "data": {
+        "year": 2025,
+        "count": 1
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 4 papers (80%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 4
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Jef Verhoeven has 1 papers in this collection",
+      "data": {
+        "author": "Jef Verhoeven",
+        "count": 1
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"ScaleNet: An Unsupervised Representation Learning Method for Limited Information...\" has 787 citations",
+      "data": {
+        "title": "ScaleNet: An Unsupervised Representation Learning Method for Limited Information",
+        "citations": 787
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: learning, representation, visual, development, education",
+      "data": {
+        "keywords": {
+          "learning": 5,
+          "representation": 4,
+          "visual": 2,
+          "development": 1,
+          "education": 1
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "2/5 papers (40%) have direct PDF links",
+      "data": {
+        "with_pdf": 2,
+        "total": 5
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 5 papers related to 'parameter-efficient methods vision transformers sparse learning'",
+    "Papers collected from 2 sources: openalex, semantic_scholar",
+    "Publication years range from 2022 to 2025",
+    "Total citations: 1188, Average: 237",
+    "Leading researchers: Jef Verhoeven, Jiang Zhao, Yibo Wang"
+  ],
+  "metadata": {
+    "query": "parameter-efficient methods vision transformers sparse learning",
+    "total_steps": 15,
+    "last_updated": "2026-01-03T02:11:37.659313",
+    "started_at": "2026-01-03T02:09:17.155708",
+    "total_papers": 5
+  },
+  "is_complete": true
+}

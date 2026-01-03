@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "motion generation diffusion models sample prediction",
+    "total_papers": 316,
+    "unique_sources": 6,
+    "year_range": {
+      "min": 2007,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 3614,
+      "average": 46.3
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 176,
+    "papers_with_doi": 94,
+    "processing_steps": 10
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (28) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 28
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 97 papers (30%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 97
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Zhiyong Wu has 4 papers in this collection",
+      "data": {
+        "author": "Zhiyong Wu",
+        "count": 4
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Human Motion Diffusion Model...\" has 1023 citations",
+      "data": {
+        "title": "Human Motion Diffusion Model",
+        "citations": 1023
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: diffusion, motion, models, generation, prediction",
+      "data": {
+        "keywords": {
+          "diffusion": 195,
+          "motion": 126,
+          "models": 83,
+          "generation": 82,
+          "prediction": 46
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "176/316 papers (55%) have direct PDF links",
+      "data": {
+        "with_pdf": 176,
+        "total": 316
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 316 papers related to 'motion generation diffusion models sample prediction'",
+    "Papers collected from 6 sources: offline_iclr, offline_nips, offline_icml, offline_cvpr, semantic_scholar, arxiv",
+    "Publication years range from 2007 to 2026",
+    "Total citations: 3614, Average: 46",
+    "Leading researchers: Zhiyong Wu, Shubham Tulsiani, Zeyu Zhang"
+  ],
+  "metadata": {
+    "query": "motion generation diffusion models sample prediction",
+    "total_steps": 10,
+    "last_updated": "2026-01-03T18:59:59.705482",
+    "started_at": "2026-01-03T18:58:14.171602",
+    "total_papers": 316
+  },
+  "is_complete": true
+}

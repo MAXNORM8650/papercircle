@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "world model evaluation benchmark",
+    "total_papers": 178,
+    "unique_sources": 9,
+    "year_range": {
+      "min": 2015,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 2,
+      "average": 1.0
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 108,
+    "papers_with_doi": 73,
+    "processing_steps": 4
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (59) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 59
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 50 papers (28%)",
+      "data": {
+        "source": "arxiv",
+        "count": 50
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Matteo Poggi has 2 papers in this collection",
+      "data": {
+        "author": "Matteo Poggi",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Explainable AI for predictive maintenance: A review and standardized evaluation framework...\" has 1 citations",
+      "data": {
+        "title": "Explainable AI for predictive maintenance: A review and standardized evaluation framework",
+        "citations": 1
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: world, evaluation, models, model, real",
+      "data": {
+        "keywords": {
+          "world": 91,
+          "evaluation": 53,
+          "models": 50,
+          "model": 40,
+          "real": 35
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "108/178 papers (60%) have direct PDF links",
+      "data": {
+        "with_pdf": 108,
+        "total": 178
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 178 papers related to 'world model evaluation benchmark'",
+    "Papers collected from 9 sources: offline_iclr, offline_iccv, offline_nips, offline_cvpr, offline_eccv, offline_icml, dblp, arxiv, openalex",
+    "Publication years range from 2015 to 2026",
+    "Total citations: 2, Average: 1",
+    "Leading researchers: Matteo Poggi, Fabio Tosi, Bohan Zhang"
+  ],
+  "metadata": {
+    "query": "world model evaluation benchmark",
+    "total_steps": 4,
+    "last_updated": "2026-01-03T16:28:18.611996",
+    "started_at": "2026-01-03T16:27:17.622608",
+    "total_papers": 178
+  },
+  "is_complete": true
+}

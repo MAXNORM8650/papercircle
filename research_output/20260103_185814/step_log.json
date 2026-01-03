@@ -1,0 +1,209 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T18:58:44.938662",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Motion Diffusion Model transformer-based'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "Motion Diffusion Model transformer-based",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 50
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T18:58:53.756616",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Motion Diffusion Model transformer-based'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "Motion Diffusion Model transformer-based",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 44,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 94
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T18:58:58.834508",
+      "agent": "online_search_agent",
+      "action": "Online search: 'motion generation literature survey'",
+      "result_preview": "Found 20 papers",
+      "details": {
+        "query": "motion generation literature survey",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 20,
+        "papers_added": 7,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 101
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T18:59:07.484802",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'motion generation literature survey'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "motion generation literature survey",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 48,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 149
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T18:59:25.549027",
+      "agent": "online_search_agent",
+      "action": "Online search: 'sample prediction diffusion models motion generation'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "sample prediction diffusion models motion generation",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 24,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-03T18:59:33.085831",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'sample prediction diffusion models motion generation'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "sample prediction diffusion models motion generation",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 24,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 197
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-03T18:59:40.136640",
+      "agent": "online_search_agent",
+      "action": "Online search: 'sample prediction diffusion models'",
+      "result_preview": "Found 100 papers",
+      "details": {
+        "query": "sample prediction diffusion models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 100,
+        "papers_added": 71,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 268
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-03T18:59:46.477336",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'sample prediction diffusion models'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "sample prediction diffusion models",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": 2020,
+        "end_year": 2025,
+        "papers_found": 50,
+        "papers_added": 43,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 311
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-03T18:59:53.240427",
+      "agent": "online_search_agent",
+      "action": "Online search: 'motion generation diffusion models sample prediction'",
+      "result_preview": "Found 60 papers",
+      "details": {
+        "query": "motion generation diffusion models sample prediction",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 60,
+        "papers_added": 5,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 316
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-03T18:59:59.683539",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'motion generation diffusion models sample prediction'",
+      "result_preview": "Found 30 papers from local database",
+      "details": {
+        "query": "motion generation diffusion models sample prediction",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": 2020,
+        "end_year": 2025,
+        "papers_found": 30,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 316
+    }
+  ],
+  "current_step": 10,
+  "metadata": {
+    "query": "motion generation diffusion models sample prediction",
+    "total_steps": 10,
+    "last_updated": "2026-01-03T18:59:59.707021",
+    "started_at": "2026-01-03T18:58:14.171602",
+    "total_papers": 316
+  }
+}

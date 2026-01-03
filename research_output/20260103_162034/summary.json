@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "world model evaluation techniques",
+    "total_papers": 214,
+    "unique_sources": 14,
+    "year_range": {
+      "min": 2015,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 717,
+      "average": 14.6
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 135,
+    "papers_with_doi": 89,
+    "processing_steps": 4
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (21) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 21
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 50 papers (23%)",
+      "data": {
+        "source": "arxiv",
+        "count": 50
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Yuqi Wang has 2 papers in this collection",
+      "data": {
+        "author": "Yuqi Wang",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Development Education...\" has 197 citations",
+      "data": {
+        "title": "Development Education",
+        "citations": 197
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: world, evaluation, learning, models, model",
+      "data": {
+        "keywords": {
+          "world": 59,
+          "evaluation": 47,
+          "learning": 46,
+          "models": 37,
+          "model": 28
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "135/214 papers (63%) have direct PDF links",
+      "data": {
+        "with_pdf": 135,
+        "total": 214
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 214 papers related to 'world model evaluation techniques'",
+    "Papers collected from 14 sources: offline_acl, offline_iclr, offline_nips, offline_emnlp, offline_iccv, offline_ijcai, offline_aaai, offline_naacl, offline_cvpr, offline_eccv, offline_icml, openalex, arxiv, semantic_scholar",
+    "Publication years range from 2015 to 2026",
+    "Total citations: 717, Average: 14",
+    "Leading researchers: Yuqi Wang, Yang Liu, Jiawei He"
+  ],
+  "metadata": {
+    "query": "world model evaluation techniques",
+    "total_steps": 4,
+    "last_updated": "2026-01-03T16:22:42.707294",
+    "started_at": "2026-01-03T16:20:38.489064",
+    "total_papers": 214
+  }
+}

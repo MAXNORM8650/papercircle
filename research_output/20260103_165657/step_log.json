@@ -1,0 +1,423 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T16:57:13.187108",
+      "agent": "online_search_agent",
+      "action": "Online search: 'large language models finance'",
+      "result_preview": "Found 42 papers",
+      "details": {
+        "query": "large language models finance",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 42,
+        "papers_added": 42,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 42
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T16:57:16.472467",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLMs finance'",
+      "result_preview": "Found 66 papers",
+      "details": {
+        "query": "LLMs finance",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 66,
+        "papers_added": 53,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 95
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T16:57:24.307028",
+      "agent": "online_search_agent",
+      "action": "Online search: 'financial modeling large language models'",
+      "result_preview": "Found 70 papers",
+      "details": {
+        "query": "financial modeling large language models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 70,
+        "papers_added": 38,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 133
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T16:57:28.788391",
+      "agent": "online_search_agent",
+      "action": "Online search: 'algorithmic trading large language models'",
+      "result_preview": "Found 63 papers",
+      "details": {
+        "query": "algorithmic trading large language models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 63,
+        "papers_added": 39,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 172
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T16:57:32.674989",
+      "agent": "online_search_agent",
+      "action": "Online search: 'financial forecasting large language models'",
+      "result_preview": "Found 67 papers",
+      "details": {
+        "query": "financial forecasting large language models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 67,
+        "papers_added": 35,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 207
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-03T16:57:37.876588",
+      "agent": "online_search_agent",
+      "action": "Online search: 'risk management large language models'",
+      "result_preview": "Found 70 papers",
+      "details": {
+        "query": "risk management large language models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 70,
+        "papers_added": 41,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 248
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-03T16:57:52.292387",
+      "agent": "online_search_agent",
+      "action": "Online search: 'market prediction large language models'",
+      "result_preview": "Found 65 papers",
+      "details": {
+        "query": "market prediction large language models",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 65,
+        "papers_added": 29,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 277
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-03T16:57:55.917173",
+      "agent": "online_search_agent",
+      "action": "Online search: 'NLP finance'",
+      "result_preview": "Found 66 papers",
+      "details": {
+        "query": "NLP finance",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 66,
+        "papers_added": 52,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 329
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-03T16:58:08.141369",
+      "agent": "online_search_agent",
+      "action": "Online search: 'AI finance'",
+      "result_preview": "Found 70 papers",
+      "details": {
+        "query": "AI finance",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 70,
+        "papers_added": 53,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 382
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-03T16:58:32.762913",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'large language models finance'",
+      "result_preview": "Found 20 papers from local database",
+      "details": {
+        "query": "large language models finance",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "icra",
+          "iccv",
+          "eccv",
+          "corl",
+          "rss",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": 2019,
+        "end_year": 2024,
+        "papers_found": 20,
+        "papers_added": 19,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 401
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-03T16:58:41.901881",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'LLMs financial modeling'",
+      "result_preview": "Found 20 papers from local database",
+      "details": {
+        "query": "LLMs financial modeling",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "icra",
+          "iccv",
+          "eccv",
+          "corl",
+          "rss",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": 2019,
+        "end_year": 2024,
+        "papers_found": 20,
+        "papers_added": 17,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 418
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-03T16:58:50.986310",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'algorithmic trading LLMs'",
+      "result_preview": "Found 20 papers from local database",
+      "details": {
+        "query": "algorithmic trading LLMs",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "icra",
+          "iccv",
+          "eccv",
+          "corl",
+          "rss",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": 2019,
+        "end_year": 2024,
+        "papers_found": 20,
+        "papers_added": 20,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 438
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-03T16:59:00.812162",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'financial forecasting LLMs'",
+      "result_preview": "Found 20 papers from local database",
+      "details": {
+        "query": "financial forecasting LLMs",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "icra",
+          "iccv",
+          "eccv",
+          "corl",
+          "rss",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": 2019,
+        "end_year": 2024,
+        "papers_found": 20,
+        "papers_added": 10,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 448
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-03T16:59:10.255015",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'risk management LLMs'",
+      "result_preview": "Found 20 papers from local database",
+      "details": {
+        "query": "risk management LLMs",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "icra",
+          "iccv",
+          "eccv",
+          "corl",
+          "rss",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": 2019,
+        "end_year": 2024,
+        "papers_found": 20,
+        "papers_added": 19,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 467
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-03T16:59:19.839329",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'market prediction LLMs'",
+      "result_preview": "Found 20 papers from local database",
+      "details": {
+        "query": "market prediction LLMs",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "icra",
+          "iccv",
+          "eccv",
+          "corl",
+          "rss",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": 2019,
+        "end_year": 2024,
+        "papers_found": 20,
+        "papers_added": 17,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 484
+    }
+  ],
+  "current_step": 15,
+  "metadata": {
+    "query": "market prediction LLMs",
+    "total_steps": 15,
+    "last_updated": "2026-01-03T16:59:19.867844",
+    "started_at": "2026-01-03T16:56:57.553259",
+    "total_papers": 484
+  }
+}

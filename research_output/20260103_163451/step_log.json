@@ -1,0 +1,106 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T16:35:01.452235",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world model evaluation'",
+      "result_preview": "Found 180 papers",
+      "details": {
+        "query": "world model evaluation",
+        "sources": null,
+        "papers_found": 180,
+        "papers_added": 180,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 180
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T16:35:09.972630",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'world model evaluation'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "world model evaluation",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 39,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 219
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T16:35:16.782995",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world model evaluation benchmark'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "world model evaluation benchmark",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 12,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 231
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T16:35:31.074857",
+      "agent": "sorting_agent",
+      "action": "Sorted 231 papers by 'recency'",
+      "result_preview": "Top paper: VideoVerse: How Far is Your T2V Generator from a W...",
+      "details": {
+        "sort_by": "recency",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 231
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T16:35:32.355566",
+      "agent": "sorting_agent",
+      "action": "Sorted 10 papers by 'citations'",
+      "result_preview": "Top paper: SWE-bench: Can Language Models Resolve Real-World ...",
+      "details": {
+        "sort_by": "citations",
+        "weights": null,
+        "top_k": 10
+      },
+      "papers_count": 10
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-03T16:35:33.665680",
+      "agent": "sorting_agent",
+      "action": "Sorted 10 papers by 'relevance'",
+      "result_preview": "Top paper: WorldSimBench: Towards Video Generation Models as ...",
+      "details": {
+        "sort_by": "relevance",
+        "weights": null,
+        "top_k": 10
+      },
+      "papers_count": 10
+    }
+  ],
+  "current_step": 6,
+  "metadata": {
+    "query": "world model evaluation benchmark",
+    "total_steps": 6,
+    "last_updated": "2026-01-03T16:35:33.684007",
+    "started_at": "2026-01-03T16:34:51.174825",
+    "total_papers": 10
+  }
+}

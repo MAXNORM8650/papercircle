@@ -1,0 +1,125 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T16:44:49.185766",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world models generation evaluation'",
+      "result_preview": "Found 133 papers",
+      "details": {
+        "query": "world models generation evaluation",
+        "sources": null,
+        "papers_found": 133,
+        "papers_added": 133,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 133
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T16:44:54.279288",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world models evaluation metrics'",
+      "result_preview": "Found 87 papers",
+      "details": {
+        "query": "world models evaluation metrics",
+        "sources": null,
+        "papers_found": 87,
+        "papers_added": 48,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 181
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T16:45:03.520780",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'world models evaluation'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "world models evaluation",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 44,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 225
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T16:45:11.722812",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'world models generation evaluation'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "world models generation evaluation",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 26,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 251
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T16:45:26.717727",
+      "agent": "sorting_agent",
+      "action": "Sorted 251 papers by 'relevance'",
+      "result_preview": "Top paper: Learning World Models for Interactive Video Genera...",
+      "details": {
+        "sort_by": "relevance",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 251
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-03T16:45:28.002616",
+      "agent": "sorting_agent",
+      "action": "Sorted 251 papers by 'citations'",
+      "result_preview": "Top paper: Holistic Evaluation of Language Models...",
+      "details": {
+        "sort_by": "citations",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 251
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-03T16:45:29.346691",
+      "agent": "sorting_agent",
+      "action": "Sorted 251 papers by 'recency'",
+      "result_preview": "Top paper: Explainable AI for predictive maintenance: A revie...",
+      "details": {
+        "sort_by": "recency",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 251
+    }
+  ],
+  "current_step": 7,
+  "metadata": {
+    "query": "world models generation evaluation",
+    "total_steps": 7,
+    "last_updated": "2026-01-03T16:45:29.375931",
+    "started_at": "2026-01-03T16:44:23.119519",
+    "total_papers": 251
+  }
+}

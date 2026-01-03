@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10">
+    <title>Research Dashboard: AI cardiac diagnosis</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 20px; }
+        .container { max-width: 1600px; margin: 0 auto; }
+        header { text-align: center; padding: 20px; margin-bottom: 30px; }
+        header h1 { font-size: 2em; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .meta { color: #94a3b8; margin-top: 10px; font-size: 0.9em; }
+        .grid { display: grid; gap: 20px; }
+        .grid-4 { grid-template-columns: repeat(4, 1fr); }
+        .grid-2 { grid-template-columns: repeat(2, 1fr); }
+        .grid-3 { grid-template-columns: repeat(3, 1fr); }
+        .card { background: #1e293b; border-radius: 12px; padding: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        .stat-card { text-align: center; }
+        .stat-card .value { font-size: 2.5em; font-weight: bold; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .stat-card .label { color: #94a3b8; margin-top: 5px; }
+        .card h3 { color: #f1f5f9; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+        .step-log { max-height: 300px; overflow-y: auto; }
+        .step { padding: 10px; border-left: 3px solid #667eea; margin: 10px 0; background: #0f172a; border-radius: 0 8px 8px 0; }
+        .step .agent { color: #667eea; font-weight: bold; }
+        .step .time { color: #64748b; font-size: 0.8em; }
+        .leaderboard { max-height: 400px; overflow-y: auto; }
+        .leaderboard table { width: 100%; border-collapse: collapse; }
+        .leaderboard th { text-align: left; padding: 10px; color: #94a3b8; border-bottom: 1px solid #334155; position: sticky; top: 0; background: #1e293b; }
+        .leaderboard td { padding: 10px; border-bottom: 1px solid #334155; }
+        .leaderboard tr:hover { background: #334155; }
+        .rank { color: #fbbf24; font-weight: bold; }
+        .score { color: #34d399; }
+        .insights { display: grid; gap: 15px; }
+        .insight { padding: 15px; background: #0f172a; border-radius: 8px; border-left: 4px solid #667eea; }
+        .insight.trend { border-color: #34d399; }
+        .insight.citation { border-color: #fbbf24; }
+        .insight.author { border-color: #f472b6; }
+        .insight h4 { color: #f1f5f9; margin-bottom: 5px; }
+        .insight p { color: #94a3b8; }
+        .keywords { display: flex; flex-wrap: wrap; gap: 10px; }
+        .keyword { padding: 5px 12px; background: linear-gradient(135deg, #667eea33, #764ba233); border: 1px solid #667eea55; border-radius: 20px; font-size: 0.9em; }
+        .files { display: grid; gap: 10px; }
+        .file { display: flex; align-items: center; gap: 10px; padding: 10px; background: #0f172a; border-radius: 8px; }
+        .file-icon { font-size: 1.5em; }
+        .file-name { color: #f1f5f9; }
+        .file-size { color: #64748b; font-size: 0.8em; }
+        @media (max-width: 1200px) { .grid-4 { grid-template-columns: repeat(2, 1fr); } .grid-3 { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) { .grid-4, .grid-2 { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Research Dashboard</h1>
+            <div class="meta">
+                Query: <strong>AI cardiac diagnosis</strong> | 
+                Step: <strong>11</strong> | 
+                Last Updated: <strong>2026-01-03 17:06:08</strong>
+                <br>Auto-refreshes every 10 seconds
+            </div>
+        </header>
+        
+        <div class="grid grid-4" style="margin-bottom: 20px;">
+            <div class="card stat-card">
+                <div class="value">330</div>
+                <div class="label">Total Papers</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">19</div>
+                <div class="label">Sources</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">1390</div>
+                <div class="label">Total Citations</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">11</div>
+                <div class="label">Processing Steps</div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>📈 Publications Over Time</h3>
+                <canvas id="timelineChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>📊 Papers by Source</h3>
+                <canvas id="sourceChart"></canvas>
+            </div>
+        </div>
+        
+        <div class="grid grid-3" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>🏆 Paper Leaderboard</h3>
+                <div class="leaderboard">
+                    <table>
+                        <thead>
+                            <tr><th>#</th><th>Title</th><th>Year</th><th>Score</th><th>Cites</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="rank">1</td>
+                                <td>Personalized Heart Disease Detection via ECG Digital Twin Generation...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">2</td>
+                                <td>CardiacNet: Learning to Reconstruct Abnormalities for Cardiac Disease Assessment from Echocardiogram Videos...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">3</td>
+                                <td>Multi-series Time-aware Sequence Partitioning for Disease Progression Modeling...</td>
+                                <td>2021</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">4</td>
+                                <td>A Mixture Model System for Medical and Machine Diagnosis...</td>
+                                <td>1994</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">5</td>
+                                <td>ME-GAN: Learning Panoptic Electrocardio Representations for Multi-view ECG Synthesis Conditioned on Heart Diseases...</td>
+                                <td>2022</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">6</td>
+                                <td>Learning Disease Progression Models That Capture Health Disparities...</td>
+                                <td>2025</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">7</td>
+                                <td>Clustering Interval-Censored Time-Series for Disease Phenotyping...</td>
+                                <td>2022</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">8</td>
+                                <td>Nef-Net+: Adapting Electrocardio Panorama in the wild...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">9</td>
+                                <td>Robustness to Spurious Correlations via Human Annotations...</td>
+                                <td>2020</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">10</td>
+                                <td>Deep Learning-based Discrimination of Pause Episodes in Insertable Cardiac Monitors...</td>
+                                <td>2024</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">11</td>
+                                <td>Pancreatic Cancer Diagnosis System</td>
+                                <td>2025</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">12</td>
+                                <td>ReCLLaMA: A Reasoning-Centered LLM Agent for Medical Diagnosis...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">13</td>
+                                <td>Super-efficient Echocardiography Video Segmentation via Proxy- and Kernel-Based Semi-supervised Learning...</td>
+                                <td>2023</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">14</td>
+                                <td>EchoONE: Segmenting Multiple Echocardiography Planes in One Model...</td>
+                                <td>2025</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">15</td>
+                                <td>Dual-Route Mental Imagery for Robust VLM-based Medical Image Diagnosis...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>💡 Insights</h3>
+                <div class="insights">
+                    <div class="insight trend">
+                        <h4>Publication Trend</h4>
+                        <p>Most papers (45) are from 2026</p>
+                    </div><div class="insight source">
+                        <h4>Primary Source</h4>
+                        <p>openalex contributes 55 papers (16%)</p>
+                    </div><div class="insight author">
+                        <h4>Prolific Author</h4>
+                        <p>Robert D. Howe has 6 papers in this collection</p>
+                    </div><div class="insight citation">
+                        <h4>Most Cited Paper</h4>
+                        <p>"Heart Disease Prediction Using Machine Learning Algorithms..." has 489 citations</p>
+                    </div><div class="insight keywords">
+                        <h4>Hot Topics</h4>
+                        <p>Top keywords: learning, disease, heart, machine, prediction</p>
+                    </div><div class="insight availability">
+                        <h4>Open Access</h4>
+                        <p>167/330 papers (50%) have direct PDF links</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📝 Step Log</h3>
+                <div class="step-log">
+                    <div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'AI cardiac diagnosis'
+                        <div class="time">Step 11 - 17:06:08</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'AI heart disease'
+                        <div class="time">Step 10 - 17:05:59</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'deep learning cardiovascular'
+                        <div class="time">Step 9 - 17:05:53</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'machine learning heart disease'
+                        <div class="time">Step 8 - 17:05:50</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'AI cardiac diagnosis'
+                        <div class="time">Step 7 - 17:05:47</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'deep learning cardiovascular'
+                        <div class="time">Step 6 - 17:05:23</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'machine learning heart disease'
+                        <div class="time">Step 5 - 17:05:07</div>
+                    </div><div class="step">
+                        <span class="agent">offline_search_agent</span>: Offline search: 'AI cardiac diagnosis'
+                        <div class="time">Step 4 - 17:04:50</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'deep learning cardiovascular'
+                        <div class="time">Step 3 - 17:04:33</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'machine learning heart disease'
+                        <div class="time">Step 2 - 17:04:27</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <h3>🏷️ Top Keywords</h3>
+                <div class="keywords">
+                    <span class="keyword" style="font-size: 1.4em">learning (159)</span><span class="keyword" style="font-size: 1.4em">disease (124)</span><span class="keyword" style="font-size: 1.4em">heart (94)</span><span class="keyword" style="font-size: 1.4em">machine (68)</span><span class="keyword" style="font-size: 1.4em">prediction (64)</span><span class="keyword" style="font-size: 1.4em">deep (56)</span><span class="keyword" style="font-size: 1.4em">cardiovascular (52)</span><span class="keyword" style="font-size: 1.4em">diagnosis (50)</span><span class="keyword" style="font-size: 1.4em">cardiac (42)</span><span class="keyword" style="font-size: 1.4em">detection (31)</span><span class="keyword" style="font-size: 1.4em">models (30)</span><span class="keyword" style="font-size: 1.4em">model (26)</span><span class="keyword" style="font-size: 1.4em">multi (21)</span><span class="keyword" style="font-size: 1.4em">data (18)</span><span class="keyword" style="font-size: 1.4em">techniques (17)</span><span class="keyword" style="font-size: 1.4em">framework (16)</span><span class="keyword" style="font-size: 1.4em">risk (16)</span><span class="keyword" style="font-size: 1.4em">analysis (16)</span><span class="keyword" style="font-size: 1.4em">system (15)</span><span class="keyword" style="font-size: 1.4em">classification (14)</span><span class="keyword" style="font-size: 1.4em">motion (14)</span><span class="keyword" style="font-size: 1.4em">review (14)</span><span class="keyword" style="font-size: 1.4em">early (13)</span><span class="keyword" style="font-size: 1.4em">coronary (13)</span><span class="keyword" style="font-size: 1.4em">artificial (13)</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📁 Output Files</h3>
+                <div class="files">
+                    <div class="file"><span class="file-icon">📄</span><span class="file-name">papers.json</span><span class="file-size">Full paper data</span></div>
+                    <div class="file"><span class="file-icon">🔗</span><span class="file-name">links.json</span><span class="file-size">Structured links</span></div>
+                    <div class="file"><span class="file-icon">📊</span><span class="file-name">stats.json</span><span class="file-size">Statistics</span></div>
+                    <div class="file"><span class="file-icon">💡</span><span class="file-name">summary.json</span><span class="file-size">Insights</span></div>
+                    <div class="file"><span class="file-icon">📑</span><span class="file-name">papers.csv</span><span class="file-size">Spreadsheet</span></div>
+                    <div class="file"><span class="file-icon">📚</span><span class="file-name">papers.bib</span><span class="file-size">BibTeX</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        new Chart(document.getElementById('timelineChart'), {
+            type: 'bar',
+            data: {
+                labels: [1994, 2005, 2006, 2007, 2008, 2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+                datasets: [{ label: 'Papers', data: [1, 2, 2, 3, 2, 3, 3, 1, 1, 1, 1, 2, 4, 3, 10, 13, 23, 28, 66, 116, 45], backgroundColor: 'rgba(102, 126, 234, 0.8)', borderRadius: 5 }]
+            },
+            options: { responsive: true, plugins: { legend: { display: false } } }
+        });
+        
+        new Chart(document.getElementById('sourceChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['offline_ijcai', 'offline_eccv', 'offline_nips', 'offline_icml', 'offline_iclr', 'offline_aaai', 'offline_cvpr', 'offline_emnlp', 'offline_aistats', 'offline_wacv', 'offline_icra', 'offline_iccv', 'offline_iros', 'offline_acl', 'offline_uai', 'dblp', 'openalex', 'arxiv', 'semantic_scholar'],
+                datasets: [{ data: [12, 1, 14, 8, 46, 9, 7, 3, 1, 6, 12, 4, 18, 3, 1, 42, 55, 41, 47], backgroundColor: ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#00f2fe'] }]
+            },
+            options: { responsive: true }
+        });
+    </script>
+</body>
+</html>

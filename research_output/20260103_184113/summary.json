@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "motion generation",
+    "total_papers": 302,
+    "unique_sources": 14,
+    "year_range": {
+      "min": 2020,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 3679,
+      "average": 47.2
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 182,
+    "papers_with_doi": 147,
+    "processing_steps": 5
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (13) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 13
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 100 papers (33%)",
+      "data": {
+        "source": "arxiv",
+        "count": 100
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Zeyu Zhang has 5 papers in this collection",
+      "data": {
+        "author": "Zeyu Zhang",
+        "count": 5
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"MotionDiffuse: Text-Driven Human Motion Generation With Diffusion Model...\" has 792 citations",
+      "data": {
+        "title": "MotionDiffuse: Text-Driven Human Motion Generation With Diffusion Model",
+        "citations": 792
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: motion, generation, human, diffusion, text",
+      "data": {
+        "keywords": {
+          "motion": 219,
+          "generation": 175,
+          "human": 56,
+          "diffusion": 32,
+          "text": 31
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "182/302 papers (60%) have direct PDF links",
+      "data": {
+        "with_pdf": 182,
+        "total": 302
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 302 papers related to 'motion generation'",
+    "Papers collected from 14 sources: semantic_scholar, offline_iclr, dblp, openalex, offline_nips, offline_siggraph, offline_iccv, offline_cvpr, offline_wacv, offline_icml, offline_aaai, arxiv, offline_eccv, offline_acmmm",
+    "Publication years range from 2020 to 2026",
+    "Total citations: 3679, Average: 47",
+    "Leading researchers: Zeyu Zhang, Bohan Zhuang, Akide Liu"
+  ],
+  "metadata": {
+    "query": "motion generation",
+    "total_steps": 5,
+    "last_updated": "2026-01-03T18:42:23.860469",
+    "started_at": "2026-01-03T18:41:13.128985",
+    "total_papers": 302
+  },
+  "is_complete": true
+}

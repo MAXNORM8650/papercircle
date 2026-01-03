@@ -1,0 +1,319 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T02:02:25.370101",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'compressing high-volume visual inputs to compact visual embeddings'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "compressing high-volume visual inputs to compact visual embeddings",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 50
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T02:02:35.259175",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'compressing high-volume visual inputs to compact visual embeddings'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "compressing high-volume visual inputs to compact visual embeddings",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 50
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T02:02:45.137705",
+      "agent": "online_search_agent",
+      "action": "Online search: 'compressing visual inputs to compact embeddings'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "compressing visual inputs to compact embeddings",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 47,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 97
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T02:02:51.299356",
+      "agent": "online_search_agent",
+      "action": "Online search: 'visual compression compact embeddings'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "visual compression compact embeddings",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 29,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 126
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T02:03:07.475100",
+      "agent": "online_search_agent",
+      "action": "Online search: 'compressing high-volume visual inputs to compact visual embeddings'",
+      "result_preview": "Found 30 papers",
+      "details": {
+        "query": "compressing high-volume visual inputs to compact visual embeddings",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 30,
+        "papers_added": 5,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 131
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-03T02:03:14.102690",
+      "agent": "online_search_agent",
+      "action": "Online search: 'product quantization visual embeddings'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "product quantization visual embeddings",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 35,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 166
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-03T02:03:18.797860",
+      "agent": "online_search_agent",
+      "action": "Online search: 'visual token compression efficient representation learning'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "visual token compression efficient representation learning",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 41,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 207
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-03T02:03:31.070978",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'product quantization visual embeddings'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "product quantization visual embeddings",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 49,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 256
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-03T02:04:05.238034",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'compressing high-volume visual inputs to compact visual embeddings'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "compressing high-volume visual inputs to compact visual embeddings",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv"
+        ],
+        "start_year": 2020,
+        "end_year": 2026,
+        "papers_found": 50,
+        "papers_added": 9,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 265
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-03T02:04:19.080446",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'technical methodologies for visual input compression'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "technical methodologies for visual input compression",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv"
+        ],
+        "start_year": 2020,
+        "end_year": 2026,
+        "papers_found": 50,
+        "papers_added": 42,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 307
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-03T02:04:33.265029",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'performance metrics for visual embedding compression'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "performance metrics for visual embedding compression",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv"
+        ],
+        "start_year": 2020,
+        "end_year": 2026,
+        "papers_found": 50,
+        "papers_added": 30,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 337
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-03T02:04:41.103255",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'transformers visual compression'",
+      "result_preview": "Found 30 papers from local database",
+      "details": {
+        "query": "transformers visual compression",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 30,
+        "papers_added": 20,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 357
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-03T02:04:50.736673",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'visual token compression techniques'",
+      "result_preview": "Found 30 papers from local database",
+      "details": {
+        "query": "visual token compression techniques",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv"
+        ],
+        "start_year": 2020,
+        "end_year": 2026,
+        "papers_found": 30,
+        "papers_added": 16,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 373
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-03T02:05:02.905988",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'efficient visual representation learning'",
+      "result_preview": "Found 30 papers from local database",
+      "details": {
+        "query": "efficient visual representation learning",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv"
+        ],
+        "start_year": 2020,
+        "end_year": 2026,
+        "papers_found": 30,
+        "papers_added": 24,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 397
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-03T02:05:18.638090",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (summary)",
+      "result_preview": "Generated insights from 397 papers",
+      "details": {
+        "analysis_type": "summary"
+      },
+      "papers_count": 397
+    }
+  ],
+  "current_step": 15,
+  "metadata": {
+    "query": "efficient visual representation learning",
+    "total_steps": 15,
+    "last_updated": "2026-01-03T02:05:19.261835",
+    "started_at": "2026-01-03T02:01:58.793062",
+    "total_papers": 397
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "visual input compression",
+    "total_papers": 1035,
+    "unique_sources": 14,
+    "year_range": {
+      "min": 1989,
+      "max": 2028
+    },
+    "citation_summary": {
+      "total": 6736,
+      "average": 49.5
+    },
+    "top_source": "openalex",
+    "papers_with_pdf": 602,
+    "papers_with_doi": 554,
+    "processing_steps": 15
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (1) are from 2028",
+      "data": {
+        "year": 2028,
+        "count": 1
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "openalex contributes 247 papers (23%)",
+      "data": {
+        "source": "openalex",
+        "count": 247
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Bin Li has 7 papers in this collection",
+      "data": {
+        "author": "Bin Li",
+        "count": 7
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding...\" has 1464 citations",
+      "data": {
+        "title": "Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding",
+        "citations": 1464
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: compression, visual, learning, image, embeddings",
+      "data": {
+        "keywords": {
+          "compression": 281,
+          "visual": 249,
+          "learning": 135,
+          "image": 105,
+          "embeddings": 103
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "602/1035 papers (58%) have direct PDF links",
+      "data": {
+        "with_pdf": 602,
+        "total": 1035
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 1035 papers related to 'visual input compression'",
+    "Papers collected from 14 sources: offline_iccv, offline_iros, offline_iclr, offline_cvpr, offline_eccv, offline_aaai, offline_naacl, offline_nips, offline_emnlp, offline_icml, semantic_scholar, arxiv, dblp, openalex",
+    "Publication years range from 1989 to 2028",
+    "Total citations: 6736, Average: 49",
+    "Leading researchers: Bin Li, Yan Lu, Bin Chen"
+  ],
+  "metadata": {
+    "query": "visual input compression",
+    "total_steps": 15,
+    "last_updated": "2026-01-03T02:05:06.996840",
+    "started_at": "2026-01-03T02:01:46.074759",
+    "total_papers": 1035
+  }
+}

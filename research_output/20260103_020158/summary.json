@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "efficient visual representation learning",
+    "total_papers": 397,
+    "unique_sources": 8,
+    "year_range": {
+      "min": 2013,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 2351,
+      "average": 30.5
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 209,
+    "papers_with_doi": 86,
+    "processing_steps": 15
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (49) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 49
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 117 papers (29%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 117
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Sanjiv Kumar has 5 papers in this collection",
+      "data": {
+        "author": "Sanjiv Kumar",
+        "count": 5
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model...\" has 1326 citations",
+      "data": {
+        "title": "Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model",
+        "citations": 1326
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: visual, compression, efficient, learning, quantization",
+      "data": {
+        "keywords": {
+          "visual": 149,
+          "compression": 106,
+          "efficient": 64,
+          "learning": 58,
+          "quantization": 52
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "209/397 papers (52%) have direct PDF links",
+      "data": {
+        "with_pdf": 209,
+        "total": 397
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 397 papers related to 'efficient visual representation learning'",
+    "Papers collected from 8 sources: offline_iclr, offline_cvpr, offline_nips, offline_eccv, offline_iccv, offline_icml, semantic_scholar, arxiv",
+    "Publication years range from 2013 to 2026",
+    "Total citations: 2351, Average: 30",
+    "Leading researchers: Sanjiv Kumar, Yan Lu, Hao Chen"
+  ],
+  "metadata": {
+    "query": "efficient visual representation learning",
+    "total_steps": 15,
+    "last_updated": "2026-01-03T02:05:19.229958",
+    "started_at": "2026-01-03T02:01:58.793062",
+    "total_papers": 397
+  }
+}

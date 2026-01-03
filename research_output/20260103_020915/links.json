@@ -1,0 +1,131 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Development Education",
+        "url": "https://openalex.org/W2522369617",
+        "pdf_url": "https://lirias.kuleuven.be/bitstream/123456789/82197/1/UNESCOENGELS.pdf",
+        "doi_url": "https://doi.org/10.5040/9781350441491.ch-12",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Learning Visual Representation for Autonomous Drone Navigation via a Contrastive World Model",
+        "url": "https://www.semanticscholar.org/paper/d7b0ecfd49af85ff10a93ae879862751280e7fce",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/TAI.2023.3283488",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "ScaleNet: An Unsupervised Representation Learning Method for Limited Information",
+        "url": "https://www.semanticscholar.org/paper/13ec42ad568a73e48c29e9977155a980bb102a52",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/978-3-030-92659-5_11",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Wave-ViT: Unifying Wavelet and Transformers for Visual Representation Learning",
+        "url": "https://www.semanticscholar.org/paper/0b8e8760d7dd64c7439019aeb3b6ac55dd5075d4",
+        "pdf_url": "http://arxiv.org/pdf/2207.04978",
+        "doi_url": "https://doi.org/10.48550/arXiv.2207.04978",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "M2CURL: Sample-Efficient Multimodal Reinforcement Learning via Self-Supervised Representation Learning for Robotic Manipulation",
+        "url": "https://www.semanticscholar.org/paper/fbf083f969ee8142809a74b0ab143210c3aecf89",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/UR61395.2024.10597462",
+        "source": "semantic_scholar",
+        "year": 2024
+      }
+    ],
+    "by_source": {
+      "openalex": [
+        {
+          "title": "Development Education",
+          "url": "https://openalex.org/W2522369617",
+          "pdf_url": "https://lirias.kuleuven.be/bitstream/123456789/82197/1/UNESCOENGELS.pdf",
+          "doi_url": "https://doi.org/10.5040/9781350441491.ch-12",
+          "source": "openalex",
+          "year": 2025
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "Learning Visual Representation for Autonomous Drone Navigation via a Contrastive World Model",
+          "url": "https://www.semanticscholar.org/paper/d7b0ecfd49af85ff10a93ae879862751280e7fce",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/TAI.2023.3283488",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "ScaleNet: An Unsupervised Representation Learning Method for Limited Information",
+          "url": "https://www.semanticscholar.org/paper/13ec42ad568a73e48c29e9977155a980bb102a52",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/978-3-030-92659-5_11",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Wave-ViT: Unifying Wavelet and Transformers for Visual Representation Learning",
+          "url": "https://www.semanticscholar.org/paper/0b8e8760d7dd64c7439019aeb3b6ac55dd5075d4",
+          "pdf_url": "http://arxiv.org/pdf/2207.04978",
+          "doi_url": "https://doi.org/10.48550/arXiv.2207.04978",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "M2CURL: Sample-Efficient Multimodal Reinforcement Learning via Self-Supervised Representation Learning for Robotic Manipulation",
+          "url": "https://www.semanticscholar.org/paper/fbf083f969ee8142809a74b0ab143210c3aecf89",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/UR61395.2024.10597462",
+          "source": "semantic_scholar",
+          "year": 2024
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Development Education",
+        "pdf": "https://lirias.kuleuven.be/bitstream/123456789/82197/1/UNESCOENGELS.pdf"
+      },
+      {
+        "title": "Wave-ViT: Unifying Wavelet and Transformers for Visual Representation Learning",
+        "pdf": "http://arxiv.org/pdf/2207.04978"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "Development Education",
+        "doi": "https://doi.org/10.5040/9781350441491.ch-12"
+      },
+      {
+        "title": "Learning Visual Representation for Autonomous Drone Navigation via a Contrastive World Model",
+        "doi": "https://doi.org/10.1109/TAI.2023.3283488"
+      },
+      {
+        "title": "ScaleNet: An Unsupervised Representation Learning Method for Limited Information",
+        "doi": "https://doi.org/10.1007/978-3-030-92659-5_11"
+      },
+      {
+        "title": "Wave-ViT: Unifying Wavelet and Transformers for Visual Representation Learning",
+        "doi": "https://doi.org/10.48550/arXiv.2207.04978"
+      },
+      {
+        "title": "M2CURL: Sample-Efficient Multimodal Reinforcement Learning via Self-Supervised Representation Learning for Robotic Manipulation",
+        "doi": "https://doi.org/10.1109/UR61395.2024.10597462"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "parameter-efficient methods vision transformers sparse learning",
+    "total_steps": 15,
+    "last_updated": "2026-01-03T02:11:37.654872",
+    "started_at": "2026-01-03T02:09:17.155708",
+    "total_papers": 5
+  }
+}

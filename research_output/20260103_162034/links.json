@@ -1,0 +1,4367 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Impact of Evaluation Methodologies on Code Summarization",
+        "url": "https://aclanthology.org/2022.acl-long.339/",
+        "pdf_url": "https://aclanthology.org/2022.acl-long.339.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2022
+      },
+      {
+        "title": "Towards zero shot multivariate time series anomaly detection - A Realistic Evaluation",
+        "url": "https://openreview.net/forum?id=rCaA79Obsj",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "ThinkBench: Dynamic Out-of-Distribution Evaluation for Robust LLM Reasoning",
+        "url": "https://openreview.net/forum?id=ZKwlz9ZQxS",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Towards Federated Domain Unlearning: Verification Methodologies and Challenges",
+        "url": "https://openreview.net/forum?id=lXioFCPhcp",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "FreeEval: A Modular Framework for Trustworthy and Efficient Evaluation of Large Language Models",
+        "url": "https://aclanthology.org/2024.emnlp-demo.1/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-demo.1.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "WorldGym: World Model as An Environment for Policy Evaluation",
+        "url": "https://openreview.net/forum?id=hidBHy1CAw",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "A Procedural World Generation Framework for Systematic Evaluation of Continual Learning",
+        "url": "https://openreview.net/forum?id=LlCQWh8-pwK",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2021
+      },
+      {
+        "title": "WorldScore: A Unified Evaluation Benchmark for World Generation",
+        "url": "https://iccv.thecvf.com/virtual/2025/poster/169",
+        "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Duan_WorldScore_A_Unified_Evaluation_Benchmark_for_World_Generation_ICCV_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_iccv",
+        "year": 2025
+      },
+      {
+        "title": "JudgeAgent: Knowledge-wise and Dynamic LLM Evaluation with Agent-as-Interviewer",
+        "url": "https://openreview.net/forum?id=btK78ltFXJ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Learning To Drive From a World on Rails",
+        "url": "",
+        "pdf_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Learning_To_Drive_From_a_World_on_Rails_ICCV_2021_paper.pdf",
+        "doi_url": null,
+        "source": "offline_iccv",
+        "year": 2021
+      },
+      {
+        "title": "Beyond the Limits: A Survey of Techniques to Extend the Context Length in Large Language Models",
+        "url": "https://www.ijcai.org/proceedings/2024/917",
+        "pdf_url": "https://www.ijcai.org/proceedings/2024/0917.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2024
+      },
+      {
+        "title": "Exploring Nested Named Entity Recognition with Large Language Models: Methods, Challenges, and Insights",
+        "url": "https://aclanthology.org/2024.emnlp-main.492/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.492.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "End-to-End Driving with Online Trajectory Evaluation via BEV World Model",
+        "url": "https://iccv.thecvf.com/virtual/2025/poster/2716",
+        "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Li_End-to-End_Driving_with_Online_Trajectory_Evaluation_via_BEV_World_Model_ICCV_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_iccv",
+        "year": 2025
+      },
+      {
+        "title": "Towards World Simulator: Crafting Physical Commonsense-Based Benchmark for Video Generation",
+        "url": "https://openreview.net/forum?id=6rMHcLWxl4",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Do Vision-Language Models Have Internal World Models? Towards an Atomic Evaluation",
+        "url": "https://aclanthology.org/2025.findings-acl.1342/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.1342.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "VideoVerse: How Far is Your T2V Generator from a World Model?",
+        "url": "https://openreview.net/forum?id=yLL2oDvWSn",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "VIRTUAL CELLS AS CAUSAL WORLD MODELS: A PERSPECTIVE ON EVALUATION",
+        "url": "https://openreview.net/forum?id=qjIq4JWFVs",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Designing Skill-Compatible AI: Methodologies and Frameworks in Chess",
+        "url": "https://iclr.cc/virtual/2024/poster/19371",
+        "pdf_url": "https://openreview.net/pdf?id=79rfgv3jw4",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "offline_rl_ope: A Python package for off-policy evaluation of offline RL models with real world data",
+        "url": "https://openreview.net/forum?id=6PcJEFKvBD",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Reality Check: A New Evaluation Ecosystem Is Necessary to Understand AI's Real World Effects",
+        "url": "https://openreview.net/forum?id=V5PNJ5HnpA",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Remote Sensing-Oriented World Model",
+        "url": "https://openreview.net/forum?id=eEdukIJ7lQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Torch-Uncertainty: Deep Learning Uncertainty Quantification",
+        "url": "https://openreview.net/forum?id=oYfRRQr9uK",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Offline Reinforcement Learning with Closed-loop Policy Evaluation and Diffusion World-Model Adaptation",
+        "url": "https://openreview.net/forum?id=1zuJZ1jGvT",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Adapting Vision-Language Models for Evaluating World Models",
+        "url": "https://openreview.net/forum?id=BXKgPhaOzr",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Document Understanding Dataset and Evaluation (DUDE)",
+        "url": "",
+        "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Van_Landeghem_Document_Understanding_Dataset_and_Evaluation_DUDE_ICCV_2023_paper.pdf",
+        "doi_url": null,
+        "source": "offline_iccv",
+        "year": 2023
+      },
+      {
+        "title": "Domain Engineering to Represent Human Behavior Using Multi-Agent Planning and Inductive Methodologies",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30391",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30391/32458",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2024
+      },
+      {
+        "title": "AutoEval-ToD: Automated Evaluation of Task-oriented Dialog Systems",
+        "url": "https://aclanthology.org/2025.naacl-long.508/",
+        "pdf_url": "https://aclanthology.org/2025.naacl-long.508.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2025
+      },
+      {
+        "title": "WorldSimBench: Towards Video Generation Models as World Simulators",
+        "url": "https://openreview.net/forum?id=ejGAytoWoe",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Learning Knowledge Graph-based World Models of Textual Environments",
+        "url": "https://nips.cc/virtual/2021/poster/28729",
+        "pdf_url": "https://openreview.net/pdf?id=o24k_XfIe6_",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2021
+      },
+      {
+        "title": "MMWorld: Towards Multi-discipline Multi-faceted World Model Evaluation in Videos",
+        "url": "https://openreview.net/forum?id=mDRmX8IlBI",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Benchmarking Structural Inference Methods for Interacting Dynamical Systems with Synthetic Data",
+        "url": "https://openreview.net/forum?id=PCXvcULwiI",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Statistical Methodologies for Decision-Making and Uncertainty Reduction in Machine Learning",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/35236",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/35236/37391",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2025
+      },
+      {
+        "title": "Probing Memes in LLMs: A Paradigm for the Entangled Evaluation World",
+        "url": "https://openreview.net/forum?id=PSW2bVPkVf",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving",
+        "url": "https://openreview.net/forum?id=OrgL5DsU0f",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Leveraging Visual Embeddings from Instagram for Credit Scoring of Informal Microbusinesses",
+        "url": "https://openreview.net/forum?id=5izkRQEo5c",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation",
+        "url": "https://openreview.net/forum?id=uAeqQePu4c",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Around the World in 24 Hours: Probing LLM Knowledge of Time and Place",
+        "url": "https://aclanthology.org/2025.acl-long.1115/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1115.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Sparse World Models: Visual World Modeling with Sparse Representations",
+        "url": "https://openreview.net/forum?id=e0mUayPl40",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Beyond Factuality: A Comprehensive Evaluation of Large Language Models as Knowledge Generators",
+        "url": "https://openreview.net/forum?id=clTPP37Rpu",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "Sekai: A Video Dataset towards World Exploration",
+        "url": "https://openreview.net/forum?id=I3F7w8MvY9",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Reasoning Language Model Inference Serving Unveiled: An Empirical Study",
+        "url": "https://openreview.net/forum?id=6CGjZYp6ft",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "A grid world agent with favorable inductive biases",
+        "url": "https://openreview.net/forum?id=0spR7wDwBh",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Bridging the Reality Gap: A Benchmark for Physical Reasoning in General World Models with Various Physical Phenomena beyond Mechanics",
+        "url": "https://openreview.net/forum?id=vsYt8UHGzI",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Paintings and Drawings Aesthetics Assessment with Rich Attributes for Various Artistic Categories",
+        "url": "https://www.ijcai.org/proceedings/2024/849",
+        "pdf_url": "https://www.ijcai.org/proceedings/2024/0849.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2024
+      },
+      {
+        "title": "Pitfalls in Evaluating Language Model Forecasters",
+        "url": "https://openreview.net/forum?id=z85kARAoyD",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "WorldPack: Compressed Memory Improves Spatial Consistency in Video World Modeling",
+        "url": "https://openreview.net/forum?id=CuNHz3zxgm",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Evaluating the World Model Implicit in a Generative Model",
+        "url": "https://neurips.cc/virtual/2024/poster/94550",
+        "pdf_url": "https://openreview.net/pdf?id=aVK4JFpegy",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "WorldModelBench: Judging Video Generation Models As World Models",
+        "url": "https://openreview.net/forum?id=a3hafrDzuA",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Carpe diem: On the Evaluation of World Knowledge in Lifelong Language Models",
+        "url": "https://aclanthology.org/2024.naacl-long.302/",
+        "pdf_url": "https://aclanthology.org/2024.naacl-long.302.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2024
+      },
+      {
+        "title": "Towards Open World Object Detection",
+        "url": "",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Joseph_Towards_Open_World_Object_Detection_CVPR_2021_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2021
+      },
+      {
+        "title": "Text2World: Benchmarking Large Language Models for Symbolic World Model Generation",
+        "url": "https://aclanthology.org/2025.findings-acl.1337/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.1337.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Can World Models Benefit VLMs for World Dynamics?",
+        "url": "https://openreview.net/forum?id=LFCSVVIy1x",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Towards Open World Recognition",
+        "url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Bendale_Towards_Open_World_2015_CVPR_paper.html",
+        "pdf_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Bendale_Towards_Open_World_2015_CVPR_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2015
+      },
+      {
+        "title": "Real World Conversational Entity Linking Requires More Than Zero-Shots",
+        "url": "https://aclanthology.org/2024.findings-acl.829/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.829.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Opening Up Open World Tracking",
+        "url": "",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Opening_Up_Open_World_Tracking_CVPR_2022_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2022
+      },
+      {
+        "title": "SpreadsheetBench: Towards Challenging Real World Spreadsheet Manipulation",
+        "url": "https://neurips.cc/virtual/2024/poster/97753",
+        "pdf_url": "https://openreview.net/pdf?id=KYxzmRLF6i",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Quantitative Evaluation of Confidence Measures in a Machine Learning World",
+        "url": "",
+        "pdf_url": "http://openaccess.thecvf.com/content_ICCV_2017/papers/Poggi_Quantitative_Evaluation_of_ICCV_2017_paper.pdf",
+        "doi_url": null,
+        "source": "offline_iccv",
+        "year": 2017
+      },
+      {
+        "title": "Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving",
+        "url": "https://cvpr.thecvf.com/virtual/2024/poster/31475",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Driving_into_the_Future_Multiview_Visual_Forecasting_and_Planning_with_CVPR_2024_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2024
+      },
+      {
+        "title": "Medical World Model",
+        "url": "https://iccv.thecvf.com/virtual/2025/poster/2605",
+        "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Yang_Medical_World_Model_ICCV_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_iccv",
+        "year": 2025
+      },
+      {
+        "title": "Bootstrapping World Models from Dynamics Models in Multimodal Foundation Models",
+        "url": "https://openreview.net/forum?id=FsfJ3lJhMJ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability",
+        "url": "https://neurips.cc/virtual/2024/poster/95003",
+        "pdf_url": "https://openreview.net/pdf?id=Tw9nfNyOMy",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Ctrl-World: A Controllable Generative World Model for Robot Manipulation",
+        "url": "https://openreview.net/forum?id=748bHL2BAv",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "A Real World Dataset for Multi-View 3D Reconstruction",
+        "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/2610_ECCV_2022_paper.php",
+        "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136680054.pdf",
+        "doi_url": null,
+        "source": "offline_eccv",
+        "year": 2022
+      },
+      {
+        "title": "Breeding Machine Translations: Evolutionary approach to survive and thrive in the world of automated evaluation",
+        "url": "https://aclanthology.org/2023.acl-long.122/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.122.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Scaling Offline Evaluation of Reinforcement Learning Agents through Abstraction",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30283",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30283/32281",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2024
+      },
+      {
+        "title": "Dreamland: Hybrid World Creation with Simulator and Generative Models",
+        "url": "https://openreview.net/forum?id=I9pQJJWKn3",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Pay Attention to Real World Perturbations! Natural Robustness Evaluation in Machine Reading Comprehension",
+        "url": "https://openreview.net/forum?id=L5dUM6prKw",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "BridgeV2W: Bridging Video Generation Models to Embodied World Models via Embodiment Masks",
+        "url": "https://openreview.net/forum?id=ZGWwV34Vmu",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "UC-OWOD: Unknown-Classified Open World Object Detection",
+        "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5661_ECCV_2022_paper.php",
+        "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136700191.pdf",
+        "doi_url": null,
+        "source": "offline_eccv",
+        "year": 2022
+      },
+      {
+        "title": "ClinicalLab: Aligning Agents for Multi-Departmental Clinical Diagnostics in the Real World",
+        "url": "https://openreview.net/forum?id=ukXJIhQaR5",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "WoW!: World Models in a Closed-Loop World",
+        "url": "https://openreview.net/forum?id=yDmb7xAfeb",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Learning Latent Dynamic Robust Representations for World Models",
+        "url": "https://icml.cc/virtual/2024/poster/34700",
+        "pdf_url": "https://openreview.net/pdf?id=C4jkx6AgWc",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "ENHANCING SIGN LANGUAGE RECOGNITION THROUGH DEEP LEARNING: A SYSTEMATIC REVIEW AND EXPERIMENT FRAMEWORK",
+        "url": "https://openalex.org/W7118022849",
+        "pdf_url": "https://doi.org/10.70382/hijcisr.v10i9.032",
+        "doi_url": "https://doi.org/10.70382/hijcisr.v10i9.032",
+        "source": "openalex",
+        "year": 2026
+      },
+      {
+        "title": "Quantum-Resistant Framework for Secure Multi-Party Communication in Next-Generation Networks: Integrating Lattice-Based Cryptography with Bayesian Threat Inference and AI Applications",
+        "url": "https://openalex.org/W7117473454",
+        "pdf_url": "https://doi.org/10.5281/zenodo.18076698",
+        "doi_url": "https://doi.org/10.5281/zenodo.18076698",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Enhancing practical laboratory skills through video-based flipped learning",
+        "url": "https://openalex.org/W7117547191",
+        "pdf_url": "https://www.dpublication.com/conference-proceedings/index.php/ntteconf/article/download/1292/1002",
+        "doi_url": "https://doi.org/10.33422/ntteconf.v2i1.1292",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Reliability analysis of inverted exponentiated Rayleigh parameters via progressive hybrid censoring data with applications in medical data",
+        "url": "https://openalex.org/W7117560843",
+        "pdf_url": "https://doi.org/10.1371/journal.pone.0336169",
+        "doi_url": "https://doi.org/10.1371/journal.pone.0336169",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Sejarah Pramuka Masa Orde Baru 1970-1978",
+        "url": "https://openalex.org/W7117876605",
+        "pdf_url": "https://journal.lppmunindra.ac.id/index.php/herodotus/article/download/28704/8006",
+        "doi_url": "https://doi.org/10.30998/herodotus.v8i3.28704",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Decoding Energy Consumption in the ESG Era: Panel Data Evidence and Machine Learning Insights",
+        "url": "https://openalex.org/W7117534345",
+        "pdf_url": "https://www.preprints.org/frontend/manuscript/a0c2203fad3273847fdea33d26b151e2/download_pub",
+        "doi_url": "https://doi.org/10.20944/preprints202512.2529.v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "A Survey on Acoustic Side-Channel Attacks: An Artificial Intelligence Perspective",
+        "url": "https://openalex.org/W7117706629",
+        "pdf_url": "https://www.mdpi.com/2624-800X/6/1/6/pdf?version=1767004203",
+        "doi_url": "https://doi.org/10.3390/jcp6010006",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "THE THEORETICAL FOUNDATIONS AND PRACTICAL APPLICATIONS OF ECONOMETRIC MODELING",
+        "url": "https://openalex.org/W7117406693",
+        "pdf_url": "https://doi.org/10.5281/zenodo.18065826",
+        "doi_url": "https://doi.org/10.5281/zenodo.18065826",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Personalized-Marketing-DRL",
+        "url": "https://openalex.org/W7117412689",
+        "pdf_url": "https://doi.org/10.5281/zenodo.18065295",
+        "doi_url": "https://doi.org/10.5281/zenodo.18065295",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Functional Classification of Spiking Signal Data Using Artificial Intelligence Techniques: A Systematic Review",
+        "url": "https://openalex.org/W7117371911",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1002/widm.70053",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Surrogate-Assisted Many-Objective Optimization of Injection Molding: Effects of Objective Selection and Sampling Density",
+        "url": "https://openalex.org/W7117465726",
+        "pdf_url": "https://www.preprints.org/frontend/manuscript/411bcacb18218ba00b829abdc429ba8f/download_pub",
+        "doi_url": "https://doi.org/10.20944/preprints202512.2408.v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "A Survey of Single Image Blind Motion Deblurring from Traditional to Deep Learning",
+        "url": "https://openalex.org/W7117245941",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1145/3785655",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Interpretability and Trust in Large Language and Agentic Models: A Survey of Methods, Metrics, and Applications",
+        "url": "https://openalex.org/W7117165745",
+        "pdf_url": "https://doi.org/10.31224/6090",
+        "doi_url": "https://doi.org/10.31224/6090",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "A Multi-Feature Extraction and Selection Framework for High-Accuracy Surface Defect Classification in Industrial Casting Parts",
+        "url": "https://openalex.org/W7116933935",
+        "pdf_url": "https://dergipark.org.tr/en/download/article-file/5391057",
+        "doi_url": "https://doi.org/10.55213/kmujens.1817251",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Advanced modeling and parameter estimation of PEM fuel cells using the g-function and self-adaptive differential evolution algorithm",
+        "url": "https://openalex.org/W7116735671",
+        "pdf_url": "https://doi.org/10.1038/s41598-025-27991-x",
+        "doi_url": "https://doi.org/10.1038/s41598-025-27991-x",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Multi-Modal-Sentiment-Analysis",
+        "url": "https://openalex.org/W7116967695",
+        "pdf_url": "https://doi.org/10.5281/zenodo.18014471",
+        "doi_url": "https://doi.org/10.5281/zenodo.18014471",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Elevating Intrusion Detection and Security Fortification in Intelligent Networks through Cutting-Edge Machine Learning Paradigms",
+        "url": "https://openalex.org/W7117115013",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.19037",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.19037",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Iтеративна оптимiзацiя попиту з використанням методу дискретних функцiональних частинок",
+        "url": "https://openalex.org/W7117397817",
+        "pdf_url": "https://mmj.ukma.edu.ua/article/view/348395",
+        "doi_url": null,
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "A comparative analysis of modern load forecasting techniques",
+        "url": "https://openalex.org/W4417536803",
+        "pdf_url": "https://annalsmcs.org/index.php/amcs/article/download/727/239",
+        "doi_url": "https://doi.org/10.56947/amcs.v31.727",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Journal of Communication and Information Systems",
+        "url": "https://openalex.org/W4232216697",
+        "pdf_url": "https://jcis.sbrt.org.br/jcis/article/download/745/511/3358",
+        "doi_url": "https://doi.org/10.14209/jcis",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Deep Ensemble Learning Model for Waste Classification Systems",
+        "url": "https://openalex.org/W4417493752",
+        "pdf_url": "https://doi.org/10.3390/su18010024",
+        "doi_url": "https://doi.org/10.3390/su18010024",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Deep Learning in Healthcare: Technical Insights and Neural Network Applications in Medical Diagnosis and Prognosis",
+        "url": "https://openalex.org/W7116399765",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17985045",
+        "doi_url": "https://doi.org/10.5281/zenodo.17985045",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Exploratory Analysis and Prediction of Weather Conditions: Leveraging Feature Engineering and Machine Learning Models for Accurate Forecasting",
+        "url": "https://openalex.org/W7116749912",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1051/epjconf/202534305008/pdf",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "A Systematic Review: Zero-Watermarking Techniques Analysis for 3D Video Protection",
+        "url": "https://openalex.org/W4417456848",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1145/3778748",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "A Decade of Soft Robotic Manipulators: Advances in Design, Modeling, Control, and Emerging Challenges",
+        "url": "https://openalex.org/W4417436009",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s42235-025-00819-0.pdf",
+        "doi_url": "https://doi.org/10.1007/s42235-025-00819-0",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Object Tracking Based on Quantum Particle Swarm Optimization",
+        "url": "https://openalex.org/W2739161698",
+        "pdf_url": "https://doi.org/10.24073/jga/6/02/05",
+        "doi_url": "https://doi.org/10.24073/jga/6/02/05",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Development Education",
+        "url": "https://openalex.org/W2522369617",
+        "pdf_url": "https://lirias.kuleuven.be/bitstream/123456789/82197/1/UNESCOENGELS.pdf",
+        "doi_url": "https://doi.org/10.5040/9781350441491.ch-12",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Beyond MMD: Evaluating Graph Generative Models with Geometric Deep Learning",
+        "url": "https://openalex.org/W4417467406",
+        "pdf_url": "https://arxiv.org/pdf/2512.14241",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.14241",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "The Convergence of Shadow and Silicon: Advanced Forensic Methodologies for Decentralized Webs, Generative AI, and Darknet Infrastructure",
+        "url": "https://openalex.org/W7116767500",
+        "pdf_url": "https://doi.org/10.53573/rhimrj.2025.v12n12.004",
+        "doi_url": "https://doi.org/10.53573/rhimrj.2025.v12n12.004",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "APPLIED RESEARCH IN TOURISM &amp; HOSPITALITY STUDIES",
+        "url": "https://openalex.org/W7117295027",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.61909/amkedtb122548",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Common air quality modelling methods and applications: A review paper",
+        "url": "https://openalex.org/W4417306017",
+        "pdf_url": "https://doi.org/10.51489/tuzal.1710679",
+        "doi_url": "https://doi.org/10.51489/tuzal.1710679",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "PREreview of \"Auto-Prep: Holistic Prediction of Data Preparation Steps for Self-Service Business Intelligence\"",
+        "url": "https://openalex.org/W7115065719",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17925095",
+        "doi_url": "https://doi.org/10.5281/zenodo.17925095",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Predicting E-Commerce Purchase Intention Using Machine Learning",
+        "url": "https://openalex.org/W7116867858",
+        "pdf_url": "https://doi.org/10.55164/ajstr.v29i1.260159",
+        "doi_url": "https://doi.org/10.55164/ajstr.v29i1.260159",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "An Explainable AI for Stock Market Prediction: A Machine Learning Approach with XAI and Deep Neural Networks",
+        "url": "https://openalex.org/W4417213819",
+        "pdf_url": "https://ojs.bonviewpress.com/index.php/JCCE/article/download/6428/1721",
+        "doi_url": "https://doi.org/10.47852/bonviewjcce52026428",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Machine learning-enhanced metal oxide gas sensor arrays: a review of selectivity and performance improvements",
+        "url": "https://openalex.org/W4417214310",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.1108/sr-08-2025-0639",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Stylized Meta-Album: Group-bias injection with style transfer to study robustness against distribution shifts",
+        "url": "https://openalex.org/W4417210282",
+        "pdf_url": "https://arxiv.org/pdf/2512.09773",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.09773",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Kritieke vragen in geheugenveiligheid belicht: van programmeertaal tot hardware",
+        "url": "https://openalex.org/W7114832124",
+        "pdf_url": "https://lirias.kuleuven.be/handle/20.500.12942/777852",
+        "doi_url": null,
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Case Studies in Accounting Research",
+        "url": "https://openalex.org/W2580103734",
+        "pdf_url": "http://eprints.whiterose.ac.uk/105811/3/Chapter%2010FIN%20Lee%20and%20Humphrey%202016%20Case%20study%20methodology%20%20in%20accounting%20research.pdf",
+        "doi_url": "https://doi.org/10.4324/9781003509295-18",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "A Comparative Analysis of Brain Tumor Detection and Classification using Machine Learning Algorithms",
+        "url": "https://openalex.org/W7110930925",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17864132",
+        "doi_url": "https://doi.org/10.5281/zenodo.17864132",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Designing an Academic Software Factory for AI-Based Systems Development from Professors' Perspectives",
+        "url": "https://openalex.org/W7116089990",
+        "pdf_url": "https://journals-sol.sbc.org.br/index.php/rbie/article/download/5647/3651",
+        "doi_url": "https://doi.org/10.5753/rbie.2025.5647",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Influence of human factors on the safety performance in Saudi Arabian construction industry",
+        "url": "https://openalex.org/W3094925317",
+        "pdf_url": "http://usir.salford.ac.uk/id/eprint/58136/1/Yasir%20Azmat%20PhD%20thesis%20%2803.09.2020%29%20Influence%20of%20Human%20Factors%20on%20the%20safety%20performance%20of%20Saudi%20Arabian%20construction%20industry.pdf",
+        "doi_url": "https://doi.org/10.17866/rk7m-5a20",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "The Cognitive Hologram of AI Knowledge",
+        "url": "https://openalex.org/W7111072102",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17860776",
+        "doi_url": "https://doi.org/10.5281/zenodo.17860776",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "url": "http://arxiv.org/abs/2512.25075v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "url": "http://arxiv.org/abs/2512.25074v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "url": "http://arxiv.org/abs/2512.25073v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "url": "http://arxiv.org/abs/2512.25071v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "url": "http://arxiv.org/abs/2512.25072v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "url": "http://arxiv.org/abs/2512.25070v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "url": "http://arxiv.org/abs/2512.25067v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "url": "http://arxiv.org/abs/2512.25066v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "url": "http://arxiv.org/abs/2512.25065v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "url": "http://arxiv.org/abs/2512.25064v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+        "url": "http://arxiv.org/abs/2512.25063v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25063v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "On the geometry and topology of representations: the manifolds of modular addition",
+        "url": "http://arxiv.org/abs/2512.25060v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25060v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "url": "http://arxiv.org/abs/2512.25059v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "url": "http://arxiv.org/abs/2512.25056v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "url": "http://arxiv.org/abs/2512.25055v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Fluid dynamics as intersection problem",
+        "url": "http://arxiv.org/abs/2512.25053v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25053v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+        "url": "http://arxiv.org/abs/2512.25050v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25050v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "url": "http://arxiv.org/abs/2512.25046v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "url": "http://arxiv.org/abs/2512.25045v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "url": "http://arxiv.org/abs/2512.25042v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "url": "http://arxiv.org/abs/2512.25040v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Anomalous (3+1)d Fermionic Topological Quantum Field Theories via Symmetry Extension",
+        "url": "http://arxiv.org/abs/2512.25038v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25038v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Large Neutrino-Dark Matter Interactions: From Effective Field Theory to Ultraviolet Completions",
+        "url": "http://arxiv.org/abs/2512.25035v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25035v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Generative Classifiers Avoid Shortcut Solutions",
+        "url": "http://arxiv.org/abs/2512.25034v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25034v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+        "url": "http://arxiv.org/abs/2512.25033v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25033v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Testing Monotonicity in a Finite Population",
+        "url": "http://arxiv.org/abs/2512.25032v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25032v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Fractal conduction pathways governing ionic transport in a glass",
+        "url": "http://arxiv.org/abs/2512.25031v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25031v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Multivariate Generalized Counting Process via Gamma Subordination",
+        "url": "http://arxiv.org/abs/2512.25030v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25030v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Universal Seesaw Pati-Salam Model with P for Strong CP",
+        "url": "http://arxiv.org/abs/2512.25028v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25028v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Computational Analysis of Disease Progression in Pediatric Pulmonary Arterial Hypertension",
+        "url": "http://arxiv.org/abs/2512.25027v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25027v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Modeling Language as a Sequence of Thoughts",
+        "url": "http://arxiv.org/abs/2512.25026v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25026v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Modewise Additive Factor Model for Matrix Time Series",
+        "url": "http://arxiv.org/abs/2512.25025v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25025v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+        "url": "http://arxiv.org/abs/2512.25023v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25023v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Real Riemann Surfaces: Smooth and Discrete",
+        "url": "http://arxiv.org/abs/2512.25022v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25022v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Approximation Algorithms for Fair Repetitive Scheduling",
+        "url": "http://arxiv.org/abs/2512.25020v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25020v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Loop-Level Lepton Flavor Violation and Diphoton Signals in the Minimal Left-Right Symmetric Model",
+        "url": "http://arxiv.org/abs/2512.25019v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25019v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Strengthening Dual Bounds for Multicommodity Capacitated Network Design with Unsplittable Flow Constraints",
+        "url": "http://arxiv.org/abs/2512.25018v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25018v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Approximations for the Weighted Reversal, Transposition, and Indel Distance Problem with Intergenic Region Information",
+        "url": "http://arxiv.org/abs/2512.25016v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25016v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+        "url": "http://arxiv.org/abs/2512.25015v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25015v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Diffusion Language Models are Provably Optimal Parallel Samplers",
+        "url": "http://arxiv.org/abs/2512.25014v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25014v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Parity order as a fundamental driver of bosonic topology",
+        "url": "http://arxiv.org/abs/2512.25011v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25011v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The splitting field and generators of the elliptic surface $Y^2=X^3 +t^{360} +1$",
+        "url": "http://arxiv.org/abs/2512.25009v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25009v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM",
+        "url": "http://arxiv.org/abs/2512.25008v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25008v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Uniqueness for stochastic differential equations in Hilbert spaces with irregular drift",
+        "url": "http://arxiv.org/abs/2512.25003v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25003v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Distributions of wide binary stars in theory and in Gaia data: III. Orbital momenta, masses, and manifestations of MOND",
+        "url": "http://arxiv.org/abs/2512.25002v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25002v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The local limit of weighted spanning trees on balanced networks",
+        "url": "http://arxiv.org/abs/2512.25001v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25001v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Bi-C2R: Bidirectional Continual Compatible Representation for Re-indexing Free Lifelong Person Re-identification",
+        "url": "http://arxiv.org/abs/2512.25000v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25000v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Basic Inequalities for First-Order Optimization with Applications to Statistical Risk Analysis",
+        "url": "http://arxiv.org/abs/2512.24999v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24999v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Numerical study of boson mixtures with multi-component continuous matrix product states",
+        "url": "http://arxiv.org/abs/2512.24998v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24998v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Classifying long legal documents using short random chunks",
+        "url": "http://arxiv.org/abs/2512.24997v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24997v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Demonstration of quality evaluation for MDA-based web engineering methodologies using quality evaluation framework – WSDMDA case study",
+        "url": "https://www.semanticscholar.org/paper/7b91658b6e00d8419e02a7b16fddaa814c019790",
+        "pdf_url": "https://wjaets.com/sites/default/files/WJAETS-2024-0305.pdf",
+        "doi_url": "https://doi.org/10.30574/wjaets.2024.12.2.0305",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Enhancing Brain Tumor Classification by a Comprehensive Study on Transfer Learning Techniques and Model Efficiency Using MRI Datasets",
+        "url": "https://www.semanticscholar.org/paper/2681217d286416a6c91a6bc9d1f01fba5131d49f",
+        "pdf_url": "https://doi.org/10.1109/access.2024.3430109",
+        "doi_url": "https://doi.org/10.1109/ACCESS.2024.3430109",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Comprehensive GIS-driven evaluation of drought severity and duration: comparative assessment of parametric and non-parametric SPI methodologies",
+        "url": "https://www.semanticscholar.org/paper/0ae9a2b2a8dfbccc55b314b5a848203bef632a4b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/s00704-025-05448-5",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Efficacy Evaluation of You Only Learn One Representation (YOLOR) Algorithm in Detecting, Tracking, and Counting Vehicular Traffic in Real-World Scenarios, the Case of Morelia México: An Artificial Intelligence Approach",
+        "url": "https://www.semanticscholar.org/paper/09e795965988b090bac15b5955c6fe482858ea59",
+        "pdf_url": "https://doi.org/10.3390/ai5030077",
+        "doi_url": "https://doi.org/10.3390/ai5030077",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Machine Learning Techniques for Maternal Health Risk Prediction: A Comparative Performance Analysis with Real-World Data",
+        "url": "https://www.semanticscholar.org/paper/13abf35e6b1bde7e7c7ff7948145b66cc91438ba",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICIMTech67074.2025.11265208",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Differential evolution using novel individual evaluation and constraint handling techniques for constrained optimization",
+        "url": "https://www.semanticscholar.org/paper/31f8cdf056b93662ff19575011d7aa3bb00fe314",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/s00500-021-05831-0",
+        "source": "semantic_scholar",
+        "year": 2021
+      },
+      {
+        "title": "Text-Based Personality Assessment Using Deep Learning Techniques",
+        "url": "https://www.semanticscholar.org/paper/c0a46c3e72ac11bfa923e207c858e2f6c57cf886",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICETCS61022.2024.10543333",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Advanced Machine Learning Approaches for Robust Credit Card Fraud Detection: A Comprehensive Evaluation and Practical Insights",
+        "url": "https://www.semanticscholar.org/paper/5a1780e582e94179d8844836074e8adb9ea58eb4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICACC63692.2024.10845703",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Approaches for Groundwater Vulnerability Assessment in Relation to Pollution Potential: A Critical Evaluation and Challenges",
+        "url": "https://www.semanticscholar.org/paper/aab507fd24f70ff5bbe2350afa5fe739886debe4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/s12594-023-2440-8",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "An Innovative synthesis of deep learning techniques (DCapsNet & DCOM) for generation electrical renewable energy from wind energy",
+        "url": "https://www.semanticscholar.org/paper/ec915b9ab6c4caaaf3e9b908a3b997ea5154b090",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/s00500-020-04905-9",
+        "source": "semantic_scholar",
+        "year": 2020
+      },
+      {
+        "title": "Evaluation of Traffic Signal Control at Varying Demand Levels: A Comparative Study",
+        "url": "https://www.semanticscholar.org/paper/a1869fa92d72ccba3ee040c700a64fd67e3ae43a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ITSC57777.2023.10421894",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Image Processing Model for Sign Language Recognition System",
+        "url": "https://www.semanticscholar.org/paper/02cd685d0ad0667e98c7cf9dd8cdfc66f41c501d",
+        "pdf_url": "https://doi.org/10.22214/ijraset.2024.61671",
+        "doi_url": "https://doi.org/10.22214/ijraset.2024.61671",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Explainable AI (XAI) for trustworthy and transparent decision-making: A theoretical framework for AI interpretability",
+        "url": "https://www.semanticscholar.org/paper/f29ad386529f7a46aab64d8dae4dbc4186599115",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.30574/wjaets.2025.14.3.0106",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Using Feature Selection Enhancement to Evaluate Attack Detection in the Internet of Things Environment",
+        "url": "https://www.semanticscholar.org/paper/09b4a93a614ae4c392d1aa3cf3ed6789b7706e59",
+        "pdf_url": "https://www.mdpi.com/2079-9292/13/9/1678/pdf?version=1714126105",
+        "doi_url": "https://doi.org/10.3390/electronics13091678",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Emerging SMOTE and GAN Variants for Data Augmentation in Imbalance Machine Learning Tasks: A Review",
+        "url": "https://www.semanticscholar.org/paper/5e936f2b93338539f8e49cb1221412dd95c96dc5",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ACCESS.2025.3584532",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Artificial Intelligence Technologies for Forecasting Air Pollution and Human Health: A Narrative Review",
+        "url": "https://www.semanticscholar.org/paper/cf7e45b140806ecd7805961c280c463b91717559",
+        "pdf_url": "https://www.mdpi.com/2071-1050/14/16/9951/pdf?version=1660736466",
+        "doi_url": "https://doi.org/10.3390/su14169951",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "Deep Learning based detection of Diabetic Retinopathy from Inexpensive fundus imaging techniques",
+        "url": "https://www.semanticscholar.org/paper/6bd281806f2eb30a4b497706e260dd2cd8e134e9",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/CONECCT52877.2021.9622703",
+        "source": "semantic_scholar",
+        "year": 2021
+      },
+      {
+        "title": "Optimization of Sensor Placement for Modal Testing Using Machine Learning",
+        "url": "https://www.semanticscholar.org/paper/48f28b923e4b6599e59ce9d57ab23609797e767d",
+        "pdf_url": "https://www.mdpi.com/2076-3417/14/7/3040/pdf?version=1712235009",
+        "doi_url": "https://doi.org/10.3390/app14073040",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "BTS: A Comprehensive Benchmark for Tie Strength Prediction",
+        "url": "https://www.semanticscholar.org/paper/86c6269d90889b4fa331b7fdc6d47144cc0d6e4c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3711896.3737441",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Metric-Based Few-Shot Learning With Triplet Selection for Adaptive GNSS Interference Classification",
+        "url": "https://www.semanticscholar.org/paper/b2b19c7d265f8a1af2b960a3273d0503ff50aa8e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/JISPIN.2025.3562140",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Leveraging probability and statistical algorithms for enhanced financial risk management",
+        "url": "https://www.semanticscholar.org/paper/a46251dd272216563ef4ec6c881105fb38c489c1",
+        "pdf_url": "https://tns.ewapublishing.org/media/7514b77079e44028891afec97578d855.marked.pdf",
+        "doi_url": "https://doi.org/10.54254/2753-8818/38/20240553",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Neural Bridge Sampling for Evaluating Safety-Critical Autonomous Systems",
+        "url": "https://www.semanticscholar.org/paper/455951582f2431f374954879dfc6371c03a6d232",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2020
+      },
+      {
+        "title": "A State-of-the-Art Review of Time Series Forecasting Using Deep Learning Approaches",
+        "url": "https://www.semanticscholar.org/paper/5ce3d586b66418579c31290eb2ab9fd741786d91",
+        "pdf_url": "https://ijritcc.org/index.php/ijritcc/article/download/5890/5570",
+        "doi_url": "https://doi.org/10.17762/ijritcc.v10i12.5890",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "Disassembly Sequence Planning (DSP) Applied to a Gear Box: Comparison between Two Literature Studies",
+        "url": "https://www.semanticscholar.org/paper/4e34bc42af41a5491b30728d3591754a0d93b3e5",
+        "pdf_url": "https://www.mdpi.com/2076-3417/10/13/4591/pdf?version=1594125816",
+        "doi_url": "https://doi.org/10.3390/app10134591",
+        "source": "semantic_scholar",
+        "year": 2020
+      },
+      {
+        "title": "A systematic literature review on Machine Learning Model evaluation on healthcare applications",
+        "url": "https://www.semanticscholar.org/paper/c7ae3b57d7707ba96955625dec8d9ca5d5872e33",
+        "pdf_url": "https://rsdjournal.org/index.php/rsd/article/download/42042/34097",
+        "doi_url": "https://doi.org/10.33448/rsd-v12i6.42042",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Advanced Deep Learning Techniques for Analyzing Earnings Call Transcripts: Methodologies and Applications",
+        "url": "https://www.semanticscholar.org/paper/77a40b5a0d15a6155aa9811cce9f30a1bcee3ce9",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2503.01886",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Machine learning approaches to anxiety detection: trends, model evaluation, and future directions",
+        "url": "https://www.semanticscholar.org/paper/02d288caa8e1a846a20d5309b157c22ebe7b4257",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.3389/frai.2025.1630047",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Innovative active learning in engineering: A course model combining flipped classroom, real-time evaluation, and real-world projects",
+        "url": "https://www.semanticscholar.org/paper/2f8230166ac9957a029ead7879dfc28cf49d0445",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.55284/ajel.v10i2.1605",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Using Code Adequacy Methodologies in Confomance with ASME Standards for Nuclear Power Plant Analysis Evaluation Models",
+        "url": "https://www.semanticscholar.org/paper/713fa8605f2f1ccf974d2d057d643d85db70e30c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1115/vvuq2023-108796",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Performance Evaluation of AI and Traditional Techniques for Crack Detection on Concrete Structures",
+        "url": "https://www.semanticscholar.org/paper/f916c66c4ee38fcafb377649bf20792fe2bedb21",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.47556/j.wjstsd.20.3.2025.5",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "A Comprehensive Analysis & Performance Evaluation of Machine Learning Techniques in Heart Disease Diagnosis",
+        "url": "https://www.semanticscholar.org/paper/ab7ddb3858460c1f56709de80d99f36caa6865e8",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICSCNA63714.2024.10863961",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Evaluating Large Language Models: Frameworks and Methodologies for AI/ML System Testing",
+        "url": "https://www.semanticscholar.org/paper/cdfd9b5a661b062cefd5f19a5bd85aa0de076788",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.18535/ijsrm/v12i09.ec08",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Survey and Analysis of DDOS Attack Detection by Hybrid Deep Learning Methodologies",
+        "url": "https://www.semanticscholar.org/paper/447a8cb17460b8dbf77fb3d429ba1d01ebd4a973",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICIPTM59628.2024.10563902",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Predicting the value of football players: machine learning techniques and sensitivity analysis based on FIFA and real-world statistical datasets",
+        "url": "https://www.semanticscholar.org/paper/5220948873117a75dcc08c4d5cd31da78f702913",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/s10489-024-06189-0",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Performance evaluation of botnet detection using machine learning techniques",
+        "url": "https://www.semanticscholar.org/paper/e5a1c38db5e2281308cf0d6aca521beeb723d692",
+        "pdf_url": "https://ijece.iaescore.com/index.php/IJECE/article/download/31738/17007",
+        "doi_url": "https://doi.org/10.11591/ijece.v13i6.pp6827-6835",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Development and initial validation of a data quality evaluation tool in obstetrics real-world data through HL7-FHIR interoperable Bayesian networks and expert rules",
+        "url": "https://www.semanticscholar.org/paper/18289ab427989ab7c58f3264072aeda1510814a1",
+        "pdf_url": "https://doi.org/10.1093/jamiaopen/ooae062",
+        "doi_url": "https://doi.org/10.1093/jamiaopen/ooae062",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Rigorous Evaluation of Computer Processors with Statistical Model Checking",
+        "url": "https://www.semanticscholar.org/paper/735d864cc051885ccf9b4516e05e65cc6163137e",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3613424.3623785",
+        "doi_url": "https://doi.org/10.1145/3613424.3623785",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Neutrosophic MCDM Model for Evaluation and Selection best 5G Network Architecture",
+        "url": "https://www.semanticscholar.org/paper/71e65fafe0ff320130745b8db78f98cdd4852b28",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.54216/ijaaci.040101",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Recent Developments in Image-Based 3D Reconstruction Using Deep Learning: Methodologies and Applications",
+        "url": "https://www.semanticscholar.org/paper/f3f8fcd98510d13a592941a50617796c25fce37b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.3390/electronics14153032",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Modeling Metaverse Perceptions for Bolstering Traffic Safety using Novel TrSS-Based OWCM-RAM MCDM Techniques: Purposes and Strategies",
+        "url": "https://www.semanticscholar.org/paper/5c375e71c47f0f70e59cb8a1256283be1ffa52ee",
+        "pdf_url": "https://doi.org/10.61356/j.nswa.2024.16204",
+        "doi_url": "https://doi.org/10.61356/j.nswa.2024.16204",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Enhancing face recognition performance: a comprehensive evaluation of deep learning models and a novel ensemble approach with hyperparameter tuning",
+        "url": "https://www.semanticscholar.org/paper/00a14b7662a233a1ed0cc971ec96cb6d99310fa8",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/s00500-024-09954-y",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Advanced hybrid neural network techniques for minimizing gas turbine emissions",
+        "url": "https://www.semanticscholar.org/paper/137e5d36e56bfc4d1c0ef5e15edd9e07225ceecc",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1108/wje-11-2023-0473",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Data Skew in Federated Learning: An Experimental Evaluation on Aggregation Algorithms",
+        "url": "https://www.semanticscholar.org/paper/3791deb7bd5ae4a6ad5aa5d6ace525272470a980",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/FLTA63145.2024.10840118",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "A Survey on Generative Model Unlearning: Fundamentals, Taxonomy, Evaluation, and Future Direction",
+        "url": "https://www.semanticscholar.org/paper/f078a1a30ba9aa02c032c1e2741919364845cfab",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2507.19894",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "PII Detection in Low-Resource Languages Using Explainable Deep Learning Techniques",
+        "url": "https://www.semanticscholar.org/paper/2daa13d8350853d446b5e64d87f84287e1562d57",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3675888.3676036",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "AISafetyLab: A Comprehensive Framework for AI Safety Evaluation and Improvement",
+        "url": "https://www.semanticscholar.org/paper/ed618d9ceebf2bcfd9f257a74844d909d8149dad",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2502.16776",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "A Review on Lung and Colon Combine Cancer Detection using ML and DL Techniques",
+        "url": "https://www.semanticscholar.org/paper/9889e1614063968658bb3efcafeb5c708c50931a",
+        "pdf_url": "https://doi.org/10.32628/cseit2410583",
+        "doi_url": "https://doi.org/10.32628/cseit2410583",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "A Multimodal Systematic Review of Drivers’ Fatigue Detection Methodologies, Datasets, and Models",
+        "url": "https://www.semanticscholar.org/paper/46e2d891777e5410e2ac5ed11ca48b8bb88d38b8",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ACCESS.2025.3606900",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Recent Advances in Credit Card Fraud Detection: An Analytical Review of Frameworks, Methodologies, Datasets, and Challenges",
+        "url": "https://www.semanticscholar.org/paper/931ca7841c5620246296c832f24661c961a9ed91",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.62411/faith.3048-3719-251",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "From Data to Decision: Machine Learning Techniques for Financial Deposit Prediction",
+        "url": "https://www.semanticscholar.org/paper/b7df1f632078d6f966beb3ee0623fbcd4089e3eb",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/RMKMATE64874.2025.11042713",
+        "source": "semantic_scholar",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "offline_acl": [
+        {
+          "title": "Impact of Evaluation Methodologies on Code Summarization",
+          "url": "https://aclanthology.org/2022.acl-long.339/",
+          "pdf_url": "https://aclanthology.org/2022.acl-long.339.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2022
+        },
+        {
+          "title": "Do Vision-Language Models Have Internal World Models? Towards an Atomic Evaluation",
+          "url": "https://aclanthology.org/2025.findings-acl.1342/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.1342.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Around the World in 24 Hours: Probing LLM Knowledge of Time and Place",
+          "url": "https://aclanthology.org/2025.acl-long.1115/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1115.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Text2World: Benchmarking Large Language Models for Symbolic World Model Generation",
+          "url": "https://aclanthology.org/2025.findings-acl.1337/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.1337.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Real World Conversational Entity Linking Requires More Than Zero-Shots",
+          "url": "https://aclanthology.org/2024.findings-acl.829/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.829.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Breeding Machine Translations: Evolutionary approach to survive and thrive in the world of automated evaluation",
+          "url": "https://aclanthology.org/2023.acl-long.122/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.122.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        }
+      ],
+      "offline_iclr": [
+        {
+          "title": "Towards zero shot multivariate time series anomaly detection - A Realistic Evaluation",
+          "url": "https://openreview.net/forum?id=rCaA79Obsj",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Towards Federated Domain Unlearning: Verification Methodologies and Challenges",
+          "url": "https://openreview.net/forum?id=lXioFCPhcp",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "WorldGym: World Model as An Environment for Policy Evaluation",
+          "url": "https://openreview.net/forum?id=hidBHy1CAw",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "JudgeAgent: Knowledge-wise and Dynamic LLM Evaluation with Agent-as-Interviewer",
+          "url": "https://openreview.net/forum?id=btK78ltFXJ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Towards World Simulator: Crafting Physical Commonsense-Based Benchmark for Video Generation",
+          "url": "https://openreview.net/forum?id=6rMHcLWxl4",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "VideoVerse: How Far is Your T2V Generator from a World Model?",
+          "url": "https://openreview.net/forum?id=yLL2oDvWSn",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "VIRTUAL CELLS AS CAUSAL WORLD MODELS: A PERSPECTIVE ON EVALUATION",
+          "url": "https://openreview.net/forum?id=qjIq4JWFVs",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Designing Skill-Compatible AI: Methodologies and Frameworks in Chess",
+          "url": "https://iclr.cc/virtual/2024/poster/19371",
+          "pdf_url": "https://openreview.net/pdf?id=79rfgv3jw4",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "offline_rl_ope: A Python package for off-policy evaluation of offline RL models with real world data",
+          "url": "https://openreview.net/forum?id=6PcJEFKvBD",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Remote Sensing-Oriented World Model",
+          "url": "https://openreview.net/forum?id=eEdukIJ7lQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Offline Reinforcement Learning with Closed-loop Policy Evaluation and Diffusion World-Model Adaptation",
+          "url": "https://openreview.net/forum?id=1zuJZ1jGvT",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Adapting Vision-Language Models for Evaluating World Models",
+          "url": "https://openreview.net/forum?id=BXKgPhaOzr",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "WorldSimBench: Towards Video Generation Models as World Simulators",
+          "url": "https://openreview.net/forum?id=ejGAytoWoe",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Benchmarking Structural Inference Methods for Interacting Dynamical Systems with Synthetic Data",
+          "url": "https://openreview.net/forum?id=PCXvcULwiI",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Probing Memes in LLMs: A Paradigm for the Entangled Evaluation World",
+          "url": "https://openreview.net/forum?id=PSW2bVPkVf",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving",
+          "url": "https://openreview.net/forum?id=OrgL5DsU0f",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Leveraging Visual Embeddings from Instagram for Credit Scoring of Informal Microbusinesses",
+          "url": "https://openreview.net/forum?id=5izkRQEo5c",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Sparse World Models: Visual World Modeling with Sparse Representations",
+          "url": "https://openreview.net/forum?id=e0mUayPl40",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Reasoning Language Model Inference Serving Unveiled: An Empirical Study",
+          "url": "https://openreview.net/forum?id=6CGjZYp6ft",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "A grid world agent with favorable inductive biases",
+          "url": "https://openreview.net/forum?id=0spR7wDwBh",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Bridging the Reality Gap: A Benchmark for Physical Reasoning in General World Models with Various Physical Phenomena beyond Mechanics",
+          "url": "https://openreview.net/forum?id=vsYt8UHGzI",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Pitfalls in Evaluating Language Model Forecasters",
+          "url": "https://openreview.net/forum?id=z85kARAoyD",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "WorldPack: Compressed Memory Improves Spatial Consistency in Video World Modeling",
+          "url": "https://openreview.net/forum?id=CuNHz3zxgm",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Can World Models Benefit VLMs for World Dynamics?",
+          "url": "https://openreview.net/forum?id=LFCSVVIy1x",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Bootstrapping World Models from Dynamics Models in Multimodal Foundation Models",
+          "url": "https://openreview.net/forum?id=FsfJ3lJhMJ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Ctrl-World: A Controllable Generative World Model for Robot Manipulation",
+          "url": "https://openreview.net/forum?id=748bHL2BAv",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Dreamland: Hybrid World Creation with Simulator and Generative Models",
+          "url": "https://openreview.net/forum?id=I9pQJJWKn3",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Pay Attention to Real World Perturbations! Natural Robustness Evaluation in Machine Reading Comprehension",
+          "url": "https://openreview.net/forum?id=L5dUM6prKw",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "BridgeV2W: Bridging Video Generation Models to Embodied World Models via Embodiment Masks",
+          "url": "https://openreview.net/forum?id=ZGWwV34Vmu",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "WoW!: World Models in a Closed-Loop World",
+          "url": "https://openreview.net/forum?id=yDmb7xAfeb",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "ThinkBench: Dynamic Out-of-Distribution Evaluation for Robust LLM Reasoning",
+          "url": "https://openreview.net/forum?id=ZKwlz9ZQxS",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "A Procedural World Generation Framework for Systematic Evaluation of Continual Learning",
+          "url": "https://openreview.net/forum?id=LlCQWh8-pwK",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2021
+        },
+        {
+          "title": "Reality Check: A New Evaluation Ecosystem Is Necessary to Understand AI's Real World Effects",
+          "url": "https://openreview.net/forum?id=V5PNJ5HnpA",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Torch-Uncertainty: Deep Learning Uncertainty Quantification",
+          "url": "https://openreview.net/forum?id=oYfRRQr9uK",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Learning Knowledge Graph-based World Models of Textual Environments",
+          "url": "https://nips.cc/virtual/2021/poster/28729",
+          "pdf_url": "https://openreview.net/pdf?id=o24k_XfIe6_",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2021
+        },
+        {
+          "title": "MMWorld: Towards Multi-discipline Multi-faceted World Model Evaluation in Videos",
+          "url": "https://openreview.net/forum?id=mDRmX8IlBI",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation",
+          "url": "https://openreview.net/forum?id=uAeqQePu4c",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Sekai: A Video Dataset towards World Exploration",
+          "url": "https://openreview.net/forum?id=I3F7w8MvY9",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Evaluating the World Model Implicit in a Generative Model",
+          "url": "https://neurips.cc/virtual/2024/poster/94550",
+          "pdf_url": "https://openreview.net/pdf?id=aVK4JFpegy",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "WorldModelBench: Judging Video Generation Models As World Models",
+          "url": "https://openreview.net/forum?id=a3hafrDzuA",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "SpreadsheetBench: Towards Challenging Real World Spreadsheet Manipulation",
+          "url": "https://neurips.cc/virtual/2024/poster/97753",
+          "pdf_url": "https://openreview.net/pdf?id=KYxzmRLF6i",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability",
+          "url": "https://neurips.cc/virtual/2024/poster/95003",
+          "pdf_url": "https://openreview.net/pdf?id=Tw9nfNyOMy",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "ClinicalLab: Aligning Agents for Multi-Departmental Clinical Diagnostics in the Real World",
+          "url": "https://openreview.net/forum?id=ukXJIhQaR5",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        }
+      ],
+      "offline_emnlp": [
+        {
+          "title": "FreeEval: A Modular Framework for Trustworthy and Efficient Evaluation of Large Language Models",
+          "url": "https://aclanthology.org/2024.emnlp-demo.1/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-demo.1.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Exploring Nested Named Entity Recognition with Large Language Models: Methods, Challenges, and Insights",
+          "url": "https://aclanthology.org/2024.emnlp-main.492/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.492.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Beyond Factuality: A Comprehensive Evaluation of Large Language Models as Knowledge Generators",
+          "url": "https://openreview.net/forum?id=clTPP37Rpu",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        }
+      ],
+      "offline_iccv": [
+        {
+          "title": "WorldScore: A Unified Evaluation Benchmark for World Generation",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/169",
+          "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Duan_WorldScore_A_Unified_Evaluation_Benchmark_for_World_Generation_ICCV_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_iccv",
+          "year": 2025
+        },
+        {
+          "title": "Learning To Drive From a World on Rails",
+          "url": "",
+          "pdf_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Learning_To_Drive_From_a_World_on_Rails_ICCV_2021_paper.pdf",
+          "doi_url": null,
+          "source": "offline_iccv",
+          "year": 2021
+        },
+        {
+          "title": "End-to-End Driving with Online Trajectory Evaluation via BEV World Model",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/2716",
+          "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Li_End-to-End_Driving_with_Online_Trajectory_Evaluation_via_BEV_World_Model_ICCV_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_iccv",
+          "year": 2025
+        },
+        {
+          "title": "Document Understanding Dataset and Evaluation (DUDE)",
+          "url": "",
+          "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Van_Landeghem_Document_Understanding_Dataset_and_Evaluation_DUDE_ICCV_2023_paper.pdf",
+          "doi_url": null,
+          "source": "offline_iccv",
+          "year": 2023
+        },
+        {
+          "title": "Quantitative Evaluation of Confidence Measures in a Machine Learning World",
+          "url": "",
+          "pdf_url": "http://openaccess.thecvf.com/content_ICCV_2017/papers/Poggi_Quantitative_Evaluation_of_ICCV_2017_paper.pdf",
+          "doi_url": null,
+          "source": "offline_iccv",
+          "year": 2017
+        },
+        {
+          "title": "Medical World Model",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/2605",
+          "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Yang_Medical_World_Model_ICCV_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_iccv",
+          "year": 2025
+        }
+      ],
+      "offline_ijcai": [
+        {
+          "title": "Beyond the Limits: A Survey of Techniques to Extend the Context Length in Large Language Models",
+          "url": "https://www.ijcai.org/proceedings/2024/917",
+          "pdf_url": "https://www.ijcai.org/proceedings/2024/0917.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2024
+        },
+        {
+          "title": "Paintings and Drawings Aesthetics Assessment with Rich Attributes for Various Artistic Categories",
+          "url": "https://www.ijcai.org/proceedings/2024/849",
+          "pdf_url": "https://www.ijcai.org/proceedings/2024/0849.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2024
+        }
+      ],
+      "offline_aaai": [
+        {
+          "title": "Domain Engineering to Represent Human Behavior Using Multi-Agent Planning and Inductive Methodologies",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30391",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30391/32458",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2024
+        },
+        {
+          "title": "Statistical Methodologies for Decision-Making and Uncertainty Reduction in Machine Learning",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/35236",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/35236/37391",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2025
+        },
+        {
+          "title": "Scaling Offline Evaluation of Reinforcement Learning Agents through Abstraction",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30283",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30283/32281",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2024
+        }
+      ],
+      "offline_naacl": [
+        {
+          "title": "AutoEval-ToD: Automated Evaluation of Task-oriented Dialog Systems",
+          "url": "https://aclanthology.org/2025.naacl-long.508/",
+          "pdf_url": "https://aclanthology.org/2025.naacl-long.508.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2025
+        },
+        {
+          "title": "Carpe diem: On the Evaluation of World Knowledge in Lifelong Language Models",
+          "url": "https://aclanthology.org/2024.naacl-long.302/",
+          "pdf_url": "https://aclanthology.org/2024.naacl-long.302.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2024
+        }
+      ],
+      "offline_cvpr": [
+        {
+          "title": "Towards Open World Object Detection",
+          "url": "",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Joseph_Towards_Open_World_Object_Detection_CVPR_2021_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2021
+        },
+        {
+          "title": "Towards Open World Recognition",
+          "url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Bendale_Towards_Open_World_2015_CVPR_paper.html",
+          "pdf_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Bendale_Towards_Open_World_2015_CVPR_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2015
+        },
+        {
+          "title": "Opening Up Open World Tracking",
+          "url": "",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Opening_Up_Open_World_Tracking_CVPR_2022_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2022
+        },
+        {
+          "title": "Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/31475",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Driving_into_the_Future_Multiview_Visual_Forecasting_and_Planning_with_CVPR_2024_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2024
+        }
+      ],
+      "offline_eccv": [
+        {
+          "title": "A Real World Dataset for Multi-View 3D Reconstruction",
+          "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/2610_ECCV_2022_paper.php",
+          "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136680054.pdf",
+          "doi_url": null,
+          "source": "offline_eccv",
+          "year": 2022
+        },
+        {
+          "title": "UC-OWOD: Unknown-Classified Open World Object Detection",
+          "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5661_ECCV_2022_paper.php",
+          "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136700191.pdf",
+          "doi_url": null,
+          "source": "offline_eccv",
+          "year": 2022
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "Learning Latent Dynamic Robust Representations for World Models",
+          "url": "https://icml.cc/virtual/2024/poster/34700",
+          "pdf_url": "https://openreview.net/pdf?id=C4jkx6AgWc",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        }
+      ],
+      "openalex": [
+        {
+          "title": "ENHANCING SIGN LANGUAGE RECOGNITION THROUGH DEEP LEARNING: A SYSTEMATIC REVIEW AND EXPERIMENT FRAMEWORK",
+          "url": "https://openalex.org/W7118022849",
+          "pdf_url": "https://doi.org/10.70382/hijcisr.v10i9.032",
+          "doi_url": "https://doi.org/10.70382/hijcisr.v10i9.032",
+          "source": "openalex",
+          "year": 2026
+        },
+        {
+          "title": "Quantum-Resistant Framework for Secure Multi-Party Communication in Next-Generation Networks: Integrating Lattice-Based Cryptography with Bayesian Threat Inference and AI Applications",
+          "url": "https://openalex.org/W7117473454",
+          "pdf_url": "https://doi.org/10.5281/zenodo.18076698",
+          "doi_url": "https://doi.org/10.5281/zenodo.18076698",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Enhancing practical laboratory skills through video-based flipped learning",
+          "url": "https://openalex.org/W7117547191",
+          "pdf_url": "https://www.dpublication.com/conference-proceedings/index.php/ntteconf/article/download/1292/1002",
+          "doi_url": "https://doi.org/10.33422/ntteconf.v2i1.1292",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Reliability analysis of inverted exponentiated Rayleigh parameters via progressive hybrid censoring data with applications in medical data",
+          "url": "https://openalex.org/W7117560843",
+          "pdf_url": "https://doi.org/10.1371/journal.pone.0336169",
+          "doi_url": "https://doi.org/10.1371/journal.pone.0336169",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Sejarah Pramuka Masa Orde Baru 1970-1978",
+          "url": "https://openalex.org/W7117876605",
+          "pdf_url": "https://journal.lppmunindra.ac.id/index.php/herodotus/article/download/28704/8006",
+          "doi_url": "https://doi.org/10.30998/herodotus.v8i3.28704",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Decoding Energy Consumption in the ESG Era: Panel Data Evidence and Machine Learning Insights",
+          "url": "https://openalex.org/W7117534345",
+          "pdf_url": "https://www.preprints.org/frontend/manuscript/a0c2203fad3273847fdea33d26b151e2/download_pub",
+          "doi_url": "https://doi.org/10.20944/preprints202512.2529.v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "A Survey on Acoustic Side-Channel Attacks: An Artificial Intelligence Perspective",
+          "url": "https://openalex.org/W7117706629",
+          "pdf_url": "https://www.mdpi.com/2624-800X/6/1/6/pdf?version=1767004203",
+          "doi_url": "https://doi.org/10.3390/jcp6010006",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "THE THEORETICAL FOUNDATIONS AND PRACTICAL APPLICATIONS OF ECONOMETRIC MODELING",
+          "url": "https://openalex.org/W7117406693",
+          "pdf_url": "https://doi.org/10.5281/zenodo.18065826",
+          "doi_url": "https://doi.org/10.5281/zenodo.18065826",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Personalized-Marketing-DRL",
+          "url": "https://openalex.org/W7117412689",
+          "pdf_url": "https://doi.org/10.5281/zenodo.18065295",
+          "doi_url": "https://doi.org/10.5281/zenodo.18065295",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Functional Classification of Spiking Signal Data Using Artificial Intelligence Techniques: A Systematic Review",
+          "url": "https://openalex.org/W7117371911",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1002/widm.70053",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Surrogate-Assisted Many-Objective Optimization of Injection Molding: Effects of Objective Selection and Sampling Density",
+          "url": "https://openalex.org/W7117465726",
+          "pdf_url": "https://www.preprints.org/frontend/manuscript/411bcacb18218ba00b829abdc429ba8f/download_pub",
+          "doi_url": "https://doi.org/10.20944/preprints202512.2408.v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "A Survey of Single Image Blind Motion Deblurring from Traditional to Deep Learning",
+          "url": "https://openalex.org/W7117245941",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1145/3785655",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Interpretability and Trust in Large Language and Agentic Models: A Survey of Methods, Metrics, and Applications",
+          "url": "https://openalex.org/W7117165745",
+          "pdf_url": "https://doi.org/10.31224/6090",
+          "doi_url": "https://doi.org/10.31224/6090",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "A Multi-Feature Extraction and Selection Framework for High-Accuracy Surface Defect Classification in Industrial Casting Parts",
+          "url": "https://openalex.org/W7116933935",
+          "pdf_url": "https://dergipark.org.tr/en/download/article-file/5391057",
+          "doi_url": "https://doi.org/10.55213/kmujens.1817251",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Advanced modeling and parameter estimation of PEM fuel cells using the g-function and self-adaptive differential evolution algorithm",
+          "url": "https://openalex.org/W7116735671",
+          "pdf_url": "https://doi.org/10.1038/s41598-025-27991-x",
+          "doi_url": "https://doi.org/10.1038/s41598-025-27991-x",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Multi-Modal-Sentiment-Analysis",
+          "url": "https://openalex.org/W7116967695",
+          "pdf_url": "https://doi.org/10.5281/zenodo.18014471",
+          "doi_url": "https://doi.org/10.5281/zenodo.18014471",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Elevating Intrusion Detection and Security Fortification in Intelligent Networks through Cutting-Edge Machine Learning Paradigms",
+          "url": "https://openalex.org/W7117115013",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.19037",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.19037",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Iтеративна оптимiзацiя попиту з використанням методу дискретних функцiональних частинок",
+          "url": "https://openalex.org/W7117397817",
+          "pdf_url": "https://mmj.ukma.edu.ua/article/view/348395",
+          "doi_url": null,
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "A comparative analysis of modern load forecasting techniques",
+          "url": "https://openalex.org/W4417536803",
+          "pdf_url": "https://annalsmcs.org/index.php/amcs/article/download/727/239",
+          "doi_url": "https://doi.org/10.56947/amcs.v31.727",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Journal of Communication and Information Systems",
+          "url": "https://openalex.org/W4232216697",
+          "pdf_url": "https://jcis.sbrt.org.br/jcis/article/download/745/511/3358",
+          "doi_url": "https://doi.org/10.14209/jcis",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Deep Ensemble Learning Model for Waste Classification Systems",
+          "url": "https://openalex.org/W4417493752",
+          "pdf_url": "https://doi.org/10.3390/su18010024",
+          "doi_url": "https://doi.org/10.3390/su18010024",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Deep Learning in Healthcare: Technical Insights and Neural Network Applications in Medical Diagnosis and Prognosis",
+          "url": "https://openalex.org/W7116399765",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17985045",
+          "doi_url": "https://doi.org/10.5281/zenodo.17985045",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Exploratory Analysis and Prediction of Weather Conditions: Leveraging Feature Engineering and Machine Learning Models for Accurate Forecasting",
+          "url": "https://openalex.org/W7116749912",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1051/epjconf/202534305008/pdf",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "A Systematic Review: Zero-Watermarking Techniques Analysis for 3D Video Protection",
+          "url": "https://openalex.org/W4417456848",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1145/3778748",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "A Decade of Soft Robotic Manipulators: Advances in Design, Modeling, Control, and Emerging Challenges",
+          "url": "https://openalex.org/W4417436009",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s42235-025-00819-0.pdf",
+          "doi_url": "https://doi.org/10.1007/s42235-025-00819-0",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Object Tracking Based on Quantum Particle Swarm Optimization",
+          "url": "https://openalex.org/W2739161698",
+          "pdf_url": "https://doi.org/10.24073/jga/6/02/05",
+          "doi_url": "https://doi.org/10.24073/jga/6/02/05",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Development Education",
+          "url": "https://openalex.org/W2522369617",
+          "pdf_url": "https://lirias.kuleuven.be/bitstream/123456789/82197/1/UNESCOENGELS.pdf",
+          "doi_url": "https://doi.org/10.5040/9781350441491.ch-12",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Beyond MMD: Evaluating Graph Generative Models with Geometric Deep Learning",
+          "url": "https://openalex.org/W4417467406",
+          "pdf_url": "https://arxiv.org/pdf/2512.14241",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.14241",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "The Convergence of Shadow and Silicon: Advanced Forensic Methodologies for Decentralized Webs, Generative AI, and Darknet Infrastructure",
+          "url": "https://openalex.org/W7116767500",
+          "pdf_url": "https://doi.org/10.53573/rhimrj.2025.v12n12.004",
+          "doi_url": "https://doi.org/10.53573/rhimrj.2025.v12n12.004",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "APPLIED RESEARCH IN TOURISM &amp; HOSPITALITY STUDIES",
+          "url": "https://openalex.org/W7117295027",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.61909/amkedtb122548",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Common air quality modelling methods and applications: A review paper",
+          "url": "https://openalex.org/W4417306017",
+          "pdf_url": "https://doi.org/10.51489/tuzal.1710679",
+          "doi_url": "https://doi.org/10.51489/tuzal.1710679",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "PREreview of \"Auto-Prep: Holistic Prediction of Data Preparation Steps for Self-Service Business Intelligence\"",
+          "url": "https://openalex.org/W7115065719",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17925095",
+          "doi_url": "https://doi.org/10.5281/zenodo.17925095",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Predicting E-Commerce Purchase Intention Using Machine Learning",
+          "url": "https://openalex.org/W7116867858",
+          "pdf_url": "https://doi.org/10.55164/ajstr.v29i1.260159",
+          "doi_url": "https://doi.org/10.55164/ajstr.v29i1.260159",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "An Explainable AI for Stock Market Prediction: A Machine Learning Approach with XAI and Deep Neural Networks",
+          "url": "https://openalex.org/W4417213819",
+          "pdf_url": "https://ojs.bonviewpress.com/index.php/JCCE/article/download/6428/1721",
+          "doi_url": "https://doi.org/10.47852/bonviewjcce52026428",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Machine learning-enhanced metal oxide gas sensor arrays: a review of selectivity and performance improvements",
+          "url": "https://openalex.org/W4417214310",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.1108/sr-08-2025-0639",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Stylized Meta-Album: Group-bias injection with style transfer to study robustness against distribution shifts",
+          "url": "https://openalex.org/W4417210282",
+          "pdf_url": "https://arxiv.org/pdf/2512.09773",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.09773",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Kritieke vragen in geheugenveiligheid belicht: van programmeertaal tot hardware",
+          "url": "https://openalex.org/W7114832124",
+          "pdf_url": "https://lirias.kuleuven.be/handle/20.500.12942/777852",
+          "doi_url": null,
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Case Studies in Accounting Research",
+          "url": "https://openalex.org/W2580103734",
+          "pdf_url": "http://eprints.whiterose.ac.uk/105811/3/Chapter%2010FIN%20Lee%20and%20Humphrey%202016%20Case%20study%20methodology%20%20in%20accounting%20research.pdf",
+          "doi_url": "https://doi.org/10.4324/9781003509295-18",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "A Comparative Analysis of Brain Tumor Detection and Classification using Machine Learning Algorithms",
+          "url": "https://openalex.org/W7110930925",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17864132",
+          "doi_url": "https://doi.org/10.5281/zenodo.17864132",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Designing an Academic Software Factory for AI-Based Systems Development from Professors' Perspectives",
+          "url": "https://openalex.org/W7116089990",
+          "pdf_url": "https://journals-sol.sbc.org.br/index.php/rbie/article/download/5647/3651",
+          "doi_url": "https://doi.org/10.5753/rbie.2025.5647",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Influence of human factors on the safety performance in Saudi Arabian construction industry",
+          "url": "https://openalex.org/W3094925317",
+          "pdf_url": "http://usir.salford.ac.uk/id/eprint/58136/1/Yasir%20Azmat%20PhD%20thesis%20%2803.09.2020%29%20Influence%20of%20Human%20Factors%20on%20the%20safety%20performance%20of%20Saudi%20Arabian%20construction%20industry.pdf",
+          "doi_url": "https://doi.org/10.17866/rk7m-5a20",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "The Cognitive Hologram of AI Knowledge",
+          "url": "https://openalex.org/W7111072102",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17860776",
+          "doi_url": "https://doi.org/10.5281/zenodo.17860776",
+          "source": "openalex",
+          "year": 2025
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+          "url": "http://arxiv.org/abs/2512.25075v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+          "url": "http://arxiv.org/abs/2512.25074v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25074v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+          "url": "http://arxiv.org/abs/2512.25073v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+          "url": "http://arxiv.org/abs/2512.25071v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Coordinated Humanoid Manipulation with Choice Policies",
+          "url": "http://arxiv.org/abs/2512.25072v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Scaling Open-Ended Reasoning to Predict the Future",
+          "url": "http://arxiv.org/abs/2512.25070v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+          "url": "http://arxiv.org/abs/2512.25067v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+          "url": "http://arxiv.org/abs/2512.25066v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25066v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+          "url": "http://arxiv.org/abs/2512.25065v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+          "url": "http://arxiv.org/abs/2512.25064v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+          "url": "http://arxiv.org/abs/2512.25063v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25063v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "On the geometry and topology of representations: the manifolds of modular addition",
+          "url": "http://arxiv.org/abs/2512.25060v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25060v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+          "url": "http://arxiv.org/abs/2512.25059v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+          "url": "http://arxiv.org/abs/2512.25056v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+          "url": "http://arxiv.org/abs/2512.25055v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Fluid dynamics as intersection problem",
+          "url": "http://arxiv.org/abs/2512.25053v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25053v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+          "url": "http://arxiv.org/abs/2512.25050v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25050v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Extreme nonlinear optics in optical fibers",
+          "url": "http://arxiv.org/abs/2512.25046v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+          "url": "http://arxiv.org/abs/2512.25045v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Compound Estimation for Binomials",
+          "url": "http://arxiv.org/abs/2512.25042v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+          "url": "http://arxiv.org/abs/2512.25040v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Anomalous (3+1)d Fermionic Topological Quantum Field Theories via Symmetry Extension",
+          "url": "http://arxiv.org/abs/2512.25038v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25038v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Large Neutrino-Dark Matter Interactions: From Effective Field Theory to Ultraviolet Completions",
+          "url": "http://arxiv.org/abs/2512.25035v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25035v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Generative Classifiers Avoid Shortcut Solutions",
+          "url": "http://arxiv.org/abs/2512.25034v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25034v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+          "url": "http://arxiv.org/abs/2512.25033v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25033v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Testing Monotonicity in a Finite Population",
+          "url": "http://arxiv.org/abs/2512.25032v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25032v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Fractal conduction pathways governing ionic transport in a glass",
+          "url": "http://arxiv.org/abs/2512.25031v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25031v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Multivariate Generalized Counting Process via Gamma Subordination",
+          "url": "http://arxiv.org/abs/2512.25030v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25030v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Universal Seesaw Pati-Salam Model with P for Strong CP",
+          "url": "http://arxiv.org/abs/2512.25028v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25028v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Computational Analysis of Disease Progression in Pediatric Pulmonary Arterial Hypertension",
+          "url": "http://arxiv.org/abs/2512.25027v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25027v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Modeling Language as a Sequence of Thoughts",
+          "url": "http://arxiv.org/abs/2512.25026v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25026v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Modewise Additive Factor Model for Matrix Time Series",
+          "url": "http://arxiv.org/abs/2512.25025v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25025v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+          "url": "http://arxiv.org/abs/2512.25023v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25023v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Real Riemann Surfaces: Smooth and Discrete",
+          "url": "http://arxiv.org/abs/2512.25022v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25022v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Approximation Algorithms for Fair Repetitive Scheduling",
+          "url": "http://arxiv.org/abs/2512.25020v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25020v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Loop-Level Lepton Flavor Violation and Diphoton Signals in the Minimal Left-Right Symmetric Model",
+          "url": "http://arxiv.org/abs/2512.25019v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25019v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Strengthening Dual Bounds for Multicommodity Capacitated Network Design with Unsplittable Flow Constraints",
+          "url": "http://arxiv.org/abs/2512.25018v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25018v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Approximations for the Weighted Reversal, Transposition, and Indel Distance Problem with Intergenic Region Information",
+          "url": "http://arxiv.org/abs/2512.25016v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25016v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+          "url": "http://arxiv.org/abs/2512.25015v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25015v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Diffusion Language Models are Provably Optimal Parallel Samplers",
+          "url": "http://arxiv.org/abs/2512.25014v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25014v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Parity order as a fundamental driver of bosonic topology",
+          "url": "http://arxiv.org/abs/2512.25011v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25011v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The splitting field and generators of the elliptic surface $Y^2=X^3 +t^{360} +1$",
+          "url": "http://arxiv.org/abs/2512.25009v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25009v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM",
+          "url": "http://arxiv.org/abs/2512.25008v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25008v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Uniqueness for stochastic differential equations in Hilbert spaces with irregular drift",
+          "url": "http://arxiv.org/abs/2512.25003v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25003v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Distributions of wide binary stars in theory and in Gaia data: III. Orbital momenta, masses, and manifestations of MOND",
+          "url": "http://arxiv.org/abs/2512.25002v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25002v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The local limit of weighted spanning trees on balanced networks",
+          "url": "http://arxiv.org/abs/2512.25001v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25001v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bi-C2R: Bidirectional Continual Compatible Representation for Re-indexing Free Lifelong Person Re-identification",
+          "url": "http://arxiv.org/abs/2512.25000v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25000v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Basic Inequalities for First-Order Optimization with Applications to Statistical Risk Analysis",
+          "url": "http://arxiv.org/abs/2512.24999v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24999v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Numerical study of boson mixtures with multi-component continuous matrix product states",
+          "url": "http://arxiv.org/abs/2512.24998v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24998v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Classifying long legal documents using short random chunks",
+          "url": "http://arxiv.org/abs/2512.24997v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24997v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "Demonstration of quality evaluation for MDA-based web engineering methodologies using quality evaluation framework – WSDMDA case study",
+          "url": "https://www.semanticscholar.org/paper/7b91658b6e00d8419e02a7b16fddaa814c019790",
+          "pdf_url": "https://wjaets.com/sites/default/files/WJAETS-2024-0305.pdf",
+          "doi_url": "https://doi.org/10.30574/wjaets.2024.12.2.0305",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Enhancing Brain Tumor Classification by a Comprehensive Study on Transfer Learning Techniques and Model Efficiency Using MRI Datasets",
+          "url": "https://www.semanticscholar.org/paper/2681217d286416a6c91a6bc9d1f01fba5131d49f",
+          "pdf_url": "https://doi.org/10.1109/access.2024.3430109",
+          "doi_url": "https://doi.org/10.1109/ACCESS.2024.3430109",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Comprehensive GIS-driven evaluation of drought severity and duration: comparative assessment of parametric and non-parametric SPI methodologies",
+          "url": "https://www.semanticscholar.org/paper/0ae9a2b2a8dfbccc55b314b5a848203bef632a4b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/s00704-025-05448-5",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Efficacy Evaluation of You Only Learn One Representation (YOLOR) Algorithm in Detecting, Tracking, and Counting Vehicular Traffic in Real-World Scenarios, the Case of Morelia México: An Artificial Intelligence Approach",
+          "url": "https://www.semanticscholar.org/paper/09e795965988b090bac15b5955c6fe482858ea59",
+          "pdf_url": "https://doi.org/10.3390/ai5030077",
+          "doi_url": "https://doi.org/10.3390/ai5030077",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Machine Learning Techniques for Maternal Health Risk Prediction: A Comparative Performance Analysis with Real-World Data",
+          "url": "https://www.semanticscholar.org/paper/13abf35e6b1bde7e7c7ff7948145b66cc91438ba",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICIMTech67074.2025.11265208",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Differential evolution using novel individual evaluation and constraint handling techniques for constrained optimization",
+          "url": "https://www.semanticscholar.org/paper/31f8cdf056b93662ff19575011d7aa3bb00fe314",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/s00500-021-05831-0",
+          "source": "semantic_scholar",
+          "year": 2021
+        },
+        {
+          "title": "Text-Based Personality Assessment Using Deep Learning Techniques",
+          "url": "https://www.semanticscholar.org/paper/c0a46c3e72ac11bfa923e207c858e2f6c57cf886",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICETCS61022.2024.10543333",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Advanced Machine Learning Approaches for Robust Credit Card Fraud Detection: A Comprehensive Evaluation and Practical Insights",
+          "url": "https://www.semanticscholar.org/paper/5a1780e582e94179d8844836074e8adb9ea58eb4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICACC63692.2024.10845703",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Approaches for Groundwater Vulnerability Assessment in Relation to Pollution Potential: A Critical Evaluation and Challenges",
+          "url": "https://www.semanticscholar.org/paper/aab507fd24f70ff5bbe2350afa5fe739886debe4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/s12594-023-2440-8",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "An Innovative synthesis of deep learning techniques (DCapsNet & DCOM) for generation electrical renewable energy from wind energy",
+          "url": "https://www.semanticscholar.org/paper/ec915b9ab6c4caaaf3e9b908a3b997ea5154b090",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/s00500-020-04905-9",
+          "source": "semantic_scholar",
+          "year": 2020
+        },
+        {
+          "title": "Evaluation of Traffic Signal Control at Varying Demand Levels: A Comparative Study",
+          "url": "https://www.semanticscholar.org/paper/a1869fa92d72ccba3ee040c700a64fd67e3ae43a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ITSC57777.2023.10421894",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Image Processing Model for Sign Language Recognition System",
+          "url": "https://www.semanticscholar.org/paper/02cd685d0ad0667e98c7cf9dd8cdfc66f41c501d",
+          "pdf_url": "https://doi.org/10.22214/ijraset.2024.61671",
+          "doi_url": "https://doi.org/10.22214/ijraset.2024.61671",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Explainable AI (XAI) for trustworthy and transparent decision-making: A theoretical framework for AI interpretability",
+          "url": "https://www.semanticscholar.org/paper/f29ad386529f7a46aab64d8dae4dbc4186599115",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.30574/wjaets.2025.14.3.0106",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Using Feature Selection Enhancement to Evaluate Attack Detection in the Internet of Things Environment",
+          "url": "https://www.semanticscholar.org/paper/09b4a93a614ae4c392d1aa3cf3ed6789b7706e59",
+          "pdf_url": "https://www.mdpi.com/2079-9292/13/9/1678/pdf?version=1714126105",
+          "doi_url": "https://doi.org/10.3390/electronics13091678",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Emerging SMOTE and GAN Variants for Data Augmentation in Imbalance Machine Learning Tasks: A Review",
+          "url": "https://www.semanticscholar.org/paper/5e936f2b93338539f8e49cb1221412dd95c96dc5",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ACCESS.2025.3584532",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Artificial Intelligence Technologies for Forecasting Air Pollution and Human Health: A Narrative Review",
+          "url": "https://www.semanticscholar.org/paper/cf7e45b140806ecd7805961c280c463b91717559",
+          "pdf_url": "https://www.mdpi.com/2071-1050/14/16/9951/pdf?version=1660736466",
+          "doi_url": "https://doi.org/10.3390/su14169951",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "Deep Learning based detection of Diabetic Retinopathy from Inexpensive fundus imaging techniques",
+          "url": "https://www.semanticscholar.org/paper/6bd281806f2eb30a4b497706e260dd2cd8e134e9",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/CONECCT52877.2021.9622703",
+          "source": "semantic_scholar",
+          "year": 2021
+        },
+        {
+          "title": "Optimization of Sensor Placement for Modal Testing Using Machine Learning",
+          "url": "https://www.semanticscholar.org/paper/48f28b923e4b6599e59ce9d57ab23609797e767d",
+          "pdf_url": "https://www.mdpi.com/2076-3417/14/7/3040/pdf?version=1712235009",
+          "doi_url": "https://doi.org/10.3390/app14073040",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "BTS: A Comprehensive Benchmark for Tie Strength Prediction",
+          "url": "https://www.semanticscholar.org/paper/86c6269d90889b4fa331b7fdc6d47144cc0d6e4c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3711896.3737441",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Metric-Based Few-Shot Learning With Triplet Selection for Adaptive GNSS Interference Classification",
+          "url": "https://www.semanticscholar.org/paper/b2b19c7d265f8a1af2b960a3273d0503ff50aa8e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/JISPIN.2025.3562140",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Leveraging probability and statistical algorithms for enhanced financial risk management",
+          "url": "https://www.semanticscholar.org/paper/a46251dd272216563ef4ec6c881105fb38c489c1",
+          "pdf_url": "https://tns.ewapublishing.org/media/7514b77079e44028891afec97578d855.marked.pdf",
+          "doi_url": "https://doi.org/10.54254/2753-8818/38/20240553",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Neural Bridge Sampling for Evaluating Safety-Critical Autonomous Systems",
+          "url": "https://www.semanticscholar.org/paper/455951582f2431f374954879dfc6371c03a6d232",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2020
+        },
+        {
+          "title": "A State-of-the-Art Review of Time Series Forecasting Using Deep Learning Approaches",
+          "url": "https://www.semanticscholar.org/paper/5ce3d586b66418579c31290eb2ab9fd741786d91",
+          "pdf_url": "https://ijritcc.org/index.php/ijritcc/article/download/5890/5570",
+          "doi_url": "https://doi.org/10.17762/ijritcc.v10i12.5890",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "Disassembly Sequence Planning (DSP) Applied to a Gear Box: Comparison between Two Literature Studies",
+          "url": "https://www.semanticscholar.org/paper/4e34bc42af41a5491b30728d3591754a0d93b3e5",
+          "pdf_url": "https://www.mdpi.com/2076-3417/10/13/4591/pdf?version=1594125816",
+          "doi_url": "https://doi.org/10.3390/app10134591",
+          "source": "semantic_scholar",
+          "year": 2020
+        },
+        {
+          "title": "A systematic literature review on Machine Learning Model evaluation on healthcare applications",
+          "url": "https://www.semanticscholar.org/paper/c7ae3b57d7707ba96955625dec8d9ca5d5872e33",
+          "pdf_url": "https://rsdjournal.org/index.php/rsd/article/download/42042/34097",
+          "doi_url": "https://doi.org/10.33448/rsd-v12i6.42042",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Advanced Deep Learning Techniques for Analyzing Earnings Call Transcripts: Methodologies and Applications",
+          "url": "https://www.semanticscholar.org/paper/77a40b5a0d15a6155aa9811cce9f30a1bcee3ce9",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2503.01886",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Machine learning approaches to anxiety detection: trends, model evaluation, and future directions",
+          "url": "https://www.semanticscholar.org/paper/02d288caa8e1a846a20d5309b157c22ebe7b4257",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.3389/frai.2025.1630047",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Innovative active learning in engineering: A course model combining flipped classroom, real-time evaluation, and real-world projects",
+          "url": "https://www.semanticscholar.org/paper/2f8230166ac9957a029ead7879dfc28cf49d0445",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.55284/ajel.v10i2.1605",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Using Code Adequacy Methodologies in Confomance with ASME Standards for Nuclear Power Plant Analysis Evaluation Models",
+          "url": "https://www.semanticscholar.org/paper/713fa8605f2f1ccf974d2d057d643d85db70e30c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1115/vvuq2023-108796",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Performance Evaluation of AI and Traditional Techniques for Crack Detection on Concrete Structures",
+          "url": "https://www.semanticscholar.org/paper/f916c66c4ee38fcafb377649bf20792fe2bedb21",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.47556/j.wjstsd.20.3.2025.5",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "A Comprehensive Analysis & Performance Evaluation of Machine Learning Techniques in Heart Disease Diagnosis",
+          "url": "https://www.semanticscholar.org/paper/ab7ddb3858460c1f56709de80d99f36caa6865e8",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICSCNA63714.2024.10863961",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Evaluating Large Language Models: Frameworks and Methodologies for AI/ML System Testing",
+          "url": "https://www.semanticscholar.org/paper/cdfd9b5a661b062cefd5f19a5bd85aa0de076788",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.18535/ijsrm/v12i09.ec08",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Survey and Analysis of DDOS Attack Detection by Hybrid Deep Learning Methodologies",
+          "url": "https://www.semanticscholar.org/paper/447a8cb17460b8dbf77fb3d429ba1d01ebd4a973",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICIPTM59628.2024.10563902",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Predicting the value of football players: machine learning techniques and sensitivity analysis based on FIFA and real-world statistical datasets",
+          "url": "https://www.semanticscholar.org/paper/5220948873117a75dcc08c4d5cd31da78f702913",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/s10489-024-06189-0",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Performance evaluation of botnet detection using machine learning techniques",
+          "url": "https://www.semanticscholar.org/paper/e5a1c38db5e2281308cf0d6aca521beeb723d692",
+          "pdf_url": "https://ijece.iaescore.com/index.php/IJECE/article/download/31738/17007",
+          "doi_url": "https://doi.org/10.11591/ijece.v13i6.pp6827-6835",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Development and initial validation of a data quality evaluation tool in obstetrics real-world data through HL7-FHIR interoperable Bayesian networks and expert rules",
+          "url": "https://www.semanticscholar.org/paper/18289ab427989ab7c58f3264072aeda1510814a1",
+          "pdf_url": "https://doi.org/10.1093/jamiaopen/ooae062",
+          "doi_url": "https://doi.org/10.1093/jamiaopen/ooae062",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Rigorous Evaluation of Computer Processors with Statistical Model Checking",
+          "url": "https://www.semanticscholar.org/paper/735d864cc051885ccf9b4516e05e65cc6163137e",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3613424.3623785",
+          "doi_url": "https://doi.org/10.1145/3613424.3623785",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Neutrosophic MCDM Model for Evaluation and Selection best 5G Network Architecture",
+          "url": "https://www.semanticscholar.org/paper/71e65fafe0ff320130745b8db78f98cdd4852b28",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.54216/ijaaci.040101",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Recent Developments in Image-Based 3D Reconstruction Using Deep Learning: Methodologies and Applications",
+          "url": "https://www.semanticscholar.org/paper/f3f8fcd98510d13a592941a50617796c25fce37b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.3390/electronics14153032",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Modeling Metaverse Perceptions for Bolstering Traffic Safety using Novel TrSS-Based OWCM-RAM MCDM Techniques: Purposes and Strategies",
+          "url": "https://www.semanticscholar.org/paper/5c375e71c47f0f70e59cb8a1256283be1ffa52ee",
+          "pdf_url": "https://doi.org/10.61356/j.nswa.2024.16204",
+          "doi_url": "https://doi.org/10.61356/j.nswa.2024.16204",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Enhancing face recognition performance: a comprehensive evaluation of deep learning models and a novel ensemble approach with hyperparameter tuning",
+          "url": "https://www.semanticscholar.org/paper/00a14b7662a233a1ed0cc971ec96cb6d99310fa8",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/s00500-024-09954-y",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Advanced hybrid neural network techniques for minimizing gas turbine emissions",
+          "url": "https://www.semanticscholar.org/paper/137e5d36e56bfc4d1c0ef5e15edd9e07225ceecc",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1108/wje-11-2023-0473",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Data Skew in Federated Learning: An Experimental Evaluation on Aggregation Algorithms",
+          "url": "https://www.semanticscholar.org/paper/3791deb7bd5ae4a6ad5aa5d6ace525272470a980",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/FLTA63145.2024.10840118",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "A Survey on Generative Model Unlearning: Fundamentals, Taxonomy, Evaluation, and Future Direction",
+          "url": "https://www.semanticscholar.org/paper/f078a1a30ba9aa02c032c1e2741919364845cfab",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2507.19894",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "PII Detection in Low-Resource Languages Using Explainable Deep Learning Techniques",
+          "url": "https://www.semanticscholar.org/paper/2daa13d8350853d446b5e64d87f84287e1562d57",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3675888.3676036",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "AISafetyLab: A Comprehensive Framework for AI Safety Evaluation and Improvement",
+          "url": "https://www.semanticscholar.org/paper/ed618d9ceebf2bcfd9f257a74844d909d8149dad",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2502.16776",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "A Review on Lung and Colon Combine Cancer Detection using ML and DL Techniques",
+          "url": "https://www.semanticscholar.org/paper/9889e1614063968658bb3efcafeb5c708c50931a",
+          "pdf_url": "https://doi.org/10.32628/cseit2410583",
+          "doi_url": "https://doi.org/10.32628/cseit2410583",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "A Multimodal Systematic Review of Drivers’ Fatigue Detection Methodologies, Datasets, and Models",
+          "url": "https://www.semanticscholar.org/paper/46e2d891777e5410e2ac5ed11ca48b8bb88d38b8",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ACCESS.2025.3606900",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Recent Advances in Credit Card Fraud Detection: An Analytical Review of Frameworks, Methodologies, Datasets, and Challenges",
+          "url": "https://www.semanticscholar.org/paper/931ca7841c5620246296c832f24661c961a9ed91",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.62411/faith.3048-3719-251",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "From Data to Decision: Machine Learning Techniques for Financial Deposit Prediction",
+          "url": "https://www.semanticscholar.org/paper/b7df1f632078d6f966beb3ee0623fbcd4089e3eb",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/RMKMATE64874.2025.11042713",
+          "source": "semantic_scholar",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Impact of Evaluation Methodologies on Code Summarization",
+        "pdf": "https://aclanthology.org/2022.acl-long.339.pdf"
+      },
+      {
+        "title": "FreeEval: A Modular Framework for Trustworthy and Efficient Evaluation of Large Language Models",
+        "pdf": "https://aclanthology.org/2024.emnlp-demo.1.pdf"
+      },
+      {
+        "title": "WorldScore: A Unified Evaluation Benchmark for World Generation",
+        "pdf": "https://openaccess.thecvf.com/content/ICCV2025/papers/Duan_WorldScore_A_Unified_Evaluation_Benchmark_for_World_Generation_ICCV_2025_paper.pdf"
+      },
+      {
+        "title": "Learning To Drive From a World on Rails",
+        "pdf": "https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Learning_To_Drive_From_a_World_on_Rails_ICCV_2021_paper.pdf"
+      },
+      {
+        "title": "Beyond the Limits: A Survey of Techniques to Extend the Context Length in Large Language Models",
+        "pdf": "https://www.ijcai.org/proceedings/2024/0917.pdf"
+      },
+      {
+        "title": "Exploring Nested Named Entity Recognition with Large Language Models: Methods, Challenges, and Insights",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.492.pdf"
+      },
+      {
+        "title": "End-to-End Driving with Online Trajectory Evaluation via BEV World Model",
+        "pdf": "https://openaccess.thecvf.com/content/ICCV2025/papers/Li_End-to-End_Driving_with_Online_Trajectory_Evaluation_via_BEV_World_Model_ICCV_2025_paper.pdf"
+      },
+      {
+        "title": "Do Vision-Language Models Have Internal World Models? Towards an Atomic Evaluation",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1342.pdf"
+      },
+      {
+        "title": "Designing Skill-Compatible AI: Methodologies and Frameworks in Chess",
+        "pdf": "https://openreview.net/pdf?id=79rfgv3jw4"
+      },
+      {
+        "title": "Document Understanding Dataset and Evaluation (DUDE)",
+        "pdf": "https://openaccess.thecvf.com/content/ICCV2023/papers/Van_Landeghem_Document_Understanding_Dataset_and_Evaluation_DUDE_ICCV_2023_paper.pdf"
+      },
+      {
+        "title": "Domain Engineering to Represent Human Behavior Using Multi-Agent Planning and Inductive Methodologies",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/30391/32458"
+      },
+      {
+        "title": "AutoEval-ToD: Automated Evaluation of Task-oriented Dialog Systems",
+        "pdf": "https://aclanthology.org/2025.naacl-long.508.pdf"
+      },
+      {
+        "title": "Learning Knowledge Graph-based World Models of Textual Environments",
+        "pdf": "https://openreview.net/pdf?id=o24k_XfIe6_"
+      },
+      {
+        "title": "Statistical Methodologies for Decision-Making and Uncertainty Reduction in Machine Learning",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/35236/37391"
+      },
+      {
+        "title": "Around the World in 24 Hours: Probing LLM Knowledge of Time and Place",
+        "pdf": "https://aclanthology.org/2025.acl-long.1115.pdf"
+      },
+      {
+        "title": "Paintings and Drawings Aesthetics Assessment with Rich Attributes for Various Artistic Categories",
+        "pdf": "https://www.ijcai.org/proceedings/2024/0849.pdf"
+      },
+      {
+        "title": "Evaluating the World Model Implicit in a Generative Model",
+        "pdf": "https://openreview.net/pdf?id=aVK4JFpegy"
+      },
+      {
+        "title": "Carpe diem: On the Evaluation of World Knowledge in Lifelong Language Models",
+        "pdf": "https://aclanthology.org/2024.naacl-long.302.pdf"
+      },
+      {
+        "title": "Towards Open World Object Detection",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2021/papers/Joseph_Towards_Open_World_Object_Detection_CVPR_2021_paper.pdf"
+      },
+      {
+        "title": "Text2World: Benchmarking Large Language Models for Symbolic World Model Generation",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1337.pdf"
+      },
+      {
+        "title": "Towards Open World Recognition",
+        "pdf": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Bendale_Towards_Open_World_2015_CVPR_paper.pdf"
+      },
+      {
+        "title": "Real World Conversational Entity Linking Requires More Than Zero-Shots",
+        "pdf": "https://aclanthology.org/2024.findings-acl.829.pdf"
+      },
+      {
+        "title": "Opening Up Open World Tracking",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Opening_Up_Open_World_Tracking_CVPR_2022_paper.pdf"
+      },
+      {
+        "title": "SpreadsheetBench: Towards Challenging Real World Spreadsheet Manipulation",
+        "pdf": "https://openreview.net/pdf?id=KYxzmRLF6i"
+      },
+      {
+        "title": "Quantitative Evaluation of Confidence Measures in a Machine Learning World",
+        "pdf": "http://openaccess.thecvf.com/content_ICCV_2017/papers/Poggi_Quantitative_Evaluation_of_ICCV_2017_paper.pdf"
+      },
+      {
+        "title": "Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Driving_into_the_Future_Multiview_Visual_Forecasting_and_Planning_with_CVPR_2024_paper.pdf"
+      },
+      {
+        "title": "Medical World Model",
+        "pdf": "https://openaccess.thecvf.com/content/ICCV2025/papers/Yang_Medical_World_Model_ICCV_2025_paper.pdf"
+      },
+      {
+        "title": "Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability",
+        "pdf": "https://openreview.net/pdf?id=Tw9nfNyOMy"
+      },
+      {
+        "title": "A Real World Dataset for Multi-View 3D Reconstruction",
+        "pdf": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136680054.pdf"
+      },
+      {
+        "title": "Breeding Machine Translations: Evolutionary approach to survive and thrive in the world of automated evaluation",
+        "pdf": "https://aclanthology.org/2023.acl-long.122.pdf"
+      },
+      {
+        "title": "Scaling Offline Evaluation of Reinforcement Learning Agents through Abstraction",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/30283/32281"
+      },
+      {
+        "title": "UC-OWOD: Unknown-Classified Open World Object Detection",
+        "pdf": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136700191.pdf"
+      },
+      {
+        "title": "Learning Latent Dynamic Robust Representations for World Models",
+        "pdf": "https://openreview.net/pdf?id=C4jkx6AgWc"
+      },
+      {
+        "title": "ENHANCING SIGN LANGUAGE RECOGNITION THROUGH DEEP LEARNING: A SYSTEMATIC REVIEW AND EXPERIMENT FRAMEWORK",
+        "pdf": "https://doi.org/10.70382/hijcisr.v10i9.032"
+      },
+      {
+        "title": "Quantum-Resistant Framework for Secure Multi-Party Communication in Next-Generation Networks: Integrating Lattice-Based Cryptography with Bayesian Threat Inference and AI Applications",
+        "pdf": "https://doi.org/10.5281/zenodo.18076698"
+      },
+      {
+        "title": "Enhancing practical laboratory skills through video-based flipped learning",
+        "pdf": "https://www.dpublication.com/conference-proceedings/index.php/ntteconf/article/download/1292/1002"
+      },
+      {
+        "title": "Reliability analysis of inverted exponentiated Rayleigh parameters via progressive hybrid censoring data with applications in medical data",
+        "pdf": "https://doi.org/10.1371/journal.pone.0336169"
+      },
+      {
+        "title": "Sejarah Pramuka Masa Orde Baru 1970-1978",
+        "pdf": "https://journal.lppmunindra.ac.id/index.php/herodotus/article/download/28704/8006"
+      },
+      {
+        "title": "Decoding Energy Consumption in the ESG Era: Panel Data Evidence and Machine Learning Insights",
+        "pdf": "https://www.preprints.org/frontend/manuscript/a0c2203fad3273847fdea33d26b151e2/download_pub"
+      },
+      {
+        "title": "A Survey on Acoustic Side-Channel Attacks: An Artificial Intelligence Perspective",
+        "pdf": "https://www.mdpi.com/2624-800X/6/1/6/pdf?version=1767004203"
+      },
+      {
+        "title": "THE THEORETICAL FOUNDATIONS AND PRACTICAL APPLICATIONS OF ECONOMETRIC MODELING",
+        "pdf": "https://doi.org/10.5281/zenodo.18065826"
+      },
+      {
+        "title": "Personalized-Marketing-DRL",
+        "pdf": "https://doi.org/10.5281/zenodo.18065295"
+      },
+      {
+        "title": "Surrogate-Assisted Many-Objective Optimization of Injection Molding: Effects of Objective Selection and Sampling Density",
+        "pdf": "https://www.preprints.org/frontend/manuscript/411bcacb18218ba00b829abdc429ba8f/download_pub"
+      },
+      {
+        "title": "Interpretability and Trust in Large Language and Agentic Models: A Survey of Methods, Metrics, and Applications",
+        "pdf": "https://doi.org/10.31224/6090"
+      },
+      {
+        "title": "A Multi-Feature Extraction and Selection Framework for High-Accuracy Surface Defect Classification in Industrial Casting Parts",
+        "pdf": "https://dergipark.org.tr/en/download/article-file/5391057"
+      },
+      {
+        "title": "Advanced modeling and parameter estimation of PEM fuel cells using the g-function and self-adaptive differential evolution algorithm",
+        "pdf": "https://doi.org/10.1038/s41598-025-27991-x"
+      },
+      {
+        "title": "Multi-Modal-Sentiment-Analysis",
+        "pdf": "https://doi.org/10.5281/zenodo.18014471"
+      },
+      {
+        "title": "Elevating Intrusion Detection and Security Fortification in Intelligent Networks through Cutting-Edge Machine Learning Paradigms",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.19037"
+      },
+      {
+        "title": "Iтеративна оптимiзацiя попиту з використанням методу дискретних функцiональних частинок",
+        "pdf": "https://mmj.ukma.edu.ua/article/view/348395"
+      },
+      {
+        "title": "A comparative analysis of modern load forecasting techniques",
+        "pdf": "https://annalsmcs.org/index.php/amcs/article/download/727/239"
+      },
+      {
+        "title": "Journal of Communication and Information Systems",
+        "pdf": "https://jcis.sbrt.org.br/jcis/article/download/745/511/3358"
+      },
+      {
+        "title": "Deep Ensemble Learning Model for Waste Classification Systems",
+        "pdf": "https://doi.org/10.3390/su18010024"
+      },
+      {
+        "title": "Deep Learning in Healthcare: Technical Insights and Neural Network Applications in Medical Diagnosis and Prognosis",
+        "pdf": "https://doi.org/10.5281/zenodo.17985045"
+      },
+      {
+        "title": "A Decade of Soft Robotic Manipulators: Advances in Design, Modeling, Control, and Emerging Challenges",
+        "pdf": "https://link.springer.com/content/pdf/10.1007/s42235-025-00819-0.pdf"
+      },
+      {
+        "title": "Object Tracking Based on Quantum Particle Swarm Optimization",
+        "pdf": "https://doi.org/10.24073/jga/6/02/05"
+      },
+      {
+        "title": "Development Education",
+        "pdf": "https://lirias.kuleuven.be/bitstream/123456789/82197/1/UNESCOENGELS.pdf"
+      },
+      {
+        "title": "Beyond MMD: Evaluating Graph Generative Models with Geometric Deep Learning",
+        "pdf": "https://arxiv.org/pdf/2512.14241"
+      },
+      {
+        "title": "The Convergence of Shadow and Silicon: Advanced Forensic Methodologies for Decentralized Webs, Generative AI, and Darknet Infrastructure",
+        "pdf": "https://doi.org/10.53573/rhimrj.2025.v12n12.004"
+      },
+      {
+        "title": "Common air quality modelling methods and applications: A review paper",
+        "pdf": "https://doi.org/10.51489/tuzal.1710679"
+      },
+      {
+        "title": "PREreview of \"Auto-Prep: Holistic Prediction of Data Preparation Steps for Self-Service Business Intelligence\"",
+        "pdf": "https://doi.org/10.5281/zenodo.17925095"
+      },
+      {
+        "title": "Predicting E-Commerce Purchase Intention Using Machine Learning",
+        "pdf": "https://doi.org/10.55164/ajstr.v29i1.260159"
+      },
+      {
+        "title": "An Explainable AI for Stock Market Prediction: A Machine Learning Approach with XAI and Deep Neural Networks",
+        "pdf": "https://ojs.bonviewpress.com/index.php/JCCE/article/download/6428/1721"
+      },
+      {
+        "title": "Stylized Meta-Album: Group-bias injection with style transfer to study robustness against distribution shifts",
+        "pdf": "https://arxiv.org/pdf/2512.09773"
+      },
+      {
+        "title": "Kritieke vragen in geheugenveiligheid belicht: van programmeertaal tot hardware",
+        "pdf": "https://lirias.kuleuven.be/handle/20.500.12942/777852"
+      },
+      {
+        "title": "Case Studies in Accounting Research",
+        "pdf": "http://eprints.whiterose.ac.uk/105811/3/Chapter%2010FIN%20Lee%20and%20Humphrey%202016%20Case%20study%20methodology%20%20in%20accounting%20research.pdf"
+      },
+      {
+        "title": "A Comparative Analysis of Brain Tumor Detection and Classification using Machine Learning Algorithms",
+        "pdf": "https://doi.org/10.5281/zenodo.17864132"
+      },
+      {
+        "title": "Designing an Academic Software Factory for AI-Based Systems Development from Professors' Perspectives",
+        "pdf": "https://journals-sol.sbc.org.br/index.php/rbie/article/download/5647/3651"
+      },
+      {
+        "title": "Influence of human factors on the safety performance in Saudi Arabian construction industry",
+        "pdf": "http://usir.salford.ac.uk/id/eprint/58136/1/Yasir%20Azmat%20PhD%20thesis%20%2803.09.2020%29%20Influence%20of%20Human%20Factors%20on%20the%20safety%20performance%20of%20Saudi%20Arabian%20construction%20industry.pdf"
+      },
+      {
+        "title": "The Cognitive Hologram of AI Knowledge",
+        "pdf": "https://doi.org/10.5281/zenodo.17860776"
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "pdf": "https://arxiv.org/pdf/2512.25075v1"
+      },
+      {
+        "title": "Randomization Times under Quantum Chaotic Hamiltonian Evolution",
+        "pdf": "https://arxiv.org/pdf/2512.25074v1"
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2512.25073v1"
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "pdf": "https://arxiv.org/pdf/2512.25071v1"
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "pdf": "https://arxiv.org/pdf/2512.25072v1"
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "pdf": "https://arxiv.org/pdf/2512.25070v1"
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "pdf": "https://arxiv.org/pdf/2512.25067v1"
+      },
+      {
+        "title": "From Inpainting to Editing: A Self-Bootstrapping Framework for Context-Rich Visual Dubbing",
+        "pdf": "https://arxiv.org/pdf/2512.25066v1"
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "pdf": "https://arxiv.org/pdf/2512.25065v1"
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "pdf": "https://arxiv.org/pdf/2512.25064v1"
+      },
+      {
+        "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+        "pdf": "https://arxiv.org/pdf/2512.25063v1"
+      },
+      {
+        "title": "On the geometry and topology of representations: the manifolds of modular addition",
+        "pdf": "https://arxiv.org/pdf/2512.25060v1"
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "pdf": "https://arxiv.org/pdf/2512.25059v1"
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "pdf": "https://arxiv.org/pdf/2512.25056v1"
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "pdf": "https://arxiv.org/pdf/2512.25055v1"
+      },
+      {
+        "title": "Fluid dynamics as intersection problem",
+        "pdf": "https://arxiv.org/pdf/2512.25053v1"
+      },
+      {
+        "title": "The PDE-ODI principle and cylindrical mean curvature flows",
+        "pdf": "https://arxiv.org/pdf/2512.25050v1"
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "pdf": "https://arxiv.org/pdf/2512.25046v1"
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "pdf": "https://arxiv.org/pdf/2512.25045v1"
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "pdf": "https://arxiv.org/pdf/2512.25042v1"
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "pdf": "https://arxiv.org/pdf/2512.25040v1"
+      },
+      {
+        "title": "Anomalous (3+1)d Fermionic Topological Quantum Field Theories via Symmetry Extension",
+        "pdf": "https://arxiv.org/pdf/2512.25038v1"
+      },
+      {
+        "title": "Large Neutrino-Dark Matter Interactions: From Effective Field Theory to Ultraviolet Completions",
+        "pdf": "https://arxiv.org/pdf/2512.25035v1"
+      },
+      {
+        "title": "Generative Classifiers Avoid Shortcut Solutions",
+        "pdf": "https://arxiv.org/pdf/2512.25034v1"
+      },
+      {
+        "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+        "pdf": "https://arxiv.org/pdf/2512.25033v1"
+      },
+      {
+        "title": "Testing Monotonicity in a Finite Population",
+        "pdf": "https://arxiv.org/pdf/2512.25032v1"
+      },
+      {
+        "title": "Fractal conduction pathways governing ionic transport in a glass",
+        "pdf": "https://arxiv.org/pdf/2512.25031v1"
+      },
+      {
+        "title": "Multivariate Generalized Counting Process via Gamma Subordination",
+        "pdf": "https://arxiv.org/pdf/2512.25030v1"
+      },
+      {
+        "title": "Universal Seesaw Pati-Salam Model with P for Strong CP",
+        "pdf": "https://arxiv.org/pdf/2512.25028v1"
+      },
+      {
+        "title": "Computational Analysis of Disease Progression in Pediatric Pulmonary Arterial Hypertension",
+        "pdf": "https://arxiv.org/pdf/2512.25027v1"
+      },
+      {
+        "title": "Modeling Language as a Sequence of Thoughts",
+        "pdf": "https://arxiv.org/pdf/2512.25026v1"
+      },
+      {
+        "title": "Modewise Additive Factor Model for Matrix Time Series",
+        "pdf": "https://arxiv.org/pdf/2512.25025v1"
+      },
+      {
+        "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+        "pdf": "https://arxiv.org/pdf/2512.25023v1"
+      },
+      {
+        "title": "Real Riemann Surfaces: Smooth and Discrete",
+        "pdf": "https://arxiv.org/pdf/2512.25022v1"
+      },
+      {
+        "title": "Approximation Algorithms for Fair Repetitive Scheduling",
+        "pdf": "https://arxiv.org/pdf/2512.25020v1"
+      },
+      {
+        "title": "Loop-Level Lepton Flavor Violation and Diphoton Signals in the Minimal Left-Right Symmetric Model",
+        "pdf": "https://arxiv.org/pdf/2512.25019v1"
+      },
+      {
+        "title": "Strengthening Dual Bounds for Multicommodity Capacitated Network Design with Unsplittable Flow Constraints",
+        "pdf": "https://arxiv.org/pdf/2512.25018v1"
+      },
+      {
+        "title": "Approximations for the Weighted Reversal, Transposition, and Indel Distance Problem with Intergenic Region Information",
+        "pdf": "https://arxiv.org/pdf/2512.25016v1"
+      },
+      {
+        "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+        "pdf": "https://arxiv.org/pdf/2512.25015v1"
+      },
+      {
+        "title": "Diffusion Language Models are Provably Optimal Parallel Samplers",
+        "pdf": "https://arxiv.org/pdf/2512.25014v1"
+      },
+      {
+        "title": "Parity order as a fundamental driver of bosonic topology",
+        "pdf": "https://arxiv.org/pdf/2512.25011v1"
+      },
+      {
+        "title": "The splitting field and generators of the elliptic surface $Y^2=X^3 +t^{360} +1$",
+        "pdf": "https://arxiv.org/pdf/2512.25009v1"
+      },
+      {
+        "title": "FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM",
+        "pdf": "https://arxiv.org/pdf/2512.25008v1"
+      },
+      {
+        "title": "Uniqueness for stochastic differential equations in Hilbert spaces with irregular drift",
+        "pdf": "https://arxiv.org/pdf/2512.25003v1"
+      },
+      {
+        "title": "Distributions of wide binary stars in theory and in Gaia data: III. Orbital momenta, masses, and manifestations of MOND",
+        "pdf": "https://arxiv.org/pdf/2512.25002v1"
+      },
+      {
+        "title": "The local limit of weighted spanning trees on balanced networks",
+        "pdf": "https://arxiv.org/pdf/2512.25001v1"
+      },
+      {
+        "title": "Bi-C2R: Bidirectional Continual Compatible Representation for Re-indexing Free Lifelong Person Re-identification",
+        "pdf": "https://arxiv.org/pdf/2512.25000v1"
+      },
+      {
+        "title": "Basic Inequalities for First-Order Optimization with Applications to Statistical Risk Analysis",
+        "pdf": "https://arxiv.org/pdf/2512.24999v1"
+      },
+      {
+        "title": "Numerical study of boson mixtures with multi-component continuous matrix product states",
+        "pdf": "https://arxiv.org/pdf/2512.24998v1"
+      },
+      {
+        "title": "Classifying long legal documents using short random chunks",
+        "pdf": "https://arxiv.org/pdf/2512.24997v1"
+      },
+      {
+        "title": "Demonstration of quality evaluation for MDA-based web engineering methodologies using quality evaluation framework – WSDMDA case study",
+        "pdf": "https://wjaets.com/sites/default/files/WJAETS-2024-0305.pdf"
+      },
+      {
+        "title": "Enhancing Brain Tumor Classification by a Comprehensive Study on Transfer Learning Techniques and Model Efficiency Using MRI Datasets",
+        "pdf": "https://doi.org/10.1109/access.2024.3430109"
+      },
+      {
+        "title": "Efficacy Evaluation of You Only Learn One Representation (YOLOR) Algorithm in Detecting, Tracking, and Counting Vehicular Traffic in Real-World Scenarios, the Case of Morelia México: An Artificial Intelligence Approach",
+        "pdf": "https://doi.org/10.3390/ai5030077"
+      },
+      {
+        "title": "Image Processing Model for Sign Language Recognition System",
+        "pdf": "https://doi.org/10.22214/ijraset.2024.61671"
+      },
+      {
+        "title": "Using Feature Selection Enhancement to Evaluate Attack Detection in the Internet of Things Environment",
+        "pdf": "https://www.mdpi.com/2079-9292/13/9/1678/pdf?version=1714126105"
+      },
+      {
+        "title": "Artificial Intelligence Technologies for Forecasting Air Pollution and Human Health: A Narrative Review",
+        "pdf": "https://www.mdpi.com/2071-1050/14/16/9951/pdf?version=1660736466"
+      },
+      {
+        "title": "Optimization of Sensor Placement for Modal Testing Using Machine Learning",
+        "pdf": "https://www.mdpi.com/2076-3417/14/7/3040/pdf?version=1712235009"
+      },
+      {
+        "title": "Leveraging probability and statistical algorithms for enhanced financial risk management",
+        "pdf": "https://tns.ewapublishing.org/media/7514b77079e44028891afec97578d855.marked.pdf"
+      },
+      {
+        "title": "A State-of-the-Art Review of Time Series Forecasting Using Deep Learning Approaches",
+        "pdf": "https://ijritcc.org/index.php/ijritcc/article/download/5890/5570"
+      },
+      {
+        "title": "Disassembly Sequence Planning (DSP) Applied to a Gear Box: Comparison between Two Literature Studies",
+        "pdf": "https://www.mdpi.com/2076-3417/10/13/4591/pdf?version=1594125816"
+      },
+      {
+        "title": "A systematic literature review on Machine Learning Model evaluation on healthcare applications",
+        "pdf": "https://rsdjournal.org/index.php/rsd/article/download/42042/34097"
+      },
+      {
+        "title": "Performance evaluation of botnet detection using machine learning techniques",
+        "pdf": "https://ijece.iaescore.com/index.php/IJECE/article/download/31738/17007"
+      },
+      {
+        "title": "Development and initial validation of a data quality evaluation tool in obstetrics real-world data through HL7-FHIR interoperable Bayesian networks and expert rules",
+        "pdf": "https://doi.org/10.1093/jamiaopen/ooae062"
+      },
+      {
+        "title": "Rigorous Evaluation of Computer Processors with Statistical Model Checking",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3613424.3623785"
+      },
+      {
+        "title": "Modeling Metaverse Perceptions for Bolstering Traffic Safety using Novel TrSS-Based OWCM-RAM MCDM Techniques: Purposes and Strategies",
+        "pdf": "https://doi.org/10.61356/j.nswa.2024.16204"
+      },
+      {
+        "title": "A Review on Lung and Colon Combine Cancer Detection using ML and DL Techniques",
+        "pdf": "https://doi.org/10.32628/cseit2410583"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "ENHANCING SIGN LANGUAGE RECOGNITION THROUGH DEEP LEARNING: A SYSTEMATIC REVIEW AND EXPERIMENT FRAMEWORK",
+        "doi": "https://doi.org/10.70382/hijcisr.v10i9.032"
+      },
+      {
+        "title": "Quantum-Resistant Framework for Secure Multi-Party Communication in Next-Generation Networks: Integrating Lattice-Based Cryptography with Bayesian Threat Inference and AI Applications",
+        "doi": "https://doi.org/10.5281/zenodo.18076698"
+      },
+      {
+        "title": "Enhancing practical laboratory skills through video-based flipped learning",
+        "doi": "https://doi.org/10.33422/ntteconf.v2i1.1292"
+      },
+      {
+        "title": "Reliability analysis of inverted exponentiated Rayleigh parameters via progressive hybrid censoring data with applications in medical data",
+        "doi": "https://doi.org/10.1371/journal.pone.0336169"
+      },
+      {
+        "title": "Sejarah Pramuka Masa Orde Baru 1970-1978",
+        "doi": "https://doi.org/10.30998/herodotus.v8i3.28704"
+      },
+      {
+        "title": "Decoding Energy Consumption in the ESG Era: Panel Data Evidence and Machine Learning Insights",
+        "doi": "https://doi.org/10.20944/preprints202512.2529.v1"
+      },
+      {
+        "title": "A Survey on Acoustic Side-Channel Attacks: An Artificial Intelligence Perspective",
+        "doi": "https://doi.org/10.3390/jcp6010006"
+      },
+      {
+        "title": "THE THEORETICAL FOUNDATIONS AND PRACTICAL APPLICATIONS OF ECONOMETRIC MODELING",
+        "doi": "https://doi.org/10.5281/zenodo.18065826"
+      },
+      {
+        "title": "Personalized-Marketing-DRL",
+        "doi": "https://doi.org/10.5281/zenodo.18065295"
+      },
+      {
+        "title": "Functional Classification of Spiking Signal Data Using Artificial Intelligence Techniques: A Systematic Review",
+        "doi": "https://doi.org/10.1002/widm.70053"
+      },
+      {
+        "title": "Surrogate-Assisted Many-Objective Optimization of Injection Molding: Effects of Objective Selection and Sampling Density",
+        "doi": "https://doi.org/10.20944/preprints202512.2408.v1"
+      },
+      {
+        "title": "A Survey of Single Image Blind Motion Deblurring from Traditional to Deep Learning",
+        "doi": "https://doi.org/10.1145/3785655"
+      },
+      {
+        "title": "Interpretability and Trust in Large Language and Agentic Models: A Survey of Methods, Metrics, and Applications",
+        "doi": "https://doi.org/10.31224/6090"
+      },
+      {
+        "title": "A Multi-Feature Extraction and Selection Framework for High-Accuracy Surface Defect Classification in Industrial Casting Parts",
+        "doi": "https://doi.org/10.55213/kmujens.1817251"
+      },
+      {
+        "title": "Advanced modeling and parameter estimation of PEM fuel cells using the g-function and self-adaptive differential evolution algorithm",
+        "doi": "https://doi.org/10.1038/s41598-025-27991-x"
+      },
+      {
+        "title": "Multi-Modal-Sentiment-Analysis",
+        "doi": "https://doi.org/10.5281/zenodo.18014471"
+      },
+      {
+        "title": "Elevating Intrusion Detection and Security Fortification in Intelligent Networks through Cutting-Edge Machine Learning Paradigms",
+        "doi": "https://doi.org/10.48550/arxiv.2512.19037"
+      },
+      {
+        "title": "A comparative analysis of modern load forecasting techniques",
+        "doi": "https://doi.org/10.56947/amcs.v31.727"
+      },
+      {
+        "title": "Journal of Communication and Information Systems",
+        "doi": "https://doi.org/10.14209/jcis"
+      },
+      {
+        "title": "Deep Ensemble Learning Model for Waste Classification Systems",
+        "doi": "https://doi.org/10.3390/su18010024"
+      },
+      {
+        "title": "Deep Learning in Healthcare: Technical Insights and Neural Network Applications in Medical Diagnosis and Prognosis",
+        "doi": "https://doi.org/10.5281/zenodo.17985045"
+      },
+      {
+        "title": "Exploratory Analysis and Prediction of Weather Conditions: Leveraging Feature Engineering and Machine Learning Models for Accurate Forecasting",
+        "doi": "https://doi.org/10.1051/epjconf/202534305008/pdf"
+      },
+      {
+        "title": "A Systematic Review: Zero-Watermarking Techniques Analysis for 3D Video Protection",
+        "doi": "https://doi.org/10.1145/3778748"
+      },
+      {
+        "title": "A Decade of Soft Robotic Manipulators: Advances in Design, Modeling, Control, and Emerging Challenges",
+        "doi": "https://doi.org/10.1007/s42235-025-00819-0"
+      },
+      {
+        "title": "Object Tracking Based on Quantum Particle Swarm Optimization",
+        "doi": "https://doi.org/10.24073/jga/6/02/05"
+      },
+      {
+        "title": "Development Education",
+        "doi": "https://doi.org/10.5040/9781350441491.ch-12"
+      },
+      {
+        "title": "Beyond MMD: Evaluating Graph Generative Models with Geometric Deep Learning",
+        "doi": "https://doi.org/10.48550/arxiv.2512.14241"
+      },
+      {
+        "title": "The Convergence of Shadow and Silicon: Advanced Forensic Methodologies for Decentralized Webs, Generative AI, and Darknet Infrastructure",
+        "doi": "https://doi.org/10.53573/rhimrj.2025.v12n12.004"
+      },
+      {
+        "title": "APPLIED RESEARCH IN TOURISM &amp; HOSPITALITY STUDIES",
+        "doi": "https://doi.org/10.61909/amkedtb122548"
+      },
+      {
+        "title": "Common air quality modelling methods and applications: A review paper",
+        "doi": "https://doi.org/10.51489/tuzal.1710679"
+      },
+      {
+        "title": "PREreview of \"Auto-Prep: Holistic Prediction of Data Preparation Steps for Self-Service Business Intelligence\"",
+        "doi": "https://doi.org/10.5281/zenodo.17925095"
+      },
+      {
+        "title": "Predicting E-Commerce Purchase Intention Using Machine Learning",
+        "doi": "https://doi.org/10.55164/ajstr.v29i1.260159"
+      },
+      {
+        "title": "An Explainable AI for Stock Market Prediction: A Machine Learning Approach with XAI and Deep Neural Networks",
+        "doi": "https://doi.org/10.47852/bonviewjcce52026428"
+      },
+      {
+        "title": "Machine learning-enhanced metal oxide gas sensor arrays: a review of selectivity and performance improvements",
+        "doi": "https://doi.org/10.1108/sr-08-2025-0639"
+      },
+      {
+        "title": "Stylized Meta-Album: Group-bias injection with style transfer to study robustness against distribution shifts",
+        "doi": "https://doi.org/10.48550/arxiv.2512.09773"
+      },
+      {
+        "title": "Case Studies in Accounting Research",
+        "doi": "https://doi.org/10.4324/9781003509295-18"
+      },
+      {
+        "title": "A Comparative Analysis of Brain Tumor Detection and Classification using Machine Learning Algorithms",
+        "doi": "https://doi.org/10.5281/zenodo.17864132"
+      },
+      {
+        "title": "Designing an Academic Software Factory for AI-Based Systems Development from Professors' Perspectives",
+        "doi": "https://doi.org/10.5753/rbie.2025.5647"
+      },
+      {
+        "title": "Influence of human factors on the safety performance in Saudi Arabian construction industry",
+        "doi": "https://doi.org/10.17866/rk7m-5a20"
+      },
+      {
+        "title": "The Cognitive Hologram of AI Knowledge",
+        "doi": "https://doi.org/10.5281/zenodo.17860776"
+      },
+      {
+        "title": "Demonstration of quality evaluation for MDA-based web engineering methodologies using quality evaluation framework – WSDMDA case study",
+        "doi": "https://doi.org/10.30574/wjaets.2024.12.2.0305"
+      },
+      {
+        "title": "Enhancing Brain Tumor Classification by a Comprehensive Study on Transfer Learning Techniques and Model Efficiency Using MRI Datasets",
+        "doi": "https://doi.org/10.1109/ACCESS.2024.3430109"
+      },
+      {
+        "title": "Comprehensive GIS-driven evaluation of drought severity and duration: comparative assessment of parametric and non-parametric SPI methodologies",
+        "doi": "https://doi.org/10.1007/s00704-025-05448-5"
+      },
+      {
+        "title": "Efficacy Evaluation of You Only Learn One Representation (YOLOR) Algorithm in Detecting, Tracking, and Counting Vehicular Traffic in Real-World Scenarios, the Case of Morelia México: An Artificial Intelligence Approach",
+        "doi": "https://doi.org/10.3390/ai5030077"
+      },
+      {
+        "title": "Machine Learning Techniques for Maternal Health Risk Prediction: A Comparative Performance Analysis with Real-World Data",
+        "doi": "https://doi.org/10.1109/ICIMTech67074.2025.11265208"
+      },
+      {
+        "title": "Differential evolution using novel individual evaluation and constraint handling techniques for constrained optimization",
+        "doi": "https://doi.org/10.1007/s00500-021-05831-0"
+      },
+      {
+        "title": "Text-Based Personality Assessment Using Deep Learning Techniques",
+        "doi": "https://doi.org/10.1109/ICETCS61022.2024.10543333"
+      },
+      {
+        "title": "Advanced Machine Learning Approaches for Robust Credit Card Fraud Detection: A Comprehensive Evaluation and Practical Insights",
+        "doi": "https://doi.org/10.1109/ICACC63692.2024.10845703"
+      },
+      {
+        "title": "Approaches for Groundwater Vulnerability Assessment in Relation to Pollution Potential: A Critical Evaluation and Challenges",
+        "doi": "https://doi.org/10.1007/s12594-023-2440-8"
+      },
+      {
+        "title": "An Innovative synthesis of deep learning techniques (DCapsNet & DCOM) for generation electrical renewable energy from wind energy",
+        "doi": "https://doi.org/10.1007/s00500-020-04905-9"
+      },
+      {
+        "title": "Evaluation of Traffic Signal Control at Varying Demand Levels: A Comparative Study",
+        "doi": "https://doi.org/10.1109/ITSC57777.2023.10421894"
+      },
+      {
+        "title": "Image Processing Model for Sign Language Recognition System",
+        "doi": "https://doi.org/10.22214/ijraset.2024.61671"
+      },
+      {
+        "title": "Explainable AI (XAI) for trustworthy and transparent decision-making: A theoretical framework for AI interpretability",
+        "doi": "https://doi.org/10.30574/wjaets.2025.14.3.0106"
+      },
+      {
+        "title": "Using Feature Selection Enhancement to Evaluate Attack Detection in the Internet of Things Environment",
+        "doi": "https://doi.org/10.3390/electronics13091678"
+      },
+      {
+        "title": "Emerging SMOTE and GAN Variants for Data Augmentation in Imbalance Machine Learning Tasks: A Review",
+        "doi": "https://doi.org/10.1109/ACCESS.2025.3584532"
+      },
+      {
+        "title": "Artificial Intelligence Technologies for Forecasting Air Pollution and Human Health: A Narrative Review",
+        "doi": "https://doi.org/10.3390/su14169951"
+      },
+      {
+        "title": "Deep Learning based detection of Diabetic Retinopathy from Inexpensive fundus imaging techniques",
+        "doi": "https://doi.org/10.1109/CONECCT52877.2021.9622703"
+      },
+      {
+        "title": "Optimization of Sensor Placement for Modal Testing Using Machine Learning",
+        "doi": "https://doi.org/10.3390/app14073040"
+      },
+      {
+        "title": "BTS: A Comprehensive Benchmark for Tie Strength Prediction",
+        "doi": "https://doi.org/10.1145/3711896.3737441"
+      },
+      {
+        "title": "Metric-Based Few-Shot Learning With Triplet Selection for Adaptive GNSS Interference Classification",
+        "doi": "https://doi.org/10.1109/JISPIN.2025.3562140"
+      },
+      {
+        "title": "Leveraging probability and statistical algorithms for enhanced financial risk management",
+        "doi": "https://doi.org/10.54254/2753-8818/38/20240553"
+      },
+      {
+        "title": "A State-of-the-Art Review of Time Series Forecasting Using Deep Learning Approaches",
+        "doi": "https://doi.org/10.17762/ijritcc.v10i12.5890"
+      },
+      {
+        "title": "Disassembly Sequence Planning (DSP) Applied to a Gear Box: Comparison between Two Literature Studies",
+        "doi": "https://doi.org/10.3390/app10134591"
+      },
+      {
+        "title": "A systematic literature review on Machine Learning Model evaluation on healthcare applications",
+        "doi": "https://doi.org/10.33448/rsd-v12i6.42042"
+      },
+      {
+        "title": "Advanced Deep Learning Techniques for Analyzing Earnings Call Transcripts: Methodologies and Applications",
+        "doi": "https://doi.org/10.48550/arXiv.2503.01886"
+      },
+      {
+        "title": "Machine learning approaches to anxiety detection: trends, model evaluation, and future directions",
+        "doi": "https://doi.org/10.3389/frai.2025.1630047"
+      },
+      {
+        "title": "Innovative active learning in engineering: A course model combining flipped classroom, real-time evaluation, and real-world projects",
+        "doi": "https://doi.org/10.55284/ajel.v10i2.1605"
+      },
+      {
+        "title": "Using Code Adequacy Methodologies in Confomance with ASME Standards for Nuclear Power Plant Analysis Evaluation Models",
+        "doi": "https://doi.org/10.1115/vvuq2023-108796"
+      },
+      {
+        "title": "Performance Evaluation of AI and Traditional Techniques for Crack Detection on Concrete Structures",
+        "doi": "https://doi.org/10.47556/j.wjstsd.20.3.2025.5"
+      },
+      {
+        "title": "A Comprehensive Analysis & Performance Evaluation of Machine Learning Techniques in Heart Disease Diagnosis",
+        "doi": "https://doi.org/10.1109/ICSCNA63714.2024.10863961"
+      },
+      {
+        "title": "Evaluating Large Language Models: Frameworks and Methodologies for AI/ML System Testing",
+        "doi": "https://doi.org/10.18535/ijsrm/v12i09.ec08"
+      },
+      {
+        "title": "Survey and Analysis of DDOS Attack Detection by Hybrid Deep Learning Methodologies",
+        "doi": "https://doi.org/10.1109/ICIPTM59628.2024.10563902"
+      },
+      {
+        "title": "Predicting the value of football players: machine learning techniques and sensitivity analysis based on FIFA and real-world statistical datasets",
+        "doi": "https://doi.org/10.1007/s10489-024-06189-0"
+      },
+      {
+        "title": "Performance evaluation of botnet detection using machine learning techniques",
+        "doi": "https://doi.org/10.11591/ijece.v13i6.pp6827-6835"
+      },
+      {
+        "title": "Development and initial validation of a data quality evaluation tool in obstetrics real-world data through HL7-FHIR interoperable Bayesian networks and expert rules",
+        "doi": "https://doi.org/10.1093/jamiaopen/ooae062"
+      },
+      {
+        "title": "Rigorous Evaluation of Computer Processors with Statistical Model Checking",
+        "doi": "https://doi.org/10.1145/3613424.3623785"
+      },
+      {
+        "title": "Neutrosophic MCDM Model for Evaluation and Selection best 5G Network Architecture",
+        "doi": "https://doi.org/10.54216/ijaaci.040101"
+      },
+      {
+        "title": "Recent Developments in Image-Based 3D Reconstruction Using Deep Learning: Methodologies and Applications",
+        "doi": "https://doi.org/10.3390/electronics14153032"
+      },
+      {
+        "title": "Modeling Metaverse Perceptions for Bolstering Traffic Safety using Novel TrSS-Based OWCM-RAM MCDM Techniques: Purposes and Strategies",
+        "doi": "https://doi.org/10.61356/j.nswa.2024.16204"
+      },
+      {
+        "title": "Enhancing face recognition performance: a comprehensive evaluation of deep learning models and a novel ensemble approach with hyperparameter tuning",
+        "doi": "https://doi.org/10.1007/s00500-024-09954-y"
+      },
+      {
+        "title": "Advanced hybrid neural network techniques for minimizing gas turbine emissions",
+        "doi": "https://doi.org/10.1108/wje-11-2023-0473"
+      },
+      {
+        "title": "Data Skew in Federated Learning: An Experimental Evaluation on Aggregation Algorithms",
+        "doi": "https://doi.org/10.1109/FLTA63145.2024.10840118"
+      },
+      {
+        "title": "A Survey on Generative Model Unlearning: Fundamentals, Taxonomy, Evaluation, and Future Direction",
+        "doi": "https://doi.org/10.48550/arXiv.2507.19894"
+      },
+      {
+        "title": "PII Detection in Low-Resource Languages Using Explainable Deep Learning Techniques",
+        "doi": "https://doi.org/10.1145/3675888.3676036"
+      },
+      {
+        "title": "AISafetyLab: A Comprehensive Framework for AI Safety Evaluation and Improvement",
+        "doi": "https://doi.org/10.48550/arXiv.2502.16776"
+      },
+      {
+        "title": "A Review on Lung and Colon Combine Cancer Detection using ML and DL Techniques",
+        "doi": "https://doi.org/10.32628/cseit2410583"
+      },
+      {
+        "title": "A Multimodal Systematic Review of Drivers’ Fatigue Detection Methodologies, Datasets, and Models",
+        "doi": "https://doi.org/10.1109/ACCESS.2025.3606900"
+      },
+      {
+        "title": "Recent Advances in Credit Card Fraud Detection: An Analytical Review of Frameworks, Methodologies, Datasets, and Challenges",
+        "doi": "https://doi.org/10.62411/faith.3048-3719-251"
+      },
+      {
+        "title": "From Data to Decision: Machine Learning Techniques for Financial Deposit Prediction",
+        "doi": "https://doi.org/10.1109/RMKMATE64874.2025.11042713"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "world model evaluation techniques",
+    "total_steps": 4,
+    "last_updated": "2026-01-03T16:22:42.689077",
+    "started_at": "2026-01-03T16:20:38.489064",
+    "total_papers": 214
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T17:50:18.579782",
+      "agent": "online_search_agent",
+      "action": "Online search: 'foundational papers on catastrophic forgetting in neural networks'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "foundational papers on catastrophic forgetting in neural networks",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 25,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 25
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T17:50:27.863153",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'catastrophic forgetting neural networks'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "catastrophic forgetting neural networks",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 75
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T17:50:31.703940",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'foundational papers on catastrophic forgetting'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "foundational papers on catastrophic forgetting",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml"
+        ],
+        "start_year": 2015,
+        "end_year": 2020,
+        "papers_found": 50,
+        "papers_added": 33,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 108
+    }
+  ],
+  "current_step": 3,
+  "metadata": {
+    "query": "foundational papers on catastrophic forgetting",
+    "total_steps": 3,
+    "last_updated": "2026-01-03T17:50:31.717655",
+    "started_at": "2026-01-03T17:49:04.938899",
+    "total_papers": 108
+  }
+}

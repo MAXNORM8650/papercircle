@@ -8,31 +8,11 @@ This directory contains tools for generating animated GIF logos for PaperCircle.
 - **`generate-gif.js`** - Node.js script to generate animated GIF logo
 - **`logo-animation.gif`** - Generated animated logo (3.5MB, 5 seconds loop)
 
-## Generated Animation
-
-The animated GIF includes 4 phases:
-
-### Phase 1: Paper Count Increase (2 seconds)
-- Papers slowly increase from **3 to 24**
-- Smooth easing animation
-
-### Phase 2: Spiral Rotation (1.5 seconds)
-- Spiral expands from offset 40 to 70
-- Full **360° rotation** effect
-- Creates dynamic circular motion
-
-### Phase 3: Folding Animation (1 second)
-- Spiral contracts back to offset 40
-- Another **360° rotation**
-- Fold size increases from 15 to 40 (corner fold becomes more pronounced)
-
-### Phase 4: Hold Final State (0.5 seconds)
-- Maintains final position for smooth loop
 
 ## How to Regenerate
 
 ```bash
-cd /Users/komal.kumar/Documents/websites/papercircle/logodesign
+cd ~/papercircle/logodesign
 node generate-gif.js
 ```
 
@@ -146,17 +126,3 @@ Generation takes approximately:
 - **30-60 seconds** on modern hardware
 - **120 frames** rendered individually
 - Uses headless Chrome via Puppeteer
-
-## Output
-
-The final GIF is saved to:
-```
-/Users/komal.kumar/Documents/websites/papercircle/logodesign/logo-animation.gif
-```
-
-You can use this in:
-- Website headers
-- Loading animations
-- Social media posts
-- Email signatures
-- Documentation

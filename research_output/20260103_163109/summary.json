@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "world model evaluation metrics methodology",
+    "total_papers": 314,
+    "unique_sources": 7,
+    "year_range": {
+      "min": 2015,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 11,
+      "average": 3.7
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 204,
+    "papers_with_doi": 117,
+    "processing_steps": 7
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (75) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 75
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 99 papers (31%)",
+      "data": {
+        "source": "arxiv",
+        "count": 99
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Luc Van Gool has 3 papers in this collection",
+      "data": {
+        "author": "Luc Van Gool",
+        "count": 3
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Journal of Communication and Information Systems...\" has 9 citations",
+      "data": {
+        "title": "Journal of Communication and Information Systems",
+        "citations": 9
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: world, models, evaluation, model, real",
+      "data": {
+        "keywords": {
+          "world": 103,
+          "models": 78,
+          "evaluation": 77,
+          "model": 51,
+          "real": 38
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "204/314 papers (64%) have direct PDF links",
+      "data": {
+        "with_pdf": 204,
+        "total": 314
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 314 papers related to 'world model evaluation metrics methodology'",
+    "Papers collected from 7 sources: offline_cvpr, offline_nips, offline_iclr, offline_icml, arxiv, dblp, openalex",
+    "Publication years range from 2015 to 2026",
+    "Total citations: 11, Average: 3",
+    "Leading researchers: Luc Van Gool, Jifan Yu, Xiaohan Zhang"
+  ],
+  "metadata": {
+    "query": "world model evaluation metrics methodology",
+    "total_steps": 7,
+    "last_updated": "2026-01-03T16:32:17.641922",
+    "started_at": "2026-01-03T16:31:09.302329",
+    "total_papers": 314
+  },
+  "is_complete": true
+}

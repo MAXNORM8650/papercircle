@@ -1,0 +1,283 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T02:02:01.093027",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'compressing high-volume visual inputs to compact visual embeddings'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "compressing high-volume visual inputs to compact visual embeddings",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 50
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T02:02:29.216086",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'compressing high-volume visual inputs to compact visual embeddings'",
+      "result_preview": "Found 25 papers from local database",
+      "details": {
+        "query": "compressing high-volume visual inputs to compact visual embeddings",
+        "conferences": null,
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 25,
+        "papers_added": 10,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 60
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T02:02:33.804915",
+      "agent": "online_search_agent",
+      "action": "Online search: 'visual input compression compact embeddings'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "visual input compression compact embeddings",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 49,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 109
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T02:02:48.772013",
+      "agent": "online_search_agent",
+      "action": "Online search: 'visual compression'",
+      "result_preview": "Found 160 papers",
+      "details": {
+        "query": "visual compression",
+        "sources": null,
+        "papers_found": 160,
+        "papers_added": 149,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 258
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T02:02:55.016199",
+      "agent": "online_search_agent",
+      "action": "Online search: 'visual embeddings'",
+      "result_preview": "Found 180 papers",
+      "details": {
+        "query": "visual embeddings",
+        "sources": null,
+        "papers_found": 180,
+        "papers_added": 141,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 399
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-03T02:03:03.161536",
+      "agent": "online_search_agent",
+      "action": "Online search: 'compact representations'",
+      "result_preview": "Found 121 papers",
+      "details": {
+        "query": "compact representations",
+        "sources": null,
+        "papers_found": 121,
+        "papers_added": 103,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 502
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-03T02:03:08.744449",
+      "agent": "online_search_agent",
+      "action": "Online search: 'feature compression'",
+      "result_preview": "Found 133 papers",
+      "details": {
+        "query": "feature compression",
+        "sources": null,
+        "papers_found": 133,
+        "papers_added": 103,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 605
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-03T02:03:14.212957",
+      "agent": "online_search_agent",
+      "action": "Online search: 'dimensionality reduction'",
+      "result_preview": "Found 123 papers",
+      "details": {
+        "query": "dimensionality reduction",
+        "sources": null,
+        "papers_found": 123,
+        "papers_added": 107,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 712
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-03T02:03:26.269549",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'visual compression'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "visual compression",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 38,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 750
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-03T02:03:38.604317",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'visual embeddings'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "visual embeddings",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 25,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 775
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-03T02:03:55.936008",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'compact representations'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "compact representations",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 42,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 817
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-03T02:04:13.529600",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'feature compression'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "feature compression",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 46,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 863
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-03T02:04:29.237700",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'dimensionality reduction'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "dimensionality reduction",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 49,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 912
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-03T02:05:01.323171",
+      "agent": "online_search_agent",
+      "action": "Online search: 'compresses high-volume visual inputs to compact visual embeddings'",
+      "result_preview": "Found 103 papers",
+      "details": {
+        "query": "compresses high-volume visual inputs to compact visual embeddings",
+        "sources": null,
+        "papers_found": 103,
+        "papers_added": 54,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 966
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-03T02:05:06.945295",
+      "agent": "online_search_agent",
+      "action": "Online search: 'visual input compression'",
+      "result_preview": "Found 128 papers",
+      "details": {
+        "query": "visual input compression",
+        "sources": null,
+        "papers_found": 128,
+        "papers_added": 69,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 1035
+    }
+  ],
+  "current_step": 15,
+  "metadata": {
+    "query": "visual input compression",
+    "total_steps": 15,
+    "last_updated": "2026-01-03T02:05:07.019050",
+    "started_at": "2026-01-03T02:01:46.074759",
+    "total_papers": 1035
+  }
+}

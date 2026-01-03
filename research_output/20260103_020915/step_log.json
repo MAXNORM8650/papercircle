@@ -1,0 +1,312 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T02:09:30.480270",
+      "agent": "online_search_agent",
+      "action": "Online search: 'efficient visual representation learning'",
+      "result_preview": "Found 117 papers",
+      "details": {
+        "query": "efficient visual representation learning",
+        "sources": null,
+        "papers_found": 117,
+        "papers_added": 117,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 117
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T02:09:38.768446",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'efficient visual representation learning'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "efficient visual representation learning",
+        "conferences": [
+          "iclr",
+          "icml",
+          "cvpr",
+          "nips"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 46,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 163
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T02:09:47.702862",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'efficient visual representation learning'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "efficient visual representation learning",
+        "conferences": [
+          "iclr",
+          "icml",
+          "cvpr",
+          "nips",
+          "iccv",
+          "eccv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 11,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 174
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T02:09:54.653385",
+      "agent": "online_search_agent",
+      "action": "Online search: 'visual representation learning efficiency'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "visual representation learning efficiency",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 20,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 194
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T02:10:11.883032",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'efficient visual representation learning'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "efficient visual representation learning",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": 2021,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 7,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 201
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-03T02:10:18.715329",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'parameter-efficient methods visual representation'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "parameter-efficient methods visual representation",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": 2021,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 48,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 249
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-03T02:10:25.806843",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'distillation visual representation learning'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "distillation visual representation learning",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": 2021,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 49,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 298
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-03T02:10:32.957671",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'sparse learning visual representation'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "sparse learning visual representation",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": 2021,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 44,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 342
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-03T02:10:40.335304",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'efficient visual representation learning parameter-efficient distillation sparse'",
+      "result_preview": "Found 100 papers from local database",
+      "details": {
+        "query": "efficient visual representation learning parameter-efficient distillation sparse",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": 2021,
+        "end_year": null,
+        "papers_found": 100,
+        "papers_added": 54,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 396
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-03T02:11:06.807379",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'efficient visual representation learning parameter-efficient methods knowledge distillation sparse learning computer vision'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "efficient visual representation learning parameter-efficient methods knowledge distillation sparse learning computer vision",
+        "conferences": [
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "nips"
+        ],
+        "start_year": 2021,
+        "end_year": 2026,
+        "papers_found": 50,
+        "papers_added": 30,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 426
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-03T02:11:15.842592",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'efficient visual representation learning parameter-efficient methods knowledge distillation sparse learning computer vision'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "efficient visual representation learning parameter-efficient methods knowledge distillation sparse learning computer vision",
+        "conferences": [
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "nips"
+        ],
+        "start_year": 2021,
+        "end_year": 2026,
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 426
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-03T02:11:24.292064",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'parameter-efficient methods vision transformers sparse learning'",
+      "result_preview": "Found 30 papers from local database",
+      "details": {
+        "query": "parameter-efficient methods vision transformers sparse learning",
+        "conferences": [
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "nips"
+        ],
+        "start_year": 2021,
+        "end_year": 2026,
+        "papers_found": 30,
+        "papers_added": 23,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 449
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-03T02:11:35.431450",
+      "agent": "sorting_agent",
+      "action": "Sorted 5 papers by 'citations'",
+      "result_preview": "Top paper: ScaleNet: An Unsupervised Representation Learning ...",
+      "details": {
+        "sort_by": "citations",
+        "weights": null,
+        "top_k": 5
+      },
+      "papers_count": 5
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-03T02:11:36.508265",
+      "agent": "sorting_agent",
+      "action": "Sorted 5 papers by 'recency'",
+      "result_preview": "Top paper: Development Education...",
+      "details": {
+        "sort_by": "recency",
+        "weights": null,
+        "top_k": 5
+      },
+      "papers_count": 5
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-03T02:11:37.651555",
+      "agent": "sorting_agent",
+      "action": "Sorted 5 papers by 'novelty'",
+      "result_preview": "Top paper: Development Education...",
+      "details": {
+        "sort_by": "novelty",
+        "weights": null,
+        "top_k": 5
+      },
+      "papers_count": 5
+    }
+  ],
+  "current_step": 15,
+  "metadata": {
+    "query": "parameter-efficient methods vision transformers sparse learning",
+    "total_steps": 15,
+    "last_updated": "2026-01-03T02:11:37.663252",
+    "started_at": "2026-01-03T02:09:17.155708",
+    "total_papers": 5
+  }
+}

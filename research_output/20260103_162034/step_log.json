@@ -1,0 +1,105 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T16:22:11.847944",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world model evaluation methodologies and techniques'",
+      "result_preview": "Found 142 papers",
+      "details": {
+        "query": "world model evaluation methodologies and techniques",
+        "sources": null,
+        "papers_found": 142,
+        "papers_added": 142,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 142
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T16:22:24.453997",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'world model evaluation methodologies and techniques'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "world model evaluation methodologies and techniques",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 46,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 188
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T16:22:37.317436",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'world model evaluation'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "world model evaluation",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 26,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 214
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T16:22:42.655119",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world model evaluation techniques'",
+      "result_preview": "Found 30 papers",
+      "details": {
+        "query": "world model evaluation techniques",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 30,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 214
+    }
+  ],
+  "current_step": 4,
+  "metadata": {
+    "query": "world model evaluation techniques",
+    "total_steps": 4,
+    "last_updated": "2026-01-03T16:22:42.708885",
+    "started_at": "2026-01-03T16:20:38.489064",
+    "total_papers": 214
+  }
+}

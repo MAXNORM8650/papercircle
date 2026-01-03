@@ -1,0 +1,158 @@
+{
+  "stats": {
+    "total_papers": 5,
+    "sources": {
+      "openalex": 1,
+      "semantic_scholar": 4
+    },
+    "year_distribution": {
+      "2025": 1,
+      "2024": 2,
+      "2023": 1,
+      "2022": 1
+    },
+    "top_authors": {
+      "Jef Verhoeven": 1,
+      "Jiang Zhao": 1,
+      "Yibo Wang": 1,
+      "Zhihao Cai": 1,
+      "Ningjun Liu": 1,
+      "Kun Wu": 1,
+      "Yingxun Wang": 1,
+      "Huili Huang": 1,
+      "M. M. Roozbahani": 1,
+      "Ting Yao": 1,
+      "Yingwei Pan": 1,
+      "Yehao Li": 1,
+      "C. Ngo": 1,
+      "Tao Mei": 1,
+      "Fotios Lygerakis": 1,
+      "Vedant Dave": 1,
+      "Elmar Rueckert": 1
+    },
+    "top_venues": {
+      "IEEE Transactions on Artificial Intelligence": 1,
+      "German Conference on Pattern Recognition": 1,
+      "European Conference on Computer Vision": 1,
+      "2024 21st International Conference on Ubiquitous Robots (UR)": 1
+    },
+    "top_keywords": {
+      "learning": 5,
+      "representation": 4,
+      "visual": 2,
+      "development": 1,
+      "education": 1,
+      "autonomous": 1,
+      "drone": 1,
+      "navigation": 1,
+      "contrastive": 1,
+      "world": 1,
+      "model": 1,
+      "scalenet": 1,
+      "unsupervised": 1,
+      "method": 1,
+      "limited": 1,
+      "information": 1,
+      "wave": 1,
+      "unifying": 1,
+      "wavelet": 1,
+      "transformers": 1,
+      "sample": 1,
+      "efficient": 1,
+      "multimodal": 1,
+      "reinforcement": 1,
+      "self": 1,
+      "supervised": 1,
+      "robotic": 1,
+      "manipulation": 1
+    },
+    "citation_stats": {
+      "total": 1188,
+      "avg": 237.6,
+      "max": 787,
+      "min": 8,
+      "median": 187
+    },
+    "score_stats": {
+      "avg_similarity": 0.064,
+      "avg_novelty": 0.727,
+      "avg_recency": 0.76,
+      "avg_bm25": 0.0,
+      "avg_combined": 0.0
+    }
+  },
+  "leaderboard": [
+    {
+      "rank": 1,
+      "title": "Development Education",
+      "year": 2025,
+      "citations": 197,
+      "combined_score": 0.0,
+      "similarity_score": 0.0,
+      "novelty_score": 0.833,
+      "recency_score": 0.9,
+      "bm25_score": 0.0,
+      "source": "openalex",
+      "has_pdf": true
+    },
+    {
+      "rank": 2,
+      "title": "Learning Visual Representation for Autonomous Drone Navigation via a Contrastive",
+      "year": 2024,
+      "citations": 8,
+      "combined_score": 0.0,
+      "similarity_score": 0.087,
+      "novelty_score": 0.714,
+      "recency_score": 0.8,
+      "bm25_score": 0.0,
+      "source": "semantic_scholar",
+      "has_pdf": false
+    },
+    {
+      "rank": 3,
+      "title": "ScaleNet: An Unsupervised Representation Learning Method for Limited Information",
+      "year": 2023,
+      "citations": 787,
+      "combined_score": 0.0,
+      "similarity_score": 0.038,
+      "novelty_score": 0.703,
+      "recency_score": 0.7,
+      "bm25_score": 0.0,
+      "source": "semantic_scholar",
+      "has_pdf": false
+    },
+    {
+      "rank": 4,
+      "title": "Wave-ViT: Unifying Wavelet and Transformers for Visual Representation Learning",
+      "year": 2022,
+      "citations": 187,
+      "combined_score": 0.0,
+      "similarity_score": 0.102,
+      "novelty_score": 0.692,
+      "recency_score": 0.6,
+      "bm25_score": 0.0,
+      "source": "semantic_scholar",
+      "has_pdf": true
+    },
+    {
+      "rank": 5,
+      "title": "M2CURL: Sample-Efficient Multimodal Reinforcement Learning via Self-Supervised R",
+      "year": 2024,
+      "citations": 9,
+      "combined_score": 0.0,
+      "similarity_score": 0.091,
+      "novelty_score": 0.69,
+      "recency_score": 0.8,
+      "bm25_score": 0.0,
+      "source": "semantic_scholar",
+      "has_pdf": false
+    }
+  ],
+  "metadata": {
+    "query": "parameter-efficient methods vision transformers sparse learning",
+    "total_steps": 15,
+    "last_updated": "2026-01-03T02:11:37.657769",
+    "started_at": "2026-01-03T02:09:17.155708",
+    "total_papers": 5
+  }
+}

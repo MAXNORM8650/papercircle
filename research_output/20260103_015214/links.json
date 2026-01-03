@@ -1,0 +1,3483 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "SWE-PolyBench: A multi-language benchmark for repository level evaluation of coding agents",
+        "url": "https://openreview.net/forum?id=n577FC6CKk",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "RExBench: Can coding agents autonomously implement AI research extensions?",
+        "url": "https://openreview.net/forum?id=0xpakqqTbe",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "How Do Coding Agents Spend Your Money? Analyzing and Predicting Token Consumptions in Agentic Coding Tasks",
+        "url": "https://openreview.net/forum?id=1bUeVB3fov",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research",
+        "url": "https://openreview.net/forum?id=JX9DE6colf",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents",
+        "url": "https://openreview.net/forum?id=pUpzQZTvGY",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Huxley-G\\\"odel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine",
+        "url": "https://openreview.net/forum?id=T0EiEuhOOL",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Beyond Software Development: Continuous Integration with coding agents",
+        "url": "https://openreview.net/forum?id=n8lAJLVdVN",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "HAI-Eval: Measuring Human-AI Synergy in Collaborative Coding",
+        "url": "https://openreview.net/forum?id=pKqt8psClA",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Shepherd: Pattern-Guided Trajectory Selection for Coding Agents on SWE-Bench",
+        "url": "https://openreview.net/forum?id=ZBOFr4ryBk",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "AgentDAM: Privacy Leakage Evaluation for Autonomous Web Agents",
+        "url": "https://openreview.net/forum?id=qaxf7q41aK",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "XOXO: Stealthy Cross-Origin Context Poisoning Attacks against AI Coding Assistants",
+        "url": "https://openreview.net/forum?id=h3et0fXbEg",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Dyna-Mind: Learning to Simulate from Experience for Better AI Agents",
+        "url": "https://openreview.net/forum?id=F848aPzCJy",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "REDO: Execution-Free Runtime Error Detection for Coding Agents",
+        "url": "https://openreview.net/forum?id=THkF3VWSNv",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation",
+        "url": "https://openreview.net/forum?id=vUaY1t64ZZ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions",
+        "url": "https://aclanthology.org/2024.emnlp-main.1143/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.1143.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Beyond Browsing: API-Based Web Agents",
+        "url": "https://openreview.net/forum?id=TPiJKs7ccR",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Aligning AI Research with the Needs of Clinical Coding Workflows: Eight Recommendations Based on US Data Analysis and Critical Review",
+        "url": "https://aclanthology.org/2025.acl-long.45/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.45.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "UnrealCV Zoo: Enriching Photo-realistic Virtual Worlds for Embodied AI Agents",
+        "url": "https://openreview.net/forum?id=vQ1y086Kn2",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "FeatBench: Evaluating Coding Agents on Feature Implementation for Vibe Coding",
+        "url": "https://openreview.net/forum?id=YeHaANktHN",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Information Retrieval Induced Safety Degradation in AI Agents",
+        "url": "https://openreview.net/forum?id=2hiNrfMmQ7",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "VisCoder2: Building Multi-Language Visualization Coding Agents",
+        "url": "https://openreview.net/forum?id=4zoMnmZzh4",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "MedCodER: A Generative AI Assistant for Medical Coding",
+        "url": "https://aclanthology.org/2025.naacl-industry.37/",
+        "pdf_url": "https://aclanthology.org/2025.naacl-industry.37.pdf",
+        "doi_url": null,
+        "source": "offline_naacl",
+        "year": 2025
+      },
+      {
+        "title": "ToolFuzz: Automated Agent Tool Testing",
+        "url": "https://openreview.net/forum?id=d9H63Iatgd",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "R2E: Turning any Github Repository into a Programming Agent Environment",
+        "url": "https://icml.cc/virtual/2024/poster/33250",
+        "pdf_url": "https://openreview.net/pdf?id=kXHgEYFyf3",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "Better than Your Teacher: LLM Agents that learn from Privileged AI Feedback",
+        "url": "https://iclr.cc/virtual/2025/poster/28093",
+        "pdf_url": "https://openreview.net/pdf?id=st7XqFgbAH",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "A Framework for Studying AI Agent Behavior: Evidence from Consumer Choice Experiments",
+        "url": "https://openreview.net/forum?id=xAPoscV2Bw",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents",
+        "url": "https://neurips.cc/virtual/2024/poster/96895",
+        "pdf_url": "https://openreview.net/pdf?id=0zWzJj6lO3",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Build-Bench: Benchmarking LLM Agents on Compiling Real-World Open Source Software",
+        "url": "https://openreview.net/forum?id=oHEaIwPv9s",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph",
+        "url": "https://iclr.cc/virtual/2025/poster/28957",
+        "pdf_url": "https://openreview.net/pdf?id=dw9VUsSHGB",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "TANGO: Training-free Embodied AI Agents for Open-world Tasks",
+        "url": "https://cvpr.thecvf.com/virtual/2025/poster/34559",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Ziliotto_TANGO_Training-free_Embodied_AI_Agents_for_Open-world_Tasks_CVPR_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2025
+      },
+      {
+        "title": "On the Consideration of AI Openness: Can Good Intent Be Abused?",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34948",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34948/37103",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2025
+      },
+      {
+        "title": "MineAnyBuild: Benchmarking Spatial Planning for Open-world AI Agents",
+        "url": "https://openreview.net/forum?id=UlwaJPzLs2",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "SWE-RM: Execution-free Feedback for Software Engineering Agents",
+        "url": "https://openreview.net/forum?id=H9wMe1G76j",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "LUMOS: Towards Language Agents that are Unified, Modular, and Open Source",
+        "url": "https://openreview.net/forum?id=VmnWoLbzCS",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "AgentChangeBench: A Multi-Dimensional Evaluation Framework for Goal-Shift Robustness in Conversational AI",
+        "url": "https://openreview.net/forum?id=Kkcaz5XlJB",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "FALCON: A Feedback-Driven Adaptive Long/Short-Term Memory Reinforced Coding Optimization",
+        "url": "https://openreview.net/forum?id=N18Z2MkMEa",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Position: Near to Mid-term Risks and Opportunities of Open-Source Generative AI",
+        "url": "https://icml.cc/virtual/2024/poster/34830",
+        "pdf_url": "https://openreview.net/pdf?id=8q4EPdjTLE",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "Xaitk-Saliency: An Open Source Explainable AI Toolkit for Saliency",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26871",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/26871/26643",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2023
+      },
+      {
+        "title": "AI-Olympics: Exploring the Generalization of Agents through Open Competitions",
+        "url": "https://www.ijcai.org/proceedings/2024/1040",
+        "pdf_url": "https://www.ijcai.org/proceedings/2024/1040.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2024
+      },
+      {
+        "title": "Safurai 001: New Qualitative Approach for Evaluation",
+        "url": "https://openreview.net/forum?id=t18wD1cH9G",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "A Comprehensive Survey of Cross-Domain Policy Transfer for Embodied Agents",
+        "url": "https://www.ijcai.org/proceedings/2024/906",
+        "pdf_url": "https://www.ijcai.org/proceedings/2024/0906.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2024
+      },
+      {
+        "title": "AI Model Factory: Scaling AI for Industry 4.0 Applications",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/27081",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/27081/26853",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2023
+      },
+      {
+        "title": "Universal Sample Coding",
+        "url": "https://neurips.cc/virtual/2024/poster/93482",
+        "pdf_url": "https://openreview.net/pdf?id=qdV1vp1AtL",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Knowledge-Embedded Narrative Construction from Open Source Intelligence",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26926",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/26926/26698",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2023
+      },
+      {
+        "title": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+        "url": "https://www.semanticscholar.org/paper/7260442ef9c0448f07ce3803efd49cebaffcebe9",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Leveraging Open Data and Task Augmentation to Automated Behavioral Coding of Psychotherapy Conversations in Low-Resource Scenarios",
+        "url": "https://aclanthology.org/2022.findings-emnlp.425/",
+        "pdf_url": "https://aclanthology.org/2022.findings-emnlp.425.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2022
+      },
+      {
+        "title": "CodeNet: A Large-Scale AI for Code Dataset for Learning a Diversity of Coding Tasks",
+        "url": "https://openreview.net/forum?id=6vZVBkCDrHT",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2021
+      },
+      {
+        "title": "The Neural Testbed: Evaluating Joint Predictions",
+        "url": "https://nips.cc/virtual/2022/poster/53958",
+        "pdf_url": "https://openreview.net/pdf?id=JyTT03dqCFD",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2022
+      },
+      {
+        "title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+        "url": "https://www.semanticscholar.org/paper/1d07e5b6f978cf69c0186f3d5f434fa92d471e46",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Agents: An Open-source Framework for Autonomous Language Agents",
+        "url": "https://www.semanticscholar.org/paper/012c552ef548582875349f8457b0645dabc3e662",
+        "pdf_url": "https://arxiv.org/pdf/2309.07870",
+        "doi_url": "https://doi.org/10.48550/arXiv.2309.07870",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "[Replication Kit] On the Adoption of AI Coding Agents in Open-source Android and iOS Development",
+        "url": "https://openalex.org/W7114767309",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17874505",
+        "doi_url": "https://doi.org/10.5281/zenodo.17874505",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training",
+        "url": "https://www.semanticscholar.org/paper/412bf7358c6aa3da6f1c384b4cc79953e7a5d3fb",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2508.00414",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Context Engineering for AI Agents in Open-Source Software",
+        "url": "https://www.semanticscholar.org/paper/8e88d031a27b32f5d08fc33bee90a6d9e05ee06c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2510.21413",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "GLM-4.5V and GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+        "url": "https://www.semanticscholar.org/paper/c79ebb4c82ddd2aec1a6ee3d7d912959e2e8fea1",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "NL2Repo-Bench: Towards Long-Horizon Repository Generation Evaluation of Coding Agents",
+        "url": "https://www.semanticscholar.org/paper/7fef2a0902492f9aa98b44eb86775f9a7de96b4b",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Re-opening open-source science through AI assisted development",
+        "url": "https://openalex.org/W4417447130",
+        "pdf_url": "https://arxiv.org/pdf/2512.11993",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.11993",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Open Deep Search: Democratizing Search with Open-source Reasoning Agents",
+        "url": "https://www.semanticscholar.org/paper/e21ea6a240fad32d9ddd03d70e2f40dae78bcd1e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2503.20201",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "LlamaFirewall: An open source guardrail system for building secure AI agents",
+        "url": "https://www.semanticscholar.org/paper/07734909a75edc13eb838d9f83b52dcc1ea06e64",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.03574",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "OpenMathInstruct-2: Accelerating AI for Math with Massive Open-Source Instruction Data",
+        "url": "https://www.semanticscholar.org/paper/94c82c25d8943fea9461d804257ee16c9d672548",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2410.01560",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Devika AI: An Open-Source Revolution In AI-Powered Code Generation",
+        "url": "https://www.semanticscholar.org/paper/9801ef2fe9433eea9113b0188d27ce8eceecb27c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.9790/0661-2605011316",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "SWE-EVO: Benchmarking Coding Agents in Long-Horizon Software Evolution Scenarios",
+        "url": "https://www.semanticscholar.org/paper/03966865097d130afafce247b9fa4cfbac042e60",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Lemur: Harmonizing Natural Language and Code for Language Agents",
+        "url": "https://www.semanticscholar.org/paper/8147cec9245d34d13732a08e915c920a1a499bb5",
+        "pdf_url": "https://arxiv.org/pdf/2310.06830",
+        "doi_url": "https://doi.org/10.48550/arXiv.2310.06830",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "High-performance Open-source AI for Breast Cancer Detection and Localization in MRI.",
+        "url": "https://www.semanticscholar.org/paper/4b14004aad1d085e21d8322f0b1ca36766f2e40a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1148/ryai.240550",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "VTutor: An Open-Source SDK for Generative AI-Powered Animated Pedagogical Agents with Multi-Media Output",
+        "url": "https://www.semanticscholar.org/paper/49f62c6bc220c683ff29f2d333e171343913a1e5",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2502.04103",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Adversarial Configuration Injection in AI Coding Assistants: A Systematic Security Evaluation Framework",
+        "url": "https://openalex.org/W7115070229",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17924763",
+        "doi_url": "https://doi.org/10.5281/zenodo.17924763",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data",
+        "url": "https://www.semanticscholar.org/paper/f10459002d7da8f070794feabb21624341e8c12e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2509.15221",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "CodeEvolve: An open source evolutionary coding agent for algorithm discovery and optimization",
+        "url": "https://www.semanticscholar.org/paper/fc3d421c06c4a739507e18e8b1eefff643cbae9a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2510.14150",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "SecureAgentBench: Benchmarking Secure Code Generation under Realistic Vulnerability Scenarios",
+        "url": "https://www.semanticscholar.org/paper/37773e557d7e1666bb1472c70faf1c22f19938e6",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2509.22097",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "An Empirical Study of Developer-Provided Context for AI Coding Assistants in Open-Source Projects",
+        "url": "https://www.semanticscholar.org/paper/7af10a7b403eeccc0cde2bbb39e1419bed2e7d61",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+        "url": "https://www.semanticscholar.org/paper/0fc028a0e11fafb29451e0fa8ec383dee449cc33",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2507.01006",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "PEFA-AI: Advancing Open-source LLMs for RTL generation using Progressive Error Feedback Agentic-AI",
+        "url": "https://www.semanticscholar.org/paper/945e7cd23a8d681631dcf13cf148e5a4c9d475e0",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2511.03934",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Simple Agents Outperform Experts in Biomedical Imaging Workflow Optimization",
+        "url": "https://www.semanticscholar.org/paper/98f8f6f05e653c72c159917de69f07dc68e0f16e",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "An Introduction to prismAId: Open-Source and Open Science AI for Advancing Information Extraction in Systematic Reviews",
+        "url": "https://www.semanticscholar.org/paper/1fcb8e62f87acae24f444ef90538e62a8c98d3f9",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.21105/joss.07616",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub",
+        "url": "https://www.semanticscholar.org/paper/92ac4787d5b9798ee292da70abb7a55d85b16cf3",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2509.14745",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "FinRobot: An Open-Source AI Agent Platform for Financial Applications using Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/780881ba7440fb95ebc7114d8f219466275102f8",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2405.14767",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Agri Friendly Conversational AI Chatbot Using Open Source Framework",
+        "url": "https://www.semanticscholar.org/paper/3de48a67665d698bb804307feb65945f4d1fc018",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.17485/ijst/v18i8.15",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Open Source AI-based SE Tools: Opportunities and Challenges of Collaborative Software Learning",
+        "url": "https://www.semanticscholar.org/paper/6696018baf29273aa722e16eda89850247b8f0aa",
+        "pdf_url": "https://arxiv.org/pdf/2404.06201",
+        "doi_url": "https://doi.org/10.1145/3708529",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "An Empirical Study of Testing Practices in Open Source AI Agent Frameworks and Agentic Applications",
+        "url": "https://www.semanticscholar.org/paper/f628b16d7e56158ab7e936961eaf57fd5d6678b8",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2509.19185",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Agentic Refactoring: An Empirical Study of AI Coding Agents",
+        "url": "https://www.semanticscholar.org/paper/65b7e09b4b19bb763f1e1d7b17a4e927e0d8179b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2511.04824",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "LibVulnWatch: A Deep Assessment Agent System and Leaderboard for Uncovering Hidden Vulnerabilities in Open-Source AI Libraries",
+        "url": "https://www.semanticscholar.org/paper/601fdf3e2f6bf0d8bc970954fca28cf8c5f22322",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.08842",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Vibe Coding, Interface Flattening",
+        "url": "http://arxiv.org/abs/2512.24939v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24939v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "ML-Dev-Bench: Comparative Analysis of AI Agents on ML development workflows",
+        "url": "https://www.semanticscholar.org/paper/d3dc789db41b8f6b633bbac276559d0e53bc91e5",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2502.00964",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Devstral: Fine-tuning Language Models for Coding Agent Applications",
+        "url": "https://www.semanticscholar.org/paper/f91ff621fa356aa0c1bf40ab907bf659259857ab",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2509.25193",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Open-Source AI-Powered Optimization in Scalene: Advancing Python Performance Profiling with DeepSeek-R1 and LLaMA 3.2",
+        "url": "https://www.semanticscholar.org/paper/1060020358a0b0fc6f060aec1ff172619af04699",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2502.10299",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Agentic AI Governance Framework",
+        "url": "https://openalex.org/W7116067166",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17977089",
+        "doi_url": "https://doi.org/10.5281/zenodo.17977089",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "With Great Capabilities Come Great Responsibilities: Introducing the Agentic Risk & Capability Framework for Governing Agentic AI Systems",
+        "url": "https://openalex.org/W7117850866",
+        "pdf_url": "https://arxiv.org/pdf/2512.22211",
+        "doi_url": null,
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Open-Source Conversational AI with SpeechBrain 1.0",
+        "url": "https://www.semanticscholar.org/paper/65cec875dcacadf6df860853c09125dc966084f4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2407.00463",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents",
+        "url": "https://www.semanticscholar.org/paper/cd968cd9a072ed4771999c061b943ba0062a71e7",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2509.23045",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "With Great Capabilities Come Great Responsibilities: Introducing the Agentic Risk &amp; Capability Framework for Governing Agentic AI Systems",
+        "url": "https://openalex.org/W7117649558",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.22211",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.22211",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Securing the Modern Software Supply Chain: AI-Driven Threat Analysis and Defense-in-Depth Architecture",
+        "url": "https://openalex.org/W7117240249",
+        "pdf_url": "https://doi.org/10.5281/zenodo.18041109",
+        "doi_url": "https://doi.org/10.5281/zenodo.18041109",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "SWE-Sharp-Bench: A Reproducible Benchmark for C# Software Engineering Tasks",
+        "url": "https://www.semanticscholar.org/paper/5a11923691f5259d2a0359d7c0335a77fe773fa1",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2511.02352",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Open-source AI-assisted rapid 3D color multimodal image fusion and preoperative augmented reality planning of extracerebral tumors.",
+        "url": "https://www.semanticscholar.org/paper/5777f3416b0b115288e602ea92a0c8ff570b914f",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.3171/2025.4.FOCUS24557",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "AI-Driven Software Supply Chain Security: A Unified Analysis of Threats, Detection, and Defense-in-Depth Strategies",
+        "url": "https://openalex.org/W7116739963",
+        "pdf_url": "https://doi.org/10.5281/zenodo.18005868",
+        "doi_url": "https://doi.org/10.5281/zenodo.18005868",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "url": "http://arxiv.org/abs/2512.25055v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Universal Audio Generation",
+        "url": "https://openalex.org/W4414932055",
+        "pdf_url": "https://hal.science/hal-05110014v1/document",
+        "doi_url": null,
+        "source": "openalex",
+        "year": 2026
+      },
+      {
+        "title": "The Impact of Generative AI on Collaborative Open-Source Software Development: Evidence from GitHub Copilot",
+        "url": "https://www.semanticscholar.org/paper/712171098cc0bf2280fdf0cec1d803d6db05e18f",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.2139/ssrn.4856935",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Evolving Excellence: Automated Optimization of LLM-based Agents",
+        "url": "https://openalex.org/W4417289328",
+        "pdf_url": "https://arxiv.org/pdf/2512.09108",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.09108",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "ShowUI-$π$: Flow-based Generative Models as GUI Dexterous Hands",
+        "url": "http://arxiv.org/abs/2512.24965v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24965v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "VulnLLM-R: Specialized Reasoning LLM with Agent Scaffold for Vulnerability Detection",
+        "url": "https://openalex.org/W7111262835",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.07533",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.07533",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Code Ownership in Open-Source AI Software Security",
+        "url": "https://www.semanticscholar.org/paper/5536b5dd74803ebdb8beaa8f148c87b1b7998f61",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3643691.3648586",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "creator35lwb-web/VerifiMind-PEAS: Genesis Prompt Engineering Methodology v2.0: Multi-Agent AI Validation Framework",
+        "url": "https://openalex.org/W7116094157",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17972751",
+        "doi_url": "https://doi.org/10.5281/zenodo.17972751",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Advances in Agentic AI: Back to the Future",
+        "url": "http://arxiv.org/abs/2512.24856v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24856v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "HaineiFRDM: Explore Diffusion to Restore Defects in Fast-Movement Films",
+        "url": "http://arxiv.org/abs/2512.24946v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24946v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Integrated Precision Surgical Protocol (IPSP): A Fully Open-Source, Clinically Actionable, and Falsifiable Framework for Verified Computational Model-Derived Predictive Target of 33% Reduction in Mortality and Complications in High-Risk Neurosurgical, Cardiovascular, and Orthopedic Surgeries",
+        "url": "https://openalex.org/W7104273318",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17538257",
+        "doi_url": "https://doi.org/10.5281/zenodo.17538257",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Empowering smart app development with SolidGPT: an edge-cloud hybrid AI agent framework",
+        "url": "https://openalex.org/W7114791056",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.08286",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.08286",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Towards Provably Secure Generative AI: Reliable Consensus Sampling",
+        "url": "http://arxiv.org/abs/2512.24925v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24925v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Thematic Analysis with Open-Source Generative AI and Machine Learning: A New Method for Inductive Qualitative Codebook Development",
+        "url": "https://www.semanticscholar.org/paper/afebe22663bb64197604dcfcf517761fc9c8035a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2410.03721",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Seismology modeling agent: A smart assistant for geophysical researchers",
+        "url": "https://openalex.org/W4417469650",
+        "pdf_url": "https://arxiv.org/pdf/2512.14429",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.14429",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+        "url": "http://arxiv.org/abs/2512.24873v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24873v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "SciEvalKit: An Open-source Evaluation Toolkit for Scientific General Intelligence",
+        "url": "https://openalex.org/W7117650591",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.22334",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.22334",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Artificial or Just Artful? Do LLMs Bend the Rules in Programming?",
+        "url": "https://openalex.org/W7117321655",
+        "pdf_url": "https://doi.org/10.48550/arxiv.2512.21028",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.21028",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Creating Animations for Maths Teaching",
+        "url": "https://openalex.org/W4417149910",
+        "pdf_url": "https://repository.iu.org/bitstreams/478ec58d-fd8b-4c49-ae9e-974d0d50d992/download",
+        "doi_url": "https://doi.org/10.56250/4092",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "\"Echoes of Cycles\" - A Multi-AI Cross-Modal Analysis from Poetry to Music Genre Classification",
+        "url": "https://openalex.org/W7115918157",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17957249",
+        "doi_url": "https://doi.org/10.5281/zenodo.17957249",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "url": "http://arxiv.org/abs/2512.25070v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Flare: A Boundary Engine for Relational AI",
+        "url": "https://openalex.org/W7111050169",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17855976",
+        "doi_url": "https://doi.org/10.5281/zenodo.17855976",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Microservice Generation",
+        "url": "https://openalex.org/W7111156148",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17863952",
+        "doi_url": "https://doi.org/10.5281/zenodo.17863952",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "MfN DataHub – a Centralized Service for Automated Biodiversity Data Integration at the Museum for Natural History Berlin",
+        "url": "https://openalex.org/W7116918224",
+        "pdf_url": "https://doi.org/10.3897/biss.9.183132",
+        "doi_url": "https://doi.org/10.3897/biss.9.183132",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Big AI is accelerating the metacrisis: What can we do?",
+        "url": "http://arxiv.org/abs/2512.24863v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24863v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Love, Lies, and Language Models: Investigating AI's Role in Romance-Baiting Scams",
+        "url": "https://openalex.org/W7116283710",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17985497",
+        "doi_url": "https://doi.org/10.5281/zenodo.17985497",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Fair Committee Selection under Ordinal Preferences and Limited Cardinal Information",
+        "url": "http://arxiv.org/abs/2512.24934v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24934v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Love, Lies, and Language Models: Investigating AI's Role in Romance-Baiting Scams Artifacts for USENIX Security 2026",
+        "url": "https://openalex.org/W7116427619",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17983883",
+        "doi_url": "https://doi.org/10.5281/zenodo.17983883",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "DarkEQA: Benchmarking Vision-Language Models for Embodied Question Answering in Low-Light Indoor Environments",
+        "url": "http://arxiv.org/abs/2512.24985v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24985v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+        "url": "http://arxiv.org/abs/2512.25033v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25033v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Incentivizing Tool-augmented Thinking with Images for Medical Image Analysis",
+        "url": "https://openalex.org/W4417466893",
+        "pdf_url": "https://arxiv.org/pdf/2512.14157",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.14157",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Veracity: An Open-Source AI Fact-Checking System",
+        "url": "https://www.semanticscholar.org/paper/a6751cbbb43459512d15624359fae530d146c257",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.15794",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Description of Baryon Mass Spectrum by Open Strings and Diquarks",
+        "url": "http://arxiv.org/abs/2512.24882v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24882v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "AI-Driven Cloud Resource Optimization for Multi-Cluster Environments",
+        "url": "http://arxiv.org/abs/2512.24914v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24914v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "A Solution toward Transparent and Practical AI Regulation: Privacy Nutrition Labels for Open-source Generative AI-based Applications",
+        "url": "https://www.semanticscholar.org/paper/acba0f23fa5f2613fe47ddb5e0a9f114513f37bc",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2407.15407",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Configuration Spaces of Finite Representation Type Algebras",
+        "url": "http://arxiv.org/abs/2512.24870v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24870v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+        "url": "http://arxiv.org/abs/2512.24986v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24986v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Heterogeneous Multi-Agent Multi-Target Tracking using Cellular Sheaves",
+        "url": "http://arxiv.org/abs/2512.24886v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24886v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Open-Ethical AI: Advancements in Open-Source Human-Centric Neural Language Models",
+        "url": "https://www.semanticscholar.org/paper/fe472d15e2fd294c5d871a5b316d6a74908f409f",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3703454",
+        "doi_url": "https://doi.org/10.1145/3703454",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Measuring Mixed-State Topological Invariant in Open Photonic Quantum Walk",
+        "url": "http://arxiv.org/abs/2512.24857v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24857v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "RAIR: A Rule-Aware Benchmark Uniting Challenging Long-Tail and Visual Salience Subset for E-commerce Relevance Assessment",
+        "url": "http://arxiv.org/abs/2512.24943v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24943v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Lindbladian PT phase transitions",
+        "url": "http://arxiv.org/abs/2512.24981v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24981v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Iterative Deployment Improves Planning Skills in LLMs",
+        "url": "http://arxiv.org/abs/2512.24940v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24940v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "BEDA: Belief Estimation as Probabilistic Constraints for Performing Strategic Dialogue Acts",
+        "url": "http://arxiv.org/abs/2512.24885v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24885v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Kobayashi2501/AK-High-Dimensional-Projection-Structural-Theory: AK–HDPST v17.0.1 — AK High-Dimensional Projection Structural Theory",
+        "url": "https://openalex.org/W7117109590",
+        "pdf_url": "https://doi.org/10.5281/zenodo.18029366",
+        "doi_url": "https://doi.org/10.5281/zenodo.18029366",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Existence, uniqueness, and approximability of solutions to the classical Melan equation in suspension bridges",
+        "url": "http://arxiv.org/abs/2512.24915v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24915v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "url": "http://arxiv.org/abs/2512.25064v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Interaction of a Vortex Pair with a Polymeric Fluid Layer",
+        "url": "http://arxiv.org/abs/2512.24944v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24944v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Semi-overlapping Multi-bandit Best Arm Identification for Sequential Support Network Learning",
+        "url": "http://arxiv.org/abs/2512.24959v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24959v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Polynomial $χ$-boundedness for excluding $P_5$",
+        "url": "http://arxiv.org/abs/2512.24907v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24907v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "MSACL: Multi-Step Actor-Critic Learning with Lyapunov Certificates for Exponentially Stabilizing Control",
+        "url": "http://arxiv.org/abs/2512.24955v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24955v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "garciaalan186/geometric-mnemic-manifolds: Geometric Mnemic Manifolds v3.0 - Release Notes",
+        "url": "https://openalex.org/W7109959603",
+        "pdf_url": "https://doi.org/10.5281/zenodo.17849006",
+        "doi_url": "https://doi.org/10.5281/zenodo.17849006",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Global boundedness and absorbing sets in two-dimensional chemotaxis-Navier-Stokes systems with weakly singular sensitivity and a sub-logistic source",
+        "url": "http://arxiv.org/abs/2512.24892v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24892v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The Impact of LLMs on Online News Consumption and Production",
+        "url": "http://arxiv.org/abs/2512.24968v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24968v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Self-Supervised Amortized Neural Operators for Optimal Control: Scaling Laws and Applications",
+        "url": "http://arxiv.org/abs/2512.24897v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24897v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "url": "http://arxiv.org/abs/2512.25075v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+        "url": "http://arxiv.org/abs/2512.25052v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25052v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Discovery of a galaxy associated with the HI cloud FAST J0139+4328",
+        "url": "http://arxiv.org/abs/2512.24924v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24924v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Manifold classification from the descriptive viewpoint",
+        "url": "http://arxiv.org/abs/2512.24996v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24996v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "OpenOmni: A Collaborative Open Source Tool for Building Future-Ready Multimodal Conversational Agents",
+        "url": "https://www.semanticscholar.org/paper/8fb28217b226e1812ff39e2b1b2e27d8e3ff2888",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2408.03047",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "url": "http://arxiv.org/abs/2512.25067v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "url": "http://arxiv.org/abs/2512.25065v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+        "url": "http://arxiv.org/abs/2512.25037v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25037v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Modewise Additive Factor Model for Matrix Time Series",
+        "url": "http://arxiv.org/abs/2512.25025v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25025v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+        "url": "http://arxiv.org/abs/2512.25015v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25015v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+        "url": "http://arxiv.org/abs/2512.24991v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24991v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "A guide to the $2$-generated axial algebras of Monster type",
+        "url": "http://arxiv.org/abs/2512.24987v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24987v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Large language models and the entropy of English",
+        "url": "http://arxiv.org/abs/2512.24969v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24969v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Geometric characterisation of structural and regular equivalences in undirected (hyper)graphs",
+        "url": "http://arxiv.org/abs/2512.24961v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24961v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "AMAP Agentic Planning Technical Report",
+        "url": "http://arxiv.org/abs/2512.24957v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24957v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "CPJ: Explainable Agricultural Pest Diagnosis via Caption-Prompt-Judge with LLM-Judged Refinement",
+        "url": "http://arxiv.org/abs/2512.24947v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24947v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "One-Shot Camera-Based Extrusion Optimization for High Speed Fused Filament Fabrication",
+        "url": "http://arxiv.org/abs/2512.24905v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24905v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Adaptive Resource Orchestration for Distributed Quantum Computing Systems",
+        "url": "http://arxiv.org/abs/2512.24902v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24902v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "PRISM: A hierarchical multiscale approach for time series forecasting",
+        "url": "http://arxiv.org/abs/2512.24898v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24898v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Feature Slice Matching for Precise Bug Detection",
+        "url": "http://arxiv.org/abs/2512.24858v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24858v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "CUIfy the XR: An Open-Source Package to Embed LLM-Powered Conversational Agents in XR",
+        "url": "https://www.semanticscholar.org/paper/a8cbcc7bf36623e90fd240cddf58e71c6716b182",
+        "pdf_url": "http://arxiv.org/pdf/2411.04671",
+        "doi_url": "https://doi.org/10.1109/AIxVR63409.2025.00037",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "The Origin and Opportunities of Developers' Perceived Code Accountability in Open Source AI Software Development",
+        "url": "https://www.semanticscholar.org/paper/fa70090da2dcb09aedde1048e741fadd76f917d1",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1609/aies.v7i1.31621",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Perceptions of Academic Librarians Toward Open Source Library System (OSLS): Case Study of Pakistan",
+        "url": "https://www.semanticscholar.org/paper/89f0b39fa674a2a261ad14a1ebd6b71d4c2a4a9e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1080/0194262X.2023.2286649",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "GPTutor: an open-source AI pair programming tool alternative to Copilot",
+        "url": "https://www.semanticscholar.org/paper/5cadd5902f0335767e4cd95abb91fbf73d2d431c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2310.13896",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "OpenGridGym: An Open-Source AI-Friendly Toolkit for Distribution Market Simulation",
+        "url": "https://www.semanticscholar.org/paper/c4c71ddf45e8450d3aa57a3fb9a4fe124ff80f72",
+        "pdf_url": "https://arxiv.org/pdf/2203.04410",
+        "doi_url": "https://doi.org/10.1109/TSG.2022.3213240",
+        "source": "semantic_scholar",
+        "year": 2022
+      }
+    ],
+    "by_source": {
+      "offline_iclr": [
+        {
+          "title": "SWE-PolyBench: A multi-language benchmark for repository level evaluation of coding agents",
+          "url": "https://openreview.net/forum?id=n577FC6CKk",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "RExBench: Can coding agents autonomously implement AI research extensions?",
+          "url": "https://openreview.net/forum?id=0xpakqqTbe",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "How Do Coding Agents Spend Your Money? Analyzing and Predicting Token Consumptions in Agentic Coding Tasks",
+          "url": "https://openreview.net/forum?id=1bUeVB3fov",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents",
+          "url": "https://openreview.net/forum?id=pUpzQZTvGY",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Huxley-G\\\"odel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine",
+          "url": "https://openreview.net/forum?id=T0EiEuhOOL",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Beyond Software Development: Continuous Integration with coding agents",
+          "url": "https://openreview.net/forum?id=n8lAJLVdVN",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "HAI-Eval: Measuring Human-AI Synergy in Collaborative Coding",
+          "url": "https://openreview.net/forum?id=pKqt8psClA",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Shepherd: Pattern-Guided Trajectory Selection for Coding Agents on SWE-Bench",
+          "url": "https://openreview.net/forum?id=ZBOFr4ryBk",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "XOXO: Stealthy Cross-Origin Context Poisoning Attacks against AI Coding Assistants",
+          "url": "https://openreview.net/forum?id=h3et0fXbEg",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Dyna-Mind: Learning to Simulate from Experience for Better AI Agents",
+          "url": "https://openreview.net/forum?id=F848aPzCJy",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "REDO: Execution-Free Runtime Error Detection for Coding Agents",
+          "url": "https://openreview.net/forum?id=THkF3VWSNv",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation",
+          "url": "https://openreview.net/forum?id=vUaY1t64ZZ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Beyond Browsing: API-Based Web Agents",
+          "url": "https://openreview.net/forum?id=TPiJKs7ccR",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "UnrealCV Zoo: Enriching Photo-realistic Virtual Worlds for Embodied AI Agents",
+          "url": "https://openreview.net/forum?id=vQ1y086Kn2",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "FeatBench: Evaluating Coding Agents on Feature Implementation for Vibe Coding",
+          "url": "https://openreview.net/forum?id=YeHaANktHN",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "VisCoder2: Building Multi-Language Visualization Coding Agents",
+          "url": "https://openreview.net/forum?id=4zoMnmZzh4",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ToolFuzz: Automated Agent Tool Testing",
+          "url": "https://openreview.net/forum?id=d9H63Iatgd",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Better than Your Teacher: LLM Agents that learn from Privileged AI Feedback",
+          "url": "https://iclr.cc/virtual/2025/poster/28093",
+          "pdf_url": "https://openreview.net/pdf?id=st7XqFgbAH",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "A Framework for Studying AI Agent Behavior: Evidence from Consumer Choice Experiments",
+          "url": "https://openreview.net/forum?id=xAPoscV2Bw",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Build-Bench: Benchmarking LLM Agents on Compiling Real-World Open Source Software",
+          "url": "https://openreview.net/forum?id=oHEaIwPv9s",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph",
+          "url": "https://iclr.cc/virtual/2025/poster/28957",
+          "pdf_url": "https://openreview.net/pdf?id=dw9VUsSHGB",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "SWE-RM: Execution-free Feedback for Software Engineering Agents",
+          "url": "https://openreview.net/forum?id=H9wMe1G76j",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LUMOS: Towards Language Agents that are Unified, Modular, and Open Source",
+          "url": "https://openreview.net/forum?id=VmnWoLbzCS",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "AgentChangeBench: A Multi-Dimensional Evaluation Framework for Goal-Shift Robustness in Conversational AI",
+          "url": "https://openreview.net/forum?id=Kkcaz5XlJB",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "FALCON: A Feedback-Driven Adaptive Long/Short-Term Memory Reinforced Coding Optimization",
+          "url": "https://openreview.net/forum?id=N18Z2MkMEa",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Safurai 001: New Qualitative Approach for Evaluation",
+          "url": "https://openreview.net/forum?id=t18wD1cH9G",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research",
+          "url": "https://openreview.net/forum?id=JX9DE6colf",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "AgentDAM: Privacy Leakage Evaluation for Autonomous Web Agents",
+          "url": "https://openreview.net/forum?id=qaxf7q41aK",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Information Retrieval Induced Safety Degradation in AI Agents",
+          "url": "https://openreview.net/forum?id=2hiNrfMmQ7",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents",
+          "url": "https://neurips.cc/virtual/2024/poster/96895",
+          "pdf_url": "https://openreview.net/pdf?id=0zWzJj6lO3",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "MineAnyBuild: Benchmarking Spatial Planning for Open-world AI Agents",
+          "url": "https://openreview.net/forum?id=UlwaJPzLs2",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Universal Sample Coding",
+          "url": "https://neurips.cc/virtual/2024/poster/93482",
+          "pdf_url": "https://openreview.net/pdf?id=qdV1vp1AtL",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "CodeNet: A Large-Scale AI for Code Dataset for Learning a Diversity of Coding Tasks",
+          "url": "https://openreview.net/forum?id=6vZVBkCDrHT",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2021
+        },
+        {
+          "title": "The Neural Testbed: Evaluating Joint Predictions",
+          "url": "https://nips.cc/virtual/2022/poster/53958",
+          "pdf_url": "https://openreview.net/pdf?id=JyTT03dqCFD",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2022
+        }
+      ],
+      "offline_emnlp": [
+        {
+          "title": "Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions",
+          "url": "https://aclanthology.org/2024.emnlp-main.1143/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.1143.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Leveraging Open Data and Task Augmentation to Automated Behavioral Coding of Psychotherapy Conversations in Low-Resource Scenarios",
+          "url": "https://aclanthology.org/2022.findings-emnlp.425/",
+          "pdf_url": "https://aclanthology.org/2022.findings-emnlp.425.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2022
+        }
+      ],
+      "offline_acl": [
+        {
+          "title": "Aligning AI Research with the Needs of Clinical Coding Workflows: Eight Recommendations Based on US Data Analysis and Critical Review",
+          "url": "https://aclanthology.org/2025.acl-long.45/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.45.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        }
+      ],
+      "offline_naacl": [
+        {
+          "title": "MedCodER: A Generative AI Assistant for Medical Coding",
+          "url": "https://aclanthology.org/2025.naacl-industry.37/",
+          "pdf_url": "https://aclanthology.org/2025.naacl-industry.37.pdf",
+          "doi_url": null,
+          "source": "offline_naacl",
+          "year": 2025
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "R2E: Turning any Github Repository into a Programming Agent Environment",
+          "url": "https://icml.cc/virtual/2024/poster/33250",
+          "pdf_url": "https://openreview.net/pdf?id=kXHgEYFyf3",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        },
+        {
+          "title": "Position: Near to Mid-term Risks and Opportunities of Open-Source Generative AI",
+          "url": "https://icml.cc/virtual/2024/poster/34830",
+          "pdf_url": "https://openreview.net/pdf?id=8q4EPdjTLE",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        }
+      ],
+      "offline_cvpr": [
+        {
+          "title": "TANGO: Training-free Embodied AI Agents for Open-world Tasks",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/34559",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Ziliotto_TANGO_Training-free_Embodied_AI_Agents_for_Open-world_Tasks_CVPR_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2025
+        }
+      ],
+      "offline_aaai": [
+        {
+          "title": "On the Consideration of AI Openness: Can Good Intent Be Abused?",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34948",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34948/37103",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2025
+        },
+        {
+          "title": "Xaitk-Saliency: An Open Source Explainable AI Toolkit for Saliency",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26871",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/26871/26643",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2023
+        },
+        {
+          "title": "AI Model Factory: Scaling AI for Industry 4.0 Applications",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/27081",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/27081/26853",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2023
+        },
+        {
+          "title": "Knowledge-Embedded Narrative Construction from Open Source Intelligence",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26926",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/26926/26698",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2023
+        }
+      ],
+      "offline_ijcai": [
+        {
+          "title": "AI-Olympics: Exploring the Generalization of Agents through Open Competitions",
+          "url": "https://www.ijcai.org/proceedings/2024/1040",
+          "pdf_url": "https://www.ijcai.org/proceedings/2024/1040.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2024
+        },
+        {
+          "title": "A Comprehensive Survey of Cross-Domain Policy Transfer for Embodied Agents",
+          "url": "https://www.ijcai.org/proceedings/2024/906",
+          "pdf_url": "https://www.ijcai.org/proceedings/2024/0906.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2024
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+          "url": "https://www.semanticscholar.org/paper/7260442ef9c0448f07ce3803efd49cebaffcebe9",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+          "url": "https://www.semanticscholar.org/paper/1d07e5b6f978cf69c0186f3d5f434fa92d471e46",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Agents: An Open-source Framework for Autonomous Language Agents",
+          "url": "https://www.semanticscholar.org/paper/012c552ef548582875349f8457b0645dabc3e662",
+          "pdf_url": "https://arxiv.org/pdf/2309.07870",
+          "doi_url": "https://doi.org/10.48550/arXiv.2309.07870",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training",
+          "url": "https://www.semanticscholar.org/paper/412bf7358c6aa3da6f1c384b4cc79953e7a5d3fb",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2508.00414",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Context Engineering for AI Agents in Open-Source Software",
+          "url": "https://www.semanticscholar.org/paper/8e88d031a27b32f5d08fc33bee90a6d9e05ee06c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2510.21413",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "GLM-4.5V and GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+          "url": "https://www.semanticscholar.org/paper/c79ebb4c82ddd2aec1a6ee3d7d912959e2e8fea1",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "NL2Repo-Bench: Towards Long-Horizon Repository Generation Evaluation of Coding Agents",
+          "url": "https://www.semanticscholar.org/paper/7fef2a0902492f9aa98b44eb86775f9a7de96b4b",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Open Deep Search: Democratizing Search with Open-source Reasoning Agents",
+          "url": "https://www.semanticscholar.org/paper/e21ea6a240fad32d9ddd03d70e2f40dae78bcd1e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2503.20201",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "LlamaFirewall: An open source guardrail system for building secure AI agents",
+          "url": "https://www.semanticscholar.org/paper/07734909a75edc13eb838d9f83b52dcc1ea06e64",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.03574",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "OpenMathInstruct-2: Accelerating AI for Math with Massive Open-Source Instruction Data",
+          "url": "https://www.semanticscholar.org/paper/94c82c25d8943fea9461d804257ee16c9d672548",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2410.01560",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Devika AI: An Open-Source Revolution In AI-Powered Code Generation",
+          "url": "https://www.semanticscholar.org/paper/9801ef2fe9433eea9113b0188d27ce8eceecb27c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.9790/0661-2605011316",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "SWE-EVO: Benchmarking Coding Agents in Long-Horizon Software Evolution Scenarios",
+          "url": "https://www.semanticscholar.org/paper/03966865097d130afafce247b9fa4cfbac042e60",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Lemur: Harmonizing Natural Language and Code for Language Agents",
+          "url": "https://www.semanticscholar.org/paper/8147cec9245d34d13732a08e915c920a1a499bb5",
+          "pdf_url": "https://arxiv.org/pdf/2310.06830",
+          "doi_url": "https://doi.org/10.48550/arXiv.2310.06830",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "High-performance Open-source AI for Breast Cancer Detection and Localization in MRI.",
+          "url": "https://www.semanticscholar.org/paper/4b14004aad1d085e21d8322f0b1ca36766f2e40a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1148/ryai.240550",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "VTutor: An Open-Source SDK for Generative AI-Powered Animated Pedagogical Agents with Multi-Media Output",
+          "url": "https://www.semanticscholar.org/paper/49f62c6bc220c683ff29f2d333e171343913a1e5",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2502.04103",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data",
+          "url": "https://www.semanticscholar.org/paper/f10459002d7da8f070794feabb21624341e8c12e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2509.15221",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "CodeEvolve: An open source evolutionary coding agent for algorithm discovery and optimization",
+          "url": "https://www.semanticscholar.org/paper/fc3d421c06c4a739507e18e8b1eefff643cbae9a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2510.14150",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "SecureAgentBench: Benchmarking Secure Code Generation under Realistic Vulnerability Scenarios",
+          "url": "https://www.semanticscholar.org/paper/37773e557d7e1666bb1472c70faf1c22f19938e6",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2509.22097",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "An Empirical Study of Developer-Provided Context for AI Coding Assistants in Open-Source Projects",
+          "url": "https://www.semanticscholar.org/paper/7af10a7b403eeccc0cde2bbb39e1419bed2e7d61",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+          "url": "https://www.semanticscholar.org/paper/0fc028a0e11fafb29451e0fa8ec383dee449cc33",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2507.01006",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "PEFA-AI: Advancing Open-source LLMs for RTL generation using Progressive Error Feedback Agentic-AI",
+          "url": "https://www.semanticscholar.org/paper/945e7cd23a8d681631dcf13cf148e5a4c9d475e0",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2511.03934",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Simple Agents Outperform Experts in Biomedical Imaging Workflow Optimization",
+          "url": "https://www.semanticscholar.org/paper/98f8f6f05e653c72c159917de69f07dc68e0f16e",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "An Introduction to prismAId: Open-Source and Open Science AI for Advancing Information Extraction in Systematic Reviews",
+          "url": "https://www.semanticscholar.org/paper/1fcb8e62f87acae24f444ef90538e62a8c98d3f9",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.21105/joss.07616",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub",
+          "url": "https://www.semanticscholar.org/paper/92ac4787d5b9798ee292da70abb7a55d85b16cf3",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2509.14745",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "FinRobot: An Open-Source AI Agent Platform for Financial Applications using Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/780881ba7440fb95ebc7114d8f219466275102f8",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2405.14767",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Agri Friendly Conversational AI Chatbot Using Open Source Framework",
+          "url": "https://www.semanticscholar.org/paper/3de48a67665d698bb804307feb65945f4d1fc018",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.17485/ijst/v18i8.15",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Open Source AI-based SE Tools: Opportunities and Challenges of Collaborative Software Learning",
+          "url": "https://www.semanticscholar.org/paper/6696018baf29273aa722e16eda89850247b8f0aa",
+          "pdf_url": "https://arxiv.org/pdf/2404.06201",
+          "doi_url": "https://doi.org/10.1145/3708529",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "An Empirical Study of Testing Practices in Open Source AI Agent Frameworks and Agentic Applications",
+          "url": "https://www.semanticscholar.org/paper/f628b16d7e56158ab7e936961eaf57fd5d6678b8",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2509.19185",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Agentic Refactoring: An Empirical Study of AI Coding Agents",
+          "url": "https://www.semanticscholar.org/paper/65b7e09b4b19bb763f1e1d7b17a4e927e0d8179b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2511.04824",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "LibVulnWatch: A Deep Assessment Agent System and Leaderboard for Uncovering Hidden Vulnerabilities in Open-Source AI Libraries",
+          "url": "https://www.semanticscholar.org/paper/601fdf3e2f6bf0d8bc970954fca28cf8c5f22322",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.08842",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "ML-Dev-Bench: Comparative Analysis of AI Agents on ML development workflows",
+          "url": "https://www.semanticscholar.org/paper/d3dc789db41b8f6b633bbac276559d0e53bc91e5",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2502.00964",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Devstral: Fine-tuning Language Models for Coding Agent Applications",
+          "url": "https://www.semanticscholar.org/paper/f91ff621fa356aa0c1bf40ab907bf659259857ab",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2509.25193",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Open-Source AI-Powered Optimization in Scalene: Advancing Python Performance Profiling with DeepSeek-R1 and LLaMA 3.2",
+          "url": "https://www.semanticscholar.org/paper/1060020358a0b0fc6f060aec1ff172619af04699",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2502.10299",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Open-Source Conversational AI with SpeechBrain 1.0",
+          "url": "https://www.semanticscholar.org/paper/65cec875dcacadf6df860853c09125dc966084f4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2407.00463",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents",
+          "url": "https://www.semanticscholar.org/paper/cd968cd9a072ed4771999c061b943ba0062a71e7",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2509.23045",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "SWE-Sharp-Bench: A Reproducible Benchmark for C# Software Engineering Tasks",
+          "url": "https://www.semanticscholar.org/paper/5a11923691f5259d2a0359d7c0335a77fe773fa1",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2511.02352",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Open-source AI-assisted rapid 3D color multimodal image fusion and preoperative augmented reality planning of extracerebral tumors.",
+          "url": "https://www.semanticscholar.org/paper/5777f3416b0b115288e602ea92a0c8ff570b914f",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.3171/2025.4.FOCUS24557",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "The Impact of Generative AI on Collaborative Open-Source Software Development: Evidence from GitHub Copilot",
+          "url": "https://www.semanticscholar.org/paper/712171098cc0bf2280fdf0cec1d803d6db05e18f",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.2139/ssrn.4856935",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Code Ownership in Open-Source AI Software Security",
+          "url": "https://www.semanticscholar.org/paper/5536b5dd74803ebdb8beaa8f148c87b1b7998f61",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3643691.3648586",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Thematic Analysis with Open-Source Generative AI and Machine Learning: A New Method for Inductive Qualitative Codebook Development",
+          "url": "https://www.semanticscholar.org/paper/afebe22663bb64197604dcfcf517761fc9c8035a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2410.03721",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Veracity: An Open-Source AI Fact-Checking System",
+          "url": "https://www.semanticscholar.org/paper/a6751cbbb43459512d15624359fae530d146c257",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.15794",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "A Solution toward Transparent and Practical AI Regulation: Privacy Nutrition Labels for Open-source Generative AI-based Applications",
+          "url": "https://www.semanticscholar.org/paper/acba0f23fa5f2613fe47ddb5e0a9f114513f37bc",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2407.15407",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Open-Ethical AI: Advancements in Open-Source Human-Centric Neural Language Models",
+          "url": "https://www.semanticscholar.org/paper/fe472d15e2fd294c5d871a5b316d6a74908f409f",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3703454",
+          "doi_url": "https://doi.org/10.1145/3703454",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "OpenOmni: A Collaborative Open Source Tool for Building Future-Ready Multimodal Conversational Agents",
+          "url": "https://www.semanticscholar.org/paper/8fb28217b226e1812ff39e2b1b2e27d8e3ff2888",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2408.03047",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "CUIfy the XR: An Open-Source Package to Embed LLM-Powered Conversational Agents in XR",
+          "url": "https://www.semanticscholar.org/paper/a8cbcc7bf36623e90fd240cddf58e71c6716b182",
+          "pdf_url": "http://arxiv.org/pdf/2411.04671",
+          "doi_url": "https://doi.org/10.1109/AIxVR63409.2025.00037",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "The Origin and Opportunities of Developers' Perceived Code Accountability in Open Source AI Software Development",
+          "url": "https://www.semanticscholar.org/paper/fa70090da2dcb09aedde1048e741fadd76f917d1",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1609/aies.v7i1.31621",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Perceptions of Academic Librarians Toward Open Source Library System (OSLS): Case Study of Pakistan",
+          "url": "https://www.semanticscholar.org/paper/89f0b39fa674a2a261ad14a1ebd6b71d4c2a4a9e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1080/0194262X.2023.2286649",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "GPTutor: an open-source AI pair programming tool alternative to Copilot",
+          "url": "https://www.semanticscholar.org/paper/5cadd5902f0335767e4cd95abb91fbf73d2d431c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2310.13896",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "OpenGridGym: An Open-Source AI-Friendly Toolkit for Distribution Market Simulation",
+          "url": "https://www.semanticscholar.org/paper/c4c71ddf45e8450d3aa57a3fb9a4fe124ff80f72",
+          "pdf_url": "https://arxiv.org/pdf/2203.04410",
+          "doi_url": "https://doi.org/10.1109/TSG.2022.3213240",
+          "source": "semantic_scholar",
+          "year": 2022
+        }
+      ],
+      "openalex": [
+        {
+          "title": "[Replication Kit] On the Adoption of AI Coding Agents in Open-source Android and iOS Development",
+          "url": "https://openalex.org/W7114767309",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17874505",
+          "doi_url": "https://doi.org/10.5281/zenodo.17874505",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Re-opening open-source science through AI assisted development",
+          "url": "https://openalex.org/W4417447130",
+          "pdf_url": "https://arxiv.org/pdf/2512.11993",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.11993",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Adversarial Configuration Injection in AI Coding Assistants: A Systematic Security Evaluation Framework",
+          "url": "https://openalex.org/W7115070229",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17924763",
+          "doi_url": "https://doi.org/10.5281/zenodo.17924763",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Agentic AI Governance Framework",
+          "url": "https://openalex.org/W7116067166",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17977089",
+          "doi_url": "https://doi.org/10.5281/zenodo.17977089",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "With Great Capabilities Come Great Responsibilities: Introducing the Agentic Risk & Capability Framework for Governing Agentic AI Systems",
+          "url": "https://openalex.org/W7117850866",
+          "pdf_url": "https://arxiv.org/pdf/2512.22211",
+          "doi_url": null,
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "With Great Capabilities Come Great Responsibilities: Introducing the Agentic Risk &amp; Capability Framework for Governing Agentic AI Systems",
+          "url": "https://openalex.org/W7117649558",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.22211",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.22211",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Securing the Modern Software Supply Chain: AI-Driven Threat Analysis and Defense-in-Depth Architecture",
+          "url": "https://openalex.org/W7117240249",
+          "pdf_url": "https://doi.org/10.5281/zenodo.18041109",
+          "doi_url": "https://doi.org/10.5281/zenodo.18041109",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "AI-Driven Software Supply Chain Security: A Unified Analysis of Threats, Detection, and Defense-in-Depth Strategies",
+          "url": "https://openalex.org/W7116739963",
+          "pdf_url": "https://doi.org/10.5281/zenodo.18005868",
+          "doi_url": "https://doi.org/10.5281/zenodo.18005868",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Universal Audio Generation",
+          "url": "https://openalex.org/W4414932055",
+          "pdf_url": "https://hal.science/hal-05110014v1/document",
+          "doi_url": null,
+          "source": "openalex",
+          "year": 2026
+        },
+        {
+          "title": "Evolving Excellence: Automated Optimization of LLM-based Agents",
+          "url": "https://openalex.org/W4417289328",
+          "pdf_url": "https://arxiv.org/pdf/2512.09108",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.09108",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "VulnLLM-R: Specialized Reasoning LLM with Agent Scaffold for Vulnerability Detection",
+          "url": "https://openalex.org/W7111262835",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.07533",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.07533",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "creator35lwb-web/VerifiMind-PEAS: Genesis Prompt Engineering Methodology v2.0: Multi-Agent AI Validation Framework",
+          "url": "https://openalex.org/W7116094157",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17972751",
+          "doi_url": "https://doi.org/10.5281/zenodo.17972751",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Integrated Precision Surgical Protocol (IPSP): A Fully Open-Source, Clinically Actionable, and Falsifiable Framework for Verified Computational Model-Derived Predictive Target of 33% Reduction in Mortality and Complications in High-Risk Neurosurgical, Cardiovascular, and Orthopedic Surgeries",
+          "url": "https://openalex.org/W7104273318",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17538257",
+          "doi_url": "https://doi.org/10.5281/zenodo.17538257",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Empowering smart app development with SolidGPT: an edge-cloud hybrid AI agent framework",
+          "url": "https://openalex.org/W7114791056",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.08286",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.08286",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Seismology modeling agent: A smart assistant for geophysical researchers",
+          "url": "https://openalex.org/W4417469650",
+          "pdf_url": "https://arxiv.org/pdf/2512.14429",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.14429",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "SciEvalKit: An Open-source Evaluation Toolkit for Scientific General Intelligence",
+          "url": "https://openalex.org/W7117650591",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.22334",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.22334",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Artificial or Just Artful? Do LLMs Bend the Rules in Programming?",
+          "url": "https://openalex.org/W7117321655",
+          "pdf_url": "https://doi.org/10.48550/arxiv.2512.21028",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.21028",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Creating Animations for Maths Teaching",
+          "url": "https://openalex.org/W4417149910",
+          "pdf_url": "https://repository.iu.org/bitstreams/478ec58d-fd8b-4c49-ae9e-974d0d50d992/download",
+          "doi_url": "https://doi.org/10.56250/4092",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "\"Echoes of Cycles\" - A Multi-AI Cross-Modal Analysis from Poetry to Music Genre Classification",
+          "url": "https://openalex.org/W7115918157",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17957249",
+          "doi_url": "https://doi.org/10.5281/zenodo.17957249",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Flare: A Boundary Engine for Relational AI",
+          "url": "https://openalex.org/W7111050169",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17855976",
+          "doi_url": "https://doi.org/10.5281/zenodo.17855976",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Microservice Generation",
+          "url": "https://openalex.org/W7111156148",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17863952",
+          "doi_url": "https://doi.org/10.5281/zenodo.17863952",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "MfN DataHub – a Centralized Service for Automated Biodiversity Data Integration at the Museum for Natural History Berlin",
+          "url": "https://openalex.org/W7116918224",
+          "pdf_url": "https://doi.org/10.3897/biss.9.183132",
+          "doi_url": "https://doi.org/10.3897/biss.9.183132",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Love, Lies, and Language Models: Investigating AI's Role in Romance-Baiting Scams",
+          "url": "https://openalex.org/W7116283710",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17985497",
+          "doi_url": "https://doi.org/10.5281/zenodo.17985497",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Love, Lies, and Language Models: Investigating AI's Role in Romance-Baiting Scams Artifacts for USENIX Security 2026",
+          "url": "https://openalex.org/W7116427619",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17983883",
+          "doi_url": "https://doi.org/10.5281/zenodo.17983883",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Incentivizing Tool-augmented Thinking with Images for Medical Image Analysis",
+          "url": "https://openalex.org/W4417466893",
+          "pdf_url": "https://arxiv.org/pdf/2512.14157",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.14157",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Kobayashi2501/AK-High-Dimensional-Projection-Structural-Theory: AK–HDPST v17.0.1 — AK High-Dimensional Projection Structural Theory",
+          "url": "https://openalex.org/W7117109590",
+          "pdf_url": "https://doi.org/10.5281/zenodo.18029366",
+          "doi_url": "https://doi.org/10.5281/zenodo.18029366",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "garciaalan186/geometric-mnemic-manifolds: Geometric Mnemic Manifolds v3.0 - Release Notes",
+          "url": "https://openalex.org/W7109959603",
+          "pdf_url": "https://doi.org/10.5281/zenodo.17849006",
+          "doi_url": "https://doi.org/10.5281/zenodo.17849006",
+          "source": "openalex",
+          "year": 2025
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "Vibe Coding, Interface Flattening",
+          "url": "http://arxiv.org/abs/2512.24939v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24939v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+          "url": "http://arxiv.org/abs/2512.25055v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "ShowUI-$π$: Flow-based Generative Models as GUI Dexterous Hands",
+          "url": "http://arxiv.org/abs/2512.24965v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24965v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Advances in Agentic AI: Back to the Future",
+          "url": "http://arxiv.org/abs/2512.24856v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24856v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "HaineiFRDM: Explore Diffusion to Restore Defects in Fast-Movement Films",
+          "url": "http://arxiv.org/abs/2512.24946v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24946v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Towards Provably Secure Generative AI: Reliable Consensus Sampling",
+          "url": "http://arxiv.org/abs/2512.24925v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24925v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+          "url": "http://arxiv.org/abs/2512.24873v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24873v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Scaling Open-Ended Reasoning to Predict the Future",
+          "url": "http://arxiv.org/abs/2512.25070v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Big AI is accelerating the metacrisis: What can we do?",
+          "url": "http://arxiv.org/abs/2512.24863v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24863v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Fair Committee Selection under Ordinal Preferences and Limited Cardinal Information",
+          "url": "http://arxiv.org/abs/2512.24934v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24934v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "DarkEQA: Benchmarking Vision-Language Models for Embodied Question Answering in Low-Light Indoor Environments",
+          "url": "http://arxiv.org/abs/2512.24985v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24985v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+          "url": "http://arxiv.org/abs/2512.25033v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25033v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Description of Baryon Mass Spectrum by Open Strings and Diquarks",
+          "url": "http://arxiv.org/abs/2512.24882v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24882v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "AI-Driven Cloud Resource Optimization for Multi-Cluster Environments",
+          "url": "http://arxiv.org/abs/2512.24914v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24914v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Configuration Spaces of Finite Representation Type Algebras",
+          "url": "http://arxiv.org/abs/2512.24870v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24870v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+          "url": "http://arxiv.org/abs/2512.24986v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24986v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Heterogeneous Multi-Agent Multi-Target Tracking using Cellular Sheaves",
+          "url": "http://arxiv.org/abs/2512.24886v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24886v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Measuring Mixed-State Topological Invariant in Open Photonic Quantum Walk",
+          "url": "http://arxiv.org/abs/2512.24857v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24857v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "RAIR: A Rule-Aware Benchmark Uniting Challenging Long-Tail and Visual Salience Subset for E-commerce Relevance Assessment",
+          "url": "http://arxiv.org/abs/2512.24943v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24943v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Lindbladian PT phase transitions",
+          "url": "http://arxiv.org/abs/2512.24981v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24981v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Iterative Deployment Improves Planning Skills in LLMs",
+          "url": "http://arxiv.org/abs/2512.24940v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24940v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "BEDA: Belief Estimation as Probabilistic Constraints for Performing Strategic Dialogue Acts",
+          "url": "http://arxiv.org/abs/2512.24885v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24885v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Existence, uniqueness, and approximability of solutions to the classical Melan equation in suspension bridges",
+          "url": "http://arxiv.org/abs/2512.24915v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24915v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+          "url": "http://arxiv.org/abs/2512.25064v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Interaction of a Vortex Pair with a Polymeric Fluid Layer",
+          "url": "http://arxiv.org/abs/2512.24944v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24944v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Semi-overlapping Multi-bandit Best Arm Identification for Sequential Support Network Learning",
+          "url": "http://arxiv.org/abs/2512.24959v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24959v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Polynomial $χ$-boundedness for excluding $P_5$",
+          "url": "http://arxiv.org/abs/2512.24907v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24907v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "MSACL: Multi-Step Actor-Critic Learning with Lyapunov Certificates for Exponentially Stabilizing Control",
+          "url": "http://arxiv.org/abs/2512.24955v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24955v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Global boundedness and absorbing sets in two-dimensional chemotaxis-Navier-Stokes systems with weakly singular sensitivity and a sub-logistic source",
+          "url": "http://arxiv.org/abs/2512.24892v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24892v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The Impact of LLMs on Online News Consumption and Production",
+          "url": "http://arxiv.org/abs/2512.24968v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24968v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Self-Supervised Amortized Neural Operators for Optimal Control: Scaling Laws and Applications",
+          "url": "http://arxiv.org/abs/2512.24897v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24897v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+          "url": "http://arxiv.org/abs/2512.25075v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+          "url": "http://arxiv.org/abs/2512.25052v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25052v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Discovery of a galaxy associated with the HI cloud FAST J0139+4328",
+          "url": "http://arxiv.org/abs/2512.24924v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24924v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Manifold classification from the descriptive viewpoint",
+          "url": "http://arxiv.org/abs/2512.24996v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24996v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+          "url": "http://arxiv.org/abs/2512.25067v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25067v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+          "url": "http://arxiv.org/abs/2512.25065v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+          "url": "http://arxiv.org/abs/2512.25037v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25037v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Modewise Additive Factor Model for Matrix Time Series",
+          "url": "http://arxiv.org/abs/2512.25025v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25025v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+          "url": "http://arxiv.org/abs/2512.25015v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25015v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+          "url": "http://arxiv.org/abs/2512.24991v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24991v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "A guide to the $2$-generated axial algebras of Monster type",
+          "url": "http://arxiv.org/abs/2512.24987v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24987v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Large language models and the entropy of English",
+          "url": "http://arxiv.org/abs/2512.24969v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24969v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Geometric characterisation of structural and regular equivalences in undirected (hyper)graphs",
+          "url": "http://arxiv.org/abs/2512.24961v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24961v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "AMAP Agentic Planning Technical Report",
+          "url": "http://arxiv.org/abs/2512.24957v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24957v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "CPJ: Explainable Agricultural Pest Diagnosis via Caption-Prompt-Judge with LLM-Judged Refinement",
+          "url": "http://arxiv.org/abs/2512.24947v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24947v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "One-Shot Camera-Based Extrusion Optimization for High Speed Fused Filament Fabrication",
+          "url": "http://arxiv.org/abs/2512.24905v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24905v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Adaptive Resource Orchestration for Distributed Quantum Computing Systems",
+          "url": "http://arxiv.org/abs/2512.24902v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24902v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "PRISM: A hierarchical multiscale approach for time series forecasting",
+          "url": "http://arxiv.org/abs/2512.24898v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24898v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Feature Slice Matching for Precise Bug Detection",
+          "url": "http://arxiv.org/abs/2512.24858v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24858v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.1143.pdf"
+      },
+      {
+        "title": "Aligning AI Research with the Needs of Clinical Coding Workflows: Eight Recommendations Based on US Data Analysis and Critical Review",
+        "pdf": "https://aclanthology.org/2025.acl-long.45.pdf"
+      },
+      {
+        "title": "MedCodER: A Generative AI Assistant for Medical Coding",
+        "pdf": "https://aclanthology.org/2025.naacl-industry.37.pdf"
+      },
+      {
+        "title": "R2E: Turning any Github Repository into a Programming Agent Environment",
+        "pdf": "https://openreview.net/pdf?id=kXHgEYFyf3"
+      },
+      {
+        "title": "Better than Your Teacher: LLM Agents that learn from Privileged AI Feedback",
+        "pdf": "https://openreview.net/pdf?id=st7XqFgbAH"
+      },
+      {
+        "title": "Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents",
+        "pdf": "https://openreview.net/pdf?id=0zWzJj6lO3"
+      },
+      {
+        "title": "RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph",
+        "pdf": "https://openreview.net/pdf?id=dw9VUsSHGB"
+      },
+      {
+        "title": "TANGO: Training-free Embodied AI Agents for Open-world Tasks",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/papers/Ziliotto_TANGO_Training-free_Embodied_AI_Agents_for_Open-world_Tasks_CVPR_2025_paper.pdf"
+      },
+      {
+        "title": "On the Consideration of AI Openness: Can Good Intent Be Abused?",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/34948/37103"
+      },
+      {
+        "title": "Position: Near to Mid-term Risks and Opportunities of Open-Source Generative AI",
+        "pdf": "https://openreview.net/pdf?id=8q4EPdjTLE"
+      },
+      {
+        "title": "Xaitk-Saliency: An Open Source Explainable AI Toolkit for Saliency",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/26871/26643"
+      },
+      {
+        "title": "AI-Olympics: Exploring the Generalization of Agents through Open Competitions",
+        "pdf": "https://www.ijcai.org/proceedings/2024/1040.pdf"
+      },
+      {
+        "title": "A Comprehensive Survey of Cross-Domain Policy Transfer for Embodied Agents",
+        "pdf": "https://www.ijcai.org/proceedings/2024/0906.pdf"
+      },
+      {
+        "title": "AI Model Factory: Scaling AI for Industry 4.0 Applications",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/27081/26853"
+      },
+      {
+        "title": "Universal Sample Coding",
+        "pdf": "https://openreview.net/pdf?id=qdV1vp1AtL"
+      },
+      {
+        "title": "Knowledge-Embedded Narrative Construction from Open Source Intelligence",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/26926/26698"
+      },
+      {
+        "title": "Leveraging Open Data and Task Augmentation to Automated Behavioral Coding of Psychotherapy Conversations in Low-Resource Scenarios",
+        "pdf": "https://aclanthology.org/2022.findings-emnlp.425.pdf"
+      },
+      {
+        "title": "The Neural Testbed: Evaluating Joint Predictions",
+        "pdf": "https://openreview.net/pdf?id=JyTT03dqCFD"
+      },
+      {
+        "title": "Agents: An Open-source Framework for Autonomous Language Agents",
+        "pdf": "https://arxiv.org/pdf/2309.07870"
+      },
+      {
+        "title": "[Replication Kit] On the Adoption of AI Coding Agents in Open-source Android and iOS Development",
+        "pdf": "https://doi.org/10.5281/zenodo.17874505"
+      },
+      {
+        "title": "Re-opening open-source science through AI assisted development",
+        "pdf": "https://arxiv.org/pdf/2512.11993"
+      },
+      {
+        "title": "Lemur: Harmonizing Natural Language and Code for Language Agents",
+        "pdf": "https://arxiv.org/pdf/2310.06830"
+      },
+      {
+        "title": "Adversarial Configuration Injection in AI Coding Assistants: A Systematic Security Evaluation Framework",
+        "pdf": "https://doi.org/10.5281/zenodo.17924763"
+      },
+      {
+        "title": "Open Source AI-based SE Tools: Opportunities and Challenges of Collaborative Software Learning",
+        "pdf": "https://arxiv.org/pdf/2404.06201"
+      },
+      {
+        "title": "Vibe Coding, Interface Flattening",
+        "pdf": "https://arxiv.org/pdf/2512.24939v1"
+      },
+      {
+        "title": "Agentic AI Governance Framework",
+        "pdf": "https://doi.org/10.5281/zenodo.17977089"
+      },
+      {
+        "title": "With Great Capabilities Come Great Responsibilities: Introducing the Agentic Risk & Capability Framework for Governing Agentic AI Systems",
+        "pdf": "https://arxiv.org/pdf/2512.22211"
+      },
+      {
+        "title": "With Great Capabilities Come Great Responsibilities: Introducing the Agentic Risk &amp; Capability Framework for Governing Agentic AI Systems",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.22211"
+      },
+      {
+        "title": "Securing the Modern Software Supply Chain: AI-Driven Threat Analysis and Defense-in-Depth Architecture",
+        "pdf": "https://doi.org/10.5281/zenodo.18041109"
+      },
+      {
+        "title": "AI-Driven Software Supply Chain Security: A Unified Analysis of Threats, Detection, and Defense-in-Depth Strategies",
+        "pdf": "https://doi.org/10.5281/zenodo.18005868"
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "pdf": "https://arxiv.org/pdf/2512.25055v1"
+      },
+      {
+        "title": "Universal Audio Generation",
+        "pdf": "https://hal.science/hal-05110014v1/document"
+      },
+      {
+        "title": "Evolving Excellence: Automated Optimization of LLM-based Agents",
+        "pdf": "https://arxiv.org/pdf/2512.09108"
+      },
+      {
+        "title": "ShowUI-$π$: Flow-based Generative Models as GUI Dexterous Hands",
+        "pdf": "https://arxiv.org/pdf/2512.24965v1"
+      },
+      {
+        "title": "VulnLLM-R: Specialized Reasoning LLM with Agent Scaffold for Vulnerability Detection",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.07533"
+      },
+      {
+        "title": "creator35lwb-web/VerifiMind-PEAS: Genesis Prompt Engineering Methodology v2.0: Multi-Agent AI Validation Framework",
+        "pdf": "https://doi.org/10.5281/zenodo.17972751"
+      },
+      {
+        "title": "Advances in Agentic AI: Back to the Future",
+        "pdf": "https://arxiv.org/pdf/2512.24856v1"
+      },
+      {
+        "title": "HaineiFRDM: Explore Diffusion to Restore Defects in Fast-Movement Films",
+        "pdf": "https://arxiv.org/pdf/2512.24946v1"
+      },
+      {
+        "title": "Integrated Precision Surgical Protocol (IPSP): A Fully Open-Source, Clinically Actionable, and Falsifiable Framework for Verified Computational Model-Derived Predictive Target of 33% Reduction in Mortality and Complications in High-Risk Neurosurgical, Cardiovascular, and Orthopedic Surgeries",
+        "pdf": "https://doi.org/10.5281/zenodo.17538257"
+      },
+      {
+        "title": "Empowering smart app development with SolidGPT: an edge-cloud hybrid AI agent framework",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.08286"
+      },
+      {
+        "title": "Towards Provably Secure Generative AI: Reliable Consensus Sampling",
+        "pdf": "https://arxiv.org/pdf/2512.24925v1"
+      },
+      {
+        "title": "Seismology modeling agent: A smart assistant for geophysical researchers",
+        "pdf": "https://arxiv.org/pdf/2512.14429"
+      },
+      {
+        "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+        "pdf": "https://arxiv.org/pdf/2512.24873v1"
+      },
+      {
+        "title": "SciEvalKit: An Open-source Evaluation Toolkit for Scientific General Intelligence",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.22334"
+      },
+      {
+        "title": "Artificial or Just Artful? Do LLMs Bend the Rules in Programming?",
+        "pdf": "https://doi.org/10.48550/arxiv.2512.21028"
+      },
+      {
+        "title": "Creating Animations for Maths Teaching",
+        "pdf": "https://repository.iu.org/bitstreams/478ec58d-fd8b-4c49-ae9e-974d0d50d992/download"
+      },
+      {
+        "title": "\"Echoes of Cycles\" - A Multi-AI Cross-Modal Analysis from Poetry to Music Genre Classification",
+        "pdf": "https://doi.org/10.5281/zenodo.17957249"
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "pdf": "https://arxiv.org/pdf/2512.25070v1"
+      },
+      {
+        "title": "Flare: A Boundary Engine for Relational AI",
+        "pdf": "https://doi.org/10.5281/zenodo.17855976"
+      },
+      {
+        "title": "Microservice Generation",
+        "pdf": "https://doi.org/10.5281/zenodo.17863952"
+      },
+      {
+        "title": "MfN DataHub – a Centralized Service for Automated Biodiversity Data Integration at the Museum for Natural History Berlin",
+        "pdf": "https://doi.org/10.3897/biss.9.183132"
+      },
+      {
+        "title": "Big AI is accelerating the metacrisis: What can we do?",
+        "pdf": "https://arxiv.org/pdf/2512.24863v1"
+      },
+      {
+        "title": "Love, Lies, and Language Models: Investigating AI's Role in Romance-Baiting Scams",
+        "pdf": "https://doi.org/10.5281/zenodo.17985497"
+      },
+      {
+        "title": "Fair Committee Selection under Ordinal Preferences and Limited Cardinal Information",
+        "pdf": "https://arxiv.org/pdf/2512.24934v1"
+      },
+      {
+        "title": "Love, Lies, and Language Models: Investigating AI's Role in Romance-Baiting Scams Artifacts for USENIX Security 2026",
+        "pdf": "https://doi.org/10.5281/zenodo.17983883"
+      },
+      {
+        "title": "DarkEQA: Benchmarking Vision-Language Models for Embodied Question Answering in Low-Light Indoor Environments",
+        "pdf": "https://arxiv.org/pdf/2512.24985v1"
+      },
+      {
+        "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+        "pdf": "https://arxiv.org/pdf/2512.25033v1"
+      },
+      {
+        "title": "Incentivizing Tool-augmented Thinking with Images for Medical Image Analysis",
+        "pdf": "https://arxiv.org/pdf/2512.14157"
+      },
+      {
+        "title": "Description of Baryon Mass Spectrum by Open Strings and Diquarks",
+        "pdf": "https://arxiv.org/pdf/2512.24882v1"
+      },
+      {
+        "title": "AI-Driven Cloud Resource Optimization for Multi-Cluster Environments",
+        "pdf": "https://arxiv.org/pdf/2512.24914v1"
+      },
+      {
+        "title": "Configuration Spaces of Finite Representation Type Algebras",
+        "pdf": "https://arxiv.org/pdf/2512.24870v1"
+      },
+      {
+        "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+        "pdf": "https://arxiv.org/pdf/2512.24986v1"
+      },
+      {
+        "title": "Heterogeneous Multi-Agent Multi-Target Tracking using Cellular Sheaves",
+        "pdf": "https://arxiv.org/pdf/2512.24886v1"
+      },
+      {
+        "title": "Open-Ethical AI: Advancements in Open-Source Human-Centric Neural Language Models",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3703454"
+      },
+      {
+        "title": "Measuring Mixed-State Topological Invariant in Open Photonic Quantum Walk",
+        "pdf": "https://arxiv.org/pdf/2512.24857v1"
+      },
+      {
+        "title": "RAIR: A Rule-Aware Benchmark Uniting Challenging Long-Tail and Visual Salience Subset for E-commerce Relevance Assessment",
+        "pdf": "https://arxiv.org/pdf/2512.24943v1"
+      },
+      {
+        "title": "Lindbladian PT phase transitions",
+        "pdf": "https://arxiv.org/pdf/2512.24981v1"
+      },
+      {
+        "title": "Iterative Deployment Improves Planning Skills in LLMs",
+        "pdf": "https://arxiv.org/pdf/2512.24940v1"
+      },
+      {
+        "title": "BEDA: Belief Estimation as Probabilistic Constraints for Performing Strategic Dialogue Acts",
+        "pdf": "https://arxiv.org/pdf/2512.24885v1"
+      },
+      {
+        "title": "Kobayashi2501/AK-High-Dimensional-Projection-Structural-Theory: AK–HDPST v17.0.1 — AK High-Dimensional Projection Structural Theory",
+        "pdf": "https://doi.org/10.5281/zenodo.18029366"
+      },
+      {
+        "title": "Existence, uniqueness, and approximability of solutions to the classical Melan equation in suspension bridges",
+        "pdf": "https://arxiv.org/pdf/2512.24915v1"
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "pdf": "https://arxiv.org/pdf/2512.25064v1"
+      },
+      {
+        "title": "Interaction of a Vortex Pair with a Polymeric Fluid Layer",
+        "pdf": "https://arxiv.org/pdf/2512.24944v1"
+      },
+      {
+        "title": "Semi-overlapping Multi-bandit Best Arm Identification for Sequential Support Network Learning",
+        "pdf": "https://arxiv.org/pdf/2512.24959v1"
+      },
+      {
+        "title": "Polynomial $χ$-boundedness for excluding $P_5$",
+        "pdf": "https://arxiv.org/pdf/2512.24907v1"
+      },
+      {
+        "title": "MSACL: Multi-Step Actor-Critic Learning with Lyapunov Certificates for Exponentially Stabilizing Control",
+        "pdf": "https://arxiv.org/pdf/2512.24955v1"
+      },
+      {
+        "title": "garciaalan186/geometric-mnemic-manifolds: Geometric Mnemic Manifolds v3.0 - Release Notes",
+        "pdf": "https://doi.org/10.5281/zenodo.17849006"
+      },
+      {
+        "title": "Global boundedness and absorbing sets in two-dimensional chemotaxis-Navier-Stokes systems with weakly singular sensitivity and a sub-logistic source",
+        "pdf": "https://arxiv.org/pdf/2512.24892v1"
+      },
+      {
+        "title": "The Impact of LLMs on Online News Consumption and Production",
+        "pdf": "https://arxiv.org/pdf/2512.24968v1"
+      },
+      {
+        "title": "Self-Supervised Amortized Neural Operators for Optimal Control: Scaling Laws and Applications",
+        "pdf": "https://arxiv.org/pdf/2512.24897v1"
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "pdf": "https://arxiv.org/pdf/2512.25075v1"
+      },
+      {
+        "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+        "pdf": "https://arxiv.org/pdf/2512.25052v1"
+      },
+      {
+        "title": "Discovery of a galaxy associated with the HI cloud FAST J0139+4328",
+        "pdf": "https://arxiv.org/pdf/2512.24924v1"
+      },
+      {
+        "title": "Manifold classification from the descriptive viewpoint",
+        "pdf": "https://arxiv.org/pdf/2512.24996v1"
+      },
+      {
+        "title": "FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion",
+        "pdf": "https://arxiv.org/pdf/2512.25067v1"
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "pdf": "https://arxiv.org/pdf/2512.25065v1"
+      },
+      {
+        "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+        "pdf": "https://arxiv.org/pdf/2512.25037v1"
+      },
+      {
+        "title": "Modewise Additive Factor Model for Matrix Time Series",
+        "pdf": "https://arxiv.org/pdf/2512.25025v1"
+      },
+      {
+        "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+        "pdf": "https://arxiv.org/pdf/2512.25015v1"
+      },
+      {
+        "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+        "pdf": "https://arxiv.org/pdf/2512.24991v1"
+      },
+      {
+        "title": "A guide to the $2$-generated axial algebras of Monster type",
+        "pdf": "https://arxiv.org/pdf/2512.24987v1"
+      },
+      {
+        "title": "Large language models and the entropy of English",
+        "pdf": "https://arxiv.org/pdf/2512.24969v1"
+      },
+      {
+        "title": "Geometric characterisation of structural and regular equivalences in undirected (hyper)graphs",
+        "pdf": "https://arxiv.org/pdf/2512.24961v1"
+      },
+      {
+        "title": "AMAP Agentic Planning Technical Report",
+        "pdf": "https://arxiv.org/pdf/2512.24957v1"
+      },
+      {
+        "title": "CPJ: Explainable Agricultural Pest Diagnosis via Caption-Prompt-Judge with LLM-Judged Refinement",
+        "pdf": "https://arxiv.org/pdf/2512.24947v1"
+      },
+      {
+        "title": "One-Shot Camera-Based Extrusion Optimization for High Speed Fused Filament Fabrication",
+        "pdf": "https://arxiv.org/pdf/2512.24905v1"
+      },
+      {
+        "title": "Adaptive Resource Orchestration for Distributed Quantum Computing Systems",
+        "pdf": "https://arxiv.org/pdf/2512.24902v1"
+      },
+      {
+        "title": "PRISM: A hierarchical multiscale approach for time series forecasting",
+        "pdf": "https://arxiv.org/pdf/2512.24898v1"
+      },
+      {
+        "title": "Feature Slice Matching for Precise Bug Detection",
+        "pdf": "https://arxiv.org/pdf/2512.24858v1"
+      },
+      {
+        "title": "CUIfy the XR: An Open-Source Package to Embed LLM-Powered Conversational Agents in XR",
+        "pdf": "http://arxiv.org/pdf/2411.04671"
+      },
+      {
+        "title": "OpenGridGym: An Open-Source AI-Friendly Toolkit for Distribution Market Simulation",
+        "pdf": "https://arxiv.org/pdf/2203.04410"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "Agents: An Open-source Framework for Autonomous Language Agents",
+        "doi": "https://doi.org/10.48550/arXiv.2309.07870"
+      },
+      {
+        "title": "[Replication Kit] On the Adoption of AI Coding Agents in Open-source Android and iOS Development",
+        "doi": "https://doi.org/10.5281/zenodo.17874505"
+      },
+      {
+        "title": "Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training",
+        "doi": "https://doi.org/10.48550/arXiv.2508.00414"
+      },
+      {
+        "title": "Context Engineering for AI Agents in Open-Source Software",
+        "doi": "https://doi.org/10.48550/arXiv.2510.21413"
+      },
+      {
+        "title": "Re-opening open-source science through AI assisted development",
+        "doi": "https://doi.org/10.48550/arxiv.2512.11993"
+      },
+      {
+        "title": "Open Deep Search: Democratizing Search with Open-source Reasoning Agents",
+        "doi": "https://doi.org/10.48550/arXiv.2503.20201"
+      },
+      {
+        "title": "LlamaFirewall: An open source guardrail system for building secure AI agents",
+        "doi": "https://doi.org/10.48550/arXiv.2505.03574"
+      },
+      {
+        "title": "OpenMathInstruct-2: Accelerating AI for Math with Massive Open-Source Instruction Data",
+        "doi": "https://doi.org/10.48550/arXiv.2410.01560"
+      },
+      {
+        "title": "Devika AI: An Open-Source Revolution In AI-Powered Code Generation",
+        "doi": "https://doi.org/10.9790/0661-2605011316"
+      },
+      {
+        "title": "Lemur: Harmonizing Natural Language and Code for Language Agents",
+        "doi": "https://doi.org/10.48550/arXiv.2310.06830"
+      },
+      {
+        "title": "High-performance Open-source AI for Breast Cancer Detection and Localization in MRI.",
+        "doi": "https://doi.org/10.1148/ryai.240550"
+      },
+      {
+        "title": "VTutor: An Open-Source SDK for Generative AI-Powered Animated Pedagogical Agents with Multi-Media Output",
+        "doi": "https://doi.org/10.48550/arXiv.2502.04103"
+      },
+      {
+        "title": "Adversarial Configuration Injection in AI Coding Assistants: A Systematic Security Evaluation Framework",
+        "doi": "https://doi.org/10.5281/zenodo.17924763"
+      },
+      {
+        "title": "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data",
+        "doi": "https://doi.org/10.48550/arXiv.2509.15221"
+      },
+      {
+        "title": "CodeEvolve: An open source evolutionary coding agent for algorithm discovery and optimization",
+        "doi": "https://doi.org/10.48550/arXiv.2510.14150"
+      },
+      {
+        "title": "SecureAgentBench: Benchmarking Secure Code Generation under Realistic Vulnerability Scenarios",
+        "doi": "https://doi.org/10.48550/arXiv.2509.22097"
+      },
+      {
+        "title": "GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+        "doi": "https://doi.org/10.48550/arXiv.2507.01006"
+      },
+      {
+        "title": "PEFA-AI: Advancing Open-source LLMs for RTL generation using Progressive Error Feedback Agentic-AI",
+        "doi": "https://doi.org/10.48550/arXiv.2511.03934"
+      },
+      {
+        "title": "An Introduction to prismAId: Open-Source and Open Science AI for Advancing Information Extraction in Systematic Reviews",
+        "doi": "https://doi.org/10.21105/joss.07616"
+      },
+      {
+        "title": "On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub",
+        "doi": "https://doi.org/10.48550/arXiv.2509.14745"
+      },
+      {
+        "title": "FinRobot: An Open-Source AI Agent Platform for Financial Applications using Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2405.14767"
+      },
+      {
+        "title": "Agri Friendly Conversational AI Chatbot Using Open Source Framework",
+        "doi": "https://doi.org/10.17485/ijst/v18i8.15"
+      },
+      {
+        "title": "Open Source AI-based SE Tools: Opportunities and Challenges of Collaborative Software Learning",
+        "doi": "https://doi.org/10.1145/3708529"
+      },
+      {
+        "title": "An Empirical Study of Testing Practices in Open Source AI Agent Frameworks and Agentic Applications",
+        "doi": "https://doi.org/10.48550/arXiv.2509.19185"
+      },
+      {
+        "title": "Agentic Refactoring: An Empirical Study of AI Coding Agents",
+        "doi": "https://doi.org/10.48550/arXiv.2511.04824"
+      },
+      {
+        "title": "LibVulnWatch: A Deep Assessment Agent System and Leaderboard for Uncovering Hidden Vulnerabilities in Open-Source AI Libraries",
+        "doi": "https://doi.org/10.48550/arXiv.2505.08842"
+      },
+      {
+        "title": "ML-Dev-Bench: Comparative Analysis of AI Agents on ML development workflows",
+        "doi": "https://doi.org/10.48550/arXiv.2502.00964"
+      },
+      {
+        "title": "Devstral: Fine-tuning Language Models for Coding Agent Applications",
+        "doi": "https://doi.org/10.48550/arXiv.2509.25193"
+      },
+      {
+        "title": "Open-Source AI-Powered Optimization in Scalene: Advancing Python Performance Profiling with DeepSeek-R1 and LLaMA 3.2",
+        "doi": "https://doi.org/10.48550/arXiv.2502.10299"
+      },
+      {
+        "title": "Agentic AI Governance Framework",
+        "doi": "https://doi.org/10.5281/zenodo.17977089"
+      },
+      {
+        "title": "Open-Source Conversational AI with SpeechBrain 1.0",
+        "doi": "https://doi.org/10.48550/arXiv.2407.00463"
+      },
+      {
+        "title": "Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents",
+        "doi": "https://doi.org/10.48550/arXiv.2509.23045"
+      },
+      {
+        "title": "With Great Capabilities Come Great Responsibilities: Introducing the Agentic Risk &amp; Capability Framework for Governing Agentic AI Systems",
+        "doi": "https://doi.org/10.48550/arxiv.2512.22211"
+      },
+      {
+        "title": "Securing the Modern Software Supply Chain: AI-Driven Threat Analysis and Defense-in-Depth Architecture",
+        "doi": "https://doi.org/10.5281/zenodo.18041109"
+      },
+      {
+        "title": "SWE-Sharp-Bench: A Reproducible Benchmark for C# Software Engineering Tasks",
+        "doi": "https://doi.org/10.48550/arXiv.2511.02352"
+      },
+      {
+        "title": "Open-source AI-assisted rapid 3D color multimodal image fusion and preoperative augmented reality planning of extracerebral tumors.",
+        "doi": "https://doi.org/10.3171/2025.4.FOCUS24557"
+      },
+      {
+        "title": "AI-Driven Software Supply Chain Security: A Unified Analysis of Threats, Detection, and Defense-in-Depth Strategies",
+        "doi": "https://doi.org/10.5281/zenodo.18005868"
+      },
+      {
+        "title": "The Impact of Generative AI on Collaborative Open-Source Software Development: Evidence from GitHub Copilot",
+        "doi": "https://doi.org/10.2139/ssrn.4856935"
+      },
+      {
+        "title": "Evolving Excellence: Automated Optimization of LLM-based Agents",
+        "doi": "https://doi.org/10.48550/arxiv.2512.09108"
+      },
+      {
+        "title": "VulnLLM-R: Specialized Reasoning LLM with Agent Scaffold for Vulnerability Detection",
+        "doi": "https://doi.org/10.48550/arxiv.2512.07533"
+      },
+      {
+        "title": "Code Ownership in Open-Source AI Software Security",
+        "doi": "https://doi.org/10.1145/3643691.3648586"
+      },
+      {
+        "title": "creator35lwb-web/VerifiMind-PEAS: Genesis Prompt Engineering Methodology v2.0: Multi-Agent AI Validation Framework",
+        "doi": "https://doi.org/10.5281/zenodo.17972751"
+      },
+      {
+        "title": "Integrated Precision Surgical Protocol (IPSP): A Fully Open-Source, Clinically Actionable, and Falsifiable Framework for Verified Computational Model-Derived Predictive Target of 33% Reduction in Mortality and Complications in High-Risk Neurosurgical, Cardiovascular, and Orthopedic Surgeries",
+        "doi": "https://doi.org/10.5281/zenodo.17538257"
+      },
+      {
+        "title": "Empowering smart app development with SolidGPT: an edge-cloud hybrid AI agent framework",
+        "doi": "https://doi.org/10.48550/arxiv.2512.08286"
+      },
+      {
+        "title": "Thematic Analysis with Open-Source Generative AI and Machine Learning: A New Method for Inductive Qualitative Codebook Development",
+        "doi": "https://doi.org/10.48550/arXiv.2410.03721"
+      },
+      {
+        "title": "Seismology modeling agent: A smart assistant for geophysical researchers",
+        "doi": "https://doi.org/10.48550/arxiv.2512.14429"
+      },
+      {
+        "title": "SciEvalKit: An Open-source Evaluation Toolkit for Scientific General Intelligence",
+        "doi": "https://doi.org/10.48550/arxiv.2512.22334"
+      },
+      {
+        "title": "Artificial or Just Artful? Do LLMs Bend the Rules in Programming?",
+        "doi": "https://doi.org/10.48550/arxiv.2512.21028"
+      },
+      {
+        "title": "Creating Animations for Maths Teaching",
+        "doi": "https://doi.org/10.56250/4092"
+      },
+      {
+        "title": "\"Echoes of Cycles\" - A Multi-AI Cross-Modal Analysis from Poetry to Music Genre Classification",
+        "doi": "https://doi.org/10.5281/zenodo.17957249"
+      },
+      {
+        "title": "Flare: A Boundary Engine for Relational AI",
+        "doi": "https://doi.org/10.5281/zenodo.17855976"
+      },
+      {
+        "title": "Microservice Generation",
+        "doi": "https://doi.org/10.5281/zenodo.17863952"
+      },
+      {
+        "title": "MfN DataHub – a Centralized Service for Automated Biodiversity Data Integration at the Museum for Natural History Berlin",
+        "doi": "https://doi.org/10.3897/biss.9.183132"
+      },
+      {
+        "title": "Love, Lies, and Language Models: Investigating AI's Role in Romance-Baiting Scams",
+        "doi": "https://doi.org/10.5281/zenodo.17985497"
+      },
+      {
+        "title": "Love, Lies, and Language Models: Investigating AI's Role in Romance-Baiting Scams Artifacts for USENIX Security 2026",
+        "doi": "https://doi.org/10.5281/zenodo.17983883"
+      },
+      {
+        "title": "Incentivizing Tool-augmented Thinking with Images for Medical Image Analysis",
+        "doi": "https://doi.org/10.48550/arxiv.2512.14157"
+      },
+      {
+        "title": "Veracity: An Open-Source AI Fact-Checking System",
+        "doi": "https://doi.org/10.48550/arXiv.2506.15794"
+      },
+      {
+        "title": "A Solution toward Transparent and Practical AI Regulation: Privacy Nutrition Labels for Open-source Generative AI-based Applications",
+        "doi": "https://doi.org/10.48550/arXiv.2407.15407"
+      },
+      {
+        "title": "Open-Ethical AI: Advancements in Open-Source Human-Centric Neural Language Models",
+        "doi": "https://doi.org/10.1145/3703454"
+      },
+      {
+        "title": "Kobayashi2501/AK-High-Dimensional-Projection-Structural-Theory: AK–HDPST v17.0.1 — AK High-Dimensional Projection Structural Theory",
+        "doi": "https://doi.org/10.5281/zenodo.18029366"
+      },
+      {
+        "title": "garciaalan186/geometric-mnemic-manifolds: Geometric Mnemic Manifolds v3.0 - Release Notes",
+        "doi": "https://doi.org/10.5281/zenodo.17849006"
+      },
+      {
+        "title": "OpenOmni: A Collaborative Open Source Tool for Building Future-Ready Multimodal Conversational Agents",
+        "doi": "https://doi.org/10.48550/arXiv.2408.03047"
+      },
+      {
+        "title": "CUIfy the XR: An Open-Source Package to Embed LLM-Powered Conversational Agents in XR",
+        "doi": "https://doi.org/10.1109/AIxVR63409.2025.00037"
+      },
+      {
+        "title": "The Origin and Opportunities of Developers' Perceived Code Accountability in Open Source AI Software Development",
+        "doi": "https://doi.org/10.1609/aies.v7i1.31621"
+      },
+      {
+        "title": "Perceptions of Academic Librarians Toward Open Source Library System (OSLS): Case Study of Pakistan",
+        "doi": "https://doi.org/10.1080/0194262X.2023.2286649"
+      },
+      {
+        "title": "GPTutor: an open-source AI pair programming tool alternative to Copilot",
+        "doi": "https://doi.org/10.48550/arXiv.2310.13896"
+      },
+      {
+        "title": "OpenGridGym: An Open-Source AI-Friendly Toolkit for Distribution Market Simulation",
+        "doi": "https://doi.org/10.1109/TSG.2022.3213240"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "open source AI coding agents",
+    "total_steps": 17,
+    "last_updated": "2026-01-03T01:54:10.198345",
+    "started_at": "2026-01-03T01:52:16.852862",
+    "total_papers": 173
+  }
+}

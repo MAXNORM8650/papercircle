@@ -1,0 +1,251 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-03T01:52:44.932029",
+      "agent": "online_search_agent",
+      "action": "Online search: 'open source AI coding agents'",
+      "result_preview": "Found 126 papers",
+      "details": {
+        "query": "open source AI coding agents",
+        "sources": null,
+        "papers_found": 126,
+        "papers_added": 126,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 126
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-03T01:53:01.674819",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'open source AI coding agents'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "open source AI coding agents",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 47,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-03T01:53:07.562704",
+      "agent": "online_search_agent",
+      "action": "Online search: 'open source AI coding agents'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "open source AI coding agents",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-03T01:53:16.669959",
+      "agent": "sorting_agent",
+      "action": "Sorted 173 papers by 'citations'",
+      "result_preview": "Top paper: DeepSeek LLM: Scaling Open-Source Language Models ...",
+      "details": {
+        "sort_by": "citations",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-03T01:53:17.938538",
+      "agent": "sorting_agent",
+      "action": "Sorted 173 papers by 'relevance'",
+      "result_preview": "Top paper: SWE-PolyBench: A multi-language benchmark for repo...",
+      "details": {
+        "sort_by": "relevance",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-03T01:53:34.968122",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (summary)",
+      "result_preview": "Generated insights from 173 papers",
+      "details": {
+        "analysis_type": "summary"
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-03T01:53:35.828296",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (trends)",
+      "result_preview": "Generated insights from 173 papers",
+      "details": {
+        "analysis_type": "trends"
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-03T01:53:36.788093",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (authors)",
+      "result_preview": "Generated insights from 173 papers",
+      "details": {
+        "analysis_type": "authors"
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-03T01:53:37.743410",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (venues)",
+      "result_preview": "Generated insights from 173 papers",
+      "details": {
+        "analysis_type": "venues"
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-03T01:53:38.706033",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (topics)",
+      "result_preview": "Generated insights from 173 papers",
+      "details": {
+        "analysis_type": "topics"
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-03T01:53:39.733221",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (all)",
+      "result_preview": "Generated insights from 173 papers",
+      "details": {
+        "analysis_type": "all"
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-03T01:53:48.996080",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (topics)",
+      "result_preview": "Generated insights from 173 papers",
+      "details": {
+        "analysis_type": "topics"
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-03T01:53:49.878239",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (trends)",
+      "result_preview": "Generated insights from 173 papers",
+      "details": {
+        "analysis_type": "trends"
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-01-03T01:53:50.695314",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (authors)",
+      "result_preview": "Generated insights from 173 papers",
+      "details": {
+        "analysis_type": "authors"
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-01-03T01:53:51.592807",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (venues)",
+      "result_preview": "Generated insights from 173 papers",
+      "details": {
+        "analysis_type": "venues"
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 16,
+      "timestamp": "2026-01-03T01:53:52.462170",
+      "agent": "analysis_agent",
+      "action": "Analyzing papers (summary)",
+      "result_preview": "Generated insights from 173 papers",
+      "details": {
+        "analysis_type": "summary"
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 17,
+      "timestamp": "2026-01-03T01:54:10.183327",
+      "agent": "export_agent",
+      "action": "Exporting papers (all)",
+      "result_preview": "Exported 173 papers",
+      "details": {
+        "format": "all",
+        "filename": "open_source_ai_coding_agents"
+      },
+      "papers_count": 173
+    }
+  ],
+  "current_step": 17,
+  "metadata": {
+    "query": "open source AI coding agents",
+    "total_steps": 17,
+    "last_updated": "2026-01-03T01:54:10.212928",
+    "started_at": "2026-01-03T01:52:16.852862",
+    "total_papers": 173
+  }
+}
