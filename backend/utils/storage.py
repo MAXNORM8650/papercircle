@@ -8,6 +8,10 @@ from pathlib import Path
 from typing import Optional, Union
 from supabase import create_client, Client
 from datetime import datetime
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv(Path(__file__).resolve().parents[2] / '.env')
 
 # Initialize Supabase client
 SUPABASE_URL = os.getenv("SUPABASE_URL")
