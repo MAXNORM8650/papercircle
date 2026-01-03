@@ -1,0 +1,3799 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Exploring Multi-Modal Data with Tool-Augmented LLM Agents for Precise Causal Discovery",
+        "url": "https://aclanthology.org/2025.findings-acl.36/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.36.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Loius (Look it up in the Structure): Benchmark and Techniques for Document structure aware LLM based Retrieval",
+        "url": "https://openreview.net/forum?id=53kUa92R7J",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Unsupervised Structure Discovery for Semantic Analysis of Audio",
+        "url": "https://papers.nips.cc/paper_files/paper/2012/hash/c6e19e830859f2cb9f7c8f8cacb8d2a6-Abstract.html",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2012/file/c6e19e830859f2cb9f7c8f8cacb8d2a6-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2012
+      },
+      {
+        "title": "PLOT: Text-based Person Search with Part Slot Attention for Corresponding Part Discovery",
+        "url": "https://eccv2024.ecva.net//virtual/2024/poster/2249",
+        "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03209.pdf",
+        "doi_url": null,
+        "source": "offline_eccv",
+        "year": 2024
+      },
+      {
+        "title": "LLM-GC: Temporal-Semantic Disentanglement with Retrieval Augmentation to Activate LLM's Ability for Multimodal Granger Causal Discovery",
+        "url": "https://openreview.net/forum?id=Qq4jSruxNE",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "GeoEvolve: Automating Geospatial Model Discovery via Multi-Agent Large Language Models",
+        "url": "https://openreview.net/forum?id=XaFbHtdoGF",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Proof-Augmented Retrieval and Reasoning: Supervising Language models for Knowledge Graph Completion with Link Predictors",
+        "url": "https://openreview.net/forum?id=idtEFFfWcI",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Universal Instance Perception As Object Discovery and Retrieval",
+        "url": "https://cvpr.thecvf.com/virtual/2023/poster/23132",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yan_Universal_Instance_Perception_As_Object_Discovery_and_Retrieval_CVPR_2023_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2023
+      },
+      {
+        "title": "REDEREF: RECURSIVE DELEGATION AND REFLECTION FOR MULTI-TURN LLM AGENT COLLABORATION WITH DYNAMIC CAPABILITY DISCOVERY",
+        "url": "https://openreview.net/forum?id=bQgaTaN2eG",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "LeGIT: LLM Guided Intervention Targeting for Online Causal Discovery",
+        "url": "https://openreview.net/forum?id=cdxFCHQQnU",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "PRKV:Page Restruct KV Cache for High Accuracy and Efficiency LLM Generation",
+        "url": "https://openreview.net/forum?id=7FM0GBFhe5",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "CA-GAR: Context-Aware Alignment of LLM Generation for Document Retrieval",
+        "url": "https://aclanthology.org/2025.findings-acl.303/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.303.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "MIR: Methodology Inspiration Retrieval for Scientific Research Problems",
+        "url": "https://aclanthology.org/2025.acl-long.1390/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1390.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "FreeKV: Boosting KV Cache Retrieval for Efficient LLM Inference",
+        "url": "https://openreview.net/forum?id=wXAn7orB1H",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "RETAIN: Interactive Tool for Regression Testing Guided LLM Migration",
+        "url": "https://aclanthology.org/2024.emnlp-demo.31/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-demo.31.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Provenance: A Light-weight Fact-checker for Retrieval Augmented LLM Generation Output",
+        "url": "https://aclanthology.org/2024.emnlp-industry.97/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-industry.97.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Structure Guided Equation Discovery with Influence-Based Feedback for Large Language Models",
+        "url": "https://openreview.net/forum?id=X5e2x8JSJP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "FreshStack: Building Realistic Benchmarks for Evaluating Retrieval on Technical Documents",
+        "url": "https://openreview.net/forum?id=54TTgXlS2U",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "LLM Alignment as Retriever Optimization: An Information Retrieval Perspective",
+        "url": "https://icml.cc/virtual/2025/poster/45659",
+        "pdf_url": "https://openreview.net/pdf?id=K1LcmG2jQN",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Real-Time Evaluation for Novel Class Discovery at Test Time",
+        "url": "https://openreview.net/forum?id=BhNVSmIKln",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "IRIS: An Iterative and Integrated Framework for Verifiable Causal Discovery in the Absence of Tabular Data",
+        "url": "https://aclanthology.org/2025.acl-long.463/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.463.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "PromptReps: Prompting Large Language Models to Generate Dense and Sparse Representations for Zero-Shot Document Retrieval",
+        "url": "https://aclanthology.org/2024.emnlp-main.250/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.250.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "ChemBOMAS: Accelerated Bayesian Optimization for Scientific Discovery in Chemistry with LLM-Enhanced Multi-Agent System",
+        "url": "https://openreview.net/forum?id=XEkQu1ZWGN",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "EmbedMol: An Open Billion-scale Molecular Embedding Dataset for Molecular Discovery",
+        "url": "https://openreview.net/forum?id=AhAIcQzeF1",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "RAG-FGO: Enhancing RAG with Fungal Growth Optimizer for LLM Agents",
+        "url": "https://openreview.net/forum?id=H2veaeAGwA",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Towards Multimodal Data-Driven Scientific Discovery Powered by LLM Agents",
+        "url": "https://openreview.net/forum?id=kZHSvETWdi",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "CausalSteward: An Agentic Divide-Conquer-Combine Copilot for Causal Discovery",
+        "url": "https://openreview.net/forum?id=3lFAyPa9Fe",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "NewtonBench: Benchmarking Generalizable Scientific Law Discovery in LLM Agents",
+        "url": "https://openreview.net/forum?id=Gk6umqW74m",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Expressiveness is Effectiveness: Self-supervised Fashion-aware CLIP for Video-to-Shop Retrieval",
+        "url": "https://www.ijcai.org/proceedings/2024/148",
+        "pdf_url": "https://www.ijcai.org/proceedings/2024/0148.pdf",
+        "doi_url": null,
+        "source": "offline_ijcai",
+        "year": 2024
+      },
+      {
+        "title": "Generation-Augmented Multimodal Retrieval in Personal LLM Agents",
+        "url": "https://openreview.net/forum?id=6Yl5BJoRJB",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "CypherBench: Towards Precise Retrieval over Full-scale Modern Knowledge Graphs in the LLM Era",
+        "url": "https://aclanthology.org/2025.acl-long.438/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.438.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Sample Lottery: Unsupervised Discovery of Critical Instances for LLM Reasoning",
+        "url": "https://openreview.net/forum?id=76OZBE4Rb6",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "STaRK: Benchmarking LLM Retrieval on Textual and Relational Knowledge Bases",
+        "url": "https://neurips.cc/virtual/2024/poster/97698",
+        "pdf_url": "https://openreview.net/pdf?id=QSS5cGmKb1",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "IRIS: An Iterative and Integrated Framework for Real-Time Causal Discovery",
+        "url": "https://openreview.net/forum?id=zgM66fu0wv",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Does LLM dream of differential equation discovery?",
+        "url": "https://openreview.net/forum?id=TwEkaC2fRk",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Improving LLM Symbolic Problem-Solving via Automated Heuristic Discovery",
+        "url": "https://openreview.net/forum?id=yX1gmPYHOL",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "LADDER: Language-Driven Slice Discovery and Error Rectification in Vision Classifiers",
+        "url": "https://aclanthology.org/2025.findings-acl.1177/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.1177.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Fuzzy Multimodal Learning for Trusted Cross-modal Retrieval",
+        "url": "https://cvpr.thecvf.com/virtual/2025/poster/34643",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Duan_Fuzzy_Multimodal_Learning_for_Trusted_Cross-modal_Retrieval_CVPR_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2025
+      },
+      {
+        "title": "Find tailored step example for next step: A Targeted Step-wise Retrieval Framework for Guiding LLM Reasoning",
+        "url": "https://openreview.net/forum?id=uIbvoffZwO",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "RetrievalAttention: Accelerating Long-Context LLM Inference via Vector Retrieval",
+        "url": "https://openreview.net/forum?id=8z3cOVER4z",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "LLM and Simulation as Bilevel Optimizers: A New Paradigm to Advance Physical Scientific Discovery",
+        "url": "https://icml.cc/virtual/2024/poster/33371",
+        "pdf_url": "https://openreview.net/pdf?id=hz8cFsdz7P",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "Search-Adaptor: Embedding Customization for Information Retrieval",
+        "url": "https://aclanthology.org/2024.acl-long.661/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.661.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Two Heads are Better than One: Retrieval Augmented LLM for Question Answering with External Knowledge Attention",
+        "url": "https://openreview.net/forum?id=5swfKRkCx7",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Randomized Antipodal Search Done Right for Data Pareto Improvement of LLM Unlearning",
+        "url": "https://openreview.net/forum?id=Xn6EnJZghu",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Automatic Concept Discovery From Parallel Text and Visual Corpora",
+        "url": "",
+        "pdf_url": "http://openaccess.thecvf.com/content_iccv_2015/papers/Sun_Automatic_Concept_Discovery_ICCV_2015_paper.pdf",
+        "doi_url": null,
+        "source": "offline_iccv",
+        "year": 2015
+      },
+      {
+        "title": "Towards a Unified Framework for Reference Retrieval and Related Work Generation",
+        "url": "https://openreview.net/forum?id=f6S1411OlZ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "Llama2Vec: Unsupervised Adaptation of Large Language Models for Dense Retrieval",
+        "url": "https://aclanthology.org/2024.acl-long.191/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.191.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "MOLLEO+: Towards Optimized Use of LLMs for Drug Discovery",
+        "url": "https://openreview.net/forum?id=tzHI7fvsw0",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "AvaTaR: Optimizing LLM Agents for Tool Usage via Contrastive Reasoning",
+        "url": "https://neurips.cc/virtual/2024/poster/95465",
+        "pdf_url": "https://openreview.net/pdf?id=N4quRxE19p",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Search-Adaptor: Text Embedding Customization for Information Retrieval",
+        "url": "https://openreview.net/forum?id=t4HiVGGzML",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "A Framework of Knowledge Graph-Enhanced Large Language Model Based on Question Decomposition and Atomic Retrieval",
+        "url": "https://aclanthology.org/2024.findings-emnlp.670/",
+        "pdf_url": "https://aclanthology.org/2024.findings-emnlp.670.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Retrieval-based Controllable Molecule Generation",
+        "url": "https://iclr.cc/virtual/2023/poster/11781",
+        "pdf_url": "https://openreview.net/pdf?id=vDFA1tpuLvk",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "DuoAttention: Efficient Long-Context LLM Inference with Retrieval and Streaming Heads",
+        "url": "https://iclr.cc/virtual/2025/poster/29062",
+        "pdf_url": "https://openreview.net/pdf?id=cFu7ze7xUm",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "HELIOS: Harmonizing Early Fusion, Late Fusion, and LLM Reasoning for Multi-Granular Table-Text Retrieval",
+        "url": "https://aclanthology.org/2025.acl-long.1559/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1559.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "FusionMaestro: Harmonizing Early Fusion, Late Fusion, and LLM Reasoning for Multi-Granular Table-Text Retrieval",
+        "url": "https://openreview.net/forum?id=jneVchiRlT",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "VRPAgent: LLM-Driven Discovery of Heuristic Operators for Vehicle Routing Problems",
+        "url": "https://openreview.net/forum?id=02mBAZjFzp",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "OSCAgent: Closing the Loop in Organic Solar Cell Discovery with LLM Agents",
+        "url": "https://openreview.net/forum?id=lTFWBeuyqf",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Incident Diagnosing and Reporting System Based on Retrieval Augmented Large Language Model",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/35379",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/35379/37534",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2025
+      },
+      {
+        "title": "MARS: A neurosymbolic approach for interpretable drug discovery",
+        "url": "https://openreview.net/forum?id=STBPaproaB",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "LightRetriever: A LLM-based Text Retrieval Architecture with Extremely Faster Query Inference",
+        "url": "https://openreview.net/forum?id=vNEY32I8Y8",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Unleashing LLMs in Bayesian Optimization: Preference-Guided Framework for Scientific Discovery",
+        "url": "https://openreview.net/forum?id=LktUOZayG9",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Ontology-Retrieval Augmented Generation for Scientific Discovery",
+        "url": "https://openreview.net/forum?id=DbZDbg2z9q",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Q-RAG: Long Context Multi‑Step Retrieval via Value‑Based Embedder Training",
+        "url": "https://openreview.net/forum?id=MS9nWFY7LG",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Informing Acquisition Functions via Foundation Models for Molecular Discovery",
+        "url": "https://openreview.net/forum?id=5GsW2c7Y84",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Challenges with unsupervised LLM knowledge discovery",
+        "url": "https://openreview.net/forum?id=hGhLd2ByoR",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Tabular Feature Discovery With Reasoning Type Exploration",
+        "url": "https://openreview.net/forum?id=oiZhPliETH",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Fine-tuning with RAG for Improving LLM Learning of New Skills",
+        "url": "https://openreview.net/forum?id=Mm7pDVbguc",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "KVCache-Centric Memory for LLM Agents",
+        "url": "https://openreview.net/forum?id=YolJOZOGhI",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Automatic Spatially-Aware Fashion Concept Discovery",
+        "url": "",
+        "pdf_url": "http://openaccess.thecvf.com/content_ICCV_2017/papers/Han_Automatic_Spatially-Aware_Fashion_ICCV_2017_paper.pdf",
+        "doi_url": null,
+        "source": "offline_iccv",
+        "year": 2017
+      },
+      {
+        "title": "OneGen: Efficient One-Pass Unified Generation and Retrieval for LLMs",
+        "url": "https://aclanthology.org/2024.findings-emnlp.237/",
+        "pdf_url": "https://aclanthology.org/2024.findings-emnlp.237.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Cocktail: A Comprehensive Information Retrieval Benchmark with LLM-Generated Documents Integration",
+        "url": "https://aclanthology.org/2024.findings-acl.421/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.421.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution",
+        "url": "https://openreview.net/forum?id=lKEdGCoDNC",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "UnRe: Zero-Shot LLM Unlearning via Dynamic Contextual Retrieval",
+        "url": "https://openreview.net/forum?id=3ZesmvOJ6o",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Attribute or Abstain: Large Language Models as Long Document Assistants",
+        "url": "https://aclanthology.org/2024.emnlp-main.463/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.463.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "O3D: Offline Data-driven Discovery and Distillation for Sequential Decision-Making with Large Language Models",
+        "url": "https://openreview.net/forum?id=a01qbkxbve",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Improving constraint-based discovery with robust propagation and reliable LLM priors",
+        "url": "https://openreview.net/forum?id=7K8mS5QNkf",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Automatic Expert Discovery in LLM Upcycling via Sparse Interpolated Mixture-of-Experts",
+        "url": "https://aclanthology.org/2025.acl-long.816/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.816.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Selecting Relevant Web Trained Concepts for Automated Event Retrieval",
+        "url": "",
+        "pdf_url": "http://openaccess.thecvf.com/content_iccv_2015/papers/Singh_Selecting_Relevant_Web_ICCV_2015_paper.pdf",
+        "doi_url": null,
+        "source": "offline_iccv",
+        "year": 2015
+      },
+      {
+        "title": "DReSD: Dense Retrieval for Speculative Decoding",
+        "url": "https://aclanthology.org/2025.findings-acl.1017/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.1017.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "The Efficiency vs. Accuracy Trade-off: Optimizing RAG-Enhanced LLM Recommender Systems Using Multi-Head Early Exit",
+        "url": "https://aclanthology.org/2025.acl-long.1283/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1283.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Skill Discovery using Language Models",
+        "url": "https://openreview.net/forum?id=DBbgasVgyQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "AdaCache: Adaptive Caching and Context Augmentation for Efficient LLM Serving",
+        "url": "https://openreview.net/forum?id=Bmvx8ybDzo",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ChatRetriever: Adapting Large Language Models for Generalized and Robust Conversational Dense Retrieval",
+        "url": "https://aclanthology.org/2024.emnlp-main.71/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.71.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Retrieval Augmented Spelling Correction for E-Commerce Applications",
+        "url": "https://aclanthology.org/2024.emnlp-industry.7/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-industry.7.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Aria: an Agent for Retrieval and Iterative Auto-Formalization via Dependency Graph",
+        "url": "https://openreview.net/forum?id=CPxZClPMiy",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Retrieval meets Long Context Large Language Models",
+        "url": "https://iclr.cc/virtual/2024/poster/17435",
+        "pdf_url": "https://openreview.net/pdf?id=xw5nxFWMlo",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Improving Few-Shot Cross-Domain Named Entity Recognition by Instruction Tuning a Word-Embedding based Retrieval Augmented Large Language Model",
+        "url": "https://aclanthology.org/2024.emnlp-industry.51/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-industry.51.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "RATT: A Thought Structure for Coherent and Correct LLM Reasoning",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34876",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34876/37031",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2025
+      },
+      {
+        "title": "RAS: Retrieval-And-Structuring for Knowledge-Intensive LLM Generation",
+        "url": "https://openreview.net/forum?id=fqqmeg61yd",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Invar-RAG: Invariant LLM-aligned Retrieval for Better Generation",
+        "url": "https://openreview.net/forum?id=8g7hHwSBjH",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Optimizing User Profiles via Contextual Bandits for Retrieval-Augmented LLM Personalization",
+        "url": "https://openreview.net/forum?id=U616C5HpG2",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "HotelMatch-LLM: Joint Multi-Task Training of Small and Large Language Models for Efficient Multimodal Hotel Retrieval",
+        "url": "https://aclanthology.org/2025.acl-long.30/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.30.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "POQD: Performance-Oriented Query Decomposer for Multi-vector retrieval",
+        "url": "https://icml.cc/virtual/2025/poster/44047",
+        "pdf_url": "https://openreview.net/pdf?id=oktw116wt2",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Multi-Agent Causal Discovery Using Large Language Models",
+        "url": "https://openreview.net/forum?id=Idygh9MX0N",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "How is Occam's Razor Realized in Symbolic Regression?: An Adaptive LLM-Enhanced Genetic Programming Approach for Efficient, Versatile, and Interpretable Representation Discovery through Simplification and Evolution",
+        "url": "https://openreview.net/forum?id=NtkWD4CQin",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "WAVE: Learning Unified & Versatile Audio-Visual Embeddings with Multimodal LLM",
+        "url": "https://openreview.net/forum?id=MiV3WXDYJb",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Evolutionary Alpha Factor Discovery with Large Language Models for Sparse Portfolio Optimization",
+        "url": "https://openreview.net/forum?id=Zs3ZXwfaIu",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "DatasetResearch: Benchmarking Agent Systems for Demand-Driven Dataset Discovery",
+        "url": "https://openreview.net/forum?id=obapzpANpf",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Weak-to-Strong GraphRAG: Aligning Weak Retrievers with Large Language Models for Graph-based Retrieval Augmented Generation",
+        "url": "https://openreview.net/forum?id=GtjELGHkPB",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "url": "http://arxiv.org/abs/2512.25070v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "url": "http://arxiv.org/abs/2512.25065v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "url": "http://arxiv.org/abs/2512.25059v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "url": "http://arxiv.org/abs/2512.25055v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+        "url": "http://arxiv.org/abs/2512.25052v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25052v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+        "url": "http://arxiv.org/abs/2512.25015v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25015v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Bi-C2R: Bidirectional Continual Compatible Representation for Re-indexing Free Lifelong Person Re-identification",
+        "url": "http://arxiv.org/abs/2512.25000v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25000v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Noise resilient real-time phase imaging via undetected light",
+        "url": "http://arxiv.org/abs/2512.24993v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24993v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+        "url": "http://arxiv.org/abs/2512.24991v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24991v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Best Practices for Modelling Electrides",
+        "url": "http://arxiv.org/abs/2512.24989v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24989v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+        "url": "http://arxiv.org/abs/2512.24986v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24986v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "GEQIE Framework for Rapid Quantum Image Encoding",
+        "url": "http://arxiv.org/abs/2512.24973v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24973v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Large language models and the entropy of English",
+        "url": "http://arxiv.org/abs/2512.24969v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24969v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The Impact of LLMs on Online News Consumption and Production",
+        "url": "http://arxiv.org/abs/2512.24968v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24968v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "AMAP Agentic Planning Technical Report",
+        "url": "http://arxiv.org/abs/2512.24957v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24957v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "CPJ: Explainable Agricultural Pest Diagnosis via Caption-Prompt-Judge with LLM-Judged Refinement",
+        "url": "http://arxiv.org/abs/2512.24947v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24947v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "RAIR: A Rule-Aware Benchmark Uniting Challenging Long-Tail and Visual Salience Subset for E-commerce Relevance Assessment",
+        "url": "http://arxiv.org/abs/2512.24943v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24943v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Iterative Deployment Improves Planning Skills in LLMs",
+        "url": "http://arxiv.org/abs/2512.24940v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24940v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Vibe Coding, Interface Flattening",
+        "url": "http://arxiv.org/abs/2512.24939v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24939v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Adaptive Dependency-aware Prompt Optimization Framework for Multi-Step LLM Pipeline",
+        "url": "http://arxiv.org/abs/2512.24933v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24933v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Discovery of a galaxy associated with the HI cloud FAST J0139+4328",
+        "url": "http://arxiv.org/abs/2512.24924v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24924v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "FinMMDocR: Benchmarking Financial Multimodal Reasoning with Scenario Awareness, Document Understanding, and Multi-Step Computation",
+        "url": "http://arxiv.org/abs/2512.24903v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24903v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+        "url": "http://arxiv.org/abs/2512.24873v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24873v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Encyclo-K: Evaluating LLMs with Dynamically Composed Knowledge Statements",
+        "url": "http://arxiv.org/abs/2512.24867v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24867v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Latent Twins: A Framework for Scene Recognition and Fast Radiative Transfer Inversion in FORUM All-Sky Observations",
+        "url": "http://arxiv.org/abs/2512.24865v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24865v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Advances in Agentic AI: Back to the Future",
+        "url": "http://arxiv.org/abs/2512.24856v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24856v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "PrivacyBench: A Conversational Benchmark for Evaluating Privacy in Personalized AI",
+        "url": "http://arxiv.org/abs/2512.24848v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24848v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Triangulation as an Acceptance Rule for Multilingual Mechanistic Interpretability",
+        "url": "http://arxiv.org/abs/2512.24842v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24842v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "GenZ: Foundational models as latent variable generators within traditional statistical models",
+        "url": "http://arxiv.org/abs/2512.24834v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24834v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Discovering Coordinated Joint Options via Inter-Agent Relative Dynamics",
+        "url": "http://arxiv.org/abs/2512.24827v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24827v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Unsupervised Topological Phase Discovery in Periodically Driven Systems via Floquet-Bloch State",
+        "url": "http://arxiv.org/abs/2512.24822v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24822v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Unregularized Linear Convergence in Zero-Sum Game from Preference Feedback",
+        "url": "http://arxiv.org/abs/2512.24818v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24818v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "LeanCat: A Benchmark Suite for Formal Category Theory in Lean (Part I: 1-Categories)",
+        "url": "http://arxiv.org/abs/2512.24796v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24796v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "HiGR: Efficient Generative Slate Recommendation via Hierarchical Planning and Multi-Objective Preference Alignment",
+        "url": "http://arxiv.org/abs/2512.24787v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24787v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "TTC: Transformer-based TDE Classifier for the Wide Field Survey Telescope (WFST)",
+        "url": "http://arxiv.org/abs/2512.24782v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24782v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Compute-Accuracy Pareto Frontiers for Open-Source Reasoning Large Language Models",
+        "url": "http://arxiv.org/abs/2512.24776v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24776v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "OpenOneRec Technical Report",
+        "url": "http://arxiv.org/abs/2512.24762v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24762v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "AstroReview: An LLM-driven Multi-Agent Framework for Telescope Proposal Peer Review and Refinement",
+        "url": "http://arxiv.org/abs/2512.24754v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24754v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Analyzing Communication Predictability in LLM Training",
+        "url": "http://arxiv.org/abs/2512.24750v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24750v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "BIOME-Bench: A Benchmark for Biomolecular Interaction Inference and Multi-Omics Pathway Mechanism Elucidation from Scientific Literature",
+        "url": "http://arxiv.org/abs/2512.24733v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24733v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Equivalence of Personalized PageRank and Successor Representations",
+        "url": "http://arxiv.org/abs/2512.24722v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24722v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "MDiffFR: Modality-Guided Diffusion Generation for Cold-start Items in Federated Recommendation",
+        "url": "http://arxiv.org/abs/2512.24715v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24715v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "FPGA Co-Design for Efficient N:M Sparse and Quantized Model Inference",
+        "url": "http://arxiv.org/abs/2512.24713v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24713v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "MEIC-DT: Memory-Efficient Incremental Clustering for Long-Text Coreference Resolution with Dual-Threshold Constraints",
+        "url": "http://arxiv.org/abs/2512.24711v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24711v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Causal Discovery with Mixed Latent Confounding via Precision Decomposition",
+        "url": "http://arxiv.org/abs/2512.24696v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24696v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "MUSIC: MUlti-Step Instruction Contrast for Multi-Turn Reward Models",
+        "url": "http://arxiv.org/abs/2512.24693v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24693v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "BatteryAgent: Synergizing Physics-Informed Interpretation with LLM Reasoning for Intelligent Battery Fault Diagnosis",
+        "url": "http://arxiv.org/abs/2512.24686v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24686v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "R-Debater: Retrieval-Augmented Debate Generation through Argumentative Memory",
+        "url": "http://arxiv.org/abs/2512.24684v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24684v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "CellSecInspector: Safeguarding Cellular Networks via Automated Security Analysis on Specifications",
+        "url": "http://arxiv.org/abs/2512.24682v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24682v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Do Large Language Models Know What They Are Capable Of?",
+        "url": "http://arxiv.org/abs/2512.24661v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24661v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "An Automated Framework for Strategy Discovery, Retrieval, and Evolution in LLM Jailbreak Attacks",
+        "url": "https://www.semanticscholar.org/paper/62bfd1be7228b0c39330296871131089f0ad3a79",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2511.02356",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Bias and Unfairness in Information Retrieval Systems: New Challenges in the LLM Era",
+        "url": "https://www.semanticscholar.org/paper/96b2902eba473d1be9e7b38b3c58c867bdca4f08",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3637528.3671458",
+        "doi_url": "https://doi.org/10.1145/3637528.3671458",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Enriching Music Descriptions with A Finetuned-LLM and Metadata for Text-to-Music Retrieval",
+        "url": "https://www.semanticscholar.org/paper/58ade4e79567b120fa6397bf31f38c4f4de51d57",
+        "pdf_url": "http://arxiv.org/pdf/2410.03264",
+        "doi_url": "https://doi.org/10.1109/ICASSP48485.2024.10446380",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Causal Graph Discovery with Retrieval-Augmented Generation based Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/0504c5d96ebf7be01e2b622ff3a4bf155f2b0a41",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2402.15301",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Athena: A Conversational Book Discovery Interface Combining LLM-Powered Retrieval-Augmented Generation and Interactive Graph Visualization",
+        "url": "https://www.semanticscholar.org/paper/a77d546345525d18acc11fdc67998a531f9ea200",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3746058.3758400",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "DeepGEOSearch: LLM-Powered Schemaless Retrieval for Biomedical Data Discovery",
+        "url": "https://www.semanticscholar.org/paper/9456b41701be1641437134ba6245e38731966f2a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.64898/2025.12.27.696662",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Rationale-Augmented Retrieval with Constrained LLM Re-Ranking for Task Discovery",
+        "url": "https://www.semanticscholar.org/paper/d3c94e47772355fd6052f2bdb5dc7908bb3ba570",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2510.05131",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "A Systematic Literature Review on LLM-Based Information Retrieval: The Issue of Contents Classification",
+        "url": "https://www.semanticscholar.org/paper/59822f384f790b7d1ddd3e15bf0869b684525093",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.5220/0013062300003838",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Integrating Graph Retrieval-Augmented Generation With Large Language Models for Supplier Discovery",
+        "url": "https://www.semanticscholar.org/paper/53dc93dfbc27ac6351a1c3af5498bc701cf7f6dd",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1115/1.4067389",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "VAIV bio-discovery service using transformer model and retrieval augmented generation",
+        "url": "https://www.semanticscholar.org/paper/8d967f0e7125dcdcc68da030ca07ed8efe7f1649",
+        "pdf_url": "https://doi.org/10.1186/s12859-024-05903-6",
+        "doi_url": "https://doi.org/10.1186/s12859-024-05903-6",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Graph Retrieval-Augmented LLM for Conversational Recommendation Systems",
+        "url": "https://www.semanticscholar.org/paper/6fbf26121566ac9dbbffe0b278c96fa4b0ed5f88",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2503.06430",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "RAG-MCP: Mitigating Prompt Bloat in LLM Tool Selection via Retrieval-Augmented Generation",
+        "url": "https://www.semanticscholar.org/paper/7319f49a6509ff83bfd484396ad5ad3b41812f02",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.03275",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "AskNearby: An LLM-Based Application for Neighborhood Information Retrieval and Personalized Cognitive-Map Recommendations",
+        "url": "https://www.semanticscholar.org/paper/7d38284ababe889a56f1f60415623941a3643b0b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3764912.3770813",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "LLM-Based Compact Reranking with Document Features for Scientific Retrieval",
+        "url": "https://www.semanticscholar.org/paper/b68447c0ed749a1fe58613fc710395cfa41a8a16",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.13757",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Scientific Paper Retrieval with LLM-Guided Semantic-Based Ranking",
+        "url": "https://www.semanticscholar.org/paper/ac16612bfd76fc989f4695a7ab29c9301fdb28f4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.21815",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "RAG-Enhanced Collaborative LLM Agents for Drug Discovery",
+        "url": "https://www.semanticscholar.org/paper/2fd3ebcc9ab0ffd4b544d8b1515567f88f5a771d",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2502.17506",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Pre-Meta: priors-augmented retrieval for LLM-based metadata generation",
+        "url": "https://www.semanticscholar.org/paper/a9f91e84fd8b30f600780bc00dc4350d079702ee",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1093/bioinformatics/btaf519",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "MalRAG: A Retrieval-Augmented LLM Framework for Open-set Malicious Traffic Identification",
+        "url": "https://www.semanticscholar.org/paper/5c837cc8ef0dc453a2a6be0a9a09b4e90fe53448",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Citation-Grounded Code Comprehension: Preventing LLM Hallucination Through Hybrid Retrieval and Graph-Augmented Context",
+        "url": "https://www.semanticscholar.org/paper/11fca90ea5ae6ea44824cc334097b10328f9ba31",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "LLM-based Multi-Agent Blackboard System for Information Discovery in Data Science",
+        "url": "https://www.semanticscholar.org/paper/721aa51e2fd54d3b218a181f5c1a0382a92a7b6e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2510.01285",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "TriAgent: Automated Biomarker Discovery with Deep Research Grounding for Triage in Acute Care by LLM-Based Multi-Agent Collaboration",
+        "url": "https://www.semanticscholar.org/paper/ad263de3d074a43ac99936071271eaafe5289fd0",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2510.16080",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "LLM-Agent Powered Automated Literature Review and Hypothesis Generation for Cancer Biomarker Discovery",
+        "url": "https://www.semanticscholar.org/paper/65b5d30099c961e901517f3f43ac8678fe6cf462",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICOSST69113.2025.11315415",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "PairSem: LLM-Guided Pairwise Semantic Matching for Scientific Document Retrieval",
+        "url": "https://www.semanticscholar.org/paper/fcec95d81d0c6552a6213f500aeb90d09988a62c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2510.09897",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "A Comprehensive Evaluation of LLM Phenotyping Using Retrieval-Augmented Generation (RAG): Insights for RAG Optimization",
+        "url": "https://www.semanticscholar.org/paper/dcf4f85f7c3d52c715d478c75e5ea913e9321ef4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1101/2025.04.29.25326696",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Enhancing Mobile App Recommendation by LLM Powered Explicit and Implicit Information Retrieval and Representation",
+        "url": "https://www.semanticscholar.org/paper/1184dff2cc903134b20f921bc269ee47b214a676",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ACCESS.2025.3628471",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "SciTopic: Enhancing Topic Discovery in Scientific Literature through Advanced LLM",
+        "url": "https://www.semanticscholar.org/paper/d82bfd582df9a11e22a7c5191e3f4677d20f364f",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2508.20514",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Evaluating Retrieval-Augmented Generation Agents for Autonomous Scientific Discovery in Astrophysics",
+        "url": "https://www.semanticscholar.org/paper/4e6560faa58178261b11f4897eaafb2da7562404",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2507.07155",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Retrieval Augmented Generation based context discovery for ASR",
+        "url": "https://www.semanticscholar.org/paper/08a7a7914f454f00336d1f6a90c31fd7d2d87c6e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2509.19567",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "DataSage: Multi-agent Collaboration for Insight Discovery with External Knowledge Retrieval, Multi-role Debating, and Multi-path Reasoning",
+        "url": "https://www.semanticscholar.org/paper/357a020185e566ce182b1f5a66c05f4c8dcbb830",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "CoRAL: Collaborative Retrieval-Augmented Large Language Models Improve Long-tail Recommendation",
+        "url": "https://www.semanticscholar.org/paper/c450bce3f08f2db4f2e7fabbe1260ff119ca43d3",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3637528.3671901",
+        "doi_url": "https://doi.org/10.1145/3637528.3671901",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "OI-Assistant: A Retrieval Augmented System for Similar Problem Discovery and Interactive Learning in Competitive Programming",
+        "url": "https://www.semanticscholar.org/paper/ef32aea5c2b5530b26ca9fbf283c1ca6fa8fa1fe",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.15388/ioi.2025.09",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Team LA at SCIDOCA shared task 2025: Citation Discovery via relation-based zero-shot retrieval",
+        "url": "https://www.semanticscholar.org/paper/f13a1fad74fc5b0ed6d368ae055aac275f03aee0",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.18316",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "BioRAG: A RAG-LLM Framework for Biological Question Reasoning",
+        "url": "https://www.semanticscholar.org/paper/31be6dba573a704940617e12d3d2dfbe9178c04f",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2408.01107",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Nova: An Iterative Planning and Search Approach to Enhance Novelty and Diversity of LLM Generated Ideas",
+        "url": "https://www.semanticscholar.org/paper/2efae9851606b5f8b16edbbf357b30de5846876e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2410.14255",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Domain-Driven LLM Development: Insights into RAG and Fine-Tuning Practices",
+        "url": "https://www.semanticscholar.org/paper/f83988337cc2e43df2fb8141f5a8cc32524439ac",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3637528.3671445",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Optimizing biomedical information retrieval with a keyword frequency-driven prompt enhancement strategy",
+        "url": "https://www.semanticscholar.org/paper/785431fea0f297c63383a2ce5954d685f25064f3",
+        "pdf_url": "https://doi.org/10.1186/s12859-024-05902-7",
+        "doi_url": "https://doi.org/10.1186/s12859-024-05902-7",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Neural Retrievers are Biased Towards LLM-Generated Content",
+        "url": "https://www.semanticscholar.org/paper/75f6f416c84cb50859d4e157569f6700355ace54",
+        "pdf_url": "https://arxiv.org/pdf/2310.20501",
+        "doi_url": "https://doi.org/10.1145/3637528.3671882",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Way to Specialist: Closing Loop Between Specialized LLM and Evolving Domain Knowledge Graph",
+        "url": "https://www.semanticscholar.org/paper/e93770754d14a9c4b691d485d3865184e613c90d",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3690624.3709187",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Rapid and Automated Alloy Design with Graph Neural Network-Powered LLM-Driven Multi-Agent Systems",
+        "url": "https://www.semanticscholar.org/paper/0732eecfb26c93a839ecbe9314a247d6a89f1fd0",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2410.13768",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "The Application of Constructing Knowledge Graph of Oral Historical Archives Resources Based on LLM-RAG",
+        "url": "https://www.semanticscholar.org/paper/1f9950244df4761063ca5a189a4e6d6f64dd5f11",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3686397.3686420",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Face4Rag: Factual Consistency Evaluation for Retrieval Augmented Generation in Chinese",
+        "url": "https://www.semanticscholar.org/paper/def871dc51bf9afe6d1ee1fb4029f8dfc1eeab14",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3637528.3671656",
+        "doi_url": "https://doi.org/10.1145/3637528.3671656",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "pathfinder: A Semantic Framework for Literature Review and Knowledge Discovery in Astronomy",
+        "url": "https://www.semanticscholar.org/paper/2a504a6aa8c50a545409ec88ef32dfdd8e5870b3",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.3847/1538-4365/ad7c43",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Class-RAG: Real-Time Content Moderation with Retrieval Augmented Generation",
+        "url": "https://www.semanticscholar.org/paper/2a6b2e9ae1363418823fdea4c13f597271b0ba99",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Music Discovery Dialogue Generation Using Human Intent Analysis and Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/1895fb3c78abed5e89442a884de1838a8bc62e5c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2411.07439",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Diff4Steer: Steerable Diffusion Prior for Generative Music Retrieval with Semantic Guidance",
+        "url": "https://www.semanticscholar.org/paper/4949b6dc59dc195008f6bb1ebd32571ff7fe076d",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICASSP49660.2025.10887608",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "LitFM: A Retrieval Augmented Structure-aware Foundation Model For Citation Graphs",
+        "url": "https://www.semanticscholar.org/paper/426a2db9d0c96b1d43a948be7e827c9eb3a3b0b5",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3711896.3737028",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Fact-Centric Knowledge Web for Information Retrieval",
+        "url": "https://www.semanticscholar.org/paper/868450cd2f6e20093d875e110ea79f4d1954ae8a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/WI-IAT62293.2024.00067",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "LADDER: Language Driven Slice Discovery and Error Rectification",
+        "url": "https://www.semanticscholar.org/paper/d953674e171ddb8be4e0296736259ee425a02b31",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2408.07832",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Knowledge Mining using Generative AI for Causal Discovery in Electronics Production",
+        "url": "https://www.semanticscholar.org/paper/4bb33460d1b5c4c556b4c6c10fcab9c796c3abd5",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ISSE61612.2024.10604102",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Scaling Scientific Knowledge Discovery with Neuro-Symbolic AI and Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/0c31cb4b084f29c64e43019aa531f2fa1f3a0a26",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2024
+      }
+    ],
+    "by_source": {
+      "offline_acl": [
+        {
+          "title": "Exploring Multi-Modal Data with Tool-Augmented LLM Agents for Precise Causal Discovery",
+          "url": "https://aclanthology.org/2025.findings-acl.36/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.36.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "CA-GAR: Context-Aware Alignment of LLM Generation for Document Retrieval",
+          "url": "https://aclanthology.org/2025.findings-acl.303/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.303.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "MIR: Methodology Inspiration Retrieval for Scientific Research Problems",
+          "url": "https://aclanthology.org/2025.acl-long.1390/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1390.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "IRIS: An Iterative and Integrated Framework for Verifiable Causal Discovery in the Absence of Tabular Data",
+          "url": "https://aclanthology.org/2025.acl-long.463/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.463.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "CypherBench: Towards Precise Retrieval over Full-scale Modern Knowledge Graphs in the LLM Era",
+          "url": "https://aclanthology.org/2025.acl-long.438/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.438.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "LADDER: Language-Driven Slice Discovery and Error Rectification in Vision Classifiers",
+          "url": "https://aclanthology.org/2025.findings-acl.1177/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.1177.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Search-Adaptor: Embedding Customization for Information Retrieval",
+          "url": "https://aclanthology.org/2024.acl-long.661/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.661.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Llama2Vec: Unsupervised Adaptation of Large Language Models for Dense Retrieval",
+          "url": "https://aclanthology.org/2024.acl-long.191/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.191.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "HELIOS: Harmonizing Early Fusion, Late Fusion, and LLM Reasoning for Multi-Granular Table-Text Retrieval",
+          "url": "https://aclanthology.org/2025.acl-long.1559/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1559.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Cocktail: A Comprehensive Information Retrieval Benchmark with LLM-Generated Documents Integration",
+          "url": "https://aclanthology.org/2024.findings-acl.421/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.421.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Automatic Expert Discovery in LLM Upcycling via Sparse Interpolated Mixture-of-Experts",
+          "url": "https://aclanthology.org/2025.acl-long.816/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.816.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "DReSD: Dense Retrieval for Speculative Decoding",
+          "url": "https://aclanthology.org/2025.findings-acl.1017/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.1017.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "The Efficiency vs. Accuracy Trade-off: Optimizing RAG-Enhanced LLM Recommender Systems Using Multi-Head Early Exit",
+          "url": "https://aclanthology.org/2025.acl-long.1283/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1283.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "HotelMatch-LLM: Joint Multi-Task Training of Small and Large Language Models for Efficient Multimodal Hotel Retrieval",
+          "url": "https://aclanthology.org/2025.acl-long.30/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.30.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        }
+      ],
+      "offline_iclr": [
+        {
+          "title": "Loius (Look it up in the Structure): Benchmark and Techniques for Document structure aware LLM based Retrieval",
+          "url": "https://openreview.net/forum?id=53kUa92R7J",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "LLM-GC: Temporal-Semantic Disentanglement with Retrieval Augmentation to Activate LLM's Ability for Multimodal Granger Causal Discovery",
+          "url": "https://openreview.net/forum?id=Qq4jSruxNE",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "GeoEvolve: Automating Geospatial Model Discovery via Multi-Agent Large Language Models",
+          "url": "https://openreview.net/forum?id=XaFbHtdoGF",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Proof-Augmented Retrieval and Reasoning: Supervising Language models for Knowledge Graph Completion with Link Predictors",
+          "url": "https://openreview.net/forum?id=idtEFFfWcI",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "REDEREF: RECURSIVE DELEGATION AND REFLECTION FOR MULTI-TURN LLM AGENT COLLABORATION WITH DYNAMIC CAPABILITY DISCOVERY",
+          "url": "https://openreview.net/forum?id=bQgaTaN2eG",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LeGIT: LLM Guided Intervention Targeting for Online Causal Discovery",
+          "url": "https://openreview.net/forum?id=cdxFCHQQnU",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "PRKV:Page Restruct KV Cache for High Accuracy and Efficiency LLM Generation",
+          "url": "https://openreview.net/forum?id=7FM0GBFhe5",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "FreeKV: Boosting KV Cache Retrieval for Efficient LLM Inference",
+          "url": "https://openreview.net/forum?id=wXAn7orB1H",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Structure Guided Equation Discovery with Influence-Based Feedback for Large Language Models",
+          "url": "https://openreview.net/forum?id=X5e2x8JSJP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Real-Time Evaluation for Novel Class Discovery at Test Time",
+          "url": "https://openreview.net/forum?id=BhNVSmIKln",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ChemBOMAS: Accelerated Bayesian Optimization for Scientific Discovery in Chemistry with LLM-Enhanced Multi-Agent System",
+          "url": "https://openreview.net/forum?id=XEkQu1ZWGN",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "EmbedMol: An Open Billion-scale Molecular Embedding Dataset for Molecular Discovery",
+          "url": "https://openreview.net/forum?id=AhAIcQzeF1",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "RAG-FGO: Enhancing RAG with Fungal Growth Optimizer for LLM Agents",
+          "url": "https://openreview.net/forum?id=H2veaeAGwA",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Towards Multimodal Data-Driven Scientific Discovery Powered by LLM Agents",
+          "url": "https://openreview.net/forum?id=kZHSvETWdi",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "CausalSteward: An Agentic Divide-Conquer-Combine Copilot for Causal Discovery",
+          "url": "https://openreview.net/forum?id=3lFAyPa9Fe",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "NewtonBench: Benchmarking Generalizable Scientific Law Discovery in LLM Agents",
+          "url": "https://openreview.net/forum?id=Gk6umqW74m",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Generation-Augmented Multimodal Retrieval in Personal LLM Agents",
+          "url": "https://openreview.net/forum?id=6Yl5BJoRJB",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Sample Lottery: Unsupervised Discovery of Critical Instances for LLM Reasoning",
+          "url": "https://openreview.net/forum?id=76OZBE4Rb6",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "IRIS: An Iterative and Integrated Framework for Real-Time Causal Discovery",
+          "url": "https://openreview.net/forum?id=zgM66fu0wv",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Does LLM dream of differential equation discovery?",
+          "url": "https://openreview.net/forum?id=TwEkaC2fRk",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Improving LLM Symbolic Problem-Solving via Automated Heuristic Discovery",
+          "url": "https://openreview.net/forum?id=yX1gmPYHOL",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Find tailored step example for next step: A Targeted Step-wise Retrieval Framework for Guiding LLM Reasoning",
+          "url": "https://openreview.net/forum?id=uIbvoffZwO",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Two Heads are Better than One: Retrieval Augmented LLM for Question Answering with External Knowledge Attention",
+          "url": "https://openreview.net/forum?id=5swfKRkCx7",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Randomized Antipodal Search Done Right for Data Pareto Improvement of LLM Unlearning",
+          "url": "https://openreview.net/forum?id=Xn6EnJZghu",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "MOLLEO+: Towards Optimized Use of LLMs for Drug Discovery",
+          "url": "https://openreview.net/forum?id=tzHI7fvsw0",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Search-Adaptor: Text Embedding Customization for Information Retrieval",
+          "url": "https://openreview.net/forum?id=t4HiVGGzML",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Retrieval-based Controllable Molecule Generation",
+          "url": "https://iclr.cc/virtual/2023/poster/11781",
+          "pdf_url": "https://openreview.net/pdf?id=vDFA1tpuLvk",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "DuoAttention: Efficient Long-Context LLM Inference with Retrieval and Streaming Heads",
+          "url": "https://iclr.cc/virtual/2025/poster/29062",
+          "pdf_url": "https://openreview.net/pdf?id=cFu7ze7xUm",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "FusionMaestro: Harmonizing Early Fusion, Late Fusion, and LLM Reasoning for Multi-Granular Table-Text Retrieval",
+          "url": "https://openreview.net/forum?id=jneVchiRlT",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "VRPAgent: LLM-Driven Discovery of Heuristic Operators for Vehicle Routing Problems",
+          "url": "https://openreview.net/forum?id=02mBAZjFzp",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "OSCAgent: Closing the Loop in Organic Solar Cell Discovery with LLM Agents",
+          "url": "https://openreview.net/forum?id=lTFWBeuyqf",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "MARS: A neurosymbolic approach for interpretable drug discovery",
+          "url": "https://openreview.net/forum?id=STBPaproaB",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "LightRetriever: A LLM-based Text Retrieval Architecture with Extremely Faster Query Inference",
+          "url": "https://openreview.net/forum?id=vNEY32I8Y8",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Unleashing LLMs in Bayesian Optimization: Preference-Guided Framework for Scientific Discovery",
+          "url": "https://openreview.net/forum?id=LktUOZayG9",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Ontology-Retrieval Augmented Generation for Scientific Discovery",
+          "url": "https://openreview.net/forum?id=DbZDbg2z9q",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Q-RAG: Long Context Multi‑Step Retrieval via Value‑Based Embedder Training",
+          "url": "https://openreview.net/forum?id=MS9nWFY7LG",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Informing Acquisition Functions via Foundation Models for Molecular Discovery",
+          "url": "https://openreview.net/forum?id=5GsW2c7Y84",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Tabular Feature Discovery With Reasoning Type Exploration",
+          "url": "https://openreview.net/forum?id=oiZhPliETH",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Fine-tuning with RAG for Improving LLM Learning of New Skills",
+          "url": "https://openreview.net/forum?id=Mm7pDVbguc",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "KVCache-Centric Memory for LLM Agents",
+          "url": "https://openreview.net/forum?id=YolJOZOGhI",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution",
+          "url": "https://openreview.net/forum?id=lKEdGCoDNC",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "UnRe: Zero-Shot LLM Unlearning via Dynamic Contextual Retrieval",
+          "url": "https://openreview.net/forum?id=3ZesmvOJ6o",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "O3D: Offline Data-driven Discovery and Distillation for Sequential Decision-Making with Large Language Models",
+          "url": "https://openreview.net/forum?id=a01qbkxbve",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Improving constraint-based discovery with robust propagation and reliable LLM priors",
+          "url": "https://openreview.net/forum?id=7K8mS5QNkf",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Skill Discovery using Language Models",
+          "url": "https://openreview.net/forum?id=DBbgasVgyQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "AdaCache: Adaptive Caching and Context Augmentation for Efficient LLM Serving",
+          "url": "https://openreview.net/forum?id=Bmvx8ybDzo",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Aria: an Agent for Retrieval and Iterative Auto-Formalization via Dependency Graph",
+          "url": "https://openreview.net/forum?id=CPxZClPMiy",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Retrieval meets Long Context Large Language Models",
+          "url": "https://iclr.cc/virtual/2024/poster/17435",
+          "pdf_url": "https://openreview.net/pdf?id=xw5nxFWMlo",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "RAS: Retrieval-And-Structuring for Knowledge-Intensive LLM Generation",
+          "url": "https://openreview.net/forum?id=fqqmeg61yd",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Invar-RAG: Invariant LLM-aligned Retrieval for Better Generation",
+          "url": "https://openreview.net/forum?id=8g7hHwSBjH",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Optimizing User Profiles via Contextual Bandits for Retrieval-Augmented LLM Personalization",
+          "url": "https://openreview.net/forum?id=U616C5HpG2",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Multi-Agent Causal Discovery Using Large Language Models",
+          "url": "https://openreview.net/forum?id=Idygh9MX0N",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "How is Occam's Razor Realized in Symbolic Regression?: An Adaptive LLM-Enhanced Genetic Programming Approach for Efficient, Versatile, and Interpretable Representation Discovery through Simplification and Evolution",
+          "url": "https://openreview.net/forum?id=NtkWD4CQin",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "WAVE: Learning Unified & Versatile Audio-Visual Embeddings with Multimodal LLM",
+          "url": "https://openreview.net/forum?id=MiV3WXDYJb",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Evolutionary Alpha Factor Discovery with Large Language Models for Sparse Portfolio Optimization",
+          "url": "https://openreview.net/forum?id=Zs3ZXwfaIu",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "DatasetResearch: Benchmarking Agent Systems for Demand-Driven Dataset Discovery",
+          "url": "https://openreview.net/forum?id=obapzpANpf",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Weak-to-Strong GraphRAG: Aligning Weak Retrievers with Large Language Models for Graph-based Retrieval Augmented Generation",
+          "url": "https://openreview.net/forum?id=GtjELGHkPB",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "Unsupervised Structure Discovery for Semantic Analysis of Audio",
+          "url": "https://papers.nips.cc/paper_files/paper/2012/hash/c6e19e830859f2cb9f7c8f8cacb8d2a6-Abstract.html",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2012/file/c6e19e830859f2cb9f7c8f8cacb8d2a6-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2012
+        },
+        {
+          "title": "FreshStack: Building Realistic Benchmarks for Evaluating Retrieval on Technical Documents",
+          "url": "https://openreview.net/forum?id=54TTgXlS2U",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "STaRK: Benchmarking LLM Retrieval on Textual and Relational Knowledge Bases",
+          "url": "https://neurips.cc/virtual/2024/poster/97698",
+          "pdf_url": "https://openreview.net/pdf?id=QSS5cGmKb1",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "RetrievalAttention: Accelerating Long-Context LLM Inference via Vector Retrieval",
+          "url": "https://openreview.net/forum?id=8z3cOVER4z",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "AvaTaR: Optimizing LLM Agents for Tool Usage via Contrastive Reasoning",
+          "url": "https://neurips.cc/virtual/2024/poster/95465",
+          "pdf_url": "https://openreview.net/pdf?id=N4quRxE19p",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Challenges with unsupervised LLM knowledge discovery",
+          "url": "https://openreview.net/forum?id=hGhLd2ByoR",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        }
+      ],
+      "offline_eccv": [
+        {
+          "title": "PLOT: Text-based Person Search with Part Slot Attention for Corresponding Part Discovery",
+          "url": "https://eccv2024.ecva.net//virtual/2024/poster/2249",
+          "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03209.pdf",
+          "doi_url": null,
+          "source": "offline_eccv",
+          "year": 2024
+        }
+      ],
+      "offline_cvpr": [
+        {
+          "title": "Universal Instance Perception As Object Discovery and Retrieval",
+          "url": "https://cvpr.thecvf.com/virtual/2023/poster/23132",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yan_Universal_Instance_Perception_As_Object_Discovery_and_Retrieval_CVPR_2023_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2023
+        },
+        {
+          "title": "Fuzzy Multimodal Learning for Trusted Cross-modal Retrieval",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/34643",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Duan_Fuzzy_Multimodal_Learning_for_Trusted_Cross-modal_Retrieval_CVPR_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2025
+        }
+      ],
+      "offline_emnlp": [
+        {
+          "title": "RETAIN: Interactive Tool for Regression Testing Guided LLM Migration",
+          "url": "https://aclanthology.org/2024.emnlp-demo.31/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-demo.31.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Provenance: A Light-weight Fact-checker for Retrieval Augmented LLM Generation Output",
+          "url": "https://aclanthology.org/2024.emnlp-industry.97/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-industry.97.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "PromptReps: Prompting Large Language Models to Generate Dense and Sparse Representations for Zero-Shot Document Retrieval",
+          "url": "https://aclanthology.org/2024.emnlp-main.250/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.250.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Towards a Unified Framework for Reference Retrieval and Related Work Generation",
+          "url": "https://openreview.net/forum?id=f6S1411OlZ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        },
+        {
+          "title": "A Framework of Knowledge Graph-Enhanced Large Language Model Based on Question Decomposition and Atomic Retrieval",
+          "url": "https://aclanthology.org/2024.findings-emnlp.670/",
+          "pdf_url": "https://aclanthology.org/2024.findings-emnlp.670.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "OneGen: Efficient One-Pass Unified Generation and Retrieval for LLMs",
+          "url": "https://aclanthology.org/2024.findings-emnlp.237/",
+          "pdf_url": "https://aclanthology.org/2024.findings-emnlp.237.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Attribute or Abstain: Large Language Models as Long Document Assistants",
+          "url": "https://aclanthology.org/2024.emnlp-main.463/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.463.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "ChatRetriever: Adapting Large Language Models for Generalized and Robust Conversational Dense Retrieval",
+          "url": "https://aclanthology.org/2024.emnlp-main.71/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.71.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Retrieval Augmented Spelling Correction for E-Commerce Applications",
+          "url": "https://aclanthology.org/2024.emnlp-industry.7/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-industry.7.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        },
+        {
+          "title": "Improving Few-Shot Cross-Domain Named Entity Recognition by Instruction Tuning a Word-Embedding based Retrieval Augmented Large Language Model",
+          "url": "https://aclanthology.org/2024.emnlp-industry.51/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-industry.51.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "LLM Alignment as Retriever Optimization: An Information Retrieval Perspective",
+          "url": "https://icml.cc/virtual/2025/poster/45659",
+          "pdf_url": "https://openreview.net/pdf?id=K1LcmG2jQN",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "LLM and Simulation as Bilevel Optimizers: A New Paradigm to Advance Physical Scientific Discovery",
+          "url": "https://icml.cc/virtual/2024/poster/33371",
+          "pdf_url": "https://openreview.net/pdf?id=hz8cFsdz7P",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        },
+        {
+          "title": "POQD: Performance-Oriented Query Decomposer for Multi-vector retrieval",
+          "url": "https://icml.cc/virtual/2025/poster/44047",
+          "pdf_url": "https://openreview.net/pdf?id=oktw116wt2",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        }
+      ],
+      "offline_ijcai": [
+        {
+          "title": "Expressiveness is Effectiveness: Self-supervised Fashion-aware CLIP for Video-to-Shop Retrieval",
+          "url": "https://www.ijcai.org/proceedings/2024/148",
+          "pdf_url": "https://www.ijcai.org/proceedings/2024/0148.pdf",
+          "doi_url": null,
+          "source": "offline_ijcai",
+          "year": 2024
+        }
+      ],
+      "offline_iccv": [
+        {
+          "title": "Automatic Concept Discovery From Parallel Text and Visual Corpora",
+          "url": "",
+          "pdf_url": "http://openaccess.thecvf.com/content_iccv_2015/papers/Sun_Automatic_Concept_Discovery_ICCV_2015_paper.pdf",
+          "doi_url": null,
+          "source": "offline_iccv",
+          "year": 2015
+        },
+        {
+          "title": "Automatic Spatially-Aware Fashion Concept Discovery",
+          "url": "",
+          "pdf_url": "http://openaccess.thecvf.com/content_ICCV_2017/papers/Han_Automatic_Spatially-Aware_Fashion_ICCV_2017_paper.pdf",
+          "doi_url": null,
+          "source": "offline_iccv",
+          "year": 2017
+        },
+        {
+          "title": "Selecting Relevant Web Trained Concepts for Automated Event Retrieval",
+          "url": "",
+          "pdf_url": "http://openaccess.thecvf.com/content_iccv_2015/papers/Singh_Selecting_Relevant_Web_ICCV_2015_paper.pdf",
+          "doi_url": null,
+          "source": "offline_iccv",
+          "year": 2015
+        }
+      ],
+      "offline_aaai": [
+        {
+          "title": "Incident Diagnosing and Reporting System Based on Retrieval Augmented Large Language Model",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/35379",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/35379/37534",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2025
+        },
+        {
+          "title": "RATT: A Thought Structure for Coherent and Correct LLM Reasoning",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34876",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34876/37031",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2025
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "Scaling Open-Ended Reasoning to Predict the Future",
+          "url": "http://arxiv.org/abs/2512.25070v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+          "url": "http://arxiv.org/abs/2512.25065v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+          "url": "http://arxiv.org/abs/2512.25059v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+          "url": "http://arxiv.org/abs/2512.25055v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+          "url": "http://arxiv.org/abs/2512.25052v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25052v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+          "url": "http://arxiv.org/abs/2512.25015v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25015v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bi-C2R: Bidirectional Continual Compatible Representation for Re-indexing Free Lifelong Person Re-identification",
+          "url": "http://arxiv.org/abs/2512.25000v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25000v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Noise resilient real-time phase imaging via undetected light",
+          "url": "http://arxiv.org/abs/2512.24993v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24993v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+          "url": "http://arxiv.org/abs/2512.24991v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24991v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Best Practices for Modelling Electrides",
+          "url": "http://arxiv.org/abs/2512.24989v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24989v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+          "url": "http://arxiv.org/abs/2512.24986v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24986v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "GEQIE Framework for Rapid Quantum Image Encoding",
+          "url": "http://arxiv.org/abs/2512.24973v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24973v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Large language models and the entropy of English",
+          "url": "http://arxiv.org/abs/2512.24969v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24969v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The Impact of LLMs on Online News Consumption and Production",
+          "url": "http://arxiv.org/abs/2512.24968v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24968v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "AMAP Agentic Planning Technical Report",
+          "url": "http://arxiv.org/abs/2512.24957v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24957v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "CPJ: Explainable Agricultural Pest Diagnosis via Caption-Prompt-Judge with LLM-Judged Refinement",
+          "url": "http://arxiv.org/abs/2512.24947v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24947v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "RAIR: A Rule-Aware Benchmark Uniting Challenging Long-Tail and Visual Salience Subset for E-commerce Relevance Assessment",
+          "url": "http://arxiv.org/abs/2512.24943v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24943v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Iterative Deployment Improves Planning Skills in LLMs",
+          "url": "http://arxiv.org/abs/2512.24940v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24940v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Vibe Coding, Interface Flattening",
+          "url": "http://arxiv.org/abs/2512.24939v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24939v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Adaptive Dependency-aware Prompt Optimization Framework for Multi-Step LLM Pipeline",
+          "url": "http://arxiv.org/abs/2512.24933v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24933v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Discovery of a galaxy associated with the HI cloud FAST J0139+4328",
+          "url": "http://arxiv.org/abs/2512.24924v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24924v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FinMMDocR: Benchmarking Financial Multimodal Reasoning with Scenario Awareness, Document Understanding, and Multi-Step Computation",
+          "url": "http://arxiv.org/abs/2512.24903v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24903v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+          "url": "http://arxiv.org/abs/2512.24873v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24873v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Encyclo-K: Evaluating LLMs with Dynamically Composed Knowledge Statements",
+          "url": "http://arxiv.org/abs/2512.24867v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24867v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Latent Twins: A Framework for Scene Recognition and Fast Radiative Transfer Inversion in FORUM All-Sky Observations",
+          "url": "http://arxiv.org/abs/2512.24865v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24865v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Advances in Agentic AI: Back to the Future",
+          "url": "http://arxiv.org/abs/2512.24856v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24856v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "PrivacyBench: A Conversational Benchmark for Evaluating Privacy in Personalized AI",
+          "url": "http://arxiv.org/abs/2512.24848v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24848v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Triangulation as an Acceptance Rule for Multilingual Mechanistic Interpretability",
+          "url": "http://arxiv.org/abs/2512.24842v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24842v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "GenZ: Foundational models as latent variable generators within traditional statistical models",
+          "url": "http://arxiv.org/abs/2512.24834v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24834v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Discovering Coordinated Joint Options via Inter-Agent Relative Dynamics",
+          "url": "http://arxiv.org/abs/2512.24827v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24827v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Unsupervised Topological Phase Discovery in Periodically Driven Systems via Floquet-Bloch State",
+          "url": "http://arxiv.org/abs/2512.24822v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24822v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Unregularized Linear Convergence in Zero-Sum Game from Preference Feedback",
+          "url": "http://arxiv.org/abs/2512.24818v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24818v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "LeanCat: A Benchmark Suite for Formal Category Theory in Lean (Part I: 1-Categories)",
+          "url": "http://arxiv.org/abs/2512.24796v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24796v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "HiGR: Efficient Generative Slate Recommendation via Hierarchical Planning and Multi-Objective Preference Alignment",
+          "url": "http://arxiv.org/abs/2512.24787v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24787v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "TTC: Transformer-based TDE Classifier for the Wide Field Survey Telescope (WFST)",
+          "url": "http://arxiv.org/abs/2512.24782v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24782v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Compute-Accuracy Pareto Frontiers for Open-Source Reasoning Large Language Models",
+          "url": "http://arxiv.org/abs/2512.24776v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24776v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "OpenOneRec Technical Report",
+          "url": "http://arxiv.org/abs/2512.24762v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24762v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "AstroReview: An LLM-driven Multi-Agent Framework for Telescope Proposal Peer Review and Refinement",
+          "url": "http://arxiv.org/abs/2512.24754v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24754v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Analyzing Communication Predictability in LLM Training",
+          "url": "http://arxiv.org/abs/2512.24750v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24750v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "BIOME-Bench: A Benchmark for Biomolecular Interaction Inference and Multi-Omics Pathway Mechanism Elucidation from Scientific Literature",
+          "url": "http://arxiv.org/abs/2512.24733v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24733v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Equivalence of Personalized PageRank and Successor Representations",
+          "url": "http://arxiv.org/abs/2512.24722v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24722v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "MDiffFR: Modality-Guided Diffusion Generation for Cold-start Items in Federated Recommendation",
+          "url": "http://arxiv.org/abs/2512.24715v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24715v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FPGA Co-Design for Efficient N:M Sparse and Quantized Model Inference",
+          "url": "http://arxiv.org/abs/2512.24713v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24713v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "MEIC-DT: Memory-Efficient Incremental Clustering for Long-Text Coreference Resolution with Dual-Threshold Constraints",
+          "url": "http://arxiv.org/abs/2512.24711v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24711v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Causal Discovery with Mixed Latent Confounding via Precision Decomposition",
+          "url": "http://arxiv.org/abs/2512.24696v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24696v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "MUSIC: MUlti-Step Instruction Contrast for Multi-Turn Reward Models",
+          "url": "http://arxiv.org/abs/2512.24693v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24693v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "BatteryAgent: Synergizing Physics-Informed Interpretation with LLM Reasoning for Intelligent Battery Fault Diagnosis",
+          "url": "http://arxiv.org/abs/2512.24686v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24686v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "R-Debater: Retrieval-Augmented Debate Generation through Argumentative Memory",
+          "url": "http://arxiv.org/abs/2512.24684v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24684v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "CellSecInspector: Safeguarding Cellular Networks via Automated Security Analysis on Specifications",
+          "url": "http://arxiv.org/abs/2512.24682v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24682v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Do Large Language Models Know What They Are Capable Of?",
+          "url": "http://arxiv.org/abs/2512.24661v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24661v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "An Automated Framework for Strategy Discovery, Retrieval, and Evolution in LLM Jailbreak Attacks",
+          "url": "https://www.semanticscholar.org/paper/62bfd1be7228b0c39330296871131089f0ad3a79",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2511.02356",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Bias and Unfairness in Information Retrieval Systems: New Challenges in the LLM Era",
+          "url": "https://www.semanticscholar.org/paper/96b2902eba473d1be9e7b38b3c58c867bdca4f08",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3637528.3671458",
+          "doi_url": "https://doi.org/10.1145/3637528.3671458",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Enriching Music Descriptions with A Finetuned-LLM and Metadata for Text-to-Music Retrieval",
+          "url": "https://www.semanticscholar.org/paper/58ade4e79567b120fa6397bf31f38c4f4de51d57",
+          "pdf_url": "http://arxiv.org/pdf/2410.03264",
+          "doi_url": "https://doi.org/10.1109/ICASSP48485.2024.10446380",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Causal Graph Discovery with Retrieval-Augmented Generation based Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/0504c5d96ebf7be01e2b622ff3a4bf155f2b0a41",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2402.15301",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Athena: A Conversational Book Discovery Interface Combining LLM-Powered Retrieval-Augmented Generation and Interactive Graph Visualization",
+          "url": "https://www.semanticscholar.org/paper/a77d546345525d18acc11fdc67998a531f9ea200",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3746058.3758400",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "DeepGEOSearch: LLM-Powered Schemaless Retrieval for Biomedical Data Discovery",
+          "url": "https://www.semanticscholar.org/paper/9456b41701be1641437134ba6245e38731966f2a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.64898/2025.12.27.696662",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Rationale-Augmented Retrieval with Constrained LLM Re-Ranking for Task Discovery",
+          "url": "https://www.semanticscholar.org/paper/d3c94e47772355fd6052f2bdb5dc7908bb3ba570",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2510.05131",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "A Systematic Literature Review on LLM-Based Information Retrieval: The Issue of Contents Classification",
+          "url": "https://www.semanticscholar.org/paper/59822f384f790b7d1ddd3e15bf0869b684525093",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.5220/0013062300003838",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Integrating Graph Retrieval-Augmented Generation With Large Language Models for Supplier Discovery",
+          "url": "https://www.semanticscholar.org/paper/53dc93dfbc27ac6351a1c3af5498bc701cf7f6dd",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1115/1.4067389",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "VAIV bio-discovery service using transformer model and retrieval augmented generation",
+          "url": "https://www.semanticscholar.org/paper/8d967f0e7125dcdcc68da030ca07ed8efe7f1649",
+          "pdf_url": "https://doi.org/10.1186/s12859-024-05903-6",
+          "doi_url": "https://doi.org/10.1186/s12859-024-05903-6",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Graph Retrieval-Augmented LLM for Conversational Recommendation Systems",
+          "url": "https://www.semanticscholar.org/paper/6fbf26121566ac9dbbffe0b278c96fa4b0ed5f88",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2503.06430",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "RAG-MCP: Mitigating Prompt Bloat in LLM Tool Selection via Retrieval-Augmented Generation",
+          "url": "https://www.semanticscholar.org/paper/7319f49a6509ff83bfd484396ad5ad3b41812f02",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.03275",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "AskNearby: An LLM-Based Application for Neighborhood Information Retrieval and Personalized Cognitive-Map Recommendations",
+          "url": "https://www.semanticscholar.org/paper/7d38284ababe889a56f1f60415623941a3643b0b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3764912.3770813",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "LLM-Based Compact Reranking with Document Features for Scientific Retrieval",
+          "url": "https://www.semanticscholar.org/paper/b68447c0ed749a1fe58613fc710395cfa41a8a16",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.13757",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Scientific Paper Retrieval with LLM-Guided Semantic-Based Ranking",
+          "url": "https://www.semanticscholar.org/paper/ac16612bfd76fc989f4695a7ab29c9301fdb28f4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.21815",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "RAG-Enhanced Collaborative LLM Agents for Drug Discovery",
+          "url": "https://www.semanticscholar.org/paper/2fd3ebcc9ab0ffd4b544d8b1515567f88f5a771d",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2502.17506",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Pre-Meta: priors-augmented retrieval for LLM-based metadata generation",
+          "url": "https://www.semanticscholar.org/paper/a9f91e84fd8b30f600780bc00dc4350d079702ee",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1093/bioinformatics/btaf519",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "MalRAG: A Retrieval-Augmented LLM Framework for Open-set Malicious Traffic Identification",
+          "url": "https://www.semanticscholar.org/paper/5c837cc8ef0dc453a2a6be0a9a09b4e90fe53448",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Citation-Grounded Code Comprehension: Preventing LLM Hallucination Through Hybrid Retrieval and Graph-Augmented Context",
+          "url": "https://www.semanticscholar.org/paper/11fca90ea5ae6ea44824cc334097b10328f9ba31",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "LLM-based Multi-Agent Blackboard System for Information Discovery in Data Science",
+          "url": "https://www.semanticscholar.org/paper/721aa51e2fd54d3b218a181f5c1a0382a92a7b6e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2510.01285",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "TriAgent: Automated Biomarker Discovery with Deep Research Grounding for Triage in Acute Care by LLM-Based Multi-Agent Collaboration",
+          "url": "https://www.semanticscholar.org/paper/ad263de3d074a43ac99936071271eaafe5289fd0",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2510.16080",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "LLM-Agent Powered Automated Literature Review and Hypothesis Generation for Cancer Biomarker Discovery",
+          "url": "https://www.semanticscholar.org/paper/65b5d30099c961e901517f3f43ac8678fe6cf462",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICOSST69113.2025.11315415",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "PairSem: LLM-Guided Pairwise Semantic Matching for Scientific Document Retrieval",
+          "url": "https://www.semanticscholar.org/paper/fcec95d81d0c6552a6213f500aeb90d09988a62c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2510.09897",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "A Comprehensive Evaluation of LLM Phenotyping Using Retrieval-Augmented Generation (RAG): Insights for RAG Optimization",
+          "url": "https://www.semanticscholar.org/paper/dcf4f85f7c3d52c715d478c75e5ea913e9321ef4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1101/2025.04.29.25326696",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Enhancing Mobile App Recommendation by LLM Powered Explicit and Implicit Information Retrieval and Representation",
+          "url": "https://www.semanticscholar.org/paper/1184dff2cc903134b20f921bc269ee47b214a676",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ACCESS.2025.3628471",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "SciTopic: Enhancing Topic Discovery in Scientific Literature through Advanced LLM",
+          "url": "https://www.semanticscholar.org/paper/d82bfd582df9a11e22a7c5191e3f4677d20f364f",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2508.20514",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Evaluating Retrieval-Augmented Generation Agents for Autonomous Scientific Discovery in Astrophysics",
+          "url": "https://www.semanticscholar.org/paper/4e6560faa58178261b11f4897eaafb2da7562404",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2507.07155",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Retrieval Augmented Generation based context discovery for ASR",
+          "url": "https://www.semanticscholar.org/paper/08a7a7914f454f00336d1f6a90c31fd7d2d87c6e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2509.19567",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "DataSage: Multi-agent Collaboration for Insight Discovery with External Knowledge Retrieval, Multi-role Debating, and Multi-path Reasoning",
+          "url": "https://www.semanticscholar.org/paper/357a020185e566ce182b1f5a66c05f4c8dcbb830",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "CoRAL: Collaborative Retrieval-Augmented Large Language Models Improve Long-tail Recommendation",
+          "url": "https://www.semanticscholar.org/paper/c450bce3f08f2db4f2e7fabbe1260ff119ca43d3",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3637528.3671901",
+          "doi_url": "https://doi.org/10.1145/3637528.3671901",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "OI-Assistant: A Retrieval Augmented System for Similar Problem Discovery and Interactive Learning in Competitive Programming",
+          "url": "https://www.semanticscholar.org/paper/ef32aea5c2b5530b26ca9fbf283c1ca6fa8fa1fe",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.15388/ioi.2025.09",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Team LA at SCIDOCA shared task 2025: Citation Discovery via relation-based zero-shot retrieval",
+          "url": "https://www.semanticscholar.org/paper/f13a1fad74fc5b0ed6d368ae055aac275f03aee0",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.18316",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "BioRAG: A RAG-LLM Framework for Biological Question Reasoning",
+          "url": "https://www.semanticscholar.org/paper/31be6dba573a704940617e12d3d2dfbe9178c04f",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2408.01107",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Nova: An Iterative Planning and Search Approach to Enhance Novelty and Diversity of LLM Generated Ideas",
+          "url": "https://www.semanticscholar.org/paper/2efae9851606b5f8b16edbbf357b30de5846876e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2410.14255",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Domain-Driven LLM Development: Insights into RAG and Fine-Tuning Practices",
+          "url": "https://www.semanticscholar.org/paper/f83988337cc2e43df2fb8141f5a8cc32524439ac",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3637528.3671445",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Optimizing biomedical information retrieval with a keyword frequency-driven prompt enhancement strategy",
+          "url": "https://www.semanticscholar.org/paper/785431fea0f297c63383a2ce5954d685f25064f3",
+          "pdf_url": "https://doi.org/10.1186/s12859-024-05902-7",
+          "doi_url": "https://doi.org/10.1186/s12859-024-05902-7",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Neural Retrievers are Biased Towards LLM-Generated Content",
+          "url": "https://www.semanticscholar.org/paper/75f6f416c84cb50859d4e157569f6700355ace54",
+          "pdf_url": "https://arxiv.org/pdf/2310.20501",
+          "doi_url": "https://doi.org/10.1145/3637528.3671882",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Way to Specialist: Closing Loop Between Specialized LLM and Evolving Domain Knowledge Graph",
+          "url": "https://www.semanticscholar.org/paper/e93770754d14a9c4b691d485d3865184e613c90d",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3690624.3709187",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Rapid and Automated Alloy Design with Graph Neural Network-Powered LLM-Driven Multi-Agent Systems",
+          "url": "https://www.semanticscholar.org/paper/0732eecfb26c93a839ecbe9314a247d6a89f1fd0",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2410.13768",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "The Application of Constructing Knowledge Graph of Oral Historical Archives Resources Based on LLM-RAG",
+          "url": "https://www.semanticscholar.org/paper/1f9950244df4761063ca5a189a4e6d6f64dd5f11",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3686397.3686420",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Face4Rag: Factual Consistency Evaluation for Retrieval Augmented Generation in Chinese",
+          "url": "https://www.semanticscholar.org/paper/def871dc51bf9afe6d1ee1fb4029f8dfc1eeab14",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3637528.3671656",
+          "doi_url": "https://doi.org/10.1145/3637528.3671656",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "pathfinder: A Semantic Framework for Literature Review and Knowledge Discovery in Astronomy",
+          "url": "https://www.semanticscholar.org/paper/2a504a6aa8c50a545409ec88ef32dfdd8e5870b3",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.3847/1538-4365/ad7c43",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Class-RAG: Real-Time Content Moderation with Retrieval Augmented Generation",
+          "url": "https://www.semanticscholar.org/paper/2a6b2e9ae1363418823fdea4c13f597271b0ba99",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Music Discovery Dialogue Generation Using Human Intent Analysis and Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/1895fb3c78abed5e89442a884de1838a8bc62e5c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2411.07439",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Diff4Steer: Steerable Diffusion Prior for Generative Music Retrieval with Semantic Guidance",
+          "url": "https://www.semanticscholar.org/paper/4949b6dc59dc195008f6bb1ebd32571ff7fe076d",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICASSP49660.2025.10887608",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "LitFM: A Retrieval Augmented Structure-aware Foundation Model For Citation Graphs",
+          "url": "https://www.semanticscholar.org/paper/426a2db9d0c96b1d43a948be7e827c9eb3a3b0b5",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3711896.3737028",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Fact-Centric Knowledge Web for Information Retrieval",
+          "url": "https://www.semanticscholar.org/paper/868450cd2f6e20093d875e110ea79f4d1954ae8a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/WI-IAT62293.2024.00067",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "LADDER: Language Driven Slice Discovery and Error Rectification",
+          "url": "https://www.semanticscholar.org/paper/d953674e171ddb8be4e0296736259ee425a02b31",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2408.07832",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Knowledge Mining using Generative AI for Causal Discovery in Electronics Production",
+          "url": "https://www.semanticscholar.org/paper/4bb33460d1b5c4c556b4c6c10fcab9c796c3abd5",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ISSE61612.2024.10604102",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Scaling Scientific Knowledge Discovery with Neuro-Symbolic AI and Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/0c31cb4b084f29c64e43019aa531f2fa1f3a0a26",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2024
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Exploring Multi-Modal Data with Tool-Augmented LLM Agents for Precise Causal Discovery",
+        "pdf": "https://aclanthology.org/2025.findings-acl.36.pdf"
+      },
+      {
+        "title": "Unsupervised Structure Discovery for Semantic Analysis of Audio",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2012/file/c6e19e830859f2cb9f7c8f8cacb8d2a6-Paper.pdf"
+      },
+      {
+        "title": "PLOT: Text-based Person Search with Part Slot Attention for Corresponding Part Discovery",
+        "pdf": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03209.pdf"
+      },
+      {
+        "title": "Universal Instance Perception As Object Discovery and Retrieval",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yan_Universal_Instance_Perception_As_Object_Discovery_and_Retrieval_CVPR_2023_paper.pdf"
+      },
+      {
+        "title": "CA-GAR: Context-Aware Alignment of LLM Generation for Document Retrieval",
+        "pdf": "https://aclanthology.org/2025.findings-acl.303.pdf"
+      },
+      {
+        "title": "MIR: Methodology Inspiration Retrieval for Scientific Research Problems",
+        "pdf": "https://aclanthology.org/2025.acl-long.1390.pdf"
+      },
+      {
+        "title": "RETAIN: Interactive Tool for Regression Testing Guided LLM Migration",
+        "pdf": "https://aclanthology.org/2024.emnlp-demo.31.pdf"
+      },
+      {
+        "title": "Provenance: A Light-weight Fact-checker for Retrieval Augmented LLM Generation Output",
+        "pdf": "https://aclanthology.org/2024.emnlp-industry.97.pdf"
+      },
+      {
+        "title": "LLM Alignment as Retriever Optimization: An Information Retrieval Perspective",
+        "pdf": "https://openreview.net/pdf?id=K1LcmG2jQN"
+      },
+      {
+        "title": "IRIS: An Iterative and Integrated Framework for Verifiable Causal Discovery in the Absence of Tabular Data",
+        "pdf": "https://aclanthology.org/2025.acl-long.463.pdf"
+      },
+      {
+        "title": "PromptReps: Prompting Large Language Models to Generate Dense and Sparse Representations for Zero-Shot Document Retrieval",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.250.pdf"
+      },
+      {
+        "title": "Expressiveness is Effectiveness: Self-supervised Fashion-aware CLIP for Video-to-Shop Retrieval",
+        "pdf": "https://www.ijcai.org/proceedings/2024/0148.pdf"
+      },
+      {
+        "title": "CypherBench: Towards Precise Retrieval over Full-scale Modern Knowledge Graphs in the LLM Era",
+        "pdf": "https://aclanthology.org/2025.acl-long.438.pdf"
+      },
+      {
+        "title": "STaRK: Benchmarking LLM Retrieval on Textual and Relational Knowledge Bases",
+        "pdf": "https://openreview.net/pdf?id=QSS5cGmKb1"
+      },
+      {
+        "title": "LADDER: Language-Driven Slice Discovery and Error Rectification in Vision Classifiers",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1177.pdf"
+      },
+      {
+        "title": "Fuzzy Multimodal Learning for Trusted Cross-modal Retrieval",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/papers/Duan_Fuzzy_Multimodal_Learning_for_Trusted_Cross-modal_Retrieval_CVPR_2025_paper.pdf"
+      },
+      {
+        "title": "LLM and Simulation as Bilevel Optimizers: A New Paradigm to Advance Physical Scientific Discovery",
+        "pdf": "https://openreview.net/pdf?id=hz8cFsdz7P"
+      },
+      {
+        "title": "Search-Adaptor: Embedding Customization for Information Retrieval",
+        "pdf": "https://aclanthology.org/2024.acl-long.661.pdf"
+      },
+      {
+        "title": "Automatic Concept Discovery From Parallel Text and Visual Corpora",
+        "pdf": "http://openaccess.thecvf.com/content_iccv_2015/papers/Sun_Automatic_Concept_Discovery_ICCV_2015_paper.pdf"
+      },
+      {
+        "title": "Llama2Vec: Unsupervised Adaptation of Large Language Models for Dense Retrieval",
+        "pdf": "https://aclanthology.org/2024.acl-long.191.pdf"
+      },
+      {
+        "title": "AvaTaR: Optimizing LLM Agents for Tool Usage via Contrastive Reasoning",
+        "pdf": "https://openreview.net/pdf?id=N4quRxE19p"
+      },
+      {
+        "title": "A Framework of Knowledge Graph-Enhanced Large Language Model Based on Question Decomposition and Atomic Retrieval",
+        "pdf": "https://aclanthology.org/2024.findings-emnlp.670.pdf"
+      },
+      {
+        "title": "Retrieval-based Controllable Molecule Generation",
+        "pdf": "https://openreview.net/pdf?id=vDFA1tpuLvk"
+      },
+      {
+        "title": "DuoAttention: Efficient Long-Context LLM Inference with Retrieval and Streaming Heads",
+        "pdf": "https://openreview.net/pdf?id=cFu7ze7xUm"
+      },
+      {
+        "title": "HELIOS: Harmonizing Early Fusion, Late Fusion, and LLM Reasoning for Multi-Granular Table-Text Retrieval",
+        "pdf": "https://aclanthology.org/2025.acl-long.1559.pdf"
+      },
+      {
+        "title": "Incident Diagnosing and Reporting System Based on Retrieval Augmented Large Language Model",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/35379/37534"
+      },
+      {
+        "title": "Automatic Spatially-Aware Fashion Concept Discovery",
+        "pdf": "http://openaccess.thecvf.com/content_ICCV_2017/papers/Han_Automatic_Spatially-Aware_Fashion_ICCV_2017_paper.pdf"
+      },
+      {
+        "title": "OneGen: Efficient One-Pass Unified Generation and Retrieval for LLMs",
+        "pdf": "https://aclanthology.org/2024.findings-emnlp.237.pdf"
+      },
+      {
+        "title": "Cocktail: A Comprehensive Information Retrieval Benchmark with LLM-Generated Documents Integration",
+        "pdf": "https://aclanthology.org/2024.findings-acl.421.pdf"
+      },
+      {
+        "title": "Attribute or Abstain: Large Language Models as Long Document Assistants",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.463.pdf"
+      },
+      {
+        "title": "Automatic Expert Discovery in LLM Upcycling via Sparse Interpolated Mixture-of-Experts",
+        "pdf": "https://aclanthology.org/2025.acl-long.816.pdf"
+      },
+      {
+        "title": "Selecting Relevant Web Trained Concepts for Automated Event Retrieval",
+        "pdf": "http://openaccess.thecvf.com/content_iccv_2015/papers/Singh_Selecting_Relevant_Web_ICCV_2015_paper.pdf"
+      },
+      {
+        "title": "DReSD: Dense Retrieval for Speculative Decoding",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1017.pdf"
+      },
+      {
+        "title": "The Efficiency vs. Accuracy Trade-off: Optimizing RAG-Enhanced LLM Recommender Systems Using Multi-Head Early Exit",
+        "pdf": "https://aclanthology.org/2025.acl-long.1283.pdf"
+      },
+      {
+        "title": "ChatRetriever: Adapting Large Language Models for Generalized and Robust Conversational Dense Retrieval",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.71.pdf"
+      },
+      {
+        "title": "Retrieval Augmented Spelling Correction for E-Commerce Applications",
+        "pdf": "https://aclanthology.org/2024.emnlp-industry.7.pdf"
+      },
+      {
+        "title": "Retrieval meets Long Context Large Language Models",
+        "pdf": "https://openreview.net/pdf?id=xw5nxFWMlo"
+      },
+      {
+        "title": "Improving Few-Shot Cross-Domain Named Entity Recognition by Instruction Tuning a Word-Embedding based Retrieval Augmented Large Language Model",
+        "pdf": "https://aclanthology.org/2024.emnlp-industry.51.pdf"
+      },
+      {
+        "title": "RATT: A Thought Structure for Coherent and Correct LLM Reasoning",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/34876/37031"
+      },
+      {
+        "title": "HotelMatch-LLM: Joint Multi-Task Training of Small and Large Language Models for Efficient Multimodal Hotel Retrieval",
+        "pdf": "https://aclanthology.org/2025.acl-long.30.pdf"
+      },
+      {
+        "title": "POQD: Performance-Oriented Query Decomposer for Multi-vector retrieval",
+        "pdf": "https://openreview.net/pdf?id=oktw116wt2"
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "pdf": "https://arxiv.org/pdf/2512.25070v1"
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "pdf": "https://arxiv.org/pdf/2512.25065v1"
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "pdf": "https://arxiv.org/pdf/2512.25059v1"
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "pdf": "https://arxiv.org/pdf/2512.25055v1"
+      },
+      {
+        "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+        "pdf": "https://arxiv.org/pdf/2512.25052v1"
+      },
+      {
+        "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+        "pdf": "https://arxiv.org/pdf/2512.25015v1"
+      },
+      {
+        "title": "Bi-C2R: Bidirectional Continual Compatible Representation for Re-indexing Free Lifelong Person Re-identification",
+        "pdf": "https://arxiv.org/pdf/2512.25000v1"
+      },
+      {
+        "title": "Noise resilient real-time phase imaging via undetected light",
+        "pdf": "https://arxiv.org/pdf/2512.24993v1"
+      },
+      {
+        "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+        "pdf": "https://arxiv.org/pdf/2512.24991v1"
+      },
+      {
+        "title": "Best Practices for Modelling Electrides",
+        "pdf": "https://arxiv.org/pdf/2512.24989v1"
+      },
+      {
+        "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+        "pdf": "https://arxiv.org/pdf/2512.24986v1"
+      },
+      {
+        "title": "GEQIE Framework for Rapid Quantum Image Encoding",
+        "pdf": "https://arxiv.org/pdf/2512.24973v1"
+      },
+      {
+        "title": "Large language models and the entropy of English",
+        "pdf": "https://arxiv.org/pdf/2512.24969v1"
+      },
+      {
+        "title": "The Impact of LLMs on Online News Consumption and Production",
+        "pdf": "https://arxiv.org/pdf/2512.24968v1"
+      },
+      {
+        "title": "AMAP Agentic Planning Technical Report",
+        "pdf": "https://arxiv.org/pdf/2512.24957v1"
+      },
+      {
+        "title": "CPJ: Explainable Agricultural Pest Diagnosis via Caption-Prompt-Judge with LLM-Judged Refinement",
+        "pdf": "https://arxiv.org/pdf/2512.24947v1"
+      },
+      {
+        "title": "RAIR: A Rule-Aware Benchmark Uniting Challenging Long-Tail and Visual Salience Subset for E-commerce Relevance Assessment",
+        "pdf": "https://arxiv.org/pdf/2512.24943v1"
+      },
+      {
+        "title": "Iterative Deployment Improves Planning Skills in LLMs",
+        "pdf": "https://arxiv.org/pdf/2512.24940v1"
+      },
+      {
+        "title": "Vibe Coding, Interface Flattening",
+        "pdf": "https://arxiv.org/pdf/2512.24939v1"
+      },
+      {
+        "title": "Adaptive Dependency-aware Prompt Optimization Framework for Multi-Step LLM Pipeline",
+        "pdf": "https://arxiv.org/pdf/2512.24933v1"
+      },
+      {
+        "title": "Discovery of a galaxy associated with the HI cloud FAST J0139+4328",
+        "pdf": "https://arxiv.org/pdf/2512.24924v1"
+      },
+      {
+        "title": "FinMMDocR: Benchmarking Financial Multimodal Reasoning with Scenario Awareness, Document Understanding, and Multi-Step Computation",
+        "pdf": "https://arxiv.org/pdf/2512.24903v1"
+      },
+      {
+        "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+        "pdf": "https://arxiv.org/pdf/2512.24873v1"
+      },
+      {
+        "title": "Encyclo-K: Evaluating LLMs with Dynamically Composed Knowledge Statements",
+        "pdf": "https://arxiv.org/pdf/2512.24867v1"
+      },
+      {
+        "title": "Latent Twins: A Framework for Scene Recognition and Fast Radiative Transfer Inversion in FORUM All-Sky Observations",
+        "pdf": "https://arxiv.org/pdf/2512.24865v1"
+      },
+      {
+        "title": "Advances in Agentic AI: Back to the Future",
+        "pdf": "https://arxiv.org/pdf/2512.24856v1"
+      },
+      {
+        "title": "PrivacyBench: A Conversational Benchmark for Evaluating Privacy in Personalized AI",
+        "pdf": "https://arxiv.org/pdf/2512.24848v1"
+      },
+      {
+        "title": "Triangulation as an Acceptance Rule for Multilingual Mechanistic Interpretability",
+        "pdf": "https://arxiv.org/pdf/2512.24842v1"
+      },
+      {
+        "title": "GenZ: Foundational models as latent variable generators within traditional statistical models",
+        "pdf": "https://arxiv.org/pdf/2512.24834v1"
+      },
+      {
+        "title": "Discovering Coordinated Joint Options via Inter-Agent Relative Dynamics",
+        "pdf": "https://arxiv.org/pdf/2512.24827v1"
+      },
+      {
+        "title": "Unsupervised Topological Phase Discovery in Periodically Driven Systems via Floquet-Bloch State",
+        "pdf": "https://arxiv.org/pdf/2512.24822v1"
+      },
+      {
+        "title": "Unregularized Linear Convergence in Zero-Sum Game from Preference Feedback",
+        "pdf": "https://arxiv.org/pdf/2512.24818v1"
+      },
+      {
+        "title": "LeanCat: A Benchmark Suite for Formal Category Theory in Lean (Part I: 1-Categories)",
+        "pdf": "https://arxiv.org/pdf/2512.24796v1"
+      },
+      {
+        "title": "HiGR: Efficient Generative Slate Recommendation via Hierarchical Planning and Multi-Objective Preference Alignment",
+        "pdf": "https://arxiv.org/pdf/2512.24787v1"
+      },
+      {
+        "title": "TTC: Transformer-based TDE Classifier for the Wide Field Survey Telescope (WFST)",
+        "pdf": "https://arxiv.org/pdf/2512.24782v1"
+      },
+      {
+        "title": "Compute-Accuracy Pareto Frontiers for Open-Source Reasoning Large Language Models",
+        "pdf": "https://arxiv.org/pdf/2512.24776v1"
+      },
+      {
+        "title": "OpenOneRec Technical Report",
+        "pdf": "https://arxiv.org/pdf/2512.24762v1"
+      },
+      {
+        "title": "AstroReview: An LLM-driven Multi-Agent Framework for Telescope Proposal Peer Review and Refinement",
+        "pdf": "https://arxiv.org/pdf/2512.24754v1"
+      },
+      {
+        "title": "Analyzing Communication Predictability in LLM Training",
+        "pdf": "https://arxiv.org/pdf/2512.24750v1"
+      },
+      {
+        "title": "BIOME-Bench: A Benchmark for Biomolecular Interaction Inference and Multi-Omics Pathway Mechanism Elucidation from Scientific Literature",
+        "pdf": "https://arxiv.org/pdf/2512.24733v1"
+      },
+      {
+        "title": "Equivalence of Personalized PageRank and Successor Representations",
+        "pdf": "https://arxiv.org/pdf/2512.24722v1"
+      },
+      {
+        "title": "MDiffFR: Modality-Guided Diffusion Generation for Cold-start Items in Federated Recommendation",
+        "pdf": "https://arxiv.org/pdf/2512.24715v1"
+      },
+      {
+        "title": "FPGA Co-Design for Efficient N:M Sparse and Quantized Model Inference",
+        "pdf": "https://arxiv.org/pdf/2512.24713v1"
+      },
+      {
+        "title": "MEIC-DT: Memory-Efficient Incremental Clustering for Long-Text Coreference Resolution with Dual-Threshold Constraints",
+        "pdf": "https://arxiv.org/pdf/2512.24711v1"
+      },
+      {
+        "title": "Causal Discovery with Mixed Latent Confounding via Precision Decomposition",
+        "pdf": "https://arxiv.org/pdf/2512.24696v1"
+      },
+      {
+        "title": "MUSIC: MUlti-Step Instruction Contrast for Multi-Turn Reward Models",
+        "pdf": "https://arxiv.org/pdf/2512.24693v1"
+      },
+      {
+        "title": "BatteryAgent: Synergizing Physics-Informed Interpretation with LLM Reasoning for Intelligent Battery Fault Diagnosis",
+        "pdf": "https://arxiv.org/pdf/2512.24686v1"
+      },
+      {
+        "title": "R-Debater: Retrieval-Augmented Debate Generation through Argumentative Memory",
+        "pdf": "https://arxiv.org/pdf/2512.24684v1"
+      },
+      {
+        "title": "CellSecInspector: Safeguarding Cellular Networks via Automated Security Analysis on Specifications",
+        "pdf": "https://arxiv.org/pdf/2512.24682v1"
+      },
+      {
+        "title": "Do Large Language Models Know What They Are Capable Of?",
+        "pdf": "https://arxiv.org/pdf/2512.24661v1"
+      },
+      {
+        "title": "Bias and Unfairness in Information Retrieval Systems: New Challenges in the LLM Era",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3637528.3671458"
+      },
+      {
+        "title": "Enriching Music Descriptions with A Finetuned-LLM and Metadata for Text-to-Music Retrieval",
+        "pdf": "http://arxiv.org/pdf/2410.03264"
+      },
+      {
+        "title": "VAIV bio-discovery service using transformer model and retrieval augmented generation",
+        "pdf": "https://doi.org/10.1186/s12859-024-05903-6"
+      },
+      {
+        "title": "CoRAL: Collaborative Retrieval-Augmented Large Language Models Improve Long-tail Recommendation",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3637528.3671901"
+      },
+      {
+        "title": "Optimizing biomedical information retrieval with a keyword frequency-driven prompt enhancement strategy",
+        "pdf": "https://doi.org/10.1186/s12859-024-05902-7"
+      },
+      {
+        "title": "Neural Retrievers are Biased Towards LLM-Generated Content",
+        "pdf": "https://arxiv.org/pdf/2310.20501"
+      },
+      {
+        "title": "Face4Rag: Factual Consistency Evaluation for Retrieval Augmented Generation in Chinese",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3637528.3671656"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "An Automated Framework for Strategy Discovery, Retrieval, and Evolution in LLM Jailbreak Attacks",
+        "doi": "https://doi.org/10.48550/arXiv.2511.02356"
+      },
+      {
+        "title": "Bias and Unfairness in Information Retrieval Systems: New Challenges in the LLM Era",
+        "doi": "https://doi.org/10.1145/3637528.3671458"
+      },
+      {
+        "title": "Enriching Music Descriptions with A Finetuned-LLM and Metadata for Text-to-Music Retrieval",
+        "doi": "https://doi.org/10.1109/ICASSP48485.2024.10446380"
+      },
+      {
+        "title": "Causal Graph Discovery with Retrieval-Augmented Generation based Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2402.15301"
+      },
+      {
+        "title": "Athena: A Conversational Book Discovery Interface Combining LLM-Powered Retrieval-Augmented Generation and Interactive Graph Visualization",
+        "doi": "https://doi.org/10.1145/3746058.3758400"
+      },
+      {
+        "title": "DeepGEOSearch: LLM-Powered Schemaless Retrieval for Biomedical Data Discovery",
+        "doi": "https://doi.org/10.64898/2025.12.27.696662"
+      },
+      {
+        "title": "Rationale-Augmented Retrieval with Constrained LLM Re-Ranking for Task Discovery",
+        "doi": "https://doi.org/10.48550/arXiv.2510.05131"
+      },
+      {
+        "title": "A Systematic Literature Review on LLM-Based Information Retrieval: The Issue of Contents Classification",
+        "doi": "https://doi.org/10.5220/0013062300003838"
+      },
+      {
+        "title": "Integrating Graph Retrieval-Augmented Generation With Large Language Models for Supplier Discovery",
+        "doi": "https://doi.org/10.1115/1.4067389"
+      },
+      {
+        "title": "VAIV bio-discovery service using transformer model and retrieval augmented generation",
+        "doi": "https://doi.org/10.1186/s12859-024-05903-6"
+      },
+      {
+        "title": "Graph Retrieval-Augmented LLM for Conversational Recommendation Systems",
+        "doi": "https://doi.org/10.48550/arXiv.2503.06430"
+      },
+      {
+        "title": "RAG-MCP: Mitigating Prompt Bloat in LLM Tool Selection via Retrieval-Augmented Generation",
+        "doi": "https://doi.org/10.48550/arXiv.2505.03275"
+      },
+      {
+        "title": "AskNearby: An LLM-Based Application for Neighborhood Information Retrieval and Personalized Cognitive-Map Recommendations",
+        "doi": "https://doi.org/10.1145/3764912.3770813"
+      },
+      {
+        "title": "LLM-Based Compact Reranking with Document Features for Scientific Retrieval",
+        "doi": "https://doi.org/10.48550/arXiv.2505.13757"
+      },
+      {
+        "title": "Scientific Paper Retrieval with LLM-Guided Semantic-Based Ranking",
+        "doi": "https://doi.org/10.48550/arXiv.2505.21815"
+      },
+      {
+        "title": "RAG-Enhanced Collaborative LLM Agents for Drug Discovery",
+        "doi": "https://doi.org/10.48550/arXiv.2502.17506"
+      },
+      {
+        "title": "Pre-Meta: priors-augmented retrieval for LLM-based metadata generation",
+        "doi": "https://doi.org/10.1093/bioinformatics/btaf519"
+      },
+      {
+        "title": "LLM-based Multi-Agent Blackboard System for Information Discovery in Data Science",
+        "doi": "https://doi.org/10.48550/arXiv.2510.01285"
+      },
+      {
+        "title": "TriAgent: Automated Biomarker Discovery with Deep Research Grounding for Triage in Acute Care by LLM-Based Multi-Agent Collaboration",
+        "doi": "https://doi.org/10.48550/arXiv.2510.16080"
+      },
+      {
+        "title": "LLM-Agent Powered Automated Literature Review and Hypothesis Generation for Cancer Biomarker Discovery",
+        "doi": "https://doi.org/10.1109/ICOSST69113.2025.11315415"
+      },
+      {
+        "title": "PairSem: LLM-Guided Pairwise Semantic Matching for Scientific Document Retrieval",
+        "doi": "https://doi.org/10.48550/arXiv.2510.09897"
+      },
+      {
+        "title": "A Comprehensive Evaluation of LLM Phenotyping Using Retrieval-Augmented Generation (RAG): Insights for RAG Optimization",
+        "doi": "https://doi.org/10.1101/2025.04.29.25326696"
+      },
+      {
+        "title": "Enhancing Mobile App Recommendation by LLM Powered Explicit and Implicit Information Retrieval and Representation",
+        "doi": "https://doi.org/10.1109/ACCESS.2025.3628471"
+      },
+      {
+        "title": "SciTopic: Enhancing Topic Discovery in Scientific Literature through Advanced LLM",
+        "doi": "https://doi.org/10.48550/arXiv.2508.20514"
+      },
+      {
+        "title": "Evaluating Retrieval-Augmented Generation Agents for Autonomous Scientific Discovery in Astrophysics",
+        "doi": "https://doi.org/10.48550/arXiv.2507.07155"
+      },
+      {
+        "title": "Retrieval Augmented Generation based context discovery for ASR",
+        "doi": "https://doi.org/10.48550/arXiv.2509.19567"
+      },
+      {
+        "title": "CoRAL: Collaborative Retrieval-Augmented Large Language Models Improve Long-tail Recommendation",
+        "doi": "https://doi.org/10.1145/3637528.3671901"
+      },
+      {
+        "title": "OI-Assistant: A Retrieval Augmented System for Similar Problem Discovery and Interactive Learning in Competitive Programming",
+        "doi": "https://doi.org/10.15388/ioi.2025.09"
+      },
+      {
+        "title": "Team LA at SCIDOCA shared task 2025: Citation Discovery via relation-based zero-shot retrieval",
+        "doi": "https://doi.org/10.48550/arXiv.2506.18316"
+      },
+      {
+        "title": "BioRAG: A RAG-LLM Framework for Biological Question Reasoning",
+        "doi": "https://doi.org/10.48550/arXiv.2408.01107"
+      },
+      {
+        "title": "Nova: An Iterative Planning and Search Approach to Enhance Novelty and Diversity of LLM Generated Ideas",
+        "doi": "https://doi.org/10.48550/arXiv.2410.14255"
+      },
+      {
+        "title": "Domain-Driven LLM Development: Insights into RAG and Fine-Tuning Practices",
+        "doi": "https://doi.org/10.1145/3637528.3671445"
+      },
+      {
+        "title": "Optimizing biomedical information retrieval with a keyword frequency-driven prompt enhancement strategy",
+        "doi": "https://doi.org/10.1186/s12859-024-05902-7"
+      },
+      {
+        "title": "Neural Retrievers are Biased Towards LLM-Generated Content",
+        "doi": "https://doi.org/10.1145/3637528.3671882"
+      },
+      {
+        "title": "Way to Specialist: Closing Loop Between Specialized LLM and Evolving Domain Knowledge Graph",
+        "doi": "https://doi.org/10.1145/3690624.3709187"
+      },
+      {
+        "title": "Rapid and Automated Alloy Design with Graph Neural Network-Powered LLM-Driven Multi-Agent Systems",
+        "doi": "https://doi.org/10.48550/arXiv.2410.13768"
+      },
+      {
+        "title": "The Application of Constructing Knowledge Graph of Oral Historical Archives Resources Based on LLM-RAG",
+        "doi": "https://doi.org/10.1145/3686397.3686420"
+      },
+      {
+        "title": "Face4Rag: Factual Consistency Evaluation for Retrieval Augmented Generation in Chinese",
+        "doi": "https://doi.org/10.1145/3637528.3671656"
+      },
+      {
+        "title": "pathfinder: A Semantic Framework for Literature Review and Knowledge Discovery in Astronomy",
+        "doi": "https://doi.org/10.3847/1538-4365/ad7c43"
+      },
+      {
+        "title": "Music Discovery Dialogue Generation Using Human Intent Analysis and Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2411.07439"
+      },
+      {
+        "title": "Diff4Steer: Steerable Diffusion Prior for Generative Music Retrieval with Semantic Guidance",
+        "doi": "https://doi.org/10.1109/ICASSP49660.2025.10887608"
+      },
+      {
+        "title": "LitFM: A Retrieval Augmented Structure-aware Foundation Model For Citation Graphs",
+        "doi": "https://doi.org/10.1145/3711896.3737028"
+      },
+      {
+        "title": "Fact-Centric Knowledge Web for Information Retrieval",
+        "doi": "https://doi.org/10.1109/WI-IAT62293.2024.00067"
+      },
+      {
+        "title": "LADDER: Language Driven Slice Discovery and Error Rectification",
+        "doi": "https://doi.org/10.48550/arXiv.2408.07832"
+      },
+      {
+        "title": "Knowledge Mining using Generative AI for Causal Discovery in Electronics Production",
+        "doi": "https://doi.org/10.1109/ISSE61612.2024.10604102"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "LLM discovery retrieval",
+    "total_steps": 3,
+    "last_updated": "2026-01-04T01:16:47.321433",
+    "started_at": "2026-01-04T01:15:57.303801",
+    "total_papers": 199
+  }
+}

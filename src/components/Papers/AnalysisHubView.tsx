@@ -54,7 +54,14 @@ export function AnalysisHubView({ communityId, communityName, onClose }: Analysi
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch(`${API_BASE}/analysis/circle/${communityId}/overview`);
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 5000);
+
+      const response = await fetch(`${API_BASE}/analysis/circle/${communityId}/overview`, {
+        signal: controller.signal
+      });
+      clearTimeout(timeoutId);
+
       if (response.ok) {
         const data = await response.json();
         setOverview(data);
@@ -64,7 +71,7 @@ export function AnalysisHubView({ communityId, communityName, onClose }: Analysi
         setError(`API returned status ${response.status}`);
       }
     } catch (error) {
-      console.error('Error loading analysis overview:', error);
+      console.warn('Error loading analysis overview:', error);
       setError('Cannot connect to Paper Analysis API. Please make sure it is running on port 8001.');
     } finally {
       setLoading(false);
@@ -146,7 +153,7 @@ export function AnalysisHubView({ communityId, communityName, onClose }: Analysi
                   <li>Start the Paper Analysis API:</li>
                 </ol>
                 <pre className="mt-2 bg-gray-900 text-gray-100 p-3 rounded text-xs overflow-x-auto">
-bash scripts/shell/start_paper_analysis_api.sh
+                  bash scripts/shell/start_paper_analysis_api.sh
                 </pre>
                 <p className="mt-3 text-sm text-gray-600">
                   Or run directly: <code className="bg-gray-100 px-2 py-1 rounded text-xs">python backend/apis/paper_analysis_api.py</code>

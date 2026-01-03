@@ -36,16 +36,12 @@ app = FastAPI(title="Paper Analysis API", version="1.0.0")
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://localhost:3000",
-        "https://papercircle.vercel.app",
-        "https://*.vercel.app"  # Allow all Vercel preview deployments
-    ],
+    allow_origins=["*"],  # Temporarily allow all for debugging
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+print("✓ CORS configured")
 
 # Supabase client - use service role key for backend operations to bypass RLS
 SUPABASE_URL = os.getenv("VITE_SUPABASE_URL", "")
@@ -54,7 +50,9 @@ if not SUPABASE_SERVICE_KEY:
     # Fallback to anon key if service key not set (will have RLS restrictions)
     SUPABASE_SERVICE_KEY = os.getenv("VITE_SUPABASE_ANON_KEY", "")
     print("⚠️  Warning: Using anon key instead of service role key. Some operations may fail due to RLS.")
+print(f"Connecting to Supabase at {SUPABASE_URL}")
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
+print("✓ Supabase client initialized")
 
 # Paper Mind Graph config (default)
 PMG_CONFIG = Config(
@@ -387,8 +385,9 @@ def analyze_paper_internal(
 # ============================================================================
 
 @app.get("/")
-def read_root():
+async def read_root():
     """Health check endpoint."""
+    print("→ GET /")
     return {"status": "ok", "message": "Paper Analysis API is running"}
 
 @app.get("/quota/{user_id}")

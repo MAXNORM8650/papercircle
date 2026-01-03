@@ -45,7 +45,7 @@ interface AnalysisStats {
   processing_papers: number;
 }
 
-const API_BASE = 'http://localhost:8001';
+const API_BASE = 'http://127.0.0.1:8001';
 
 export function SessionAnalysisView({ sessionId, communityId }: SessionAnalysisViewProps) {
   const [papers, setPapers] = useState<SessionPaper[]>([]);
@@ -107,7 +107,10 @@ export function SessionAnalysisView({ sessionId, communityId }: SessionAnalysisV
 
   const loadAnalyses = async () => {
     try {
-      const response = await fetch(`${API_BASE}/analysis/session/${sessionId}`);
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 5000);
+      const response = await fetch(`${API_BASE}/analysis/session/${sessionId}`, { signal: controller.signal });
+      clearTimeout(timeoutId);
 
       if (response.ok) {
         const data = await response.json();
@@ -121,7 +124,7 @@ export function SessionAnalysisView({ sessionId, communityId }: SessionAnalysisV
         calculateStats(data.analyses);
       }
     } catch (error) {
-      console.error('Error loading analyses:', error);
+      console.warn('Error loading analyses:', error);
     }
   };
 

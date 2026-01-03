@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "query": "LLM discovery retrieval",
+    "total_papers": 199,
+    "unique_sources": 12,
+    "year_range": {
+      "min": 2012,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 567,
+      "average": 17.2
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 98,
+    "papers_with_doi": 45,
+    "processing_steps": 3
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (43) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 43
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 57 papers (28%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 57
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Jinsung Yoon has 4 papers in this collection",
+      "data": {
+        "author": "Jinsung Yoon",
+        "count": 4
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Bias and Unfairness in Information Retrieval Systems: New Challenges in the LLM Era...\" has 161 citations",
+      "data": {
+        "title": "Bias and Unfairness in Information Retrieval Systems: New Challenges in the LLM Era",
+        "citations": 161
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: retrieval, discovery, augmented, language, multi",
+      "data": {
+        "keywords": {
+          "retrieval": 82,
+          "discovery": 66,
+          "augmented": 30,
+          "language": 29,
+          "multi": 26
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "98/199 papers (49%) have direct PDF links",
+      "data": {
+        "with_pdf": 98,
+        "total": 199
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 199 papers related to 'LLM discovery retrieval'",
+    "Papers collected from 12 sources: offline_acl, offline_iclr, offline_nips, offline_eccv, offline_cvpr, offline_emnlp, offline_icml, offline_ijcai, offline_iccv, offline_aaai, arxiv, semantic_scholar",
+    "Publication years range from 2012 to 2026",
+    "Total citations: 567, Average: 17",
+    "Leading researchers: Jinsung Yoon, Jiawei Han, Zheng Liu"
+  ],
+  "metadata": {
+    "query": "LLM discovery retrieval",
+    "total_steps": 3,
+    "last_updated": "2026-01-04T01:16:47.330664",
+    "started_at": "2026-01-04T01:15:57.303801",
+    "total_papers": 199
+  }
+}

@@ -88,7 +88,7 @@ function AppContent() {
       case 'lineage':
         return <LineageView />;
       case 'dashboard':
-        return <DashboardView />;
+        return <DashboardView onNavigate={handleNavigate} />;
       case 'admin':
         return <AdminView />;
       case 'settings':
@@ -136,7 +136,7 @@ function AppContent() {
         {currentView !== 'session-invite' && <Header onNavigate={handleNavigate} currentView={currentView} />}
         <main>{renderView()}</main>
       </div>
-      
+
       {/* Show profile completion modal when needed */}
       {needsProfile && <CompleteProfileModal />}
     </>

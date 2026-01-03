@@ -93,7 +93,7 @@ interface Analysis {
 
 type Tab = 'summary' | 'mindmap' | 'flowchart' | 'concepts' | 'methods' | 'experiments' | 'graph' | 'qa';
 
-const API_BASE = 'http://localhost:8001';
+const API_BASE = 'http://127.0.0.1:8001';
 
 export function PaperAnalysisView({
   paperId,
@@ -539,7 +539,7 @@ export function PaperAnalysisView({
               <Lightbulb className="w-5 h-5 text-blue-500 mr-2" />
               <div>
                 <p className="text-xs text-gray-600">Concepts</p>
-                <p className="text-lg font-semibold text-gray-900">{analysis.concepts_count}</p>
+                <p className="text-lg font-semibold text-gray-900">{analysis?.concepts_count || 0}</p>
               </div>
             </div>
           </div>
@@ -548,7 +548,7 @@ export function PaperAnalysisView({
               <Wrench className="w-5 h-5 text-orange-500 mr-2" />
               <div>
                 <p className="text-xs text-gray-600">Methods</p>
-                <p className="text-lg font-semibold text-gray-900">{analysis.methods_count}</p>
+                <p className="text-lg font-semibold text-gray-900">{analysis?.methods_count || 0}</p>
               </div>
             </div>
           </div>
@@ -557,7 +557,7 @@ export function PaperAnalysisView({
               <FlaskConical className="w-5 h-5 text-green-500 mr-2" />
               <div>
                 <p className="text-xs text-gray-600">Experiments</p>
-                <p className="text-lg font-semibold text-gray-900">{analysis.experiments_count}</p>
+                <p className="text-lg font-semibold text-gray-900">{analysis?.experiments_count || 0}</p>
               </div>
             </div>
           </div>
@@ -566,7 +566,7 @@ export function PaperAnalysisView({
               <Network className="w-5 h-5 text-purple-500 mr-2" />
               <div>
                 <p className="text-xs text-gray-600">Nodes</p>
-                <p className="text-lg font-semibold text-gray-900">{analysis.nodes_count}</p>
+                <p className="text-lg font-semibold text-gray-900">{analysis?.nodes_count || 0}</p>
               </div>
             </div>
           </div>
@@ -578,88 +578,80 @@ export function PaperAnalysisView({
         <div className="flex overflow-x-auto">
           <button
             onClick={() => setActiveTab('summary')}
-            className={`px-6 py-3 text-sm font-medium whitespace-nowrap ${
-              activeTab === 'summary'
-                ? 'border-b-2 border-blue-500 text-blue-600'
-                : 'text-gray-600 hover:text-gray-900'
-            }`}
+            className={`px-6 py-3 text-sm font-medium whitespace-nowrap ${activeTab === 'summary'
+              ? 'border-b-2 border-blue-500 text-blue-600'
+              : 'text-gray-600 hover:text-gray-900'
+              }`}
           >
             <FileText className="w-4 h-4 inline mr-2" />
             Summary
           </button>
           <button
             onClick={() => setActiveTab('mindmap')}
-            className={`px-6 py-3 text-sm font-medium whitespace-nowrap ${
-              activeTab === 'mindmap'
-                ? 'border-b-2 border-blue-500 text-blue-600'
-                : 'text-gray-600 hover:text-gray-900'
-            }`}
+            className={`px-6 py-3 text-sm font-medium whitespace-nowrap ${activeTab === 'mindmap'
+              ? 'border-b-2 border-blue-500 text-blue-600'
+              : 'text-gray-600 hover:text-gray-900'
+              }`}
           >
             <Brain className="w-4 h-4 inline mr-2" />
             Mind Map
           </button>
           <button
             onClick={() => setActiveTab('flowchart')}
-            className={`px-6 py-3 text-sm font-medium whitespace-nowrap ${
-              activeTab === 'flowchart'
-                ? 'border-b-2 border-blue-500 text-blue-600'
-                : 'text-gray-600 hover:text-gray-900'
-            }`}
+            className={`px-6 py-3 text-sm font-medium whitespace-nowrap ${activeTab === 'flowchart'
+              ? 'border-b-2 border-blue-500 text-blue-600'
+              : 'text-gray-600 hover:text-gray-900'
+              }`}
           >
             <Network className="w-4 h-4 inline mr-2" />
             Flowchart
           </button>
           <button
             onClick={() => setActiveTab('concepts')}
-            className={`px-6 py-3 text-sm font-medium whitespace-nowrap ${
-              activeTab === 'concepts'
-                ? 'border-b-2 border-blue-500 text-blue-600'
-                : 'text-gray-600 hover:text-gray-900'
-            }`}
+            className={`px-6 py-3 text-sm font-medium whitespace-nowrap ${activeTab === 'concepts'
+              ? 'border-b-2 border-blue-500 text-blue-600'
+              : 'text-gray-600 hover:text-gray-900'
+              }`}
           >
             <Lightbulb className="w-4 h-4 inline mr-2" />
             Concepts
           </button>
           <button
             onClick={() => setActiveTab('methods')}
-            className={`px-6 py-3 text-sm font-medium whitespace-nowrap ${
-              activeTab === 'methods'
-                ? 'border-b-2 border-blue-500 text-blue-600'
-                : 'text-gray-600 hover:text-gray-900'
-            }`}
+            className={`px-6 py-3 text-sm font-medium whitespace-nowrap ${activeTab === 'methods'
+              ? 'border-b-2 border-blue-500 text-blue-600'
+              : 'text-gray-600 hover:text-gray-900'
+              }`}
           >
             <Wrench className="w-4 h-4 inline mr-2" />
             Methods
           </button>
           <button
             onClick={() => setActiveTab('experiments')}
-            className={`px-6 py-3 text-sm font-medium whitespace-nowrap ${
-              activeTab === 'experiments'
-                ? 'border-b-2 border-blue-500 text-blue-600'
-                : 'text-gray-600 hover:text-gray-900'
-            }`}
+            className={`px-6 py-3 text-sm font-medium whitespace-nowrap ${activeTab === 'experiments'
+              ? 'border-b-2 border-blue-500 text-blue-600'
+              : 'text-gray-600 hover:text-gray-900'
+              }`}
           >
             <FlaskConical className="w-4 h-4 inline mr-2" />
             Experiments
           </button>
           <button
             onClick={() => setActiveTab('graph')}
-            className={`px-6 py-3 text-sm font-medium whitespace-nowrap ${
-              activeTab === 'graph'
-                ? 'border-b-2 border-blue-500 text-blue-600'
-                : 'text-gray-600 hover:text-gray-900'
-            }`}
+            className={`px-6 py-3 text-sm font-medium whitespace-nowrap ${activeTab === 'graph'
+              ? 'border-b-2 border-blue-500 text-blue-600'
+              : 'text-gray-600 hover:text-gray-900'
+              }`}
           >
             <Network className="w-4 h-4 inline mr-2" />
             Interactive Graph
           </button>
           <button
             onClick={() => setActiveTab('qa')}
-            className={`px-6 py-3 text-sm font-medium whitespace-nowrap ${
-              activeTab === 'qa'
-                ? 'border-b-2 border-blue-500 text-blue-600'
-                : 'text-gray-600 hover:text-gray-900'
-            }`}
+            className={`px-6 py-3 text-sm font-medium whitespace-nowrap ${activeTab === 'qa'
+              ? 'border-b-2 border-blue-500 text-blue-600'
+              : 'text-gray-600 hover:text-gray-900'
+              }`}
           >
             <MessageSquare className="w-4 h-4 inline mr-2" />
             Q&A
@@ -669,7 +661,7 @@ export function PaperAnalysisView({
 
       {/* Content */}
       <div className="p-6">
-        {activeTab === 'summary' && (
+        {activeTab === 'summary' && analysis && (
           <div className="prose max-w-none">
             <div className="whitespace-pre-wrap font-mono text-sm bg-gray-50 p-4 rounded-lg">
               {analysis.markdown_summary}
@@ -677,21 +669,21 @@ export function PaperAnalysisView({
           </div>
         )}
 
-        {activeTab === 'mindmap' && (
+        {activeTab === 'mindmap' && analysis && (
           <div className="bg-gray-50 p-6 rounded-lg overflow-auto">
             <Mermaid chart={analysis.mindmap_mermaid} />
           </div>
         )}
 
-        {activeTab === 'flowchart' && (
+        {activeTab === 'flowchart' && analysis && (
           <div className="bg-gray-50 p-6 rounded-lg overflow-auto">
             <Mermaid chart={analysis.flowchart_mermaid} />
           </div>
         )}
 
-        {activeTab === 'concepts' && renderConcepts()}
-        {activeTab === 'methods' && renderMethods()}
-        {activeTab === 'experiments' && renderExperiments()}
+        {activeTab === 'concepts' && analysis && renderConcepts()}
+        {activeTab === 'methods' && analysis && renderMethods()}
+        {activeTab === 'experiments' && analysis && renderExperiments()}
 
         {activeTab === 'graph' && (
           <div className="bg-gray-50 p-6 rounded-lg">

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { BookMarked, Calendar, MessageSquare, Award } from 'lucide-react';
+import { BookMarked, Calendar, MessageSquare, Award, Cpu, Settings } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
 import type { Database } from '../../lib/database.types';
@@ -14,7 +14,11 @@ type UserSession = Database['public']['Tables']['sessions']['Row'] & {
   paper?: { title: string } | null;
 };
 
-export function DashboardView() {
+interface DashboardViewProps {
+  onNavigate: (view: any) => void;
+}
+
+export function DashboardView({ onNavigate }: DashboardViewProps) {
   const { user, profile } = useAuth();
   const [savedPapers, setSavedPapers] = useState<SavedPaper[]>([]);
   const [upcomingSessions, setUpcomingSessions] = useState<UserSession[]>([]);
@@ -34,67 +38,71 @@ export function DashboardView() {
   const loadDashboardData = async () => {
     if (!user) return;
 
-    const [savedResult, sessionsResult, statsResult] = await Promise.all([
-      supabase
-        .from('saved_papers')
-        .select('notes, created_at, paper:papers(*)')
-        .eq('user_id', user.id)
-        .order('created_at', { ascending: false })
-        .limit(5),
-
-      supabase
-        .from('rsvps')
-        .select(`
-          session:sessions(*, paper:papers(title))
-        `)
-        .eq('user_id', user.id)
-        .eq('status', 'attending'),
-
-      Promise.all([
+    try {
+      const [savedResult, sessionsResult, statsResult] = await Promise.all([
         supabase
           .from('saved_papers')
-          .select('*', { count: 'exact', head: true })
-          .eq('user_id', user.id),
+          .select('notes, created_at, paper:papers(*)')
+          .eq('user_id', user.id)
+          .order('created_at', { ascending: false })
+          .limit(5),
+
         supabase
           .from('rsvps')
-          .select('*', { count: 'exact', head: true })
+          .select(`
+            session:sessions(*)
+          `)
           .eq('user_id', user.id)
-          .eq('checked_in', true),
-        supabase
-          .from('discussions')
-          .select('*', { count: 'exact', head: true })
-          .eq('user_id', user.id),
-      ]),
-    ]);
+          .eq('status', 'attending'),
 
-    if (savedResult.data) {
-      setSavedPapers(
-        savedResult.data.map((item) => ({
-          paper: item.paper,
-          notes: item.notes,
-          created_at: item.created_at,
-        }))
-      );
+        Promise.all([
+          supabase
+            .from('saved_papers')
+            .select('*', { count: 'exact', head: true })
+            .eq('user_id', user.id),
+          supabase
+            .from('rsvps')
+            .select('*', { count: 'exact', head: true })
+            .eq('user_id', user.id)
+            .eq('checked_in', true),
+          supabase
+            .from('discussions')
+            .select('*', { count: 'exact', head: true })
+            .eq('user_id', user.id),
+        ]),
+      ]);
+
+      if (savedResult.data) {
+        setSavedPapers(
+          savedResult.data.map((item: any) => ({
+            paper: item.paper,
+            notes: item.notes,
+            created_at: item.created_at,
+          }))
+        );
+      }
+
+      if (sessionsResult.data) {
+        const now = new Date().toISOString();
+        setUpcomingSessions(
+          sessionsResult.data
+            .map((item: any) => item.session)
+            .filter((s): s is UserSession => s !== null && s.scheduled_at >= now)
+            .sort((a, b) => a.scheduled_at.localeCompare(b.scheduled_at))
+            .slice(0, 5)
+        );
+      }
+
+      setStats({
+        savedCount: statsResult[0].count || 0,
+        sessionsAttended: statsResult[1].count || 0,
+        commentsPosted: statsResult[2].count || 0,
+      });
+    } catch (error) {
+      console.error('Error loading dashboard data:', error);
+    } finally {
+      setLoading(false);
     }
-
-    if (sessionsResult.data) {
-      const now = new Date().toISOString();
-      setUpcomingSessions(
-        sessionsResult.data
-          .map((item) => item.session)
-          .filter((s): s is UserSession => s !== null && s.scheduled_for >= now)
-          .sort((a, b) => a.scheduled_for.localeCompare(b.scheduled_for))
-          .slice(0, 5)
-      );
-    }
-
-    setStats({
-      savedCount: statsResult[0].count || 0,
-      sessionsAttended: statsResult[1].count || 0,
-      commentsPosted: statsResult[2].count || 0,
-    });
-
-    setLoading(false);
   };
 
   if (loading) {
@@ -133,13 +141,20 @@ export function DashboardView() {
           <p className="text-3xl font-bold text-gray-900">{stats.sessionsAttended}</p>
         </div>
 
-        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+        <button
+          onClick={() => onNavigate('settings')}
+          className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 hover:shadow-md transition-all text-left"
+        >
           <div className="flex items-center space-x-3 mb-2">
-            <MessageSquare className="h-8 w-8 text-purple-600" />
-            <h3 className="text-lg font-semibold text-gray-900">Comments</h3>
+            <Cpu className="h-8 w-8 text-purple-600" />
+            <h3 className="text-lg font-semibold text-gray-900">AI Configuration</h3>
           </div>
-          <p className="text-3xl font-bold text-gray-900">{stats.commentsPosted}</p>
-        </div>
+          <p className="text-sm text-gray-600 mb-2">Set up your own LLM for unlimited analysis</p>
+          <div className="flex items-center text-purple-600 text-sm font-semibold">
+            <span>Configure LLM</span>
+            <Settings className="h-4 w-4 ml-1" />
+          </div>
+        </button>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">

@@ -62,43 +62,62 @@ export function LLMSettings() {
     if (!user) return;
 
     try {
-      const response = await fetch(`http://localhost:8001/quota/${user.id}`);
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 2000);
+
+      const response = await fetch(`http://127.0.0.1:8001/quota/${user.id}`, {
+        signal: controller.signal
+      });
+      clearTimeout(timeoutId);
+
       if (response.ok) {
         const data = await response.json();
         setQuota(data);
       }
     } catch (error) {
-      console.error('Error loading quota:', error);
+      console.warn('Backend quota API unreachable, using local fallback');
+      // Set a default quota if backend is down so UI doesn't break
+      setQuota({
+        used_today: 0,
+        daily_limit: 5,
+        is_unlimited: false,
+        remaining: 5
+      });
     }
   };
 
   const loadSettings = async () => {
-    if (!user) return;
-
-    const { data, error } = await supabase
-      .from('profiles')
-      .select('llm_enabled, llm_provider, llm_api_base, llm_model_id, llm_api_key')
-      .eq('id', user.id)
-      .single();
-
-    if (data) {
-      setConfig({
-        llm_enabled: data.llm_enabled || false,
-        llm_provider: data.llm_provider || 'ollama',
-        llm_api_base: data.llm_api_base || '',
-        llm_model_id: data.llm_model_id || '',
-        llm_api_key: data.llm_api_key || '',
-      });
+    if (!user) {
+      setLoading(false);
+      return;
     }
 
-    if (error) {
-      console.error('Error loading LLM settings:', error);
+    try {
+      const { data, error } = await supabase
+        .from('profiles')
+        .select('llm_enabled, llm_provider, llm_api_base, llm_model_id, llm_api_key')
+        .eq('id', user.id)
+        .single();
+
+      if (data) {
+        setConfig({
+          llm_enabled: data.llm_enabled || false,
+          llm_provider: data.llm_provider || 'ollama',
+          llm_api_base: data.llm_api_base || '',
+          llm_model_id: data.llm_model_id || '',
+          llm_api_key: data.llm_api_key || '',
+        });
+      }
+
+      if (error) {
+        console.error('Error loading LLM settings:', error);
+      }
+
+      // Load quota information
+      await loadQuota();
+    } finally {
+      setLoading(false);
     }
-
-    // Load quota information
-    await loadQuota();
-
-    setLoading(false);
   };
 
   const handleProviderChange = (provider: LLMConfig['llm_provider']) => {
@@ -162,17 +181,22 @@ export function LLMSettings() {
     setMessage(null);
 
     try {
-      // Call backend API to test connection (avoids CORS issues)
-      const response = await fetch('http://localhost:8001/test-llm-connection', {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 15000); // 15s timeout for LLM tests
+
+      // Call backend API to test connection
+      const response = await fetch('http://127.0.0.1:8001/test-llm-connection', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
+        signal: controller.signal,
         body: JSON.stringify({
           api_base: config.llm_api_base,
           provider: config.llm_provider,
         }),
       });
+      clearTimeout(timeoutId);
 
       const result = await response.json();
 
@@ -218,8 +242,8 @@ export function LLMSettings() {
         {/* Current Tier and Quota */}
         {quota && (
           <div className={`rounded-lg p-4 mb-6 ${quota.is_unlimited || config.llm_enabled
-              ? 'bg-green-50 border border-green-200'
-              : 'bg-gray-50 border border-gray-200'
+            ? 'bg-green-50 border border-green-200'
+            : 'bg-gray-50 border border-gray-200'
             }`}>
             <div className="flex items-center justify-between">
               <div>
