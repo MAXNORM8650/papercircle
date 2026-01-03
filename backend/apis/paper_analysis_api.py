@@ -50,10 +50,8 @@ if not SUPABASE_SERVICE_KEY:
     # Fallback to anon key if service key not set (will have RLS restrictions)
     SUPABASE_SERVICE_KEY = os.getenv("VITE_SUPABASE_ANON_KEY", "")
     print("⚠️  Warning: Using anon key instead of service role key. Some operations may fail due to RLS.")
-print(f"Connecting to Supabase at {SUPABASE_URL}")
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
-print("✓ Supabase client initialized")
 
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
 # Paper Mind Graph config (default)
 PMG_CONFIG = Config(
     api_base=os.getenv("OLLAMA_API_BASE", "http://10.127.30.115:11434"),
@@ -111,7 +109,7 @@ def get_user_llm_config(user_id: Optional[str]) -> Config:
     Get LLM configuration for a specific user.
     Returns user's custom config if enabled, otherwise returns default config.
     """
-    if not user_id:
+    if not user_id or user_id == "system":
         return PMG_CONFIG
 
     try:
@@ -155,6 +153,7 @@ class AnalyzePaperRequest(BaseModel):
     user_id: Optional[str] = None  # For user-specific LLM config
     community_id: Optional[str] = None
     session_id: Optional[str] = None
+    manual_url: Optional[str] = None
     force_reanalyze: bool = False
 
 class AnalyzeFromUrlRequest(BaseModel):
@@ -601,14 +600,36 @@ async def analyze_paper(
                     "message": "Analysis already exists. Use force_reanalyze=true to regenerate."
                 }
 
-        # Determine paper URL (prefer arxiv_id, fallback to pdf_url)
-        paper_url = None
-        if paper.get("arxiv_id"):
-            paper_url = f"https://arxiv.org/abs/{paper['arxiv_id']}"
-        elif paper.get("pdf_url"):
-            paper_url = paper["pdf_url"]
-        else:
-            raise HTTPException(status_code=400, detail="Paper has no arxiv_id or pdf_url")
+        # Determine paper URL (prefer manual_url, then arxiv_id, then pdf_url)
+        paper_url = request.manual_url
+        
+        if not paper_url:
+            if paper.get("arxiv_id"):
+                paper_url = f"https://arxiv.org/abs/{paper['arxiv_id']}"
+            elif paper.get("pdf_url"):
+                paper_url = paper["pdf_url"]
+            else:
+                print(f"⚠️  Paper {request.paper_id} has no URL. Info: {paper}")
+                raise HTTPException(status_code=400, detail=f"Paper {request.paper_id} has no arxiv_id or pdf_url in database. Please provide a manual URL.")
+
+        # If manual_url was provided and paper was missing it, update the database
+        if request.manual_url and not paper.get("pdf_url") and not paper.get("arxiv_id"):
+            try:
+                # Simple check for arXiv ID in manual URL
+                new_arxiv_id = None
+                if "arxiv.org/abs/" in request.manual_url:
+                    new_arxiv_id = request.manual_url.split("arxiv.org/abs/")[-1].split("?")[0].split("#")[0]
+                elif "arxiv.org/pdf/" in request.manual_url:
+                    new_arxiv_id = request.manual_url.split("arxiv.org/pdf/")[-1].replace(".pdf", "").split("?")[0]
+                
+                update_data = {"pdf_url": request.manual_url}
+                if new_arxiv_id:
+                    update_data["arxiv_id"] = new_arxiv_id
+                
+                supabase.table("papers").update(update_data).eq("id", request.paper_id).execute()
+                print(f"✅ Updated paper {request.paper_id} with manual URL: {request.manual_url}")
+            except Exception as update_err:
+                print(f"⚠️  Failed to update paper with manual URL: {update_err}")
 
         # Run analysis in background
         background_tasks.add_task(
@@ -819,7 +840,7 @@ async def get_paper_analysis(
         result = query.execute()
 
         if not result.data:
-            raise HTTPException(status_code=404, detail="Analysis not found for this paper")
+            return {"status": "not_found", "message": "Analysis not found for this paper"}
 
         return result.data[0]
 

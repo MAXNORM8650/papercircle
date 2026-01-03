@@ -476,7 +476,7 @@ class VerificationManager:
         reason: str = None
     ) -> str:
         """Add a new edge (human-created)."""
-        from schema import create_edge
+        from .schema import create_edge
         
         edge = create_edge(edge_type, source_id, target_id, reason)
         edge.verification_status = VerificationStatus.HUMAN_EDITED

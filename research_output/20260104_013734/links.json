@@ -1,0 +1,2769 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Achilles' Heel of Mamba: Essential difficulties of the Mamba architecture demonstrated by synthetic data",
+        "url": "https://openreview.net/forum?id=4p28lkk44b",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Active Audio Cancellation with Multi-Band Mamba Network",
+        "url": "https://openreview.net/forum?id=LwLaFpJpfM",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Sparse Mamba: Reinforcing Controllability In Structural State Space Models",
+        "url": "https://openreview.net/forum?id=vOfDGYGVyj",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Mamba State-Space Models Can Be Strong Downstream Learners",
+        "url": "https://openreview.net/forum?id=C3t6GMPnC5",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Meta-Black-Box-Optimization through Offline Q-function Learning with Mamba Architecture",
+        "url": "https://openreview.net/forum?id=cSgEW7EZ9h",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Autoregressive Pretraining with Mamba in Vision",
+        "url": "https://iclr.cc/virtual/2025/poster/29755",
+        "pdf_url": "https://openreview.net/pdf?id=PQpvhUrA1C",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "MAMBA STATE-SPACE MODELS ARE LYAPUNOV-STABLE LEARNERS",
+        "url": "https://openreview.net/forum?id=i9RTCC6whL",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Memba: Membrane-driven Parameter-Efficient Fine-Tuning for Mamba",
+        "url": "https://openreview.net/forum?id=eDZjLPfsin",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Spectral Spatial Traversing in Point Clouds: Enhancing Data Analysis with Mamba Networks",
+        "url": "https://openreview.net/forum?id=SU3lZ8jrRD",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "MambaSL: Exploring Single-Layer Mamba for Time Series Classification",
+        "url": "https://openreview.net/forum?id=YDl4vqQqGP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "MBMamba: When Memory Buffer Meets Mamba for Structure-Aware Image Deblurring",
+        "url": "https://openreview.net/forum?id=uAmbHy4R8f",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Self-predictive Mamba: Improving Multi-agent Reinforcement Learning with Self-predictive Encoding",
+        "url": "https://openreview.net/forum?id=7ZyFjPUeJp",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Is Mamba Compatible with Trajectory Optimization in Offline Reinforcement Learning?",
+        "url": "https://neurips.cc/virtual/2024/poster/93011",
+        "pdf_url": "https://openreview.net/pdf?id=yWSxjlFsmX",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "MambaQuant: Quantizing the Mamba Family with Variance Aligned Rotation Methods",
+        "url": "https://iclr.cc/virtual/2025/poster/30065",
+        "pdf_url": "https://openreview.net/pdf?id=KI45uDnmzv",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "3DSMT: A Hybrid Spiking Mamba-Transformer for Point Cloud Analysis",
+        "url": "https://openreview.net/forum?id=KkoS6y0pHP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Graph Mamba Operator for Learning the Dynamics of Particle-based Systems",
+        "url": "https://openreview.net/forum?id=6CO8dwHl4F",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Pruning-Robust Mamba with Asymmetric Multi-Scale Scanning Paths",
+        "url": "https://openreview.net/forum?id=BZSTC2RMEd",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "bio2token: all-atom tokenization of any biomolecular structure with mamba",
+        "url": "https://openreview.net/forum?id=6ktqrC1Bpf",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Understanding Input Selectivity in Mamba: Impact on Approximation Power, Memorization, and Associative Recall Capacity",
+        "url": "https://icml.cc/virtual/2025/poster/43867",
+        "pdf_url": "https://openreview.net/pdf?id=rnMH9njZxb",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Mamba Neural Operator: Who Wins? Transformers vs. State-Space Models for PDEs",
+        "url": "https://openreview.net/forum?id=VtP7CamOR5",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "DiMSUM: Diffusion Mamba - A Scalable and Unified Spatial-Frequency Method for Image Generation",
+        "url": "https://neurips.cc/virtual/2024/poster/95642",
+        "pdf_url": "https://openreview.net/pdf?id=KqbLzSIXkm",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "MAP: Unleashing Hybrid Mamba-Transformer Vision Backbone’s Potential with Masked Autoregressive Pretraining",
+        "url": "https://openreview.net/forum?id=hBVywPrw6d",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Mamba-Reg: Vision Mamba Also Needs Registers",
+        "url": "https://openreview.net/forum?id=wxEASOHHdT",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing",
+        "url": "https://openreview.net/forum?id=QwY1vk67T3",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Layer-Wise Analysis in Exploring the Normalization Strategies in Mamba",
+        "url": "https://openreview.net/forum?id=NX6oMuoLxu",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Speak, Edit, Repeat: High-Fidelity Voice Editing and Zero-Shot TTS with Cross-Attentive Mamba",
+        "url": "https://openreview.net/forum?id=yEKyIwJvvl",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Mambular: A Sequential Model for Tabular Deep Learning",
+        "url": "https://openreview.net/forum?id=wElgE9qBb5",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "MambaFormer-MOE: Mamba-Transformer-based Mixture-of-Experts for Time Series Prediction",
+        "url": "https://openreview.net/forum?id=55Ruu7bF4b",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Can Mamba Always Enjoy the \"Free Lunch\"?",
+        "url": "https://openreview.net/forum?id=UYarAv7rUx",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Learning Mamba as a Continual Learner",
+        "url": "https://openreview.net/forum?id=1TXDtnDIsV",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "WIMFRIS: WIndow Mamba Fusion and Parameter Efficient Tuning for Referring Image Segmentation",
+        "url": "https://openreview.net/forum?id=WnRzN4U8Y8",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Is Bidirectionality Necessary in Mamba for Time Series Forecasting?",
+        "url": "https://openreview.net/forum?id=N6MIqE11eF",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Architecturally Aligned Comparisons Between ConvNets And Vision Mambas",
+        "url": "https://openreview.net/forum?id=QBiFoWQp3n",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "DiffImp: Efficient Diffusion Model for Probabilistic Time Series Imputation with Bidirectional Mamba Backbone",
+        "url": "https://openreview.net/forum?id=j1OucVFZMJ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Mamba Unchained: A Permutation-Invariant Approach to Multivariate Time Series",
+        "url": "https://openreview.net/forum?id=lqhUcL7mqZ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "An Empirical Study on Normalization in Mamba",
+        "url": "https://openreview.net/forum?id=YK8eO7BEkJ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Can Mamba Learn In Context with Outliers? A Theoretical Generalization Analysis",
+        "url": "https://openreview.net/forum?id=tswBfpkwHn",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "From Markov to Laplace: How Mamba In-Context Learns Markov Chains",
+        "url": "https://openreview.net/forum?id=kmK3WSCOCT",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "SQuBa: Speech Mamba Language Model with Querying-Attention for Efficient Summarization",
+        "url": "https://openreview.net/forum?id=zOMa82W1HV",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "MambaTS: Improved Selective State Space Models for Long-term Time Series Forecasting",
+        "url": "https://openreview.net/forum?id=vEtDApqkNR",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Mamba Modulation: On the Length Generalization of Mamba Models",
+        "url": "https://openreview.net/forum?id=QEU047bE8p",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Demystify Mamba in Vision: A Linear Attention Perspective",
+        "url": "https://neurips.cc/virtual/2024/poster/95559",
+        "pdf_url": "https://openreview.net/pdf?id=LvJ1R88KAk",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Exploring contextual modeling with linear complexity for point cloud segmentation",
+        "url": "https://openreview.net/forum?id=E1ML0nEReb",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Simplified Mamba with Disentangled Dependency Encoding for Long-Term Time Series Forecasting",
+        "url": "https://openreview.net/forum?id=9VRFPC29nb",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Jamba: Hybrid Transformer-Mamba Language Models",
+        "url": "https://iclr.cc/virtual/2025/poster/30115",
+        "pdf_url": "https://openreview.net/pdf?id=JFPaD7lpBD",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Vision Mamba Mender",
+        "url": "https://neurips.cc/virtual/2024/poster/96306",
+        "pdf_url": "https://openreview.net/pdf?id=9VnevS2YoR",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Routing Mamba: Scaling State Space Models with Mixture-of-Experts Projection",
+        "url": "https://openreview.net/forum?id=lqywifxoo1",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Mimetic Initialization Helps State Space Models Learn to Recall",
+        "url": "https://openreview.net/forum?id=iVy7aRMb0K",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Block-Biased Mamba for Long-Range Sequence Processing",
+        "url": "https://openreview.net/forum?id=5WKEH9LhAQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Hybrid Mamba for Few-Shot Segmentation",
+        "url": "https://neurips.cc/virtual/2024/poster/95222",
+        "pdf_url": "https://openreview.net/pdf?id=Qe2BKeCEBC",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "url": "http://arxiv.org/abs/2512.25075v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "url": "http://arxiv.org/abs/2512.25073v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "url": "http://arxiv.org/abs/2512.25072v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "url": "http://arxiv.org/abs/2512.25070v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "url": "http://arxiv.org/abs/2512.25064v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+        "url": "http://arxiv.org/abs/2512.25061v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25061v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "On the geometry and topology of representations: the manifolds of modular addition",
+        "url": "http://arxiv.org/abs/2512.25060v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25060v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "url": "http://arxiv.org/abs/2512.25059v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "url": "http://arxiv.org/abs/2512.25055v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+        "url": "http://arxiv.org/abs/2512.25052v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25052v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "url": "http://arxiv.org/abs/2512.25040v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+        "url": "http://arxiv.org/abs/2512.25033v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25033v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Modeling Language as a Sequence of Thoughts",
+        "url": "http://arxiv.org/abs/2512.25026v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25026v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+        "url": "http://arxiv.org/abs/2512.25023v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25023v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Strengthening Dual Bounds for Multicommodity Capacitated Network Design with Unsplittable Flow Constraints",
+        "url": "http://arxiv.org/abs/2512.25018v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25018v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+        "url": "http://arxiv.org/abs/2512.25015v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25015v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Numerical study of boson mixtures with multi-component continuous matrix product states",
+        "url": "http://arxiv.org/abs/2512.24998v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24998v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+        "url": "http://arxiv.org/abs/2512.24991v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24991v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Attribution-Guided Distillation of Matryoshka Sparse Autoencoders",
+        "url": "http://arxiv.org/abs/2512.24975v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24975v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Evaluating the Impact of Compression Techniques on the Robustness of CNNs under Natural Corruptions",
+        "url": "http://arxiv.org/abs/2512.24971v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24971v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "The least prime with a given cycle type",
+        "url": "http://arxiv.org/abs/2512.24963v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24963v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Semi-overlapping Multi-bandit Best Arm Identification for Sequential Support Network Learning",
+        "url": "http://arxiv.org/abs/2512.24959v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24959v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Laser intracavity absorption magnetometry for optical quantum sensing",
+        "url": "http://arxiv.org/abs/2512.24951v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24951v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "ProDM: Synthetic Reality-driven Property-aware Progressive Diffusion Model for Coronary Calcium Motion Correction in Non-gated Chest CT",
+        "url": "http://arxiv.org/abs/2512.24948v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24948v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "CPJ: Explainable Agricultural Pest Diagnosis via Caption-Prompt-Judge with LLM-Judged Refinement",
+        "url": "http://arxiv.org/abs/2512.24947v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24947v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "SSM-Net: Enhancing Compressed Sensing Image Reconstruction with Mamba Architecture and Fast Iterative Shrinking Threshold Algorithm Optimization",
+        "url": "https://www.semanticscholar.org/paper/4d6bae2f8fdadd8e8907dd1c5a0589ff671d39de",
+        "pdf_url": "https://doi.org/10.3390/s25041026",
+        "doi_url": "https://doi.org/10.3390/s25041026",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "M3: Mamba-assisted Multi-Circuit Optimization via MBRL with Effective Scheduling",
+        "url": "https://www.semanticscholar.org/paper/be27499b05b973cfe3b35cdfacc4d9738a157826",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2411.16019",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Molecular Optimization with Mamba-Based GFlowNet",
+        "url": "https://www.semanticscholar.org/paper/376702ca26d33a5c3f3f860666892c70d68e024e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICEIC64972.2025.10879751",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "A Hybrid Mamba-ECA-UNet Architecture for Multi-Task Non-Intrusive Load Monitoring",
+        "url": "https://www.semanticscholar.org/paper/563ed7f4528dd298c38ff29fcfc5c64d3bb2d4fb",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/PSETC65535.2025.11239093",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "HTM-PPO: hybrid transformer-Mamba proximal policy optimization for multiagent traffic signal control",
+        "url": "https://www.semanticscholar.org/paper/b500605efd0c883efda13dd66cf68cd3e7035aa9",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1117/12.3092673",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Improving Stock Price Forecasting with Mamba Deep Learning Model",
+        "url": "https://www.semanticscholar.org/paper/461903748e1724e05771ac6ba5ef52ea6f659523",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.55228/jtst140408",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Rep-Mamba: Re-Parameterization in Vision Mamba for Lightweight Remote Sensing Image Super-Resolution",
+        "url": "https://www.semanticscholar.org/paper/f2a4bf5bac1bdbb9527b01656f1b6f93d6625d90",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/TGRS.2025.3597745",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Mamba-Driven Strategy for Multi-Agent Games: Towards a Stable Cooperative Value Framework",
+        "url": "https://www.semanticscholar.org/paper/8c4e87a55f1b317c8a1d098ea168f62a68160fd1",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.23919/CCC64809.2025.11179120",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Enhancing image restoration: parameter-assisted and edge-based inpainting with U-Net mamba",
+        "url": "https://www.semanticscholar.org/paper/bc09e3ede4be233f8e186e105cfa23d147a352d6",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/s11760-025-04045-3",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "FusionSort: Enhanced Cluttered Waste Segmentation with Advanced Decoding and Comprehensive Modality Optimization",
+        "url": "https://www.semanticscholar.org/paper/208779324d6c52ad1eceb0ad9603402e738137eb",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2508.19798",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "A Small-Sample Sound Generation Methods Based on the Combination of Time and Frequency Domains",
+        "url": "https://www.semanticscholar.org/paper/7fef0f95cb6dcc43d6bdb365b6c7c48d39cf3cb4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/DDCLS66240.2025.11066031",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Adventurer: Optimizing Vision Mamba Architecture Designs for Efficiency",
+        "url": "https://www.semanticscholar.org/paper/59e775a4102177e52d4d497a8f1178f8b30807aa",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/CVPR52734.2025.02807",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Optimizing Veterinary Language Modeling with Mamba Architecture for Long-Sequence Efficiency",
+        "url": "https://www.semanticscholar.org/paper/e37487be3781ca46b995c63cb46f84a0537e91aa",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3721201.3721413",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Efficiency Optimization via Mission Profile-Based Power Routing by Design of Hybrid Grid Connecting Converter Architecture",
+        "url": "https://www.semanticscholar.org/paper/b28229f409d26bd0b652192b0aabc8ecc71b0e77",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/8782709/8932554/10035299.pdf",
+        "doi_url": "https://doi.org/10.1109/OJPEL.2023.3241778",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Deep Reinforcement Learning-Based Energy Efficiency Optimization for RIS-Aided Integrated Satellite-Aerial-Terrestrial Relay Networks",
+        "url": "https://www.semanticscholar.org/paper/a72eb8055cd8a736b0796ce9c68d00a52f4d7e4e",
+        "pdf_url": "https://mdsoar.org/bitstreams/1bb58842-02ac-44a0-a826-317ccb6c26e0/download",
+        "doi_url": "https://doi.org/10.1109/TCOMM.2024.3370618",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Mamba-Spike: Enhancing the Mamba Architecture with a Spiking Front-End for Efficient Temporal Data Processing",
+        "url": "https://www.semanticscholar.org/paper/e45dd9b0a10b5f07388a943cbc655945fcc6e52a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2408.11823",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "MambaVesselNet: A Hybrid CNN-Mamba Architecture for 3D Cerebrovascular Segmentation",
+        "url": "https://www.semanticscholar.org/paper/ac3c1e39e45680229d45f53c2041ea51771881e9",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3696409.3700231",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "BEFNet: A Hybrid CNN-Mamba Architecture for Accurate Skin Lesion Image Segmentation",
+        "url": "https://www.semanticscholar.org/paper/ad4281a77a8804ffdb0751f1a3147fb2569abd02",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/BIBM62325.2024.10822106",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Revolutionizing automated pear picking using Mamba architecture",
+        "url": "https://www.semanticscholar.org/paper/ffc5caf19b99381076a6140bd3c9527d4ade8c5a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1186/s13007-024-01287-z",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Performance and Efficiency Optimization of Multi-layer IoT Edge Architecture",
+        "url": "https://www.semanticscholar.org/paper/0d3c57a69e6da91814b569895e988857cecc4005",
+        "pdf_url": "https://oulurepo.oulu.fi/bitstream/10024/28790/1/nbnfi-fe2020051535759.pdf",
+        "doi_url": "https://doi.org/10.1109/6GSUMMIT49458.2020.9083896",
+        "source": "semantic_scholar",
+        "year": 2020
+      },
+      {
+        "title": "Green Buildings: Human-Centered and Energy Efficiency Optimization Strategies",
+        "url": "https://www.semanticscholar.org/paper/14c2cc6d13cbb9ad2ccbb5db9c0de8ba946db1ba",
+        "pdf_url": "https://www.mdpi.com/1996-1073/16/9/3681/pdf?version=1682420609",
+        "doi_url": "https://doi.org/10.3390/en16093681",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "MedSegMamba: 3D CNN-Mamba Hybrid Architecture for Brain Segmentation",
+        "url": "https://www.semanticscholar.org/paper/edd4b1ecec0c62cc8181bd0365116fbb99072568",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2409.08307",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Energy Efficiency Optimization in LoRa Networks—A Deep Learning Approach",
+        "url": "https://www.semanticscholar.org/paper/b6ba1bee948d131fa20704f20ab75ae3d9b26f52",
+        "pdf_url": "https://hal.archives-ouvertes.fr/hal-02977256/file/manuscrip.pdf",
+        "doi_url": "https://doi.org/10.1109/TITS.2022.3183073",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Mamba or RWKV: Exploring High-Quality and High-Efficiency Segment Anything Model",
+        "url": "https://www.semanticscholar.org/paper/ff72bf4782793d026b979e11de812f5d14bfe0bf",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2406.19369",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Efficiency Optimization of Large-Scale Language Models Based on Deep Learning in Natural Language Processing Tasks",
+        "url": "https://www.semanticscholar.org/paper/e8c6f51dfa1eb58af00d1cac54705387aabd6707",
+        "pdf_url": "https://arxiv.org/pdf/2405.11704",
+        "doi_url": "https://doi.org/10.1109/ICSECE61636.2024.10729518",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "url": "http://arxiv.org/abs/2512.25071v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "url": "http://arxiv.org/abs/2512.25065v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+        "url": "http://arxiv.org/abs/2512.25063v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25063v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "url": "http://arxiv.org/abs/2512.25056v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+        "url": "http://arxiv.org/abs/2512.25048v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25048v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "url": "http://arxiv.org/abs/2512.25046v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "url": "http://arxiv.org/abs/2512.25045v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Thin Tree Verification is coNP-Complete",
+        "url": "http://arxiv.org/abs/2512.25043v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25043v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "url": "http://arxiv.org/abs/2512.25042v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+        "url": "http://arxiv.org/abs/2512.25037v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25037v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Computational Analysis of Disease Progression in Pediatric Pulmonary Arterial Hypertension",
+        "url": "http://arxiv.org/abs/2512.25027v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25027v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Modewise Additive Factor Model for Matrix Time Series",
+        "url": "http://arxiv.org/abs/2512.25025v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25025v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Diffusion Language Models are Provably Optimal Parallel Samplers",
+        "url": "http://arxiv.org/abs/2512.25014v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25014v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "At the intersection of Numerical Analysis and Spectral Geometry",
+        "url": "http://arxiv.org/abs/2512.25012v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25012v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM",
+        "url": "http://arxiv.org/abs/2512.25008v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25008v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Fast Poisson brackets and constraint algebras in canonical gravity",
+        "url": "http://arxiv.org/abs/2512.25007v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25007v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "BiT-MamSleep: Bidirectional Temporal Mamba for EEG Sleep Staging",
+        "url": "https://www.semanticscholar.org/paper/94174442e8212a48fb5bf78d5f06ff7bbd8b6ec1",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2411.01589",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "UU-Mamba: Uncertainty-aware U-Mamba for Cardiovascular Segmentation",
+        "url": "https://www.semanticscholar.org/paper/fb41e4dea955b8df68a6d02e93d7b00aa966e9bd",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2409.14305",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "AlphaSeek FinRL: A Hybrid Deep Learning Architecture for High-Frequency Cryptocurrency Trading",
+        "url": "https://www.semanticscholar.org/paper/2841087f7ceaa10862d704619de1aa59d75427a9",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/IDS66066.2025.00018",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "AV-NAS: Audio-Visual Multi-Level Semantic Neural Architecture Search for Video Hashing",
+        "url": "https://www.semanticscholar.org/paper/56506343d0b046450329190e4e34c88105702134",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3726302.3729899",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "X-IL: Exploring the Design Space of Imitation Learning Policies",
+        "url": "https://www.semanticscholar.org/paper/00143552fed894b99f9d0cd4170190da517b7706",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2502.12330",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Integrating neural networks with advanced optimization techniques for accurate kidney disease diagnosis",
+        "url": "https://www.semanticscholar.org/paper/957b6619996aff3ef97320d08f830dbd14aee94d",
+        "pdf_url": "https://doi.org/10.1038/s41598-024-71410-6",
+        "doi_url": "https://doi.org/10.1038/s41598-024-71410-6",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "CHAOS THEORY, ADVANCED METAHEURISTIC ALGORITHMS AND THEIR NEWFANGLED DEEP LEARNING ARCHITECTURE OPTIMIZATION APPLICATIONS: A REVIEW",
+        "url": "https://www.semanticscholar.org/paper/337d70ca59f72986eebdb439a625bb4cdf5af912",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1142/s0218348x24300010",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "A Comprehensive Review on Beamforming Optimization Techniques for IRS assisted Energy Harvesting",
+        "url": "https://www.semanticscholar.org/paper/f60a3d178150b7c3f6c2a4b9f3043707203b9c51",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/s11831-024-10118-2",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Neural Architecture Search and Automatic Code Optimization: Techniques, trends, and challenges",
+        "url": "https://www.semanticscholar.org/paper/6e9e28a0c867474c08f7d58c20d3dbb824a4542e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1016/j.sysarc.2025.103645",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Deep convolutional neural network (CNN) model optimization techniques—Review for medical imaging",
+        "url": "https://www.semanticscholar.org/paper/9d002ef616b5cd165ed9f592c9f9ea9000298524",
+        "pdf_url": "https://doi.org/10.3934/math.2024998",
+        "doi_url": "https://doi.org/10.3934/math.2024998",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Optimization Techniques for 5G O-RAN Deployment in Cloud Environments",
+        "url": "https://www.semanticscholar.org/paper/60ff15ea28259129cfbc97f537b314d8d64c36d3",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.36676/dira.v12.i3.135",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Performance Analysis of Model Optimization Techniques using Pre-Trained CNN Models",
+        "url": "https://www.semanticscholar.org/paper/3d03d8f6703512143eab9b7aa69fd32107d08aa2",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ICWITE59797.2024.10502848",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Optimizing Performance in Distributed Cloud Architectures: A Review of Optimization Techniques and Tools",
+        "url": "https://www.semanticscholar.org/paper/efd8e880af0fd0a0d97640333d9a61074084b5f8",
+        "pdf_url": "https://doi.org/10.33022/ijcs.v13i2.3805",
+        "doi_url": "https://doi.org/10.33022/ijcs.v13i2.3805",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Automatic Gain Tuning for Humanoid Robots Walking Architectures Using Gradient-Free Optimization Techniques",
+        "url": "https://www.semanticscholar.org/paper/26a5440b3832af6069fca9fbfe9211e3946c8956",
+        "pdf_url": "http://arxiv.org/pdf/2409.18649",
+        "doi_url": "https://doi.org/10.1109/Humanoids58906.2024.10769876",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Holistic Adaptive Optimization Techniques for Distributed Data Streaming Systems",
+        "url": "https://www.semanticscholar.org/paper/e0db1a509a270ffd8fa9e6e1bd89abadc5673598",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.31110/colins/2024-2/009",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "MARCA: Mamba Accelerator with ReConfigurable Architecture",
+        "url": "https://www.semanticscholar.org/paper/3580d49c8c9181bdd49e96fd6efd88cfef36872b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3676536.3676798",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Mamba in Vision: A Comprehensive Survey of Techniques and Applications",
+        "url": "https://www.semanticscholar.org/paper/c8674838dadedab5815f2d6ada9fd768df592bf6",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2410.03105",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "VimGeo: Efficient Cross-View Geo-Localization with Vision Mamba Architecture",
+        "url": "https://www.semanticscholar.org/paper/25a77da6b22b66136e63263e85e78beb9c3d7c87",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.24963/ijcai.2025/133",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "GLMA: Global-to-Local Mamba Architecture for Low-Light Image Enhancement",
+        "url": "https://www.semanticscholar.org/paper/c8431f7241fe2e3a94d23b8dff506ae03d3313e9",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.3390/app152010931",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Learning Dynamic Brain Network Representation Based on Graph Mamba Architecture",
+        "url": "https://www.semanticscholar.org/paper/7d893f5aba28b7237e9233489a6155bafc7b9ea6",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/BIBM62325.2024.10822717",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "A Survey on Inference Optimization Techniques for Mixture of Experts Models",
+        "url": "https://www.semanticscholar.org/paper/edfb9db6d086bb08bb8ccc4313e738cf1b85ffdf",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2412.14219",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Approximation Algorithms for Fair Repetitive Scheduling",
+        "url": "http://arxiv.org/abs/2512.25020v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25020v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Strategies for Overcoming Gradient Troughs in the ADAPT-VQE Algorithm",
+        "url": "http://arxiv.org/abs/2512.25004v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25004v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Uniqueness for stochastic differential equations in Hilbert spaces with irregular drift",
+        "url": "http://arxiv.org/abs/2512.25003v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.25003v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Basic Inequalities for First-Order Optimization with Applications to Statistical Risk Analysis",
+        "url": "http://arxiv.org/abs/2512.24999v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24999v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "Noise resilient real-time phase imaging via undetected light",
+        "url": "http://arxiv.org/abs/2512.24993v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24993v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      },
+      {
+        "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+        "url": "http://arxiv.org/abs/2512.24986v1",
+        "pdf_url": "https://arxiv.org/pdf/2512.24986v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "offline_nips": [
+        {
+          "title": "Achilles' Heel of Mamba: Essential difficulties of the Mamba architecture demonstrated by synthetic data",
+          "url": "https://openreview.net/forum?id=4p28lkk44b",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Mamba State-Space Models Can Be Strong Downstream Learners",
+          "url": "https://openreview.net/forum?id=C3t6GMPnC5",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Is Mamba Compatible with Trajectory Optimization in Offline Reinforcement Learning?",
+          "url": "https://neurips.cc/virtual/2024/poster/93011",
+          "pdf_url": "https://openreview.net/pdf?id=yWSxjlFsmX",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Pruning-Robust Mamba with Asymmetric Multi-Scale Scanning Paths",
+          "url": "https://openreview.net/forum?id=BZSTC2RMEd",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "DiMSUM: Diffusion Mamba - A Scalable and Unified Spatial-Frequency Method for Image Generation",
+          "url": "https://neurips.cc/virtual/2024/poster/95642",
+          "pdf_url": "https://openreview.net/pdf?id=KqbLzSIXkm",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing",
+          "url": "https://openreview.net/forum?id=QwY1vk67T3",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Mamba Modulation: On the Length Generalization of Mamba Models",
+          "url": "https://openreview.net/forum?id=QEU047bE8p",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Demystify Mamba in Vision: A Linear Attention Perspective",
+          "url": "https://neurips.cc/virtual/2024/poster/95559",
+          "pdf_url": "https://openreview.net/pdf?id=LvJ1R88KAk",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Vision Mamba Mender",
+          "url": "https://neurips.cc/virtual/2024/poster/96306",
+          "pdf_url": "https://openreview.net/pdf?id=9VnevS2YoR",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Routing Mamba: Scaling State Space Models with Mixture-of-Experts Projection",
+          "url": "https://openreview.net/forum?id=lqywifxoo1",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Block-Biased Mamba for Long-Range Sequence Processing",
+          "url": "https://openreview.net/forum?id=5WKEH9LhAQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Hybrid Mamba for Few-Shot Segmentation",
+          "url": "https://neurips.cc/virtual/2024/poster/95222",
+          "pdf_url": "https://openreview.net/pdf?id=Qe2BKeCEBC",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        }
+      ],
+      "offline_iclr": [
+        {
+          "title": "Active Audio Cancellation with Multi-Band Mamba Network",
+          "url": "https://openreview.net/forum?id=LwLaFpJpfM",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Sparse Mamba: Reinforcing Controllability In Structural State Space Models",
+          "url": "https://openreview.net/forum?id=vOfDGYGVyj",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Meta-Black-Box-Optimization through Offline Q-function Learning with Mamba Architecture",
+          "url": "https://openreview.net/forum?id=cSgEW7EZ9h",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Autoregressive Pretraining with Mamba in Vision",
+          "url": "https://iclr.cc/virtual/2025/poster/29755",
+          "pdf_url": "https://openreview.net/pdf?id=PQpvhUrA1C",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "MAMBA STATE-SPACE MODELS ARE LYAPUNOV-STABLE LEARNERS",
+          "url": "https://openreview.net/forum?id=i9RTCC6whL",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Memba: Membrane-driven Parameter-Efficient Fine-Tuning for Mamba",
+          "url": "https://openreview.net/forum?id=eDZjLPfsin",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Spectral Spatial Traversing in Point Clouds: Enhancing Data Analysis with Mamba Networks",
+          "url": "https://openreview.net/forum?id=SU3lZ8jrRD",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "MambaSL: Exploring Single-Layer Mamba for Time Series Classification",
+          "url": "https://openreview.net/forum?id=YDl4vqQqGP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "MBMamba: When Memory Buffer Meets Mamba for Structure-Aware Image Deblurring",
+          "url": "https://openreview.net/forum?id=uAmbHy4R8f",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Self-predictive Mamba: Improving Multi-agent Reinforcement Learning with Self-predictive Encoding",
+          "url": "https://openreview.net/forum?id=7ZyFjPUeJp",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "MambaQuant: Quantizing the Mamba Family with Variance Aligned Rotation Methods",
+          "url": "https://iclr.cc/virtual/2025/poster/30065",
+          "pdf_url": "https://openreview.net/pdf?id=KI45uDnmzv",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "3DSMT: A Hybrid Spiking Mamba-Transformer for Point Cloud Analysis",
+          "url": "https://openreview.net/forum?id=KkoS6y0pHP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Graph Mamba Operator for Learning the Dynamics of Particle-based Systems",
+          "url": "https://openreview.net/forum?id=6CO8dwHl4F",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "bio2token: all-atom tokenization of any biomolecular structure with mamba",
+          "url": "https://openreview.net/forum?id=6ktqrC1Bpf",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Mamba Neural Operator: Who Wins? Transformers vs. State-Space Models for PDEs",
+          "url": "https://openreview.net/forum?id=VtP7CamOR5",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "MAP: Unleashing Hybrid Mamba-Transformer Vision Backbone’s Potential with Masked Autoregressive Pretraining",
+          "url": "https://openreview.net/forum?id=hBVywPrw6d",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Mamba-Reg: Vision Mamba Also Needs Registers",
+          "url": "https://openreview.net/forum?id=wxEASOHHdT",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Layer-Wise Analysis in Exploring the Normalization Strategies in Mamba",
+          "url": "https://openreview.net/forum?id=NX6oMuoLxu",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Speak, Edit, Repeat: High-Fidelity Voice Editing and Zero-Shot TTS with Cross-Attentive Mamba",
+          "url": "https://openreview.net/forum?id=yEKyIwJvvl",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Mambular: A Sequential Model for Tabular Deep Learning",
+          "url": "https://openreview.net/forum?id=wElgE9qBb5",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "MambaFormer-MOE: Mamba-Transformer-based Mixture-of-Experts for Time Series Prediction",
+          "url": "https://openreview.net/forum?id=55Ruu7bF4b",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Can Mamba Always Enjoy the \"Free Lunch\"?",
+          "url": "https://openreview.net/forum?id=UYarAv7rUx",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Learning Mamba as a Continual Learner",
+          "url": "https://openreview.net/forum?id=1TXDtnDIsV",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "WIMFRIS: WIndow Mamba Fusion and Parameter Efficient Tuning for Referring Image Segmentation",
+          "url": "https://openreview.net/forum?id=WnRzN4U8Y8",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Is Bidirectionality Necessary in Mamba for Time Series Forecasting?",
+          "url": "https://openreview.net/forum?id=N6MIqE11eF",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Architecturally Aligned Comparisons Between ConvNets And Vision Mambas",
+          "url": "https://openreview.net/forum?id=QBiFoWQp3n",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "DiffImp: Efficient Diffusion Model for Probabilistic Time Series Imputation with Bidirectional Mamba Backbone",
+          "url": "https://openreview.net/forum?id=j1OucVFZMJ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Mamba Unchained: A Permutation-Invariant Approach to Multivariate Time Series",
+          "url": "https://openreview.net/forum?id=lqhUcL7mqZ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "An Empirical Study on Normalization in Mamba",
+          "url": "https://openreview.net/forum?id=YK8eO7BEkJ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Can Mamba Learn In Context with Outliers? A Theoretical Generalization Analysis",
+          "url": "https://openreview.net/forum?id=tswBfpkwHn",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "From Markov to Laplace: How Mamba In-Context Learns Markov Chains",
+          "url": "https://openreview.net/forum?id=kmK3WSCOCT",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "SQuBa: Speech Mamba Language Model with Querying-Attention for Efficient Summarization",
+          "url": "https://openreview.net/forum?id=zOMa82W1HV",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "MambaTS: Improved Selective State Space Models for Long-term Time Series Forecasting",
+          "url": "https://openreview.net/forum?id=vEtDApqkNR",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Exploring contextual modeling with linear complexity for point cloud segmentation",
+          "url": "https://openreview.net/forum?id=E1ML0nEReb",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Simplified Mamba with Disentangled Dependency Encoding for Long-Term Time Series Forecasting",
+          "url": "https://openreview.net/forum?id=9VRFPC29nb",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Jamba: Hybrid Transformer-Mamba Language Models",
+          "url": "https://iclr.cc/virtual/2025/poster/30115",
+          "pdf_url": "https://openreview.net/pdf?id=JFPaD7lpBD",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Mimetic Initialization Helps State Space Models Learn to Recall",
+          "url": "https://openreview.net/forum?id=iVy7aRMb0K",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "Understanding Input Selectivity in Mamba: Impact on Approximation Power, Memorization, and Associative Recall Capacity",
+          "url": "https://icml.cc/virtual/2025/poster/43867",
+          "pdf_url": "https://openreview.net/pdf?id=rnMH9njZxb",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+          "url": "http://arxiv.org/abs/2512.25075v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25075v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+          "url": "http://arxiv.org/abs/2512.25073v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25073v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Coordinated Humanoid Manipulation with Choice Policies",
+          "url": "http://arxiv.org/abs/2512.25072v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25072v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Scaling Open-Ended Reasoning to Predict the Future",
+          "url": "http://arxiv.org/abs/2512.25070v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25070v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+          "url": "http://arxiv.org/abs/2512.25064v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25064v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+          "url": "http://arxiv.org/abs/2512.25061v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25061v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "On the geometry and topology of representations: the manifolds of modular addition",
+          "url": "http://arxiv.org/abs/2512.25060v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25060v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+          "url": "http://arxiv.org/abs/2512.25059v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25059v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+          "url": "http://arxiv.org/abs/2512.25055v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25055v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+          "url": "http://arxiv.org/abs/2512.25052v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25052v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+          "url": "http://arxiv.org/abs/2512.25040v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25040v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+          "url": "http://arxiv.org/abs/2512.25033v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25033v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Modeling Language as a Sequence of Thoughts",
+          "url": "http://arxiv.org/abs/2512.25026v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25026v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+          "url": "http://arxiv.org/abs/2512.25023v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25023v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Strengthening Dual Bounds for Multicommodity Capacitated Network Design with Unsplittable Flow Constraints",
+          "url": "http://arxiv.org/abs/2512.25018v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25018v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+          "url": "http://arxiv.org/abs/2512.25015v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25015v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Numerical study of boson mixtures with multi-component continuous matrix product states",
+          "url": "http://arxiv.org/abs/2512.24998v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24998v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+          "url": "http://arxiv.org/abs/2512.24991v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24991v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Attribution-Guided Distillation of Matryoshka Sparse Autoencoders",
+          "url": "http://arxiv.org/abs/2512.24975v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24975v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Evaluating the Impact of Compression Techniques on the Robustness of CNNs under Natural Corruptions",
+          "url": "http://arxiv.org/abs/2512.24971v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24971v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "The least prime with a given cycle type",
+          "url": "http://arxiv.org/abs/2512.24963v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24963v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Semi-overlapping Multi-bandit Best Arm Identification for Sequential Support Network Learning",
+          "url": "http://arxiv.org/abs/2512.24959v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24959v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Laser intracavity absorption magnetometry for optical quantum sensing",
+          "url": "http://arxiv.org/abs/2512.24951v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24951v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "ProDM: Synthetic Reality-driven Property-aware Progressive Diffusion Model for Coronary Calcium Motion Correction in Non-gated Chest CT",
+          "url": "http://arxiv.org/abs/2512.24948v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24948v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "CPJ: Explainable Agricultural Pest Diagnosis via Caption-Prompt-Judge with LLM-Judged Refinement",
+          "url": "http://arxiv.org/abs/2512.24947v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24947v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+          "url": "http://arxiv.org/abs/2512.25071v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25071v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+          "url": "http://arxiv.org/abs/2512.25065v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25065v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+          "url": "http://arxiv.org/abs/2512.25063v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25063v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+          "url": "http://arxiv.org/abs/2512.25056v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25056v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+          "url": "http://arxiv.org/abs/2512.25048v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25048v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Extreme nonlinear optics in optical fibers",
+          "url": "http://arxiv.org/abs/2512.25046v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25046v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+          "url": "http://arxiv.org/abs/2512.25045v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25045v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Thin Tree Verification is coNP-Complete",
+          "url": "http://arxiv.org/abs/2512.25043v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25043v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Compound Estimation for Binomials",
+          "url": "http://arxiv.org/abs/2512.25042v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25042v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+          "url": "http://arxiv.org/abs/2512.25037v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25037v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Computational Analysis of Disease Progression in Pediatric Pulmonary Arterial Hypertension",
+          "url": "http://arxiv.org/abs/2512.25027v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25027v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Modewise Additive Factor Model for Matrix Time Series",
+          "url": "http://arxiv.org/abs/2512.25025v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25025v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Diffusion Language Models are Provably Optimal Parallel Samplers",
+          "url": "http://arxiv.org/abs/2512.25014v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25014v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "At the intersection of Numerical Analysis and Spectral Geometry",
+          "url": "http://arxiv.org/abs/2512.25012v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25012v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM",
+          "url": "http://arxiv.org/abs/2512.25008v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25008v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Fast Poisson brackets and constraint algebras in canonical gravity",
+          "url": "http://arxiv.org/abs/2512.25007v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25007v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Approximation Algorithms for Fair Repetitive Scheduling",
+          "url": "http://arxiv.org/abs/2512.25020v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25020v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Strategies for Overcoming Gradient Troughs in the ADAPT-VQE Algorithm",
+          "url": "http://arxiv.org/abs/2512.25004v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25004v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Uniqueness for stochastic differential equations in Hilbert spaces with irregular drift",
+          "url": "http://arxiv.org/abs/2512.25003v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.25003v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Basic Inequalities for First-Order Optimization with Applications to Statistical Risk Analysis",
+          "url": "http://arxiv.org/abs/2512.24999v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24999v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "Noise resilient real-time phase imaging via undetected light",
+          "url": "http://arxiv.org/abs/2512.24993v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24993v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        },
+        {
+          "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+          "url": "http://arxiv.org/abs/2512.24986v1",
+          "pdf_url": "https://arxiv.org/pdf/2512.24986v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2025
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "SSM-Net: Enhancing Compressed Sensing Image Reconstruction with Mamba Architecture and Fast Iterative Shrinking Threshold Algorithm Optimization",
+          "url": "https://www.semanticscholar.org/paper/4d6bae2f8fdadd8e8907dd1c5a0589ff671d39de",
+          "pdf_url": "https://doi.org/10.3390/s25041026",
+          "doi_url": "https://doi.org/10.3390/s25041026",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "M3: Mamba-assisted Multi-Circuit Optimization via MBRL with Effective Scheduling",
+          "url": "https://www.semanticscholar.org/paper/be27499b05b973cfe3b35cdfacc4d9738a157826",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2411.16019",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Molecular Optimization with Mamba-Based GFlowNet",
+          "url": "https://www.semanticscholar.org/paper/376702ca26d33a5c3f3f860666892c70d68e024e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICEIC64972.2025.10879751",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "A Hybrid Mamba-ECA-UNet Architecture for Multi-Task Non-Intrusive Load Monitoring",
+          "url": "https://www.semanticscholar.org/paper/563ed7f4528dd298c38ff29fcfc5c64d3bb2d4fb",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/PSETC65535.2025.11239093",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "HTM-PPO: hybrid transformer-Mamba proximal policy optimization for multiagent traffic signal control",
+          "url": "https://www.semanticscholar.org/paper/b500605efd0c883efda13dd66cf68cd3e7035aa9",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1117/12.3092673",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Improving Stock Price Forecasting with Mamba Deep Learning Model",
+          "url": "https://www.semanticscholar.org/paper/461903748e1724e05771ac6ba5ef52ea6f659523",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.55228/jtst140408",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Rep-Mamba: Re-Parameterization in Vision Mamba for Lightweight Remote Sensing Image Super-Resolution",
+          "url": "https://www.semanticscholar.org/paper/f2a4bf5bac1bdbb9527b01656f1b6f93d6625d90",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/TGRS.2025.3597745",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Mamba-Driven Strategy for Multi-Agent Games: Towards a Stable Cooperative Value Framework",
+          "url": "https://www.semanticscholar.org/paper/8c4e87a55f1b317c8a1d098ea168f62a68160fd1",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.23919/CCC64809.2025.11179120",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Enhancing image restoration: parameter-assisted and edge-based inpainting with U-Net mamba",
+          "url": "https://www.semanticscholar.org/paper/bc09e3ede4be233f8e186e105cfa23d147a352d6",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/s11760-025-04045-3",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "FusionSort: Enhanced Cluttered Waste Segmentation with Advanced Decoding and Comprehensive Modality Optimization",
+          "url": "https://www.semanticscholar.org/paper/208779324d6c52ad1eceb0ad9603402e738137eb",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2508.19798",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "A Small-Sample Sound Generation Methods Based on the Combination of Time and Frequency Domains",
+          "url": "https://www.semanticscholar.org/paper/7fef0f95cb6dcc43d6bdb365b6c7c48d39cf3cb4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/DDCLS66240.2025.11066031",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Adventurer: Optimizing Vision Mamba Architecture Designs for Efficiency",
+          "url": "https://www.semanticscholar.org/paper/59e775a4102177e52d4d497a8f1178f8b30807aa",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/CVPR52734.2025.02807",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Optimizing Veterinary Language Modeling with Mamba Architecture for Long-Sequence Efficiency",
+          "url": "https://www.semanticscholar.org/paper/e37487be3781ca46b995c63cb46f84a0537e91aa",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3721201.3721413",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Efficiency Optimization via Mission Profile-Based Power Routing by Design of Hybrid Grid Connecting Converter Architecture",
+          "url": "https://www.semanticscholar.org/paper/b28229f409d26bd0b652192b0aabc8ecc71b0e77",
+          "pdf_url": "https://ieeexplore.ieee.org/ielx7/8782709/8932554/10035299.pdf",
+          "doi_url": "https://doi.org/10.1109/OJPEL.2023.3241778",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Deep Reinforcement Learning-Based Energy Efficiency Optimization for RIS-Aided Integrated Satellite-Aerial-Terrestrial Relay Networks",
+          "url": "https://www.semanticscholar.org/paper/a72eb8055cd8a736b0796ce9c68d00a52f4d7e4e",
+          "pdf_url": "https://mdsoar.org/bitstreams/1bb58842-02ac-44a0-a826-317ccb6c26e0/download",
+          "doi_url": "https://doi.org/10.1109/TCOMM.2024.3370618",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Mamba-Spike: Enhancing the Mamba Architecture with a Spiking Front-End for Efficient Temporal Data Processing",
+          "url": "https://www.semanticscholar.org/paper/e45dd9b0a10b5f07388a943cbc655945fcc6e52a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2408.11823",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "MambaVesselNet: A Hybrid CNN-Mamba Architecture for 3D Cerebrovascular Segmentation",
+          "url": "https://www.semanticscholar.org/paper/ac3c1e39e45680229d45f53c2041ea51771881e9",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3696409.3700231",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "BEFNet: A Hybrid CNN-Mamba Architecture for Accurate Skin Lesion Image Segmentation",
+          "url": "https://www.semanticscholar.org/paper/ad4281a77a8804ffdb0751f1a3147fb2569abd02",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/BIBM62325.2024.10822106",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Revolutionizing automated pear picking using Mamba architecture",
+          "url": "https://www.semanticscholar.org/paper/ffc5caf19b99381076a6140bd3c9527d4ade8c5a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1186/s13007-024-01287-z",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Performance and Efficiency Optimization of Multi-layer IoT Edge Architecture",
+          "url": "https://www.semanticscholar.org/paper/0d3c57a69e6da91814b569895e988857cecc4005",
+          "pdf_url": "https://oulurepo.oulu.fi/bitstream/10024/28790/1/nbnfi-fe2020051535759.pdf",
+          "doi_url": "https://doi.org/10.1109/6GSUMMIT49458.2020.9083896",
+          "source": "semantic_scholar",
+          "year": 2020
+        },
+        {
+          "title": "Green Buildings: Human-Centered and Energy Efficiency Optimization Strategies",
+          "url": "https://www.semanticscholar.org/paper/14c2cc6d13cbb9ad2ccbb5db9c0de8ba946db1ba",
+          "pdf_url": "https://www.mdpi.com/1996-1073/16/9/3681/pdf?version=1682420609",
+          "doi_url": "https://doi.org/10.3390/en16093681",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "MedSegMamba: 3D CNN-Mamba Hybrid Architecture for Brain Segmentation",
+          "url": "https://www.semanticscholar.org/paper/edd4b1ecec0c62cc8181bd0365116fbb99072568",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2409.08307",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Energy Efficiency Optimization in LoRa Networks—A Deep Learning Approach",
+          "url": "https://www.semanticscholar.org/paper/b6ba1bee948d131fa20704f20ab75ae3d9b26f52",
+          "pdf_url": "https://hal.archives-ouvertes.fr/hal-02977256/file/manuscrip.pdf",
+          "doi_url": "https://doi.org/10.1109/TITS.2022.3183073",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Mamba or RWKV: Exploring High-Quality and High-Efficiency Segment Anything Model",
+          "url": "https://www.semanticscholar.org/paper/ff72bf4782793d026b979e11de812f5d14bfe0bf",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2406.19369",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Efficiency Optimization of Large-Scale Language Models Based on Deep Learning in Natural Language Processing Tasks",
+          "url": "https://www.semanticscholar.org/paper/e8c6f51dfa1eb58af00d1cac54705387aabd6707",
+          "pdf_url": "https://arxiv.org/pdf/2405.11704",
+          "doi_url": "https://doi.org/10.1109/ICSECE61636.2024.10729518",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "BiT-MamSleep: Bidirectional Temporal Mamba for EEG Sleep Staging",
+          "url": "https://www.semanticscholar.org/paper/94174442e8212a48fb5bf78d5f06ff7bbd8b6ec1",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2411.01589",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "UU-Mamba: Uncertainty-aware U-Mamba for Cardiovascular Segmentation",
+          "url": "https://www.semanticscholar.org/paper/fb41e4dea955b8df68a6d02e93d7b00aa966e9bd",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2409.14305",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "AlphaSeek FinRL: A Hybrid Deep Learning Architecture for High-Frequency Cryptocurrency Trading",
+          "url": "https://www.semanticscholar.org/paper/2841087f7ceaa10862d704619de1aa59d75427a9",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/IDS66066.2025.00018",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "AV-NAS: Audio-Visual Multi-Level Semantic Neural Architecture Search for Video Hashing",
+          "url": "https://www.semanticscholar.org/paper/56506343d0b046450329190e4e34c88105702134",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3726302.3729899",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "X-IL: Exploring the Design Space of Imitation Learning Policies",
+          "url": "https://www.semanticscholar.org/paper/00143552fed894b99f9d0cd4170190da517b7706",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2502.12330",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Integrating neural networks with advanced optimization techniques for accurate kidney disease diagnosis",
+          "url": "https://www.semanticscholar.org/paper/957b6619996aff3ef97320d08f830dbd14aee94d",
+          "pdf_url": "https://doi.org/10.1038/s41598-024-71410-6",
+          "doi_url": "https://doi.org/10.1038/s41598-024-71410-6",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "CHAOS THEORY, ADVANCED METAHEURISTIC ALGORITHMS AND THEIR NEWFANGLED DEEP LEARNING ARCHITECTURE OPTIMIZATION APPLICATIONS: A REVIEW",
+          "url": "https://www.semanticscholar.org/paper/337d70ca59f72986eebdb439a625bb4cdf5af912",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1142/s0218348x24300010",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "A Comprehensive Review on Beamforming Optimization Techniques for IRS assisted Energy Harvesting",
+          "url": "https://www.semanticscholar.org/paper/f60a3d178150b7c3f6c2a4b9f3043707203b9c51",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/s11831-024-10118-2",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Neural Architecture Search and Automatic Code Optimization: Techniques, trends, and challenges",
+          "url": "https://www.semanticscholar.org/paper/6e9e28a0c867474c08f7d58c20d3dbb824a4542e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1016/j.sysarc.2025.103645",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Deep convolutional neural network (CNN) model optimization techniques—Review for medical imaging",
+          "url": "https://www.semanticscholar.org/paper/9d002ef616b5cd165ed9f592c9f9ea9000298524",
+          "pdf_url": "https://doi.org/10.3934/math.2024998",
+          "doi_url": "https://doi.org/10.3934/math.2024998",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Optimization Techniques for 5G O-RAN Deployment in Cloud Environments",
+          "url": "https://www.semanticscholar.org/paper/60ff15ea28259129cfbc97f537b314d8d64c36d3",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.36676/dira.v12.i3.135",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Performance Analysis of Model Optimization Techniques using Pre-Trained CNN Models",
+          "url": "https://www.semanticscholar.org/paper/3d03d8f6703512143eab9b7aa69fd32107d08aa2",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ICWITE59797.2024.10502848",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Optimizing Performance in Distributed Cloud Architectures: A Review of Optimization Techniques and Tools",
+          "url": "https://www.semanticscholar.org/paper/efd8e880af0fd0a0d97640333d9a61074084b5f8",
+          "pdf_url": "https://doi.org/10.33022/ijcs.v13i2.3805",
+          "doi_url": "https://doi.org/10.33022/ijcs.v13i2.3805",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Automatic Gain Tuning for Humanoid Robots Walking Architectures Using Gradient-Free Optimization Techniques",
+          "url": "https://www.semanticscholar.org/paper/26a5440b3832af6069fca9fbfe9211e3946c8956",
+          "pdf_url": "http://arxiv.org/pdf/2409.18649",
+          "doi_url": "https://doi.org/10.1109/Humanoids58906.2024.10769876",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Holistic Adaptive Optimization Techniques for Distributed Data Streaming Systems",
+          "url": "https://www.semanticscholar.org/paper/e0db1a509a270ffd8fa9e6e1bd89abadc5673598",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.31110/colins/2024-2/009",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "MARCA: Mamba Accelerator with ReConfigurable Architecture",
+          "url": "https://www.semanticscholar.org/paper/3580d49c8c9181bdd49e96fd6efd88cfef36872b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3676536.3676798",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Mamba in Vision: A Comprehensive Survey of Techniques and Applications",
+          "url": "https://www.semanticscholar.org/paper/c8674838dadedab5815f2d6ada9fd768df592bf6",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2410.03105",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "VimGeo: Efficient Cross-View Geo-Localization with Vision Mamba Architecture",
+          "url": "https://www.semanticscholar.org/paper/25a77da6b22b66136e63263e85e78beb9c3d7c87",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.24963/ijcai.2025/133",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "GLMA: Global-to-Local Mamba Architecture for Low-Light Image Enhancement",
+          "url": "https://www.semanticscholar.org/paper/c8431f7241fe2e3a94d23b8dff506ae03d3313e9",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.3390/app152010931",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Learning Dynamic Brain Network Representation Based on Graph Mamba Architecture",
+          "url": "https://www.semanticscholar.org/paper/7d893f5aba28b7237e9233489a6155bafc7b9ea6",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/BIBM62325.2024.10822717",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "A Survey on Inference Optimization Techniques for Mixture of Experts Models",
+          "url": "https://www.semanticscholar.org/paper/edfb9db6d086bb08bb8ccc4313e738cf1b85ffdf",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2412.14219",
+          "source": "semantic_scholar",
+          "year": 2024
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Autoregressive Pretraining with Mamba in Vision",
+        "pdf": "https://openreview.net/pdf?id=PQpvhUrA1C"
+      },
+      {
+        "title": "Is Mamba Compatible with Trajectory Optimization in Offline Reinforcement Learning?",
+        "pdf": "https://openreview.net/pdf?id=yWSxjlFsmX"
+      },
+      {
+        "title": "MambaQuant: Quantizing the Mamba Family with Variance Aligned Rotation Methods",
+        "pdf": "https://openreview.net/pdf?id=KI45uDnmzv"
+      },
+      {
+        "title": "Understanding Input Selectivity in Mamba: Impact on Approximation Power, Memorization, and Associative Recall Capacity",
+        "pdf": "https://openreview.net/pdf?id=rnMH9njZxb"
+      },
+      {
+        "title": "DiMSUM: Diffusion Mamba - A Scalable and Unified Spatial-Frequency Method for Image Generation",
+        "pdf": "https://openreview.net/pdf?id=KqbLzSIXkm"
+      },
+      {
+        "title": "Demystify Mamba in Vision: A Linear Attention Perspective",
+        "pdf": "https://openreview.net/pdf?id=LvJ1R88KAk"
+      },
+      {
+        "title": "Jamba: Hybrid Transformer-Mamba Language Models",
+        "pdf": "https://openreview.net/pdf?id=JFPaD7lpBD"
+      },
+      {
+        "title": "Vision Mamba Mender",
+        "pdf": "https://openreview.net/pdf?id=9VnevS2YoR"
+      },
+      {
+        "title": "Hybrid Mamba for Few-Shot Segmentation",
+        "pdf": "https://openreview.net/pdf?id=Qe2BKeCEBC"
+      },
+      {
+        "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+        "pdf": "https://arxiv.org/pdf/2512.25075v1"
+      },
+      {
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2512.25073v1"
+      },
+      {
+        "title": "Coordinated Humanoid Manipulation with Choice Policies",
+        "pdf": "https://arxiv.org/pdf/2512.25072v1"
+      },
+      {
+        "title": "Scaling Open-Ended Reasoning to Predict the Future",
+        "pdf": "https://arxiv.org/pdf/2512.25070v1"
+      },
+      {
+        "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+        "pdf": "https://arxiv.org/pdf/2512.25064v1"
+      },
+      {
+        "title": "Melting curve of correlated iron at Earth's core conditions from machine-learned DFT+DMFT",
+        "pdf": "https://arxiv.org/pdf/2512.25061v1"
+      },
+      {
+        "title": "On the geometry and topology of representations: the manifolds of modular addition",
+        "pdf": "https://arxiv.org/pdf/2512.25060v1"
+      },
+      {
+        "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+        "pdf": "https://arxiv.org/pdf/2512.25059v1"
+      },
+      {
+        "title": "Context-aware LLM-based AI Agents for Human-centered Energy Management Systems in Smart Buildings",
+        "pdf": "https://arxiv.org/pdf/2512.25055v1"
+      },
+      {
+        "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+        "pdf": "https://arxiv.org/pdf/2512.25052v1"
+      },
+      {
+        "title": "Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock catalogs and pipeline validation",
+        "pdf": "https://arxiv.org/pdf/2512.25040v1"
+      },
+      {
+        "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+        "pdf": "https://arxiv.org/pdf/2512.25033v1"
+      },
+      {
+        "title": "Modeling Language as a Sequence of Thoughts",
+        "pdf": "https://arxiv.org/pdf/2512.25026v1"
+      },
+      {
+        "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+        "pdf": "https://arxiv.org/pdf/2512.25023v1"
+      },
+      {
+        "title": "Strengthening Dual Bounds for Multicommodity Capacitated Network Design with Unsplittable Flow Constraints",
+        "pdf": "https://arxiv.org/pdf/2512.25018v1"
+      },
+      {
+        "title": "MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes",
+        "pdf": "https://arxiv.org/pdf/2512.25015v1"
+      },
+      {
+        "title": "Numerical study of boson mixtures with multi-component continuous matrix product states",
+        "pdf": "https://arxiv.org/pdf/2512.24998v1"
+      },
+      {
+        "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+        "pdf": "https://arxiv.org/pdf/2512.24991v1"
+      },
+      {
+        "title": "Attribution-Guided Distillation of Matryoshka Sparse Autoencoders",
+        "pdf": "https://arxiv.org/pdf/2512.24975v1"
+      },
+      {
+        "title": "Evaluating the Impact of Compression Techniques on the Robustness of CNNs under Natural Corruptions",
+        "pdf": "https://arxiv.org/pdf/2512.24971v1"
+      },
+      {
+        "title": "The least prime with a given cycle type",
+        "pdf": "https://arxiv.org/pdf/2512.24963v1"
+      },
+      {
+        "title": "Semi-overlapping Multi-bandit Best Arm Identification for Sequential Support Network Learning",
+        "pdf": "https://arxiv.org/pdf/2512.24959v1"
+      },
+      {
+        "title": "Laser intracavity absorption magnetometry for optical quantum sensing",
+        "pdf": "https://arxiv.org/pdf/2512.24951v1"
+      },
+      {
+        "title": "ProDM: Synthetic Reality-driven Property-aware Progressive Diffusion Model for Coronary Calcium Motion Correction in Non-gated Chest CT",
+        "pdf": "https://arxiv.org/pdf/2512.24948v1"
+      },
+      {
+        "title": "CPJ: Explainable Agricultural Pest Diagnosis via Caption-Prompt-Judge with LLM-Judged Refinement",
+        "pdf": "https://arxiv.org/pdf/2512.24947v1"
+      },
+      {
+        "title": "SSM-Net: Enhancing Compressed Sensing Image Reconstruction with Mamba Architecture and Fast Iterative Shrinking Threshold Algorithm Optimization",
+        "pdf": "https://doi.org/10.3390/s25041026"
+      },
+      {
+        "title": "Efficiency Optimization via Mission Profile-Based Power Routing by Design of Hybrid Grid Connecting Converter Architecture",
+        "pdf": "https://ieeexplore.ieee.org/ielx7/8782709/8932554/10035299.pdf"
+      },
+      {
+        "title": "Deep Reinforcement Learning-Based Energy Efficiency Optimization for RIS-Aided Integrated Satellite-Aerial-Terrestrial Relay Networks",
+        "pdf": "https://mdsoar.org/bitstreams/1bb58842-02ac-44a0-a826-317ccb6c26e0/download"
+      },
+      {
+        "title": "Performance and Efficiency Optimization of Multi-layer IoT Edge Architecture",
+        "pdf": "https://oulurepo.oulu.fi/bitstream/10024/28790/1/nbnfi-fe2020051535759.pdf"
+      },
+      {
+        "title": "Green Buildings: Human-Centered and Energy Efficiency Optimization Strategies",
+        "pdf": "https://www.mdpi.com/1996-1073/16/9/3681/pdf?version=1682420609"
+      },
+      {
+        "title": "Energy Efficiency Optimization in LoRa Networks—A Deep Learning Approach",
+        "pdf": "https://hal.archives-ouvertes.fr/hal-02977256/file/manuscrip.pdf"
+      },
+      {
+        "title": "Efficiency Optimization of Large-Scale Language Models Based on Deep Learning in Natural Language Processing Tasks",
+        "pdf": "https://arxiv.org/pdf/2405.11704"
+      },
+      {
+        "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
+        "pdf": "https://arxiv.org/pdf/2512.25071v1"
+      },
+      {
+        "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+        "pdf": "https://arxiv.org/pdf/2512.25065v1"
+      },
+      {
+        "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
+        "pdf": "https://arxiv.org/pdf/2512.25063v1"
+      },
+      {
+        "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+        "pdf": "https://arxiv.org/pdf/2512.25056v1"
+      },
+      {
+        "title": "All optical Lithography for Spatiotemporal Patterning of Azopolymer Microreliefs",
+        "pdf": "https://arxiv.org/pdf/2512.25048v1"
+      },
+      {
+        "title": "Extreme nonlinear optics in optical fibers",
+        "pdf": "https://arxiv.org/pdf/2512.25046v1"
+      },
+      {
+        "title": "Bayesian Elastic Net Regression with Structured Prior Dependence",
+        "pdf": "https://arxiv.org/pdf/2512.25045v1"
+      },
+      {
+        "title": "Thin Tree Verification is coNP-Complete",
+        "pdf": "https://arxiv.org/pdf/2512.25043v1"
+      },
+      {
+        "title": "Compound Estimation for Binomials",
+        "pdf": "https://arxiv.org/pdf/2512.25042v1"
+      },
+      {
+        "title": "Universal polar dual pairs of spherical codes found in $E_8$ and $Λ_{24}$",
+        "pdf": "https://arxiv.org/pdf/2512.25037v1"
+      },
+      {
+        "title": "Computational Analysis of Disease Progression in Pediatric Pulmonary Arterial Hypertension",
+        "pdf": "https://arxiv.org/pdf/2512.25027v1"
+      },
+      {
+        "title": "Modewise Additive Factor Model for Matrix Time Series",
+        "pdf": "https://arxiv.org/pdf/2512.25025v1"
+      },
+      {
+        "title": "Diffusion Language Models are Provably Optimal Parallel Samplers",
+        "pdf": "https://arxiv.org/pdf/2512.25014v1"
+      },
+      {
+        "title": "At the intersection of Numerical Analysis and Spectral Geometry",
+        "pdf": "https://arxiv.org/pdf/2512.25012v1"
+      },
+      {
+        "title": "FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM",
+        "pdf": "https://arxiv.org/pdf/2512.25008v1"
+      },
+      {
+        "title": "Fast Poisson brackets and constraint algebras in canonical gravity",
+        "pdf": "https://arxiv.org/pdf/2512.25007v1"
+      },
+      {
+        "title": "Integrating neural networks with advanced optimization techniques for accurate kidney disease diagnosis",
+        "pdf": "https://doi.org/10.1038/s41598-024-71410-6"
+      },
+      {
+        "title": "Deep convolutional neural network (CNN) model optimization techniques—Review for medical imaging",
+        "pdf": "https://doi.org/10.3934/math.2024998"
+      },
+      {
+        "title": "Optimizing Performance in Distributed Cloud Architectures: A Review of Optimization Techniques and Tools",
+        "pdf": "https://doi.org/10.33022/ijcs.v13i2.3805"
+      },
+      {
+        "title": "Automatic Gain Tuning for Humanoid Robots Walking Architectures Using Gradient-Free Optimization Techniques",
+        "pdf": "http://arxiv.org/pdf/2409.18649"
+      },
+      {
+        "title": "Approximation Algorithms for Fair Repetitive Scheduling",
+        "pdf": "https://arxiv.org/pdf/2512.25020v1"
+      },
+      {
+        "title": "Strategies for Overcoming Gradient Troughs in the ADAPT-VQE Algorithm",
+        "pdf": "https://arxiv.org/pdf/2512.25004v1"
+      },
+      {
+        "title": "Uniqueness for stochastic differential equations in Hilbert spaces with irregular drift",
+        "pdf": "https://arxiv.org/pdf/2512.25003v1"
+      },
+      {
+        "title": "Basic Inequalities for First-Order Optimization with Applications to Statistical Risk Analysis",
+        "pdf": "https://arxiv.org/pdf/2512.24999v1"
+      },
+      {
+        "title": "Noise resilient real-time phase imaging via undetected light",
+        "pdf": "https://arxiv.org/pdf/2512.24993v1"
+      },
+      {
+        "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
+        "pdf": "https://arxiv.org/pdf/2512.24986v1"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "SSM-Net: Enhancing Compressed Sensing Image Reconstruction with Mamba Architecture and Fast Iterative Shrinking Threshold Algorithm Optimization",
+        "doi": "https://doi.org/10.3390/s25041026"
+      },
+      {
+        "title": "M3: Mamba-assisted Multi-Circuit Optimization via MBRL with Effective Scheduling",
+        "doi": "https://doi.org/10.48550/arXiv.2411.16019"
+      },
+      {
+        "title": "Molecular Optimization with Mamba-Based GFlowNet",
+        "doi": "https://doi.org/10.1109/ICEIC64972.2025.10879751"
+      },
+      {
+        "title": "A Hybrid Mamba-ECA-UNet Architecture for Multi-Task Non-Intrusive Load Monitoring",
+        "doi": "https://doi.org/10.1109/PSETC65535.2025.11239093"
+      },
+      {
+        "title": "HTM-PPO: hybrid transformer-Mamba proximal policy optimization for multiagent traffic signal control",
+        "doi": "https://doi.org/10.1117/12.3092673"
+      },
+      {
+        "title": "Improving Stock Price Forecasting with Mamba Deep Learning Model",
+        "doi": "https://doi.org/10.55228/jtst140408"
+      },
+      {
+        "title": "Rep-Mamba: Re-Parameterization in Vision Mamba for Lightweight Remote Sensing Image Super-Resolution",
+        "doi": "https://doi.org/10.1109/TGRS.2025.3597745"
+      },
+      {
+        "title": "Mamba-Driven Strategy for Multi-Agent Games: Towards a Stable Cooperative Value Framework",
+        "doi": "https://doi.org/10.23919/CCC64809.2025.11179120"
+      },
+      {
+        "title": "Enhancing image restoration: parameter-assisted and edge-based inpainting with U-Net mamba",
+        "doi": "https://doi.org/10.1007/s11760-025-04045-3"
+      },
+      {
+        "title": "FusionSort: Enhanced Cluttered Waste Segmentation with Advanced Decoding and Comprehensive Modality Optimization",
+        "doi": "https://doi.org/10.48550/arXiv.2508.19798"
+      },
+      {
+        "title": "A Small-Sample Sound Generation Methods Based on the Combination of Time and Frequency Domains",
+        "doi": "https://doi.org/10.1109/DDCLS66240.2025.11066031"
+      },
+      {
+        "title": "Adventurer: Optimizing Vision Mamba Architecture Designs for Efficiency",
+        "doi": "https://doi.org/10.1109/CVPR52734.2025.02807"
+      },
+      {
+        "title": "Optimizing Veterinary Language Modeling with Mamba Architecture for Long-Sequence Efficiency",
+        "doi": "https://doi.org/10.1145/3721201.3721413"
+      },
+      {
+        "title": "Efficiency Optimization via Mission Profile-Based Power Routing by Design of Hybrid Grid Connecting Converter Architecture",
+        "doi": "https://doi.org/10.1109/OJPEL.2023.3241778"
+      },
+      {
+        "title": "Deep Reinforcement Learning-Based Energy Efficiency Optimization for RIS-Aided Integrated Satellite-Aerial-Terrestrial Relay Networks",
+        "doi": "https://doi.org/10.1109/TCOMM.2024.3370618"
+      },
+      {
+        "title": "Mamba-Spike: Enhancing the Mamba Architecture with a Spiking Front-End for Efficient Temporal Data Processing",
+        "doi": "https://doi.org/10.48550/arXiv.2408.11823"
+      },
+      {
+        "title": "MambaVesselNet: A Hybrid CNN-Mamba Architecture for 3D Cerebrovascular Segmentation",
+        "doi": "https://doi.org/10.1145/3696409.3700231"
+      },
+      {
+        "title": "BEFNet: A Hybrid CNN-Mamba Architecture for Accurate Skin Lesion Image Segmentation",
+        "doi": "https://doi.org/10.1109/BIBM62325.2024.10822106"
+      },
+      {
+        "title": "Revolutionizing automated pear picking using Mamba architecture",
+        "doi": "https://doi.org/10.1186/s13007-024-01287-z"
+      },
+      {
+        "title": "Performance and Efficiency Optimization of Multi-layer IoT Edge Architecture",
+        "doi": "https://doi.org/10.1109/6GSUMMIT49458.2020.9083896"
+      },
+      {
+        "title": "Green Buildings: Human-Centered and Energy Efficiency Optimization Strategies",
+        "doi": "https://doi.org/10.3390/en16093681"
+      },
+      {
+        "title": "MedSegMamba: 3D CNN-Mamba Hybrid Architecture for Brain Segmentation",
+        "doi": "https://doi.org/10.48550/arXiv.2409.08307"
+      },
+      {
+        "title": "Energy Efficiency Optimization in LoRa Networks—A Deep Learning Approach",
+        "doi": "https://doi.org/10.1109/TITS.2022.3183073"
+      },
+      {
+        "title": "Mamba or RWKV: Exploring High-Quality and High-Efficiency Segment Anything Model",
+        "doi": "https://doi.org/10.48550/arXiv.2406.19369"
+      },
+      {
+        "title": "Efficiency Optimization of Large-Scale Language Models Based on Deep Learning in Natural Language Processing Tasks",
+        "doi": "https://doi.org/10.1109/ICSECE61636.2024.10729518"
+      },
+      {
+        "title": "BiT-MamSleep: Bidirectional Temporal Mamba for EEG Sleep Staging",
+        "doi": "https://doi.org/10.48550/arXiv.2411.01589"
+      },
+      {
+        "title": "UU-Mamba: Uncertainty-aware U-Mamba for Cardiovascular Segmentation",
+        "doi": "https://doi.org/10.48550/arXiv.2409.14305"
+      },
+      {
+        "title": "AlphaSeek FinRL: A Hybrid Deep Learning Architecture for High-Frequency Cryptocurrency Trading",
+        "doi": "https://doi.org/10.1109/IDS66066.2025.00018"
+      },
+      {
+        "title": "AV-NAS: Audio-Visual Multi-Level Semantic Neural Architecture Search for Video Hashing",
+        "doi": "https://doi.org/10.1145/3726302.3729899"
+      },
+      {
+        "title": "X-IL: Exploring the Design Space of Imitation Learning Policies",
+        "doi": "https://doi.org/10.48550/arXiv.2502.12330"
+      },
+      {
+        "title": "Integrating neural networks with advanced optimization techniques for accurate kidney disease diagnosis",
+        "doi": "https://doi.org/10.1038/s41598-024-71410-6"
+      },
+      {
+        "title": "CHAOS THEORY, ADVANCED METAHEURISTIC ALGORITHMS AND THEIR NEWFANGLED DEEP LEARNING ARCHITECTURE OPTIMIZATION APPLICATIONS: A REVIEW",
+        "doi": "https://doi.org/10.1142/s0218348x24300010"
+      },
+      {
+        "title": "A Comprehensive Review on Beamforming Optimization Techniques for IRS assisted Energy Harvesting",
+        "doi": "https://doi.org/10.1007/s11831-024-10118-2"
+      },
+      {
+        "title": "Neural Architecture Search and Automatic Code Optimization: Techniques, trends, and challenges",
+        "doi": "https://doi.org/10.1016/j.sysarc.2025.103645"
+      },
+      {
+        "title": "Deep convolutional neural network (CNN) model optimization techniques—Review for medical imaging",
+        "doi": "https://doi.org/10.3934/math.2024998"
+      },
+      {
+        "title": "Optimization Techniques for 5G O-RAN Deployment in Cloud Environments",
+        "doi": "https://doi.org/10.36676/dira.v12.i3.135"
+      },
+      {
+        "title": "Performance Analysis of Model Optimization Techniques using Pre-Trained CNN Models",
+        "doi": "https://doi.org/10.1109/ICWITE59797.2024.10502848"
+      },
+      {
+        "title": "Optimizing Performance in Distributed Cloud Architectures: A Review of Optimization Techniques and Tools",
+        "doi": "https://doi.org/10.33022/ijcs.v13i2.3805"
+      },
+      {
+        "title": "Automatic Gain Tuning for Humanoid Robots Walking Architectures Using Gradient-Free Optimization Techniques",
+        "doi": "https://doi.org/10.1109/Humanoids58906.2024.10769876"
+      },
+      {
+        "title": "Holistic Adaptive Optimization Techniques for Distributed Data Streaming Systems",
+        "doi": "https://doi.org/10.31110/colins/2024-2/009"
+      },
+      {
+        "title": "MARCA: Mamba Accelerator with ReConfigurable Architecture",
+        "doi": "https://doi.org/10.1145/3676536.3676798"
+      },
+      {
+        "title": "Mamba in Vision: A Comprehensive Survey of Techniques and Applications",
+        "doi": "https://doi.org/10.48550/arXiv.2410.03105"
+      },
+      {
+        "title": "VimGeo: Efficient Cross-View Geo-Localization with Vision Mamba Architecture",
+        "doi": "https://doi.org/10.24963/ijcai.2025/133"
+      },
+      {
+        "title": "GLMA: Global-to-Local Mamba Architecture for Low-Light Image Enhancement",
+        "doi": "https://doi.org/10.3390/app152010931"
+      },
+      {
+        "title": "Learning Dynamic Brain Network Representation Based on Graph Mamba Architecture",
+        "doi": "https://doi.org/10.1109/BIBM62325.2024.10822717"
+      },
+      {
+        "title": "A Survey on Inference Optimization Techniques for Mixture of Experts Models",
+        "doi": "https://doi.org/10.48550/arXiv.2412.14219"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "Mamba architecture optimization techniques",
+    "total_steps": 4,
+    "last_updated": "2026-01-04T01:38:30.651839",
+    "started_at": "2026-01-04T01:37:34.950786",
+    "total_papers": 143
+  }
+}

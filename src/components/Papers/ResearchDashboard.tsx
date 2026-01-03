@@ -26,7 +26,7 @@ import {
 
 interface Paper {
   title: string;
-  authors?: string;
+  authors?: string | string[];
   year?: number;
   venue?: string;
   source?: string;
@@ -127,7 +127,7 @@ const ResearchDashboard: React.FC<ResearchDashboardProps> = ({ timestamp, onBack
   const [availableKeywords, setAvailableKeywords] = useState<string[]>([]);
   const [yearBounds, setYearBounds] = useState<[number, number]>([2015, 2026]);
   const [baseUrl, setApiUrl] = useState(
-    import.meta.env.VITE_PAPERFINDER_API_URL || 'http://127.0.0.1:8004'
+    import.meta.env.VITE_PAPERFINDER_API_URL || 'http://127.0.0.1:8002'
   );
   // Load data on mount
   useEffect(() => {
@@ -214,7 +214,14 @@ const ResearchDashboard: React.FC<ResearchDashboardProps> = ({ timestamp, onBack
       const searchLower = searchText.toLowerCase();
       filtered = filtered.filter(p => {
         const titleMatch = p.title?.toLowerCase().includes(searchLower);
-        const authorMatch = p.authors?.toLowerCase().includes(searchLower);
+
+        let authorMatch = false;
+        if (typeof p.authors === 'string') {
+          authorMatch = p.authors.toLowerCase().includes(searchLower);
+        } else if (Array.isArray(p.authors)) {
+          authorMatch = p.authors.some(a => String(a).toLowerCase().includes(searchLower));
+        }
+
         const venueMatch = p.venue?.toLowerCase().includes(searchLower);
         return titleMatch || authorMatch || venueMatch;
       });

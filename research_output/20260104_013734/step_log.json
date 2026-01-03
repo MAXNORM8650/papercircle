@@ -1,0 +1,87 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-04T01:38:14.787048",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Mamba architecture improvements'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "Mamba architecture improvements",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 25,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 25
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-04T01:38:18.677683",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Mamba architecture efficiency optimization'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "Mamba architecture efficiency optimization",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 41,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 66
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-04T01:38:26.053299",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Mamba architecture improvements'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "Mamba architecture improvements",
+        "conferences": [
+          "nips",
+          "icml",
+          "iclr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 116
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-04T01:38:30.648579",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Mamba architecture optimization techniques'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "Mamba architecture optimization techniques",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 27,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 143
+    }
+  ],
+  "current_step": 4,
+  "metadata": {
+    "query": "Mamba architecture optimization techniques",
+    "total_steps": 4,
+    "last_updated": "2026-01-04T01:38:30.656484",
+    "started_at": "2026-01-04T01:37:34.950786",
+    "total_papers": 143
+  }
+}

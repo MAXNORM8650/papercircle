@@ -1,0 +1,168 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-04T01:33:08.482162",
+      "agent": "online_search_agent",
+      "action": "Online search: 'improving Mamba architecture'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "improving Mamba architecture",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 25,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 25
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-04T01:33:16.430990",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'improving Mamba architecture'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "improving Mamba architecture",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 49,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 74
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-04T01:33:21.013575",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Mamba architecture improvements survey'",
+      "result_preview": "Found 39 papers",
+      "details": {
+        "query": "Mamba architecture improvements survey",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 39,
+        "papers_added": 21,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 95
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-04T01:33:41.810595",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Mamba architecture technical improvements'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "Mamba architecture technical improvements",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 3,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 98
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-04T01:33:52.538080",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Mamba architecture technical improvements'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "Mamba architecture technical improvements",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 22,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 120
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-04T01:33:57.964245",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Mamba architecture technical improvements'",
+      "result_preview": "Found 149 papers",
+      "details": {
+        "query": "Mamba architecture technical improvements",
+        "sources": null,
+        "papers_found": 149,
+        "papers_added": 121,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 241
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-04T01:34:03.070304",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Mamba architecture improvements comparison'",
+      "result_preview": "Found 100 papers",
+      "details": {
+        "query": "Mamba architecture improvements comparison",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 100,
+        "papers_added": 45,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 286
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-04T01:34:05.827983",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Mamba architecture technical improvements'",
+      "result_preview": "Found 100 papers",
+      "details": {
+        "query": "Mamba architecture technical improvements",
+        "sources": [
+          "arxiv"
+        ],
+        "papers_found": 100,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 286
+    }
+  ],
+  "current_step": 8,
+  "metadata": {
+    "query": "Mamba architecture technical improvements",
+    "total_steps": 8,
+    "last_updated": "2026-01-04T01:34:05.845467",
+    "started_at": "2026-01-04T01:32:38.421768",
+    "total_papers": 286
+  }
+}

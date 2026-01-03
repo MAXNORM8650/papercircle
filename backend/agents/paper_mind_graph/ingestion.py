@@ -533,7 +533,7 @@ class IngestionPipeline:
     
     def _add_structural_nodes(self, graph: MindGraph):
         """Add nodes for paper structure (sections, figures, tables)."""
-        from schema import GraphNode, NodeType, GraphEdge, EdgeType
+        from .schema import GraphNode, NodeType, GraphEdge, EdgeType
         
         # Paper root node
         paper_node = GraphNode(

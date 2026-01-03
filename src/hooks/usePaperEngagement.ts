@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { supabase } from '../lib/supabase';
 import { useAuth } from '../contexts/AuthContext';
 
@@ -29,6 +29,7 @@ export function usePaperEngagement(paperId: string, communityId?: string) {
     hasViewed: false,
   });
   const [loading, setLoading] = useState(true);
+  const inFlightRequest = useRef<Set<string>>(new Set());
 
   useEffect(() => {
     loadEngagementData();
@@ -59,12 +60,12 @@ export function usePaperEngagement(paperId: string, communityId?: string) {
     setLoading(true);
     try {
       // Get engagement stats
-      const { data: statsData } = await supabase.rpc('get_paper_engagement_stats', {
+      const { data: statsData } = await (supabase.rpc as any)('get_paper_engagement_stats', {
         p_paper_id: paperId,
       });
 
       // Get discussion count
-      const { data: discussionCount } = await supabase.rpc('get_paper_discussion_count', {
+      const { data: discussionCount } = await (supabase.rpc as any)('get_paper_discussion_count', {
         p_paper_id: paperId,
         p_community_id: communityId || null,
       });
@@ -81,16 +82,17 @@ export function usePaperEngagement(paperId: string, communityId?: string) {
       // Get user's engagement if logged in
       if (user) {
         const { data: userEngagementData } = await supabase
-          .from('paper_engagement')
+          .from('paper_engagement' as any)
           .select('engagement_type')
           .eq('paper_id', paperId)
           .eq('user_id', user.id);
 
         if (userEngagementData) {
+          const typedData = userEngagementData as any[];
           setUserEngagement({
-            hasLiked: userEngagementData.some(e => e.engagement_type === 'like'),
-            hasSaved: userEngagementData.some(e => e.engagement_type === 'save'),
-            hasViewed: userEngagementData.some(e => e.engagement_type === 'view'),
+            hasLiked: typedData.some(e => e.engagement_type === 'like'),
+            hasSaved: typedData.some(e => e.engagement_type === 'save'),
+            hasViewed: typedData.some(e => e.engagement_type === 'view'),
           });
         }
       }
@@ -108,7 +110,7 @@ export function usePaperEngagement(paperId: string, communityId?: string) {
     }
 
     try {
-      const { data, error } = await supabase.rpc('toggle_paper_engagement', {
+      const { data, error } = await (supabase.rpc as any)('toggle_paper_engagement', {
         p_paper_id: paperId,
         p_user_id: user.id,
         p_engagement_type: 'like',
@@ -136,7 +138,7 @@ export function usePaperEngagement(paperId: string, communityId?: string) {
     }
 
     try {
-      const { data, error } = await supabase.rpc('toggle_paper_engagement', {
+      const { data, error } = await (supabase.rpc as any)('toggle_paper_engagement', {
         p_paper_id: paperId,
         p_user_id: user.id,
         p_engagement_type: 'save',
@@ -159,8 +161,13 @@ export function usePaperEngagement(paperId: string, communityId?: string) {
   const recordView = async () => {
     if (!user || userEngagement.hasViewed) return;
 
+    const requestKey = `${paperId}-${user.id}-view`;
+    if (inFlightRequest.current.has(requestKey)) return;
+
+    inFlightRequest.current.add(requestKey);
+
     try {
-      await supabase.rpc('toggle_paper_engagement', {
+      await (supabase.rpc as any)('toggle_paper_engagement', {
         p_paper_id: paperId,
         p_user_id: user.id,
         p_engagement_type: 'view',
@@ -168,8 +175,14 @@ export function usePaperEngagement(paperId: string, communityId?: string) {
 
       setUserEngagement(prev => ({ ...prev, hasViewed: true }));
       setStats(prev => ({ ...prev, views: prev.views + 1 }));
-    } catch (error) {
-      console.error('Error recording view:', error);
+    } catch (error: any) {
+      // Ignore 409 conflict as it means view was already recorded
+      // Supabase error codes: 23505 is unique violation
+      if (error?.code !== '23505' && error?.status !== 409) {
+        console.error('Error recording view:', error);
+      }
+    } finally {
+      inFlightRequest.current.delete(requestKey);
     }
   };
 

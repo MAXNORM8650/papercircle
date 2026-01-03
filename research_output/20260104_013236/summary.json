@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "Mamba architecture technical improvements",
+    "total_papers": 286,
+    "unique_sources": 12,
+    "year_range": {
+      "min": 2022,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 6237,
+      "average": 127.3
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 195,
+    "papers_with_doi": 104,
+    "processing_steps": 8
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (12) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 12
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 108 papers (37%)",
+      "data": {
+        "source": "arxiv",
+        "count": 108
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Sucheng Ren has 3 papers in this collection",
+      "data": {
+        "author": "Sucheng Ren",
+        "count": 3
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Mamba: Linear-Time Sequence Modeling with Selective State Spaces...\" has 5051 citations",
+      "data": {
+        "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+        "citations": 5051
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: mamba, multi, architecture, models, learning",
+      "data": {
+        "keywords": {
+          "mamba": 134,
+          "multi": 33,
+          "architecture": 26,
+          "models": 26,
+          "learning": 25
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "195/286 papers (68%) have direct PDF links",
+      "data": {
+        "with_pdf": 195,
+        "total": 286
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 286 papers related to 'Mamba architecture technical improvements'",
+    "Papers collected from 12 sources: offline_iclr, offline_coling, offline_nips, offline_aaai, offline_cvpr, offline_eccv, offline_iccv, offline_icml, offline_acl, arxiv, semantic_scholar, openalex",
+    "Publication years range from 2022 to 2026",
+    "Total citations: 6237, Average: 127",
+    "Leading researchers: Sucheng Ren, Feng Wang, Lei Zhang"
+  ],
+  "metadata": {
+    "query": "Mamba architecture technical improvements",
+    "total_steps": 8,
+    "last_updated": "2026-01-04T01:34:05.844597",
+    "started_at": "2026-01-04T01:32:38.421768",
+    "total_papers": 286
+  },
+  "is_complete": true
+}

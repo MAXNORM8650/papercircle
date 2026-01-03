@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "Mamba architecture optimization techniques",
+    "total_papers": 143,
+    "unique_sources": 5,
+    "year_range": {
+      "min": 2020,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 439,
+      "average": 12.9
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 67,
+    "papers_with_doi": 46,
+    "processing_steps": 4
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (12) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 12
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 47 papers (32%)",
+      "data": {
+        "source": "arxiv",
+        "count": 47
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Sucheng Ren has 3 papers in this collection",
+      "data": {
+        "author": "Sucheng Ren",
+        "count": 3
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Green Buildings: Human-Centered and Energy Efficiency Optimization Strategies...\" has 53 citations",
+      "data": {
+        "title": "Green Buildings: Human-Centered and Energy Efficiency Optimization Strategies",
+        "citations": 53
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: mamba, optimization, architecture, learning, models",
+      "data": {
+        "keywords": {
+          "mamba": 75,
+          "optimization": 25,
+          "architecture": 21,
+          "learning": 16,
+          "models": 15
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "67/143 papers (46%) have direct PDF links",
+      "data": {
+        "with_pdf": 67,
+        "total": 143
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 143 papers related to 'Mamba architecture optimization techniques'",
+    "Papers collected from 5 sources: offline_nips, offline_iclr, offline_icml, arxiv, semantic_scholar",
+    "Publication years range from 2020 to 2026",
+    "Total citations: 439, Average: 12",
+    "Leading researchers: Sucheng Ren, Feng Wang, John Timothy Halloran"
+  ],
+  "metadata": {
+    "query": "Mamba architecture optimization techniques",
+    "total_steps": 4,
+    "last_updated": "2026-01-04T01:38:30.655619",
+    "started_at": "2026-01-04T01:37:34.950786",
+    "total_papers": 143
+  },
+  "is_complete": true
+}

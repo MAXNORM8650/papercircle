@@ -63,7 +63,7 @@ export function AIDiscoveryViewNew({
   // API URL
   // const apiUrl = 'http://localhost:8002';
   const [apiUrl, setApiUrl] = useState(
-    import.meta.env.VITE_PAPERFINDER_API_URL || 'http://localhost:8004'
+    import.meta.env.VITE_PAPERFINDER_API_URL || 'http://127.0.0.1:8002'
   );
   // Notify parent of loading changes
   useEffect(() => {
@@ -312,8 +312,8 @@ export function AIDiscoveryViewNew({
                   const errorMessage = typeof data.content === 'string'
                     ? data.content
                     : typeof data.content === 'object' && data.content !== null
-                    ? data.content.message || data.content.title || JSON.stringify(data.content)
-                    : 'Unknown error occurred';
+                      ? data.content.message || data.content.title || JSON.stringify(data.content)
+                      : 'Unknown error occurred';
                   setError(errorMessage);
                   if (pollInterval) {
                     clearInterval(pollInterval);
@@ -478,9 +478,8 @@ export function AIDiscoveryViewNew({
                   return (
                     <div
                       key={idx}
-                      className={`flex items-start gap-2 p-2 rounded ${
-                        idx === steps.length - 1 ? 'bg-purple-50 border border-purple-200' : 'bg-gray-50'
-                      }`}
+                      className={`flex items-start gap-2 p-2 rounded ${idx === steps.length - 1 ? 'bg-purple-50 border border-purple-200' : 'bg-gray-50'
+                        }`}
                     >
                       {idx === steps.length - 1 ? (
                         <Loader2 className="w-4 h-4 animate-spin text-purple-600 mt-0.5 flex-shrink-0" />
@@ -624,8 +623,8 @@ export function AIDiscoveryViewNew({
                 const authors = Array.isArray(paper.authors)
                   ? paper.authors
                   : typeof paper.authors === 'string'
-                  ? [paper.authors]
-                  : [];
+                    ? [paper.authors]
+                    : [];
 
                 const displayAuthors = authors.length > 0
                   ? authors.slice(0, 3).join(', ') + (authors.length > 3 ? ` +${authors.length - 3} more` : '')
@@ -633,116 +632,116 @@ export function AIDiscoveryViewNew({
 
                 return (
                   <div key={idx} className="bg-white border border-gray-200 rounded-lg p-4 hover:border-purple-300 transition-colors">
-                  <div className="flex items-start justify-between gap-3">
-                    <div className="flex-1">
-                      <h4 className="font-semibold text-gray-900 mb-1">{String(paper.title || 'Untitled')}</h4>
-                      <p className="text-sm text-gray-600 mb-2">
-                        {displayAuthors}
-                      </p>
-                    <div className="flex items-center gap-2 flex-wrap text-xs text-gray-500">
-                      <span className="font-medium">{String(paper.venue || 'Unknown venue')}</span>
-                      <span>•</span>
-                      <span>{String(paper.year || 'N/A')}</span>
-                      {paper.citations !== undefined && paper.citations !== null && (
-                        <>
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="flex-1">
+                        <h4 className="font-semibold text-gray-900 mb-1">{String(paper.title || 'Untitled')}</h4>
+                        <p className="text-sm text-gray-600 mb-2">
+                          {displayAuthors}
+                        </p>
+                        <div className="flex items-center gap-2 flex-wrap text-xs text-gray-500">
+                          <span className="font-medium">{String(paper.venue || 'Unknown venue')}</span>
                           <span>•</span>
-                          <span>{paper.citations} citations</span>
-                        </>
-                      )}
-                      {(paper as any).rank && (
-                        <>
-                          <span>•</span>
-                          <span className="text-purple-600 font-semibold">Rank #{(paper as any).rank}</span>
-                        </>
-                      )}
-                    </div>
+                          <span>{String(paper.year || 'N/A')}</span>
+                          {paper.citations !== undefined && paper.citations !== null && (
+                            <>
+                              <span>•</span>
+                              <span>{paper.citations} citations</span>
+                            </>
+                          )}
+                          {(paper as any).rank && (
+                            <>
+                              <span>•</span>
+                              <span className="text-purple-600 font-semibold">Rank #{(paper as any).rank}</span>
+                            </>
+                          )}
+                        </div>
 
-                    {/* Scores */}
-                    {((paper as any).combined_score || (paper as any).bm25_score || (paper as any).relevance_score) && (
-                      <div className="mt-2 flex gap-2 flex-wrap">
-                        {(paper as any).combined_score && (
-                          <span className="px-2 py-0.5 bg-purple-100 text-purple-700 text-xs rounded-full font-medium">
-                            Score: {((paper as any).combined_score).toFixed(3)}
-                          </span>
+                        {/* Scores */}
+                        {((paper as any).combined_score || (paper as any).bm25_score || (paper as any).relevance_score) && (
+                          <div className="mt-2 flex gap-2 flex-wrap">
+                            {(paper as any).combined_score && (
+                              <span className="px-2 py-0.5 bg-purple-100 text-purple-700 text-xs rounded-full font-medium">
+                                Score: {((paper as any).combined_score).toFixed(3)}
+                              </span>
+                            )}
+                            {(paper as any).bm25_score && (
+                              <span className="px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded-full">
+                                BM25: {((paper as any).bm25_score).toFixed(3)}
+                              </span>
+                            )}
+                            {(paper as any).novelty_score && (
+                              <span className="px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded-full">
+                                Novel: {((paper as any).novelty_score).toFixed(3)}
+                              </span>
+                            )}
+                            {(paper as any).recency_score && (
+                              <span className="px-2 py-0.5 bg-orange-100 text-orange-700 text-xs rounded-full">
+                                Recent: {((paper as any).recency_score).toFixed(3)}
+                              </span>
+                            )}
+                          </div>
                         )}
-                        {(paper as any).bm25_score && (
-                          <span className="px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded-full">
-                            BM25: {((paper as any).bm25_score).toFixed(3)}
-                          </span>
+
+                        {/* Keywords & Area */}
+                        {((paper as any).keywords || (paper as any).primary_area) && (
+                          <div className="mt-2">
+                            {(paper as any).primary_area && (
+                              <span className="inline-block px-2 py-0.5 bg-indigo-100 text-indigo-700 text-xs rounded mr-1 mb-1">
+                                {String((paper as any).primary_area)}
+                              </span>
+                            )}
+                            {(paper as any).keywords && typeof (paper as any).keywords === 'string' && (
+                              (paper as any).keywords.split(';').slice(0, 3).map((kw: string, i: number) => (
+                                <span key={i} className="inline-block px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded mr-1 mb-1">
+                                  {kw.trim()}
+                                </span>
+                              ))
+                            )}
+                          </div>
                         )}
-                        {(paper as any).novelty_score && (
-                          <span className="px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded-full">
-                            Novel: {((paper as any).novelty_score).toFixed(3)}
-                          </span>
-                        )}
-                        {(paper as any).recency_score && (
-                          <span className="px-2 py-0.5 bg-orange-100 text-orange-700 text-xs rounded-full">
-                            Recent: {((paper as any).recency_score).toFixed(3)}
-                          </span>
+
+                        {/* Abstract - Collapsible */}
+                        {paper.abstract && (
+                          <div className="mt-2">
+                            <button
+                              onClick={() => toggleAbstract(idx)}
+                              className="text-xs text-purple-600 hover:text-purple-700 font-medium"
+                            >
+                              {expandedAbstracts.has(idx) ? '▼ Hide abstract' : '▶ Show abstract'}
+                            </button>
+                            {expandedAbstracts.has(idx) && (
+                              <p className="mt-2 text-sm text-gray-700 bg-gray-50 p-3 rounded">
+                                {paper.abstract}
+                              </p>
+                            )}
+                          </div>
                         )}
                       </div>
-                    )}
 
-                    {/* Keywords & Area */}
-                    {((paper as any).keywords || (paper as any).primary_area) && (
-                      <div className="mt-2">
-                        {(paper as any).primary_area && (
-                          <span className="inline-block px-2 py-0.5 bg-indigo-100 text-indigo-700 text-xs rounded mr-1 mb-1">
-                            {String((paper as any).primary_area)}
-                          </span>
-                        )}
-                        {(paper as any).keywords && typeof (paper as any).keywords === 'string' && (
-                          (paper as any).keywords.split(';').slice(0, 3).map((kw: string, i: number) => (
-                            <span key={i} className="inline-block px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded mr-1 mb-1">
-                              {kw.trim()}
-                            </span>
-                          ))
-                        )}
-                      </div>
-                    )}
-
-                    {/* Abstract - Collapsible */}
-                    {paper.abstract && (
-                      <div className="mt-2">
-                        <button
-                          onClick={() => toggleAbstract(idx)}
-                          className="text-xs text-purple-600 hover:text-purple-700 font-medium"
+                      <div className="flex flex-col gap-2">
+                        <a
+                          href={paper.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-3 py-1.5 bg-purple-600 text-white rounded text-xs hover:bg-purple-700 flex items-center justify-center gap-1 whitespace-nowrap"
                         >
-                          {expandedAbstracts.has(idx) ? '▼ Hide abstract' : '▶ Show abstract'}
-                        </button>
-                        {expandedAbstracts.has(idx) && (
-                          <p className="mt-2 text-sm text-gray-700 bg-gray-50 p-3 rounded">
-                            {paper.abstract}
-                          </p>
+                          <ExternalLink className="w-3 h-3" /> View
+                        </a>
+                        {(paper as any).pdf_url && (paper as any).pdf_url !== '' && (
+                          <a
+                            href={(paper as any).pdf_url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-3 py-1.5 bg-red-600 text-white rounded text-xs hover:bg-red-700 flex items-center justify-center gap-1 whitespace-nowrap"
+                          >
+                            <FileText className="w-3 h-3" /> PDF
+                          </a>
                         )}
                       </div>
-                    )}
+                    </div>
                   </div>
-
-                  <div className="flex flex-col gap-2">
-                    <a
-                      href={paper.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="px-3 py-1.5 bg-purple-600 text-white rounded text-xs hover:bg-purple-700 flex items-center justify-center gap-1 whitespace-nowrap"
-                    >
-                      <ExternalLink className="w-3 h-3" /> View
-                    </a>
-                    {(paper as any).pdf_url && (paper as any).pdf_url !== '' && (
-                      <a
-                        href={(paper as any).pdf_url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="px-3 py-1.5 bg-red-600 text-white rounded text-xs hover:bg-red-700 flex items-center justify-center gap-1 whitespace-nowrap"
-                      >
-                        <FileText className="w-3 h-3" /> PDF
-                      </a>
-                    )}
-                  </div>
-                </div>
-              </div>
-              );
-            })
+                );
+              })
             )}
           </div>
         </>

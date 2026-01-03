@@ -12,8 +12,8 @@ import {
   Download,
   RefreshCw,
   Loader,
-  CheckCircle,
-  AlertCircle
+  AlertCircle,
+  ExternalLink
 } from 'lucide-react';
 import mermaid from 'mermaid';
 import { InteractiveGraph } from './InteractiveGraph';
@@ -110,6 +110,8 @@ export function PaperAnalysisView({
   const [question, setQuestion] = useState('');
   const [answer, setAnswer] = useState<any>(null);
   const [askingQuestion, setAskingQuestion] = useState(false);
+  const [manualUrl, setManualUrl] = useState('');
+  const [showUrlInput, setShowUrlInput] = useState(false);
 
   useEffect(() => {
     loadAnalysis();
@@ -128,14 +130,16 @@ export function PaperAnalysisView({
         `${API_BASE}/analysis/paper/${paperId}?${params.toString()}`
       );
 
-      if (response.status === 404) {
+      if (!response.ok) {
+        throw new Error('Failed to load analysis');
+      }
+
+      const data = await response.json();
+      if (data.status === 'not_found') {
         // No analysis exists yet
         setAnalysis(null);
         setError('No analysis found for this paper. Click "Analyze Paper" to generate one.');
-      } else if (!response.ok) {
-        throw new Error('Failed to load analysis');
       } else {
-        const data = await response.json();
         setAnalysis(data);
       }
     } catch (err) {
@@ -146,9 +150,11 @@ export function PaperAnalysisView({
     }
   };
 
-  const startAnalysis = async () => {
+  const startAnalysis = async (providedUrl?: string) => {
     setProcessing(true);
     setError(null);
+
+    const urlToUse = providedUrl || manualUrl;
 
     try {
       // Try normal analysis first
@@ -159,12 +165,13 @@ export function PaperAnalysisView({
           paper_id: paperId,
           community_id: communityId,
           session_id: sessionId,
+          manual_url: urlToUse || undefined,
           force_reanalyze: false,
         }),
       });
 
-      // If paper not found (404) and we have arxivId, try URL-based analysis
-      if (response.status === 404 && arxivId) {
+      // If paper not found (404) or missing data (400) and we have arxivId, try URL-based analysis
+      if ((response.status === 404 || response.status === 400) && arxivId) {
         console.log('Paper not in DB, trying direct URL analysis with arxiv:', arxivId);
         response = await fetch(`${API_BASE}/analyze/url`, {
           method: 'POST',
@@ -208,7 +215,11 @@ export function PaperAnalysisView({
       }
     } catch (err) {
       console.error('Error starting analysis:', err);
-      setError(err instanceof Error ? err.message : 'Failed to start analysis');
+      const msg = err instanceof Error ? err.message : 'Failed to start analysis';
+      setError(msg);
+      if (msg.toLowerCase().includes('no arxiv_id or pdf_url')) {
+        setShowUrlInput(true);
+      }
       setProcessing(false);
     }
   };
@@ -226,9 +237,11 @@ export function PaperAnalysisView({
 
         if (response.ok) {
           const data = await response.json();
-          setAnalysis(data);
-          setProcessing(false);
-          clearInterval(interval);
+          if (data.status !== 'not_found') {
+            setAnalysis(data);
+            setProcessing(false);
+            clearInterval(interval);
+          }
         }
       } catch (err) {
         console.error('Error polling for analysis:', err);
@@ -471,12 +484,40 @@ export function PaperAnalysisView({
             {error || 'This paper has not been analyzed yet. Generate a mind graph to unlock insights.'}
           </p>
           <button
-            onClick={startAnalysis}
+            onClick={() => startAnalysis()}
             className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors"
           >
             <Brain className="w-5 h-5 inline mr-2" />
             Analyze Paper
           </button>
+
+          {showUrlInput && (
+            <div className="mt-8 max-w-md mx-auto p-4 bg-blue-50 rounded-xl border border-blue-100 animate-in fade-in slide-in-from-top-4 duration-500">
+              <h4 className="text-sm font-semibold text-blue-900 mb-2 flex items-center gap-2">
+                <ExternalLink className="w-4 h-4" />
+                Provide Paper URL
+              </h4>
+              <p className="text-xs text-blue-700 mb-4">
+                This paper is missing a PDF link. Please provide an arXiv URL (e.g., https://arxiv.org/abs/2401.00001) or a direct PDF link.
+              </p>
+              <div className="flex gap-2">
+                <input
+                  type="text"
+                  placeholder="https://..."
+                  value={manualUrl}
+                  onChange={(e) => setManualUrl(e.target.value)}
+                  className="flex-1 px-3 py-2 text-sm border border-blue-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
+                />
+                <button
+                  onClick={() => startAnalysis()}
+                  disabled={!manualUrl.trim()}
+                  className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  Start
+                </button>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     );
