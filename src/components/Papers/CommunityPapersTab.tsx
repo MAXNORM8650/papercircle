@@ -18,7 +18,6 @@ interface CommunityPapersTabProps {
   onSelectPaper: (paperId: string) => void;
 }
 
-const COMMUNITY_API_URL = import.meta.env.VITE_COMMUNITY_API_URL || 'http://localhost:8002';
 
 // Individual paper card component
 function CommunityPaperCard({
@@ -342,9 +341,8 @@ function CommunityPaperCard({
           <div className="flex items-center gap-6">
             <button
               onClick={toggleLike}
-              className={`flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-red-50 transition-all ${
-                userEngagement.hasLiked ? 'text-red-600 bg-red-50' : 'text-gray-600'
-              }`}
+              className={`flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-red-50 transition-all ${userEngagement.hasLiked ? 'text-red-600 bg-red-50' : 'text-gray-600'
+                }`}
             >
               <Heart className={`h-5 w-5 ${userEngagement.hasLiked ? 'fill-current' : ''}`} />
               <span className="font-semibold">{stats.likes}</span>
@@ -352,9 +350,8 @@ function CommunityPaperCard({
 
             <button
               onClick={() => setShowComments(!showComments)}
-              className={`flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-blue-50 transition-all ${
-                showComments ? 'text-blue-600 bg-blue-50' : 'text-gray-600'
-              }`}
+              className={`flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-blue-50 transition-all ${showComments ? 'text-blue-600 bg-blue-50' : 'text-gray-600'
+                }`}
             >
               <MessageCircle className={`h-5 w-5 ${showComments ? 'fill-current' : ''}`} />
               <span className="font-semibold">{stats.discussions}</span>
@@ -367,9 +364,8 @@ function CommunityPaperCard({
 
             <button
               onClick={toggleSave}
-              className={`flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-blue-50 transition-all ${
-                userEngagement.hasSaved ? 'text-blue-600 bg-blue-50' : 'text-gray-600'
-              }`}
+              className={`flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-blue-50 transition-all ${userEngagement.hasSaved ? 'text-blue-600 bg-blue-50' : 'text-gray-600'
+                }`}
             >
               <Bookmark className={`h-5 w-5 ${userEngagement.hasSaved ? 'fill-current' : ''}`} />
             </button>
@@ -548,7 +544,7 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
 
   const loadFilterOptions = async () => {
     try {
-      const response = await fetch(`${COMMUNITY_API_URL}/community/filters`);
+      const response = await fetch(`/api/community-papers?action=filters`);
       if (response.ok) {
         const data = await response.json();
         setFilterOptions(data);
@@ -560,34 +556,11 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
 
   const handleSync = async () => {
     setSyncing(true);
-    setSyncMessage('');
-
-    try {
-      const apiUrl = import.meta.env.VITE_COMMUNITY_PAPERS_API_URL || 'http://localhost:8003';
-      const response = await fetch(`${apiUrl}/sync/trigger`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ source_type: 'full' })
-      });
-
-      const data = await response.json();
-
-      if (response.ok) {
-        setSyncMessage(`✅ Sync started! Run ID: ${data.run_id}`);
-        // Reload papers after 5 seconds
-        setTimeout(() => {
-          loadPapers();
-          setSyncMessage('');
-        }, 5000);
-      } else {
-        setSyncMessage('❌ Sync failed. Check console.');
-      }
-    } catch (error) {
-      console.error('Sync error:', error);
-      setSyncMessage('❌ Sync failed. Is the API running on port 8003?');
-    } finally {
+    setSyncMessage('⚠️ Sync is now run as a standalone script. Run: python scripts/sync_community_papers.py --source full');
+    setTimeout(() => {
       setSyncing(false);
-    }
+      setSyncMessage('');
+    }, 5000);
   };
 
   const loadPapers = async () => {
@@ -610,7 +583,7 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
       if (filters.minRating) params.append('min_rating', filters.minRating.toString());
       if (filters.keywords) params.append('keywords', filters.keywords);
 
-      const response = await fetch(`${COMMUNITY_API_URL}/community/papers?${params}`);
+      const response = await fetch(`/api/community-papers?${params}`);
 
       if (!response.ok) {
         throw new Error('Failed to load community papers');
@@ -622,7 +595,7 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
       setTotalPages(data.total_pages);
     } catch (err) {
       console.error('Error loading papers:', err);
-      setError('Failed to load community papers. Make sure the API is running.');
+      setError('Failed to load community papers. Make sure you have run the sync script and the API is deployed.');
     } finally {
       setLoading(false);
     }
@@ -638,10 +611,16 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
 
     setAddingToCircle(true);
     try {
-      const response = await fetch(
-        `${COMMUNITY_API_URL}/community/papers/${selectedPaperForCircle.paper_id}/add-to-circle?circle_id=${selectedCircle}&user_id=${user?.id}`,
-        { method: 'POST' }
-      );
+      const response = await fetch('/api/community-papers', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          action: 'addToCircle',
+          paperId: selectedPaperForCircle.paper_id,
+          circleId: selectedCircle,
+          userId: user?.id
+        })
+      });
 
       if (response.ok) {
         alert('Paper added to circle!');
@@ -662,10 +641,14 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
     setShowShareModal(true);
 
     try {
-      const response = await fetch(
-        `${COMMUNITY_API_URL}/community/papers/${paper.paper_id}/share`,
-        { method: 'POST' }
-      );
+      const response = await fetch('/api/community-papers', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          action: 'share',
+          paperId: paper.paper_id
+        })
+      });
 
       if (response.ok) {
         const data = await response.json();
@@ -736,11 +719,10 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
 
           <button
             onClick={() => setShowFilters(!showFilters)}
-            className={`px-6 py-3 rounded-lg flex items-center gap-2 font-medium transition-all whitespace-nowrap ${
-              showFilters
-                ? 'bg-blue-600 text-white'
-                : 'bg-white text-gray-700 hover:bg-gray-50 border-2 border-gray-300'
-            }`}
+            className={`px-6 py-3 rounded-lg flex items-center gap-2 font-medium transition-all whitespace-nowrap ${showFilters
+              ? 'bg-blue-600 text-white'
+              : 'bg-white text-gray-700 hover:bg-gray-50 border-2 border-gray-300'
+              }`}
           >
             <Filter className="h-5 w-5" />
             Filters
@@ -773,11 +755,10 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
 
       {/* Sync Message */}
       {syncMessage && (
-        <div className={`mb-4 px-4 py-3 rounded-lg ${
-          syncMessage.includes('✅')
-            ? 'bg-green-100 text-green-800 border border-green-300'
-            : 'bg-red-100 text-red-800 border border-red-300'
-        }`}>
+        <div className={`mb-4 px-4 py-3 rounded-lg ${syncMessage.includes('✅')
+          ? 'bg-green-100 text-green-800 border border-green-300'
+          : 'bg-red-100 text-red-800 border border-red-300'
+          }`}>
           {syncMessage}
         </div>
       )}
@@ -1071,11 +1052,10 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
                 />
                 <button
                   onClick={copyShareUrl}
-                  className={`px-4 py-2 rounded-lg transition-colors ${
-                    copying
-                      ? 'bg-green-600 text-white'
-                      : 'bg-blue-600 text-white hover:bg-blue-700'
-                  }`}
+                  className={`px-4 py-2 rounded-lg transition-colors ${copying
+                    ? 'bg-green-600 text-white'
+                    : 'bg-blue-600 text-white hover:bg-blue-700'
+                    }`}
                 >
                   {copying ? 'Copied!' : 'Copy'}
                 </button>
