@@ -61,8 +61,10 @@ export function AIDiscoveryViewNew({
   const [filterQuery, setFilterQuery] = useState('');
 
   // API URL
-  const apiUrl = 'http://localhost:8002';
-
+  // const apiUrl = 'http://localhost:8002';
+  const [apiUrl, setApiUrl] = useState(
+    import.meta.env.VITE_PAPERFINDER_API_URL || 'http://localhost:8004'
+  );
   // Notify parent of loading changes
   useEffect(() => {
     if (onLoadingChange) {
@@ -211,8 +213,8 @@ export function AIDiscoveryViewNew({
 
   const openDashboard = () => {
     if (timestamp) {
-      // Navigate to dashboard URL
-      window.location.href = `/research-dashboard/${timestamp}`;
+      // Open dashboard in new window/tab
+      window.open(`/research-dashboard/${timestamp}`, '_blank', 'noopener,noreferrer');
     }
   };
 
@@ -332,7 +334,7 @@ export function AIDiscoveryViewNew({
         console.log('Research aborted by user');
       } else {
         const errorMsg = err?.message || String(err) || 'Unknown error';
-        setError(`Research failed: ${errorMsg}. Make sure the Research Pipeline API is running on port 8002.`);
+        setError(`Research failed: ${errorMsg}. Make sure the Research Pipeline API is running at ${apiUrl}.`);
       }
       if (pollInterval) {
         clearInterval(pollInterval);

@@ -19,6 +19,8 @@ import os
 from pathlib import Path
 from datetime import datetime
 import re
+import time
+from postgrest.exceptions import APIError
 from dotenv import load_dotenv
 from supabase import create_client, Client
 
@@ -334,8 +336,13 @@ def sync_conference_database(run_id: str):
 
                     print(f"  → {conference} {year}: Imported: {papers_imported}, Skipped: {papers_skipped}")
 
+                    # Add small delay between files to avoid overwhelming the database connection
+                    time.sleep(0.5)
+
                 except Exception as e:
                     print(f"Error processing {year_file}: {e}")
+                    # Wait before continuing to next file
+                    time.sleep(1)
                     continue
 
         supabase.table('sync_runs').update({
@@ -355,17 +362,30 @@ def sync_conference_database(run_id: str):
         raise
 
 def import_paper(paper_data: dict, source: str, run_timestamp: str, query: str = '') -> str:
-    """Import a paper from research_output run."""
+    """Import a paper from research_output run with retry logic."""
     title = paper_data.get('title', '').strip()
     if not title:
         return 'skipped'
 
-    # Check if paper exists by title
-    existing = supabase.table('papers').select('id').eq('title', title).limit(1).execute()
+    # Check if paper exists by title (with retry)
+    for attempt in range(3):
+        try:
+            existing = supabase.table('papers').select('id').eq('title', title).limit(1).execute()
+            break
+        except (APIError, Exception) as e:
+            if attempt < 2:
+                time.sleep(0.5 * (attempt + 1))  # Exponential backoff
+                continue
+            else:
+                print(f"Failed to check existing paper after 3 attempts: {e}")
+                return 'skipped'
 
     authors = paper_data.get('authors', [])
     if isinstance(authors, str):
         authors = [a.strip() for a in authors.split(',')]
+
+    # Get arxiv_id and convert empty strings to None (for unique constraint)
+    arxiv_id = paper_data.get('arxiv_id', '').strip()
 
     paper_record = {
         'title': title,
@@ -374,23 +394,34 @@ def import_paper(paper_data: dict, source: str, run_timestamp: str, query: str =
         'year': paper_data.get('year'),
         'venue': paper_data.get('venue', ''),
         'pdf_url': paper_data.get('pdf', paper_data.get('pdf_url', '')),
-        'arxiv_id': paper_data.get('arxiv_id', ''),
+        'arxiv_id': arxiv_id if arxiv_id else None,  # None instead of empty string
         'import_source': source,
         'primary_area': paper_data.get('primary_area', ''),
         'keywords': paper_data.get('keywords', '').split(';') if isinstance(paper_data.get('keywords'), str) else [],
         'tldr': paper_data.get('tldr', ''),
     }
 
-    if existing.data:
-        paper_id = existing.data[0]['id']
-        # Update paper with new info
-        supabase.table('papers').update(paper_record).eq('id', paper_id).execute()
-        result = 'updated'
-    else:
-        # Insert new paper
-        insert_result = supabase.table('papers').insert(paper_record).execute()
-        paper_id = insert_result.data[0]['id']
-        result = 'imported'
+    # Insert or update with retry logic
+    for attempt in range(3):
+        try:
+            if existing.data:
+                paper_id = existing.data[0]['id']
+                # Update paper with new info
+                supabase.table('papers').update(paper_record).eq('id', paper_id).execute()
+                result = 'updated'
+            else:
+                # Insert new paper
+                insert_result = supabase.table('papers').insert(paper_record).execute()
+                paper_id = insert_result.data[0]['id']
+                result = 'imported'
+            break
+        except (APIError, Exception) as e:
+            if attempt < 2:
+                time.sleep(0.5 * (attempt + 1))
+                continue
+            else:
+                print(f"Failed to insert/update paper '{title}' after 3 attempts: {e}")
+                return 'skipped'
 
     # Add to community_papers_global
     cpg_record = {
@@ -419,13 +450,23 @@ def import_paper(paper_data: dict, source: str, run_timestamp: str, query: str =
     return result
 
 def import_conference_paper(paper_data: dict, conference: str, year: int) -> str:
-    """Import a paper from conference database."""
+    """Import a paper from conference database with retry logic."""
     title = paper_data.get('title', '').strip()
     if not title:
         return 'skipped'
 
-    # Check if paper exists by title
-    existing = supabase.table('papers').select('id').eq('title', title).limit(1).execute()
+    # Check if paper exists by title (with retry)
+    for attempt in range(3):
+        try:
+            existing = supabase.table('papers').select('id').eq('title', title).limit(1).execute()
+            break
+        except (APIError, Exception) as e:
+            if attempt < 2:
+                time.sleep(0.5 * (attempt + 1))
+                continue
+            else:
+                print(f"Failed to check existing paper after 3 attempts: {e}")
+                return 'skipped'
 
     # Parse authors
     authors_str = paper_data.get('author', '')
@@ -485,14 +526,25 @@ def import_conference_paper(paper_data: dict, conference: str, year: int) -> str
         'pdf_url': paper_data.get('site', ''),  # OpenReview URL
     }
 
-    if existing.data:
-        paper_id = existing.data[0]['id']
-        supabase.table('papers').update(paper_record).eq('id', paper_id).execute()
-        result = 'updated'
-    else:
-        insert_result = supabase.table('papers').insert(paper_record).execute()
-        paper_id = insert_result.data[0]['id']
-        result = 'imported'
+    # Insert or update with retry logic
+    for attempt in range(3):
+        try:
+            if existing.data:
+                paper_id = existing.data[0]['id']
+                supabase.table('papers').update(paper_record).eq('id', paper_id).execute()
+                result = 'updated'
+            else:
+                insert_result = supabase.table('papers').insert(paper_record).execute()
+                paper_id = insert_result.data[0]['id']
+                result = 'imported'
+            break
+        except (APIError, Exception) as e:
+            if attempt < 2:
+                time.sleep(0.5 * (attempt + 1))
+                continue
+            else:
+                print(f"Failed to insert/update conference paper '{title}' after 3 attempts: {e}")
+                return 'skipped'
 
     # Add to community_papers_global
     cpg_record = {

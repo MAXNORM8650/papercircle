@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import {
   Search, Filter, Globe, Users, Heart, MessageCircle, Eye,
   Bookmark, ExternalLink, Share2, Plus, ChevronLeft, ChevronRight,
-  RefreshCw, X, Star, Calendar, Building2, Tag, Code
+  RefreshCw, X, Star, Calendar, Building2, Tag, Code, BookOpen
 } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import { useCommunity } from '../../contexts/CommunityContext';
@@ -32,17 +32,146 @@ function CommunityPaperCard({
   onAddToCircle: (paper: CommunityPaper) => void;
   onShare: (paper: CommunityPaper) => void;
 }) {
+  const { user } = useAuth();
   const { stats, userEngagement, toggleLike, toggleSave, recordView } = usePaperEngagement(paper.paper_id);
+
+  // Comment state
+  const [showComments, setShowComments] = useState(false);
+  const [comments, setComments] = useState<any[]>([]);
+  const [newComment, setNewComment] = useState('');
+  const [postingComment, setPostingComment] = useState(false);
+  const [loadingComments, setLoadingComments] = useState(false);
+
+  // Expanded abstract state
+  const [showFullAbstract, setShowFullAbstract] = useState(false);
 
   useEffect(() => {
     recordView();
   }, []);
 
-  const formatAuthors = (authors: string[]) => {
+  // Load comments when expanded
+  useEffect(() => {
+    if (showComments && comments.length === 0) {
+      loadComments();
+    }
+  }, [showComments]);
+
+  const loadComments = async () => {
+    setLoadingComments(true);
+    try {
+      const { supabase } = await import('../../lib/supabase');
+      const { data, error } = await supabase
+        .from('paper_discussions')
+        .select(`
+          id,
+          content,
+          created_at,
+          user_id,
+          profiles:user_id (
+            full_name,
+            avatar_url
+          )
+        `)
+        .eq('paper_id', paper.paper_id)
+        .order('created_at', { ascending: false });
+
+      if (!error && data) {
+        setComments(data);
+      }
+    } catch (error) {
+      console.error('Error loading comments:', error);
+    } finally {
+      setLoadingComments(false);
+    }
+  };
+
+  const postComment = async () => {
+    if (!user) {
+      alert('Please sign in to comment');
+      return;
+    }
+
+    if (!newComment.trim()) return;
+
+    setPostingComment(true);
+    try {
+      const { supabase } = await import('../../lib/supabase');
+      const { data, error } = await supabase
+        .from('paper_discussions')
+        .insert({
+          paper_id: paper.paper_id,
+          user_id: user.id,
+          content: newComment.trim(),
+        })
+        .select(`
+          id,
+          content,
+          created_at,
+          user_id,
+          profiles:user_id (
+            full_name,
+            avatar_url
+          )
+        `)
+        .single();
+
+      if (!error && data) {
+        setComments([data, ...comments]);
+        setNewComment('');
+      }
+    } catch (error) {
+      console.error('Error posting comment:', error);
+      alert('Failed to post comment');
+    } finally {
+      setPostingComment(false);
+    }
+  };
+
+  const formatTimeAgo = (dateString: string) => {
+    const date = new Date(dateString);
+    const now = new Date();
+    const seconds = Math.floor((now.getTime() - date.getTime()) / 1000);
+
+    if (seconds < 60) return 'just now';
+    if (seconds < 3600) return `${Math.floor(seconds / 60)}m ago`;
+    if (seconds < 86400) return `${Math.floor(seconds / 3600)}h ago`;
+    if (seconds < 2592000) return `${Math.floor(seconds / 86400)}d ago`;
+    return date.toLocaleDateString();
+  };
+
+  // State for showing all authors
+  const [showAllAuthors, setShowAllAuthors] = useState(false);
+
+  const formatAuthors = (authors: string[], showAll: boolean = false) => {
     if (!authors || authors.length === 0) return 'Unknown authors';
-    if (authors.length === 1) return authors[0];
-    if (authors.length === 2) return `${authors[0]} and ${authors[1]}`;
-    return `${authors[0]} et al.`;
+
+    if (showAll || authors.length <= 3) {
+      return authors.join(', ');
+    }
+
+    return `${authors.slice(0, 3).join(', ')}`;
+  };
+
+  const getPublicationType = () => {
+    if (paper.conference) return 'Conference';
+    if (paper.venue?.toLowerCase().includes('arxiv')) return 'Preprint';
+    if (paper.venue?.toLowerCase().includes('journal')) return 'Journal';
+    if (paper.source === 'arxiv') return 'Preprint';
+    if (paper.source === 'conference_db') return 'Conference';
+    return 'Paper';
+  };
+
+  const getVenueName = () => {
+    if (paper.conference && paper.year) {
+      return `${paper.conference} ${paper.year}`;
+    }
+    if (paper.venue) {
+      return paper.venue;
+    }
+    if (paper.source === 'arxiv') {
+      return `arXiv ${paper.year || ''}`.trim();
+    }
+    return 'Unknown Venue';
   };
 
   const getSourceBadgeColor = (source: string) => {
@@ -67,166 +196,293 @@ function CommunityPaperCard({
   };
 
   return (
-    <div className="bg-white border border-gray-200 rounded-lg p-5 hover:shadow-lg transition-shadow">
-      {/* Header: Source, Conference, Year */}
-      <div className="flex items-center gap-2 mb-3 flex-wrap">
-        <span className={`px-2 py-0.5 text-xs font-medium rounded ${getSourceBadgeColor(paper.source)}`}>
-          {paper.source === 'conference_db' ? 'Conference' :
-           paper.source === 'research_run' ? 'Research Run' :
-           paper.source === 'ai_discovery' ? 'AI Discovery' : 'arXiv'}
-        </span>
-        {paper.conference && (
-          <span className="px-2 py-0.5 bg-indigo-100 text-indigo-800 text-xs font-medium rounded">
-            {paper.conference} {paper.year}
-          </span>
-        )}
-        {!paper.conference && paper.year && (
-          <span className="text-sm text-gray-500 flex items-center gap-1">
-            <Calendar className="h-3 w-3" /> {paper.year}
-          </span>
-        )}
-        {paper.track && (
-          <span className="px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded">
-            {paper.track}
-          </span>
-        )}
-        {paper.paper_status && (
-          <span className={`px-2 py-0.5 text-xs font-medium rounded ${getStatusBadgeColor(paper.paper_status)}`}>
-            {paper.paper_status}
-          </span>
-        )}
-      </div>
+    <div className="bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-all mb-4">
+      <div className="p-6">
+        {/* Title */}
+        <h2
+          className="text-xl font-bold text-gray-900 mb-3 cursor-pointer hover:text-blue-600 transition-colors leading-tight"
+          onClick={() => onSelect(paper.paper_id)}
+        >
+          {paper.title}
+        </h2>
 
-      {/* Title */}
-      <h3
-        className="text-lg font-semibold text-gray-900 mb-2 cursor-pointer hover:text-blue-600 line-clamp-2"
-        onClick={() => onSelect(paper.paper_id)}
-      >
-        {paper.title}
-      </h3>
+        {/* Unified Metadata Bar */}
+        <div className="flex items-center flex-wrap gap-3 mb-4 pb-4 border-b border-gray-100">
+          {/* Authors */}
+          <div className="flex items-start gap-2 flex-1 min-w-0">
+            <Users className="h-4 w-4 text-gray-500 mt-0.5 flex-shrink-0" />
+            <div className="flex-1 min-w-0">
+              <p className="text-sm text-gray-700">
+                {formatAuthors(paper.authors, showAllAuthors)}
+                {!showAllAuthors && paper.authors && paper.authors.length > 3 && (
+                  <>
+                    {' '}
+                    <button
+                      onClick={() => setShowAllAuthors(true)}
+                      className="text-blue-600 hover:text-blue-700 font-medium"
+                    >
+                      +{paper.authors.length - 3} more
+                    </button>
+                  </>
+                )}
+                {showAllAuthors && paper.authors && paper.authors.length > 3 && (
+                  <>
+                    {' '}
+                    <button
+                      onClick={() => setShowAllAuthors(false)}
+                      className="text-blue-600 hover:text-blue-700 font-medium"
+                    >
+                      Show less
+                    </button>
+                  </>
+                )}
+              </p>
+            </div>
+          </div>
 
-      {/* Authors */}
-      <p className="text-sm text-gray-600 mb-2">
-        {formatAuthors(paper.authors)}
-      </p>
+          {/* Year */}
+          <div className="flex items-center gap-1.5 px-3 py-1.5 bg-blue-50 rounded-lg border border-blue-200">
+            <Calendar className="h-3.5 w-3.5 text-blue-600" />
+            <span className="text-sm font-semibold text-blue-900">
+              {paper.year || 'N/A'}
+            </span>
+          </div>
 
-      {/* Rating and Scores */}
-      {(paper.rating_avg || paper.combined_score) && (
-        <div className="flex items-center gap-3 mb-2">
-          {paper.rating_avg && (
-            <div className="flex items-center gap-1 text-sm">
-              <Star className="h-4 w-4 text-yellow-500 fill-yellow-500" />
-              <span className="font-medium">{paper.rating_avg.toFixed(1)}</span>
-              <span className="text-gray-500">/10</span>
+          {/* Publication Type */}
+          <div className="flex items-center gap-1.5 px-3 py-1.5 bg-purple-50 rounded-lg border border-purple-200">
+            <Building2 className="h-3.5 w-3.5 text-purple-600" />
+            <span className="text-sm font-semibold text-purple-900">
+              {getPublicationType()}
+            </span>
+          </div>
+        </div>
+
+        {/* Venue Information */}
+        <div className="mb-4">
+          <div className="flex items-center gap-2 text-sm">
+            <span className="font-medium text-gray-700">Published in:</span>
+            <span className="text-gray-900 font-semibold">{getVenueName()}</span>
+            {paper.track && (
+              <>
+                <span className="text-gray-400">•</span>
+                <span className="text-gray-600">{paper.track}</span>
+              </>
+            )}
+            {paper.paper_status && (
+              <>
+                <span className="text-gray-400">•</span>
+                <span className={`px-2 py-0.5 text-xs font-semibold rounded ${getStatusBadgeColor(paper.paper_status)}`}>
+                  {paper.paper_status}
+                </span>
+              </>
+            )}
+          </div>
+        </div>
+
+        {/* Rating and Scores */}
+        {(paper.rating_avg || paper.combined_score) && (
+          <div className="flex items-center gap-4 mb-4">
+            {paper.rating_avg && (
+              <div className="flex items-center gap-1.5 px-3 py-1.5 bg-yellow-50 rounded-lg border border-yellow-200">
+                <Star className="h-4 w-4 text-yellow-600 fill-yellow-500" />
+                <span className="font-bold text-yellow-900">{paper.rating_avg.toFixed(1)}</span>
+                <span className="text-xs text-yellow-700">/10</span>
+              </div>
+            )}
+            {paper.combined_score && (
+              <div className="px-3 py-1.5 bg-green-50 text-green-700 text-sm font-semibold rounded-lg border border-green-200">
+                Match Score: {paper.combined_score.toFixed(2)}
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* TLDR or Abstract */}
+        <div className="mb-4">
+          {paper.tldr ? (
+            <div className="bg-gradient-to-r from-blue-50 to-purple-50 border-l-4 border-blue-500 p-4 rounded-r-lg">
+              <p className="text-sm font-medium text-gray-700 mb-1">💡 TL;DR</p>
+              <p className="text-sm text-gray-800 leading-relaxed">{paper.tldr}</p>
+            </div>
+          ) : paper.abstract && (
+            <div className="text-sm text-gray-700 leading-relaxed">
+              <p className={showFullAbstract ? '' : 'line-clamp-3'}>
+                {paper.abstract}
+              </p>
+              {paper.abstract.length > 200 && (
+                <button
+                  onClick={() => setShowFullAbstract(!showFullAbstract)}
+                  className="text-blue-600 hover:text-blue-700 font-medium mt-2 text-xs"
+                >
+                  {showFullAbstract ? 'Show less' : 'Read more'}
+                </button>
+              )}
             </div>
           )}
-          {paper.combined_score && (
-            <span className="text-sm text-gray-500">
-              Score: {paper.combined_score.toFixed(2)}
-            </span>
+        </div>
+
+        {/* Keywords */}
+        {paper.keywords && paper.keywords.length > 0 && (
+          <div className="flex flex-wrap gap-2 mb-4">
+            {paper.keywords.slice(0, 6).map((kw, idx) => (
+              <span key={idx} className="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full hover:bg-gray-200 transition-colors">
+                #{kw}
+              </span>
+            ))}
+            {paper.keywords.length > 6 && (
+              <span className="px-3 py-1 text-xs text-gray-500 font-medium">
+                +{paper.keywords.length - 6} more
+              </span>
+            )}
+          </div>
+        )}
+
+        {/* Engagement Actions Bar */}
+        <div className="flex items-center justify-between pt-4 border-t border-gray-100">
+          <div className="flex items-center gap-6">
+            <button
+              onClick={toggleLike}
+              className={`flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-red-50 transition-all ${
+                userEngagement.hasLiked ? 'text-red-600 bg-red-50' : 'text-gray-600'
+              }`}
+            >
+              <Heart className={`h-5 w-5 ${userEngagement.hasLiked ? 'fill-current' : ''}`} />
+              <span className="font-semibold">{stats.likes}</span>
+            </button>
+
+            <button
+              onClick={() => setShowComments(!showComments)}
+              className={`flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-blue-50 transition-all ${
+                showComments ? 'text-blue-600 bg-blue-50' : 'text-gray-600'
+              }`}
+            >
+              <MessageCircle className={`h-5 w-5 ${showComments ? 'fill-current' : ''}`} />
+              <span className="font-semibold">{stats.discussions}</span>
+            </button>
+
+            <div className="flex items-center gap-2 px-3 py-2 text-gray-500">
+              <Eye className="h-5 w-5" />
+              <span className="font-semibold">{stats.views}</span>
+            </div>
+
+            <button
+              onClick={toggleSave}
+              className={`flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-blue-50 transition-all ${
+                userEngagement.hasSaved ? 'text-blue-600 bg-blue-50' : 'text-gray-600'
+              }`}
+            >
+              <Bookmark className={`h-5 w-5 ${userEngagement.hasSaved ? 'fill-current' : ''}`} />
+            </button>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => onShare(paper)}
+              className="p-2 text-gray-600 hover:text-green-600 hover:bg-green-50 rounded-lg transition-all"
+              title="Share"
+            >
+              <Share2 className="h-5 w-5" />
+            </button>
+            <button
+              onClick={() => onAddToCircle(paper)}
+              className="p-2 text-gray-600 hover:text-purple-600 hover:bg-purple-50 rounded-lg transition-all"
+              title="Add to Circle"
+            >
+              <Plus className="h-5 w-5" />
+            </button>
+          </div>
+        </div>
+
+        {/* Quick Action Links */}
+        <div className="flex items-center gap-2 mt-3 pt-3 border-t border-gray-100">
+          {paper.pdf_url && (
+            <a
+              href={paper.pdf_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              <ExternalLink className="h-4 w-4" />
+              Read Paper
+            </a>
+          )}
+          {paper.github_url && (
+            <a
+              href={paper.github_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors"
+            >
+              <Code className="h-4 w-4" />
+              Code
+            </a>
+          )}
+        </div>
+      </div>
+
+      {/* Comments Section */}
+      {showComments && (
+        <div className="border-t border-gray-200 bg-gray-50 p-6">
+          <h4 className="font-semibold text-gray-900 mb-4">Comments ({comments.length})</h4>
+
+          {/* Comment Input */}
+          <div className="mb-4">
+            <textarea
+              value={newComment}
+              onChange={(e) => setNewComment(e.target.value)}
+              placeholder={user ? "Share your thoughts..." : "Sign in to comment"}
+              disabled={!user}
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
+              rows={3}
+            />
+            <div className="flex justify-end mt-2">
+              <button
+                onClick={postComment}
+                disabled={!newComment.trim() || postingComment || !user}
+                className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed font-medium transition-colors"
+              >
+                {postingComment ? 'Posting...' : 'Post Comment'}
+              </button>
+            </div>
+          </div>
+
+          {/* Comments List */}
+          {loadingComments ? (
+            <div className="text-center py-8">
+              <div className="inline-block animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600"></div>
+              <p className="mt-2 text-sm text-gray-600">Loading comments...</p>
+            </div>
+          ) : comments.length > 0 ? (
+            <div className="space-y-4">
+              {comments.map((comment) => (
+                <div key={comment.id} className="bg-white p-4 rounded-lg shadow-sm">
+                  <div className="flex items-start gap-3">
+                    <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center text-white font-semibold text-sm">
+                      {comment.profiles?.full_name?.[0] || 'U'}
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex items-center justify-between mb-1">
+                        <span className="font-semibold text-gray-900">
+                          {comment.profiles?.full_name || 'Anonymous'}
+                        </span>
+                        <span className="text-xs text-gray-500">
+                          {formatTimeAgo(comment.created_at)}
+                        </span>
+                      </div>
+                      <p className="text-sm text-gray-700 leading-relaxed">{comment.content}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="text-center py-8 text-gray-500">
+              <MessageCircle className="h-12 w-12 mx-auto mb-2 opacity-50" />
+              <p className="text-sm">No comments yet. Be the first to comment!</p>
+            </div>
           )}
         </div>
       )}
-
-      {/* TLDR or Abstract */}
-      {paper.tldr ? (
-        <p className="text-sm text-gray-700 mb-3 line-clamp-2 italic">
-          TL;DR: {paper.tldr}
-        </p>
-      ) : paper.abstract && (
-        <p className="text-sm text-gray-700 mb-3 line-clamp-2">
-          {paper.abstract}
-        </p>
-      )}
-
-      {/* Keywords */}
-      {paper.keywords && paper.keywords.length > 0 && (
-        <div className="flex flex-wrap gap-1 mb-3">
-          {paper.keywords.slice(0, 5).map((kw, idx) => (
-            <span key={idx} className="px-2 py-0.5 bg-gray-50 text-gray-600 text-xs rounded">
-              {kw}
-            </span>
-          ))}
-          {paper.keywords.length > 5 && (
-            <span className="text-xs text-gray-500">+{paper.keywords.length - 5} more</span>
-          )}
-        </div>
-      )}
-
-      {/* Engagement Stats */}
-      <div className="flex items-center gap-4 mb-3 text-sm text-gray-600">
-        <button
-          onClick={toggleLike}
-          className={`flex items-center gap-1 hover:text-red-600 transition-colors ${
-            userEngagement.hasLiked ? 'text-red-600' : ''
-          }`}
-        >
-          <Heart className={`h-4 w-4 ${userEngagement.hasLiked ? 'fill-current' : ''}`} />
-          <span>{stats.likes}</span>
-        </button>
-
-        <div className="flex items-center gap-1">
-          <MessageCircle className="h-4 w-4" />
-          <span>{stats.discussions}</span>
-        </div>
-
-        <div className="flex items-center gap-1">
-          <Eye className="h-4 w-4" />
-          <span>{stats.views}</span>
-        </div>
-
-        <button
-          onClick={toggleSave}
-          className={`flex items-center gap-1 hover:text-blue-600 transition-colors ${
-            userEngagement.hasSaved ? 'text-blue-600' : ''
-          }`}
-        >
-          <Bookmark className={`h-4 w-4 ${userEngagement.hasSaved ? 'fill-current' : ''}`} />
-        </button>
-      </div>
-
-      {/* Actions */}
-      <div className="flex items-center gap-2 flex-wrap">
-        {paper.pdf_url && (
-          <a
-            href={paper.pdf_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 px-3 py-1.5 text-sm bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition-colors"
-          >
-            <ExternalLink className="h-3 w-3" />
-            View Paper
-          </a>
-        )}
-
-        {paper.github_url && (
-          <a
-            href={paper.github_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 px-3 py-1.5 text-sm bg-gray-50 text-gray-700 rounded-lg hover:bg-gray-100 transition-colors"
-          >
-            <Code className="h-3 w-3" />
-            Code
-          </a>
-        )}
-
-        <button
-          onClick={() => onAddToCircle(paper)}
-          className="inline-flex items-center gap-1 px-3 py-1.5 text-sm bg-purple-50 text-purple-700 rounded-lg hover:bg-purple-100 transition-colors"
-        >
-          <Plus className="h-3 w-3" />
-          Add to Circle
-        </button>
-
-        <button
-          onClick={() => onShare(paper)}
-          className="inline-flex items-center gap-1 px-3 py-1.5 text-sm bg-green-50 text-green-700 rounded-lg hover:bg-green-100 transition-colors"
-        >
-          <Share2 className="h-3 w-3" />
-          Share
-        </button>
-      </div>
     </div>
   );
 }
@@ -460,70 +716,80 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
   ].filter(Boolean).length;
 
   return (
-    <div className="space-y-4">
-      {/* Header */}
-      <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <Users className="h-5 w-5 text-green-600" />
-            <div>
-              <h3 className="font-medium text-green-900">Community Papers</h3>
-              <p className="text-sm text-green-700">
-                {total.toLocaleString()} papers from conferences, research runs, and discoveries
-              </p>
+    <div>
+      {/* Search Bar with Total Count */}
+      <div className="mb-4">
+        <div className="flex gap-2">
+          <div className="flex-1 relative">
+            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
+            <input
+              type="text"
+              value={filters.keywords}
+              onChange={(e) => setFilters({ ...filters, keywords: e.target.value })}
+              placeholder="Search papers by title, abstract, keywords..."
+              className="w-full pl-11 pr-4 py-3 text-base border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all"
+            />
+            <div className="absolute right-3 top-1/2 transform -translate-y-1/2 px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">
+              {total.toLocaleString()} papers
             </div>
           </div>
-          <div className="flex items-center gap-2">
-            <button
-              onClick={handleSync}
-              disabled={syncing}
-              className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 disabled:opacity-50 flex items-center gap-2 transition-colors"
-            >
-              {syncing ? (
-                <>
-                  <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></div>
-                  Syncing...
-                </>
-              ) : (
-                <>
-                  <RefreshCw className="h-4 w-4" />
-                  Sync Papers
-                </>
-              )}
-            </button>
-            <button
-              onClick={() => setShowFilters(!showFilters)}
-              className={`px-4 py-2 rounded-lg flex items-center gap-2 transition-colors ${
-                showFilters ? 'bg-green-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-300'
-              }`}
-            >
-              <Filter className="h-4 w-4" />
-              Filters
-              {activeFilterCount > 0 && (
-                <span className="px-1.5 py-0.5 bg-green-700 text-white text-xs rounded-full">
-                  {activeFilterCount}
-                </span>
-              )}
-            </button>
-          </div>
-        </div>
 
-        {/* Sync Message */}
-        {syncMessage && (
-          <div className={`mt-3 text-sm ${syncMessage.includes('✅') ? 'text-green-700' : 'text-red-700'}`}>
-            {syncMessage}
-          </div>
-        )}
+          <button
+            onClick={() => setShowFilters(!showFilters)}
+            className={`px-6 py-3 rounded-lg flex items-center gap-2 font-medium transition-all whitespace-nowrap ${
+              showFilters
+                ? 'bg-blue-600 text-white'
+                : 'bg-white text-gray-700 hover:bg-gray-50 border-2 border-gray-300'
+            }`}
+          >
+            <Filter className="h-5 w-5" />
+            Filters
+            {activeFilterCount > 0 && (
+              <span className="px-2 py-0.5 bg-blue-700 text-white text-xs font-bold rounded-full">
+                {activeFilterCount}
+              </span>
+            )}
+          </button>
+
+          <button
+            onClick={handleSync}
+            disabled={syncing}
+            className="px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 disabled:opacity-50 flex items-center gap-2 font-medium transition-all whitespace-nowrap"
+          >
+            {syncing ? (
+              <>
+                <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></div>
+                Syncing...
+              </>
+            ) : (
+              <>
+                <RefreshCw className="h-4 w-4" />
+                Sync
+              </>
+            )}
+          </button>
+        </div>
       </div>
+
+      {/* Sync Message */}
+      {syncMessage && (
+        <div className={`mb-4 px-4 py-3 rounded-lg ${
+          syncMessage.includes('✅')
+            ? 'bg-green-100 text-green-800 border border-green-300'
+            : 'bg-red-100 text-red-800 border border-red-300'
+        }`}>
+          {syncMessage}
+        </div>
+      )}
 
       {/* Filters Panel */}
       {showFilters && (
-        <div className="bg-white border border-gray-200 rounded-lg p-4 space-y-4">
-          <div className="flex items-center justify-between mb-2">
-            <h4 className="font-medium text-gray-900">Filter Papers</h4>
+        <div className="bg-white border-2 border-gray-200 rounded-lg p-6 mb-4 shadow-sm">
+          <div className="flex items-center justify-between mb-4">
+            <h4 className="text-lg font-semibold text-gray-900">Filter Papers</h4>
             <button
               onClick={clearFilters}
-              className="text-sm text-blue-600 hover:text-blue-700"
+              className="text-sm text-blue-600 hover:text-blue-700 font-medium"
             >
               Clear all
             </button>
@@ -532,7 +798,7 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {/* Year */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Year</label>
+              <label className="block text-sm font-medium text-gray-700 mb-2">Year</label>
               <select
                 value={filters.year || ''}
                 onChange={(e) => setFilters({ ...filters, year: e.target.value ? parseInt(e.target.value) : null })}
@@ -547,7 +813,7 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
 
             {/* Conference */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Conference</label>
+              <label className="block text-sm font-medium text-gray-700 mb-2">Conference</label>
               <select
                 value={filters.venue || ''}
                 onChange={(e) => setFilters({ ...filters, venue: e.target.value || null })}
@@ -562,7 +828,7 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
 
             {/* Source */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Source</label>
+              <label className="block text-sm font-medium text-gray-700 mb-2">Source</label>
               <select
                 value={filters.source || ''}
                 onChange={(e) => setFilters({ ...filters, source: e.target.value as any || null })}
@@ -578,7 +844,7 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
 
             {/* Track */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Track</label>
+              <label className="block text-sm font-medium text-gray-700 mb-2">Track</label>
               <select
                 value={filters.track || ''}
                 onChange={(e) => setFilters({ ...filters, track: e.target.value || null })}
@@ -593,7 +859,7 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
 
             {/* Status */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Status</label>
+              <label className="block text-sm font-medium text-gray-700 mb-2">Status</label>
               <select
                 value={filters.status || ''}
                 onChange={(e) => setFilters({ ...filters, status: e.target.value || null })}
@@ -608,11 +874,11 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
 
             {/* Sort By */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Sort By</label>
+              <label className="block text-sm font-medium text-gray-700 mb-2">Sort By</label>
               <select
                 value={filters.sortBy}
                 onChange={(e) => setFilters({ ...filters, sortBy: e.target.value as any })}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               >
                 <option value="imported_at">Recently Added</option>
                 <option value="recency">Most Recent (Year)</option>
@@ -623,20 +889,22 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
               </select>
             </div>
 
-            {/* Keywords Search */}
-            <div className="lg:col-span-2">
-              <label className="block text-sm font-medium text-gray-700 mb-1">Keywords</label>
-              <div className="relative">
-                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+            {/* Min Rating */}
+            {filterOptions.statuses.length > 0 && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">Min Rating</label>
                 <input
-                  type="text"
-                  value={filters.keywords}
-                  onChange={(e) => setFilters({ ...filters, keywords: e.target.value })}
-                  placeholder="Search in title, abstract, keywords..."
-                  className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  type="number"
+                  min="0"
+                  max="10"
+                  step="0.1"
+                  value={filters.minRating || ''}
+                  onChange={(e) => setFilters({ ...filters, minRating: e.target.value ? parseFloat(e.target.value) : null })}
+                  placeholder="e.g., 7.0"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                 />
               </div>
-            </div>
+            )}
           </div>
         </div>
       )}
@@ -675,10 +943,10 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
         </div>
       )}
 
-      {/* Papers Grid */}
+      {/* Papers Feed */}
       {!loading && !error && papers.length > 0 && (
         <>
-          <div className="grid gap-4">
+          <div className="space-y-0">
             {papers.map(paper => (
               <CommunityPaperCard
                 key={paper.id}
@@ -692,25 +960,25 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
 
           {/* Pagination */}
           {totalPages > 1 && (
-            <div className="flex items-center justify-center gap-4 pt-4">
+            <div className="flex items-center justify-center gap-4 py-8">
               <button
                 onClick={() => setPage(p => Math.max(1, p - 1))}
                 disabled={page === 1}
-                className="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+                className="px-6 py-3 bg-white border-2 border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2 font-medium transition-all shadow-sm"
               >
-                <ChevronLeft className="h-4 w-4" />
+                <ChevronLeft className="h-5 w-5" />
                 Previous
               </button>
-              <span className="text-sm text-gray-600">
+              <div className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-bold shadow-md">
                 Page {page} of {totalPages}
-              </span>
+              </div>
               <button
                 onClick={() => setPage(p => Math.min(totalPages, p + 1))}
                 disabled={page === totalPages}
-                className="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+                className="px-6 py-3 bg-white border-2 border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2 font-medium transition-all shadow-sm"
               >
                 Next
-                <ChevronRight className="h-4 w-4" />
+                <ChevronRight className="h-5 w-5" />
               </button>
             </div>
           )}

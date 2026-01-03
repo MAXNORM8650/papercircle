@@ -1,0 +1,18 @@
+{
+  "name": "logodesign",
+  "version": "1.0.0",
+  "main": "run.js",
+  "scripts": {
+    "generate": "node generate-gif.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "gif-encoder-2": "^1.0.5",
+    "pngjs": "^7.0.0",
+    "puppeteer": "^24.34.0"
+  }
+}

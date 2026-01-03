@@ -19,7 +19,9 @@ import {
   Award,
   Users,
   Copy,
-  Check
+  Check,
+  ChevronDown,
+  ChevronUp
 } from 'lucide-react';
 
 interface Paper {
@@ -118,12 +120,15 @@ const ResearchDashboard: React.FC<ResearchDashboardProps> = ({ timestamp, onBack
   const [expandedPaper, setExpandedPaper] = useState<number | null>(null);
   const [searchText, setSearchText] = useState('');
   const [copiedPaper, setCopiedPaper] = useState<number | null>(null);
+  const [headerExpanded, setHeaderExpanded] = useState(false);
 
   // Available options for filters
   const [availableSources, setAvailableSources] = useState<string[]>([]);
   const [availableKeywords, setAvailableKeywords] = useState<string[]>([]);
   const [yearBounds, setYearBounds] = useState<[number, number]>([2015, 2026]);
-
+  const [baseUrl, setApiUrl] = useState(
+    import.meta.env.VITE_PAPERFINDER_API_URL || 'http://localhost:8004'
+  );
   // Load data on mount
   useEffect(() => {
     loadDashboardData();
@@ -137,8 +142,9 @@ const ResearchDashboard: React.FC<ResearchDashboardProps> = ({ timestamp, onBack
   const loadDashboardData = async () => {
     try {
       setLoading(true);
-      const baseUrl = 'http://localhost:8002';
-
+      // const [baseUrl, setApiUrl] = useState(
+      //   import.meta.env.VITE_PAPERFINDER_API_URL || 'http://localhost:8004'
+      // );
       // Load all files in parallel
       const [papersRes, statsRes, summaryRes] = await Promise.all([
         fetch(`${baseUrl}/research/output/${timestamp}/papers.json`),
@@ -274,7 +280,7 @@ const ResearchDashboard: React.FC<ResearchDashboardProps> = ({ timestamp, onBack
     if (!timestamp) return;
 
     try {
-      const url = `http://localhost:8002/research/output/${timestamp}/${filename}`;
+      const url = `${baseUrl}/research/output/${timestamp}/${filename}`;
       const res = await fetch(url);
       if (!res.ok) throw new Error(`Failed to download ${filename}`);
 
@@ -383,9 +389,9 @@ const ResearchDashboard: React.FC<ResearchDashboardProps> = ({ timestamp, onBack
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <div className="bg-white border-b border-gray-200 sticky top-0 z-10 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3">
               <button
                 onClick={onBack}
                 className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
@@ -393,10 +399,23 @@ const ResearchDashboard: React.FC<ResearchDashboardProps> = ({ timestamp, onBack
                 <ArrowLeft className="w-5 h-5" />
               </button>
               <div>
-                <h1 className="text-2xl font-bold text-gray-900">Research Dashboard</h1>
+                <div className="flex items-center gap-2">
+                  <h1 className="text-xl font-bold text-gray-900">Research Dashboard</h1>
+                  <button
+                    onClick={() => setHeaderExpanded(!headerExpanded)}
+                    className="p-1 hover:bg-gray-100 rounded transition-colors"
+                    title={headerExpanded ? "Collapse details" : "Expand details"}
+                  >
+                    {headerExpanded ? (
+                      <ChevronUp className="w-4 h-4 text-gray-600" />
+                    ) : (
+                      <ChevronDown className="w-4 h-4 text-gray-600" />
+                    )}
+                  </button>
+                </div>
                 {summary && summary.summary && (
-                  <p className="text-sm text-gray-600 mt-1">
-                    Query: "{summary.summary.query}" • {filteredPapers.length} of {papers.length} papers
+                  <p className="text-xs text-gray-600 mt-0.5">
+                    "{summary.summary.query}" • {filteredPapers.length} of {papers.length} papers
                   </p>
                 )}
               </div>
@@ -405,48 +424,47 @@ const ResearchDashboard: React.FC<ResearchDashboardProps> = ({ timestamp, onBack
             {/* Download Buttons */}
             <div className="flex gap-2">
               <button
-                onClick={() => window.open(`http://localhost:8002/research/output/${timestamp}/dashboard.html`, '_blank')}
-                className="px-4 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-lg hover:from-indigo-700 hover:to-purple-700 transition-all shadow-md flex items-center gap-2 font-medium"
+                onClick={() => window.open(`${baseUrl}/research/output/${timestamp}/dashboard.html`, '_blank')}
+                className="px-3 py-1.5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-lg hover:from-indigo-700 hover:to-purple-700 transition-all shadow-md flex items-center gap-2 text-sm font-medium"
               >
                 <BarChart3 className="w-4 h-4" />
-                Open HTML Dashboard
+                HTML
               </button>
-              <div className="w-px bg-gray-300 mx-1"></div>
               <button
                 onClick={() => downloadFile('papers.json')}
-                className="px-3 py-2 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition-colors text-sm font-medium flex items-center gap-2"
+                className="px-2 py-1.5 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition-colors text-xs font-medium flex items-center gap-1.5"
               >
-                <Download className="w-4 h-4" />
+                <Download className="w-3.5 h-3.5" />
                 JSON
               </button>
               <button
                 onClick={() => downloadFile('papers.csv')}
-                className="px-3 py-2 bg-green-50 text-green-700 rounded-lg hover:bg-green-100 transition-colors text-sm font-medium flex items-center gap-2"
+                className="px-2 py-1.5 bg-green-50 text-green-700 rounded-lg hover:bg-green-100 transition-colors text-xs font-medium flex items-center gap-1.5"
               >
-                <Download className="w-4 h-4" />
+                <Download className="w-3.5 h-3.5" />
                 CSV
               </button>
               <button
                 onClick={() => downloadFile('papers.bib')}
-                className="px-3 py-2 bg-purple-50 text-purple-700 rounded-lg hover:bg-purple-100 transition-colors text-sm font-medium flex items-center gap-2"
+                className="px-2 py-1.5 bg-purple-50 text-purple-700 rounded-lg hover:bg-purple-100 transition-colors text-xs font-medium flex items-center gap-1.5"
               >
-                <Download className="w-4 h-4" />
+                <Download className="w-3.5 h-3.5" />
                 BibTeX
               </button>
               <button
                 onClick={() => downloadFile('papers.md')}
-                className="px-3 py-2 bg-orange-50 text-orange-700 rounded-lg hover:bg-orange-100 transition-colors text-sm font-medium flex items-center gap-2"
+                className="px-2 py-1.5 bg-orange-50 text-orange-700 rounded-lg hover:bg-orange-100 transition-colors text-xs font-medium flex items-center gap-1.5"
               >
-                <Download className="w-4 h-4" />
-                Markdown
+                <Download className="w-3.5 h-3.5" />
+                MD
               </button>
             </div>
           </div>
 
           {/* Summary Stats */}
-          {summary && summary.summary && (
+          {headerExpanded && summary && summary.summary && (
             <>
-              <div className="mt-4 grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="mt-3 grid grid-cols-2 md:grid-cols-4 gap-3">
                 <div className="bg-blue-50 rounded-lg p-3">
                   <div className="flex items-center gap-2 text-blue-700 mb-1">
                     <BookOpen className="w-4 h-4" />
@@ -484,7 +502,7 @@ const ResearchDashboard: React.FC<ResearchDashboardProps> = ({ timestamp, onBack
               </div>
 
               {summary.insights && summary.insights.length > 0 && (
-                <div className="mt-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg border border-purple-200 p-4">
+                <div className="mt-3 bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg border border-purple-200 p-3">
                   <div className="flex items-center gap-2 mb-3">
                     <Sparkles className="w-5 h-5 text-purple-600" />
                     <h3 className="font-semibold text-gray-900">Key Insights</h3>

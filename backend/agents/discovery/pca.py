@@ -610,21 +610,36 @@ class PipelineState:
         sources = list(self.stats["sources"].keys())
         source_counts = [self.stats["sources"].get(s, 0) for s in sources]
         keywords = list(self.stats["top_keywords"].items())[:25]
+
+        logo_html = ""
+        try:
+            logo_path = Path(__file__).resolve().parents[3] / "public" / "paper-circle-logo.svg"
+            if logo_path.exists():
+                svg_content = logo_path.read_text(encoding='utf-8')
+                # Wrap SVG with proper styling
+                logo_html = f'''<div class="logo" style="width: 60px; height: 60px; margin: 0 auto 10px;">
+                    {svg_content}
+                </div>'''
+        except Exception as e:
+            print(f"Warning: Could not load logo: {e}")
+            logo_html = ""
         
         html = f"""<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/paper-circle-logo.svg" />
     <meta http-equiv="refresh" content="10">
     <title>Research Dashboard: {self.query}</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        * {{ box-sizing: border-box; margin: 0; padding: 0; }}
-        body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 20px; }}
-        .container {{ max-width: 1600px; margin: 0 auto; }}
-        header {{ text-align: center; padding: 20px; margin-bottom: 30px; }}
-        header h1 {{ font-size: 2em; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }}
-        .meta {{ color: #94a3b8; margin-top: 10px; font-size: 0.9em; }}
+        <style>
+            * {{ box-sizing: border-box; margin: 0; padding: 0; }}
+            body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 20px; }}
+            .container {{ max-width: 1600px; margin: 0 auto; }}
+            header {{ text-align: center; padding: 20px; margin-bottom: 30px; display: flex; flex-direction: column; align-items: center; gap: 10px; }}
+            header h1 {{ font-size: 2em; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }}
+            .logo svg {{ width: 100%; height: 100%; display: block; }}
+            .meta {{ color: #94a3b8; margin-top: 10px; font-size: 0.9em; }}
         .grid {{ display: grid; gap: 20px; }}
         .grid-4 {{ grid-template-columns: repeat(4, 1fr); }}
         .grid-2 {{ grid-template-columns: repeat(2, 1fr); }}
@@ -666,6 +681,7 @@ class PipelineState:
 <body>
     <div class="container">
         <header>
+            {logo_html}
             <h1>📚 Research Dashboard</h1>
             <div class="meta">
                 Query: <strong>{self.query}</strong> | 
