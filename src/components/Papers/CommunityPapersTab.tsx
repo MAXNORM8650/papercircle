@@ -276,6 +276,10 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
   const [shareUrl, setShareUrl] = useState('');
   const [copying, setCopying] = useState(false);
 
+  // Sync state
+  const [syncing, setSyncing] = useState(false);
+  const [syncMessage, setSyncMessage] = useState('');
+
   // Load filter options on mount
   useEffect(() => {
     loadFilterOptions();
@@ -295,6 +299,38 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
       }
     } catch (err) {
       console.error('Error loading filter options:', err);
+    }
+  };
+
+  const handleSync = async () => {
+    setSyncing(true);
+    setSyncMessage('');
+
+    try {
+      const apiUrl = import.meta.env.VITE_COMMUNITY_PAPERS_API_URL || 'http://localhost:8003';
+      const response = await fetch(`${apiUrl}/sync/trigger`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ source_type: 'full' })
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setSyncMessage(`✅ Sync started! Run ID: ${data.run_id}`);
+        // Reload papers after 5 seconds
+        setTimeout(() => {
+          loadPapers();
+          setSyncMessage('');
+        }, 5000);
+      } else {
+        setSyncMessage('❌ Sync failed. Check console.');
+      }
+    } catch (error) {
+      console.error('Sync error:', error);
+      setSyncMessage('❌ Sync failed. Is the API running on port 8003?');
+    } finally {
+      setSyncing(false);
     }
   };
 
@@ -437,21 +473,47 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
               </p>
             </div>
           </div>
-          <button
-            onClick={() => setShowFilters(!showFilters)}
-            className={`px-4 py-2 rounded-lg flex items-center gap-2 transition-colors ${
-              showFilters ? 'bg-green-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-300'
-            }`}
-          >
-            <Filter className="h-4 w-4" />
-            Filters
-            {activeFilterCount > 0 && (
-              <span className="px-1.5 py-0.5 bg-green-700 text-white text-xs rounded-full">
-                {activeFilterCount}
-              </span>
-            )}
-          </button>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={handleSync}
+              disabled={syncing}
+              className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 disabled:opacity-50 flex items-center gap-2 transition-colors"
+            >
+              {syncing ? (
+                <>
+                  <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></div>
+                  Syncing...
+                </>
+              ) : (
+                <>
+                  <RefreshCw className="h-4 w-4" />
+                  Sync Papers
+                </>
+              )}
+            </button>
+            <button
+              onClick={() => setShowFilters(!showFilters)}
+              className={`px-4 py-2 rounded-lg flex items-center gap-2 transition-colors ${
+                showFilters ? 'bg-green-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-300'
+              }`}
+            >
+              <Filter className="h-4 w-4" />
+              Filters
+              {activeFilterCount > 0 && (
+                <span className="px-1.5 py-0.5 bg-green-700 text-white text-xs rounded-full">
+                  {activeFilterCount}
+                </span>
+              )}
+            </button>
+          </div>
         </div>
+
+        {/* Sync Message */}
+        {syncMessage && (
+          <div className={`mt-3 text-sm ${syncMessage.includes('✅') ? 'text-green-700' : 'text-red-700'}`}>
+            {syncMessage}
+          </div>
+        )}
       </div>
 
       {/* Filters Panel */}

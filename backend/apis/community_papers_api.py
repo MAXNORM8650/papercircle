@@ -133,7 +133,7 @@ def parse_timestamp_dir(dirname: str) -> Optional[str]:
     return match.group(1) if match else None
 
 def sync_research_output_runs(run_id: str):
-    """Sync papers from research_output timestamped directories."""
+    """Sync papers from research_output timestamped directories - OPTIMIZED with batching."""
     try:
         # Update sync run status
         supabase.table('sync_runs').update({
@@ -148,6 +148,27 @@ def sync_research_output_runs(run_id: str):
         # Scan research_output for timestamped directories
         if not RESEARCH_OUTPUT_PATH.exists():
             raise Exception(f"Research output path not found: {RESEARCH_OUTPUT_PATH}")
+
+        # Get existing paper titles for duplicate checking (one query instead of many)
+        print("Loading existing papers for duplicate check...")
+        existing_titles = set()
+        try:
+            offset = 0
+            limit = 1000
+            while True:
+                response = supabase.table('papers').select('title').range(offset, offset + limit - 1).execute()
+                if not response.data:
+                    break
+                for row in response.data:
+                    if row.get('title'):
+                        existing_titles.add(row['title'].lower().strip())
+                if len(response.data) < limit:
+                    break
+                offset += limit
+        except Exception as e:
+            print(f"Warning: Could not load existing titles: {e}")
+
+        print(f"Found {len(existing_titles)} existing papers")
 
         for item in RESEARCH_OUTPUT_PATH.iterdir():
             if not item.is_dir():
@@ -172,7 +193,21 @@ def sync_research_output_runs(run_id: str):
 
                 query = data.get('metadata', {}).get('query', '')
 
+                print(f"Processing {timestamp}: {len(papers_list)} papers")
+
+                # BATCH PROCESSING - much faster!
                 for paper_data in papers_list:
+                    title = paper_data.get('title', '').strip()
+                    if not title:
+                        papers_skipped += 1
+                        continue
+
+                    # Skip if already exists (fast local check)
+                    if title.lower() in existing_titles:
+                        papers_skipped += 1
+                        continue
+
+                    # Import new paper
                     result = import_paper(
                         paper_data=paper_data,
                         source='research_run',
@@ -181,10 +216,13 @@ def sync_research_output_runs(run_id: str):
                     )
                     if result == 'imported':
                         papers_imported += 1
+                        existing_titles.add(title.lower())
                     elif result == 'updated':
                         papers_updated += 1
                     else:
                         papers_skipped += 1
+
+                print(f"  → Imported: {papers_imported}, Skipped: {papers_skipped}")
 
             except Exception as e:
                 print(f"Error processing {item.name}: {e}")
@@ -199,6 +237,8 @@ def sync_research_output_runs(run_id: str):
             'completed_at': datetime.utcnow().isoformat()
         }).eq('id', run_id).execute()
 
+        print(f"✅ Sync complete: {papers_imported} imported, {papers_skipped} skipped, {papers_updated} updated")
+
     except Exception as e:
         supabase.table('sync_runs').update({
             'status': 'failed',
@@ -208,7 +248,7 @@ def sync_research_output_runs(run_id: str):
         raise
 
 def sync_conference_database(run_id: str):
-    """Sync papers from static conference database."""
+    """Sync papers from static conference database - OPTIMIZED with batching."""
     try:
         supabase.table('sync_runs').update({
             'status': 'running',
@@ -221,6 +261,27 @@ def sync_conference_database(run_id: str):
 
         if not DATABASE_PATH.exists():
             raise Exception(f"Database path not found: {DATABASE_PATH}")
+
+        # Get existing paper titles for duplicate checking (one query instead of many)
+        print("Loading existing papers for duplicate check...")
+        existing_titles = set()
+        try:
+            offset = 0
+            limit = 1000
+            while True:
+                response = supabase.table('papers').select('title').range(offset, offset + limit - 1).execute()
+                if not response.data:
+                    break
+                for row in response.data:
+                    if row.get('title'):
+                        existing_titles.add(row['title'].lower().strip())
+                if len(response.data) < limit:
+                    break
+                offset += limit
+        except Exception as e:
+            print(f"Warning: Could not load existing titles: {e}")
+
+        print(f"Found {len(existing_titles)} existing papers")
 
         # Iterate through conference directories
         for conf_dir in DATABASE_PATH.iterdir():
@@ -245,7 +306,19 @@ def sync_conference_database(run_id: str):
                     if not isinstance(papers_list, list):
                         continue
 
+                    print(f"Processing {conference} {year}: {len(papers_list)} papers")
+
                     for paper_data in papers_list:
+                        title = paper_data.get('title', '').strip()
+                        if not title:
+                            papers_skipped += 1
+                            continue
+
+                        # Skip if already exists (fast local check)
+                        if title.lower() in existing_titles:
+                            papers_skipped += 1
+                            continue
+
                         result = import_conference_paper(
                             paper_data=paper_data,
                             conference=conference,
@@ -253,10 +326,13 @@ def sync_conference_database(run_id: str):
                         )
                         if result == 'imported':
                             papers_imported += 1
+                            existing_titles.add(title.lower())
                         elif result == 'updated':
                             papers_updated += 1
                         else:
                             papers_skipped += 1
+
+                    print(f"  → {conference} {year}: Imported: {papers_imported}, Skipped: {papers_skipped}")
 
                 except Exception as e:
                     print(f"Error processing {year_file}: {e}")

@@ -298,6 +298,25 @@ async def stream_pipeline_progress(
             except Exception as e:
                 print(f"⚠️  Could not mark summary as complete: {e}")
 
+        # Trigger community papers sync
+        try:
+            import httpx
+            community_api_url = os.getenv('COMMUNITY_PAPERS_API_URL', 'http://localhost:8003')
+            async with httpx.AsyncClient() as client:
+                response = await client.post(
+                    f'{community_api_url}/sync/trigger',
+                    json={'source_type': 'research_output'},
+                    timeout=10.0
+                )
+                if response.status_code == 200:
+                    sync_data = response.json()
+                    print(f"✅ Triggered community papers sync: run_id={sync_data.get('run_id')}")
+                else:
+                    print(f"⚠️  Failed to trigger community papers sync: {response.status_code}")
+        except Exception as e:
+            print(f"⚠️  Could not trigger community papers sync: {e}")
+            # Non-critical, don't fail the pipeline
+
         # Send final results
         if papers_path.exists():
             with open(papers_path) as f:
