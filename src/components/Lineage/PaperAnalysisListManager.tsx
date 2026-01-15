@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Brain, Calendar, FileText, ArrowLeft, Loader, AlertCircle, Lightbulb, Wrench, FlaskConical } from 'lucide-react';
+import { Brain, Calendar, FileText, ArrowLeft, Loader, AlertCircle, Lightbulb, Wrench, FlaskConical, Globe, Lock, Users } from 'lucide-react';
 import { PaperAnalysisView } from '../Papers/PaperAnalysisView';
 import { PaperSelectionModal } from './PaperSelectionModal';
 import { useLineageAnalysis, PaperInfo } from '../../contexts/LineageAnalysisContext';
@@ -17,6 +17,9 @@ interface AnalyzedPaper {
   concepts_count: number;
   methods_count: number;
   experiments_count: number;
+  visibility?: 'private' | 'public';
+  created_by?: string;
+  creator_name?: string;
 }
 
 interface PaperAnalysisListManagerProps {
@@ -29,15 +32,19 @@ export function PaperAnalysisListManager({ circleId }: PaperAnalysisListManagerP
   const { addAnalyzedPaper } = useLineageAnalysis();
   const { user } = useAuth();
   const [papers, setPapers] = useState<AnalyzedPaper[]>([]);
+  const [publicPapers, setPublicPapers] = useState<AnalyzedPaper[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedPaperId, setSelectedPaperId] = useState<string | null>(null);
   const [showAddModal, setShowAddModal] = useState(false);
   const [analyzing, setAnalyzing] = useState(false);
+  const [activeTab, setActiveTab] = useState<'my' | 'public'>('my');
+  const [togglingVisibility, setTogglingVisibility] = useState<string | null>(null);
 
   // Load analyzed papers from backend
   useEffect(() => {
     loadAnalyzedPapers();
+    loadPublicAnalyses();
   }, [circleId]);
 
   const loadAnalyzedPapers = async () => {
@@ -46,6 +53,7 @@ export function PaperAnalysisListManager({ circleId }: PaperAnalysisListManagerP
 
     try {
       // Query paper_analysis table with paper metadata
+      // Note: profiles join removed - created_by may not have FK to profiles
       let query = supabase
         .from('paper_analysis')
         .select(`
@@ -55,6 +63,8 @@ export function PaperAnalysisListManager({ circleId }: PaperAnalysisListManagerP
           concepts_count,
           methods_count,
           experiments_count,
+          visibility,
+          created_by,
           papers:paper_id (
             id,
             title,
@@ -83,6 +93,9 @@ export function PaperAnalysisListManager({ circleId }: PaperAnalysisListManagerP
         concepts_count: item.concepts_count || 0,
         methods_count: item.methods_count || 0,
         experiments_count: item.experiments_count || 0,
+        visibility: item.visibility || 'private',
+        created_by: item.created_by,
+        // creator_name not available without profiles FK
       }));
 
       setPapers(analyzedPapers);
@@ -91,6 +104,87 @@ export function PaperAnalysisListManager({ circleId }: PaperAnalysisListManagerP
       setError('Failed to load analyzed papers');
     } finally {
       setLoading(false);
+    }
+  };
+
+  const loadPublicAnalyses = async () => {
+    try {
+      // Query public analyses from all users
+      // Note: profiles join removed - created_by may not have FK to profiles
+      const { data, error: queryError } = await supabase
+        .from('paper_analysis')
+        .select(`
+          id,
+          paper_id,
+          created_at,
+          concepts_count,
+          methods_count,
+          experiments_count,
+          visibility,
+          created_by,
+          papers:paper_id (
+            id,
+            title,
+            authors,
+            arxiv_id
+          )
+        `)
+        .eq('visibility', 'public')
+        .order('created_at', { ascending: false })
+        .limit(50);
+
+      if (queryError) throw queryError;
+
+      const publicAnalyses: AnalyzedPaper[] = (data || []).map((item: any) => ({
+        paper_id: item.paper_id,
+        analysis_id: item.id,
+        title: item.papers?.title || 'Unknown Title',
+        authors: item.papers?.authors || [],
+        arxiv_id: item.papers?.arxiv_id,
+        created_at: item.created_at,
+        concepts_count: item.concepts_count || 0,
+        methods_count: item.methods_count || 0,
+        experiments_count: item.experiments_count || 0,
+        visibility: 'public',
+        created_by: item.created_by,
+        // creator_name not available without profiles FK
+      }));
+
+      setPublicPapers(publicAnalyses);
+    } catch (err) {
+      console.error('Error loading public analyses:', err);
+    }
+  };
+
+  const toggleVisibility = async (analysisId: string, currentVisibility: string) => {
+    if (!user?.id) return;
+
+    setTogglingVisibility(analysisId);
+    const newVisibility = currentVisibility === 'public' ? 'private' : 'public';
+
+    try {
+      const { error: updateError } = await supabase
+        .from('paper_analysis')
+        .update({ visibility: newVisibility })
+        .eq('id', analysisId)
+        .eq('created_by', user.id); // Only owner can toggle
+
+      if (updateError) throw updateError;
+
+      // Update local state
+      setPapers(papers.map(p =>
+        p.analysis_id === analysisId
+          ? { ...p, visibility: newVisibility as 'private' | 'public' }
+          : p
+      ));
+
+      // Reload public list
+      await loadPublicAnalyses();
+    } catch (err) {
+      console.error('Error toggling visibility:', err);
+      setError('Failed to update visibility');
+    } finally {
+      setTogglingVisibility(null);
     }
   };
 
@@ -215,6 +309,32 @@ export function PaperAnalysisListManager({ circleId }: PaperAnalysisListManagerP
         </button>
       </div>
 
+      {/* Tabs */}
+      <div className="mb-4 flex gap-2 border-b border-gray-200">
+        <button
+          onClick={() => setActiveTab('my')}
+          className={`px-4 py-2 text-sm font-medium border-b-2 transition-colors ${
+            activeTab === 'my'
+              ? 'border-blue-600 text-blue-600'
+              : 'border-transparent text-gray-600 hover:text-gray-900'
+          }`}
+        >
+          <Lock className="w-4 h-4 inline mr-2" />
+          My Analyses ({papers.length})
+        </button>
+        <button
+          onClick={() => setActiveTab('public')}
+          className={`px-4 py-2 text-sm font-medium border-b-2 transition-colors ${
+            activeTab === 'public'
+              ? 'border-blue-600 text-blue-600'
+              : 'border-transparent text-gray-600 hover:text-gray-900'
+          }`}
+        >
+          <Globe className="w-4 h-4 inline mr-2" />
+          Public Analyses ({publicPapers.length})
+        </button>
+      </div>
+
       {/* Error Message */}
       {error && (
         <div className="mb-4 p-4 bg-red-50 border border-red-200 rounded-lg flex items-start gap-2">
@@ -240,32 +360,40 @@ export function PaperAnalysisListManager({ circleId }: PaperAnalysisListManagerP
           <Loader className="w-6 h-6 text-gray-400 animate-spin" />
           <span className="ml-2 text-gray-600">Loading analyzed papers...</span>
         </div>
-      ) : papers.length === 0 ? (
+      ) : (activeTab === 'my' ? papers : publicPapers).length === 0 ? (
         // Empty State
         <div className="text-center py-12 bg-gray-50 rounded-lg border border-gray-200">
           <Brain className="w-12 h-12 text-gray-400 mx-auto mb-4" />
-          <h3 className="text-lg font-medium text-gray-900 mb-2">No papers analyzed yet</h3>
+          <h3 className="text-lg font-medium text-gray-900 mb-2">
+            {activeTab === 'my' ? 'No papers analyzed yet' : 'No public analyses available'}
+          </h3>
           <p className="text-gray-600 mb-4">
-            Get started by analyzing a paper to extract its key concepts, methods, and experiments.
+            {activeTab === 'my'
+              ? 'Get started by analyzing a paper to extract its key concepts, methods, and experiments.'
+              : 'Be the first to share an analysis publicly!'}
           </p>
-          <button
-            onClick={() => setShowAddModal(true)}
-            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            Analyze Your First Paper
-          </button>
+          {activeTab === 'my' && (
+            <button
+              onClick={() => setShowAddModal(true)}
+              className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              Analyze Your First Paper
+            </button>
+          )}
         </div>
       ) : (
         // Papers List
         <div className="grid gap-4">
-          {papers.map((paper) => (
+          {(activeTab === 'my' ? papers : publicPapers).map((paper) => (
             <div
               key={paper.analysis_id}
-              onClick={() => setSelectedPaperId(paper.paper_id)}
-              className="p-4 bg-white border border-gray-200 rounded-lg hover:shadow-md transition-shadow cursor-pointer"
+              className="p-4 bg-white border border-gray-200 rounded-lg hover:shadow-md transition-shadow"
             >
               <div className="flex items-start justify-between">
-                <div className="flex-1">
+                <div
+                  className="flex-1 cursor-pointer"
+                  onClick={() => setSelectedPaperId(paper.paper_id)}
+                >
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">
                     {paper.title}
                   </h3>
@@ -298,10 +426,44 @@ export function PaperAnalysisListManager({ circleId }: PaperAnalysisListManagerP
                       <span>{paper.experiments_count} experiments</span>
                     </div>
                   </div>
+                  {/* Show creator for public analyses */}
+                  {activeTab === 'public' && paper.creator_name && (
+                    <div className="flex items-center gap-2 text-sm text-gray-500 mt-2">
+                      <Users className="w-4 h-4" />
+                      <span>Shared by {paper.creator_name}</span>
+                    </div>
+                  )}
                 </div>
-                <div className="flex items-center gap-2 text-gray-500 text-sm">
-                  <Calendar className="w-4 h-4" />
-                  <span>{new Date(paper.created_at).toLocaleDateString()}</span>
+                <div className="flex flex-col items-end gap-2">
+                  <div className="flex items-center gap-2 text-gray-500 text-sm">
+                    <Calendar className="w-4 h-4" />
+                    <span>{new Date(paper.created_at).toLocaleDateString()}</span>
+                  </div>
+                  {/* Visibility toggle - only for own analyses */}
+                  {activeTab === 'my' && paper.created_by === user?.id && (
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        toggleVisibility(paper.analysis_id, paper.visibility || 'private');
+                      }}
+                      disabled={togglingVisibility === paper.analysis_id}
+                      className={`flex items-center gap-1 px-2 py-1 text-xs rounded-full transition-colors ${
+                        paper.visibility === 'public'
+                          ? 'bg-green-100 text-green-700 hover:bg-green-200'
+                          : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                      }`}
+                      title={paper.visibility === 'public' ? 'Click to make private' : 'Click to make public'}
+                    >
+                      {togglingVisibility === paper.analysis_id ? (
+                        <Loader className="w-3 h-3 animate-spin" />
+                      ) : paper.visibility === 'public' ? (
+                        <Globe className="w-3 h-3" />
+                      ) : (
+                        <Lock className="w-3 h-3" />
+                      )}
+                      <span>{paper.visibility === 'public' ? 'Public' : 'Private'}</span>
+                    </button>
+                  )}
                 </div>
               </div>
             </div>

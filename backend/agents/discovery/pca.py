@@ -76,6 +76,14 @@ except ImportError:
     HAS_RERANKER = False
     print("Advanced reranker module NOT found.")
 
+# Supabase for cloud database fallback
+try:
+    from supabase import create_client, Client
+    HAS_SUPABASE = True
+except ImportError:
+    HAS_SUPABASE = False
+    print("supabase module NOT found - cloud database fallback disabled.")
+
 import re
 import requests
 from markdownify import markdownify
@@ -919,7 +927,10 @@ pipeline_state = PipelineState()
 # ============================================================================
 
 class OfflinePaperSearchEngine:
-    """Search papers from local database folder with BM25 and semantic ranking."""
+    """Search papers from local database folder with BM25 and semantic ranking.
+
+    Falls back to Supabase when local database is not available (e.g., on Railway).
+    """
 
     def __init__(self, database_path: str = "./research_output/database",
                  use_semantic: bool = False, use_bm25: bool = True, use_cache: bool = False,
@@ -930,6 +941,19 @@ class OfflinePaperSearchEngine:
         self.use_bm25 = use_bm25 and HAS_BM25
         self.use_cache = use_cache
 
+        # Check if local database exists - if not, use Supabase fallback
+        local_db_exists = self.database_path.exists() and any(self.database_path.iterdir()) if self.database_path.exists() else False
+        self.use_supabase_fallback = not local_db_exists and HAS_SUPABASE
+        self.supabase_client = None
+
+        if not local_db_exists:
+            print(f"[Offline] Local database not found at {self.database_path}")
+            if HAS_SUPABASE:
+                print(f"[Offline] Using Supabase as data source (cloud fallback)")
+                self._init_supabase()
+            else:
+                print(f"[Offline] WARNING: No local database and Supabase not available!")
+
         # Reranker configuration
         self.use_reranker = use_reranker and HAS_RERANKER
         self.first_stage_k = first_stage_k
@@ -937,7 +961,7 @@ class OfflinePaperSearchEngine:
         self.multi_stage_retriever = None
 
         print(f"[Offline] Initializing search engine")
-        print(f"[Offline] Database: {self.database_path}")
+        print(f"[Offline] Database: {'Supabase (cloud)' if self.use_supabase_fallback else self.database_path}")
         print(f"[Offline] Cache: {'DISABLED' if not use_cache else 'ENABLED'}")
         print(f"[Offline] Ranking: {'BM25' if self.use_bm25 else 'Simple'}")
 
@@ -984,6 +1008,181 @@ class OfflinePaperSearchEngine:
                 print(f"[Offline] Failed to load semantic model: {e}")
                 self.use_semantic = False
 
+    def _init_supabase(self):
+        """Initialize Supabase client for cloud database fallback."""
+        try:
+            supabase_url = os.getenv("VITE_SUPABASE_URL", "")
+            supabase_key = os.getenv("SUPABASE_SERVICE_ROLE_KEY", "") or os.getenv("VITE_SUPABASE_ANON_KEY", "")
+
+            if supabase_url and supabase_key:
+                self.supabase_client = create_client(supabase_url, supabase_key)
+                print("[Offline] Supabase client initialized successfully")
+            else:
+                print("[Offline] Supabase credentials not found in environment")
+                self.use_supabase_fallback = False
+        except Exception as e:
+            print(f"[Offline] Failed to initialize Supabase: {e}")
+            self.use_supabase_fallback = False
+
+    def _search_supabase(self, query: str, conferences: List[str] = None,
+                         start_year: int = None, end_year: int = None,
+                         max_results: int = 50) -> List[Paper]:
+        """Search papers from Supabase database with BM25 reranking."""
+        if not self.supabase_client:
+            print("[Offline] Supabase client not available")
+            return []
+
+        try:
+            # Fetch more results for reranking (3x max_results or at least 100)
+            fetch_limit = max(max_results * 3, 100) if (self.use_bm25 or self.use_reranker) else max_results
+
+            # Try full-text search first (faster and better ranking)
+            try:
+                result = self.supabase_client.rpc('search_papers_fts', {
+                    'search_query': query,
+                    'p_conferences': conferences,
+                    'p_start_year': start_year,
+                    'p_end_year': end_year,
+                    'p_public_only': True,
+                    'p_limit': fetch_limit,
+                    'p_offset': 0
+                }).execute()
+                papers_data = result.data
+                print(f"[Offline] Supabase FTS returned {len(papers_data)} papers")
+            except Exception as fts_error:
+                print(f"[Offline] FTS failed, trying simple search: {fts_error}")
+                # Fallback to simple search
+                result = self.supabase_client.rpc('search_papers_simple', {
+                    'search_query': query,
+                    'p_conferences': conferences,
+                    'p_start_year': start_year,
+                    'p_end_year': end_year,
+                    'p_public_only': True,
+                    'p_limit': fetch_limit,
+                    'p_offset': 0
+                }).execute()
+                papers_data = result.data
+                print(f"[Offline] Supabase simple search returned {len(papers_data)} papers")
+
+            if not papers_data:
+                return []
+
+            # Apply BM25 reranking if enabled
+            if self.use_bm25 and HAS_BM25 and len(papers_data) > 1:
+                print(f"[Offline] Applying BM25 reranking to {len(papers_data)} Supabase results...")
+                papers_data = self._rerank_with_bm25(query, papers_data)
+
+            # Convert to Paper objects
+            papers = []
+            for i, p in enumerate(papers_data):
+                paper = Paper(
+                    title=p.get('title', 'Unknown'),
+                    authors=p.get('authors', []),
+                    abstract=p.get('abstract', ''),
+                    year=p.get('year'),
+                    venue=p.get('conference') or p.get('venue', ''),
+                    arxiv_id=p.get('arxiv_id'),
+                    pdf_url=p.get('pdf_url'),
+                    conference=p.get('conference', ''),
+                    keywords=p.get('keywords', []),
+                    tldr=p.get('tldr', ''),
+                    primary_area=p.get('primary_area', ''),
+                    rating_avg=p.get('rating_avg'),
+                    bm25_score=p.get('bm25_score', 0.0),
+                    rank=i + 1
+                )
+                papers.append(paper)
+
+            # Apply cross-encoder reranking if enabled
+            if self.use_reranker and self.multi_stage_retriever and len(papers) > max_results:
+                papers = self._apply_reranker(query, papers, max_results)
+            else:
+                papers = papers[:max_results]
+
+            return papers
+
+        except Exception as e:
+            print(f"[Offline] Supabase search error: {e}")
+            import traceback
+            traceback.print_exc()
+            return []
+
+    def _rerank_with_bm25(self, query: str, papers_data: List[dict]) -> List[dict]:
+        """Apply BM25 reranking to a list of paper dicts."""
+        # Prepare documents
+        documents = []
+        for p in papers_data:
+            title = p.get("title", "")
+            abstract = p.get("abstract", "")
+            keywords = p.get("keywords", [])
+            keywords_str = " ".join(keywords) if isinstance(keywords, list) else str(keywords)
+            # Combine with title weighted more
+            doc = f"{title} {title} {title} {keywords_str} {keywords_str} {abstract}"
+            documents.append(doc.lower())
+
+        # Tokenize
+        tokenized_docs = [doc.split() for doc in documents]
+
+        # Create BM25 object
+        bm25 = BM25Okapi(tokenized_docs)
+
+        # Score query
+        tokenized_query = query.lower().split()
+        scores = bm25.get_scores(tokenized_query)
+
+        # Add scores and sort
+        for i, p in enumerate(papers_data):
+            p['bm25_score'] = float(scores[i])
+
+        # Sort by BM25 score
+        papers_data.sort(key=lambda x: x.get('bm25_score', 0), reverse=True)
+
+        print(f"[Offline] BM25 reranking complete. Top score: {papers_data[0].get('bm25_score', 0):.3f}")
+        return papers_data
+
+    def _apply_reranker(self, query: str, papers: List[Paper], max_results: int) -> List[Paper]:
+        """Apply cross-encoder reranking to Paper objects."""
+        print(f"[Offline] Applying cross-encoder reranking to {len(papers)} papers...")
+        start_time = time.time()
+
+        # Convert Papers to dicts for reranker
+        papers_dicts = []
+        for p in papers:
+            papers_dicts.append({
+                'title': p.title,
+                'abstract': p.abstract,
+                'authors': p.authors,
+                'year': p.year,
+                'url': p.url,
+                'bm25_score': p.bm25_score,
+                'keywords': p.keywords or '',
+            })
+
+        # Rerank
+        reranked_dicts = self.multi_stage_retriever.retrieve(
+            query=query,
+            first_stage_results=papers_dicts,
+            text_field="title_abstract"
+        )
+
+        # Convert back to Papers and update scores
+        reranked_papers = []
+        for i, d in enumerate(reranked_dicts[:max_results], 1):
+            # Find original paper
+            for p in papers:
+                if p.title == d.get('title'):
+                    # Update with rerank score
+                    p.combined_score = d.get('rerank_score', p.bm25_score)
+                    p.relevance_score = d.get('rerank_score', 0.0)
+                    p.rank = i
+                    reranked_papers.append(p)
+                    break
+
+        elapsed = time.time() - start_time
+        print(f"[Offline] Cross-encoder reranking completed: {len(reranked_papers)} papers in {elapsed:.2f}s")
+
+        return reranked_papers
+
     def _load_cached_indices(self):
         """Load pre-computed indices from cache (FAST!)"""
         try:
@@ -1018,6 +1217,7 @@ class OfflinePaperSearchEngine:
                       max_results: int = 50, ranking_method: str = "bm25") -> List[Paper]:
         """
         Search papers from local database with advanced ranking.
+        Falls back to Supabase when local database is not available.
 
         Args:
             query: Search query
@@ -1027,12 +1227,23 @@ class OfflinePaperSearchEngine:
             max_results: Maximum results to return
             ranking_method: "bm25", "semantic", "hybrid", or "simple"
         """
+        # Use Supabase fallback if local database not available
+        if self.use_supabase_fallback:
+            print(f"[Offline] Using Supabase fallback for search...")
+            return self._search_supabase(query, conferences, start_year, end_year, max_results)
+
         # DIRECT DATABASE ACCESS - No cache, always load from JSON
         print(f"[Offline] Loading papers directly from database...")
         all_papers = self._load_papers(conferences, start_year, end_year)
 
         if not all_papers:
-            print("[Offline] No papers loaded")
+            print("[Offline] No papers loaded from local database")
+            # Try Supabase as last resort if available
+            if HAS_SUPABASE and not self.supabase_client:
+                print("[Offline] Attempting Supabase fallback...")
+                self._init_supabase()
+                if self.supabase_client:
+                    return self._search_supabase(query, conferences, start_year, end_year, max_results)
             return []
 
         # Choose ranking method

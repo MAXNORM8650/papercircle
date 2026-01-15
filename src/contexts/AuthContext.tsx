@@ -14,6 +14,8 @@ interface AuthContextType {
   needsProfile: boolean;
   signIn: (email: string, password: string) => Promise<void>;
   signUp: (email: string, password: string, displayName: string) => Promise<void>;
+  signInWithGoogle: () => Promise<void>;
+  signInWithMagicLink: (email: string) => Promise<{ success: boolean; message: string }>;
   signOut: () => Promise<void>;
   refreshProfile: () => Promise<void>;
   completeProfile: (displayName: string) => Promise<void>;
@@ -249,6 +251,35 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   };
 
+  const signInWithGoogle = async () => {
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: 'google',
+      options: {
+        redirectTo: `${window.location.origin}/auth/callback`,
+        queryParams: {
+          access_type: 'offline',
+          prompt: 'consent',
+        },
+      },
+    });
+    if (error) throw error;
+  };
+
+  const signInWithMagicLink = async (email: string): Promise<{ success: boolean; message: string }> => {
+    const { error } = await supabase.auth.signInWithOtp({
+      email,
+      options: {
+        emailRedirectTo: `${window.location.origin}/auth/callback`,
+      },
+    });
+
+    if (error) {
+      return { success: false, message: error.message };
+    }
+
+    return { success: true, message: 'Check your email for the magic link!' };
+  };
+
   const signOut = async () => {
     const { error } = await supabase.auth.signOut();
     if (error) throw error;
@@ -264,6 +295,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         needsProfile,
         signIn,
         signUp,
+        signInWithGoogle,
+        signInWithMagicLink,
         signOut,
         refreshProfile,
         completeProfile,

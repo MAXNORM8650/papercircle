@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { FileCheck, Calendar, ArrowLeft, Loader, AlertCircle, Network, CheckCircle, Clock, XCircle } from 'lucide-react';
+import { FileCheck, Calendar, ArrowLeft, Loader, AlertCircle, Network, CheckCircle, Clock, XCircle, Globe, Lock, Users } from 'lucide-react';
 import { PaperReviewView } from '../Papers/PaperReviewView';
 import { PaperSelectionModal } from './PaperSelectionModal';
 import { useLineageAnalysis, PaperInfo, Edge } from '../../contexts/LineageAnalysisContext';
@@ -17,6 +17,9 @@ interface ReviewedPaper {
   lineage_count: number;
   status?: 'pending' | 'processing' | 'completed' | 'failed';
   error_message?: string;
+  visibility?: 'private' | 'public';
+  created_by?: string;
+  creator_name?: string;
 }
 
 interface PaperReviewListManagerProps {
@@ -30,16 +33,20 @@ export function PaperReviewListManager({ circleId }: PaperReviewListManagerProps
   const { addReviewedPaper, addEdgesToGraph } = useLineageAnalysis();
   const { user } = useAuth();
   const [papers, setPapers] = useState<ReviewedPaper[]>([]);
+  const [publicPapers, setPublicPapers] = useState<ReviewedPaper[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedPaperId, setSelectedPaperId] = useState<string | null>(null);
   const [showAddModal, setShowAddModal] = useState(false);
   const [reviewing, setReviewing] = useState(false);
   const [reviewProgress, setReviewProgress] = useState<string>('Starting review...');
+  const [activeTab, setActiveTab] = useState<'my' | 'public'>('my');
+  const [togglingVisibility, setTogglingVisibility] = useState<string | null>(null);
 
   // Load reviewed papers
   useEffect(() => {
     loadReviewedPapers();
+    loadPublicReviews();
   }, [circleId]);
 
   const loadReviewedPapers = async () => {
@@ -49,6 +56,7 @@ export function PaperReviewListManager({ circleId }: PaperReviewListManagerProps
     try {
       // Query the paper_reviews table which tracks review status
       // Use left join (!left) to include reviews even if paper record is missing
+      // Note: profiles join removed - created_by may not have FK to profiles
       let query = supabase
         .from('paper_reviews')
         .select(`
@@ -59,6 +67,8 @@ export function PaperReviewListManager({ circleId }: PaperReviewListManagerProps
           error_message,
           lineage_data,
           review_data,
+          visibility,
+          created_by,
           papers:paper_id!left (
             id,
             title,
@@ -107,6 +117,9 @@ export function PaperReviewListManager({ circleId }: PaperReviewListManagerProps
           lineage_count: Array.isArray(item.lineage_data) ? item.lineage_data.length : 0,
           status: item.status || 'completed',
           error_message: item.error_message,
+          visibility: item.visibility || 'private',
+          created_by: item.created_by,
+          // creator_name not available without profiles FK
         };
       });
 
@@ -116,6 +129,105 @@ export function PaperReviewListManager({ circleId }: PaperReviewListManagerProps
       setError('Failed to load reviewed papers');
     } finally {
       setLoading(false);
+    }
+  };
+
+  const loadPublicReviews = async () => {
+    try {
+      // Query public reviews from all users
+      // Note: profiles join removed - created_by may not have FK to profiles
+      const { data, error: queryError } = await supabase
+        .from('paper_reviews')
+        .select(`
+          id,
+          paper_id,
+          created_at,
+          status,
+          lineage_data,
+          review_data,
+          visibility,
+          created_by,
+          papers:paper_id!left (
+            id,
+            title,
+            authors,
+            arxiv_id
+          )
+        `)
+        .eq('visibility', 'public')
+        .eq('status', 'completed')
+        .order('created_at', { ascending: false })
+        .limit(50);
+
+      if (queryError) throw queryError;
+
+      const publicReviews: ReviewedPaper[] = (data || []).map((item: any) => {
+        let title = item.papers?.title;
+        let authors = item.papers?.authors || [];
+
+        if (!title && item.review_data) {
+          const reviewData = typeof item.review_data === 'string'
+            ? JSON.parse(item.review_data)
+            : item.review_data;
+          const summary = reviewData?.summary;
+          if (summary?.title) {
+            title = summary.title;
+          }
+          if (summary?.authors) {
+            authors = summary.authors;
+          }
+        }
+
+        return {
+          paper_id: item.paper_id,
+          review_id: item.id,
+          title: title || 'Unknown Title',
+          authors: authors,
+          arxiv_id: item.papers?.arxiv_id,
+          created_at: item.created_at,
+          lineage_count: Array.isArray(item.lineage_data) ? item.lineage_data.length : 0,
+          status: 'completed',
+          visibility: 'public',
+          created_by: item.created_by,
+          // creator_name not available without profiles FK
+        };
+      });
+
+      setPublicPapers(publicReviews);
+    } catch (err) {
+      console.error('Error loading public reviews:', err);
+    }
+  };
+
+  const toggleVisibility = async (reviewId: string, currentVisibility: string) => {
+    if (!user?.id) return;
+
+    setTogglingVisibility(reviewId);
+    const newVisibility = currentVisibility === 'public' ? 'private' : 'public';
+
+    try {
+      const { error: updateError } = await supabase
+        .from('paper_reviews')
+        .update({ visibility: newVisibility })
+        .eq('id', reviewId)
+        .eq('created_by', user.id); // Only owner can toggle
+
+      if (updateError) throw updateError;
+
+      // Update local state
+      setPapers(papers.map(p =>
+        p.review_id === reviewId
+          ? { ...p, visibility: newVisibility as 'private' | 'public' }
+          : p
+      ));
+
+      // Reload public list
+      await loadPublicReviews();
+    } catch (err) {
+      console.error('Error toggling visibility:', err);
+      setError('Failed to update visibility');
+    } finally {
+      setTogglingVisibility(null);
     }
   };
 
@@ -361,6 +473,32 @@ export function PaperReviewListManager({ circleId }: PaperReviewListManagerProps
         </button>
       </div>
 
+      {/* Tabs */}
+      <div className="mb-4 flex gap-2 border-b border-gray-200">
+        <button
+          onClick={() => setActiveTab('my')}
+          className={`px-4 py-2 text-sm font-medium border-b-2 transition-colors ${
+            activeTab === 'my'
+              ? 'border-green-600 text-green-600'
+              : 'border-transparent text-gray-600 hover:text-gray-900'
+          }`}
+        >
+          <Lock className="w-4 h-4 inline mr-2" />
+          My Reviews ({papers.length})
+        </button>
+        <button
+          onClick={() => setActiveTab('public')}
+          className={`px-4 py-2 text-sm font-medium border-b-2 transition-colors ${
+            activeTab === 'public'
+              ? 'border-green-600 text-green-600'
+              : 'border-transparent text-gray-600 hover:text-gray-900'
+          }`}
+        >
+          <Globe className="w-4 h-4 inline mr-2" />
+          Public Reviews ({publicPapers.length})
+        </button>
+      </div>
+
       {/* Error Message */}
       {error && (
         <div className="mb-4 p-4 bg-red-50 border border-red-200 rounded-lg flex items-start gap-2">
@@ -391,36 +529,44 @@ export function PaperReviewListManager({ circleId }: PaperReviewListManagerProps
           <Loader className="w-6 h-6 text-gray-400 animate-spin" />
           <span className="ml-2 text-gray-600">Loading reviewed papers...</span>
         </div>
-      ) : papers.length === 0 ? (
+      ) : (activeTab === 'my' ? papers : publicPapers).length === 0 ? (
         // Empty State
         <div className="text-center py-12 bg-gray-50 rounded-lg border border-gray-200">
           <FileCheck className="w-12 h-12 text-gray-400 mx-auto mb-4" />
-          <h3 className="text-lg font-medium text-gray-900 mb-2">No papers reviewed yet</h3>
+          <h3 className="text-lg font-medium text-gray-900 mb-2">
+            {activeTab === 'my' ? 'No papers reviewed yet' : 'No public reviews available'}
+          </h3>
           <p className="text-gray-600 mb-4">
-            Get started by reviewing a paper to generate a comprehensive conference-style critique and extract lineage relationships.
+            {activeTab === 'my'
+              ? 'Get started by reviewing a paper to generate a comprehensive conference-style critique and extract lineage relationships.'
+              : 'Be the first to share a review publicly!'}
           </p>
-          <button
-            onClick={() => setShowAddModal(true)}
-            className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
-          >
-            Review Your First Paper
-          </button>
+          {activeTab === 'my' && (
+            <button
+              onClick={() => setShowAddModal(true)}
+              className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+            >
+              Review Your First Paper
+            </button>
+          )}
         </div>
       ) : (
         // Papers List
         <div className="grid gap-4">
-          {papers.map((paper) => (
+          {(activeTab === 'my' ? papers : publicPapers).map((paper) => (
             <div
               key={paper.review_id}
-              onClick={() => setSelectedPaperId(paper.paper_id)}
-              className={`p-4 bg-white border rounded-lg hover:shadow-md transition-shadow cursor-pointer ${
+              className={`p-4 bg-white border rounded-lg hover:shadow-md transition-shadow ${
                 paper.status === 'failed' ? 'border-red-200' :
                 paper.status === 'processing' || paper.status === 'pending' ? 'border-yellow-200' :
                 'border-gray-200'
               }`}
             >
               <div className="flex items-start justify-between">
-                <div className="flex-1">
+                <div
+                  className="flex-1 cursor-pointer"
+                  onClick={() => setSelectedPaperId(paper.paper_id)}
+                >
                   <div className="flex items-center gap-2 mb-2">
                     <h3 className="text-lg font-semibold text-gray-900">
                       {paper.title}
@@ -476,10 +622,44 @@ export function PaperReviewListManager({ circleId }: PaperReviewListManagerProps
                       </div>
                     )}
                   </div>
+                  {/* Show creator for public reviews */}
+                  {activeTab === 'public' && paper.creator_name && (
+                    <div className="flex items-center gap-2 text-sm text-gray-500 mt-2">
+                      <Users className="w-4 h-4" />
+                      <span>Shared by {paper.creator_name}</span>
+                    </div>
+                  )}
                 </div>
-                <div className="flex items-center gap-2 text-gray-500 text-sm">
-                  <Calendar className="w-4 h-4" />
-                  <span>{new Date(paper.created_at).toLocaleDateString()}</span>
+                <div className="flex flex-col items-end gap-2">
+                  <div className="flex items-center gap-2 text-gray-500 text-sm">
+                    <Calendar className="w-4 h-4" />
+                    <span>{new Date(paper.created_at).toLocaleDateString()}</span>
+                  </div>
+                  {/* Visibility toggle - only for own reviews */}
+                  {activeTab === 'my' && paper.created_by === user?.id && paper.status === 'completed' && (
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        toggleVisibility(paper.review_id, paper.visibility || 'private');
+                      }}
+                      disabled={togglingVisibility === paper.review_id}
+                      className={`flex items-center gap-1 px-2 py-1 text-xs rounded-full transition-colors ${
+                        paper.visibility === 'public'
+                          ? 'bg-green-100 text-green-700 hover:bg-green-200'
+                          : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                      }`}
+                      title={paper.visibility === 'public' ? 'Click to make private' : 'Click to make public'}
+                    >
+                      {togglingVisibility === paper.review_id ? (
+                        <Loader className="w-3 h-3 animate-spin" />
+                      ) : paper.visibility === 'public' ? (
+                        <Globe className="w-3 h-3" />
+                      ) : (
+                        <Lock className="w-3 h-3" />
+                      )}
+                      <span>{paper.visibility === 'public' ? 'Public' : 'Private'}</span>
+                    </button>
+                  )}
                 </div>
               </div>
             </div>
