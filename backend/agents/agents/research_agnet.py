@@ -238,8 +238,9 @@ class PaperSearchEngine:
         
         # Fallback API
         try:
+            clean_query = query.replace('"', '')
             params = {
-                "search_query": f"all:{query.replace('\"', '')}",
+                "search_query": f"all:{clean_query}",
                 "start": 0,
                 "max_results": max_results,
                 "sortBy": "submittedDate",

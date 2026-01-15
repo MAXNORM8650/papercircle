@@ -821,7 +821,8 @@ class PaperSearchEngine:
         
         # Fallback to API
         try:
-            params = {"search_query": f"all:{query.replace('\"', '')}", "start": 0,
+            clean_query = query.replace('"', '')
+            params = {"search_query": f"all:{clean_query}", "start": 0,
                      "max_results": max_results, "sortBy": "submittedDate", "sortOrder": "descending"}
             resp = self.session.get("http://export.arxiv.org/api/query", params=params, timeout=30)
             resp.raise_for_status()
