@@ -5,6 +5,7 @@ import { PaperSelectionModal } from './PaperSelectionModal';
 import { useLineageAnalysis, PaperInfo } from '../../contexts/LineageAnalysisContext';
 import { useAuth } from '../../contexts/AuthContext';
 import { supabase } from '../../lib/supabase';
+import { API_BASE_URL } from '../../lib/api';
 
 interface AnalyzedPaper {
   paper_id: string;
@@ -22,7 +23,7 @@ interface PaperAnalysisListManagerProps {
   circleId?: string | null;
 }
 
-const API_BASE = 'http://127.0.0.1:8000';
+const API_BASE = API_BASE_URL;
 
 export function PaperAnalysisListManager({ circleId }: PaperAnalysisListManagerProps) {
   const { addAnalyzedPaper } = useLineageAnalysis();

@@ -21,6 +21,7 @@ import {
 import mermaid from 'mermaid';
 import { InteractiveGraph } from './InteractiveGraph';
 import { useAuth } from '../../contexts/AuthContext';
+import { API_BASE_URL } from '../../lib/api';
 
 // Initialize mermaid with latest version
 mermaid.initialize({
@@ -179,7 +180,7 @@ interface Analysis {
 
 type Tab = 'summary' | 'mindmap' | 'flowchart' | 'concepts' | 'methods' | 'experiments' | 'graph' | 'qa';
 
-const API_BASE = 'http://127.0.0.1:8000';
+const API_BASE = API_BASE_URL;
 
 export function PaperAnalysisView({
   paperId,

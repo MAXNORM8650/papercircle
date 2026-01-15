@@ -2,8 +2,9 @@ import { useState, useEffect } from 'react';
 import { ChevronDown, ChevronRight, CheckCircle, XCircle, Brain, Calendar, Users, FileText, LayoutGrid } from 'lucide-react';
 import { PaperAnalysisView } from './PaperAnalysisView';
 import { DualAnalysisView } from './DualAnalysisView';
+import { API_BASE_URL } from '../../lib/api';
 
-const API_BASE = 'http://127.0.0.1:8000';
+const API_BASE = API_BASE_URL;
 
 interface Paper {
   id: string;

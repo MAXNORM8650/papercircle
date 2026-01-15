@@ -3,6 +3,7 @@ import { Search, Download, Loader2, Settings, X, FileText, Table2, Sparkles, Fil
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
 import { useCommunity } from '../../contexts/CommunityContext';
+import { API_BASE_URL } from '../../lib/api';
 
 interface Paper {
   id: string;
@@ -66,8 +67,8 @@ export function AIDiscoveryView({
   const [maxResults, setMaxResults] = useState(20);
   const [minYear, setMinYear] = useState(2020);
 
-  // API URL
-  const apiUrl = import.meta.env.VITE_PAPERFINDER_API_URL || 'http://localhost:8000';
+  // API URL - use centralized config
+  const apiUrl = API_BASE_URL;
 
   // Mode descriptions
   const modeInfo = {

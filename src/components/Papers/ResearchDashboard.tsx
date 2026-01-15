@@ -23,6 +23,7 @@ import {
   ChevronDown,
   ChevronUp
 } from 'lucide-react';
+import { API_BASE_URL } from '../../lib/api';
 
 interface Paper {
   title: string;
@@ -126,9 +127,7 @@ const ResearchDashboard: React.FC<ResearchDashboardProps> = ({ timestamp, onBack
   const [availableSources, setAvailableSources] = useState<string[]>([]);
   const [availableKeywords, setAvailableKeywords] = useState<string[]>([]);
   const [yearBounds, setYearBounds] = useState<[number, number]>([2015, 2026]);
-  const [baseUrl, setApiUrl] = useState(
-    import.meta.env.VITE_PAPERFINDER_API_URL || 'http://127.0.0.1:8000'
-  );
+  const [baseUrl, setApiUrl] = useState(API_BASE_URL);
   // Load data on mount
   useEffect(() => {
     loadDashboardData();

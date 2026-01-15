@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Bot, Sparkles, Download, FileText, Table2, AlertCircle, CheckCircle, Loader2, ExternalLink, ChevronDown, ChevronUp, X, BarChart3, Search, SlidersHorizontal } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import { useCommunity } from '../../contexts/CommunityContext';
+import { API_BASE_URL } from '../../lib/api';
 
 interface Paper {
   title: string;
@@ -60,11 +61,8 @@ export function AIDiscoveryViewNew({
   const [sortBy, setSortBy] = useState<'rank' | 'year' | 'citations' | 'score'>('rank');
   const [filterQuery, setFilterQuery] = useState('');
 
-  // API URL
-  // const apiUrl = 'http://localhost:8002';
-  const [apiUrl, setApiUrl] = useState(
-    import.meta.env.VITE_PAPERFINDER_API_URL || 'http://127.0.0.1:8000'
-  );
+  // API URL - use centralized config
+  const [apiUrl, setApiUrl] = useState(API_BASE_URL);
   // Notify parent of loading changes
   useEffect(() => {
     if (onLoadingChange) {

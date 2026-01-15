@@ -20,6 +20,7 @@ import {
 import { InteractiveGraph } from './InteractiveGraph';
 import { Edge } from '../../contexts/LineageAnalysisContext';
 import { useAuth } from '../../contexts/AuthContext';
+import { API_BASE_URL } from '../../lib/api';
 
 interface PaperReviewViewProps {
   paperId: string;
@@ -64,7 +65,7 @@ interface Review {
 
 type Tab = 'summary' | 'review' | 'analysis' | 'contributions' | 'reproducibility' | 'lineage' | 'graph';
 
-const API_BASE = 'http://127.0.0.1:8000/review';
+const API_BASE = `${API_BASE_URL}/review`;
 const POLL_INTERVAL = 3000; // Poll every 3 seconds
 
 export function PaperReviewView({

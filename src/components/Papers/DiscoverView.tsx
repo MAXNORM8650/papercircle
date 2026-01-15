@@ -8,6 +8,7 @@ import { searchArxivDirect, groupPapersByDate, formatDateDisplay, type ArxivPape
 import { AIDiscoveryViewNew as AIDiscoveryView } from './AIDiscoveryViewNew';
 import { SearchTagsSelector } from './SearchTagsSelector';
 import { CommunityPapersTab } from './CommunityPapersTab';
+import { API_BASE_URL } from '../../lib/api';
 
 type Paper = Database['public']['Tables']['papers']['Row'];
 type Topic = Database['public']['Tables']['topics']['Row'];
@@ -71,7 +72,7 @@ export function DiscoverView({ onSelectPaper }: DiscoverViewProps) {
   const [searchSource, setSearchSource] = useState<'local' | 'arxiv' | 'ai-discovery'>('local');
   const [discoveryMode, setDiscoveryMode] = useState<'stable' | 'discovery' | 'balanced'>('balanced');
   const [applyDiversity, setApplyDiversity] = useState(true);
-  const [discoveryApiUrl, setDiscoveryApiUrl] = useState('http://localhost:8000');
+  const [discoveryApiUrl, setDiscoveryApiUrl] = useState(API_BASE_URL);
   const [activeCategory, setActiveCategory] = useState<'all' | 'overall' | 'hidden_gems' | 'canonical'>('all');
   const [groupByDate, setGroupByDate] = useState(true);
   const [dateRange, setDateRange] = useState<'today' | 'week' | 'month' | 'custom'>('week');

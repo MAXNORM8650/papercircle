@@ -5,6 +5,7 @@ import { PaperSelectionModal } from './PaperSelectionModal';
 import { useLineageAnalysis, PaperInfo, Edge } from '../../contexts/LineageAnalysisContext';
 import { useAuth } from '../../contexts/AuthContext';
 import { supabase } from '../../lib/supabase';
+import { API_BASE_URL } from '../../lib/api';
 
 interface ReviewedPaper {
   paper_id: string;
@@ -22,7 +23,7 @@ interface PaperReviewListManagerProps {
   circleId?: string | null;
 }
 
-const API_BASE = 'http://127.0.0.1:8000';
+const API_BASE = API_BASE_URL;
 const POLL_INTERVAL = 3000; // Poll every 3 seconds
 
 export function PaperReviewListManager({ circleId }: PaperReviewListManagerProps) {

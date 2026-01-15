@@ -16,6 +16,7 @@ import {
 } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import { PaperAnalysisView } from '../Papers/PaperAnalysisView';
+import { API_BASE_URL } from '../../lib/api';
 
 interface SessionAnalysisViewProps {
   sessionId: string;
@@ -45,7 +46,7 @@ interface AnalysisStats {
   processing_papers: number;
 }
 
-const API_BASE = 'http://127.0.0.1:8000';
+const API_BASE = API_BASE_URL;
 
 export function SessionAnalysisView({ sessionId, communityId }: SessionAnalysisViewProps) {
   const [papers, setPapers] = useState<SessionPaper[]>([]);

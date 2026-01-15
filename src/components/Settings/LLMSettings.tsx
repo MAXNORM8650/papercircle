@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Save, RefreshCw, AlertCircle, CheckCircle, Server, Key } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
+import { API_BASE_URL } from '../../lib/api';
 
 interface LLMConfig {
   llm_enabled: boolean;
@@ -69,7 +70,7 @@ export function LLMSettings() {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), 2000);
 
-      const response = await fetch(`http://127.0.0.1:8000/analysis/quota/${user.id}`, {
+      const response = await fetch(`${API_BASE_URL}/analysis/quota/${user.id}`, {
         signal: controller.signal
       });
       clearTimeout(timeoutId);
@@ -189,7 +190,7 @@ export function LLMSettings() {
       const timeoutId = setTimeout(() => controller.abort(), 15000); // 15s timeout for LLM tests
 
       // Call backend API to test connection
-      const response = await fetch('http://127.0.0.1:8000/analysis/test-llm-connection', {
+      const response = await fetch(`${API_BASE_URL}/analysis/test-llm-connection`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
