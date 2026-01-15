@@ -1,0 +1,32 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-15T04:22:48.528938",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM-as-judge RLAIF Reinforcement Learning from AI Feedback LLM evaluator self-critique self-refinement preference modeling reward modeling instruction tuning'",
+      "result_preview": "Found 213 papers",
+      "details": {
+        "query": "LLM-as-judge RLAIF Reinforcement Learning from AI Feedback LLM evaluator self-critique self-refinement preference modeling reward modeling instruction tuning",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 213,
+        "papers_added": 213,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 213
+    }
+  ],
+  "current_step": 1,
+  "metadata": {
+    "query": "LLM-as-judge RLAIF Reinforcement Learning from AI Feedback LLM evaluator self-critique self-refinement preference modeling reward modeling instruction tuning",
+    "total_steps": 1,
+    "last_updated": "2026-01-15T04:22:48.539724",
+    "started_at": "2026-01-15T04:21:55.896505",
+    "total_papers": 213
+  }
+}

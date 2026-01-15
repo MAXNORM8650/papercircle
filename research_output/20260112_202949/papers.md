@@ -1,0 +1,4525 @@
+# Research Papers: 3D world model autoregressive small powerful
+
+Updated: 2026-01-12 20:32
+Total: 418 papers
+
+---
+
+## 1. Autoregressive Pretraining with Mamba in Vision
+
+**Authors:** Sucheng Ren, Xianhang Li, Haoqin Tu, Feng Wang, Fangxun Shu
+
+**Year:** 2025 | **Venue:** ICLR 2025 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openreview.net/pdf?id=PQpvhUrA1C) | > The vision community has started to build with the recently developed state space model, Mamba, as the new backbone for a range of tasks. This paper shows that Mamba's visual capability can be significantly enhanced through autoregressive pretraining, a direction not previously explored. Efficiency-wise, the autoregressive nature can well capitalize on the Mamba's unidirectional recurrent structur...
+
+---
+
+## 2. Revisiting Random Generation Order: Ordinal-Biased Random Training for Efficient Visual Autoregressive Models
+
+**Authors:** 
+
+**Year:** 2026 | **Venue:** ICLR 2026 | **Citations:** N/A | **Score:** 0.000
+
+> We observe an interesting Ordinal Asymmetry phenomenon when training visual autoregressive (AR) generators with randomized generation paths: early tokens, due to limited context, suffer higher losses and primarily capture global structure, while later tokens, with richer context, incur lower losses and refine local detail. This suggests that later tokens correspond to easier roles and targets with...
+
+---
+
+## 3. Causality Preserving Chaotic Transformation and Classification using Neurochaos Learning
+
+**Authors:** Harikrishnan N B, Aditi Kathpalia, Nithin Nagaraj
+
+**Year:** 2022 | **Venue:** NIPS 2022 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openreview.net/pdf?id=XdMusblCkB) | > Discovering cause and effect variables from observational data is an important but challenging problem in science and engineering. In this work, a recently proposed brain inspired learning algorithm namely-\emph{Neurochaos Learning} (NL) is used for the classification of cause and effect time series generated using coupled autoregressive processes, coupled 1D chaotic skew tent maps, coupled 1D cha...
+
+---
+
+## 4. Solving Temporal Puzzles
+
+**Authors:** Caglayan Dicle, Burak Yilmaz, Octavia Camps, Mario Sznaier
+
+**Year:** 2016 | **Venue:** CVPR 2016 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openaccess.thecvf.com/content_cvpr_2016/papers/Dicle_Solving_Temporal_Puzzles_CVPR_2016_paper.pdf) | > Many physical phenomena, within short time windows, can be explained by low order differential relations. In a discrete world, these relations can be described using low order difference equations or equivalently low order auto regressive (AR) models. In this paper, based on this intuition, we propose an algorithm for solving time-sort temporal puzzles, defined as scrambled time series that need t...
+
+---
+
+## 5. Discerning Hydroclimatic Behavior with a Deep Convolutional Residual Regressive Neural Network
+
+**Authors:** Albert Larson, Ali S Akanda, Abdeltawab Hendawi, Soni Pradhanang, Thomas Boving
+
+**Year:** 2023 | **Venue:** ICLR 2023 | **Citations:** N/A | **Score:** 0.000
+
+> Water impacts the globe daily in new and familiar ways such as the ongoing western United States drought and the 2022 Pakistan flood. These events sustain uncertainty, risk, and loss forces to the global ecosystem. Better forecasting tools are mandatory to calibrate our response in an effort to mitigate such natural hazards in our watersheds and adapt to the planet’s dynamic environment. Here, we ...
+
+---
+
+## 6. Nonparametric Regressive Point Processes Based on Conditional Gaussian Processes
+
+**Authors:** Siqi Liu, Milos Hauskrecht
+
+**Year:** 2019 | **Venue:** NIPS 2019 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://papers.nips.cc/paper_files/paper/2019/file/9cc138f8dc04cbf16240daa92d8d50e2-Paper.pdf) | > Real-world event sequences consist of complex mixtures of different types of events occurring in time. An event may depend on past events of the same type, as well as, the other types. Point processes define a general class of models for event sequences. ``Regressive point processes'' refer to point processes that directly model the dependency between an event and any past event, an example of whi...
+
+---
+
+## 7. Regressive Tree Structured Model for Facial Landmark Localization
+
+**Authors:** Gee-Sern Hsu, Kai-Hsiang Chang, Shih-Chieh Huang
+
+**Year:** 2015 | **Venue:** ICCV 2015 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](http://openaccess.thecvf.com/content_iccv_2015/papers/Hsu_Regressive_Tree_Structured_ICCV_2015_paper.pdf) | > Although the Tree Structured Model (TSM) is proven effective for solving face detection, pose estimation and landmark localization in an unified model, its sluggish run time makes it unfavorable in practical applications, especially when dealing with cases of multiple faces. We propose the Regressive Tree Structure Model (RTSM) to improve the run-time speed and localization accuracy. The RTSM is c...
+
+---
+
+## 8. 4D Latent World Model for Robot Planning
+
+**Authors:** 
+
+**Year:** 2026 | **Venue:** ICLR 2026 | **Citations:** N/A | **Score:** 0.000
+
+> Learned world models are emerging as a powerful paradigm in robotics, offering a promising path toward task generalization, long-horizon planning, and flexible decision-making. However, prevailing approaches often operate on 2D video sequences, inherently lacking the 3D geometric understanding necessary for precise spatial reasoning and physical consistency. Recent work has begun to inject 3D sign...
+
+---
+
+## 9. Diffusion Models are Secretly Exchangeable: Parallelizing DDPMs via Auto Speculation
+
+**Authors:** Hengyuan Hu, Aniket Das, Dorsa Sadigh, Nima Anari
+
+**Year:** 2025 | **Venue:** ICML 2025 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openreview.net/pdf?id=n08niE37ku) | > Denoising Diffusion Probabilistic Models (DDPMs) have emerged as powerful tools for generative modeling. However, their sequential computation requirements lead to significant inference-time bottlenecks. In this work, we utilize the connection between DDPMs and Stochastic Localization to prove that, under an appropriate reparametrization, the increments of DDPM satisfy an exchangeability property....
+
+---
+
+## 10. Mutually Regressive Point Processes
+
+**Authors:** Ifigeneia Apostolopoulou, Scott Linderman, Kyle Miller, Artur Dubrawski
+
+**Year:** 2019 | **Venue:** NIPS 2019 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://papers.nips.cc/paper_files/paper/2019/file/564645fbd0332f066cbd9d083ddd077c-Paper.pdf) | > Many real-world data represent sequences of interdependent events unfolding over
+ time. They can be modeled naturally as realizations of a point process. Despite many potential applications, existing point process models are limited in their
+ability to capture complex patterns of interaction. Hawkes processes admit many
+efficient inference algorithms, but are limited to mutually excitatory effects...
+
+---
+
+## 11. Regressive Domain Adaptation for Unsupervised Keypoint Detection
+
+**Authors:** Junguang Jiang, Yifei Ji, Ximei Wang, Yufeng Liu, Jianmin Wang
+
+**Year:** 2021 | **Venue:** CVPR 2021 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Jiang_Regressive_Domain_Adaptation_for_Unsupervised_Keypoint_Detection_CVPR_2021_paper.pdf) | > Domain adaptation (DA) aims at transferring knowledge from a labeled source domain to an unlabeled target domain. Though many DA theories and algorithms have been proposed, most of them are tailored into classification settings and may fail in regression tasks, especially in the practical keypoint detection task. To tackle this difficult but significant task, we present a method of regressive doma...
+
+---
+
+## 12. Regressive Virtual Metric Learning
+
+**Authors:** Michaël Perrot, Amaury Habrard
+
+**Year:** 2015 | **Venue:** NIPS 2015 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://papers.nips.cc/paper_files/paper/2015/file/31857b449c407203749ae32dd0e7d64a-Paper.pdf) | > We are interested in supervised metric learning of Mahalanobis like distances. Existing approaches mainly focus on learning a new distance using similarity and dissimilarity constraints between examples. In this paper, instead of bringing closer examples of the same class and pushing far away examples of different classes we propose to move the examples with respect to virtual points. Hence, each ...
+
+---
+
+## 13. Pard: Permutation-Invariant Autoregressive Diffusion for Graph Generation
+
+**Authors:** Lingxiao Zhao, Xueying Ding, Leman Akoglu
+
+**Year:** 2024 | **Venue:** NIPS 2024 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openreview.net/pdf?id=x4Kk4FxLs3) | > Graph generation has been dominated by autoregressive models due to their simplicity and effectiveness, despite their sensitivity to ordering. Yet diffusion models have garnered increasing attention, as they offer comparable performance while being permutation-invariant. Current graph diffusion models generate graphs in a one-shot fashion, but they require extra features and thousands of denoising...
+
+---
+
+## 14. Auto Network Compression with Cross-Validation Gradient
+
+**Authors:** Nannan Tian, Yong Liu
+
+**Year:** 2020 | **Venue:** ICLR 2020 | **Citations:** N/A | **Score:** 0.000
+
+> Network compression technology can compress large and complex networks into small networks, so that it can be deployed on devices with limited resources. Sparse regularization method, such as $\normlone$ or $L^{21}$ regularization, is the most popular method that can induce sparse model. However, it introduces new hyperparameters, which not only affects the degree of sparsity, but also involves wh...
+
+---
+
+## 15. Offboard 3D Object Detection From Point Cloud Sequences
+
+**Authors:** Charles R. Qi, Yin Zhou, Mahyar Najibi, Pei Sun, Khoa Vo
+
+**Year:** 2021 | **Venue:** CVPR 2021 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Qi_Offboard_3D_Object_Detection_From_Point_Cloud_Sequences_CVPR_2021_paper.pdf) | > While current 3D object recognition research mostly focuses on the real-time, onboard scenario, there are many offboard use cases of perception that are largely under-explored, such as using machines to automatically generate high-quality 3D labels. Existing 3D object detectors fail to satisfy the high-quality requirement for offboard uses due to the limited input and speed constraints. In this pa...
+
+---
+
+## 16. RoboScape: Physics-informed Embodied World Model
+
+**Authors:** Yu Shang, Xin Zhang, Yinzhou Tang, Lei Jin, Chen Gao
+
+**Year:** 2025 | **Venue:** NIPS 2025 | **Citations:** N/A | **Score:** 0.000
+
+> World models have become indispensable tools for embodied intelligence, serving as powerful simulators capable of generating realistic robotic videos while addressing critical data scarcity challenges. However, current embodied world models exhibit limited physical awareness, particularly in modeling 3D geometry and motion dynamics, resulting in unrealistic video generation for contact-rich roboti...
+
+---
+
+## 17. Unsupervised 3D Perception with 2D Vision-Language Distillation for Autonomous Driving
+
+**Authors:** Mahyar Najibi, Jingwei Ji, Yin Zhou, Charles R. Qi, Xinchen Yan
+
+**Year:** 2023 | **Venue:** ICCV 2023 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Najibi_Unsupervised_3D_Perception_with_2D_Vision-Language_Distillation_for_Autonomous_Driving_ICCV_2023_paper.pdf) | > Closed-set 3D perception models trained on only a pre-defined set of object categories can be inadequate for safety critical applications such as autonomous driving where new object types can be encountered after deployment. In this paper, we present a multi-modal auto labeling pipeline capable of generating amodal 3D bounding boxes and tracklets for training models on open-set categories without ...
+
+---
+
+## 18. Revisiting MAE Pre-training for 3D Medical Image Segmentation
+
+**Authors:** Tassilo Wald, Constantin Ulrich, Stanislav Lukyanenko, Andrei Goncharov, Alberto Paderno
+
+**Year:** 2025 | **Venue:** CVPR 2025 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Wald_Revisiting_MAE_Pre-training_for_3D_Medical_Image_Segmentation_CVPR_2025_paper.pdf) | > Self-Supervised Learning (SSL) presents an exciting opportunity to unlock the potential of vast, untapped clinical datasets, for various downstream applications that suffer from the scarcity of labeled data. While SSL has revolutionized fields like natural language processing and computer vision, its adoption in 3D medical image computing has been limited by three key pitfalls: Small pre-training ...
+
+---
+
+## 19. AVID: Adapting Video Diffusion Models to World Models
+
+**Authors:** Marc Rigter, Tarun Gupta, Agrin Hilmkil, Chao Ma
+
+**Year:** 2025 | **Venue:** ICLR 2025 | **Citations:** N/A | **Score:** 0.000
+
+> Large-scale generative models have achieved remarkable success in a number of domains. However, for sequential decision-making problems, such as robotics, action-labelled data is often scarce and therefore scaling-up foundation models for decision-making remains a challenge. A potential solution lies in leveraging widely-available unlabelled videos to train world models that simulate the consequen...
+
+---
+
+## 20. DeepVideo-R1: Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO
+
+**Authors:** Jinyoung Park, Jeehye Na, Jinyoung Kim, Hyunwoo J. Kim
+
+**Year:** 2025 | **Venue:** NIPS 2025 | **Citations:** N/A | **Score:** 0.000
+
+> Recent works have demonstrated the effectiveness of reinforcement learning (RL)-based post-training for enhancing the reasoning capabilities of large language models (LLMs). In particular, Group Relative Policy Optimization (GRPO) has shown impressive success using a PPO-style reinforcement algorithm with group-normalized rewards. However, the effectiveness of GRPO in Video Large Language Models (...
+
+---
+
+## 21. MBW: Multi-view Bootstrapping in the Wild
+
+**Authors:** Mosam Dabhi, Chaoyang Wang, Tim Clifford, Laszlo Attila Jeni, Ian R. Fasel
+
+**Year:** 2022 | **Venue:** NIPS 2022 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openreview.net/pdf?id=i1bFPSw42W0) | > Labeling articulated objects in unconstrained settings has a wide variety of applications including entertainment, neuroscience, psychology, ethology, and many fields of medicine. Large offline labeled datasets do not exist for all but the most common articulated object categories (e.g., humans). Hand labeling these landmarks within a video sequence is a laborious task. Learned landmark detectors ...
+
+---
+
+## 22. 3D-LLM: Injecting the 3D World into Large Language Models
+
+**Authors:** Yining Hong, Haoyu Zhen, Peihao Chen, Shuhong Zheng, Yilun Du
+
+**Year:** 2023 | **Venue:** NIPS 2023 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openreview.net/pdf?id=YQA28p7qNz) | > Large language models (LLMs) and Vision-Language Models (VLMs) have been proved to excel at multiple tasks, such as commonsense reasoning. Powerful as these models can be, they are not grounded in the 3D physical world, which involves richer concepts such as spatial relationships, affordances, physics, layout, and so on. In this work, we propose to inject the 3D world into large language models, a...
+
+---
+
+## 23. Diffusion World Models
+
+**Authors:** Eloi Alonso, Adam Jelley, Anssi Kanervisto, Tim Pearce
+
+**Year:** 2024 | **Venue:** ICLR 2024 | **Citations:** N/A | **Score:** 0.000
+
+> World models constitute a powerful and versatile tool for decision-making. Through their ability to predict future states of the world, they can replace environments for safe and fast simulation, and/or be leveraged for search at decision time. Advances in generative modeling have led to the development of new world models, that operate in visual environments with challenging dynamics. However, re...
+
+---
+
+## 24. World-Consistent Video-to-Video Synthesis
+
+**Authors:** Arun Mallya, Ting-Chun Wang, Karan Sapra, Ming-Yu Liu
+
+**Year:** 2020 | **Venue:** ECCV 2020 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530358.pdf) | > Video-to-video synthesis is a powerful tool for converting high-level semantic inputs to photorealistic videos. However, while existing vid2vid methods can maintain short-term temporal consistency, they fail to ensure long-term consistency in the outputs. This is because they generate each frame only based on the past few frames. They lack knowledge of the 3D world being generated. In this work, w...
+
+---
+
+## 25. Training Variational Auto Encoders with Discrete Latent Representations using Importance Sampling
+
+**Authors:** Alexander Bartler, Felix Wiewel, Bin Yang, Lukas Mauch
+
+**Year:** 2019 | **Venue:** ICLR 2019 | **Citations:** N/A | **Score:** 0.000
+
+> The Variational Auto Encoder (VAE) is a popular generative 
+latent variable model that is often 
+applied for representation learning.
+Standard VAEs assume continuous valued 
+latent variables and are trained by maximization
+of the evidence lower bound (ELBO). Conventional methods obtain a 
+differentiable estimate of the ELBO with reparametrized sampling and
+optimize it with Stochastic Gradient Desc...
+
+---
+
+## 26. CoT-Seg: Rethinking Reasoning Segmentation with Chain of Thoughts and Auto Correction
+
+**Authors:** Shiu-hong Kao, Chak Ho Huang, Huaiqian Liu, Yu-Wing Tai, Chi-Keung Tang
+
+**Year:** 2026 | **Venue:** ICLR 2026 | **Citations:** N/A | **Score:** 0.000
+
+> Reasoning segmentation is an emerging vision-language task that requires generating a segmentation mask from implicit and often ambiguous language queries,enabled by recent advances in Multimodal Large Language Models (MLLMs).However, state-of-the-art training-based approaches often fail in challenging cases that demand higher-level reasoning or external knowledge. In this work, we introduce CoT-S...
+
+---
+
+## 27. POC-SLT: Partial Object Completion with SDF Latent Transformers
+
+**Authors:** Faezeh S Zakeri, Raphael Braun, Lukas Ruppert, Hendrik Lensch
+
+**Year:** 2025 | **Venue:** ICLR 2025 | **Citations:** N/A | **Score:** 0.000
+
+> 3D geometric shape completion hinges on representation learning and a deep understanding of geometric data.
+Without profound insights into the three-dimensional nature of the data, this task remains unattainable.
+Our work addresses this challenge of 3D shape completion given partial observations
+by proposing a transformer operating on the latent space representing Signed Distance Fields (SDFs).
+In...
+
+---
+
+## 28. Demeter: A Parametric Model of Crop Plant Morphology from the Real World
+
+**Authors:** Tianhang Cheng, Albert J. Zhai, Evan Z. Chen, Rui Zhou, Yawen Deng
+
+**Year:** 2025 | **Venue:** ICCV 2025 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openaccess.thecvf.com/content/ICCV2025/papers/Cheng_Demeter_A_Parametric_Model_of_Crop_Plant_Morphology_from_the_ICCV_2025_paper.pdf) | > Learning 3D parametric shape models of objects has gained popularity in vision and graphics and has showed broad utility in 3D reconstruction, generation, understanding, and simulation. While powerful models exist for humans and animals, equally expressive approaches for modeling plants are lacking. In this work, we present Demeter, a data-driven parametric model that encodes key factors of a plan...
+
+---
+
+## 29. TRELLISWorld: Training-Free World Generation from Object Generators
+
+**Authors:** 
+
+**Year:** 2026 | **Venue:** ICLR 2026 | **Citations:** N/A | **Score:** 0.000
+
+> Text-driven 3D scene generation holds promise for a wide range of applications, from virtual prototyping to AR/VR and simulation. However, existing methods are often constrained to single-object generation, require domain-specific training, or lack support for full 360-degree viewability. In this work, we present a training-free approach to 3D scene synthesis by repurposing general-purpose text-to...
+
+---
+
+## 30. Terra: Explorable Native 3D World Model with Point Latents
+
+**Authors:** Yuanhui Huang, Weiliang Chen, Wenzhao Zheng, Xin Tao, Pengfei Wan
+
+**Year:** 2026 | **Venue:** ICLR 2026 | **Citations:** N/A | **Score:** 0.000
+
+> World models have garnered increasing attention for comprehensive modeling of the real world.
+However, most existing methods still rely on pixel-aligned representations as the basis for world evolution, neglecting the inherent 3D nature of the physical world.
+This could undermine the 3D consistency and diminish the modeling efficiency of world models.
+In this paper, we present Terra, a native 3D w...
+
+---
+
+## 31. Bayesian Optimization with Clustering and Rollback for CNN Auto Pruning
+
+**Authors:** Hanwei Fan, Jiandong Mu, Wei Zhang
+
+**Year:** 2022 | **Venue:** ECCV 2022 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830480.pdf) | > "Pruning is an effective technique for convolutional neural networks (CNNs) model compression, but it is difficult to find the optimal pruning policy due to the large design space. To improve the usability of pruning, many auto pruning methods have been developed. Recently, Bayesian optimization (BO) has been considered to be a competitive algorithm for auto pruning due to its solid theoretical fo...
+
+---
+
+## 32. Paramanu-Ganita: An Efficient Pre-trained Generative Mathematics Language Model with Chain-of-Thought Instruction Fine-Tuning
+
+**Authors:** Mitodru Niyogi, Arnab Bhattacharya
+
+**Year:** 2025 | **Venue:** ICLR 2025 | **Citations:** N/A | **Score:** 0.000
+
+> In this paper, we pose the following question: whether domain specific pretraining of tiny generative language models from scratch with domain specialized tokenizer and Chain-of-Thought (CoT) instruction fine-tuning results in very competitive performance on mathematical reasoning than LLMs which are trained on trillion of tokens and humongous parameters? Secondly, we pose our second RQ: whether d...
+
+---
+
+## 33. The Auto Arborist Dataset: A Large-Scale Benchmark for Multiview Urban Forest Monitoring Under Domain Shift
+
+**Authors:** Sara Beery, Guanhang Wu, Trevor Edwards, Filip Pavetic, Bo Majewski
+
+**Year:** 2022 | **Venue:** CVPR 2022 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Beery_The_Auto_Arborist_Dataset_A_Large-Scale_Benchmark_for_Multiview_Urban_CVPR_2022_paper.pdf) | > Generalization to novel domains is a fundamental challenge for computer vision. Near-perfect accuracy on benchmarks is common, but these models do not work as expected when deployed outside of the training distribution. To build computer vision systems that truly solve real-world problems at global scale, we need benchmarks that fully capture real-world complexity, including geographic domain shif...
+
+---
+
+## 34. Semi-Supervised Vision-Centric 3D Occupancy World Model for Autonomous Driving
+
+**Authors:** Xiang Li, Pengfei Li, Yupeng Zheng, Wei Sun, Yan Wang
+
+**Year:** 2025 | **Venue:** ICLR 2025 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openreview.net/pdf?id=rCX9l4OTCT) | > Understanding world dynamics is crucial for planning in autonomous driving. Recent methods attempt to achieve this by learning a 3D occupancy world model that forecasts future surrounding scenes based on current observation. However, 3D occupancy labels are still required to produce promising results. Considering the high annotation cost for 3D outdoor scenes, we propose a semi-supervised vision-c...
+
+---
+
+## 35. Policy-Driven World Model Adaptation for Robust Offline Model-based Reinforcement Learning
+
+**Authors:** 
+
+**Year:** 2026 | **Venue:** ICLR 2026 | **Citations:** N/A | **Score:** 0.000
+
+> Offline reinforcement learning (RL) offers a powerful paradigm for data-driven control. Compared to model-free approaches, offline model-based RL (MBRL) explicitly learns a world model from a static dataset and uses it as a surrogate simulator, improving data efficiency and enabling potential generalization beyond the dataset support. However, most existing offline MBRL methods follow a two-stage ...
+
+---
+
+## 36. Small features matter: Robust representation for world models
+
+**Authors:** Zarif Ikram, Miranda Anna Christ, Ling Pan, Dianbo Liu
+
+**Year:** 2025 | **Venue:** ICLR 2025 | **Citations:** N/A | **Score:** 0.000
+
+> In Model-Based Reinforcement Learning (MBRL), an agent learns to make decisions by building a world model that predicts the environment's dynamics. The accuracy of this world model is crucial for generalizability and sample efficiency. Many works rely on pixel-level reconstruction, which may focus on irrelevant, exogenous features over minor, but key information. In this work, to encourage the wor...
+
+---
+
+## 37. Time-Aware Auto White Balance in Mobile Photography
+
+**Authors:** Mahmoud Afifi, Luxi Zhao, Abhijith Punnappurath, Mohamed A. Abdelsalam, Ran Zhang
+
+**Year:** 2025 | **Venue:** ICCV 2025 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openaccess.thecvf.com/content/ICCV2025/papers/Afifi_Time-Aware_Auto_White_Balance_in_Mobile_Photography_ICCV_2025_paper.pdf) | > Cameras rely on auto white balance (AWB) to correct undesirable color casts caused by scene illumination and the camera's spectral sensitivity. This is typically achieved using an illuminant estimator that determines the global color cast solely from the color information in the camera's raw sensor image. Mobile devices provide valuable additional metadata---such as capture timestamp and geolocati...
+
+---
+
+## 38. PointWorld: Scaling 3D World Models for In-The-Wild Robotic Manipulation
+
+**Authors:** Wenlong Huang, Yu-Wei Chao, Arsalan Mousavian, Ming-Yu Liu, Dieter Fox
+
+**Year:** 2026 | **Venue:** ICLR 2026 | **Citations:** N/A | **Score:** 0.000
+
+> Humans anticipate, from a glance and a contemplated action of their bodies, how the
+3D world will respond. This predictive ability is equally vital for enabling robots
+to manipulate and interact with the physical world. We introduce PointWorld,
+a foundation 3D world model that unifies state and action in a shared spatial
+domain and predicts 3D point flow over short horizons: given one or a few RGB...
+
+---
+
+## 39. ZOPP: A Framework of Zero-shot Offboard Panoptic Perception for Autonomous Driving
+
+**Authors:** Tao MA, Hongbin Zhou, Qiusheng Huang, Xuemeng Yang, Jianfei Guo
+
+**Year:** 2024 | **Venue:** NIPS 2024 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openreview.net/pdf?id=4jXaca2NYa) | > Offboard perception aims to automatically generate high-quality 3D labels for autonomous driving (AD) scenes. Existing offboard methods focus on 3D object detection with closed-set taxonomy and fail to match human-level recognition capability on the rapidly evolving perception tasks. Due to heavy reliance on human labels and the prevalence of data imbalance and sparsity, a unified framework for of...
+
+---
+
+## 40. Open3DSG: Open-Vocabulary 3D Scene Graphs from Point Clouds with Queryable Objects and Open-Set Relationships
+
+**Authors:** Sebastian Koch, Narunas Vaskevicius, Mirco Colosi, Pedro Hermosilla, Timo Ropinski
+
+**Year:** 2024 | **Venue:** CVPR 2024 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Koch_Open3DSG_Open-Vocabulary_3D_Scene_Graphs_from_Point_Clouds_with_Queryable_CVPR_2024_paper.pdf) | > Current approaches for 3D scene graph prediction rely on labeled datasets to train models for a fixed set of known object classes and relationship categories. We present Open3DSG an alternative approach to learn 3D scene graph prediction in an open world without requiring labeled scene graph data. We co-embed the features from a 3D scene graph prediction backbone with the feature space of powerful...
+
+---
+
+## 41. Learning 3D Persistent Embodied World Models
+
+**Authors:** Siyuan Zhou, Yilun Du, Yuncong Yang, Lei Han, Peihao Chen
+
+**Year:** 2025 | **Venue:** NIPS 2025 | **Citations:** N/A | **Score:** 0.000
+
+> The ability to simulate the effects of future actions on the world is a crucial ability of intelligent embodied agents, enabling agents to anticipate the effects of their actions and make plans accordingly. While a large body of existing work has explored how to construct such world models using video models, they are often myopic in nature, without any memory of a scene not captured by currently ...
+
+---
+
+## 42. Robust Depth Estimation From Auto Bracketed Images
+
+**Authors:** Sunghoon Im, Hae-Gon Jeon, In So Kweon
+
+**Year:** 2018 | **Venue:** CVPR 2018 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openaccess.thecvf.com/content_cvpr_2018/papers/Im_Robust_Depth_Estimation_CVPR_2018_paper.pdf) | > As demand for advanced photographic applications on hand-held devices grows, these electronics require the capture of high quality depth. However, under low-light conditions, most devices still suffer from low imaging quality and inaccurate depth acquisition. To address the problem, we present a robust depth estimation method from a short burst shot with varied intensity (i.e., Auto Bracketing) or...
+
+---
+
+## 43. Auto Learning Attention
+
+**Authors:** Benteng Ma, Jing Zhang, Yong Xia, Dacheng Tao
+
+**Year:** 2020 | **Venue:** NIPS 2020 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://papers.nips.cc/paper_files/paper/2020/file/103303dd56a731e377d01f6a37badae3-Paper.pdf) | > Attention modules have been demonstrated effective in strengthening the representation ability of a neural network via reweighting spatial or channel features or stacking both operations sequentially. However, designing the structures of different attention operations requires a bulk of computation and extensive expertise. In this paper, we devise an Auto Learning Attention (AutoLA) method, which ...
+
+---
+
+## 44. OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving
+
+**Authors:** Wenzhao Zheng, Weiliang Chen, Yuanhui Huang, Borui Zhang, Yueqi Duan
+
+**Year:** 2024 | **Venue:** ECCV 2024 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02024.pdf) | > "Understanding how the 3D scene evolves is vital for making decisions in autonomous driving. Most existing methods achieve this by predicting the movements of object boxes, which cannot capture more fine-grained scene information. In this paper, we explore a new framework of learning a world model, OccWorld, in the 3D occupancy space to simultaneously predict the movement of the ego car and the ev...
+
+---
+
+## 45. AdaDQH Optimizer: Evolving from Stochastic to Adaptive by Auto Switch of Precondition Matrix
+
+**Authors:** Yun Yue, Zhiling Ye, Jiadi Jiang, Yongchao Liu, Ke Zhang
+
+**Year:** 2023 | **Venue:** ICLR 2023 | **Citations:** N/A | **Score:** 0.000
+
+> Adaptive optimizers (e.g., Adam) have achieved tremendous success in deep learning. The key component of the optimizer is the precondition matrix, which provides more gradient information and adjusts the step size of each gradient direction. Intuitively, the closer the precondition matrix approximates the Hessian, the faster convergence and better generalization the optimizer can achieve in terms ...
+
+---
+
+## 46. Auto MC-Reward: Automated Dense Reward Design with Large Language Models for Minecraft
+
+**Authors:** Hao Li, Xue Yang, Zhaokai Wang, Xizhou Zhu, Jie Zhou
+
+**Year:** 2024 | **Venue:** CVPR 2024 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Auto_MC-Reward_Automated_Dense_Reward_Design_with_Large_Language_Models_CVPR_2024_paper.pdf) | > Many reinforcement learning environments (e.g. Minecraft) provide only sparse rewards that indicate task completion or failure with binary values. The challenge in exploration efficiency in such environments makes it difficult for reinforcement-learning-based agents to learn complex tasks. To address this this paper introduces an advanced learning system named Auto MC-Reward that leverages Large L...
+
+---
+
+## 47. Tree-D Fusion: Simulation-Ready Tree Dataset from Single Images with Diffusion Priors
+
+**Authors:** Jae Joong Lee, Bosheng Li, Sara M Beery, Jonathan Huang, Songlin Fei
+
+**Year:** 2024 | **Venue:** ECCV 2024 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05802.pdf) | > "We introduce , featuring the first collection of 600,000 environmentally aware, 3D simulation-ready tree models generated through Diffusion priors. Each reconstructed 3D tree model corresponds to an image from Google’s Auto Arborist Dataset, comprising street view images and associated genus labels of trees across North America. Our method distills the scores of two tree-adapted diffusion models ...
+
+---
+
+## 48. Learning to Detect Every Thing in an Open World
+
+**Authors:** Kuniaki Saito, Ping Hu, Trevor Darrell, Kate Saenko
+
+**Year:** 2022 | **Venue:** ECCV 2022 | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136840265.pdf) | > "Many open-world applications require the detection of novel objects, yet state-of-the-art object detection and instance segmentation networks do not excel at this task. The key issue lies in their assumption that regions without any annotations should be suppressed as negatives, which teaches the model to treat any unannotated (hidden) objects as background. To address this issue, we propose a si...
+
+---
+
+## 49. Pre-training Auto-regressive Robotic Models with 4D Representations
+
+**Authors:** Dantong Niu, Yuvan Sharma, Haoru Xue, Giscard Biamby, Junyi Zhang
+
+**Year:** 2025 | **Venue:** International Conference on Machine Learning | **Citations:** 19 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2502.13142)
+
+> Foundation models pre-trained on massive unlabeled datasets have revolutionized natural language and computer vision, exhibiting remarkable generalization capabilities, thus highlighting the importance of pre-training. Yet, efforts in robotics have struggled to achieve similar success, limited by either the need for costly robotic annotations or the lack of representations that effectively model t...
+
+---
+
+## 50. Learning Versatile 3D Shape Generation with Improved Auto-regressive Models
+
+**Authors:** Simian Luo, Xuelin Qian, Yanwei Fu, Yinda Zhang, Ying Tai
+
+**Year:** 2023 | **Venue:** IEEE International Conference on Computer Vision | **Citations:** 2 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1109/ICCV51070.2023.01300)
+
+> Auto-Regressive (AR) models have achieved impressive results in 2D image generation by modeling joint distributions in the grid space. While this approach has been extended to the 3D domain for powerful shape generation, it still has two limitations: expensive computations on volumetric grids and ambiguous auto-regressive order along grid dimensions. To overcome these limitations, we propose the I...
+
+---
+
+## 51. Theoretical Proof that Auto-regressive Language Models Collapse when Real-world Data is a Finite Set
+
+**Authors:** Lecheng Wang, Xianjie Shi, Ge Li, Jia Li, Yihong Dong
+
+**Year:** 2024 | **Venue:**  | **Citations:** 1 | **Score:** 0.000
+
+> Auto-regressive language models (LMs) have been widely used to generate data in data-scarce domains to train new LMs, compensating for the scarcity of real-world data. Previous work experimentally found that LMs collapse when trained on recursively generated data. This paper presents a theoretical proof: once a corpus (such as a subset of the World Wide Web) begins to incorporate generated data an...
+
+---
+
+## 52. Small Language Models as Compiler Experts: Auto-Parallelization for Heterogeneous Systems
+
+**Authors:** Prathamesh Devadiga
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+> Traditional auto-parallelizing compilers, reliant on rigid heuristics, struggle with the complexity of modern heterogeneous systems. This paper presents a comprehensive evaluation of small (approximately 1B parameter) language-model-driven compiler auto-parallelization. We evaluate three models: gemma3, llama3.2, and qwen2.5, using six reasoning strategies across 11 real-world kernels drawn from s...
+
+---
+
+## 53. SEE4D: Pose-Free 4D Generation via Auto-Regressive Video Inpainting
+
+**Authors:** Dongyue Lu, Ao Liang, Tianxin Huang, Xiao Fu, Yuyang Zhao
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 2 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2510.26796)
+
+> Immersive applications call for synthesizing spatiotemporal 4D content from casual videos without costly 3D supervision. Existing video-to-4D methods typically rely on manually annotated camera poses, which are labor-intensive and brittle for in-the-wild footage. Recent warp-then-inpaint approaches mitigate the need for pose labels by warping input frames along a novel camera trajectory and using ...
+
+---
+
+## 54. TTS-VAR: A Test-Time Scaling Framework for Visual Auto-Regressive Generation
+
+**Authors:** Zhekai Chen, Ruihang Chu, Yukang Chen, Shiwei Zhang, Yujie Wei
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 8 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2507.18537)
+
+> Scaling visual generation models is essential for real-world content creation, yet requires substantial training and computational expenses. Alternatively, test-time scaling has garnered growing attention due to resource efficiency and promising performance. In this work, we present TTS-VAR, the first general test-time scaling framework for visual auto-regressive (VAR) models, modeling the generat...
+
+---
+
+## 55. Non-Stationary Latent Auto-Regressive Bandits
+
+**Authors:** Anna L. Trella, Walter Dempsey, F. Doshi-Velez, Susan A. Murphy
+
+**Year:** 2024 | **Venue:** arXiv.org | **Citations:** 2 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2402.03110)
+
+> For the non-stationary multi-armed bandit (MAB) problem, many existing methods allow a general mechanism for the non-stationarity, but rely on a budget for the non-stationarity that is sub-linear to the total number of time steps $T$. In many real-world settings, however, the mechanism for the non-stationarity can be modeled, but there is no budget for the non-stationarity. We instead consider the...
+
+---
+
+## 56. CARFF: Conditional Auto-encoded Radiance Field for 3D Scene Forecasting
+
+**Authors:** Jiezhi Yang, Khushi Desai, Charles Packer, Harshil Bhatia, Nicholas Rhinehart
+
+**Year:** 2024 | **Venue:** European Conference on Computer Vision | **Citations:** 2 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2401.18075)
+
+> We propose CARFF, a method for predicting future 3D scenes given past observations. Our method maps 2D ego-centric images to a distribution over plausible 3D latent scene configurations and predicts the evolution of hypothesized scenes through time. Our latents condition a global Neural Radiance Field (NeRF) to represent a 3D scene model, enabling explainable predictions and straightforward downst...
+
+---
+
+## 57. MATLABER: Material-Aware Text-to-3D via LAtent BRDF auto-EncodeR
+
+**Authors:** Xudong Xu, Zhaoyang Lyu, Xingang Pan, Bo Dai
+
+**Year:** 2023 | **Venue:** arXiv.org | **Citations:** 37 | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2308.09278) | [DOI](https://doi.org/10.48550/arXiv.2308.09278)
+
+> Based on powerful text-to-image diffusion models, text-to-3D generation has made significant progress in generating compelling geometry and appearance. However, existing methods still struggle to recover high-fidelity object materials, either only considering Lambertian reflectance, or failing to disentangle BRDF materials from the environment lights. In this work, we propose Material-Aware Text-t...
+
+---
+
+## 58. Generative molecule evolution using 3D pharmacophore for efficient Structure-Based Drug Design
+
+**Authors:** Yi He, Ailun Wang, Zhi Wang, Yu Liu, Xingyuan Xu
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 1 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2507.20130)
+
+> Recent advances in generative models, particularly diffusion and auto-regressive models, have revolutionized fields like computer vision and natural language processing. However, their application to structure-based drug design (SBDD) remains limited due to critical data constraints. To address the limitation of training data for models targeting SBDD tasks, we propose an evolutionary framework na...
+
+---
+
+## 59. Persistent Nature: A Generative Model of Unbounded 3D Worlds
+
+**Authors:** Lucy Chai, Richard Tucker, Zhengqi Li, Phillip Isola, Noah Snavely
+
+**Year:** 2023 | **Venue:** Computer Vision and Pattern Recognition | **Citations:** 45 | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2303.13515) | [DOI](https://doi.org/10.1109/CVPR52729.2023.01999)
+
+> Despite increasingly realistic image quality, recent 3D image generative models often operate on 3D volumes of fixed extent with limited camera motions. We investigate the task of unconditionally synthesizing unbounded nature scenes, enabling arbitrarily large camera motion while maintaining a persistent 3D world model. Our scene representation consists of an extendable, planar scene layout grid, ...
+
+---
+
+## 60. PivotMesh: Generic 3D Mesh Generation via Pivot Vertices Guidance
+
+**Authors:** Haohan Weng, Yikai Wang, Tong Zhang, C. L. P. Chen, Jun Zhu
+
+**Year:** 2024 | **Venue:** International Conference on Learning Representations | **Citations:** 29 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2405.16890)
+
+> Generating compact and sharply detailed 3D meshes poses a significant challenge for current 3D generative models. Different from extracting dense meshes from neural representation, some recent works try to model the native mesh distribution (i.e., a set of triangles), which generates more compact results as humans crafted. However, due to the complexity and variety of mesh topology, these methods ...
+
+---
+
+## 61. Batch Multi-Fidelity Bayesian Optimization with Deep Auto-Regressive Networks
+
+**Authors:** Shibo Li, Robert M. Kirby, Shandian Zhe
+
+**Year:** 2021 | **Venue:** Neural Information Processing Systems | **Citations:** 13 | **Score:** 0.000
+
+> Bayesian optimization (BO) is a powerful approach for optimizing black-box, expensive-to-evaluate functions. To enable a flexible trade-off between the cost and accuracy, many applications allow the function to be evaluated at different fidelities. In order to reduce the optimization cost while maximizing the benefit-cost ratio, in this paper, we propose Batch Multi-fidelity Bayesian Optimization ...
+
+---
+
+## 62. Voyager: Long-Range and World-Consistent Video Diffusion for Explorable 3D Scene Generation
+
+**Authors:** Tianyu Huang, Wangguandong Zheng, Tengfei Wang, Yuhao Liu, Zhenwei Wang
+
+**Year:** 2025 | **Venue:** ACM Transactions on Graphics | **Citations:** 26 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1145/3763330)
+
+> Real-world applications like video gaming and virtual reality often demand the ability to model 3D scenes that users can explore along custom camera trajectories. While significant progress has been made in generating 3D objects from text or images, creating long-range, 3D-consistent, explorable 3D scenes remains a complex and challenging problem. In this work, we present Voyager, a novel video di...
+
+---
+
+## 63. Beyond Talking – Generating Holistic 3D Human Dyadic Motion for Communication
+
+**Authors:** Mingze Sun, Chao Xu, Xinyu Jiang, Yang Liu, Baigui Sun
+
+**Year:** 2024 | **Venue:** International Journal of Computer Vision | **Citations:** 12 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1007/s11263-024-02300-7)
+
+> In this paper, we introduce an innovative task focused on human communication, aiming to generate 3D holistic human motions for both speakers and listeners. Central to our approach is the incorporation of factorization to decouple audio features and the combination of textual semantic information, thereby facilitating the creation of more realistic and coordinated movements. We separately train VQ...
+
+---
+
+## 64. ViT3D Alignment of LLaMA3: 3D Medical Image Report Generation
+
+**Authors:** Siyou Li, Beining Xu, Yihao Luo, Dong Nie, Le Zhang
+
+**Year:** 2024 | **Venue:** arXiv.org | **Citations:** 2 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2410.08588)
+
+> Automatic medical report generation (MRG), which aims to produce detailed text reports from medical images, has emerged as a critical task in this domain. MRG systems can enhance radiological workflows by reducing the time and effort required for report writing, thereby improving diagnostic efficiency. In this work, we present a novel approach for automatic MRG utilizing a multimodal large languag...
+
+---
+
+## 65. Evaluating the dosimetric impact of deep‐learning‐based auto‐segmentation in prostate cancer radiotherapy: Insights into real‐world clinical implementation and inter‐observer variability
+
+**Authors:** N. Arjmandi, M.A. Mosleh-Shirazi, Shokoufeh Mohebbi, S. Nasseri, Alireza Mehdizadeh
+
+**Year:** 2024 | **Venue:** Journal of Applied Clinical Medical Physics | **Citations:** 5 | **Score:** 0.000
+
+[PDF](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/acm2.14569) | [DOI](https://doi.org/10.1002/acm2.14569)
+
+> Abstract Purpose This study aimed to investigate the dosimetric impact of deep‐learning‐based auto‐contouring for clinical target volume (CTV) and organs at risk (OARs) delineation in prostate cancer radiotherapy planning. Additionally, we compared the geometric accuracy of auto‐contouring system to the variability observed between human experts. Methods We evaluated 28 planning CT volumes, each w...
+
+---
+
+## 66. The Effects of Small and Medium Enterprises (SMEs) Performance on Poverty Alleviation in Nigeria
+
+**Authors:** T. A. A. Ogunsona, R. A. Danmola, E. O. Braimoh, M. O. Bofele
+
+**Year:** 2025 | **Venue:** International journal of research and innovation in social science | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.47772/ijriss.2025.907000385)
+
+> The study investigated the effects of small and medium enterprises (SMEs) performance on poverty alleviation in Nigeria using annual time-series data from 1990 to 2022. Secondary data were sourced from the Central Bank of Nigeria (CBN) Statistical Bulletin and World Bank Development Indicators. The variables used in the study were – commercial bank loan to SMEs (CBLSME), employment rates (EMPR), t...
+
+---
+
+## 67. WonderZoom: Multi-Scale 3D World Generation
+
+**Authors:** Jin Cao, Hong-Xing Yu, Jiajun Wu
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+> We present WonderZoom, a novel approach to generating 3D scenes with contents across multiple spatial scales from a single image. Existing 3D world generation models remain limited to single-scale synthesis and cannot produce coherent scene contents at varying granularities. The fundamental challenge is the lack of a scale-aware 3D representation capable of generating and rendering content with la...
+
+---
+
+## 68. DiffBP: generative diffusion of 3D molecules for target protein binding
+
+**Authors:** Haitao Lin, Yufei Huang, Meng Liu, X. Li, Shuiwang Ji
+
+**Year:** 2022 | **Venue:** Chemical Science | **Citations:** 95 | **Score:** 0.000
+
+[PDF](https://doi.org/10.1039/d4sc05894a) | [DOI](https://doi.org/10.1039/d4sc05894a)
+
+> Generating molecules that bind to specific proteins is an important but challenging task in drug discovery. Most previous works typically generate atoms autoregressively, with element types and 3D coordinates of atoms generated one by one. However, in real-world molecular systems, interactions among atoms are global, spanning the entire molecule, leading to pair-coupled energy function among atoms...
+
+---
+
+## 69. OmniNWM: Omniscient Driving Navigation World Models
+
+**Authors:** Bohan Li, Zhuang Ma, Dalong Du, Bao Peng, Zhujin Liang
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 3 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2510.18313)
+
+> Autonomous driving world models are expected to work effectively across three core dimensions: state, action, and reward. Existing models, however, are typically restricted to limited state modalities, short video sequences, imprecise action control, and a lack of reward awareness. In this paper, we introduce OmniNWM, an omniscient panoramic navigation world model that addresses all three dimensio...
+
+---
+
+## 70. Learning Versatile 3D Shape Generation with Improved AR Models
+
+**Authors:** Simian Luo, Xuelin Qian, Yanwei Fu, Yinda Zhang, Ying Tai
+
+**Year:** 2023 | **Venue:** arXiv.org | **Citations:** 3 | **Score:** 0.000
+
+[PDF](http://arxiv.org/pdf/2303.14700) | [DOI](https://doi.org/10.48550/arXiv.2303.14700)
+
+> Auto-Regressive (AR) models have achieved impressive results in 2D image generation by modeling joint distributions in the grid space. While this approach has been extended to the 3D domain for powerful shape generation, it still has two limitations: expensive computations on volumetric grids and ambiguous auto-regressive order along grid dimensions. To overcome these limitations, we propose the I...
+
+---
+
+## 71. SPUS: A Lightweight and Parameter-Efficient Foundation Model for PDEs
+
+**Authors:** Abu Bucker Siddik, Diane Oyen, Alexander Most, Michal Kucer, Ayan Biswas
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2510.01370)
+
+> We introduce Small PDE U-Net Solver (SPUS), a compact and efficient foundation model (FM) designed as a unified neural operator for solving a wide range of partial differential equations (PDEs). Unlike existing state-of-the-art PDE FMs-primarily based on large complex transformer architectures with high computational and parameter overhead-SPUS leverages a lightweight residual U-Net-based architec...
+
+---
+
+## 72. MIME: Human-Aware 3D Scene Generation
+
+**Authors:** Hongwei Yi, C. Huang, Shashank Tripathi, Lea Hering, Justus Thies
+
+**Year:** 2022 | **Venue:** Computer Vision and Pattern Recognition | **Citations:** 61 | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2212.04360) | [DOI](https://doi.org/10.1109/CVPR52729.2023.01246)
+
+> Generating realistic 3D worlds occupied by moving humans has many applications in games, architecture, and synthetic data creation. But generating such scenes is expensive and labor intensive. Recent work generates human poses and motions given a 3D scene. Here, we take the opposite approach and generate 3D indoor scenes given 3D human motion. Such motions can come from archival motion capture or ...
+
+---
+
+## 73. MACROECONOMIC ANALYSIS OF FISCAL POLICY AND SMALL AND MEDIUM-SCALE ENTERPRISES OUTPUT IN NIGERIA
+
+**Authors:** F. Eke, E. O. Ifere, I. Eke, Theresa Banku Mbang
+
+**Year:** 2024 | **Venue:** GUSAU JOURNAL OF ECONOMICS AND DEVELOPMENT STUDIES | **Citations:** 1 | **Score:** 0.000
+
+[DOI](https://doi.org/10.57233/gujeds.v5i1.09)
+
+> Fiscal policies, specifically taxation, affect the output growth of SMEs in most developing countries. This study analysed the impact of taxation on small and medium enterprises output in Nigeria using the Auto Regressive Distributed Lag model econometric technique using the ex-post facto research design. The econometric equation is anchored on the Solow-Swan and Keynesian theories. Secondary data...
+
+---
+
+## 74. AdaFuse: Adaptive Ensemble Decoding with Test-Time Scaling for LLMs
+
+**Authors:** Chengming Cui, Tianxin Wei, Ziyi Chen, Ruizhong Qiu, Zhichen Zeng
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.06022v1) | > Large language models (LLMs) exhibit complementary strengths arising from differences in pretraining data, model architectures, and decoding behaviors. Inference-time ensembling provides a practical way to combine these capabilities without retraining. However, existing ensemble approaches suffer from fundamental limitations. Most rely on fixed fusion granularity, which lacks the flexibility requi...
+
+---
+
+## 75. Mobility Trajectories from Network-Driven Markov Dynamics
+
+**Authors:** David A. Meyer, Asif Shakeel
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.06020v1) | > We present a generative model of human mobility in which trajectories arise as realizations of a prescribed, time-dependent Markov dynamics defined on a spatial interaction network. The model constructs a hierarchical routing structure with hubs, corridors, feeder paths, and metro links, and specifies transition matrices using gravity-type distance decay combined with externally imposed temporal s...
+
+---
+
+## 76. LookAroundNet: Extending Temporal Context with Transformers for Clinically Viable EEG Seizure Detection
+
+**Authors:** Þór Sverrisson, Steinn Guðmundsson
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.06016v1) | > Automated seizure detection from electroencephalography (EEG) remains difficult due to the large variability of seizure dynamics across patients, recording conditions, and clinical settings. We introduce LookAroundNet, a transformer-based seizure detector that uses a wider temporal window of EEG data to model seizure activity. The seizure detector incorporates EEG signals before and after the segm...
+
+---
+
+## 77. On the Effect of Misspecifying the Embedding Dimension in Low-rank Network Models
+
+**Authors:** Roddy Taing, Keith Levin
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.06014v1) | > As network data has become ubiquitous in the sciences, there has been growing interest in network models whose structure is driven by latent node-level variables in a (typically low-dimensional) latent geometric space. These "latent positions" are often estimated via embeddings, whereby the nodes of a network are mapped to points in Euclidean space so that "similar" nodes are mapped to nearby poin...
+
+---
+
+## 78. Simulations of collision and sloshing in the galaxy group NGC 5098/5096
+
+**Authors:** Richards P. Albuquerque, Gastão B. Lima Neto, Rubens E. G. Machado, Hugo V. Capelato, Florence Durret
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.06011v1) | > The study of galaxy groups is essential to understanding the evolutionary history of large-scale structures in the Universe. These dense environments have a significant impact on galaxy evolution, influencing their gas content, morphology, and star formation activity. In this work we analyse in detail the system NGC~5098$/$5096 composed of two galaxy groups. We performed hydrodynamical $N$-body si...
+
+---
+
+## 79. Slow mixing and emergent one-form symmetries in three-dimensional $\mathbb{Z}_2$ gauge theory
+
+**Authors:** Charles Stahl, Benedikt Placke, Vedika Khemani, Yaodong Li
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.06010v1) | > Symmetry-breaking order at low temperatures is often accompanied by slow relaxation dynamics, due to diverging free-energy barriers arising from interfaces between different ordered states. Here, we extend this correspondence to classical topological order, where the ordered states are locally indistinguishable, so there is no notion of interfaces between them. We study the relaxation dynamics of ...
+
+---
+
+## 80. Detecting Stochasticity in Discrete Signals via Nonparametric Excursion Theorem
+
+**Authors:** Sunia Tanweer, Firas A. Khasawneh
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.06009v1) | > We develop a practical framework for distinguishing diffusive stochastic processes from deterministic signals using only a single discrete time series. Our approach is based on classical excursion and crossing theorems for continuous semimartingales, which correlates number $N_\varepsilon$ of excursions of magnitude at least $\varepsilon$ with the quadratic variation $[X]_T$ of the process. The sc...
+
+---
+
+## 81. Don't Break the Cache: An Evaluation of Prompt Caching for Long-Horizon Agentic Tasks
+
+**Authors:** Elias Lumer, Faheem Nizar, Akshaya Jangiti, Kevin Frank, Anmol Gulati
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.06007v1) | > Recent advancements in Large Language Model (LLM) agents have enabled complex multi-turn agentic tasks requiring extensive tool calling, where conversations can span dozens of API calls with increasingly large context windows. However, although major LLM providers offer prompt caching to reduce cost and latency, its benefits for agentic workloads remain underexplored in the research literature. To...
+
+---
+
+## 82. Discriminative-Generative Target Speaker Extraction with Decoder-Only Language Models
+
+**Authors:** Bang Zeng, Beilong Tang, Wang Xiang, Ming Li
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.06006v1) | > Target speaker extraction (TSE) aims to recover the speech signal of a desired speaker from a mixed audio recording, given a short enrollment utterance. Most existing TSE approaches are based on discriminative modeling paradigms. Although effective at suppressing interfering speakers, these methods often struggle to produce speech with high perceptual quality and naturalness. To address this limit...
+
+---
+
+## 83. Rotational Coherence Dominates Early-Time Dynamics and Produces Long-Time Revivals in the S2 State of Azulene
+
+**Authors:** Jie Zhan, Alexander K. Lemmens, Musahid Ahmed, Melanie A. R. Reber
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.06003v1) | > The ultrafast dynamics of azulene have been debated for decades, with reported picosecond decay constants variously attributed to intramolecular vibrational redistribution (IVR), internal conversion, or rotational dephasing. Using polarization and femtosecond time-resolved Resonance Enhanced Multi-photon Ionization Spectroscopy with a nanosecond delay window, we disentangle this long-standing inco...
+
+---
+
+## 84. The Molecular Structure of Thought: Mapping the Topology of Long Chain-of-Thought Reasoning
+
+**Authors:** Qiguang Chen, Yantao Du, Ziniu Li, Jinhao Liu, Songyao Duan
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.06002v1) | > Large language models (LLMs) often fail to learn effective long chain-of-thought (Long CoT) reasoning from human or non-Long-CoT LLMs imitation. To understand this, we propose that effective and learnable Long CoT trajectories feature stable molecular-like structures in unified view, which are formed by three interaction types: Deep-Reasoning (covalent-like), Self-Reflection (hydrogen-bond-like), ...
+
+---
+
+## 85. Resilient UAV Data Mule via Adaptive Sensor Association under Timing Constraints
+
+**Authors:** Md Sharif Hossen, Anil Gurses, Ozgur Ozdemir, Mihail Sichitiu, Ismail Guvenc
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.06000v1) | > Unmanned aerial vehicles (UAVs) can be critical for time-sensitive data collection missions, yet existing research often relies on simulations that fail to capture real-world complexities. Many studies assume ideal wireless conditions or focus only on path planning, neglecting the challenge of making real-time decisions in dynamic environments. To bridge this gap, we address the problem of adaptiv...
+
+---
+
+## 86. Constraining Hamiltonians from chiral effective field theory with neutron-star data
+
+**Authors:** Cassandra L. Armstrong, Brendan T. Reed, Tate Plohr, Henrik Rose, Soumi De
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05999v1) | > Multi-messenger observations of neutron stars (NSs) and their mergers have placed strong constraints on the dense-matter equation of state (EOS). The EOS, in turn, depends on microscopic nuclear interactions that are described by nuclear Hamiltonians. These Hamiltonians are commonly derived within chiral effective field theory (EFT). Ideally, multi-messenger observations of NSs could be used to di...
+
+---
+
+## 87. Curving Beam Reflections: Model and Experimental Validation
+
+**Authors:** Caroline Jane Spindel, Edward Knightly
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05998v1) | > Curving beams are a promising new method for bypassing obstacles in future millimeter-wave to sub-terahertz (sub-THz) networks but lack a general predictive model for their reflections from arbitrary surfaces. We show that, unfortunately, attempting to "mirror" the incident beam trajectory across the normal of the reflector, as in ray optics, fails in general. Thus, we introduce the first geometri...
+
+---
+
+## 88. Increasing The Sensitivity of a Surface Plasmon Resonance Sensor using Ti3C2 Mxene
+
+**Authors:** Rostyslav Terekhov, Zoya Eremenko, Sergii Kulish
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05997v1) | > Sensors based on the phenomenon of surface plasmon resonance have limited sensitivity, up to 123 degree/Refractive Index Unit, which restricts their applicability in detecting subtle changes gin biological media (around 10-5 RIU). To address this, a sensor dependent on the Kretschmann-Reather configuration was modified using Ti3C2 MXene material. The sensor was modeled using the finite element met...
+
+---
+
+## 89. Investigating Active Galactic Nuclei variability with the Cherenkov Telescope Array Observatory
+
+**Authors:** G. Grolleron, J. Biteau, M. Cerruti, R. Grau, L. Gréaux
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05995v1) | > Blazars, a type of active galactic nuclei (AGN) with relativistic jets pointed at the observer, exhibit flux variability across the electromagnetic spectrum due to particle acceleration in their jets. Power spectral density (PSD) studies show breaks at specific frequencies, particularly in X-rays, linked to the accretion regime and black hole mass. However, very-high-energy gamma-ray PSD breaks re...
+
+---
+
+## 90. Setting up the physical principles of resilience in a model of the Earth System
+
+**Authors:** Orfeu Bertolami, Magnus Nyström
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05994v1) | > Resilience is a property of social, ecological, social-ecological and biophysical systems. It describes the capacity of a system to cope with, adapt to and innovate in response to a changing surrounding. Given the current climate change crisis, ensuring conditions for a sustainable future for the habitability on the planet is fundamentally dependent on Earth System (ES) resilience. It is thus part...
+
+---
+
+## 91. Detecting Planted Structure in Circular Data
+
+**Authors:** Taha Ameen, Bruce Hajek
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05993v1) | > Hypothesis testing problems for circular data are formulated, where observations take values on the unit circle and may contain a hidden, phase-coherent structure. Under the null, the data are independent uniform on the unit circle; under the alternative, either (i) a planted subset of size K concentrates around an unknown phase (the flat setting), or (ii) a planted community of size k induces coh...
+
+---
+
+## 92. An Improved UV-Optical Diagnostic for Rejuvenating Galaxies in the Local Universe and Implications for Galaxy Evolution
+
+**Authors:** Dylan Lazarus, Laura C. Parker
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05992v1) | > Rejuvenating galaxies are important probes of galaxy evolution, yet identifying them observationally is challenging as constraining recent star formation histories requires both photometric and spectroscopic data. We present a method for identifying rejuvenating galaxies in the local Universe using ultraviolet (UV) imaging and optical spectroscopy, building on a recent selection that identifies a ...
+
+---
+
+## 93. Open-Vocabulary 3D Instruction Ambiguity Detection
+
+**Authors:** Jiayu Ding, Haoran Tang, Ge Li
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05991v1) | > In safety-critical domains, linguistic ambiguity can have severe consequences; a vague command like "Pass me the vial" in a surgical setting could lead to catastrophic errors. Yet, most embodied AI research overlooks this, assuming instructions are clear and focusing on execution rather than confirmation. To address this critical safety gap, we are the first to define Open-Vocabulary 3D Instructio...
+
+---
+
+## 94. Terahertz metasurface sensor with graphene microstrips for biosensing: modeling and application
+
+**Authors:** K. S. Kuznetsova, V. A. Pashynska, Z. E. Eremenko
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05990v1) | > The study is devoted to development and optimization of a metasurface-based sensor with graphene constituents for potential biosensing applications. A unit cell of the proposed metasurface consists of a thin flexible dielectric substrate layer with a centrally positioned graphene microstrip. As a result of numerical modeling of spectral properties of the metasurface by COMSOL Multiphysics software...
+
+---
+
+## 95. CyberGFM: Graph Foundation Models for Lateral Movement Detection in Enterprise Networks
+
+**Authors:** Isaiah J. King, Bernardo Trindade, Benjamin Bowman, H. Howie Huang
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05988v1) | > Representing networks as a graph and training a link prediction model using benign connections is an effective method of anomaly-based intrusion detection. Existing works using this technique have shown great success using temporal graph neural networks and skip-gram-based approaches on random walks. However, random walk-based approaches are unable to incorporate rich edge data, while the GNN-base...
+
+---
+
+## 96. The Causal Effect of First-Time Academic Failure on University Dropout: Evidence from a Regression Discontinuity Design
+
+**Authors:** H. R. Paz
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05987v1) | > University dropout remains a persistent challenge in higher education systems, yet causal evidence on the mechanisms triggering early disengagement is limited. This study estimates the causal effect of first-time academic failure on subsequent university attrition. Exploiting a sharp institutional grading threshold on a 0-10 scale, we implement a regression discontinuity design (RDD) comparing stu...
+
+---
+
+## 97. Deepfake detectors are DUMB: A benchmark to assess adversarial training robustness under transferability constraints
+
+**Authors:** Adrian Serrano, Erwan Umlil, Ronan Thomas
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05986v1) | > Deepfake detection systems deployed in real-world environments are subject to adversaries capable of crafting imperceptible perturbations that degrade model performance. While adversarial training is a widely adopted defense, its effectiveness under realistic conditions -- where attackers operate with limited knowledge and mismatched data distributions - remains underexplored. In this work, we ext...
+
+---
+
+## 98. Community-Based Model Sharing and Generalisation: Anomaly Detection in IoT Temperature Sensor Networks
+
+**Authors:** Sahibzada Saadoon Hammad, Joaquín Huerta Guijarro, Francisco Ramos, Michael Gould Carlson, Sergio Trilles Oliver
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05984v1) | > The rapid deployment of Internet of Things (IoT) devices has led to large-scale sensor networks that monitor environmental and urban phenomena in real time. Communities of Interest (CoIs) provide a promising paradigm for organising heterogeneous IoT sensor networks by grouping devices with similar operational and environmental characteristics. This work presents an anomaly detection framework base...
+
+---
+
+## 99. Age of Gossip With Cellular Drone Mobility
+
+**Authors:** Arunabh Srivastava, Sennur Ulukus
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05983v1) | > We consider a cellular network containing $n$ nodes where nodes within a cell gossip with each other in a fully-connected fashion and a source shares updates with these nodes via a mobile drone. The mobile drone receives updates directly from the source and shares them with nodes in the cell where it currently resides. The drone moves between cells according to an underlying continuous-time Markov...
+
+---
+
+## 100. Radial differential rotation leading to dipole collapse in pre-main-sequence stars
+
+**Authors:** A. Guseva, L. Manchon, L. Petitdemange, C. Pinçon
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05980v1) | > Despite progress in the observations of stellar magnetic fields, their physical mechanisms remain poorly understood. During the pre-main sequence (PMS) phase, the inner layers of stars contract and a radiative core gradually develops. In contrast, the convective envelope is gradually braked through magnetic interactions with the accretion disk and winds. With developing differential rotation insid...
+
+---
+
+## 101. Optimization of the metal-dielectric metasurface unit cell for sensitivity enhancement in determination of IgG concentration in solutions
+
+**Authors:** K. S. Kuznetsova, V. A. Pashynska, Z. E. Eremenko
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05979v1) | > This study focuses on developing a metal-dielectric sensor structure with optimized unit cell geometry for determination of protein Immunoglobulin G (IgG) concentration in aqueous solutions. The research combines both experimental and theoretical investigations, utilizing the differential microwave dielectrometry method and numerical modeling with COMSOL software. Complex permittivity (CP) values ...
+
+---
+
+## 102. AWaRe-SAC: Proactive Slice Admission Control under Weather-Induced Capacity Uncertainty
+
+**Authors:** Dror Jacoby, Yanzhi Li, Shuyue Yu, Nicola Di Cicco, Hagit Messer
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05978v1) | > As emerging applications demand higher throughput and lower latencies, operators are increasingly deploying millimeter-wave (mmWave) links within x-haul transport networks, spanning fronthaul, midhaul, and backhaul segments. However, the inherent susceptibility of mmWave frequencies to weather-related attenuation, particularly rain fading, complicates the maintenance of stringent Quality of Servic...
+
+---
+
+## 103. Comment on Nuclear Fusion 66, 016012 (2026) and arXiv:2508.03561 by Richard Fitzpatrick, A Simple Model of Current Ramp-Up and Ramp-Down in Tokamaks
+
+**Authors:** Allen H Boozer
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05977v1) | > The article Nuclear Fusion \textbf{66}, 016012 (2026) by Richard Fitzpatrick is based on fundamental errors in the physics of the poloidal magnetic flux in tokamaks. His paper was inspired by an article that I posted on arXiv in various versions [arXiv:2507.05456]. The September 9, 2025 version was submitted to the Physics of Plasmas, which flatly rejected the article. Before I can resubmit, the P...
+
+---
+
+## 104. DeePM: Regime-Robust Deep Learning for Systematic Macro Portfolio Management
+
+**Authors:** Kieran Wood, Stephen J. Roberts, Stefan Zohren
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05975v1) | > We propose DeePM (Deep Portfolio Manager), a structured deep-learning macro portfolio manager trained end-to-end to maximize a robust, risk-adjusted utility. DeePM addresses three fundamental challenges in financial learning: (1) it resolves the asynchronous "ragged filtration" problem via a Directed Delay (Causal Sieve) mechanism that prioritizes causal impulse-response learning over information ...
+
+---
+
+## 105. Feasibility of event-by-event primary mass discrimination using radio observables and supervised machine learning
+
+**Authors:** Washington R. de Carvalho, Lech Wiktor Piotrowski
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05969v1) | > In this work, we investigate the feasibility of event-by-event primary mass discrimination using radio observables only. Although the analysis does not require an explicit reconstruction of the shower maximum ($X_{max}$), the discrimination power still arises from the sensitivity of the radio observables to the longitudinal development of the extensive air shower (EAS). Such radio-based approaches...
+
+---
+
+## 106. Skyrme-Hartree-Fock-Bogoliubov mass models on a 3D mesh: V. The N2LO extension of the Skyrme EDF
+
+**Authors:** G. Grams, W. Ryssens, A. Sánchez-Fernández, N. N. Shchechilin, L. González-Miret Zaragoza
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05968v1) | > We present BSkG5, the latest entry in the Brussels-Skyrme-on-a-Grid (BSkG) series and the first large-scale nuclear structure model based on next-to-next-to-leading order (N2LO) Skyrme energy density functional (EDF). By extending the traditional Skyrme EDF ansatz with central terms containing up to four gradients, we are able to combine an excellent global description of nuclear ground state prop...
+
+---
+
+## 107. The Linear Point Standard Ruler with DESI DR1 and DR2 Data
+
+**Authors:** N. Uberoi, F. Nikakhtar, N. Padmanabhan, R. K. Sheth, J. Aguilar
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05967v1) | > The linear point, a purely geometric feature in the monopole of the two-point correlation function, has been proposed as an alternative standard ruler. Compared to the peak in the correlation function, it is more robust to late-time nonlinear effects at the percent level. In light of improved simulations and high quality data, we revisit the robustness of the linear point and use it as an alternat...
+
+---
+
+## 108. VideoAR: Autoregressive Video Generation via Next-Frame & Scale Prediction
+
+**Authors:** Longbin Ji, Xiaoxiong Liu, Junyuan Shang, Shuohuan Wang, Yu Sun
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05966v1) | > Recent advances in video generation have been dominated by diffusion and flow-matching models, which produce high-quality results but remain computationally intensive and difficult to scale. In this work, we introduce VideoAR, the first large-scale Visual Autoregressive (VAR) framework for video generation that combines multi-scale next-frame prediction with autoregressive modeling. VideoAR disent...
+
+---
+
+## 109. Game connectivity and adaptive dynamics in many-action games
+
+**Authors:** Tom Johnston, Michael Savery, Alex Scott, Bassel Tarbush
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05965v1) | > We study the typical structure of games in terms of their connectivity properties. A game is said to be `connected' if it has a pure Nash equilibrium and the property that there is a best-response path from every action profile which is not a pure Nash equilibrium to every pure Nash equilibrium, and it is generic if it has no indifferences. In previous work we showed that, among all $n$-player $k$...
+
+---
+
+## 110. Negative binomial models for development triangles of counts
+
+**Authors:** Luis E. Nieto-Barajas, Rodrigo S. Targino
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05964v1) | > Prediction of outstanding claims has been done via nonparametric models (chain ladder), semiparametric models (overdispersed poisson) or fully parametric models. In this paper, we propose models based on negative binomial distributions for the prediction of outstanding number of claims, which are particularly useful to account for overdispersion. We first assume independence of random variables an...
+
+---
+
+## 111. Coherence properties of collective modes in ensembles of oscillators
+
+**Authors:** A. Pikovsky, F. Bagnoli, S. Iubini
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05963v1) | > Synchronization transition in oscillatory networks manifests itself as the appearance of a periodic global mode. While perfect in the thermodynamic limit, this mode fluctuates for finite ensembles. We characterize the coherence of this mode in terms of the phase diffusion constant. In several examples, we always observed normal diffusion, but the dependence of the diffusion constant on the system ...
+
+---
+
+## 112. Evolution of the Berry curvature dipole in uniaxially strained bilayer graphene
+
+**Authors:** Karel Cuypers, Robin Smeyers, Bert Jorissen, Lucian Covaci
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05962v1) | > While in pristine bilayer graphene the Berry curvature dipole (BCD), a necessary ingredient for the nonlinear anomalous Hall effect, is zero, uniaxial strain can give rise to finite BCD. We investigate this by using a tight-binding (TB) approach build on the Slater-Koster parameterization to capture lattice deformation effects often missed by continuum models. We demonstrate that the BCD's evoluti...
+
+---
+
+## 113. Navigating the Sociotechnical Imaginaries of Brazilian Tech Workers
+
+**Authors:** Kenzo Soares Seto
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05961v1) | > This chapter examines the sociotechnical imaginaries of Brazilian tech workers, a group often overlooked in digital labor research despite their role in designing the digital systems that shape everyday life. Grounded in the idea of sociotechnical imaginaries as collectively constructed visions that guide technology development and governance, the chapter argues that looking from the Global South ...
+
+---
+
+## 114. Application of a profile decomposition theorem to elliptic equations with critical growth
+
+**Authors:** Diego Ferraz
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05959v1) | > This paper introduces new variational methods centered on the direct application of a profile decomposition theorem for bounded sequences in Sobolev spaces. We employ these methods to prove the existence of ground state solutions for a class of semilinear elliptic equations in $\mathbb{R}^N$ with critical Sobolev growth, set in an asymptotically periodic framework where the coefficients converge t...
+
+---
+
+## 115. Comparison of reverse current mechanisms in GaN Schottky diodes grown on sapphire versus ammonothermal GaN substrates
+
+**Authors:** B. Orfao, M. Abou Daher, H. Bouillaud, Y. Roelens, P. Prystawko
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05958v1) | > In this work, we analyse the reverse current mechanisms in GaN Schottky barrier diodes (SBDs) grown on sapphire and native GaN substrates. For the sapphire-substrate sample, two conduction mechanisms are identified: Poole-Frenkel emission (PFE) and trap-assisted tunneling (TAT), with corresponding trap energy levels of 0.9 eV and 0.3 eV, respectively. In contrast, only PFE is observed in the GaN-s...
+
+---
+
+## 116. On the Robustness of Age for Learning-Based Wireless Scheduling in Unknown Environments
+
+**Authors:** Juaren Steiger, Bin Li
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05956v1) | > The constrained combinatorial multi-armed bandit model has been widely employed to solve problems in wireless networking and related areas, including the problem of wireless scheduling for throughput optimization under unknown channel conditions. Most work in this area uses an algorithm design strategy that combines a bandit learning algorithm with the virtual queue technique to track the throughp...
+
+---
+
+## 117. Multi-Modal Style Transfer-based Prompt Tuning for Efficient Federated Domain Generalization
+
+**Authors:** Yuliang Chen, Xi Lin, Jun Wu, Xiangrui Cai, Qiaolun Zhang
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05955v1) | > Federated Domain Generalization (FDG) aims to collaboratively train a global model across distributed clients that can generalize well on unseen domains. However, existing FDG methods typically struggle with cross-client data heterogeneity and incur significant communication and computation overhead. To address these challenges, this paper presents a new FDG framework, dubbed FaST-PT, which facili...
+
+---
+
+## 118. Note on edge expansion and modularity in preferential attachment graphs
+
+**Authors:** Colin McDiarmid, Katarzyna Rybarczyk, Fiona Skerman, Małgorzata Sulkowska
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05953v1) | > Edge expansion is a parameter indicating how well-connected a graph is. It is useful for designing robust networks, analysing random walks or information flow through a network and is an important notion in theoretical computer science. Modularity is a measure of how well a graph can be partitioned into communities and is widely used in clustering applications. We study these two parameters in two...
+
+---
+
+## 119. Continuous-time noise mitigation in analogue quantum simulation
+
+**Authors:** Gabriele Bressanini, Yue Ma, Hyukjoon Kwon, M. S. Kim
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05952v1) | > Analogue quantum simulators offer a promising route to explore quantum many-body dynamics beyond classical reach in the near term. However, their vulnerability to noise limits the accuracy of simulations. Here, we establish a new framework for mitigating noise in analogue quantum simulation, operating in a time-continuous manner. To our knowledge, this is the first protocol that is fully analogue ...
+
+---
+
+## 120. Thermally Configurable Multi-Order Polar Skyrmions in Multiferroic Oxide Superlattices
+
+**Authors:** Kefan Liu, Yuhui Huang, Xiangwei Guo, Yongjun Wu, Juan Li
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05950v1) | > Polar topological textures in low-dimensional ferroelectrics have emerged as a versatile platform for high-density information storage and neuromorphic computing. While low-order topological states, such as vortices and skyrmions, have been extensively studied, high-order polar topological families remain largely unexplored due to their higher energy requirements and limited stabilization methods....
+
+---
+
+## 121. Generalized Spectral Clustering of Low-Inertia Power Networks
+
+**Authors:** Gerald Ogbonna, C. Lindsay Anderson
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05949v1) | > Large-scale integration of distributed energy resources has led to a rapid increase in the number of controllable devices and a significant change in system dynamics. This has necessitating the shift towards more distributed and scalable control strategies to manage the increasing system complexity. In this work, we address the problem of partitioning a low-inertia power network into dynamically c...
+
+---
+
+## 122. A Critical Examination of Active Learning Workflows in Materials Science
+
+**Authors:** Akhil S. Nair, Lucas Foppa
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05946v1) | > Active learning (AL) plays a critical role in materials science, enabling applications such as the construction of machine-learning interatomic potentials for atomistic simulations and the operation of self-driving laboratories. Despite its widespread use, the reliability and effectiveness of AL workflows depend on implicit design assumptions that are rarely examined systematically. Here, we criti...
+
+---
+
+## 123. Superdiffusive central limit theorem for a class of driven diffusive systems at the critical dimension
+
+**Authors:** Giuseppe Cannizzaro, Tom Klose, Quentin Moulard
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05945v1) | > We study the large-scale behaviour of a class of driven diffusive systems modelled by a Stochastic Partial Differential Equation, the Stochastic Burgers Equation (SBE) with general nonlinearity, at the critical dimension and in infinite volume. Our main result shows that, under a logarithmically superdiffusive space-time scaling, it is given by the same explicit Gaussian Fixed point obtained in [G...
+
+---
+
+## 124. Global Optimization for Combinatorial Geometry Problems
+
+**Authors:** Timo Berthold, Dominik Kamp, Gioni Mexi, Sebastian Pokutta, Imre Pólik
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05943v1) | > Recent progress in LLM-driven algorithm discovery, exemplified by DeepMind's AlphaEvolve, has produced new best-known solutions for a range of hard geometric and combinatorial problems. This raises a natural question: to what extent can modern off-the-shelf global optimization solvers match such results when the problems are formulated directly as nonlinear optimization problems (NLPs)?
+  We revis...
+
+---
+
+## 125. WaveRNet: Wavelet-Guided Frequency Learning for Multi-Source Domain-Generalized Retinal Vessel Segmentation
+
+**Authors:** Chanchan Wang, Yuanfang Wang, Qing Xu, Guanxin Chen
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05942v1) | > Domain-generalized retinal vessel segmentation is critical for automated ophthalmic diagnosis, yet faces significant challenges from domain shift induced by non-uniform illumination and varying contrast, compounded by the difficulty of preserving fine vessel structures. While the Segment Anything Model (SAM) exhibits remarkable zero-shot capabilities, existing SAM-based methods rely on simple adap...
+
+---
+
+## 126. Context-Aware Decoding for Faithful Vision-Language Generation
+
+**Authors:** Mehrdad Fazli, Bowen Wei, Ziwei Zhu
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05939v1) | > Hallucinations, generating responses inconsistent with the visual input, remain a critical limitation of large vision-language models (LVLMs), especially in open-ended tasks such as image captioning and visual reasoning. In this work, we probe the layer-wise generation dynamics that drive hallucinations and propose a training-free mitigation strategy. Employing the Logit Lens, we examine how LVLMs...
+
+---
+
+## 127. Performance of a Deep Learning-Based Segmentation Model for Pancreatic Tumors on Public Endoscopic Ultrasound Datasets
+
+**Authors:** Pankaj Gupta, Priya Mudgil, Niharika Dutta, Kartik Bose, Nitish Kumar
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05937v1) | > Background: Pancreatic cancer is one of the most aggressive cancers, with poor survival rates. Endoscopic ultrasound (EUS) is a key diagnostic modality, but its effectiveness is constrained by operator subjectivity. This study evaluates a Vision Transformer-based deep learning segmentation model for pancreatic tumors. Methods: A segmentation model using the USFM framework with a Vision Transformer...
+
+---
+
+## 128. Coupled Level-Set Lattice Boltzmann Method on Adaptive Cartesian Grids
+
+**Authors:** Julian Vorspohl, Yuxing Peng, Matthias Meinke, Dominik Krug, Wolfgang Schröder
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05936v1) | > A novel coupled level-set lattice Boltzmann method on adaptive Cartesian grids for simulating liquid-gas multiphase flows is presented. The approach addresses the inherent challenges of accurately modeling multiphase systems characterized by sharp interfaces and large density ratios. By employing separate solution algorithms for each fluid phase which are coupled through boundary conditions at the...
+
+---
+
+## 129. Marked statistics across the cosmic web: Environmental dependent clustering in modified gravity simulations
+
+**Authors:** Joaquin Armijo, Lucas Da Costa
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05934v1) | > We study environment-dependent clustering using the marked correlation function applied to Hu-Sawicki $f(R)$ modified gravity simulations. This gravity theory enriches the structure formation by enhancing gravity in a scale-dependent form. By employing a multi-scale cosmic structure finder algorithm, we define the cosmic environments divided in: nodes, filaments, walls and voids. We find a stronge...
+
+---
+
+## 130. On the orbital evolution of binaries with polar circumbinary disks
+
+**Authors:** Cheng Chen, Philip J. Armitage, C. J. Nixon
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05932v1) | > Binaries occur in many astrophysical systems, from young protostellar binaries in star forming regions to supermassive black hole binaries in galaxy centers. In many cases, a circumbinary disk of gas forms around the binary with an orbit that may be misaligned to the binary plane. Misaligned disks around nearly circular binaries evolve into disks that are either aligned or counteraligned with the ...
+
+---
+
+## 131. Can We Predict Before Executing Machine Learning Agents?
+
+**Authors:** Jingsheng Zheng, Jintian Zhang, Yujie Luo, Yuren Mao, Yunjun Gao
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05930v1) | > Autonomous machine learning agents have revolutionized scientific discovery, yet they remain constrained by a Generate-Execute-Feedback paradigm. Previous approaches suffer from a severe Execution Bottleneck, as hypothesis evaluation relies strictly on expensive physical execution. To bypass these physical constraints, we internalize execution priors to substitute costly runtime checks with instan...
+
+---
+
+## 132. Prophet as a Repro ducible Forecasting Framework: A Methodological Guide for Business and Financial Analytics
+
+**Authors:** Sidney Shapiro, Burhanuddin Panvelwala
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05929v1) | > Reproducibility remains a persistent challenge in forecasting research and practice, particularly in business and financial analytics where forecasts inform high-stakes decisions. Traditional forecasting methods, while theoretically interpretable, often require extensive manual tuning and are difficult to replicate in proprietary environments. Machine learning approaches offer predictive flexibili...
+
+---
+
+## 133. Adapting Vision Transformers to Ultra-High Resolution Semantic Segmentation with Relay Tokens
+
+**Authors:** Yohann Perron, Vladyslav Sydorov, Christophe Pottier, Loic Landrieu
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05927v1) | > Current approaches for segmenting ultra high resolution images either slide a window, thereby discarding global context, or downsample and lose fine detail. We propose a simple yet effective method that brings explicit multi scale reasoning to vision transformers, simultaneously preserving local details and global awareness. Concretely, we process each image in parallel at a local scale (high reso...
+
+---
+
+## 134. Naturally small Dirac neutrino mass and $B-L$ dark matter
+
+**Authors:** Ernest Ma, Partha Kumar Paul, Narendra Sahu
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05926v1) | > In the conventional gauged ${B-L}$ extension of the standard model, the $B-L$ charge of the singlet scalar $χ$, responsible for the breaking of $U(1)_{B-L}$ symmetry, is taken to be 2 such that it can anchor type-I seesaw by giving Majorana masses to the right-handed neutrinos, $ν_R$. In this paper, we consider instead the cases $χ\sim 3$ or 4 under $B-L$, so that $ν_R$ may not acquire any Majoran...
+
+---
+
+## 135. Dynamical entanglement percolation with spatially correlated disorder
+
+**Authors:** Lorenzo Cirigliano, Valentina Brosco, Claudio Castellano, Simone Felicetti, Laura Pilozzi
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05925v1) | > The distribution of entanglement between the nodes of a quantum network plays a fundamental role in quantum information applications. In this work, we investigate the dynamics of a network of qubits where each edge corresponds to an independent two-qubit interaction. By applying tools from percolation theory, we study how entanglement dynamically spreads across the network. We show that the interp...
+
+---
+
+## 136. Geopolitical and Institutional Constraints on Adaptive Market Efficiency -- A Feasibility Diagnostic for Robust Portfolio Construction
+
+**Authors:** Roberto Garrone
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05924v1) | > This paper develops a structural framework for characterizing the informational feasibility of financial markets under heterogeneous institutional and geopolitical conditions. Departing from the assumption of uniform and time-invariant market efficiency, adaptive efficiency is conceptualized as a localized and state-dependent property emerging from the interaction between economic scale, instituti...
+
+---
+
+## 137. Cedalion Tutorial: A Python-based framework for comprehensive analysis of multimodal fNIRS & DOT from the lab to the everyday world
+
+**Authors:** E. Middell, L. Carlton, S. Moradi, T. Codina, T. Fischer
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05923v1) | > Functional near-infrared spectroscopy (fNIRS) and diffuse optical tomography (DOT) are rapidly evolving toward wearable, multimodal, and data-driven, AI-supported neuroimaging in the everyday world. However, current analytical tools are fragmented across platforms, limiting reproducibility, interoperability, and integration with modern machine learning (ML) workflows. Cedalion is a Python-based op...
+
+---
+
+## 138. Abelian surfaces in Hesse form and explicit isogeny formulas
+
+**Authors:** Thomas Decru, Sabrina Kunzweiler
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05922v1) | > We develop a new method for the computation of $(3,3)$-isogenies between principally polarized abelian surfaces. The idea is to work with models in $\mathbb{P}^8$ induced by a symmetric level-$3$ theta structure. In this setting, the action of three-torsion points is linear, and the isogeny formulas can be described in a simple way as the composition of easy-to-evaluate maps. In the description of...
+
+---
+
+## 139. Evaluating infectious disease forecasts in a cost-loss situation
+
+**Authors:** Philip Gerlee, Torbjörn Lundh, Anna Saxne Jöud, Henrik Thorén
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05921v1) | > In order for epidemiological forecasts to be useful for decision-makers the forecasts need to be properly validated and evaluated. Although several metrics fore evaluation have been proposed and used none of them account for the potential costs and losses that the decision-maker faces. We have adapted a decision-theoretic framework to an epidemiological context which assigns a Value Score (VS) to ...
+
+---
+
+## 140. A Novel Deep Learning-Based Coarse-to-Fine Frame Synchronization Method for OTFS Systems
+
+**Authors:** Meiwen Men, Tao Zhou, Kaifeng Bao, Zhiyang Guo, Yongning Qi
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05920v1) | > Orthogonal time frequency space (OTFS) modulation is a robust candidate waveform for future wireless systems, particularly in high-mobility scenarios, as it effectively mitigates the impact of rapidly time-varying channels by mapping symbols in the delay-Doppler (DD) domain. However, accurate frame synchronization in OTFS systems remains a challenge due to the performance limitations of convention...
+
+---
+
+## 141. Unlikely intersections with CM abelian varieties in a family and explicit bounds for canonical heights under endomorphisms
+
+**Authors:** Luca Ferrigno
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05919v1) | > Let $S$ be a smooth irreducible curve over $\overline{\mathbb{Q}}$, and let $\mathcal{A} \to S$ be an abelian scheme with a curve $C \subset \mathcal{A}$, both defined over $\overline{\mathbb{Q}}$. In 2020, Barroero and Capuano proved that if $C$ is not contained in a proper subgroup scheme, then the intersection of $C$ with the union of the flat subgroup schemes of $\mathcal{A}$ of codimension at...
+
+---
+
+## 142. Agentic LLMs as Powerful Deanonymizers: Re-identification of Participants in the Anthropic Interviewer Dataset
+
+**Authors:** Tianshi Li
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05918v1) | > On December 4, 2025, Anthropic released Anthropic Interviewer, an AI tool for running qualitative interviews at scale, along with a public dataset of 1,250 interviews with professionals, including 125 scientists, about their use of AI for research. Focusing on the scientist subset, I show that widely available LLMs with web search and agentic capabilities can link six out of twenty-four interviews...
+
+---
+
+## 143. First-principles study of hydrogen diffusion in polycrystalline Nickel
+
+**Authors:** Bhanuj Jain, Alaa Olleak, Junyan He, Adarsh Chaurasia, Davide Di Stefano
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05917v1) | > Hydrogen embrittlement in metals is strongly governed by hydrogen diffusion and trapping, yet predicting these effects in polycrystalline systems remains challenging. This work introduces a multiscale modeling framework that links atomistic energetics to continuum-scale transport. Migration barriers for bulk and grain-boundary environments, obtained from first-principles calculations, are used in ...
+
+---
+
+## 144. Distilling Lightweight Domain Experts from Large ML Models by Identifying Relevant Subspaces
+
+**Authors:** Pattarawat Chormai, Ali Hashemi, Klaus-Robert Müller, Grégoire Montavon
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05913v1) | > Knowledge distillation involves transferring the predictive capabilities of large, high-performing AI models (teachers) to smaller models (students) that can operate in environments with limited computing power. In this paper, we address the scenario in which only a few classes and their associated intermediate concepts are relevant to distill. This scenario is common in practice, yet few existing...
+
+---
+
+## 145. Accounting for environmental awareness in wheat production through Life Cycle Assessment
+
+**Authors:** Gianfranco Giulioni, Edmondo Di Giuseppe, Arianna Di Paola
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05912v1) | > This paper presents a modeling framework for simulating the decision-making processes of artificial farms populating an agent-based model for the Italian wheat production system. The decision process is based on a mathematical programming model with which farms (i.e., agents) decide the target yield (production per hectare) and the mix of inputs needed to obtain such production, namely 1) fertiliz...
+
+---
+
+## 146. Pantagruel: Unified Self-Supervised Encoders for French Text and Speech
+
+**Authors:** Phuong-Hang Le, Valentin Pelloin, Arnault Chatelain, Maryem Bouziane, Mohammed Ghennai
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05911v1) | > We release Pantagruel models, a new family of self-supervised encoder models for French text and speech. Instead of predicting modality-tailored targets such as textual tokens or speech units, Pantagruel learns contextualized target representations in the feature space, allowing modality-specific encoders to capture linguistic and acoustic regularities more effectively. Separate models are pre-tra...
+
+---
+
+## 147. Multi-task Modeling for Engineering Applications with Sparse Data
+
+**Authors:** Yigitcan Comlek, R. Murali Krishnan, Sandipp Krishnan Ravi, Amin Moghaddas, Rafael Giorjao
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05910v1) | > Modern engineering and scientific workflows often require simultaneous predictions across related tasks and fidelity levels, where high-fidelity data is scarce and expensive, while low-fidelity data is more abundant. This paper introduces an Multi-Task Gaussian Processes (MTGP) framework tailored for engineering systems characterized by multi-source, multi-fidelity data, addressing challenges of d...
+
+---
+
+## 148. Auditing Fairness under Model Updates: Fundamental Complexity and Property-Preserving Updates
+
+**Authors:** Ayoub Ajarra, Debabrota Basu
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05909v1) | > As machine learning models become increasingly embedded in societal infrastructure, auditing them for bias is of growing importance. However, in real-world deployments, auditing is complicated by the fact that model owners may adaptively update their models in response to changing environments, such as financial markets. These updates can alter the underlying model class while preserving certain p...
+
+---
+
+## 149. Generation of squeezed optical states via stored classical pulses in a Bose gas
+
+**Authors:** Sevilay Sevinçli, Dennis Rätzel, Markus Krutzik, Mehmet Özgür Oktel, Mustafa Gündoğan
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05908v1) | > We propose and analyze a scheme to generate squeezed light by storing a classical probe pulse in a Bose--Einstein condensate (BEC) and exploiting the nonlinear evolution caused by atom--atom collisions during the storage time. A $Λ$-type optical memory interface maps a chosen temporal probe mode onto a single phase-matched collective spin wave; for a coherent input this prepares a tunable coherent...
+
+---
+
+## 150. Flow-wave coupling synchronizes oscillations in growing active matter
+
+**Authors:** Lara Koehler, Elissavet Sandaltzopoulou, Frank Jülicher, Jan Brugués
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05907v1) | > Oscillatory biochemical signals and mechanical forces must coordinate robustly during development, yet the principles governing their mutual coupling remain poorly understood. In syncytial embryos and cell-free extracts, mitotic waves propagate across millimeter scales while simultaneously generating cytoplasmic flows, suggesting a two-way interaction between chemical oscillators and mechanics. He...
+
+---
+
+## 151. Illusions of Confidence? Diagnosing LLM Truthfulness via Neighborhood Consistency
+
+**Authors:** Haoming Xu, Ningyuan Zhao, Yunzhi Yao, Weihong Xu, Hongru Wang
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05905v1) | > As Large Language Models (LLMs) are increasingly deployed in real-world settings, correctness alone is insufficient. Reliable deployment requires maintaining truthful beliefs under contextual perturbations. Existing evaluations largely rely on point-wise confidence like Self-Consistency, which can mask brittle belief. We show that even facts answered with perfect self-consistency can rapidly colla...
+
+---
+
+## 152. Can AI mediation improve democratic deliberation?
+
+**Authors:** Michael Henry Tessler, Georgina Evans, Michiel A. Bakker, Iason Gabriel, Sophie Bridgers
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05904v1) | > The strength of democracy lies in the free and equal exchange of diverse viewpoints. Living up to this ideal at scale faces inherent tensions: broad participation, meaningful deliberation, and political equality often trade off with one another (Fishkin, 2011). We ask whether and how artificial intelligence (AI) could help navigate this "trilemma" by engaging with a recent example of a large langu...
+
+---
+
+## 153. HAPS: Hierarchical LLM Routing with Joint Architecture and Parameter Search
+
+**Authors:** Zihang Tian, Rui Li, Jingsen Zhang, Xiaohe Bo, Wei Huo
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05903v1) | > Large language model (LLM) routing aims to exploit the specialized strengths of different LLMs for diverse tasks. However, existing approaches typically focus on selecting LLM architectures while overlooking parameter settings, which are critical for task performance. In this paper, we introduce HAPS, a hierarchical LLM routing framework that jointly searches over model architectures and parameter...
+
+---
+
+## 154. On Coordinate Singularities Induced by Trapping Horizons
+
+**Authors:** Jinbo Yang, Hongwei Tan, Hyat Huang, Wen-Cong Gan
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05902v1) | > The trapping (or apparent) horizon serves as a key tool for tracing the complete evolution of black holes. We investigate a class of coordinate singularities induced by such trapping (or apparent) horizons in a spherically symmetric, dynamic spacetime, which are distinct from the well-known coordinate singularities associated with the Killing horizon. In particular, we clarify the geometric struct...
+
+---
+
+## 155. TowerMind: A Tower Defence Game Learning Environment and Benchmark for LLM as Agents
+
+**Authors:** Dawei Wang, Chengming Zhou, Di Zhao, Xinyuan Liu, Marci Chi Ma
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05899v1) | > Recent breakthroughs in Large Language Models (LLMs) have positioned them as a promising paradigm for agents, with long-term planning and decision-making emerging as core general-purpose capabilities for adapting to diverse scenarios and tasks. Real-time strategy (RTS) games serve as an ideal testbed for evaluating these two capabilities, as their inherent gameplay requires both macro-level strate...
+
+---
+
+## 156. From Queues to Crowd Flows: Reflected Diffusion Limits for Controlled Agents
+
+**Authors:** Thoa Thieu, Roderick Melnik
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05895v1) | > We establish a diffusion approximation for a class of multi-agent controlled queueing systems, demonstrating their convergence to a system of interacting reflected Ornstein--Uhlenbeck (OU) processes. The limiting process captures essential behavioral features of the underlying stochastic dynamics, including goal-directed motion, inter-agent repulsion, and reflection at domain boundaries. This resu...
+
+---
+
+## 157. Learning microstructure in active matter
+
+**Authors:** Writu Dasgupta, Suvendu Mandal, Aritra K. Mukhopadhyay, Benno Liebchen
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05894v1) | > Understanding microstructure in terms of closed-form expressions is an open challenge in nonequilibrium statistical physics. We propose a simple and generic method that combines particle-resolved simulations, deep neural networks and symbolic regression to predict the pair-correlation function of passive and active particles. Our analytical closed-form results closely agree with Brownian dynamics ...
+
+---
+
+## 158. An outlook on extracellular waveforms produced by the three neuronal compartments
+
+**Authors:** Jérémie Sibille, Kai Lun Teh, Alexandra Tzilivaki, Dietmar Schmitz, Paula T. Kuokkanen
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05893v1) | > The brain is composed of billions of neurons with virtually endless morphologies and ion channel compositions, resulting in unique extracellular waveforms. Nevertheless, almost all neuronal morphologies can be reduced to a simple architecture made of three principal compartments: 1) the soma and nearby axonal hillock, 2) axonal projections ending in arbors or single synaptic contacts, and 3) dendr...
+
+---
+
+## 159. Weisfeiler-Leman on graphs of small twin-width
+
+**Authors:** Irene Heinrich, Moritz Lichter, Klara Pakhomenko, Simon Raßmann
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05892v1) | > Twin-width is a graph parameter introduced in the context of first-order model checking, and has since become a central parameter in algorithmic graph theory. While many algorithmic problems become easier on arbitrary classes of bounded twin-width, graph isomorphism on graphs of twin-width 4 and above is as hard as the general isomorphism problem. For each positive number $k$, the $k$-dimensional ...
+
+---
+
+## 160. StackPlanner: A Centralized Hierarchical Multi-Agent System with Task-Experience Memory Management
+
+**Authors:** Ruizhe Zhang, Xinke Jiang, Zhibang Yang, Zhixin Zhang, Jiaran Gao
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05890v1) | > Multi-agent systems based on large language models, particularly centralized architectures, have recently shown strong potential for complex and knowledge-intensive tasks. However, central agents often suffer from unstable long-horizon collaboration due to the lack of memory management, leading to context bloat, error accumulation, and poor cross-task generalization. To address both task-level mem...
+
+---
+
+## 161. The low degree cohomology of compactifications of $A_g$
+
+**Authors:** Samir Canning, Dan Petersen, Olivier Taïbi
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05888v1) | > We compute the low degree $\ell$-adic intersection cohomology of symplectic local systems on the Satake compactification of the moduli space $A_g$ of principally polarized abelian varieties. We prove that only a small finite list of irreducible Galois representations can appear in the low degree cohomology of any nonsingular toroidal compactification of $A_g$ or $X_{g,s}$, the $s$-fold fiber produ...
+
+---
+
+## 162. Cybersecurity AI: A Game-Theoretic AI for Guiding Attack and Defense
+
+**Authors:** Víctor Mayoral-Vilches, María Sanz-Gómez, Francesco Balassone, Stefan Rass, Lidia Salas-Espejo
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05887v1) | > AI-driven penetration testing now executes thousands of actions per hour but still lacks the strategic intuition humans apply in competitive security. To build cybersecurity superintelligence --Cybersecurity AI exceeding best human capability-such strategic intuition must be embedded into agentic reasoning processes. We present Generative Cut-the-Rope (G-CTR), a game-theoretic guidance layer that ...
+
+---
+
+## 163. On Edge-Disjoint Maximal Outerplanar Graphs
+
+**Authors:** Yuto Okada, Yota Otachi, Lena Volk
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05885v1) | > We provide two constructions for $t$ edge-disjoint maximal outerplanar graphs on every number of $n \geq 4t$ vertices. The bound on the minimum number of vertices is tight. These constructions yield the existence of optimal outerthickness-$t$ graphs for every $t \in \mathbb{N}$. While one of the constructions works for all values of $t$ and extends graphs from Guy and Nowakowski (1990), the other ...
+
+---
+
+## 164. Breaking the Exponential: Decoherence-Driven Power-Law Spontaneous Emission in Waveguide Quantum Electrodynamics
+
+**Authors:** Stefano Longhi
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05884v1) | > We investigate the spontaneous emission of a two-level system coupled to a photonic waveguide, showing that dynamical dephasing in the photon modes profoundly alters the decay law. In the absence of dephasing, the emitter displays conventional exponential decay followed by a long-time power-law tail -- observable only at extremely low survival probabilities. Strikingly, when dephasing is introduce...
+
+---
+
+## 165. An Empirical Study on Preference Tuning Generalization and Diversity Under Domain Shift
+
+**Authors:** Constantinos Karouzos, Xingwei Tan, Nikolaos Aletras
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05882v1) | > Preference tuning aligns pretrained language models to human judgments of quality, helpfulness, or safety by optimizing over explicit preference signals rather than likelihood alone. Prior work has shown that preference-tuning degrades performance and reduces helpfulness when evaluated outside the training domain. However, the extent to which adaptation strategies mitigate this domain shift remain...
+
+---
+
+## 166. On a stochastic phase-field model of cell motility with singular diffusion
+
+**Authors:** Amjad Saef, Wilhelm Stannat
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05881v1) | > We study existence of solutions in the variational sense for a class of stochastic phase-field models describing moving boundary problems. The models consist of stochastic reaction-diffusion equations with singular diffusion forced by a phase-field. We investigate both the case of an independently evolving phase-field and of coupled phase-field evolution driven by a viscous Hamilton-Jacobi equatio...
+
+---
+
+## 167. Gender Bias in LLMs: Preliminary Evidence from Shared Parenting Scenario in Czech Family Law
+
+**Authors:** Jakub Harasta, Matej Vasina, Martin Kornel, Tomas Foltynek
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05879v1) | > Access to justice remains limited for many people, leading laypersons to increasingly rely on Large Language Models (LLMs) for legal self-help. Laypeople use these tools intuitively, which may lead them to form expectations based on incomplete, incorrect, or biased outputs. This study examines whether leading LLMs exhibit gender bias in their responses to a realistic family law scenario. We presen...
+
+---
+
+## 168. iReasoner: Trajectory-Aware Intrinsic Reasoning Supervision for Self-Evolving Large Multimodal Models
+
+**Authors:** Meghana Sunil, Manikandarajan Venmathimaran, Muthu Subash Kavitha
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05877v1) | > Recent work shows that large multimodal models (LMMs) can self-improve from unlabeled data via self-play and intrinsic feedback. Yet existing self-evolving frameworks mainly reward final outcomes, leaving intermediate reasoning weakly constrained despite its importance for visually grounded decision making. We propose iReasoner, a self-evolving framework that improves an LMM's implicit reasoning b...
+
+---
+
+## 169. Combined effects of evaporation, sedimentation and solute crystallization on the dynamics of aerosol size distributions on multiple length and time scales
+
+**Authors:** Sina Zendehroud, Ole Kleinjung, Philip Loche, Lydéric Bocquet, Roland R. Netz
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05876v1) | > We investigate three aspects of aerosol-mediated air-borne viral infection mechanisms on different length and time scales. First, we address the evolution of the size distribution of a non-interacting ensemble of droplets that are subject to evaporation and sedimentation using a sharp droplet-air interface model. From the exact solution of the evolution equation we derive the viral load in the air...
+
+---
+
+## 170. Estimating optimal interpretable individualized treatment regimes from a classification perspective using adaptive LASSO
+
+**Authors:** Yunshu Zhang, Shu Yang, Wendy Ye, Ilya Lipkovich, Douglas E. Faries
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05875v1) | > Real-world data (RWD) gains growing interests to provide a representative sample of the population for selecting the optimal treatment options. However, existing complex black box methods for estimating individualized treatment rules (ITR) from RWD have problems in interpretability and convergence. Providing an interpretable and sparse ITR can be used to overcome the limitation of existing methods...
+
+---
+
+## 171. Continual-learning for Modelling Low-Resource Languages from Large Language Models
+
+**Authors:** Santosh Srinath K, Mudit Somani, Varun Reddy Padala, Prajna Devi Upadhyay, Abhijit Das
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05874v1) | > Modelling a language model for a multi-lingual scenario includes several potential challenges, among which catastrophic forgetting is the major challenge. For example, small language models (SLM) built for low-resource languages by adapting large language models (LLMs) pose the challenge of catastrophic forgetting. This work proposes to employ a continual learning strategy using parts-of-speech (P...
+
+---
+
+## 172. Toward Quantitative Electric-Field Measurements of Inception Clouds in Nanosecond Discharges Using E-FISH Assisted by Machine Learning
+
+**Authors:** Mhedine Alicherif, Edwin Sugeng, Zhijan Yang, Deanna A. Lacoste, Tat Loon Chng
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05872v1) | > This study investigates the spatio-temporal evolution of the electric field during the early stages of a nanosecond positive corona discharge in atmospheric-pressure air by combining time-resolved E-FISH measurements, machine-learning-assisted field inversion (based on a recently developed operator-learning model), and iCCD optical emission imaging. The objective is to quantitatively characterize ...
+
+---
+
+## 173. IIB-LPO: Latent Policy Optimization via Iterative Information Bottleneck
+
+**Authors:** Huilin Deng, Hongchen Luo, Yue Zhu, Long Li, Zhuoyue Chen
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05870v1) | > Recent advances in Reinforcement Learning with Verifiable Rewards (RLVR) for Large Language Model (LLM) reasoning have been hindered by a persistent challenge: exploration collapse. The semantic homogeneity of random rollouts often traps models in narrow, over-optimized behaviors. While existing methods leverage policy entropy to encourage exploration, they face inherent limitations. Global entrop...
+
+---
+
+## 174. Non-conservation of a generalized helicity in the Euler equations
+
+**Authors:** Vikram Giri, Hyunju Kwon, Matthew Novack
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05869v1) | > For a $C^1_{t,x}$ solution $u$ to the incompressible 3D Euler equations, the helicity $H(u(t))=\int_{\mathbb{T}^3} u \cdot \textrm{curl}\, u$ is constant in time. For general low-regularity weak solutions, it is not always clear how to define the helicity, or whether it must be constant in time in the case that there is a clear definition. In this paper, we define a generalized helicity which exte...
+
+---
+
+## 175. When legs and bodies synchronize: Two-level collective dynamics in dense crowds
+
+**Authors:** Thomas Chatagnon, Mohcine Chraibi, Julien Pettré, Armin Seyfried, Antoine Tordeux
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05867v1) | > Ultra-dense crowds, in which physical contact between people cannot be avoided, pose major safety concerns. Nevertheless, the underlying dynamics driving their collective behaviours remain poorly understood. Existing dense crowd models, mostly two-dimensional and contact-based, overlook biomechanical mechanisms that govern individual balance motion. In this study, we introduce a minimal two-level ...
+
+---
+
+## 176. FACTUM: Mechanistic Detection of Citation Hallucination in Long-Form RAG
+
+**Authors:** Maxime Dassen, Rebecca Kotula, Kenton Murray, Andrew Yates, Dawn Lawrie
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05866v1) | > Retrieval-Augmented Generation (RAG) models are critically undermined by citation hallucinations, a deceptive failure where a model confidently cites a source that fails to support its claim. Existing work often attributes hallucination to a simple over-reliance on the model's parametric knowledge. We challenge this view and introduce FACTUM (Framework for Attesting Citation Trustworthiness via Un...
+
+---
+
+## 177. Secure Change-Point Detection for Time Series under Homomorphic Encryption
+
+**Authors:** Federico Mazzone, Giorgio Micali, Massimiliano Pronesti
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05865v1) | > We introduce the first method for change-point detection on encrypted time series. Our approach employs the CKKS homomorphic encryption scheme to detect shifts in statistical properties (e.g., mean, variance, frequency) without ever decrypting the data. Unlike solutions based on differential privacy, which degrade accuracy through noise injection, our solution preserves utility comparable to plain...
+
+---
+
+## 178. Phase4DFD: Multi-Domain Phase-Aware Attention for Deepfake Detection
+
+**Authors:** Zhen-Xin Lin, Shang-Kuan Chen
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05861v1) | > Recent deepfake detection methods have increasingly explored frequency domain representations to reveal manipulation artifacts that are difficult to detect in the spatial domain. However, most existing approaches rely primarily on spectral magnitude, implicitly under exploring the role of phase information. In this work, we propose Phase4DFD, a phase aware frequency domain deepfake detection frame...
+
+---
+
+## 179. A Non Linear Spectral Graph Neural Network Simulator for More Stable and Accurate Rollouts
+
+**Authors:** Salman N. Salman, Sergey A. Shteingolts, Ron Levie, Dan Mendels
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05860v1) | > Molecular dynamics (MD) simulations are a central tool in science and engineering enabling the study of dynamical behavior and the link between microscopic structure and macroscopic function. Their high computational cost, however, has motivated extensive efforts to develop accelerated alternatives. A promising approach is the use of machine-learning-based simulators that allow for substantially l...
+
+---
+
+## 180. Neural Methods for Multiple Systems Estimation Models
+
+**Authors:** Joseph Marsh, Nathan A. Judd, Lax Chan, Rowland G. Seymour
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05859v1) | > Estimating the size of hidden populations using Multiple Systems Estimation (MSE) is a critical task in quantitative sociology; however, practical application is often hindered by imperfect administrative data and computational constraints. Real-world datasets frequently suffer from censoring and missingness due to privacy concerns, while standard inference methods, such as Maximum Likelihood Esti...
+
+---
+
+## 181. CLewR: Curriculum Learning with Restarts for Machine Translation Preference Learning
+
+**Authors:** Alexandra Dragomir, Florin Brad, Radu Tudor Ionescu
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05858v1) | > Large language models (LLMs) have demonstrated competitive performance in zero-shot multilingual machine translation (MT). Some follow-up works further improved MT performance via preference optimization, but they leave a key aspect largely underexplored: the order in which data samples are given during training. We address this topic by integrating curriculum learning into various state-of-the-ar...
+
+---
+
+## 182. Bidirectional Channel-selective Semantic Interaction for Semi-Supervised Medical Segmentation
+
+**Authors:** Kaiwen Huang, Yizhe Zhang, Yi Zhou, Tianyang Xu, Tao Zhou
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05855v1) | > Semi-supervised medical image segmentation is an effective method for addressing scenarios with limited labeled data. Existing methods mainly rely on frameworks such as mean teacher and dual-stream consistency learning. These approaches often face issues like error accumulation and model structural complexity, while also neglecting the interaction between labeled and unlabeled data streams. To ove...
+
+---
+
+## 183. LayerGS: Decomposition and Inpainting of Layered 3D Human Avatars via 2D Gaussian Splatting
+
+**Authors:** Yinghan Xu, John Dingliana
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05853v1) | > We propose a novel framework for decomposing arbitrarily posed humans into animatable multi-layered 3D human avatars, separating the body and garments. Conventional single-layer reconstruction methods lock clothing to one identity, while prior multi-layer approaches struggle with occluded regions. We overcome both limitations by encoding each layer as a set of 2D Gaussians for accurate geometry an...
+
+---
+
+## 184. Kidney Cancer Detection Using 3D-Based Latent Diffusion Models
+
+**Authors:** Jen Dusseljee, Sarah de Boer, Alessa Hering
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05852v1) | > In this work, we present a novel latent diffusion-based pipeline for 3D kidney anomaly detection on contrast-enhanced abdominal CT. The method combines Denoising Diffusion Probabilistic Models (DDPMs), Denoising Diffusion Implicit Models (DDIMs), and Vector-Quantized Generative Adversarial Networks (VQ-GANs). Unlike prior slice-wise approaches, our method operates directly on an image volume and l...
+
+---
+
+## 185. Router-Suggest: Dynamic Routing for Multimodal Auto-Completion in Visually-Grounded Dialogs
+
+**Authors:** Sandeep Mishra, Devichand Budagam, Anubhab Mandal, Bishal Santra, Pawan Goyal
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05851v1) | > Real-time multimodal auto-completion is essential for digital assistants, chatbots, design tools, and healthcare consultations, where user inputs rely on shared visual context. We introduce Multimodal Auto-Completion (MAC), a task that predicts upcoming characters in live chats using partially typed text and visual cues. Unlike traditional text-only auto-completion (TAC), MAC grounds predictions i...
+
+---
+
+## 186. Goal Force: Teaching Video Models To Accomplish Physics-Conditioned Goals
+
+**Authors:** Nate Gillman, Yinghua Zhou, Zitian Tang, Evan Luo, Arjan Chakravarthy
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05848v1) | > Recent advancements in video generation have enabled the development of ``world models'' capable of simulating potential futures for robotics and planning. However, specifying precise goals for these models remains a challenge; text instructions are often too abstract to capture physical nuances, while target images are frequently infeasible to specify for dynamic tasks. To address this, we introd...
+
+---
+
+## 187. Semantic NLP Pipelines for Interoperable Patient Digital Twins from Unstructured EHRs
+
+**Authors:** Rafael Brens, Yuqiao Meng, Luoxi Tang, Zhaohan Xi
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05847v1) | > Digital twins -- virtual replicas of physical entities -- are gaining traction in healthcare for personalized monitoring, predictive modeling, and clinical decision support. However, generating interoperable patient digital twins from unstructured electronic health records (EHRs) remains challenging due to variability in clinical documentation and lack of standardized mappings. This paper presents...
+
+---
+
+## 188. A New Family of Poisson Non-negative Matrix Factorization Methods Using the Shifted Log Link
+
+**Authors:** Eric Weine, Peter Carbonetto, Rafael A. Irizarry, Matthew Stephens
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05845v1) | > Poisson non-negative matrix factorization (NMF) is a widely used method to find interpretable "parts-based" decompositions of count data. While many variants of Poisson NMF exist, existing methods assume that the "parts" in the decomposition combine additively. This assumption may be natural in some settings, but not in others. Here we introduce Poisson NMF with the shifted-log link function to re...
+
+---
+
+## 189. A latent factor approach to hyperspectral time series data for multivariate genomic prediction of grain yield in wheat
+
+**Authors:** Jonathan F. Kunst, Killian A. C. Melsen, Willem Kruijer, José Crossa, Chris Maliepaard
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05842v1) | > High-dimensional time series phenotypic data is becoming increasingly common within plant breeding programmes. However, analysing and integrating such data for genetic analysis and genomic prediction remains difficult. Here we show how factor analysis with Procrustes rotation on the genetic correlation matrix of hyperspectral secondary phenotype data can help in extracting relevant features for wi...
+
+---
+
+## 190. Non-stationary time series attribution for heatwaves over Europe
+
+**Authors:** Pascal Meurer, Sebastian Buschow, Svenja Szemkus, Petra Friederichs
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05841v1) | > The increasing occurrence of extreme weather events since the beginning of the 21st century has led to the development of new methods to attribute extreme events to anthropogenic climate change. How the extreme event is defined has a major influence on the attribution result. A frequently disregarded or evaded aspect concerns the temporal dependence and the clustering of extremes. This study prese...
+
+---
+
+## 191. Near-threshold heavy quarkonium photoproduction in a light-front spectator model
+
+**Authors:** Amrita Sain, Bheemsehan Gurjar, Chandan Mondal
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05840v1) | > The near-threshold photo- and electroproduction of heavy vector quarkonia off the proton provides direct access to its gluonic structure. In particular, the cross section for $J/Ψ$ photoproduction near threshold is governed by the proton's gluon gravitational form factors (GFFs). In this work, we employ the generalized parton distribution framework together with gluon GFFs calculated in a light-fr...
+
+---
+
+## 192. GeoSurDepth: Spatial Geometry-Consistent Self-Supervised Depth Estimation for Surround-View Cameras
+
+**Authors:** Weimin Liu, Wenjun Wang, Joshua H. Meng
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05839v1) | > Accurate surround-view depth estimation provides a competitive alternative to laser-based sensors and is essential for 3D scene understanding in autonomous driving. While prior studies have proposed various approaches that primarily focus on enforcing cross-view constraints at the photometric level, few explicitly exploit the rich geometric structure inherent in both monocular and surround-view se...
+
+---
+
+## 193. Intelligent Singularity Avoidance in UR10 Robotic Arm Path Planning Using Hybrid Fuzzy Logic and Reinforcement Learning
+
+**Authors:** Sheng-Kai Chen, Jyh-Horng Wu
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05836v1) | > This paper presents a comprehensive approach to singularity detection and avoidance in UR10 robotic arm path planning through the integration of fuzzy logic safety systems and reinforcement learning algorithms. The proposed system addresses critical challenges in robotic manipulation where singularities can cause loss of control and potential equipment damage. Our hybrid approach combines real-tim...
+
+---
+
+## 194. Left, Right, or Center? Evaluating LLM Framing in News Classification and Generation
+
+**Authors:** Molly Kennedy, Ali Parker, Yihong Liu, Hinrich Schütze
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05835v1) | > Large Language Model (LLM) based summarization and text generation are increasingly used for producing and rewriting text, raising concerns about political framing in journalism where subtle wording choices can shape interpretation. Across nine state-of-the-art LLMs, we study political framing by testing whether LLMs' classification-based bias signals align with framing behavior in their generated...
+
+---
+
+## 195. On the Feasibility of Extreme Heating Rates in SEM using MEMS Heater Platforms
+
+**Authors:** C. Koenig, P. Mayr, J. R. Jinschek, A. Bastos Fanta
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05831v1) | > Understanding microstructural evolution under extreme thermal conditions is essential for advancing metal additive manufacturing (AM). This work demonstrates the feasibility of employing micro-electro-mechanical system (MEMS) heating platforms for in-situ scanning electron microscopy (SEM) characterization of bulk-like samples during rapid thermal cycling. Using electron backscatter diffraction (E...
+
+---
+
+## 196. Identifying Mechanism of Energy-Resolved Attoclock
+
+**Authors:** Jia'nan Wu, Shiqi Shen, Jiayin Che, Shang Wang, Weiyan Li
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05830v1) | > We study above-threshold ionization (ATI) of atoms in strong elliptical laser fields numerically and analytically. Recent benchmark experiments for H showed that the attoclock offset angle related to each ATI ring increases remarkably with energy and this characteristic phenomenon can be attributed to the laser-induced nonadiabatic initial velocity and position of the electron at the tunnel exit [...
+
+---
+
+## 197. Cooperative concurrence of 4f and 3d flat bands in kagome heavy-fermion metal YbCr6Ge6
+
+**Authors:** Wenxin Lv, Pengcheng Ma, Tianqi Wang, Shangjie Tian, Ying Ma
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05829v1) | > Flat-band (FB) systems originating from special lattice geometry like in kagome metals as well as localized orbitals in the materials such as heavy-fermion (HF) compounds have induced intensive interest due to their band topology and strong electron correlation effects, leading to emergent quantum states of matter. However, the question of how these two distinct FBs coexist and interact remains un...
+
+---
+
+## 198. Influence of Parallelism in Vector-Multiplication Units on Correlation Power Analysis
+
+**Authors:** Manuel Brosch, Matthias Probst, Stefan Kögler, Georg Sigl
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05828v1) | > The use of neural networks in edge devices is increasing, which introduces new security challenges related to the neural networks' confidentiality. As edge devices often offer physical access, attacks targeting the hardware, such as side-channel analysis, must be considered. To enhance the performance of neural network inference, hardware accelerators are commonly employed. This work investigates ...
+
+---
+
+## 199. SSR: Safeguarding Staking Rewards by Defining and Detecting Logical Defects in DeFi Staking
+
+**Authors:** Zewei Lin, Jiachi Chen, Jingwen Zhang, Zexu Wang, Yuming Feng
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05827v1) | > Decentralized Finance (DeFi) staking is one of the most prominent applications within the DeFi ecosystem, where DeFi projects enable users to stake tokens on the platform and reward participants with additional tokens. However, logical defects in DeFi staking could enable attackers to claim unwarranted rewards by manipulating reward amounts, repeatedly claiming rewards, or engaging in other malici...
+
+---
+
+## 200. Decoding Workload and Agreement From EEG During Spoken Dialogue With Conversational AI
+
+**Authors:** Lucija Mihić Zidar, Philipp Wicke, Praneel Bhatia, Rosa Lutz, Marius Klug
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05825v1) | > Passive brain-computer interfaces offer a potential source of implicit feedback for alignment of large language models, but most mental state decoding has been done in controlled tasks. This paper investigates whether established EEG classifiers for mental workload and implicit agreement can be transferred to spoken human-AI dialogue. We introduce two conversational paradigms - a Spelling Bee task...
+
+---
+
+## 201. Boosting Latent Diffusion Models via Disentangled Representation Alignment
+
+**Authors:** John Page, Xuesong Niu, Kai Wu, Kun Gai
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05823v1) | > Latent Diffusion Models (LDMs) generate high-quality images by operating in a compressed latent space, typically obtained through image tokenizers such as Variational Autoencoders (VAEs). In pursuit of a generation-friendly VAE, recent studies have explored leveraging Vision Foundation Models (VFMs) as representation alignment targets for VAEs, mirroring the approach commonly adopted for LDMs. Alt...
+
+---
+
+## 202. LLMs as Science Journalists: Supporting Early-stage Researchers in Communicating Their Science to the Public
+
+**Authors:** Milad Alshomary, Grace Li, Anubhav Jangra, Yufang Hou, Kathleen McKeown
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05821v1) | > The scientific community needs tools that help early-stage researchers effectively communicate their findings and innovations to the public. Although existing general-purpose Large Language Models (LLMs) can assist in this endeavor, they are not optimally aligned for it. To address this, we propose a framework for training LLMs to emulate the role of a science journalist that can be used by early-...
+
+---
+
+## 203. Optimal velocity control of a Brinkman-Cahn-Hilliard system with curvature effects
+
+**Authors:** Pierluigi Colli, Gianni Gilardi, Andrea Signori, Jürgen Sprekels
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05820v1) | > We address an optimal control problem governed by a system coupling a Brinkman-type momentum equation for the velocity field with a sixth-order Cahn-Hilliard equation for the phase variable, incorporating curvature effects in the free energy. The control acts as a distributed velocity control, allowing for the manipulation of the flow field and, consequently, the phase separation dynamics. We esta...
+
+---
+
+## 204. Angular-Dependent Thermal Hall Effect in a Honeycomb Magnet: Disentangling Kitaev and Dzyaloshinskii-Moriya Interactions
+
+**Authors:** Shuvankar Gupta, Olajumoke Oluwatobiloba Emmanuel, Pengpeng Zhang, Xianglin Ke
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05819v1) | [DOI](https://doi.org/10.1103/38kx-jrh7)
+
+> Layered honeycomb magnets have garnered significant attention recently for their exotic quantum phenomena due to the potential anisotropic, bond-dependent Kitaev interactions. However, distinguishing the roles of Kitaev interactions and the symmetry-allowed Dzyaloshinskii-Moriya interaction (DMI) remains challenging, since both mechanisms may lead to similar magnetic excitations and thermal transp...
+
+---
+
+## 205. A Phenomenological Study of the Accretion Disk in the Super-Eddington AGN I Zw 1
+
+**Authors:** Farin Drewes, Roberta Vieliute, Juan V. Hernández Santisteban, Keith Horne, Aaron J. Barth
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05818v1) | > The structure of the accretion disk in AGN is still an unsolved question, especially how it may change with Eddington ratio. Here we examine the accretion disk in the super-Eddington AGN I Zw 1 using reverberation mapping of the optical continuum. We use three years of optical monitoring with Las Cumbres Observatory at sub-day cadence in $uBgVriz_s$. The lag-wavelength spectrum, calculated using t...
+
+---
+
+## 206. Domain-of-dependence-stabilized cut-cell discretizations of linear kinetic models with summation-by-parts properties
+
+**Authors:** Louis Petri, Sigrun Ortleb, Gunnar Birke, Christian Engwer, Hendrik Ranocha
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05817v1) | > We employ the summation-by-parts (SBP) framework to extend the recent domain-of-dependence (DoD) stabilization for cut cells to linear kinetic models in diffusion scaling. Numerical methods for these models are challenged by increased stiffness for small scaling parameters and the necessity of asymptotics preservation regarding a parabolic limit equation. As a prototype model, we consider the tele...
+
+---
+
+## 207. Phonon Trapping Lateral Field Excited Suspended Bulk Acoustic Wave Resonators (XBARs)
+
+**Authors:** Elnaz Shokati, Robert Thomas, Krishna C. Balram
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05815v1) | > Film bulk acoustic wave resonators (FBARs) underpin modern wireless communication by enabling compact, high-performance RF filters in modern smartphones. Traditionally, these FBAR devices work with quasi-plane waves of sound where the transverse extent of the acoustic field $\gg$ the acoustic wavelength ($λ_a$). On the other hand, strong modal confinement is needed for achieving the interaction st...
+
+---
+
+## 208. Detecting Autism Spectrum Disorder with Deep Eye Movement Features
+
+**Authors:** Zhanpei Huang, Taochen chen, Fangqing Gu, Yiqun Zhang
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05812v1) | > Autism Spectrum Disorder (ASD) is a neurodevelopmental disorder characterized by deficits in social communication and behavioral patterns. Eye movement data offers a non-invasive diagnostic tool for ASD detection, as it is inherently discrete and exhibits short-term temporal dependencies, reflecting localized gaze focus between fixation points. These characteristics enable the data to provide deep...
+
+---
+
+## 209. SceneFoundry: Generating Interactive Infinite 3D Worlds
+
+**Authors:** ChunTeng Chen, YiChen Hsu, YiWen Liu, WeiFang Sun, TsaiChing Ni
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05810v1) | > The ability to automatically generate large-scale, interactive, and physically realistic 3D environments is crucial for advancing robotic learning and embodied intelligence. However, existing generative approaches often fail to capture the functional complexity of real-world interiors, particularly those containing articulated objects with movable parts essential for manipulation and navigation. T...
+
+---
+
+## 210. Early bloodmaterial interfacial events and capillary transport on nanoparticle modified nanofibers
+
+**Authors:** Romain Scarabelli, Mehdi Abbasi, Magali Gary-Bobo, Christophe Drouet, Marc Leonetti
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05809v1) | > Electrospun poly(ε-caprolactone) (PCL)nanofibrous mats are widely considered for blood-contacting wound dressings and small-diameter vascular applications; however, their intrinsic hydrophobicity limits rapid wetting and controlled interaction with blood. In this work, we modulate the interfacial response of PCL nanofibers by incorporating oxide-shelled silicon nanoparticles (SiNPs) synthesized by...
+
+---
+
+## 211. EnvScaler: Scaling Tool-Interactive Environments for LLM Agent via Programmatic Synthesis
+
+**Authors:** Xiaoshuai Song, Haofei Chang, Guanting Dong, Yutao Zhu, Zhicheng Dou
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05808v1) | > Large language models (LLMs) are expected to be trained to act as agents in various real-world environments, but this process relies on rich and varied tool-interaction sandboxes. However, access to real systems is often restricted; LLM-simulated environments are prone to hallucinations and inconsistencies; and manually built sandboxes are hard to scale. In this paper, we propose EnvScaler, an aut...
+
+---
+
+## 212. Fusion Matters: Length-Aware Analysis of Positional-Encoding Fusion in Transformers
+
+**Authors:** Mohamed Amine Hallam, Kuo-Kun Tseng
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05807v1) | > Transformers require positional encodings to represent sequence order, yet most prior work focuses on designing new positional encodings rather than examining how positional information is fused with token embeddings. In this paper, we study whether the fusion mechanism itself affects performance, particularly in long-sequence settings. We conduct a controlled empirical study comparing three canon...
+
+---
+
+## 213. Modular Autonomy with Conversational Interaction: An LLM-driven Framework for Decision Making in Autonomous Driving
+
+**Authors:** Marvin Seegert, Korbinian Moller, Johannes Betz
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05806v1) | > Recent advancements in Large Language Models (LLMs) offer new opportunities to create natural language interfaces for Autonomous Driving Systems (ADSs), moving beyond rigid inputs. This paper addresses the challenge of mapping the complexity of human language to the structured action space of modular ADS software. We propose a framework that integrates an LLM-based interaction layer with Autoware,...
+
+---
+
+## 214. InsSo3D: Inertial Navigation System and 3D Sonar SLAM for turbid environment inspection
+
+**Authors:** Simon Archieri, Ahmet Cinar, Shu Pan, Jonatan Scharff Willners, Michele Grimald
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05805v1) | > This paper presents InsSo3D, an accurate and efficient method for large-scale 3D Simultaneous Localisation and Mapping (SLAM) using a 3D Sonar and an Inertial Navigation System (INS). Unlike traditional sonar, which produces 2D images containing range and azimuth information but lacks elevation information, 3D Sonar produces a 3D point cloud, which therefore does not suffer from elevation ambiguit...
+
+---
+
+## 215. Study of $\boldsymbolβ$ Decay Shape Factors in First-Forbidden Transitions with $\boldsymbol{ΔI^π= 0^-}$ for Reactor Antineutrino Spectra Predictions
+
+**Authors:** G. A. Alcalá, A. Algora, M. Estienne, M. Fallot, V. Guadilla
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05804v1) | > The electron spectra of the $β$ decays of $^{92}$Rb and $^{142}$Cs, key contributors to the reactor antineutrino spectrum, were measured at the IGISOL facility using radioactive beams of high isotopic purity. The shapes of the measured $β$ spectra were compared with various $β$ shape models, including first-forbidden correction factors for $ΔI^π= 0^-$ ground-state to ground-state transitions. Comp...
+
+---
+
+## 216. Modeling and Bifurcation Analysis of Longitudinal Dynamics of an Air-Breathing Hypersonic Vehicle
+
+**Authors:** Kavita Shekhawat, Nandan Kumar Sinha
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05800v1) | > A nonlinear model of an Air-Breathing Hypersonic Vehicle (ABHV) longitudinal dynamics characterized by coupling of aerodynamic and propulsive terms is presented in this paper. The model is verified using modal analysis carried out around a design operating condition with results available in the literature. Further, parametric dynamic behavior is computed for the model as steady states with local ...
+
+---
+
+## 217. Two temperate Earth- and Neptune-sized planets orbiting fully convective M dwarfs
+
+**Authors:** Madison G. Scott, Georgina Dransfield, Mathilde Timmermans, Amaury H. M. J. Triaud, Benjamin V. Rackham
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05799v1) | > As the diversity of exoplanets continues to grow, it is important to revisit assumptions about habitability and classical HZ definitions. In this work, we introduce an expanded 'temperate' zone, defined by instellation fluxes between $0.1<S/\mathrm{S}_\oplus<5$, thus encompassing a broader range of potentially habitable worlds. We also introduce the TEMPOS survey, which aims to produce a catalogue...
+
+---
+
+## 218. Imry-Ma phenomenon for the hard-core model on $\mathbb{Z}^{2}$
+
+**Authors:** Irene Ayuso Ventura, Leandro Chiarini, Tyler Helmuth, Ellen Powell
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05798v1) | > The \emph{Imry-Ma phenomenon} refers to the dramatic effect that disorder can have on first-order phase transitions for two-dimensional spin systems. The most famous example is the absence of a phase transition for the two-dimensional random-field Ising model. This paper establishes that a similar phenomena takes place for the hard-core model, a discrete model of crystallization: arbitrarily weak ...
+
+---
+
+## 219. $\mathbb{A}^1$-Euler Characteristic of Low Symmetric Powers and Split Toric Varieties
+
+**Authors:** Louisa F. Bröring
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05796v1) | > For a smooth, projective scheme $X$ over a field $k$ or any variety $X$ if $k$ has characteristic zero, we compute the compactly supported $\mathbb{A}^1$-Euler characteristic of $\operatorname{Sym}^2(X)$ if $\operatorname{char}(k) \ne 2$ and of $\operatorname{Sym}^3(X)$ if $\operatorname{char}(k) \ne 2,3$. We do so by extending the definition of a $G$-equivariant quadratic Euler characteristic fir...
+
+---
+
+## 220. Simplify-This: A Comparative Analysis of Prompt-Based and Fine-Tuned LLMs
+
+**Authors:** Eilam Cohen, Itamar Bul, Danielle Inbar, Omri Loewenbach
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05794v1) | > Large language models (LLMs) enable strong text generation, and in general there is a practical tradeoff between fine-tuning and prompt engineering. We introduce Simplify-This, a comparative study evaluating both paradigms for text simplification with encoder-decoder LLMs across multiple benchmarks, using a range of evaluation metrics. Fine-tuned models consistently deliver stronger structural sim...
+
+---
+
+## 221. Towards Accurate Gravitational Wave Predictions: Gauge-Invariant Nucleation in the Electroweak Phase Transition
+
+**Authors:** Jie Liu, Renhui Qin, Ligong Bian
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05793v1) | > The vacuum decay in the early Universe should be gauge-invariant. In this work, we study the gauge dependence of the vacuum decay occurring through a first-order phase transition and the associated gravitational wave production. We investigate the gauge dependence of the bubble nucleation and phase transition parameters within the framework of the Standard model effective field theory in three dim...
+
+---
+
+## 222. Tensor-DTI: Enhancing Biomolecular Interaction Prediction with Contrastive Embedding Learning
+
+**Authors:** Manel Gil-Sorribes, Júlia Vilalta-Mor, Isaac Filella-Mercè, Robert Soliva, Álvaro Ciudad
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05792v1) | > Accurate drug-target interaction (DTI) prediction is essential for computational drug discovery, yet existing models often rely on single-modality predefined molecular descriptors or sequence-based embeddings with limited representativeness. We propose Tensor-DTI, a contrastive learning framework that integrates multimodal embeddings from molecular graphs, protein language models, and binding-site...
+
+---
+
+## 223. Probing the morphology of the Gum Nebula through pulsar observables and a novel distance estimation method
+
+**Authors:** Ashish Kumar, Avinash A. Deshpande, Pankaj Jain
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05791v1) | > Various existing models of the Gum Nebula differ significantly in their parameters and suggested origins, which can be independently tested for consistency with data on some key observables of pulsars in the direction of the nebula. Our analysis of such data on the Vela pulsar, assuming a dominant scattering region in its foreground, suggests that the fractional distance of the scatterer is $0.89 ...
+
+---
+
+## 224. SAFE: Secure and Accurate Federated Learning for Privacy-Preserving Brain-Computer Interfaces
+
+**Authors:** Tianwang Jia, Xiaoqing Chen, Dongrui Wu
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05789v1) | > Electroencephalogram (EEG)-based brain-computer interfaces (BCIs) are widely adopted due to their efficiency and portability; however, their decoding algorithms still face multiple challenges, including inadequate generalization, adversarial vulnerability, and privacy leakage. This paper proposes Secure and Accurate FEderated learning (SAFE), a federated learning-based approach that protects user ...
+
+---
+
+## 225. From Off-Policy to On-Policy: Enhancing GUI Agents via Bi-level Expert-to-Policy Assimilation
+
+**Authors:** Zezhou Wang, Ziyun Zhang, Xiaoyi Zhang, Zhuzhong Qian, Yan Lu
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05787v1) | > Vision-language models are increasingly deployed as computer-use agents (CUAs) that operate desktops and browsers. Top-performing CUAs are framework-based systems that decompose planning and execution, while end-to-end screenshot-to-action policies are easier to deploy but lag behind on benchmarks such as OSWorld-Verified. GUI datasets like OSWorld pose two bottlenecks: they expose only a few hund...
+
+---
+
+## 226. On the Reynolds analogy for high-speed rough-wall flows: implications for wall modelling
+
+**Authors:** Michele Cogo, Davide Depieri, Matteo Bernardini, Francesco Picano
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05786v1) | > We study the validity of the generalized Reynolds analogy (GRA) in compressible turbulent boundary layers over prism-shaped roughness by mining direct numerical simulation data of Mach 2 and Mach 4 compressible turbulent boundary layers with adiabatic and cooled surfaces. Although the direct influence of roughness strongly disrupts the near-wall coupling between momentum and energy, we show that t...
+
+---
+
+## 227. Adaptive Disentangled Representation Learning for Incomplete Multi-View Multi-Label Classification
+
+**Authors:** Quanjiang Li, Zhiming Liu, Tianxiang Xu, Tingjin Luo, Chenping Hou
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05785v1) | > Multi-view multi-label learning frequently suffers from simultaneous feature absence and incomplete annotations, due to challenges in data acquisition and cost-intensive supervision. To tackle the complex yet highly practical problem while overcoming the existing limitations of feature recovery, representation disentanglement, and label semantics modeling, we propose an Adaptive Disentangled Repre...
+
+---
+
+## 228. Hidden time-nonlocal Floquet symmetries
+
+**Authors:** Sigmund Kohler, Jesús Casado-Pascual
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05783v1) | > We investigate the Floquet spectrum of a detuned, driven two-level system and show that it exhibits exact quasienergy crossings when the detuning is an integer multiple of the energy quantum of the driving field. This behavior can be explained by a hidden time-nonlocal parity, which allows the Floquet modes to be classified as even or odd. Then a generic feature is the emergence of exact crossings...
+
+---
+
+## 229. Stray Field NMR: a powerful method to measure dynamics at the millisecond scale
+
+**Authors:** Lafon Suzanne, Vedel Jeanne, Teynier Clara, Raj Mithalal Divyen, Wzietek Pawel
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05782v1) | > Transport properties in fluids and confined systems play a central role across a wide range of natural and technological contexts, from geology and environmental sciences to biology, energy storage, and membrane-based separation processes. Nuclear Magnetic Resonance (NMR) provides a unique, non-destructive means to probe these properties through species-selective measurements of self-diffusion coe...
+
+---
+
+## 230. Phase Frustration Induced Intrinsic Bose Glass in the Kitaev-Bose-Hubbard Model
+
+**Authors:** Yi-fan Zhu, Shi-jie Yang
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05781v1) | > We report an intrinsic "Bubble Phase" in the two-dimensional Kitaev-Bose-Hubbard model, driven purely by phase frustration between complex hopping and anisotropic pairing. By combining Inhomogeneous Gutzwiller Mean-Field Theory with a Bogoliubov-de Gennes stability analysis augmented by a novel Energy Penalty Method, we demonstrate that this phase spontaneously fragments into coherent islands, exh...
+
+---
+
+## 231. Stability and convergence analysis of unconditionally original energy dissipative implicit-explicit Runge--Kutta methods for the phase field crystal models without Lipschitz assumptions
+
+**Authors:** Xiaoli Li, Kaiyi Niu, Jiang Yang
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05780v1) | > The phase field crystal (PFC) method is an efficient technique for simulating the evolution of crystalline microstructures at atomistic length scales and diffusive time scales. Due to the high-order derivatives (sixth-order) and the strongly nonlinear term (locally Lipschitz), developing high-order stable schemes and establishing corresponding error estimates is particularly challenging. In this s...
+
+---
+
+## 232. A Catalog of 45,206 Hα Emission-line Stars from LAMOST MRS DR7
+
+**Authors:** Lihuan Yu, Jiangdan Li, Jinliang Wang, Tongyu He, Zhanwen Han aa
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05779v1) | [DOI](https://doi.org/10.3847/1538-4365/ae1a87)
+
+> Stars that exhibit prominent emission lines in their spectra are referred to as emission-line stars, encompassing a wide range of stellar types and indicative of intriguing physical properties. The Large Sky Area Multi-Object fiber Spectroscopic Telescope (LAMOST) has released millions of spectra from its Medium-Resolution Survey (MRS). A small fraction of these spectra exhibit emission lines, yet...
+
+---
+
+## 233. Preconditioned log-determinant approximation: one Gaussian probe vector is almost always enough
+
+**Authors:** Alice Cortinovis, Daniele Toni
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05778v1) | > We present randomized algorithms for estimating the log-determinant of regularized symmetric positive semi-definite matrices. The algorithms access the matrix only through matrix vector products, and are based on the introduction of a preconditioner and stochastic trace estimator. We claim that preconditioning as much as we can and making a rough estimate of the residual part with a small budget a...
+
+---
+
+## 234. EET: Experience-Driven Early Termination for Cost-Efficient Software Engineering Agents
+
+**Authors:** Yaoqi Guo, Ying Xiao, Jie M. Zhang, Mark Harman, Yiling Lou
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05777v1) | > Software engineering (SE) agents powered by large language models are increasingly adopted in practice, yet they often incur substantial monetary cost. We introduce EET, an experience-driven early termination approach that reduces the cost of SE agents while preserving task performance. EET extracts structured experience from prior issue-resolution executions and leverages it to guide early termin...
+
+---
+
+## 235. One Script Instead of Hundreds? On Pretraining Romanized Encoder Language Models
+
+**Authors:** Benedikt Ebing, Lennart Keller, Goran Glavaš
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05776v1) | > Exposing latent lexical overlap, script romanization has emerged as an effective strategy for improving cross-lingual transfer (XLT) in multilingual language models (mLMs). Most prior work, however, focused on setups that favor romanization the most: (1) transfer from high-resource Latin-script to low-resource non-Latin-script languages and/or (2) between genealogically closely related languages w...
+
+---
+
+## 236. Nonlinear mode interactions under parametric excitation in a YIG microdisk
+
+**Authors:** Gabriel Soares, Rafael Lopes Seeger, Amel Kolli, Maryam Massouras, Titiksha Srivastava
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05775v1) | > A pair of quantized spin-wave modes is driven by two-tone parallel pumping in a YIG microdisk. The nonlinear dynamics is experimentally investigated by probing the resulting steady state, which is found to critically depend on the chosen pair of modes, the detuning between the pump frequencies and the modes parametric resonance, as well as the temporal sequence of the two rf tones. A general theor...
+
+---
+
+## 237. Fading into darkness: A weak mass ejection and low-efficiency fallback accompanying black hole formation in M31-2014-DS1
+
+**Authors:** Kishalay De, Morgan MacLeod, Jacob E. Jencson, Ryan M. Lau, Andrea Antoni
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05774v1) | > Stellar-mass black holes (BHs) can form from the near-complete collapse of massive stars, causing them to abruptly disappear. The star M31-2014-DS1 in the Andromeda galaxy was reported to exhibit such a disappearance between 2014 and 2022, with properties consistent with the failed explosion of a $\approx 12 - 13$ M$_\odot$ yellow supergiant leading to the formation of a $\approx 5$ M$_\odot$ BH. ...
+
+---
+
+## 238. StriderSPD: Structure-Guided Joint Representation Learning for Binary Security Patch Detection
+
+**Authors:** Qingyuan Li, Chenchen Yu, Chuanyi Li, Xin-Cheng Wen, Cheryl Lee
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05772v1) | > Vulnerabilities severely threaten software systems, making the timely application of security patches crucial for mitigating attacks. However, software vendors often silently patch vulnerabilities with limited disclosure, where Security Patch Detection (SPD) comes to protect software assets. Recently, most SPD studies have targeted Open-Source Software (OSS), yet a large portion of real-world soft...
+
+---
+
+## 239. Weights to Code: Extracting Interpretable Algorithms from the Discrete Transformer
+
+**Authors:** Yifan Zhang, Wei Bi, Kechi Zhang, Dongming Jin, Jie Fu
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05770v1) | > Algorithm extraction aims to synthesize executable programs directly from models trained on specific algorithmic tasks, enabling de novo algorithm discovery without relying on human-written code. However, extending this paradigm to Transformer is hindered by superposition, where entangled features encoded in overlapping directions obstruct the extraction of symbolic expressions. In this work, we p...
+
+---
+
+## 240. Reservoir computing from collective dynamics of active colloidal oscillators
+
+**Authors:** Veit-Lorenz Heuthe, Lukas Seemann, Samuel Tovey, Clemens Bechinger
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05767v1) | > Physical reservoir computing is a computational framework that offers an energy- and computation-efficient alternative to conventional training of neural networks. In reservoir computing, input signals are mapped into the high-dimensional dynamics of a nonlinear system, and only a simple readout layer is trained. In most physical implementations, the interactions that give rise to the dynamics can...
+
+---
+
+## 241. More Power to the Particles: Analytic Geometry for Partial Optimal Transport-based Fluid simulation
+
+**Authors:** Cyprien Plateau--Holleville, Bruno Lévy
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05765v1) | > We propose an analytic construction of the geometry required for free-surface fluid simulations and deformation mechanics based on partial optimal transport such as the Gallouët-Mérigot's scheme or the Power Particles method. Such methods previously relied on a discretization of the cells by leveraging a classical convex cell clipping algorithm. However, this results in a heavy computational cost ...
+
+---
+
+## 242. Small counterexamples to the fat minor conjecture
+
+**Authors:** Sandra Albrechtsen, Marc Distel, Agelos Georgakopoulos
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05761v1) | > We narrow the gap between the family of graphs that do and the family of graphs that do not satisfy the fat minor conjecture by obtaining much simpler counterexamples than were previously known, including $K_t, t \geq 6$ and $K_{s,t}, s,t \geq 4$ and $K_{2,2,2}$.
+  This is achieved by establishing a `coarse self-similarity' property of the graphs used by Nguyen, Scott and Seymour to disprove the `...
+
+---
+
+## 243. Exploring Chaotic Motion of a Particle in the Centre of a Galaxy with a Prolate Halo
+
+**Authors:** Uditi Nag, Yeasin Ali, Suparna Roychowdhury
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05760v1) | > The majority of galaxies are known to have supermassive black holes (SMBHs) at their core, which have a tremendous gravitational pull on the objects around them. When embedded within extended matter distributions such as prolate, shell-like halos, they give rise to complex gravitational fields that often drive nearby particles into chaotic orbits. The inherently nonlinear nature of such motion, sh...
+
+---
+
+## 244. Variational Autoencoders for P-wave Detection on Strong Motion Earthquake Spectrograms
+
+**Authors:** Turkan Simge Ispak, Salih Tileylioglu, Erdem Akagunduz
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05759v1) | > Accurate P-wave detection is critical for earthquake early warning, yet strong-motion records pose challenges due to high noise levels, limited labeled data, and complex waveform characteristics. This study reframes P-wave arrival detection as a self-supervised anomaly detection task to evaluate how architectural variations regulate the trade-off between reconstruction fidelity and anomaly discrim...
+
+---
+
+## 245. Heterogeneous ice nucleation on model substrates
+
+**Authors:** Miguel Camarillo, Javier Oller-Iscar, María M. Conde, Jorge Ramírez, Eduardo Sanz
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05758v1) | [DOI](https://doi.org/10.1063/5.0289506)
+
+> Ice nucleation is greatly important in areas as diverse as climate change, cryobiology, geology or food industry. Predicting the ability of a substrate to induce the nucleation of ice from supercooled water is a difficult problem. Here, we use molecular simulations to analyse how the ice nucleating ability is affected by the substrate lattice structure and orientation. We focus on different model ...
+
+---
+
+## 246. Explicit Reward Mechanisms for Local Flexibility in Renewable Energy Communities
+
+**Authors:** Thomas Stegen, Julien Allard, Noé Diffels, François Vallée, Mevludin Glavic
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05756v1) | > Incentivizing flexible consumption of end-users is key to maximizing the value of local exchanges within Renewable Energy Communities. If centralized coordination for flexible resources planning raises concerns regarding data privacy and fair benefits distribution, state-of-the-art approaches (e.g., bi-level, ADMM) often face computational complexity and convexity challenges, limiting the precisio...
+
+---
+
+## 247. VIGIL: Defending LLM Agents Against Tool Stream Injection via Verify-Before-Commit
+
+**Authors:** Junda Lin, Zhaomeng Zhou, Zhi Zheng, Shuochen Liu, Tong Xu
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05755v1) | > LLM agents operating in open environments face escalating risks from indirect prompt injection, particularly within the tool stream where manipulated metadata and runtime feedback hijack execution flow. Existing defenses encounter a critical dilemma as advanced models prioritize injected rules due to strict alignment while static protection mechanisms sever the feedback loop required for adaptive ...
+
+---
+
+## 248. Gravitational waves and small-field astrometry
+
+**Authors:** Robin Geyer, Sven Zschocke, Michael Soffel, Sergei Klioner, Lennart Lindegren
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05754v1) | [DOI](https://doi.org/10.1103/l59s-fz3z)
+
+> Astrometric observations can, in principle, be used to detect gravitational waves. In this paper we give a practical overview of the gravitational wave effects which can be expected specifically in small-field astrometric data. Particular emphasis is placed on the differential effect between pairs of sources within a finite field of view. We also present several general findings that are not restr...
+
+---
+
+## 249. Analysing Differences in Persuasive Language in LLM-Generated Text: Uncovering Stereotypical Gender Patterns
+
+**Authors:** Amalie Brogaard Pauli, Maria Barrett, Max Müller-Eberstein, Isabelle Augenstein, Ira Assent
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05751v1) | > Large language models (LLMs) are increasingly used for everyday communication tasks, including drafting interpersonal messages intended to influence and persuade. Prior work has shown that LLMs can successfully persuade humans and amplify persuasive language. It is therefore essential to understand how user instructions affect the generation of persuasive language, and to understand whether the ge...
+
+---
+
+## 250. Semicircle law for multi-parameter random simplicial complexes
+
+**Authors:** Kartick Adhikari, Kiran Kumar, Koushik Saha
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05748v1) | > In this paper, we consider the multi-parameter random simplicial complex model, which generalizes the Linial-Meshulam model and random clique complexes by allowing simplices of different dimensions to be included with distinct probabilities. For $n,d \in \mathbb{N}$ and $\mathbf{p}=(p_1,p_2,\ldots, p_d)$ such that $p_i \in (0,1]$ for all $1 \leq i \leq d$, the multi-parameter random simplicial com...
+
+---
+
+## 251. FlyPose: Towards Robust Human Pose Estimation From Aerial Views
+
+**Authors:** Hassaan Farooq, Marvin Brenner, Peter St\ütz
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05747v1) | > Unmanned Aerial Vehicles (UAVs) are increasingly deployed in close proximity to humans for applications such as parcel delivery, traffic monitoring, disaster response and infrastructure inspections. Ensuring safe and reliable operation in these human-populated environments demands accurate perception of human poses and actions from an aerial viewpoint. This perspective challenges existing methods ...
+
+---
+
+## 252. DynaDebate: Breaking Homogeneity in Multi-Agent Debate with Dynamic Path Generation
+
+**Authors:** Zhenghao Li, Zhi Zheng, Wei Chen, Jielun Zhao, Yong Chen
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05746v1) | > Recent years have witnessed the rapid development of Large Language Model-based Multi-Agent Systems (MAS), which excel at collaborative decision-making and complex problem-solving. Recently, researchers have further investigated Multi-Agent Debate (MAD) frameworks, which enhance the reasoning and collaboration capabilities of MAS through information exchange and debate among multiple agents. Howev...
+
+---
+
+## 253. Phonon-induced Markovian and non-Markovian effects on absorption spectra of moiré excitons in twisted transition metal dichalcogenide bilayers
+
+**Authors:** Daniel Groll, Anton Plonka, Kevin Jürgens, Daniel Wigger, Tilmann Kuhn
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05745v1) | > The properties of moiré excitons in twisted bilayers of transition metal dichalcogenides (TMDCs) vary significantly with the twist angle, ranging from quasi localized excitons with flat dispersions for small twist angles to delocalized excitons for larger ones. This twist angle dependence directly impacts the exciton-phonon coupling, which plays a significant role for the optical properties of the...
+
+---
+
+## 254. The Echo Chamber Multi-Turn LLM Jailbreak
+
+**Authors:** Ahmad Alobaid, Martí Jordà Roca, Carlos Castillo, Joan Vendrell
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05742v1) | > The availability of Large Language Models (LLMs) has led to a new generation of powerful chatbots that can be developed at relatively low cost. As companies deploy these tools, security challenges need to be addressed to prevent financial loss and reputational damage. A key security challenge is jailbreaking, the malicious manipulation of prompts and inputs to bypass a chatbot's safety guardrails....
+
+---
+
+## 255. ViTNT-FIQA: Training-Free Face Image Quality Assessment with Vision Transformers
+
+**Authors:** Guray Ozgur, Eduarda Caldeira, Tahar Chettaoui, Jan Niklas Kolf, Marco Huber
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05741v1) | > Face Image Quality Assessment (FIQA) is essential for reliable face recognition systems. Current approaches primarily exploit only final-layer representations, while training-free methods require multiple forward passes or backpropagation. We propose ViTNT-FIQA, a training-free approach that measures the stability of patch embedding evolution across intermediate Vision Transformer (ViT) blocks. We...
+
+---
+
+## 256. Block Encoding Linear Combinations of Pauli Strings Using the Stabilizer Formalism
+
+**Authors:** Niclas Schillo, Andreas Sturm, Rüdiger Quay
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05740v1) | > The Quantum Singular Value Transformation (QSVT) provides a powerful framework with the potential for quantum speedups across a wide range of applications. Its core input model is the block encoding framework, in which non-unitary matrices are embedded into larger unitary matrices. Because the gate complexity of the block-encoding subroutine largely determines the overall cost of QSVT-based algori...
+
+---
+
+## 257. PII-VisBench: Evaluating Personally Identifiable Information Safety in Vision Language Models Along a Continuum of Visibility
+
+**Authors:** G M Shahariar, Zabir Al Nazi, Md Olid Hasan Bhuiyan, Zhouxing Shi
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05739v1) | > Vision Language Models (VLMs) are increasingly integrated into privacy-critical domains, yet existing evaluations of personally identifiable information (PII) leakage largely treat privacy as a static extraction task and ignore how a subject's online presence--the volume of their data available online--influences privacy alignment. We introduce PII-VisBench, a novel benchmark containing 4000 uniqu...
+
+---
+
+## 258. FeatureSLAM: Feature-enriched 3D gaussian splatting SLAM in real time
+
+**Authors:** Christopher Thirgood, Oscar Mendez, Erin Ling, Jon Storey, Simon Hadfield
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05738v1) | > We present a real-time tracking SLAM system that unifies efficient camera tracking with photorealistic feature-enriched mapping using 3D Gaussian Splatting (3DGS). Our main contribution is integrating dense feature rasterization into the novel-view synthesis, aligned with a visual foundation model. This yields strong semantics, going beyond basic RGB-D input, aiding both tracking and mapping accur...
+
+---
+
+## 259. Bio-resorbable magnetic tunnel junctions
+
+**Authors:** Dong-Jun Kim, Beom Jin Kim, Hee-Chang Shin, Jeongkeun Kim, Yuchen Pu
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05733v1) | > Magnetic tunnel junctions (MTJs) play a crucial role in spintronic applications, particularly data storage and sensors. Especially as a non-volatile memory, MTJs have received substantial attention due to its CMOS compatibility, low power consumption, fast switching speed, and high endurance. In parallel, bio-resorbable electronics have emerged as a promising solution for systems requiring tempora...
+
+---
+
+## 260. Spin dynamics of excitons and carriers in mixed-cation MA$_{x}$FA$_{1-x}$PbI$_{3}$ perovskite crystals: alloy fluctuations probed by optical orientation
+
+**Authors:** B. F. Gribakin, N. E. Kopteva, D. R. Yakovlev, I. A. Akimov, I. V. Kalitukha
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05730v1) | > Optical spin orientation measured by time-resolved photoluminescence provides a powerful tool to probe the spin dynamics of excitons and charge carriers in perovskite semiconductors. The impact of alloy fluctuations on the spin dynamics of mixed-cation \MAFAPI{} perovskite single crystals is studied here experimentally. The optical orientation is measured under nonresonant excitation for crystals ...
+
+---
+
+## 261. TAGRPO: Boosting GRPO on Image-to-Video Generation with Direct Trajectory Alignment
+
+**Authors:** Jin Wang, Jianxiang Lu, Guangzheng Xu, Comi Chen, Haoyu Yang
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05729v1) | > Recent studies have demonstrated the efficacy of integrating Group Relative Policy Optimization (GRPO) into flow matching models, particularly for text-to-image and text-to-video generation. However, we find that directly applying these techniques to image-to-video (I2V) models often fails to yield consistent reward improvements. To address this limitation, we present TAGRPO, a robust post-trainin...
+
+---
+
+## 262. Learning and Testing Exposure Mappings of Interference using Graph Convolutional Autoencoder
+
+**Authors:** Martin Huber, Jannis Kueck, Mara Mattes
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05728v1) | > Interference or spillover effects arise when an individual's outcome (e.g., health) is influenced not only by their own treatment (e.g., vaccination) but also by the treatment of others, creating challenges for evaluating treatment effects. Exposure mappings provide a framework to study such interference by explicitly modeling how the treatment statuses of contacts within an individual's network a...
+
+---
+
+## 263. A Stock-Flow Framework for Editorial Board Dynamics: The Case of Economics Journals, 1866-2019
+
+**Authors:** Alberto Baccini
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05727v1) | > Research on the editorial boards of scholarly journals has predominantly relied on static, cross-sectional data, focusing on their composition or interlocking editorships at single points in time. To address this gap, a formal stock-flow framework is developed for analyzing the longitudinal dynamics of editorial boards. The model integrates three interconnected layers: journal demographics, the dy...
+
+---
+
+## 264. Observation of magnon torques mediated by orbital hybridization at the light metal/antiferromagnetic insulator interface
+
+**Authors:** Yuchen Pu, Guoyi Shi, Hua Bai, Xinhou Chen, Chenhui Zhang
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05725v1) | > Magnon torques, which can operate without involving moving electrons, could circumvent the Joule heating issue. In conventional magnon torque systems, the spin source layer with strong spin-orbit coupling is utilized to inject magnons, and the efficiency is limited by the inherent spin Hall conductivity of the spin source layer. In this work, we observe magnon torques in the Cr/NiO/ferromagnet het...
+
+---
+
+## 265. Overcoming Joint Intractability with Lossless Hierarchical Speculative Decoding
+
+**Authors:** Yuxuan Zhou, Fei Huang, Heng Li, Fengyi Wu, Tianyu Wang
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05724v1) | > Verification is a key bottleneck in improving inference speed while maintaining distribution fidelity in Speculative Decoding. Recent work has shown that sequence-level verification leads to a higher number of accepted tokens compared to token-wise verification. However, existing solutions often rely on surrogate approximations or are constrained by partial information, struggling with joint intra...
+
+---
+
+## 266. The NuGrid AGB Evolution and Nucleosynthesis Data Set
+
+**Authors:** Umberto Battino, Marco Pignatari, Ashley Tattersall, Pavel Denissenkov, Falk Herwig
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05723v1) | [DOI](https://doi.org/10.3390/universe8030170)
+
+> Asymptotic Giant Branch (AGB) stars play a key role in the chemical evolution of galaxies. These stars are the fundamental stellar site for the production of light elements such as C, N and F, and half of the elements heavier than Fe via the slow neutron capture process (s-process). Hence, detailed computational models of AGB stars' evolution and nucleosynthesis are essential for galactic chemical...
+
+---
+
+## 267. Rotate Your Character: Revisiting Video Diffusion Models for High-Quality 3D Character Generation
+
+**Authors:** Jin Wang, Jianxiang Lu, Comi Chen, Guangzheng Xu, Haoyu Yang
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05722v1) | > Generating high-quality 3D characters from single images remains a significant challenge in digital content creation, particularly due to complex body poses and self-occlusion. In this paper, we present RCM (Rotate your Character Model), an advanced image-to-video diffusion framework tailored for high-quality novel view synthesis (NVS) and 3D character generation. Compared to existing diffusion-ba...
+
+---
+
+## 268. From Issues to Insights: RAG-based Explanation Generation from Software Engineering Artifacts
+
+**Authors:** Daniel Pöttgen, Mersedeh Sadeghi, Max Unterbusch, Andreas Vogelsang
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05721v1) | > The increasing complexity of modern software systems has made understanding their behavior increasingly challenging, driving the need for explainability to improve transparency and user trust. Traditional documentation is often outdated or incomplete, making it difficult to derive accurate, context-specific explanations. Meanwhile, issue-tracking systems capture rich and continuously updated devel...
+
+---
+
+## 269. Energy Bounds from Relative Magnetic Helicity in Spherical Shells
+
+**Authors:** Anthony R. Yeates, Gunnar Hornig
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05720v1) | [DOI](https://doi.org/10.3847/1538-4357/ae30dd)
+
+> Relative magnetic helicity is commonly used in solar physics to avoid the well known gauge ambiguity of standard magnetic helicity in magnetically open domains. But its physical interpretation is difficult owing to the invocation of a reference field. For the specific case of spherical shell domains (with potential reference field), relative helicity may be written intrinsically in terms of the ma...
+
+---
+
+## 270. Inclusion of Inter-crystal Scattering in PET: Analytical Models and Dedicated Reconstruction
+
+**Authors:** Jorge Roser, Hong Phuc Vo, Rebecca Kantorek, Steven Seeger, Magdalena Rafecas
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05717v1) | > Inter-crystal scattering (ICS) in Positron Emission Tomography (PET) is commonly regarded as a degradation effect that might compromise the image spatial resolution. In parallel, the inclusion of ICS events has also been recognized as a potential approach to increase PET sensitivity, which could be especially beneficial in scenarios where the latter is a limiting factor, such as very small animal ...
+
+---
+
+## 271. When the Rules Change: Adaptive Signal Extraction via Kalman Filtering and Markov-Switching Regimes
+
+**Authors:** Sungwoo Kang
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05716v1) | > Static linear models of order flow assume constant parameters, failing precisely when they are needed most: during periods of market stress and structural change. This paper proposes a dynamic, state-dependent framework for order flow signal extraction that adapts to shifting market conditions in the Korean stock market. Using daily transaction data from 2020--2024 covering 2,439 stocks and 2.79 m...
+
+---
+
+## 272. Metastable opinion dynamics with hidden preferences: an Ising model with neutral agents
+
+**Authors:** Simone Baldassarri, Vanessa Jacquier, Alessandro Zocca
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05714v1) | > We introduce a new Ising-type framework for opinion dynamics that explicitly separates private preferences from publicly expressed binary opinions and naturally incorporates neutral agents. Each individual is endowed with an immutable hidden preference, while public opinions evolve through Metropolis dynamics on a finite graph. This formulation extends classical sociophysical Ising models by captu...
+
+---
+
+## 273. Visualising Information Flow in Word Embeddings with Diffusion Tensor Imaging
+
+**Authors:** Thomas Fabian
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05713v1) | > Understanding how large language models (LLMs) represent natural language is a central challenge in natural language processing (NLP) research. Many existing methods extract word embeddings from an LLM, visualise the embedding space via point-plots, and compare the relative positions of certain words. However, this approach only considers single words and not whole natural language expressions, th...
+
+---
+
+## 274. Impact of newly measured 26Al(n, p)26Mg and 26Al(n, α)23Na reaction rates on the nucleosynthesis of 26Al in stars
+
+**Authors:** Umberto Battino, Claudia Lederer-Woods, Marco Pignatari, Benjamin Soos, Maria Lugaro
+
+**Year:** 2026 | **Venue:** arXiv | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2601.05710v1) | [DOI](https://doi.org/10.1093/mnras/stad106)
+
+> The cosmic production of the short-lived radioactive nuclide 26Al is crucial for our understanding of the evolution of stars and galaxies. However, simulations of the stellar sites producing 26Al are still weakened by significant nuclear uncertainties. We re-evaluate the 26Al(n, p)26Mg, and 26Al(n, α)23Na ground state reactivities from 0.01 GK to 10 GK, based on the recent n TOF measurement combin...
+
+---
+
+## 275. Virtual 3D City Model Generation in CityGML
+
+**Authors:** Chenbo Zhao, Yoshiki Ogawa, L. Liao, Yoshihide Sekimoto
+
+**Year:** 2025 | **Venue:** ISPRS annals of the photogrammetry, remote sensing and spatial information sciences | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://isprs-annals.copernicus.org/articles/X-4-W6-2025/257/2025/isprs-annals-X-4-W6-2025-257-2025.pdf) | [DOI](https://doi.org/10.5194/isprs-annals-x-4-w6-2025-257-2025)
+
+> Abstract. As the urban digital transformation continues to advance, virtual 3D city models have become essential tools for urban planning, traffic management, environmental assessment, and virtual reality applications. Current research largely focuses on constructing high-fidelity city models based on the CityGML standard; however, challenges remain regarding data acquisition costs, complexity of ...
+
+---
+
+## 276. COMPLETE ENSEMBLE EMPIRICAL MODE DECOMPOSITION WITH ADAPTIVE NOISE-DRIVEN ENSEMBLE FORECASTING FRAMEWORK FOR MULTI-SECTOR STOCK TREND ANALYSIS
+
+**Authors:** G Zhang, M Qi, Y Hong, Q Li, V Vapnik
+
+**Year:** 2025 | **Venue:** International Journal of Progressive Research in Engineering Management and Science | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://doi.org/10.58257/ijprems43827) | [DOI](https://doi.org/10.58257/ijprems43827)
+
+> ...
+
+---
+
+## 277. Edge AI Enabled Real-Time Video Analytics: A Full-Lifecycle Perspective
+
+**Authors:** Xinyan Wang, Zhiwei Zhao, Geyong Min, Zi Wang, Zhe Wang
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175744961.11927967) | [DOI](https://doi.org/10.36227/techrxiv.175744961.11927967/v1)
+
+> ...
+
+---
+
+## 278. A Survey of Autonomous Driving Trajectory Prediction: Methodologies, Challenges, and Future Prospects
+
+**Authors:** Miao Xu, Zhi Liu, B.C.M. Wang, S Li
+
+**Year:** 2025 | **Venue:** Machines | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.mdpi.com/2075-1702/13/9/818/pdf?version=1757323894) | [DOI](https://doi.org/10.3390/machines13090818)
+
+> Trajectory prediction is a critical component of autonomous driving decision-making systems, directly impacting driving safety and traffic efficiency. Despite advancements, existing reviews exhibit limitations in timeliness, classification frameworks, and challenge analysis. This paper systematically reviews multi-agent trajectory prediction technologies, focusing on generating future position seq...
+
+---
+
+## 279. Traditional and Machine Learning Approaches to Partial Differential Equations: A Critical Review of Methods, Trade-Offs, and Integration
+
+**Authors:** Mohammad Nooraiepour
+
+**Year:** 2025 | **Venue:** Preprints.org | **Citations:** 2 | **Score:** 0.000
+
+[PDF](https://www.preprints.org/frontend/manuscript/fe5a1923cada9c31f8a8c8596aec5c3a/download_pub) | [DOI](https://doi.org/10.20944/preprints202509.0472.v1)
+
+> The solution of partial differential equations (PDEs) underpins computational modeling across science and engineering, from quantum mechanics to climate dynamics. This review examines the current landscape of PDE solving methods, encompassing both traditional numerical approaches that have been refined over decades and emerging machine learning techniques that fundamentally transform computational...
+
+---
+
+## 280. DynTex: A real-time generative model of dynamic naturalistic luminance textures
+
+**Authors:** Andrew Isaac Meso, Jonathan Vacher, Nikos Gekas, Pascal Mamassian, Laurent Perrinet
+
+**Year:** 2025 | **Venue:** Journal of Vision | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://jov.arvojournals.org/arvo/content_public/journal/jov/938730/i1534-7362-25-11-2_1756893712.08956.pdf) | [DOI](https://doi.org/10.1167/jov.25.11.2)
+
+> The visual systems of animals work in diverse and constantly changing environments where organism survival requires effective senses. To study the hierarchical brain networks that perform visual information processing, vision scientists require suitable tools, and Motion Clouds (MCs)-a dense mixture of drifting Gabor textons-serve as a versatile solution. Here, we present an open toolbox intended ...
+
+---
+
+## 281. Spatio-temporal transformer traffic prediction network based on multi-level causal attention
+
+**Authors:** Hengyuan He, Zhengtao Long, Yingchao Zhang, Xiaofei Jiang
+
+**Year:** 2025 | **Venue:** PLoS ONE | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0331139&type=printable) | [DOI](https://doi.org/10.1371/journal.pone.0331139)
+
+> Traffic prediction is a core technology in intelligent transportation systems with broad application prospects. However, traffic flow data exhibits complex characteristics across both temporal and spatial dimensions, posing challenges for accurate prediction. In this paper, we propose a spatiotemporal Transformer network based on multi-level causal attention (MLCAFormer). We design a multi-level t...
+
+---
+
+## 282. Recent advances in finetuning multimodal large language models
+
+**Authors:** Zhen Wang, Li Lin, Long Chen
+
+**Year:** 2025 | **Venue:** AI Magazine | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aaai.70025) | [DOI](https://doi.org/10.1002/aaai.70025)
+
+> Abstract Finetuning serves as the critical adaptation mechanism for multimodal large language models, bridging their pretrained knowledge with specialized downstream task requirements. This paper reviews recent finetuning advances across three key dimensions: (1) efficiency‐oriented methods that reduce resource costs; (2) capability‐specific techniques enhancing specialized multimodal skills; and ...
+
+---
+
+## 283. Big Loop and Atomization: A Holistic Review on the Expansion Capabilities of Large Language Models
+
+**Authors:** Zefa Hu, Yi Huang, Junlan Feng, Chao Deng
+
+**Year:** 2025 | **Venue:** Applied Sciences | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.mdpi.com/2076-3417/15/17/9466/pdf?version=1756391648) | [DOI](https://doi.org/10.3390/app15179466)
+
+> Large language models (LLMs) have demonstrated impressive capabilities, yet they face significant limitations in real-world applications. To overcome these boundaries, research areas such as tool learning, model collaboration, agents, and multi-agent systems have increasingly drawn attention. However, current studies are often conducted in isolation, lacking a unified framework for systematic inte...
+
+---
+
+## 284. A Novel Spatio-Temporal Graph Convolutional Network with Attention Mechanism for PM2.5 Concentration Prediction
+
+**Authors:** Xin Guan, Xinyue Mo, Huan Li
+
+**Year:** 2025 | **Venue:** Machine Learning and Knowledge Extraction | **Citations:** 1 | **Score:** 0.000
+
+[PDF](https://www.mdpi.com/2504-4990/7/3/88/pdf?version=1756302864) | [DOI](https://doi.org/10.3390/make7030088)
+
+> Accurate and high-resolution spatio-temporal prediction of PM2.5 concentrations remains a significant challenge for air pollution early warning and prevention. Advanced artificial intelligence (AI) technologies, however, offer promising solutions to this problem. A spatio-temporal prediction model is designed in this study, which is built upon a seq2seq architecture. This model employs an improved...
+
+---
+
+## 285. Systemic Risk Contagion in China’s Financial–Real Estate Network: Modeling and Forecasting via Fractional-Order PDEs
+
+**Authors:** Weiye Sun, Yulian An, Yeping Gao
+
+**Year:** 2025 | **Venue:** Fractal and Fractional | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.mdpi.com/2504-3110/9/9/557/pdf?version=1756025416) | [DOI](https://doi.org/10.3390/fractalfract9090557)
+
+> Modeling risk evolution in financial networks presents both practical and theoretical challenges, particularly during periods of heightened systemic stress. This issue has gained urgency recently in China as it faces unprecedented financial strain, largely driven by structural shifts in the real estate sector and broader economic vulnerabilities. In this study, we combine Fractional-order Partial ...
+
+---
+
+## 286. Collaborative Multi-Modal Coding for High-Quality 3D Generation
+
+**Authors:** Zhiwei Cao, Zheng Chen, Liang Pan, Ziwei Liu
+
+**Year:** 2025 | **Venue:** arXiv (Cornell University) | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2508.15228) | [DOI](https://doi.org/10.48550/arxiv.2508.15228)
+
+> 3D content inherently encompasses multi-modal characteristics and can be projected into different modalities (e.g., RGB images, RGBD, and point clouds). Each modality exhibits distinct advantages in 3D asset modeling: RGB images contain vivid 3D textures, whereas point clouds define fine-grained 3D geometries. However, most existing 3D-native generative architectures either operate predominantly w...
+
+---
+
+## 287. Engineering an Afrocentric AI Platform: A Foundational Architecture for Training and Renewal
+
+**Authors:** Eric Nsarkoh, Ama Branoa Banful, J. Arthur, Dennis Fosu, Prince Dawson Tetteh
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.researchsquare.com/article/rs-7290976/latest.pdf) | [DOI](https://doi.org/10.21203/rs.3.rs-7290976/v1)
+
+> <title>Abstract</title> The paper explores the need to design a systematically engineered technical architecture for developing and incorporating Artificial Intelligence (AI) models, especially Large Language Models (LLMs), in the socio-technical environment specific to Africa. Although AI's potential to transform the continent is boundless, serious gaps remain in systematically engineering datase...
+
+---
+
+## 288. Concept Curve Paradigm - A new approach to Knowledge representation in the AI era
+
+**Authors:** Daniel Bistman
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://osf.io/upm94_v2/download) | [DOI](https://doi.org/10.31219/osf.io/upm94_v2)
+
+> Current knowledge representation techniques in Artificial Intelligence, particularly high dimensional embeddings, face significant limitations when handling complex, structured information like extensive narratives or large bodies of knowledge. Representing rich semantic structures as single vectors often leads to information compression, loss of meaning, and potential hallucinations in generative...
+
+---
+
+## 289. ChronoLLM: Customizing Language Models for Physics-Based Simulation Code Generation
+
+**Authors:** Jing‐Quan Wang, Andrew Negrut, Harry Zhang, Khailanii Slaton, Shunli Wang
+
+**Year:** 2025 | **Venue:** arXiv (Cornell University) | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2508.13975) | > This contribution is concerned with the following issue: can pretrained large language models (LLMs) be refined and customized to the point where they become virtual assistants helping experts with the effective use of a simulation tool? In this case study, the ``simulation tool'' considered is PyChrono, an open source multi-physics dynamics engine for multibody systems. We present a framework for...
+
+---
+
+## 290. AI-Augmented FEA for Offshore Wind Turbine Equipment: A State-of-the-Art Methodology for Accelerated Fabrication Review
+
+**Authors:** Haridas Pal
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.researchsquare.com/article/rs-7377871/latest.pdf) | [DOI](https://doi.org/10.21203/rs.3.rs-7377871/v1)
+
+> <title>Abstract</title> Offshore wind energy is projected to exceed 500 GW of installed capacity by 2050, driving unprecedented demand for efficient, high-quality fabrication of monopiles, jacket structures, and nacelle components. Current fabrication reviews—covering dimensional tolerances, weld integrity, and compliance with DNV-GL-ST-0126 and ISO 19902—are predominantly manual, multi-day proces...
+
+---
+
+## 291. Deep Causal Learning: Representation, Discovery and Inference
+
+**Authors:** Zizhen Deng, Hu Tian, Xiaolong Zheng, Daniel Zeng
+
+**Year:** 2025 | **Venue:** ACM Computing Surveys | **Citations:** 1 | **Score:** 0.000
+
+[PDF](https://dl.acm.org/doi/pdf/10.1145/3762179) | [DOI](https://doi.org/10.1145/3762179)
+
+> Causal learning has garnered significant attention in recent years because it reveals the essential relationships that underpin phenomena and delineates the mechanisms by which the world evolves. Nevertheless, traditional causal learning methods face numerous challenges and limitations, including high-dimensional, unstructured variables, combinatorial optimization problems, unobserved confounders,...
+
+---
+
+## 292. Research on World Models for Connected Automated Driving: Advances, Challenges, and Outlook
+
+**Authors:** Nuo Chen, Xiang Liu
+
+**Year:** 2025 | **Venue:** Applied Sciences | **Citations:** 1 | **Score:** 0.000
+
+[PDF](https://www.mdpi.com/2076-3417/15/16/8986/pdf?version=1755249445) | [DOI](https://doi.org/10.3390/app15168986)
+
+> Connected Autonomous Vehicles (CAVs) technology holds immense potential for enhancing traffic safety and efficiency; however, its inherent complexity presents significant challenges for conventional autonomous driving. World Models (WMs), an advanced deep learning paradigm, offer an innovative approach to address these CAV challenges by learning environmental dynamics and precisely predicting futu...
+
+---
+
+## 293. LinU-Mamba: Visual Mamba U-Net with Linear Attention to Predict Wildfire Spread
+
+**Authors:** Henintsoa S. Andrianarivony, Moulay A. Akhloufi
+
+**Year:** 2025 | **Venue:** Remote Sensing | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.mdpi.com/2072-4292/17/15/2715/pdf?version=1754470097) | [DOI](https://doi.org/10.3390/rs17152715)
+
+> Wildfires have become increasingly frequent and intense due to climate change, posing severe threats to ecosystems, infrastructure, and human lives. As a result, accurate wildfire spread prediction is critical for effective risk mitigation, resource allocation, and decision making in disaster management. In this study, we develop a deep learning model to predict wildfire spread using remote sensin...
+
+---
+
+## 294. TimeCapsule: Solving the Jigsaw Puzzle of Long-Term Time Series Forecasting with Compressed Predictive Representations
+
+**Authors:** Yihang Lu, Yangyang Xu, Q. Qin, Xianwei Meng
+
+**Year:** 2025 | **Venue:**  | **Citations:** 1 | **Score:** 0.000
+
+[PDF](https://dl.acm.org/doi/pdf/10.1145/3711896.3737157) | [DOI](https://doi.org/10.1145/3711896.3737157)
+
+> ...
+
+---
+
+## 295. Graph Positional Autoencoders as Self-supervised Learners
+
+**Authors:** Yang Liu, Deyu Bo, Wenxuan Cao, Yuan Fang, Yawen Li
+
+**Year:** 2025 | **Venue:**  | **Citations:** 1 | **Score:** 0.000
+
+[PDF](https://dl.acm.org/doi/pdf/10.1145/3711896.3736990) | [DOI](https://doi.org/10.1145/3711896.3736990)
+
+> ...
+
+---
+
+## 296. Revolutionizing Database Q&amp;A with Large Language Models: Comprehensive Benchmark and Evaluation
+
+**Authors:** Yihang Zheng, Bo Li, Zhenghao Lin, Yi Luo, Xuanhe Zhou
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://dl.acm.org/doi/pdf/10.1145/3711896.3737405) | [DOI](https://doi.org/10.1145/3711896.3737405)
+
+> ...
+
+---
+
+## 297. A Diffusion-Based Method for Learning the Multi-Outcome Distribution of Medical Treatments
+
+**Authors:** Yuchen Ma, Jonas Schweisthal, Hengrui Zhang, Stefan Feuerriegel
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://dl.acm.org/doi/pdf/10.1145/3711896.3736819) | [DOI](https://doi.org/10.1145/3711896.3736819)
+
+> ...
+
+---
+
+## 298. MedDiTPro: A Prompt-Guided Diffusion Transformer for Multimodal Longitudinal Medical Data Synthesis
+
+**Authors:** Yuan Zhong, Xiaochen Wang, Jiaqi Wang, Xiaokun Zhang, Fenglong Ma
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://dl.acm.org/doi/pdf/10.1145/3711896.3737045) | [DOI](https://doi.org/10.1145/3711896.3737045)
+
+> ...
+
+---
+
+## 299. UoMo: A Universal Model of Mobile Traffic Forecasting for Wireless Network Optimization
+
+**Authors:** Haoye Chai, Shiyuan Zhang, Xin-Kun Qi, Baohua Qiu, Yong Li
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://dl.acm.org/doi/pdf/10.1145/3711896.3737272) | [DOI](https://doi.org/10.1145/3711896.3737272)
+
+> ...
+
+---
+
+## 300. Decoupling Spatio-Temporal Prediction: When Lightweight Large Models Meet Adaptive Hypergraphs
+
+**Authors:** Jiawen Chen, Qi Shao, Duxin Chen, Wenwu Yu
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2505.19620) | [DOI](https://doi.org/10.1145/3711896.3736904)
+
+> Spatio-temporal prediction is a pivotal task with broad applications in traffic management, climate monitoring, energy scheduling, etc. However, existing methodologies often struggle to balance model expressiveness and computational efficiency, especially when scaling to large real-world datasets. To tackle these challenges, we propose STH-SepNet (Spatio-Temporal Hypergraph Separation Networks), a...
+
+---
+
+## 301. Literature Review on Attention Based Image Enhancement Techniques
+
+**Authors:** Mingyang Liu
+
+**Year:** 2025 | **Venue:** Applied and Computational Engineering | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.ewadirect.com/proceedings/ace/article/view/25557/pdf) | [DOI](https://doi.org/10.54254/2755-2721/2025.po25557)
+
+> This paper reviews advances in attention-based image enhancement techniques in the field of character motion synthesis and enhancement. With the development of deep learning, attention mechanisms have the potential to mimic the ability of the visual system to attend to important information. In this area, it is used to deal with noise, occlusion, and other problems in motion capture data. Spatial ...
+
+---
+
+## 302. Artificial Intelligence in Speech Emotion Detection: Trends, Challenges, and Future Directions
+
+**Authors:** Noor Alwan Malk, Sinan Adnan Diwan
+
+**Year:** 2025 | **Venue:** International Journal of Ethical AI Application | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://ijeaa.cultechpub.com/index.php/ijeaa/article/download/24/14) | [DOI](https://doi.org/10.64229/x1jp0z91)
+
+> Speech Emotion Detection (SED) has become a pivotal component in the development of emotionally aware artificial intelligence systems. This paper presents a comprehensive review of recent advancements in the field, focusing on signal processing techniques, machine learning and deep learning approaches, real-time implementation, and multimodal integration. The study highlights the critical role of ...
+
+---
+
+## 303. A Perspective on Quality Evaluation for AI-Generated Videos
+
+**Authors:** Zhichao Zhang, Wei Sun, Guangtao Zhai
+
+**Year:** 2025 | **Venue:** Sensors | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.mdpi.com/1424-8220/25/15/4668/pdf?version=1753712753) | [DOI](https://doi.org/10.3390/s25154668)
+
+> Recent breakthroughs in AI-generated content (AIGC) have transformed video creation, empowering systems to translate text, images, or audio into visually compelling stories. Yet reliable evaluation of these machine-crafted videos remains elusive because quality is governed not only by spatial fidelity within individual frames but also by temporal coherence across frames and precise semantic alignm...
+
+---
+
+## 304. Synthetic Data in Investment Management
+
+**Authors:** Jim Tait
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/tait_syntheticdataininvestmentmanagement_online.pdf) | [DOI](https://doi.org/10.56227/25.1.24)
+
+> ...
+
+---
+
+## 305. WITHDRAWN
+
+**Authors:** Samuel L Leizerman
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://osf.io/bms6a_v2/download) | [DOI](https://doi.org/10.31234/osf.io/bms6a_v2)
+
+> ...
+
+---
+
+## 306. Quantitative evaluation of methods to analyze motion changes in single-particle experiments
+
+**Authors:** Gorka Muñoz-Gil, Harshith Bachimanchi, Jesús Pineda, Benjamin Midtvedt, Gabriel Fernández-Fernández
+
+**Year:** 2025 | **Venue:** Nature Communications | **Citations:** 14 | **Score:** 0.000
+
+[PDF](https://www.nature.com/articles/s41467-025-61949-x.pdf) | [DOI](https://doi.org/10.1038/s41467-025-61949-x)
+
+> Abstract The analysis of live-cell single-molecule imaging experiments can reveal valuable information about the heterogeneity of transport processes and interactions between cell components. These characteristics are seen as motion changes in the particle trajectories. Despite the existence of multiple approaches to carry out this type of analysis, no objective assessment of these methods has bee...
+
+---
+
+## 307. Large Language Model in Materials Science: Roles, Challenges, and Strategic Outlook
+
+**Authors:** Jinglan Zhang, Xinyi Chen, Ye Xu, Yulin Yang, Bin Ai
+
+**Year:** 2025 | **Venue:** Advanced Intelligent Discovery | **Citations:** 1 | **Score:** 0.000
+
+[PDF](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aidi.202500085) | [DOI](https://doi.org/10.1002/aidi.202500085)
+
+> Large language models (LLMs) are creating a new paradigm for materials science by transforming textual insights into experimental findings. Leveraging their strengths in natural language understanding, multimodal alignment, and few‐shot reasoning, LLMs already show potential in property prediction, synthesis planning, and uncertainty quantification. This perspective highlights four key roles, Orac...
+
+---
+
+## 308. Foundation Models for Robotic Tasks: Survey, Challenges and Future Directions
+
+**Authors:** Muhammad Alam, M. A. Viraj J. Muthugala, Mohan Rajesh Elara
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175321822.20121795/v1) | [DOI](https://doi.org/10.36227/techrxiv.175321822.20121795/v1)
+
+> ...
+
+---
+
+## 309. A state-of-the-art review of diffusion model applications for microscopic image and micro-alike image analysis
+
+**Authors:** Liuming Yan, Tao Jiang, Rui Li, Lingling Yuan, Marcin Grzegorzek
+
+**Year:** 2025 | **Venue:** Frontiers in Medicine | **Citations:** 1 | **Score:** 0.000
+
+[PDF](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1551894/pdf) | [DOI](https://doi.org/10.3389/fmed.2025.1551894)
+
+> Diffusion models, a class of deep learning models based on probabilistic generative processes, progressively transform data into noise and then reconstruct the original data through an inverse process. Recently, diffusion models have gained attention in microscopic image analysis for their ability to process complex data, extract valuable information, and enhance image quality. This review provide...
+
+---
+
+## 310. Data-driven Crack Detection in the Realm of Structural Health Monitoring: An Overview
+
+**Authors:** Hassan Dabaja, Hassan Noura, Mustapha Ouladsine
+
+**Year:** 2025 | **Venue:** HAL (Le Centre pour la Communication Scientifique Directe) | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://hal.science/hal-05065734/document) | > International audience...
+
+---
+
+## 311. ProtChatGPT: Towards Understanding Proteins with Hybrid Representation and Large Language Models
+
+**Authors:** Chao Wang, Hehe Fan, Ruijie Quan, Lina Yao, Yi Yang
+
+**Year:** 2025 | **Venue:**  | **Citations:** 1 | **Score:** 0.000
+
+[PDF](https://dl.acm.org/doi/pdf/10.1145/3726302.3730064) | [DOI](https://doi.org/10.1145/3726302.3730064)
+
+> ...
+
+---
+
+## 312. Advances in Image Inpainting: Global Context Modeling via Transformers and Diffusion Models
+
+**Authors:** Jiaoyang Li
+
+**Year:** 2025 | **Venue:** Transactions on Computer Science and Intelligent Systems Research | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://wepub.org/index.php/TCSISR/article/download/5458/5991) | [DOI](https://doi.org/10.62051/anzvbz05)
+
+> Image inpainting, a critical task in computer vision, has significantly benefited from the rapid development of deep learning techniques, particularly Transformers and Diffusion Models. Traditional methods relying on texture matching and PDE-based diffusion strategies demonstrate limited effectiveness in complex or extensive damaged regions. Recent advancements employing Transformer architectures ...
+
+---
+
+## 313. Digital Oceans: Artificial Intelligence, IoT, and Sensor Technologies for Marine Monitoring and Climate Resilience
+
+**Authors:** Mohanraju Muppala
+
+**Year:** 2025 | **Venue:**  | **Citations:** 3 | **Score:** 0.000
+
+[PDF](https://deepscienceresearch.com/dsr/catalog/download/207/1165/2394) | [DOI](https://doi.org/10.70593/978-93-7185-787-1)
+
+> Oceans cover over 70% of our planet's surface and play a pivotal role in regulating climate, supporting biodiversity, and enabling global commerce. Yet, despite their significance, our understanding and monitoring of oceanic systems remain limited—largely due to the vastness, variability, and inaccessibility of marine environments. In recent years, the convergence of Artificial Intelligence (AI), ...
+
+---
+
+## 314. Data Augmentation for Time-Series Classification: An Extensive Empirical Study and Comprehensive Survey
+
+**Authors:** Zijun Gao, Han Liu, Lingbo Li
+
+**Year:** 2025 | **Venue:** Journal of Artificial Intelligence Research | **Citations:** 4 | **Score:** 0.000
+
+[PDF](https://www.jair.org/index.php/jair/article/download/17084/27185) | [DOI](https://doi.org/10.1613/jair.1.17084)
+
+> Background: Data Augmentation (DA) has become a critical approach in Time Series Classification (TSC), primarily for its capacity to expand training datasets, enhance model robustness, introduce diversity, and reduce overfitting. However, the current landscape of DA in TSC is plagued with fragmented literature reviews, nebulous methodological taxonomies, inadequate evaluative measures, and a deart...
+
+---
+
+## 315. Certifiable Transformer-Based Sensor Fusion Architecture for Urban Air Mobility
+
+**Authors:** Yash Shah
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175086170.04103935/v1) | [DOI](https://doi.org/10.36227/techrxiv.175086170.04103935/v1)
+
+> ...
+
+---
+
+## 316. A Simplified Smart Grid Simulation of Renewable Energy Integration and Battery Storage for Demand Response Optimization
+
+**Authors:** Krishnam Raju Narsepalle, Ogomaka Chrysogonus C., Mfonobong Eleazar Benson, Anyalewechi Chika J.
+
+**Year:** 2025 | **Venue:** International Journal of Computer Applications | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://doi.org/10.5120/ijca2025925323) | [DOI](https://doi.org/10.5120/ijca2025925323)
+
+> ...
+
+---
+
+## 317. AiF: Accelerating On-Device LLM Inference Using In-Flash Processing
+
+**Authors:** Jaeyong Lee, H.‐J. KIM, Sanghun Oh, Myoungjun Chun, Myungsuk Kim
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://dl.acm.org/doi/pdf/10.1145/3695053.3731073) | [DOI](https://doi.org/10.1145/3695053.3731073)
+
+> ...
+
+---
+
+## 318. An LLM-Based QA System for Chinese Painting and Calligraphy with Knowledge Graphs and External Documents
+
+**Authors:** Jing Wan, Xinrong Li, Hao Zhang, Ao Zou, R. Wang
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.researchsquare.com/article/rs-6824315/latest.pdf) | [DOI](https://doi.org/10.21203/rs.3.rs-6824315/v1)
+
+> <title>Abstract</title> Chinese Painting and Calligraphy (ChP&amp;C), key elements of Chinese cultural heritage, hold rich historical and artistic value. Although Large Language Models (LLMs) excel in open-domain question answering (QA), they often suffer from hallucinations in domain-specific contexts. To address this, we propose a ChP&amp;C QA method integrating LLMs with a retrieval-augmented a...
+
+---
+
+## 319. M2BeamLLM: Multimodal Sensing-empowered mmWave Beam Prediction with Large Language Models
+
+**Authors:** Can Zheng, Jiguang He, Chung G. Kang, Guofa Cai, Zitong Yu
+
+**Year:** 2025 | **Venue:** arXiv (Cornell University) | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2506.14532) | [DOI](https://doi.org/10.48550/arxiv.2506.14532)
+
+> This paper introduces a novel neural network framework called M2BeamLLM for beam prediction in millimeter-wave (mmWave) massive multi-input multi-output (mMIMO) communication systems. M2BeamLLM integrates multi-modal sensor data, including images, radar, LiDAR, and GPS, leveraging the powerful reasoning capabilities of large language models (LLMs) such as GPT-2 for beam prediction. By combining se...
+
+---
+
+## 320. CDP: Towards Robust Autoregressive Visuomotor Policy Learning via Causal Diffusion
+
+**Authors:** Jiahua Ma, Yiran Qin, Xiaoping Yi, Xilong Liao, Yulan Guo
+
+**Year:** 2025 | **Venue:** arXiv (Cornell University) | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2506.14769) | [DOI](https://doi.org/10.48550/arxiv.2506.14769)
+
+> Diffusion Policy (DP) enables robots to learn complex behaviors by imitating expert demonstrations through action diffusion. However, in practical applications, hardware limitations often degrade data quality, while real-time constraints restrict model inference to instantaneous state and scene observations. These limitations seriously reduce the efficacy of learning from expert demonstrations, re...
+
+---
+
+## 321. Interference Mitigation in Automotive Radar Systems: A Current State Survey And Future Trends
+
+**Authors:** Tai Fei, Andreas Becker, Markus Gardill
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.174970366.61165534/v1) | [DOI](https://doi.org/10.36227/techrxiv.174970366.61165534/v1)
+
+> ...
+
+---
+
+## 322. ENHANCING THE ROBUSTNESS AND GENERALIZABILITY OF COMPUTER VISION SYSTEMS USING EXPLAINABLE GENERATIVE MODELS (EGMS) FOR OUT-OF-DISTRIBUTION (OOD) DETECTION AND ADAPTIVE LEARNING
+
+**Authors:** A. Mohammed
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://doi.org/10.34218/ijaird_03_01_012) | [DOI](https://doi.org/10.34218/ijaird_03_01_012)
+
+> ...
+
+---
+
+## 323. Kernel-based Unsupervised Embedding Alignment for Enhanced Visual Representation in Vision-language Models
+
+**Authors:** Shizhan Gong, Yankai Jiang, Qi Dou, Farzan Farnia
+
+**Year:** 2025 | **Venue:** arXiv (Cornell University) | **Citations:** N/A | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2506.02557) | [DOI](https://doi.org/10.48550/arxiv.2506.02557)
+
+> Vision-language models, such as CLIP, have achieved significant success in aligning visual and textual representations, becoming essential components of many multi-modal large language models (MLLMs) like LLaVA and OpenFlamingo. However, numerous studies have identified CLIP's limited fine-grained perception as a critical drawback, leading to substantial failures in downstream MLLMs. In contrast, ...
+
+---
+
+## 324. Renderworld: World Model with Self-Supervised 3D Label
+
+**Authors:** Ziyang Yan, Wenzhen Dong, Yihua Shao, Yuhang Lu, Haiyang Liu
+
+**Year:** 2024 | **Venue:** IEEE International Conference on Robotics and Automation | **Citations:** 39 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1109/ICRA55743.2025.11127609)
+
+> End-to-end autonomous driving with vision-only is not only more cost-effective compared to LiDAR-vision fusion but also more reliable than traditional methods. To achieve a economical and robust purely visual autonomous driving system, we propose RenderWorld, a vision-only end-to-end autonomous driving framework, which generates 3D occupancy labels using a self-supervised gaussian-based Img2Occ Mo...
+
+---
+
+## 325. Aerial World Model for Long-horizon Visual Generation and Navigation in 3D Space
+
+**Authors:** Weichen Zhang, Peizhi Tang, Xin Zeng, Fanhang Man, Shiquan Yu
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+> Unmanned aerial vehicles (UAVs) have emerged as powerful embodied agents. One of the core abilities is autonomous navigation in large-scale three-dimensional environments. Existing navigation policies, however, are typically optimized for low-level objectives such as obstacle avoidance and trajectory smoothness, lacking the ability to incorporate high-level semantics into planning. To bridge this ...
+
+---
+
+## 326. Adapting a World Model for Trajectory Following in a 3D Game
+
+**Authors:** Marko Tot, Shu Ishida, Abdelhak Lemkhenter, David Bignell, Pallavi Choudhury
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 4 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2504.12299)
+
+> Imitation learning is a powerful tool for training agents by leveraging expert knowledge, and being able to replicate a given trajectory is an integral part of it. In complex environments, like modern 3D video games, distribution shift and stochasticity necessitate robust approaches beyond simple action replay. In this study, we apply Inverse Dynamics Models (IDM) with different encoders and polic...
+
+---
+
+## 327. SimuRA: A World-Model-Driven Simulative Reasoning Architecture for General Goal-Oriented Agents
+
+**Authors:** Mingkai Deng, Jinyu Hou, Zhiting Hu, Eric P. Xing
+
+**Year:** 2025 | **Venue:**  | **Citations:** 3 | **Score:** 0.000
+
+> AI agents built on foundation models hold enormous promise. Current practice, however, focuses on a one-task-one-agent approach, which not only falls short of scalability and generality, but also faces practical limitations from black-box autoregressive reasoning, where decisions unfold token by token without explicit simulation or counterfactual evaluation of outcomes. Humans, on the other hand, ...
+
+---
+
+## 328. OccLLaMA: An Occupancy-Language-Action Generative World Model for Autonomous Driving
+
+**Authors:** Julong Wei, Shanshuai Yuan, Pengfei Li, Qingda Hu, Zhongxue Gan
+
+**Year:** 2024 | **Venue:** arXiv.org | **Citations:** 58 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2409.03272)
+
+> The rise of multi-modal large language models(MLLMs) has spurred their applications in autonomous driving. Recent MLLM-based methods perform action by learning a direct mapping from perception to action, neglecting the dynamics of the world and the relations between action and world dynamics. In contrast, human beings possess world model that enables them to simulate the future states based on 3D ...
+
+---
+
+## 329. Occupancy World Model for Robots
+
+**Authors:** Zhang Zhang, Qiang Zhang, Wei Cui, Shuai Shi, Yijie Guo
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 3 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2505.05512)
+
+> Understanding and forecasting the scene evolutions deeply affect the exploration and decision of embodied agents. While traditional methods simulate scene evolutions through trajectory prediction of potential instances, current works use the occupancy world model as a generative framework for describing fine-grained overall scene dynamics. However, existing methods cluster on the outdoor structure...
+
+---
+
+## 330. PAN: A World Model for General, Interactable, and Long-Horizon World Simulation
+
+**Authors:** Pan Team Institute of Foundation Models Jiannan Xiang, Yi Gu, Zihan Liu, Zeyu Feng, Qiyue Gao
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 3 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2511.09057)
+
+> A world model enables an intelligent agent to imagine, predict, and reason about how the world evolves in response to its actions, and accordingly to plan and strategize. While recent video generation models produce realistic visual sequences, they typically operate in the prompt-to-full-video manner without causal control, interactivity, or long-horizon consistency required for purposeful reasoni...
+
+---
+
+## 331. iMoWM: Taming Interactive Multi-Modal World Model for Robotic Manipulation
+
+**Authors:** Chuanrui Zhang, Zhengxian Wu, Guanxing Lu, Yansong Tang, Ziwei Wang
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2510.09036)
+
+> Learned world models hold significant potential for robotic manipulation, as they can serve as simulator for real-world interactions. While extensive progress has been made in 2D video-based world models, these approaches often lack geometric and spatial reasoning, which is essential for capturing the physical structure of the 3D world. To address this limitation, we introduce iMoWM, a novel inter...
+
+---
+
+## 332. RELIC: Interactive Video World Model with Long-Horizon Memory
+
+**Authors:** Yicong Hong, Yiqun Mei, Chongjian Ge, Yiran Xu, Yang Zhou
+
+**Year:** 2025 | **Venue:**  | **Citations:** 2 | **Score:** 0.000
+
+> A truly interactive world model requires three key ingredients: real-time long-horizon streaming, consistent spatial memory, and precise user control. However, most existing approaches address only one of these aspects in isolation, as achieving all three simultaneously is highly challenging-for example, long-term memory mechanisms often degrade real-time performance. In this work, we present RELI...
+
+---
+
+## 333. ODesign: A World Model for Biomolecular Interaction Design
+
+**Authors:** Odin Zhang, Xujun Zhang, Haitao Lin, Cheng Tan, Qinghan Wang
+
+**Year:** 2025 | **Venue:**  | **Citations:** 2 | **Score:** 0.000
+
+> Biomolecular interactions underpin almost all biological processes, and their rational design is central to programming new biological functions. Generative AI models have emerged as powerful tools for molecular design, yet most remain specialized for individual molecular types and lack fine-grained control over interaction details. Here we present ODesign, an all-atom generative world model for a...
+
+---
+
+## 334. Unified Cross-Scale 3D Generation and Understanding via Autoregressive Modeling
+
+**Authors:** Shuqi Lu, Haowei Lin, Lin Yao, Zhifeng Gao, Xiaohong Ji
+
+**Year:** 2025 | **Venue:**  | **Citations:** 1 | **Score:** 0.000
+
+> 3D structure modeling is essential across scales, enabling applications from fluid simulation and 3D reconstruction to protein folding and molecular docking. Yet, despite shared 3D spatial patterns, current approaches remain fragmented, with models narrowly specialized for specific domains and unable to generalize across tasks or scales. We propose Uni-3DAR, a unified autoregressive framework for ...
+
+---
+
+## 335. CausNVS: Autoregressive Multi-view Diffusion for Flexible 3D Novel View Synthesis
+
+**Authors:** Xin Kong, Daniel Watson, Yannick Strümpler, Michael Niemeyer, Federico Tombari
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 2 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2509.06579)
+
+> Multi-view diffusion models have shown promise in 3D novel view synthesis, but most existing methods adopt a non-autoregressive formulation. This limits their applicability in world modeling, as they only support a fixed number of views and suffer from slow inference due to denoising all frames simultaneously. To address these limitations, we propose CausNVS, a multi-view diffusion model in an aut...
+
+---
+
+## 336. Deep 3D World Models for Multi-Image Super-Resolution Beyond Optical Flow
+
+**Authors:** L. S. Aira, D. Valsesia, Andrea Bordone Molini, Giulia Fracastoro, E. Magli
+
+**Year:** 2024 | **Venue:** IEEE Access | **Citations:** 1 | **Score:** 0.000
+
+[PDF](https://doi.org/10.1109/access.2024.3514188) | [DOI](https://doi.org/10.1109/ACCESS.2024.3514188)
+
+> Multi-image super-resolution (MISR) allows to increase the spatial resolution of a low-resolution (LR) acquisition by combining multiple images carrying complementary information in the form of sub-pixel offsets in the scene sampling, and can be significantly more effective than its single-image counterpart. Its main difficulty lies in accurately registering and fusing the multi-image information....
+
+---
+
+## 337. AAIG at GenAI Detection Task 1: Exploring Syntactically-Aware, Resource-Efficient Small Autoregressive Decoders for AI Content Detection
+
+**Authors:** AV Bhandarkar, Ronald Wilson, Damon L. Woodard
+
+**Year:** 2025 | **Venue:** COLING Workshops | **Citations:** N/A | **Score:** 0.000
+
+> ...
+
+---
+
+## 338. Tora3D: an autoregressive torsion angle prediction model for molecular 3D conformation generation
+
+**Authors:** Zimei Zhang, G. Wang, Rui Li, Lin Ni, Runze Zhang
+
+**Year:** 2023 | **Venue:** Journal of Cheminformatics | **Citations:** 5 | **Score:** 0.000
+
+[PDF](https://jcheminf.biomedcentral.com/counter/pdf/10.1186/s13321-023-00726-8) | [DOI](https://doi.org/10.1186/s13321-023-00726-8)
+
+> Three-dimensional (3D) conformations of a small molecule profoundly affect its binding to the target of interest, the resulting biological effects, and its disposition in living organisms, but it is challenging to accurately characterize the conformational ensemble experimentally. Here, we proposed an autoregressive torsion angle prediction model Tora3D for molecular 3D conformer generation. Rathe...
+
+---
+
+## 339. Pandora: Towards General World Model with Natural Language Actions and Video States
+
+**Authors:** Jiannan Xiang, Guangyi Liu, Yi Gu, Qiyue Gao, Yuting Ning
+
+**Year:** 2024 | **Venue:** arXiv.org | **Citations:** 65 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2406.09455)
+
+> World models simulate future states of the world in response to different actions. They facilitate interactive content creation and provides a foundation for grounded, long-horizon reasoning. Current foundation models do not fully meet the capabilities of general world models: large language models (LLMs) are constrained by their reliance on language modality and their limited understanding of the...
+
+---
+
+## 340. MAPF-World: Action World Model for Multi-Agent Path Finding
+
+**Authors:** Zhanjiang Yang, Meng Li, Yang Shen, Yueming Li, Lijun Sun
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 1 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2508.12087)
+
+> Multi-agent path finding (MAPF) is the problem of planning conflict-free paths from the designated start locations to goal positions for multiple agents. It underlies a variety of real-world tasks, including multi-robot coordination, robot-assisted logistics, and social navigation. Recent decentralized learnable solvers have shown great promise for large-scale MAPF, especially when leveraging foun...
+
+---
+
+## 341. LLM2CLIP: Powerful Language Model Unlocks Richer Visual Representation
+
+**Authors:** Weiquan Huang, Aoqi Wu, Yifan Yang, Xufang Luo, Yuqing Yang
+
+**Year:** 2024 | **Venue:** arXiv.org | **Citations:** 28 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2411.04997)
+
+> CLIP is a foundational multimodal model that aligns image and text features into a shared representation space via contrastive learning on large-scale image-text pairs. Its effectiveness primarily stems from the use of natural language as rich supervision. Motivated by the remarkable advancements in large language models (LLMs), this work explores how LLMs' superior text understanding and extensiv...
+
+---
+
+## 342. Locate 3D: Real-World Object Localization via Self-Supervised Learning in 3D
+
+**Authors:** Sergio Arnaud, Paul Mcvay, Ada Martin, Arjun Majumdar, Krishna Murthy Jatavallabhula
+
+**Year:** 2025 | **Venue:** International Conference on Machine Learning | **Citations:** 15 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2504.14151)
+
+> We present LOCATE 3D, a model for localizing objects in 3D scenes from referring expressions like"the small coffee table between the sofa and the lamp."LOCATE 3D sets a new state-of-the-art on standard referential grounding benchmarks and showcases robust generalization capabilities. Notably, LOCATE 3D operates directly on sensor observation streams (posed RGB-D frames), enabling real-world deploy...
+
+---
+
+## 343. Lotus-2: Advancing Geometric Dense Prediction with Powerful Image Generative Model
+
+**Authors:** Jing He, Haodong Li, Ming Sheng, Ying-Cong Chen
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+> Recovering pixel-wise geometric properties from a single image is fundamentally ill-posed due to appearance ambiguity and non-injective mappings between 2D observations and 3D structures. While discriminative regression models achieve strong performance through large-scale supervision, their success is bounded by the scale, quality and diversity of available data and limited physical reasoning. Re...
+
+---
+
+## 344. Scalable Autoregressive 3D Molecule Generation
+
+**Authors:** Austin H. Cheng, Chong Sun, Alán Aspuru-Guzik
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 2 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2505.13791)
+
+> Generative models of 3D molecular structure play a rapidly growing role in the design and simulation of molecules. Diffusion models currently dominate the space of 3D molecule generation, while autoregressive models have trailed behind. In this work, we present Quetzal, a simple but scalable autoregressive model that builds molecules atom-by-atom in 3D. Treating each molecule as an ordered sequenc...
+
+---
+
+## 345. MetaScenes: Towards Automated Replica Creation for Real-world 3D Scans
+
+**Authors:** Huangyue Yu, Baoxiong Jia, Yixin Chen, Yandan Yang, Puhao Li
+
+**Year:** 2025 | **Venue:** Computer Vision and Pattern Recognition | **Citations:** 11 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1109/CVPR52734.2025.00163)
+
+> Embodied AI (EAI) research requires high-quality, diverse 3D scenes to effectively support skill acquisition, sim-to-real transfer, and generalization. Achieving these quality standards, however, necessitates the precise replication of real-world object diversity. Existing datasets demon strate that this process heavily relies on artist-driven designs, which demand substantial human effort and pre...
+
+---
+
+## 346. URDF-Anything: Constructing Articulated Objects with 3D Multimodal Language Model
+
+**Authors:** Zhe Li, Xiang Bai, Jieyu Zhang, Zhuangzhe Wu, Che Xu
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 3 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2511.00940)
+
+> Constructing accurate digital twins of articulated objects is essential for robotic simulation training and embodied AI world model building, yet historically requires painstaking manual modeling or multi-stage pipelines. In this work, we propose \textbf{URDF-Anything}, an end-to-end automatic reconstruction framework based on a 3D multimodal large language model (MLLM). URDF-Anything utilizes an ...
+
+---
+
+## 347. TraceGen: World Modeling in 3D Trace Space Enables Learning from Cross-Embodiment Videos
+
+**Authors:** Seungjae Lee, Yoonkyo Jung, Inkook Chun, Yao-Chih Lee, Zikui Cai
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+> Learning new robot tasks on new platforms and in new scenes from only a handful of demonstrations remains challenging. While videos of other embodiments - humans and different robots - are abundant, differences in embodiment, camera, and environment hinder their direct use. We address the small-data problem by introducing a unifying, symbolic representation - a compact 3D"trace-space"of scene-leve...
+
+---
+
+## 348. 3D Path-Following Guidance via Nonlinear Model Predictive Control for Fixed-Wing Small UAS
+
+**Authors:** C. A. Hirst, Chris Reale, Eric Frew
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+> This paper presents the design, implementation, and flight test results of two novel 3D path-following guidance algorithms based on nonlinear model predictive control (MPC), with specific application to fixed-wing small uncrewed aircraft systems. To enable MPC, control-augmented modelling and system identification of the RAAVEN small uncrewed aircraft is presented. Two formulations of MPC are then...
+
+---
+
+## 349. Open-CRB: Toward Open World Active Learning for 3D Object Detection
+
+**Authors:** Zhuoxiao Chen, Yandan Luo, Zixin Wang, Zijian Wang, Z. Huang
+
+**Year:** 2025 | **Venue:** IEEE Transactions on Pattern Analysis and Machine Intelligence | **Citations:** 1 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1109/TPAMI.2025.3575756)
+
+> LiDAR-based 3D object detection has recently seen significant advancements through active learning (AL), attaining satisfactory performance by training on a small fraction of strategically selected point clouds. However, in real-world deployments where streaming point clouds may include unknown or novel objects, the ability of current AL methods to capture such objects remains unexplored. This pap...
+
+---
+
+## 350. Occlusion-Aware Text-Image-Point Cloud Pretraining for Open-World 3D Object Recognition
+
+**Authors:** Khanh Nguyen, G. Hassan, Ajmal S. Mian
+
+**Year:** 2025 | **Venue:** Computer Vision and Pattern Recognition | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.1109/CVPR52734.2025.01581)
+
+> Recent open-world representation learning approaches have leveraged CLIP to enable zero-shot 3D object recognition. However, performance on real point clouds with occlusions still falls short due to unrealistic pretraining settings. Additionally, these methods incur high inference costs because they rely on Transformer’s attention modules. In this paper, we make two contributions to address these ...
+
+---
+
+## 351. The effective enhancement of information in 3D small-world networks of biological neuronal cells
+
+**Authors:** F. Gentile
+
+**Year:** 2023 | **Venue:** Biomedical engineering and physics express | **Citations:** 1 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1088/2057-1976/ad00c0)
+
+> The cardiovascular system, the kidney, or the brain, are examples of complex systems - where the properties of the systems arise because of the layout of cells in those systems. One way to characterize systems is using networks, where elements and interactions of the systems are represented as nodes and links of a graph. Network’s topology can be, in turn, measured by the small-world coefficient. ...
+
+---
+
+## 352. 3D Spatial Spectrum Prediction for Uav Networks Based on a Multi-Scale Temporal Model
+
+**Authors:** Sike Cheng, Xuanheng Li, Xiangbo Lin, Haichuan Ding, Yi Sun
+
+**Year:** 2025 | **Venue:** IEEE Wireless Communications and Networking Conference | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.1109/WCNC61545.2025.10978630)
+
+> An efficient 3D spatial spectrum prediction method is essential for UAV networks operating in highly heterogeneous spectrum environments, enabling UAVs to proactively navigate toward areas with abundant available spectrum and make decisions to access to idle ones in advance. This paper introduces a novel Multi-Scale Temporal model for 3D spatial spectrum prediction (MST-3DSSP) that comprehensively...
+
+---
+
+## 353. LRM: Large Reconstruction Model for Single Image to 3D
+
+**Authors:** Yicong Hong, Kai Zhang, Jiuxiang Gu, Sai Bi, Yang Zhou
+
+**Year:** 2023 | **Venue:** International Conference on Learning Representations | **Citations:** 674 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2311.04400)
+
+> We propose the first Large Reconstruction Model (LRM) that predicts the 3D model of an object from a single input image within just 5 seconds. In contrast to many previous methods that are trained on small-scale datasets such as ShapeNet in a category-specific fashion, LRM adopts a highly scalable transformer-based architecture with 500 million learnable parameters to directly predict a neural rad...
+
+---
+
+## 354. Monetary Policy Spillovers from the U.S. and China to Vietnam: A Bayesian Vector Autoregressive Model
+
+**Authors:** Phung Thanh Loan, Nguyen Thuy Linh, Nguyen Hoang Lan, Tran Thi Bich Ngoc, Le Thi Ngoc Diep
+
+**Year:** 2025 | **Venue:** Economics | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.2478/eoik-2025-0103)
+
+> Abstract This study examines the asymmetric spillover effects of monetary policy tightening in the United States and China on a small, dual-exposed emerging Vietnam economy. It investigates how changes in the Federal Reserve’s federal funds rate and the People’s Bank of China’s benchmark lending rate transmit through financial and trade channels to shape Vietnam’s macroeconomic outcomes. Using a B...
+
+---
+
+## 355. HoloDreamer: Holistic 3D Panoramic World Generation from Text Descriptions
+
+**Authors:** Haiyang Zhou, Xinhua Cheng, Wangbo Yu, Yonghong Tian, Li Yuan
+
+**Year:** 2024 | **Venue:** arXiv.org | **Citations:** 19 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2407.15187)
+
+> 3D scene generation is in high demand across various domains, including virtual reality, gaming, and the film industry. Owing to the powerful generative capabilities of text-to-image diffusion models that provide reliable priors, the creation of 3D scenes using only text prompts has become viable, thereby significantly advancing researches in text-driven 3D scene generation. In order to obtain mul...
+
+---
+
+## 356. GenDistiller: Distilling Pre-trained Language Models based on an Autoregressive Generative Model
+
+**Authors:** Yingying Gao, Shilei Zhang, Chao Deng, Junlan Feng
+
+**Year:** 2024 | **Venue:** Interspeech | **Citations:** 1 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2406.09444)
+
+> Pre-trained speech language models such as HuBERT and WavLM leverage unlabeled speech data for self-supervised learning and offer powerful representations for numerous downstream tasks. Despite the success of these models, their high requirements for memory and computing resource hinder their application on resource restricted devices. Therefore, this paper introduces GenDistiller, a novel knowled...
+
+---
+
+## 357. Robin3D: Improving 3D Large Language Model via Robust Instruction Tuning
+
+**Authors:** Weitai Kang, Haifeng Huang, Yuzhang Shang, Mubarak Shah, Yan Yan
+
+**Year:** 2024 | **Venue:** arXiv.org | **Citations:** 19 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2410.00255)
+
+> Recent advancements in 3D Large Language Models (3DLLMs) have highlighted their potential in building general-purpose agents in the 3D real world, yet challenges remain due to the lack of high-quality robust instruction-following data, leading to limited discriminative power and generalization of 3DLLMs. In this paper, we introduce Robin3D, a powerful 3DLLM trained on large-scale instruction-follo...
+
+---
+
+## 358. Abstract 4007: Building 3D ex vivo models as a powerful platform for anti-cancer drug and biomarker discovery
+
+**Authors:** Fu-Ju Chou, Annamaria Rapisarda, Mara Gilardi, Stefano Cairo, BanuPriya Sridharan
+
+**Year:** 2025 | **Venue:** Cancer Research | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.1158/1538-7445.am2025-4007)
+
+> 
+ Patient-derived models have increasingly been adopted into target validation, lead-optimization and secondary screening campaigns to move translation ahead in drug discovery. While 2-dimentional cell line in vitro models continue to play a pivotal role in early screening studies, new advanced in 3D patient derived organoids (PDO) and patient derived xenograft organoids (PDX-O) technology have ma...
+
+---
+
+## 359. AutoPartGen: Autogressive 3D Part Generation and Discovery
+
+**Authors:** Minghao Chen, Jianyuan Wang, Roman Shapovalov, Tom Monnier, Hyunyoung Jung
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 14 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2507.13346)
+
+> We introduce AutoPartGen, a model that generates objects composed of 3D parts in an autoregressive manner. This model can take as input an image of an object, 2D masks of the object's parts, or an existing 3D object, and generate a corresponding compositional 3D reconstruction. Our approach builds upon 3DShape2VecSet, a recent latent 3D representation with powerful geometric expressiveness. We obs...
+
+---
+
+## 360. Text-guided Diffusion Model for 3D Molecule Generation
+
+**Authors:** Yanchen Luo, Junfeng Fang, Sihang Li, Zhiyuan Liu, Jiancan Wu
+
+**Year:** 2024 | **Venue:** arXiv.org | **Citations:** 10 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2410.03803)
+
+> The de novo generation of molecules with targeted properties is crucial in biology, chemistry, and drug discovery. Current generative models are limited to using single property values as conditions, struggling with complex customizations described in detailed human language. To address this, we propose the text guidance instead, and introduce TextSMOG, a new Text-guided Small Molecule Generation ...
+
+---
+
+## 361. π-PrimeNovo: An Accurate and Efficient Non-Autoregressive Deep Learning Model for De Novo Peptide Sequencing
+
+**Authors:** Xiang Zhang, Tianze Ling, Zhi Jin, Sheng Xu, Zhiqiang Gao
+
+**Year:** 2024 | **Venue:** bioRxiv | **Citations:** 17 | **Score:** 0.000
+
+[PDF](https://www.biorxiv.org/content/biorxiv/early/2024/05/21/2024.05.17.594647.full.pdf) | [DOI](https://doi.org/10.1101/2024.05.17.594647)
+
+> ...
+
+---
+
+## 362. Simulations of disordered matter in 3D with the morphological autoregressive protocol (MAP) and convolutional neural networks.
+
+**Authors:** A. Madanchi, Michael Kilgour, Frederik Zysk, T. D. Kühne, Lena Simine
+
+**Year:** 2023 | **Venue:** Journal of Chemical Physics | **Citations:** 7 | **Score:** 0.000
+
+[PDF](http://arxiv.org/pdf/2301.04277) | [DOI](https://doi.org/10.1063/5.0174615)
+
+> Disordered molecular systems, such as amorphous catalysts, organic thin films, electrolyte solutions, and water, are at the cutting edge of computational exploration at present. Traditional simulations of such systems at length scales relevant to experiments in practice require a compromise between model accuracy and quality of sampling. To address this problem, we have developed an approach based...
+
+---
+
+## 363. Percept-WAM: Perception-Enhanced World-Awareness-Action Model for Robust End-to-End Autonomous Driving
+
+**Authors:** Jianhua Han, Meng Tian, Jiangtong Zhu, Fan He, Huixin Zhang
+
+**Year:** 2025 | **Venue:**  | **Citations:** 1 | **Score:** 0.000
+
+> Autonomous driving heavily relies on accurate and robust spatial perception. Many failures arise from inaccuracies and instability, especially in long-tail scenarios and complex interactions. However, current vision-language models are weak at spatial grounding and understanding, and VLA systems built on them therefore show limited perception and localization ability. To address these challenges, ...
+
+---
+
+## 364. Fine-tuning the Diffusion Model and Distilling Informative Priors for Sparse-view 3D Reconstruction
+
+**Authors:** Jiadong Tang, Yu Gao, Tianji Jiang, Yi Yang, Mengyin Fu
+
+**Year:** 2024 | **Venue:** IEEE/RJS International Conference on Intelligent RObots and Systems | **Citations:** 2 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1109/IROS58592.2024.10802155)
+
+> 3D reconstruction methods such as Neural Radiance Fields (NeRFs) are capable of optimizing high-quality 3D representation from images. However, NeRF is limited by the requirement for a large number of multi-view images, making its application to real-world scenarios challenging. In this work, we propose a method that can reconstruct real-world scenes from a few input images and a simple text promp...
+
+---
+
+## 365. PENERAPAN MODEL ASYMMETRIC POWER AUTOREGRESSIVE CONDITIONAL HETEROSCEDASTICITY (APARCH) TERHADAP HARGA MINYAK MENTAH DUNIA
+
+**Authors:** Ahmad Famuji, Idhia Sriliana, Winalia Agwil
+
+**Year:** 2024 | **Venue:** Jurnal  Gaussian | **Citations:** 1 | **Score:** 0.000
+
+[PDF](https://doi.org/10.14710/j.gauss.13.1.99-109) | [DOI](https://doi.org/10.14710/j.gauss.13.1.99-109)
+
+> Heteroscedasticity poses a challenge in ARIMA modeling by causing residual variance to be non-constant, leading to less efficient estimates. This issue often arises in time series data due to volatility, which measures data fluctuation over time. To address heteroscedasticity, models like ARCH and GARCH incorporate variance changes into forecasting. However, they lack the ability to capture asymme...
+
+---
+
+## 366. Differentiable Blocks World: Qualitative 3D Decomposition by Rendering Primitives
+
+**Authors:** Tom Monnier, J. Austin, Angjoo Kanazawa, Alexei A. Efros, Mathieu Aubry
+
+**Year:** 2023 | **Venue:** Neural Information Processing Systems | **Citations:** 32 | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2307.05473) | [DOI](https://doi.org/10.48550/arXiv.2307.05473)
+
+> Given a set of calibrated images of a scene, we present an approach that produces a simple, compact, and actionable 3D world representation by means of 3D primitives. While many approaches focus on recovering high-fidelity 3D scenes, we focus on parsing a scene into mid-level 3D representations made of a small set of textured primitives. Such representations are interpretable, easy to manipulate a...
+
+---
+
+## 367. Efficient Autoregressive Inference for Transformer Probabilistic Models
+
+**Authors:** Conor Hassan, Nasrulloh Loka, Cen-You Li, Daolang Huang, Paul E. Chang
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 1 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2510.09477)
+
+> Transformer-based models for amortized probabilistic inference, such as neural processes, prior-fitted networks, and tabular foundation models, excel at single-pass marginal prediction. However, many real-world applications, from signal interpolation to multi-column tabular predictions, require coherent joint distributions that capture dependencies between predictions. While purely autoregressive ...
+
+---
+
+## 368. Text-Conditioned Generative Model of 3D Strand-Based Human Hairstyles
+
+**Authors:** V. Sklyarova, Egor Zakharov, Otmar Hilliges, Michael J. Black, Justus Thies
+
+**Year:** 2023 | **Venue:** Computer Vision and Pattern Recognition | **Citations:** 26 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1109/CVPR52733.2024.00450)
+
+> We present HAAR, a new strand-based generative model for 3D human hairstyles. Specifically, based on textual inputs, HAAR produces 3D hairstyles that could be used as production-level assets in modern computer graphics engines. Current AI-based generative models take advantage of powerful 2D priors to reconstruct 3D content in the form of point clouds, meshes, or volumetric functions. However, by ...
+
+---
+
+## 369. DiffPack: A Torsional Diffusion Model for Autoregressive Protein Side-Chain Packing
+
+**Authors:** Yang Zhang, Zuobai Zhang, Bozitao Zhong, Sanchit Misra, Jian Tang
+
+**Year:** 2023 | **Venue:** Neural Information Processing Systems | **Citations:** 42 | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2306.01794) | [DOI](https://doi.org/10.48550/arXiv.2306.01794)
+
+> Proteins play a critical role in carrying out biological functions, and their 3D structures are essential in determining their functions. Accurately predicting the conformation of protein side-chains given their backbones is important for applications in protein structure prediction, design and protein-protein interactions. Traditional methods are computationally intensive and have limited accurac...
+
+---
+
+## 370. A Hybrid Forecasting Approach for Solar Power Generation in Smart Grids Using Long Short-Term Memory and Autoregressive Integrated Moving Average
+
+**Authors:** Radhakrishnan Kanthavel, Ramakrishnan Dhaya
+
+**Year:** 2025 | **Venue:** Turkish Journal of Electrical Power and Energy Systems | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.5152/tepes.2025.25021)
+
+> An accurate solar energy forecast is important for the efficient operation of smart grids, especially with the increasing penetration of renewable energy sources. This paper proposes a hybrid forecasting approach that combines long short-term memory (LSTM) neural networks with autoregressive integrated moving average (ARIMA) models to improve the accuracy of short-term solar energy predictions. Wh...
+
+---
+
+## 371. Balanced Sample Assignment and Objective for Single-Model Multi-Class 3D Object Detection
+
+**Authors:** Weiping Xiao, Yan Peng, Chang Liu, Jiantao Gao, Yiqiang Wu
+
+**Year:** 2023 | **Venue:** IEEE transactions on circuits and systems for video technology (Print) | **Citations:** 31 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1109/TCSVT.2023.3248656)
+
+> Accurately detecting multi-class objects in a single pass is critical but challenging for real-world autonomous driving scenarios. Several single-class anchor-based methods have recently achieved the state-of-the-art performance in the car category, but when extending to multi-class detection tasks, their performance on small objects (i.e., pedestrians and cyclists) is limited. We find that the co...
+
+---
+
+## 372. DO-CoLM: Dynamic 3D Conformation Relationships Capture with Self-Adaptive Ordering Molecular Relational Modeling in Language Models
+
+**Authors:** Zhuo Chen, Jiahui Zhang, Sihan Wang, Hongxin Xiang, Jianmin Wang
+
+**Year:** 2025 | **Venue:** International Joint Conference on Artificial Intelligence | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.24963/ijcai.2025/546)
+
+> Molecular Relational Learning (MRL) aims to understand interactions between molecular pairs, playing a critical role in advancing biochemical research. Recently, Large Language Models (LLMs), with their extensive knowledge bases and advanced reasoning capabilities, have emerged as powerful tools for MRL. However, existing LLMs, which primarily rely on SMILES strings and molecular graphs, face two ...
+
+---
+
+## 373. 3D Equivariant Diffusion for Target-Aware Molecule Generation and Affinity Prediction
+
+**Authors:** Jiaqi Guan, Wesley Wei Qian, Xingang Peng, Yufeng Su, Jian Peng
+
+**Year:** 2023 | **Venue:** International Conference on Learning Representations | **Citations:** 241 | **Score:** 0.000
+
+[PDF](http://arxiv.org/pdf/2303.03543) | [DOI](https://doi.org/10.48550/arXiv.2303.03543)
+
+> Rich data and powerful machine learning models allow us to design drugs for a specific protein target \textit{in silico}. Recently, the inclusion of 3D structures during targeted drug design shows superior performance to other target-free models as the atomic interaction in the 3D space is explicitly modeled. However, current 3D target-aware models either rely on the voxelized atom densities or th...
+
+---
+
+## 374. D3D-VLP: Dynamic 3D Vision-Language-Planning Model for Embodied Grounding and Navigation
+
+**Authors:** Zihan Wang, Seungjun Lee, Guangzhao Dai, Gim Hee Lee
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+> Embodied agents face a critical dilemma that end-to-end models lack interpretability and explicit 3D reasoning, while modular systems ignore cross-component interdependencies and synergies. To bridge this gap, we propose the Dynamic 3D Vision-Language-Planning Model (D3D-VLP). Our model introduces two key innovations: 1) A Dynamic 3D Chain-of-Thought (3D CoT) that unifies planning, grounding, navi...
+
+---
+
+## 375. ARSS: Taming Decoder-only Autoregressive Visual Generation for View Synthesis From Single View
+
+**Authors:** Wenbin Teng, Gonglin Chen, Haiwei Chen, Yajie Zhao
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2509.23008)
+
+> Diffusion models have achieved impressive results in world modeling tasks, including novel view generation from sparse inputs. However, most existing diffusion-based NVS methods generate target views jointly via an iterative denoising process, which makes it less straightforward to impose a strictly causal structure along a camera trajectory. In contrast, autoregressive (AR) models operate in a ca...
+
+---
+
+## 376. Utilization of a Lightweight 3D U-Net Model for Reducing Execution Time of Numerical Weather Prediction Models
+
+**Authors:** Hyesung Park, Sungwook Chung
+
+**Year:** 2025 | **Venue:** Atmosphere | **Citations:** 2 | **Score:** 0.000
+
+[DOI](https://doi.org/10.3390/atmos16010060)
+
+> Conventional weather forecasting relies on numerical weather prediction (NWP), which solves atmospheric equations using numerical methods. The Korea Meteorological Administration (KMA) adopted the Met Office Global Seasonal Forecasting System version 6 (GloSea6) NWP model from the UK and runs it on a supercomputer. However, due to high task demands, the limited resources of the supercomputer have ...
+
+---
+
+## 377. Towards Robust and Controllable Text-to-Motion via Masked Autoregressive Diffusion
+
+**Authors:** Zongye Zhang, Bohan Kong, Qingjie Liu, Yunhong Wang
+
+**Year:** 2025 | **Venue:** Proceedings of the 33rd ACM International Conference on Multimedia | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.1145/3746027.3754748)
+
+> Generating 3D human motion from text descriptions remains challenging due to the diverse and complex nature of human motion. While existing methods excel within the training distribution, they often struggle with out-of-distribution motions, limiting their applicability in real-world scenarios. Existing VQVAE-based methods often fail to represent novel motions faithfully using discrete tokens, whi...
+
+---
+
+## 378. A Novel Approach in 3D Model Reconstruction from Engineering Drawings Based on Symmetric Adjacency Matrices Using DXF Files and Genetic Algorithm
+
+**Authors:** Predrag Mitić, V. Kočović, Milan Mišić, M. Stefanovic, Aleksandar Ðordevic
+
+**Year:** 2025 | **Venue:** Symmetry | **Citations:** 1 | **Score:** 0.000
+
+[DOI](https://doi.org/10.3390/sym17050771)
+
+> The application of CAD/CAM technologies in modern production has revolutionized manufacturing processes, leading to significant improvements in precision, efficiency, and flexibility. These technologies enable the design and manufacturing of complex geometries with high accuracy, reducing errors and material waste. CAD/CAM integration streamlines workflows, enhances productivity, and facilitates r...
+
+---
+
+## 379. Numerical Simulation of 3D Full Hydraulic Jumps Using a GPU-Based SPH Model
+
+**Authors:** Jinbo Lin, Runzhen Wu, Yingchao Ma, Zhenglin Tian, Dongbin He
+
+**Year:** 2025 | **Venue:** Symmetry | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.3390/sym17091564)
+
+> Hydraulic jumps typically exhibit a distinct symmetry under ideal boundary conditions and are characterized by a sudden change in flow depth and velocity. They are commonly employed in a diverse array of water management systems to dissipate excess energy due to their high energy dissipation rate, strong adaptability to geological conditions and tailwater variation, small fluctuation in tailwater,...
+
+---
+
+## 380. Trend Autoregressive Model Exact Run Length Evaluation on a Two-Sided Extended EWMA Chart
+
+**Authors:** Kotchaporn Karoon, Y. Areepong, S. Sukparungsee
+
+**Year:** 2023 | **Venue:** Computer systems science and engineering | **Citations:** 7 | **Score:** 0.000
+
+[PDF](https://file.techscience.com/ueditor/files/csse/TSP_CSSE-44-2/TSP_CSSE_25420/TSP_CSSE_25420.pdf) | [DOI](https://doi.org/10.32604/csse.2023.025420)
+
+> The Extended Exponentially Weighted Moving Average (extended EWMA) control chart is one of the control charts and can be used to quickly detect a small shift. The performance of control charts can be evaluated with the average run length ( ARL). Due to the deriving explicit formulas for the ARL on a two-sided extended EWMA control chart for trend autoregressive or trend AR(p) model has not been re...
+
+---
+
+## 381. Morpheus: Text-Driven 3D Gaussian Splat Shape and Color Stylization
+
+**Authors:** Jamie Wynn, Z. Qureshi, Jakub Powierza, Jamie Watson, Mohamed Sayed
+
+**Year:** 2025 | **Venue:** Computer Vision and Pattern Recognition | **Citations:** 4 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1109/CVPR52734.2025.00733)
+
+> Exploring real-world spaces using novel-view synthesis is fun, and reimagining those worlds in a different style adds another layer of excitement. Stylized worlds can also be used for downstream tasks where there is limited training data and a need to expand a model’s training distribution. Most current novel-view synthesis stylization techniques lack the ability to convincingly change geometry. T...
+
+---
+
+## 382. UniDet3D: Multi-dataset Indoor 3D Object Detection
+
+**Authors:** Maksim Kolodiazhnyi, Anna Vorontsova, Matvey Skripkin, D. Rukhovich, A. Konushin
+
+**Year:** 2025 | **Venue:** AAAI Conference on Artificial Intelligence | **Citations:** 3 | **Score:** 0.000
+
+[PDF](https://doi.org/10.1609/aaai.v39i4.32459) | [DOI](https://doi.org/10.1609/aaai.v39i4.32459)
+
+> Growing customer demand for smart solutions in robotics and augmented reality has attracted considerable attention to 3D object detection from point clouds. Yet, existing indoor datasets taken individually are too small and insufficiently diverse to train a powerful and general 3D object detection model. In the meantime, more general approaches utilizing foundation models are still inferior in qua...
+
+---
+
+## 383. Chem3DLLM: 3D Multimodal Large Language Models for Chemistry
+
+**Authors:** Lei Jiang, Shuzhou Sun, Biqing Qi, Yuchen Fu, Xiaohua Xu
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 3 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2508.10696)
+
+> In the real world, a molecule is a 3D geometric structure. Compared to 1D SMILES sequences and 2D molecular graphs, 3D molecules represent the most informative molecular modality. Despite the rapid progress of autoregressive-based language models, they cannot handle the generation of 3D molecular conformation due to several challenges: 1) 3D molecular structures are incompatible with LLMs'discrete...
+
+---
+
+## 384. ViewDiff: 3D-Consistent Image Generation with Text-to-Image Models
+
+**Authors:** Lukas Höllein, Aljavz Bovzivc, Norman Muller, David Novotný, Hung-Yu Tseng
+
+**Year:** 2024 | **Venue:** Computer Vision and Pattern Recognition | **Citations:** 66 | **Score:** 0.000
+
+[PDF](http://arxiv.org/pdf/2403.01807) | [DOI](https://doi.org/10.1109/CVPR52733.2024.00482)
+
+> 3D asset generation is getting massive amounts of attention, inspired by the recent success of text-guided 2D content creation. Existing text-to-3D methods use pretrained text-to-image diffusion models in an optimization problem or fine-tune them on synthetic data, which often results in non-photorealistic 3D objects without backgrounds. In this paper, we present a method that leverages pretrained...
+
+---
+
+## 385. FlowerDance: MeanFlow for Efficient and Refined 3D Dance Generation
+
+**Authors:** Kaixing Yang, Xulong Tang, Ziqiao Peng, Xiangyue Zhang, Puwei Wang
+
+**Year:** 2025 | **Venue:**  | **Citations:** 1 | **Score:** 0.000
+
+> Music-to-dance generation aims to translate auditory signals into expressive human motion, with broad applications in virtual reality, choreography, and digital entertainment. Despite promising progress, the limited generation efficiency of existing methods leaves insufficient computational headroom for high-fidelity 3D rendering, thereby constraining the expressiveness of 3D characters during rea...
+
+---
+
+## 386. Mesh RAG: Retrieval Augmentation for Autoregressive Mesh Generation
+
+**Authors:** Xiatao Sun, Chen Liang, Qian Wang, Daniel Rakita
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+> 3D meshes are a critical building block for applications ranging from industrial design and gaming to simulation and robotics. Traditionally, meshes are crafted manually by artists, a process that is time-intensive and difficult to scale. To automate and accelerate this asset creation, autoregressive models have emerged as a powerful paradigm for artistic mesh generation. However, current methods ...
+
+---
+
+## 387. DrugForm-DTA: Towards real-world drug-target binding affinity model
+
+**Authors:** Ivan Khokhlov, Anna S. Tashchilova, Nikolai Bugaev-Makarovskiy, O. Glushkova, V. Yudin
+
+**Year:** 2025 | **Venue:** bioRxiv | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.1101/2025.05.22.655461)
+
+> Drug-target affinity (DTA) prediction is a fundamental problem in drug discovery. Computational methods for predicting DTA can greatly assist drug design by decreasing the search space and reducing the number of protein-ligand complexes with low affinity. Currently DTA approaches often do not require protein three-dimensional (3D) structural information, which is often not accessible. In this stud...
+
+---
+
+## 388. FreeArt3D: Training-Free Articulated Object Generation using 3D Diffusion
+
+**Authors:** Chuhao Chen, Isabella Liu, Xinyue Wei, Hao Su, Minghua Liu
+
+**Year:** 2025 | **Venue:** Proceedings of the SIGGRAPH Asia 2025 Conference Papers | **Citations:** 4 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2510.25765)
+
+> Articulated 3D objects are central to many applications in robotics, AR/VR, and animation. Recent approaches to modeling such objects either rely on optimization-based reconstruction pipelines that require dense-view supervision or on feed-forward generative models that produce coarse geometric approximations and often overlook surface texture. In contrast, open-world 3D generation of static objec...
+
+---
+
+## 389. 3EED: Ground Everything Everywhere in 3D
+
+**Authors:** Rong Li, Yuhao Dong, Tianshuai Hu, Ao Liang, Youquan Liu
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 4 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2511.01755)
+
+> Visual grounding in 3D is the key for embodied agents to localize language-referred objects in open-world environments. However, existing benchmarks are limited to indoor focus, single-platform constraints, and small scale. We introduce 3EED, a multi-platform, multi-modal 3D grounding benchmark featuring RGB and LiDAR data from vehicle, drone, and quadruped platforms. We provide over 128,000 objec...
+
+---
+
+## 390. PI3DETR: Parametric Instance Detection of 3D Point Cloud Edges with a Geometry-Aware 3DETR
+
+**Authors:** Fabio F. Oberweger, Michael Schwingshackl, Vanessa Staderini
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 1 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2509.03262)
+
+> We present PI3DETR, an end-to-end framework that directly predicts 3D parametric curve instances from raw point clouds, avoiding the intermediate representations and multi-stage processing common in prior work. Extending 3DETR, our model introduces a geometry-aware matching strategy and specialized loss functions that enable unified detection of differently parameterized curve types, including cub...
+
+---
+
+## 391. Aligning Text, Images, and 3D Structure Token-by-Token
+
+**Authors:** Aadarsh Sahoo, Vansh Tibrewal, Georgia Gkioxari
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2506.08002)
+
+> Creating machines capable of understanding the world in 3D is essential in assisting designers that build and edit 3D environments and robots navigating and interacting within a three-dimensional space. Inspired by advances in language and image modeling, we investigate the potential of autoregressive models for a new modality: structured 3D scenes. To this end, we propose a unified LLM framework ...
+
+---
+
+## 392. A temporal–spatial deep learning framework leveraging dynamic 3D attention maps for violence detection
+
+**Authors:** Elizabeth B. Varghese, Almiqdad Elzein, Yin Yang, Marwa Qaraqe
+
+**Year:** 2025 | **Venue:** Neural computing & applications (Print) | **Citations:** 1 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1007/s00521-025-11641-4)
+
+> ...
+
+---
+
+## 393. 3D fault model and seismotectonics indicate the potential seismic risk in the Daliang Mountains, southeastern Tibetan Plateau
+
+**Authors:** R. Lu, Cuiping Zhao, Jinyu Zhang, Qincai Wang, Xiao Sun
+
+**Year:** 2023 | **Venue:** Journal of the Geological Society | **Citations:** 2 | **Score:** 0.000
+
+[PDF](https://doi.org/10.1144/jgs2023-136) | [DOI](https://doi.org/10.1144/jgs2023-136)
+
+> 
+ Area of active tectonics hosts many active faults and frequently experiences moderate to large earthquakes. The possibility of devastating earthquakes makes the development of major infrastructure projects in these areas risky. World-class large-scale step hydroelectric projects were built along the Jinsha River, such as the Xiangjiaba, Xiluodu, Baihetan, and Wudongde reservoirs in the Daliang M...
+
+---
+
+## 394. KeySG: Hierarchical Keyframe-Based 3D Scene Graphs
+
+**Authors:** Abdelrhman Werby, Dennis Rotondi, Fabio Scaparro, K. Arras
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2510.01049)
+
+> In recent years, 3D scene graphs have emerged as a powerful world representation, offering both geometric accuracy and semantic richness. Combining 3D scene graphs with large language models enables robots to reason, plan, and navigate in complex human-centered environments. However, current approaches for constructing 3D scene graphs are semantically limited to a predefined set of relationships, ...
+
+---
+
+## 395. Segments-aware universal adversarial perturbations purification on 3D point cloud classifiers
+
+**Authors:** Yang Gao, Xianrui Chang, Haoran Li, Jian Xu
+
+**Year:** 2025 | **Venue:** Frontiers of Computer Science | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.3389/fcomp.2025.1626359)
+
+> 
+ 
+ 3D point cloud classifiers, while powerful for representing real-world objects and environments, are vulnerable to adversarial perturbations, particularly Universal Adversarial Perturbations (UAPs). These UAPs pose significant security threats due to their input-agnostic nature. Current purification methods exhibit critical limitations: they typically operate independently of the target classi...
+
+---
+
+## 396. Real-Time 3D Vision-Language Embedding Mapping
+
+**Authors:** Christian Rauch, Bjorn Ellensohn, Linus Nwankwo, Vedant Dave, Elmar Rueckert
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2508.06291)
+
+> A metric-accurate semantic 3D representation is essential for many robotic tasks. This work proposes a simple, yet powerful, way to integrate the 2D embeddings of a Vision-Language Model in a metric-accurate 3D representation at real-time. We combine a local embedding masking strategy, for a more distinct embedding distribution, with a confidence-weighted 3D integration for more reliable 3D embedd...
+
+---
+
+## 397. Grounding Foundational Vision Models with 3D Human Poses for Robust Action Recognition
+
+**Authors:** Nicholas Babey, Tiffany Gu, Yiheng Li, Cristian Meo, Kevin Zhu
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2511.05622)
+
+> For embodied agents to effectively understand and interact within the world around them, they require a nuanced comprehension of human actions grounded in physical space. Current action recognition models, often relying on RGB video, learn superficial correlations between patterns and action labels, so they struggle to capture underlying physical interaction dynamics and human poses in complex sce...
+
+---
+
+## 398. Find Any Part in 3D
+
+**Authors:** Ziqi Ma, Yisong Yue, Georgia Gkioxari
+
+**Year:** 2024 | **Venue:** arXiv.org | **Citations:** 13 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2411.13550)
+
+> Why don't we have foundation models in 3D yet? A key limitation is data scarcity. For 3D object part segmentation, existing datasets are small in size and lack diversity. We show that it is possible to break this data barrier by building a data engine powered by 2D foundation models. Our data engine automatically annotates any number of object parts: 1755x more unique part types than existing data...
+
+---
+
+## 399. A Small Target Detection Model Based on an Improved RT-DETR
+
+**Authors:** Ruoyuan Liu, Xizheng Zhang, Shengwei Jin, Qing Wang, Lijing Zeng
+
+**Year:** 2024 | **Venue:** 2024 4th International Conference on Industrial Automation, Robotics and Control Engineering (IARCE) | **Citations:** 2 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1109/IARCE64300.2024.00086)
+
+> Object detection, as one of the core tasks in computer vision, has been a focus of research in recent decades, thanks to the rapid development of deep learning technology. From R-CNN, YOLO, to SSD, RetinaNet, and DETR with Transformer, various algorithms have been developed at a rapid pace, including lightweight, end-to-end, 3D object detection, and small object, cross-modal detection, etc., which...
+
+---
+
+## 400. Physical 3D Adversarial Attacks against Monocular Depth Estimation in Autonomous Driving
+
+**Authors:** Junhao Zheng, Chenhao Lin, Jiahao Sun, Zhengyu Zhao, Qian Li
+
+**Year:** 2024 | **Venue:** Computer Vision and Pattern Recognition | **Citations:** 45 | **Score:** 0.000
+
+[PDF](https://arxiv.org/pdf/2403.17301) | [DOI](https://doi.org/10.1109/CVPR52733.2024.02308)
+
+> Deep learning-based monocular depth estimation (MDE), extensively applied in autonomous driving, is known to be vulnerable to adversarial attacks. Previous physical attacks against MDE models rely on 2D adversarial patches, so they only affect a small, localized region in the MDE map but fail under various viewpoints. To address these limitations, we propose 3D Depth Fool (3D2Fool), the first 3D t...
+
+---
+
+## 401. Open-CRB: Towards Open World Active Learning for 3D Object Detection
+
+**Authors:** Zhuoxiao Chen, Yadan Luo, Zixin Wang, Zijian Wang, Xin Yu
+
+**Year:** 2023 | **Venue:**  | **Citations:** 1 | **Score:** 0.000
+
+> LiDAR-based 3D object detection has recently seen significant advancements through active learning (AL), attaining satisfactory performance by training on a small fraction of strategically selected point clouds. However, in real-world deployments where streaming point clouds may include unknown or novel objects, the ability of current AL methods to capture such objects remains unexplored. This pap...
+
+---
+
+## 402. 3D-LLaVA: Towards Generalist 3D LMMs with Omni Superpoint Transformer
+
+**Authors:** Jiajun Deng, Tianyu He, Li Jiang, Tianyu Wang, Feras Dayoub
+
+**Year:** 2025 | **Venue:** Computer Vision and Pattern Recognition | **Citations:** 36 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1109/CVPR52734.2025.00357)
+
+> Current 3D Large Multimodal Models (3D LMMs) have shown tremendous potential in 3D-vision-based dialogue and reasoning. However, how to further enhance 3D LMMs to achieve fine-grained scene understanding and facilitate flexible human-agent interaction remains a challenging problem. In this work, we introduce 3D-LLaVA, a simple yet highly powerful 3D LMM designed to act as an intelligent assistant ...
+
+---
+
+## 403. Generating Optimized 3d Designs for Manufacturing Using a Guided Voxel Diffusion Model
+
+**Authors:** Premith Kumar Chilukuri, Binyang Song, SungKu Kang, Ran Jin
+
+**Year:** 2024 | **Venue:** Volume 2: Manufacturing Equipment and Automation; Manufacturing Processes; Manufacturing Systems; Nano/Micro/Meso Manufacturing; Quality &amp; Reliability | **Citations:** 4 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1115/msec2024-125075)
+
+> 
+ In the age of digital manufacturing, efficient realization of high-performing designs into high-quality products through advanced manufacturing remains a challenge. One of the critical reasons for this challenge is the need for more design knowledge at the manufacturers’ end, which severely hinders manufacturers’ exploration and exploitation of innovative designs. Manufacturers often have no cho...
+
+---
+
+## 404. AtmoNeuro: A Hybrid 3D-Spatio-Temporal Neural Framework for High-Resolution Probabilistic Global Weather Forecasting
+
+**Authors:** Mr. Koteswararao, P. scholar, Dr. K. Sailaja
+
+**Year:** 2025 | **Venue:** 2025 International Conference on Sustainable Communication Networks and Application (ICSCN) | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.1109/ICSCN67106.2025.11308166)
+
+> Global weather forecasting remains one of the most complicated scientific problems due to the non-linear, chaotic, and multiscale dynamics of the atmosphere. Conventional numerical methods dominate the weather forecasting world, but they are not only very computationally expensive, they frequently cannot capture small-scale features in space and time especially in medium-to-long range forecasts. R...
+
+---
+
+## 405. A Small 3D Printed Robotic Arm for Teaching Industry 4.0 and Robotic Engineering
+
+**Authors:** Pavel Surynek
+
+**Year:** 2024 | **Venue:** 2024 IEEE 20th International Conference on Automation Science and Engineering (CASE) | **Citations:** 2 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1109/CASE59546.2024.10711758)
+
+> Industrial robotic arms with at least six degrees of freedom, a key component of Industry 4.0, even small ones, are still relatively inaccessible to a wider range of users, experimenters, and educators due to their high cost and the need to ensure operational safety. Moreover, the industrial robotic arms are often closed systems, which makes these machines unsuitable for mechanical modifications a...
+
+---
+
+## 406. Hybrid-CT: a novel hybrid 2D/3D CNN-Transformer based on transfer learning and attention mechanisms for small object classification
+
+**Authors:** Khaled Bayoudh, A. Mtibaa
+
+**Year:** 2024 | **Venue:** Signal, Image and Video Processing | **Citations:** 2 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1007/s11760-024-03696-y)
+
+> ...
+
+---
+
+## 407. SplineGS: Robust Motion-Adaptive Spline for Real-Time Dynamic 3D Gaussians from Monocular Video
+
+**Authors:** Jongmin Park, Minh-Quan Viet Bui, J. Bello, Jaeho Moon, Jihyong Oh
+
+**Year:** 2024 | **Venue:** Computer Vision and Pattern Recognition | **Citations:** 19 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1109/CVPR52734.2025.02502)
+
+> Synthesizing novel views from in-the-wild monocular videos is challenging due to scene dynamics and the lack of multi-view cues. To address this, we propose SplineGS, a COLMAP-free dynamic 3D Gaussian Splatting (3DGS) framework for high-quality reconstruction and fast rendering from monocular videos. At its core is a novel Motion-Adaptive Spline (MAS) method, which represents continuous dynamic 3D...
+
+---
+
+## 408. [Contribution to the world of 3D cell products created by bio 3D printing technology and to the life science field].
+
+**Authors:** Toshihiko Maekawa
+
+**Year:** 2024 | **Venue:** Nihon yakurigaku zasshi. Folia pharmacologica Japonica | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.1254/fpj.23049)
+
+> We have been making 3D tissues consist of cells only, based on the corporate philosophy of "contributing to dramatic advances in medical care through the practical application of innovative 3D cell stacking technology." Currently, in the field of regenerative medicine, we are working toward obtaining approval from the Ministry of Health, Labor and Welfare and commercializing large artificial organ...
+
+---
+
+## 409. CoDiff: Conditional Diffusion Model for Collaborative 3D Object Detection
+
+**Authors:** Zhe Huang, Shuo Wang, Yongcai Wang, Lei Wang
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 4 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2502.14891)
+
+> Collaborative 3D object detection holds significant importance in the field of autonomous driving, as it greatly enhances the perception capabilities of each individual agent by facilitating information exchange among multiple agents. However, in practice, due to pose estimation errors and time delays, the fusion of information across agents often results in feature representations with spatial an...
+
+---
+
+## 410. Contextual Graph Transformer: A Small Language Model for Enhanced Engineering Document Information Extraction
+
+**Authors:** Karan Reddy, M. Pal
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 1 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2508.02532)
+
+> Standard transformer-based language models, while powerful for general text, often struggle with the fine-grained syntax and entity relationships in complex technical, engineering documents. To address this, we propose the Contextual Graph Transformer (CGT), a hybrid neural architecture that combines Graph Neural Networks (GNNs) and Transformers for domain-specific question answering. CGT construc...
+
+---
+
+## 411. FDR-Controlled Sparse Index Tracking with Autoregressive Stock Dependency Models
+
+**Authors:** Jasin Machkour, Michael Muma, D. P. Palomar
+
+**Year:** 2024 | **Venue:** European Signal Processing Conference | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.23919/eusipco63174.2024.10715329)
+
+> Maintaining false discovery rate (FDR) control is vital for reproducibility in high-dimensional variable selection applications, especially in sparse financial index tracking, where the goal is to use only a small fraction of the stocks comprising an index to design a tracking portfolio containing relevant stocks. This allows for, e.g., building a cost-efficient exchange-traded fund (ETF). Unfortu...
+
+---
+
+## 412. UniK3D: Universal Camera Monocular 3D Estimation
+
+**Authors:** Luigi Piccinelli, Christos Sakaridis, Mattia Segu, Yung-Hsu Yang, Siyuan Li
+
+**Year:** 2025 | **Venue:** Computer Vision and Pattern Recognition | **Citations:** 16 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1109/CVPR52734.2025.00104)
+
+> Monocular 3D estimation is crucial for visual perception. However, current methods fall short by relying on oversimplified assumptions, such as pinhole camera models or rectified images. These limitations severely restrict their general applicability, causing poor performance in real-world scenarios with fisheye or panoramic images and resulting in substantial context loss. To address this, we pre...
+
+---
+
+## 413. HR-DVGO: a 3D digital reconstruction model for cultural heritage and historical sites
+
+**Authors:** Yuchen Yao, Bin Zhang, Zhisheng Zhang
+
+**Year:** 2025 | **Venue:** Other Conferences | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.1117/12.3068655)
+
+> Cultural relics and historical sites undergo irreversible deterioration as time progresses. Consequently, the accurate digital preservation of the current historical features and characteristics of these artifacts and sites is of paramount importance. To address this challenge, this paper proposes an HR-DVGO model based on neural rendering for the digital reconstruction of cultural relics and hist...
+
+---
+
+## 414. Towards Harnessing the Collaborative Power of Large and Small Models for Domain Tasks
+
+**Authors:** Yang Liu, Bingjie Yan, Tianyuan Zou, Jianqing Zhang, Zixuan Gu
+
+**Year:** 2025 | **Venue:** arXiv.org | **Citations:** 3 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2504.17421)
+
+> Large language models (LLMs) have demonstrated remarkable capabilities, but they require vast amounts of data and computational resources. In contrast, smaller models (SMs), while less powerful, can be more efficient and tailored to specific domains. In this position paper, we argue that taking a collaborative approach, where large and small models work synergistically, can accelerate the adaptati...
+
+---
+
+## 415. A Layered Entropy Model for Transparent Uncertainty Quantification in Medical AI: Advancing Trustworthy Decision Support in Small-Data Clinical Settings
+
+**Authors:** Sandeep Bhattacharjee, Sanjib Biswas
+
+**Year:** 2025 | **Venue:** Information | **Citations:** N/A | **Score:** 0.000
+
+[DOI](https://doi.org/10.3390/info16100875)
+
+> Smaller data environments with expert systems are generally driven by the need for interpretable reasoning frameworks, such as fuzzy rule-based systems (FRBS), which cannot often quantify epistemic uncertainty during decision-making. This study proposes a novel Layered Entropy Model (LEM) comprising three semantic layers: Membership Function Entropy (MFE), Rule Activation Entropy (RAE), and System...
+
+---
+
+## 416. Gaussians-to-Life: Text-Driven Animation of 3D Gaussian Splatting Scenes
+
+**Authors:** Thomas Wimmer, Michael Oechsle, Michael Niemeyer, Federico Tombari
+
+**Year:** 2024 | **Venue:** International Conference on 3D Vision | **Citations:** 6 | **Score:** 0.000
+
+[DOI](https://doi.org/10.1109/3DV66043.2025.00093)
+
+> State-of-the-art novel view synthesis methods achieve impressive results for multi-view captures of static 3D scenes. However, the reconstructed scenes still lack “liveliness,“ a key component for creating engaging 3D experiences. Recently, novel video diffusion models generate realistic videos with complex motion and enable animations of 2D images, however they cannot naively be used to animate 3...
+
+---
+
+## 417. CoordAR: One-Reference 6D Pose Estimation of Novel Objects via Autoregressive Coordinate Map Generation
+
+**Authors:** Dexin Zuo, Ang Li, Wei Wang, Wenxian Yu, Danping Zou
+
+**Year:** 2025 | **Venue:**  | **Citations:** N/A | **Score:** 0.000
+
+> Object 6D pose estimation, a crucial task for robotics and augmented reality applications, becomes particularly challenging when dealing with novel objects whose 3D models are not readily available. To reduce dependency on 3D models, recent studies have explored one-reference-based pose estimation, which requires only a single reference view instead of a complete 3D model. However, existing method...
+
+---
+
+## 418. PT43D: A Probabilistic Transformer for Generating 3D Shapes from Single Highly-Ambiguous RGB Images
+
+**Authors:** Yiheng Xiong, Angela Dai
+
+**Year:** 2024 | **Venue:** British Machine Vision Conference | **Citations:** 1 | **Score:** 0.000
+
+[DOI](https://doi.org/10.48550/arXiv.2405.11914)
+
+> Generating 3D shapes from single RGB images is essential in various applications such as robotics. Current approaches typically target images containing clear and complete visual descriptions of the object, without considering common realistic cases where observations of objects that are largely occluded or truncated. We thus propose a transformer-based autoregressive model to generate the probabi...
+
+---
+

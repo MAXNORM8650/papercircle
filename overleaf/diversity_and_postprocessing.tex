@@ -1,4 +1,0 @@
-\section{Diversity and Postprocessing}
-To improve topical coverage in the top results, Paper Circle applies Maximal Marginal Relevance (MMR) to a candidate list ranked by final score. MMR selects papers that balance relevance and novelty by penalizing similarity to already selected items. The diversity parameter is mode-dependent: stable mode favors relevance more strongly, while discovery mode favors diversity.
-
-The refactored pipeline also constructs secondary views over the ranked list, including ``hidden gems'' (high novelty scores) and ``canonical'' papers (high authority scores). These views provide multiple entry points for users with different discovery goals.

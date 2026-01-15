@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "3D world model autoregressive small powerful",
+    "total_papers": 418,
+    "unique_sources": 9,
+    "year_range": {
+      "min": 2015,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 2042,
+      "average": 20.6
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 298,
+    "papers_with_doi": 155,
+    "processing_steps": 13
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (208) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 208
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 201 papers (48%)",
+      "data": {
+        "source": "arxiv",
+        "count": 201
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Yang Liu has 4 papers in this collection",
+      "data": {
+        "author": "Yang Liu",
+        "count": 4
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"LRM: Large Reconstruction Model for Single Image to 3D...\" has 674 citations",
+      "data": {
+        "title": "LRM: Large Reconstruction Model for Single Image to 3D",
+        "citations": 674
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: model, models, world, learning, generation",
+      "data": {
+        "keywords": {
+          "model": 72,
+          "models": 57,
+          "world": 50,
+          "learning": 42,
+          "generation": 38
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "298/418 papers (71%) have direct PDF links",
+      "data": {
+        "with_pdf": 298,
+        "total": 418
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 418 papers related to '3D world model autoregressive small powerful'",
+    "Papers collected from 9 sources: offline_iclr, offline_nips, offline_cvpr, offline_iccv, offline_icml, offline_eccv, semantic_scholar, arxiv, openalex",
+    "Publication years range from 2015 to 2026",
+    "Total citations: 2042, Average: 20",
+    "Leading researchers: Yang Liu, Liang Pan, Rui Li"
+  ],
+  "metadata": {
+    "query": "3D world model autoregressive small powerful",
+    "total_steps": 13,
+    "last_updated": "2026-01-12T20:32:21.631388",
+    "started_at": "2026-01-12T20:29:49.669669",
+    "total_papers": 418
+  },
+  "is_complete": true
+}

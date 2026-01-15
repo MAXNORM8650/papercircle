@@ -10,7 +10,7 @@ This API provides endpoints to:
 4. Ask questions about analyzed papers
 """
 
-from fastapi import FastAPI, HTTPException, BackgroundTasks
+from fastapi import FastAPI, HTTPException, BackgroundTasks, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional, List, Dict, Any
@@ -20,6 +20,7 @@ import os
 from pathlib import Path
 import sys
 from dotenv import load_dotenv
+import shutil
 
 # Load environment variables
 load_dotenv()
@@ -103,6 +104,22 @@ def record_usage(
         }).execute()
     except Exception as e:
         print(f"⚠️  Error recording usage: {e}")
+
+def has_custom_llm_enabled(user_id: Optional[str]) -> bool:
+    """
+    Check if user has custom LLM configuration enabled.
+    Returns True if user has custom LLM, False otherwise.
+    """
+    if not user_id or user_id == "system":
+        return False
+
+    try:
+        result = supabase.table('profiles').select('llm_enabled').eq('id', user_id).single().execute()
+        return result.data and result.data.get('llm_enabled', False)
+    except Exception as e:
+        print(f"⚠️  Error checking LLM config: {e}")
+        return False
+
 
 def get_user_llm_config(user_id: Optional[str]) -> Config:
     """
@@ -568,8 +585,8 @@ async def analyze_paper(
     try:
         user_id = request.user_id or "system"
 
-        # Check quota if using default LLM (not custom)
-        if user_id != "system":
+        # Check quota only if user doesn't have custom LLM configured
+        if user_id != "system" and not has_custom_llm_enabled(user_id):
             quota = check_user_quota(user_id)
 
             if not quota['has_quota'] and not quota['is_unlimited']:
@@ -653,6 +670,148 @@ async def analyze_paper(
         import traceback
         traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/analyze/upload", response_model=Dict[str, str])
+async def analyze_upload(
+    file: UploadFile = File(...),
+    paper_id: Optional[str] = Form(None),
+    user_id: Optional[str] = Form(None),
+    community_id: Optional[str] = Form(None),
+    session_id: Optional[str] = Form(None),
+    force_reanalyze: bool = Form(False)
+):
+    """
+    Analyze a paper by uploading a PDF file directly.
+
+    Args:
+        file: PDF file to upload
+        paper_id: Optional paper ID from database
+        user_id: Optional user ID for quota tracking and LLM config
+        community_id: Optional community context
+        session_id: Optional session context
+        force_reanalyze: Whether to force reanalysis even if exists
+
+    Returns:
+        Analysis ID and status
+    """
+    try:
+        # Validate file type
+        if not file.filename or not file.filename.endswith('.pdf'):
+            raise HTTPException(status_code=400, detail="Only PDF files are supported")
+
+        # Use user_id if provided, otherwise default to "system"
+        user_id_to_use = user_id or "system"
+
+        # Check quota only if user doesn't have custom LLM configured
+        if user_id_to_use != "system" and not has_custom_llm_enabled(user_id_to_use):
+            quota = check_user_quota(user_id_to_use)
+
+            if not quota['has_quota'] and not quota['is_unlimited']:
+                return {
+                    "status": "quota_exceeded",
+                    "message": f"Daily limit reached ({quota['used_today']}/{quota['daily_limit']} papers analyzed today). Configure your own LLM in Settings for unlimited access.",
+                    "used_today": str(quota['used_today']),
+                    "daily_limit": str(quota['daily_limit'])
+                }
+
+        # Create cache directory if it doesn't exist
+        cache_dir = Path(PMG_CONFIG.cache_dir)
+        cache_dir.mkdir(parents=True, exist_ok=True)
+
+        # Generate unique filename
+        import uuid
+        file_id = str(uuid.uuid4())[:12]
+        pdf_filename = f"paper_{file_id}.pdf"
+        pdf_path = cache_dir / pdf_filename
+
+        # Save uploaded file to cache
+        with pdf_path.open("wb") as buffer:
+            shutil.copyfileobj(file.file, buffer)
+
+        print(f"📥 Saved uploaded file to {pdf_path}")
+
+        # If paper_id provided, check if analysis exists
+        if paper_id and not force_reanalyze:
+            query = supabase.table("paper_analysis").select("id").eq("paper_id", paper_id)
+            if community_id:
+                query = query.eq("community_id", community_id)
+            if session_id:
+                query = query.eq("session_id", session_id)
+
+            existing = query.execute()
+            if existing.data:
+                # Clean up uploaded file since we're not using it
+                if pdf_path.exists():
+                    pdf_path.unlink()
+                return {
+                    "status": "exists",
+                    "analysis_id": existing.data[0]["id"],
+                    "message": "Analysis already exists. Use force_reanalyze=true to regenerate."
+                }
+
+        # If no paper_id, we need to create a paper record first
+        if not paper_id:
+            # Try to extract metadata from PDF
+            try:
+                # Use PaperMindGraph to extract basic info
+                config = get_user_llm_config(user_id_to_use)
+                pmg_temp = PaperMindGraph(str(pdf_path), config=config, verbose=False)
+
+                # Create paper record
+                paper_data = {
+                    "title": pmg_temp.title or file.filename.replace('.pdf', ''),
+                    "abstract": pmg_temp.abstract or "",
+                    "pdf_url": f"uploaded:{file.filename}",
+                }
+
+                result = supabase.table("papers").insert(paper_data).execute()
+                paper_id = result.data[0]["id"]
+                print(f"✓ Created paper record: {paper_id}")
+
+            except Exception as e:
+                print(f"⚠️  Could not extract metadata, creating minimal paper record: {e}")
+                paper_data = {
+                    "title": file.filename.replace('.pdf', ''),
+                    "pdf_url": f"uploaded:{file.filename}",
+                }
+                result = supabase.table("papers").insert(paper_data).execute()
+                paper_id = result.data[0]["id"]
+
+        # Run analysis in background using the local file path
+        background_tasks = BackgroundTasks()
+        background_tasks.add_task(
+            analyze_paper_internal,
+            paper_id,
+            str(pdf_path),  # Use local file path instead of URL
+            user_id_to_use,
+            community_id,
+            session_id,
+        )
+
+        # Execute background tasks
+        await background_tasks()
+
+        return {
+            "status": "processing",
+            "paper_id": paper_id,
+            "message": "Analysis started. Check back in a few minutes."
+        }
+
+    except HTTPException:
+        # Clean up uploaded file on error
+        if 'pdf_path' in locals() and pdf_path.exists():
+            pdf_path.unlink()
+        raise
+    except Exception as e:
+        # Clean up uploaded file on error
+        if 'pdf_path' in locals() and pdf_path.exists():
+            pdf_path.unlink()
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        # Close the uploaded file
+        await file.close()
 
 @app.post("/analyze/session", response_model=Dict[str, Any])
 async def analyze_session(
@@ -1022,6 +1181,46 @@ async def ask_question(request: AskQuestionRequest):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/analysis/list")
+async def list_analyzed_papers(
+    community_id: Optional[str] = None,
+    session_id: Optional[str] = None,
+    user_id: Optional[str] = None
+):
+    """
+    List papers with analysis for the user/community.
+
+    Query Parameters:
+        - community_id: Filter by community
+        - session_id: Filter by session
+        - user_id: Filter by user (optional for now)
+
+    Returns:
+        List of papers with analysis metadata
+    """
+    try:
+        query = supabase.table("paper_analysis").select(
+            "id, paper_id, created_at, concepts_count, methods_count, "
+            "experiments_count, processing_time_seconds, "
+            "papers:paper_id (id, title, authors, arxiv_id, year, venue)"
+        )
+
+        if community_id:
+            query = query.eq("community_id", community_id)
+        if session_id:
+            query = query.eq("session_id", session_id)
+        if user_id:
+            query = query.eq("created_by", user_id)
+
+        query = query.order("created_at", desc=True)
+        result = query.execute()
+
+        return {"papers": result.data or []}
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=f"Failed to list analyzed papers: {str(e)}")
 
 @app.post("/test-llm-connection")
 async def test_llm_connection(request: TestLLMConnectionRequest):

@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  # Unified Paper Circle API
+  papercircle-api:
+    build:
+      context: .
+      dockerfile: apis/unified/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persist cache and output
+      - ./paper_cache:/app/paper_cache
+      - ./research_output:/app/research_output
+    environment:
+      # Supabase
+      - VITE_SUPABASE_URL=${VITE_SUPABASE_URL}
+      - VITE_SUPABASE_ANON_KEY=${VITE_SUPABASE_ANON_KEY}
+      - SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
+      # Default LLM (Ollama)
+      - OLLAMA_API_BASE=${OLLAMA_API_BASE:-http://host.docker.internal:11434}
+      - OLLAMA_MODEL=${OLLAMA_MODEL:-ollama_chat/qwen3-coder:30b}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    deploy:
+      resources:
+        limits:
+          memory: 8G
+          cpus: '4'
+        reservations:
+          memory: 2G
+          cpus: '1'
+
+  # Optional: Ollama for local LLM (uncomment if needed)
+  # ollama:
+  #   image: ollama/ollama:latest
+  #   ports:
+  #     - "11434:11434"
+  #   volumes:
+  #     - ollama_models:/root/.ollama
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #             count: 1
+  #             capabilities: [gpu]
+
+volumes:
+  ollama_models:

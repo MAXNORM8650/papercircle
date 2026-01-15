@@ -165,45 +165,56 @@ class MermaidExporter:
     def export_mindmap(self, graph: MindGraph) -> str:
         """Export as Mermaid mindmap."""
         mermaid = "mindmap\n"
-        mermaid += f"  root(({self._escape(graph.metadata.title[:30])}))\n"
-        
+
+        # Escape and validate root title
+        root_title = self._escape(graph.metadata.title[:40]) or "Paper"
+        mermaid += f"  root(({root_title}))\n"
+
         # Add top-level sections
         for section in graph.sections:
             if section.level == 1:
-                section_name = self._escape(section.title[:20])
+                section_name = self._escape(section.title[:30])
+                if not section_name:
+                    continue
                 mermaid += f"    {section_name}\n"
-                
-                # Add concepts under section
+
+                # Add concepts under section (limit to avoid huge diagrams)
+                concept_count = 0
                 for edge in graph.get_edges_from(section.id):
-                    if edge.type == EdgeType.DEFINES:
+                    if edge.type == EdgeType.DEFINES and concept_count < 10:
                         target = graph.get_node(edge.target_id)
                         if target and target.type == NodeType.CONCEPT:
-                            concept_name = self._escape(target.title[:15])
-                            mermaid += f"      {concept_name}\n"
-        
+                            concept_name = self._escape(target.title[:25])
+                            if concept_name:
+                                mermaid += f"      {concept_name}\n"
+                                concept_count += 1
+
         return mermaid
     
     def export_flowchart(
         self,
         graph: MindGraph,
         node_types: List[NodeType] = None,
-        direction: str = "TB"
+        direction: str = "TB",
+        max_nodes: int = 50
     ) -> str:
         """Export as Mermaid flowchart."""
         if node_types is None:
             node_types = [NodeType.CONCEPT, NodeType.METHOD, NodeType.EXPERIMENT]
-        
+
         mermaid = f"flowchart {direction}\n"
-        
-        # Filter nodes
-        nodes = [n for n in graph.nodes.values() if n.type in node_types]
+
+        # Filter nodes and limit count
+        nodes = [n for n in graph.nodes.values() if n.type in node_types][:max_nodes]
         node_ids = {n.id for n in nodes}
-        
+
         # Add nodes with styling
         for node in nodes:
             label = self._escape(node.title[:20])
+            if not label:
+                label = "Node"
             node_id = self._sanitize_id(node.id)
-            
+
             if node.type == NodeType.METHOD:
                 mermaid += f"    {node_id}[/{label}/]\n"  # Parallelogram
             elif node.type == NodeType.EXPERIMENT:
@@ -212,33 +223,35 @@ class MermaidExporter:
                 mermaid += f"    {node_id}({label})\n"  # Rounded
             else:
                 mermaid += f"    {node_id}[{label}]\n"  # Rectangle
-        
+
         # Add edges
+        edge_count = 0
         for edge in graph.edges.values():
-            if edge.source_id in node_ids and edge.target_id in node_ids:
+            if edge.source_id in node_ids and edge.target_id in node_ids and edge_count < 100:
                 source = self._sanitize_id(edge.source_id)
                 target = self._sanitize_id(edge.target_id)
-                
-                label = edge.type.value.replace("_", " ")[:10]
+
+                label = self._escape(edge.type.value.replace("_", " ")[:15])
                 mermaid += f"    {source} -->|{label}| {target}\n"
-        
+                edge_count += 1
+
         # Add styling
         mermaid += "\n    classDef concept fill:#e1f5fe\n"
         mermaid += "    classDef method fill:#fff3e0\n"
         mermaid += "    classDef experiment fill:#e8f5e9\n"
-        
+
         # Apply classes
         concepts = [self._sanitize_id(n.id) for n in nodes if n.type == NodeType.CONCEPT]
         methods = [self._sanitize_id(n.id) for n in nodes if n.type == NodeType.METHOD]
         experiments = [self._sanitize_id(n.id) for n in nodes if n.type == NodeType.EXPERIMENT]
-        
+
         if concepts:
             mermaid += f"    class {','.join(concepts)} concept\n"
         if methods:
             mermaid += f"    class {','.join(methods)} method\n"
         if experiments:
             mermaid += f"    class {','.join(experiments)} experiment\n"
-        
+
         return mermaid
     
     def export_graph(self, graph: MindGraph, include_figures: bool = False) -> str:
@@ -283,8 +296,24 @@ class MermaidExporter:
         return mermaid
     
     def _escape(self, text: str) -> str:
-        """Escape text for Mermaid."""
-        return text.replace('"', "'").replace("\n", " ").replace("(", "[").replace(")", "]")
+        """Escape text for Mermaid labels."""
+        if not text:
+            return ""
+        import re
+        # Remove quotes and brackets that break syntax, replace newlines
+        escaped = text.replace('"', "'").replace("\n", " ").replace("[", "(").replace("]", ")")
+        # Remove other problematic characters for Mermaid
+        escaped = escaped.replace("{", "(").replace("}", ")").replace("<", "(").replace(">", ")")
+        escaped = escaped.replace("|", "-").replace("#", "").replace("&", "and")
+        escaped = escaped.replace("`", "'").replace("\\", "/")
+        # Replace multiple spaces with single space
+        escaped = re.sub(r'\s+', ' ', escaped)
+        # Remove any non-ASCII characters that might cause issues
+        escaped = re.sub(r'[^\x20-\x7E]', '', escaped)
+        # Trim whitespace
+        escaped = escaped.strip()
+        # Ensure we don't have empty result
+        return escaped if escaped else "Node"
     
     def _sanitize_id(self, id: str) -> str:
         """Sanitize ID for Mermaid (no special chars)."""

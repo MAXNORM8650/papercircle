@@ -1,0 +1,80 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-04T02:34:43.073119",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Deep Seek'",
+      "result_preview": "Found 200 papers",
+      "details": {
+        "query": "Deep Seek",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 200,
+        "papers_added": 200,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 200
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-04T02:34:54.928029",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'Deep Seek'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "Deep Seek",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 43,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 243
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-04T02:34:58.809326",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Deep Seek company'",
+      "result_preview": "Found 233 papers",
+      "details": {
+        "query": "Deep Seek company",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 233,
+        "papers_added": 129,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 372
+    }
+  ],
+  "current_step": 3,
+  "metadata": {
+    "query": "Deep Seek company",
+    "total_steps": 3,
+    "last_updated": "2026-01-04T02:34:58.835996",
+    "started_at": "2026-01-04T02:34:29.889346",
+    "total_papers": 372
+  }
+}

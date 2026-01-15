@@ -1,0 +1,974 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Parameter-efficient Multi-task Fine-tuning for Transformers via Shared Hypernetworks",
+        "url": "https://aclanthology.org/2021.acl-long.47/",
+        "pdf_url": "https://aclanthology.org/2021.acl-long.47.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2021
+      },
+      {
+        "title": "Carrying over Algorithm in Transformers",
+        "url": "https://openreview.net/forum?id=t3gOYtv1xV",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Transformers As Meta-Learners for Implicit Neural Representations",
+        "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/6220_ECCV_2022_paper.php",
+        "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136770173.pdf",
+        "doi_url": null,
+        "source": "offline_eccv",
+        "year": 2022
+      },
+      {
+        "title": "Molecule Property Prediction and Classification with Graph Hypernetworks",
+        "url": "https://openreview.net/forum?id=SJgg_yHKvH",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2020
+      },
+      {
+        "title": "Hypernetworks in Meta-Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=N-HtsQkRotI",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_corl",
+        "year": 2022
+      },
+      {
+        "title": "Exploring the Sensitivity of LLMs' Decision-Making Capabilities: Insights from Prompt Variations and Hyperparameters",
+        "url": "https://openreview.net/forum?id=noPuQXVx8Y",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2023
+      },
+      {
+        "title": "Principled Weight Initialization for Hypernetworks",
+        "url": "https://openreview.net/forum?id=H1lma24tPB",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2020
+      },
+      {
+        "title": "HyperEditor: Achieving Both Authenticity and Cross-Domain Capability in Image Editing via Hypernetworks",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28532",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/28532/29037",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2024
+      },
+      {
+        "title": "Delta-STN: Efficient Bilevel Optimization for Neural Networks using Structured Response Jacobians",
+        "url": "https://nips.cc/virtual/2020/poster/18819",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2020/file/f754186469a933256d7d64095e963594-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2020
+      },
+      {
+        "title": "HyperPosePDF - Hypernetworks Predicting the Probability Distribution on SO(3)",
+        "url": "https://openaccess.thecvf.com/content/WACV2023/html/Hofer_HyperPosePDF_-_Hypernetworks_Predicting_the_Probability_Distribution_on_SO3_WACV_2023_paper.html",
+        "pdf_url": "https://openaccess.thecvf.com/content/WACV2023/papers/Hofer_HyperPosePDF_-_Hypernetworks_Predicting_the_Probability_Distribution_on_SO3_WACV_2023_paper.pdf",
+        "doi_url": null,
+        "source": "offline_wacv",
+        "year": 2023
+      },
+      {
+        "title": "Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit",
+        "url": "https://iclr.cc/virtual/2024/poster/18897",
+        "pdf_url": "https://openreview.net/pdf?id=KZJehvRKGD",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Hypernetworks for Zero-Shot Transfer in Reinforcement Learning",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26146",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/26146/25918",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2023
+      },
+      {
+        "title": "HYPERTTS: Parameter Efficient Adaptation in Text to Speech Using Hypernetworks",
+        "url": "https://aclanthology.org/2024.lrec-main.747/",
+        "pdf_url": "https://aclanthology.org/2024.lrec-main.747.pdf",
+        "doi_url": null,
+        "source": "offline_coling",
+        "year": 2024
+      },
+      {
+        "title": "LLM can Achieve Self-Regulation via Hyperparameter Aware Generation",
+        "url": "https://aclanthology.org/2024.findings-acl.396/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.396.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "HyperDynamics: Meta-Learning Object and Agent Dynamics with Hypernetworks",
+        "url": "https://iclr.cc/virtual/2021/poster/3305",
+        "pdf_url": "https://openreview.net/pdf?id=pHXfe1cOmA",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2021
+      },
+      {
+        "title": "Transformers for Recognition in Overhead Imagery: A Reality Check",
+        "url": "https://openaccess.thecvf.com/content/WACV2023/html/Luzi_Transformers_for_Recognition_in_Overhead_Imagery_A_Reality_Check_WACV_2023_paper.html",
+        "pdf_url": "https://openaccess.thecvf.com/content/WACV2023/papers/Luzi_Transformers_for_Recognition_in_Overhead_Imagery_A_Reality_Check_WACV_2023_paper.pdf",
+        "doi_url": null,
+        "source": "offline_wacv",
+        "year": 2023
+      },
+      {
+        "title": "On Infinite-Width Hypernetworks",
+        "url": "https://nips.cc/virtual/2020/poster/18670",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2020/file/999df4ce78b966de17aee1dc87111044-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2020
+      },
+      {
+        "title": "Continual Model-Based Reinforcement Learning with Hypernetworks",
+        "url": "https://ieeexplore.ieee.org/document/9560793/",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_icra",
+        "year": 2021
+      },
+      {
+        "title": "On the Modularity of Hypernetworks",
+        "url": "https://nips.cc/virtual/2020/poster/17901",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2020/file/75c58d36157505a600e0695ed0b3a22d-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2020
+      },
+      {
+        "title": "Do LLMs dream of elephants (when told not to)? Latent concept association and associative memory in transformers",
+        "url": "https://neurips.cc/virtual/2024/poster/94839",
+        "pdf_url": "https://openreview.net/pdf?id=WJ04ZX8txM",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Personalized Federated Hypernetworks for Privacy Preservation in Multi-Task Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=AGLG_ncNp0X",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Frozen Transformers in Language Models Are Effective Visual Encoder Layers",
+        "url": "https://iclr.cc/virtual/2024/poster/17627",
+        "pdf_url": "https://openreview.net/pdf?id=t0FI3Q66K5",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Wide Attention is the Way Forward for Transformers",
+        "url": "https://openreview.net/forum?id=-rHOeHtdWP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Continual Learning With Dependency Preserving Hypernetworks",
+        "url": "https://openaccess.thecvf.com/content/WACV2023/html/Chandra_Continual_Learning_With_Dependency_Preserving_Hypernetworks_WACV_2023_paper.html",
+        "pdf_url": "https://openaccess.thecvf.com/content/WACV2023/papers/Chandra_Continual_Learning_With_Dependency_Preserving_Hypernetworks_WACV_2023_paper.pdf",
+        "doi_url": null,
+        "source": "offline_wacv",
+        "year": 2023
+      },
+      {
+        "title": "Contextual HyperNetworks for Novel Feature Adaptation",
+        "url": "https://openreview.net/forum?id=CYHMIhbuLFl",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2021
+      },
+      {
+        "title": "Understanding In-Context Learning in Transformers and LLMs by Learning to Learn Discrete Functions",
+        "url": "https://iclr.cc/virtual/2024/poster/18211",
+        "pdf_url": "https://openreview.net/pdf?id=ekeyCgeRfC",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "HyperMAML: Few-Shot Adaptation of Deep Models with Hypernetworks",
+        "url": "https://openreview.net/forum?id=uAb5lQqdeHd",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "HyperDreamBooth: HyperNetworks for Fast Personalization of Text-to-Image Models",
+        "url": "https://cvpr.thecvf.com/virtual/2024/poster/31074",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Ruiz_HyperDreamBooth_HyperNetworks_for_Fast_Personalization_of_Text-to-Image_Models_CVPR_2024_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2024
+      },
+      {
+        "title": "Linking In-context Learning in Transformers to Human Episodic Memory",
+        "url": "https://neurips.cc/virtual/2024/poster/96248",
+        "pdf_url": "https://openreview.net/pdf?id=AYDBFxNon4",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Finding and Editing Multi-Modal Neurons in Pre-Trained Transformers",
+        "url": "https://aclanthology.org/2024.findings-acl.60/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.60.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Improving Faithfulness of Large Language Models in Summarization via Sliding Generation and Self-Consistency",
+        "url": "https://aclanthology.org/2024.lrec-main.771/",
+        "pdf_url": "https://aclanthology.org/2024.lrec-main.771.pdf",
+        "doi_url": null,
+        "source": "offline_coling",
+        "year": 2024
+      },
+      {
+        "title": "Continual learning with hypernetworks",
+        "url": "https://openreview.net/forum?id=SJgwNerKvB",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2020
+      },
+      {
+        "title": "Scale-Space Hypernetworks for Efficient Biomedical Image Analysis",
+        "url": "https://nips.cc/virtual/2023/poster/71197",
+        "pdf_url": "https://openreview.net/pdf?id=aN0llPIbdg",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2023
+      },
+      {
+        "title": "Revisiting Linear Decision Boundaries for Few-Shot Learning with Transformer Hypernetworks",
+        "url": "https://openreview.net/forum?id=e6L5E8ig792",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2022
+      },
+      {
+        "title": "RepQ-ViT: Scale Reparameterization for Post-Training Quantization of Vision Transformers",
+        "url": "",
+        "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Li_RepQ-ViT_Scale_Reparameterization_for_Post-Training_Quantization_of_Vision_Transformers_ICCV_2023_paper.pdf",
+        "doi_url": null,
+        "source": "offline_iccv",
+        "year": 2023
+      },
+      {
+        "title": "LLMs Are Zero-Shot Context-Aware Simultaneous Translators",
+        "url": "https://aclanthology.org/2024.emnlp-main.69/",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.69.pdf",
+        "doi_url": null,
+        "source": "offline_emnlp",
+        "year": 2024
+      },
+      {
+        "title": "Task-Agnostic Amortized Inference of Gaussian Process Hyperparameters",
+        "url": "https://nips.cc/virtual/2020/poster/18199",
+        "pdf_url": "https://papers.nips.cc/paper_files/paper/2020/file/f52db9f7c0ae7017ee41f63c2a7353bc-Paper.pdf",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2020
+      },
+      {
+        "title": "Normalized Attention Without Probability Cage",
+        "url": "https://openreview.net/forum?id=PeG-8G5ua3W",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2022
+      },
+      {
+        "title": "Fast Unsupervised Deep Outlier Model Selection with Hypernetworks",
+        "url": "https://openreview.net/forum?id=16IIkb5wYe",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Hyper-CL: Conditioning Sentence Representations with Hypernetworks",
+        "url": "https://aclanthology.org/2024.acl-long.41/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.41.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Learning the Pareto Front with Hypernetworks",
+        "url": "https://iclr.cc/virtual/2021/poster/2593",
+        "pdf_url": "https://openreview.net/pdf?id=NjF772F4ZZR",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2021
+      },
+      {
+        "title": "Plansformer: Generating Multi-Domain Symbolic Plans using Transformers",
+        "url": "https://openreview.net/forum?id=uvSQ8WhWHQ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Signal Propagation in Transformers: Theoretical Perspectives and the Role of Rank Collapse",
+        "url": "https://nips.cc/virtual/2022/poster/53861",
+        "pdf_url": "https://openreview.net/pdf?id=FxVH7iToXS",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2022
+      },
+      {
+        "title": "Enhancing Diversity in Bayesian Deep Learning via Hyperspherical Energy Minimization of CKA",
+        "url": "https://neurips.cc/virtual/2024/poster/93406",
+        "pdf_url": "https://openreview.net/pdf?id=s2hA6Bz3LE",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "On the Importance of Architectures and Hyperparameters for Fairness in Face Recognition",
+        "url": "https://openreview.net/forum?id=iiRDsy85uXi",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Improving Pareto Front Learning via Multi-Sample Hypernetworks",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25953",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/25953/25725",
+        "doi_url": null,
+        "source": "offline_aaai",
+        "year": 2023
+      },
+      {
+        "title": "HyperShot: Few-Shot Learning by Kernel HyperNetworks",
+        "url": "https://openaccess.thecvf.com/content/WACV2023/html/Sendera_HyperShot_Few-Shot_Learning_by_Kernel_HyperNetworks_WACV_2023_paper.html",
+        "pdf_url": "https://openaccess.thecvf.com/content/WACV2023/papers/Sendera_HyperShot_Few-Shot_Learning_by_Kernel_HyperNetworks_WACV_2023_paper.pdf",
+        "doi_url": null,
+        "source": "offline_wacv",
+        "year": 2023
+      },
+      {
+        "title": "Federated Learning with Heterogeneous Architectures using Graph HyperNetworks",
+        "url": "https://openreview.net/forum?id=7x_47XJULn",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2022
+      },
+      {
+        "title": "Locally Differentially Private In-Context Learning",
+        "url": "https://aclanthology.org/2024.lrec-main.935/",
+        "pdf_url": "https://aclanthology.org/2024.lrec-main.935.pdf",
+        "doi_url": null,
+        "source": "offline_coling",
+        "year": 2024
+      },
+      {
+        "title": "DHP: Differentiable Meta Pruning via HyperNetworks",
+        "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/637_ECCV_2020_paper.php",
+        "pdf_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530596.pdf",
+        "doi_url": null,
+        "source": "offline_eccv",
+        "year": 2020
+      }
+    ],
+    "by_source": {
+      "offline_acl": [
+        {
+          "title": "Parameter-efficient Multi-task Fine-tuning for Transformers via Shared Hypernetworks",
+          "url": "https://aclanthology.org/2021.acl-long.47/",
+          "pdf_url": "https://aclanthology.org/2021.acl-long.47.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2021
+        },
+        {
+          "title": "LLM can Achieve Self-Regulation via Hyperparameter Aware Generation",
+          "url": "https://aclanthology.org/2024.findings-acl.396/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.396.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Finding and Editing Multi-Modal Neurons in Pre-Trained Transformers",
+          "url": "https://aclanthology.org/2024.findings-acl.60/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.60.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Hyper-CL: Conditioning Sentence Representations with Hypernetworks",
+          "url": "https://aclanthology.org/2024.acl-long.41/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.41.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        }
+      ],
+      "offline_iclr": [
+        {
+          "title": "Carrying over Algorithm in Transformers",
+          "url": "https://openreview.net/forum?id=t3gOYtv1xV",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Molecule Property Prediction and Classification with Graph Hypernetworks",
+          "url": "https://openreview.net/forum?id=SJgg_yHKvH",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2020
+        },
+        {
+          "title": "Principled Weight Initialization for Hypernetworks",
+          "url": "https://openreview.net/forum?id=H1lma24tPB",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2020
+        },
+        {
+          "title": "Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit",
+          "url": "https://iclr.cc/virtual/2024/poster/18897",
+          "pdf_url": "https://openreview.net/pdf?id=KZJehvRKGD",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "HyperDynamics: Meta-Learning Object and Agent Dynamics with Hypernetworks",
+          "url": "https://iclr.cc/virtual/2021/poster/3305",
+          "pdf_url": "https://openreview.net/pdf?id=pHXfe1cOmA",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2021
+        },
+        {
+          "title": "Personalized Federated Hypernetworks for Privacy Preservation in Multi-Task Reinforcement Learning",
+          "url": "https://openreview.net/forum?id=AGLG_ncNp0X",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Frozen Transformers in Language Models Are Effective Visual Encoder Layers",
+          "url": "https://iclr.cc/virtual/2024/poster/17627",
+          "pdf_url": "https://openreview.net/pdf?id=t0FI3Q66K5",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Wide Attention is the Way Forward for Transformers",
+          "url": "https://openreview.net/forum?id=-rHOeHtdWP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Contextual HyperNetworks for Novel Feature Adaptation",
+          "url": "https://openreview.net/forum?id=CYHMIhbuLFl",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2021
+        },
+        {
+          "title": "Understanding In-Context Learning in Transformers and LLMs by Learning to Learn Discrete Functions",
+          "url": "https://iclr.cc/virtual/2024/poster/18211",
+          "pdf_url": "https://openreview.net/pdf?id=ekeyCgeRfC",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "HyperMAML: Few-Shot Adaptation of Deep Models with Hypernetworks",
+          "url": "https://openreview.net/forum?id=uAb5lQqdeHd",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Continual learning with hypernetworks",
+          "url": "https://openreview.net/forum?id=SJgwNerKvB",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2020
+        },
+        {
+          "title": "Revisiting Linear Decision Boundaries for Few-Shot Learning with Transformer Hypernetworks",
+          "url": "https://openreview.net/forum?id=e6L5E8ig792",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2022
+        },
+        {
+          "title": "Normalized Attention Without Probability Cage",
+          "url": "https://openreview.net/forum?id=PeG-8G5ua3W",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2022
+        },
+        {
+          "title": "Fast Unsupervised Deep Outlier Model Selection with Hypernetworks",
+          "url": "https://openreview.net/forum?id=16IIkb5wYe",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "Learning the Pareto Front with Hypernetworks",
+          "url": "https://iclr.cc/virtual/2021/poster/2593",
+          "pdf_url": "https://openreview.net/pdf?id=NjF772F4ZZR",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2021
+        },
+        {
+          "title": "Plansformer: Generating Multi-Domain Symbolic Plans using Transformers",
+          "url": "https://openreview.net/forum?id=uvSQ8WhWHQ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "On the Importance of Architectures and Hyperparameters for Fairness in Face Recognition",
+          "url": "https://openreview.net/forum?id=iiRDsy85uXi",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Federated Learning with Heterogeneous Architectures using Graph HyperNetworks",
+          "url": "https://openreview.net/forum?id=7x_47XJULn",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2022
+        }
+      ],
+      "offline_eccv": [
+        {
+          "title": "Transformers As Meta-Learners for Implicit Neural Representations",
+          "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/6220_ECCV_2022_paper.php",
+          "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136770173.pdf",
+          "doi_url": null,
+          "source": "offline_eccv",
+          "year": 2022
+        },
+        {
+          "title": "DHP: Differentiable Meta Pruning via HyperNetworks",
+          "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/637_ECCV_2020_paper.php",
+          "pdf_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530596.pdf",
+          "doi_url": null,
+          "source": "offline_eccv",
+          "year": 2020
+        }
+      ],
+      "offline_corl": [
+        {
+          "title": "Hypernetworks in Meta-Reinforcement Learning",
+          "url": "https://openreview.net/forum?id=N-HtsQkRotI",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_corl",
+          "year": 2022
+        }
+      ],
+      "offline_emnlp": [
+        {
+          "title": "Exploring the Sensitivity of LLMs' Decision-Making Capabilities: Insights from Prompt Variations and Hyperparameters",
+          "url": "https://openreview.net/forum?id=noPuQXVx8Y",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2023
+        },
+        {
+          "title": "LLMs Are Zero-Shot Context-Aware Simultaneous Translators",
+          "url": "https://aclanthology.org/2024.emnlp-main.69/",
+          "pdf_url": "https://aclanthology.org/2024.emnlp-main.69.pdf",
+          "doi_url": null,
+          "source": "offline_emnlp",
+          "year": 2024
+        }
+      ],
+      "offline_aaai": [
+        {
+          "title": "HyperEditor: Achieving Both Authenticity and Cross-Domain Capability in Image Editing via Hypernetworks",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28532",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/28532/29037",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2024
+        },
+        {
+          "title": "Hypernetworks for Zero-Shot Transfer in Reinforcement Learning",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26146",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/26146/25918",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2023
+        },
+        {
+          "title": "Improving Pareto Front Learning via Multi-Sample Hypernetworks",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25953",
+          "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/25953/25725",
+          "doi_url": null,
+          "source": "offline_aaai",
+          "year": 2023
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "Delta-STN: Efficient Bilevel Optimization for Neural Networks using Structured Response Jacobians",
+          "url": "https://nips.cc/virtual/2020/poster/18819",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2020/file/f754186469a933256d7d64095e963594-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2020
+        },
+        {
+          "title": "On Infinite-Width Hypernetworks",
+          "url": "https://nips.cc/virtual/2020/poster/18670",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2020/file/999df4ce78b966de17aee1dc87111044-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2020
+        },
+        {
+          "title": "On the Modularity of Hypernetworks",
+          "url": "https://nips.cc/virtual/2020/poster/17901",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2020/file/75c58d36157505a600e0695ed0b3a22d-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2020
+        },
+        {
+          "title": "Do LLMs dream of elephants (when told not to)? Latent concept association and associative memory in transformers",
+          "url": "https://neurips.cc/virtual/2024/poster/94839",
+          "pdf_url": "https://openreview.net/pdf?id=WJ04ZX8txM",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Linking In-context Learning in Transformers to Human Episodic Memory",
+          "url": "https://neurips.cc/virtual/2024/poster/96248",
+          "pdf_url": "https://openreview.net/pdf?id=AYDBFxNon4",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "Scale-Space Hypernetworks for Efficient Biomedical Image Analysis",
+          "url": "https://nips.cc/virtual/2023/poster/71197",
+          "pdf_url": "https://openreview.net/pdf?id=aN0llPIbdg",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2023
+        },
+        {
+          "title": "Task-Agnostic Amortized Inference of Gaussian Process Hyperparameters",
+          "url": "https://nips.cc/virtual/2020/poster/18199",
+          "pdf_url": "https://papers.nips.cc/paper_files/paper/2020/file/f52db9f7c0ae7017ee41f63c2a7353bc-Paper.pdf",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2020
+        },
+        {
+          "title": "Signal Propagation in Transformers: Theoretical Perspectives and the Role of Rank Collapse",
+          "url": "https://nips.cc/virtual/2022/poster/53861",
+          "pdf_url": "https://openreview.net/pdf?id=FxVH7iToXS",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2022
+        },
+        {
+          "title": "Enhancing Diversity in Bayesian Deep Learning via Hyperspherical Energy Minimization of CKA",
+          "url": "https://neurips.cc/virtual/2024/poster/93406",
+          "pdf_url": "https://openreview.net/pdf?id=s2hA6Bz3LE",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        }
+      ],
+      "offline_wacv": [
+        {
+          "title": "HyperPosePDF - Hypernetworks Predicting the Probability Distribution on SO(3)",
+          "url": "https://openaccess.thecvf.com/content/WACV2023/html/Hofer_HyperPosePDF_-_Hypernetworks_Predicting_the_Probability_Distribution_on_SO3_WACV_2023_paper.html",
+          "pdf_url": "https://openaccess.thecvf.com/content/WACV2023/papers/Hofer_HyperPosePDF_-_Hypernetworks_Predicting_the_Probability_Distribution_on_SO3_WACV_2023_paper.pdf",
+          "doi_url": null,
+          "source": "offline_wacv",
+          "year": 2023
+        },
+        {
+          "title": "Transformers for Recognition in Overhead Imagery: A Reality Check",
+          "url": "https://openaccess.thecvf.com/content/WACV2023/html/Luzi_Transformers_for_Recognition_in_Overhead_Imagery_A_Reality_Check_WACV_2023_paper.html",
+          "pdf_url": "https://openaccess.thecvf.com/content/WACV2023/papers/Luzi_Transformers_for_Recognition_in_Overhead_Imagery_A_Reality_Check_WACV_2023_paper.pdf",
+          "doi_url": null,
+          "source": "offline_wacv",
+          "year": 2023
+        },
+        {
+          "title": "Continual Learning With Dependency Preserving Hypernetworks",
+          "url": "https://openaccess.thecvf.com/content/WACV2023/html/Chandra_Continual_Learning_With_Dependency_Preserving_Hypernetworks_WACV_2023_paper.html",
+          "pdf_url": "https://openaccess.thecvf.com/content/WACV2023/papers/Chandra_Continual_Learning_With_Dependency_Preserving_Hypernetworks_WACV_2023_paper.pdf",
+          "doi_url": null,
+          "source": "offline_wacv",
+          "year": 2023
+        },
+        {
+          "title": "HyperShot: Few-Shot Learning by Kernel HyperNetworks",
+          "url": "https://openaccess.thecvf.com/content/WACV2023/html/Sendera_HyperShot_Few-Shot_Learning_by_Kernel_HyperNetworks_WACV_2023_paper.html",
+          "pdf_url": "https://openaccess.thecvf.com/content/WACV2023/papers/Sendera_HyperShot_Few-Shot_Learning_by_Kernel_HyperNetworks_WACV_2023_paper.pdf",
+          "doi_url": null,
+          "source": "offline_wacv",
+          "year": 2023
+        }
+      ],
+      "offline_coling": [
+        {
+          "title": "HYPERTTS: Parameter Efficient Adaptation in Text to Speech Using Hypernetworks",
+          "url": "https://aclanthology.org/2024.lrec-main.747/",
+          "pdf_url": "https://aclanthology.org/2024.lrec-main.747.pdf",
+          "doi_url": null,
+          "source": "offline_coling",
+          "year": 2024
+        },
+        {
+          "title": "Improving Faithfulness of Large Language Models in Summarization via Sliding Generation and Self-Consistency",
+          "url": "https://aclanthology.org/2024.lrec-main.771/",
+          "pdf_url": "https://aclanthology.org/2024.lrec-main.771.pdf",
+          "doi_url": null,
+          "source": "offline_coling",
+          "year": 2024
+        },
+        {
+          "title": "Locally Differentially Private In-Context Learning",
+          "url": "https://aclanthology.org/2024.lrec-main.935/",
+          "pdf_url": "https://aclanthology.org/2024.lrec-main.935.pdf",
+          "doi_url": null,
+          "source": "offline_coling",
+          "year": 2024
+        }
+      ],
+      "offline_icra": [
+        {
+          "title": "Continual Model-Based Reinforcement Learning with Hypernetworks",
+          "url": "https://ieeexplore.ieee.org/document/9560793/",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_icra",
+          "year": 2021
+        }
+      ],
+      "offline_cvpr": [
+        {
+          "title": "HyperDreamBooth: HyperNetworks for Fast Personalization of Text-to-Image Models",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/31074",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Ruiz_HyperDreamBooth_HyperNetworks_for_Fast_Personalization_of_Text-to-Image_Models_CVPR_2024_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2024
+        }
+      ],
+      "offline_iccv": [
+        {
+          "title": "RepQ-ViT: Scale Reparameterization for Post-Training Quantization of Vision Transformers",
+          "url": "",
+          "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Li_RepQ-ViT_Scale_Reparameterization_for_Post-Training_Quantization_of_Vision_Transformers_ICCV_2023_paper.pdf",
+          "doi_url": null,
+          "source": "offline_iccv",
+          "year": 2023
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Parameter-efficient Multi-task Fine-tuning for Transformers via Shared Hypernetworks",
+        "pdf": "https://aclanthology.org/2021.acl-long.47.pdf"
+      },
+      {
+        "title": "Transformers As Meta-Learners for Implicit Neural Representations",
+        "pdf": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136770173.pdf"
+      },
+      {
+        "title": "HyperEditor: Achieving Both Authenticity and Cross-Domain Capability in Image Editing via Hypernetworks",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/28532/29037"
+      },
+      {
+        "title": "Delta-STN: Efficient Bilevel Optimization for Neural Networks using Structured Response Jacobians",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2020/file/f754186469a933256d7d64095e963594-Paper.pdf"
+      },
+      {
+        "title": "HyperPosePDF - Hypernetworks Predicting the Probability Distribution on SO(3)",
+        "pdf": "https://openaccess.thecvf.com/content/WACV2023/papers/Hofer_HyperPosePDF_-_Hypernetworks_Predicting_the_Probability_Distribution_on_SO3_WACV_2023_paper.pdf"
+      },
+      {
+        "title": "Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit",
+        "pdf": "https://openreview.net/pdf?id=KZJehvRKGD"
+      },
+      {
+        "title": "Hypernetworks for Zero-Shot Transfer in Reinforcement Learning",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/26146/25918"
+      },
+      {
+        "title": "HYPERTTS: Parameter Efficient Adaptation in Text to Speech Using Hypernetworks",
+        "pdf": "https://aclanthology.org/2024.lrec-main.747.pdf"
+      },
+      {
+        "title": "LLM can Achieve Self-Regulation via Hyperparameter Aware Generation",
+        "pdf": "https://aclanthology.org/2024.findings-acl.396.pdf"
+      },
+      {
+        "title": "HyperDynamics: Meta-Learning Object and Agent Dynamics with Hypernetworks",
+        "pdf": "https://openreview.net/pdf?id=pHXfe1cOmA"
+      },
+      {
+        "title": "Transformers for Recognition in Overhead Imagery: A Reality Check",
+        "pdf": "https://openaccess.thecvf.com/content/WACV2023/papers/Luzi_Transformers_for_Recognition_in_Overhead_Imagery_A_Reality_Check_WACV_2023_paper.pdf"
+      },
+      {
+        "title": "On Infinite-Width Hypernetworks",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2020/file/999df4ce78b966de17aee1dc87111044-Paper.pdf"
+      },
+      {
+        "title": "On the Modularity of Hypernetworks",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2020/file/75c58d36157505a600e0695ed0b3a22d-Paper.pdf"
+      },
+      {
+        "title": "Do LLMs dream of elephants (when told not to)? Latent concept association and associative memory in transformers",
+        "pdf": "https://openreview.net/pdf?id=WJ04ZX8txM"
+      },
+      {
+        "title": "Frozen Transformers in Language Models Are Effective Visual Encoder Layers",
+        "pdf": "https://openreview.net/pdf?id=t0FI3Q66K5"
+      },
+      {
+        "title": "Continual Learning With Dependency Preserving Hypernetworks",
+        "pdf": "https://openaccess.thecvf.com/content/WACV2023/papers/Chandra_Continual_Learning_With_Dependency_Preserving_Hypernetworks_WACV_2023_paper.pdf"
+      },
+      {
+        "title": "Understanding In-Context Learning in Transformers and LLMs by Learning to Learn Discrete Functions",
+        "pdf": "https://openreview.net/pdf?id=ekeyCgeRfC"
+      },
+      {
+        "title": "HyperDreamBooth: HyperNetworks for Fast Personalization of Text-to-Image Models",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2024/papers/Ruiz_HyperDreamBooth_HyperNetworks_for_Fast_Personalization_of_Text-to-Image_Models_CVPR_2024_paper.pdf"
+      },
+      {
+        "title": "Linking In-context Learning in Transformers to Human Episodic Memory",
+        "pdf": "https://openreview.net/pdf?id=AYDBFxNon4"
+      },
+      {
+        "title": "Finding and Editing Multi-Modal Neurons in Pre-Trained Transformers",
+        "pdf": "https://aclanthology.org/2024.findings-acl.60.pdf"
+      },
+      {
+        "title": "Improving Faithfulness of Large Language Models in Summarization via Sliding Generation and Self-Consistency",
+        "pdf": "https://aclanthology.org/2024.lrec-main.771.pdf"
+      },
+      {
+        "title": "Scale-Space Hypernetworks for Efficient Biomedical Image Analysis",
+        "pdf": "https://openreview.net/pdf?id=aN0llPIbdg"
+      },
+      {
+        "title": "RepQ-ViT: Scale Reparameterization for Post-Training Quantization of Vision Transformers",
+        "pdf": "https://openaccess.thecvf.com/content/ICCV2023/papers/Li_RepQ-ViT_Scale_Reparameterization_for_Post-Training_Quantization_of_Vision_Transformers_ICCV_2023_paper.pdf"
+      },
+      {
+        "title": "LLMs Are Zero-Shot Context-Aware Simultaneous Translators",
+        "pdf": "https://aclanthology.org/2024.emnlp-main.69.pdf"
+      },
+      {
+        "title": "Task-Agnostic Amortized Inference of Gaussian Process Hyperparameters",
+        "pdf": "https://papers.nips.cc/paper_files/paper/2020/file/f52db9f7c0ae7017ee41f63c2a7353bc-Paper.pdf"
+      },
+      {
+        "title": "Hyper-CL: Conditioning Sentence Representations with Hypernetworks",
+        "pdf": "https://aclanthology.org/2024.acl-long.41.pdf"
+      },
+      {
+        "title": "Learning the Pareto Front with Hypernetworks",
+        "pdf": "https://openreview.net/pdf?id=NjF772F4ZZR"
+      },
+      {
+        "title": "Signal Propagation in Transformers: Theoretical Perspectives and the Role of Rank Collapse",
+        "pdf": "https://openreview.net/pdf?id=FxVH7iToXS"
+      },
+      {
+        "title": "Enhancing Diversity in Bayesian Deep Learning via Hyperspherical Energy Minimization of CKA",
+        "pdf": "https://openreview.net/pdf?id=s2hA6Bz3LE"
+      },
+      {
+        "title": "Improving Pareto Front Learning via Multi-Sample Hypernetworks",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/25953/25725"
+      },
+      {
+        "title": "HyperShot: Few-Shot Learning by Kernel HyperNetworks",
+        "pdf": "https://openaccess.thecvf.com/content/WACV2023/papers/Sendera_HyperShot_Few-Shot_Learning_by_Kernel_HyperNetworks_WACV_2023_paper.pdf"
+      },
+      {
+        "title": "Locally Differentially Private In-Context Learning",
+        "pdf": "https://aclanthology.org/2024.lrec-main.935.pdf"
+      },
+      {
+        "title": "DHP: Differentiable Meta Pruning via HyperNetworks",
+        "pdf": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530596.pdf"
+      }
+    ],
+    "dois_only": []
+  },
+  "metadata": {
+    "query": "hyperparameters or hypernetworks in LLMs and Transformers",
+    "total_steps": 1,
+    "last_updated": "2026-01-05T18:49:38.101496",
+    "started_at": "2026-01-05T18:48:39.800614",
+    "total_papers": 50
+  }
+}

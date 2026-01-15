@@ -25,7 +25,11 @@ interface CommunityMember {
   };
 }
 
-export function CircleManagement() {
+interface CircleManagementProps {
+  onNavigate?: (view: string, context?: { circleId?: string }) => void;
+}
+
+export function CircleManagement({ onNavigate }: CircleManagementProps) {
   const { user } = useAuth();
   const [communities, setCommunities] = useState<Community[]>([]);
   const [selectedCommunity, setSelectedCommunity] = useState<Community | null>(null);
@@ -137,6 +141,7 @@ export function CircleManagement() {
       <CircleDetailView
         communityId={selectedCommunity.id}
         onBack={handleBackToList}
+        onNavigate={onNavigate}
       />
     );
   }

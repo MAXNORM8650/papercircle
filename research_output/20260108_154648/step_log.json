@@ -1,0 +1,40 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-08T15:49:24.272632",
+      "agent": "online_search_agent",
+      "action": "Online search: 'use of LLM for petrophysics'",
+      "result_preview": "Found 12 papers",
+      "details": {
+        "query": "use of LLM for petrophysics",
+        "sources": null,
+        "papers_found": 12,
+        "papers_added": 12,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 12
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-08T15:50:00.445234",
+      "agent": "sorting_agent",
+      "action": "Sorted 12 papers by 'recency, bm25'",
+      "result_preview": "Top paper: New Role of Technical Specialists to Enable Digita...",
+      "details": {
+        "sort_by": "recency, bm25",
+        "weights": null,
+        "top_k": 12
+      },
+      "papers_count": 12
+    }
+  ],
+  "current_step": 2,
+  "metadata": {
+    "query": "use of LLM for petrophysics",
+    "total_steps": 2,
+    "last_updated": "2026-01-08T15:50:00.447765",
+    "started_at": "2026-01-08T15:46:50.503799",
+    "total_papers": 12
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "LLMs as judges in fine-tuning processes of other LLMs",
+    "total_papers": 48,
+    "unique_sources": 2,
+    "year_range": {
+      "min": 2025,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 9,
+      "average": 2.2
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 48,
+    "papers_with_doi": 23,
+    "processing_steps": 2
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (25) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 25
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 25 papers (52%)",
+      "data": {
+        "source": "arxiv",
+        "count": 25
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Hsiang-Wei Huang has 2 papers in this collection",
+      "data": {
+        "author": "Hsiang-Wei Huang",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Internet of Agents: Fundamentals, Applications, and Challenges...\" has 4 citations",
+      "data": {
+        "title": "Internet of Agents: Fundamentals, Applications, and Challenges",
+        "citations": 4
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: quantum, large, language, multi, system",
+      "data": {
+        "keywords": {
+          "quantum": 6,
+          "large": 5,
+          "language": 5,
+          "multi": 4,
+          "system": 4
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "48/48 papers (100%) have direct PDF links",
+      "data": {
+        "with_pdf": 48,
+        "total": 48
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 48 papers related to 'LLMs as judges in fine-tuning processes of other LLMs'",
+    "Papers collected from 2 sources: openalex, arxiv",
+    "Publication years range from 2025 to 2026",
+    "Total citations: 9, Average: 2",
+    "Leading researchers: Hsiang-Wei Huang, Kuang-Ming Chen, Jenq-Neng Hwang"
+  ],
+  "metadata": {
+    "query": "LLMs as judges in fine-tuning processes of other LLMs",
+    "total_steps": 2,
+    "last_updated": "2026-01-15T03:16:28.538698",
+    "started_at": "2026-01-15T03:15:50.432699",
+    "total_papers": 48
+  },
+  "is_complete": true
+}

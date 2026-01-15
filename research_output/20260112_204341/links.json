@@ -1,0 +1,1864 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Astra: General Interactive World Model with Autoregressive Denoising",
+        "url": "https://openreview.net/forum?id=8UZpmrxoLG",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Vid2World: Crafting Video Diffusion Models to Interactive World Models",
+        "url": "https://openreview.net/forum?id=pFyzqbUiF9",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Look Ahead or Look Around? A Theoretical Comparison Between Autoregressive and Masked Pretraining",
+        "url": "https://icml.cc/virtual/2024/poster/35091",
+        "pdf_url": "https://openreview.net/pdf?id=2rPoTgEmjV",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "Epona: Autoregressive Diffusion World Model for Autonomous Driving",
+        "url": "https://iccv.thecvf.com/virtual/2025/poster/2672",
+        "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_Epona_Autoregressive_Diffusion_World_Model_for_Autonomous_Driving_ICCV_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_iccv",
+        "year": 2025
+      },
+      {
+        "title": "DeepVerse: 4D Autoregressive Video Generation as a World Model",
+        "url": "https://openreview.net/forum?id=jdoW4zmDg3",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Condition Errors Refinement in Autoregressive Image Generation with Diffusion Loss",
+        "url": "https://openreview.net/forum?id=IqXlvYA7En",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Autoregressive Direct Preference Optimization",
+        "url": "https://openreview.net/forum?id=jNEdA3ZpGI",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Learning World Models for Interactive Video Generation",
+        "url": "https://openreview.net/forum?id=FzfYoUp8F1",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Spiral Evolution of Visual World Model: Reclaiming Autoregression from the Diffusion Era",
+        "url": "https://openreview.net/forum?id=EIEVNiraPS",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "LongScape: Advancing Long-Horizon Embodied World Models with Context-Aware MoE",
+        "url": "https://openreview.net/forum?id=76flfkkawe",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "DrivingGPT: Unifying Driving World Modeling and Planning with Multi-modal Autoregressive Transformers",
+        "url": "https://iccv.thecvf.com/virtual/2025/poster/2088",
+        "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_DrivingGPT_Unifying_Driving_World_Modeling_and_Planning_with_Multi-modal_Autoregressive_ICCV_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_iccv",
+        "year": 2025
+      },
+      {
+        "title": "Locality-aware Parallel Decoding for Efficient Autoregressive Image Generation",
+        "url": "https://openreview.net/forum?id=h06l9w1clt",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "World-simulation as pre-training for scalable perception",
+        "url": "https://openreview.net/forum?id=dgb4rfPzaw",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Autoregressive Image Generation with Randomized Parallel Decoding",
+        "url": "https://openreview.net/forum?id=rJdGst0W8s",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "VIRTUAL CELLS AS CAUSAL WORLD MODELS: A PERSPECTIVE ON EVALUATION",
+        "url": "https://openreview.net/forum?id=qjIq4JWFVs",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "ARSS: Taming Decoder-only Autoregressive Visual Generation for View Synthesis From Single View",
+        "url": "https://openreview.net/forum?id=ppXAVexrAM",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "The Role of Sparsity for Length Generalization in LLMs",
+        "url": "https://icml.cc/virtual/2025/poster/45242",
+        "pdf_url": "https://openreview.net/pdf?id=S9LkB0UBKb",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Adapting World Models with Latent-State Dynamics Residuals",
+        "url": "https://openreview.net/forum?id=W5e6Kkr2WN",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "CausNVS: Autoregressive Multi-view Diffusion for Flexible 3D Novel View Synthesis",
+        "url": "https://openreview.net/forum?id=pIyADlhQsp",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Origins and roles of world representations in neural networks",
+        "url": "https://openreview.net/forum?id=2tgeU3xO1r",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "DriveVLA-W0: World Models Amplify Data Scaling Law in Autonomous Driving",
+        "url": "https://openreview.net/forum?id=plrGn3RdzN",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Reinforcement Learning with Inverse Rewards for World Model Post-training",
+        "url": "https://openreview.net/forum?id=n5dkjiplv4",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Context and Diversity Matter: The Emergence of In-Context Learning in World Models",
+        "url": "https://openreview.net/forum?id=0GNBqoYcAP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Real-Time Text-Conditioned World Models for Interactive Prototyping",
+        "url": "https://openreview.net/forum?id=hFiNgXOT8p",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Adaptive World Models for Data-Efficient Learning (AWML)",
+        "url": "https://openreview.net/forum?id=IOKftyz5iP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "RLVR-World: Training World Models with Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=jpiSagi8aV",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Unified World Models: Memory-Augmented Planning and Foresight for Visual Navigation",
+        "url": "https://openreview.net/forum?id=qSJIz364pO",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Visuo-Tactile World Models",
+        "url": "https://openreview.net/forum?id=zKQSyT7a7n",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Empowering Multi-Robot Cooperation via Sequential World Models",
+        "url": "https://openreview.net/forum?id=IvUM6UwYCJ",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "AdaWorld: Learning Adaptable World Models with Latent Actions",
+        "url": "https://icml.cc/virtual/2025/poster/45343",
+        "pdf_url": "https://openreview.net/pdf?id=QQegZj99sk",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Rolling Forcing: Autoregressive Long Video Diffusion in Real Time",
+        "url": "https://openreview.net/forum?id=IAyzXjbfwo",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "World Models Should Prioritize the Unification of Physical and Social Dynamics",
+        "url": "https://openreview.net/forum?id=aVwhTcSMl4",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Memory Forcing: Spatio-Temporal Memory for Consistent Scene Generation on Minecraft",
+        "url": "https://openreview.net/forum?id=pYMd0tRzPP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "SAMPO: Scale-wise Autoregression with Motion Prompt for Generative World Models",
+        "url": "https://openreview.net/forum?id=PJOwQ77Mul",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Whale-X: Learning Scalable Embodied World Models with Enhanced Generalizability",
+        "url": "https://openreview.net/forum?id=SH3DTbytqF",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "X-Streamer: Unified Human World Modeling with Audiovisual Interaction",
+        "url": "https://openreview.net/forum?id=rCNe4N7cP4",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Empowering World Models with Reflection for Embodied Video Prediction",
+        "url": "https://icml.cc/virtual/2025/poster/44044",
+        "pdf_url": "https://openreview.net/pdf?id=onumui0nHi",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Revisiting Multi-Agent World Modeling from a Diffusion-Inspired Perspective",
+        "url": "https://openreview.net/forum?id=rRxFIOoEeF",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "LMGenDrive: LLM Reasoning Meets World Models for End-to-End Driving",
+        "url": "https://openreview.net/forum?id=fSnYZZ6v49",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2026
+      },
+      {
+        "title": "Overcoming Challenges of Long-Horizon Prediction in Driving World Models",
+        "url": "https://openreview.net/forum?id=OACw1Fqy6Y",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "SAR3D: Autoregressive 3D Object Generation and Understanding via Multi-scale 3D VQVAE",
+        "url": "https://cvpr.thecvf.com/virtual/2025/poster/32960",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_SAR3D_Autoregressive_3D_Object_Generation_and_Understanding_via_Multi-scale_3D_CVPR_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2025
+      },
+      {
+        "title": "seq-JEPA: Autoregressive Predictive Learning of Invariant-Equivariant World Models",
+        "url": "https://openreview.net/forum?id=GKt3VRaCU1",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Novelty Detection in Reinforcement Learning with World Models",
+        "url": "https://icml.cc/virtual/2025/poster/43561",
+        "pdf_url": "https://openreview.net/pdf?id=xtlixzbcfV",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2025
+      },
+      {
+        "title": "Inter-Environmental World Modeling for Continuous and Compositional Dynamics",
+        "url": "https://openreview.net/forum?id=cojJ2s1e35",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Diffusion World Models",
+        "url": "https://openreview.net/forum?id=bAXmvOLtjA",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Autoregressive Motion Generation with Gaussian Mixture-Guided Latent Sampling",
+        "url": "https://openreview.net/forum?id=3oh7lBEF7X",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2025
+      },
+      {
+        "title": "Rethinking Discrete Tokens: Treating Them as Conditions for Continuous Autoregressive Image Synthesis",
+        "url": "https://iccv.thecvf.com/virtual/2025/poster/2447",
+        "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zheng_Rethinking_Discrete_Tokens_Treating_Them_as_Conditions_for_Continuous_Autoregressive_ICCV_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_iccv",
+        "year": 2025
+      },
+      {
+        "title": "DrivingWorld: Constructing World Model for Autonomous Driving via Video GPT",
+        "url": "https://openreview.net/forum?id=xJtWqVBZya",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "OccSora: 4D Occupancy Generation Models as World Simulators for Autonomous Driving",
+        "url": "https://openreview.net/forum?id=XIFnghzusY",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "Long-Context State-Space Video World Models",
+        "url": "https://iccv.thecvf.com/virtual/2025/poster/184",
+        "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Po_Long-Context_State-Space_Video_World_Models_ICCV_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_iccv",
+        "year": 2025
+      },
+      {
+        "title": "Disentangling Representations through Multi-task Learning",
+        "url": "https://iclr.cc/virtual/2025/poster/27723",
+        "pdf_url": "https://openreview.net/pdf?id=yVGGtsOgc7",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "GEM: A Generalizable Ego-Vision Multimodal World Model for Fine-Grained Ego-Motion, Object Dynamics, and Scene Composition Control",
+        "url": "https://cvpr.thecvf.com/virtual/2025/poster/33119",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Hassan_GEM_A_Generalizable_Ego-Vision_Multimodal_World_Model_for_Fine-Grained_Ego-Motion_CVPR_2025_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2025
+      },
+      {
+        "title": "iVideoGPT: Interactive VideoGPTs are Scalable World Models",
+        "url": "https://neurips.cc/virtual/2024/poster/96668",
+        "pdf_url": "https://openreview.net/pdf?id=4TENzBftZR",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2024
+      },
+      {
+        "title": "Slot Structured World Models",
+        "url": "https://openreview.net/forum?id=OFF38XvszP",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2024
+      },
+      {
+        "title": "Efficient World Models with Context-Aware Tokenization",
+        "url": "https://icml.cc/virtual/2024/poster/34714",
+        "pdf_url": "https://openreview.net/pdf?id=BiWIERWBFX",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "AutoRegressive Knowledge Base Completion",
+        "url": "https://openreview.net/forum?id=n87wrNlcJu",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2025
+      },
+      {
+        "title": "JumpCoder: Go Beyond Autoregressive Coder via Online Modification",
+        "url": "https://aclanthology.org/2024.acl-long.619/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.619.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Towards Accurate Image Coding: Improved Autoregressive Image Generation With Dynamic Vector Quantization",
+        "url": "https://cvpr.thecvf.com/virtual/2023/poster/22990",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Towards_Accurate_Image_Coding_Improved_Autoregressive_Image_Generation_With_Dynamic_CVPR_2023_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2023
+      },
+      {
+        "title": "Toeplitz Neural Network for Sequence Modeling",
+        "url": "https://iclr.cc/virtual/2023/poster/11844",
+        "pdf_url": "https://openreview.net/pdf?id=IxmWsm4xrua",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Genie: Generative Interactive Environments",
+        "url": "https://icml.cc/virtual/2024/poster/33646",
+        "pdf_url": "https://openreview.net/pdf?id=bJbSbJskOS",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2024
+      },
+      {
+        "title": "Transformers are Sample-Efficient World Models",
+        "url": "https://iclr.cc/virtual/2023/poster/11839",
+        "pdf_url": "https://openreview.net/pdf?id=vhFu1Acb0xb",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Not All Image Regions Matter: Masked Vector Quantization for Autoregressive Image Generation",
+        "url": "https://cvpr.thecvf.com/virtual/2023/poster/22980",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Not_All_Image_Regions_Matter_Masked_Vector_Quantization_for_Autoregressive_CVPR_2023_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2023
+      },
+      {
+        "title": "Transformer-based World Models Are Happy With 100k Interactions",
+        "url": "https://iclr.cc/virtual/2023/poster/10946",
+        "pdf_url": "https://openreview.net/pdf?id=TdBaDGCpjly",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Generating Transferable Adversarial Patch by Simultaneously Optimizing its Position and Perturbations",
+        "url": "https://openreview.net/forum?id=lVtq6C5_3QL",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2022
+      },
+      {
+        "title": "Recurrent Real-valued Neural Autoregressive Density Estimator for Online Density Estimation and Classification of Streaming Data",
+        "url": "https://openreview.net/forum?id=K1Z-P0Le0DT",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2023
+      },
+      {
+        "title": "Denoised MDPs: Learning World Models Better Than the World Itself",
+        "url": "https://icml.cc/virtual/2022/poster/17443",
+        "pdf_url": "https://proceedings.mlr.press/v162/wang22c/wang22c.pdf",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2022
+      },
+      {
+        "title": "Autoregressive Image Generation Using Residual Quantization",
+        "url": "",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Lee_Autoregressive_Image_Generation_Using_Residual_Quantization_CVPR_2022_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2022
+      },
+      {
+        "title": "Knothe-Rosenblatt transport for Unsupervised Domain Adaptation",
+        "url": "https://openreview.net/forum?id=5fmBRf5rrC",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2022
+      },
+      {
+        "title": "Cooperative Differential GNSS Positioning: Estimators and Bounds",
+        "url": "http://arxiv.org/abs/2601.06012v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.06012v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "LAR-SR: A Local Autoregressive Model for Image Super-Resolution",
+        "url": "",
+        "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_LAR-SR_A_Local_Autoregressive_Model_for_Image_Super-Resolution_CVPR_2022_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2022
+      },
+      {
+        "title": "On the Effect of Misspecifying the Embedding Dimension in Low-rank Network Models",
+        "url": "http://arxiv.org/abs/2601.06014v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.06014v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Detecting Stochasticity in Discrete Signals via Nonparametric Excursion Theorem",
+        "url": "http://arxiv.org/abs/2601.06009v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.06009v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Database Theory in Action: Direct Access to Query Answers",
+        "url": "http://arxiv.org/abs/2601.06013v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.06013v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Resilient UAV Data Mule via Adaptive Sensor Association under Timing Constraints",
+        "url": "http://arxiv.org/abs/2601.06000v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.06000v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "SGAM: Building a Virtual 3D World through Simultaneous Generation and Mapping",
+        "url": "https://nips.cc/virtual/2022/poster/55439",
+        "pdf_url": "https://openreview.net/pdf?id=17KCLTbRymw",
+        "doi_url": null,
+        "source": "offline_nips",
+        "year": 2022
+      },
+      {
+        "title": "Curving Beam Reflections: Model and Experimental Validation",
+        "url": "http://arxiv.org/abs/2601.05998v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.05998v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "VENUS: Two Faint Little Red Dots Separated by $\\sim70\\,\\mathrm{pc}$ Hidden in a Single Lensed Galaxy at $z\\sim7$",
+        "url": "http://arxiv.org/abs/2601.06015v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.06015v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Open-Vocabulary 3D Instruction Ambiguity Detection",
+        "url": "http://arxiv.org/abs/2601.05991v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.05991v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Setting up the physical principles of resilience in a model of the Earth System",
+        "url": "http://arxiv.org/abs/2601.05994v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.05994v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Scaleable LED-pumped Room-temperature Maser using a Multi-blade Optical Injector",
+        "url": "http://arxiv.org/abs/2601.06008v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.06008v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Mobility Trajectories from Network-Driven Markov Dynamics",
+        "url": "http://arxiv.org/abs/2601.06020v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.06020v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Increasing The Sensitivity of a Surface Plasmon Resonance Sensor using Ti3C2 Mxene",
+        "url": "http://arxiv.org/abs/2601.05997v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.05997v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "From Superradiance to Superabsorption: An Exact Treatment of Non-Markovian Cooperative Radiation",
+        "url": "http://arxiv.org/abs/2601.05989v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.05989v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Constraining Hamiltonians from chiral effective field theory with neutron-star data",
+        "url": "http://arxiv.org/abs/2601.05999v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.05999v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Detecting Planted Structure in Circular Data",
+        "url": "http://arxiv.org/abs/2601.05993v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.05993v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "LookAroundNet: Extending Temporal Context with Transformers for Clinically Viable EEG Seizure Detection",
+        "url": "http://arxiv.org/abs/2601.06016v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.06016v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Slow mixing and emergent one-form symmetries in three-dimensional $\\mathbb{Z}_2$ gauge theory",
+        "url": "http://arxiv.org/abs/2601.06010v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.06010v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Discriminative-Generative Target Speaker Extraction with Decoder-Only Language Models",
+        "url": "http://arxiv.org/abs/2601.06006v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.06006v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Don't Break the Cache: An Evaluation of Prompt Caching for Long-Horizon Agentic Tasks",
+        "url": "http://arxiv.org/abs/2601.06007v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.06007v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Changing the World by Changing the Data",
+        "url": "https://aclanthology.org/2021.acl-long.170/",
+        "pdf_url": "https://aclanthology.org/2021.acl-long.170.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2021
+      },
+      {
+        "title": "The Molecular Structure of Thought: Mapping the Topology of Long Chain-of-Thought Reasoning",
+        "url": "http://arxiv.org/abs/2601.06002v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.06002v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Rotational Coherence Dominates Early-Time Dynamics and Produces Long-Time Revivals in the S2 State of Azulene",
+        "url": "http://arxiv.org/abs/2601.06003v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.06003v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "AdaFuse: Adaptive Ensemble Decoding with Test-Time Scaling for LLMs",
+        "url": "http://arxiv.org/abs/2601.06022v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.06022v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Simulations of collision and sloshing in the galaxy group NGC 5098/5096",
+        "url": "http://arxiv.org/abs/2601.06011v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.06011v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Chaining the Evidence: Robust Reinforcement Learning for Deep Search Agents with Citation-Aware Rubric Rewards",
+        "url": "http://arxiv.org/abs/2601.06021v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.06021v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Terahertz metasurface sensor with graphene microstrips for biosensing: modeling and application",
+        "url": "http://arxiv.org/abs/2601.05990v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.05990v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "UniLMv2: Pseudo-Masked Language Models for Unified Language Model Pre-Training",
+        "url": "https://icml.cc/virtual/2020/poster/6417",
+        "pdf_url": "http://proceedings.mlr.press/v119/bao20a/bao20a.pdf",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2020
+      },
+      {
+        "title": "Height and Uprightness Invariance for 3D Prediction From a Single View",
+        "url": "",
+        "pdf_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Baradad_Height_and_Uprightness_Invariance_for_3D_Prediction_From_a_Single_CVPR_2020_paper.pdf",
+        "doi_url": null,
+        "source": "offline_cvpr",
+        "year": 2020
+      },
+      {
+        "title": "Scalable Deep Generative Modeling for Sparse Graphs",
+        "url": "https://icml.cc/virtual/2020/poster/6334",
+        "pdf_url": "http://proceedings.mlr.press/v119/dai20b/dai20b.pdf",
+        "doi_url": null,
+        "source": "offline_icml",
+        "year": 2020
+      },
+      {
+        "title": "Transformation Autoregressive Networks",
+        "url": "https://openreview.net/forum?id=r1RF3ExCb",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2018
+      },
+      {
+        "title": "Auxiliary Guided Autoregressive Variational Autoencoders",
+        "url": "https://openreview.net/forum?id=HkGcX--0-",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "offline_iclr",
+        "year": 2018
+      }
+    ],
+    "by_source": {
+      "offline_iclr": [
+        {
+          "title": "Astra: General Interactive World Model with Autoregressive Denoising",
+          "url": "https://openreview.net/forum?id=8UZpmrxoLG",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Vid2World: Crafting Video Diffusion Models to Interactive World Models",
+          "url": "https://openreview.net/forum?id=pFyzqbUiF9",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "DeepVerse: 4D Autoregressive Video Generation as a World Model",
+          "url": "https://openreview.net/forum?id=jdoW4zmDg3",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Condition Errors Refinement in Autoregressive Image Generation with Diffusion Loss",
+          "url": "https://openreview.net/forum?id=IqXlvYA7En",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Autoregressive Direct Preference Optimization",
+          "url": "https://openreview.net/forum?id=jNEdA3ZpGI",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LongScape: Advancing Long-Horizon Embodied World Models with Context-Aware MoE",
+          "url": "https://openreview.net/forum?id=76flfkkawe",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Locality-aware Parallel Decoding for Efficient Autoregressive Image Generation",
+          "url": "https://openreview.net/forum?id=h06l9w1clt",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "World-simulation as pre-training for scalable perception",
+          "url": "https://openreview.net/forum?id=dgb4rfPzaw",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Autoregressive Image Generation with Randomized Parallel Decoding",
+          "url": "https://openreview.net/forum?id=rJdGst0W8s",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "VIRTUAL CELLS AS CAUSAL WORLD MODELS: A PERSPECTIVE ON EVALUATION",
+          "url": "https://openreview.net/forum?id=qjIq4JWFVs",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "ARSS: Taming Decoder-only Autoregressive Visual Generation for View Synthesis From Single View",
+          "url": "https://openreview.net/forum?id=ppXAVexrAM",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Adapting World Models with Latent-State Dynamics Residuals",
+          "url": "https://openreview.net/forum?id=W5e6Kkr2WN",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "CausNVS: Autoregressive Multi-view Diffusion for Flexible 3D Novel View Synthesis",
+          "url": "https://openreview.net/forum?id=pIyADlhQsp",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Origins and roles of world representations in neural networks",
+          "url": "https://openreview.net/forum?id=2tgeU3xO1r",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "DriveVLA-W0: World Models Amplify Data Scaling Law in Autonomous Driving",
+          "url": "https://openreview.net/forum?id=plrGn3RdzN",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Reinforcement Learning with Inverse Rewards for World Model Post-training",
+          "url": "https://openreview.net/forum?id=n5dkjiplv4",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Context and Diversity Matter: The Emergence of In-Context Learning in World Models",
+          "url": "https://openreview.net/forum?id=0GNBqoYcAP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Real-Time Text-Conditioned World Models for Interactive Prototyping",
+          "url": "https://openreview.net/forum?id=hFiNgXOT8p",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Adaptive World Models for Data-Efficient Learning (AWML)",
+          "url": "https://openreview.net/forum?id=IOKftyz5iP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Unified World Models: Memory-Augmented Planning and Foresight for Visual Navigation",
+          "url": "https://openreview.net/forum?id=qSJIz364pO",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Visuo-Tactile World Models",
+          "url": "https://openreview.net/forum?id=zKQSyT7a7n",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Empowering Multi-Robot Cooperation via Sequential World Models",
+          "url": "https://openreview.net/forum?id=IvUM6UwYCJ",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Rolling Forcing: Autoregressive Long Video Diffusion in Real Time",
+          "url": "https://openreview.net/forum?id=IAyzXjbfwo",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Memory Forcing: Spatio-Temporal Memory for Consistent Scene Generation on Minecraft",
+          "url": "https://openreview.net/forum?id=pYMd0tRzPP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Whale-X: Learning Scalable Embodied World Models with Enhanced Generalizability",
+          "url": "https://openreview.net/forum?id=SH3DTbytqF",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "X-Streamer: Unified Human World Modeling with Audiovisual Interaction",
+          "url": "https://openreview.net/forum?id=rCNe4N7cP4",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "LMGenDrive: LLM Reasoning Meets World Models for End-to-End Driving",
+          "url": "https://openreview.net/forum?id=fSnYZZ6v49",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2026
+        },
+        {
+          "title": "Inter-Environmental World Modeling for Continuous and Compositional Dynamics",
+          "url": "https://openreview.net/forum?id=cojJ2s1e35",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Diffusion World Models",
+          "url": "https://openreview.net/forum?id=bAXmvOLtjA",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "DrivingWorld: Constructing World Model for Autonomous Driving via Video GPT",
+          "url": "https://openreview.net/forum?id=xJtWqVBZya",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "OccSora: 4D Occupancy Generation Models as World Simulators for Autonomous Driving",
+          "url": "https://openreview.net/forum?id=XIFnghzusY",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Disentangling Representations through Multi-task Learning",
+          "url": "https://iclr.cc/virtual/2025/poster/27723",
+          "pdf_url": "https://openreview.net/pdf?id=yVGGtsOgc7",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Slot Structured World Models",
+          "url": "https://openreview.net/forum?id=OFF38XvszP",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2024
+        },
+        {
+          "title": "AutoRegressive Knowledge Base Completion",
+          "url": "https://openreview.net/forum?id=n87wrNlcJu",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2025
+        },
+        {
+          "title": "Toeplitz Neural Network for Sequence Modeling",
+          "url": "https://iclr.cc/virtual/2023/poster/11844",
+          "pdf_url": "https://openreview.net/pdf?id=IxmWsm4xrua",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Transformers are Sample-Efficient World Models",
+          "url": "https://iclr.cc/virtual/2023/poster/11839",
+          "pdf_url": "https://openreview.net/pdf?id=vhFu1Acb0xb",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Transformer-based World Models Are Happy With 100k Interactions",
+          "url": "https://iclr.cc/virtual/2023/poster/10946",
+          "pdf_url": "https://openreview.net/pdf?id=TdBaDGCpjly",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Generating Transferable Adversarial Patch by Simultaneously Optimizing its Position and Perturbations",
+          "url": "https://openreview.net/forum?id=lVtq6C5_3QL",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2022
+        },
+        {
+          "title": "Recurrent Real-valued Neural Autoregressive Density Estimator for Online Density Estimation and Classification of Streaming Data",
+          "url": "https://openreview.net/forum?id=K1Z-P0Le0DT",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2023
+        },
+        {
+          "title": "Knothe-Rosenblatt transport for Unsupervised Domain Adaptation",
+          "url": "https://openreview.net/forum?id=5fmBRf5rrC",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2022
+        },
+        {
+          "title": "Transformation Autoregressive Networks",
+          "url": "https://openreview.net/forum?id=r1RF3ExCb",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2018
+        },
+        {
+          "title": "Auxiliary Guided Autoregressive Variational Autoencoders",
+          "url": "https://openreview.net/forum?id=HkGcX--0-",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_iclr",
+          "year": 2018
+        }
+      ],
+      "offline_icml": [
+        {
+          "title": "Look Ahead or Look Around? A Theoretical Comparison Between Autoregressive and Masked Pretraining",
+          "url": "https://icml.cc/virtual/2024/poster/35091",
+          "pdf_url": "https://openreview.net/pdf?id=2rPoTgEmjV",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        },
+        {
+          "title": "The Role of Sparsity for Length Generalization in LLMs",
+          "url": "https://icml.cc/virtual/2025/poster/45242",
+          "pdf_url": "https://openreview.net/pdf?id=S9LkB0UBKb",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "AdaWorld: Learning Adaptable World Models with Latent Actions",
+          "url": "https://icml.cc/virtual/2025/poster/45343",
+          "pdf_url": "https://openreview.net/pdf?id=QQegZj99sk",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Empowering World Models with Reflection for Embodied Video Prediction",
+          "url": "https://icml.cc/virtual/2025/poster/44044",
+          "pdf_url": "https://openreview.net/pdf?id=onumui0nHi",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Novelty Detection in Reinforcement Learning with World Models",
+          "url": "https://icml.cc/virtual/2025/poster/43561",
+          "pdf_url": "https://openreview.net/pdf?id=xtlixzbcfV",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2025
+        },
+        {
+          "title": "Efficient World Models with Context-Aware Tokenization",
+          "url": "https://icml.cc/virtual/2024/poster/34714",
+          "pdf_url": "https://openreview.net/pdf?id=BiWIERWBFX",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        },
+        {
+          "title": "Genie: Generative Interactive Environments",
+          "url": "https://icml.cc/virtual/2024/poster/33646",
+          "pdf_url": "https://openreview.net/pdf?id=bJbSbJskOS",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2024
+        },
+        {
+          "title": "Denoised MDPs: Learning World Models Better Than the World Itself",
+          "url": "https://icml.cc/virtual/2022/poster/17443",
+          "pdf_url": "https://proceedings.mlr.press/v162/wang22c/wang22c.pdf",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2022
+        },
+        {
+          "title": "UniLMv2: Pseudo-Masked Language Models for Unified Language Model Pre-Training",
+          "url": "https://icml.cc/virtual/2020/poster/6417",
+          "pdf_url": "http://proceedings.mlr.press/v119/bao20a/bao20a.pdf",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2020
+        },
+        {
+          "title": "Scalable Deep Generative Modeling for Sparse Graphs",
+          "url": "https://icml.cc/virtual/2020/poster/6334",
+          "pdf_url": "http://proceedings.mlr.press/v119/dai20b/dai20b.pdf",
+          "doi_url": null,
+          "source": "offline_icml",
+          "year": 2020
+        }
+      ],
+      "offline_iccv": [
+        {
+          "title": "Epona: Autoregressive Diffusion World Model for Autonomous Driving",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/2672",
+          "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_Epona_Autoregressive_Diffusion_World_Model_for_Autonomous_Driving_ICCV_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_iccv",
+          "year": 2025
+        },
+        {
+          "title": "DrivingGPT: Unifying Driving World Modeling and Planning with Multi-modal Autoregressive Transformers",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/2088",
+          "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_DrivingGPT_Unifying_Driving_World_Modeling_and_Planning_with_Multi-modal_Autoregressive_ICCV_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_iccv",
+          "year": 2025
+        },
+        {
+          "title": "Rethinking Discrete Tokens: Treating Them as Conditions for Continuous Autoregressive Image Synthesis",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/2447",
+          "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zheng_Rethinking_Discrete_Tokens_Treating_Them_as_Conditions_for_Continuous_Autoregressive_ICCV_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_iccv",
+          "year": 2025
+        },
+        {
+          "title": "Long-Context State-Space Video World Models",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/184",
+          "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Po_Long-Context_State-Space_Video_World_Models_ICCV_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_iccv",
+          "year": 2025
+        }
+      ],
+      "offline_nips": [
+        {
+          "title": "Learning World Models for Interactive Video Generation",
+          "url": "https://openreview.net/forum?id=FzfYoUp8F1",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Spiral Evolution of Visual World Model: Reclaiming Autoregression from the Diffusion Era",
+          "url": "https://openreview.net/forum?id=EIEVNiraPS",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "RLVR-World: Training World Models with Reinforcement Learning",
+          "url": "https://openreview.net/forum?id=jpiSagi8aV",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "World Models Should Prioritize the Unification of Physical and Social Dynamics",
+          "url": "https://openreview.net/forum?id=aVwhTcSMl4",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "SAMPO: Scale-wise Autoregression with Motion Prompt for Generative World Models",
+          "url": "https://openreview.net/forum?id=PJOwQ77Mul",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Revisiting Multi-Agent World Modeling from a Diffusion-Inspired Perspective",
+          "url": "https://openreview.net/forum?id=rRxFIOoEeF",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Overcoming Challenges of Long-Horizon Prediction in Driving World Models",
+          "url": "https://openreview.net/forum?id=OACw1Fqy6Y",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "seq-JEPA: Autoregressive Predictive Learning of Invariant-Equivariant World Models",
+          "url": "https://openreview.net/forum?id=GKt3VRaCU1",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "Autoregressive Motion Generation with Gaussian Mixture-Guided Latent Sampling",
+          "url": "https://openreview.net/forum?id=3oh7lBEF7X",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2025
+        },
+        {
+          "title": "iVideoGPT: Interactive VideoGPTs are Scalable World Models",
+          "url": "https://neurips.cc/virtual/2024/poster/96668",
+          "pdf_url": "https://openreview.net/pdf?id=4TENzBftZR",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2024
+        },
+        {
+          "title": "SGAM: Building a Virtual 3D World through Simultaneous Generation and Mapping",
+          "url": "https://nips.cc/virtual/2022/poster/55439",
+          "pdf_url": "https://openreview.net/pdf?id=17KCLTbRymw",
+          "doi_url": null,
+          "source": "offline_nips",
+          "year": 2022
+        }
+      ],
+      "offline_cvpr": [
+        {
+          "title": "SAR3D: Autoregressive 3D Object Generation and Understanding via Multi-scale 3D VQVAE",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/32960",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_SAR3D_Autoregressive_3D_Object_Generation_and_Understanding_via_Multi-scale_3D_CVPR_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2025
+        },
+        {
+          "title": "GEM: A Generalizable Ego-Vision Multimodal World Model for Fine-Grained Ego-Motion, Object Dynamics, and Scene Composition Control",
+          "url": "https://cvpr.thecvf.com/virtual/2025/poster/33119",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Hassan_GEM_A_Generalizable_Ego-Vision_Multimodal_World_Model_for_Fine-Grained_Ego-Motion_CVPR_2025_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2025
+        },
+        {
+          "title": "Towards Accurate Image Coding: Improved Autoregressive Image Generation With Dynamic Vector Quantization",
+          "url": "https://cvpr.thecvf.com/virtual/2023/poster/22990",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Towards_Accurate_Image_Coding_Improved_Autoregressive_Image_Generation_With_Dynamic_CVPR_2023_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2023
+        },
+        {
+          "title": "Not All Image Regions Matter: Masked Vector Quantization for Autoregressive Image Generation",
+          "url": "https://cvpr.thecvf.com/virtual/2023/poster/22980",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Not_All_Image_Regions_Matter_Masked_Vector_Quantization_for_Autoregressive_CVPR_2023_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2023
+        },
+        {
+          "title": "Autoregressive Image Generation Using Residual Quantization",
+          "url": "",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Lee_Autoregressive_Image_Generation_Using_Residual_Quantization_CVPR_2022_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2022
+        },
+        {
+          "title": "LAR-SR: A Local Autoregressive Model for Image Super-Resolution",
+          "url": "",
+          "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_LAR-SR_A_Local_Autoregressive_Model_for_Image_Super-Resolution_CVPR_2022_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2022
+        },
+        {
+          "title": "Height and Uprightness Invariance for 3D Prediction From a Single View",
+          "url": "",
+          "pdf_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Baradad_Height_and_Uprightness_Invariance_for_3D_Prediction_From_a_Single_CVPR_2020_paper.pdf",
+          "doi_url": null,
+          "source": "offline_cvpr",
+          "year": 2020
+        }
+      ],
+      "offline_acl": [
+        {
+          "title": "JumpCoder: Go Beyond Autoregressive Coder via Online Modification",
+          "url": "https://aclanthology.org/2024.acl-long.619/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.619.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Changing the World by Changing the Data",
+          "url": "https://aclanthology.org/2021.acl-long.170/",
+          "pdf_url": "https://aclanthology.org/2021.acl-long.170.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2021
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "Cooperative Differential GNSS Positioning: Estimators and Bounds",
+          "url": "http://arxiv.org/abs/2601.06012v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.06012v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "On the Effect of Misspecifying the Embedding Dimension in Low-rank Network Models",
+          "url": "http://arxiv.org/abs/2601.06014v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.06014v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Detecting Stochasticity in Discrete Signals via Nonparametric Excursion Theorem",
+          "url": "http://arxiv.org/abs/2601.06009v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.06009v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Database Theory in Action: Direct Access to Query Answers",
+          "url": "http://arxiv.org/abs/2601.06013v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.06013v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Resilient UAV Data Mule via Adaptive Sensor Association under Timing Constraints",
+          "url": "http://arxiv.org/abs/2601.06000v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.06000v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Curving Beam Reflections: Model and Experimental Validation",
+          "url": "http://arxiv.org/abs/2601.05998v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.05998v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "VENUS: Two Faint Little Red Dots Separated by $\\sim70\\,\\mathrm{pc}$ Hidden in a Single Lensed Galaxy at $z\\sim7$",
+          "url": "http://arxiv.org/abs/2601.06015v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.06015v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Open-Vocabulary 3D Instruction Ambiguity Detection",
+          "url": "http://arxiv.org/abs/2601.05991v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.05991v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Setting up the physical principles of resilience in a model of the Earth System",
+          "url": "http://arxiv.org/abs/2601.05994v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.05994v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Scaleable LED-pumped Room-temperature Maser using a Multi-blade Optical Injector",
+          "url": "http://arxiv.org/abs/2601.06008v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.06008v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Mobility Trajectories from Network-Driven Markov Dynamics",
+          "url": "http://arxiv.org/abs/2601.06020v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.06020v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Increasing The Sensitivity of a Surface Plasmon Resonance Sensor using Ti3C2 Mxene",
+          "url": "http://arxiv.org/abs/2601.05997v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.05997v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "From Superradiance to Superabsorption: An Exact Treatment of Non-Markovian Cooperative Radiation",
+          "url": "http://arxiv.org/abs/2601.05989v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.05989v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Constraining Hamiltonians from chiral effective field theory with neutron-star data",
+          "url": "http://arxiv.org/abs/2601.05999v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.05999v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Detecting Planted Structure in Circular Data",
+          "url": "http://arxiv.org/abs/2601.05993v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.05993v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "LookAroundNet: Extending Temporal Context with Transformers for Clinically Viable EEG Seizure Detection",
+          "url": "http://arxiv.org/abs/2601.06016v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.06016v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Slow mixing and emergent one-form symmetries in three-dimensional $\\mathbb{Z}_2$ gauge theory",
+          "url": "http://arxiv.org/abs/2601.06010v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.06010v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Discriminative-Generative Target Speaker Extraction with Decoder-Only Language Models",
+          "url": "http://arxiv.org/abs/2601.06006v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.06006v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Don't Break the Cache: An Evaluation of Prompt Caching for Long-Horizon Agentic Tasks",
+          "url": "http://arxiv.org/abs/2601.06007v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.06007v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "The Molecular Structure of Thought: Mapping the Topology of Long Chain-of-Thought Reasoning",
+          "url": "http://arxiv.org/abs/2601.06002v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.06002v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Rotational Coherence Dominates Early-Time Dynamics and Produces Long-Time Revivals in the S2 State of Azulene",
+          "url": "http://arxiv.org/abs/2601.06003v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.06003v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "AdaFuse: Adaptive Ensemble Decoding with Test-Time Scaling for LLMs",
+          "url": "http://arxiv.org/abs/2601.06022v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.06022v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Simulations of collision and sloshing in the galaxy group NGC 5098/5096",
+          "url": "http://arxiv.org/abs/2601.06011v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.06011v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Chaining the Evidence: Robust Reinforcement Learning for Deep Search Agents with Citation-Aware Rubric Rewards",
+          "url": "http://arxiv.org/abs/2601.06021v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.06021v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Terahertz metasurface sensor with graphene microstrips for biosensing: modeling and application",
+          "url": "http://arxiv.org/abs/2601.05990v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.05990v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Look Ahead or Look Around? A Theoretical Comparison Between Autoregressive and Masked Pretraining",
+        "pdf": "https://openreview.net/pdf?id=2rPoTgEmjV"
+      },
+      {
+        "title": "Epona: Autoregressive Diffusion World Model for Autonomous Driving",
+        "pdf": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_Epona_Autoregressive_Diffusion_World_Model_for_Autonomous_Driving_ICCV_2025_paper.pdf"
+      },
+      {
+        "title": "DrivingGPT: Unifying Driving World Modeling and Planning with Multi-modal Autoregressive Transformers",
+        "pdf": "https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_DrivingGPT_Unifying_Driving_World_Modeling_and_Planning_with_Multi-modal_Autoregressive_ICCV_2025_paper.pdf"
+      },
+      {
+        "title": "The Role of Sparsity for Length Generalization in LLMs",
+        "pdf": "https://openreview.net/pdf?id=S9LkB0UBKb"
+      },
+      {
+        "title": "AdaWorld: Learning Adaptable World Models with Latent Actions",
+        "pdf": "https://openreview.net/pdf?id=QQegZj99sk"
+      },
+      {
+        "title": "Empowering World Models with Reflection for Embodied Video Prediction",
+        "pdf": "https://openreview.net/pdf?id=onumui0nHi"
+      },
+      {
+        "title": "SAR3D: Autoregressive 3D Object Generation and Understanding via Multi-scale 3D VQVAE",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_SAR3D_Autoregressive_3D_Object_Generation_and_Understanding_via_Multi-scale_3D_CVPR_2025_paper.pdf"
+      },
+      {
+        "title": "Novelty Detection in Reinforcement Learning with World Models",
+        "pdf": "https://openreview.net/pdf?id=xtlixzbcfV"
+      },
+      {
+        "title": "Rethinking Discrete Tokens: Treating Them as Conditions for Continuous Autoregressive Image Synthesis",
+        "pdf": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zheng_Rethinking_Discrete_Tokens_Treating_Them_as_Conditions_for_Continuous_Autoregressive_ICCV_2025_paper.pdf"
+      },
+      {
+        "title": "Long-Context State-Space Video World Models",
+        "pdf": "https://openaccess.thecvf.com/content/ICCV2025/papers/Po_Long-Context_State-Space_Video_World_Models_ICCV_2025_paper.pdf"
+      },
+      {
+        "title": "Disentangling Representations through Multi-task Learning",
+        "pdf": "https://openreview.net/pdf?id=yVGGtsOgc7"
+      },
+      {
+        "title": "GEM: A Generalizable Ego-Vision Multimodal World Model for Fine-Grained Ego-Motion, Object Dynamics, and Scene Composition Control",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/papers/Hassan_GEM_A_Generalizable_Ego-Vision_Multimodal_World_Model_for_Fine-Grained_Ego-Motion_CVPR_2025_paper.pdf"
+      },
+      {
+        "title": "iVideoGPT: Interactive VideoGPTs are Scalable World Models",
+        "pdf": "https://openreview.net/pdf?id=4TENzBftZR"
+      },
+      {
+        "title": "Efficient World Models with Context-Aware Tokenization",
+        "pdf": "https://openreview.net/pdf?id=BiWIERWBFX"
+      },
+      {
+        "title": "JumpCoder: Go Beyond Autoregressive Coder via Online Modification",
+        "pdf": "https://aclanthology.org/2024.acl-long.619.pdf"
+      },
+      {
+        "title": "Towards Accurate Image Coding: Improved Autoregressive Image Generation With Dynamic Vector Quantization",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Towards_Accurate_Image_Coding_Improved_Autoregressive_Image_Generation_With_Dynamic_CVPR_2023_paper.pdf"
+      },
+      {
+        "title": "Toeplitz Neural Network for Sequence Modeling",
+        "pdf": "https://openreview.net/pdf?id=IxmWsm4xrua"
+      },
+      {
+        "title": "Genie: Generative Interactive Environments",
+        "pdf": "https://openreview.net/pdf?id=bJbSbJskOS"
+      },
+      {
+        "title": "Transformers are Sample-Efficient World Models",
+        "pdf": "https://openreview.net/pdf?id=vhFu1Acb0xb"
+      },
+      {
+        "title": "Not All Image Regions Matter: Masked Vector Quantization for Autoregressive Image Generation",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Not_All_Image_Regions_Matter_Masked_Vector_Quantization_for_Autoregressive_CVPR_2023_paper.pdf"
+      },
+      {
+        "title": "Transformer-based World Models Are Happy With 100k Interactions",
+        "pdf": "https://openreview.net/pdf?id=TdBaDGCpjly"
+      },
+      {
+        "title": "Denoised MDPs: Learning World Models Better Than the World Itself",
+        "pdf": "https://proceedings.mlr.press/v162/wang22c/wang22c.pdf"
+      },
+      {
+        "title": "Autoregressive Image Generation Using Residual Quantization",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2022/papers/Lee_Autoregressive_Image_Generation_Using_Residual_Quantization_CVPR_2022_paper.pdf"
+      },
+      {
+        "title": "Cooperative Differential GNSS Positioning: Estimators and Bounds",
+        "pdf": "https://arxiv.org/pdf/2601.06012v1"
+      },
+      {
+        "title": "LAR-SR: A Local Autoregressive Model for Image Super-Resolution",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_LAR-SR_A_Local_Autoregressive_Model_for_Image_Super-Resolution_CVPR_2022_paper.pdf"
+      },
+      {
+        "title": "On the Effect of Misspecifying the Embedding Dimension in Low-rank Network Models",
+        "pdf": "https://arxiv.org/pdf/2601.06014v1"
+      },
+      {
+        "title": "Detecting Stochasticity in Discrete Signals via Nonparametric Excursion Theorem",
+        "pdf": "https://arxiv.org/pdf/2601.06009v1"
+      },
+      {
+        "title": "Database Theory in Action: Direct Access to Query Answers",
+        "pdf": "https://arxiv.org/pdf/2601.06013v1"
+      },
+      {
+        "title": "Resilient UAV Data Mule via Adaptive Sensor Association under Timing Constraints",
+        "pdf": "https://arxiv.org/pdf/2601.06000v1"
+      },
+      {
+        "title": "SGAM: Building a Virtual 3D World through Simultaneous Generation and Mapping",
+        "pdf": "https://openreview.net/pdf?id=17KCLTbRymw"
+      },
+      {
+        "title": "Curving Beam Reflections: Model and Experimental Validation",
+        "pdf": "https://arxiv.org/pdf/2601.05998v1"
+      },
+      {
+        "title": "VENUS: Two Faint Little Red Dots Separated by $\\sim70\\,\\mathrm{pc}$ Hidden in a Single Lensed Galaxy at $z\\sim7$",
+        "pdf": "https://arxiv.org/pdf/2601.06015v1"
+      },
+      {
+        "title": "Open-Vocabulary 3D Instruction Ambiguity Detection",
+        "pdf": "https://arxiv.org/pdf/2601.05991v1"
+      },
+      {
+        "title": "Setting up the physical principles of resilience in a model of the Earth System",
+        "pdf": "https://arxiv.org/pdf/2601.05994v1"
+      },
+      {
+        "title": "Scaleable LED-pumped Room-temperature Maser using a Multi-blade Optical Injector",
+        "pdf": "https://arxiv.org/pdf/2601.06008v1"
+      },
+      {
+        "title": "Mobility Trajectories from Network-Driven Markov Dynamics",
+        "pdf": "https://arxiv.org/pdf/2601.06020v1"
+      },
+      {
+        "title": "Increasing The Sensitivity of a Surface Plasmon Resonance Sensor using Ti3C2 Mxene",
+        "pdf": "https://arxiv.org/pdf/2601.05997v1"
+      },
+      {
+        "title": "From Superradiance to Superabsorption: An Exact Treatment of Non-Markovian Cooperative Radiation",
+        "pdf": "https://arxiv.org/pdf/2601.05989v1"
+      },
+      {
+        "title": "Constraining Hamiltonians from chiral effective field theory with neutron-star data",
+        "pdf": "https://arxiv.org/pdf/2601.05999v1"
+      },
+      {
+        "title": "Detecting Planted Structure in Circular Data",
+        "pdf": "https://arxiv.org/pdf/2601.05993v1"
+      },
+      {
+        "title": "LookAroundNet: Extending Temporal Context with Transformers for Clinically Viable EEG Seizure Detection",
+        "pdf": "https://arxiv.org/pdf/2601.06016v1"
+      },
+      {
+        "title": "Slow mixing and emergent one-form symmetries in three-dimensional $\\mathbb{Z}_2$ gauge theory",
+        "pdf": "https://arxiv.org/pdf/2601.06010v1"
+      },
+      {
+        "title": "Discriminative-Generative Target Speaker Extraction with Decoder-Only Language Models",
+        "pdf": "https://arxiv.org/pdf/2601.06006v1"
+      },
+      {
+        "title": "Don't Break the Cache: An Evaluation of Prompt Caching for Long-Horizon Agentic Tasks",
+        "pdf": "https://arxiv.org/pdf/2601.06007v1"
+      },
+      {
+        "title": "Changing the World by Changing the Data",
+        "pdf": "https://aclanthology.org/2021.acl-long.170.pdf"
+      },
+      {
+        "title": "The Molecular Structure of Thought: Mapping the Topology of Long Chain-of-Thought Reasoning",
+        "pdf": "https://arxiv.org/pdf/2601.06002v1"
+      },
+      {
+        "title": "Rotational Coherence Dominates Early-Time Dynamics and Produces Long-Time Revivals in the S2 State of Azulene",
+        "pdf": "https://arxiv.org/pdf/2601.06003v1"
+      },
+      {
+        "title": "AdaFuse: Adaptive Ensemble Decoding with Test-Time Scaling for LLMs",
+        "pdf": "https://arxiv.org/pdf/2601.06022v1"
+      },
+      {
+        "title": "Simulations of collision and sloshing in the galaxy group NGC 5098/5096",
+        "pdf": "https://arxiv.org/pdf/2601.06011v1"
+      },
+      {
+        "title": "Chaining the Evidence: Robust Reinforcement Learning for Deep Search Agents with Citation-Aware Rubric Rewards",
+        "pdf": "https://arxiv.org/pdf/2601.06021v1"
+      },
+      {
+        "title": "Terahertz metasurface sensor with graphene microstrips for biosensing: modeling and application",
+        "pdf": "https://arxiv.org/pdf/2601.05990v1"
+      },
+      {
+        "title": "UniLMv2: Pseudo-Masked Language Models for Unified Language Model Pre-Training",
+        "pdf": "http://proceedings.mlr.press/v119/bao20a/bao20a.pdf"
+      },
+      {
+        "title": "Height and Uprightness Invariance for 3D Prediction From a Single View",
+        "pdf": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Baradad_Height_and_Uprightness_Invariance_for_3D_Prediction_From_a_Single_CVPR_2020_paper.pdf"
+      },
+      {
+        "title": "Scalable Deep Generative Modeling for Sparse Graphs",
+        "pdf": "http://proceedings.mlr.press/v119/dai20b/dai20b.pdf"
+      }
+    ],
+    "dois_only": []
+  },
+  "metadata": {
+    "query": "autoregressive world models theoretical position",
+    "total_steps": 9,
+    "last_updated": "2026-01-12T20:44:51.689661",
+    "started_at": "2026-01-12T20:43:41.244355",
+    "total_papers": 101
+  }
+}

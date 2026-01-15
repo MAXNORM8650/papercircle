@@ -63,7 +63,7 @@ export function AIDiscoveryViewNew({
   // API URL
   // const apiUrl = 'http://localhost:8002';
   const [apiUrl, setApiUrl] = useState(
-    import.meta.env.VITE_PAPERFINDER_API_URL || 'http://127.0.0.1:8002'
+    import.meta.env.VITE_PAPERFINDER_API_URL || 'http://127.0.0.1:8000'
   );
   // Notify parent of loading changes
   useEffect(() => {

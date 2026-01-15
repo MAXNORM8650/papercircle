@@ -1,0 +1,248 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-12T20:30:53.035913",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world model 3d auto regressive small powerful'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "world model 3d auto regressive small powerful",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 50
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-12T20:31:03.480887",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'world model 3d auto regressive small powerful'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "world model 3d auto regressive small powerful",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 48,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 98
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-12T20:31:08.592743",
+      "agent": "online_search_agent",
+      "action": "Online search: 'world model 3d auto regressive small powerful'",
+      "result_preview": "Found 100 papers",
+      "details": {
+        "query": "world model 3d auto regressive small powerful",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 100,
+        "papers_added": 75,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-12T20:31:33.627485",
+      "agent": "online_search_agent",
+      "action": "Online search: '3D world model autoregressive small powerful'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "3D world model autoregressive small powerful",
+        "sources": [
+          "arxiv"
+        ],
+        "papers_found": 25,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-12T20:31:35.572435",
+      "agent": "online_search_agent",
+      "action": "Online search: '3D world model autoregressive small powerful'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "3D world model autoregressive small powerful",
+        "sources": [
+          "arxiv"
+        ],
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 173
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-12T20:31:37.632934",
+      "agent": "online_search_agent",
+      "action": "Online search: '3D world model autoregressive small powerful'",
+      "result_preview": "Found 100 papers",
+      "details": {
+        "query": "3D world model autoregressive small powerful",
+        "sources": [
+          "arxiv"
+        ],
+        "papers_found": 100,
+        "papers_added": 1,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 174
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-12T20:31:47.201100",
+      "agent": "online_search_agent",
+      "action": "Online search: '3D world model autoregressive small powerful'",
+      "result_preview": "Found 200 papers",
+      "details": {
+        "query": "3D world model autoregressive small powerful",
+        "sources": [
+          "arxiv"
+        ],
+        "papers_found": 200,
+        "papers_added": 100,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 274
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-12T20:31:53.008058",
+      "agent": "online_search_agent",
+      "action": "Online search: '3D world model autoregressive small powerful'",
+      "result_preview": "Found 249 papers",
+      "details": {
+        "query": "3D world model autoregressive small powerful",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 249,
+        "papers_added": 49,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 323
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-12T20:31:59.316155",
+      "agent": "online_search_agent",
+      "action": "Online search: '3D world model autoregressive small powerful'",
+      "result_preview": "Found 249 papers",
+      "details": {
+        "query": "3D world model autoregressive small powerful",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex"
+        ],
+        "papers_found": 249,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 323
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-12T20:32:05.006327",
+      "agent": "online_search_agent",
+      "action": "Online search: '3D world model autoregressive small powerful'",
+      "result_preview": "Found 200 papers",
+      "details": {
+        "query": "3D world model autoregressive small powerful",
+        "sources": [
+          "arxiv"
+        ],
+        "papers_found": 200,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 323
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-01-12T20:32:10.449289",
+      "agent": "online_search_agent",
+      "action": "Online search: '3D world model autoregressive small powerful'",
+      "result_preview": "Found 200 papers",
+      "details": {
+        "query": "3D world model autoregressive small powerful",
+        "sources": [
+          "arxiv"
+        ],
+        "papers_found": 200,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 323
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-01-12T20:32:16.063436",
+      "agent": "online_search_agent",
+      "action": "Online search: '3D world model autoregressive small powerful'",
+      "result_preview": "Found 299 papers",
+      "details": {
+        "query": "3D world model autoregressive small powerful",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 299,
+        "papers_added": 95,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 418
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-01-12T20:32:21.592600",
+      "agent": "online_search_agent",
+      "action": "Online search: '3D world model autoregressive small powerful'",
+      "result_preview": "Found 299 papers",
+      "details": {
+        "query": "3D world model autoregressive small powerful",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 299,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 418
+    }
+  ],
+  "current_step": 13,
+  "metadata": {
+    "query": "3D world model autoregressive small powerful",
+    "total_steps": 13,
+    "last_updated": "2026-01-12T20:32:21.633732",
+    "started_at": "2026-01-12T20:29:49.669669",
+    "total_papers": 418
+  }
+}

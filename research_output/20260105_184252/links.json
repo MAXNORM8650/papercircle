@@ -1,0 +1,1131 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "The Current Application Status and Prospects of Pruning Methods in natural language Processing",
+        "url": "https://openalex.org/W4413935573",
+        "pdf_url": "https://www.ewadirect.com/proceedings/ace/article/view/26375/pdf",
+        "doi_url": "https://doi.org/10.54254/2755-2721/2025.ast26375",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Image restoration and key field alignment for misaligned overlapping text in secondary printing document images",
+        "url": "https://openalex.org/W4413878271",
+        "pdf_url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1616007/pdf",
+        "doi_url": "https://doi.org/10.3389/frai.2025.1616007",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "AI for SDGs – A technical and illustrated tour",
+        "url": "https://openalex.org/W4414158377",
+        "pdf_url": "https://www.edp-open.org/images/stories/books/fulldl/978759838837-AI-for-SDGs_ebook.pdf",
+        "doi_url": "https://doi.org/10.1051/978-2-7598-3883-7",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "LinU-Mamba: Visual Mamba U-Net with Linear Attention to Predict Wildfire Spread",
+        "url": "https://openalex.org/W4413023919",
+        "pdf_url": "https://www.mdpi.com/2072-4292/17/15/2715/pdf?version=1754470097",
+        "doi_url": "https://doi.org/10.3390/rs17152715",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Graph ODEs and Beyond: A Comprehensive Survey on Integrating Differential Equations with Graph Neural Networks",
+        "url": "https://openalex.org/W4412875475",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3711896.3736559",
+        "doi_url": "https://doi.org/10.1145/3711896.3736559",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Multi-scale Physics-informed Transformer With Spatio-temporal Feature Adapter For Extreme Precipitation Nowcasting",
+        "url": "https://openalex.org/W4412877183",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3711896.3737061",
+        "doi_url": "https://doi.org/10.1145/3711896.3737061",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "De novo design of functionally diverse and druggable antimicrobial peptides by diffusion and multimodal deep learning",
+        "url": "https://openalex.org/W4412502255",
+        "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/07/19/2025.07.16.665042.full.pdf",
+        "doi_url": "https://doi.org/10.1101/2025.07.16.665042",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "The Application of Deep Learning in Dance Movement Design",
+        "url": "https://openalex.org/W4412472963",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s44196-025-00907-3.pdf",
+        "doi_url": "https://doi.org/10.1007/s44196-025-00907-3",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "ResNets Are Deeper Than You Think",
+        "url": "https://openalex.org/W4415311869",
+        "pdf_url": "https://arxiv.org/pdf/2506.14386",
+        "doi_url": "https://doi.org/10.48550/arxiv.2506.14386",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Layer Dance: Pairwise Layer Training with Adaptive Learning Rates for Transformers",
+        "url": "https://openalex.org/W4410950375",
+        "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.174888672.29796823/v1",
+        "doi_url": "https://doi.org/10.36227/techrxiv.174888672.29796823/v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "HAMLET: Healthcare-focused Adaptive Multilingual Learning Embedding-based Topic Modeling",
+        "url": "https://openalex.org/W4417515433",
+        "pdf_url": "https://arxiv.org/pdf/2505.07157",
+        "doi_url": "https://doi.org/10.48550/arxiv.2505.07157",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Diffusion Model Quantization: A Review",
+        "url": "https://openalex.org/W4416098620",
+        "pdf_url": "https://arxiv.org/pdf/2505.05215",
+        "doi_url": "https://doi.org/10.48550/arxiv.2505.05215",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Plant Disease Detection through Multimodal Large Language Models and Convolutional Neural Networks",
+        "url": "https://openalex.org/W4417168976",
+        "pdf_url": "https://arxiv.org/pdf/2504.20419",
+        "doi_url": "https://doi.org/10.48550/arxiv.2504.20419",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Application of Transformers to Chemical Synthesis",
+        "url": "https://openalex.org/W4406734859",
+        "pdf_url": "https://www.mdpi.com/1420-3049/30/3/493/pdf?version=1737622978",
+        "doi_url": "https://doi.org/10.3390/molecules30030493",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Vision-language model-based human-robot collaboration for smart manufacturing: A state-of-the-art survey",
+        "url": "https://openalex.org/W4406711794",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s42524-025-4136-9.pdf",
+        "doi_url": "https://doi.org/10.1007/s42524-025-4136-9",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Probabilistic Forecasting of Crude Oil Prices Using Conditional Generative Adversarial Network Model with Lévy Process",
+        "url": "https://openalex.org/W4406617780",
+        "pdf_url": "https://www.mdpi.com/2227-7390/13/2/307/pdf?version=1737365354",
+        "doi_url": "https://doi.org/10.3390/math13020307",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Transfer Learning-Based Health Monitoring of Robotic Rotate Vector Reducer Under Variable Working Conditions",
+        "url": "https://openalex.org/W4406430618",
+        "pdf_url": "https://www.mdpi.com/2075-1702/13/1/60/pdf?version=1737021971",
+        "doi_url": "https://doi.org/10.3390/machines13010060",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "A Survey of Deep Anomaly Detection in Multivariate Time Series: Taxonomy, Applications, and Directions",
+        "url": "https://openalex.org/W4405965607",
+        "pdf_url": "https://www.mdpi.com/1424-8220/25/1/190/pdf?version=1735800895",
+        "doi_url": "https://doi.org/10.3390/s25010190",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Generative Adversarial Networks for Longitudinal Data Imputation and Classification",
+        "url": "https://openalex.org/W4411700064",
+        "pdf_url": "https://eprints.qut.edu.au/258292/1/Sharon%20Torao%20Pingi%20Thesis.pdf",
+        "doi_url": "https://doi.org/10.5204/thesis.eprints.258292",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Generalization potential of large language models",
+        "url": "https://openalex.org/W4405463625",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00521-024-10827-6.pdf",
+        "doi_url": "https://doi.org/10.1007/s00521-024-10827-6",
+        "source": "openalex",
+        "year": 2024
+      },
+      {
+        "title": "Initialization of Large Language Models via Reparameterization to Mitigate Loss Spikes",
+        "url": "https://openalex.org/W4403324023",
+        "pdf_url": "https://arxiv.org/pdf/2410.05052",
+        "doi_url": "https://doi.org/10.48550/arxiv.2410.05052",
+        "source": "openalex",
+        "year": 2024
+      },
+      {
+        "title": "Machine Learning-Enhanced Process Parameter Optimization and Microstructure Prediction in Additive Manufacturing",
+        "url": "https://openalex.org/W4403166134",
+        "pdf_url": "https://digital.library.unt.edu/ark:/67531/metadc2356212/m2/1/high_res_d/GU-DISSERTATION-2024.pdf",
+        "doi_url": "https://doi.org/10.12794/metadc2356212",
+        "source": "openalex",
+        "year": 2024
+      },
+      {
+        "title": "A Survey on Visual Mamba",
+        "url": "https://openalex.org/W4400238700",
+        "pdf_url": "https://www.mdpi.com/2076-3417/14/13/5683/pdf?version=1720078850",
+        "doi_url": "https://doi.org/10.3390/app14135683",
+        "source": "openalex",
+        "year": 2024
+      },
+      {
+        "title": "LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments",
+        "url": "https://openalex.org/W4399425601",
+        "pdf_url": "https://arxiv.org/pdf/2406.02611",
+        "doi_url": "https://doi.org/10.48550/arxiv.2406.02611",
+        "source": "openalex",
+        "year": 2024
+      },
+      {
+        "title": "Remaining Useful Life Prediction Based on Deep Learning: A Survey",
+        "url": "https://openalex.org/W4399043479",
+        "pdf_url": "https://www.mdpi.com/1424-8220/24/11/3454/pdf?version=1716815129",
+        "doi_url": "https://doi.org/10.3390/s24113454",
+        "source": "openalex",
+        "year": 2024
+      },
+      {
+        "title": "On the Convergence of Gradient Descent on Learning Transformers with Residual Connections",
+        "url": "https://www.semanticscholar.org/paper/8912935ba514f01bbe3686b073e2a37d38305868",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.05249",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "On the Adversarial Transferability of Generalized \"Skip Connections\"",
+        "url": "https://www.semanticscholar.org/paper/20da2e8f6dc9676ab9be53ec31f26f1ab75031e5",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2410.08950",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "On Layer Normalizations and Residual Connections in Transformers",
+        "url": "https://www.semanticscholar.org/paper/4312e267af00c76231df7d740298e6b4499441ec",
+        "pdf_url": "http://arxiv.org/pdf/2206.00330",
+        "doi_url": "https://doi.org/10.48550/arXiv.2206.00330",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "Revisiting Residual Connections: Orthogonal Updates for Stable and Efficient Deep Networks",
+        "url": "https://www.semanticscholar.org/paper/d7840553b2aef821630133f03615c197b701ee77",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.11881",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Set Norm and Equivariant Skip Connections: Putting the Deep in Deep Sets",
+        "url": "https://www.semanticscholar.org/paper/e873895dde7483deae0aa85b69c5062f42b2f392",
+        "pdf_url": "http://arxiv.org/pdf/2206.11925",
+        "doi_url": "https://doi.org/10.48550/arXiv.2206.11925",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "A Multi-Scale Liver Tumor Segmentation Method Based on Residual and Hybrid Attention Enhanced Network with Contextual Integration",
+        "url": "https://www.semanticscholar.org/paper/51131e946601005b85ca397ab99631bba8d88134",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.3390/s24175845",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Building Footprint Extraction from Remote Sensing Images with Residual Attention Multi-Scale Aggregation Fully Convolutional Network",
+        "url": "https://www.semanticscholar.org/paper/948b9539bb9314045ae666879d89e1ad80709ab0",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1007/s12524-024-01961-8",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking",
+        "url": "https://www.semanticscholar.org/paper/b7486c55d0e0082916719b6e4d7632fd98316a2b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2502.13842",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "The Shaped Transformer: Attention Models in the Infinite Depth-and-Width Limit",
+        "url": "https://www.semanticscholar.org/paper/c1738f21ea2460e1015d590906a4f43e155f60c8",
+        "pdf_url": "http://arxiv.org/pdf/2306.17759",
+        "doi_url": "https://doi.org/10.48550/arXiv.2306.17759",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Mitigating Exploding Gradients in Large Language Models with Neural Architecture Search",
+        "url": "https://www.semanticscholar.org/paper/e10d6eeebd1815266dc891356b2444c99346e240",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/CAI64502.2025.00197",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "LAuReL: Learned Augmented Residual Layer",
+        "url": "https://www.semanticscholar.org/paper/3f882fd0a710636f0d3113cd33f1bd34e552cebb",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2411.07501",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "A fake news detection model using the integration of multimodal attention mechanism and residual convolutional network",
+        "url": "https://www.semanticscholar.org/paper/b422185c9f5f2bfa36d0e7f10964d6f0d2ff4e85",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1038/s41598-025-05702-w",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Transformer-based multi-scale feature fusion network for remote sensing change detection",
+        "url": "https://www.semanticscholar.org/paper/e0961aa9245b610bfeec94ed8b8efbb444a8278e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1117/1.JRS.16.046509",
+        "source": "semantic_scholar",
+        "year": 2022
+      },
+      {
+        "title": "GPAS: Accelerating Convergence of LLM Pretraining via Gradient-Preserving Activation Scaling",
+        "url": "https://www.semanticscholar.org/paper/73303ae474f5a7d865be9cabba824f5d877341e6",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.22049",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Application Research on Real-Time Recognition of Coal Volume on Belt Conveyors Based on Deep Learning and Multi-Dimensional Data Fusion Mechanism",
+        "url": "https://www.semanticscholar.org/paper/bf35d2278989dada7183ba470c35823c9e4de577",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1109/ISCIPT67144.2025.11265310",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "KunlunBaize: LLM with Multi-Scale Convolution and Multi-Token Prediction Under TransformerX Framework",
+        "url": "https://www.semanticscholar.org/paper/94fcb8715b03fc94e4d0b66ceb21c6bf89b2ec21",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2503.04784",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "STRUCTURAL AND FUNCTIONAL MODEL OF A CONVOLUTIONAL NEURAL NETWORK FOR PROCESSING, ANALYSING AND CLASSIFYING IMAGES OF VARYING COMPLEXITY",
+        "url": "https://www.semanticscholar.org/paper/94a45c3edee228dae5a1f0b188e00f31bc0f1af2",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.26906/sunz.2025.4.103",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Multi-Objective Reinforcement Learning with Enhanced Pointer Networks for TSP",
+        "url": "https://www.semanticscholar.org/paper/56a1525ded49fa5dc89aa74e47d94c401902fc1b",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.23919/CCC64809.2025.11178773",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Res-ECA-UNet++: an automatic segmentation model for ovarian tumor ultrasound images based on residual networks and channel attention mechanism",
+        "url": "https://www.semanticscholar.org/paper/b9e44628d68c8482d812c569d90c2bf5a20bbb8e",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.3389/fmed.2025.1589356",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Transformative or Conservative? Conservation laws for ResNets and Transformers",
+        "url": "https://www.semanticscholar.org/paper/0a3eb33b3d9cc46f5849b51e70399332330ad3ff",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.06194",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Multi-module UNet++ for colon cancer histopathological image segmentation",
+        "url": "https://www.semanticscholar.org/paper/13b5745097a88413b70e776bff5849d0095211d8",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1038/s41598-025-13636-6",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Two failure modes of deep transformers and how to avoid them: a unified theory of signal propagation at initialisation",
+        "url": "https://www.semanticscholar.org/paper/0cabc7ad0df8b4c57043410b9fdeda7d16431b8d",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.24333",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Catformer: Designing Stable Transformers via Sensitivity Analysis",
+        "url": "https://www.semanticscholar.org/paper/0c36366413f08c6f635af6897627a3f113f6115a",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2021
+      },
+      {
+        "title": "Attention-enhanced hybrid U-Net for prostate cancer grading and explainability",
+        "url": "https://www.semanticscholar.org/paper/51b8959655ed6978d7665bd806420f609cb58ffb",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1038/s41598-025-13824-4",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Data Uniformity Improves Training Efficiency and More, with a Convergence Framework Beyond the NTK Regime",
+        "url": "https://www.semanticscholar.org/paper/0a68c72f5ce11b39d21312c3e77e4742962018cf",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2506.24120",
+        "source": "semantic_scholar",
+        "year": 2025
+      }
+    ],
+    "by_source": {
+      "openalex": [
+        {
+          "title": "The Current Application Status and Prospects of Pruning Methods in natural language Processing",
+          "url": "https://openalex.org/W4413935573",
+          "pdf_url": "https://www.ewadirect.com/proceedings/ace/article/view/26375/pdf",
+          "doi_url": "https://doi.org/10.54254/2755-2721/2025.ast26375",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Image restoration and key field alignment for misaligned overlapping text in secondary printing document images",
+          "url": "https://openalex.org/W4413878271",
+          "pdf_url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1616007/pdf",
+          "doi_url": "https://doi.org/10.3389/frai.2025.1616007",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "AI for SDGs – A technical and illustrated tour",
+          "url": "https://openalex.org/W4414158377",
+          "pdf_url": "https://www.edp-open.org/images/stories/books/fulldl/978759838837-AI-for-SDGs_ebook.pdf",
+          "doi_url": "https://doi.org/10.1051/978-2-7598-3883-7",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "LinU-Mamba: Visual Mamba U-Net with Linear Attention to Predict Wildfire Spread",
+          "url": "https://openalex.org/W4413023919",
+          "pdf_url": "https://www.mdpi.com/2072-4292/17/15/2715/pdf?version=1754470097",
+          "doi_url": "https://doi.org/10.3390/rs17152715",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Graph ODEs and Beyond: A Comprehensive Survey on Integrating Differential Equations with Graph Neural Networks",
+          "url": "https://openalex.org/W4412875475",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3711896.3736559",
+          "doi_url": "https://doi.org/10.1145/3711896.3736559",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Multi-scale Physics-informed Transformer With Spatio-temporal Feature Adapter For Extreme Precipitation Nowcasting",
+          "url": "https://openalex.org/W4412877183",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3711896.3737061",
+          "doi_url": "https://doi.org/10.1145/3711896.3737061",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "De novo design of functionally diverse and druggable antimicrobial peptides by diffusion and multimodal deep learning",
+          "url": "https://openalex.org/W4412502255",
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/07/19/2025.07.16.665042.full.pdf",
+          "doi_url": "https://doi.org/10.1101/2025.07.16.665042",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "The Application of Deep Learning in Dance Movement Design",
+          "url": "https://openalex.org/W4412472963",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s44196-025-00907-3.pdf",
+          "doi_url": "https://doi.org/10.1007/s44196-025-00907-3",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "ResNets Are Deeper Than You Think",
+          "url": "https://openalex.org/W4415311869",
+          "pdf_url": "https://arxiv.org/pdf/2506.14386",
+          "doi_url": "https://doi.org/10.48550/arxiv.2506.14386",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Layer Dance: Pairwise Layer Training with Adaptive Learning Rates for Transformers",
+          "url": "https://openalex.org/W4410950375",
+          "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.174888672.29796823/v1",
+          "doi_url": "https://doi.org/10.36227/techrxiv.174888672.29796823/v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "HAMLET: Healthcare-focused Adaptive Multilingual Learning Embedding-based Topic Modeling",
+          "url": "https://openalex.org/W4417515433",
+          "pdf_url": "https://arxiv.org/pdf/2505.07157",
+          "doi_url": "https://doi.org/10.48550/arxiv.2505.07157",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Diffusion Model Quantization: A Review",
+          "url": "https://openalex.org/W4416098620",
+          "pdf_url": "https://arxiv.org/pdf/2505.05215",
+          "doi_url": "https://doi.org/10.48550/arxiv.2505.05215",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Plant Disease Detection through Multimodal Large Language Models and Convolutional Neural Networks",
+          "url": "https://openalex.org/W4417168976",
+          "pdf_url": "https://arxiv.org/pdf/2504.20419",
+          "doi_url": "https://doi.org/10.48550/arxiv.2504.20419",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Application of Transformers to Chemical Synthesis",
+          "url": "https://openalex.org/W4406734859",
+          "pdf_url": "https://www.mdpi.com/1420-3049/30/3/493/pdf?version=1737622978",
+          "doi_url": "https://doi.org/10.3390/molecules30030493",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Vision-language model-based human-robot collaboration for smart manufacturing: A state-of-the-art survey",
+          "url": "https://openalex.org/W4406711794",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s42524-025-4136-9.pdf",
+          "doi_url": "https://doi.org/10.1007/s42524-025-4136-9",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Probabilistic Forecasting of Crude Oil Prices Using Conditional Generative Adversarial Network Model with Lévy Process",
+          "url": "https://openalex.org/W4406617780",
+          "pdf_url": "https://www.mdpi.com/2227-7390/13/2/307/pdf?version=1737365354",
+          "doi_url": "https://doi.org/10.3390/math13020307",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Transfer Learning-Based Health Monitoring of Robotic Rotate Vector Reducer Under Variable Working Conditions",
+          "url": "https://openalex.org/W4406430618",
+          "pdf_url": "https://www.mdpi.com/2075-1702/13/1/60/pdf?version=1737021971",
+          "doi_url": "https://doi.org/10.3390/machines13010060",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "A Survey of Deep Anomaly Detection in Multivariate Time Series: Taxonomy, Applications, and Directions",
+          "url": "https://openalex.org/W4405965607",
+          "pdf_url": "https://www.mdpi.com/1424-8220/25/1/190/pdf?version=1735800895",
+          "doi_url": "https://doi.org/10.3390/s25010190",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Generative Adversarial Networks for Longitudinal Data Imputation and Classification",
+          "url": "https://openalex.org/W4411700064",
+          "pdf_url": "https://eprints.qut.edu.au/258292/1/Sharon%20Torao%20Pingi%20Thesis.pdf",
+          "doi_url": "https://doi.org/10.5204/thesis.eprints.258292",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Generalization potential of large language models",
+          "url": "https://openalex.org/W4405463625",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00521-024-10827-6.pdf",
+          "doi_url": "https://doi.org/10.1007/s00521-024-10827-6",
+          "source": "openalex",
+          "year": 2024
+        },
+        {
+          "title": "Initialization of Large Language Models via Reparameterization to Mitigate Loss Spikes",
+          "url": "https://openalex.org/W4403324023",
+          "pdf_url": "https://arxiv.org/pdf/2410.05052",
+          "doi_url": "https://doi.org/10.48550/arxiv.2410.05052",
+          "source": "openalex",
+          "year": 2024
+        },
+        {
+          "title": "Machine Learning-Enhanced Process Parameter Optimization and Microstructure Prediction in Additive Manufacturing",
+          "url": "https://openalex.org/W4403166134",
+          "pdf_url": "https://digital.library.unt.edu/ark:/67531/metadc2356212/m2/1/high_res_d/GU-DISSERTATION-2024.pdf",
+          "doi_url": "https://doi.org/10.12794/metadc2356212",
+          "source": "openalex",
+          "year": 2024
+        },
+        {
+          "title": "A Survey on Visual Mamba",
+          "url": "https://openalex.org/W4400238700",
+          "pdf_url": "https://www.mdpi.com/2076-3417/14/13/5683/pdf?version=1720078850",
+          "doi_url": "https://doi.org/10.3390/app14135683",
+          "source": "openalex",
+          "year": 2024
+        },
+        {
+          "title": "LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments",
+          "url": "https://openalex.org/W4399425601",
+          "pdf_url": "https://arxiv.org/pdf/2406.02611",
+          "doi_url": "https://doi.org/10.48550/arxiv.2406.02611",
+          "source": "openalex",
+          "year": 2024
+        },
+        {
+          "title": "Remaining Useful Life Prediction Based on Deep Learning: A Survey",
+          "url": "https://openalex.org/W4399043479",
+          "pdf_url": "https://www.mdpi.com/1424-8220/24/11/3454/pdf?version=1716815129",
+          "doi_url": "https://doi.org/10.3390/s24113454",
+          "source": "openalex",
+          "year": 2024
+        }
+      ],
+      "semantic_scholar": [
+        {
+          "title": "On the Convergence of Gradient Descent on Learning Transformers with Residual Connections",
+          "url": "https://www.semanticscholar.org/paper/8912935ba514f01bbe3686b073e2a37d38305868",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.05249",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "On the Adversarial Transferability of Generalized \"Skip Connections\"",
+          "url": "https://www.semanticscholar.org/paper/20da2e8f6dc9676ab9be53ec31f26f1ab75031e5",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2410.08950",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "On Layer Normalizations and Residual Connections in Transformers",
+          "url": "https://www.semanticscholar.org/paper/4312e267af00c76231df7d740298e6b4499441ec",
+          "pdf_url": "http://arxiv.org/pdf/2206.00330",
+          "doi_url": "https://doi.org/10.48550/arXiv.2206.00330",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "Revisiting Residual Connections: Orthogonal Updates for Stable and Efficient Deep Networks",
+          "url": "https://www.semanticscholar.org/paper/d7840553b2aef821630133f03615c197b701ee77",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.11881",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Set Norm and Equivariant Skip Connections: Putting the Deep in Deep Sets",
+          "url": "https://www.semanticscholar.org/paper/e873895dde7483deae0aa85b69c5062f42b2f392",
+          "pdf_url": "http://arxiv.org/pdf/2206.11925",
+          "doi_url": "https://doi.org/10.48550/arXiv.2206.11925",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "A Multi-Scale Liver Tumor Segmentation Method Based on Residual and Hybrid Attention Enhanced Network with Contextual Integration",
+          "url": "https://www.semanticscholar.org/paper/51131e946601005b85ca397ab99631bba8d88134",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.3390/s24175845",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Building Footprint Extraction from Remote Sensing Images with Residual Attention Multi-Scale Aggregation Fully Convolutional Network",
+          "url": "https://www.semanticscholar.org/paper/948b9539bb9314045ae666879d89e1ad80709ab0",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1007/s12524-024-01961-8",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking",
+          "url": "https://www.semanticscholar.org/paper/b7486c55d0e0082916719b6e4d7632fd98316a2b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2502.13842",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "The Shaped Transformer: Attention Models in the Infinite Depth-and-Width Limit",
+          "url": "https://www.semanticscholar.org/paper/c1738f21ea2460e1015d590906a4f43e155f60c8",
+          "pdf_url": "http://arxiv.org/pdf/2306.17759",
+          "doi_url": "https://doi.org/10.48550/arXiv.2306.17759",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Mitigating Exploding Gradients in Large Language Models with Neural Architecture Search",
+          "url": "https://www.semanticscholar.org/paper/e10d6eeebd1815266dc891356b2444c99346e240",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/CAI64502.2025.00197",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "LAuReL: Learned Augmented Residual Layer",
+          "url": "https://www.semanticscholar.org/paper/3f882fd0a710636f0d3113cd33f1bd34e552cebb",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2411.07501",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "A fake news detection model using the integration of multimodal attention mechanism and residual convolutional network",
+          "url": "https://www.semanticscholar.org/paper/b422185c9f5f2bfa36d0e7f10964d6f0d2ff4e85",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1038/s41598-025-05702-w",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Transformer-based multi-scale feature fusion network for remote sensing change detection",
+          "url": "https://www.semanticscholar.org/paper/e0961aa9245b610bfeec94ed8b8efbb444a8278e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1117/1.JRS.16.046509",
+          "source": "semantic_scholar",
+          "year": 2022
+        },
+        {
+          "title": "GPAS: Accelerating Convergence of LLM Pretraining via Gradient-Preserving Activation Scaling",
+          "url": "https://www.semanticscholar.org/paper/73303ae474f5a7d865be9cabba824f5d877341e6",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.22049",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Application Research on Real-Time Recognition of Coal Volume on Belt Conveyors Based on Deep Learning and Multi-Dimensional Data Fusion Mechanism",
+          "url": "https://www.semanticscholar.org/paper/bf35d2278989dada7183ba470c35823c9e4de577",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1109/ISCIPT67144.2025.11265310",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "KunlunBaize: LLM with Multi-Scale Convolution and Multi-Token Prediction Under TransformerX Framework",
+          "url": "https://www.semanticscholar.org/paper/94fcb8715b03fc94e4d0b66ceb21c6bf89b2ec21",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2503.04784",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "STRUCTURAL AND FUNCTIONAL MODEL OF A CONVOLUTIONAL NEURAL NETWORK FOR PROCESSING, ANALYSING AND CLASSIFYING IMAGES OF VARYING COMPLEXITY",
+          "url": "https://www.semanticscholar.org/paper/94a45c3edee228dae5a1f0b188e00f31bc0f1af2",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.26906/sunz.2025.4.103",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Multi-Objective Reinforcement Learning with Enhanced Pointer Networks for TSP",
+          "url": "https://www.semanticscholar.org/paper/56a1525ded49fa5dc89aa74e47d94c401902fc1b",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.23919/CCC64809.2025.11178773",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Res-ECA-UNet++: an automatic segmentation model for ovarian tumor ultrasound images based on residual networks and channel attention mechanism",
+          "url": "https://www.semanticscholar.org/paper/b9e44628d68c8482d812c569d90c2bf5a20bbb8e",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.3389/fmed.2025.1589356",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Transformative or Conservative? Conservation laws for ResNets and Transformers",
+          "url": "https://www.semanticscholar.org/paper/0a3eb33b3d9cc46f5849b51e70399332330ad3ff",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.06194",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Multi-module UNet++ for colon cancer histopathological image segmentation",
+          "url": "https://www.semanticscholar.org/paper/13b5745097a88413b70e776bff5849d0095211d8",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1038/s41598-025-13636-6",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Two failure modes of deep transformers and how to avoid them: a unified theory of signal propagation at initialisation",
+          "url": "https://www.semanticscholar.org/paper/0cabc7ad0df8b4c57043410b9fdeda7d16431b8d",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.24333",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Catformer: Designing Stable Transformers via Sensitivity Analysis",
+          "url": "https://www.semanticscholar.org/paper/0c36366413f08c6f635af6897627a3f113f6115a",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2021
+        },
+        {
+          "title": "Attention-enhanced hybrid U-Net for prostate cancer grading and explainability",
+          "url": "https://www.semanticscholar.org/paper/51b8959655ed6978d7665bd806420f609cb58ffb",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1038/s41598-025-13824-4",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Data Uniformity Improves Training Efficiency and More, with a Convergence Framework Beyond the NTK Regime",
+          "url": "https://www.semanticscholar.org/paper/0a68c72f5ce11b39d21312c3e77e4742962018cf",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2506.24120",
+          "source": "semantic_scholar",
+          "year": 2025
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "The Current Application Status and Prospects of Pruning Methods in natural language Processing",
+        "pdf": "https://www.ewadirect.com/proceedings/ace/article/view/26375/pdf"
+      },
+      {
+        "title": "Image restoration and key field alignment for misaligned overlapping text in secondary printing document images",
+        "pdf": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1616007/pdf"
+      },
+      {
+        "title": "AI for SDGs – A technical and illustrated tour",
+        "pdf": "https://www.edp-open.org/images/stories/books/fulldl/978759838837-AI-for-SDGs_ebook.pdf"
+      },
+      {
+        "title": "LinU-Mamba: Visual Mamba U-Net with Linear Attention to Predict Wildfire Spread",
+        "pdf": "https://www.mdpi.com/2072-4292/17/15/2715/pdf?version=1754470097"
+      },
+      {
+        "title": "Graph ODEs and Beyond: A Comprehensive Survey on Integrating Differential Equations with Graph Neural Networks",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3711896.3736559"
+      },
+      {
+        "title": "Multi-scale Physics-informed Transformer With Spatio-temporal Feature Adapter For Extreme Precipitation Nowcasting",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3711896.3737061"
+      },
+      {
+        "title": "De novo design of functionally diverse and druggable antimicrobial peptides by diffusion and multimodal deep learning",
+        "pdf": "https://www.biorxiv.org/content/biorxiv/early/2025/07/19/2025.07.16.665042.full.pdf"
+      },
+      {
+        "title": "The Application of Deep Learning in Dance Movement Design",
+        "pdf": "https://link.springer.com/content/pdf/10.1007/s44196-025-00907-3.pdf"
+      },
+      {
+        "title": "ResNets Are Deeper Than You Think",
+        "pdf": "https://arxiv.org/pdf/2506.14386"
+      },
+      {
+        "title": "Layer Dance: Pairwise Layer Training with Adaptive Learning Rates for Transformers",
+        "pdf": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.174888672.29796823/v1"
+      },
+      {
+        "title": "HAMLET: Healthcare-focused Adaptive Multilingual Learning Embedding-based Topic Modeling",
+        "pdf": "https://arxiv.org/pdf/2505.07157"
+      },
+      {
+        "title": "Diffusion Model Quantization: A Review",
+        "pdf": "https://arxiv.org/pdf/2505.05215"
+      },
+      {
+        "title": "Plant Disease Detection through Multimodal Large Language Models and Convolutional Neural Networks",
+        "pdf": "https://arxiv.org/pdf/2504.20419"
+      },
+      {
+        "title": "Application of Transformers to Chemical Synthesis",
+        "pdf": "https://www.mdpi.com/1420-3049/30/3/493/pdf?version=1737622978"
+      },
+      {
+        "title": "Vision-language model-based human-robot collaboration for smart manufacturing: A state-of-the-art survey",
+        "pdf": "https://link.springer.com/content/pdf/10.1007/s42524-025-4136-9.pdf"
+      },
+      {
+        "title": "Probabilistic Forecasting of Crude Oil Prices Using Conditional Generative Adversarial Network Model with Lévy Process",
+        "pdf": "https://www.mdpi.com/2227-7390/13/2/307/pdf?version=1737365354"
+      },
+      {
+        "title": "Transfer Learning-Based Health Monitoring of Robotic Rotate Vector Reducer Under Variable Working Conditions",
+        "pdf": "https://www.mdpi.com/2075-1702/13/1/60/pdf?version=1737021971"
+      },
+      {
+        "title": "A Survey of Deep Anomaly Detection in Multivariate Time Series: Taxonomy, Applications, and Directions",
+        "pdf": "https://www.mdpi.com/1424-8220/25/1/190/pdf?version=1735800895"
+      },
+      {
+        "title": "Generative Adversarial Networks for Longitudinal Data Imputation and Classification",
+        "pdf": "https://eprints.qut.edu.au/258292/1/Sharon%20Torao%20Pingi%20Thesis.pdf"
+      },
+      {
+        "title": "Generalization potential of large language models",
+        "pdf": "https://link.springer.com/content/pdf/10.1007/s00521-024-10827-6.pdf"
+      },
+      {
+        "title": "Initialization of Large Language Models via Reparameterization to Mitigate Loss Spikes",
+        "pdf": "https://arxiv.org/pdf/2410.05052"
+      },
+      {
+        "title": "Machine Learning-Enhanced Process Parameter Optimization and Microstructure Prediction in Additive Manufacturing",
+        "pdf": "https://digital.library.unt.edu/ark:/67531/metadc2356212/m2/1/high_res_d/GU-DISSERTATION-2024.pdf"
+      },
+      {
+        "title": "A Survey on Visual Mamba",
+        "pdf": "https://www.mdpi.com/2076-3417/14/13/5683/pdf?version=1720078850"
+      },
+      {
+        "title": "LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments",
+        "pdf": "https://arxiv.org/pdf/2406.02611"
+      },
+      {
+        "title": "Remaining Useful Life Prediction Based on Deep Learning: A Survey",
+        "pdf": "https://www.mdpi.com/1424-8220/24/11/3454/pdf?version=1716815129"
+      },
+      {
+        "title": "On Layer Normalizations and Residual Connections in Transformers",
+        "pdf": "http://arxiv.org/pdf/2206.00330"
+      },
+      {
+        "title": "Set Norm and Equivariant Skip Connections: Putting the Deep in Deep Sets",
+        "pdf": "http://arxiv.org/pdf/2206.11925"
+      },
+      {
+        "title": "The Shaped Transformer: Attention Models in the Infinite Depth-and-Width Limit",
+        "pdf": "http://arxiv.org/pdf/2306.17759"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "The Current Application Status and Prospects of Pruning Methods in natural language Processing",
+        "doi": "https://doi.org/10.54254/2755-2721/2025.ast26375"
+      },
+      {
+        "title": "Image restoration and key field alignment for misaligned overlapping text in secondary printing document images",
+        "doi": "https://doi.org/10.3389/frai.2025.1616007"
+      },
+      {
+        "title": "AI for SDGs – A technical and illustrated tour",
+        "doi": "https://doi.org/10.1051/978-2-7598-3883-7"
+      },
+      {
+        "title": "LinU-Mamba: Visual Mamba U-Net with Linear Attention to Predict Wildfire Spread",
+        "doi": "https://doi.org/10.3390/rs17152715"
+      },
+      {
+        "title": "Graph ODEs and Beyond: A Comprehensive Survey on Integrating Differential Equations with Graph Neural Networks",
+        "doi": "https://doi.org/10.1145/3711896.3736559"
+      },
+      {
+        "title": "Multi-scale Physics-informed Transformer With Spatio-temporal Feature Adapter For Extreme Precipitation Nowcasting",
+        "doi": "https://doi.org/10.1145/3711896.3737061"
+      },
+      {
+        "title": "De novo design of functionally diverse and druggable antimicrobial peptides by diffusion and multimodal deep learning",
+        "doi": "https://doi.org/10.1101/2025.07.16.665042"
+      },
+      {
+        "title": "The Application of Deep Learning in Dance Movement Design",
+        "doi": "https://doi.org/10.1007/s44196-025-00907-3"
+      },
+      {
+        "title": "ResNets Are Deeper Than You Think",
+        "doi": "https://doi.org/10.48550/arxiv.2506.14386"
+      },
+      {
+        "title": "Layer Dance: Pairwise Layer Training with Adaptive Learning Rates for Transformers",
+        "doi": "https://doi.org/10.36227/techrxiv.174888672.29796823/v1"
+      },
+      {
+        "title": "HAMLET: Healthcare-focused Adaptive Multilingual Learning Embedding-based Topic Modeling",
+        "doi": "https://doi.org/10.48550/arxiv.2505.07157"
+      },
+      {
+        "title": "Diffusion Model Quantization: A Review",
+        "doi": "https://doi.org/10.48550/arxiv.2505.05215"
+      },
+      {
+        "title": "Plant Disease Detection through Multimodal Large Language Models and Convolutional Neural Networks",
+        "doi": "https://doi.org/10.48550/arxiv.2504.20419"
+      },
+      {
+        "title": "Application of Transformers to Chemical Synthesis",
+        "doi": "https://doi.org/10.3390/molecules30030493"
+      },
+      {
+        "title": "Vision-language model-based human-robot collaboration for smart manufacturing: A state-of-the-art survey",
+        "doi": "https://doi.org/10.1007/s42524-025-4136-9"
+      },
+      {
+        "title": "Probabilistic Forecasting of Crude Oil Prices Using Conditional Generative Adversarial Network Model with Lévy Process",
+        "doi": "https://doi.org/10.3390/math13020307"
+      },
+      {
+        "title": "Transfer Learning-Based Health Monitoring of Robotic Rotate Vector Reducer Under Variable Working Conditions",
+        "doi": "https://doi.org/10.3390/machines13010060"
+      },
+      {
+        "title": "A Survey of Deep Anomaly Detection in Multivariate Time Series: Taxonomy, Applications, and Directions",
+        "doi": "https://doi.org/10.3390/s25010190"
+      },
+      {
+        "title": "Generative Adversarial Networks for Longitudinal Data Imputation and Classification",
+        "doi": "https://doi.org/10.5204/thesis.eprints.258292"
+      },
+      {
+        "title": "Generalization potential of large language models",
+        "doi": "https://doi.org/10.1007/s00521-024-10827-6"
+      },
+      {
+        "title": "Initialization of Large Language Models via Reparameterization to Mitigate Loss Spikes",
+        "doi": "https://doi.org/10.48550/arxiv.2410.05052"
+      },
+      {
+        "title": "Machine Learning-Enhanced Process Parameter Optimization and Microstructure Prediction in Additive Manufacturing",
+        "doi": "https://doi.org/10.12794/metadc2356212"
+      },
+      {
+        "title": "A Survey on Visual Mamba",
+        "doi": "https://doi.org/10.3390/app14135683"
+      },
+      {
+        "title": "LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments",
+        "doi": "https://doi.org/10.48550/arxiv.2406.02611"
+      },
+      {
+        "title": "Remaining Useful Life Prediction Based on Deep Learning: A Survey",
+        "doi": "https://doi.org/10.3390/s24113454"
+      },
+      {
+        "title": "On the Convergence of Gradient Descent on Learning Transformers with Residual Connections",
+        "doi": "https://doi.org/10.48550/arXiv.2506.05249"
+      },
+      {
+        "title": "On the Adversarial Transferability of Generalized \"Skip Connections\"",
+        "doi": "https://doi.org/10.48550/arXiv.2410.08950"
+      },
+      {
+        "title": "On Layer Normalizations and Residual Connections in Transformers",
+        "doi": "https://doi.org/10.48550/arXiv.2206.00330"
+      },
+      {
+        "title": "Revisiting Residual Connections: Orthogonal Updates for Stable and Efficient Deep Networks",
+        "doi": "https://doi.org/10.48550/arXiv.2505.11881"
+      },
+      {
+        "title": "Set Norm and Equivariant Skip Connections: Putting the Deep in Deep Sets",
+        "doi": "https://doi.org/10.48550/arXiv.2206.11925"
+      },
+      {
+        "title": "A Multi-Scale Liver Tumor Segmentation Method Based on Residual and Hybrid Attention Enhanced Network with Contextual Integration",
+        "doi": "https://doi.org/10.3390/s24175845"
+      },
+      {
+        "title": "Building Footprint Extraction from Remote Sensing Images with Residual Attention Multi-Scale Aggregation Fully Convolutional Network",
+        "doi": "https://doi.org/10.1007/s12524-024-01961-8"
+      },
+      {
+        "title": "Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking",
+        "doi": "https://doi.org/10.48550/arXiv.2502.13842"
+      },
+      {
+        "title": "The Shaped Transformer: Attention Models in the Infinite Depth-and-Width Limit",
+        "doi": "https://doi.org/10.48550/arXiv.2306.17759"
+      },
+      {
+        "title": "Mitigating Exploding Gradients in Large Language Models with Neural Architecture Search",
+        "doi": "https://doi.org/10.1109/CAI64502.2025.00197"
+      },
+      {
+        "title": "LAuReL: Learned Augmented Residual Layer",
+        "doi": "https://doi.org/10.48550/arXiv.2411.07501"
+      },
+      {
+        "title": "A fake news detection model using the integration of multimodal attention mechanism and residual convolutional network",
+        "doi": "https://doi.org/10.1038/s41598-025-05702-w"
+      },
+      {
+        "title": "Transformer-based multi-scale feature fusion network for remote sensing change detection",
+        "doi": "https://doi.org/10.1117/1.JRS.16.046509"
+      },
+      {
+        "title": "GPAS: Accelerating Convergence of LLM Pretraining via Gradient-Preserving Activation Scaling",
+        "doi": "https://doi.org/10.48550/arXiv.2506.22049"
+      },
+      {
+        "title": "Application Research on Real-Time Recognition of Coal Volume on Belt Conveyors Based on Deep Learning and Multi-Dimensional Data Fusion Mechanism",
+        "doi": "https://doi.org/10.1109/ISCIPT67144.2025.11265310"
+      },
+      {
+        "title": "KunlunBaize: LLM with Multi-Scale Convolution and Multi-Token Prediction Under TransformerX Framework",
+        "doi": "https://doi.org/10.48550/arXiv.2503.04784"
+      },
+      {
+        "title": "STRUCTURAL AND FUNCTIONAL MODEL OF A CONVOLUTIONAL NEURAL NETWORK FOR PROCESSING, ANALYSING AND CLASSIFYING IMAGES OF VARYING COMPLEXITY",
+        "doi": "https://doi.org/10.26906/sunz.2025.4.103"
+      },
+      {
+        "title": "Multi-Objective Reinforcement Learning with Enhanced Pointer Networks for TSP",
+        "doi": "https://doi.org/10.23919/CCC64809.2025.11178773"
+      },
+      {
+        "title": "Res-ECA-UNet++: an automatic segmentation model for ovarian tumor ultrasound images based on residual networks and channel attention mechanism",
+        "doi": "https://doi.org/10.3389/fmed.2025.1589356"
+      },
+      {
+        "title": "Transformative or Conservative? Conservation laws for ResNets and Transformers",
+        "doi": "https://doi.org/10.48550/arXiv.2506.06194"
+      },
+      {
+        "title": "Multi-module UNet++ for colon cancer histopathological image segmentation",
+        "doi": "https://doi.org/10.1038/s41598-025-13636-6"
+      },
+      {
+        "title": "Two failure modes of deep transformers and how to avoid them: a unified theory of signal propagation at initialisation",
+        "doi": "https://doi.org/10.48550/arXiv.2505.24333"
+      },
+      {
+        "title": "Attention-enhanced hybrid U-Net for prostate cancer grading and explainability",
+        "doi": "https://doi.org/10.1038/s41598-025-13824-4"
+      },
+      {
+        "title": "Data Uniformity Improves Training Efficiency and More, with a Convergence Framework Beyond the NTK Regime",
+        "doi": "https://doi.org/10.48550/arXiv.2506.24120"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "residual connections LLMs transformer skip architecture gradient stability",
+    "total_steps": 1,
+    "last_updated": "2026-01-05T18:43:41.560296",
+    "started_at": "2026-01-05T18:42:53.950894",
+    "total_papers": 50
+  }
+}

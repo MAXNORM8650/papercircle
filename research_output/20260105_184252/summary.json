@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "residual connections LLMs transformer skip architecture gradient stability",
+    "total_papers": 50,
+    "unique_sources": 2,
+    "year_range": {
+      "min": 2021,
+      "max": 2025
+    },
+    "citation_summary": {
+      "total": 350,
+      "average": 13.0
+    },
+    "top_source": "openalex",
+    "papers_with_pdf": 28,
+    "papers_with_doi": 49,
+    "processing_steps": 1
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (35) are from 2025",
+      "data": {
+        "year": 2025,
+        "count": 35
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "openalex contributes 25 papers (50%)",
+      "data": {
+        "source": "openalex",
+        "count": 25
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Haifeng Wang has 2 papers in this collection",
+      "data": {
+        "author": "Haifeng Wang",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"A Survey on Visual Mamba...\" has 111 citations",
+      "data": {
+        "title": "A Survey on Visual Mamba",
+        "citations": 111
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: learning, multi, deep, residual, attention",
+      "data": {
+        "keywords": {
+          "learning": 11,
+          "multi": 9,
+          "deep": 9,
+          "residual": 8,
+          "attention": 7
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "28/50 papers (56%) have direct PDF links",
+      "data": {
+        "with_pdf": 28,
+        "total": 50
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 50 papers related to 'residual connections LLMs transformer skip architecture gradient stability'",
+    "Papers collected from 2 sources: openalex, semantic_scholar",
+    "Publication years range from 2021 to 2025",
+    "Total citations: 350, Average: 12",
+    "Leading researchers: Haifeng Wang, Tao Fang, Senlong Wang"
+  ],
+  "metadata": {
+    "query": "residual connections LLMs transformer skip architecture gradient stability",
+    "total_steps": 1,
+    "last_updated": "2026-01-05T18:43:41.568342",
+    "started_at": "2026-01-05T18:42:53.950894",
+    "total_papers": 50
+  },
+  "is_complete": true
+}

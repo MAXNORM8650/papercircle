@@ -75,32 +75,33 @@ class ResearchStatus(BaseModel):
     output_dir: Optional[str] = None
 
 # Helper Functions
-def get_user_llm_config(user_id: Optional[str]) -> tuple[str, str]:
+def get_user_llm_config(user_id: Optional[str]) -> tuple[str, str, Optional[str]]:
     """
     Get user's LLM configuration from database.
-    Returns (api_base, model_id)
+    Returns (api_base, model_id, api_key)
     """
     if not user_id:
-        return (DEFAULT_API_BASE, DEFAULT_MODEL_ID)
+        return (DEFAULT_API_BASE, DEFAULT_MODEL_ID, None)
 
     try:
         result = supabase.table('profiles').select(
-            'llm_enabled, llm_api_base, llm_model_id'
+            'llm_enabled, llm_api_base, llm_model_id, llm_api_key'
         ).eq('id', user_id).single().execute()
 
         if result.data and result.data.get('llm_enabled'):
             api_base = result.data.get('llm_api_base') or DEFAULT_API_BASE
             model_id = result.data.get('llm_model_id') or DEFAULT_MODEL_ID
+            api_key = result.data.get('llm_api_key') or None
 
             # Warn about localhost URLs (they only work if Ollama is on same machine as backend)
             if any(host in api_base.lower() for host in ['localhost', '127.0.0.1', '0.0.0.0']):
                 print(f"⚠️  User {user_id} configured localhost URL: {api_base}. This only works if Ollama is on the same machine as the backend server.")
 
-            return (api_base, model_id)
+            return (api_base, model_id, api_key)
     except Exception as e:
         print(f"⚠️  Error loading user LLM config: {e}")
 
-    return (DEFAULT_API_BASE, DEFAULT_MODEL_ID)
+    return (DEFAULT_API_BASE, DEFAULT_MODEL_ID, None)
 
 def build_enhanced_prompt(query: str, tags: list[str]) -> tuple[str, str]:
     """
@@ -186,7 +187,7 @@ async def stream_pipeline_progress(
     """
     try:
         # Get user's LLM config
-        api_base, model_id = get_user_llm_config(user_id)
+        api_base, model_id, api_key = get_user_llm_config(user_id)
 
         # Build enhanced prompt from tags
         enhanced_query, custom_instructions = build_enhanced_prompt(query, tags)
@@ -206,11 +207,13 @@ async def stream_pipeline_progress(
         # Send initial status
         yield f"data: {json.dumps({'type': 'status', 'content': f'Initializing pipeline with {model_id}...'})}\n\n"
 
-        # Create LiteLLM model
+        # Create LiteLLM model with API key and drop_params for compatibility
         model = LiteLLMModel(
             model_id=model_id,
             api_base=api_base,
-            num_ctx=8192
+            api_key=api_key,
+            num_ctx=8192,
+            drop_params=True  # Drop unsupported params for OpenRouter/other providers
         )
 
         yield f"data: {json.dumps({'type': 'status', 'content': 'Creating multi-agent research pipeline...'})}\n\n"

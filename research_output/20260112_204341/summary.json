@@ -1,0 +1,85 @@
+{
+  "summary": {
+    "query": "autoregressive world models theoretical position",
+    "total_papers": 101,
+    "unique_sources": 7,
+    "year_range": {
+      "min": 2018,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 0,
+      "average": 0
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 54,
+    "papers_with_doi": 0,
+    "processing_steps": 9
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (50) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 50
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 42 papers (41%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 42
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Eloi Alonso has 3 papers in this collection",
+      "data": {
+        "author": "Eloi Alonso",
+        "count": 3
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: world, models, autoregressive, generation, learning",
+      "data": {
+        "keywords": {
+          "world": 48,
+          "models": 35,
+          "autoregressive": 25,
+          "generation": 14,
+          "learning": 12
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "54/101 papers (53%) have direct PDF links",
+      "data": {
+        "with_pdf": 54,
+        "total": 101
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 101 papers related to 'autoregressive world models theoretical position'",
+    "Papers collected from 7 sources: offline_iclr, offline_icml, offline_iccv, offline_nips, offline_cvpr, offline_acl, arxiv",
+    "Publication years range from 2018 to 2026",
+    "Leading researchers: Eloi Alonso, Xiaotao Hu, Xingang Pan"
+  ],
+  "metadata": {
+    "query": "autoregressive world models theoretical position",
+    "total_steps": 9,
+    "last_updated": "2026-01-12T20:44:51.697010",
+    "started_at": "2026-01-12T20:43:41.244355",
+    "total_papers": 101
+  },
+  "is_complete": true
+}

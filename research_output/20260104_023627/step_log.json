@@ -1,0 +1,166 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-04T02:36:37.370855",
+      "agent": "online_search_agent",
+      "action": "Online search: 'manifold machine learning'",
+      "result_preview": "Found 164 papers",
+      "details": {
+        "query": "manifold machine learning",
+        "sources": null,
+        "papers_found": 164,
+        "papers_added": 164,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 164
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-04T02:36:40.674895",
+      "agent": "online_search_agent",
+      "action": "Online search: 'manifold mathematics'",
+      "result_preview": "Found 134 papers",
+      "details": {
+        "query": "manifold mathematics",
+        "sources": null,
+        "papers_found": 134,
+        "papers_added": 121,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 285
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-04T02:36:48.787697",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'manifold machine learning'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "manifold machine learning",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 48,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 333
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-04T02:36:56.471147",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'manifold mathematics'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "manifold mathematics",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 46,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 379
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-04T02:37:18.625973",
+      "agent": "online_search_agent",
+      "action": "Online search: 'manifold learning and optimization'",
+      "result_preview": "Found 128 papers",
+      "details": {
+        "query": "manifold learning and optimization",
+        "sources": null,
+        "papers_found": 128,
+        "papers_added": 81,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 460
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-04T02:37:26.408806",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'manifold learning and optimization'",
+      "result_preview": "Found 100 papers from local database",
+      "details": {
+        "query": "manifold learning and optimization",
+        "conferences": [
+          "nips",
+          "iclr",
+          "icml",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "aaai",
+          "ijcai",
+          "acl",
+          "emnlp",
+          "naacl",
+          "coling",
+          "aistats",
+          "uai",
+          "colt",
+          "acml",
+          "corl",
+          "rss",
+          "icra",
+          "iros",
+          "siggraph",
+          "wacv",
+          "acmmm",
+          "kdd",
+          "www",
+          "alt",
+          "automl",
+          "colm",
+          "3dv"
+        ],
+        "start_year": 2024,
+        "end_year": 2025,
+        "papers_found": 100,
+        "papers_added": 85,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 545
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-04T02:37:30.244371",
+      "agent": "online_search_agent",
+      "action": "Online search: 'manifold learning and optimization'",
+      "result_preview": "Found 198 papers",
+      "details": {
+        "query": "manifold learning and optimization",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 198,
+        "papers_added": 74,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 619
+    }
+  ],
+  "current_step": 7,
+  "metadata": {
+    "query": "manifold learning and optimization",
+    "total_steps": 7,
+    "last_updated": "2026-01-04T02:37:30.287045",
+    "started_at": "2026-01-04T02:36:27.634581",
+    "total_papers": 619
+  }
+}

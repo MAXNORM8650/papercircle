@@ -1,4 +1,0 @@
-\section{System Overview}
-Paper Circle is a full-stack platform with a web frontend and a Python backend. The frontend (React, TypeScript, Vite, TailwindCSS) provides discovery, reading circles, and discussion features. The backend exposes discovery APIs via FastAPI and implements the multi-agent pipelines used by the system. Supabase (PostgreSQL + Auth) provides storage for users, communities, papers, and sessions.
-
-The discovery backend includes two major pipelines: (i) a refactored research discovery pipeline focused on deterministic retrieval, scoring, and diversity, and (ii) a multi-agent research pipeline that produces structured step-by-step outputs with offline search support. Both pipelines are accessible through API endpoints and are integrated into the Paper Circle user interface for interactive discovery workflows.

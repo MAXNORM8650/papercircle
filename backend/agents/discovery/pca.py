@@ -1105,7 +1105,7 @@ class OfflinePaperSearchEngine:
 
     def _search_with_cache(self, query: str, conferences: List[str] = None,
                           start_year: int = None, end_year: int = None,
-                          max_results: int = 50) -> List[Paper]:
+                          max_results: int = 500) -> List[Paper]:
         """Fast search using pre-computed indices (10-50x faster!)"""
         print("[Offline] ⚡ Using cached indices for fast search")
 
@@ -1898,7 +1898,7 @@ IMPORTANT SEARCH MODE LOGIC:
 
 Args:
     query: Search query. Use "offline: <query>" prefix for OFFLINE retrieval from local database.
-    max_results: Max papers per source (default: 25 for online, 50 for offline)
+    max_results: Max papers per source (default: 200 for online, 200 for offline)
     start_year: Filter year (default: 2020)
     end_year: End year filter (for offline searches)
     conferences: Comma-separated conference names (case-insensitive). When specified WITHOUT sources, triggers OFFLINE search.
@@ -1921,7 +1921,7 @@ Examples:
         "max_results": {
             "type": "integer",
             "nullable": True,
-            "description": "Maximum number of papers to retrieve. Default: 50 for offline, 100 for online."
+            "description": "Maximum number of papers to retrieve. Default: 200 for offline, 200 for online."
         },
         "start_year": {
             "type": "integer",
@@ -2368,8 +2368,8 @@ Special sorting methods:
             papers.sort(key=lambda p: -p.bm25_score)
         elif sort_by == "combined":
             w = json.loads(weights) if weights else {
-                "recency": 0.2, "citations": 0.2, "similarity": 0.25,
-                "novelty": 0.15, "bm25": 0.2
+                "recency": 0.2, "citations": 0.2, "similarity": 0.2,
+                "novelty": 0.2, "bm25": 0.4
             }
             for p in papers:
                 p.combined_score = (

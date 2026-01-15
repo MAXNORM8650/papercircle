@@ -13,10 +13,14 @@ import {
   RefreshCw,
   Loader,
   AlertCircle,
-  ExternalLink
+  ExternalLink,
+  ZoomIn,
+  ZoomOut,
+  Maximize
 } from 'lucide-react';
 import mermaid from 'mermaid';
 import { InteractiveGraph } from './InteractiveGraph';
+import { useAuth } from '../../contexts/AuthContext';
 
 // Initialize mermaid with latest version
 mermaid.initialize({
@@ -25,10 +29,15 @@ mermaid.initialize({
   securityLevel: 'loose',
 });
 
-// Simple Mermaid component using latest version
+// Enhanced Mermaid component with zoom and pan
 function Mermaid({ chart }: { chart: string }) {
   const ref = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
   const [error, setError] = useState<string | null>(null);
+  const [zoom, setZoom] = useState(1);
+  const [isDragging, setIsDragging] = useState(false);
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     if (ref.current && chart) {
@@ -36,9 +45,19 @@ function Mermaid({ chart }: { chart: string }) {
       const renderChart = async () => {
         try {
           const id = `mermaid-${Math.random().toString(36).substr(2, 9)}`;
+          // Reset zoom and position when chart changes
+          setZoom(1);
+          setPosition({ x: 0, y: 0 });
+
           const { svg } = await mermaid.render(id, chart);
           if (ref.current) {
             ref.current.innerHTML = svg;
+            // Remove hardcoded width/height from SVG to allow scaling
+            const svgElement = ref.current.querySelector('svg');
+            if (svgElement) {
+              svgElement.style.maxWidth = 'none';
+              svgElement.style.height = 'auto';
+            }
           }
         } catch (err) {
           console.error('Mermaid render error:', err);
@@ -48,6 +67,23 @@ function Mermaid({ chart }: { chart: string }) {
       renderChart();
     }
   }, [chart]);
+
+  const handleMouseDown = (e: React.MouseEvent) => {
+    setIsDragging(true);
+    setDragStart({ x: e.clientX - position.x, y: e.clientY - position.y });
+  };
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    if (!isDragging) return;
+    setPosition({
+      x: e.clientX - dragStart.x,
+      y: e.clientY - dragStart.y
+    });
+  };
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+  };
 
   if (error) {
     return (
@@ -61,7 +97,57 @@ function Mermaid({ chart }: { chart: string }) {
     );
   }
 
-  return <div ref={ref} className="mermaid-diagram" />;
+  return (
+    <div className="relative group">
+      {/* Zoom Controls */}
+      <div className="absolute top-2 right-2 flex gap-1 z-10 opacity-0 group-hover:opacity-100 transition-opacity">
+        <button
+          onClick={() => setZoom(prev => Math.min(prev + 0.2, 3))}
+          className="p-1.5 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-50 text-gray-600"
+          title="Zoom In"
+        >
+          <ZoomIn className="w-4 h-4" />
+        </button>
+        <button
+          onClick={() => setZoom(prev => Math.max(prev - 0.2, 0.5))}
+          className="p-1.5 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-50 text-gray-600"
+          title="Zoom Out"
+        >
+          <ZoomOut className="w-4 h-4" />
+        </button>
+        <button
+          onClick={() => {
+            setZoom(1);
+            setPosition({ x: 0, y: 0 });
+          }}
+          className="p-1.5 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-50 text-gray-600"
+          title="Reset"
+        >
+          <Maximize className="w-4 h-4" />
+        </button>
+      </div>
+
+      <div
+        ref={containerRef}
+        className="bg-gray-50 rounded-lg overflow-hidden cursor-move border border-gray-100 h-[600px] flex items-center justify-center"
+        onMouseDown={handleMouseDown}
+        onMouseMove={handleMouseMove}
+        onMouseUp={handleMouseUp}
+        onMouseLeave={handleMouseUp}
+      >
+        <div
+          ref={ref}
+          className="mermaid-diagram transition-transform duration-75 ease-out origin-center scale-150"
+          style={{
+            transform: `translate(${position.x}px, ${position.y}px) scale(${zoom})`,
+          }}
+        />
+      </div>
+      <div className="mt-2 text-[10px] text-gray-400 text-center">
+        💡 Drag to pan • Hover for zoom controls
+      </div>
+    </div>
+  );
 }
 
 interface PaperAnalysisViewProps {
@@ -93,7 +179,7 @@ interface Analysis {
 
 type Tab = 'summary' | 'mindmap' | 'flowchart' | 'concepts' | 'methods' | 'experiments' | 'graph' | 'qa';
 
-const API_BASE = 'http://127.0.0.1:8001';
+const API_BASE = 'http://127.0.0.1:8000';
 
 export function PaperAnalysisView({
   paperId,
@@ -102,6 +188,7 @@ export function PaperAnalysisView({
   arxivId,
   onClose
 }: PaperAnalysisViewProps) {
+  const { user } = useAuth();
   const [analysis, setAnalysis] = useState<Analysis | null>(null);
   const [loading, setLoading] = useState(true);
   const [processing, setProcessing] = useState(false);
@@ -158,29 +245,31 @@ export function PaperAnalysisView({
 
     try {
       // Try normal analysis first
-      let response = await fetch(`${API_BASE}/analyze/paper`, {
+      let response = await fetch(`${API_BASE}/analysis/paper`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           paper_id: paperId,
+          user_id: undefined,  // Will default to "system" on backend
           community_id: communityId,
           session_id: sessionId,
-          manual_url: urlToUse || undefined,
+          manual_url: urlToUse || arxivId || undefined,
           force_reanalyze: false,
         }),
       });
 
-      // If paper not found (404) or missing data (400) and we have arxivId, try URL-based analysis
+      // If paper not found (404) or missing data (400) and we have arxivId, try with manual_url
       if ((response.status === 404 || response.status === 400) && arxivId) {
-        console.log('Paper not in DB, trying direct URL analysis with arxiv:', arxivId);
-        response = await fetch(`${API_BASE}/analyze/url`, {
+        console.log('Paper not in DB, trying analysis with arxiv URL:', arxivId);
+        response = await fetch(`${API_BASE}/analysis/paper`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            url: arxivId,
-            save_to_database: true,
+            paper_id: paperId,
+            manual_url: arxivId.startsWith('http') ? arxivId : `https://arxiv.org/abs/${arxivId}`,
             community_id: communityId,
             session_id: sessionId,
+            force_reanalyze: false,
           }),
         });
 
@@ -290,12 +379,13 @@ export function PaperAnalysisView({
 
     setAskingQuestion(true);
     try {
-      const response = await fetch(`${API_BASE}/ask`, {
+      const response = await fetch(`${API_BASE}/analysis/ask`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           analysis_id: analysis.id,
           question: question,
+          user_id: user?.id,
         }),
       });
 

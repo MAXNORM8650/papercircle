@@ -42,25 +42,27 @@ class Config:
     # LLM settings
     api_base: str = "http://10.127.30.115:11434"
     model_id: str = "ollama_chat/qwen3-coder:30b"
+    api_key: Optional[str] = None
     num_ctx: int = 8192
-    
+
     # Processing settings
     cache_dir: str = "./paper_cache"
     max_chunk_size: int = 1500
-    
+
     # Graph building
     extract_concepts: bool = True
     extract_methods: bool = True
     extract_experiments: bool = True
     link_figures: bool = True
-    
+
     # Q&A settings
     top_k_retrieval: int = 5
-    
+
     def to_dict(self) -> Dict:
         return {
             "api_base": self.api_base,
             "model_id": self.model_id,
+            "api_key": self.api_key,
             "num_ctx": self.num_ctx,
             "cache_dir": self.cache_dir,
             "max_chunk_size": self.max_chunk_size,

@@ -282,16 +282,23 @@ class PaperQA:
     def __init__(self, graph: MindGraph, config: Dict = None):
         self.graph = graph
         self.config = config or DEFAULT_CONFIG
-        
+
         # Initialize retriever
         self.retriever = GraphRetriever(graph, config)
-        
+
+        # Build model kwargs - num_ctx is Ollama-specific
+        model_kwargs = {
+            "model_id": self.config["model_id"],
+            "api_base": self.config["api_base"],
+            "api_key": self.config.get("api_key"),
+            "drop_params": True,  # Drop unsupported params for OpenRouter/other providers
+        }
+        # Only add num_ctx for Ollama models
+        if "ollama" in self.config["model_id"].lower():
+            model_kwargs["num_ctx"] = self.config.get("num_ctx", 8192)
+
         # Initialize LLM
-        self.model = LiteLLMModel(
-            model_id=self.config["model_id"],
-            api_base=self.config["api_base"],
-            num_ctx=self.config.get("num_ctx", 8192)
-        )
+        self.model = LiteLLMModel(**model_kwargs)
         
         # Create QA agent
         self.agent = CodeAgent(

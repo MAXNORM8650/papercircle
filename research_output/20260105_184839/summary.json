@@ -1,0 +1,85 @@
+{
+  "summary": {
+    "query": "hyperparameters or hypernetworks in LLMs and Transformers",
+    "total_papers": 50,
+    "unique_sources": 12,
+    "year_range": {
+      "min": 2020,
+      "max": 2024
+    },
+    "citation_summary": {
+      "total": 0,
+      "average": 0
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 33,
+    "papers_with_doi": 0,
+    "processing_steps": 1
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (17) are from 2024",
+      "data": {
+        "year": 2024,
+        "count": 17
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 19 papers (38%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 19
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Lior Wolf has 4 papers in this collection",
+      "data": {
+        "author": "Lior Wolf",
+        "count": 4
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: hypernetworks, learning, transformers, multi, shot",
+      "data": {
+        "keywords": {
+          "hypernetworks": 27,
+          "learning": 17,
+          "transformers": 13,
+          "multi": 5,
+          "shot": 5
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "33/50 papers (66%) have direct PDF links",
+      "data": {
+        "with_pdf": 33,
+        "total": 50
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 50 papers related to 'hyperparameters or hypernetworks in LLMs and Transformers'",
+    "Papers collected from 12 sources: offline_acl, offline_iclr, offline_eccv, offline_corl, offline_emnlp, offline_aaai, offline_nips, offline_wacv, offline_coling, offline_icra, offline_cvpr, offline_iccv",
+    "Publication years range from 2020 to 2024",
+    "Leading researchers: Lior Wolf, Lorenzo Noci, Tomer Galanti"
+  ],
+  "metadata": {
+    "query": "hyperparameters or hypernetworks in LLMs and Transformers",
+    "total_steps": 1,
+    "last_updated": "2026-01-05T18:49:38.104170",
+    "started_at": "2026-01-05T18:48:39.800614",
+    "total_papers": 50
+  },
+  "is_complete": true
+}

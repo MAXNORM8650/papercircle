@@ -9,11 +9,11 @@ import { AttendanceList } from '../Sessions/AttendanceList';
 import { AssignPresenterModal } from '../Sessions/AssignPresenterModal';
 import { SessionLineageView } from '../Sessions/SessionLineageView';
 import { CommunityPapersView } from '../Papers/CommunityPapersView';
-import { AnalysisHubView } from '../Papers/AnalysisHubView';
 
 interface CircleDetailViewProps {
   communityId: string;
   onBack: () => void;
+  onNavigate?: (view: string, context?: { circleId?: string }) => void;
 }
 
 interface Community {
@@ -62,7 +62,7 @@ interface Session {
   recording_url: string | null;
 }
 
-export function CircleDetailView({ communityId, onBack }: CircleDetailViewProps) {
+export function CircleDetailView({ communityId, onBack, onNavigate }: CircleDetailViewProps) {
   const { user } = useAuth();
   const [community, setCommunity] = useState<Community | null>(null);
   const [members, setMembers] = useState<Member[]>([]);
@@ -354,7 +354,13 @@ export function CircleDetailView({ communityId, onBack }: CircleDetailViewProps)
             {(['overview', 'members', 'papers', 'sessions', 'analysis', 'settings'] as const).map((tab) => (
               <button
                 key={tab}
-                onClick={() => setActiveTab(tab)}
+                onClick={() => {
+                  if (tab === 'analysis' && onNavigate) {
+                    onNavigate('lineage', { circleId: communityId });
+                  } else {
+                    setActiveTab(tab);
+                  }
+                }}
                 className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
                   activeTab === tab
                     ? 'border-blue-500 text-blue-600'
@@ -641,13 +647,6 @@ export function CircleDetailView({ communityId, onBack }: CircleDetailViewProps)
                 </div>
               )}
             </div>
-          )}
-
-          {activeTab === 'analysis' && community && (
-            <AnalysisHubView
-              communityId={communityId}
-              communityName={community.name}
-            />
           )}
 
           {activeTab === 'settings' && isAdmin && (

@@ -1,0 +1,134 @@
+{
+  "config": {
+    "data_path": "/Users/komal.kumar/Documents/websites/pc-data/benchmarks/reviewbench/iclr2024.json",
+    "conference": "iclr",
+    "model_id": "ollama_chat/qwen3-coder:30b",
+    "limit": 1,
+    "total_papers_in_file": 1
+  },
+  "statistics": {
+    "total_papers": 1,
+    "successful": 1,
+    "failed": 0,
+    "success_rate": 1.0
+  },
+  "results": [
+    {
+      "paper_id": "0074qaufB6",
+      "title": "InfoNet: Missing Information Retrieval in Multi-Stream Sensing Systems",
+      "predicted_review": {
+        "_parse_error": "No valid JSON found in text",
+        "soundness": null,
+        "presentation": null,
+        "contribution": null,
+        "rating": null,
+        "confidence": null,
+        "summary": "",
+        "strengths": [],
+        "weaknesses": [],
+        "questions": []
+      },
+      "ground_truth": {
+        "rating": 3.0,
+        "soundness": 2.3333333333333335,
+        "presentation": 2.3333333333333335,
+        "contribution": 1.6666666666666667,
+        "confidence": 3.6666666666666665,
+        "wc_summary": 100.33333333333333,
+        "wc_strengths": 90.0,
+        "wc_weaknesses": 239.33333333333334,
+        "wc_questions": 90.33333333333333,
+        "wc_review": 520.0
+      },
+      "evaluation": {
+        "parsing_success": false,
+        "score_metrics": {
+          "rating": {
+            "predicted": null,
+            "ground_truth": 3.0,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "soundness": {
+            "predicted": null,
+            "ground_truth": 2.3333333333333335,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "presentation": {
+            "predicted": null,
+            "ground_truth": 2.3333333333333335,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "contribution": {
+            "predicted": null,
+            "ground_truth": 1.6666666666666667,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "confidence": {
+            "predicted": null,
+            "ground_truth": 3.6666666666666665,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          }
+        },
+        "content_metrics": {
+          "summary_wc": 0,
+          "summary_wc_target": 100.33333333333333,
+          "summary_wc_ratio": 0.0,
+          "summary_wc_diff": 100.33333333333333,
+          "strengths_wc": 0,
+          "strengths_wc_target": 90.0,
+          "strengths_wc_ratio": 0.0,
+          "strengths_wc_diff": 90.0,
+          "weaknesses_wc": 0,
+          "weaknesses_wc_target": 239.33333333333334,
+          "weaknesses_wc_ratio": 0.0,
+          "weaknesses_wc_diff": 239.33333333333334,
+          "questions_wc": 0,
+          "questions_wc_target": 90.33333333333333,
+          "questions_wc_ratio": 0.0,
+          "questions_wc_diff": 90.33333333333333,
+          "has_summary": false,
+          "has_strengths": false,
+          "has_weaknesses": false,
+          "has_questions": false,
+          "num_strengths": 0,
+          "num_weaknesses": 0,
+          "num_questions": 0,
+          "total_wc": 0,
+          "total_wc_ratio": 0.0
+        }
+      },
+      "success": true
+    }
+  ],
+  "errors": []
+}

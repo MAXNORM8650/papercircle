@@ -68,44 +68,46 @@ SECURITY DEFINER
 SET search_path = public
 AS $$
 DECLARE
-  v_profile RECORD;
+  v_daily_limit integer;
+  v_is_unlimited boolean;
+  v_llm_enabled boolean;
   v_used_today integer;
 BEGIN
   -- Get user's profile settings
   SELECT
-    daily_analysis_limit,
-    is_unlimited,
-    llm_enabled
-  INTO v_profile
-  FROM profiles
-  WHERE id = p_user_id;
+    p.daily_analysis_limit,
+    p.is_unlimited,
+    p.llm_enabled
+  INTO v_daily_limit, v_is_unlimited, v_llm_enabled
+  FROM profiles p
+  WHERE p.id = p_user_id;
 
   -- If user has custom LLM enabled, they're unlimited
-  IF v_profile.llm_enabled = true THEN
-    RETURN QUERY SELECT true, 0, 0, true;
+  IF v_llm_enabled = true THEN
+    RETURN QUERY SELECT true::boolean, 0::integer, 0::integer, true::boolean;
     RETURN;
   END IF;
 
   -- Check if user is marked as unlimited
-  IF v_profile.is_unlimited = true THEN
-    RETURN QUERY SELECT true, 0, 0, true;
+  IF v_is_unlimited = true THEN
+    RETURN QUERY SELECT true::boolean, 0::integer, 0::integer, true::boolean;
     RETURN;
   END IF;
 
   -- Count usage today (UTC day)
-  SELECT COUNT(*)
+  SELECT COUNT(*)::integer
   INTO v_used_today
-  FROM paper_analysis_usage
-  WHERE user_id = p_user_id
-    AND created_at >= date_trunc('day', now() AT TIME ZONE 'UTC')
-    AND success = true;
+  FROM paper_analysis_usage pau
+  WHERE pau.user_id = p_user_id
+    AND pau.created_at >= date_trunc('day', now() AT TIME ZONE 'UTC')
+    AND pau.success = true;
 
   -- Check if under quota
   RETURN QUERY SELECT
-    v_used_today < v_profile.daily_analysis_limit,
-    v_used_today,
-    v_profile.daily_analysis_limit,
-    false;
+    (v_used_today < v_daily_limit)::boolean,
+    v_used_today::integer,
+    v_daily_limit::integer,
+    false::boolean;
 END;
 $$;
 

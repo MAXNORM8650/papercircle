@@ -127,7 +127,7 @@ const ResearchDashboard: React.FC<ResearchDashboardProps> = ({ timestamp, onBack
   const [availableKeywords, setAvailableKeywords] = useState<string[]>([]);
   const [yearBounds, setYearBounds] = useState<[number, number]>([2015, 2026]);
   const [baseUrl, setApiUrl] = useState(
-    import.meta.env.VITE_PAPERFINDER_API_URL || 'http://127.0.0.1:8002'
+    import.meta.env.VITE_PAPERFINDER_API_URL || 'http://127.0.0.1:8000'
   );
   // Load data on mount
   useEffect(() => {

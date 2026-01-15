@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "LLM-as-a-Judge reinforcement learning large language models as guides",
+    "total_papers": 62,
+    "unique_sources": 3,
+    "year_range": {
+      "min": 2023,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 263,
+      "average": 15.5
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 40,
+    "papers_with_doi": 31,
+    "processing_steps": 1
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (26) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 26
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 25 papers (40%)",
+      "data": {
+        "source": "arxiv",
+        "count": 25
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Runxue Bao has 2 papers in this collection",
+      "data": {
+        "author": "Runxue Bao",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Personalisation within bounds: A risk taxonomy and policy framework for the alignment of large language models with personalised feedback...\" has 123 citations",
+      "data": {
+        "title": "Personalisation within bounds: A risk taxonomy and policy framework for the alignment of large language models with personalised feedback",
+        "citations": 123
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: language, models, large, reinforcement, learning",
+      "data": {
+        "keywords": {
+          "language": 16,
+          "models": 15,
+          "large": 12,
+          "reinforcement": 10,
+          "learning": 10
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "40/62 papers (64%) have direct PDF links",
+      "data": {
+        "with_pdf": 40,
+        "total": 62
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 62 papers related to 'LLM-as-a-Judge reinforcement learning large language models as guides'",
+    "Papers collected from 3 sources: semantic_scholar, openalex, arxiv",
+    "Publication years range from 2023 to 2026",
+    "Total citations: 263, Average: 15",
+    "Leading researchers: Runxue Bao, Cao Xiao, Parminder Bhatia"
+  ],
+  "metadata": {
+    "query": "LLM-as-a-Judge reinforcement learning large language models as guides",
+    "total_steps": 1,
+    "last_updated": "2026-01-15T03:13:47.520180",
+    "started_at": "2026-01-15T03:12:57.549187",
+    "total_papers": 62
+  },
+  "is_complete": true
+}

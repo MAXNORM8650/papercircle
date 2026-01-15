@@ -1,0 +1,125 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-12T13:58:13.543381",
+      "agent": "online_search_agent",
+      "action": "Online search: 'large language model world model predictive environment model planning model reinforcement learning'",
+      "result_preview": "Found 200 papers",
+      "details": {
+        "query": "large language model world model predictive environment model planning model reinforcement learning",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 200,
+        "papers_added": 200,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 200
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-12T13:58:31.786412",
+      "agent": "online_search_agent",
+      "action": "Online search: '\"LLM\" \"world model\" OR \"LLM\" \"dynamics prediction\" OR \"LLM\" \"model-based reinforcement learning\" OR \"LLM\" planning OR \"LLM\" \"embodied AI\"'",
+      "result_preview": "Found 200 papers",
+      "details": {
+        "query": "\"LLM\" \"world model\" OR \"LLM\" \"dynamics prediction\" OR \"LLM\" \"model-based reinforcement learning\" OR \"LLM\" planning OR \"LLM\" \"embodied AI\"",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 200,
+        "papers_added": 165,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 365
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-12T13:59:15.186600",
+      "agent": "online_search_agent",
+      "action": "Online search: 'large language model world model planning reinforcement learning \"dynamics prediction\" \"embodied AI\"'",
+      "result_preview": "Found 200 papers",
+      "details": {
+        "query": "large language model world model planning reinforcement learning \"dynamics prediction\" \"embodied AI\"",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 200,
+        "papers_added": 11,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 376
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-12T14:00:02.284522",
+      "agent": "online_search_agent",
+      "action": "Online search: '\"SayCan\" language model planning'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "\"SayCan\" language model planning",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 50,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 376
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-12T14:00:34.447343",
+      "agent": "online_search_agent",
+      "action": "Online search: '\"LLM\" \"world model\"'",
+      "result_preview": "Found 200 papers",
+      "details": {
+        "query": "\"LLM\" \"world model\"",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 200,
+        "papers_added": 21,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 397
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-12T14:00:47.588936",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'large language model world model dynamics prediction model-based reinforcement learning planning embodied AI'",
+      "result_preview": "Found 200 papers from local database",
+      "details": {
+        "query": "large language model world model dynamics prediction model-based reinforcement learning planning embodied AI",
+        "conferences": [
+          "iclr",
+          "nips",
+          "icml",
+          "cvpr",
+          "icra"
+        ],
+        "start_year": 2020,
+        "end_year": 2024,
+        "papers_found": 200,
+        "papers_added": 192,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 589
+    }
+  ],
+  "current_step": 6,
+  "metadata": {
+    "query": "large language model world model dynamics prediction model-based reinforcement learning planning embodied AI",
+    "total_steps": 6,
+    "last_updated": "2026-01-12T14:00:47.618712",
+    "started_at": "2026-01-12T13:53:47.118608",
+    "total_papers": 589
+  }
+}

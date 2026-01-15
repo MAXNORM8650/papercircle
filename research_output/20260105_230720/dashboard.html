@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/paper-circle-logo.svg" />
+    <meta http-equiv="refresh" content="10">
+    <title>Research Dashboard: temporal reasoning in medical imaging and time-series data</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <style>
+            * { box-sizing: border-box; margin: 0; padding: 0; }
+            body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 20px; }
+            .container { max-width: 1600px; margin: 0 auto; }
+            header { text-align: center; padding: 20px; margin-bottom: 30px; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+            header h1 { font-size: 2em; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+            .logo svg { width: 100%; height: 100%; display: block; }
+            .meta { color: #94a3b8; margin-top: 10px; font-size: 0.9em; }
+        .grid { display: grid; gap: 20px; }
+        .grid-4 { grid-template-columns: repeat(4, 1fr); }
+        .grid-2 { grid-template-columns: repeat(2, 1fr); }
+        .grid-3 { grid-template-columns: repeat(3, 1fr); }
+        .card { background: #1e293b; border-radius: 12px; padding: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        .stat-card { text-align: center; }
+        .stat-card .value { font-size: 2.5em; font-weight: bold; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .stat-card .label { color: #94a3b8; margin-top: 5px; }
+        .card h3 { color: #f1f5f9; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+        .step-log { max-height: 300px; overflow-y: auto; }
+        .step { padding: 10px; border-left: 3px solid #667eea; margin: 10px 0; background: #0f172a; border-radius: 0 8px 8px 0; }
+        .step .agent { color: #667eea; font-weight: bold; }
+        .step .time { color: #64748b; font-size: 0.8em; }
+        .leaderboard { max-height: 400px; overflow-y: auto; }
+        .leaderboard table { width: 100%; border-collapse: collapse; }
+        .leaderboard th { text-align: left; padding: 10px; color: #94a3b8; border-bottom: 1px solid #334155; position: sticky; top: 0; background: #1e293b; }
+        .leaderboard td { padding: 10px; border-bottom: 1px solid #334155; }
+        .leaderboard tr:hover { background: #334155; }
+        .rank { color: #fbbf24; font-weight: bold; }
+        .score { color: #34d399; }
+        .insights { display: grid; gap: 15px; }
+        .insight { padding: 15px; background: #0f172a; border-radius: 8px; border-left: 4px solid #667eea; }
+        .insight.trend { border-color: #34d399; }
+        .insight.citation { border-color: #fbbf24; }
+        .insight.author { border-color: #f472b6; }
+        .insight h4 { color: #f1f5f9; margin-bottom: 5px; }
+        .insight p { color: #94a3b8; }
+        .keywords { display: flex; flex-wrap: wrap; gap: 10px; }
+        .keyword { padding: 5px 12px; background: linear-gradient(135deg, #667eea33, #764ba233); border: 1px solid #667eea55; border-radius: 20px; font-size: 0.9em; }
+        .files { display: grid; gap: 10px; }
+        .file { display: flex; align-items: center; gap: 10px; padding: 10px; background: #0f172a; border-radius: 8px; }
+        .file-icon { font-size: 1.5em; }
+        .file-name { color: #f1f5f9; }
+        .file-size { color: #64748b; font-size: 0.8em; }
+        @media (max-width: 1200px) { .grid-4 { grid-template-columns: repeat(2, 1fr); } .grid-3 { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) { .grid-4, .grid-2 { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo" style="width: 60px; height: 60px; margin: 0 auto 10px;">
+                    <svg
+  width="512"
+  height="512"
+  viewBox="-150 -150 290 290"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" />
+      <feOffset dx="1" dy="1" result="offsetblur" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.2" />
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Single paper definition -->
+    <g id="paper">
+      <path d="M 0 0 L 45 0 L 60 15 L 60 85 L 0 85 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.5" />
+      <path d="M 45 0 L 45 15 L 60 15 Z" fill="#cbd5e1" opacity="0.8" />
+
+      <rect x="9" y="21" width="30" height="3.4" rx="1" fill="#3b82f6" opacity="0.8" />
+
+      <rect x="9" y="29" width="42" height="2.5" rx="1" fill="#94a3b8" />
+      <rect x="9" y="35" width="42" height="2.5" rx="1" fill="#94a3b8" />
+      <rect x="9" y="41" width="42" height="2.5" rx="1" fill="#94a3b8" />
+      <rect x="9" y="47" width="24" height="2.5" rx="1" fill="#94a3b8" />
+
+      <rect x="9" y="59" width="18" height="18" rx="2" stroke="#3b82f6" stroke-width="1" fill="none" opacity="0.5" />
+
+      <path d="M 9 72 L 14 64 L 19 67 L 24 60" fill="none" stroke="#3b82f6" stroke-width="1" stroke-linecap="round" />
+    </g>
+  </defs>
+  <!-- Global rotation -->
+  <g transform="rotate(16)">
+    <!-- 24 papers in a ring (spiralOffset ≈ 100) -->
+
+    <!-- 1 -->
+    <g transform="rotate(0) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 2 -->
+    <g transform="rotate(15) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 3 -->
+    <g transform="rotate(30) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 4 -->
+    <g transform="rotate(45) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 5 -->
+    <g transform="rotate(60) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 6 -->
+    <g transform="rotate(75) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 7 -->
+    <g transform="rotate(90) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 8 -->
+    <g transform="rotate(105) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 9 -->
+    <g transform="rotate(120) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 10 -->
+    <g transform="rotate(135) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 11 -->
+    <g transform="rotate(150) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 12 -->
+    <g transform="rotate(165) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 13 -->
+    <g transform="rotate(180) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 14 -->
+    <g transform="rotate(195) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 15 -->
+    <g transform="rotate(210) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 16 -->
+    <g transform="rotate(225) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 17 -->
+    <g transform="rotate(240) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 18 -->
+    <g transform="rotate(255) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 19 -->
+    <g transform="rotate(270) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 20 -->
+    <g transform="rotate(285) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 21 -->
+    <g transform="rotate(300) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 22 -->
+    <g transform="rotate(315) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 23 -->
+    <g transform="rotate(330) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+
+    <!-- 24 -->
+    <g transform="rotate(345) translate(0,-100)">
+      <g transform="translate(-30,-42.5)" filter="url(#shadow)">
+        <use href="#paper" />
+      </g>
+    </g>
+    <circle cx="0" cy="0" r="50" fill="#7c3aed" />
+  </g>
+</svg>
+
+
+
+                </div>
+            <h1>📚 Research Dashboard</h1>
+            <div class="meta">
+                Query: <strong>temporal reasoning in medical imaging and time-series data</strong> | 
+                Step: <strong>19</strong> | 
+                Last Updated: <strong>2026-01-05 23:09:30</strong>
+                <br>Auto-refreshes every 10 seconds
+            </div>
+        </header>
+        
+        <div class="grid grid-4" style="margin-bottom: 20px;">
+            <div class="card stat-card">
+                <div class="value">116</div>
+                <div class="label">Total Papers</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">1</div>
+                <div class="label">Sources</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">0</div>
+                <div class="label">Total Citations</div>
+            </div>
+            <div class="card stat-card">
+                <div class="value">19</div>
+                <div class="label">Processing Steps</div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>📈 Publications Over Time</h3>
+                <canvas id="timelineChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>📊 Papers by Source</h3>
+                <canvas id="sourceChart"></canvas>
+            </div>
+        </div>
+        
+        <div class="grid grid-3" style="margin-bottom: 20px;">
+            <div class="card">
+                <h3>🏆 Paper Leaderboard</h3>
+                <div class="leaderboard">
+                    <table>
+                        <thead>
+                            <tr><th>#</th><th>Title</th><th>Year</th><th>Score</th><th>Cites</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="rank">1</td>
+                                <td>AdaGaR: Adaptive Gabor Representation for Dynamic Scene Reconstruction...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">2</td>
+                                <td>Two Deep Learning Approaches for Automated Segmentation of Left Ventricle in Cine Cardiac MRI...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">3</td>
+                                <td>Geometry of Reason: Spectral Signatures of Valid Mathematical Reasoning...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">4</td>
+                                <td>Dark Dimension Right-handed Neutrinos Confronted with Long-Baseline Oscillation Experiments...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">5</td>
+                                <td>Adapting Natural Language Processing Models Across Jurisdictions: A pilot Study in Canadian Cancer Registries...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">6</td>
+                                <td>FedHypeVAE: Federated Learning with Hypernetwork Generated Conditional VAEs for Differentially Private Embedding Sharing...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">7</td>
+                                <td>Improving Router Security using BERT</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">8</td>
+                                <td>Investigating the Viability of Employing Multi-modal Large Language Models in the Context of Audio Deepfake Detection...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">9</td>
+                                <td>TWICE: Tree-based Wage Inference with Clustering and Estimation...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">10</td>
+                                <td>Spatiotemporal Detection and Uncertainty Visualization of Atmospheric Blocking Events...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">11</td>
+                                <td>Variable Importance in Generalized Linear Models -- A Unifying View Using Shapley Values...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">12</td>
+                                <td>Mind the Gap. Doubling Constant Parametrization of Weighted Problems: TSP, Max-Cut, and More...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">13</td>
+                                <td>Dynamical Dark Energy Imprints in the Lyman-Alpha Forest...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">14</td>
+                                <td>The Effect of Transparency on Students' Perceptions of AI Graders...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr><tr>
+                                <td class="rank">15</td>
+                                <td>Unlocking the Future of X-Ray Polarimetry with IXPE: Lessons Learned and Next Steps...</td>
+                                <td>2026</td>
+                                <td class="score">0.00</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>💡 Insights</h3>
+                <div class="insights">
+                    <div class="insight trend">
+                        <h4>Publication Trend</h4>
+                        <p>Most papers (116) are from 2026</p>
+                    </div><div class="insight source">
+                        <h4>Primary Source</h4>
+                        <p>arxiv contributes 116 papers (100%)</p>
+                    </div><div class="insight author">
+                        <h4>Prolific Author</h4>
+                        <p>Zhaiyu Chen has 2 papers in this collection</p>
+                    </div><div class="insight keywords">
+                        <h4>Hot Topics</h4>
+                        <p>Top keywords: learning, models, language, model, time</p>
+                    </div><div class="insight availability">
+                        <h4>Open Access</h4>
+                        <p>116/116 papers (100%) have direct PDF links</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📝 Step Log</h3>
+                <div class="step-log">
+                    <div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'temporal reasoning in medical imaging and time-series data'
+                        <div class="time">Step 19 - 23:09:30</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'temporal reasoning in medical imaging and time-series data'
+                        <div class="time">Step 18 - 23:09:25</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'temporal reasoning in medical imaging and time-series data'
+                        <div class="time">Step 17 - 23:09:19</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'temporal reasoning in medical imaging and time-series data'
+                        <div class="time">Step 16 - 23:09:15</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'temporal reasoning in medical imaging and time-series data'
+                        <div class="time">Step 15 - 23:09:11</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'temporal reasoning in medical imaging and time-series data'
+                        <div class="time">Step 14 - 23:09:07</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'temporal reasoning in medical imaging and time-series data'
+                        <div class="time">Step 13 - 23:09:03</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'temporal reasoning in medical imaging and time-series data'
+                        <div class="time">Step 12 - 23:08:59</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'temporal reasoning in medical imaging and time-series data'
+                        <div class="time">Step 11 - 23:08:55</div>
+                    </div><div class="step">
+                        <span class="agent">online_search_agent</span>: Online search: 'medical imaging temporal reasoning ECG EEG wearables biomarkers EHR'
+                        <div class="time">Step 10 - 23:08:50</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <h3>🏷️ Top Keywords</h3>
+                <div class="keywords">
+                    <span class="keyword" style="font-size: 1.4em">learning (16)</span><span class="keyword" style="font-size: 1.4em">models (14)</span><span class="keyword" style="font-size: 1.4em">language (13)</span><span class="keyword" style="font-size: 1.4em">model (9)</span><span class="keyword" style="font-size: 1.4em">time (9)</span><span class="keyword" style="font-size: 1.4em">framework (8)</span><span class="keyword" style="font-size: 1.4em">multi (6)</span><span class="keyword" style="font-size: 1.3em">large (5)</span><span class="keyword" style="font-size: 1.3em">under (5)</span><span class="keyword" style="font-size: 1.3em">vision (5)</span><span class="keyword" style="font-size: 1.3em">guided (5)</span><span class="keyword" style="font-size: 1.3em">video (5)</span><span class="keyword" style="font-size: 1.3em">efficient (5)</span><span class="keyword" style="font-size: 1.3em">network (5)</span><span class="keyword" style="font-size: 1.2000000000000002em">adaptive (4)</span><span class="keyword" style="font-size: 1.2000000000000002em">dynamic (4)</span><span class="keyword" style="font-size: 1.2000000000000002em">reconstruction (4)</span><span class="keyword" style="font-size: 1.2000000000000002em">deep (4)</span><span class="keyword" style="font-size: 1.2000000000000002em">reasoning (4)</span><span class="keyword" style="font-size: 1.2000000000000002em">detection (4)</span><span class="keyword" style="font-size: 1.2000000000000002em">semantic (4)</span><span class="keyword" style="font-size: 1.2000000000000002em">machine (4)</span><span class="keyword" style="font-size: 1.2000000000000002em">optimization (4)</span><span class="keyword" style="font-size: 1.2000000000000002em">data (4)</span><span class="keyword" style="font-size: 1.2000000000000002em">knowledge (4)</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📁 Output Files</h3>
+                <div class="files">
+                    <div class="file"><span class="file-icon">📄</span><span class="file-name">papers.json</span><span class="file-size">Full paper data</span></div>
+                    <div class="file"><span class="file-icon">🔗</span><span class="file-name">links.json</span><span class="file-size">Structured links</span></div>
+                    <div class="file"><span class="file-icon">📊</span><span class="file-name">stats.json</span><span class="file-size">Statistics</span></div>
+                    <div class="file"><span class="file-icon">💡</span><span class="file-name">summary.json</span><span class="file-size">Insights</span></div>
+                    <div class="file"><span class="file-icon">📑</span><span class="file-name">papers.csv</span><span class="file-size">Spreadsheet</span></div>
+                    <div class="file"><span class="file-icon">📚</span><span class="file-name">papers.bib</span><span class="file-size">BibTeX</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        new Chart(document.getElementById('timelineChart'), {
+            type: 'bar',
+            data: {
+                labels: [2026],
+                datasets: [{ label: 'Papers', data: [116], backgroundColor: 'rgba(102, 126, 234, 0.8)', borderRadius: 5 }]
+            },
+            options: { responsive: true, plugins: { legend: { display: false } } }
+        });
+        
+        new Chart(document.getElementById('sourceChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['arxiv'],
+                datasets: [{ data: [116], backgroundColor: ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#00f2fe'] }]
+            },
+            options: { responsive: true }
+        });
+    </script>
+</body>
+</html>

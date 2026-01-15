@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "status": "No papers collected yet"
+  },
+  "insights": [
+    {
+      "type": "info",
+      "message": "No papers collected yet. Run a search first."
+    }
+  ],
+  "key_findings": [
+    "No papers collected yet."
+  ],
+  "metadata": {
+    "query": "LLM-based RAG for petrophysical data synthesis",
+    "total_steps": 3,
+    "last_updated": "2026-01-08T15:58:27.935060",
+    "started_at": "2026-01-08T15:56:24.288510",
+    "total_papers": 0
+  },
+  "is_complete": true
+}

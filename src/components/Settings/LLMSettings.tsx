@@ -5,7 +5,7 @@ import { useAuth } from '../../contexts/AuthContext';
 
 interface LLMConfig {
   llm_enabled: boolean;
-  llm_provider: 'ollama' | 'openai' | 'anthropic' | 'custom';
+  llm_provider: 'ollama' | 'openai' | 'anthropic' | 'openrouter' | 'custom';
   llm_api_base: string;
   llm_model_id: string;
   llm_api_key: string;
@@ -23,6 +23,10 @@ const DEFAULT_CONFIGS = {
   anthropic: {
     api_base: 'https://api.anthropic.com',
     model_id: 'claude-3-opus-20240229',
+  },
+  openrouter: {
+    api_base: 'https://openrouter.ai/api/v1',
+    model_id: 'anthropic/claude-3.5-sonnet',
   },
   custom: {
     api_base: '',
@@ -65,7 +69,7 @@ export function LLMSettings() {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), 2000);
 
-      const response = await fetch(`http://127.0.0.1:8001/quota/${user.id}`, {
+      const response = await fetch(`http://127.0.0.1:8000/analysis/quota/${user.id}`, {
         signal: controller.signal
       });
       clearTimeout(timeoutId);
@@ -185,7 +189,7 @@ export function LLMSettings() {
       const timeoutId = setTimeout(() => controller.abort(), 15000); // 15s timeout for LLM tests
 
       // Call backend API to test connection
-      const response = await fetch('http://127.0.0.1:8001/test-llm-connection', {
+      const response = await fetch('http://127.0.0.1:8000/analysis/test-llm-connection', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -212,7 +216,7 @@ export function LLMSettings() {
     } catch (error: any) {
       setMessage({
         type: 'error',
-        text: `Connection test failed: ${error.message}\n\nMake sure the Paper Analysis API is running on port 8001.`
+        text: `Connection test failed: ${error.message}\n\nMake sure the Paper Circle API is running on port 8000.`
       });
     }
 
@@ -309,6 +313,7 @@ export function LLMSettings() {
                 <option value="ollama">Ollama (Local)</option>
                 <option value="openai">OpenAI</option>
                 <option value="anthropic">Anthropic (Claude)</option>
+                <option value="openrouter">OpenRouter (Multi-provider)</option>
                 <option value="custom">Custom</option>
               </select>
             </div>
@@ -327,7 +332,9 @@ export function LLMSettings() {
                     ? 'https://your-tunnel-url.ngrok.io'
                     : config.llm_provider === 'openai'
                       ? 'https://api.openai.com/v1'
-                      : 'https://api.anthropic.com'
+                      : config.llm_provider === 'openrouter'
+                        ? 'https://openrouter.ai/api/v1'
+                        : 'https://api.anthropic.com'
                 }
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
               />
@@ -341,6 +348,7 @@ export function LLMSettings() {
                 {config.llm_provider === 'ollama' && 'Example: https://abc123.ngrok.io'}
                 {config.llm_provider === 'openai' && 'Default: https://api.openai.com/v1'}
                 {config.llm_provider === 'anthropic' && 'Default: https://api.anthropic.com'}
+                {config.llm_provider === 'openrouter' && 'Default: https://openrouter.ai/api/v1'}
               </p>
             </div>
 
@@ -360,11 +368,12 @@ export function LLMSettings() {
                 {config.llm_provider === 'ollama' && 'Example: ollama_chat/qwen3-coder:30b, llama2, mistral'}
                 {config.llm_provider === 'openai' && 'Example: gpt-4, gpt-3.5-turbo'}
                 {config.llm_provider === 'anthropic' && 'Example: claude-3-opus-20240229, claude-3-sonnet-20240229'}
+                {config.llm_provider === 'openrouter' && 'Example: anthropic/claude-3.5-sonnet, openai/gpt-4-turbo, google/gemini-pro'}
               </p>
             </div>
 
             {/* API Key (for commercial providers) */}
-            {(config.llm_provider === 'openai' || config.llm_provider === 'anthropic') && (
+            {(config.llm_provider === 'openai' || config.llm_provider === 'anthropic' || config.llm_provider === 'openrouter') && (
               <div className="mb-6">
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   <Key className="inline h-4 w-4 mr-1" />
@@ -374,11 +383,12 @@ export function LLMSettings() {
                   type="password"
                   value={config.llm_api_key}
                   onChange={(e) => setConfig({ ...config, llm_api_key: e.target.value })}
-                  placeholder="sk-..."
+                  placeholder={config.llm_provider === 'openrouter' ? 'sk-or-...' : 'sk-...'}
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
                 />
                 <p className="mt-1 text-sm text-gray-500">
                   Your API key is stored securely and never shared.
+                  {config.llm_provider === 'openrouter' && ' Get your key at openrouter.ai/keys'}
                 </p>
               </div>
             )}
@@ -497,7 +507,8 @@ export function LLMSettings() {
 
                   <div>
                     <p className="font-semibold">Option C: Cloud LLM (No setup needed)</p>
-                    <p>Use OpenAI or Anthropic with your own API key - works from anywhere!</p>
+                    <p>Use OpenAI, Anthropic, or OpenRouter with your own API key - works from anywhere!</p>
+                    <p className="mt-1 text-xs">OpenRouter gives access to 100+ models (Claude, GPT-4, Gemini, Llama, etc.) with a single API key.</p>
                   </div>
                 </div>
               </div>
@@ -521,9 +532,9 @@ export function LLMSettings() {
               <div>
                 <p className="font-semibold mb-2">Step 3: Configure Settings</p>
                 <ol className="list-decimal list-inside ml-4 space-y-1">
-                  <li>Select your provider (Ollama, OpenAI, or Anthropic)</li>
+                  <li>Select your provider (Ollama, OpenAI, Anthropic, or OpenRouter)</li>
                   <li>Enter your public URL (e.g., <code className="bg-blue-100 px-2 py-0.5 rounded">https://abc123.ngrok.io</code>)</li>
-                  <li>Enter your model ID (e.g., <code className="bg-blue-100 px-2 py-0.5 rounded">ollama_chat/qwen2.5:7b</code>)</li>
+                  <li>Enter your model ID (e.g., <code className="bg-blue-100 px-2 py-0.5 rounded">ollama_chat/qwen2.5:7b</code> or <code className="bg-blue-100 px-2 py-0.5 rounded">openrouter/anthropic/claude-3.5-sonnet</code>)</li>
                   <li>Test Connection to verify it works</li>
                   <li>Save Settings</li>
                 </ol>

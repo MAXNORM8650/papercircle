@@ -1,0 +1,3095 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Follow-up Question Generation For Enhanced Patient-Provider Conversations",
+        "url": "https://aclanthology.org/2025.acl-long.1226/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1226.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Exploring Compositional Generalization of Multimodal LLMs for Medical Imaging",
+        "url": "https://aclanthology.org/2025.acl-long.639/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.639.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Fine-Grained Image-Text Alignment in Medical Imaging Enables Explainable Cyclic Image-Report Generation",
+        "url": "https://aclanthology.org/2024.acl-long.514/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.514.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "MEIT: Multimodal Electrocardiogram Instruction Tuning on Large Language Models for Report Generation",
+        "url": "https://aclanthology.org/2025.findings-acl.749/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.749.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Decoding Part-of-Speech from Human EEG Signals",
+        "url": "https://aclanthology.org/2022.acl-long.156/",
+        "pdf_url": "https://aclanthology.org/2022.acl-long.156.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2022
+      },
+      {
+        "title": "RAM-EHR: Retrieval Augmentation Meets Clinical Predictions on Electronic Health Records",
+        "url": "https://aclanthology.org/2024.acl-short.68/",
+        "pdf_url": "https://aclanthology.org/2024.acl-short.68.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Enhancing EEG-to-Text Decoding through Transferable Representations from Pre-trained Contrastive EEG-Text Masked Autoencoder",
+        "url": "https://aclanthology.org/2024.acl-long.393/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.393.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Counterfactual-Consistency Prompting for Relative Temporal Understanding in Large Language Models",
+        "url": "https://aclanthology.org/2025.acl-short.97/",
+        "pdf_url": "https://aclanthology.org/2025.acl-short.97.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion",
+        "url": "https://aclanthology.org/2022.acl-long.402/",
+        "pdf_url": "https://aclanthology.org/2022.acl-long.402.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2022
+      },
+      {
+        "title": "CMQCIC-Bench: A Chinese Benchmark for Evaluating Large Language Models in Medical Quality Control Indicator Calculation",
+        "url": "https://aclanthology.org/2025.findings-acl.34/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.34.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Predicting the Unpredictable: Uncertainty-Aware Reasoning over Temporal Knowledge Graphs via Diffusion Process",
+        "url": "https://aclanthology.org/2024.findings-acl.343/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.343.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "CTPD: Cross-Modal Temporal Pattern Discovery for Enhanced Multimodal Electronic Health Records Analysis",
+        "url": "https://aclanthology.org/2025.findings-acl.352/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.352.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Disentangled Multi-span Evolutionary Network against Temporal Knowledge Graph Reasoning",
+        "url": "https://aclanthology.org/2025.findings-acl.658/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.658.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "MEDEC: A Benchmark for Medical Error Detection and Correction in Clinical Notes",
+        "url": "https://aclanthology.org/2025.findings-acl.1159/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.1159.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "DiaLLMs: EHR-Enhanced Clinical Conversational System for Clinical Test Recommendation and Diagnosis Prediction",
+        "url": "https://aclanthology.org/2025.findings-acl.1313/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.1313.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Libra: Leveraging Temporal Images for Biomedical Radiology Analysis",
+        "url": "https://aclanthology.org/2025.findings-acl.888/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.888.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "A Survey of LLM-based Agents in Medicine: How far are we from Baymax?",
+        "url": "https://aclanthology.org/2025.findings-acl.539/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.539.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "MAM: Modular Multi-Agent Framework for Multi-Modal Medical Diagnosis via Role-Specialized Collaboration",
+        "url": "https://aclanthology.org/2025.findings-acl.1298/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.1298.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Worse than Random? An Embarrassingly Simple Probing Evaluation of Large Multimodal Models in Medical VQA",
+        "url": "https://aclanthology.org/2025.findings-acl.981/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.981.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Two-stage Generative Question Answering on Temporal Knowledge Graph Using Large Language Models",
+        "url": "https://aclanthology.org/2024.findings-acl.401/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.401.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Complex Evolutional Pattern Learning for Temporal Knowledge Graph Reasoning",
+        "url": "https://aclanthology.org/2022.acl-short.32/",
+        "pdf_url": "https://aclanthology.org/2022.acl-short.32.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2022
+      },
+      {
+        "title": "LLMFactor: Extracting Profitable Factors through Prompts for Explainable Stock Movement Prediction",
+        "url": "https://aclanthology.org/2024.findings-acl.185/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.185.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "ForecastQA: A Question Answering Challenge for Event Forecasting with Temporal Text Data",
+        "url": "https://aclanthology.org/2021.acl-long.357/",
+        "pdf_url": "https://aclanthology.org/2021.acl-long.357.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2021
+      },
+      {
+        "title": "Towards Visual Question Answering on Pathology Images",
+        "url": "https://aclanthology.org/2021.acl-short.90/",
+        "pdf_url": "https://aclanthology.org/2021.acl-short.90.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2021
+      },
+      {
+        "title": "Towards Medical Complex Reasoning with LLMs through Medical Verifiable Problems",
+        "url": "https://aclanthology.org/2025.findings-acl.751/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.751.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Cross-modal Memory Networks for Radiology Report Generation",
+        "url": "https://aclanthology.org/2021.acl-long.459/",
+        "pdf_url": "https://aclanthology.org/2021.acl-long.459.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2021
+      },
+      {
+        "title": "MusTQ: A Temporal Knowledge Graph Question Answering Dataset for Multi-Step Temporal Reasoning",
+        "url": "https://aclanthology.org/2024.findings-acl.696/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.696.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Reasoning Like a Doctor: Improving Medical Dialogue Systems via Diagnostic Reasoning Process Alignment",
+        "url": "https://aclanthology.org/2024.findings-acl.406/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.406.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Unity in Diversity: Collaborative Pre-training Across Multimodal Medical Sources",
+        "url": "https://aclanthology.org/2024.acl-long.199/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.199.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "TReMu: Towards Neuro-Symbolic Temporal Reasoning for LLM-Agents with Memory in Multi-Session Dialogues",
+        "url": "https://aclanthology.org/2025.findings-acl.972/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.972.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "ProMedTS: A Self-Supervised, Prompt-Guided Multimodal Approach for Integrating Medical Text and Time Series",
+        "url": "https://aclanthology.org/2025.findings-acl.308/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.308.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "TimeBench: A Comprehensive Evaluation of Temporal Reasoning Abilities in Large Language Models",
+        "url": "https://aclanthology.org/2024.acl-long.66/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.66.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "TECHS: Temporal Logical Graph Networks for Explainable Extrapolation Reasoning",
+        "url": "https://aclanthology.org/2023.acl-long.71/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.71.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Temporal reasoning for timeline summarisation in social media",
+        "url": "https://aclanthology.org/2025.acl-long.1362/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1362.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Temporal Knowledge Question Answering via Abstract Reasoning Induction",
+        "url": "https://aclanthology.org/2024.acl-long.267/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.267.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Towards Multi-Relational Multi-Hop Reasoning over Dense Temporal Knowledge Graphs",
+        "url": "https://aclanthology.org/2024.findings-acl.853/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.853.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "EMRs2CSP : Mining Clinical Status Pathway from Electronic Medical Records",
+        "url": "https://aclanthology.org/2025.findings-acl.886/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.886.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Towards Benchmarking and Improving the Temporal Reasoning Capability of Large Language Models",
+        "url": "https://aclanthology.org/2023.acl-long.828/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.828.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Towards Robust Temporal Reasoning of Large Language Models via a Multi-Hop QA Dataset and Pseudo-Instruction Tuning",
+        "url": "https://aclanthology.org/2024.findings-acl.374/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.374.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Generic Temporal Reasoning with Differential Analysis and Explanation",
+        "url": "https://aclanthology.org/2023.acl-long.671/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.671.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Temporal Relation Extraction in Clinical Texts: A Span-based Graph Transformer Approach",
+        "url": "https://aclanthology.org/2025.acl-long.1251/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1251.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "TIMEDIAL: Temporal Commonsense Reasoning in Dialog",
+        "url": "https://aclanthology.org/2021.acl-long.549/",
+        "pdf_url": "https://aclanthology.org/2021.acl-long.549.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2021
+      },
+      {
+        "title": "Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models",
+        "url": "https://aclanthology.org/2025.acl-long.1358/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1358.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "LADDER: Language-Driven Slice Discovery and Error Rectification in Vision Classifiers",
+        "url": "https://aclanthology.org/2025.findings-acl.1177/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.1177.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "A Unified Temporal Knowledge Graph Reasoning Model Towards Interpolation and Extrapolation",
+        "url": "https://aclanthology.org/2024.acl-long.8/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.8.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Large Language Models Can Learn Temporal Reasoning",
+        "url": "https://aclanthology.org/2024.acl-long.563/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.563.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "ETRQA: A Comprehensive Benchmark for Evaluating Event Temporal Reasoning Abilities of Large Language Models",
+        "url": "https://aclanthology.org/2025.findings-acl.1198/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.1198.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Should I Believe in What Medical AI Says? A Chinese Benchmark for Medication Based on Knowledge and Reasoning",
+        "url": "https://aclanthology.org/2025.acl-short.91/",
+        "pdf_url": "https://aclanthology.org/2025.acl-short.91.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Deep Temporal Reasoning in Video Language Models: A Cross-Linguistic Evaluation of Action Duration and Completion through Perfect Times",
+        "url": "https://aclanthology.org/2025.acl-long.1000/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1000.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning",
+        "url": "https://aclanthology.org/2024.findings-acl.33/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.33.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Towards Explainable Temporal Reasoning in Large Language Models: A Structure-Aware Generative Framework",
+        "url": "https://aclanthology.org/2025.findings-acl.378/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.378.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "LLM-Symbolic Integration for Robust Temporal Tabular Reasoning",
+        "url": "https://aclanthology.org/2025.findings-acl.1022/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.1022.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Search from History and Reason for Future: Two-stage Reasoning on Temporal Knowledge Graphs",
+        "url": "https://aclanthology.org/2021.acl-long.365/",
+        "pdf_url": "https://aclanthology.org/2021.acl-long.365.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2021
+      },
+      {
+        "title": "TRAM: Benchmarking Temporal Reasoning for Large Language Models",
+        "url": "https://aclanthology.org/2024.findings-acl.382/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.382.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "PAT-Questions: A Self-Updating Benchmark for Present-Anchored Temporal Question-Answering",
+        "url": "https://aclanthology.org/2024.findings-acl.777/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.777.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Chain-of-History Reasoning for Temporal Knowledge Graph Forecasting",
+        "url": "https://aclanthology.org/2024.findings-acl.955/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.955.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "ChronoSense: Exploring Temporal Understanding in Large Language Models with Time Intervals of Events",
+        "url": "https://aclanthology.org/2025.acl-short.46/",
+        "pdf_url": "https://aclanthology.org/2025.acl-short.46.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Pattern Recognition or Medical Knowledge? The Problem with Multiple-Choice Questions in Medicine",
+        "url": "https://aclanthology.org/2025.acl-long.266/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.266.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Learning Latent Relations for Temporal Knowledge Graph Reasoning",
+        "url": "https://aclanthology.org/2023.acl-long.705/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.705.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "A Multi-Expert Structural-Semantic Hybrid Framework for Unveiling Historical Patterns in Temporal Knowledge Graphs",
+        "url": "https://aclanthology.org/2025.findings-acl.1056/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.1056.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Living in the Moment: Can Large Language Models Grasp Co-Temporal Reasoning?",
+        "url": "https://aclanthology.org/2024.acl-long.703/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.703.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "DDxTutor: Clinical Reasoning Tutoring System with Differential Diagnosis-Based Structured Reasoning",
+        "url": "https://aclanthology.org/2025.acl-long.1495/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1495.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "DARER: Dual-task Temporal Relational Recurrent Reasoning Network for Joint Dialog Sentiment Classification and Act Recognition",
+        "url": "https://aclanthology.org/2022.findings-acl.286/",
+        "pdf_url": "https://aclanthology.org/2022.findings-acl.286.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2022
+      },
+      {
+        "title": "Spatial Coordinates as a Cell Language: A Multi-Sentence Framework for Imaging Mass Cytometry Analysis",
+        "url": "https://aclanthology.org/2025.findings-acl.685/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.685.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "A Study into Investigating Temporal Robustness of LLMs",
+        "url": "https://aclanthology.org/2025.findings-acl.810/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.810.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "AnRe: Analogical Replay for Temporal Knowledge Graph Forecasting",
+        "url": "https://aclanthology.org/2025.acl-long.231/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.231.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "A Generative Adaptive Replay Continual Learning Model for Temporal Knowledge Graph Reasoning",
+        "url": "https://aclanthology.org/2025.acl-long.537/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.537.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "EvolveBench: A Comprehensive Benchmark for Assessing Temporal Awareness in LLMs on Evolving Knowledge",
+        "url": "https://aclanthology.org/2025.acl-long.788/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.788.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Improving Time Sensitivity for Question Answering over Temporal Knowledge Graphs",
+        "url": "https://aclanthology.org/2022.acl-long.552/",
+        "pdf_url": "https://aclanthology.org/2022.acl-long.552.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2022
+      },
+      {
+        "title": "Multi-granularity Temporal Question Answering over Knowledge Graphs",
+        "url": "https://aclanthology.org/2023.acl-long.637/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.637.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "TeAST: Temporal Knowledge Graph Embedding via Archimedean Spiral Timeline",
+        "url": "https://aclanthology.org/2023.acl-long.862/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.862.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "MLeVLM: Improve Multi-level Progressive Capabilities based on Multimodal Large Language Model for Medical Visual Question Answering",
+        "url": "https://aclanthology.org/2024.findings-acl.296/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.296.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "CoD, Towards an Interpretable Medical Agent using Chain of Diagnosis",
+        "url": "https://aclanthology.org/2025.findings-acl.740/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.740.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "GETReason: Enhancing Image Context Extraction through Hierarchical Multi-Agent Reasoning",
+        "url": "https://aclanthology.org/2025.acl-long.1439/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1439.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Replace and Report: NLP Assisted Radiology Report Generation",
+        "url": "https://aclanthology.org/2023.findings-acl.683/",
+        "pdf_url": "https://aclanthology.org/2023.findings-acl.683.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "TimeToM: Temporal Space is the Key to Unlocking the Door of Large Language Models’ Theory-of-Mind",
+        "url": "https://aclanthology.org/2024.findings-acl.685/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.685.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Knowledge-Augmented Multimodal Clinical Rationale Generation for Disease Diagnosis with Small Language Models",
+        "url": "https://aclanthology.org/2025.acl-long.540/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.540.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "HyKGE: A Hypothesis Knowledge Graph Enhanced RAG Framework for Accurate and Reliable Medical LLMs Responses",
+        "url": "https://aclanthology.org/2025.acl-long.580/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.580.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "A Novel Framework Based on Medical Concept Driven Attention for Explainable Medical Code Prediction via External Knowledge",
+        "url": "https://aclanthology.org/2022.findings-acl.110/",
+        "pdf_url": "https://aclanthology.org/2022.findings-acl.110.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2022
+      },
+      {
+        "title": "Towards Dynamic Theory of Mind: Evaluating LLM Adaptation to Temporal Evolution of Human States",
+        "url": "https://aclanthology.org/2025.acl-long.1171/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1171.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "ExpliCa: Evaluating Explicit Causal Reasoning in Large Language Models",
+        "url": "https://aclanthology.org/2025.findings-acl.891/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.891.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "MultiMSD: A Corpus for Multilingual Medical Text Simplification from Online Medical References",
+        "url": "https://aclanthology.org/2025.findings-acl.481/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.481.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Reasoning with Language Model Prompting: A Survey",
+        "url": "https://aclanthology.org/2023.acl-long.294/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.294.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Pre-trained Language Model with Prompts for Temporal Knowledge Graph Completion",
+        "url": "https://aclanthology.org/2023.findings-acl.493/",
+        "pdf_url": "https://aclanthology.org/2023.findings-acl.493.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "Medical Graph RAG: Evidence-based Medical Large Language Model via Graph Retrieval-Augmented Generation",
+        "url": "https://aclanthology.org/2025.acl-long.1381/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1381.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "UnSeenTimeQA: Time-Sensitive Question-Answering Beyond LLMs’ Memorization",
+        "url": "https://aclanthology.org/2025.acl-long.94/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.94.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Improving Medical Large Vision-Language Models with Abnormal-Aware Feedback",
+        "url": "https://aclanthology.org/2025.acl-long.636/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.636.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "How LLMs Comprehend Temporal Meaning in Narratives: A Case Study in Cognitive Evaluation of LLMs",
+        "url": "https://aclanthology.org/2025.acl-long.1415/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1415.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Learning to Leverage High-Order Medical Knowledge Graph for Joint Entity and Relation Extraction",
+        "url": "https://aclanthology.org/2023.findings-acl.575/",
+        "pdf_url": "https://aclanthology.org/2023.findings-acl.575.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "MidMed: Towards Mixed-Type Dialogues for Medical Consultation",
+        "url": "https://aclanthology.org/2023.acl-long.453/",
+        "pdf_url": "https://aclanthology.org/2023.acl-long.453.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "EventRAG: Enhancing LLM Generation with Event Knowledge Graphs",
+        "url": "https://aclanthology.org/2025.acl-long.830/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.830.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Around the World in 24 Hours: Probing LLM Knowledge of Time and Place",
+        "url": "https://aclanthology.org/2025.acl-long.1115/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1115.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Multi-modal Concept Alignment Pre-training for Generative Medical Visual Question Answering",
+        "url": "https://aclanthology.org/2024.findings-acl.319/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.319.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "ChiMed-GPT: A Chinese Medical Large Language Model with Full Training Regime and Better Alignment to Human Preferences",
+        "url": "https://aclanthology.org/2024.acl-long.386/",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.386.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Medical Dialogue System: A Survey of Categories, Methods, Evaluation and Challenges",
+        "url": "https://aclanthology.org/2024.findings-acl.167/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.167.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "TeRDy: Temporal Relation Dynamics through Frequency Decomposition for Temporal Knowledge Graph Completion",
+        "url": "https://aclanthology.org/2025.acl-long.473/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.473.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Medical Dialogue Generation via Dual Flow Modeling",
+        "url": "https://aclanthology.org/2023.findings-acl.423/",
+        "pdf_url": "https://aclanthology.org/2023.findings-acl.423.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2023
+      },
+      {
+        "title": "MedDec: A Dataset for Extracting Medical Decisions from Discharge Summaries",
+        "url": "https://aclanthology.org/2024.findings-acl.975/",
+        "pdf_url": "https://aclanthology.org/2024.findings-acl.975.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2024
+      },
+      {
+        "title": "Differentiable Multi-Agent Actor-Critic for Multi-Step Radiology Report Summarization",
+        "url": "https://aclanthology.org/2022.acl-long.109/",
+        "pdf_url": "https://aclanthology.org/2022.acl-long.109.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2022
+      },
+      {
+        "title": "Can We Trust AI Doctors? A Survey of Medical Hallucination in Large Language and Large Vision-Language Models",
+        "url": "https://aclanthology.org/2025.findings-acl.350/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.350.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Enhancing Medical Dialogue Generation through Knowledge Refinement and Dynamic Prompt Adjustment",
+        "url": "https://aclanthology.org/2025.findings-acl.1320/",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.1320.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "Asclepius: A Spectrum Evaluation Benchmark for Medical Multi-Modal Large Language Models",
+        "url": "https://aclanthology.org/2025.acl-long.1178/",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1178.pdf",
+        "doi_url": null,
+        "source": "offline_acl",
+        "year": 2025
+      },
+      {
+        "title": "AdaGaR: Adaptive Gabor Representation for Dynamic Scene Reconstruction",
+        "url": "http://arxiv.org/abs/2601.00796v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00796v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Two Deep Learning Approaches for Automated Segmentation of Left Ventricle in Cine Cardiac MRI",
+        "url": "http://arxiv.org/abs/2601.00794v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00794v1",
+        "doi_url": "https://doi.org/10.1145/3510427.3510429",
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Geometry of Reason: Spectral Signatures of Valid Mathematical Reasoning",
+        "url": "http://arxiv.org/abs/2601.00791v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00791v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Investigating the Viability of Employing Multi-modal Large Language Models in the Context of Audio Deepfake Detection",
+        "url": "http://arxiv.org/abs/2601.00777v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00777v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Spatiotemporal Detection and Uncertainty Visualization of Atmospheric Blocking Events",
+        "url": "http://arxiv.org/abs/2601.00775v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00775v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "The Effect of Transparency on Students' Perceptions of AI Graders",
+        "url": "http://arxiv.org/abs/2601.00765v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00765v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Unlocking the Future of X-Ray Polarimetry with IXPE: Lessons Learned and Next Steps",
+        "url": "http://arxiv.org/abs/2601.00764v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00764v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "A formal theory on problem space as a semantic world model in systems engineering",
+        "url": "http://arxiv.org/abs/2601.00755v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00755v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Early-Stage Prediction of Review Effort in AI-Generated Pull Requests",
+        "url": "http://arxiv.org/abs/2601.00753v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00753v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "The Reasoning-Creativity Trade-off: Toward Creativity-Driven Problem Solving",
+        "url": "http://arxiv.org/abs/2601.00747v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00747v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Stochastic Actor-Critic: Mitigating Overestimation via Temporal Aleatoric Uncertainty",
+        "url": "http://arxiv.org/abs/2601.00737v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00737v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Grading Handwritten Engineering Exams with Multimodal Large Language Models",
+        "url": "http://arxiv.org/abs/2601.00730v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00730v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Detecting Performance Degradation under Data Shift in Pathology Vision-Language Model",
+        "url": "http://arxiv.org/abs/2601.00716v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00716v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "KDPhys: An Attention Guided 3D to 2D Knowledge Distillation for Real-time Video-Based Physiological Measurement",
+        "url": "http://arxiv.org/abs/2601.00714v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00714v1",
+        "doi_url": "https://doi.org/10.1016/j.bspc.2025.107797",
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Carbon mineralization in CO2-seawater-basalt systems: Reactive transport dynamics and vesicular pore architecture controls",
+        "url": "http://arxiv.org/abs/2601.00710v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00710v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Efficient Deep Demosaicing with Spatially Downsampled Isotropic Networks",
+        "url": "http://arxiv.org/abs/2601.00703v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00703v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Pseudo-Hermitian Magnon Dynamics",
+        "url": "http://arxiv.org/abs/2601.00701v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00701v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "BSAT: B-Spline Adaptive Tokenizer for Long-Term Time Series Forecasting",
+        "url": "http://arxiv.org/abs/2601.00698v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00698v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "A Vision-and-Knowledge Enhanced Large Language Model for Generalizable Pedestrian Crossing Behavior Inference",
+        "url": "http://arxiv.org/abs/2601.00694v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00694v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Human-like AI-based Auto-Field-in-Field Whole-Brain Radiotherapy Treatment Planning With Conversation Large Language Model Feedback",
+        "url": "http://arxiv.org/abs/2601.00685v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00685v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Sigmoid Head for Quality Estimation under Language Ambiguity",
+        "url": "http://arxiv.org/abs/2601.00680v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00680v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Pixel-to-4D: Camera-Controlled Image-to-Video Generation with Dynamic 3D Gaussians",
+        "url": "http://arxiv.org/abs/2601.00678v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00678v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "IRPO: Scaling the Bradley-Terry Model via Reinforcement Learning",
+        "url": "http://arxiv.org/abs/2601.00677v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00677v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "RoboReward: General-Purpose Vision-Language Reward Models for Robotics",
+        "url": "http://arxiv.org/abs/2601.00675v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00675v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Wave2Word: A Multimodal Transformer Framework for Joint EEG-Text Alignment and Multi-Task Representation Learning in Neurocritical Care",
+        "url": "http://arxiv.org/abs/2601.00670v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00670v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Physics-Guided Dual-Domain Plug-and-Play ADMM for Low-Dose CT Reconstruction",
+        "url": "http://arxiv.org/abs/2601.00669v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00669v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Three factor delay learning rules for spiking neural networks",
+        "url": "http://arxiv.org/abs/2601.00668v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00668v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Activity correlation and temporal variation of small-scale magnetic fields on young Sun-like stars",
+        "url": "http://arxiv.org/abs/2601.00663v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00663v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Interpretability-Guided Bi-objective Optimization: Aligning Accuracy and Explainability",
+        "url": "http://arxiv.org/abs/2601.00655v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00655v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Quality Detection of Stored Potatoes via Transfer Learning: A CNN and Vision Transformer Approach",
+        "url": "http://arxiv.org/abs/2601.00645v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00645v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "RePose: A Real-Time 3D Human Pose Estimation and Biomechanical Analysis Framework for Rehabilitation",
+        "url": "http://arxiv.org/abs/2601.00625v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00625v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Personalized Forecasting of Glycemic Control in Type 1 and 2 Diabetes Using Foundational AI and Machine Learning Models",
+        "url": "http://arxiv.org/abs/2601.00613v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00613v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Peak-Nadir Encoding for Efficient CGM Data Compression and High-Fidelity Reconstruction",
+        "url": "http://arxiv.org/abs/2601.00608v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00608v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Traffic-Aware Optimal Taxi Placement Using Graph Neural Network-Based Reinforcement Learning",
+        "url": "http://arxiv.org/abs/2601.00607v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00607v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "CSSBench: Evaluating the Safety of Lightweight LLMs against Chinese-Specific Adversarial Patterns",
+        "url": "http://arxiv.org/abs/2601.00588v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00588v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Microwave vortex beam lasing via photonic time crystals",
+        "url": "http://arxiv.org/abs/2601.00585v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00585v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "GranAlign: Granularity-Aware Alignment Framework for Zero-Shot Video Moment Retrieval",
+        "url": "http://arxiv.org/abs/2601.00584v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00584v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Learning to be Reproducible: Custom Loss Design for Robust Neural Networks",
+        "url": "http://arxiv.org/abs/2601.00578v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00578v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "InfoSynth: Information-Guided Benchmark Synthesis for LLMs",
+        "url": "http://arxiv.org/abs/2601.00575v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00575v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "ASCNet: Research on all-sky camera images classification at the Muztagh-ata site",
+        "url": "http://arxiv.org/abs/2601.00563v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00563v1",
+        "doi_url": "https://doi.org/10.1088/1674-4527/ae25c7",
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "A Cascaded Information Interaction Network for Precise Image Segmentation",
+        "url": "http://arxiv.org/abs/2601.00562v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00562v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "AEGIS: Exploring the Limit of World Knowledge Capabilities for Unified Mulitmodal Models",
+        "url": "http://arxiv.org/abs/2601.00561v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00561v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Cracking IoT Security: Can LLMs Outsmart Static Analysis Tools?",
+        "url": "http://arxiv.org/abs/2601.00559v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00559v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "A Comprehensive Dataset for Human vs. AI Generated Image Detection",
+        "url": "http://arxiv.org/abs/2601.00553v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00553v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Tabletop X-ray ghost video of moving objects",
+        "url": "http://arxiv.org/abs/2601.00552v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00552v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "SingBAG Pro: Accelerating point cloud-based iterative reconstruction for 3D photoacoustic imaging under arbitrary array",
+        "url": "http://arxiv.org/abs/2601.00551v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00551v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Carrier Drift Modulation and the Hyperbolic Time Crystals",
+        "url": "http://arxiv.org/abs/2601.00547v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00547v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "DynaDrag: Dynamic Drag-Style Image Editing by Motion Prediction",
+        "url": "http://arxiv.org/abs/2601.00542v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00542v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Boosting Segment Anything Model to Generalize Visually Non-Salient Scenarios",
+        "url": "http://arxiv.org/abs/2601.00537v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00537v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Retrieval--Reasoning Processes for Multi-hop Question Answering: A Four-Axis Design Framework and Empirical Trends",
+        "url": "http://arxiv.org/abs/2601.00536v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00536v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "FreeText: Training-Free Text Rendering in Diffusion Transformers via Attention Localization and Spectral Glyph Injection",
+        "url": "http://arxiv.org/abs/2601.00535v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00535v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      }
+    ],
+    "by_source": {
+      "offline_acl": [
+        {
+          "title": "Follow-up Question Generation For Enhanced Patient-Provider Conversations",
+          "url": "https://aclanthology.org/2025.acl-long.1226/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1226.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Exploring Compositional Generalization of Multimodal LLMs for Medical Imaging",
+          "url": "https://aclanthology.org/2025.acl-long.639/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.639.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Fine-Grained Image-Text Alignment in Medical Imaging Enables Explainable Cyclic Image-Report Generation",
+          "url": "https://aclanthology.org/2024.acl-long.514/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.514.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "MEIT: Multimodal Electrocardiogram Instruction Tuning on Large Language Models for Report Generation",
+          "url": "https://aclanthology.org/2025.findings-acl.749/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.749.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Decoding Part-of-Speech from Human EEG Signals",
+          "url": "https://aclanthology.org/2022.acl-long.156/",
+          "pdf_url": "https://aclanthology.org/2022.acl-long.156.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2022
+        },
+        {
+          "title": "RAM-EHR: Retrieval Augmentation Meets Clinical Predictions on Electronic Health Records",
+          "url": "https://aclanthology.org/2024.acl-short.68/",
+          "pdf_url": "https://aclanthology.org/2024.acl-short.68.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Enhancing EEG-to-Text Decoding through Transferable Representations from Pre-trained Contrastive EEG-Text Masked Autoencoder",
+          "url": "https://aclanthology.org/2024.acl-long.393/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.393.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Counterfactual-Consistency Prompting for Relative Temporal Understanding in Large Language Models",
+          "url": "https://aclanthology.org/2025.acl-short.97/",
+          "pdf_url": "https://aclanthology.org/2025.acl-short.97.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion",
+          "url": "https://aclanthology.org/2022.acl-long.402/",
+          "pdf_url": "https://aclanthology.org/2022.acl-long.402.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2022
+        },
+        {
+          "title": "CMQCIC-Bench: A Chinese Benchmark for Evaluating Large Language Models in Medical Quality Control Indicator Calculation",
+          "url": "https://aclanthology.org/2025.findings-acl.34/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.34.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Predicting the Unpredictable: Uncertainty-Aware Reasoning over Temporal Knowledge Graphs via Diffusion Process",
+          "url": "https://aclanthology.org/2024.findings-acl.343/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.343.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "CTPD: Cross-Modal Temporal Pattern Discovery for Enhanced Multimodal Electronic Health Records Analysis",
+          "url": "https://aclanthology.org/2025.findings-acl.352/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.352.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Disentangled Multi-span Evolutionary Network against Temporal Knowledge Graph Reasoning",
+          "url": "https://aclanthology.org/2025.findings-acl.658/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.658.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "MEDEC: A Benchmark for Medical Error Detection and Correction in Clinical Notes",
+          "url": "https://aclanthology.org/2025.findings-acl.1159/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.1159.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "DiaLLMs: EHR-Enhanced Clinical Conversational System for Clinical Test Recommendation and Diagnosis Prediction",
+          "url": "https://aclanthology.org/2025.findings-acl.1313/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.1313.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Libra: Leveraging Temporal Images for Biomedical Radiology Analysis",
+          "url": "https://aclanthology.org/2025.findings-acl.888/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.888.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "A Survey of LLM-based Agents in Medicine: How far are we from Baymax?",
+          "url": "https://aclanthology.org/2025.findings-acl.539/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.539.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "MAM: Modular Multi-Agent Framework for Multi-Modal Medical Diagnosis via Role-Specialized Collaboration",
+          "url": "https://aclanthology.org/2025.findings-acl.1298/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.1298.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Worse than Random? An Embarrassingly Simple Probing Evaluation of Large Multimodal Models in Medical VQA",
+          "url": "https://aclanthology.org/2025.findings-acl.981/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.981.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Two-stage Generative Question Answering on Temporal Knowledge Graph Using Large Language Models",
+          "url": "https://aclanthology.org/2024.findings-acl.401/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.401.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Complex Evolutional Pattern Learning for Temporal Knowledge Graph Reasoning",
+          "url": "https://aclanthology.org/2022.acl-short.32/",
+          "pdf_url": "https://aclanthology.org/2022.acl-short.32.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2022
+        },
+        {
+          "title": "LLMFactor: Extracting Profitable Factors through Prompts for Explainable Stock Movement Prediction",
+          "url": "https://aclanthology.org/2024.findings-acl.185/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.185.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "ForecastQA: A Question Answering Challenge for Event Forecasting with Temporal Text Data",
+          "url": "https://aclanthology.org/2021.acl-long.357/",
+          "pdf_url": "https://aclanthology.org/2021.acl-long.357.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2021
+        },
+        {
+          "title": "Towards Visual Question Answering on Pathology Images",
+          "url": "https://aclanthology.org/2021.acl-short.90/",
+          "pdf_url": "https://aclanthology.org/2021.acl-short.90.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2021
+        },
+        {
+          "title": "Towards Medical Complex Reasoning with LLMs through Medical Verifiable Problems",
+          "url": "https://aclanthology.org/2025.findings-acl.751/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.751.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Cross-modal Memory Networks for Radiology Report Generation",
+          "url": "https://aclanthology.org/2021.acl-long.459/",
+          "pdf_url": "https://aclanthology.org/2021.acl-long.459.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2021
+        },
+        {
+          "title": "MusTQ: A Temporal Knowledge Graph Question Answering Dataset for Multi-Step Temporal Reasoning",
+          "url": "https://aclanthology.org/2024.findings-acl.696/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.696.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Reasoning Like a Doctor: Improving Medical Dialogue Systems via Diagnostic Reasoning Process Alignment",
+          "url": "https://aclanthology.org/2024.findings-acl.406/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.406.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Unity in Diversity: Collaborative Pre-training Across Multimodal Medical Sources",
+          "url": "https://aclanthology.org/2024.acl-long.199/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.199.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "TReMu: Towards Neuro-Symbolic Temporal Reasoning for LLM-Agents with Memory in Multi-Session Dialogues",
+          "url": "https://aclanthology.org/2025.findings-acl.972/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.972.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "ProMedTS: A Self-Supervised, Prompt-Guided Multimodal Approach for Integrating Medical Text and Time Series",
+          "url": "https://aclanthology.org/2025.findings-acl.308/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.308.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "TimeBench: A Comprehensive Evaluation of Temporal Reasoning Abilities in Large Language Models",
+          "url": "https://aclanthology.org/2024.acl-long.66/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.66.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "TECHS: Temporal Logical Graph Networks for Explainable Extrapolation Reasoning",
+          "url": "https://aclanthology.org/2023.acl-long.71/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.71.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Temporal reasoning for timeline summarisation in social media",
+          "url": "https://aclanthology.org/2025.acl-long.1362/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1362.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Temporal Knowledge Question Answering via Abstract Reasoning Induction",
+          "url": "https://aclanthology.org/2024.acl-long.267/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.267.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Towards Multi-Relational Multi-Hop Reasoning over Dense Temporal Knowledge Graphs",
+          "url": "https://aclanthology.org/2024.findings-acl.853/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.853.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "EMRs2CSP : Mining Clinical Status Pathway from Electronic Medical Records",
+          "url": "https://aclanthology.org/2025.findings-acl.886/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.886.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Towards Benchmarking and Improving the Temporal Reasoning Capability of Large Language Models",
+          "url": "https://aclanthology.org/2023.acl-long.828/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.828.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Towards Robust Temporal Reasoning of Large Language Models via a Multi-Hop QA Dataset and Pseudo-Instruction Tuning",
+          "url": "https://aclanthology.org/2024.findings-acl.374/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.374.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Generic Temporal Reasoning with Differential Analysis and Explanation",
+          "url": "https://aclanthology.org/2023.acl-long.671/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.671.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Temporal Relation Extraction in Clinical Texts: A Span-based Graph Transformer Approach",
+          "url": "https://aclanthology.org/2025.acl-long.1251/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1251.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "TIMEDIAL: Temporal Commonsense Reasoning in Dialog",
+          "url": "https://aclanthology.org/2021.acl-long.549/",
+          "pdf_url": "https://aclanthology.org/2021.acl-long.549.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2021
+        },
+        {
+          "title": "Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models",
+          "url": "https://aclanthology.org/2025.acl-long.1358/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1358.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "LADDER: Language-Driven Slice Discovery and Error Rectification in Vision Classifiers",
+          "url": "https://aclanthology.org/2025.findings-acl.1177/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.1177.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "A Unified Temporal Knowledge Graph Reasoning Model Towards Interpolation and Extrapolation",
+          "url": "https://aclanthology.org/2024.acl-long.8/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.8.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Large Language Models Can Learn Temporal Reasoning",
+          "url": "https://aclanthology.org/2024.acl-long.563/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.563.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "ETRQA: A Comprehensive Benchmark for Evaluating Event Temporal Reasoning Abilities of Large Language Models",
+          "url": "https://aclanthology.org/2025.findings-acl.1198/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.1198.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Should I Believe in What Medical AI Says? A Chinese Benchmark for Medication Based on Knowledge and Reasoning",
+          "url": "https://aclanthology.org/2025.acl-short.91/",
+          "pdf_url": "https://aclanthology.org/2025.acl-short.91.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Deep Temporal Reasoning in Video Language Models: A Cross-Linguistic Evaluation of Action Duration and Completion through Perfect Times",
+          "url": "https://aclanthology.org/2025.acl-long.1000/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1000.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning",
+          "url": "https://aclanthology.org/2024.findings-acl.33/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.33.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Towards Explainable Temporal Reasoning in Large Language Models: A Structure-Aware Generative Framework",
+          "url": "https://aclanthology.org/2025.findings-acl.378/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.378.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "LLM-Symbolic Integration for Robust Temporal Tabular Reasoning",
+          "url": "https://aclanthology.org/2025.findings-acl.1022/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.1022.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Search from History and Reason for Future: Two-stage Reasoning on Temporal Knowledge Graphs",
+          "url": "https://aclanthology.org/2021.acl-long.365/",
+          "pdf_url": "https://aclanthology.org/2021.acl-long.365.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2021
+        },
+        {
+          "title": "TRAM: Benchmarking Temporal Reasoning for Large Language Models",
+          "url": "https://aclanthology.org/2024.findings-acl.382/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.382.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "PAT-Questions: A Self-Updating Benchmark for Present-Anchored Temporal Question-Answering",
+          "url": "https://aclanthology.org/2024.findings-acl.777/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.777.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Chain-of-History Reasoning for Temporal Knowledge Graph Forecasting",
+          "url": "https://aclanthology.org/2024.findings-acl.955/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.955.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "ChronoSense: Exploring Temporal Understanding in Large Language Models with Time Intervals of Events",
+          "url": "https://aclanthology.org/2025.acl-short.46/",
+          "pdf_url": "https://aclanthology.org/2025.acl-short.46.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Pattern Recognition or Medical Knowledge? The Problem with Multiple-Choice Questions in Medicine",
+          "url": "https://aclanthology.org/2025.acl-long.266/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.266.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Learning Latent Relations for Temporal Knowledge Graph Reasoning",
+          "url": "https://aclanthology.org/2023.acl-long.705/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.705.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "A Multi-Expert Structural-Semantic Hybrid Framework for Unveiling Historical Patterns in Temporal Knowledge Graphs",
+          "url": "https://aclanthology.org/2025.findings-acl.1056/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.1056.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Living in the Moment: Can Large Language Models Grasp Co-Temporal Reasoning?",
+          "url": "https://aclanthology.org/2024.acl-long.703/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.703.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "DDxTutor: Clinical Reasoning Tutoring System with Differential Diagnosis-Based Structured Reasoning",
+          "url": "https://aclanthology.org/2025.acl-long.1495/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1495.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "DARER: Dual-task Temporal Relational Recurrent Reasoning Network for Joint Dialog Sentiment Classification and Act Recognition",
+          "url": "https://aclanthology.org/2022.findings-acl.286/",
+          "pdf_url": "https://aclanthology.org/2022.findings-acl.286.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2022
+        },
+        {
+          "title": "Spatial Coordinates as a Cell Language: A Multi-Sentence Framework for Imaging Mass Cytometry Analysis",
+          "url": "https://aclanthology.org/2025.findings-acl.685/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.685.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "A Study into Investigating Temporal Robustness of LLMs",
+          "url": "https://aclanthology.org/2025.findings-acl.810/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.810.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "AnRe: Analogical Replay for Temporal Knowledge Graph Forecasting",
+          "url": "https://aclanthology.org/2025.acl-long.231/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.231.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "A Generative Adaptive Replay Continual Learning Model for Temporal Knowledge Graph Reasoning",
+          "url": "https://aclanthology.org/2025.acl-long.537/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.537.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "EvolveBench: A Comprehensive Benchmark for Assessing Temporal Awareness in LLMs on Evolving Knowledge",
+          "url": "https://aclanthology.org/2025.acl-long.788/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.788.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Improving Time Sensitivity for Question Answering over Temporal Knowledge Graphs",
+          "url": "https://aclanthology.org/2022.acl-long.552/",
+          "pdf_url": "https://aclanthology.org/2022.acl-long.552.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2022
+        },
+        {
+          "title": "Multi-granularity Temporal Question Answering over Knowledge Graphs",
+          "url": "https://aclanthology.org/2023.acl-long.637/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.637.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "TeAST: Temporal Knowledge Graph Embedding via Archimedean Spiral Timeline",
+          "url": "https://aclanthology.org/2023.acl-long.862/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.862.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "MLeVLM: Improve Multi-level Progressive Capabilities based on Multimodal Large Language Model for Medical Visual Question Answering",
+          "url": "https://aclanthology.org/2024.findings-acl.296/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.296.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "CoD, Towards an Interpretable Medical Agent using Chain of Diagnosis",
+          "url": "https://aclanthology.org/2025.findings-acl.740/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.740.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "GETReason: Enhancing Image Context Extraction through Hierarchical Multi-Agent Reasoning",
+          "url": "https://aclanthology.org/2025.acl-long.1439/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1439.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Replace and Report: NLP Assisted Radiology Report Generation",
+          "url": "https://aclanthology.org/2023.findings-acl.683/",
+          "pdf_url": "https://aclanthology.org/2023.findings-acl.683.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "TimeToM: Temporal Space is the Key to Unlocking the Door of Large Language Models’ Theory-of-Mind",
+          "url": "https://aclanthology.org/2024.findings-acl.685/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.685.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Knowledge-Augmented Multimodal Clinical Rationale Generation for Disease Diagnosis with Small Language Models",
+          "url": "https://aclanthology.org/2025.acl-long.540/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.540.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "HyKGE: A Hypothesis Knowledge Graph Enhanced RAG Framework for Accurate and Reliable Medical LLMs Responses",
+          "url": "https://aclanthology.org/2025.acl-long.580/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.580.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "A Novel Framework Based on Medical Concept Driven Attention for Explainable Medical Code Prediction via External Knowledge",
+          "url": "https://aclanthology.org/2022.findings-acl.110/",
+          "pdf_url": "https://aclanthology.org/2022.findings-acl.110.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2022
+        },
+        {
+          "title": "Towards Dynamic Theory of Mind: Evaluating LLM Adaptation to Temporal Evolution of Human States",
+          "url": "https://aclanthology.org/2025.acl-long.1171/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1171.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "ExpliCa: Evaluating Explicit Causal Reasoning in Large Language Models",
+          "url": "https://aclanthology.org/2025.findings-acl.891/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.891.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "MultiMSD: A Corpus for Multilingual Medical Text Simplification from Online Medical References",
+          "url": "https://aclanthology.org/2025.findings-acl.481/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.481.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Reasoning with Language Model Prompting: A Survey",
+          "url": "https://aclanthology.org/2023.acl-long.294/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.294.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Pre-trained Language Model with Prompts for Temporal Knowledge Graph Completion",
+          "url": "https://aclanthology.org/2023.findings-acl.493/",
+          "pdf_url": "https://aclanthology.org/2023.findings-acl.493.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "Medical Graph RAG: Evidence-based Medical Large Language Model via Graph Retrieval-Augmented Generation",
+          "url": "https://aclanthology.org/2025.acl-long.1381/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1381.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "UnSeenTimeQA: Time-Sensitive Question-Answering Beyond LLMs’ Memorization",
+          "url": "https://aclanthology.org/2025.acl-long.94/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.94.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Improving Medical Large Vision-Language Models with Abnormal-Aware Feedback",
+          "url": "https://aclanthology.org/2025.acl-long.636/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.636.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "How LLMs Comprehend Temporal Meaning in Narratives: A Case Study in Cognitive Evaluation of LLMs",
+          "url": "https://aclanthology.org/2025.acl-long.1415/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1415.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Learning to Leverage High-Order Medical Knowledge Graph for Joint Entity and Relation Extraction",
+          "url": "https://aclanthology.org/2023.findings-acl.575/",
+          "pdf_url": "https://aclanthology.org/2023.findings-acl.575.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "MidMed: Towards Mixed-Type Dialogues for Medical Consultation",
+          "url": "https://aclanthology.org/2023.acl-long.453/",
+          "pdf_url": "https://aclanthology.org/2023.acl-long.453.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "EventRAG: Enhancing LLM Generation with Event Knowledge Graphs",
+          "url": "https://aclanthology.org/2025.acl-long.830/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.830.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Around the World in 24 Hours: Probing LLM Knowledge of Time and Place",
+          "url": "https://aclanthology.org/2025.acl-long.1115/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1115.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Multi-modal Concept Alignment Pre-training for Generative Medical Visual Question Answering",
+          "url": "https://aclanthology.org/2024.findings-acl.319/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.319.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "ChiMed-GPT: A Chinese Medical Large Language Model with Full Training Regime and Better Alignment to Human Preferences",
+          "url": "https://aclanthology.org/2024.acl-long.386/",
+          "pdf_url": "https://aclanthology.org/2024.acl-long.386.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Medical Dialogue System: A Survey of Categories, Methods, Evaluation and Challenges",
+          "url": "https://aclanthology.org/2024.findings-acl.167/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.167.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "TeRDy: Temporal Relation Dynamics through Frequency Decomposition for Temporal Knowledge Graph Completion",
+          "url": "https://aclanthology.org/2025.acl-long.473/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.473.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Medical Dialogue Generation via Dual Flow Modeling",
+          "url": "https://aclanthology.org/2023.findings-acl.423/",
+          "pdf_url": "https://aclanthology.org/2023.findings-acl.423.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2023
+        },
+        {
+          "title": "MedDec: A Dataset for Extracting Medical Decisions from Discharge Summaries",
+          "url": "https://aclanthology.org/2024.findings-acl.975/",
+          "pdf_url": "https://aclanthology.org/2024.findings-acl.975.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2024
+        },
+        {
+          "title": "Differentiable Multi-Agent Actor-Critic for Multi-Step Radiology Report Summarization",
+          "url": "https://aclanthology.org/2022.acl-long.109/",
+          "pdf_url": "https://aclanthology.org/2022.acl-long.109.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2022
+        },
+        {
+          "title": "Can We Trust AI Doctors? A Survey of Medical Hallucination in Large Language and Large Vision-Language Models",
+          "url": "https://aclanthology.org/2025.findings-acl.350/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.350.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Enhancing Medical Dialogue Generation through Knowledge Refinement and Dynamic Prompt Adjustment",
+          "url": "https://aclanthology.org/2025.findings-acl.1320/",
+          "pdf_url": "https://aclanthology.org/2025.findings-acl.1320.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        },
+        {
+          "title": "Asclepius: A Spectrum Evaluation Benchmark for Medical Multi-Modal Large Language Models",
+          "url": "https://aclanthology.org/2025.acl-long.1178/",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.1178.pdf",
+          "doi_url": null,
+          "source": "offline_acl",
+          "year": 2025
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "AdaGaR: Adaptive Gabor Representation for Dynamic Scene Reconstruction",
+          "url": "http://arxiv.org/abs/2601.00796v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00796v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Two Deep Learning Approaches for Automated Segmentation of Left Ventricle in Cine Cardiac MRI",
+          "url": "http://arxiv.org/abs/2601.00794v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00794v1",
+          "doi_url": "https://doi.org/10.1145/3510427.3510429",
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Geometry of Reason: Spectral Signatures of Valid Mathematical Reasoning",
+          "url": "http://arxiv.org/abs/2601.00791v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00791v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Investigating the Viability of Employing Multi-modal Large Language Models in the Context of Audio Deepfake Detection",
+          "url": "http://arxiv.org/abs/2601.00777v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00777v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Spatiotemporal Detection and Uncertainty Visualization of Atmospheric Blocking Events",
+          "url": "http://arxiv.org/abs/2601.00775v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00775v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "The Effect of Transparency on Students' Perceptions of AI Graders",
+          "url": "http://arxiv.org/abs/2601.00765v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00765v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Unlocking the Future of X-Ray Polarimetry with IXPE: Lessons Learned and Next Steps",
+          "url": "http://arxiv.org/abs/2601.00764v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00764v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "A formal theory on problem space as a semantic world model in systems engineering",
+          "url": "http://arxiv.org/abs/2601.00755v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00755v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Early-Stage Prediction of Review Effort in AI-Generated Pull Requests",
+          "url": "http://arxiv.org/abs/2601.00753v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00753v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "The Reasoning-Creativity Trade-off: Toward Creativity-Driven Problem Solving",
+          "url": "http://arxiv.org/abs/2601.00747v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00747v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Stochastic Actor-Critic: Mitigating Overestimation via Temporal Aleatoric Uncertainty",
+          "url": "http://arxiv.org/abs/2601.00737v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00737v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Grading Handwritten Engineering Exams with Multimodal Large Language Models",
+          "url": "http://arxiv.org/abs/2601.00730v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00730v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Detecting Performance Degradation under Data Shift in Pathology Vision-Language Model",
+          "url": "http://arxiv.org/abs/2601.00716v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00716v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "KDPhys: An Attention Guided 3D to 2D Knowledge Distillation for Real-time Video-Based Physiological Measurement",
+          "url": "http://arxiv.org/abs/2601.00714v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00714v1",
+          "doi_url": "https://doi.org/10.1016/j.bspc.2025.107797",
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Carbon mineralization in CO2-seawater-basalt systems: Reactive transport dynamics and vesicular pore architecture controls",
+          "url": "http://arxiv.org/abs/2601.00710v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00710v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Efficient Deep Demosaicing with Spatially Downsampled Isotropic Networks",
+          "url": "http://arxiv.org/abs/2601.00703v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00703v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Pseudo-Hermitian Magnon Dynamics",
+          "url": "http://arxiv.org/abs/2601.00701v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00701v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "BSAT: B-Spline Adaptive Tokenizer for Long-Term Time Series Forecasting",
+          "url": "http://arxiv.org/abs/2601.00698v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00698v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "A Vision-and-Knowledge Enhanced Large Language Model for Generalizable Pedestrian Crossing Behavior Inference",
+          "url": "http://arxiv.org/abs/2601.00694v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00694v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Human-like AI-based Auto-Field-in-Field Whole-Brain Radiotherapy Treatment Planning With Conversation Large Language Model Feedback",
+          "url": "http://arxiv.org/abs/2601.00685v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00685v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Sigmoid Head for Quality Estimation under Language Ambiguity",
+          "url": "http://arxiv.org/abs/2601.00680v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00680v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Pixel-to-4D: Camera-Controlled Image-to-Video Generation with Dynamic 3D Gaussians",
+          "url": "http://arxiv.org/abs/2601.00678v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00678v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "IRPO: Scaling the Bradley-Terry Model via Reinforcement Learning",
+          "url": "http://arxiv.org/abs/2601.00677v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00677v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "RoboReward: General-Purpose Vision-Language Reward Models for Robotics",
+          "url": "http://arxiv.org/abs/2601.00675v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00675v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Wave2Word: A Multimodal Transformer Framework for Joint EEG-Text Alignment and Multi-Task Representation Learning in Neurocritical Care",
+          "url": "http://arxiv.org/abs/2601.00670v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00670v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Physics-Guided Dual-Domain Plug-and-Play ADMM for Low-Dose CT Reconstruction",
+          "url": "http://arxiv.org/abs/2601.00669v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00669v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Three factor delay learning rules for spiking neural networks",
+          "url": "http://arxiv.org/abs/2601.00668v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00668v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Activity correlation and temporal variation of small-scale magnetic fields on young Sun-like stars",
+          "url": "http://arxiv.org/abs/2601.00663v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00663v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Interpretability-Guided Bi-objective Optimization: Aligning Accuracy and Explainability",
+          "url": "http://arxiv.org/abs/2601.00655v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00655v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Quality Detection of Stored Potatoes via Transfer Learning: A CNN and Vision Transformer Approach",
+          "url": "http://arxiv.org/abs/2601.00645v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00645v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "RePose: A Real-Time 3D Human Pose Estimation and Biomechanical Analysis Framework for Rehabilitation",
+          "url": "http://arxiv.org/abs/2601.00625v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00625v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Personalized Forecasting of Glycemic Control in Type 1 and 2 Diabetes Using Foundational AI and Machine Learning Models",
+          "url": "http://arxiv.org/abs/2601.00613v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00613v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Peak-Nadir Encoding for Efficient CGM Data Compression and High-Fidelity Reconstruction",
+          "url": "http://arxiv.org/abs/2601.00608v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00608v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Traffic-Aware Optimal Taxi Placement Using Graph Neural Network-Based Reinforcement Learning",
+          "url": "http://arxiv.org/abs/2601.00607v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00607v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "CSSBench: Evaluating the Safety of Lightweight LLMs against Chinese-Specific Adversarial Patterns",
+          "url": "http://arxiv.org/abs/2601.00588v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00588v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Microwave vortex beam lasing via photonic time crystals",
+          "url": "http://arxiv.org/abs/2601.00585v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00585v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "GranAlign: Granularity-Aware Alignment Framework for Zero-Shot Video Moment Retrieval",
+          "url": "http://arxiv.org/abs/2601.00584v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00584v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Learning to be Reproducible: Custom Loss Design for Robust Neural Networks",
+          "url": "http://arxiv.org/abs/2601.00578v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00578v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "InfoSynth: Information-Guided Benchmark Synthesis for LLMs",
+          "url": "http://arxiv.org/abs/2601.00575v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00575v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "ASCNet: Research on all-sky camera images classification at the Muztagh-ata site",
+          "url": "http://arxiv.org/abs/2601.00563v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00563v1",
+          "doi_url": "https://doi.org/10.1088/1674-4527/ae25c7",
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "A Cascaded Information Interaction Network for Precise Image Segmentation",
+          "url": "http://arxiv.org/abs/2601.00562v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00562v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "AEGIS: Exploring the Limit of World Knowledge Capabilities for Unified Mulitmodal Models",
+          "url": "http://arxiv.org/abs/2601.00561v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00561v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Cracking IoT Security: Can LLMs Outsmart Static Analysis Tools?",
+          "url": "http://arxiv.org/abs/2601.00559v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00559v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "A Comprehensive Dataset for Human vs. AI Generated Image Detection",
+          "url": "http://arxiv.org/abs/2601.00553v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00553v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Tabletop X-ray ghost video of moving objects",
+          "url": "http://arxiv.org/abs/2601.00552v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00552v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "SingBAG Pro: Accelerating point cloud-based iterative reconstruction for 3D photoacoustic imaging under arbitrary array",
+          "url": "http://arxiv.org/abs/2601.00551v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00551v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Carrier Drift Modulation and the Hyperbolic Time Crystals",
+          "url": "http://arxiv.org/abs/2601.00547v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00547v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "DynaDrag: Dynamic Drag-Style Image Editing by Motion Prediction",
+          "url": "http://arxiv.org/abs/2601.00542v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00542v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Boosting Segment Anything Model to Generalize Visually Non-Salient Scenarios",
+          "url": "http://arxiv.org/abs/2601.00537v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00537v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Retrieval--Reasoning Processes for Multi-hop Question Answering: A Four-Axis Design Framework and Empirical Trends",
+          "url": "http://arxiv.org/abs/2601.00536v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00536v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "FreeText: Training-Free Text Rendering in Diffusion Transformers via Attention Localization and Spectral Glyph Injection",
+          "url": "http://arxiv.org/abs/2601.00535v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00535v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Follow-up Question Generation For Enhanced Patient-Provider Conversations",
+        "pdf": "https://aclanthology.org/2025.acl-long.1226.pdf"
+      },
+      {
+        "title": "Exploring Compositional Generalization of Multimodal LLMs for Medical Imaging",
+        "pdf": "https://aclanthology.org/2025.acl-long.639.pdf"
+      },
+      {
+        "title": "Fine-Grained Image-Text Alignment in Medical Imaging Enables Explainable Cyclic Image-Report Generation",
+        "pdf": "https://aclanthology.org/2024.acl-long.514.pdf"
+      },
+      {
+        "title": "MEIT: Multimodal Electrocardiogram Instruction Tuning on Large Language Models for Report Generation",
+        "pdf": "https://aclanthology.org/2025.findings-acl.749.pdf"
+      },
+      {
+        "title": "Decoding Part-of-Speech from Human EEG Signals",
+        "pdf": "https://aclanthology.org/2022.acl-long.156.pdf"
+      },
+      {
+        "title": "RAM-EHR: Retrieval Augmentation Meets Clinical Predictions on Electronic Health Records",
+        "pdf": "https://aclanthology.org/2024.acl-short.68.pdf"
+      },
+      {
+        "title": "Enhancing EEG-to-Text Decoding through Transferable Representations from Pre-trained Contrastive EEG-Text Masked Autoencoder",
+        "pdf": "https://aclanthology.org/2024.acl-long.393.pdf"
+      },
+      {
+        "title": "Counterfactual-Consistency Prompting for Relative Temporal Understanding in Large Language Models",
+        "pdf": "https://aclanthology.org/2025.acl-short.97.pdf"
+      },
+      {
+        "title": "RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion",
+        "pdf": "https://aclanthology.org/2022.acl-long.402.pdf"
+      },
+      {
+        "title": "CMQCIC-Bench: A Chinese Benchmark for Evaluating Large Language Models in Medical Quality Control Indicator Calculation",
+        "pdf": "https://aclanthology.org/2025.findings-acl.34.pdf"
+      },
+      {
+        "title": "Predicting the Unpredictable: Uncertainty-Aware Reasoning over Temporal Knowledge Graphs via Diffusion Process",
+        "pdf": "https://aclanthology.org/2024.findings-acl.343.pdf"
+      },
+      {
+        "title": "CTPD: Cross-Modal Temporal Pattern Discovery for Enhanced Multimodal Electronic Health Records Analysis",
+        "pdf": "https://aclanthology.org/2025.findings-acl.352.pdf"
+      },
+      {
+        "title": "Disentangled Multi-span Evolutionary Network against Temporal Knowledge Graph Reasoning",
+        "pdf": "https://aclanthology.org/2025.findings-acl.658.pdf"
+      },
+      {
+        "title": "MEDEC: A Benchmark for Medical Error Detection and Correction in Clinical Notes",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1159.pdf"
+      },
+      {
+        "title": "DiaLLMs: EHR-Enhanced Clinical Conversational System for Clinical Test Recommendation and Diagnosis Prediction",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1313.pdf"
+      },
+      {
+        "title": "Libra: Leveraging Temporal Images for Biomedical Radiology Analysis",
+        "pdf": "https://aclanthology.org/2025.findings-acl.888.pdf"
+      },
+      {
+        "title": "A Survey of LLM-based Agents in Medicine: How far are we from Baymax?",
+        "pdf": "https://aclanthology.org/2025.findings-acl.539.pdf"
+      },
+      {
+        "title": "MAM: Modular Multi-Agent Framework for Multi-Modal Medical Diagnosis via Role-Specialized Collaboration",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1298.pdf"
+      },
+      {
+        "title": "Worse than Random? An Embarrassingly Simple Probing Evaluation of Large Multimodal Models in Medical VQA",
+        "pdf": "https://aclanthology.org/2025.findings-acl.981.pdf"
+      },
+      {
+        "title": "Two-stage Generative Question Answering on Temporal Knowledge Graph Using Large Language Models",
+        "pdf": "https://aclanthology.org/2024.findings-acl.401.pdf"
+      },
+      {
+        "title": "Complex Evolutional Pattern Learning for Temporal Knowledge Graph Reasoning",
+        "pdf": "https://aclanthology.org/2022.acl-short.32.pdf"
+      },
+      {
+        "title": "LLMFactor: Extracting Profitable Factors through Prompts for Explainable Stock Movement Prediction",
+        "pdf": "https://aclanthology.org/2024.findings-acl.185.pdf"
+      },
+      {
+        "title": "ForecastQA: A Question Answering Challenge for Event Forecasting with Temporal Text Data",
+        "pdf": "https://aclanthology.org/2021.acl-long.357.pdf"
+      },
+      {
+        "title": "Towards Visual Question Answering on Pathology Images",
+        "pdf": "https://aclanthology.org/2021.acl-short.90.pdf"
+      },
+      {
+        "title": "Towards Medical Complex Reasoning with LLMs through Medical Verifiable Problems",
+        "pdf": "https://aclanthology.org/2025.findings-acl.751.pdf"
+      },
+      {
+        "title": "Cross-modal Memory Networks for Radiology Report Generation",
+        "pdf": "https://aclanthology.org/2021.acl-long.459.pdf"
+      },
+      {
+        "title": "MusTQ: A Temporal Knowledge Graph Question Answering Dataset for Multi-Step Temporal Reasoning",
+        "pdf": "https://aclanthology.org/2024.findings-acl.696.pdf"
+      },
+      {
+        "title": "Reasoning Like a Doctor: Improving Medical Dialogue Systems via Diagnostic Reasoning Process Alignment",
+        "pdf": "https://aclanthology.org/2024.findings-acl.406.pdf"
+      },
+      {
+        "title": "Unity in Diversity: Collaborative Pre-training Across Multimodal Medical Sources",
+        "pdf": "https://aclanthology.org/2024.acl-long.199.pdf"
+      },
+      {
+        "title": "TReMu: Towards Neuro-Symbolic Temporal Reasoning for LLM-Agents with Memory in Multi-Session Dialogues",
+        "pdf": "https://aclanthology.org/2025.findings-acl.972.pdf"
+      },
+      {
+        "title": "ProMedTS: A Self-Supervised, Prompt-Guided Multimodal Approach for Integrating Medical Text and Time Series",
+        "pdf": "https://aclanthology.org/2025.findings-acl.308.pdf"
+      },
+      {
+        "title": "TimeBench: A Comprehensive Evaluation of Temporal Reasoning Abilities in Large Language Models",
+        "pdf": "https://aclanthology.org/2024.acl-long.66.pdf"
+      },
+      {
+        "title": "TECHS: Temporal Logical Graph Networks for Explainable Extrapolation Reasoning",
+        "pdf": "https://aclanthology.org/2023.acl-long.71.pdf"
+      },
+      {
+        "title": "Temporal reasoning for timeline summarisation in social media",
+        "pdf": "https://aclanthology.org/2025.acl-long.1362.pdf"
+      },
+      {
+        "title": "Temporal Knowledge Question Answering via Abstract Reasoning Induction",
+        "pdf": "https://aclanthology.org/2024.acl-long.267.pdf"
+      },
+      {
+        "title": "Towards Multi-Relational Multi-Hop Reasoning over Dense Temporal Knowledge Graphs",
+        "pdf": "https://aclanthology.org/2024.findings-acl.853.pdf"
+      },
+      {
+        "title": "EMRs2CSP : Mining Clinical Status Pathway from Electronic Medical Records",
+        "pdf": "https://aclanthology.org/2025.findings-acl.886.pdf"
+      },
+      {
+        "title": "Towards Benchmarking and Improving the Temporal Reasoning Capability of Large Language Models",
+        "pdf": "https://aclanthology.org/2023.acl-long.828.pdf"
+      },
+      {
+        "title": "Towards Robust Temporal Reasoning of Large Language Models via a Multi-Hop QA Dataset and Pseudo-Instruction Tuning",
+        "pdf": "https://aclanthology.org/2024.findings-acl.374.pdf"
+      },
+      {
+        "title": "Generic Temporal Reasoning with Differential Analysis and Explanation",
+        "pdf": "https://aclanthology.org/2023.acl-long.671.pdf"
+      },
+      {
+        "title": "Temporal Relation Extraction in Clinical Texts: A Span-based Graph Transformer Approach",
+        "pdf": "https://aclanthology.org/2025.acl-long.1251.pdf"
+      },
+      {
+        "title": "TIMEDIAL: Temporal Commonsense Reasoning in Dialog",
+        "pdf": "https://aclanthology.org/2021.acl-long.549.pdf"
+      },
+      {
+        "title": "Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models",
+        "pdf": "https://aclanthology.org/2025.acl-long.1358.pdf"
+      },
+      {
+        "title": "LADDER: Language-Driven Slice Discovery and Error Rectification in Vision Classifiers",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1177.pdf"
+      },
+      {
+        "title": "A Unified Temporal Knowledge Graph Reasoning Model Towards Interpolation and Extrapolation",
+        "pdf": "https://aclanthology.org/2024.acl-long.8.pdf"
+      },
+      {
+        "title": "Large Language Models Can Learn Temporal Reasoning",
+        "pdf": "https://aclanthology.org/2024.acl-long.563.pdf"
+      },
+      {
+        "title": "ETRQA: A Comprehensive Benchmark for Evaluating Event Temporal Reasoning Abilities of Large Language Models",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1198.pdf"
+      },
+      {
+        "title": "Should I Believe in What Medical AI Says? A Chinese Benchmark for Medication Based on Knowledge and Reasoning",
+        "pdf": "https://aclanthology.org/2025.acl-short.91.pdf"
+      },
+      {
+        "title": "Deep Temporal Reasoning in Video Language Models: A Cross-Linguistic Evaluation of Action Duration and Completion through Perfect Times",
+        "pdf": "https://aclanthology.org/2025.acl-long.1000.pdf"
+      },
+      {
+        "title": "MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning",
+        "pdf": "https://aclanthology.org/2024.findings-acl.33.pdf"
+      },
+      {
+        "title": "Towards Explainable Temporal Reasoning in Large Language Models: A Structure-Aware Generative Framework",
+        "pdf": "https://aclanthology.org/2025.findings-acl.378.pdf"
+      },
+      {
+        "title": "LLM-Symbolic Integration for Robust Temporal Tabular Reasoning",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1022.pdf"
+      },
+      {
+        "title": "Search from History and Reason for Future: Two-stage Reasoning on Temporal Knowledge Graphs",
+        "pdf": "https://aclanthology.org/2021.acl-long.365.pdf"
+      },
+      {
+        "title": "TRAM: Benchmarking Temporal Reasoning for Large Language Models",
+        "pdf": "https://aclanthology.org/2024.findings-acl.382.pdf"
+      },
+      {
+        "title": "PAT-Questions: A Self-Updating Benchmark for Present-Anchored Temporal Question-Answering",
+        "pdf": "https://aclanthology.org/2024.findings-acl.777.pdf"
+      },
+      {
+        "title": "Chain-of-History Reasoning for Temporal Knowledge Graph Forecasting",
+        "pdf": "https://aclanthology.org/2024.findings-acl.955.pdf"
+      },
+      {
+        "title": "ChronoSense: Exploring Temporal Understanding in Large Language Models with Time Intervals of Events",
+        "pdf": "https://aclanthology.org/2025.acl-short.46.pdf"
+      },
+      {
+        "title": "Pattern Recognition or Medical Knowledge? The Problem with Multiple-Choice Questions in Medicine",
+        "pdf": "https://aclanthology.org/2025.acl-long.266.pdf"
+      },
+      {
+        "title": "Learning Latent Relations for Temporal Knowledge Graph Reasoning",
+        "pdf": "https://aclanthology.org/2023.acl-long.705.pdf"
+      },
+      {
+        "title": "A Multi-Expert Structural-Semantic Hybrid Framework for Unveiling Historical Patterns in Temporal Knowledge Graphs",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1056.pdf"
+      },
+      {
+        "title": "Living in the Moment: Can Large Language Models Grasp Co-Temporal Reasoning?",
+        "pdf": "https://aclanthology.org/2024.acl-long.703.pdf"
+      },
+      {
+        "title": "DDxTutor: Clinical Reasoning Tutoring System with Differential Diagnosis-Based Structured Reasoning",
+        "pdf": "https://aclanthology.org/2025.acl-long.1495.pdf"
+      },
+      {
+        "title": "DARER: Dual-task Temporal Relational Recurrent Reasoning Network for Joint Dialog Sentiment Classification and Act Recognition",
+        "pdf": "https://aclanthology.org/2022.findings-acl.286.pdf"
+      },
+      {
+        "title": "Spatial Coordinates as a Cell Language: A Multi-Sentence Framework for Imaging Mass Cytometry Analysis",
+        "pdf": "https://aclanthology.org/2025.findings-acl.685.pdf"
+      },
+      {
+        "title": "A Study into Investigating Temporal Robustness of LLMs",
+        "pdf": "https://aclanthology.org/2025.findings-acl.810.pdf"
+      },
+      {
+        "title": "AnRe: Analogical Replay for Temporal Knowledge Graph Forecasting",
+        "pdf": "https://aclanthology.org/2025.acl-long.231.pdf"
+      },
+      {
+        "title": "A Generative Adaptive Replay Continual Learning Model for Temporal Knowledge Graph Reasoning",
+        "pdf": "https://aclanthology.org/2025.acl-long.537.pdf"
+      },
+      {
+        "title": "EvolveBench: A Comprehensive Benchmark for Assessing Temporal Awareness in LLMs on Evolving Knowledge",
+        "pdf": "https://aclanthology.org/2025.acl-long.788.pdf"
+      },
+      {
+        "title": "Improving Time Sensitivity for Question Answering over Temporal Knowledge Graphs",
+        "pdf": "https://aclanthology.org/2022.acl-long.552.pdf"
+      },
+      {
+        "title": "Multi-granularity Temporal Question Answering over Knowledge Graphs",
+        "pdf": "https://aclanthology.org/2023.acl-long.637.pdf"
+      },
+      {
+        "title": "TeAST: Temporal Knowledge Graph Embedding via Archimedean Spiral Timeline",
+        "pdf": "https://aclanthology.org/2023.acl-long.862.pdf"
+      },
+      {
+        "title": "MLeVLM: Improve Multi-level Progressive Capabilities based on Multimodal Large Language Model for Medical Visual Question Answering",
+        "pdf": "https://aclanthology.org/2024.findings-acl.296.pdf"
+      },
+      {
+        "title": "CoD, Towards an Interpretable Medical Agent using Chain of Diagnosis",
+        "pdf": "https://aclanthology.org/2025.findings-acl.740.pdf"
+      },
+      {
+        "title": "GETReason: Enhancing Image Context Extraction through Hierarchical Multi-Agent Reasoning",
+        "pdf": "https://aclanthology.org/2025.acl-long.1439.pdf"
+      },
+      {
+        "title": "Replace and Report: NLP Assisted Radiology Report Generation",
+        "pdf": "https://aclanthology.org/2023.findings-acl.683.pdf"
+      },
+      {
+        "title": "TimeToM: Temporal Space is the Key to Unlocking the Door of Large Language Models’ Theory-of-Mind",
+        "pdf": "https://aclanthology.org/2024.findings-acl.685.pdf"
+      },
+      {
+        "title": "Knowledge-Augmented Multimodal Clinical Rationale Generation for Disease Diagnosis with Small Language Models",
+        "pdf": "https://aclanthology.org/2025.acl-long.540.pdf"
+      },
+      {
+        "title": "HyKGE: A Hypothesis Knowledge Graph Enhanced RAG Framework for Accurate and Reliable Medical LLMs Responses",
+        "pdf": "https://aclanthology.org/2025.acl-long.580.pdf"
+      },
+      {
+        "title": "A Novel Framework Based on Medical Concept Driven Attention for Explainable Medical Code Prediction via External Knowledge",
+        "pdf": "https://aclanthology.org/2022.findings-acl.110.pdf"
+      },
+      {
+        "title": "Towards Dynamic Theory of Mind: Evaluating LLM Adaptation to Temporal Evolution of Human States",
+        "pdf": "https://aclanthology.org/2025.acl-long.1171.pdf"
+      },
+      {
+        "title": "ExpliCa: Evaluating Explicit Causal Reasoning in Large Language Models",
+        "pdf": "https://aclanthology.org/2025.findings-acl.891.pdf"
+      },
+      {
+        "title": "MultiMSD: A Corpus for Multilingual Medical Text Simplification from Online Medical References",
+        "pdf": "https://aclanthology.org/2025.findings-acl.481.pdf"
+      },
+      {
+        "title": "Reasoning with Language Model Prompting: A Survey",
+        "pdf": "https://aclanthology.org/2023.acl-long.294.pdf"
+      },
+      {
+        "title": "Pre-trained Language Model with Prompts for Temporal Knowledge Graph Completion",
+        "pdf": "https://aclanthology.org/2023.findings-acl.493.pdf"
+      },
+      {
+        "title": "Medical Graph RAG: Evidence-based Medical Large Language Model via Graph Retrieval-Augmented Generation",
+        "pdf": "https://aclanthology.org/2025.acl-long.1381.pdf"
+      },
+      {
+        "title": "UnSeenTimeQA: Time-Sensitive Question-Answering Beyond LLMs’ Memorization",
+        "pdf": "https://aclanthology.org/2025.acl-long.94.pdf"
+      },
+      {
+        "title": "Improving Medical Large Vision-Language Models with Abnormal-Aware Feedback",
+        "pdf": "https://aclanthology.org/2025.acl-long.636.pdf"
+      },
+      {
+        "title": "How LLMs Comprehend Temporal Meaning in Narratives: A Case Study in Cognitive Evaluation of LLMs",
+        "pdf": "https://aclanthology.org/2025.acl-long.1415.pdf"
+      },
+      {
+        "title": "Learning to Leverage High-Order Medical Knowledge Graph for Joint Entity and Relation Extraction",
+        "pdf": "https://aclanthology.org/2023.findings-acl.575.pdf"
+      },
+      {
+        "title": "MidMed: Towards Mixed-Type Dialogues for Medical Consultation",
+        "pdf": "https://aclanthology.org/2023.acl-long.453.pdf"
+      },
+      {
+        "title": "EventRAG: Enhancing LLM Generation with Event Knowledge Graphs",
+        "pdf": "https://aclanthology.org/2025.acl-long.830.pdf"
+      },
+      {
+        "title": "Around the World in 24 Hours: Probing LLM Knowledge of Time and Place",
+        "pdf": "https://aclanthology.org/2025.acl-long.1115.pdf"
+      },
+      {
+        "title": "Multi-modal Concept Alignment Pre-training for Generative Medical Visual Question Answering",
+        "pdf": "https://aclanthology.org/2024.findings-acl.319.pdf"
+      },
+      {
+        "title": "ChiMed-GPT: A Chinese Medical Large Language Model with Full Training Regime and Better Alignment to Human Preferences",
+        "pdf": "https://aclanthology.org/2024.acl-long.386.pdf"
+      },
+      {
+        "title": "Medical Dialogue System: A Survey of Categories, Methods, Evaluation and Challenges",
+        "pdf": "https://aclanthology.org/2024.findings-acl.167.pdf"
+      },
+      {
+        "title": "TeRDy: Temporal Relation Dynamics through Frequency Decomposition for Temporal Knowledge Graph Completion",
+        "pdf": "https://aclanthology.org/2025.acl-long.473.pdf"
+      },
+      {
+        "title": "Medical Dialogue Generation via Dual Flow Modeling",
+        "pdf": "https://aclanthology.org/2023.findings-acl.423.pdf"
+      },
+      {
+        "title": "MedDec: A Dataset for Extracting Medical Decisions from Discharge Summaries",
+        "pdf": "https://aclanthology.org/2024.findings-acl.975.pdf"
+      },
+      {
+        "title": "Differentiable Multi-Agent Actor-Critic for Multi-Step Radiology Report Summarization",
+        "pdf": "https://aclanthology.org/2022.acl-long.109.pdf"
+      },
+      {
+        "title": "Can We Trust AI Doctors? A Survey of Medical Hallucination in Large Language and Large Vision-Language Models",
+        "pdf": "https://aclanthology.org/2025.findings-acl.350.pdf"
+      },
+      {
+        "title": "Enhancing Medical Dialogue Generation through Knowledge Refinement and Dynamic Prompt Adjustment",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1320.pdf"
+      },
+      {
+        "title": "Asclepius: A Spectrum Evaluation Benchmark for Medical Multi-Modal Large Language Models",
+        "pdf": "https://aclanthology.org/2025.acl-long.1178.pdf"
+      },
+      {
+        "title": "AdaGaR: Adaptive Gabor Representation for Dynamic Scene Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2601.00796v1"
+      },
+      {
+        "title": "Two Deep Learning Approaches for Automated Segmentation of Left Ventricle in Cine Cardiac MRI",
+        "pdf": "https://arxiv.org/pdf/2601.00794v1"
+      },
+      {
+        "title": "Geometry of Reason: Spectral Signatures of Valid Mathematical Reasoning",
+        "pdf": "https://arxiv.org/pdf/2601.00791v1"
+      },
+      {
+        "title": "Investigating the Viability of Employing Multi-modal Large Language Models in the Context of Audio Deepfake Detection",
+        "pdf": "https://arxiv.org/pdf/2601.00777v1"
+      },
+      {
+        "title": "Spatiotemporal Detection and Uncertainty Visualization of Atmospheric Blocking Events",
+        "pdf": "https://arxiv.org/pdf/2601.00775v1"
+      },
+      {
+        "title": "The Effect of Transparency on Students' Perceptions of AI Graders",
+        "pdf": "https://arxiv.org/pdf/2601.00765v1"
+      },
+      {
+        "title": "Unlocking the Future of X-Ray Polarimetry with IXPE: Lessons Learned and Next Steps",
+        "pdf": "https://arxiv.org/pdf/2601.00764v1"
+      },
+      {
+        "title": "A formal theory on problem space as a semantic world model in systems engineering",
+        "pdf": "https://arxiv.org/pdf/2601.00755v1"
+      },
+      {
+        "title": "Early-Stage Prediction of Review Effort in AI-Generated Pull Requests",
+        "pdf": "https://arxiv.org/pdf/2601.00753v1"
+      },
+      {
+        "title": "The Reasoning-Creativity Trade-off: Toward Creativity-Driven Problem Solving",
+        "pdf": "https://arxiv.org/pdf/2601.00747v1"
+      },
+      {
+        "title": "Stochastic Actor-Critic: Mitigating Overestimation via Temporal Aleatoric Uncertainty",
+        "pdf": "https://arxiv.org/pdf/2601.00737v1"
+      },
+      {
+        "title": "Grading Handwritten Engineering Exams with Multimodal Large Language Models",
+        "pdf": "https://arxiv.org/pdf/2601.00730v1"
+      },
+      {
+        "title": "Detecting Performance Degradation under Data Shift in Pathology Vision-Language Model",
+        "pdf": "https://arxiv.org/pdf/2601.00716v1"
+      },
+      {
+        "title": "KDPhys: An Attention Guided 3D to 2D Knowledge Distillation for Real-time Video-Based Physiological Measurement",
+        "pdf": "https://arxiv.org/pdf/2601.00714v1"
+      },
+      {
+        "title": "Carbon mineralization in CO2-seawater-basalt systems: Reactive transport dynamics and vesicular pore architecture controls",
+        "pdf": "https://arxiv.org/pdf/2601.00710v1"
+      },
+      {
+        "title": "Efficient Deep Demosaicing with Spatially Downsampled Isotropic Networks",
+        "pdf": "https://arxiv.org/pdf/2601.00703v1"
+      },
+      {
+        "title": "Pseudo-Hermitian Magnon Dynamics",
+        "pdf": "https://arxiv.org/pdf/2601.00701v1"
+      },
+      {
+        "title": "BSAT: B-Spline Adaptive Tokenizer for Long-Term Time Series Forecasting",
+        "pdf": "https://arxiv.org/pdf/2601.00698v1"
+      },
+      {
+        "title": "A Vision-and-Knowledge Enhanced Large Language Model for Generalizable Pedestrian Crossing Behavior Inference",
+        "pdf": "https://arxiv.org/pdf/2601.00694v1"
+      },
+      {
+        "title": "Human-like AI-based Auto-Field-in-Field Whole-Brain Radiotherapy Treatment Planning With Conversation Large Language Model Feedback",
+        "pdf": "https://arxiv.org/pdf/2601.00685v1"
+      },
+      {
+        "title": "Sigmoid Head for Quality Estimation under Language Ambiguity",
+        "pdf": "https://arxiv.org/pdf/2601.00680v1"
+      },
+      {
+        "title": "Pixel-to-4D: Camera-Controlled Image-to-Video Generation with Dynamic 3D Gaussians",
+        "pdf": "https://arxiv.org/pdf/2601.00678v1"
+      },
+      {
+        "title": "IRPO: Scaling the Bradley-Terry Model via Reinforcement Learning",
+        "pdf": "https://arxiv.org/pdf/2601.00677v1"
+      },
+      {
+        "title": "RoboReward: General-Purpose Vision-Language Reward Models for Robotics",
+        "pdf": "https://arxiv.org/pdf/2601.00675v1"
+      },
+      {
+        "title": "Wave2Word: A Multimodal Transformer Framework for Joint EEG-Text Alignment and Multi-Task Representation Learning in Neurocritical Care",
+        "pdf": "https://arxiv.org/pdf/2601.00670v1"
+      },
+      {
+        "title": "Physics-Guided Dual-Domain Plug-and-Play ADMM for Low-Dose CT Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2601.00669v1"
+      },
+      {
+        "title": "Three factor delay learning rules for spiking neural networks",
+        "pdf": "https://arxiv.org/pdf/2601.00668v1"
+      },
+      {
+        "title": "Activity correlation and temporal variation of small-scale magnetic fields on young Sun-like stars",
+        "pdf": "https://arxiv.org/pdf/2601.00663v1"
+      },
+      {
+        "title": "Interpretability-Guided Bi-objective Optimization: Aligning Accuracy and Explainability",
+        "pdf": "https://arxiv.org/pdf/2601.00655v1"
+      },
+      {
+        "title": "Quality Detection of Stored Potatoes via Transfer Learning: A CNN and Vision Transformer Approach",
+        "pdf": "https://arxiv.org/pdf/2601.00645v1"
+      },
+      {
+        "title": "RePose: A Real-Time 3D Human Pose Estimation and Biomechanical Analysis Framework for Rehabilitation",
+        "pdf": "https://arxiv.org/pdf/2601.00625v1"
+      },
+      {
+        "title": "Personalized Forecasting of Glycemic Control in Type 1 and 2 Diabetes Using Foundational AI and Machine Learning Models",
+        "pdf": "https://arxiv.org/pdf/2601.00613v1"
+      },
+      {
+        "title": "Peak-Nadir Encoding for Efficient CGM Data Compression and High-Fidelity Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2601.00608v1"
+      },
+      {
+        "title": "Traffic-Aware Optimal Taxi Placement Using Graph Neural Network-Based Reinforcement Learning",
+        "pdf": "https://arxiv.org/pdf/2601.00607v1"
+      },
+      {
+        "title": "CSSBench: Evaluating the Safety of Lightweight LLMs against Chinese-Specific Adversarial Patterns",
+        "pdf": "https://arxiv.org/pdf/2601.00588v1"
+      },
+      {
+        "title": "Microwave vortex beam lasing via photonic time crystals",
+        "pdf": "https://arxiv.org/pdf/2601.00585v1"
+      },
+      {
+        "title": "GranAlign: Granularity-Aware Alignment Framework for Zero-Shot Video Moment Retrieval",
+        "pdf": "https://arxiv.org/pdf/2601.00584v1"
+      },
+      {
+        "title": "Learning to be Reproducible: Custom Loss Design for Robust Neural Networks",
+        "pdf": "https://arxiv.org/pdf/2601.00578v1"
+      },
+      {
+        "title": "InfoSynth: Information-Guided Benchmark Synthesis for LLMs",
+        "pdf": "https://arxiv.org/pdf/2601.00575v1"
+      },
+      {
+        "title": "ASCNet: Research on all-sky camera images classification at the Muztagh-ata site",
+        "pdf": "https://arxiv.org/pdf/2601.00563v1"
+      },
+      {
+        "title": "A Cascaded Information Interaction Network for Precise Image Segmentation",
+        "pdf": "https://arxiv.org/pdf/2601.00562v1"
+      },
+      {
+        "title": "AEGIS: Exploring the Limit of World Knowledge Capabilities for Unified Mulitmodal Models",
+        "pdf": "https://arxiv.org/pdf/2601.00561v1"
+      },
+      {
+        "title": "Cracking IoT Security: Can LLMs Outsmart Static Analysis Tools?",
+        "pdf": "https://arxiv.org/pdf/2601.00559v1"
+      },
+      {
+        "title": "A Comprehensive Dataset for Human vs. AI Generated Image Detection",
+        "pdf": "https://arxiv.org/pdf/2601.00553v1"
+      },
+      {
+        "title": "Tabletop X-ray ghost video of moving objects",
+        "pdf": "https://arxiv.org/pdf/2601.00552v1"
+      },
+      {
+        "title": "SingBAG Pro: Accelerating point cloud-based iterative reconstruction for 3D photoacoustic imaging under arbitrary array",
+        "pdf": "https://arxiv.org/pdf/2601.00551v1"
+      },
+      {
+        "title": "Carrier Drift Modulation and the Hyperbolic Time Crystals",
+        "pdf": "https://arxiv.org/pdf/2601.00547v1"
+      },
+      {
+        "title": "DynaDrag: Dynamic Drag-Style Image Editing by Motion Prediction",
+        "pdf": "https://arxiv.org/pdf/2601.00542v1"
+      },
+      {
+        "title": "Boosting Segment Anything Model to Generalize Visually Non-Salient Scenarios",
+        "pdf": "https://arxiv.org/pdf/2601.00537v1"
+      },
+      {
+        "title": "Retrieval--Reasoning Processes for Multi-hop Question Answering: A Four-Axis Design Framework and Empirical Trends",
+        "pdf": "https://arxiv.org/pdf/2601.00536v1"
+      },
+      {
+        "title": "FreeText: Training-Free Text Rendering in Diffusion Transformers via Attention Localization and Spectral Glyph Injection",
+        "pdf": "https://arxiv.org/pdf/2601.00535v1"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "Two Deep Learning Approaches for Automated Segmentation of Left Ventricle in Cine Cardiac MRI",
+        "doi": "https://doi.org/10.1145/3510427.3510429"
+      },
+      {
+        "title": "KDPhys: An Attention Guided 3D to 2D Knowledge Distillation for Real-time Video-Based Physiological Measurement",
+        "doi": "https://doi.org/10.1016/j.bspc.2025.107797"
+      },
+      {
+        "title": "ASCNet: Research on all-sky camera images classification at the Muztagh-ata site",
+        "doi": "https://doi.org/10.1088/1674-4527/ae25c7"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "temporal reasoning medical imaging ECG EEG wearables biomarkers EHR",
+    "total_steps": 8,
+    "last_updated": "2026-01-05T23:14:01.853350",
+    "started_at": "2026-01-05T23:13:18.642703",
+    "total_papers": 153
+  }
+}

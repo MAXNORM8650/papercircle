@@ -1,0 +1,48 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-15T03:16:26.404462",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLMs as judges in fine-tuning processes of other LLMs'",
+      "result_preview": "Found 23 papers",
+      "details": {
+        "query": "LLMs as judges in fine-tuning processes of other LLMs",
+        "sources": [
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 23,
+        "papers_added": 23,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 23
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-15T03:16:28.534867",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLMs as judges in fine-tuning processes of other LLMs'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "LLMs as judges in fine-tuning processes of other LLMs",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 25,
+        "papers_added": 25,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 48
+    }
+  ],
+  "current_step": 2,
+  "metadata": {
+    "query": "LLMs as judges in fine-tuning processes of other LLMs",
+    "total_steps": 2,
+    "last_updated": "2026-01-15T03:16:28.539049",
+    "started_at": "2026-01-15T03:15:50.432699",
+    "total_papers": 48
+  }
+}

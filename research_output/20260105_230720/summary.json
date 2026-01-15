@@ -1,0 +1,85 @@
+{
+  "summary": {
+    "query": "temporal reasoning in medical imaging and time-series data",
+    "total_papers": 116,
+    "unique_sources": 1,
+    "year_range": {
+      "min": 2026,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 0,
+      "average": 0
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 116,
+    "papers_with_doi": 5,
+    "processing_steps": 19
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (116) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 116
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 116 papers (100%)",
+      "data": {
+        "source": "arxiv",
+        "count": 116
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Zhaiyu Chen has 2 papers in this collection",
+      "data": {
+        "author": "Zhaiyu Chen",
+        "count": 2
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: learning, models, language, model, time",
+      "data": {
+        "keywords": {
+          "learning": 16,
+          "models": 14,
+          "language": 13,
+          "model": 9,
+          "time": 9
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "116/116 papers (100%) have direct PDF links",
+      "data": {
+        "with_pdf": 116,
+        "total": 116
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 116 papers related to 'temporal reasoning in medical imaging and time-series data'",
+    "Papers collected from 1 sources: arxiv",
+    "Publication years range from 2026 to 2026",
+    "Leading researchers: Zhaiyu Chen, Xiao Xiang Zhu, Simon Lebech Cichosz"
+  ],
+  "metadata": {
+    "query": "temporal reasoning in medical imaging and time-series data",
+    "total_steps": 19,
+    "last_updated": "2026-01-05T23:09:30.061244",
+    "started_at": "2026-01-05T23:07:22.466840",
+    "total_papers": 116
+  },
+  "is_complete": true
+}

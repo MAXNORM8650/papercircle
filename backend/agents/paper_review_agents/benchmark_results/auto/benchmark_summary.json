@@ -1,0 +1,519 @@
+{
+  "config": {
+    "data_path": "/Users/komal.kumar/Documents/websites/pc-data/benchmarks/reviewbench/iclr2024.json",
+    "conference": "iclr",
+    "model_id": "ollama_chat/qwen3-coder:30b",
+    "limit": 10,
+    "total_papers_in_file": 10
+  },
+  "statistics": {
+    "total_papers": 10,
+    "successful": 4,
+    "failed": 6,
+    "success_rate": 0.4
+  },
+  "results": [
+    {
+      "paper_id": "01Yi8rzoNs",
+      "title": "Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings",
+      "predicted_review": {
+        "_parse_error": "No valid JSON found in text",
+        "soundness": null,
+        "presentation": null,
+        "contribution": null,
+        "rating": null,
+        "confidence": null,
+        "summary": "",
+        "strengths": [],
+        "weaknesses": [],
+        "questions": []
+      },
+      "ground_truth": {
+        "rating": 4.25,
+        "soundness": 2.25,
+        "presentation": 2.5,
+        "contribution": 2.25,
+        "confidence": 4.0,
+        "wc_summary": 85.25,
+        "wc_strengths": 57.5,
+        "wc_weaknesses": 298.0,
+        "wc_questions": 46.5,
+        "wc_review": 487.25
+      },
+      "evaluation": {
+        "parsing_success": false,
+        "score_metrics": {
+          "rating": {
+            "predicted": null,
+            "ground_truth": 4.25,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "soundness": {
+            "predicted": null,
+            "ground_truth": 2.25,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "presentation": {
+            "predicted": null,
+            "ground_truth": 2.5,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "contribution": {
+            "predicted": null,
+            "ground_truth": 2.25,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "confidence": {
+            "predicted": null,
+            "ground_truth": 4.0,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          }
+        },
+        "content_metrics": {
+          "summary_wc": 0,
+          "summary_wc_target": 85.25,
+          "summary_wc_ratio": 0.0,
+          "summary_wc_diff": 85.25,
+          "strengths_wc": 0,
+          "strengths_wc_target": 57.5,
+          "strengths_wc_ratio": 0.0,
+          "strengths_wc_diff": 57.5,
+          "weaknesses_wc": 0,
+          "weaknesses_wc_target": 298.0,
+          "weaknesses_wc_ratio": 0.0,
+          "weaknesses_wc_diff": 298.0,
+          "questions_wc": 0,
+          "questions_wc_target": 46.5,
+          "questions_wc_ratio": 0.0,
+          "questions_wc_diff": 46.5,
+          "has_summary": false,
+          "has_strengths": false,
+          "has_weaknesses": false,
+          "has_questions": false,
+          "num_strengths": 0,
+          "num_weaknesses": 0,
+          "num_questions": 0,
+          "total_wc": 0,
+          "total_wc_ratio": 0.0
+        }
+      },
+      "success": true
+    },
+    {
+      "paper_id": "02Ug9N8DCI",
+      "title": "GateLoop: Fully Data-Controlled Linear Recurrence for Sequence Modeling",
+      "predicted_review": {
+        "_parse_error": "No valid JSON found in text",
+        "soundness": null,
+        "presentation": null,
+        "contribution": null,
+        "rating": null,
+        "confidence": null,
+        "summary": "",
+        "strengths": [],
+        "weaknesses": [],
+        "questions": []
+      },
+      "ground_truth": {
+        "rating": 3.5,
+        "soundness": 1.75,
+        "presentation": 2.0,
+        "contribution": 2.0,
+        "confidence": 4.25,
+        "wc_summary": 73.0,
+        "wc_strengths": 54.75,
+        "wc_weaknesses": 152.5,
+        "wc_questions": 155.75,
+        "wc_review": 436.0
+      },
+      "evaluation": {
+        "parsing_success": false,
+        "score_metrics": {
+          "rating": {
+            "predicted": null,
+            "ground_truth": 3.5,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "soundness": {
+            "predicted": null,
+            "ground_truth": 1.75,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "presentation": {
+            "predicted": null,
+            "ground_truth": 2.0,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "contribution": {
+            "predicted": null,
+            "ground_truth": 2.0,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "confidence": {
+            "predicted": null,
+            "ground_truth": 4.25,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          }
+        },
+        "content_metrics": {
+          "summary_wc": 0,
+          "summary_wc_target": 73.0,
+          "summary_wc_ratio": 0.0,
+          "summary_wc_diff": 73.0,
+          "strengths_wc": 0,
+          "strengths_wc_target": 54.75,
+          "strengths_wc_ratio": 0.0,
+          "strengths_wc_diff": 54.75,
+          "weaknesses_wc": 0,
+          "weaknesses_wc_target": 152.5,
+          "weaknesses_wc_ratio": 0.0,
+          "weaknesses_wc_diff": 152.5,
+          "questions_wc": 0,
+          "questions_wc_target": 155.75,
+          "questions_wc_ratio": 0.0,
+          "questions_wc_diff": 155.75,
+          "has_summary": false,
+          "has_strengths": false,
+          "has_weaknesses": false,
+          "has_questions": false,
+          "num_strengths": 0,
+          "num_weaknesses": 0,
+          "num_questions": 0,
+          "total_wc": 0,
+          "total_wc_ratio": 0.0
+        }
+      },
+      "success": true
+    },
+    {
+      "paper_id": "04ARmqba4z",
+      "title": "Adaptive Multi-head Contrastive Learning",
+      "predicted_review": {
+        "_parse_error": "No valid JSON found in text",
+        "soundness": null,
+        "presentation": null,
+        "contribution": null,
+        "rating": null,
+        "confidence": null,
+        "summary": "",
+        "strengths": [],
+        "weaknesses": [],
+        "questions": []
+      },
+      "ground_truth": {
+        "rating": 3.6666666666666665,
+        "soundness": 2.3333333333333335,
+        "presentation": 2.0,
+        "contribution": 2.3333333333333335,
+        "confidence": 4.0,
+        "wc_summary": 59.333333333333336,
+        "wc_strengths": 33.333333333333336,
+        "wc_weaknesses": 187.33333333333334,
+        "wc_questions": 41.666666666666664,
+        "wc_review": 321.6666666666667
+      },
+      "evaluation": {
+        "parsing_success": false,
+        "score_metrics": {
+          "rating": {
+            "predicted": null,
+            "ground_truth": 3.6666666666666665,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "soundness": {
+            "predicted": null,
+            "ground_truth": 2.3333333333333335,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "presentation": {
+            "predicted": null,
+            "ground_truth": 2.0,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "contribution": {
+            "predicted": null,
+            "ground_truth": 2.3333333333333335,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "confidence": {
+            "predicted": null,
+            "ground_truth": 4.0,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          }
+        },
+        "content_metrics": {
+          "summary_wc": 0,
+          "summary_wc_target": 59.333333333333336,
+          "summary_wc_ratio": 0.0,
+          "summary_wc_diff": 59.333333333333336,
+          "strengths_wc": 0,
+          "strengths_wc_target": 33.333333333333336,
+          "strengths_wc_ratio": 0.0,
+          "strengths_wc_diff": 33.333333333333336,
+          "weaknesses_wc": 0,
+          "weaknesses_wc_target": 187.33333333333334,
+          "weaknesses_wc_ratio": 0.0,
+          "weaknesses_wc_diff": 187.33333333333334,
+          "questions_wc": 0,
+          "questions_wc_target": 41.666666666666664,
+          "questions_wc_ratio": 0.0,
+          "questions_wc_diff": 41.666666666666664,
+          "has_summary": false,
+          "has_strengths": false,
+          "has_weaknesses": false,
+          "has_questions": false,
+          "num_strengths": 0,
+          "num_weaknesses": 0,
+          "num_questions": 0,
+          "total_wc": 0,
+          "total_wc_ratio": 0.0
+        }
+      },
+      "success": true
+    },
+    {
+      "paper_id": "05gc31KWpz",
+      "title": "DISPEL: Domain Generalization via Domain-Specific Liberating",
+      "predicted_review": {
+        "_parse_error": "No valid JSON found in text",
+        "soundness": null,
+        "presentation": null,
+        "contribution": null,
+        "rating": null,
+        "confidence": null,
+        "summary": "",
+        "strengths": [],
+        "weaknesses": [],
+        "questions": []
+      },
+      "ground_truth": {
+        "rating": 4.25,
+        "soundness": 2.5,
+        "presentation": 2.75,
+        "contribution": 2.25,
+        "confidence": 4.0,
+        "wc_summary": 91.25,
+        "wc_strengths": 53.0,
+        "wc_weaknesses": 97.75,
+        "wc_questions": 196.25,
+        "wc_review": 438.25
+      },
+      "evaluation": {
+        "parsing_success": false,
+        "score_metrics": {
+          "rating": {
+            "predicted": null,
+            "ground_truth": 4.25,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "soundness": {
+            "predicted": null,
+            "ground_truth": 2.5,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "presentation": {
+            "predicted": null,
+            "ground_truth": 2.75,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "contribution": {
+            "predicted": null,
+            "ground_truth": 2.25,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          },
+          "confidence": {
+            "predicted": null,
+            "ground_truth": 4.0,
+            "error": null,
+            "absolute_error": null,
+            "squared_error": null,
+            "within_half": false,
+            "within_one": false,
+            "within_one_half": false,
+            "missing": true
+          }
+        },
+        "content_metrics": {
+          "summary_wc": 0,
+          "summary_wc_target": 91.25,
+          "summary_wc_ratio": 0.0,
+          "summary_wc_diff": 91.25,
+          "strengths_wc": 0,
+          "strengths_wc_target": 53.0,
+          "strengths_wc_ratio": 0.0,
+          "strengths_wc_diff": 53.0,
+          "weaknesses_wc": 0,
+          "weaknesses_wc_target": 97.75,
+          "weaknesses_wc_ratio": 0.0,
+          "weaknesses_wc_diff": 97.75,
+          "questions_wc": 0,
+          "questions_wc_target": 196.25,
+          "questions_wc_ratio": 0.0,
+          "questions_wc_diff": 196.25,
+          "has_summary": false,
+          "has_strengths": false,
+          "has_weaknesses": false,
+          "has_questions": false,
+          "num_strengths": 0,
+          "num_weaknesses": 0,
+          "num_questions": 0,
+          "total_wc": 0,
+          "total_wc_ratio": 0.0
+        }
+      },
+      "success": true
+    }
+  ],
+  "errors": [
+    {
+      "paper_id": "014CgNPAGy",
+      "title": "On the Role of Momentum in the Implicit Bias of Gradient Descent for Diagonal Linear Networks",
+      "error": "Critic failed: None",
+      "success": false
+    },
+    {
+      "paper_id": "0074qaufB6",
+      "title": "InfoNet: Missing Information Retrieval in Multi-Stream Sensing Systems",
+      "error": "Critic failed: None",
+      "success": false
+    },
+    {
+      "paper_id": "02f3mUtqnM",
+      "title": "Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing",
+      "error": "Critic failed: None",
+      "success": false
+    },
+    {
+      "paper_id": "01ep65umEr",
+      "title": "TeLLMe what you see: Using LLMs to Explain Neurons in Vision Models",
+      "error": "Critic failed: None",
+      "success": false
+    },
+    {
+      "paper_id": "04UvXg4CvW",
+      "title": "EPIC: Compressing Deep GNNs via Expressive Power Gap-Induced Knowledge Distillation",
+      "error": "Critic failed: None",
+      "success": false
+    },
+    {
+      "paper_id": "030cjlZm4a",
+      "title": "Learning Predictive Checklists with Probabilistic Logic Programming",
+      "error": "Critic failed: None",
+      "success": false
+    }
+  ]
+}

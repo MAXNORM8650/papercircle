@@ -19,7 +19,7 @@ import time
 from pathlib import Path
 
 # Import our specialized agents
-from paper_review_system import (
+from paper_review_agents.paper_review_system import (
     download_pdf,
     extract_text_from_pdf,
     extract_paper_metadata,
@@ -28,7 +28,7 @@ from paper_review_system import (
     search_arxiv,
     Config,
 )
-from specialized_agents import (
+from paper_review_agents.specialized_agents import (
     create_knowledge_graph_agent,
     create_contribution_agent,
     create_reproducibility_agent,
@@ -93,17 +93,25 @@ class MultiAgentOrchestrator:
     - Result aggregation
     """
     
-    def __init__(self, config: Config = None):
+    def __init__(self, config: Config = None, conference = None):
         self.config = config or Config()
-        self.model = LiteLLMModel(
-            model_id=self.config.model_id,
-            api_base=self.config.api_base,
-            num_ctx=self.config.num_ctx
-        )
-        
+        self.conference = conference  # NEW: Store conference format for adaptive reviewing
+        # Build model kwargs - num_ctx is Ollama-specific
+        model_kwargs = {
+            "model_id": self.config.model_id,
+            "api_base": self.config.api_base,
+            "api_key": self.config.api_key,
+            "drop_params": True,  # Drop unsupported params for OpenRouter/other providers
+        }
+        # Only add num_ctx for Ollama models
+        if "ollama" in self.config.model_id.lower():
+            model_kwargs["num_ctx"] = self.config.num_ctx
+
+        self.model = LiteLLMModel(**model_kwargs)
+
         # Initialize all agents
         self._init_agents()
-        
+
         # Task registry
         self.task_results: Dict[str, TaskResult] = {}
         self.paper_context: Dict[str, Any] = {}
@@ -127,12 +135,18 @@ Analyze papers focusing on:
 Be thorough but concise. Focus on what makes this paper interesting or important."""
         )
         
-        # Critique Agent
-        self.critique_agent = ToolCallingAgent(
-            tools=[],
-            model=self.model,
-            name="paper_critic",
-            instructions="""You are a senior reviewer for top ML conferences (NeurIPS, ICML, ICLR).
+        # Critique Agent - use conference-specific if specified
+        if self.conference:
+            # Import here to avoid issues during initial load
+            from specialized_agents import create_conference_critic_agent
+            self.critique_agent = create_conference_critic_agent(self.model, self.conference)
+        else:
+            # Default generic critic (for backward compatibility)
+            self.critique_agent = ToolCallingAgent(
+                tools=[],
+                model=self.model,
+                name="paper_critic",
+                instructions="""You are a senior reviewer for top ML conferences (NeurIPS, ICML, ICLR).
 
 Provide balanced, constructive critique:
 - Identify genuine strengths (not generic praise)
@@ -141,7 +155,7 @@ Provide balanced, constructive critique:
 - Assess novelty, clarity, and significance
 
 Be fair but rigorous. Your goal is to help authors improve."""
-        )
+            )
         
         # Literature Agent (with tools)
         self.literature_agent = ToolCallingAgent(
@@ -198,6 +212,25 @@ Make complex ideas accessible without losing accuracy."""
             # Execute
             result = agent.run(full_prompt)
             
+            # Check for side-channel file output (for critic)
+            if task.role == AgentRole.CRITIC:
+                import threading
+                import os
+                filename = f"review_output_{threading.get_ident()}.json"
+                if os.path.exists(filename):
+                    try:
+                        with open(filename, 'r') as f:
+                            file_content = f.read()
+                            # Verify it's valid JSON
+                            json.loads(file_content)
+                            # If valid, prefer this over the chatty result
+                            print(f"   ✓ Picked up structured output from {filename}")
+                            result = file_content
+                        # Clean up
+                        os.remove(filename)
+                    except Exception as e:
+                        print(f"   ⚠ Failed to read output file: {e}")
+            
             duration = time.time() - start_time
             return TaskResult(
                 role=task.role,
@@ -242,19 +275,26 @@ Make complex ideas accessible without losing accuracy."""
         self,
         paper_url: str,
         parallel: bool = True,
-        agents_to_run: Optional[List[AgentRole]] = None
+        agents_to_run: Optional[List[AgentRole]] = None,
+        conference = None  # NEW: Optional conference format for this specific review
     ) -> Dict[str, Any]:
         """
         Run the complete paper review pipeline.
-        
+
         Args:
             paper_url: URL to the paper PDF
             parallel: Whether to run independent tasks in parallel
             agents_to_run: Specific agents to run (None = all)
-            
+            conference: Optional conference format (ICLR, NeurIPS, ICML) for this review
+
         Returns:
             Complete review results
         """
+        # If conference specified and different from current, reinitialize critic
+        if conference and conference != self.conference:
+            self.conference = conference
+            from specialized_agents import create_conference_critic_agent
+            self.critique_agent = create_conference_critic_agent(self.model, conference)
         results = {
             "paper_url": paper_url,
             "status": "running",
@@ -312,7 +352,7 @@ Provide:
             ),
             AgentTask(
                 role=AgentRole.CRITIC,
-                prompt="""Provide a critical review of this paper:
+                prompt="""Review this paper:
 
 Title: {title}
 Abstract: {abstract}
@@ -320,13 +360,13 @@ Abstract: {abstract}
 Full Paper:
 {paper_text}
 
-Assess:
+""" + ("Generate the review parameters and call the submit_iclr_review tool.\nThe tool returns a JSON string. OUTPUT THAT JSON STRING EXACTLY.\nDo not write a summary or 'I have submitted'. JUST THE JSON." if self.conference else """Assess:
 1. Strengths (be specific)
 2. Weaknesses (be constructive)
 3. Missing elements
 4. Questions for authors
 5. Scores (1-10): Novelty, Clarity, Significance
-6. Overall recommendation"""
+6. Overall recommendation""")
             ),
             AgentTask(
                 role=AgentRole.CONTRIBUTION_ANALYZER,
@@ -499,14 +539,19 @@ Provide:
 """
         
         lit = results.get('stages', {}).get('literature', {})
-        for paper in lit.get('semantic_scholar', [])[:5]:
-            if isinstance(paper, dict):
-                report += f"- **{paper.get('title', 'Unknown')}** ({paper.get('year', '')}) - {paper.get('citations', 0)} citations\n"
+        
+        ss_data = lit.get('semantic_scholar', [])
+        if isinstance(ss_data, list):
+            for paper in ss_data[:5]:
+                if isinstance(paper, dict):
+                    report += f"- **{paper.get('title', 'Unknown')}** ({paper.get('year', '')}) - {paper.get('citations', 0)} citations\n"
         
         report += "\n### arXiv Results\n"
-        for paper in lit.get('arxiv', [])[:5]:
-            if isinstance(paper, dict):
-                report += f"- **{paper.get('title', 'Unknown')}** ({paper.get('year', '')})\n"
+        arxiv_data = lit.get('arxiv', [])
+        if isinstance(arxiv_data, list):
+            for paper in arxiv_data[:5]:
+                if isinstance(paper, dict):
+                    report += f"- **{paper.get('title', 'Unknown')}** ({paper.get('year', '')})\n"
         
         report += f"""
 ---

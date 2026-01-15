@@ -1,0 +1,85 @@
+{
+  "summary": {
+    "query": "SigLIP-v2 architecture details",
+    "total_papers": 271,
+    "unique_sources": 5,
+    "year_range": {
+      "min": 1994,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 0,
+      "average": 0
+    },
+    "top_source": "offline_iclr",
+    "papers_with_pdf": 156,
+    "papers_with_doi": 3,
+    "processing_steps": 9
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (58) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 58
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_iclr contributes 124 papers (45%)",
+      "data": {
+        "source": "offline_iclr",
+        "count": 124
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Tao Xiang has 5 papers in this collection",
+      "data": {
+        "author": "Tao Xiang",
+        "count": 5
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: retrieval, image, architecture, multimodal, learning",
+      "data": {
+        "keywords": {
+          "retrieval": 87,
+          "image": 64,
+          "architecture": 55,
+          "multimodal": 52,
+          "learning": 39
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "156/271 papers (57%) have direct PDF links",
+      "data": {
+        "with_pdf": 156,
+        "total": 271
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 271 papers related to 'SigLIP-v2 architecture details'",
+    "Papers collected from 5 sources: offline_cvpr, offline_iclr, offline_nips, semantic_scholar, arxiv",
+    "Publication years range from 1994 to 2026",
+    "Leading researchers: Tao Xiang, Yi-Zhe Song, Aneeshan Sain"
+  ],
+  "metadata": {
+    "query": "SigLIP-v2 architecture details",
+    "total_steps": 9,
+    "last_updated": "2026-01-12T23:23:21.933460",
+    "started_at": "2026-01-12T23:21:32.610448",
+    "total_papers": 271
+  },
+  "is_complete": true
+}

@@ -1,0 +1,116 @@
+{
+  "paper_id": "02Ug9N8DCI",
+  "title": "GateLoop: Fully Data-Controlled Linear Recurrence for Sequence Modeling",
+  "predicted_review": {
+    "_parse_error": "No valid JSON found in text",
+    "soundness": null,
+    "presentation": null,
+    "contribution": null,
+    "rating": null,
+    "confidence": null,
+    "summary": "",
+    "strengths": [],
+    "weaknesses": [],
+    "questions": []
+  },
+  "ground_truth": {
+    "rating": 3.5,
+    "soundness": 1.75,
+    "presentation": 2.0,
+    "contribution": 2.0,
+    "confidence": 4.25,
+    "wc_summary": 73.0,
+    "wc_strengths": 54.75,
+    "wc_weaknesses": 152.5,
+    "wc_questions": 155.75,
+    "wc_review": 436.0
+  },
+  "evaluation": {
+    "parsing_success": false,
+    "score_metrics": {
+      "rating": {
+        "predicted": null,
+        "ground_truth": 3.5,
+        "error": null,
+        "absolute_error": null,
+        "squared_error": null,
+        "within_half": false,
+        "within_one": false,
+        "within_one_half": false,
+        "missing": true
+      },
+      "soundness": {
+        "predicted": null,
+        "ground_truth": 1.75,
+        "error": null,
+        "absolute_error": null,
+        "squared_error": null,
+        "within_half": false,
+        "within_one": false,
+        "within_one_half": false,
+        "missing": true
+      },
+      "presentation": {
+        "predicted": null,
+        "ground_truth": 2.0,
+        "error": null,
+        "absolute_error": null,
+        "squared_error": null,
+        "within_half": false,
+        "within_one": false,
+        "within_one_half": false,
+        "missing": true
+      },
+      "contribution": {
+        "predicted": null,
+        "ground_truth": 2.0,
+        "error": null,
+        "absolute_error": null,
+        "squared_error": null,
+        "within_half": false,
+        "within_one": false,
+        "within_one_half": false,
+        "missing": true
+      },
+      "confidence": {
+        "predicted": null,
+        "ground_truth": 4.25,
+        "error": null,
+        "absolute_error": null,
+        "squared_error": null,
+        "within_half": false,
+        "within_one": false,
+        "within_one_half": false,
+        "missing": true
+      }
+    },
+    "content_metrics": {
+      "summary_wc": 0,
+      "summary_wc_target": 73.0,
+      "summary_wc_ratio": 0.0,
+      "summary_wc_diff": 73.0,
+      "strengths_wc": 0,
+      "strengths_wc_target": 54.75,
+      "strengths_wc_ratio": 0.0,
+      "strengths_wc_diff": 54.75,
+      "weaknesses_wc": 0,
+      "weaknesses_wc_target": 152.5,
+      "weaknesses_wc_ratio": 0.0,
+      "weaknesses_wc_diff": 152.5,
+      "questions_wc": 0,
+      "questions_wc_target": 155.75,
+      "questions_wc_ratio": 0.0,
+      "questions_wc_diff": 155.75,
+      "has_summary": false,
+      "has_strengths": false,
+      "has_weaknesses": false,
+      "has_questions": false,
+      "num_strengths": 0,
+      "num_weaknesses": 0,
+      "num_questions": 0,
+      "total_wc": 0,
+      "total_wc_ratio": 0.0
+    }
+  },
+  "success": true
+}

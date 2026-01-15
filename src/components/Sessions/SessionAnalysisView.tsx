@@ -45,7 +45,7 @@ interface AnalysisStats {
   processing_papers: number;
 }
 
-const API_BASE = 'http://127.0.0.1:8001';
+const API_BASE = 'http://127.0.0.1:8000';
 
 export function SessionAnalysisView({ sessionId, communityId }: SessionAnalysisViewProps) {
   const [papers, setPapers] = useState<SessionPaper[]>([]);
@@ -151,7 +151,7 @@ export function SessionAnalysisView({ sessionId, communityId }: SessionAnalysisV
     setAnalyzing(true);
 
     try {
-      const response = await fetch(`${API_BASE}/analyze/session`, {
+      const response = await fetch(`${API_BASE}/analysis/session`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

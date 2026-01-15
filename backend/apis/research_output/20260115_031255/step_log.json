@@ -1,0 +1,32 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-15T03:13:47.513152",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM-as-a-Judge reinforcement learning large language models as guides'",
+      "result_preview": "Found 62 papers",
+      "details": {
+        "query": "LLM-as-a-Judge reinforcement learning large language models as guides",
+        "sources": [
+          "arxiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 62,
+        "papers_added": 62,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 62
+    }
+  ],
+  "current_step": 1,
+  "metadata": {
+    "query": "LLM-as-a-Judge reinforcement learning large language models as guides",
+    "total_steps": 1,
+    "last_updated": "2026-01-15T03:13:47.521246",
+    "started_at": "2026-01-15T03:12:57.549187",
+    "total_papers": 62
+  }
+}

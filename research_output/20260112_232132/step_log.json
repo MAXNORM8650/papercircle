@@ -1,0 +1,195 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-12T23:22:03.305260",
+      "agent": "online_search_agent",
+      "action": "Online search: 'SigLIP-v2 content embedding cosine similarity style latent retrieval image retrieval'",
+      "result_preview": "Found 28 papers",
+      "details": {
+        "query": "SigLIP-v2 content embedding cosine similarity style latent retrieval image retrieval",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 28,
+        "papers_added": 28,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 28
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-12T23:22:12.632117",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'SigLIP-v2 content embedding cosine similarity style latent retrieval image retrieval'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "SigLIP-v2 content embedding cosine similarity style latent retrieval image retrieval",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 78
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-12T23:22:18.683176",
+      "agent": "online_search_agent",
+      "action": "Online search: 'SigLIP-v2'",
+      "result_preview": "Found 2 papers",
+      "details": {
+        "query": "SigLIP-v2",
+        "sources": [
+          "arxiv",
+          "semantic_scholar"
+        ],
+        "papers_found": 2,
+        "papers_added": 2,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 80
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-12T23:22:26.208600",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'SigLIP-v2'",
+      "result_preview": "Found 0 papers from local database",
+      "details": {
+        "query": "SigLIP-v2",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 0,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 80
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-12T23:22:49.702622",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'SigLIP-v2 model architecture'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "SigLIP-v2 model architecture",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 130
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-12T23:22:57.698022",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'SigLIP-v2 image retrieval applications'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "SigLIP-v2 image retrieval applications",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 41,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 171
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-12T23:23:06.357235",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'SigLIP-v2 multimodal tasks'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "SigLIP-v2 multimodal tasks",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 221
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-12T23:23:14.205970",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'SigLIP-v2'",
+      "result_preview": "Found 0 papers from local database",
+      "details": {
+        "query": "SigLIP-v2",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 0,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 221
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-12T23:23:21.920561",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'SigLIP-v2 architecture details'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "SigLIP-v2 architecture details",
+        "conferences": [
+          "iclr",
+          "nips",
+          "cvpr"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 271
+    }
+  ],
+  "current_step": 9,
+  "metadata": {
+    "query": "SigLIP-v2 architecture details",
+    "total_steps": 9,
+    "last_updated": "2026-01-12T23:23:21.934826",
+    "started_at": "2026-01-12T23:21:32.610448",
+    "total_papers": 271
+  }
+}

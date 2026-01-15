@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
-import { ChevronDown, ChevronRight, CheckCircle, XCircle, Brain, Calendar, Users, FileText } from 'lucide-react';
+import { ChevronDown, ChevronRight, CheckCircle, XCircle, Brain, Calendar, Users, FileText, LayoutGrid } from 'lucide-react';
 import { PaperAnalysisView } from './PaperAnalysisView';
+import { DualAnalysisView } from './DualAnalysisView';
 
-const API_BASE = 'http://127.0.0.1:8001';
+const API_BASE = 'http://127.0.0.1:8000';
 
 interface Paper {
   id: string;
@@ -45,6 +46,7 @@ export function AnalysisHubView({ communityId, communityName, onClose }: Analysi
   const [expandedSessions, setExpandedSessions] = useState<Set<string>>(new Set());
   const [showPapersWithoutSession, setShowPapersWithoutSession] = useState(true);
   const [selectedPaper, setSelectedPaper] = useState<{ paperId: string; arxivId?: string } | null>(null);
+  const [useDualView, setUseDualView] = useState(true);
 
   useEffect(() => {
     loadOverview();
@@ -72,7 +74,7 @@ export function AnalysisHubView({ communityId, communityName, onClose }: Analysi
       }
     } catch (error) {
       console.warn('Error loading analysis overview:', error);
-      setError('Cannot connect to Paper Analysis API. Please make sure it is running on port 8001.');
+      setError('Cannot connect to Paper Circle API. Please make sure it is running on port 8000.');
     } finally {
       setLoading(false);
     }
@@ -111,16 +113,27 @@ export function AnalysisHubView({ communityId, communityName, onClose }: Analysi
   };
 
   if (selectedPaper) {
-    return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <PaperAnalysisView
+    if (useDualView) {
+      return (
+        <DualAnalysisView
           paperId={selectedPaper.paperId}
           communityId={communityId}
           arxivId={selectedPaper.arxivId}
           onClose={() => setSelectedPaper(null)}
         />
-      </div>
-    );
+      );
+    } else {
+      return (
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <PaperAnalysisView
+            paperId={selectedPaper.paperId}
+            communityId={communityId}
+            arxivId={selectedPaper.arxivId}
+            onClose={() => setSelectedPaper(null)}
+          />
+        </div>
+      );
+    }
   }
 
   if (loading) {
@@ -184,14 +197,43 @@ export function AnalysisHubView({ communityId, communityName, onClose }: Analysi
             </h1>
             <p className="mt-2 text-lg text-gray-600">{communityName}</p>
           </div>
-          {onClose && (
-            <button
-              onClick={onClose}
-              className="px-4 py-2 text-gray-600 hover:text-gray-900"
-            >
-              Close
-            </button>
-          )}
+          <div className="flex items-center gap-4">
+            {/* Analysis View Mode Toggle */}
+            <div className="flex gap-2 bg-gray-100 rounded-lg p-1">
+              <button
+                onClick={() => setUseDualView(true)}
+                className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                  useDualView
+                    ? 'bg-white text-purple-600 shadow'
+                    : 'text-gray-700 hover:text-gray-900'
+                }`}
+                title="Show both Mind Graph and Review Analysis side-by-side"
+              >
+                <LayoutGrid className="w-4 h-4 inline mr-1" />
+                Dual View
+              </button>
+              <button
+                onClick={() => setUseDualView(false)}
+                className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                  !useDualView
+                    ? 'bg-white text-purple-600 shadow'
+                    : 'text-gray-700 hover:text-gray-900'
+                }`}
+                title="Show Mind Graph analysis only"
+              >
+                <Brain className="w-4 h-4 inline mr-1" />
+                Mind Graph
+              </button>
+            </div>
+            {onClose && (
+              <button
+                onClick={onClose}
+                className="px-4 py-2 text-gray-600 hover:text-gray-900"
+              >
+                Close
+              </button>
+            )}
+          </div>
         </div>
 
         {/* Statistics */}

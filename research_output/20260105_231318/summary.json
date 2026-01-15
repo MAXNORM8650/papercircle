@@ -1,0 +1,85 @@
+{
+  "summary": {
+    "query": "temporal reasoning medical imaging ECG EEG wearables biomarkers EHR",
+    "total_papers": 153,
+    "unique_sources": 2,
+    "year_range": {
+      "min": 2021,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 0,
+      "average": 0
+    },
+    "top_source": "offline_acl",
+    "papers_with_pdf": 153,
+    "papers_with_doi": 3,
+    "processing_steps": 8
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (51) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 51
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "offline_acl contributes 102 papers (66%)",
+      "data": {
+        "source": "offline_acl",
+        "count": 102
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Junying Chen has 3 papers in this collection",
+      "data": {
+        "author": "Junying Chen",
+        "count": 3
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: temporal, reasoning, language, medical, knowledge",
+      "data": {
+        "keywords": {
+          "temporal": 54,
+          "reasoning": 41,
+          "language": 37,
+          "medical": 35,
+          "knowledge": 33
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "153/153 papers (100%) have direct PDF links",
+      "data": {
+        "with_pdf": 153,
+        "total": 153
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 153 papers related to 'temporal reasoning medical imaging ECG EEG wearables biomarkers EHR'",
+    "Papers collected from 2 sources: offline_acl, arxiv",
+    "Publication years range from 2021 to 2026",
+    "Leading researchers: Junying Chen, Benyou Wang, Wenting Chen"
+  ],
+  "metadata": {
+    "query": "temporal reasoning medical imaging ECG EEG wearables biomarkers EHR",
+    "total_steps": 8,
+    "last_updated": "2026-01-05T23:14:01.858477",
+    "started_at": "2026-01-05T23:13:18.642703",
+    "total_papers": 153
+  },
+  "is_complete": true
+}

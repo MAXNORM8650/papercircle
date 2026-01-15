@@ -13,6 +13,10 @@ from smolagents import (
 from typing import List, Dict, Any, Optional
 import json
 import re
+import os
+import sys
+from typing import List, Dict, Any, Optional
+
 
 
 # ============================================================================
@@ -498,13 +502,377 @@ Provide actionable feedback on what's missing."""
 
 
 # ============================================================================
+# Conference-Specific Critic Agent Tools
+# ============================================================================
+
+@tool
+def submit_iclr_review(
+    soundness: int,
+    presentation: int,
+    contribution: int,
+    rating: int,
+    confidence: int,
+    summary: str,
+    strengths: str,
+    weaknesses: str,
+    questions: str
+) -> str:
+    """
+    Submit an ICLR review with structured scores and feedback.
+
+    Args:
+        soundness: Technical correctness (1-4)
+        presentation: Clarity and writing quality (1-4)
+        contribution: Novelty and significance (1-4)
+        rating: Overall assessment (1-10)
+        confidence: Reviewer confidence (1-5)
+        summary: Brief summary of the paper (~100 words)
+        strengths: List of specific strengths (use | to separate items)
+        weaknesses: List of specific weaknesses (use | to separate items)
+        questions: List of questions for authors (use | to separate items)
+
+    Returns:
+        JSON string of the review
+    """
+    import json
+    import threading
+    import os
+
+    review = {
+        "soundness": soundness,
+        "presentation": presentation,
+        "contribution": contribution,
+        "rating": rating,
+        "confidence": confidence,
+        "summary": summary,
+        "strengths": [s.strip() for s in strengths.split("|") if s.strip()],
+        "weaknesses": [w.strip() for w in weaknesses.split("|") if w.strip()],
+        "questions": [q.strip() for q in questions.split("|") if q.strip()]
+    }
+    
+    json_output = json.dumps(review, indent=2)
+    
+    # Save to thread-unique file for orchestrator to pick up
+    try:
+        filename = f"review_output_{threading.get_ident()}.json"
+        with open(filename, 'w') as f:
+            f.write(json_output)
+    except Exception as e:
+        pass # Ignore file write errors in tool
+
+    return json_output
+
+
+@tool
+def submit_neurips_review(
+    rating: int,
+    confidence: int,
+    summary_and_contributions: str,
+    strengths: str,
+    weaknesses_and_improvements: str,
+    questions_and_suggestions: str,
+    limitations: str,
+    soundness: str,
+    presentation_quality: str,
+    contribution_significance: str,
+    ethical_concerns: str = ""
+) -> str:
+    """
+    Submit a NeurIPS review.
+
+    Args:
+        rating: Overall assessment (1-10)
+        confidence: Reviewer confidence (1-5)
+        summary_and_contributions: Combined summary and contribution assessment
+        strengths: Paragraph describing strengths
+        weaknesses_and_improvements: Paragraph on weaknesses and improvements
+        questions_and_suggestions: Questions for authors
+        limitations: Discussion of limitations
+        soundness: Technical quality (poor|fair|good|excellent)
+        presentation_quality: Clarity (poor|fair|good|excellent)
+        contribution_significance: Novelty (poor|fair|good|excellent)
+        ethical_concerns: Ethical issues if any
+
+    Returns:
+        JSON string of the review
+    """
+    import json
+
+    review = {
+        "rating": rating,
+        "confidence": confidence,
+        "summary_and_contributions": summary_and_contributions,
+        "strengths": strengths,
+        "weaknesses_and_improvements": weaknesses_and_improvements,
+        "questions_and_suggestions": questions_and_suggestions,
+        "limitations": limitations,
+        "soundness": soundness,
+        "presentation_quality": presentation_quality,
+        "contribution_significance": contribution_significance,
+        "ethical_concerns": ethical_concerns if ethical_concerns else None
+    }
+
+    return json.dumps(review, indent=2)
+
+
+@tool
+def submit_icml_review(
+    recommendation: int,
+    summary: str,
+    claims_and_evidence: str,
+    methods_and_evaluation: str,
+    theoretical_claims: str,
+    experimental_designs_or_analyses: str,
+    supplementary_material: str,
+    relation_to_broader_scientific_literature: str,
+    strengths_and_weaknesses: str,
+    essential_references_not_discussed: str,
+    questions: str
+) -> str:
+    """
+    Submit an ICML review.
+
+    Args:
+        recommendation: 1=Strong Reject, 2=Weak Reject, 3=Weak Accept, 4=Strong Accept
+        summary: High-level overview
+        claims_and_evidence: Assessment of claims and evidence
+        methods_and_evaluation: Methodology quality
+        theoretical_claims: Theoretical contributions
+        experimental_designs_or_analyses: Experimental analysis
+        supplementary_material: Supplementary materials assessment
+        relation_to_broader_scientific_literature: Context in the field
+        strengths_and_weaknesses: Combined assessment
+        essential_references_not_discussed: Missing citations
+        questions: Questions for authors
+
+    Returns:
+        JSON string of the review
+    """
+    import json
+
+    review = {
+        "recommendation": recommendation,
+        "summary": summary,
+        "claims_and_evidence": claims_and_evidence,
+        "methods_and_evaluation": methods_and_evaluation,
+        "theoretical_claims": theoretical_claims,
+        "experimental_designs_or_analyses": experimental_designs_or_analyses,
+        "supplementary_material": supplementary_material,
+        "relation_to_broader_scientific_literature": relation_to_broader_scientific_literature,
+        "strengths_and_weaknesses": strengths_and_weaknesses,
+        "essential_references_not_discussed": essential_references_not_discussed,
+        "questions": questions
+    }
+
+    return json.dumps(review, indent=2)
+
+
+# ============================================================================
+# Conference-Specific Critic Agent
+# ============================================================================
+
+def create_conference_critic_agent(model: LiteLLMModel, conference) -> ToolCallingAgent:
+    """
+    Create a critic agent tailored to a specific conference format.
+
+    This agent outputs structured JSON reviews matching the conference's
+    review format (ICLR, NeurIPS, or ICML).
+
+    Args:
+        model: LiteLLM model to use
+        conference: ConferenceFormat enum value
+
+    Returns:
+        Configured ToolCallingAgent for conference-specific reviewing
+    """
+    # Import here to avoid circular dependencies
+    from review_schemas import ConferenceFormat
+    from review_formatter import ReviewFormatter
+
+    # Get JSON schema for this conference
+    json_schema = ReviewFormatter.create_json_schema(conference)
+
+    # Conference-specific instructions and tools
+    if conference == ConferenceFormat.ICLR:
+        tools = [submit_iclr_review]
+        instructions = """You are an expert reviewer for ICLR (International Conference on Learning Representations).
+
+CRITICAL: After analyzing the paper, you MUST call the submit_iclr_review tool with your review.
+Do NOT output JSON directly - use the tool!
+
+SCORING CALIBRATION (based on real ICLR reviews):
+
+Rating (1-10 overall score):
+  1-3: Strong reject - fundamental flaws, no novelty, incorrect results
+  4-5: Reject - significant issues outweigh contributions, limited novelty
+  5-6: Borderline reject - some merit but major weaknesses
+  6-7: Borderline accept - acceptable work with notable limitations
+  7-8: Accept - solid contribution, good experiments, clear advance
+  8-9: Strong accept - excellent work with significant impact
+  9-10: Outstanding - groundbreaking contribution, award quality
+
+Soundness (1-4 technical correctness):
+  1: Incorrect - major mathematical/experimental errors, invalid conclusions
+  2: Fair - some errors, incomplete proofs, or questionable methodology
+  3: Good - mostly correct with minor issues, solid methodology
+  4: Excellent - rigorous, well-founded, thorough validation
+
+Contribution (1-4 novelty/significance):
+  1: Poor - incremental or well-known, limited novelty
+  2: Fair - modest improvement over existing work
+  3: Good - clear advance in the field, notable contribution
+  4: Excellent - major breakthrough, transformative contribution
+
+Presentation (1-4 clarity and writing quality):
+  1: Poor - hard to understand, poorly structured, many errors
+  2: Fair - understandable but needs significant improvement
+  3: Good - clear, well-written, well-organized
+  4: Excellent - exceptionally clear, exemplary presentation
+
+Confidence (1-5 reviewer expertise):
+  1: Low confidence - outside my expertise area
+  3: Medium confidence - familiar with the area
+  5: High confidence - expert in this specific topic
+
+TARGET REVIEW LENGTH (match real ICLR reviews):
+- Summary: ~100 words
+- Strengths: 2-4 specific points (~90 words total)
+- Weaknesses: 3-5 specific points (~240 words total)
+- Questions: 2-4 probing questions (~90 words total)
+- Total: ~520 words
+
+REVIEW STYLE (match real ICLR reviewers):
+- Be constructive but rigorous
+- Provide SPECIFIC technical feedback (cite equations, sections, figures)
+- Avoid generic praise ("interesting paper") - be concrete
+- Ask probing questions that reveal understanding
+- Suggest concrete improvements for weaknesses
+- Be fair and balanced
+
+EXAMPLES OF GOOD FEEDBACK:
+✓ "The attention mechanism in Eq. 3 reduces complexity to O(n log n), but the paper doesn't discuss the constant factors which could dominate for typical sequence lengths <512."
+✓ "Table 2 shows improvements over the baseline, but only includes 2-year-old methods. Recent work like [X, 2023] achieves better results."
+✓ "The theoretical analysis assumes i.i.d. data (Theorem 1), but the experiments use sequential data where this assumption is violated."
+
+✗ "This is an interesting paper with good results."
+✗ "The writing could be improved."
+✗ "Good work overall."
+
+TOOL USAGE:
+- For strengths/weaknesses/questions: Use | (pipe) to separate multiple items
+- Example: "Novel architecture | Strong empirical results | Clear presentation"
+
+Call submit_iclr_review() with all required parameters when done."""
+
+    elif conference == ConferenceFormat.NEURIPS:
+        tools = [submit_neurips_review]
+        instructions = """You are an expert reviewer for NeurIPS (Conference on Neural Information Processing Systems).
+
+CRITICAL: After analyzing the paper, you MUST call the submit_neurips_review tool with your review.
+Do NOT output JSON directly - use the tool!
+
+SCORING CALIBRATION (based on real NeurIPS reviews):
+
+Rating (1-10 overall score):
+  1-3: Strong reject
+  4-5: Reject
+  5-6: Borderline reject
+  6-7: Borderline accept
+  7-8: Accept
+  8-9: Strong accept
+  9-10: Outstanding
+
+Confidence (1-5):
+  1-2: Low confidence
+  3: Medium confidence
+  4-5: High confidence
+
+Qualitative Assessments:
+- soundness: "poor" | "fair" | "good" | "excellent"
+- presentation_quality: "poor" | "fair" | "good" | "excellent"
+- contribution_significance: "poor" | "fair" | "good" | "excellent"
+
+TARGET REVIEW LENGTH: ~404 words total
+
+REVIEW STRUCTURE:
+- summary_and_contributions: Combined overview and contribution assessment
+- strengths: What the paper does well (paragraph format)
+- weaknesses_and_improvements: Issues and how to address them
+- questions_and_suggestions: Questions for authors
+- limitations: Discussion of limitations
+- ethical_concerns: Any ethical issues (or null if none)
+
+REVIEW STYLE:
+- More emphasis on broader impact and limitations than ICLR
+- Include discussion of reproducibility
+- Consider societal implications
+- Be specific and constructive
+
+Call submit_neurips_review() with all required parameters when done."""
+
+    elif conference == ConferenceFormat.ICML:
+        tools = [submit_icml_review]
+        instructions = """You are an expert reviewer for ICML (International Conference on Machine Learning).
+
+CRITICAL: After analyzing the paper, you MUST call the submit_icml_review tool with your review.
+Do NOT output JSON directly - use the tool!
+
+SCORING CALIBRATION - ICML USES INVERTED SCALE!
+
+Recommendation (1-4, where LOWER is WORSE):
+  1: Strong Reject - Fundamental flaws, should not be published
+  2: Weak Reject - Significant issues outweigh contributions
+  3: Weak Accept - Acceptable work with some limitations
+  4: Strong Accept - High-quality work, clear contribution
+
+TARGET REVIEW LENGTH: ~528 words (most comprehensive of the three conferences)
+
+REVIEW STRUCTURE (ICML has the most detailed structure):
+- summary: High-level overview
+- claims_and_evidence: Are claims well-supported by evidence?
+- methods_and_evaluation: Quality of methodology and experiments
+- theoretical_claims: Assessment of theoretical contributions
+- experimental_designs_or_analyses: Detailed experimental analysis
+- supplementary_material: Quality of supplementary materials
+- relation_to_broader_scientific_literature: How does this fit in the field?
+- strengths_and_weaknesses: Combined assessment
+- essential_references_not_discussed: Important missing citations
+- questions: Questions for authors
+
+REVIEW STYLE:
+- ICML reviews are the most comprehensive and technical
+- Strong emphasis on rigorous evaluation
+- Detailed assessment of both theory and experiments
+- Careful analysis of claims vs. evidence
+- Thorough literature review
+
+Call submit_icml_review() with all required parameters when done."""
+
+    else:
+        tools = []
+        instructions = "Unknown conference format"
+        raise ValueError(f"Unknown conference format: {conference}")
+
+    return ToolCallingAgent(
+        tools=tools,
+        model=model,
+        name=f"{conference.value}_critic",
+        instructions=instructions
+    )
+
+
+# ============================================================================
 # Export all agents
 # ============================================================================
 
 __all__ = [
     'create_knowledge_graph_agent',
-    'create_contribution_agent', 
+    'create_contribution_agent',
     'create_reproducibility_agent',
+    'create_conference_critic_agent',  # NEW
+    'submit_iclr_review',  # NEW
+    'submit_neurips_review',  # NEW
+    'submit_icml_review',  # NEW
     'build_citation_graph',
     'identify_paper_clusters',
     'find_methodology_links',

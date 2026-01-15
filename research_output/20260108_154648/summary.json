@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "use of LLM for petrophysics",
+    "total_papers": 12,
+    "unique_sources": 1,
+    "year_range": {
+      "min": 2020,
+      "max": 2025
+    },
+    "citation_summary": {
+      "total": 101,
+      "average": 16.8
+    },
+    "top_source": "openalex",
+    "papers_with_pdf": 9,
+    "papers_with_doi": 12,
+    "processing_steps": 2
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (2) are from 2025",
+      "data": {
+        "year": 2025,
+        "count": 2
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "openalex contributes 12 papers (100%)",
+      "data": {
+        "source": "openalex",
+        "count": 12
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Anton Ermilov has 1 papers in this collection",
+      "data": {
+        "author": "Anton Ermilov",
+        "count": 1
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Petrophysical analysis of well logs data for identification and characterization of the main reservoir of Al Baraka Oil Field, Komombo Basin, Upper Egypt...\" has 42 citations",
+      "data": {
+        "title": "Petrophysical analysis of well logs data for identification and characterization of the main reservoir of Al Baraka Oil Field, Komombo Basin, Upper Egypt",
+        "citations": 42
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: data, upper, field, egypt, basin",
+      "data": {
+        "keywords": {
+          "data": 3,
+          "upper": 3,
+          "field": 3,
+          "egypt": 3,
+          "basin": 3
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "9/12 papers (75%) have direct PDF links",
+      "data": {
+        "with_pdf": 9,
+        "total": 12
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 12 papers related to 'use of LLM for petrophysics'",
+    "Papers collected from 1 sources: openalex",
+    "Publication years range from 2020 to 2025",
+    "Total citations: 101, Average: 16",
+    "Leading researchers: Anton Ermilov, Alexey Tveritnev, \u0410 \u042e \u0422\u0440\u0443\u0441\u043e\u0432\u0430"
+  ],
+  "metadata": {
+    "query": "use of LLM for petrophysics",
+    "total_steps": 2,
+    "last_updated": "2026-01-08T15:50:00.447316",
+    "started_at": "2026-01-08T15:46:50.503799",
+    "total_papers": 12
+  },
+  "is_complete": true
+}

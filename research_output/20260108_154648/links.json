@@ -1,0 +1,297 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "New Role of Technical Specialists to Enable Digital Transformation in the Petroleum Industry: A Petrophysicist-Based Proof of Concept",
+        "url": "https://openalex.org/W4415777366",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.2118/229346-ms",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Realizing the Need for Agentic AI for Subsurface Data and Workflows",
+        "url": "https://openalex.org/W4415777323",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.2118/229586-ms",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Data-driven lithofacies prediction in complex tight sandstone reservoirs: a supervised workflow integrating clustering and classification models",
+        "url": "https://openalex.org/W4394620095",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40948-024-00787-5.pdf",
+        "doi_url": "https://doi.org/10.1007/s40948-024-00787-5",
+        "source": "openalex",
+        "year": 2024
+      },
+      {
+        "title": "Ask Earth: Large Language Models with Retrieval Augmented Generation as Geological Knowledge Extractors from Unstructured Databases",
+        "url": "https://openalex.org/W4391782872",
+        "pdf_url": null,
+        "doi_url": "https://doi.org/10.3997/2214-4609.202439062",
+        "source": "openalex",
+        "year": 2024
+      },
+      {
+        "title": "The upper cretaceous carbonate sediments of the Ras Budran Field, Gulf of Suez, Egypt: stacking patterns and depositional controls",
+        "url": "https://openalex.org/W4387245483",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s13146-023-00896-4.pdf",
+        "doi_url": "https://doi.org/10.1007/s13146-023-00896-4",
+        "source": "openalex",
+        "year": 2023
+      },
+      {
+        "title": "Analyzing the characteristics of the upper mantle anisotropy beneath the northeastern North China Craton based on SKS wave splitting",
+        "url": "https://openalex.org/W4385740800",
+        "pdf_url": "https://www.researchsquare.com/article/rs-3230507/latest.pdf",
+        "doi_url": "https://doi.org/10.21203/rs.3.rs-3230507/v1",
+        "source": "openalex",
+        "year": 2023
+      },
+      {
+        "title": "Petrophysical analysis and hydrocarbon potential of the Matulla Formation in the Muzhil Field, central part of the Gulf of Suez, Egypt",
+        "url": "https://openalex.org/W4382795367",
+        "pdf_url": "http://mining.in.ua/articles/volume17_2/14.pdf",
+        "doi_url": "https://doi.org/10.33271/mining17.02.121",
+        "source": "openalex",
+        "year": 2023
+      },
+      {
+        "title": "In-Situ Leaching Mining Technique for Deep Bauxite Extraction and the Countermeasures for Water Pollution Prevention: An Example in the Ordos Basin, China",
+        "url": "https://openalex.org/W4382721375",
+        "pdf_url": "https://www.mdpi.com/2073-4441/15/13/2381/pdf?version=1687928662",
+        "doi_url": "https://doi.org/10.3390/w15132381",
+        "source": "openalex",
+        "year": 2023
+      },
+      {
+        "title": "İŞ YERİNİN VƏ PERSONALIN İDARƏ EDİLMƏSİ NƏZƏRİYYƏSİ",
+        "url": "https://openalex.org/W4309218735",
+        "pdf_url": "https://zenodo.org/record/7326678/files/22.11.2022-PAHTEI.pdf",
+        "doi_url": "https://doi.org/10.36962/pahtei22112022-67",
+        "source": "openalex",
+        "year": 2022
+      },
+      {
+        "title": "Petrophysics based Reservoir Evaluation of the Cretaceous Lower Goru “C” Sands, Middle Indus Basin, Sindh, Pakistan",
+        "url": "https://openalex.org/W4323912191",
+        "pdf_url": "https://www.econ-environ-geol.org/index.php/ojs/article/download/37/23",
+        "doi_url": "https://doi.org/10.46660/ijeeg.v13i3.37",
+        "source": "openalex",
+        "year": 2022
+      },
+      {
+        "title": "Estimation of porosity of rocks based upon axiomatic local linear model tree (a lolimot model) approach",
+        "url": "https://openalex.org/W3132208327",
+        "pdf_url": "https://www.sciencepubco.com/index.php/ijet/article/download/30836/16454",
+        "doi_url": "https://doi.org/10.14419/ijet.v9i3.30836",
+        "source": "openalex",
+        "year": 2020
+      },
+      {
+        "title": "Petrophysical analysis of well logs data for identification and characterization of the main reservoir of Al Baraka Oil Field, Komombo Basin, Upper Egypt",
+        "url": "https://openalex.org/W3037836441",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s42452-020-3100-x.pdf",
+        "doi_url": "https://doi.org/10.1007/s42452-020-3100-x",
+        "source": "openalex",
+        "year": 2020
+      }
+    ],
+    "by_source": {
+      "openalex": [
+        {
+          "title": "New Role of Technical Specialists to Enable Digital Transformation in the Petroleum Industry: A Petrophysicist-Based Proof of Concept",
+          "url": "https://openalex.org/W4415777366",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.2118/229346-ms",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Realizing the Need for Agentic AI for Subsurface Data and Workflows",
+          "url": "https://openalex.org/W4415777323",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.2118/229586-ms",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Data-driven lithofacies prediction in complex tight sandstone reservoirs: a supervised workflow integrating clustering and classification models",
+          "url": "https://openalex.org/W4394620095",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40948-024-00787-5.pdf",
+          "doi_url": "https://doi.org/10.1007/s40948-024-00787-5",
+          "source": "openalex",
+          "year": 2024
+        },
+        {
+          "title": "Ask Earth: Large Language Models with Retrieval Augmented Generation as Geological Knowledge Extractors from Unstructured Databases",
+          "url": "https://openalex.org/W4391782872",
+          "pdf_url": null,
+          "doi_url": "https://doi.org/10.3997/2214-4609.202439062",
+          "source": "openalex",
+          "year": 2024
+        },
+        {
+          "title": "The upper cretaceous carbonate sediments of the Ras Budran Field, Gulf of Suez, Egypt: stacking patterns and depositional controls",
+          "url": "https://openalex.org/W4387245483",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s13146-023-00896-4.pdf",
+          "doi_url": "https://doi.org/10.1007/s13146-023-00896-4",
+          "source": "openalex",
+          "year": 2023
+        },
+        {
+          "title": "Analyzing the characteristics of the upper mantle anisotropy beneath the northeastern North China Craton based on SKS wave splitting",
+          "url": "https://openalex.org/W4385740800",
+          "pdf_url": "https://www.researchsquare.com/article/rs-3230507/latest.pdf",
+          "doi_url": "https://doi.org/10.21203/rs.3.rs-3230507/v1",
+          "source": "openalex",
+          "year": 2023
+        },
+        {
+          "title": "Petrophysical analysis and hydrocarbon potential of the Matulla Formation in the Muzhil Field, central part of the Gulf of Suez, Egypt",
+          "url": "https://openalex.org/W4382795367",
+          "pdf_url": "http://mining.in.ua/articles/volume17_2/14.pdf",
+          "doi_url": "https://doi.org/10.33271/mining17.02.121",
+          "source": "openalex",
+          "year": 2023
+        },
+        {
+          "title": "In-Situ Leaching Mining Technique for Deep Bauxite Extraction and the Countermeasures for Water Pollution Prevention: An Example in the Ordos Basin, China",
+          "url": "https://openalex.org/W4382721375",
+          "pdf_url": "https://www.mdpi.com/2073-4441/15/13/2381/pdf?version=1687928662",
+          "doi_url": "https://doi.org/10.3390/w15132381",
+          "source": "openalex",
+          "year": 2023
+        },
+        {
+          "title": "İŞ YERİNİN VƏ PERSONALIN İDARƏ EDİLMƏSİ NƏZƏRİYYƏSİ",
+          "url": "https://openalex.org/W4309218735",
+          "pdf_url": "https://zenodo.org/record/7326678/files/22.11.2022-PAHTEI.pdf",
+          "doi_url": "https://doi.org/10.36962/pahtei22112022-67",
+          "source": "openalex",
+          "year": 2022
+        },
+        {
+          "title": "Petrophysics based Reservoir Evaluation of the Cretaceous Lower Goru “C” Sands, Middle Indus Basin, Sindh, Pakistan",
+          "url": "https://openalex.org/W4323912191",
+          "pdf_url": "https://www.econ-environ-geol.org/index.php/ojs/article/download/37/23",
+          "doi_url": "https://doi.org/10.46660/ijeeg.v13i3.37",
+          "source": "openalex",
+          "year": 2022
+        },
+        {
+          "title": "Estimation of porosity of rocks based upon axiomatic local linear model tree (a lolimot model) approach",
+          "url": "https://openalex.org/W3132208327",
+          "pdf_url": "https://www.sciencepubco.com/index.php/ijet/article/download/30836/16454",
+          "doi_url": "https://doi.org/10.14419/ijet.v9i3.30836",
+          "source": "openalex",
+          "year": 2020
+        },
+        {
+          "title": "Petrophysical analysis of well logs data for identification and characterization of the main reservoir of Al Baraka Oil Field, Komombo Basin, Upper Egypt",
+          "url": "https://openalex.org/W3037836441",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s42452-020-3100-x.pdf",
+          "doi_url": "https://doi.org/10.1007/s42452-020-3100-x",
+          "source": "openalex",
+          "year": 2020
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Data-driven lithofacies prediction in complex tight sandstone reservoirs: a supervised workflow integrating clustering and classification models",
+        "pdf": "https://link.springer.com/content/pdf/10.1007/s40948-024-00787-5.pdf"
+      },
+      {
+        "title": "The upper cretaceous carbonate sediments of the Ras Budran Field, Gulf of Suez, Egypt: stacking patterns and depositional controls",
+        "pdf": "https://link.springer.com/content/pdf/10.1007/s13146-023-00896-4.pdf"
+      },
+      {
+        "title": "Analyzing the characteristics of the upper mantle anisotropy beneath the northeastern North China Craton based on SKS wave splitting",
+        "pdf": "https://www.researchsquare.com/article/rs-3230507/latest.pdf"
+      },
+      {
+        "title": "Petrophysical analysis and hydrocarbon potential of the Matulla Formation in the Muzhil Field, central part of the Gulf of Suez, Egypt",
+        "pdf": "http://mining.in.ua/articles/volume17_2/14.pdf"
+      },
+      {
+        "title": "In-Situ Leaching Mining Technique for Deep Bauxite Extraction and the Countermeasures for Water Pollution Prevention: An Example in the Ordos Basin, China",
+        "pdf": "https://www.mdpi.com/2073-4441/15/13/2381/pdf?version=1687928662"
+      },
+      {
+        "title": "İŞ YERİNİN VƏ PERSONALIN İDARƏ EDİLMƏSİ NƏZƏRİYYƏSİ",
+        "pdf": "https://zenodo.org/record/7326678/files/22.11.2022-PAHTEI.pdf"
+      },
+      {
+        "title": "Petrophysics based Reservoir Evaluation of the Cretaceous Lower Goru “C” Sands, Middle Indus Basin, Sindh, Pakistan",
+        "pdf": "https://www.econ-environ-geol.org/index.php/ojs/article/download/37/23"
+      },
+      {
+        "title": "Estimation of porosity of rocks based upon axiomatic local linear model tree (a lolimot model) approach",
+        "pdf": "https://www.sciencepubco.com/index.php/ijet/article/download/30836/16454"
+      },
+      {
+        "title": "Petrophysical analysis of well logs data for identification and characterization of the main reservoir of Al Baraka Oil Field, Komombo Basin, Upper Egypt",
+        "pdf": "https://link.springer.com/content/pdf/10.1007/s42452-020-3100-x.pdf"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "New Role of Technical Specialists to Enable Digital Transformation in the Petroleum Industry: A Petrophysicist-Based Proof of Concept",
+        "doi": "https://doi.org/10.2118/229346-ms"
+      },
+      {
+        "title": "Realizing the Need for Agentic AI for Subsurface Data and Workflows",
+        "doi": "https://doi.org/10.2118/229586-ms"
+      },
+      {
+        "title": "Data-driven lithofacies prediction in complex tight sandstone reservoirs: a supervised workflow integrating clustering and classification models",
+        "doi": "https://doi.org/10.1007/s40948-024-00787-5"
+      },
+      {
+        "title": "Ask Earth: Large Language Models with Retrieval Augmented Generation as Geological Knowledge Extractors from Unstructured Databases",
+        "doi": "https://doi.org/10.3997/2214-4609.202439062"
+      },
+      {
+        "title": "The upper cretaceous carbonate sediments of the Ras Budran Field, Gulf of Suez, Egypt: stacking patterns and depositional controls",
+        "doi": "https://doi.org/10.1007/s13146-023-00896-4"
+      },
+      {
+        "title": "Analyzing the characteristics of the upper mantle anisotropy beneath the northeastern North China Craton based on SKS wave splitting",
+        "doi": "https://doi.org/10.21203/rs.3.rs-3230507/v1"
+      },
+      {
+        "title": "Petrophysical analysis and hydrocarbon potential of the Matulla Formation in the Muzhil Field, central part of the Gulf of Suez, Egypt",
+        "doi": "https://doi.org/10.33271/mining17.02.121"
+      },
+      {
+        "title": "In-Situ Leaching Mining Technique for Deep Bauxite Extraction and the Countermeasures for Water Pollution Prevention: An Example in the Ordos Basin, China",
+        "doi": "https://doi.org/10.3390/w15132381"
+      },
+      {
+        "title": "İŞ YERİNİN VƏ PERSONALIN İDARƏ EDİLMƏSİ NƏZƏRİYYƏSİ",
+        "doi": "https://doi.org/10.36962/pahtei22112022-67"
+      },
+      {
+        "title": "Petrophysics based Reservoir Evaluation of the Cretaceous Lower Goru “C” Sands, Middle Indus Basin, Sindh, Pakistan",
+        "doi": "https://doi.org/10.46660/ijeeg.v13i3.37"
+      },
+      {
+        "title": "Estimation of porosity of rocks based upon axiomatic local linear model tree (a lolimot model) approach",
+        "doi": "https://doi.org/10.14419/ijet.v9i3.30836"
+      },
+      {
+        "title": "Petrophysical analysis of well logs data for identification and characterization of the main reservoir of Al Baraka Oil Field, Komombo Basin, Upper Egypt",
+        "doi": "https://doi.org/10.1007/s42452-020-3100-x"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "use of LLM for petrophysics",
+    "total_steps": 2,
+    "last_updated": "2026-01-08T15:50:00.446051",
+    "started_at": "2026-01-08T15:46:50.503799",
+    "total_papers": 12
+  }
+}

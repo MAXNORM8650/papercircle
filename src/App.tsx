@@ -26,6 +26,7 @@ function AppContent() {
   const [inviteCode, setInviteCode] = useState<string | null>(null);
   const [sessionInviteCode, setSessionInviteCode] = useState<string | null>(null);
   const [researchTimestamp, setResearchTimestamp] = useState<string | null>(null);
+  const [selectedCircleId, setSelectedCircleId] = useState<string | null>(null);
 
   useEffect(() => {
     const path = window.location.pathname;
@@ -55,10 +56,17 @@ function AppContent() {
     }
   }, []);
 
-  const handleNavigate = (view: string) => {
+  const handleNavigate = (view: string, context?: { circleId?: string }) => {
     setCurrentView(view as View);
     setSelectedPaperId(null);
     setSelectedSessionId(null);
+
+    // Handle circle context for lineage view
+    if (view === 'lineage' && context?.circleId) {
+      setSelectedCircleId(context.circleId);
+    } else if (view !== 'lineage') {
+      setSelectedCircleId(null);
+    }
   };
 
   const handleSelectPaper = (paperId: string) => {
@@ -84,9 +92,9 @@ function AppContent() {
       case 'sessions':
         return <SessionsView onSelectSession={handleSelectSession} />;
       case 'circles':
-        return <CircleManagement />;
+        return <CircleManagement onNavigate={handleNavigate} />;
       case 'lineage':
-        return <LineageView />;
+        return <LineageView circleId={selectedCircleId} />;
       case 'dashboard':
         return <DashboardView onNavigate={handleNavigate} />;
       case 'admin':

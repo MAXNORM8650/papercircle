@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "LLM-as-judge RLAIF Reinforcement Learning from AI Feedback LLM evaluator self-critique self-refinement preference modeling reward modeling instruction tuning",
+    "total_papers": 213,
+    "unique_sources": 3,
+    "year_range": {
+      "min": 2023,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 41,
+      "average": 10.2
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 212,
+    "papers_with_doi": 22,
+    "processing_steps": 1
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (200) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 200
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 200 papers (93%)",
+      "data": {
+        "source": "arxiv",
+        "count": 200
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Hsiang-Wei Huang has 2 papers in this collection",
+      "data": {
+        "author": "Hsiang-Wei Huang",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Tuning Large Multimodal Models for Videos using Reinforcement Learning from AI Feedback...\" has 31 citations",
+      "data": {
+        "title": "Tuning Large Multimodal Models for Videos using Reinforcement Learning from AI Feedback",
+        "citations": 31
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: models, quantum, learning, reasoning, data",
+      "data": {
+        "keywords": {
+          "models": 17,
+          "quantum": 17,
+          "learning": 13,
+          "reasoning": 10,
+          "data": 10
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "212/213 papers (99%) have direct PDF links",
+      "data": {
+        "with_pdf": 212,
+        "total": 213
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 213 papers related to 'LLM-as-judge RLAIF Reinforcement Learning from AI Feedback LLM evaluator self-critique self-refinement preference modeling reward modeling instruction tuning'",
+    "Papers collected from 3 sources: semantic_scholar, openalex, arxiv",
+    "Publication years range from 2023 to 2026",
+    "Total citations: 41, Average: 10",
+    "Leading researchers: Hsiang-Wei Huang, Kuang-Ming Chen, Jenq-Neng Hwang"
+  ],
+  "metadata": {
+    "query": "LLM-as-judge RLAIF Reinforcement Learning from AI Feedback LLM evaluator self-critique self-refinement preference modeling reward modeling instruction tuning",
+    "total_steps": 1,
+    "last_updated": "2026-01-15T04:22:48.539461",
+    "started_at": "2026-01-15T04:21:55.896505",
+    "total_papers": 213
+  },
+  "is_complete": true
+}

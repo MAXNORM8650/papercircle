@@ -1,0 +1,2361 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "AdaGaR: Adaptive Gabor Representation for Dynamic Scene Reconstruction",
+        "url": "http://arxiv.org/abs/2601.00796v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00796v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Two Deep Learning Approaches for Automated Segmentation of Left Ventricle in Cine Cardiac MRI",
+        "url": "http://arxiv.org/abs/2601.00794v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00794v1",
+        "doi_url": "https://doi.org/10.1145/3510427.3510429",
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Geometry of Reason: Spectral Signatures of Valid Mathematical Reasoning",
+        "url": "http://arxiv.org/abs/2601.00791v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00791v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Dark Dimension Right-handed Neutrinos Confronted with Long-Baseline Oscillation Experiments",
+        "url": "http://arxiv.org/abs/2601.00790v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00790v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Adapting Natural Language Processing Models Across Jurisdictions: A pilot Study in Canadian Cancer Registries",
+        "url": "http://arxiv.org/abs/2601.00787v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00787v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "FedHypeVAE: Federated Learning with Hypernetwork Generated Conditional VAEs for Differentially Private Embedding Sharing",
+        "url": "http://arxiv.org/abs/2601.00785v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00785v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Improving Router Security using BERT",
+        "url": "http://arxiv.org/abs/2601.00783v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00783v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Investigating the Viability of Employing Multi-modal Large Language Models in the Context of Audio Deepfake Detection",
+        "url": "http://arxiv.org/abs/2601.00777v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00777v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "TWICE: Tree-based Wage Inference with Clustering and Estimation",
+        "url": "http://arxiv.org/abs/2601.00776v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00776v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Spatiotemporal Detection and Uncertainty Visualization of Atmospheric Blocking Events",
+        "url": "http://arxiv.org/abs/2601.00775v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00775v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Variable Importance in Generalized Linear Models -- A Unifying View Using Shapley Values",
+        "url": "http://arxiv.org/abs/2601.00773v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00773v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Mind the Gap. Doubling Constant Parametrization of Weighted Problems: TSP, Max-Cut, and More",
+        "url": "http://arxiv.org/abs/2601.00768v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00768v1",
+        "doi_url": "https://doi.org/10.4230/LIPIcs.STACS.2026.29",
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Dynamical Dark Energy Imprints in the Lyman-Alpha Forest",
+        "url": "http://arxiv.org/abs/2601.00767v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00767v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "The Effect of Transparency on Students' Perceptions of AI Graders",
+        "url": "http://arxiv.org/abs/2601.00765v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00765v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Unlocking the Future of X-Ray Polarimetry with IXPE: Lessons Learned and Next Steps",
+        "url": "http://arxiv.org/abs/2601.00764v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00764v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Gradient-free ensemble transform methods for generalized Bayesian inference in generative models",
+        "url": "http://arxiv.org/abs/2601.00760v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00760v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Unified Primitive Proxies for Structured Shape Completion",
+        "url": "http://arxiv.org/abs/2601.00759v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00759v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Memory Bank Compression for Continual Adaptation of Large Language Models",
+        "url": "http://arxiv.org/abs/2601.00756v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00756v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "A formal theory on problem space as a semantic world model in systems engineering",
+        "url": "http://arxiv.org/abs/2601.00755v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00755v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Early-Stage Prediction of Review Effort in AI-Generated Pull Requests",
+        "url": "http://arxiv.org/abs/2601.00753v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00753v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "A Machine Learning Framework for Off Ball Defensive Role and Performance Evaluation in Football",
+        "url": "http://arxiv.org/abs/2601.00748v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00748v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "The Reasoning-Creativity Trade-off: Toward Creativity-Driven Problem Solving",
+        "url": "http://arxiv.org/abs/2601.00747v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00747v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Strong anchoring boundary conditions in nematic liquid crystals: Higher-order corrections to the Oseen-Frank limit and a revised small-domain theory",
+        "url": "http://arxiv.org/abs/2601.00744v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00744v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "An Agentic Framework for Neuro-Symbolic Programming",
+        "url": "http://arxiv.org/abs/2601.00743v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00743v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Continuous time asymptotic representations for adaptive experiments",
+        "url": "http://arxiv.org/abs/2601.00739v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00739v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Second Thoughts: How 1-second subslots transform CEX-DEX Arbitrage on Ethereum",
+        "url": "http://arxiv.org/abs/2601.00738v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00738v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Stochastic Actor-Critic: Mitigating Overestimation via Temporal Aleatoric Uncertainty",
+        "url": "http://arxiv.org/abs/2601.00737v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00737v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Geometric Complexity of Quantum Channels via Unitary Dilations",
+        "url": "http://arxiv.org/abs/2601.00735v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00735v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Grading Handwritten Engineering Exams with Multimodal Large Language Models",
+        "url": "http://arxiv.org/abs/2601.00730v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00730v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "A Unified Trace-Optimization Framework for Multidimensionality Reduction",
+        "url": "http://arxiv.org/abs/2601.00729v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00729v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Precision Autotuning for Linear Solvers via Contextual Bandit-Based RL",
+        "url": "http://arxiv.org/abs/2601.00728v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00728v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Qubits and Vacuum Amplitudes",
+        "url": "http://arxiv.org/abs/2601.00722v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00722v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Detecting Performance Degradation under Data Shift in Pathology Vision-Language Model",
+        "url": "http://arxiv.org/abs/2601.00716v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00716v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "PDPL Metric: Validating a Scale to Measure Personal Data Privacy Literacy Among University Students",
+        "url": "http://arxiv.org/abs/2601.00715v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00715v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "KDPhys: An Attention Guided 3D to 2D Knowledge Distillation for Real-time Video-Based Physiological Measurement",
+        "url": "http://arxiv.org/abs/2601.00714v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00714v1",
+        "doi_url": "https://doi.org/10.1016/j.bspc.2025.107797",
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Carbon mineralization in CO2-seawater-basalt systems: Reactive transport dynamics and vesicular pore architecture controls",
+        "url": "http://arxiv.org/abs/2601.00710v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00710v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Efficient Deep Demosaicing with Spatially Downsampled Isotropic Networks",
+        "url": "http://arxiv.org/abs/2601.00703v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00703v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Pseudo-Hermitian Magnon Dynamics",
+        "url": "http://arxiv.org/abs/2601.00701v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00701v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "BSAT: B-Spline Adaptive Tokenizer for Long-Term Time Series Forecasting",
+        "url": "http://arxiv.org/abs/2601.00698v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00698v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Bayesian Inverse Games with High-Dimensional Multi-Modal Observations",
+        "url": "http://arxiv.org/abs/2601.00696v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00696v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "DeXOR: Enabling XOR in Decimal Space for Streaming Lossless Compression of Floating-point Data",
+        "url": "http://arxiv.org/abs/2601.00695v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00695v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "A Vision-and-Knowledge Enhanced Large Language Model for Generalizable Pedestrian Crossing Behavior Inference",
+        "url": "http://arxiv.org/abs/2601.00694v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00694v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Human-like AI-based Auto-Field-in-Field Whole-Brain Radiotherapy Treatment Planning With Conversation Large Language Model Feedback",
+        "url": "http://arxiv.org/abs/2601.00685v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00685v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Sigmoid Head for Quality Estimation under Language Ambiguity",
+        "url": "http://arxiv.org/abs/2601.00680v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00680v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Pixel-to-4D: Camera-Controlled Image-to-Video Generation with Dynamic 3D Gaussians",
+        "url": "http://arxiv.org/abs/2601.00678v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00678v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "IRPO: Scaling the Bradley-Terry Model via Reinforcement Learning",
+        "url": "http://arxiv.org/abs/2601.00677v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00677v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "RoboReward: General-Purpose Vision-Language Reward Models for Robotics",
+        "url": "http://arxiv.org/abs/2601.00675v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00675v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Sparse FEONet: A Low-Cost, Memory-Efficient Operator Network via Finite-Element Local Sparsity for Parametric PDEs",
+        "url": "http://arxiv.org/abs/2601.00672v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00672v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Wave2Word: A Multimodal Transformer Framework for Joint EEG-Text Alignment and Multi-Task Representation Learning in Neurocritical Care",
+        "url": "http://arxiv.org/abs/2601.00670v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00670v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Physics-Guided Dual-Domain Plug-and-Play ADMM for Low-Dose CT Reconstruction",
+        "url": "http://arxiv.org/abs/2601.00669v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00669v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Three factor delay learning rules for spiking neural networks",
+        "url": "http://arxiv.org/abs/2601.00668v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00668v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Avatar Forcing: Real-Time Interactive Head Avatar Generation for Natural Conversation",
+        "url": "http://arxiv.org/abs/2601.00664v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00664v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Activity correlation and temporal variation of small-scale magnetic fields on young Sun-like stars",
+        "url": "http://arxiv.org/abs/2601.00663v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00663v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Scheduling for TWDM-EPON-Based Fronthaul Without a Dedicated Registration Wavelength",
+        "url": "http://arxiv.org/abs/2601.00661v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00661v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Reconstructing Building Height from Spaceborne TomoSAR Point Clouds Using a Dual-Topology Network",
+        "url": "http://arxiv.org/abs/2601.00658v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00658v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Two body nonleptonic decays of $Ω_{b}\\rightarrow Ω_{c}$ beyond tree level",
+        "url": "http://arxiv.org/abs/2601.00657v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00657v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Interpretability-Guided Bi-objective Optimization: Aligning Accuracy and Explainability",
+        "url": "http://arxiv.org/abs/2601.00655v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00655v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Global regularity estimates for $p(x)$-Laplacian variational inequalities with singular or degenerate matrix-valued weights",
+        "url": "http://arxiv.org/abs/2601.00652v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00652v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Experimental exclusion of a generalized Károlyházy gravity-induced decoherence model",
+        "url": "http://arxiv.org/abs/2601.00651v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00651v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Dissecting the Hubble tension: Insights from a diverse set of Sound Horizon-free H0 measurements",
+        "url": "http://arxiv.org/abs/2601.00650v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00650v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Lipschitz Stability for an Inverse Problem of Biharmonic Wave Equations with Damping",
+        "url": "http://arxiv.org/abs/2601.00648v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00648v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Quality Detection of Stored Potatoes via Transfer Learning: A CNN and Vision Transformer Approach",
+        "url": "http://arxiv.org/abs/2601.00645v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00645v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Evidence for a Nonzero Eccentricity Superpuff Exoplanet WASP-107 b Using JWST Occultation Observation",
+        "url": "http://arxiv.org/abs/2601.00640v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00640v1",
+        "doi_url": "https://doi.org/10.3847/2041-8213/ae2ac8",
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Turbulence is ineffective in causing raindrop growth in polluted clouds",
+        "url": "http://arxiv.org/abs/2601.00637v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00637v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "SEMODS: A Validated Dataset of Open-Source Software Engineering Models",
+        "url": "http://arxiv.org/abs/2601.00635v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00635v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "KELP: Robust Online Log Parsing Through Evolutionary Grouping Trees",
+        "url": "http://arxiv.org/abs/2601.00633v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00633v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Towards Understanding and Characterizing Vulnerabilities in Intelligent Connected Vehicles through Real-World Exploits",
+        "url": "http://arxiv.org/abs/2601.00627v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00627v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "HyperPriv-EPN: Hypergraph Learning with Privileged Knowledge for Ependymoma Prognosis",
+        "url": "http://arxiv.org/abs/2601.00626v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00626v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "RePose: A Real-Time 3D Human Pose Estimation and Biomechanical Analysis Framework for Rehabilitation",
+        "url": "http://arxiv.org/abs/2601.00625v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00625v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "DA-DPO: Cost-efficient Difficulty-aware Preference Optimization for Reducing MLLM Hallucinations",
+        "url": "http://arxiv.org/abs/2601.00623v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00623v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "From 2D to 3D terrain-following area coverage path planning",
+        "url": "http://arxiv.org/abs/2601.00614v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00614v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Personalized Forecasting of Glycemic Control in Type 1 and 2 Diabetes Using Foundational AI and Machine Learning Models",
+        "url": "http://arxiv.org/abs/2601.00613v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00613v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Peak-Nadir Encoding for Efficient CGM Data Compression and High-Fidelity Reconstruction",
+        "url": "http://arxiv.org/abs/2601.00608v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00608v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Traffic-Aware Optimal Taxi Placement Using Graph Neural Network-Based Reinforcement Learning",
+        "url": "http://arxiv.org/abs/2601.00607v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00607v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Cycling Race Time Prediction: A Personalized Machine Learning Approach Using Route Topology and Training Load",
+        "url": "http://arxiv.org/abs/2601.00604v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00604v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Difference-in-Differences using Double Negative Controls and Graph Neural Networks for Unmeasured Network Confounding",
+        "url": "http://arxiv.org/abs/2601.00603v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00603v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "CSSBench: Evaluating the Safety of Lightweight LLMs against Chinese-Specific Adversarial Patterns",
+        "url": "http://arxiv.org/abs/2601.00588v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00588v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Microwave vortex beam lasing via photonic time crystals",
+        "url": "http://arxiv.org/abs/2601.00585v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00585v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "GranAlign: Granularity-Aware Alignment Framework for Zero-Shot Video Moment Retrieval",
+        "url": "http://arxiv.org/abs/2601.00584v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00584v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "HFedMoE: Resource-aware Heterogeneous Federated Learning with Mixture-of-Experts",
+        "url": "http://arxiv.org/abs/2601.00583v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00583v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "The AI Invisibility Effect: Understanding Human-AI Interaction When Users Don't Recognize Artificial Intelligence",
+        "url": "http://arxiv.org/abs/2601.00579v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00579v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Learning to be Reproducible: Custom Loss Design for Robust Neural Networks",
+        "url": "http://arxiv.org/abs/2601.00578v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00578v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Adversarial Samples Are Not Created Equal",
+        "url": "http://arxiv.org/abs/2601.00577v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00577v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "InfoSynth: Information-Guided Benchmark Synthesis for LLMs",
+        "url": "http://arxiv.org/abs/2601.00575v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00575v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Benchmarking ERP Analysis: Manual Features, Deep Learning, and Foundation Models",
+        "url": "http://arxiv.org/abs/2601.00573v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00573v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Toward a Dynamic Intellectual Property Protection Model in High-Growth SMEs",
+        "url": "http://arxiv.org/abs/2601.00572v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00572v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Capital allocation and tail central moments for the multivariate normal mean-variance mixture distribution",
+        "url": "http://arxiv.org/abs/2601.00568v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00568v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Low Rank Comes with Low Security: Gradient Assembly Poisoning Attacks against Distributed LoRA-based LLM Systems",
+        "url": "http://arxiv.org/abs/2601.00566v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00566v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "ASCNet: Research on all-sky camera images classification at the Muztagh-ata site",
+        "url": "http://arxiv.org/abs/2601.00563v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00563v1",
+        "doi_url": "https://doi.org/10.1088/1674-4527/ae25c7",
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "A Cascaded Information Interaction Network for Precise Image Segmentation",
+        "url": "http://arxiv.org/abs/2601.00562v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00562v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "AEGIS: Exploring the Limit of World Knowledge Capabilities for Unified Mulitmodal Models",
+        "url": "http://arxiv.org/abs/2601.00561v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00561v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Cracking IoT Security: Can LLMs Outsmart Static Analysis Tools?",
+        "url": "http://arxiv.org/abs/2601.00559v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00559v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Entropy Production in Machine Learning Under Fokker-Planck Probability Flow",
+        "url": "http://arxiv.org/abs/2601.00554v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00554v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "A Comprehensive Dataset for Human vs. AI Generated Image Detection",
+        "url": "http://arxiv.org/abs/2601.00553v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00553v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Tabletop X-ray ghost video of moving objects",
+        "url": "http://arxiv.org/abs/2601.00552v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00552v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "SingBAG Pro: Accelerating point cloud-based iterative reconstruction for 3D photoacoustic imaging under arbitrary array",
+        "url": "http://arxiv.org/abs/2601.00551v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00551v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Carrier Drift Modulation and the Hyperbolic Time Crystals",
+        "url": "http://arxiv.org/abs/2601.00547v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00547v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "ECR: Manifold-Guided Semantic Cues for Compact Language Models",
+        "url": "http://arxiv.org/abs/2601.00543v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00543v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "DynaDrag: Dynamic Drag-Style Image Editing by Motion Prediction",
+        "url": "http://arxiv.org/abs/2601.00542v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00542v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Boosting Segment Anything Model to Generalize Visually Non-Salient Scenarios",
+        "url": "http://arxiv.org/abs/2601.00537v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00537v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Retrieval--Reasoning Processes for Multi-hop Question Answering: A Four-Axis Design Framework and Empirical Trends",
+        "url": "http://arxiv.org/abs/2601.00536v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00536v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "FreeText: Training-Free Text Rendering in Diffusion Transformers via Attention Localization and Spectral Glyph Injection",
+        "url": "http://arxiv.org/abs/2601.00535v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00535v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "All-in-One Video Restoration under Smoothly Evolving Unknown Weather Degradations",
+        "url": "http://arxiv.org/abs/2601.00533v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00533v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "A Sparse-Attention Deep Learning Model Integrating Heterogeneous Multimodal Features for Parkinson's Disease Severity Profiling",
+        "url": "http://arxiv.org/abs/2601.00519v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00519v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "The Illusion of Insight in Reasoning Models",
+        "url": "http://arxiv.org/abs/2601.00514v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00514v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents",
+        "url": "http://arxiv.org/abs/2601.00513v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00513v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Rule-Based Approaches to Atomic Sentence Extraction",
+        "url": "http://arxiv.org/abs/2601.00506v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00506v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "CPPO: Contrastive Perception for Vision Language Policy Optimization",
+        "url": "http://arxiv.org/abs/2601.00501v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00501v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Fisher-Information-Driven Adaptive Acquisition for Photon-Efficient FLIM: A Dual-Implementation Framework for TCSPC and Programmable Time-Gating",
+        "url": "http://arxiv.org/abs/2601.00490v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00490v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Multi-Agent Coordinated Rename Refactoring",
+        "url": "http://arxiv.org/abs/2601.00482v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00482v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "MAESTRO: Multi-Agent Evaluation Suite for Testing, Reliability, and Observability",
+        "url": "http://arxiv.org/abs/2601.00481v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00481v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Imitation from Observations with Trajectory-Level Generative Embeddings",
+        "url": "http://arxiv.org/abs/2601.00452v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00452v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Language as Mathematical Structure: Examining Semantic Field Theory Against Language Games",
+        "url": "http://arxiv.org/abs/2601.00448v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00448v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Modelling cultural evolution",
+        "url": "http://arxiv.org/abs/2601.00433v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00433v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Toward Better Temporal Structures for Geopolitical Events Forecasting",
+        "url": "http://arxiv.org/abs/2601.00430v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00430v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Can Semantic Methods Enhance Team Sports Tactics? A Methodology for Football with Broader Applications",
+        "url": "http://arxiv.org/abs/2601.00421v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.00421v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      }
+    ],
+    "by_source": {
+      "arxiv": [
+        {
+          "title": "AdaGaR: Adaptive Gabor Representation for Dynamic Scene Reconstruction",
+          "url": "http://arxiv.org/abs/2601.00796v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00796v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Two Deep Learning Approaches for Automated Segmentation of Left Ventricle in Cine Cardiac MRI",
+          "url": "http://arxiv.org/abs/2601.00794v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00794v1",
+          "doi_url": "https://doi.org/10.1145/3510427.3510429",
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Geometry of Reason: Spectral Signatures of Valid Mathematical Reasoning",
+          "url": "http://arxiv.org/abs/2601.00791v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00791v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Dark Dimension Right-handed Neutrinos Confronted with Long-Baseline Oscillation Experiments",
+          "url": "http://arxiv.org/abs/2601.00790v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00790v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Adapting Natural Language Processing Models Across Jurisdictions: A pilot Study in Canadian Cancer Registries",
+          "url": "http://arxiv.org/abs/2601.00787v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00787v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "FedHypeVAE: Federated Learning with Hypernetwork Generated Conditional VAEs for Differentially Private Embedding Sharing",
+          "url": "http://arxiv.org/abs/2601.00785v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00785v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Improving Router Security using BERT",
+          "url": "http://arxiv.org/abs/2601.00783v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00783v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Investigating the Viability of Employing Multi-modal Large Language Models in the Context of Audio Deepfake Detection",
+          "url": "http://arxiv.org/abs/2601.00777v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00777v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "TWICE: Tree-based Wage Inference with Clustering and Estimation",
+          "url": "http://arxiv.org/abs/2601.00776v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00776v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Spatiotemporal Detection and Uncertainty Visualization of Atmospheric Blocking Events",
+          "url": "http://arxiv.org/abs/2601.00775v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00775v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Variable Importance in Generalized Linear Models -- A Unifying View Using Shapley Values",
+          "url": "http://arxiv.org/abs/2601.00773v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00773v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Mind the Gap. Doubling Constant Parametrization of Weighted Problems: TSP, Max-Cut, and More",
+          "url": "http://arxiv.org/abs/2601.00768v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00768v1",
+          "doi_url": "https://doi.org/10.4230/LIPIcs.STACS.2026.29",
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Dynamical Dark Energy Imprints in the Lyman-Alpha Forest",
+          "url": "http://arxiv.org/abs/2601.00767v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00767v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "The Effect of Transparency on Students' Perceptions of AI Graders",
+          "url": "http://arxiv.org/abs/2601.00765v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00765v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Unlocking the Future of X-Ray Polarimetry with IXPE: Lessons Learned and Next Steps",
+          "url": "http://arxiv.org/abs/2601.00764v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00764v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Gradient-free ensemble transform methods for generalized Bayesian inference in generative models",
+          "url": "http://arxiv.org/abs/2601.00760v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00760v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Unified Primitive Proxies for Structured Shape Completion",
+          "url": "http://arxiv.org/abs/2601.00759v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00759v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Memory Bank Compression for Continual Adaptation of Large Language Models",
+          "url": "http://arxiv.org/abs/2601.00756v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00756v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "A formal theory on problem space as a semantic world model in systems engineering",
+          "url": "http://arxiv.org/abs/2601.00755v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00755v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Early-Stage Prediction of Review Effort in AI-Generated Pull Requests",
+          "url": "http://arxiv.org/abs/2601.00753v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00753v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "A Machine Learning Framework for Off Ball Defensive Role and Performance Evaluation in Football",
+          "url": "http://arxiv.org/abs/2601.00748v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00748v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "The Reasoning-Creativity Trade-off: Toward Creativity-Driven Problem Solving",
+          "url": "http://arxiv.org/abs/2601.00747v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00747v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Strong anchoring boundary conditions in nematic liquid crystals: Higher-order corrections to the Oseen-Frank limit and a revised small-domain theory",
+          "url": "http://arxiv.org/abs/2601.00744v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00744v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "An Agentic Framework for Neuro-Symbolic Programming",
+          "url": "http://arxiv.org/abs/2601.00743v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00743v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Continuous time asymptotic representations for adaptive experiments",
+          "url": "http://arxiv.org/abs/2601.00739v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00739v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Second Thoughts: How 1-second subslots transform CEX-DEX Arbitrage on Ethereum",
+          "url": "http://arxiv.org/abs/2601.00738v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00738v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Stochastic Actor-Critic: Mitigating Overestimation via Temporal Aleatoric Uncertainty",
+          "url": "http://arxiv.org/abs/2601.00737v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00737v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Geometric Complexity of Quantum Channels via Unitary Dilations",
+          "url": "http://arxiv.org/abs/2601.00735v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00735v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Grading Handwritten Engineering Exams with Multimodal Large Language Models",
+          "url": "http://arxiv.org/abs/2601.00730v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00730v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "A Unified Trace-Optimization Framework for Multidimensionality Reduction",
+          "url": "http://arxiv.org/abs/2601.00729v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00729v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Precision Autotuning for Linear Solvers via Contextual Bandit-Based RL",
+          "url": "http://arxiv.org/abs/2601.00728v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00728v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Qubits and Vacuum Amplitudes",
+          "url": "http://arxiv.org/abs/2601.00722v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00722v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Detecting Performance Degradation under Data Shift in Pathology Vision-Language Model",
+          "url": "http://arxiv.org/abs/2601.00716v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00716v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "PDPL Metric: Validating a Scale to Measure Personal Data Privacy Literacy Among University Students",
+          "url": "http://arxiv.org/abs/2601.00715v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00715v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "KDPhys: An Attention Guided 3D to 2D Knowledge Distillation for Real-time Video-Based Physiological Measurement",
+          "url": "http://arxiv.org/abs/2601.00714v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00714v1",
+          "doi_url": "https://doi.org/10.1016/j.bspc.2025.107797",
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Carbon mineralization in CO2-seawater-basalt systems: Reactive transport dynamics and vesicular pore architecture controls",
+          "url": "http://arxiv.org/abs/2601.00710v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00710v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Efficient Deep Demosaicing with Spatially Downsampled Isotropic Networks",
+          "url": "http://arxiv.org/abs/2601.00703v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00703v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Pseudo-Hermitian Magnon Dynamics",
+          "url": "http://arxiv.org/abs/2601.00701v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00701v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "BSAT: B-Spline Adaptive Tokenizer for Long-Term Time Series Forecasting",
+          "url": "http://arxiv.org/abs/2601.00698v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00698v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Bayesian Inverse Games with High-Dimensional Multi-Modal Observations",
+          "url": "http://arxiv.org/abs/2601.00696v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00696v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "DeXOR: Enabling XOR in Decimal Space for Streaming Lossless Compression of Floating-point Data",
+          "url": "http://arxiv.org/abs/2601.00695v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00695v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "A Vision-and-Knowledge Enhanced Large Language Model for Generalizable Pedestrian Crossing Behavior Inference",
+          "url": "http://arxiv.org/abs/2601.00694v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00694v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Human-like AI-based Auto-Field-in-Field Whole-Brain Radiotherapy Treatment Planning With Conversation Large Language Model Feedback",
+          "url": "http://arxiv.org/abs/2601.00685v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00685v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Sigmoid Head for Quality Estimation under Language Ambiguity",
+          "url": "http://arxiv.org/abs/2601.00680v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00680v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Pixel-to-4D: Camera-Controlled Image-to-Video Generation with Dynamic 3D Gaussians",
+          "url": "http://arxiv.org/abs/2601.00678v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00678v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "IRPO: Scaling the Bradley-Terry Model via Reinforcement Learning",
+          "url": "http://arxiv.org/abs/2601.00677v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00677v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "RoboReward: General-Purpose Vision-Language Reward Models for Robotics",
+          "url": "http://arxiv.org/abs/2601.00675v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00675v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Sparse FEONet: A Low-Cost, Memory-Efficient Operator Network via Finite-Element Local Sparsity for Parametric PDEs",
+          "url": "http://arxiv.org/abs/2601.00672v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00672v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Wave2Word: A Multimodal Transformer Framework for Joint EEG-Text Alignment and Multi-Task Representation Learning in Neurocritical Care",
+          "url": "http://arxiv.org/abs/2601.00670v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00670v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Physics-Guided Dual-Domain Plug-and-Play ADMM for Low-Dose CT Reconstruction",
+          "url": "http://arxiv.org/abs/2601.00669v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00669v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Three factor delay learning rules for spiking neural networks",
+          "url": "http://arxiv.org/abs/2601.00668v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00668v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Avatar Forcing: Real-Time Interactive Head Avatar Generation for Natural Conversation",
+          "url": "http://arxiv.org/abs/2601.00664v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00664v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Activity correlation and temporal variation of small-scale magnetic fields on young Sun-like stars",
+          "url": "http://arxiv.org/abs/2601.00663v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00663v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Scheduling for TWDM-EPON-Based Fronthaul Without a Dedicated Registration Wavelength",
+          "url": "http://arxiv.org/abs/2601.00661v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00661v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Reconstructing Building Height from Spaceborne TomoSAR Point Clouds Using a Dual-Topology Network",
+          "url": "http://arxiv.org/abs/2601.00658v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00658v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Two body nonleptonic decays of $Ω_{b}\\rightarrow Ω_{c}$ beyond tree level",
+          "url": "http://arxiv.org/abs/2601.00657v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00657v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Interpretability-Guided Bi-objective Optimization: Aligning Accuracy and Explainability",
+          "url": "http://arxiv.org/abs/2601.00655v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00655v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Global regularity estimates for $p(x)$-Laplacian variational inequalities with singular or degenerate matrix-valued weights",
+          "url": "http://arxiv.org/abs/2601.00652v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00652v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Experimental exclusion of a generalized Károlyházy gravity-induced decoherence model",
+          "url": "http://arxiv.org/abs/2601.00651v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00651v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Dissecting the Hubble tension: Insights from a diverse set of Sound Horizon-free H0 measurements",
+          "url": "http://arxiv.org/abs/2601.00650v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00650v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Lipschitz Stability for an Inverse Problem of Biharmonic Wave Equations with Damping",
+          "url": "http://arxiv.org/abs/2601.00648v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00648v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Quality Detection of Stored Potatoes via Transfer Learning: A CNN and Vision Transformer Approach",
+          "url": "http://arxiv.org/abs/2601.00645v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00645v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Evidence for a Nonzero Eccentricity Superpuff Exoplanet WASP-107 b Using JWST Occultation Observation",
+          "url": "http://arxiv.org/abs/2601.00640v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00640v1",
+          "doi_url": "https://doi.org/10.3847/2041-8213/ae2ac8",
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Turbulence is ineffective in causing raindrop growth in polluted clouds",
+          "url": "http://arxiv.org/abs/2601.00637v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00637v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "SEMODS: A Validated Dataset of Open-Source Software Engineering Models",
+          "url": "http://arxiv.org/abs/2601.00635v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00635v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "KELP: Robust Online Log Parsing Through Evolutionary Grouping Trees",
+          "url": "http://arxiv.org/abs/2601.00633v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00633v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Towards Understanding and Characterizing Vulnerabilities in Intelligent Connected Vehicles through Real-World Exploits",
+          "url": "http://arxiv.org/abs/2601.00627v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00627v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "HyperPriv-EPN: Hypergraph Learning with Privileged Knowledge for Ependymoma Prognosis",
+          "url": "http://arxiv.org/abs/2601.00626v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00626v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "RePose: A Real-Time 3D Human Pose Estimation and Biomechanical Analysis Framework for Rehabilitation",
+          "url": "http://arxiv.org/abs/2601.00625v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00625v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "DA-DPO: Cost-efficient Difficulty-aware Preference Optimization for Reducing MLLM Hallucinations",
+          "url": "http://arxiv.org/abs/2601.00623v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00623v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "From 2D to 3D terrain-following area coverage path planning",
+          "url": "http://arxiv.org/abs/2601.00614v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00614v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Personalized Forecasting of Glycemic Control in Type 1 and 2 Diabetes Using Foundational AI and Machine Learning Models",
+          "url": "http://arxiv.org/abs/2601.00613v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00613v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Peak-Nadir Encoding for Efficient CGM Data Compression and High-Fidelity Reconstruction",
+          "url": "http://arxiv.org/abs/2601.00608v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00608v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Traffic-Aware Optimal Taxi Placement Using Graph Neural Network-Based Reinforcement Learning",
+          "url": "http://arxiv.org/abs/2601.00607v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00607v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Cycling Race Time Prediction: A Personalized Machine Learning Approach Using Route Topology and Training Load",
+          "url": "http://arxiv.org/abs/2601.00604v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00604v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Difference-in-Differences using Double Negative Controls and Graph Neural Networks for Unmeasured Network Confounding",
+          "url": "http://arxiv.org/abs/2601.00603v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00603v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "CSSBench: Evaluating the Safety of Lightweight LLMs against Chinese-Specific Adversarial Patterns",
+          "url": "http://arxiv.org/abs/2601.00588v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00588v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Microwave vortex beam lasing via photonic time crystals",
+          "url": "http://arxiv.org/abs/2601.00585v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00585v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "GranAlign: Granularity-Aware Alignment Framework for Zero-Shot Video Moment Retrieval",
+          "url": "http://arxiv.org/abs/2601.00584v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00584v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "HFedMoE: Resource-aware Heterogeneous Federated Learning with Mixture-of-Experts",
+          "url": "http://arxiv.org/abs/2601.00583v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00583v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "The AI Invisibility Effect: Understanding Human-AI Interaction When Users Don't Recognize Artificial Intelligence",
+          "url": "http://arxiv.org/abs/2601.00579v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00579v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Learning to be Reproducible: Custom Loss Design for Robust Neural Networks",
+          "url": "http://arxiv.org/abs/2601.00578v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00578v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Adversarial Samples Are Not Created Equal",
+          "url": "http://arxiv.org/abs/2601.00577v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00577v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "InfoSynth: Information-Guided Benchmark Synthesis for LLMs",
+          "url": "http://arxiv.org/abs/2601.00575v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00575v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Benchmarking ERP Analysis: Manual Features, Deep Learning, and Foundation Models",
+          "url": "http://arxiv.org/abs/2601.00573v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00573v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Toward a Dynamic Intellectual Property Protection Model in High-Growth SMEs",
+          "url": "http://arxiv.org/abs/2601.00572v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00572v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Capital allocation and tail central moments for the multivariate normal mean-variance mixture distribution",
+          "url": "http://arxiv.org/abs/2601.00568v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00568v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Low Rank Comes with Low Security: Gradient Assembly Poisoning Attacks against Distributed LoRA-based LLM Systems",
+          "url": "http://arxiv.org/abs/2601.00566v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00566v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "ASCNet: Research on all-sky camera images classification at the Muztagh-ata site",
+          "url": "http://arxiv.org/abs/2601.00563v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00563v1",
+          "doi_url": "https://doi.org/10.1088/1674-4527/ae25c7",
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "A Cascaded Information Interaction Network for Precise Image Segmentation",
+          "url": "http://arxiv.org/abs/2601.00562v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00562v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "AEGIS: Exploring the Limit of World Knowledge Capabilities for Unified Mulitmodal Models",
+          "url": "http://arxiv.org/abs/2601.00561v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00561v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Cracking IoT Security: Can LLMs Outsmart Static Analysis Tools?",
+          "url": "http://arxiv.org/abs/2601.00559v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00559v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Entropy Production in Machine Learning Under Fokker-Planck Probability Flow",
+          "url": "http://arxiv.org/abs/2601.00554v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00554v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "A Comprehensive Dataset for Human vs. AI Generated Image Detection",
+          "url": "http://arxiv.org/abs/2601.00553v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00553v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Tabletop X-ray ghost video of moving objects",
+          "url": "http://arxiv.org/abs/2601.00552v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00552v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "SingBAG Pro: Accelerating point cloud-based iterative reconstruction for 3D photoacoustic imaging under arbitrary array",
+          "url": "http://arxiv.org/abs/2601.00551v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00551v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Carrier Drift Modulation and the Hyperbolic Time Crystals",
+          "url": "http://arxiv.org/abs/2601.00547v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00547v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "ECR: Manifold-Guided Semantic Cues for Compact Language Models",
+          "url": "http://arxiv.org/abs/2601.00543v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00543v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "DynaDrag: Dynamic Drag-Style Image Editing by Motion Prediction",
+          "url": "http://arxiv.org/abs/2601.00542v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00542v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Boosting Segment Anything Model to Generalize Visually Non-Salient Scenarios",
+          "url": "http://arxiv.org/abs/2601.00537v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00537v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Retrieval--Reasoning Processes for Multi-hop Question Answering: A Four-Axis Design Framework and Empirical Trends",
+          "url": "http://arxiv.org/abs/2601.00536v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00536v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "FreeText: Training-Free Text Rendering in Diffusion Transformers via Attention Localization and Spectral Glyph Injection",
+          "url": "http://arxiv.org/abs/2601.00535v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00535v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "All-in-One Video Restoration under Smoothly Evolving Unknown Weather Degradations",
+          "url": "http://arxiv.org/abs/2601.00533v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00533v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "A Sparse-Attention Deep Learning Model Integrating Heterogeneous Multimodal Features for Parkinson's Disease Severity Profiling",
+          "url": "http://arxiv.org/abs/2601.00519v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00519v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "The Illusion of Insight in Reasoning Models",
+          "url": "http://arxiv.org/abs/2601.00514v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00514v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents",
+          "url": "http://arxiv.org/abs/2601.00513v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00513v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Rule-Based Approaches to Atomic Sentence Extraction",
+          "url": "http://arxiv.org/abs/2601.00506v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00506v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "CPPO: Contrastive Perception for Vision Language Policy Optimization",
+          "url": "http://arxiv.org/abs/2601.00501v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00501v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Fisher-Information-Driven Adaptive Acquisition for Photon-Efficient FLIM: A Dual-Implementation Framework for TCSPC and Programmable Time-Gating",
+          "url": "http://arxiv.org/abs/2601.00490v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00490v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Multi-Agent Coordinated Rename Refactoring",
+          "url": "http://arxiv.org/abs/2601.00482v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00482v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "MAESTRO: Multi-Agent Evaluation Suite for Testing, Reliability, and Observability",
+          "url": "http://arxiv.org/abs/2601.00481v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00481v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Imitation from Observations with Trajectory-Level Generative Embeddings",
+          "url": "http://arxiv.org/abs/2601.00452v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00452v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Language as Mathematical Structure: Examining Semantic Field Theory Against Language Games",
+          "url": "http://arxiv.org/abs/2601.00448v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00448v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Modelling cultural evolution",
+          "url": "http://arxiv.org/abs/2601.00433v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00433v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Toward Better Temporal Structures for Geopolitical Events Forecasting",
+          "url": "http://arxiv.org/abs/2601.00430v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00430v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Can Semantic Methods Enhance Team Sports Tactics? A Methodology for Football with Broader Applications",
+          "url": "http://arxiv.org/abs/2601.00421v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.00421v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "AdaGaR: Adaptive Gabor Representation for Dynamic Scene Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2601.00796v1"
+      },
+      {
+        "title": "Two Deep Learning Approaches for Automated Segmentation of Left Ventricle in Cine Cardiac MRI",
+        "pdf": "https://arxiv.org/pdf/2601.00794v1"
+      },
+      {
+        "title": "Geometry of Reason: Spectral Signatures of Valid Mathematical Reasoning",
+        "pdf": "https://arxiv.org/pdf/2601.00791v1"
+      },
+      {
+        "title": "Dark Dimension Right-handed Neutrinos Confronted with Long-Baseline Oscillation Experiments",
+        "pdf": "https://arxiv.org/pdf/2601.00790v1"
+      },
+      {
+        "title": "Adapting Natural Language Processing Models Across Jurisdictions: A pilot Study in Canadian Cancer Registries",
+        "pdf": "https://arxiv.org/pdf/2601.00787v1"
+      },
+      {
+        "title": "FedHypeVAE: Federated Learning with Hypernetwork Generated Conditional VAEs for Differentially Private Embedding Sharing",
+        "pdf": "https://arxiv.org/pdf/2601.00785v1"
+      },
+      {
+        "title": "Improving Router Security using BERT",
+        "pdf": "https://arxiv.org/pdf/2601.00783v1"
+      },
+      {
+        "title": "Investigating the Viability of Employing Multi-modal Large Language Models in the Context of Audio Deepfake Detection",
+        "pdf": "https://arxiv.org/pdf/2601.00777v1"
+      },
+      {
+        "title": "TWICE: Tree-based Wage Inference with Clustering and Estimation",
+        "pdf": "https://arxiv.org/pdf/2601.00776v1"
+      },
+      {
+        "title": "Spatiotemporal Detection and Uncertainty Visualization of Atmospheric Blocking Events",
+        "pdf": "https://arxiv.org/pdf/2601.00775v1"
+      },
+      {
+        "title": "Variable Importance in Generalized Linear Models -- A Unifying View Using Shapley Values",
+        "pdf": "https://arxiv.org/pdf/2601.00773v1"
+      },
+      {
+        "title": "Mind the Gap. Doubling Constant Parametrization of Weighted Problems: TSP, Max-Cut, and More",
+        "pdf": "https://arxiv.org/pdf/2601.00768v1"
+      },
+      {
+        "title": "Dynamical Dark Energy Imprints in the Lyman-Alpha Forest",
+        "pdf": "https://arxiv.org/pdf/2601.00767v1"
+      },
+      {
+        "title": "The Effect of Transparency on Students' Perceptions of AI Graders",
+        "pdf": "https://arxiv.org/pdf/2601.00765v1"
+      },
+      {
+        "title": "Unlocking the Future of X-Ray Polarimetry with IXPE: Lessons Learned and Next Steps",
+        "pdf": "https://arxiv.org/pdf/2601.00764v1"
+      },
+      {
+        "title": "Gradient-free ensemble transform methods for generalized Bayesian inference in generative models",
+        "pdf": "https://arxiv.org/pdf/2601.00760v1"
+      },
+      {
+        "title": "Unified Primitive Proxies for Structured Shape Completion",
+        "pdf": "https://arxiv.org/pdf/2601.00759v1"
+      },
+      {
+        "title": "Memory Bank Compression for Continual Adaptation of Large Language Models",
+        "pdf": "https://arxiv.org/pdf/2601.00756v1"
+      },
+      {
+        "title": "A formal theory on problem space as a semantic world model in systems engineering",
+        "pdf": "https://arxiv.org/pdf/2601.00755v1"
+      },
+      {
+        "title": "Early-Stage Prediction of Review Effort in AI-Generated Pull Requests",
+        "pdf": "https://arxiv.org/pdf/2601.00753v1"
+      },
+      {
+        "title": "A Machine Learning Framework for Off Ball Defensive Role and Performance Evaluation in Football",
+        "pdf": "https://arxiv.org/pdf/2601.00748v1"
+      },
+      {
+        "title": "The Reasoning-Creativity Trade-off: Toward Creativity-Driven Problem Solving",
+        "pdf": "https://arxiv.org/pdf/2601.00747v1"
+      },
+      {
+        "title": "Strong anchoring boundary conditions in nematic liquid crystals: Higher-order corrections to the Oseen-Frank limit and a revised small-domain theory",
+        "pdf": "https://arxiv.org/pdf/2601.00744v1"
+      },
+      {
+        "title": "An Agentic Framework for Neuro-Symbolic Programming",
+        "pdf": "https://arxiv.org/pdf/2601.00743v1"
+      },
+      {
+        "title": "Continuous time asymptotic representations for adaptive experiments",
+        "pdf": "https://arxiv.org/pdf/2601.00739v1"
+      },
+      {
+        "title": "Second Thoughts: How 1-second subslots transform CEX-DEX Arbitrage on Ethereum",
+        "pdf": "https://arxiv.org/pdf/2601.00738v1"
+      },
+      {
+        "title": "Stochastic Actor-Critic: Mitigating Overestimation via Temporal Aleatoric Uncertainty",
+        "pdf": "https://arxiv.org/pdf/2601.00737v1"
+      },
+      {
+        "title": "Geometric Complexity of Quantum Channels via Unitary Dilations",
+        "pdf": "https://arxiv.org/pdf/2601.00735v1"
+      },
+      {
+        "title": "Grading Handwritten Engineering Exams with Multimodal Large Language Models",
+        "pdf": "https://arxiv.org/pdf/2601.00730v1"
+      },
+      {
+        "title": "A Unified Trace-Optimization Framework for Multidimensionality Reduction",
+        "pdf": "https://arxiv.org/pdf/2601.00729v1"
+      },
+      {
+        "title": "Precision Autotuning for Linear Solvers via Contextual Bandit-Based RL",
+        "pdf": "https://arxiv.org/pdf/2601.00728v1"
+      },
+      {
+        "title": "Qubits and Vacuum Amplitudes",
+        "pdf": "https://arxiv.org/pdf/2601.00722v1"
+      },
+      {
+        "title": "Detecting Performance Degradation under Data Shift in Pathology Vision-Language Model",
+        "pdf": "https://arxiv.org/pdf/2601.00716v1"
+      },
+      {
+        "title": "PDPL Metric: Validating a Scale to Measure Personal Data Privacy Literacy Among University Students",
+        "pdf": "https://arxiv.org/pdf/2601.00715v1"
+      },
+      {
+        "title": "KDPhys: An Attention Guided 3D to 2D Knowledge Distillation for Real-time Video-Based Physiological Measurement",
+        "pdf": "https://arxiv.org/pdf/2601.00714v1"
+      },
+      {
+        "title": "Carbon mineralization in CO2-seawater-basalt systems: Reactive transport dynamics and vesicular pore architecture controls",
+        "pdf": "https://arxiv.org/pdf/2601.00710v1"
+      },
+      {
+        "title": "Efficient Deep Demosaicing with Spatially Downsampled Isotropic Networks",
+        "pdf": "https://arxiv.org/pdf/2601.00703v1"
+      },
+      {
+        "title": "Pseudo-Hermitian Magnon Dynamics",
+        "pdf": "https://arxiv.org/pdf/2601.00701v1"
+      },
+      {
+        "title": "BSAT: B-Spline Adaptive Tokenizer for Long-Term Time Series Forecasting",
+        "pdf": "https://arxiv.org/pdf/2601.00698v1"
+      },
+      {
+        "title": "Bayesian Inverse Games with High-Dimensional Multi-Modal Observations",
+        "pdf": "https://arxiv.org/pdf/2601.00696v1"
+      },
+      {
+        "title": "DeXOR: Enabling XOR in Decimal Space for Streaming Lossless Compression of Floating-point Data",
+        "pdf": "https://arxiv.org/pdf/2601.00695v1"
+      },
+      {
+        "title": "A Vision-and-Knowledge Enhanced Large Language Model for Generalizable Pedestrian Crossing Behavior Inference",
+        "pdf": "https://arxiv.org/pdf/2601.00694v1"
+      },
+      {
+        "title": "Human-like AI-based Auto-Field-in-Field Whole-Brain Radiotherapy Treatment Planning With Conversation Large Language Model Feedback",
+        "pdf": "https://arxiv.org/pdf/2601.00685v1"
+      },
+      {
+        "title": "Sigmoid Head for Quality Estimation under Language Ambiguity",
+        "pdf": "https://arxiv.org/pdf/2601.00680v1"
+      },
+      {
+        "title": "Pixel-to-4D: Camera-Controlled Image-to-Video Generation with Dynamic 3D Gaussians",
+        "pdf": "https://arxiv.org/pdf/2601.00678v1"
+      },
+      {
+        "title": "IRPO: Scaling the Bradley-Terry Model via Reinforcement Learning",
+        "pdf": "https://arxiv.org/pdf/2601.00677v1"
+      },
+      {
+        "title": "RoboReward: General-Purpose Vision-Language Reward Models for Robotics",
+        "pdf": "https://arxiv.org/pdf/2601.00675v1"
+      },
+      {
+        "title": "Sparse FEONet: A Low-Cost, Memory-Efficient Operator Network via Finite-Element Local Sparsity for Parametric PDEs",
+        "pdf": "https://arxiv.org/pdf/2601.00672v1"
+      },
+      {
+        "title": "Wave2Word: A Multimodal Transformer Framework for Joint EEG-Text Alignment and Multi-Task Representation Learning in Neurocritical Care",
+        "pdf": "https://arxiv.org/pdf/2601.00670v1"
+      },
+      {
+        "title": "Physics-Guided Dual-Domain Plug-and-Play ADMM for Low-Dose CT Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2601.00669v1"
+      },
+      {
+        "title": "Three factor delay learning rules for spiking neural networks",
+        "pdf": "https://arxiv.org/pdf/2601.00668v1"
+      },
+      {
+        "title": "Avatar Forcing: Real-Time Interactive Head Avatar Generation for Natural Conversation",
+        "pdf": "https://arxiv.org/pdf/2601.00664v1"
+      },
+      {
+        "title": "Activity correlation and temporal variation of small-scale magnetic fields on young Sun-like stars",
+        "pdf": "https://arxiv.org/pdf/2601.00663v1"
+      },
+      {
+        "title": "Scheduling for TWDM-EPON-Based Fronthaul Without a Dedicated Registration Wavelength",
+        "pdf": "https://arxiv.org/pdf/2601.00661v1"
+      },
+      {
+        "title": "Reconstructing Building Height from Spaceborne TomoSAR Point Clouds Using a Dual-Topology Network",
+        "pdf": "https://arxiv.org/pdf/2601.00658v1"
+      },
+      {
+        "title": "Two body nonleptonic decays of $Ω_{b}\\rightarrow Ω_{c}$ beyond tree level",
+        "pdf": "https://arxiv.org/pdf/2601.00657v1"
+      },
+      {
+        "title": "Interpretability-Guided Bi-objective Optimization: Aligning Accuracy and Explainability",
+        "pdf": "https://arxiv.org/pdf/2601.00655v1"
+      },
+      {
+        "title": "Global regularity estimates for $p(x)$-Laplacian variational inequalities with singular or degenerate matrix-valued weights",
+        "pdf": "https://arxiv.org/pdf/2601.00652v1"
+      },
+      {
+        "title": "Experimental exclusion of a generalized Károlyházy gravity-induced decoherence model",
+        "pdf": "https://arxiv.org/pdf/2601.00651v1"
+      },
+      {
+        "title": "Dissecting the Hubble tension: Insights from a diverse set of Sound Horizon-free H0 measurements",
+        "pdf": "https://arxiv.org/pdf/2601.00650v1"
+      },
+      {
+        "title": "Lipschitz Stability for an Inverse Problem of Biharmonic Wave Equations with Damping",
+        "pdf": "https://arxiv.org/pdf/2601.00648v1"
+      },
+      {
+        "title": "Quality Detection of Stored Potatoes via Transfer Learning: A CNN and Vision Transformer Approach",
+        "pdf": "https://arxiv.org/pdf/2601.00645v1"
+      },
+      {
+        "title": "Evidence for a Nonzero Eccentricity Superpuff Exoplanet WASP-107 b Using JWST Occultation Observation",
+        "pdf": "https://arxiv.org/pdf/2601.00640v1"
+      },
+      {
+        "title": "Turbulence is ineffective in causing raindrop growth in polluted clouds",
+        "pdf": "https://arxiv.org/pdf/2601.00637v1"
+      },
+      {
+        "title": "SEMODS: A Validated Dataset of Open-Source Software Engineering Models",
+        "pdf": "https://arxiv.org/pdf/2601.00635v1"
+      },
+      {
+        "title": "KELP: Robust Online Log Parsing Through Evolutionary Grouping Trees",
+        "pdf": "https://arxiv.org/pdf/2601.00633v1"
+      },
+      {
+        "title": "Towards Understanding and Characterizing Vulnerabilities in Intelligent Connected Vehicles through Real-World Exploits",
+        "pdf": "https://arxiv.org/pdf/2601.00627v1"
+      },
+      {
+        "title": "HyperPriv-EPN: Hypergraph Learning with Privileged Knowledge for Ependymoma Prognosis",
+        "pdf": "https://arxiv.org/pdf/2601.00626v1"
+      },
+      {
+        "title": "RePose: A Real-Time 3D Human Pose Estimation and Biomechanical Analysis Framework for Rehabilitation",
+        "pdf": "https://arxiv.org/pdf/2601.00625v1"
+      },
+      {
+        "title": "DA-DPO: Cost-efficient Difficulty-aware Preference Optimization for Reducing MLLM Hallucinations",
+        "pdf": "https://arxiv.org/pdf/2601.00623v1"
+      },
+      {
+        "title": "From 2D to 3D terrain-following area coverage path planning",
+        "pdf": "https://arxiv.org/pdf/2601.00614v1"
+      },
+      {
+        "title": "Personalized Forecasting of Glycemic Control in Type 1 and 2 Diabetes Using Foundational AI and Machine Learning Models",
+        "pdf": "https://arxiv.org/pdf/2601.00613v1"
+      },
+      {
+        "title": "Peak-Nadir Encoding for Efficient CGM Data Compression and High-Fidelity Reconstruction",
+        "pdf": "https://arxiv.org/pdf/2601.00608v1"
+      },
+      {
+        "title": "Traffic-Aware Optimal Taxi Placement Using Graph Neural Network-Based Reinforcement Learning",
+        "pdf": "https://arxiv.org/pdf/2601.00607v1"
+      },
+      {
+        "title": "Cycling Race Time Prediction: A Personalized Machine Learning Approach Using Route Topology and Training Load",
+        "pdf": "https://arxiv.org/pdf/2601.00604v1"
+      },
+      {
+        "title": "Difference-in-Differences using Double Negative Controls and Graph Neural Networks for Unmeasured Network Confounding",
+        "pdf": "https://arxiv.org/pdf/2601.00603v1"
+      },
+      {
+        "title": "CSSBench: Evaluating the Safety of Lightweight LLMs against Chinese-Specific Adversarial Patterns",
+        "pdf": "https://arxiv.org/pdf/2601.00588v1"
+      },
+      {
+        "title": "Microwave vortex beam lasing via photonic time crystals",
+        "pdf": "https://arxiv.org/pdf/2601.00585v1"
+      },
+      {
+        "title": "GranAlign: Granularity-Aware Alignment Framework for Zero-Shot Video Moment Retrieval",
+        "pdf": "https://arxiv.org/pdf/2601.00584v1"
+      },
+      {
+        "title": "HFedMoE: Resource-aware Heterogeneous Federated Learning with Mixture-of-Experts",
+        "pdf": "https://arxiv.org/pdf/2601.00583v1"
+      },
+      {
+        "title": "The AI Invisibility Effect: Understanding Human-AI Interaction When Users Don't Recognize Artificial Intelligence",
+        "pdf": "https://arxiv.org/pdf/2601.00579v1"
+      },
+      {
+        "title": "Learning to be Reproducible: Custom Loss Design for Robust Neural Networks",
+        "pdf": "https://arxiv.org/pdf/2601.00578v1"
+      },
+      {
+        "title": "Adversarial Samples Are Not Created Equal",
+        "pdf": "https://arxiv.org/pdf/2601.00577v1"
+      },
+      {
+        "title": "InfoSynth: Information-Guided Benchmark Synthesis for LLMs",
+        "pdf": "https://arxiv.org/pdf/2601.00575v1"
+      },
+      {
+        "title": "Benchmarking ERP Analysis: Manual Features, Deep Learning, and Foundation Models",
+        "pdf": "https://arxiv.org/pdf/2601.00573v1"
+      },
+      {
+        "title": "Toward a Dynamic Intellectual Property Protection Model in High-Growth SMEs",
+        "pdf": "https://arxiv.org/pdf/2601.00572v1"
+      },
+      {
+        "title": "Capital allocation and tail central moments for the multivariate normal mean-variance mixture distribution",
+        "pdf": "https://arxiv.org/pdf/2601.00568v1"
+      },
+      {
+        "title": "Low Rank Comes with Low Security: Gradient Assembly Poisoning Attacks against Distributed LoRA-based LLM Systems",
+        "pdf": "https://arxiv.org/pdf/2601.00566v1"
+      },
+      {
+        "title": "ASCNet: Research on all-sky camera images classification at the Muztagh-ata site",
+        "pdf": "https://arxiv.org/pdf/2601.00563v1"
+      },
+      {
+        "title": "A Cascaded Information Interaction Network for Precise Image Segmentation",
+        "pdf": "https://arxiv.org/pdf/2601.00562v1"
+      },
+      {
+        "title": "AEGIS: Exploring the Limit of World Knowledge Capabilities for Unified Mulitmodal Models",
+        "pdf": "https://arxiv.org/pdf/2601.00561v1"
+      },
+      {
+        "title": "Cracking IoT Security: Can LLMs Outsmart Static Analysis Tools?",
+        "pdf": "https://arxiv.org/pdf/2601.00559v1"
+      },
+      {
+        "title": "Entropy Production in Machine Learning Under Fokker-Planck Probability Flow",
+        "pdf": "https://arxiv.org/pdf/2601.00554v1"
+      },
+      {
+        "title": "A Comprehensive Dataset for Human vs. AI Generated Image Detection",
+        "pdf": "https://arxiv.org/pdf/2601.00553v1"
+      },
+      {
+        "title": "Tabletop X-ray ghost video of moving objects",
+        "pdf": "https://arxiv.org/pdf/2601.00552v1"
+      },
+      {
+        "title": "SingBAG Pro: Accelerating point cloud-based iterative reconstruction for 3D photoacoustic imaging under arbitrary array",
+        "pdf": "https://arxiv.org/pdf/2601.00551v1"
+      },
+      {
+        "title": "Carrier Drift Modulation and the Hyperbolic Time Crystals",
+        "pdf": "https://arxiv.org/pdf/2601.00547v1"
+      },
+      {
+        "title": "ECR: Manifold-Guided Semantic Cues for Compact Language Models",
+        "pdf": "https://arxiv.org/pdf/2601.00543v1"
+      },
+      {
+        "title": "DynaDrag: Dynamic Drag-Style Image Editing by Motion Prediction",
+        "pdf": "https://arxiv.org/pdf/2601.00542v1"
+      },
+      {
+        "title": "Boosting Segment Anything Model to Generalize Visually Non-Salient Scenarios",
+        "pdf": "https://arxiv.org/pdf/2601.00537v1"
+      },
+      {
+        "title": "Retrieval--Reasoning Processes for Multi-hop Question Answering: A Four-Axis Design Framework and Empirical Trends",
+        "pdf": "https://arxiv.org/pdf/2601.00536v1"
+      },
+      {
+        "title": "FreeText: Training-Free Text Rendering in Diffusion Transformers via Attention Localization and Spectral Glyph Injection",
+        "pdf": "https://arxiv.org/pdf/2601.00535v1"
+      },
+      {
+        "title": "All-in-One Video Restoration under Smoothly Evolving Unknown Weather Degradations",
+        "pdf": "https://arxiv.org/pdf/2601.00533v1"
+      },
+      {
+        "title": "A Sparse-Attention Deep Learning Model Integrating Heterogeneous Multimodal Features for Parkinson's Disease Severity Profiling",
+        "pdf": "https://arxiv.org/pdf/2601.00519v1"
+      },
+      {
+        "title": "The Illusion of Insight in Reasoning Models",
+        "pdf": "https://arxiv.org/pdf/2601.00514v1"
+      },
+      {
+        "title": "When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents",
+        "pdf": "https://arxiv.org/pdf/2601.00513v1"
+      },
+      {
+        "title": "Rule-Based Approaches to Atomic Sentence Extraction",
+        "pdf": "https://arxiv.org/pdf/2601.00506v1"
+      },
+      {
+        "title": "CPPO: Contrastive Perception for Vision Language Policy Optimization",
+        "pdf": "https://arxiv.org/pdf/2601.00501v1"
+      },
+      {
+        "title": "Fisher-Information-Driven Adaptive Acquisition for Photon-Efficient FLIM: A Dual-Implementation Framework for TCSPC and Programmable Time-Gating",
+        "pdf": "https://arxiv.org/pdf/2601.00490v1"
+      },
+      {
+        "title": "Multi-Agent Coordinated Rename Refactoring",
+        "pdf": "https://arxiv.org/pdf/2601.00482v1"
+      },
+      {
+        "title": "MAESTRO: Multi-Agent Evaluation Suite for Testing, Reliability, and Observability",
+        "pdf": "https://arxiv.org/pdf/2601.00481v1"
+      },
+      {
+        "title": "Imitation from Observations with Trajectory-Level Generative Embeddings",
+        "pdf": "https://arxiv.org/pdf/2601.00452v1"
+      },
+      {
+        "title": "Language as Mathematical Structure: Examining Semantic Field Theory Against Language Games",
+        "pdf": "https://arxiv.org/pdf/2601.00448v1"
+      },
+      {
+        "title": "Modelling cultural evolution",
+        "pdf": "https://arxiv.org/pdf/2601.00433v1"
+      },
+      {
+        "title": "Toward Better Temporal Structures for Geopolitical Events Forecasting",
+        "pdf": "https://arxiv.org/pdf/2601.00430v1"
+      },
+      {
+        "title": "Can Semantic Methods Enhance Team Sports Tactics? A Methodology for Football with Broader Applications",
+        "pdf": "https://arxiv.org/pdf/2601.00421v1"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "Two Deep Learning Approaches for Automated Segmentation of Left Ventricle in Cine Cardiac MRI",
+        "doi": "https://doi.org/10.1145/3510427.3510429"
+      },
+      {
+        "title": "Mind the Gap. Doubling Constant Parametrization of Weighted Problems: TSP, Max-Cut, and More",
+        "doi": "https://doi.org/10.4230/LIPIcs.STACS.2026.29"
+      },
+      {
+        "title": "KDPhys: An Attention Guided 3D to 2D Knowledge Distillation for Real-time Video-Based Physiological Measurement",
+        "doi": "https://doi.org/10.1016/j.bspc.2025.107797"
+      },
+      {
+        "title": "Evidence for a Nonzero Eccentricity Superpuff Exoplanet WASP-107 b Using JWST Occultation Observation",
+        "doi": "https://doi.org/10.3847/2041-8213/ae2ac8"
+      },
+      {
+        "title": "ASCNet: Research on all-sky camera images classification at the Muztagh-ata site",
+        "doi": "https://doi.org/10.1088/1674-4527/ae25c7"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "temporal reasoning in medical imaging and time-series data",
+    "total_steps": 19,
+    "last_updated": "2026-01-05T23:09:30.053187",
+    "started_at": "2026-01-05T23:07:22.466840",
+    "total_papers": 116
+  }
+}

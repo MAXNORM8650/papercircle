@@ -1,0 +1,32 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-05T18:43:41.554634",
+      "agent": "online_search_agent",
+      "action": "Online search: 'residual connections LLMs transformer skip architecture gradient stability'",
+      "result_preview": "Found 50 papers",
+      "details": {
+        "query": "residual connections LLMs transformer skip architecture gradient stability",
+        "sources": [
+          "arXiv",
+          "semantic_scholar",
+          "openalex",
+          "dblp"
+        ],
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 50
+    }
+  ],
+  "current_step": 1,
+  "metadata": {
+    "query": "residual connections LLMs transformer skip architecture gradient stability",
+    "total_steps": 1,
+    "last_updated": "2026-01-05T18:43:41.569640",
+    "started_at": "2026-01-05T18:42:53.950894",
+    "total_papers": 50
+  }
+}

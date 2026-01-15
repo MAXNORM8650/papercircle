@@ -1,0 +1,172 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-12T20:44:00.652816",
+      "agent": "online_search_agent",
+      "action": "Online search: 'autoregressive world models novel approaches theoretical position papers'",
+      "result_preview": "Found 25 papers",
+      "details": {
+        "query": "autoregressive world models novel approaches theoretical position papers",
+        "sources": [
+          "arxiv"
+        ],
+        "papers_found": 25,
+        "papers_added": 25,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 25
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-12T20:44:11.158886",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'autoregressive world models'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "autoregressive world models",
+        "conferences": [
+          "cvpr",
+          "nips",
+          "iclr",
+          "icml",
+          "acl",
+          "emnlp",
+          "eccv",
+          "iccv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 50,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 75
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-12T20:44:21.354314",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'world models autoregressive novel approaches'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "world models autoregressive novel approaches",
+        "conferences": [
+          "cvpr",
+          "nips",
+          "iclr",
+          "icml",
+          "acl",
+          "emnlp",
+          "eccv",
+          "iccv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 7,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 82
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-01-12T20:44:31.024429",
+      "agent": "offline_search_agent",
+      "action": "Offline search: 'autoregressive world models theoretical position'",
+      "result_preview": "Found 50 papers from local database",
+      "details": {
+        "query": "autoregressive world models theoretical position",
+        "conferences": [
+          "cvpr",
+          "nips",
+          "iclr",
+          "icml",
+          "acl",
+          "emnlp",
+          "eccv",
+          "iccv"
+        ],
+        "start_year": null,
+        "end_year": null,
+        "papers_found": 50,
+        "papers_added": 19,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 101
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-01-12T20:44:46.344645",
+      "agent": "sorting_agent",
+      "action": "Sorted 101 papers by 'recency'",
+      "result_preview": "Top paper: Astra: General Interactive World Model with Autore...",
+      "details": {
+        "sort_by": "recency",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 101
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-01-12T20:44:47.508735",
+      "agent": "sorting_agent",
+      "action": "Sorted 101 papers by 'citations'",
+      "result_preview": "Top paper: Astra: General Interactive World Model with Autore...",
+      "details": {
+        "sort_by": "citations",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 101
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-01-12T20:44:48.691160",
+      "agent": "sorting_agent",
+      "action": "Sorted 101 papers by 'similarity'",
+      "result_preview": "Top paper: The Role of Sparsity for Length Generalization in ...",
+      "details": {
+        "sort_by": "similarity",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 101
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-01-12T20:44:49.950766",
+      "agent": "sorting_agent",
+      "action": "Sorted 101 papers by 'novelty'",
+      "result_preview": "Top paper: Resilient UAV Data Mule via Adaptive Sensor Associ...",
+      "details": {
+        "sort_by": "novelty",
+        "weights": null,
+        "top_k": null
+      },
+      "papers_count": 101
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-01-12T20:44:51.681537",
+      "agent": "sorting_agent",
+      "action": "Sorted 101 papers by 'combined'",
+      "result_preview": "Top paper: Astra: General Interactive World Model with Autore...",
+      "details": {
+        "sort_by": "combined",
+        "weights": "{\"recency\": 0.3, \"citations\": 0.4, \"similarity\": 0.2, \"novelty\": 0.1}",
+        "top_k": null
+      },
+      "papers_count": 101
+    }
+  ],
+  "current_step": 9,
+  "metadata": {
+    "query": "autoregressive world models theoretical position",
+    "total_steps": 9,
+    "last_updated": "2026-01-12T20:44:51.697897",
+    "started_at": "2026-01-12T20:43:41.244355",
+    "total_papers": 101
+  }
+}

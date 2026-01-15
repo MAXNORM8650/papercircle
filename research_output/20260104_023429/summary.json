@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "Deep Seek company",
+    "total_papers": 372,
+    "unique_sources": 13,
+    "year_range": {
+      "min": 2012,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 9852,
+      "average": 64.8
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 258,
+    "papers_with_doi": 220,
+    "processing_steps": 3
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (2) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 2
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 190 papers (51%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 190
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Jiwen Lu has 2 papers in this collection",
+      "data": {
+        "author": "Jiwen Lu",
+        "count": 2
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Shortcut learning in deep neural networks...\" has 2421 citations",
+      "data": {
+        "title": "Shortcut learning in deep neural networks",
+        "citations": 2421
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: deep, learning, neural, model, networks",
+      "data": {
+        "keywords": {
+          "deep": 200,
+          "learning": 152,
+          "neural": 31,
+          "model": 31,
+          "networks": 29
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "258/372 papers (69%) have direct PDF links",
+      "data": {
+        "with_pdf": 258,
+        "total": 372
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 372 papers related to 'Deep Seek company'",
+    "Papers collected from 13 sources: offline_cvpr, offline_nips, offline_iclr, offline_aaai, offline_eccv, offline_icml, offline_iccv, offline_emnlp, offline_ijcai, offline_acl, arxiv, semantic_scholar, openalex",
+    "Publication years range from 2012 to 2026",
+    "Total citations: 9852, Average: 64",
+    "Leading researchers: Jiwen Lu, Gang Wang, Jie Zhou"
+  ],
+  "metadata": {
+    "query": "Deep Seek company",
+    "total_steps": 3,
+    "last_updated": "2026-01-04T02:34:58.835106",
+    "started_at": "2026-01-04T02:34:29.889346",
+    "total_papers": 372
+  },
+  "is_complete": true
+}

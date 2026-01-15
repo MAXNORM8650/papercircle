@@ -1,4 +1,0 @@
-\section{Scoring and Ranking}
-Paper Circle uses multi-criteria scoring to balance relevance, authority, and novelty. Relevance is computed as cosine similarity between a TF--IDF vector of the query and the TF--IDF vectors of paper text (title and abstract). Authority is a deterministic heuristic that combines recency and source reputation. Novelty is computed as the distance of each paper from the corpus centroid in TF--IDF space. The final score is a weighted sum of these three components, with mode-specific weights for \textit{stable}, \textit{discovery}, and \textit{balanced} search behavior.
-
-The pipeline also provides a configurable sorting stage that can reorder papers by recency, citations, similarity, novelty, BM25, or a combined weighted score. When available, a cross-encoder reranker can be applied for higher-fidelity relevance ordering.

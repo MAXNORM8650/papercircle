@@ -22,6 +22,7 @@ from .schema import (
 DEFAULT_CONFIG = {
     "api_base": "http://10.127.30.115:11434",
     "model_id": "ollama_chat/qwen3-coder:30b",
+    "api_key": None,
     "num_ctx": 8192
 }
 
@@ -336,13 +337,20 @@ class GraphBuilder:
     
     def __init__(self, config: Dict = None):
         self.config = config or DEFAULT_CONFIG
-        
+
+        # Build model kwargs - num_ctx is Ollama-specific
+        model_kwargs = {
+            "model_id": self.config["model_id"],
+            "api_base": self.config["api_base"],
+            "api_key": self.config.get("api_key"),
+            "drop_params": True,  # Drop unsupported params for OpenRouter/other providers
+        }
+        # Only add num_ctx for Ollama models
+        if "ollama" in self.config["model_id"].lower():
+            model_kwargs["num_ctx"] = self.config.get("num_ctx", 8192)
+
         # Initialize model
-        self.model = LiteLLMModel(
-            model_id=self.config["model_id"],
-            api_base=self.config["api_base"],
-            num_ctx=self.config.get("num_ctx", 8192)
-        )
+        self.model = LiteLLMModel(**model_kwargs)
         
         # Initialize specialized extractors
         self.concept_extractor = ConceptExtractor(self.model)

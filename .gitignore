@@ -24,6 +24,9 @@ dist-ssr
 .env.*
 !.env.example
 
+# Ignore pdf
+*.pdf
+
 # Supabase temp files (contains sensitive credentials)
 supabase/.temp/
 

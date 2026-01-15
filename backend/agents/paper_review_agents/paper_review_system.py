@@ -38,6 +38,7 @@ class Config:
     """Configuration for the paper review system."""
     api_base: str = "http://10.127.30.115:11434"
     model_id: str = "ollama_chat/gpt-oss:20b"
+    api_key: Optional[str] = None
     num_ctx: int = 8192
     cache_dir: str = "./paper_cache"
     max_paper_length: int = 50000  # characters
@@ -104,44 +105,48 @@ class PaperAnalysis:
 def download_pdf(url: str, save_path: str = None) -> str:
     """
     Download a PDF from a URL and return the local path.
-    
+
     Args:
-        url: The URL of the PDF to download
+        url: The URL of the PDF to download, or a local file path
         save_path: Optional path to save the PDF (auto-generated if not provided)
-        
+
     Returns:
         The local path where the PDF was saved
     """
     import os
-    
+
+    # Check if url is already a local file path
+    if os.path.exists(url) and url.endswith('.pdf'):
+        return url
+
     # Create cache directory
     cache_dir = "./paper_cache"
     os.makedirs(cache_dir, exist_ok=True)
-    
+
     # Generate filename from URL hash if not provided
     if save_path is None:
         url_hash = hashlib.md5(url.encode()).hexdigest()[:12]
         save_path = os.path.join(cache_dir, f"paper_{url_hash}.pdf")
-    
+
     # Handle arXiv URLs
     if "arxiv.org" in url:
         if "/abs/" in url:
             url = url.replace("/abs/", "/pdf/")
         if not url.endswith(".pdf"):
             url += ".pdf"
-    
+
     # Download
     headers = {
         "User-Agent": "Mozilla/5.0 (compatible; ResearchBot/1.0)"
     }
-    
+
     response = requests.get(url, headers=headers, stream=True, timeout=60)
     response.raise_for_status()
-    
+
     with open(save_path, 'wb') as f:
         for chunk in response.iter_content(chunk_size=8192):
             f.write(chunk)
-    
+
     return save_path
 
 
@@ -326,11 +331,14 @@ def search_semantic_scholar(query: str, limit: int = 5) -> str:
                 "abstract": (paper.get("abstract") or "")[:500],
                 "url": paper.get("url", "")
             })
-        
+
         return json.dumps(results, indent=2)
-        
+
     except Exception as e:
-        return json.dumps({"error": str(e)})
+        # Return empty array instead of error dict to maintain type consistency
+        # This prevents TypeError when concatenating with other results
+        print(f"⚠️  Semantic Scholar search failed: {str(e)}")
+        return json.dumps([])
 
 
 @tool
@@ -391,11 +399,14 @@ def search_arxiv(query: str, max_results: int = 5) -> str:
                 "abstract": (summary.text or "").strip()[:500],
                 "pdf_url": pdf_link
             })
-        
+
         return json.dumps(results, indent=2)
-        
+
     except Exception as e:
-        return json.dumps({"error": str(e)})
+        # Return empty array instead of error dict to maintain type consistency
+        # This prevents TypeError when concatenating with other results
+        print(f"⚠️  arXiv search failed: {str(e)}")
+        return json.dumps([])
 
 
 # ============================================================================
@@ -512,12 +523,19 @@ class PaperReviewPipeline:
     def __init__(self, config: Config = None):
         self.config = config or Config()
         
+        # Build model kwargs - num_ctx is Ollama-specific
+        model_kwargs = {
+            "model_id": self.config.model_id,
+            "api_base": self.config.api_base,
+            "api_key": self.config.api_key,
+            "drop_params": True,  # Drop unsupported params for OpenRouter/other providers
+        }
+        # Only add num_ctx for Ollama models
+        if "ollama" in self.config.model_id.lower():
+            model_kwargs["num_ctx"] = self.config.num_ctx
+
         # Initialize model
-        self.model = LiteLLMModel(
-            model_id=self.config.model_id,
-            api_base=self.config.api_base,
-            num_ctx=self.config.num_ctx
-        )
+        self.model = LiteLLMModel(**model_kwargs)
         
         # Create specialized agents
         self.pdf_agent = create_pdf_processor_agent(self.model)

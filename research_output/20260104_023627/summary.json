@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "manifold learning and optimization",
+    "total_papers": 619,
+    "unique_sources": 18,
+    "year_range": {
+      "min": 2002,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 1340,
+      "average": 10.3
+    },
+    "top_source": "semantic_scholar",
+    "papers_with_pdf": 384,
+    "papers_with_doi": 291,
+    "processing_steps": 7
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (30) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 30
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "semantic_scholar contributes 171 papers (27%)",
+      "data": {
+        "source": "semantic_scholar",
+        "count": 171
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Zen Revista has 6 papers in this collection",
+      "data": {
+        "author": "Zen Revista",
+        "count": 6
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"Diffusion Policy Policy Optimization...\" has 125 citations",
+      "data": {
+        "title": "Diffusion Policy Policy Optimization",
+        "citations": 125
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: manifold, learning, optimization, machine, riemannian",
+      "data": {
+        "keywords": {
+          "manifold": 273,
+          "learning": 241,
+          "optimization": 96,
+          "machine": 94,
+          "riemannian": 39
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "384/619 papers (62%) have direct PDF links",
+      "data": {
+        "with_pdf": 384,
+        "total": 619
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 619 papers related to 'manifold learning and optimization'",
+    "Papers collected from 18 sources: offline_iclr, offline_icml, offline_nips, offline_aistats, offline_eccv, offline_aaai, offline_wacv, offline_acmmm, offline_cvpr, offline_ijcai, offline_rss, offline_emnlp, offline_icra, offline_naacl, dblp, openalex, semantic_scholar, arxiv",
+    "Publication years range from 2002 to 2026",
+    "Total citations: 1340, Average: 10",
+    "Leading researchers: Zen Revista, 10 MFC, Bin Gao"
+  ],
+  "metadata": {
+    "query": "manifold learning and optimization",
+    "total_steps": 7,
+    "last_updated": "2026-01-04T02:37:30.286278",
+    "started_at": "2026-01-04T02:36:27.634581",
+    "total_papers": 619
+  },
+  "is_complete": true
+}

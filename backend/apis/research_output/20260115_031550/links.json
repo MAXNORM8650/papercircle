@@ -1,0 +1,1075 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Reason2Decide: Rationale-Driven Multi-Task Learning",
+        "url": "https://openalex.org/W7117277561",
+        "pdf_url": "https://arxiv.org/pdf/2512.20074",
+        "doi_url": null,
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Rectify Evaluation Preference: Improving LLMs' Critique on Math Reasoning via Perplexity-aware Reinforcement Learning",
+        "url": "https://openalex.org/W4416238887",
+        "pdf_url": "https://arxiv.org/pdf/2511.10303",
+        "doi_url": "https://doi.org/10.48550/arxiv.2511.10303",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "To Judge or Not to Judge: Using LLM Judgements for Advertiser Keyphrase Relevance at eBay",
+        "url": "https://openalex.org/W4415427426",
+        "pdf_url": "https://doi.org/10.3233/faia251471",
+        "doi_url": "https://doi.org/10.3233/faia251471",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Internet of Agents: Fundamentals, Applications, and Challenges",
+        "url": "https://openalex.org/W4415368556",
+        "pdf_url": "https://arxiv.org/pdf/2505.07176",
+        "doi_url": "https://doi.org/10.1109/tccn.2025.3623369",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "NoteIt: A System Converting Instructional Videos to Interactable Notes Through Multimodal Video Understanding",
+        "url": "https://openalex.org/W4415239351",
+        "pdf_url": "https://arxiv.org/pdf/2508.14395",
+        "doi_url": "https://doi.org/10.1145/3746059.3747626",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "An Innovative Retrieval-Augmented Generation Framework for Stage-Specific Knowledge Translation in Biomimicry Design",
+        "url": "https://openalex.org/W4414283556",
+        "pdf_url": "https://www.mdpi.com/2313-7673/10/9/626/pdf?version=1758108308",
+        "doi_url": "https://doi.org/10.3390/biomimetics10090626",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Automated Summarization of Software Documents: An LLM-based Multi-Agent Approach",
+        "url": "https://openalex.org/W4414280973",
+        "pdf_url": "https://www.researchsquare.com/article/rs-7539426/latest.pdf",
+        "doi_url": "https://doi.org/10.21203/rs.3.rs-7539426/v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Dynamic adaptive algorithms in personalized literacy interventions: A data-driven analysis of vocabulary development outcomes",
+        "url": "https://openalex.org/W4414295341",
+        "pdf_url": "https://www.j-psp.com/download/dynamic-adaptive-algorithms-in-personalized-literacy-interventions-a-data-driven-analysis-of-17079.pdf",
+        "doi_url": "https://doi.org/10.33902/jpsp.202535544",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Synergy, Not Substitution. Responsible Human–AI Collaboration in Academic Research",
+        "url": "https://openalex.org/W4414304371",
+        "pdf_url": "https://www.preprints.org/frontend/manuscript/ac206910004ffc4e20ac3548ffc47ed4/download_pub",
+        "doi_url": "https://doi.org/10.20944/preprints202509.1249.v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Qualitative Research in an Era of AI: A Pragmatic Approach to Data Analysis, Workflow, and Computation",
+        "url": "https://openalex.org/W4414229989",
+        "pdf_url": "https://osf.io/7bsgy_v1/download",
+        "doi_url": "https://doi.org/10.31235/osf.io/7bsgy_v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Frontier AI Safety Confidence Evaluate",
+        "url": "https://openalex.org/W4414240222",
+        "pdf_url": "https://www.cambridge.org/engage/api-gateway/coe/assets/orp/resource/item/68bbf625728bf9025ebb3dcc/original/frontier-ai-safety-confidence-evaluate.pdf",
+        "doi_url": "https://doi.org/10.33774/coe-2025-rhlbg",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Evaluating Dense Model-based Approaches for Multimodal Medical Case Retrieval",
+        "url": "https://openalex.org/W4414257648",
+        "pdf_url": "https://irrj.org/article/download/19769/25855",
+        "doi_url": "https://doi.org/10.54195/irrj.19769",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Justices on Autopilot: Thinking-Fast Evidence from State Supreme Court Oral Arguments",
+        "url": "https://openalex.org/W4414183555",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/92ED7B24AF3CC9A2F98D017A1C86D3EE/S2164657025100089a.pdf/div-class-title-justices-on-autopilot-thinking-fast-evidence-from-state-supreme-court-oral-arguments-div.pdf",
+        "doi_url": "https://doi.org/10.1017/jlc.2025.10008",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Large Language Model Agents for Biomedicine: A Comprehensive Review of Methods, Evaluations, Challenges, and Future Directions",
+        "url": "https://openalex.org/W4414199736",
+        "pdf_url": "https://www.authorea.com/doi/pdf/10.22541/au.175795684.47167615/v1",
+        "doi_url": "https://doi.org/10.22541/au.175795684.47167615/v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "GenRL FinTech: Supporting the Risk Management Process through Reinforcement Intelligence",
+        "url": "https://openalex.org/W4414202539",
+        "pdf_url": "https://www.researchsquare.com/article/rs-7190065/latest.pdf",
+        "doi_url": "https://doi.org/10.21203/rs.3.rs-7190065/v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "How Binding Is Administrative Guidance? An Empirical Study of Guidance, Rules, and the Courts Telling Them Apart",
+        "url": "https://openalex.org/W4414253005",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jels.70009",
+        "doi_url": "https://doi.org/10.1111/jels.70009",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "From Black Hole Thermodynamics to Provably Reliable AI: The Geometrically Constrained ISI-ERA Architecture",
+        "url": "https://openalex.org/W4414122594",
+        "pdf_url": "https://osf.io/fq9hs_v1/download",
+        "doi_url": "https://doi.org/10.31219/osf.io/fq9hs_v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "The Five Ws of Multi-Agent Communication: Who Talks to Whom, When, What, and Why - A Survey from MARL to Emergent Language and LLMs",
+        "url": "https://openalex.org/W4414123240",
+        "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175760290.08279849/v1",
+        "doi_url": "https://doi.org/10.36227/techrxiv.175760290.08279849/v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Explainable Surgical Procedures Recommender System Leveraging Large Language Models",
+        "url": "https://openalex.org/W4414128177",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3767326",
+        "doi_url": "https://doi.org/10.1145/3767326",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Unique Security and Privacy Threats of Large Language Models: A Comprehensive Survey",
+        "url": "https://openalex.org/W4414128359",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3764113",
+        "doi_url": "https://doi.org/10.1145/3764113",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Generative AI and cybersecurity: Exploring opportunities and threats at their intersection",
+        "url": "https://openalex.org/W4414092634",
+        "pdf_url": "https://mab-online.nl/article/149299/download/pdf/",
+        "doi_url": "https://doi.org/10.5117/mab.99.149299",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Addressing Trust Requirements in the Design of an Open-Source Multi-Agent LLM-Based Domain-Specific Chatbot",
+        "url": "https://openalex.org/W4414150840",
+        "pdf_url": "https://www.researchsquare.com/article/rs-7494256/latest.pdf",
+        "doi_url": "https://doi.org/10.21203/rs.3.rs-7494256/v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Global Risk Index for AI-enabled Biological Tools (Public Report)",
+        "url": "https://openalex.org/W4414146644",
+        "pdf_url": "https://www.longtermresilience.org/wp-content/uploads/2025/09/Global-Risk-Index-for-AI-enabled-Biological-Tools_Public-Report-1.pdf",
+        "doi_url": "https://doi.org/10.71172/wjyw-6dyc",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Forbidden second harmonics in centrosymmetric bilayer crystals",
+        "url": "http://arxiv.org/abs/2601.08830v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08830v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Modeling LLM Agent Reviewer Dynamics in Elo-Ranked Review System",
+        "url": "http://arxiv.org/abs/2601.08829v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08829v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Motion Attribution for Video Generation",
+        "url": "http://arxiv.org/abs/2601.08828v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08828v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "The Quantum Complexity of String Breaking in the Schwinger Model",
+        "url": "http://arxiv.org/abs/2601.08825v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08825v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Breaking the Orthogonality Barrier in Quantum LDPC Codes",
+        "url": "http://arxiv.org/abs/2601.08824v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08824v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Differential observables for the Higgs-strahlung process to all orders in EFT",
+        "url": "http://arxiv.org/abs/2601.08821v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08821v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Older Adults' Preferences for Feedback Cadence from an Exercise Coach Robot",
+        "url": "http://arxiv.org/abs/2601.08819v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08819v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Reasoning Matters for 3D Visual Grounding",
+        "url": "http://arxiv.org/abs/2601.08811v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08811v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Quantum Heegaard diagrams and knot Floer Homology",
+        "url": "http://arxiv.org/abs/2601.08805v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08805v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "MixServe: An Automatic Distributed Serving System for MoE Models with Hybrid Parallelism Based on Fused Communication Algorithm",
+        "url": "http://arxiv.org/abs/2601.08800v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08800v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Collapse of statistical equilibrium in large-scale hydroelastic turbulent waves",
+        "url": "http://arxiv.org/abs/2601.08799v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08799v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Near-perfect photo-ID of the Hula painted frog with zero-shot deep local-feature matching",
+        "url": "http://arxiv.org/abs/2601.08798v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08798v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Black hole entropy from the quantum atmosphere of bound gravitational fluctuations",
+        "url": "http://arxiv.org/abs/2601.08794v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08794v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Universal Transport Theory for Paired Fractional Quantum Hall States in the Quantum Point Contact Geometry",
+        "url": "http://arxiv.org/abs/2601.08792v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08792v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "A precessing jet from an active galactic nucleus drives gas outflow from a disk galaxy",
+        "url": "http://arxiv.org/abs/2601.08791v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08791v1",
+        "doi_url": "https://doi.org/10.1126/science.adp8989",
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Aggregating Diverse Cue Experts for AI-Generated Image Detection",
+        "url": "http://arxiv.org/abs/2601.08790v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08790v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Uncovering Political Bias in Large Language Models using Parliamentary Voting Records",
+        "url": "http://arxiv.org/abs/2601.08785v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08785v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Bayesian umbrella quadrature accelerates free-energy calculations across diverse molecular systems and processes",
+        "url": "http://arxiv.org/abs/2601.08783v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08783v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Fast and explainable clustering in the Manhattan and Tanimoto distance",
+        "url": "http://arxiv.org/abs/2601.08781v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08781v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Asymptotic Universal Alignment: A New Alignment Framework via Test-Time Scaling",
+        "url": "http://arxiv.org/abs/2601.08777v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08777v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Reliable Graph-RAG for Codebases: AST-Derived Graphs vs LLM-Extracted Knowledge Graphs",
+        "url": "http://arxiv.org/abs/2601.08773v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08773v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Memory DisOrder: Memory Re-orderings as a Timerless Side-channel",
+        "url": "http://arxiv.org/abs/2601.08770v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08770v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Majority-Logic Decoding of Binary Locally Recoverable Codes: A Probabilistic Analysis",
+        "url": "http://arxiv.org/abs/2601.08765v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08765v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Rewarding the Rare: Uniqueness-Aware RL for Creative Problem Solving in LLMs",
+        "url": "http://arxiv.org/abs/2601.08763v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08763v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Adaptive Requesting in Decentralized Edge Networks via Non-Stationary Bandits",
+        "url": "http://arxiv.org/abs/2601.08760v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08760v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      }
+    ],
+    "by_source": {
+      "openalex": [
+        {
+          "title": "Reason2Decide: Rationale-Driven Multi-Task Learning",
+          "url": "https://openalex.org/W7117277561",
+          "pdf_url": "https://arxiv.org/pdf/2512.20074",
+          "doi_url": null,
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Rectify Evaluation Preference: Improving LLMs' Critique on Math Reasoning via Perplexity-aware Reinforcement Learning",
+          "url": "https://openalex.org/W4416238887",
+          "pdf_url": "https://arxiv.org/pdf/2511.10303",
+          "doi_url": "https://doi.org/10.48550/arxiv.2511.10303",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "To Judge or Not to Judge: Using LLM Judgements for Advertiser Keyphrase Relevance at eBay",
+          "url": "https://openalex.org/W4415427426",
+          "pdf_url": "https://doi.org/10.3233/faia251471",
+          "doi_url": "https://doi.org/10.3233/faia251471",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Internet of Agents: Fundamentals, Applications, and Challenges",
+          "url": "https://openalex.org/W4415368556",
+          "pdf_url": "https://arxiv.org/pdf/2505.07176",
+          "doi_url": "https://doi.org/10.1109/tccn.2025.3623369",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "NoteIt: A System Converting Instructional Videos to Interactable Notes Through Multimodal Video Understanding",
+          "url": "https://openalex.org/W4415239351",
+          "pdf_url": "https://arxiv.org/pdf/2508.14395",
+          "doi_url": "https://doi.org/10.1145/3746059.3747626",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "An Innovative Retrieval-Augmented Generation Framework for Stage-Specific Knowledge Translation in Biomimicry Design",
+          "url": "https://openalex.org/W4414283556",
+          "pdf_url": "https://www.mdpi.com/2313-7673/10/9/626/pdf?version=1758108308",
+          "doi_url": "https://doi.org/10.3390/biomimetics10090626",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Automated Summarization of Software Documents: An LLM-based Multi-Agent Approach",
+          "url": "https://openalex.org/W4414280973",
+          "pdf_url": "https://www.researchsquare.com/article/rs-7539426/latest.pdf",
+          "doi_url": "https://doi.org/10.21203/rs.3.rs-7539426/v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Dynamic adaptive algorithms in personalized literacy interventions: A data-driven analysis of vocabulary development outcomes",
+          "url": "https://openalex.org/W4414295341",
+          "pdf_url": "https://www.j-psp.com/download/dynamic-adaptive-algorithms-in-personalized-literacy-interventions-a-data-driven-analysis-of-17079.pdf",
+          "doi_url": "https://doi.org/10.33902/jpsp.202535544",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Synergy, Not Substitution. Responsible Human–AI Collaboration in Academic Research",
+          "url": "https://openalex.org/W4414304371",
+          "pdf_url": "https://www.preprints.org/frontend/manuscript/ac206910004ffc4e20ac3548ffc47ed4/download_pub",
+          "doi_url": "https://doi.org/10.20944/preprints202509.1249.v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Qualitative Research in an Era of AI: A Pragmatic Approach to Data Analysis, Workflow, and Computation",
+          "url": "https://openalex.org/W4414229989",
+          "pdf_url": "https://osf.io/7bsgy_v1/download",
+          "doi_url": "https://doi.org/10.31235/osf.io/7bsgy_v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Frontier AI Safety Confidence Evaluate",
+          "url": "https://openalex.org/W4414240222",
+          "pdf_url": "https://www.cambridge.org/engage/api-gateway/coe/assets/orp/resource/item/68bbf625728bf9025ebb3dcc/original/frontier-ai-safety-confidence-evaluate.pdf",
+          "doi_url": "https://doi.org/10.33774/coe-2025-rhlbg",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Evaluating Dense Model-based Approaches for Multimodal Medical Case Retrieval",
+          "url": "https://openalex.org/W4414257648",
+          "pdf_url": "https://irrj.org/article/download/19769/25855",
+          "doi_url": "https://doi.org/10.54195/irrj.19769",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Justices on Autopilot: Thinking-Fast Evidence from State Supreme Court Oral Arguments",
+          "url": "https://openalex.org/W4414183555",
+          "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/92ED7B24AF3CC9A2F98D017A1C86D3EE/S2164657025100089a.pdf/div-class-title-justices-on-autopilot-thinking-fast-evidence-from-state-supreme-court-oral-arguments-div.pdf",
+          "doi_url": "https://doi.org/10.1017/jlc.2025.10008",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Large Language Model Agents for Biomedicine: A Comprehensive Review of Methods, Evaluations, Challenges, and Future Directions",
+          "url": "https://openalex.org/W4414199736",
+          "pdf_url": "https://www.authorea.com/doi/pdf/10.22541/au.175795684.47167615/v1",
+          "doi_url": "https://doi.org/10.22541/au.175795684.47167615/v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "GenRL FinTech: Supporting the Risk Management Process through Reinforcement Intelligence",
+          "url": "https://openalex.org/W4414202539",
+          "pdf_url": "https://www.researchsquare.com/article/rs-7190065/latest.pdf",
+          "doi_url": "https://doi.org/10.21203/rs.3.rs-7190065/v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "How Binding Is Administrative Guidance? An Empirical Study of Guidance, Rules, and the Courts Telling Them Apart",
+          "url": "https://openalex.org/W4414253005",
+          "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jels.70009",
+          "doi_url": "https://doi.org/10.1111/jels.70009",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "From Black Hole Thermodynamics to Provably Reliable AI: The Geometrically Constrained ISI-ERA Architecture",
+          "url": "https://openalex.org/W4414122594",
+          "pdf_url": "https://osf.io/fq9hs_v1/download",
+          "doi_url": "https://doi.org/10.31219/osf.io/fq9hs_v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "The Five Ws of Multi-Agent Communication: Who Talks to Whom, When, What, and Why - A Survey from MARL to Emergent Language and LLMs",
+          "url": "https://openalex.org/W4414123240",
+          "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175760290.08279849/v1",
+          "doi_url": "https://doi.org/10.36227/techrxiv.175760290.08279849/v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Explainable Surgical Procedures Recommender System Leveraging Large Language Models",
+          "url": "https://openalex.org/W4414128177",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3767326",
+          "doi_url": "https://doi.org/10.1145/3767326",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Unique Security and Privacy Threats of Large Language Models: A Comprehensive Survey",
+          "url": "https://openalex.org/W4414128359",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3764113",
+          "doi_url": "https://doi.org/10.1145/3764113",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Generative AI and cybersecurity: Exploring opportunities and threats at their intersection",
+          "url": "https://openalex.org/W4414092634",
+          "pdf_url": "https://mab-online.nl/article/149299/download/pdf/",
+          "doi_url": "https://doi.org/10.5117/mab.99.149299",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Addressing Trust Requirements in the Design of an Open-Source Multi-Agent LLM-Based Domain-Specific Chatbot",
+          "url": "https://openalex.org/W4414150840",
+          "pdf_url": "https://www.researchsquare.com/article/rs-7494256/latest.pdf",
+          "doi_url": "https://doi.org/10.21203/rs.3.rs-7494256/v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Global Risk Index for AI-enabled Biological Tools (Public Report)",
+          "url": "https://openalex.org/W4414146644",
+          "pdf_url": "https://www.longtermresilience.org/wp-content/uploads/2025/09/Global-Risk-Index-for-AI-enabled-Biological-Tools_Public-Report-1.pdf",
+          "doi_url": "https://doi.org/10.71172/wjyw-6dyc",
+          "source": "openalex",
+          "year": 2025
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "Forbidden second harmonics in centrosymmetric bilayer crystals",
+          "url": "http://arxiv.org/abs/2601.08830v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08830v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Modeling LLM Agent Reviewer Dynamics in Elo-Ranked Review System",
+          "url": "http://arxiv.org/abs/2601.08829v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08829v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Motion Attribution for Video Generation",
+          "url": "http://arxiv.org/abs/2601.08828v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08828v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "The Quantum Complexity of String Breaking in the Schwinger Model",
+          "url": "http://arxiv.org/abs/2601.08825v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08825v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Breaking the Orthogonality Barrier in Quantum LDPC Codes",
+          "url": "http://arxiv.org/abs/2601.08824v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08824v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Differential observables for the Higgs-strahlung process to all orders in EFT",
+          "url": "http://arxiv.org/abs/2601.08821v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08821v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Older Adults' Preferences for Feedback Cadence from an Exercise Coach Robot",
+          "url": "http://arxiv.org/abs/2601.08819v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08819v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Reasoning Matters for 3D Visual Grounding",
+          "url": "http://arxiv.org/abs/2601.08811v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08811v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Quantum Heegaard diagrams and knot Floer Homology",
+          "url": "http://arxiv.org/abs/2601.08805v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08805v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "MixServe: An Automatic Distributed Serving System for MoE Models with Hybrid Parallelism Based on Fused Communication Algorithm",
+          "url": "http://arxiv.org/abs/2601.08800v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08800v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Collapse of statistical equilibrium in large-scale hydroelastic turbulent waves",
+          "url": "http://arxiv.org/abs/2601.08799v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08799v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Near-perfect photo-ID of the Hula painted frog with zero-shot deep local-feature matching",
+          "url": "http://arxiv.org/abs/2601.08798v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08798v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Black hole entropy from the quantum atmosphere of bound gravitational fluctuations",
+          "url": "http://arxiv.org/abs/2601.08794v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08794v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Universal Transport Theory for Paired Fractional Quantum Hall States in the Quantum Point Contact Geometry",
+          "url": "http://arxiv.org/abs/2601.08792v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08792v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "A precessing jet from an active galactic nucleus drives gas outflow from a disk galaxy",
+          "url": "http://arxiv.org/abs/2601.08791v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08791v1",
+          "doi_url": "https://doi.org/10.1126/science.adp8989",
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Aggregating Diverse Cue Experts for AI-Generated Image Detection",
+          "url": "http://arxiv.org/abs/2601.08790v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08790v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Uncovering Political Bias in Large Language Models using Parliamentary Voting Records",
+          "url": "http://arxiv.org/abs/2601.08785v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08785v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Bayesian umbrella quadrature accelerates free-energy calculations across diverse molecular systems and processes",
+          "url": "http://arxiv.org/abs/2601.08783v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08783v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Fast and explainable clustering in the Manhattan and Tanimoto distance",
+          "url": "http://arxiv.org/abs/2601.08781v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08781v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Asymptotic Universal Alignment: A New Alignment Framework via Test-Time Scaling",
+          "url": "http://arxiv.org/abs/2601.08777v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08777v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Reliable Graph-RAG for Codebases: AST-Derived Graphs vs LLM-Extracted Knowledge Graphs",
+          "url": "http://arxiv.org/abs/2601.08773v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08773v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Memory DisOrder: Memory Re-orderings as a Timerless Side-channel",
+          "url": "http://arxiv.org/abs/2601.08770v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08770v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Majority-Logic Decoding of Binary Locally Recoverable Codes: A Probabilistic Analysis",
+          "url": "http://arxiv.org/abs/2601.08765v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08765v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Rewarding the Rare: Uniqueness-Aware RL for Creative Problem Solving in LLMs",
+          "url": "http://arxiv.org/abs/2601.08763v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08763v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Adaptive Requesting in Decentralized Edge Networks via Non-Stationary Bandits",
+          "url": "http://arxiv.org/abs/2601.08760v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08760v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Reason2Decide: Rationale-Driven Multi-Task Learning",
+        "pdf": "https://arxiv.org/pdf/2512.20074"
+      },
+      {
+        "title": "Rectify Evaluation Preference: Improving LLMs' Critique on Math Reasoning via Perplexity-aware Reinforcement Learning",
+        "pdf": "https://arxiv.org/pdf/2511.10303"
+      },
+      {
+        "title": "To Judge or Not to Judge: Using LLM Judgements for Advertiser Keyphrase Relevance at eBay",
+        "pdf": "https://doi.org/10.3233/faia251471"
+      },
+      {
+        "title": "Internet of Agents: Fundamentals, Applications, and Challenges",
+        "pdf": "https://arxiv.org/pdf/2505.07176"
+      },
+      {
+        "title": "NoteIt: A System Converting Instructional Videos to Interactable Notes Through Multimodal Video Understanding",
+        "pdf": "https://arxiv.org/pdf/2508.14395"
+      },
+      {
+        "title": "An Innovative Retrieval-Augmented Generation Framework for Stage-Specific Knowledge Translation in Biomimicry Design",
+        "pdf": "https://www.mdpi.com/2313-7673/10/9/626/pdf?version=1758108308"
+      },
+      {
+        "title": "Automated Summarization of Software Documents: An LLM-based Multi-Agent Approach",
+        "pdf": "https://www.researchsquare.com/article/rs-7539426/latest.pdf"
+      },
+      {
+        "title": "Dynamic adaptive algorithms in personalized literacy interventions: A data-driven analysis of vocabulary development outcomes",
+        "pdf": "https://www.j-psp.com/download/dynamic-adaptive-algorithms-in-personalized-literacy-interventions-a-data-driven-analysis-of-17079.pdf"
+      },
+      {
+        "title": "Synergy, Not Substitution. Responsible Human–AI Collaboration in Academic Research",
+        "pdf": "https://www.preprints.org/frontend/manuscript/ac206910004ffc4e20ac3548ffc47ed4/download_pub"
+      },
+      {
+        "title": "Qualitative Research in an Era of AI: A Pragmatic Approach to Data Analysis, Workflow, and Computation",
+        "pdf": "https://osf.io/7bsgy_v1/download"
+      },
+      {
+        "title": "Frontier AI Safety Confidence Evaluate",
+        "pdf": "https://www.cambridge.org/engage/api-gateway/coe/assets/orp/resource/item/68bbf625728bf9025ebb3dcc/original/frontier-ai-safety-confidence-evaluate.pdf"
+      },
+      {
+        "title": "Evaluating Dense Model-based Approaches for Multimodal Medical Case Retrieval",
+        "pdf": "https://irrj.org/article/download/19769/25855"
+      },
+      {
+        "title": "Justices on Autopilot: Thinking-Fast Evidence from State Supreme Court Oral Arguments",
+        "pdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/92ED7B24AF3CC9A2F98D017A1C86D3EE/S2164657025100089a.pdf/div-class-title-justices-on-autopilot-thinking-fast-evidence-from-state-supreme-court-oral-arguments-div.pdf"
+      },
+      {
+        "title": "Large Language Model Agents for Biomedicine: A Comprehensive Review of Methods, Evaluations, Challenges, and Future Directions",
+        "pdf": "https://www.authorea.com/doi/pdf/10.22541/au.175795684.47167615/v1"
+      },
+      {
+        "title": "GenRL FinTech: Supporting the Risk Management Process through Reinforcement Intelligence",
+        "pdf": "https://www.researchsquare.com/article/rs-7190065/latest.pdf"
+      },
+      {
+        "title": "How Binding Is Administrative Guidance? An Empirical Study of Guidance, Rules, and the Courts Telling Them Apart",
+        "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jels.70009"
+      },
+      {
+        "title": "From Black Hole Thermodynamics to Provably Reliable AI: The Geometrically Constrained ISI-ERA Architecture",
+        "pdf": "https://osf.io/fq9hs_v1/download"
+      },
+      {
+        "title": "The Five Ws of Multi-Agent Communication: Who Talks to Whom, When, What, and Why - A Survey from MARL to Emergent Language and LLMs",
+        "pdf": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175760290.08279849/v1"
+      },
+      {
+        "title": "Explainable Surgical Procedures Recommender System Leveraging Large Language Models",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3767326"
+      },
+      {
+        "title": "Unique Security and Privacy Threats of Large Language Models: A Comprehensive Survey",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3764113"
+      },
+      {
+        "title": "Generative AI and cybersecurity: Exploring opportunities and threats at their intersection",
+        "pdf": "https://mab-online.nl/article/149299/download/pdf/"
+      },
+      {
+        "title": "Addressing Trust Requirements in the Design of an Open-Source Multi-Agent LLM-Based Domain-Specific Chatbot",
+        "pdf": "https://www.researchsquare.com/article/rs-7494256/latest.pdf"
+      },
+      {
+        "title": "Global Risk Index for AI-enabled Biological Tools (Public Report)",
+        "pdf": "https://www.longtermresilience.org/wp-content/uploads/2025/09/Global-Risk-Index-for-AI-enabled-Biological-Tools_Public-Report-1.pdf"
+      },
+      {
+        "title": "Forbidden second harmonics in centrosymmetric bilayer crystals",
+        "pdf": "https://arxiv.org/pdf/2601.08830v1"
+      },
+      {
+        "title": "Modeling LLM Agent Reviewer Dynamics in Elo-Ranked Review System",
+        "pdf": "https://arxiv.org/pdf/2601.08829v1"
+      },
+      {
+        "title": "Motion Attribution for Video Generation",
+        "pdf": "https://arxiv.org/pdf/2601.08828v1"
+      },
+      {
+        "title": "The Quantum Complexity of String Breaking in the Schwinger Model",
+        "pdf": "https://arxiv.org/pdf/2601.08825v1"
+      },
+      {
+        "title": "Breaking the Orthogonality Barrier in Quantum LDPC Codes",
+        "pdf": "https://arxiv.org/pdf/2601.08824v1"
+      },
+      {
+        "title": "Differential observables for the Higgs-strahlung process to all orders in EFT",
+        "pdf": "https://arxiv.org/pdf/2601.08821v1"
+      },
+      {
+        "title": "Older Adults' Preferences for Feedback Cadence from an Exercise Coach Robot",
+        "pdf": "https://arxiv.org/pdf/2601.08819v1"
+      },
+      {
+        "title": "Reasoning Matters for 3D Visual Grounding",
+        "pdf": "https://arxiv.org/pdf/2601.08811v1"
+      },
+      {
+        "title": "Quantum Heegaard diagrams and knot Floer Homology",
+        "pdf": "https://arxiv.org/pdf/2601.08805v1"
+      },
+      {
+        "title": "MixServe: An Automatic Distributed Serving System for MoE Models with Hybrid Parallelism Based on Fused Communication Algorithm",
+        "pdf": "https://arxiv.org/pdf/2601.08800v1"
+      },
+      {
+        "title": "Collapse of statistical equilibrium in large-scale hydroelastic turbulent waves",
+        "pdf": "https://arxiv.org/pdf/2601.08799v1"
+      },
+      {
+        "title": "Near-perfect photo-ID of the Hula painted frog with zero-shot deep local-feature matching",
+        "pdf": "https://arxiv.org/pdf/2601.08798v1"
+      },
+      {
+        "title": "Black hole entropy from the quantum atmosphere of bound gravitational fluctuations",
+        "pdf": "https://arxiv.org/pdf/2601.08794v1"
+      },
+      {
+        "title": "Universal Transport Theory for Paired Fractional Quantum Hall States in the Quantum Point Contact Geometry",
+        "pdf": "https://arxiv.org/pdf/2601.08792v1"
+      },
+      {
+        "title": "A precessing jet from an active galactic nucleus drives gas outflow from a disk galaxy",
+        "pdf": "https://arxiv.org/pdf/2601.08791v1"
+      },
+      {
+        "title": "Aggregating Diverse Cue Experts for AI-Generated Image Detection",
+        "pdf": "https://arxiv.org/pdf/2601.08790v1"
+      },
+      {
+        "title": "Uncovering Political Bias in Large Language Models using Parliamentary Voting Records",
+        "pdf": "https://arxiv.org/pdf/2601.08785v1"
+      },
+      {
+        "title": "Bayesian umbrella quadrature accelerates free-energy calculations across diverse molecular systems and processes",
+        "pdf": "https://arxiv.org/pdf/2601.08783v1"
+      },
+      {
+        "title": "Fast and explainable clustering in the Manhattan and Tanimoto distance",
+        "pdf": "https://arxiv.org/pdf/2601.08781v1"
+      },
+      {
+        "title": "Asymptotic Universal Alignment: A New Alignment Framework via Test-Time Scaling",
+        "pdf": "https://arxiv.org/pdf/2601.08777v1"
+      },
+      {
+        "title": "Reliable Graph-RAG for Codebases: AST-Derived Graphs vs LLM-Extracted Knowledge Graphs",
+        "pdf": "https://arxiv.org/pdf/2601.08773v1"
+      },
+      {
+        "title": "Memory DisOrder: Memory Re-orderings as a Timerless Side-channel",
+        "pdf": "https://arxiv.org/pdf/2601.08770v1"
+      },
+      {
+        "title": "Majority-Logic Decoding of Binary Locally Recoverable Codes: A Probabilistic Analysis",
+        "pdf": "https://arxiv.org/pdf/2601.08765v1"
+      },
+      {
+        "title": "Rewarding the Rare: Uniqueness-Aware RL for Creative Problem Solving in LLMs",
+        "pdf": "https://arxiv.org/pdf/2601.08763v1"
+      },
+      {
+        "title": "Adaptive Requesting in Decentralized Edge Networks via Non-Stationary Bandits",
+        "pdf": "https://arxiv.org/pdf/2601.08760v1"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "Rectify Evaluation Preference: Improving LLMs' Critique on Math Reasoning via Perplexity-aware Reinforcement Learning",
+        "doi": "https://doi.org/10.48550/arxiv.2511.10303"
+      },
+      {
+        "title": "To Judge or Not to Judge: Using LLM Judgements for Advertiser Keyphrase Relevance at eBay",
+        "doi": "https://doi.org/10.3233/faia251471"
+      },
+      {
+        "title": "Internet of Agents: Fundamentals, Applications, and Challenges",
+        "doi": "https://doi.org/10.1109/tccn.2025.3623369"
+      },
+      {
+        "title": "NoteIt: A System Converting Instructional Videos to Interactable Notes Through Multimodal Video Understanding",
+        "doi": "https://doi.org/10.1145/3746059.3747626"
+      },
+      {
+        "title": "An Innovative Retrieval-Augmented Generation Framework for Stage-Specific Knowledge Translation in Biomimicry Design",
+        "doi": "https://doi.org/10.3390/biomimetics10090626"
+      },
+      {
+        "title": "Automated Summarization of Software Documents: An LLM-based Multi-Agent Approach",
+        "doi": "https://doi.org/10.21203/rs.3.rs-7539426/v1"
+      },
+      {
+        "title": "Dynamic adaptive algorithms in personalized literacy interventions: A data-driven analysis of vocabulary development outcomes",
+        "doi": "https://doi.org/10.33902/jpsp.202535544"
+      },
+      {
+        "title": "Synergy, Not Substitution. Responsible Human–AI Collaboration in Academic Research",
+        "doi": "https://doi.org/10.20944/preprints202509.1249.v1"
+      },
+      {
+        "title": "Qualitative Research in an Era of AI: A Pragmatic Approach to Data Analysis, Workflow, and Computation",
+        "doi": "https://doi.org/10.31235/osf.io/7bsgy_v1"
+      },
+      {
+        "title": "Frontier AI Safety Confidence Evaluate",
+        "doi": "https://doi.org/10.33774/coe-2025-rhlbg"
+      },
+      {
+        "title": "Evaluating Dense Model-based Approaches for Multimodal Medical Case Retrieval",
+        "doi": "https://doi.org/10.54195/irrj.19769"
+      },
+      {
+        "title": "Justices on Autopilot: Thinking-Fast Evidence from State Supreme Court Oral Arguments",
+        "doi": "https://doi.org/10.1017/jlc.2025.10008"
+      },
+      {
+        "title": "Large Language Model Agents for Biomedicine: A Comprehensive Review of Methods, Evaluations, Challenges, and Future Directions",
+        "doi": "https://doi.org/10.22541/au.175795684.47167615/v1"
+      },
+      {
+        "title": "GenRL FinTech: Supporting the Risk Management Process through Reinforcement Intelligence",
+        "doi": "https://doi.org/10.21203/rs.3.rs-7190065/v1"
+      },
+      {
+        "title": "How Binding Is Administrative Guidance? An Empirical Study of Guidance, Rules, and the Courts Telling Them Apart",
+        "doi": "https://doi.org/10.1111/jels.70009"
+      },
+      {
+        "title": "From Black Hole Thermodynamics to Provably Reliable AI: The Geometrically Constrained ISI-ERA Architecture",
+        "doi": "https://doi.org/10.31219/osf.io/fq9hs_v1"
+      },
+      {
+        "title": "The Five Ws of Multi-Agent Communication: Who Talks to Whom, When, What, and Why - A Survey from MARL to Emergent Language and LLMs",
+        "doi": "https://doi.org/10.36227/techrxiv.175760290.08279849/v1"
+      },
+      {
+        "title": "Explainable Surgical Procedures Recommender System Leveraging Large Language Models",
+        "doi": "https://doi.org/10.1145/3767326"
+      },
+      {
+        "title": "Unique Security and Privacy Threats of Large Language Models: A Comprehensive Survey",
+        "doi": "https://doi.org/10.1145/3764113"
+      },
+      {
+        "title": "Generative AI and cybersecurity: Exploring opportunities and threats at their intersection",
+        "doi": "https://doi.org/10.5117/mab.99.149299"
+      },
+      {
+        "title": "Addressing Trust Requirements in the Design of an Open-Source Multi-Agent LLM-Based Domain-Specific Chatbot",
+        "doi": "https://doi.org/10.21203/rs.3.rs-7494256/v1"
+      },
+      {
+        "title": "Global Risk Index for AI-enabled Biological Tools (Public Report)",
+        "doi": "https://doi.org/10.71172/wjyw-6dyc"
+      },
+      {
+        "title": "A precessing jet from an active galactic nucleus drives gas outflow from a disk galaxy",
+        "doi": "https://doi.org/10.1126/science.adp8989"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "LLMs as judges in fine-tuning processes of other LLMs",
+    "total_steps": 2,
+    "last_updated": "2026-01-15T03:16:28.536478",
+    "started_at": "2026-01-15T03:15:50.432699",
+    "total_papers": 48
+  }
+}

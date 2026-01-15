@@ -1,0 +1,63 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-08T15:58:24.644261",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM in petrophysics'",
+      "result_preview": "Found 0 papers",
+      "details": {
+        "query": "LLM in petrophysics",
+        "sources": [
+          "all"
+        ],
+        "papers_found": 0,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 0
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-01-08T15:58:26.184730",
+      "agent": "online_search_agent",
+      "action": "Online search: 'Reservoir evaluation with LLMs'",
+      "result_preview": "Found 0 papers",
+      "details": {
+        "query": "Reservoir evaluation with LLMs",
+        "sources": [
+          "all"
+        ],
+        "papers_found": 0,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 0
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-01-08T15:58:27.930202",
+      "agent": "online_search_agent",
+      "action": "Online search: 'LLM-based RAG for petrophysical data synthesis'",
+      "result_preview": "Found 0 papers",
+      "details": {
+        "query": "LLM-based RAG for petrophysical data synthesis",
+        "sources": [
+          "all"
+        ],
+        "papers_found": 0,
+        "papers_added": 0,
+        "retrieval_metrics": {}
+      },
+      "papers_count": 0
+    }
+  ],
+  "current_step": 3,
+  "metadata": {
+    "query": "LLM-based RAG for petrophysical data synthesis",
+    "total_steps": 3,
+    "last_updated": "2026-01-08T15:58:27.935850",
+    "started_at": "2026-01-08T15:56:24.288510",
+    "total_papers": 0
+  }
+}

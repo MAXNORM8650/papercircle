@@ -1,0 +1,1301 @@
+{
+  "links": {
+    "papers": [
+      {
+        "title": "Igniting Creative Writing in Small Language Models: LLM-as-a-Judge versus Multi-Agent Refined Rewards",
+        "url": "https://www.semanticscholar.org/paper/d8f8557e5fb3bb90acf576b36ac5165af0746c6c",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2508.21476",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences",
+        "url": "https://www.semanticscholar.org/paper/d06e65f74715e071678bf8ccdcf9d52004a10280",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3736407",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "One Token to Fool LLM-as-a-Judge",
+        "url": "https://www.semanticscholar.org/paper/6478c185582f5e48c54677c683a9297ff2916118",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2507.08794",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Instruction Tuned Large Language Models for Assisting Brain Surgery Through Procedural Alignment and Decision Support Using PPO Reinforcement Learning",
+        "url": "https://www.semanticscholar.org/paper/23d896f416f1c2f84936bef56a18dd80d56006d4",
+        "pdf_url": "https://doi.org/10.52783/jns.v14.2918",
+        "doi_url": "https://doi.org/10.52783/jns.v14.2918",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "MindChat-R0: A Large Language Model for Emotionally Supportive Dialogue through Reinforcement Learning",
+        "url": "https://www.semanticscholar.org/paper/cc7f63f319442d140c559d2d4276330bda1f1ea8",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3714394.3756244",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "LAPP: Large Language Model Feedback for Preference-Driven Reinforcement Learning",
+        "url": "https://www.semanticscholar.org/paper/6aaf724155768b31cc29eeda2e16cc4098d05e89",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2504.15472",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Agents of Diffusion: Enhancing Diffusion Language Models with Multi-Agent Reinforcement Learning for Structured Data Generation (Extended Version)",
+        "url": "https://www.semanticscholar.org/paper/d6bdde81a923c255184f232c9d8d616c6ab6bc2d",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2026
+      },
+      {
+        "title": "A Survey of Process Reward Models: From Outcome Signals to Process Supervisions for Large Language Models",
+        "url": "https://www.semanticscholar.org/paper/b670078b724938874a233687b5c53848df527a60",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2510.08049",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Any Large Language Model Can Be a Reliable Judge: Debiasing with a Reasoning-based Bias Detector",
+        "url": "https://www.semanticscholar.org/paper/63dd639354d5a73e6d4005fed783dcd4ce8b916a",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.17100",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "SmallPlan: Leverage Small Language Models for Sequential Path Planning with Simulation-Powered, LLM-Guided Distillation",
+        "url": "https://www.semanticscholar.org/paper/cfc47e50d2100075749b26e4a5ca71d4cbf91827",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2505.00831",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Hard Negative Sample-Augmented DPO Post-Training for Small Language Models",
+        "url": "https://www.semanticscholar.org/paper/44d73eeab5e6a7e3960af4db08ab451c75758603",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "MedGRPO: Multi-Task Reinforcement Learning for Heterogeneous Medical Video Understanding",
+        "url": "https://www.semanticscholar.org/paper/2b6882a04f0e8cbf22176c5a104c8f77f8dc67e8",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Ask a Strong LLM Judge when Your Reward Model is Uncertain",
+        "url": "https://www.semanticscholar.org/paper/e43f9e5479ff63a7445c6c133f9fbeac45167ebd",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2510.20369",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "AugmenToxic: Leveraging Reinforcement Learning to Optimize LLM Instruction Fine-Tuning for Data Augmentation to Enhance Toxicity Detection",
+        "url": "https://www.semanticscholar.org/paper/b662c5f269ab64f164efcd6a4f6f9aae693f16ff",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.1145/3700791",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "REvolve: Reward Evolution with Large Language Models for Autonomous Driving",
+        "url": "https://www.semanticscholar.org/paper/bcf2bd95a6f60dd2998b57c26873d31461011e8d",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2406.01309",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "AI-Salesman: Towards Reliable Large Language Model Driven Telemarketing",
+        "url": "https://www.semanticscholar.org/paper/74aae8855aadf81501c5e1d85b90519f6850dec4",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2511.12133",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "REvolve: Reward Evolution with Large Language Models using Human Feedback",
+        "url": "https://www.semanticscholar.org/paper/54c4f894d41095b18294932c0ee8c39ffe3c0ac1",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "Personalisation within bounds: A risk taxonomy and policy framework for the alignment of large language models with personalised feedback",
+        "url": "https://www.semanticscholar.org/paper/e5174aeda1baa67c17f4ac630ae2e44453954cc3",
+        "pdf_url": "http://arxiv.org/pdf/2303.05453",
+        "doi_url": "https://doi.org/10.48550/arXiv.2303.05453",
+        "source": "semantic_scholar",
+        "year": 2023
+      },
+      {
+        "title": "Plan Then Retrieve: Reinforcement Learning-Guided Complex Reasoning over Knowledge Graphs",
+        "url": "https://www.semanticscholar.org/paper/ecadd4ca2ed73bb33a063947cc342183644bfd82",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2510.20691",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "RLSR: Reinforcement Learning from Self Reward",
+        "url": "https://www.semanticscholar.org/paper/4ba61fe913c00a666a8a97de7b48989ba9ed1564",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Structured Uncertainty guided Clarification for LLM Agents",
+        "url": "https://www.semanticscholar.org/paper/18137165c58657a515e73d10a27e8b3f44dce554",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2511.08798",
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "An LLM-based Recommender System Environment",
+        "url": "https://www.semanticscholar.org/paper/5195b73c54d79ebecb26b547ec2c32b2b11ce194",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.48550/arXiv.2406.01631",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "ENCORE: Entropy-guided Reward Composition for Multi-head Safety Reward Models",
+        "url": "https://www.semanticscholar.org/paper/4d76d602d913852327d576b0af92ae4ed0ca1d2f",
+        "pdf_url": "",
+        "doi_url": null,
+        "source": "semantic_scholar",
+        "year": 2025
+      },
+      {
+        "title": "Dynamic Uncertainty Ranking: Enhancing Retrieval-Augmented In-Context Learning for Long-Tail Knowledge in LLMs",
+        "url": "https://www.semanticscholar.org/paper/939f58bfa4c12dbd10d0cb4d6185bf125451c169",
+        "pdf_url": "",
+        "doi_url": "https://doi.org/10.18653/v1/2025.naacl-long.453",
+        "source": "semantic_scholar",
+        "year": 2024
+      },
+      {
+        "title": "A Scientific Reasoning Model for Organic Synthesis Procedure Generation",
+        "url": "https://openalex.org/W4417460396",
+        "pdf_url": "https://arxiv.org/pdf/2512.13668",
+        "doi_url": "https://doi.org/10.48550/arxiv.2512.13668",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Internet of Agents: Fundamentals, Applications, and Challenges",
+        "url": "https://openalex.org/W4415368556",
+        "pdf_url": "https://arxiv.org/pdf/2505.07176",
+        "doi_url": "https://doi.org/10.1109/tccn.2025.3623369",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "JudgeSQL: Reasoning over SQL Candidates with Weighted Consensus Tournament",
+        "url": "https://openalex.org/W4415882142",
+        "pdf_url": "https://arxiv.org/pdf/2510.15560",
+        "doi_url": "https://doi.org/10.48550/arxiv.2510.15560",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "InfiMed-ORBIT: Aligning LLMs on Open-Ended Complex Tasks via Rubric-Based Incremental Training",
+        "url": "https://openalex.org/W4415886192",
+        "pdf_url": "https://arxiv.org/pdf/2510.15859",
+        "doi_url": "https://doi.org/10.48550/arxiv.2510.15859",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "ReSeek: A Self-Correcting Framework for Search Agents with Instructive Rewards",
+        "url": "https://openalex.org/W4414808182",
+        "pdf_url": "https://arxiv.org/pdf/2510.00568",
+        "doi_url": "https://doi.org/10.48550/arxiv.2510.00568",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Checking Medical Process Conformance by Exploiting LLMs",
+        "url": "https://openalex.org/W4414340659",
+        "pdf_url": "https://www.mdpi.com/2076-3417/15/18/10184/pdf?version=1758263681",
+        "doi_url": "https://doi.org/10.3390/app151810184",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Shaping Explanations: Semantic Reward Modeling with Encoder-Only Transformers for GRPO",
+        "url": "https://openalex.org/W4415317558",
+        "pdf_url": "https://arxiv.org/pdf/2509.13081",
+        "doi_url": "https://doi.org/10.48550/arxiv.2509.13081",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence",
+        "url": "https://openalex.org/W4414183234",
+        "pdf_url": "https://www.nature.com/articles/s41591-025-03953-8.pdf",
+        "doi_url": "https://doi.org/10.1038/s41591-025-03953-8",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "GenRL FinTech: Supporting the Risk Management Process through Reinforcement Intelligence",
+        "url": "https://openalex.org/W4414202539",
+        "pdf_url": "https://www.researchsquare.com/article/rs-7190065/latest.pdf",
+        "doi_url": "https://doi.org/10.21203/rs.3.rs-7190065/v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "How Binding Is Administrative Guidance? An Empirical Study of Guidance, Rules, and the Courts Telling Them Apart",
+        "url": "https://openalex.org/W4414253005",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jels.70009",
+        "doi_url": "https://doi.org/10.1111/jels.70009",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "The Five Ws of Multi-Agent Communication: Who Talks to Whom, When, What, and Why - A Survey from MARL to Emergent Language and LLMs",
+        "url": "https://openalex.org/W4414123240",
+        "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175760290.08279849/v1",
+        "doi_url": "https://doi.org/10.36227/techrxiv.175760290.08279849/v1",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Unique Security and Privacy Threats of Large Language Models: A Comprehensive Survey",
+        "url": "https://openalex.org/W4414128359",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3764113",
+        "doi_url": "https://doi.org/10.1145/3764113",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "Generative AI and cybersecurity: Exploring opportunities and threats at their intersection",
+        "url": "https://openalex.org/W4414092634",
+        "pdf_url": "https://mab-online.nl/article/149299/download/pdf/",
+        "doi_url": "https://doi.org/10.5117/mab.99.149299",
+        "source": "openalex",
+        "year": 2025
+      },
+      {
+        "title": "RAVEN: Erasing Invisible Watermarks via Novel View Synthesis",
+        "url": "http://arxiv.org/abs/2601.08832v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08832v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "3AM: Segment Anything with Geometric Consistency in Videos",
+        "url": "http://arxiv.org/abs/2601.08831v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08831v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Forbidden second harmonics in centrosymmetric bilayer crystals",
+        "url": "http://arxiv.org/abs/2601.08830v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08830v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Modeling LLM Agent Reviewer Dynamics in Elo-Ranked Review System",
+        "url": "http://arxiv.org/abs/2601.08829v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08829v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Motion Attribution for Video Generation",
+        "url": "http://arxiv.org/abs/2601.08828v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08828v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "The Quantum Complexity of String Breaking in the Schwinger Model",
+        "url": "http://arxiv.org/abs/2601.08825v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08825v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Breaking the Orthogonality Barrier in Quantum LDPC Codes",
+        "url": "http://arxiv.org/abs/2601.08824v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08824v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Lattice-based equation of state with a critical point from constant entropy contours and its comparison to effective QCD approaches",
+        "url": "http://arxiv.org/abs/2601.08823v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08823v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "The drastic impact of Eddington-limit induced mass ejections on massive star populations",
+        "url": "http://arxiv.org/abs/2601.08822v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08822v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "MemRec: Collaborative Memory-Augmented Agentic Recommender System",
+        "url": "http://arxiv.org/abs/2601.08816v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08816v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "An Optimal Observable Machine for reinterpretable measurements in high-energy physics",
+        "url": "http://arxiv.org/abs/2601.08813v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08813v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Unstable synthetic deformations II: Infinitesimal extensions",
+        "url": "http://arxiv.org/abs/2601.08812v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08812v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Reasoning Matters for 3D Visual Grounding",
+        "url": "http://arxiv.org/abs/2601.08811v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08811v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Strong coupling expansion of $1\\over 2$ BPS Wilson loop in SYM theory and 2-loop Green-Schwarz string in AdS$_5 \\times $S$^5$",
+        "url": "http://arxiv.org/abs/2601.08809v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08809v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Multiplex Thinking: Reasoning via Token-wise Branch-and-Merge",
+        "url": "http://arxiv.org/abs/2601.08808v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08808v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "S3-CLIP: Video Super Resolution for Person-ReID",
+        "url": "http://arxiv.org/abs/2601.08807v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08807v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "APEX-SWE",
+        "url": "http://arxiv.org/abs/2601.08806v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08806v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Quantum Heegaard diagrams and knot Floer Homology",
+        "url": "http://arxiv.org/abs/2601.08805v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08805v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Identifying Latent Intentions via Inverse Reinforcement Learning in Repeated Linear Public Good Games",
+        "url": "http://arxiv.org/abs/2601.08803v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08803v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Unstable synthetic deformations I: Malcev theories",
+        "url": "http://arxiv.org/abs/2601.08802v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08802v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Extinction in Reaction Network Models",
+        "url": "http://arxiv.org/abs/2601.08801v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08801v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "MixServe: An Automatic Distributed Serving System for MoE Models with Hybrid Parallelism Based on Fused Communication Algorithm",
+        "url": "http://arxiv.org/abs/2601.08800v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08800v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Collapse of statistical equilibrium in large-scale hydroelastic turbulent waves",
+        "url": "http://arxiv.org/abs/2601.08799v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08799v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "Near-perfect photo-ID of the Hula painted frog with zero-shot deep local-feature matching",
+        "url": "http://arxiv.org/abs/2601.08798v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08798v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      },
+      {
+        "title": "DentalX: Context-Aware Dental Disease Detection with Radiographs",
+        "url": "http://arxiv.org/abs/2601.08797v1",
+        "pdf_url": "https://arxiv.org/pdf/2601.08797v1",
+        "doi_url": null,
+        "source": "arxiv",
+        "year": 2026
+      }
+    ],
+    "by_source": {
+      "semantic_scholar": [
+        {
+          "title": "Igniting Creative Writing in Small Language Models: LLM-as-a-Judge versus Multi-Agent Refined Rewards",
+          "url": "https://www.semanticscholar.org/paper/d8f8557e5fb3bb90acf576b36ac5165af0746c6c",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2508.21476",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences",
+          "url": "https://www.semanticscholar.org/paper/d06e65f74715e071678bf8ccdcf9d52004a10280",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3736407",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "One Token to Fool LLM-as-a-Judge",
+          "url": "https://www.semanticscholar.org/paper/6478c185582f5e48c54677c683a9297ff2916118",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2507.08794",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Instruction Tuned Large Language Models for Assisting Brain Surgery Through Procedural Alignment and Decision Support Using PPO Reinforcement Learning",
+          "url": "https://www.semanticscholar.org/paper/23d896f416f1c2f84936bef56a18dd80d56006d4",
+          "pdf_url": "https://doi.org/10.52783/jns.v14.2918",
+          "doi_url": "https://doi.org/10.52783/jns.v14.2918",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "MindChat-R0: A Large Language Model for Emotionally Supportive Dialogue through Reinforcement Learning",
+          "url": "https://www.semanticscholar.org/paper/cc7f63f319442d140c559d2d4276330bda1f1ea8",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3714394.3756244",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "LAPP: Large Language Model Feedback for Preference-Driven Reinforcement Learning",
+          "url": "https://www.semanticscholar.org/paper/6aaf724155768b31cc29eeda2e16cc4098d05e89",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2504.15472",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Agents of Diffusion: Enhancing Diffusion Language Models with Multi-Agent Reinforcement Learning for Structured Data Generation (Extended Version)",
+          "url": "https://www.semanticscholar.org/paper/d6bdde81a923c255184f232c9d8d616c6ab6bc2d",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2026
+        },
+        {
+          "title": "A Survey of Process Reward Models: From Outcome Signals to Process Supervisions for Large Language Models",
+          "url": "https://www.semanticscholar.org/paper/b670078b724938874a233687b5c53848df527a60",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2510.08049",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Any Large Language Model Can Be a Reliable Judge: Debiasing with a Reasoning-based Bias Detector",
+          "url": "https://www.semanticscholar.org/paper/63dd639354d5a73e6d4005fed783dcd4ce8b916a",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.17100",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "SmallPlan: Leverage Small Language Models for Sequential Path Planning with Simulation-Powered, LLM-Guided Distillation",
+          "url": "https://www.semanticscholar.org/paper/cfc47e50d2100075749b26e4a5ca71d4cbf91827",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2505.00831",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Hard Negative Sample-Augmented DPO Post-Training for Small Language Models",
+          "url": "https://www.semanticscholar.org/paper/44d73eeab5e6a7e3960af4db08ab451c75758603",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "MedGRPO: Multi-Task Reinforcement Learning for Heterogeneous Medical Video Understanding",
+          "url": "https://www.semanticscholar.org/paper/2b6882a04f0e8cbf22176c5a104c8f77f8dc67e8",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Ask a Strong LLM Judge when Your Reward Model is Uncertain",
+          "url": "https://www.semanticscholar.org/paper/e43f9e5479ff63a7445c6c133f9fbeac45167ebd",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2510.20369",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "AugmenToxic: Leveraging Reinforcement Learning to Optimize LLM Instruction Fine-Tuning for Data Augmentation to Enhance Toxicity Detection",
+          "url": "https://www.semanticscholar.org/paper/b662c5f269ab64f164efcd6a4f6f9aae693f16ff",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.1145/3700791",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "REvolve: Reward Evolution with Large Language Models for Autonomous Driving",
+          "url": "https://www.semanticscholar.org/paper/bcf2bd95a6f60dd2998b57c26873d31461011e8d",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2406.01309",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "AI-Salesman: Towards Reliable Large Language Model Driven Telemarketing",
+          "url": "https://www.semanticscholar.org/paper/74aae8855aadf81501c5e1d85b90519f6850dec4",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2511.12133",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "REvolve: Reward Evolution with Large Language Models using Human Feedback",
+          "url": "https://www.semanticscholar.org/paper/54c4f894d41095b18294932c0ee8c39ffe3c0ac1",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "Personalisation within bounds: A risk taxonomy and policy framework for the alignment of large language models with personalised feedback",
+          "url": "https://www.semanticscholar.org/paper/e5174aeda1baa67c17f4ac630ae2e44453954cc3",
+          "pdf_url": "http://arxiv.org/pdf/2303.05453",
+          "doi_url": "https://doi.org/10.48550/arXiv.2303.05453",
+          "source": "semantic_scholar",
+          "year": 2023
+        },
+        {
+          "title": "Plan Then Retrieve: Reinforcement Learning-Guided Complex Reasoning over Knowledge Graphs",
+          "url": "https://www.semanticscholar.org/paper/ecadd4ca2ed73bb33a063947cc342183644bfd82",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2510.20691",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "RLSR: Reinforcement Learning from Self Reward",
+          "url": "https://www.semanticscholar.org/paper/4ba61fe913c00a666a8a97de7b48989ba9ed1564",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Structured Uncertainty guided Clarification for LLM Agents",
+          "url": "https://www.semanticscholar.org/paper/18137165c58657a515e73d10a27e8b3f44dce554",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2511.08798",
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "An LLM-based Recommender System Environment",
+          "url": "https://www.semanticscholar.org/paper/5195b73c54d79ebecb26b547ec2c32b2b11ce194",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.48550/arXiv.2406.01631",
+          "source": "semantic_scholar",
+          "year": 2024
+        },
+        {
+          "title": "ENCORE: Entropy-guided Reward Composition for Multi-head Safety Reward Models",
+          "url": "https://www.semanticscholar.org/paper/4d76d602d913852327d576b0af92ae4ed0ca1d2f",
+          "pdf_url": "",
+          "doi_url": null,
+          "source": "semantic_scholar",
+          "year": 2025
+        },
+        {
+          "title": "Dynamic Uncertainty Ranking: Enhancing Retrieval-Augmented In-Context Learning for Long-Tail Knowledge in LLMs",
+          "url": "https://www.semanticscholar.org/paper/939f58bfa4c12dbd10d0cb4d6185bf125451c169",
+          "pdf_url": "",
+          "doi_url": "https://doi.org/10.18653/v1/2025.naacl-long.453",
+          "source": "semantic_scholar",
+          "year": 2024
+        }
+      ],
+      "openalex": [
+        {
+          "title": "A Scientific Reasoning Model for Organic Synthesis Procedure Generation",
+          "url": "https://openalex.org/W4417460396",
+          "pdf_url": "https://arxiv.org/pdf/2512.13668",
+          "doi_url": "https://doi.org/10.48550/arxiv.2512.13668",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Internet of Agents: Fundamentals, Applications, and Challenges",
+          "url": "https://openalex.org/W4415368556",
+          "pdf_url": "https://arxiv.org/pdf/2505.07176",
+          "doi_url": "https://doi.org/10.1109/tccn.2025.3623369",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "JudgeSQL: Reasoning over SQL Candidates with Weighted Consensus Tournament",
+          "url": "https://openalex.org/W4415882142",
+          "pdf_url": "https://arxiv.org/pdf/2510.15560",
+          "doi_url": "https://doi.org/10.48550/arxiv.2510.15560",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "InfiMed-ORBIT: Aligning LLMs on Open-Ended Complex Tasks via Rubric-Based Incremental Training",
+          "url": "https://openalex.org/W4415886192",
+          "pdf_url": "https://arxiv.org/pdf/2510.15859",
+          "doi_url": "https://doi.org/10.48550/arxiv.2510.15859",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "ReSeek: A Self-Correcting Framework for Search Agents with Instructive Rewards",
+          "url": "https://openalex.org/W4414808182",
+          "pdf_url": "https://arxiv.org/pdf/2510.00568",
+          "doi_url": "https://doi.org/10.48550/arxiv.2510.00568",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Checking Medical Process Conformance by Exploiting LLMs",
+          "url": "https://openalex.org/W4414340659",
+          "pdf_url": "https://www.mdpi.com/2076-3417/15/18/10184/pdf?version=1758263681",
+          "doi_url": "https://doi.org/10.3390/app151810184",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Shaping Explanations: Semantic Reward Modeling with Encoder-Only Transformers for GRPO",
+          "url": "https://openalex.org/W4415317558",
+          "pdf_url": "https://arxiv.org/pdf/2509.13081",
+          "doi_url": "https://doi.org/10.48550/arxiv.2509.13081",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence",
+          "url": "https://openalex.org/W4414183234",
+          "pdf_url": "https://www.nature.com/articles/s41591-025-03953-8.pdf",
+          "doi_url": "https://doi.org/10.1038/s41591-025-03953-8",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "GenRL FinTech: Supporting the Risk Management Process through Reinforcement Intelligence",
+          "url": "https://openalex.org/W4414202539",
+          "pdf_url": "https://www.researchsquare.com/article/rs-7190065/latest.pdf",
+          "doi_url": "https://doi.org/10.21203/rs.3.rs-7190065/v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "How Binding Is Administrative Guidance? An Empirical Study of Guidance, Rules, and the Courts Telling Them Apart",
+          "url": "https://openalex.org/W4414253005",
+          "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jels.70009",
+          "doi_url": "https://doi.org/10.1111/jels.70009",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "The Five Ws of Multi-Agent Communication: Who Talks to Whom, When, What, and Why - A Survey from MARL to Emergent Language and LLMs",
+          "url": "https://openalex.org/W4414123240",
+          "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175760290.08279849/v1",
+          "doi_url": "https://doi.org/10.36227/techrxiv.175760290.08279849/v1",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Unique Security and Privacy Threats of Large Language Models: A Comprehensive Survey",
+          "url": "https://openalex.org/W4414128359",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3764113",
+          "doi_url": "https://doi.org/10.1145/3764113",
+          "source": "openalex",
+          "year": 2025
+        },
+        {
+          "title": "Generative AI and cybersecurity: Exploring opportunities and threats at their intersection",
+          "url": "https://openalex.org/W4414092634",
+          "pdf_url": "https://mab-online.nl/article/149299/download/pdf/",
+          "doi_url": "https://doi.org/10.5117/mab.99.149299",
+          "source": "openalex",
+          "year": 2025
+        }
+      ],
+      "arxiv": [
+        {
+          "title": "RAVEN: Erasing Invisible Watermarks via Novel View Synthesis",
+          "url": "http://arxiv.org/abs/2601.08832v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08832v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "3AM: Segment Anything with Geometric Consistency in Videos",
+          "url": "http://arxiv.org/abs/2601.08831v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08831v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Forbidden second harmonics in centrosymmetric bilayer crystals",
+          "url": "http://arxiv.org/abs/2601.08830v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08830v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Modeling LLM Agent Reviewer Dynamics in Elo-Ranked Review System",
+          "url": "http://arxiv.org/abs/2601.08829v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08829v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Motion Attribution for Video Generation",
+          "url": "http://arxiv.org/abs/2601.08828v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08828v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "The Quantum Complexity of String Breaking in the Schwinger Model",
+          "url": "http://arxiv.org/abs/2601.08825v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08825v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Breaking the Orthogonality Barrier in Quantum LDPC Codes",
+          "url": "http://arxiv.org/abs/2601.08824v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08824v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Lattice-based equation of state with a critical point from constant entropy contours and its comparison to effective QCD approaches",
+          "url": "http://arxiv.org/abs/2601.08823v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08823v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "The drastic impact of Eddington-limit induced mass ejections on massive star populations",
+          "url": "http://arxiv.org/abs/2601.08822v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08822v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "MemRec: Collaborative Memory-Augmented Agentic Recommender System",
+          "url": "http://arxiv.org/abs/2601.08816v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08816v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "An Optimal Observable Machine for reinterpretable measurements in high-energy physics",
+          "url": "http://arxiv.org/abs/2601.08813v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08813v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Unstable synthetic deformations II: Infinitesimal extensions",
+          "url": "http://arxiv.org/abs/2601.08812v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08812v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Reasoning Matters for 3D Visual Grounding",
+          "url": "http://arxiv.org/abs/2601.08811v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08811v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Strong coupling expansion of $1\\over 2$ BPS Wilson loop in SYM theory and 2-loop Green-Schwarz string in AdS$_5 \\times $S$^5$",
+          "url": "http://arxiv.org/abs/2601.08809v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08809v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Multiplex Thinking: Reasoning via Token-wise Branch-and-Merge",
+          "url": "http://arxiv.org/abs/2601.08808v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08808v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "S3-CLIP: Video Super Resolution for Person-ReID",
+          "url": "http://arxiv.org/abs/2601.08807v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08807v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "APEX-SWE",
+          "url": "http://arxiv.org/abs/2601.08806v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08806v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Quantum Heegaard diagrams and knot Floer Homology",
+          "url": "http://arxiv.org/abs/2601.08805v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08805v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Identifying Latent Intentions via Inverse Reinforcement Learning in Repeated Linear Public Good Games",
+          "url": "http://arxiv.org/abs/2601.08803v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08803v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Unstable synthetic deformations I: Malcev theories",
+          "url": "http://arxiv.org/abs/2601.08802v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08802v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Extinction in Reaction Network Models",
+          "url": "http://arxiv.org/abs/2601.08801v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08801v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "MixServe: An Automatic Distributed Serving System for MoE Models with Hybrid Parallelism Based on Fused Communication Algorithm",
+          "url": "http://arxiv.org/abs/2601.08800v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08800v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Collapse of statistical equilibrium in large-scale hydroelastic turbulent waves",
+          "url": "http://arxiv.org/abs/2601.08799v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08799v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "Near-perfect photo-ID of the Hula painted frog with zero-shot deep local-feature matching",
+          "url": "http://arxiv.org/abs/2601.08798v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08798v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        },
+        {
+          "title": "DentalX: Context-Aware Dental Disease Detection with Radiographs",
+          "url": "http://arxiv.org/abs/2601.08797v1",
+          "pdf_url": "https://arxiv.org/pdf/2601.08797v1",
+          "doi_url": null,
+          "source": "arxiv",
+          "year": 2026
+        }
+      ]
+    },
+    "pdfs_only": [
+      {
+        "title": "Instruction Tuned Large Language Models for Assisting Brain Surgery Through Procedural Alignment and Decision Support Using PPO Reinforcement Learning",
+        "pdf": "https://doi.org/10.52783/jns.v14.2918"
+      },
+      {
+        "title": "Personalisation within bounds: A risk taxonomy and policy framework for the alignment of large language models with personalised feedback",
+        "pdf": "http://arxiv.org/pdf/2303.05453"
+      },
+      {
+        "title": "A Scientific Reasoning Model for Organic Synthesis Procedure Generation",
+        "pdf": "https://arxiv.org/pdf/2512.13668"
+      },
+      {
+        "title": "Internet of Agents: Fundamentals, Applications, and Challenges",
+        "pdf": "https://arxiv.org/pdf/2505.07176"
+      },
+      {
+        "title": "JudgeSQL: Reasoning over SQL Candidates with Weighted Consensus Tournament",
+        "pdf": "https://arxiv.org/pdf/2510.15560"
+      },
+      {
+        "title": "InfiMed-ORBIT: Aligning LLMs on Open-Ended Complex Tasks via Rubric-Based Incremental Training",
+        "pdf": "https://arxiv.org/pdf/2510.15859"
+      },
+      {
+        "title": "ReSeek: A Self-Correcting Framework for Search Agents with Instructive Rewards",
+        "pdf": "https://arxiv.org/pdf/2510.00568"
+      },
+      {
+        "title": "Checking Medical Process Conformance by Exploiting LLMs",
+        "pdf": "https://www.mdpi.com/2076-3417/15/18/10184/pdf?version=1758263681"
+      },
+      {
+        "title": "Shaping Explanations: Semantic Reward Modeling with Encoder-Only Transformers for GRPO",
+        "pdf": "https://arxiv.org/pdf/2509.13081"
+      },
+      {
+        "title": "The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence",
+        "pdf": "https://www.nature.com/articles/s41591-025-03953-8.pdf"
+      },
+      {
+        "title": "GenRL FinTech: Supporting the Risk Management Process through Reinforcement Intelligence",
+        "pdf": "https://www.researchsquare.com/article/rs-7190065/latest.pdf"
+      },
+      {
+        "title": "How Binding Is Administrative Guidance? An Empirical Study of Guidance, Rules, and the Courts Telling Them Apart",
+        "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jels.70009"
+      },
+      {
+        "title": "The Five Ws of Multi-Agent Communication: Who Talks to Whom, When, What, and Why - A Survey from MARL to Emergent Language and LLMs",
+        "pdf": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175760290.08279849/v1"
+      },
+      {
+        "title": "Unique Security and Privacy Threats of Large Language Models: A Comprehensive Survey",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3764113"
+      },
+      {
+        "title": "Generative AI and cybersecurity: Exploring opportunities and threats at their intersection",
+        "pdf": "https://mab-online.nl/article/149299/download/pdf/"
+      },
+      {
+        "title": "RAVEN: Erasing Invisible Watermarks via Novel View Synthesis",
+        "pdf": "https://arxiv.org/pdf/2601.08832v1"
+      },
+      {
+        "title": "3AM: Segment Anything with Geometric Consistency in Videos",
+        "pdf": "https://arxiv.org/pdf/2601.08831v1"
+      },
+      {
+        "title": "Forbidden second harmonics in centrosymmetric bilayer crystals",
+        "pdf": "https://arxiv.org/pdf/2601.08830v1"
+      },
+      {
+        "title": "Modeling LLM Agent Reviewer Dynamics in Elo-Ranked Review System",
+        "pdf": "https://arxiv.org/pdf/2601.08829v1"
+      },
+      {
+        "title": "Motion Attribution for Video Generation",
+        "pdf": "https://arxiv.org/pdf/2601.08828v1"
+      },
+      {
+        "title": "The Quantum Complexity of String Breaking in the Schwinger Model",
+        "pdf": "https://arxiv.org/pdf/2601.08825v1"
+      },
+      {
+        "title": "Breaking the Orthogonality Barrier in Quantum LDPC Codes",
+        "pdf": "https://arxiv.org/pdf/2601.08824v1"
+      },
+      {
+        "title": "Lattice-based equation of state with a critical point from constant entropy contours and its comparison to effective QCD approaches",
+        "pdf": "https://arxiv.org/pdf/2601.08823v1"
+      },
+      {
+        "title": "The drastic impact of Eddington-limit induced mass ejections on massive star populations",
+        "pdf": "https://arxiv.org/pdf/2601.08822v1"
+      },
+      {
+        "title": "MemRec: Collaborative Memory-Augmented Agentic Recommender System",
+        "pdf": "https://arxiv.org/pdf/2601.08816v1"
+      },
+      {
+        "title": "An Optimal Observable Machine for reinterpretable measurements in high-energy physics",
+        "pdf": "https://arxiv.org/pdf/2601.08813v1"
+      },
+      {
+        "title": "Unstable synthetic deformations II: Infinitesimal extensions",
+        "pdf": "https://arxiv.org/pdf/2601.08812v1"
+      },
+      {
+        "title": "Reasoning Matters for 3D Visual Grounding",
+        "pdf": "https://arxiv.org/pdf/2601.08811v1"
+      },
+      {
+        "title": "Strong coupling expansion of $1\\over 2$ BPS Wilson loop in SYM theory and 2-loop Green-Schwarz string in AdS$_5 \\times $S$^5$",
+        "pdf": "https://arxiv.org/pdf/2601.08809v1"
+      },
+      {
+        "title": "Multiplex Thinking: Reasoning via Token-wise Branch-and-Merge",
+        "pdf": "https://arxiv.org/pdf/2601.08808v1"
+      },
+      {
+        "title": "S3-CLIP: Video Super Resolution for Person-ReID",
+        "pdf": "https://arxiv.org/pdf/2601.08807v1"
+      },
+      {
+        "title": "APEX-SWE",
+        "pdf": "https://arxiv.org/pdf/2601.08806v1"
+      },
+      {
+        "title": "Quantum Heegaard diagrams and knot Floer Homology",
+        "pdf": "https://arxiv.org/pdf/2601.08805v1"
+      },
+      {
+        "title": "Identifying Latent Intentions via Inverse Reinforcement Learning in Repeated Linear Public Good Games",
+        "pdf": "https://arxiv.org/pdf/2601.08803v1"
+      },
+      {
+        "title": "Unstable synthetic deformations I: Malcev theories",
+        "pdf": "https://arxiv.org/pdf/2601.08802v1"
+      },
+      {
+        "title": "Extinction in Reaction Network Models",
+        "pdf": "https://arxiv.org/pdf/2601.08801v1"
+      },
+      {
+        "title": "MixServe: An Automatic Distributed Serving System for MoE Models with Hybrid Parallelism Based on Fused Communication Algorithm",
+        "pdf": "https://arxiv.org/pdf/2601.08800v1"
+      },
+      {
+        "title": "Collapse of statistical equilibrium in large-scale hydroelastic turbulent waves",
+        "pdf": "https://arxiv.org/pdf/2601.08799v1"
+      },
+      {
+        "title": "Near-perfect photo-ID of the Hula painted frog with zero-shot deep local-feature matching",
+        "pdf": "https://arxiv.org/pdf/2601.08798v1"
+      },
+      {
+        "title": "DentalX: Context-Aware Dental Disease Detection with Radiographs",
+        "pdf": "https://arxiv.org/pdf/2601.08797v1"
+      }
+    ],
+    "dois_only": [
+      {
+        "title": "Igniting Creative Writing in Small Language Models: LLM-as-a-Judge versus Multi-Agent Refined Rewards",
+        "doi": "https://doi.org/10.48550/arXiv.2508.21476"
+      },
+      {
+        "title": "CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences",
+        "doi": "https://doi.org/10.1145/3736407"
+      },
+      {
+        "title": "One Token to Fool LLM-as-a-Judge",
+        "doi": "https://doi.org/10.48550/arXiv.2507.08794"
+      },
+      {
+        "title": "Instruction Tuned Large Language Models for Assisting Brain Surgery Through Procedural Alignment and Decision Support Using PPO Reinforcement Learning",
+        "doi": "https://doi.org/10.52783/jns.v14.2918"
+      },
+      {
+        "title": "MindChat-R0: A Large Language Model for Emotionally Supportive Dialogue through Reinforcement Learning",
+        "doi": "https://doi.org/10.1145/3714394.3756244"
+      },
+      {
+        "title": "LAPP: Large Language Model Feedback for Preference-Driven Reinforcement Learning",
+        "doi": "https://doi.org/10.48550/arXiv.2504.15472"
+      },
+      {
+        "title": "A Survey of Process Reward Models: From Outcome Signals to Process Supervisions for Large Language Models",
+        "doi": "https://doi.org/10.48550/arXiv.2510.08049"
+      },
+      {
+        "title": "Any Large Language Model Can Be a Reliable Judge: Debiasing with a Reasoning-based Bias Detector",
+        "doi": "https://doi.org/10.48550/arXiv.2505.17100"
+      },
+      {
+        "title": "SmallPlan: Leverage Small Language Models for Sequential Path Planning with Simulation-Powered, LLM-Guided Distillation",
+        "doi": "https://doi.org/10.48550/arXiv.2505.00831"
+      },
+      {
+        "title": "Ask a Strong LLM Judge when Your Reward Model is Uncertain",
+        "doi": "https://doi.org/10.48550/arXiv.2510.20369"
+      },
+      {
+        "title": "AugmenToxic: Leveraging Reinforcement Learning to Optimize LLM Instruction Fine-Tuning for Data Augmentation to Enhance Toxicity Detection",
+        "doi": "https://doi.org/10.1145/3700791"
+      },
+      {
+        "title": "REvolve: Reward Evolution with Large Language Models for Autonomous Driving",
+        "doi": "https://doi.org/10.48550/arXiv.2406.01309"
+      },
+      {
+        "title": "AI-Salesman: Towards Reliable Large Language Model Driven Telemarketing",
+        "doi": "https://doi.org/10.48550/arXiv.2511.12133"
+      },
+      {
+        "title": "Personalisation within bounds: A risk taxonomy and policy framework for the alignment of large language models with personalised feedback",
+        "doi": "https://doi.org/10.48550/arXiv.2303.05453"
+      },
+      {
+        "title": "Plan Then Retrieve: Reinforcement Learning-Guided Complex Reasoning over Knowledge Graphs",
+        "doi": "https://doi.org/10.48550/arXiv.2510.20691"
+      },
+      {
+        "title": "Structured Uncertainty guided Clarification for LLM Agents",
+        "doi": "https://doi.org/10.48550/arXiv.2511.08798"
+      },
+      {
+        "title": "An LLM-based Recommender System Environment",
+        "doi": "https://doi.org/10.48550/arXiv.2406.01631"
+      },
+      {
+        "title": "Dynamic Uncertainty Ranking: Enhancing Retrieval-Augmented In-Context Learning for Long-Tail Knowledge in LLMs",
+        "doi": "https://doi.org/10.18653/v1/2025.naacl-long.453"
+      },
+      {
+        "title": "A Scientific Reasoning Model for Organic Synthesis Procedure Generation",
+        "doi": "https://doi.org/10.48550/arxiv.2512.13668"
+      },
+      {
+        "title": "Internet of Agents: Fundamentals, Applications, and Challenges",
+        "doi": "https://doi.org/10.1109/tccn.2025.3623369"
+      },
+      {
+        "title": "JudgeSQL: Reasoning over SQL Candidates with Weighted Consensus Tournament",
+        "doi": "https://doi.org/10.48550/arxiv.2510.15560"
+      },
+      {
+        "title": "InfiMed-ORBIT: Aligning LLMs on Open-Ended Complex Tasks via Rubric-Based Incremental Training",
+        "doi": "https://doi.org/10.48550/arxiv.2510.15859"
+      },
+      {
+        "title": "ReSeek: A Self-Correcting Framework for Search Agents with Instructive Rewards",
+        "doi": "https://doi.org/10.48550/arxiv.2510.00568"
+      },
+      {
+        "title": "Checking Medical Process Conformance by Exploiting LLMs",
+        "doi": "https://doi.org/10.3390/app151810184"
+      },
+      {
+        "title": "Shaping Explanations: Semantic Reward Modeling with Encoder-Only Transformers for GRPO",
+        "doi": "https://doi.org/10.48550/arxiv.2509.13081"
+      },
+      {
+        "title": "The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence",
+        "doi": "https://doi.org/10.1038/s41591-025-03953-8"
+      },
+      {
+        "title": "GenRL FinTech: Supporting the Risk Management Process through Reinforcement Intelligence",
+        "doi": "https://doi.org/10.21203/rs.3.rs-7190065/v1"
+      },
+      {
+        "title": "How Binding Is Administrative Guidance? An Empirical Study of Guidance, Rules, and the Courts Telling Them Apart",
+        "doi": "https://doi.org/10.1111/jels.70009"
+      },
+      {
+        "title": "The Five Ws of Multi-Agent Communication: Who Talks to Whom, When, What, and Why - A Survey from MARL to Emergent Language and LLMs",
+        "doi": "https://doi.org/10.36227/techrxiv.175760290.08279849/v1"
+      },
+      {
+        "title": "Unique Security and Privacy Threats of Large Language Models: A Comprehensive Survey",
+        "doi": "https://doi.org/10.1145/3764113"
+      },
+      {
+        "title": "Generative AI and cybersecurity: Exploring opportunities and threats at their intersection",
+        "doi": "https://doi.org/10.5117/mab.99.149299"
+      }
+    ]
+  },
+  "metadata": {
+    "query": "LLM-as-a-Judge reinforcement learning large language models as guides",
+    "total_steps": 1,
+    "last_updated": "2026-01-15T03:13:47.516298",
+    "started_at": "2026-01-15T03:12:57.549187",
+    "total_papers": 62
+  }
+}

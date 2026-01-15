@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "query": "temporal reasoning medical imaging ECG EEG wearables biomarkers EHR novel approaches position papers",
+    "total_papers": 1068,
+    "unique_sources": 7,
+    "year_range": {
+      "min": 2020,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 543,
+      "average": 67.9
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 682,
+    "papers_with_doi": 34,
+    "processing_steps": 7
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (617) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 617
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 500 papers (46%)",
+      "data": {
+        "source": "arxiv",
+        "count": 500
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Jimeng Sun has 7 papers in this collection",
+      "data": {
+        "author": "Jimeng Sun",
+        "count": 7
+      }
+    },
+    {
+      "type": "citation",
+      "title": "Most Cited Paper",
+      "message": "\"The deep learning applications in IoT-based bio- and medical informatics: a systematic literature review...\" has 134 citations",
+      "data": {
+        "title": "The deep learning applications in IoT-based bio- and medical informatics: a systematic literature review",
+        "citations": 134
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: medical, learning, models, reasoning, language",
+      "data": {
+        "keywords": {
+          "medical": 199,
+          "learning": 133,
+          "models": 117,
+          "reasoning": 97,
+          "language": 88
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "682/1068 papers (63%) have direct PDF links",
+      "data": {
+        "with_pdf": 682,
+        "total": 1068
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 1068 papers related to 'temporal reasoning medical imaging ECG EEG wearables biomarkers EHR novel approaches position papers'",
+    "Papers collected from 7 sources: offline_iclr, offline_nips, offline_acl, offline_icml, offline_emnlp, arxiv, openalex",
+    "Publication years range from 2020 to 2026",
+    "Total citations: 543, Average: 67",
+    "Leading researchers: Jimeng Sun, Dongsheng Li, Che Liu"
+  ],
+  "metadata": {
+    "query": "temporal reasoning medical imaging ECG EEG wearables biomarkers EHR novel approaches position papers",
+    "total_steps": 7,
+    "last_updated": "2026-01-05T23:16:48.153659",
+    "started_at": "2026-01-05T23:15:02.934912",
+    "total_papers": 1068
+  },
+  "is_complete": true
+}

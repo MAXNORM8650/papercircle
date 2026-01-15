@@ -1,0 +1,116 @@
+{
+  "paper_id": "pB1FeRSQxh",
+  "title": "Near-Optimal Quantum Algorithm for Minimizing the Maximal Loss",
+  "predicted_review": {
+    "_parse_error": "No valid JSON found in text",
+    "soundness": null,
+    "presentation": null,
+    "contribution": null,
+    "rating": null,
+    "confidence": null,
+    "summary": "",
+    "strengths": [],
+    "weaknesses": [],
+    "questions": []
+  },
+  "ground_truth": {
+    "rating": 6.0,
+    "soundness": 3.0,
+    "presentation": 2.75,
+    "contribution": 2.5,
+    "confidence": 2.75,
+    "wc_summary": 175.25,
+    "wc_strengths": 37.0,
+    "wc_weaknesses": 64.25,
+    "wc_questions": 72.25,
+    "wc_review": 348.75
+  },
+  "evaluation": {
+    "parsing_success": false,
+    "score_metrics": {
+      "rating": {
+        "predicted": null,
+        "ground_truth": 6.0,
+        "error": null,
+        "absolute_error": null,
+        "squared_error": null,
+        "within_half": false,
+        "within_one": false,
+        "within_one_half": false,
+        "missing": true
+      },
+      "soundness": {
+        "predicted": null,
+        "ground_truth": 3.0,
+        "error": null,
+        "absolute_error": null,
+        "squared_error": null,
+        "within_half": false,
+        "within_one": false,
+        "within_one_half": false,
+        "missing": true
+      },
+      "presentation": {
+        "predicted": null,
+        "ground_truth": 2.75,
+        "error": null,
+        "absolute_error": null,
+        "squared_error": null,
+        "within_half": false,
+        "within_one": false,
+        "within_one_half": false,
+        "missing": true
+      },
+      "contribution": {
+        "predicted": null,
+        "ground_truth": 2.5,
+        "error": null,
+        "absolute_error": null,
+        "squared_error": null,
+        "within_half": false,
+        "within_one": false,
+        "within_one_half": false,
+        "missing": true
+      },
+      "confidence": {
+        "predicted": null,
+        "ground_truth": 2.75,
+        "error": null,
+        "absolute_error": null,
+        "squared_error": null,
+        "within_half": false,
+        "within_one": false,
+        "within_one_half": false,
+        "missing": true
+      }
+    },
+    "content_metrics": {
+      "summary_wc": 0,
+      "summary_wc_target": 175.25,
+      "summary_wc_ratio": 0.0,
+      "summary_wc_diff": 175.25,
+      "strengths_wc": 0,
+      "strengths_wc_target": 37.0,
+      "strengths_wc_ratio": 0.0,
+      "strengths_wc_diff": 37.0,
+      "weaknesses_wc": 0,
+      "weaknesses_wc_target": 64.25,
+      "weaknesses_wc_ratio": 0.0,
+      "weaknesses_wc_diff": 64.25,
+      "questions_wc": 0,
+      "questions_wc_target": 72.25,
+      "questions_wc_ratio": 0.0,
+      "questions_wc_diff": 72.25,
+      "has_summary": false,
+      "has_strengths": false,
+      "has_weaknesses": false,
+      "has_questions": false,
+      "num_strengths": 0,
+      "num_weaknesses": 0,
+      "num_questions": 0,
+      "total_wc": 0,
+      "total_wc_ratio": 0.0
+    }
+  },
+  "success": true
+}

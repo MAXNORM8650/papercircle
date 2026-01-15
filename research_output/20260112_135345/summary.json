@@ -1,0 +1,85 @@
+{
+  "summary": {
+    "query": "large language model world model dynamics prediction model-based reinforcement learning planning embodied AI",
+    "total_papers": 589,
+    "unique_sources": 6,
+    "year_range": {
+      "min": 2020,
+      "max": 2026
+    },
+    "citation_summary": {
+      "total": 0,
+      "average": 0
+    },
+    "top_source": "arxiv",
+    "papers_with_pdf": 509,
+    "papers_with_doi": 11,
+    "processing_steps": 6
+  },
+  "insights": [
+    {
+      "type": "trend",
+      "title": "Publication Trend",
+      "message": "Most papers (397) are from 2026",
+      "data": {
+        "year": 2026,
+        "count": 397
+      }
+    },
+    {
+      "type": "source",
+      "title": "Primary Source",
+      "message": "arxiv contributes 397 papers (67%)",
+      "data": {
+        "source": "arxiv",
+        "count": 397
+      }
+    },
+    {
+      "type": "author",
+      "title": "Prolific Author",
+      "message": "Pieter Abbeel has 9 papers in this collection",
+      "data": {
+        "author": "Pieter Abbeel",
+        "count": 9
+      }
+    },
+    {
+      "type": "keywords",
+      "title": "Hot Topics",
+      "message": "Top keywords: learning, model, reinforcement, models, language",
+      "data": {
+        "keywords": {
+          "learning": 166,
+          "model": 121,
+          "reinforcement": 102,
+          "models": 99,
+          "language": 66
+        }
+      }
+    },
+    {
+      "type": "availability",
+      "title": "Open Access",
+      "message": "509/589 papers (86%) have direct PDF links",
+      "data": {
+        "with_pdf": 509,
+        "total": 589
+      }
+    }
+  ],
+  "key_findings": [
+    "Found 589 papers related to 'large language model world model dynamics prediction model-based reinforcement learning planning embodied AI'",
+    "Papers collected from 6 sources: offline_iclr, offline_icml, offline_nips, offline_icra, offline_cvpr, arxiv",
+    "Publication years range from 2020 to 2026",
+    "Leading researchers: Pieter Abbeel, Sergey Levine, Jianye HAO"
+  ],
+  "metadata": {
+    "query": "large language model world model dynamics prediction model-based reinforcement learning planning embodied AI",
+    "total_steps": 6,
+    "last_updated": "2026-01-12T14:00:47.617179",
+    "started_at": "2026-01-12T13:53:47.118608",
+    "total_papers": 589
+  },
+  "is_complete": true
+}
