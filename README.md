@@ -1,269 +1,197 @@
-# Paper Circle 🔬
+<p align="center">
+  <img src="public/paper-circle-logo.svg" alt="PaperCircle" width="140"/>
+</p>
 
-A collaborative research paper discovery and reading group platform powered by AI. Organize reading sessions, track paper lineage, and foster collaborative learning around academic research.
+<h1 align="center">PaperCircle</h1>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<p align="center">
+  <b>AI-Powered Research Paper Discovery & Reading Groups</b><br/>
+  <i>Discover papers, organize sessions, build knowledge together</i>
+</p>
 
-## ✨ Features
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react" alt="React 18"/>
+  <img src="https://img.shields.io/badge/FastAPI-0.104-009688?logo=fastapi" alt="FastAPI"/>
+  <img src="https://img.shields.io/badge/Supabase-PostgreSQL-3FCF8E?logo=supabase" alt="Supabase"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT"/>
+</p>
 
-### 📚 Paper Discovery
-- **AI-Powered Search**: Multi-agent system for intelligent paper discovery
-- **arXiv Integration**: Real-time search with advanced filtering
-- **Smart Ranking**: Papers ranked by relevance, authority, and novelty
-- **Multiple Sources**: Searches arXiv, Scopus, IEEE, and more via findpapers
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#quick-start">Quick Start</a> •
+  <a href="#architecture">Architecture</a> •
+  <a href="#ai-discovery">AI Discovery</a> •
+  <a href="#deployment">Deploy</a>
+</p>
 
-### 👥 Community Management
-- **Reading Circles**: Create and manage research communities
-- **Role-Based Access**: Member, Presenter, and Admin roles
-- **Private & Public**: Control community visibility
-- **Invite System**: Share invite links with colleagues
+---
 
-### 📅 Session Organization
-- **Reading Sessions**: Schedule and manage paper discussions
-- **RSVP System**: Track attendance with check-ins
-- **Presenter Assignment**: Assign paper presenters
-- **Session Lineage**: Track paper exploration paths
-- **Recording Links**: Store session recordings
+## Features
 
-### 🔗 Paper Lineage
-- **Relationship Tracking**: Map how papers relate (extends, applies, contradicts, etc.)
-- **Visual Graph**: Interactive lineage visualization
-- **Knowledge Paths**: Follow research evolution
+| Category | Capabilities |
+|----------|-------------|
+| **Paper Discovery** | Multi-agent AI search, arXiv/Scopus/IEEE integration, BM25 + semantic ranking |
+| **Reading Circles** | Create communities, role-based access (Member/Presenter/Admin), invite links |
+| **Sessions** | Schedule discussions, RSVP & check-ins, presenter assignment, recording links |
+| **Paper Lineage** | Relationship mapping (extends/applies/contradicts), interactive graph visualization |
+| **AI Analysis** | Paper summaries, critical reviews, reproducibility checks, literature linking |
 
-### 💬 Discussions
-- **Threaded Comments**: Discuss papers and sessions
-- **Community Engagement**: Foster collaborative learning
-- **Paper Annotations**: Add notes and insights
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 18+
-- Python 3.11+
-- Supabase account
-- npm or yarn
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/papercircle.git
-   cd papercircle
-   ```
-
-2. **Install frontend dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Install Python dependencies**
-   ```bash
-   pip install -r backend/requirements/base.txt
-   ```
-
-4. **Configure environment variables**
-   ```bash
-   cp .env.example .env
-   # Edit .env with your Supabase credentials
-   ```
-
-5. **Start the development server**
-   ```bash
-   # Terminal 1: Frontend
-   npm run dev
-
-   # Terminal 2: AI Discovery API
-   bash scripts/shell/start_paperfinder_api.sh
-   # Or directly: python backend/apis/paperfinder_api.py
-   ```
-
-6. **Visit** `http://localhost:5173`
-
-## 🔧 Configuration
-
-### Environment Variables
-
-Create a `.env` file:
+## Quick Start
 
 ```bash
-# Supabase Configuration
-VITE_SUPABASE_URL=https://your-project.supabase.co
-VITE_SUPABASE_ANON_KEY=your-anon-key
+# Clone & install
+git clone https://github.com/YOUR_USERNAME/papercircle.git
+cd papercircle
+npm install
+pip install -r backend/requirements-prod.txt
 
-# Paperfinder API (optional, defaults to localhost:8000)
-VITE_PAPERFINDER_API_URL=http://localhost:8000
+# Configure
+cp .env.example .env
+# Edit .env with Supabase credentials
+
+# Run
+npm run dev                                    # Frontend (localhost:5173)
+python backend/apis/paperfinder_api.py         # AI API (localhost:8000)
 ```
 
-### Database Setup
+## Architecture
 
-The project uses Supabase (PostgreSQL). Migrations are in `supabase/migrations/`:
-
-```bash
-# Apply migrations (via Supabase CLI)
-supabase db push
-
-# Or apply via Supabase Dashboard
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                            PaperCircle                                   │
+├─────────────────────────────┬───────────────────────────────────────────┤
+│         Frontend            │              Backend                       │
+│  React 18 + TypeScript      │           FastAPI + Python                │
+│  TailwindCSS + Vite         │         smolagents + LiteLLM              │
+│  Supabase Client            │       arXiv/Scopus/IEEE APIs              │
+└─────────────────────────────┴───────────────────────────────────────────┘
+                                      │
+                              ┌───────┴───────┐
+                              │   Supabase    │
+                              │  PostgreSQL   │
+                              │  + Auth + RLS │
+                              └───────────────┘
 ```
 
-## 🏗️ Architecture
+### Tech Stack
 
-### Frontend
-- **Framework**: React 18 + TypeScript + Vite
-- **Styling**: TailwindCSS
-- **Icons**: Lucide React
-- **State**: React Context API
-- **Database**: Supabase (PostgreSQL + Auth)
+| Layer | Technologies |
+|-------|-------------|
+| **Frontend** | React 18, TypeScript, Vite, TailwindCSS, Lucide Icons |
+| **Backend** | FastAPI, smolagents, LiteLLM, scikit-learn, arxiv-py |
+| **Database** | Supabase (PostgreSQL), Row Level Security, Edge Functions |
+| **AI/ML** | Multi-agent orchestration, BM25, TF-IDF, semantic search |
 
-### Backend (AI Discovery)
-- **Framework**: FastAPI
-- **Search**: arxiv-py + findpapers
-- **AI Agent**: smolagents + LiteLLM
-- **ML**: scikit-learn (TF-IDF, cosine similarity)
-- **Processing**: Multiprocessing for cancellable tasks
+## AI Discovery
 
-### Database Schema
-- **profiles**: User profiles with roles
-- **papers**: Research papers with metadata
-- **communities**: Reading circles
-- **community_members**: Membership with roles
-- **sessions**: Reading sessions
-- **edges**: Paper relationships
-- **discussions**: Comments and threads
-- **rsvps**: Session attendance
+Multi-agent pipeline for intelligent paper discovery:
 
-## 🤖 AI Discovery
+```
+Query → Intent Agent → Search (arXiv/Scopus/IEEE) → Dedup → Score → Rank → Diversify
+```
 
-The AI Discovery system uses a multi-agent approach:
-
-1. **Query Generation Agent**: Converts natural language to structured search
-2. **Retrieval**: Multi-source paper fetching (arXiv, Scopus, IEEE)
-3. **Deduplication**: Removes duplicates by DOI and title
-4. **Scoring**:
-   - Relevance (TF-IDF cosine similarity)
-   - Authority (recency + venue prestige)
-   - Novelty (distance from corpus centroid)
-5. **Ranking**: Weighted combination based on mode
-6. **Diversity**: MMR algorithm for diverse results
+### Scoring Components
+- **Relevance** — TF-IDF cosine similarity to query
+- **Authority** — Recency + venue prestige
+- **Novelty** — Distance from corpus centroid
 
 ### Discovery Modes
-- **Stable**: Established, authoritative works (50% relevance, 40% authority, 10% novelty)
-- **Discovery**: Novel, cutting-edge research (30% relevance, 10% authority, 60% novelty)
-- **Balanced**: Mix of both (40% relevance, 30% authority, 30% novelty)
 
-## 📦 Deployment
+| Mode | Relevance | Authority | Novelty | Use Case |
+|------|-----------|-----------|---------|----------|
+| **Stable** | 50% | 40% | 10% | Established, authoritative works |
+| **Discovery** | 30% | 10% | 60% | Cutting-edge, novel research |
+| **Balanced** | 40% | 30% | 30% | Mix of both |
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.
+## Project Structure
 
-### Quick Deploy Options
-- **Railway.app** (recommended)
-- **Render.com** (free tier)
-- **Fly.io**
-
-### Deploy Frontend
-```bash
-npm run build
-# Deploy dist/ to Vercel, Netlify, or Cloudflare Pages
-```
-
-### Deploy Backend
-```bash
-# Uses Dockerfile for containerization
-# See DEPLOYMENT.md for platform-specific instructions
-```
-
-## 🛠️ Development
-
-### Project Structure
 ```
 papercircle/
-├── src/                     # React frontend
-│   ├── components/          # React components (Papers, Communities, Sessions, Auth)
-│   ├── contexts/            # React contexts (Auth, Community)
-│   ├── lib/                 # Utilities and configs
-│   └── App.tsx              # Main app component
-├── backend/                 # Python backend
-│   ├── apis/                # FastAPI servers
-│   │   ├── paperfinder_api.py      # Main AI discovery API
-│   │   ├── discovery_api.py        # Discovery endpoint
-│   │   ├── fast_discovery_api.py   # Fast discovery variant
-│   │   └── paper_analysis_api.py   # Paper analysis API
-│   ├── core/                # Core logic modules
-│   │   ├── paperfinder.py           # AI discovery engine
-│   │   └── discovery_papers.py      # Paper discovery logic
-│   ├── agents/              # Multi-agent systems
-│   │   ├── agents/                  # Query and research agents
-│   │   ├── paper_mind_graph/        # Knowledge graph system
-│   │   └── paper_review_agents/     # Paper review agents
-│   └── requirements/        # Python dependencies
-│       ├── base.txt         # Base requirements
-│       ├── discovery.txt    # Discovery-specific
-│       └── fast-api.txt     # Fast API variant
-├── scripts/                 # Utility scripts
-│   ├── shell/               # Shell scripts (start_*.sh)
-│   └── javascript/          # JS/TS utilities
-├── docs/                    # Documentation
-│   ├── setup/               # Setup and integration guides
-│   └── archive/             # Archived documentation
-├── supabase/                # Supabase configuration
-│   ├── migrations/          # Database migrations
-│   └── functions/           # Edge functions
-├── cache/                   # Cache directories (gitignored)
-│   ├── papers/              # PDF cache
-│   └── storage/             # Crawlee storage
-├── data/                    # Data and datasets
-│   ├── paperdatabase/       # Multi-agent results
-│   └── pc-data-val/         # Validation data
-├── Dockerfile               # Container config
-├── .env.example             # Environment template
-└── README.md                # This file
+├── src/                      # React frontend
+│   ├── components/           # UI components
+│   ├── contexts/             # Auth, Community contexts
+│   └── lib/                  # Supabase client, utilities
+├── backend/
+│   ├── apis/                 # FastAPI endpoints
+│   │   ├── paperfinder_api.py
+│   │   └── paper_analysis_api.py
+│   ├── agents/               # Multi-agent systems
+│   │   ├── discovery/        # Paper discovery agents
+│   │   └── paper_review_agents/  # Review generation
+│   └── core/                 # Core logic
+├── supabase/
+│   ├── migrations/           # Database schema
+│   └── functions/            # Edge functions
+└── exmaples/pc-data/         # Benchmark suite
 ```
 
-### Key Commands
+## Configuration
+
 ```bash
-# Frontend Development
-npm run dev                                  # Start frontend dev server
-npm run build                                # Build for production
-npm run preview                              # Preview production build
-npm run lint                                 # Run ESLint
-npm run typecheck                            # Type checking
-
-# Backend APIs (choose one based on your needs)
-bash scripts/shell/start_paperfinder_api.sh  # Main AI discovery API (port 8000)
-bash scripts/shell/start_fast_api.sh         # Fast discovery API (port 8000)
-bash scripts/shell/start_paper_analysis_api.sh # Paper analysis API (port 8001)
-bash scripts/shell/start_discovery_api.sh    # Discovery API with Ollama (port 8000)
-bash scripts/shell/start-arxiv-proxy.sh      # arXiv CORS proxy
-
-# Or run APIs directly
-python backend/apis/paperfinder_api.py       # Direct API execution
+# .env
+VITE_SUPABASE_URL=https://your-project.supabase.co
+VITE_SUPABASE_ANON_KEY=your-anon-key
+VITE_PAPERFINDER_API_URL=http://localhost:8000  # or Railway URL
 ```
 
-## 📝 License
+## Deployment
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+| Component | Recommended | Alternatives |
+|-----------|-------------|--------------|
+| **Frontend** | Vercel | Netlify, Cloudflare Pages |
+| **Backend** | Railway | Render, Fly.io |
+| **Database** | Supabase | — |
 
-## 🙏 Acknowledgments
+```bash
+# Build frontend
+npm run build  # Deploy dist/ to Vercel/Netlify
 
-- **arXiv** for the arXiv API
-- **findpapers** for multi-source paper search
-- **Supabase** for backend infrastructure
-- **smolagents** for AI agent framework
+# Backend uses Dockerfile
+# See DEPLOYMENT.md for details
+```
 
-## 📧 Contact
+## Commands
 
-For questions or support, please open an issue on GitHub.
+```bash
+# Development
+npm run dev                    # Frontend dev server
+npm run build                  # Production build
+npm run lint                   # ESLint
+npm run typecheck              # TypeScript check
 
-## 🗺️ Roadmap
+# Backend APIs
+python backend/apis/paperfinder_api.py      # Main discovery API
+python backend/apis/paper_analysis_api.py   # Paper analysis API
+```
+
+## Benchmarks
+
+See [exmaples/pc-data](exmaples/pc-data/) for the benchmark suite evaluating:
+- Multi-agent retrieval (MRR, Recall@K)
+- Paper review generation vs. human reviews
+- Ranking algorithm comparisons
+
+## Roadmap
 
 - [ ] Mobile app (React Native)
 - [ ] PDF annotation tools
 - [ ] Citation graph visualization
-- [ ] Email notifications
 - [ ] Slack/Discord integration
-- [ ] Paper recommendation system
-- [ ] Reading progress tracking
-- [ ] Export to reference managers (Zotero, Mendeley)
+- [ ] Paper recommendations
+- [ ] Export to Zotero/Mendeley
+
+## License
+
+MIT License — see [LICENSE](LICENSE)
+
+## Acknowledgments
+
+[arXiv](https://arxiv.org) • [Supabase](https://supabase.com) • [smolagents](https://github.com/huggingface/smolagents) • [LiteLLM](https://github.com/BerriAI/litellm)
 
 ---
 
-Built with ❤️ for the research community
+<p align="center">
+  <b>Built for the research community</b><br/>
+  <a href="https://github.com/YOUR_USERNAME/papercircle/issues">Report Bug</a> •
+  <a href="https://github.com/YOUR_USERNAME/papercircle/issues">Request Feature</a>
+</p>
