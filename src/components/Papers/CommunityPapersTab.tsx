@@ -6,6 +6,7 @@ import {
 } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import { useCommunity } from '../../contexts/CommunityContext';
+import { apiUrl } from '../../lib/api';
 import { usePaperEngagement } from '../../hooks/usePaperEngagement';
 import type {
   CommunityPaper,
@@ -544,7 +545,7 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
 
   const loadFilterOptions = async () => {
     try {
-      const response = await fetch(`/api/community-papers?action=filters`);
+      const response = await fetch(apiUrl('/community/filters'));
       if (response.ok) {
         const data = await response.json();
         setFilterOptions(data);
@@ -583,7 +584,7 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
       if (filters.minRating) params.append('min_rating', filters.minRating.toString());
       if (filters.keywords) params.append('keywords', filters.keywords);
 
-      const response = await fetch(`/api/community-papers?${params}`);
+      const response = await fetch(apiUrl(`/community/papers?${params}`));
 
       if (!response.ok) {
         throw new Error('Failed to load community papers');
@@ -611,14 +612,12 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
 
     setAddingToCircle(true);
     try {
-      const response = await fetch('/api/community-papers', {
+      const response = await fetch(apiUrl(`/community/papers/${selectedPaperForCircle.paper_id}/add-to-circle`), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          action: 'addToCircle',
-          paperId: selectedPaperForCircle.paper_id,
-          circleId: selectedCircle,
-          userId: user?.id
+          circle_id: selectedCircle,
+          user_id: user?.id
         })
       });
 
@@ -641,13 +640,9 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
     setShowShareModal(true);
 
     try {
-      const response = await fetch('/api/community-papers', {
+      const response = await fetch(apiUrl(`/community/papers/${paper.paper_id}/share`), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          action: 'share',
-          paperId: paper.paper_id
-        })
       });
 
       if (response.ok) {

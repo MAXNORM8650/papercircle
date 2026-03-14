@@ -17,7 +17,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
-from .routers import analysis_router, research_router, review_router
+from .routers import analysis_router, community_papers_router, research_router, review_router
 
 # =============================================================================
 # Lifespan
@@ -33,6 +33,7 @@ async def lifespan(app: FastAPI):
     print("  /analysis/*  - Paper analysis (mind graphs)")
     print("  /review/*    - Paper review (multi-agent)")
     print("  /research/*  - Research discovery pipeline")
+    print("  /community/* - Community papers")
     print("=" * 60)
     yield
     print("Paper Circle API shutting down...")
@@ -95,6 +96,7 @@ app.add_middleware(
 # =============================================================================
 
 app.include_router(analysis_router)
+app.include_router(community_papers_router)
 app.include_router(review_router)
 app.include_router(research_router)
 
@@ -111,6 +113,7 @@ async def root():
         "status": "healthy",
         "modules": {
             "analysis": "/analysis - Paper analysis with mind graphs",
+            "community": "/community - Community papers",
             "review": "/review - Multi-agent paper review",
             "research": "/research - Research discovery pipeline",
         },
