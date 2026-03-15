@@ -43,3 +43,6 @@ outputs/
 dashboards/
 results/
 bibliographies/
+
+# HF Spaces data
+hf_spaces/data/

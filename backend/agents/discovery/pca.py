@@ -941,18 +941,33 @@ class OfflinePaperSearchEngine:
         self.use_bm25 = use_bm25 and HAS_BM25
         self.use_cache = use_cache
 
-        # Check if local database exists - if not, use Supabase fallback
+        # Check if local database exists - if not, use HF Spaces or Supabase fallback
         local_db_exists = self.database_path.exists() and any(self.database_path.iterdir()) if self.database_path.exists() else False
-        self.use_supabase_fallback = not local_db_exists and HAS_SUPABASE
+        self.use_supabase_fallback = False
+        self.use_hf_fallback = False
         self.supabase_client = None
+        self.hf_client = None
 
         if not local_db_exists:
             print(f"[Offline] Local database not found at {self.database_path}")
-            if HAS_SUPABASE:
+            # Try HF Spaces first (preferred)
+            hf_url = os.getenv("HF_PAPERS_API_URL", "")
+            if hf_url:
+                try:
+                    from services.hf_papers_client import HFPapersClient
+                    self.hf_client = HFPapersClient(hf_url)
+                    self.use_hf_fallback = True
+                    print(f"[Offline] Using HuggingFace Spaces as data source (cloud fallback)")
+                except Exception as e:
+                    print(f"[Offline] Failed to init HF client: {e}")
+
+            # Fall back to Supabase if HF not available
+            if not self.use_hf_fallback and HAS_SUPABASE:
+                self.use_supabase_fallback = True
                 print(f"[Offline] Using Supabase as data source (cloud fallback)")
                 self._init_supabase()
-            else:
-                print(f"[Offline] WARNING: No local database and Supabase not available!")
+            elif not self.use_hf_fallback:
+                print(f"[Offline] WARNING: No local database, HF Spaces, or Supabase available!")
 
         # Reranker configuration
         self.use_reranker = use_reranker and HAS_RERANKER
@@ -961,7 +976,8 @@ class OfflinePaperSearchEngine:
         self.multi_stage_retriever = None
 
         print(f"[Offline] Initializing search engine")
-        print(f"[Offline] Database: {'Supabase (cloud)' if self.use_supabase_fallback else self.database_path}")
+        db_label = 'HF Spaces (cloud)' if self.use_hf_fallback else ('Supabase (cloud)' if self.use_supabase_fallback else str(self.database_path))
+        print(f"[Offline] Database: {db_label}")
         print(f"[Offline] Cache: {'DISABLED' if not use_cache else 'ENABLED'}")
         print(f"[Offline] Ranking: {'BM25' if self.use_bm25 else 'Simple'}")
 
@@ -1107,6 +1123,70 @@ class OfflinePaperSearchEngine:
             traceback.print_exc()
             return []
 
+    def _search_hf_space(self, query: str, conferences: List[str] = None,
+                         start_year: int = None, end_year: int = None,
+                         max_results: int = 50) -> List[Paper]:
+        """Search papers from HuggingFace Spaces API with BM25 reranking."""
+        if not self.hf_client:
+            print("[Offline] HF client not available")
+            return []
+
+        try:
+            fetch_limit = max(max_results * 3, 100) if (self.use_bm25 or self.use_reranker) else max_results
+
+            papers_data = self.hf_client.search_papers(
+                query=query,
+                conferences=conferences,
+                start_year=start_year,
+                end_year=end_year,
+                limit=fetch_limit,
+                offset=0,
+            )
+            print(f"[Offline] HF Spaces search returned {len(papers_data)} papers")
+
+            if not papers_data:
+                return []
+
+            # Apply BM25 reranking if enabled
+            if self.use_bm25 and HAS_BM25 and len(papers_data) > 1:
+                print(f"[Offline] Applying BM25 reranking to {len(papers_data)} HF results...")
+                papers_data = self._rerank_with_bm25(query, papers_data)
+
+            # Convert to Paper objects
+            papers = []
+            for i, p in enumerate(papers_data):
+                paper = Paper(
+                    title=p.get('title', 'Unknown'),
+                    authors=p.get('authors', []),
+                    abstract=p.get('abstract', ''),
+                    year=p.get('year'),
+                    venue=p.get('conference') or p.get('venue', ''),
+                    arxiv_id=p.get('arxiv_id'),
+                    pdf_url=p.get('pdf_url'),
+                    conference=p.get('conference', ''),
+                    keywords=p.get('keywords', []),
+                    tldr=p.get('tldr', ''),
+                    primary_area=p.get('primary_area', ''),
+                    rating_avg=p.get('rating_avg'),
+                    bm25_score=p.get('bm25_score', 0.0),
+                    rank=i + 1
+                )
+                papers.append(paper)
+
+            # Apply cross-encoder reranking if enabled
+            if self.use_reranker and self.multi_stage_retriever and len(papers) > max_results:
+                papers = self._apply_reranker(query, papers, max_results)
+            else:
+                papers = papers[:max_results]
+
+            return papers
+
+        except Exception as e:
+            print(f"[Offline] HF Spaces search error: {e}")
+            import traceback
+            traceback.print_exc()
+            return []
+
     def _rerank_with_bm25(self, query: str, papers_data: List[dict]) -> List[dict]:
         """Apply BM25 reranking to a list of paper dicts."""
         # Prepare documents
@@ -1227,6 +1307,11 @@ class OfflinePaperSearchEngine:
             max_results: Maximum results to return
             ranking_method: "bm25", "semantic", "hybrid", or "simple"
         """
+        # Use HF Spaces fallback if local database not available (preferred)
+        if self.use_hf_fallback:
+            print(f"[Offline] Using HF Spaces fallback for search...")
+            return self._search_hf_space(query, conferences, start_year, end_year, max_results)
+
         # Use Supabase fallback if local database not available
         if self.use_supabase_fallback:
             print(f"[Offline] Using Supabase fallback for search...")

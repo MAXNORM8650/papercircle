@@ -2,15 +2,32 @@
 Community Papers Router
 =======================
 Provides endpoints for browsing, filtering, sharing, and managing community papers.
-Converted from standalone community_papers_api.py into a unified API router.
+Uses HuggingFace Spaces API for paper data (search, browse, filters).
+Uses Supabase for user-specific operations (add to circle, engagement).
 """
 
-from fastapi import APIRouter, HTTPException, BackgroundTasks, Query
+from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel
 from typing import Optional, List
-from datetime import datetime
+
+import os
+import sys
+from pathlib import Path
+
+# Add backend dir to path for services import
+_backend_dir = str(Path(__file__).parent.parent.parent.parent)
+if _backend_dir not in sys.path:
+    sys.path.insert(0, _backend_dir)
 
 from ..config import get_supabase
+
+try:
+    from services.hf_papers_client import get_hf_papers_client
+    print("[Community] HF Papers client module loaded")
+except ImportError as e:
+    print(f"[Community] Warning: Could not import HF Papers client: {e}")
+    def get_hf_papers_client():
+        return None
 
 # =============================================================================
 # Router
@@ -22,38 +39,28 @@ router = APIRouter(prefix="/community", tags=["Community Papers"])
 # Pydantic Models
 # =============================================================================
 
-class SyncRequest(BaseModel):
-    source_type: str = "full"  # full, research_output, conference_db
-
 class CommunityPaper(BaseModel):
-    id: str
     paper_id: str
     title: str
     authors: List[str]
     abstract: str
-    year: Optional[int]
-    venue: Optional[str]
-    conference: Optional[str]
-    source: str
-    track: Optional[str]
-    paper_status: Optional[str]
-    primary_area: Optional[str]
-    keywords: Optional[List[str]]
-    tldr: Optional[str]
-    pdf_url: Optional[str]
-    arxiv_id: Optional[str]
-    rating_avg: Optional[float]
-    github_url: Optional[str]
+    year: Optional[int] = None
+    venue: Optional[str] = None
+    conference: Optional[str] = None
+    source: str = ""
+    track: Optional[str] = None
+    paper_status: Optional[str] = None
+    primary_area: Optional[str] = None
+    keywords: Optional[List[str]] = None
+    tldr: Optional[str] = None
+    pdf_url: Optional[str] = None
+    arxiv_id: Optional[str] = None
+    rating_avg: Optional[float] = None
+    github_url: Optional[str] = None
     like_count: int = 0
     view_count: int = 0
     save_count: int = 0
     discussion_count: int = 0
-    combined_score: Optional[float]
-    similarity_score: Optional[float]
-    novelty_score: Optional[float]
-    recency_score: Optional[float]
-    share_token: Optional[str]
-    imported_at: str
 
 class PaginatedResponse(BaseModel):
     papers: List[CommunityPaper]
@@ -70,9 +77,103 @@ class FilterOptions(BaseModel):
     statuses: List[str]
     primary_areas: List[str]
 
-class ShareResponse(BaseModel):
-    share_token: str
-    share_url: str
+# =============================================================================
+# Helpers
+# =============================================================================
+
+def _get_engagement_counts(paper_ids: List[str]) -> dict:
+    """Fetch engagement counts from Supabase for a list of paper_ids."""
+    if not paper_ids:
+        return {}
+
+    try:
+        supabase = get_supabase()
+
+        # Get like counts
+        likes = {}
+        views = {}
+        saves = {}
+        discussions = {}
+
+        # Batch query engagement counts
+        result = supabase.table('paper_engagement').select(
+            'paper_id, engagement_type'
+        ).in_('paper_id', paper_ids).execute()
+
+        for row in result.data or []:
+            pid = row['paper_id']
+            etype = row['engagement_type']
+            if etype == 'like':
+                likes[pid] = likes.get(pid, 0) + 1
+            elif etype == 'view':
+                views[pid] = views.get(pid, 0) + 1
+            elif etype == 'save':
+                saves[pid] = saves.get(pid, 0) + 1
+
+        # Get discussion counts
+        disc_result = supabase.table('paper_discussions').select(
+            'paper_id'
+        ).in_('paper_id', paper_ids).execute()
+
+        for row in disc_result.data or []:
+            pid = row['paper_id']
+            discussions[pid] = discussions.get(pid, 0) + 1
+
+        return {
+            pid: {
+                'like_count': likes.get(pid, 0),
+                'view_count': views.get(pid, 0),
+                'save_count': saves.get(pid, 0),
+                'discussion_count': discussions.get(pid, 0),
+            }
+            for pid in paper_ids
+        }
+    except Exception as e:
+        print(f"[Community] Error fetching engagement counts: {e}")
+        return {}
+
+
+def _hf_paper_to_community_paper(paper: dict, engagement: dict = None) -> CommunityPaper:
+    """Convert HF API paper dict to CommunityPaper model."""
+    eng = engagement or {}
+    paper_id = paper.get('paper_id', '')
+
+    authors = paper.get('authors', [])
+    if isinstance(authors, str):
+        authors = [authors]
+    elif authors is None:
+        authors = []
+
+    keywords = paper.get('keywords', [])
+    if isinstance(keywords, str):
+        keywords = [keywords]
+    elif keywords is None:
+        keywords = []
+
+    return CommunityPaper(
+        paper_id=paper_id,
+        title=paper.get('title', ''),
+        authors=authors,
+        abstract=paper.get('abstract', ''),
+        year=paper.get('year'),
+        venue=paper.get('venue'),
+        conference=paper.get('conference'),
+        source=paper.get('source', ''),
+        track=paper.get('track'),
+        paper_status=paper.get('paper_status'),
+        primary_area=paper.get('primary_area'),
+        keywords=keywords,
+        tldr=paper.get('tldr'),
+        pdf_url=paper.get('pdf_url'),
+        arxiv_id=paper.get('arxiv_id'),
+        rating_avg=paper.get('rating_avg'),
+        github_url=paper.get('github_url'),
+        like_count=eng.get(paper_id, {}).get('like_count', 0),
+        view_count=eng.get(paper_id, {}).get('view_count', 0),
+        save_count=eng.get(paper_id, {}).get('save_count', 0),
+        discussion_count=eng.get(paper_id, {}).get('discussion_count', 0),
+    )
+
 
 # =============================================================================
 # Endpoints
@@ -90,148 +191,71 @@ async def get_community_papers(
     primary_area: Optional[str] = None,
     min_rating: Optional[float] = None,
     keywords: Optional[str] = None,
-    sort_by: str = Query("imported_at", regex="^(imported_at|rating|likes|views|combined_score|recency)$")
+    sort_by: str = Query("year", regex="^(year|rating|likes|views|combined_score|recency|title)$")
 ):
     """Get paginated community papers with filters."""
-    supabase = get_supabase()
-    offset = (page - 1) * limit
+    hf_client = get_hf_papers_client()
+    if not hf_client:
+        raise HTTPException(status_code=503, detail="Papers service not configured")
 
-    # Call the database function
-    result = supabase.rpc('get_community_papers', {
-        'p_limit': limit,
-        'p_offset': offset,
-        'p_year': year,
-        'p_conference': conference,
-        'p_source': source,
-        'p_track': track,
-        'p_status': status,
-        'p_primary_area': primary_area,
-        'p_min_rating': min_rating,
-        'p_keywords': keywords,
-        'p_sort_by': sort_by
-    }).execute()
+    # Fetch from HF Spaces
+    data = hf_client.get_community_papers(
+        page=page, limit=limit, year=year, conference=conference,
+        source=source, track=track, status=status, primary_area=primary_area,
+        min_rating=min_rating, keywords=keywords, sort_by=sort_by,
+    )
 
-    # Get total count
-    count_result = supabase.rpc('get_community_papers_count', {
-        'p_year': year,
-        'p_conference': conference,
-        'p_source': source,
-        'p_track': track,
-        'p_status': status,
-        'p_primary_area': primary_area,
-        'p_min_rating': min_rating,
-        'p_keywords': keywords
-    }).execute()
+    hf_papers = data.get('papers', [])
+    paper_ids = [p['paper_id'] for p in hf_papers]
 
-    total = count_result.data or 0
-    total_pages = (total + limit - 1) // limit if total > 0 else 1
+    # Fetch engagement counts from Supabase
+    engagement = _get_engagement_counts(paper_ids)
 
-    # Transform data
-    papers = []
-    for row in result.data or []:
-        authors = row.get('authors', [])
-        if isinstance(authors, str):
-            authors = [authors]
-        elif authors is None:
-            authors = []
-
-        papers.append(CommunityPaper(
-            id=row['id'],
-            paper_id=row['paper_id'],
-            title=row['title'] or '',
-            authors=authors,
-            abstract=row['abstract'] or '',
-            year=row['year'],
-            venue=row['venue'],
-            conference=row['conference'],
-            source=row['source'],
-            track=row['track'],
-            paper_status=row['paper_status'],
-            primary_area=row['primary_area'],
-            keywords=row['keywords'] or [],
-            tldr=row['tldr'],
-            pdf_url=row['pdf_url'],
-            arxiv_id=row['arxiv_id'],
-            rating_avg=row['rating_avg'],
-            github_url=row['github_url'],
-            like_count=row['like_count'] or 0,
-            view_count=row['view_count'] or 0,
-            save_count=row['save_count'] or 0,
-            discussion_count=row['discussion_count'] or 0,
-            combined_score=row['combined_score'],
-            similarity_score=row['similarity_score'],
-            novelty_score=row['novelty_score'],
-            recency_score=row['recency_score'],
-            share_token=row['share_token'],
-            imported_at=str(row['imported_at']) if row['imported_at'] else ''
-        ))
+    papers = [_hf_paper_to_community_paper(p, engagement) for p in hf_papers]
 
     return PaginatedResponse(
         papers=papers,
-        total=total,
-        page=page,
-        limit=limit,
-        total_pages=total_pages
+        total=data.get('total', 0),
+        page=data.get('page', page),
+        limit=data.get('limit', limit),
+        total_pages=data.get('total_pages', 1),
     )
+
 
 @router.get("/papers/{paper_id}")
 async def get_community_paper(paper_id: str):
     """Get a single community paper by ID."""
-    supabase = get_supabase()
-    result = supabase.table('community_papers_global').select(
-        '*, papers(*)'
-    ).eq('paper_id', paper_id).limit(1).execute()
+    hf_client = get_hf_papers_client()
+    if not hf_client:
+        raise HTTPException(status_code=503, detail="Papers service not configured")
 
-    if not result.data:
+    try:
+        paper = hf_client.get_paper(paper_id)
+    except Exception:
         raise HTTPException(status_code=404, detail="Paper not found")
 
-    return result.data[0]
+    engagement = _get_engagement_counts([paper_id])
+    return _hf_paper_to_community_paper(paper, engagement)
+
 
 @router.get("/filters", response_model=FilterOptions)
 async def get_filter_options():
     """Get available filter options for community papers."""
-    supabase = get_supabase()
-    result = supabase.rpc('get_community_paper_filter_options').execute()
+    hf_client = get_hf_papers_client()
+    if not hf_client:
+        raise HTTPException(status_code=503, detail="Papers service not configured")
 
-    data = result.data or {}
+    data = hf_client.get_filter_options()
 
     return FilterOptions(
-        years=data.get('years', []) or [],
-        conferences=data.get('conferences', []) or [],
-        sources=data.get('sources', []) or [],
-        tracks=data.get('tracks', []) or [],
-        statuses=data.get('statuses', []) or [],
-        primary_areas=data.get('primary_areas', []) or []
+        years=data.get('years', []),
+        conferences=data.get('conferences', []),
+        sources=data.get('sources', []),
+        tracks=data.get('tracks', []),
+        statuses=data.get('statuses', []),
+        primary_areas=data.get('primary_areas', []),
     )
 
-@router.post("/papers/{paper_id}/share", response_model=ShareResponse)
-async def generate_share_link(paper_id: str):
-    """Generate a shareable link for a paper."""
-    supabase = get_supabase()
-    result = supabase.rpc('generate_paper_share_token', {
-        'p_paper_id': paper_id
-    }).execute()
-
-    share_token = result.data
-    if not share_token:
-        raise HTTPException(status_code=404, detail="Paper not found in community")
-
-    share_url = f"/share/{share_token}"
-
-    return ShareResponse(share_token=share_token, share_url=share_url)
-
-@router.get("/share/{share_token}")
-async def get_shared_paper(share_token: str):
-    """Get a paper by its share token (public endpoint)."""
-    supabase = get_supabase()
-    result = supabase.rpc('get_paper_by_share_token', {
-        'p_share_token': share_token
-    }).execute()
-
-    if not result.data:
-        raise HTTPException(status_code=404, detail="Shared paper not found")
-
-    return result.data[0]
 
 class AddToCircleRequest(BaseModel):
     circle_id: str
@@ -260,33 +284,3 @@ async def add_paper_to_circle(paper_id: str, request: AddToCircleRequest):
     }).execute()
 
     return {"message": "Paper added to circle", "status": "added"}
-
-@router.post("/sync/trigger")
-async def trigger_sync(request: SyncRequest, background_tasks: BackgroundTasks):
-    """Trigger background sync from specified sources."""
-    supabase = get_supabase()
-    run_timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
-
-    result = supabase.table('sync_runs').insert({
-        'run_timestamp': run_timestamp,
-        'source_type': request.source_type,
-        'status': 'pending'
-    }).execute()
-
-    run_id = result.data[0]['id']
-
-    return {
-        "message": f"Sync triggered for {request.source_type}",
-        "run_id": run_id,
-        "run_timestamp": run_timestamp
-    }
-
-@router.get("/sync/status")
-async def get_sync_status(limit: int = 10):
-    """Get status of recent sync runs."""
-    supabase = get_supabase()
-    result = supabase.table('sync_runs').select('*').order(
-        'created_at', desc=True
-    ).limit(limit).execute()
-
-    return {"sync_runs": result.data}

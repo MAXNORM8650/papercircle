@@ -29,4 +29,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
 ENV PORT=8000
 
 # Run the unified API
-CMD uvicorn apis.unified.app:app --host 0.0.0.0 --port $PORT
+CMD ["sh", "-c", "uvicorn apis.unified.app:app --host 0.0.0.0 --port $PORT"]

@@ -24,6 +24,8 @@ if not SUPABASE_SERVICE_KEY:
     SUPABASE_SERVICE_KEY = os.getenv("VITE_SUPABASE_ANON_KEY", "")
     print("Warning: Using anon key instead of service role key")
 
+HF_PAPERS_API_URL = os.getenv("HF_PAPERS_API_URL", "")
+
 DEFAULT_API_BASE = os.getenv("OLLAMA_API_BASE", "http://10.127.30.115:11434")
 DEFAULT_MODEL_ID = os.getenv("OLLAMA_MODEL", "ollama_chat/qwen3-coder:30b")
 DEFAULT_NUM_CTX = 8192
