@@ -14,10 +14,15 @@ import os
 import sys
 from pathlib import Path
 
-# Add backend dir to path for services import
-_backend_dir = str(Path(__file__).parent.parent.parent.parent)
+# Add backend dir (or /app in Docker) to path for services import
+# routers/community_papers.py → routers/ → unified/ → apis/ → backend|/app
+_backend_dir = str(Path(__file__).resolve().parent.parent.parent.parent)
 if _backend_dir not in sys.path:
     sys.path.insert(0, _backend_dir)
+# Also add 3-parent level in case Docker flattens the structure
+_alt_dir = str(Path(__file__).resolve().parent.parent.parent)
+if _alt_dir not in sys.path:
+    sys.path.insert(0, _alt_dir)
 
 from ..config import get_supabase
 
