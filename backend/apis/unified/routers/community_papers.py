@@ -196,18 +196,21 @@ async def get_community_papers(
     primary_area: Optional[str] = None,
     min_rating: Optional[float] = None,
     keywords: Optional[str] = None,
-    sort_by: str = Query("year", regex="^(year|rating|likes|views|combined_score|recency|title)$")
+    sort_by: str = Query("year", pattern="^(imported_at|year|rating|likes|views|combined_score|recency|title)$")
 ):
     """Get paginated community papers with filters."""
     hf_client = get_hf_papers_client()
     if not hf_client:
         raise HTTPException(status_code=503, detail="Papers service not configured")
 
+    # Map sort_by values that don't exist in HF dataset
+    hf_sort_by = sort_by if sort_by not in ("imported_at", "likes", "views") else "year"
+
     # Fetch from HF Spaces
     data = hf_client.get_community_papers(
         page=page, limit=limit, year=year, conference=conference,
         source=source, track=track, status=status, primary_area=primary_area,
-        min_rating=min_rating, keywords=keywords, sort_by=sort_by,
+        min_rating=min_rating, keywords=keywords, sort_by=hf_sort_by,
     )
 
     hf_papers = data.get('papers', [])

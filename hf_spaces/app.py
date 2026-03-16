@@ -147,7 +147,7 @@ async def get_community_papers(
     primary_area: Optional[str] = None,
     min_rating: Optional[float] = None,
     keywords: Optional[str] = None,
-    sort_by: str = Query("year", regex="^(year|rating|combined_score|recency|title)$"),
+    sort_by: str = Query("year", regex="^(imported_at|year|rating|combined_score|recency|title|likes|views)$"),
 ):
     """Get paginated community papers with filters."""
     if not ready:
@@ -190,10 +190,13 @@ async def get_community_papers(
     # Sort mapping
     sort_map = {
         "year": "year DESC NULLS LAST",
+        "imported_at": "year DESC NULLS LAST",
         "rating": "rating_avg DESC NULLS LAST",
         "recency": "year DESC NULLS LAST",
         "title": "title ASC",
         "combined_score": "rating_avg DESC NULLS LAST",
+        "likes": "year DESC NULLS LAST",
+        "views": "year DESC NULLS LAST",
     }
     order_sql = sort_map.get(sort_by, "year DESC NULLS LAST")
 
