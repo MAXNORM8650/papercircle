@@ -4,22 +4,21 @@ Community Papers Router
 Provides endpoints for browsing, filtering, sharing, and managing community papers.
 Uses HuggingFace Spaces API for paper data (search, browse, filters).
 Uses Supabase for user-specific operations (add to circle, engagement).
+HF paper IDs are mapped to Supabase UUIDs via stub rows for engagement FK integrity.
 """
 
 from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel
-from typing import Optional, List
+from typing import Optional, List, Dict
 
 import os
 import sys
 from pathlib import Path
 
 # Add backend dir (or /app in Docker) to path for services import
-# routers/community_papers.py → routers/ → unified/ → apis/ → backend|/app
 _backend_dir = str(Path(__file__).resolve().parent.parent.parent.parent)
 if _backend_dir not in sys.path:
     sys.path.insert(0, _backend_dir)
-# Also add 3-parent level in case Docker flattens the structure
 _alt_dir = str(Path(__file__).resolve().parent.parent.parent)
 if _alt_dir not in sys.path:
     sys.path.insert(0, _alt_dir)
@@ -45,7 +44,8 @@ router = APIRouter(prefix="/community", tags=["Community Papers"])
 # =============================================================================
 
 class CommunityPaper(BaseModel):
-    paper_id: str
+    paper_id: str  # Supabase UUID (for engagement compatibility)
+    hf_paper_id: str = ""  # Original HF paper ID
     title: str
     authors: List[str]
     abstract: str
@@ -86,24 +86,56 @@ class FilterOptions(BaseModel):
 # Helpers
 # =============================================================================
 
-def _get_engagement_counts(paper_ids: List[str]) -> dict:
-    """Fetch engagement counts from Supabase for a list of paper_ids."""
-    if not paper_ids:
+def _ensure_supabase_stubs(hf_papers: List[dict]) -> Dict[str, str]:
+    """
+    Ensure stub rows exist in Supabase for HF papers.
+    Returns mapping: hf_paper_id -> supabase_uuid.
+    """
+    if not hf_papers:
         return {}
 
     try:
         supabase = get_supabase()
 
-        # Get like counts
+        hf_ids = [p.get('paper_id', '') for p in hf_papers]
+        titles = [p.get('title', '') for p in hf_papers]
+        years = [p.get('year') for p in hf_papers]
+        conferences = [p.get('conference') for p in hf_papers]
+
+        result = supabase.rpc('ensure_papers_for_hf_ids', {
+            'p_hf_paper_ids': hf_ids,
+            'p_titles': titles,
+            'p_years': years,
+            'p_conferences': conferences,
+        }).execute()
+
+        mapping = {}
+        for row in result.data or []:
+            mapping[row['hf_paper_id']] = row['paper_uuid']
+
+        return mapping
+    except Exception as e:
+        print(f"[Community] Error ensuring stubs: {e}")
+        # Fallback: return hf_ids as-is (engagement won't work but browsing will)
+        return {p.get('paper_id', ''): p.get('paper_id', '') for p in hf_papers}
+
+
+def _get_engagement_counts(paper_uuids: List[str]) -> dict:
+    """Fetch engagement counts from Supabase for a list of Supabase UUIDs."""
+    if not paper_uuids:
+        return {}
+
+    try:
+        supabase = get_supabase()
+
         likes = {}
         views = {}
         saves = {}
         discussions = {}
 
-        # Batch query engagement counts
         result = supabase.table('paper_engagement').select(
             'paper_id, engagement_type'
-        ).in_('paper_id', paper_ids).execute()
+        ).in_('paper_id', paper_uuids).execute()
 
         for row in result.data or []:
             pid = row['paper_id']
@@ -115,10 +147,9 @@ def _get_engagement_counts(paper_ids: List[str]) -> dict:
             elif etype == 'save':
                 saves[pid] = saves.get(pid, 0) + 1
 
-        # Get discussion counts
         disc_result = supabase.table('paper_discussions').select(
             'paper_id'
-        ).in_('paper_id', paper_ids).execute()
+        ).in_('paper_id', paper_uuids).execute()
 
         for row in disc_result.data or []:
             pid = row['paper_id']
@@ -131,17 +162,19 @@ def _get_engagement_counts(paper_ids: List[str]) -> dict:
                 'save_count': saves.get(pid, 0),
                 'discussion_count': discussions.get(pid, 0),
             }
-            for pid in paper_ids
+            for pid in paper_uuids
         }
     except Exception as e:
         print(f"[Community] Error fetching engagement counts: {e}")
         return {}
 
 
-def _hf_paper_to_community_paper(paper: dict, engagement: dict = None) -> CommunityPaper:
-    """Convert HF API paper dict to CommunityPaper model."""
+def _hf_paper_to_community_paper(
+    paper: dict, uuid: str, engagement: dict = None
+) -> CommunityPaper:
+    """Convert HF API paper dict to CommunityPaper model with Supabase UUID."""
     eng = engagement or {}
-    paper_id = paper.get('paper_id', '')
+    hf_paper_id = paper.get('paper_id', '')
 
     authors = paper.get('authors', [])
     if isinstance(authors, str):
@@ -156,7 +189,8 @@ def _hf_paper_to_community_paper(paper: dict, engagement: dict = None) -> Commun
         keywords = []
 
     return CommunityPaper(
-        paper_id=paper_id,
+        paper_id=uuid,  # Supabase UUID for engagement
+        hf_paper_id=hf_paper_id,
         title=paper.get('title', ''),
         authors=authors,
         abstract=paper.get('abstract', ''),
@@ -173,10 +207,10 @@ def _hf_paper_to_community_paper(paper: dict, engagement: dict = None) -> Commun
         arxiv_id=paper.get('arxiv_id'),
         rating_avg=paper.get('rating_avg'),
         github_url=paper.get('github_url'),
-        like_count=eng.get(paper_id, {}).get('like_count', 0),
-        view_count=eng.get(paper_id, {}).get('view_count', 0),
-        save_count=eng.get(paper_id, {}).get('save_count', 0),
-        discussion_count=eng.get(paper_id, {}).get('discussion_count', 0),
+        like_count=eng.get(uuid, {}).get('like_count', 0),
+        view_count=eng.get(uuid, {}).get('view_count', 0),
+        save_count=eng.get(uuid, {}).get('save_count', 0),
+        discussion_count=eng.get(uuid, {}).get('discussion_count', 0),
     )
 
 
@@ -203,10 +237,8 @@ async def get_community_papers(
     if not hf_client:
         raise HTTPException(status_code=503, detail="Papers service not configured")
 
-    # Map sort_by values that don't exist in HF dataset
     hf_sort_by = sort_by if sort_by not in ("imported_at", "likes", "views") else "year"
 
-    # Fetch from HF Spaces
     data = hf_client.get_community_papers(
         page=page, limit=limit, year=year, conference=conference,
         source=source, track=track, status=status, primary_area=primary_area,
@@ -214,12 +246,19 @@ async def get_community_papers(
     )
 
     hf_papers = data.get('papers', [])
-    paper_ids = [p['paper_id'] for p in hf_papers]
 
-    # Fetch engagement counts from Supabase
-    engagement = _get_engagement_counts(paper_ids)
+    # Map HF IDs → Supabase UUIDs (creates stubs if needed)
+    id_mapping = _ensure_supabase_stubs(hf_papers)
 
-    papers = [_hf_paper_to_community_paper(p, engagement) for p in hf_papers]
+    # Get engagement counts using Supabase UUIDs
+    uuids = list(id_mapping.values())
+    engagement = _get_engagement_counts(uuids)
+
+    papers = []
+    for p in hf_papers:
+        hf_id = p.get('paper_id', '')
+        uuid = id_mapping.get(hf_id, hf_id)
+        papers.append(_hf_paper_to_community_paper(p, uuid, engagement))
 
     return PaginatedResponse(
         papers=papers,
@@ -232,7 +271,7 @@ async def get_community_papers(
 
 @router.get("/papers/{paper_id}")
 async def get_community_paper(paper_id: str):
-    """Get a single community paper by ID."""
+    """Get a single community paper by HF paper ID."""
     hf_client = get_hf_papers_client()
     if not hf_client:
         raise HTTPException(status_code=503, detail="Papers service not configured")
@@ -242,8 +281,10 @@ async def get_community_paper(paper_id: str):
     except Exception:
         raise HTTPException(status_code=404, detail="Paper not found")
 
-    engagement = _get_engagement_counts([paper_id])
-    return _hf_paper_to_community_paper(paper, engagement)
+    id_mapping = _ensure_supabase_stubs([paper])
+    uuid = id_mapping.get(paper_id, paper_id)
+    engagement = _get_engagement_counts([uuid])
+    return _hf_paper_to_community_paper(paper, uuid, engagement)
 
 
 @router.get("/filters", response_model=FilterOptions)
@@ -271,12 +312,11 @@ class AddToCircleRequest(BaseModel):
 
 @router.post("/papers/{paper_id}/add-to-circle")
 async def add_paper_to_circle(paper_id: str, request: AddToCircleRequest):
-    """Add a community paper to a user's circle."""
+    """Add a community paper to a user's circle. paper_id is the Supabase UUID."""
     supabase = get_supabase()
     circle_id = request.circle_id
     user_id = request.user_id
 
-    # Check if already added
     existing = supabase.table('community_papers').select('id').eq(
         'paper_id', paper_id
     ).eq('community_id', circle_id).limit(1).execute()
@@ -284,7 +324,6 @@ async def add_paper_to_circle(paper_id: str, request: AddToCircleRequest):
     if existing.data:
         return {"message": "Paper already in circle", "status": "exists"}
 
-    # Add to circle
     supabase.table('community_papers').insert({
         'paper_id': paper_id,
         'community_id': circle_id,
