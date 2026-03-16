@@ -31,6 +31,9 @@ DEFAULT_MODEL_ID = os.getenv("OLLAMA_MODEL", "ollama_chat/qwen3-coder:30b")
 DEFAULT_NUM_CTX = 8192
 DEFAULT_CACHE_DIR = "./paper_cache"
 
+# Admin email for shared LLM credentials
+ADMIN_EMAIL = os.getenv("ADMIN_EMAIL", "paper.circle.24@gmail.com")
+
 # =============================================================================
 # Supabase Client (Singleton)
 # =============================================================================
@@ -62,15 +65,52 @@ def get_default_llm_config() -> LLMConfig:
     """Get default LLM configuration."""
     return LLMConfig()
 
+# Cached admin LLM config (loaded once, reused for all non-custom users)
+_admin_llm_config: Optional[LLMConfig] = None
+
+def _get_admin_llm_config() -> Optional[LLMConfig]:
+    """Get the admin's LLM config for shared use by regular users."""
+    global _admin_llm_config
+    if _admin_llm_config is not None:
+        return _admin_llm_config
+
+    try:
+        supabase = get_supabase()
+        # Look up admin by email
+        result = supabase.table('profiles').select(
+            'llm_enabled, llm_provider, llm_api_base, llm_model_id, llm_api_key'
+        ).eq('email', ADMIN_EMAIL).single().execute()
+
+        if not result.data or not result.data.get('llm_enabled'):
+            print(f"[Config] Admin ({ADMIN_EMAIL}) has no LLM config enabled")
+            return None
+
+        _admin_llm_config = LLMConfig(
+            api_base=result.data.get('llm_api_base') or DEFAULT_API_BASE,
+            model_id=result.data.get('llm_model_id') or DEFAULT_MODEL_ID,
+            api_key=result.data.get('llm_api_key'),
+        )
+        print(f"[Config] Admin LLM config loaded: {_admin_llm_config.model_id}")
+        return _admin_llm_config
+
+    except Exception as e:
+        print(f"[Config] Error loading admin LLM config: {e}")
+        return None
+
 def get_user_llm_config(user_id: Optional[str]) -> LLMConfig:
     """
     Get LLM configuration for a specific user.
-    Returns user's custom config if enabled, otherwise returns default config.
+    Priority:
+    1. User's own custom config (if llm_enabled)
+    2. Admin's shared config (for regular users, subject to quota)
+    3. Default Ollama config (fallback)
     """
     default = get_default_llm_config()
 
     if not user_id or user_id == "system":
-        return default
+        # System calls use admin config if available
+        admin_config = _get_admin_llm_config()
+        return admin_config if admin_config else default
 
     try:
         supabase = get_supabase()
@@ -78,30 +118,40 @@ def get_user_llm_config(user_id: Optional[str]) -> LLMConfig:
             'llm_enabled, llm_provider, llm_api_base, llm_model_id, llm_api_key'
         ).eq('id', user_id).single().execute()
 
-        if not result.data or not result.data.get('llm_enabled'):
-            return default
+        if result.data and result.data.get('llm_enabled'):
+            # User has their own custom LLM config
+            api_base = result.data.get('llm_api_base') or default.api_base
 
-        api_base = result.data.get('llm_api_base') or default.api_base
+            if any(host in api_base.lower() for host in ['localhost', '127.0.0.1', '0.0.0.0']):
+                print(f"Warning: User {user_id} configured localhost URL: {api_base}")
 
-        # Warn about localhost URLs
-        if any(host in api_base.lower() for host in ['localhost', '127.0.0.1', '0.0.0.0']):
-            print(f"Warning: User {user_id} configured localhost URL: {api_base}")
+            return LLMConfig(
+                api_base=api_base,
+                model_id=result.data.get('llm_model_id') or default.model_id,
+                api_key=result.data.get('llm_api_key'),
+                num_ctx=default.num_ctx,
+                cache_dir=default.cache_dir,
+                max_chunk_size=default.max_chunk_size,
+            )
 
-        return LLMConfig(
-            api_base=api_base,
-            model_id=result.data.get('llm_model_id') or default.model_id,
-            api_key=result.data.get('llm_api_key'),
-            num_ctx=default.num_ctx,
-            cache_dir=default.cache_dir,
-            max_chunk_size=default.max_chunk_size,
-        )
+        # User has no custom config — use admin's shared config
+        admin_config = _get_admin_llm_config()
+        if admin_config:
+            return admin_config
 
-    except Exception as e:
-        print(f"Error loading user LLM config: {e}. Using default.")
         return default
 
+    except Exception as e:
+        print(f"Error loading user LLM config: {e}. Using admin/default.")
+        admin_config = _get_admin_llm_config()
+        return admin_config if admin_config else default
+
 def has_custom_llm_enabled(user_id: Optional[str]) -> bool:
-    """Check if user has custom LLM configuration enabled."""
+    """
+    Check if user has their OWN custom LLM configuration enabled.
+    Users using the shared admin config are NOT considered custom —
+    they still go through quota checks.
+    """
     if not user_id or user_id == "system":
         return False
 
