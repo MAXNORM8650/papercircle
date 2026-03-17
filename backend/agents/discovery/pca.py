@@ -2999,7 +2999,7 @@ def create_research_pipeline(model, output_dir: str = "research_output", verbose
         max_steps=2,
         instructions="""                                                                                                                                                    
             CRITICAL INSTRUCTIONS FOR EFFICIENCY:                                                                                                                                       
-            When query says "offline:" or mentions conferences, use paper_search_agent FIRST with offline database                                                                   
+            Use paper_search_agent FIRST with offline database based on the information from query                                                                
             ALWAYS search offline database BEFORE any online search                                                                                                                  
             For benchmarking queries, do MINIMAL steps: search → done (no sorting, no analysis unless requested)                                                                     
             Pass parameters EXACTLY as specified (do not add extra parameters like 'year_range')                                                                                     
