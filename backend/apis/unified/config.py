@@ -31,8 +31,9 @@ DEFAULT_MODEL_ID = os.getenv("OLLAMA_MODEL", "ollama_chat/qwen3-coder:30b")
 DEFAULT_NUM_CTX = 8192
 DEFAULT_CACHE_DIR = "./paper_cache"
 
-# Admin email for shared LLM credentials
+# Admin config for shared LLM credentials
 ADMIN_EMAIL = os.getenv("ADMIN_EMAIL", "paper.circle.24@gmail.com")
+ADMIN_USER_ID = os.getenv("ADMIN_USER_ID", "c3287881-7827-4ccd-94cf-4494df887478")
 
 # =============================================================================
 # Supabase Client (Singleton)
@@ -76,10 +77,28 @@ def _get_admin_llm_config() -> Optional[LLMConfig]:
 
     try:
         supabase = get_supabase()
-        # Look up admin by email
+        admin_id = ADMIN_USER_ID
+
+        # If no admin user ID configured, look it up via auth.users by email
+        if not admin_id and ADMIN_EMAIL:
+            try:
+                auth_result = supabase.auth.admin.list_users()
+                for u in auth_result:
+                    if hasattr(u, 'email') and u.email == ADMIN_EMAIL:
+                        admin_id = str(u.id)
+                        print(f"[Config] Found admin user ID: {admin_id}")
+                        break
+            except Exception as auth_err:
+                print(f"[Config] Could not look up admin by email: {auth_err}")
+
+        if not admin_id:
+            print(f"[Config] Admin user ID not found for {ADMIN_EMAIL}")
+            return None
+
+        # Fetch admin's LLM config from profiles
         result = supabase.table('profiles').select(
             'llm_enabled, llm_provider, llm_api_base, llm_model_id, llm_api_key'
-        ).eq('email', ADMIN_EMAIL).single().execute()
+        ).eq('id', admin_id).single().execute()
 
         if not result.data or not result.data.get('llm_enabled'):
             print(f"[Config] Admin ({ADMIN_EMAIL}) has no LLM config enabled")
