@@ -87,8 +87,52 @@ export function PaperReviewView({
   const [showUrlInput, setShowUrlInput] = useState(false);
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [uploadMode, setUploadMode] = useState<'url' | 'file'>('url');
+  const [activeJobId, setActiveJobId] = useState<string | null>(null);
+  const [reviewProgress, setReviewProgress] = useState<number>(0);
+  const [reviewMessage, setReviewMessage] = useState<string>('');
 
   useEffect(() => {
+    // On mount: check localStorage for an active review job and resume polling
+    const storageKey = `papercircle_review_job_${paperId}`;
+    const stored = localStorage.getItem(storageKey);
+    if (stored) {
+      try {
+        const job = JSON.parse(stored);
+        if (job.jobId) {
+          setActiveJobId(job.jobId);
+          setProcessing(true);
+          setLoading(false);
+          // Check if still running via backend
+          fetch(`${API_BASE}/status/${job.jobId}`)
+            .then(res => res.ok ? res.json() : null)
+            .then(status => {
+              if (status && (status.status === 'running' || status.status === 'pending')) {
+                setReviewProgress(status.progress || 0);
+                setReviewMessage(status.message || 'Processing...');
+                pollForCompletion(job.jobId);
+              } else if (status && status.status === 'completed' && status.result) {
+                setReview(status.result);
+                handleReviewComplete(status.result);
+                setProcessing(false);
+                localStorage.removeItem(storageKey);
+              } else {
+                // Job failed or not found
+                setProcessing(false);
+                localStorage.removeItem(storageKey);
+                loadReview();
+              }
+            })
+            .catch(() => {
+              localStorage.removeItem(storageKey);
+              setProcessing(false);
+              loadReview();
+            });
+          return; // Skip normal loadReview
+        }
+      } catch {
+        localStorage.removeItem(storageKey);
+      }
+    }
     loadReview();
   }, [paperId, communityId, sessionId]);
 
@@ -156,6 +200,8 @@ export function PaperReviewView({
   };
 
   const pollForCompletion = async (jobId: string) => {
+    const storageKey = `papercircle_review_job_${paperId}`;
+
     const poll = async () => {
       try {
         const response = await fetch(`${API_BASE}/status/${jobId}`);
@@ -166,18 +212,31 @@ export function PaperReviewView({
         const statusData = await response.json();
         console.log('Review status:', statusData);
 
+        // Update progress
+        if (statusData.progress !== undefined) setReviewProgress(statusData.progress);
+        if (statusData.message) setReviewMessage(statusData.message);
+
         if (statusData.status === 'completed') {
-          // Review is complete - fetch the full result
           const reviewResult = statusData.result;
           if (reviewResult) {
             setReview(reviewResult);
             handleReviewComplete(reviewResult);
           }
           setProcessing(false);
+          setActiveJobId(null);
+          localStorage.removeItem(storageKey);
           return;
         } else if (statusData.status === 'failed') {
-          setError(statusData.error || 'Review processing failed');
+          setError(statusData.message || 'Review processing failed');
           setProcessing(false);
+          setActiveJobId(null);
+          localStorage.removeItem(storageKey);
+          return;
+        } else if (statusData.status === 'cancelled') {
+          setError('Review was cancelled.');
+          setProcessing(false);
+          setActiveJobId(null);
+          localStorage.removeItem(storageKey);
           return;
         }
 
@@ -187,10 +246,10 @@ export function PaperReviewView({
         console.error('Error polling review status:', err);
         setError(err instanceof Error ? err.message : 'Failed to get review status');
         setProcessing(false);
+        setActiveJobId(null);
       }
     };
 
-    // Start polling
     poll();
   };
 
@@ -256,10 +315,15 @@ export function PaperReviewView({
       console.log('Review job started:', result);
 
       if (result.job_id) {
-        // Start polling for completion
+        setActiveJobId(result.job_id);
+        // Persist to localStorage so we can resume after page refresh
+        localStorage.setItem(`papercircle_review_job_${paperId}`, JSON.stringify({
+          jobId: result.job_id,
+          paperId,
+          startedAt: new Date().toISOString(),
+        }));
         pollForCompletion(result.job_id);
       } else if (result.status === 'completed' && result.result) {
-        // Synchronous response (unlikely but handle it)
         setReview(result.result);
         handleReviewComplete(result.result);
         setProcessing(false);
@@ -309,10 +373,14 @@ export function PaperReviewView({
 
       // Handle async job response (same as /full endpoint)
       if (result.job_id) {
-        // Start polling for completion
+        setActiveJobId(result.job_id);
+        localStorage.setItem(`papercircle_review_job_${paperId}`, JSON.stringify({
+          jobId: result.job_id,
+          paperId,
+          startedAt: new Date().toISOString(),
+        }));
         pollForCompletion(result.job_id);
       } else if (result.status === 'completed' && result.result) {
-        // Synchronous response (unlikely but handle it)
         setReview(result.result);
         handleReviewComplete(result.result);
         setProcessing(false);
@@ -863,6 +931,19 @@ export function PaperReviewView({
     );
   }
 
+  const cancelReview = async () => {
+    if (!activeJobId) return;
+    try {
+      await fetch(`${API_BASE}/cancel/${activeJobId}`, { method: 'POST' });
+    } catch (err) {
+      console.error('Failed to cancel review:', err);
+    }
+    setProcessing(false);
+    setActiveJobId(null);
+    setError('Review cancelled.');
+    localStorage.removeItem(`papercircle_review_job_${paperId}`);
+  };
+
   if (processing) {
     return (
       <div className="bg-white rounded-lg shadow p-6">
@@ -871,9 +952,35 @@ export function PaperReviewView({
           <h3 className="text-lg font-semibold text-gray-900 mb-2">
             Reviewing Paper...
           </h3>
-          <p className="text-gray-600">
-            This may take a few minutes. Generating comprehensive review with lineage extraction.
+          <p className="text-gray-600 mb-4">
+            {reviewMessage || 'Generating comprehensive review with lineage extraction.'}
           </p>
+
+          {/* Progress bar */}
+          {reviewProgress > 0 && (
+            <div className="max-w-md mx-auto mb-4">
+              <div className="flex items-center justify-between text-sm mb-1">
+                <span className="text-gray-600">Progress</span>
+                <span className="font-medium text-blue-600">{reviewProgress}%</span>
+              </div>
+              <div className="w-full h-2 bg-gray-200 rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-blue-500 transition-all duration-500 ease-out rounded-full"
+                  style={{ width: `${reviewProgress}%` }}
+                />
+              </div>
+            </div>
+          )}
+
+          {/* Cancel button */}
+          {activeJobId && (
+            <button
+              onClick={cancelReview}
+              className="mt-2 px-4 py-2 bg-red-100 text-red-700 rounded-lg hover:bg-red-200 transition-colors text-sm font-medium"
+            >
+              Cancel Review
+            </button>
+          )}
         </div>
       </div>
     );

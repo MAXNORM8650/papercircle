@@ -200,8 +200,50 @@ export function PaperAnalysisView({
   const [askingQuestion, setAskingQuestion] = useState(false);
   const [manualUrl, setManualUrl] = useState('');
   const [showUrlInput, setShowUrlInput] = useState(false);
+  const [activeJobId, setActiveJobId] = useState<string | null>(null);
+  const [analysisProgress, setAnalysisProgress] = useState<number>(0);
+  const [analysisMessage, setAnalysisMessage] = useState<string>('');
 
   useEffect(() => {
+    // On mount: check localStorage for an active analysis job and resume polling
+    const storageKey = `papercircle_analysis_job_${paperId}`;
+    const stored = localStorage.getItem(storageKey);
+    if (stored) {
+      try {
+        const job = JSON.parse(stored);
+        if (job.jobId) {
+          setActiveJobId(job.jobId);
+          setProcessing(true);
+          setLoading(false);
+          // Check if still running via backend
+          fetch(`${API_BASE}/analysis/status/${job.jobId}`)
+            .then(res => res.ok ? res.json() : null)
+            .then(status => {
+              if (status && (status.status === 'running' || status.status === 'pending')) {
+                setAnalysisProgress(status.progress || 0);
+                setAnalysisMessage(status.message || 'Processing...');
+                pollForJobCompletion(job.jobId);
+              } else if (status && status.status === 'completed') {
+                setProcessing(false);
+                localStorage.removeItem(storageKey);
+                loadAnalysis();
+              } else {
+                setProcessing(false);
+                localStorage.removeItem(storageKey);
+                loadAnalysis();
+              }
+            })
+            .catch(() => {
+              localStorage.removeItem(storageKey);
+              setProcessing(false);
+              loadAnalysis();
+            });
+          return; // Skip normal loadAnalysis
+        }
+      } catch {
+        localStorage.removeItem(storageKey);
+      }
+    }
     loadAnalysis();
   }, [paperId, communityId, sessionId]);
 
@@ -276,10 +318,19 @@ export function PaperAnalysisView({
 
         if (response.ok) {
           const result = await response.json();
-          // URL analysis now returns "processing" status
           if (result.status === 'processing') {
-            // Poll for completion using arxiv_id
-            pollForArxivCompletion(arxivId);
+            const jobId = result.job_id;
+            if (jobId) {
+              setActiveJobId(jobId);
+              localStorage.setItem(`papercircle_analysis_job_${paperId}`, JSON.stringify({
+                jobId,
+                paperId,
+                startedAt: new Date().toISOString(),
+              }));
+              pollForJobCompletion(jobId);
+            } else {
+              pollForArxivCompletion(arxivId);
+            }
             return;
           }
         }
@@ -293,8 +344,19 @@ export function PaperAnalysisView({
       const result = await response.json();
 
       if (result.status === 'processing') {
-        // Poll for completion
-        pollForCompletion();
+        const jobId = result.job_id;
+        if (jobId) {
+          setActiveJobId(jobId);
+          localStorage.setItem(`papercircle_analysis_job_${paperId}`, JSON.stringify({
+            jobId,
+            paperId,
+            startedAt: new Date().toISOString(),
+          }));
+          pollForJobCompletion(jobId);
+        } else {
+          // Fallback: no job_id returned, use old polling
+          pollForCompletion();
+        }
       } else if (result.status === 'exists') {
         // Load existing analysis
         loadAnalysis();
@@ -312,6 +374,55 @@ export function PaperAnalysisView({
       }
       setProcessing(false);
     }
+  };
+
+  const pollForJobCompletion = (jobId: string) => {
+    const storageKey = `papercircle_analysis_job_${paperId}`;
+
+    const poll = async () => {
+      try {
+        const response = await fetch(`${API_BASE}/analysis/status/${jobId}`);
+        if (!response.ok) {
+          throw new Error('Failed to get analysis status');
+        }
+
+        const statusData = await response.json();
+        console.log('Analysis status:', statusData);
+
+        if (statusData.progress !== undefined) setAnalysisProgress(statusData.progress);
+        if (statusData.message) setAnalysisMessage(statusData.message);
+
+        if (statusData.status === 'completed') {
+          setProcessing(false);
+          setActiveJobId(null);
+          localStorage.removeItem(storageKey);
+          loadAnalysis(); // Reload from DB
+          return;
+        } else if (statusData.status === 'failed') {
+          setError(statusData.message || 'Analysis failed');
+          setProcessing(false);
+          setActiveJobId(null);
+          localStorage.removeItem(storageKey);
+          return;
+        } else if (statusData.status === 'cancelled') {
+          setError('Analysis was cancelled.');
+          setProcessing(false);
+          setActiveJobId(null);
+          localStorage.removeItem(storageKey);
+          return;
+        }
+
+        // Still processing
+        setTimeout(poll, 5000);
+      } catch (err) {
+        console.error('Error polling analysis status:', err);
+        setError(err instanceof Error ? err.message : 'Failed to get analysis status');
+        setProcessing(false);
+        setActiveJobId(null);
+      }
+    };
+
+    poll();
   };
 
   const pollForCompletion = () => {
@@ -336,7 +447,7 @@ export function PaperAnalysisView({
       } catch (err) {
         console.error('Error polling for analysis:', err);
       }
-    }, 5000); // Poll every 5 seconds
+    }, 5000);
 
     // Stop polling after 5 minutes
     setTimeout(() => {
@@ -614,6 +725,19 @@ export function PaperAnalysisView({
     );
   }
 
+  const cancelAnalysis = async () => {
+    if (!activeJobId) return;
+    try {
+      await fetch(`${API_BASE}/analysis/cancel/${activeJobId}`, { method: 'POST' });
+    } catch (err) {
+      console.error('Failed to cancel analysis:', err);
+    }
+    setProcessing(false);
+    setActiveJobId(null);
+    setError('Analysis cancelled.');
+    localStorage.removeItem(`papercircle_analysis_job_${paperId}`);
+  };
+
   if (processing) {
     return (
       <div className="bg-white rounded-lg shadow p-6">
@@ -622,9 +746,35 @@ export function PaperAnalysisView({
           <h3 className="text-lg font-semibold text-gray-900 mb-2">
             Analyzing Paper...
           </h3>
-          <p className="text-gray-600">
-            This may take a few minutes. The page will update automatically when complete.
+          <p className="text-gray-600 mb-4">
+            {analysisMessage || 'This may take a few minutes. The page will update automatically when complete.'}
           </p>
+
+          {/* Progress bar */}
+          {analysisProgress > 0 && (
+            <div className="max-w-md mx-auto mb-4">
+              <div className="flex items-center justify-between text-sm mb-1">
+                <span className="text-gray-600">Progress</span>
+                <span className="font-medium text-blue-600">{analysisProgress}%</span>
+              </div>
+              <div className="w-full h-2 bg-gray-200 rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-blue-500 transition-all duration-500 ease-out rounded-full"
+                  style={{ width: `${analysisProgress}%` }}
+                />
+              </div>
+            </div>
+          )}
+
+          {/* Cancel button */}
+          {activeJobId && (
+            <button
+              onClick={cancelAnalysis}
+              className="mt-2 px-4 py-2 bg-red-100 text-red-700 rounded-lg hover:bg-red-200 transition-colors text-sm font-medium"
+            >
+              Cancel Analysis
+            </button>
+          )}
         </div>
       </div>
     );

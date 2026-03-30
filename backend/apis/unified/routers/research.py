@@ -15,21 +15,14 @@ import sys
 import asyncio
 from pathlib import Path
 from datetime import datetime
-import concurrent.futures
 
 # Add paths
 sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent / "agents" / "discovery"))
 
-from smolagents import LiteLLMModel
-from pca import create_research_pipeline
-
 from ..config import get_user_llm_config, DEFAULT_API_BASE, DEFAULT_MODEL_ID
+from ..process_manager import ProcessJobManager, update_job_progress, complete_job, fail_job
 
 router = APIRouter(prefix="/research", tags=["Research"])
-
-# Active research sessions
-active_sessions = {}
-cancelled_sessions = set()
 
 # =============================================================================
 # Request/Response Models
@@ -46,6 +39,62 @@ class ResearchStatus(BaseModel):
     status: str
     message: str
     output_dir: Optional[str] = None
+
+# =============================================================================
+# Process Target Function
+# =============================================================================
+
+def _run_research_pipeline(
+    status_file: str,
+    output_dir: str,
+    enhanced_query: str,
+    model_kwargs: dict,
+    custom_instructions: Optional[str],
+):
+    """
+    Target function that runs in a child process.
+    Creates the model and pipeline, runs the discovery, updates status file.
+    """
+    import sys
+    from pathlib import Path
+
+    # Ensure agent paths are available
+    agents_discovery = str(Path(__file__).parent.parent.parent.parent / "agents" / "discovery")
+    if agents_discovery not in sys.path:
+        sys.path.insert(0, agents_discovery)
+
+    from smolagents import LiteLLMModel
+    from pca import create_research_pipeline
+
+    try:
+        update_job_progress(status_file, progress=5, message="Creating model...")
+        model = LiteLLMModel(**model_kwargs)
+
+        update_job_progress(status_file, progress=10, message="Creating multi-agent research pipeline...")
+        pipeline = create_research_pipeline(
+            model,
+            output_dir=output_dir,
+            verbose=True,
+            custom_instructions=custom_instructions,
+        )
+
+        update_job_progress(status_file, progress=15, message=f"Running pipeline...")
+        result = pipeline.run(enhanced_query)
+
+        # Mark summary as complete
+        summary_path = Path(output_dir) / "summary.json"
+        if summary_path.exists():
+            try:
+                summary = json.loads(summary_path.read_text())
+                summary["is_complete"] = True
+                summary_path.write_text(json.dumps(summary, indent=2))
+            except Exception:
+                pass
+
+        complete_job(status_file, result=str(result) if result else None)
+
+    except Exception as e:
+        fail_job(status_file, str(e))
 
 # =============================================================================
 # Helper Functions
@@ -146,51 +195,48 @@ async def stream_pipeline_progress(
         yield f"data: {json.dumps({'type': 'init', 'content': {'output_dir': output_dir, 'timestamp': timestamp}})}\n\n"
         yield f"data: {json.dumps({'type': 'status', 'content': f'Initializing with {model_id}...'})}\n\n"
 
-        # Build model kwargs - num_ctx is Ollama-specific
+        # Build model kwargs (picklable data for child process)
         model_kwargs = {
             "model_id": model_id,
             "api_base": api_base,
             "api_key": api_key,
-            "drop_params": True,  # Drop unsupported params for OpenRouter/other providers
+            "drop_params": True,
         }
-        # Only add num_ctx for Ollama models
         if "ollama" in model_id.lower():
             model_kwargs["num_ctx"] = 8192
 
-        model = LiteLLMModel(**model_kwargs)
+        yield f"data: {json.dumps({'type': 'status', 'content': 'Launching research pipeline process...'})}\n\n"
 
-        yield f"data: {json.dumps({'type': 'status', 'content': 'Creating multi-agent research pipeline...'})}\n\n"
-
-        pipeline = create_research_pipeline(
-            model,
-            output_dir=output_dir,
-            verbose=True,
-            custom_instructions=custom_instructions if tags else None
+        # Start job as a separate OS process
+        manager = ProcessJobManager.instance()
+        manager.start_job(
+            job_id=timestamp,
+            job_type="research",
+            target=_run_research_pipeline,
+            args=(output_dir, enhanced_query, model_kwargs, custom_instructions if tags else None),
         )
-
-        query_msg = f"Running: '{enhanced_query[:100]}...'" if len(enhanced_query) > 100 else f"Running: '{enhanced_query}'"
-        yield f"data: {json.dumps({'type': 'status', 'content': query_msg})}\n\n"
-
-        loop = asyncio.get_event_loop()
-        executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)
-        future = loop.run_in_executor(executor, pipeline.run, enhanced_query)
-
-        active_sessions[timestamp] = {'future': future, 'executor': executor}
 
         last_paper_count = 0
         last_step_count = 0
+        last_message = ""
         papers_path = Path(output_dir) / "papers.json"
         step_log_path = Path(output_dir) / "step_log.json"
 
-        while not future.done():
-            if timestamp in cancelled_sessions:
-                yield f"data: {json.dumps({'type': 'cancelled', 'content': 'Research cancelled'})}\n\n"
-                cancelled_sessions.remove(timestamp)
-                active_sessions.pop(timestamp, None)
-                return
+        while True:
+            # Check process status
+            status = manager.get_status(timestamp)
+            if not status or status.get("status") in ("completed", "failed", "cancelled"):
+                break
+
+            # Forward progress messages from child process
+            msg = status.get("message", "")
+            if msg and msg != last_message:
+                yield f"data: {json.dumps({'type': 'status', 'content': msg})}\n\n"
+                last_message = msg
 
             await asyncio.sleep(2)
 
+            # Check output files for paper progress
             if papers_path.exists():
                 try:
                     with open(papers_path) as f:
@@ -199,9 +245,10 @@ async def stream_pipeline_progress(
                         if current_count > last_paper_count:
                             yield f"data: {json.dumps({'type': 'progress', 'content': {'papers_count': current_count}})}\n\n"
                             last_paper_count = current_count
-                except:
+                except Exception:
                     pass
 
+            # Check step log
             if step_log_path.exists():
                 try:
                     with open(step_log_path) as f:
@@ -212,27 +259,29 @@ async def stream_pipeline_progress(
                             for step in steps[last_step_count:]:
                                 yield f"data: {json.dumps({'type': 'step', 'content': step})}\n\n"
                             last_step_count = current_step_count
-                except:
+                except Exception:
                     pass
 
-        result = await future
+        # Handle final status
+        final_status = manager.get_status(timestamp)
+        final_state = final_status.get("status") if final_status else "failed"
 
-        summary_path = Path(output_dir) / "summary.json"
-        if summary_path.exists():
-            try:
-                with open(summary_path, 'r') as f:
-                    summary = json.load(f)
-                summary['is_complete'] = True
-                with open(summary_path, 'w') as f:
-                    json.dump(summary, f, indent=2)
-            except Exception as e:
-                print(f"Could not mark complete: {e}")
+        if final_state == "cancelled":
+            yield f"data: {json.dumps({'type': 'cancelled', 'content': 'Research cancelled'})}\n\n"
+            return
 
+        if final_state == "failed":
+            error_msg = final_status.get("message", "Pipeline failed") if final_status else "Pipeline failed"
+            yield f"data: {json.dumps({'type': 'error', 'content': error_msg})}\n\n"
+            return
+
+        # Completed — send final results from output files
         if papers_path.exists():
             with open(papers_path) as f:
                 papers = json.load(f)
                 yield f"data: {json.dumps({'type': 'papers', 'content': papers})}\n\n"
 
+        summary_path = Path(output_dir) / "summary.json"
         if summary_path.exists():
             with open(summary_path) as f:
                 summary = json.load(f)
@@ -244,13 +293,12 @@ async def stream_pipeline_progress(
                 stats = json.load(f)
                 yield f"data: {json.dumps({'type': 'stats', 'content': stats})}\n\n"
 
+        result = final_status.get("result") if final_status else None
         yield f"data: {json.dumps({'type': 'done', 'content': {'output_dir': output_dir, 'result': result}})}\n\n"
-        active_sessions.pop(timestamp, None)
 
     except Exception as e:
         print(f"Pipeline error: {e}")
         yield f"data: {json.dumps({'type': 'error', 'content': str(e)})}\n\n"
-        active_sessions.pop(timestamp, None)
 
 # =============================================================================
 # Endpoints
@@ -322,7 +370,7 @@ async def poll_research_progress(timestamp: str):
                 elif isinstance(papers_data, list):
                     result["papers"] = papers_data
                 result["papers_count"] = len(result["papers"])
-        except:
+        except Exception:
             pass
 
     step_log_path = output_path / "step_log.json"
@@ -333,7 +381,7 @@ async def poll_research_progress(timestamp: str):
                 step_log = json.load(f)
                 steps = step_log.get('steps', [])
                 result["steps"] = steps
-        except:
+        except Exception:
             pass
 
     stats_path = output_path / "stats.json"
@@ -341,7 +389,7 @@ async def poll_research_progress(timestamp: str):
         try:
             with open(stats_path) as f:
                 result["stats"] = json.load(f)
-        except:
+        except Exception:
             pass
 
     summary_path = output_path / "summary.json"
@@ -351,8 +399,21 @@ async def poll_research_progress(timestamp: str):
                 summary = json.load(f)
                 result["summary"] = summary
                 result["is_complete"] = summary.get('is_complete', False)
-        except:
+        except Exception:
             pass
+
+    # Also check process status for more accurate completion detection
+    manager = ProcessJobManager.instance()
+    job_status = manager.get_status(timestamp)
+    if job_status:
+        if job_status.get("status") in ("completed",):
+            result["is_complete"] = True
+        elif job_status.get("status") in ("failed",):
+            result["is_complete"] = True
+            result["error"] = job_status.get("message")
+        elif job_status.get("status") == "cancelled":
+            result["is_complete"] = True
+            result["cancelled"] = True
 
     total_expected_steps = 6
     if steps:
@@ -372,26 +433,20 @@ async def poll_research_progress(timestamp: str):
 
 @router.post("/cancel/{timestamp}")
 async def cancel_research(timestamp: str):
-    """Cancel an active research session."""
-    if timestamp in active_sessions:
-        session = active_sessions[timestamp]
-        future = session['future']
-        executor = session['executor']
-        cancelled_sessions.add(timestamp)
+    """Cancel an active research session by terminating its process."""
+    manager = ProcessJobManager.instance()
+    result = manager.cancel_job(timestamp)
+    return result
 
-        if not future.done():
-            cancelled = future.cancel()
-            if cancelled:
-                executor.shutdown(wait=False, cancel_futures=True)
-                active_sessions.pop(timestamp, None)
-                return {"status": "cancelled", "message": f"Research {timestamp} cancelled"}
-            else:
-                executor.shutdown(wait=False, cancel_futures=True)
-                active_sessions.pop(timestamp, None)
-                return {"status": "force_cancelled", "message": f"Research {timestamp} force stopped"}
-        else:
-            executor.shutdown(wait=False)
-            active_sessions.pop(timestamp, None)
-            return {"status": "already_complete", "message": f"Research {timestamp} already done"}
-    else:
-        return {"status": "not_found", "message": f"No active session: {timestamp}"}
+@router.get("/status/{timestamp}")
+async def get_research_status(timestamp: str):
+    """Get the status of a research job (for reconnection after page refresh)."""
+    manager = ProcessJobManager.instance()
+    status = manager.get_status(timestamp)
+    if not status:
+        # Check if output dir exists (completed job whose status file was cleaned up)
+        output_dir = f"research_output/{timestamp}"
+        if Path(output_dir).exists():
+            return {"job_id": timestamp, "status": "completed", "message": "Completed"}
+        raise HTTPException(status_code=404, detail="Research session not found")
+    return status

@@ -5,7 +5,7 @@ Paper review endpoints using multi-agent system.
 Exposes paper_review_api.py functionality as REST endpoints.
 """
 
-from fastapi import APIRouter, HTTPException, BackgroundTasks, UploadFile, File, Form
+from fastapi import APIRouter, HTTPException, UploadFile, File, Form
 from pydantic import BaseModel
 from typing import Optional, List, Dict, Any
 import json
@@ -28,11 +28,9 @@ from ..config import (
     sanitize_json,
     LLMConfig,
 )
+from ..process_manager import ProcessJobManager, update_job_progress, complete_job, fail_job
 
 router = APIRouter(prefix="/review", tags=["Review"])
-
-# Store active review jobs
-active_reviews: Dict[str, Dict[str, Any]] = {}
 
 # =============================================================================
 # Request/Response Models
@@ -62,7 +60,7 @@ class RelatedPapersRequest(BaseModel):
 
 class ReviewStatusResponse(BaseModel):
     job_id: str
-    status: str  # "pending", "processing", "completed", "failed"
+    status: str  # "pending", "processing", "completed", "failed", "cancelled"
     progress: Optional[int] = None
     message: Optional[str] = None
     result: Optional[Dict[str, Any]] = None
@@ -163,7 +161,12 @@ def _create_paper_from_metadata(metadata: dict, paper_url: str, user_id: Optiona
         return None
 
 
-def run_full_review(
+# =============================================================================
+# Process Target Functions
+# =============================================================================
+
+def _run_review_process(
+    status_file: str,
     job_id: str,
     paper_url: str,
     paper_id: Optional[str],
@@ -172,19 +175,23 @@ def run_full_review(
     include_lineage: bool,
     include_graph: bool,
 ):
-    """Background task to run full paper review."""
+    """Target function that runs full paper review in a child process."""
+    import sys
+    from pathlib import Path
+    sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent / "agents"))
+
     start_time = time.time()
-    default_config = get_default_llm_config()
 
     try:
-        active_reviews[job_id]["status"] = "processing"
-        active_reviews[job_id]["message"] = "Initializing review agents..."
-        _update_review_db_status(paper_id, "processing")
+        from ..config import (
+            get_supabase, get_user_llm_config, get_default_llm_config,
+            record_usage, sanitize_json,
+        )
 
+        default_config = get_default_llm_config()
         config = get_user_llm_config(user_id)
         used_custom_llm = config.api_base != default_config.api_base
 
-        # Determine provider
         llm_provider = "default"
         if used_custom_llm:
             if "ollama" in config.api_base.lower():
@@ -196,32 +203,31 @@ def run_full_review(
             else:
                 llm_provider = "custom"
 
-        active_reviews[job_id]["message"] = "Running multi-agent review pipeline..."
-        active_reviews[job_id]["progress"] = 10
+        update_job_progress(status_file, progress=5, message="Initializing review agents...")
+        _update_review_db_status(paper_id, "processing")
 
+        update_job_progress(status_file, progress=10, message="Running multi-agent review pipeline...")
         orchestrator = _get_reviewer(user_id)
         results = orchestrator.run_pipeline(paper_url, parallel=True)
 
-        active_reviews[job_id]["progress"] = 60
+        update_job_progress(status_file, progress=60, message="Review pipeline complete")
 
         # If no paper_id provided, create paper record from extracted metadata
         if not paper_id:
             metadata = results.get("stages", {}).get("pdf_processing", {}).get("metadata", {})
             if metadata:
                 paper_id = _create_paper_from_metadata(metadata, paper_url, user_id, community_id)
-                if paper_id:
-                    active_reviews[job_id]["message"] = f"Created paper record: {paper_id}"
 
         # Extract lineage if requested
         lineage_data = []
         if include_lineage:
             try:
-                active_reviews[job_id]["message"] = "Extracting paper lineage..."
+                update_job_progress(status_file, progress=70, message="Extracting paper lineage...")
                 from paper_review_agents.lineage_extractor import LineageExtractor
                 lineage_extractor = LineageExtractor(verbose=True)
                 lineage_relationships = lineage_extractor.extract_all_relationships(results)
                 lineage_data = [edge.to_dict() for edge in lineage_relationships]
-                active_reviews[job_id]["progress"] = 80
+                update_job_progress(status_file, progress=80, message="Lineage extraction complete")
             except Exception as e:
                 print(f"Lineage extraction failed: {e}")
 
@@ -229,11 +235,11 @@ def run_full_review(
         graph_data = None
         if include_graph:
             try:
-                active_reviews[job_id]["message"] = "Generating knowledge graph..."
+                update_job_progress(status_file, progress=85, message="Generating knowledge graph...")
                 from paper_review_agents.graph_generator import GraphGenerator
                 graph_generator = GraphGenerator(verbose=True)
                 graph_data = graph_generator.generate_graph(results)
-                active_reviews[job_id]["progress"] = 90
+                update_job_progress(status_file, progress=90, message="Graph generation complete")
             except Exception as e:
                 print(f"Graph generation failed: {e}")
 
@@ -260,7 +266,7 @@ def run_full_review(
             "llm_provider": llm_provider,
         }
 
-        # Save to database if paper_id provided
+        # Save to database
         if paper_id:
             try:
                 supabase = get_supabase()
@@ -276,7 +282,6 @@ def run_full_review(
                     "error_message": None,
                 }
 
-                # Check if exists
                 existing = supabase.table("paper_reviews").select("id").eq("paper_id", paper_id).execute()
                 if existing.data:
                     supabase.table("paper_reviews").update(review_record).eq("id", existing.data[0]["id"]).execute()
@@ -286,11 +291,6 @@ def run_full_review(
                     review_result["review_id"] = result.data[0]["id"]
             except Exception as e:
                 print(f"Failed to save review to database: {e}")
-
-        active_reviews[job_id]["status"] = "completed"
-        active_reviews[job_id]["progress"] = 100
-        active_reviews[job_id]["message"] = "Review completed successfully"
-        active_reviews[job_id]["result"] = review_result
 
         # Record usage
         if user_id and user_id != "system":
@@ -304,36 +304,71 @@ def run_full_review(
                 success=True,
             )
 
+        complete_job(status_file, result=review_result)
+
     except Exception as e:
         processing_time = time.time() - start_time
         error_msg = str(e)
         print(f"Review failed: {error_msg}")
-
-        active_reviews[job_id]["status"] = "failed"
-        active_reviews[job_id]["message"] = error_msg
         _update_review_db_status(paper_id, "failed", error_msg)
 
         if user_id and user_id != "system":
-            record_usage(
-                user_id=user_id,
-                paper_id=paper_id,
-                analysis_id=None,
-                used_custom_llm=False,
-                llm_provider="unknown",
-                processing_time=processing_time,
-                success=False,
-                error_message=error_msg,
-            )
+            try:
+                from ..config import record_usage
+                record_usage(
+                    user_id=user_id,
+                    paper_id=paper_id,
+                    analysis_id=None,
+                    used_custom_llm=False,
+                    llm_provider="unknown",
+                    processing_time=processing_time,
+                    success=False,
+                    error_message=error_msg,
+                )
+            except Exception:
+                pass
+
+        fail_job(status_file, error_msg)
+
+
+def _run_review_from_file_process(
+    status_file: str,
+    job_id: str,
+    pdf_path: str,
+    paper_id: Optional[str],
+    user_id: Optional[str],
+    community_id: Optional[str],
+    include_graph: bool,
+    include_lineage: bool,
+    temp_dir: str,
+):
+    """Target function that runs full paper review from uploaded PDF in a child process."""
+    try:
+        # Delegate to the same logic but with file:// URL
+        _run_review_process(
+            status_file=status_file,
+            job_id=job_id,
+            paper_url=f"file://{pdf_path}",
+            paper_id=paper_id,
+            user_id=user_id,
+            community_id=community_id,
+            include_lineage=include_lineage,
+            include_graph=include_graph,
+        )
+    finally:
+        # Clean up temp directory
+        try:
+            shutil.rmtree(temp_dir, ignore_errors=True)
+        except Exception:
+            pass
+
 
 # =============================================================================
 # Endpoints
 # =============================================================================
 
 @router.post("/full", response_model=Dict[str, str])
-async def start_full_review(
-    request: ReviewRequest,
-    background_tasks: BackgroundTasks,
-):
+async def start_full_review(request: ReviewRequest):
     """
     Start a full comprehensive paper review.
 
@@ -363,33 +398,23 @@ async def start_full_review(
     import uuid
     job_id = str(uuid.uuid4())[:12]
 
-    # Initialize job tracking in memory
-    active_reviews[job_id] = {
-        "status": "pending",
-        "progress": 0,
-        "message": "Review queued...",
-        "result": None,
-        "paper_url": request.paper_url,
-        "started_at": time.time(),
-    }
-
     # Persist job status to database immediately for recovery after page refresh
-    review_db_id = None
     if request.paper_id:
         try:
             supabase = get_supabase()
-            # Check if review already exists for this paper
             existing = supabase.table("paper_reviews").select("id, status").eq("paper_id", request.paper_id).execute()
 
             if existing.data and existing.data[0].get("status") in ["pending", "processing"]:
-                # Already have an in-progress review - return its job_id
                 existing_job_id = existing.data[0].get("job_id")
-                if existing_job_id and existing_job_id in active_reviews:
-                    return {
-                        "status": "already_processing",
-                        "job_id": existing_job_id,
-                        "message": "Review already in progress. Resuming polling."
-                    }
+                if existing_job_id:
+                    # Check if the process is still alive
+                    manager = ProcessJobManager.instance()
+                    if manager.is_alive(existing_job_id):
+                        return {
+                            "status": "already_processing",
+                            "job_id": existing_job_id,
+                            "message": "Review already in progress. Resuming polling."
+                        }
 
             review_record = {
                 "paper_id": request.paper_id,
@@ -401,28 +426,27 @@ async def start_full_review(
             }
 
             if existing.data:
-                # Update existing record
                 supabase.table("paper_reviews").update(review_record).eq("id", existing.data[0]["id"]).execute()
-                review_db_id = existing.data[0]["id"]
             else:
-                # Insert new record
-                result = supabase.table("paper_reviews").insert(review_record).execute()
-                review_db_id = result.data[0]["id"] if result.data else None
-
-            active_reviews[job_id]["review_db_id"] = review_db_id
+                supabase.table("paper_reviews").insert(review_record).execute()
         except Exception as e:
             print(f"Warning: Could not persist review status to database: {e}")
 
-    # Start background review
-    background_tasks.add_task(
-        run_full_review,
-        job_id,
-        request.paper_url,
-        request.paper_id,
-        user_id,
-        request.community_id,
-        request.include_lineage,
-        request.include_graph,
+    # Start review as a separate OS process
+    manager = ProcessJobManager.instance()
+    manager.start_job(
+        job_id=job_id,
+        job_type="review",
+        target=_run_review_process,
+        args=(
+            job_id,
+            request.paper_url,
+            request.paper_id,
+            user_id,
+            request.community_id,
+            request.include_lineage,
+            request.include_graph,
+        ),
     )
 
     return {
@@ -434,17 +458,40 @@ async def start_full_review(
 @router.get("/status/{job_id}", response_model=ReviewStatusResponse)
 async def get_review_status(job_id: str):
     """Get status of a review job."""
-    if job_id not in active_reviews:
+    manager = ProcessJobManager.instance()
+    status = manager.get_status(job_id)
+
+    if not status:
         raise HTTPException(status_code=404, detail="Job not found")
 
-    job = active_reviews[job_id]
     return ReviewStatusResponse(
         job_id=job_id,
-        status=job["status"],
-        progress=job.get("progress"),
-        message=job.get("message"),
-        result=job.get("result"),
+        status=status.get("status", "unknown"),
+        progress=status.get("progress"),
+        message=status.get("message"),
+        result=status.get("result"),
     )
+
+@router.post("/cancel/{job_id}")
+async def cancel_review(job_id: str):
+    """Cancel an active review job by terminating its process."""
+    manager = ProcessJobManager.instance()
+    result = manager.cancel_job(job_id)
+
+    # Also update DB status
+    try:
+        status = manager.get_status(job_id)
+        if status:
+            # Try to find and update the paper_reviews record
+            supabase = get_supabase()
+            supabase.table("paper_reviews").update({
+                "status": "cancelled",
+                "error_message": "Cancelled by user",
+            }).eq("job_id", job_id).execute()
+    except Exception:
+        pass
+
+    return result
 
 @router.post("/quick", response_model=Dict[str, Any])
 async def quick_review(request: QuickReviewRequest):
@@ -650,7 +697,6 @@ async def list_reviews(
 
 @router.post("/upload", response_model=Dict[str, str])
 async def upload_and_review(
-    background_tasks: BackgroundTasks,
     file: UploadFile = File(...),
     paper_id: Optional[str] = Form(None),
     community_id: Optional[str] = Form(None),
@@ -696,28 +742,22 @@ async def upload_and_review(
     import uuid
     job_id = str(uuid.uuid4())[:12]
 
-    # Initialize job tracking
-    active_reviews[job_id] = {
-        "status": "pending",
-        "progress": 0,
-        "message": "Review queued...",
-        "result": None,
-        "paper_url": f"file://{temp_pdf_path}",
-        "started_at": time.time(),
-        "temp_dir": temp_dir,  # Track for cleanup
-    }
-
-    # Start background review with file path
-    background_tasks.add_task(
-        run_full_review_from_file,
-        job_id,
-        str(temp_pdf_path),
-        paper_id,
-        user_id,
-        community_id,
-        extract_graph,
-        save_lineage,
-        temp_dir,
+    # Start review as a separate OS process
+    manager = ProcessJobManager.instance()
+    manager.start_job(
+        job_id=job_id,
+        job_type="review",
+        target=_run_review_from_file_process,
+        args=(
+            job_id,
+            str(temp_pdf_path),
+            paper_id,
+            user_id,
+            community_id,
+            extract_graph,
+            save_lineage,
+            temp_dir,
+        ),
     )
 
     return {
@@ -725,174 +765,3 @@ async def upload_and_review(
         "job_id": job_id,
         "message": "Review started from uploaded PDF. Poll /review/status/{job_id} for progress."
     }
-
-
-def run_full_review_from_file(
-    job_id: str,
-    pdf_path: str,
-    paper_id: Optional[str],
-    user_id: Optional[str],
-    community_id: Optional[str],
-    include_graph: bool,
-    include_lineage: bool,
-    temp_dir: str,
-):
-    """Background task to run full paper review from uploaded PDF file."""
-    start_time = time.time()
-    default_config = get_default_llm_config()
-
-    try:
-        active_reviews[job_id]["status"] = "processing"
-        active_reviews[job_id]["message"] = "Processing uploaded PDF..."
-
-        config = get_user_llm_config(user_id)
-        used_custom_llm = config.api_base != default_config.api_base
-
-        # Determine provider
-        llm_provider = "default"
-        if used_custom_llm:
-            if "ollama" in config.api_base.lower():
-                llm_provider = "ollama"
-            elif "openai" in config.api_base.lower():
-                llm_provider = "openai"
-            elif "anthropic" in config.api_base.lower():
-                llm_provider = "anthropic"
-            else:
-                llm_provider = "custom"
-
-        active_reviews[job_id]["message"] = "Running multi-agent review pipeline..."
-        active_reviews[job_id]["progress"] = 10
-
-        # Use orchestrator with local file path
-        orchestrator = _get_reviewer(user_id)
-        results = orchestrator.run_pipeline(f"file://{pdf_path}", parallel=True)
-
-        active_reviews[job_id]["progress"] = 60
-
-        # If no paper_id provided, create paper record from extracted metadata
-        if not paper_id:
-            metadata = results.get("stages", {}).get("pdf_processing", {}).get("metadata", {})
-            if metadata:
-                paper_id = _create_paper_from_metadata(metadata, f"file://{pdf_path}", user_id, community_id)
-                if paper_id:
-                    active_reviews[job_id]["message"] = f"Created paper record: {paper_id}"
-
-        # Extract lineage if requested
-        lineage_data = []
-        if include_lineage:
-            try:
-                active_reviews[job_id]["message"] = "Extracting paper lineage..."
-                from paper_review_agents.lineage_extractor import LineageExtractor
-                lineage_extractor = LineageExtractor(verbose=True)
-                lineage_relationships = lineage_extractor.extract_all_relationships(results)
-                lineage_data = [edge.to_dict() for edge in lineage_relationships]
-                active_reviews[job_id]["progress"] = 80
-            except Exception as e:
-                print(f"Lineage extraction failed: {e}")
-
-        # Generate graph if requested
-        graph_data = None
-        if include_graph:
-            try:
-                active_reviews[job_id]["message"] = "Generating knowledge graph..."
-                from paper_review_agents.graph_generator import GraphGenerator
-                graph_generator = GraphGenerator(verbose=True)
-                graph_data = graph_generator.generate_graph(results)
-                active_reviews[job_id]["progress"] = 90
-            except Exception as e:
-                print(f"Graph generation failed: {e}")
-
-        processing_time = time.time() - start_time
-
-        # Build final result
-        review_result = {
-            "paper_url": f"file://{pdf_path}",
-            "paper_id": paper_id,
-            "status": "complete",
-            "review_data": {
-                "conference_review": results.get("stages", {}).get("critic", {}).get("result"),
-                "deep_analysis": results.get("stages", {}).get("deep_analyzer", {}).get("result"),
-                "contributions": results.get("stages", {}).get("contribution_analyzer", {}).get("result"),
-                "reproducibility": results.get("stages", {}).get("reproducibility_checker", {}).get("result"),
-                "summary": results.get("stages", {}).get("summarizer", {}).get("result"),
-                "literature": results.get("stages", {}).get("literature", {}),
-                "final_report": results.get("final_report"),
-            },
-            "graph_data": graph_data,
-            "lineage_relationships": lineage_data,
-            "processing_time": processing_time,
-            "metadata": results.get("stages", {}).get("pdf_processing", {}).get("metadata", {}),
-            "llm_provider": llm_provider,
-        }
-
-        # Save to database if paper_id provided
-        if paper_id:
-            try:
-                supabase = get_supabase()
-                review_record = {
-                    "paper_id": paper_id,
-                    "community_id": community_id,
-                    "review_data": sanitize_json(review_result["review_data"]),
-                    "graph_data": sanitize_json(graph_data) if graph_data else None,
-                    "lineage_data": sanitize_json(lineage_data),
-                    "processing_time_seconds": processing_time,
-                    "created_by": None if user_id == "system" else user_id,
-                    "status": "completed",
-                    "error_message": None,
-                }
-
-                # Check if exists
-                existing = supabase.table("paper_reviews").select("id").eq("paper_id", paper_id).execute()
-                if existing.data:
-                    supabase.table("paper_reviews").update(review_record).eq("id", existing.data[0]["id"]).execute()
-                    review_result["review_id"] = existing.data[0]["id"]
-                else:
-                    result = supabase.table("paper_reviews").insert(review_record).execute()
-                    review_result["review_id"] = result.data[0]["id"]
-            except Exception as e:
-                print(f"Failed to save review to database: {e}")
-
-        active_reviews[job_id]["status"] = "completed"
-        active_reviews[job_id]["progress"] = 100
-        active_reviews[job_id]["message"] = "Review completed successfully"
-        active_reviews[job_id]["result"] = review_result
-
-        # Record usage
-        if user_id and user_id != "system":
-            record_usage(
-                user_id=user_id,
-                paper_id=paper_id,
-                analysis_id=review_result.get("review_id"),
-                used_custom_llm=used_custom_llm,
-                llm_provider=llm_provider,
-                processing_time=processing_time,
-                success=True,
-            )
-
-    except Exception as e:
-        processing_time = time.time() - start_time
-        error_msg = str(e)
-        print(f"Review failed: {error_msg}")
-
-        active_reviews[job_id]["status"] = "failed"
-        active_reviews[job_id]["message"] = error_msg
-        _update_review_db_status(paper_id, "failed", error_msg)
-
-        if user_id and user_id != "system":
-            record_usage(
-                user_id=user_id,
-                paper_id=paper_id,
-                analysis_id=None,
-                used_custom_llm=False,
-                llm_provider="unknown",
-                processing_time=processing_time,
-                success=False,
-                error_message=error_msg,
-            )
-
-    finally:
-        # Clean up temp directory
-        try:
-            shutil.rmtree(temp_dir, ignore_errors=True)
-        except Exception:
-            pass

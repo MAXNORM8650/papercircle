@@ -77,7 +77,7 @@ export function AIDiscoveryViewNew({
     }
   }, [onStopFunctionReady]);
 
-  // Cleanup polling on unmount
+  // Cleanup polling on unmount (but do NOT clear localStorage — job keeps running)
   useEffect(() => {
     return () => {
       if (pollInterval) {
@@ -87,6 +87,57 @@ export function AIDiscoveryViewNew({
         abortController.abort();
       }
     };
+  }, []);
+
+  // On mount: check localStorage for an active research job and resume polling
+  useEffect(() => {
+    const stored = localStorage.getItem('papercircle_research_job');
+    if (stored) {
+      try {
+        const job = JSON.parse(stored);
+        if (job.timestamp) {
+          // Check if job is still running via backend
+          fetch(`${apiUrl}/research/status/${job.timestamp}`)
+            .then(res => res.ok ? res.json() : null)
+            .then(status => {
+              if (status && status.status === 'running') {
+                // Resume polling — job is still alive
+                setTimestamp(job.timestamp);
+                setOutputDir(`research_output/${job.timestamp}`);
+                setLoading(true);
+                startPolling(job.timestamp);
+              } else {
+                // Job finished or not found — clear localStorage
+                localStorage.removeItem('papercircle_research_job');
+                // If completed, load the results via poll endpoint
+                if (status && status.status === 'completed') {
+                  setTimestamp(job.timestamp);
+                  setOutputDir(`research_output/${job.timestamp}`);
+                  // Do one poll to load final results
+                  fetch(`${apiUrl}/research/poll/${job.timestamp}`)
+                    .then(res => res.ok ? res.json() : null)
+                    .then(data => {
+                      if (data) {
+                        if (Array.isArray(data.papers)) setPapers(data.papers);
+                        setPapersCount(data.papers_count || 0);
+                        if (data.steps) setSteps(data.steps);
+                        if (data.stats) setStats(data.stats);
+                        if (data.summary) setSummary(data.summary);
+                        setProgressPercent(100);
+                      }
+                    })
+                    .catch(() => {});
+                }
+              }
+            })
+            .catch(() => {
+              localStorage.removeItem('papercircle_research_job');
+            });
+        }
+      } catch {
+        localStorage.removeItem('papercircle_research_job');
+      }
+    }
   }, []);
 
   // Trigger search when requested
@@ -158,6 +209,7 @@ export function AIDiscoveryViewNew({
             setLoading(false);
             setCurrentAgent(null);
             setProgressPercent(100);
+            localStorage.removeItem('papercircle_research_job');
             if (onSearchComplete) {
               onSearchComplete(data.papers_count);
             }
@@ -202,6 +254,7 @@ export function AIDiscoveryViewNew({
     setLoading(false);
     setCurrentAgent(null);
     setError('Research stopped. Showing results found so far.');
+    localStorage.removeItem('papercircle_research_job');
 
     // Show results if any papers were found
     if (papers.length > 0 && onSearchComplete) {
@@ -285,6 +338,12 @@ export function AIDiscoveryViewNew({
                   // Got timestamp, start polling for real-time updates
                   setTimestamp(data.content.timestamp);
                   setOutputDir(data.content.output_dir);
+                  // Persist to localStorage so we can resume after page refresh
+                  localStorage.setItem('papercircle_research_job', JSON.stringify({
+                    timestamp: data.content.timestamp,
+                    query: searchQuery,
+                    startedAt: new Date().toISOString(),
+                  }));
                   startPolling(data.content.timestamp);
                 } else if (data.type === 'status') {
                   console.log('Status:', data.content);
@@ -328,11 +387,12 @@ export function AIDiscoveryViewNew({
       }
     } catch (err: any) {
       if (err.name === 'AbortError') {
-        // User stopped the request
+        // User stopped the request — don't clear localStorage, cancel handler already did
         console.log('Research aborted by user');
       } else {
         const errorMsg = err?.message || String(err) || 'Unknown error';
         setError(`Research failed: ${errorMsg}. Make sure the Research Pipeline API is running at ${apiUrl}.`);
+        localStorage.removeItem('papercircle_research_job');
       }
       if (pollInterval) {
         clearInterval(pollInterval);

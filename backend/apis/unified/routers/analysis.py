@@ -5,7 +5,7 @@ Paper analysis endpoints using paper_mind_graph.
 Migrated from paper_analysis_api.py
 """
 
-from fastapi import APIRouter, HTTPException, BackgroundTasks, UploadFile, File, Form
+from fastapi import APIRouter, HTTPException, UploadFile, File, Form
 from pydantic import BaseModel
 from typing import Optional, List, Dict, Any
 import json
@@ -30,6 +30,7 @@ from ..config import (
     sanitize_json,
     LLMConfig,
 )
+from ..process_manager import ProcessJobManager, update_job_progress, complete_job, fail_job
 
 router = APIRouter(prefix="/analysis", tags=["Analysis"])
 
@@ -165,25 +166,40 @@ def save_analysis(
         result = supabase.table("paper_analysis").insert(data).execute()
         return result.data[0]["id"]
 
-def analyze_paper_internal(
+# =============================================================================
+# Process Target Function
+# =============================================================================
+
+def _run_analysis_process(
+    status_file: str,
     paper_id: str,
     paper_url: str,
     user_id: str,
     community_id: Optional[str] = None,
     session_id: Optional[str] = None,
-) -> str:
-    """Internal function to analyze a paper."""
+):
+    """Target function that runs paper analysis in a child process."""
+    import sys
+    from pathlib import Path
+    sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent / "agents"))
+
     start_time = time.time()
     analysis_id = None
     success = False
     error_message = None
-    default_config = get_default_llm_config()
+    used_custom_llm = False
+    llm_provider = "default"
 
     try:
+        from ..config import (
+            get_user_llm_config, get_default_llm_config, record_usage,
+            sanitize_json, sanitize_text,
+        )
+
+        default_config = get_default_llm_config()
         config = get_user_llm_config(user_id)
         used_custom_llm = config != default_config
 
-        llm_provider = "default"
         if used_custom_llm:
             if "ollama" in config.api_base.lower():
                 llm_provider = "ollama"
@@ -194,13 +210,20 @@ def analyze_paper_internal(
             else:
                 llm_provider = "custom"
 
-        print(f"Analyzing paper: {paper_url} (using {llm_provider})")
+        update_job_progress(status_file, progress=5, message=f"Analyzing paper with {llm_provider}...")
+
         pmg_config = _llm_config_to_pmg(config)
         pmg = PaperMindGraph(paper_url, config=pmg_config, verbose=True)
 
+        update_job_progress(status_file, progress=30, message="Extracting concepts and methods...")
+
         markdown = pmg.to_markdown()
+        update_job_progress(status_file, progress=50, message="Generating mind map...")
+
         mindmap = pmg.export("mermaid-mindmap")
         flowchart = pmg.export("mermaid-flowchart")
+        update_job_progress(status_file, progress=70, message="Generating visualizations...")
+
         html = pmg.export("html")
         json_data = json.loads(pmg.to_json())
 
@@ -215,6 +238,8 @@ def analyze_paper_internal(
         }
 
         processing_time = time.time() - start_time
+
+        update_job_progress(status_file, progress=90, message="Saving to database...")
 
         analysis_id = save_analysis(
             paper_id=paper_id,
@@ -232,27 +257,30 @@ def analyze_paper_internal(
 
         success = True
         print(f"Analysis completed in {processing_time:.2f}s. Saved as {analysis_id}")
+        complete_job(status_file, result={"analysis_id": analysis_id, "paper_id": paper_id})
 
     except Exception as e:
         error_message = str(e)
         processing_time = time.time() - start_time
         print(f"Analysis failed: {error_message}")
-        raise
+        fail_job(status_file, error_message)
 
     finally:
         if user_id and user_id != "system":
-            record_usage(
-                user_id=user_id,
-                paper_id=paper_id,
-                analysis_id=analysis_id,
-                used_custom_llm=used_custom_llm,
-                llm_provider=llm_provider,
-                processing_time=processing_time,
-                success=success,
-                error_message=error_message
-            )
-
-    return analysis_id
+            try:
+                from ..config import record_usage
+                record_usage(
+                    user_id=user_id,
+                    paper_id=paper_id,
+                    analysis_id=analysis_id,
+                    used_custom_llm=used_custom_llm,
+                    llm_provider=llm_provider,
+                    processing_time=processing_time,
+                    success=success,
+                    error_message=error_message
+                )
+            except Exception:
+                pass
 
 # =============================================================================
 # Endpoints
@@ -274,10 +302,7 @@ async def get_user_quota(user_id: str):
         raise HTTPException(status_code=500, detail=f"Failed to get quota: {str(e)}")
 
 @router.post("/paper", response_model=Dict[str, str])
-async def analyze_paper(
-    request: AnalyzePaperRequest,
-    background_tasks: BackgroundTasks,
-):
+async def analyze_paper(request: AnalyzePaperRequest):
     """Analyze a single paper using paper_mind_graph."""
     try:
         user_id = request.user_id or "system"
@@ -331,7 +356,6 @@ async def analyze_paper(
         if not paper_id and paper_url:
             import uuid
             paper_id = str(uuid.uuid4())
-            # Create a minimal paper record
             new_paper = {
                 "id": paper_id,
                 "title": f"Paper from URL: {paper_url[:50]}...",
@@ -339,25 +363,52 @@ async def analyze_paper(
             }
             supabase.table("papers").insert(new_paper).execute()
 
-        background_tasks.add_task(
-            analyze_paper_internal,
-            paper_id,
-            paper_url,
-            user_id,
-            request.community_id,
-            request.session_id,
+        # Generate job ID and start as a separate OS process
+        import uuid
+        job_id = str(uuid.uuid4())[:12]
+
+        manager = ProcessJobManager.instance()
+        manager.start_job(
+            job_id=job_id,
+            job_type="analysis",
+            target=_run_analysis_process,
+            args=(paper_id, paper_url, user_id, request.community_id, request.session_id),
         )
 
         return {
             "status": "processing",
             "paper_id": paper_id,
-            "message": "Analysis started. Check back in a few minutes."
+            "job_id": job_id,
+            "message": "Analysis started. Poll /analysis/status/{job_id} for progress."
         }
 
     except HTTPException:
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@router.get("/status/{job_id}")
+async def get_analysis_status(job_id: str):
+    """Get status of an analysis job (for polling and reconnection)."""
+    manager = ProcessJobManager.instance()
+    status = manager.get_status(job_id)
+
+    if not status:
+        raise HTTPException(status_code=404, detail="Job not found")
+
+    return {
+        "job_id": job_id,
+        "status": status.get("status", "unknown"),
+        "progress": status.get("progress"),
+        "message": status.get("message"),
+        "result": status.get("result"),
+    }
+
+@router.post("/cancel/{job_id}")
+async def cancel_analysis(job_id: str):
+    """Cancel an active analysis job by terminating its process."""
+    manager = ProcessJobManager.instance()
+    return manager.cancel_job(job_id)
 
 @router.post("/upload", response_model=Dict[str, str])
 async def analyze_upload(
@@ -435,30 +486,27 @@ async def analyze_upload(
                 result = supabase.table("papers").insert(paper_data).execute()
                 paper_id = result.data[0]["id"]
 
-        background_tasks = BackgroundTasks()
-        background_tasks.add_task(
-            analyze_paper_internal,
-            paper_id,
-            str(pdf_path),
-            user_id_to_use,
-            community_id,
-            session_id,
+        # Start analysis as a separate OS process
+        job_id = str(uuid.uuid4())[:12]
+
+        manager = ProcessJobManager.instance()
+        manager.start_job(
+            job_id=job_id,
+            job_type="analysis",
+            target=_run_analysis_process,
+            args=(paper_id, str(pdf_path), user_id_to_use, community_id, session_id),
         )
-        await background_tasks()
 
         return {
             "status": "processing",
             "paper_id": paper_id,
-            "message": "Analysis started."
+            "job_id": job_id,
+            "message": "Analysis started from uploaded PDF."
         }
 
     except HTTPException:
-        if 'pdf_path' in locals() and pdf_path.exists():
-            pdf_path.unlink()
         raise
     except Exception as e:
-        if 'pdf_path' in locals() and pdf_path.exists():
-            pdf_path.unlink()
         raise HTTPException(status_code=500, detail=str(e))
     finally:
         await file.close()
@@ -704,10 +752,7 @@ async def get_session_analysis(session_id: str):
         raise HTTPException(status_code=500, detail=str(e))
 
 @router.post("/session", response_model=Dict[str, Any])
-async def analyze_session(
-    request: AnalyzeSessionRequest,
-    background_tasks: BackgroundTasks,
-):
+async def analyze_session(request: AnalyzeSessionRequest):
     """Analyze all papers in a session."""
     try:
         user_id = "system"
@@ -721,22 +766,22 @@ async def analyze_session(
 
         paper_ids = [row["paper_id"] for row in result.data]
         analyzed_count = 0
+        job_ids = []
+        manager = ProcessJobManager.instance()
 
-        # Start analysis for each paper
+        # Start analysis for each paper as a separate process
         for paper_id in paper_ids:
             try:
                 paper = get_paper_info(paper_id)
 
-                # Determine paper URL
                 paper_url = None
                 if paper.get("arxiv_id"):
                     paper_url = f"https://arxiv.org/abs/{paper['arxiv_id']}"
                 elif paper.get("pdf_url"):
                     paper_url = paper["pdf_url"]
                 else:
-                    continue  # Skip papers without URL
+                    continue
 
-                # Check if already analyzed (unless force_reanalyze)
                 if not request.force_reanalyze:
                     existing = supabase.table("paper_analysis")\
                         .select("id")\
@@ -746,15 +791,17 @@ async def analyze_session(
                     if existing.data:
                         continue
 
-                # Run analysis in background
-                background_tasks.add_task(
-                    analyze_paper_internal,
-                    paper_id,
-                    paper_url,
-                    user_id,
-                    request.community_id,
-                    request.session_id,
+                import uuid
+                job_id = str(uuid.uuid4())[:12]
+
+                manager.start_job(
+                    job_id=job_id,
+                    job_type="analysis",
+                    target=_run_analysis_process,
+                    args=(paper_id, paper_url, user_id, request.community_id, request.session_id),
                 )
+
+                job_ids.append(job_id)
                 analyzed_count += 1
 
             except Exception as e:
@@ -766,6 +813,7 @@ async def analyze_session(
             "session_id": request.session_id,
             "paper_count": analyzed_count,
             "total_papers": len(paper_ids),
+            "job_ids": job_ids,
             "message": f"Started analysis for {analyzed_count} papers"
         }
 

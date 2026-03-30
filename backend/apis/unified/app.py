@@ -123,11 +123,19 @@ async def root():
 @app.get("/health")
 async def health_check():
     """Health check endpoint for monitoring."""
-    from .routers.research import active_sessions
+    from .process_manager import ProcessJobManager
+
+    manager = ProcessJobManager.instance()
+    running_jobs = manager.list_jobs(status_filter="running")
 
     return {
         "status": "healthy",
-        "active_research_sessions": len(active_sessions),
+        "active_jobs": len(running_jobs),
+        "jobs_by_type": {
+            "research": len([j for j in running_jobs if j.get("job_type") == "research"]),
+            "review": len([j for j in running_jobs if j.get("job_type") == "review"]),
+            "analysis": len([j for j in running_jobs if j.get("job_type") == "analysis"]),
+        },
     }
 
 # =============================================================================
