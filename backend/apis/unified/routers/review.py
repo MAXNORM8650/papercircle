@@ -222,9 +222,17 @@ def _run_review_process(
         lineage_data = []
         if include_lineage:
             try:
-                update_job_progress(status_file, progress=70, message="Extracting paper lineage...")
+                update_job_progress(status_file, progress=70, message="Extracting paper lineage (LLM-powered)...")
                 from paper_review_agents.lineage_extractor import LineageExtractor
-                lineage_extractor = LineageExtractor(verbose=True)
+                lineage_extractor = LineageExtractor(
+                    verbose=True,
+                    llm_config={
+                        "model_id": config.model_id,
+                        "api_base": config.api_base,
+                        "api_key": config.api_key,
+                        "num_ctx": config.num_ctx,
+                    },
+                )
                 lineage_relationships = lineage_extractor.extract_all_relationships(results)
                 lineage_data = [edge.to_dict() for edge in lineage_relationships]
                 update_job_progress(status_file, progress=80, message="Lineage extraction complete")

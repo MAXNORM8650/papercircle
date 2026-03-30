@@ -294,8 +294,16 @@ Provide:
             parallel=self.config.parallel
         )
 
-        # Extract lineage relationships
-        lineage_extractor = LineageExtractor(verbose=True)
+        # Extract lineage relationships (LLM-powered when config available)
+        llm_config = None
+        if hasattr(self.config, 'model_id') and self.config.model_id:
+            llm_config = {
+                "model_id": self.config.model_id,
+                "api_base": getattr(self.config, 'api_base', None),
+                "api_key": getattr(self.config, 'api_key', None),
+                "num_ctx": getattr(self.config, 'num_ctx', 8192),
+            }
+        lineage_extractor = LineageExtractor(verbose=True, llm_config=llm_config)
         lineage_relationships = lineage_extractor.extract_all_relationships(results)
 
         # Convert to dict format

@@ -3,11 +3,16 @@ Lineage Extraction Module
 ==========================
 Extracts paper-to-paper relationships from review analysis data.
 
-Supports 4 types of relationships:
-1. Citation relationships (extends, prerequisite, survey)
-2. Methodology relationships (applies)
-3. Theme cluster relationships (survey)
-4. Contribution-based relationships (extends, contradicts, evaluates)
+Two extraction modes:
+1. LLM Agent mode (when llm_config provided):
+   - A single ToolCallingAgent with a get_citation_context tool
+   - Reads analysis text, reasons about relationships, classifies them
+
+2. Keyword/regex fallback (always runs as complement):
+   - Citation relationships (extends, prerequisite, survey)
+   - Methodology relationships (applies)
+   - Theme cluster relationships (survey)
+   - Contribution-based relationships (extends, contradicts, evaluates)
 """
 
 from typing import List, Dict, Any, Optional, Tuple
@@ -45,6 +50,64 @@ class EdgeData:
 
 
 # ============================================================================
+# Citation Context Tool (for the Lineage Agent)
+# ============================================================================
+
+def _create_citation_context_tool(paper_text: str):
+    """
+    Create a GetCitationContext tool bound to a specific paper's text.
+    Uses smolagents.Tool subclass pattern used throughout the codebase.
+    """
+    from smolagents import Tool
+
+    class GetCitationContextTool(Tool):
+        """Look up how a specific paper is cited within the text."""
+
+        name = "get_citation_context"
+        description = (
+            "Look up how a specific paper is referenced in the analyzed paper's text. "
+            "Returns the surrounding sentences where the paper title appears, "
+            "helping you understand the nature of the relationship (extends, evaluates, etc). "
+            "Pass the paper title or its first few distinctive words."
+        )
+        inputs = {
+            "citation_title": {
+                "type": "string",
+                "description": "Title (or first few words) of the cited paper to look up"
+            }
+        }
+        output_type = "string"
+
+        def __init__(self, text: str):
+            super().__init__()
+            self._paper_text = text
+
+        def forward(self, citation_title: str) -> str:
+            if not citation_title or not self._paper_text:
+                return "No context found."
+
+            text_lower = self._paper_text.lower()
+
+            # Try progressively shorter title prefixes
+            for n_words in [6, 4, 3]:
+                title_words = citation_title.strip().split()[:n_words]
+                if not title_words:
+                    continue
+                search_phrase = " ".join(title_words).lower()
+                pos = text_lower.find(search_phrase)
+                if pos != -1:
+                    window = 400
+                    start = max(0, pos - window)
+                    end = min(len(self._paper_text), pos + len(search_phrase) + window)
+                    context = self._paper_text[start:end]
+                    return f"Context where '{citation_title[:60]}' is cited:\n\n...{context}..."
+
+            return f"Citation '{citation_title[:60]}' not found in paper text. It may be referenced by author name or abbreviation."
+
+    return GetCitationContextTool(paper_text)
+
+
+# ============================================================================
 # Main Lineage Extractor Class
 # ============================================================================
 
@@ -52,28 +115,51 @@ class LineageExtractor:
     """
     Extracts lineage relationships from paper review analysis.
 
+    When llm_config is provided, uses a ToolCallingAgent with a
+    get_citation_context tool for deep analysis. Keyword methods
+    always run as a complement to catch anything the LLM misses.
+
     Example:
-        extractor = LineageExtractor()
+        # With LLM (recommended):
+        extractor = LineageExtractor(
+            verbose=True,
+            llm_config={"model_id": "ollama_chat/qwen3:30b", "api_base": "http://..."}
+        )
+
+        # Without LLM (keyword-only fallback):
+        extractor = LineageExtractor(verbose=True)
+
         edges = extractor.extract_all_relationships(review_results)
-        for edge in edges:
-            print(f"{edge.edge_type}: {edge.target_paper_title} ({edge.similarity_score:.2f})")
     """
 
-    def __init__(self, verbose: bool = False):
+    VALID_EDGE_TYPES = {"extends", "applies", "evaluates", "contradicts", "prerequisite", "survey"}
+
+    def __init__(self, verbose: bool = False, llm_config: Optional[Dict[str, Any]] = None):
         """
         Initialize the lineage extractor.
 
         Args:
             verbose: Print debug information
+            llm_config: LLM configuration dict with keys:
+                - model_id: e.g. "ollama_chat/qwen3:30b"
+                - api_base: e.g. "http://localhost:11434"
+                - api_key: (optional) API key
+                - num_ctx: (optional) context window size
         """
         self.verbose = verbose
+        self.llm_config = llm_config
+        self.use_llm = llm_config is not None
 
-        # Keywords for classifying citation context
+        # Keywords for classifying citation context (fallback)
         self.extends_keywords = ['extend', 'build', 'improve', 'advance', 'enhance']
         self.prerequisite_keywords = ['foundational', 'seminal', 'based on', 'inspired by']
         self.survey_keywords = ['survey', 'review', 'comprehensive', 'overview']
         self.contradicts_keywords = ['contradict', 'refute', 'challenge', 'differ']
         self.evaluates_keywords = ['evaluate', 'compare', 'benchmark', 'test against']
+
+    # ========================================================================
+    # Main Entry Point
+    # ========================================================================
 
     def extract_all_relationships(
         self,
@@ -84,82 +170,308 @@ class LineageExtractor:
 
         Args:
             paper_analysis: Complete analysis output from orchestrator
-                Should contain: citations, related_papers, methodology, contributions
 
         Returns:
             List of EdgeData objects representing discovered relationships
         """
         all_edges = []
 
-        # Extract citation relationships
+        # LLM agent pass — deep relationship analysis
+        if self.use_llm:
+            if self.verbose:
+                print("🤖 Running LLM lineage analysis agent...")
+            llm_edges = self._llm_extract_relationships(paper_analysis)
+            all_edges.extend(llm_edges)
+            if self.verbose:
+                print(f"   Agent found {len(llm_edges)} relationships")
+
+        # Keyword-based extraction (complement / fallback)
         if self.verbose:
-            print("📊 Extracting citation relationships...")
+            print("📊 Extracting citation relationships (keywords)...")
         citation_edges = self.extract_citation_relationships(paper_analysis)
         all_edges.extend(citation_edges)
 
-        # Extract methodology relationships
         if self.verbose:
             print("🔧 Extracting methodology relationships...")
         method_edges = self.extract_methodology_relationships(paper_analysis)
         all_edges.extend(method_edges)
 
-        # Extract theme cluster relationships
         if self.verbose:
             print("🏷️  Extracting theme relationships...")
         theme_edges = self.extract_theme_relationships(paper_analysis)
         all_edges.extend(theme_edges)
 
-        # Extract contribution-based relationships
         if self.verbose:
             print("💡 Extracting contribution-based relationships...")
         contrib_edges = self.extract_contribution_relationships(paper_analysis)
         all_edges.extend(contrib_edges)
 
-        # Deduplicate edges (same target + type)
+        # Deduplicate edges (same target + type → keep highest score)
         unique_edges = self._deduplicate_edges(all_edges)
 
         if self.verbose:
-            print(f"✅ Found {len(unique_edges)} unique lineage relationships")
+            llm_count = len([
+                e for e in unique_edges
+                if e.metadata and e.metadata.get("source") == "llm_lineage_agent"
+            ])
+            keyword_count = len(unique_edges) - llm_count
+            print(f"✅ Found {len(unique_edges)} unique lineage relationships "
+                  f"({llm_count} from LLM agent, {keyword_count} from keywords)")
 
         return unique_edges
+
+    # ========================================================================
+    # LLM Agent-Based Extraction
+    # ========================================================================
+
+    def _create_lineage_agent(self, paper_text: str):
+        """
+        Create a single ToolCallingAgent for lineage analysis.
+
+        The agent has one tool: get_citation_context — which lets it look up
+        how specific papers are cited in the text before classifying relationships.
+        """
+        from smolagents import LiteLLMModel, ToolCallingAgent
+
+        model_kwargs = {
+            "model_id": self.llm_config["model_id"],
+            "api_base": self.llm_config.get("api_base"),
+            "api_key": self.llm_config.get("api_key", "not-needed"),
+            "drop_params": True,
+        }
+        if "ollama" in self.llm_config["model_id"].lower():
+            model_kwargs["num_ctx"] = self.llm_config.get("num_ctx", 8192)
+
+        model = LiteLLMModel(**model_kwargs)
+        context_tool = _create_citation_context_tool(paper_text)
+
+        agent = ToolCallingAgent(
+            tools=[context_tool],
+            model=model,
+            name="lineage_analyst",
+            description="Analyzes relationships between a paper and its references.",
+            max_steps=25,
+            instructions="""You are a research paper relationship analyst. Your job is to identify and classify how a paper relates to the other papers it cites or is connected to.
+
+RELATIONSHIP TYPES (use exactly these strings):
+- "extends": The paper builds upon, improves, or advances the cited work
+- "prerequisite": The cited work is foundational/background that this paper depends on
+- "applies": The paper applies or shares methodology with the cited work
+- "evaluates": The paper benchmarks, compares against, or evaluates the cited work
+- "contradicts": The paper challenges, disputes, or refutes the cited work's findings
+- "survey": The cited work is referenced as part of a broader literature review
+
+WORKFLOW:
+1. Read the paper metadata, contributions, and analysis provided
+2. For the most important cited papers, use get_citation_context to see HOW they are referenced
+3. Based on the context and analysis, classify each meaningful relationship
+4. Focus on the 8-15 most significant relationships, skip trivial mentions
+
+YOUR FINAL ANSWER must be a JSON object with this exact format:
+{
+  "relationships": [
+    {
+      "target_title": "exact paper title from the citation list",
+      "edge_type": "extends",
+      "confidence": 0.85,
+      "rationale": "One sentence explaining why this relationship type"
+    }
+  ]
+}""",
+        )
+
+        return agent
+
+    def _llm_extract_relationships(self, paper_analysis: Dict[str, Any]) -> List[EdgeData]:
+        """
+        Use a ToolCallingAgent to deeply analyze paper relationships.
+
+        The agent can call get_citation_context to look up HOW specific
+        papers are cited, then reasons about the relationship type.
+        """
+        paper_text = paper_analysis.get("stages", {}).get("pdf_processing", {}).get("text", "")
+        metadata = paper_analysis.get("stages", {}).get("pdf_processing", {}).get("metadata", {})
+
+        literature_data = paper_analysis.get("stages", {}).get("literature", {})
+        citations = literature_data.get("citations", [])
+        related = literature_data.get("semantic_scholar", []) + literature_data.get("arxiv", [])
+
+        contribution_text = paper_analysis.get("stages", {}).get("contribution_analyzer", {}).get("result", "")
+        analysis_text = paper_analysis.get("stages", {}).get("deep_analyzer", {}).get("result", "")
+
+        if not paper_text and not citations:
+            return []
+
+        # Create agent with the citation context tool
+        try:
+            agent = self._create_lineage_agent(paper_text)
+        except Exception as e:
+            if self.verbose:
+                print(f"   Failed to create lineage agent: {e}")
+            return []
+
+        # Build compact citation list for the prompt
+        citation_lines = []
+        for c in citations[:20]:
+            title = c.get("title", "").strip()
+            if title and len(title) >= 10:
+                year = c.get("year", "N/A")
+                venue = c.get("venue", "")
+                line = f"- {title} ({year})"
+                if venue:
+                    line += f" [{venue}]"
+                citation_lines.append(line)
+
+        related_lines = []
+        for r in related[:10]:
+            title = r.get("title", "").strip()
+            if title and len(title) >= 10:
+                related_lines.append(f"- {title} ({r.get('year', 'N/A')})")
+
+        prompt = f"""Analyze the relationships between this paper and its references.
+
+PAPER BEING ANALYZED:
+Title: {metadata.get('title', 'Unknown')}
+Abstract: {metadata.get('abstract', '')[:800]}
+
+KEY CONTRIBUTIONS:
+{(contribution_text[:2000] if isinstance(contribution_text, str) else str(contribution_text)[:2000]) if contribution_text else 'Not available'}
+
+TECHNICAL ANALYSIS SUMMARY:
+{(analysis_text[:1500] if isinstance(analysis_text, str) else str(analysis_text)[:1500]) if analysis_text else 'Not available'}
+
+CITED PAPERS:
+{chr(10).join(citation_lines) if citation_lines else 'None extracted'}
+
+RELATED PAPERS (from search):
+{chr(10).join(related_lines) if related_lines else 'None found'}
+
+Now analyze the relationships. Use get_citation_context on the most important citations to understand how they are referenced, then classify each relationship."""
+
+        try:
+            result = agent.run(prompt)
+            return self._parse_agent_result(result, citations, related)
+        except Exception as e:
+            if self.verbose:
+                print(f"   Lineage agent run failed: {e}")
+            return []
+
+    def _parse_agent_result(
+        self,
+        result: str,
+        citations: List[Dict],
+        related_papers: List[Dict]
+    ) -> List[EdgeData]:
+        """Parse the agent's JSON response into EdgeData objects."""
+        if not result:
+            return []
+
+        result_str = str(result)
+
+        # Try to extract JSON from the response
+        parsed = None
+
+        # 1. Direct parse
+        try:
+            parsed = json.loads(result_str)
+        except (json.JSONDecodeError, TypeError):
+            pass
+
+        # 2. Code-fenced JSON
+        if not parsed:
+            json_match = re.search(r'```(?:json)?\s*([\s\S]*?)\s*```', result_str)
+            if json_match:
+                try:
+                    parsed = json.loads(json_match.group(1))
+                except (json.JSONDecodeError, TypeError):
+                    pass
+
+        # 3. Find any JSON object with "relationships" key
+        if not parsed:
+            json_match = re.search(r'\{[^{}]*"relationships"\s*:\s*\[[\s\S]*?\]\s*\}', result_str)
+            if json_match:
+                try:
+                    parsed = json.loads(json_match.group())
+                except (json.JSONDecodeError, TypeError):
+                    pass
+
+        if not parsed or "relationships" not in parsed:
+            if self.verbose:
+                print(f"   Could not parse agent JSON response (length={len(result_str)})")
+            return []
+
+        all_papers = citations + related_papers
+        edges = []
+
+        for rel in parsed["relationships"]:
+            edge_type = rel.get("edge_type", "").strip().lower()
+            if edge_type not in self.VALID_EDGE_TYPES:
+                continue
+
+            target_title = rel.get("target_title", "").strip()
+            if not target_title or len(target_title) < 5:
+                continue
+
+            # Match to a known paper to recover arXiv ID and canonical title
+            arxiv_id = None
+            for paper in all_papers:
+                paper_title = paper.get("title", "").strip()
+                if not paper_title:
+                    continue
+                # Exact match (case-insensitive)
+                if paper_title.lower() == target_title.lower():
+                    arxiv_id = self._extract_arxiv_id(paper.get("url", ""))
+                    target_title = paper_title  # Use canonical title
+                    break
+                # Fuzzy match
+                if SequenceMatcher(None, paper_title.lower(), target_title.lower()).ratio() > 0.85:
+                    arxiv_id = self._extract_arxiv_id(paper.get("url", ""))
+                    target_title = paper_title
+                    break
+
+            confidence = min(1.0, max(0.0, float(rel.get("confidence", 0.7))))
+
+            edges.append(EdgeData(
+                target_paper_title=target_title,
+                target_paper_arxiv_id=arxiv_id,
+                edge_type=edge_type,
+                similarity_score=confidence,
+                rationale=rel.get("rationale", "LLM-classified relationship"),
+                metadata={
+                    "source": "llm_lineage_agent",
+                    "classification_method": "agent",
+                }
+            ))
+
+        return edges
+
+    # ========================================================================
+    # Keyword-Based Extraction Methods (complement / fallback)
+    # ========================================================================
 
     def extract_citation_relationships(
         self,
         paper_analysis: Dict[str, Any]
     ) -> List[EdgeData]:
         """
-        Extract relationships from citation analysis.
-
-        Uses the Literature Expert agent's citation extraction output.
-        Classifies each citation as extends/prerequisite/survey based on context.
-
-        Args:
-            paper_analysis: Analysis data containing citation information
-
-        Returns:
-            List of EdgeData for citation relationships
+        Extract relationships from citation analysis using keyword matching.
         """
         edges = []
 
-        # Get citations from literature stage
         literature_data = paper_analysis.get("stages", {}).get("literature", {})
         citations = literature_data.get("citations", [])
 
         if not citations:
             return edges
 
-        # Get paper text for context analysis
         paper_text = paper_analysis.get("stages", {}).get("pdf_processing", {}).get("text", "")
 
-        for citation in citations[:20]:  # Limit to top 20 citations
+        for citation in citations[:20]:
             title = citation.get("title", "").strip()
             if not title or len(title) < 10:
                 continue
 
-            # Classify citation type based on context
             edge_type, score, rationale = self._classify_citation(title, paper_text, citation)
-
-            # Extract arXiv ID if available
             arxiv_id = self._extract_arxiv_id(citation.get("url", ""))
 
             edge = EdgeData(
@@ -170,6 +482,7 @@ class LineageExtractor:
                 rationale=rationale,
                 metadata={
                     "source": "citation_analysis",
+                    "classification_method": "keyword",
                     "citation_year": citation.get("year"),
                     "citation_venue": citation.get("venue")
                 }
@@ -182,21 +495,9 @@ class LineageExtractor:
         self,
         paper_analysis: Dict[str, Any]
     ) -> List[EdgeData]:
-        """
-        Extract relationships based on shared methodologies.
-
-        Uses the find_methodology_links tool output to identify papers
-        using similar techniques, architectures, or datasets.
-
-        Args:
-            paper_analysis: Analysis data containing methodology information
-
-        Returns:
-            List of EdgeData for methodology relationships
-        """
+        """Extract relationships based on shared methodologies."""
         edges = []
 
-        # Get related papers from Semantic Scholar / arXiv
         literature_data = paper_analysis.get("stages", {}).get("literature", {})
         semantic_scholar = literature_data.get("semantic_scholar", [])
         arxiv_papers = literature_data.get("arxiv", [])
@@ -205,28 +506,23 @@ class LineageExtractor:
         if not related_papers:
             return edges
 
-        # Get methodology links from analysis
-        # This would come from the analysis agent or knowledge graph agent
         paper_text = paper_analysis.get("stages", {}).get("pdf_processing", {}).get("text", "")
         methodology_components = self._extract_methodology_components(paper_text)
 
-        # Compare with related papers (use title/abstract as proxy for now)
-        for paper in related_papers[:10]:  # Limit to top 10
+        for paper in related_papers[:10]:
             title = paper.get("title", "").strip()
             abstract = paper.get("abstract", "")
 
             if not title or len(title) < 10:
                 continue
 
-            # Check for methodology overlap
             shared_components, similarity = self._compare_methodologies(
                 methodology_components,
                 abstract + " " + title
             )
 
-            if similarity >= 0.3 and len(shared_components) >= 1:  # At least 1 shared component
+            if similarity >= 0.3 and len(shared_components) >= 1:
                 rationale = f"Shares {len(shared_components)} methodological component(s): {', '.join(shared_components[:3])}"
-
                 arxiv_id = self._extract_arxiv_id(paper.get("url", ""))
 
                 edge = EdgeData(
@@ -237,6 +533,7 @@ class LineageExtractor:
                     rationale=rationale,
                     metadata={
                         "source": "methodology_analysis",
+                        "classification_method": "keyword",
                         "shared_components": shared_components,
                         "paper_year": paper.get("year")
                     }
@@ -249,54 +546,36 @@ class LineageExtractor:
         self,
         paper_analysis: Dict[str, Any]
     ) -> List[EdgeData]:
-        """
-        Extract relationships based on thematic clustering.
-
-        Uses the identify_paper_clusters tool to group papers by research area.
-        Creates survey edges for papers in the same cluster.
-
-        Args:
-            paper_analysis: Analysis data
-
-        Returns:
-            List of EdgeData for theme relationships
-        """
+        """Extract relationships based on thematic clustering."""
         edges = []
 
-        # Get paper metadata
         metadata = paper_analysis.get("stages", {}).get("pdf_processing", {}).get("metadata", {})
         abstract = metadata.get("abstract", "")
         title = metadata.get("title", "")
 
-        # Extract thematic keywords
         main_themes = self._extract_themes(title + " " + abstract)
 
-        # Get related papers
         literature_data = paper_analysis.get("stages", {}).get("literature", {})
         semantic_scholar = literature_data.get("semantic_scholar", [])
         arxiv_papers = literature_data.get("arxiv", [])
         related_papers = semantic_scholar + arxiv_papers
 
-        for paper in related_papers[:15]:  # Limit to top 15
+        for paper in related_papers[:15]:
             paper_title = paper.get("title", "").strip()
             paper_abstract = paper.get("abstract", "")
 
             if not paper_title or len(paper_title) < 10:
                 continue
 
-            # Extract themes from related paper
             related_themes = self._extract_themes(paper_title + " " + paper_abstract)
-
-            # Calculate theme overlap
             shared_themes = set(main_themes) & set(related_themes)
             if len(shared_themes) == 0:
                 continue
 
             overlap_ratio = len(shared_themes) / max(len(main_themes), len(related_themes))
 
-            if overlap_ratio >= 0.4:  # At least 40% theme overlap
+            if overlap_ratio >= 0.4:
                 rationale = f"Shares research themes: {', '.join(list(shared_themes)[:3])}"
-
                 arxiv_id = self._extract_arxiv_id(paper.get("url", ""))
 
                 edge = EdgeData(
@@ -307,6 +586,7 @@ class LineageExtractor:
                     rationale=rationale,
                     metadata={
                         "source": "theme_clustering",
+                        "classification_method": "keyword",
                         "shared_themes": list(shared_themes),
                         "paper_year": paper.get("year")
                     }
@@ -319,21 +599,9 @@ class LineageExtractor:
         self,
         paper_analysis: Dict[str, Any]
     ) -> List[EdgeData]:
-        """
-        Extract relationships based on contribution analysis.
-
-        Uses the extract_contributions tool output to identify papers
-        that are extended, contradicted, or evaluated.
-
-        Args:
-            paper_analysis: Analysis data containing contribution information
-
-        Returns:
-            List of EdgeData for contribution-based relationships
-        """
+        """Extract relationships based on contribution analysis."""
         edges = []
 
-        # Get contribution analysis
         contribution_data = paper_analysis.get("stages", {}).get("contribution_analyzer", {})
         if not contribution_data:
             return edges
@@ -342,13 +610,10 @@ class LineageExtractor:
         if not contribution_text:
             return edges
 
-        # Get citations for matching
         literature_data = paper_analysis.get("stages", {}).get("literature", {})
         citations = literature_data.get("citations", [])
 
-        # Look for explicit relationship mentions in contributions
-        # e.g., "extends the work of", "contradicts", "evaluates"
-        edges.extend(self._extract_explicit_relationships(contribution_text, citations))
+        edges.extend(self._extract_explicit_relationships(str(contribution_text), citations))
 
         return edges
 
@@ -362,27 +627,14 @@ class LineageExtractor:
         paper_text: str,
         citation: Dict
     ) -> Tuple[str, float, str]:
-        """
-        Classify a citation as extends/prerequisite/survey.
-
-        Args:
-            cited_title: Title of cited paper
-            paper_text: Full text of citing paper
-            citation: Citation metadata
-
-        Returns:
-            (edge_type, confidence_score, rationale)
-        """
-        # Search for citation context in paper text
+        """Classify a citation as extends/prerequisite/survey using keywords."""
         context = self._find_citation_context(cited_title, paper_text)
 
         if not context:
-            # Default to prerequisite if no context found
             return ("prerequisite", 0.5, f"Cites foundational work: {cited_title[:60]}")
 
         context_lower = context.lower()
 
-        # Check for explicit relationship keywords
         for keyword in self.extends_keywords:
             if keyword in context_lower:
                 return ("extends", 0.85, f"Extends work on: {cited_title[:60]}")
@@ -406,11 +658,8 @@ class LineageExtractor:
         # Default classification based on citation year
         year = citation.get("year")
         if year and isinstance(year, int):
-            # Older papers (>5 years) more likely to be prerequisites
-            # Recent papers (<2 years) more likely to be extended/evaluated
             current_year = 2026
             age = current_year - year
-
             if age > 5:
                 return ("prerequisite", 0.6, f"Foundational reference: {cited_title[:60]}")
             elif age < 2:
@@ -419,22 +668,10 @@ class LineageExtractor:
         return ("prerequisite", 0.5, f"Referenced work: {cited_title[:60]}")
 
     def _find_citation_context(self, title: str, paper_text: str, window: int = 200) -> str:
-        """
-        Find the context around a citation in the paper text.
-
-        Args:
-            title: Title to search for
-            paper_text: Full paper text
-            window: Characters before/after to include
-
-        Returns:
-            Context string or empty if not found
-        """
-        # Try to find title or first few words of title
-        title_words = title.split()[:5]  # First 5 words
+        """Find the context around a citation in the paper text."""
+        title_words = title.split()[:5]
         search_phrase = " ".join(title_words)
 
-        # Case-insensitive search
         text_lower = paper_text.lower()
         search_lower = search_phrase.lower()
 
@@ -442,23 +679,13 @@ class LineageExtractor:
         if pos == -1:
             return ""
 
-        # Extract context window
         start = max(0, pos - window)
         end = min(len(paper_text), pos + len(search_phrase) + window)
 
         return paper_text[start:end]
 
     def _extract_methodology_components(self, text: str) -> List[str]:
-        """
-        Extract methodology components from paper text.
-
-        Args:
-            text: Paper text
-
-        Returns:
-            List of methodology keywords
-        """
-        # Common ML/AI methodology keywords
+        """Extract methodology components from paper text."""
         methodologies = [
             'transformer', 'attention', 'lstm', 'gru', 'rnn', 'cnn', 'convolution',
             'resnet', 'bert', 'gpt', 'vit', 'clip', 'gan', 'vae', 'diffusion',
@@ -482,16 +709,7 @@ class LineageExtractor:
         components1: List[str],
         text2: str
     ) -> Tuple[List[str], float]:
-        """
-        Compare methodology components between two papers.
-
-        Args:
-            components1: Methodology components from first paper
-            text2: Text from second paper
-
-        Returns:
-            (shared_components, similarity_score)
-        """
+        """Compare methodology components between two papers."""
         text2_lower = text2.lower()
         shared = []
 
@@ -507,16 +725,7 @@ class LineageExtractor:
         return shared, similarity
 
     def _extract_themes(self, text: str) -> List[str]:
-        """
-        Extract research themes from text.
-
-        Args:
-            text: Paper title + abstract
-
-        Returns:
-            List of theme keywords
-        """
-        # Common research themes
+        """Extract research themes from text."""
         themes = {
             'computer vision': ['vision', 'image', 'visual', 'object detection', 'segmentation'],
             'natural language': ['nlp', 'language', 'text', 'translation', 'qa', 'generation'],
@@ -546,19 +755,9 @@ class LineageExtractor:
         contribution_text: str,
         citations: List[Dict]
     ) -> List[EdgeData]:
-        """
-        Extract explicit relationship mentions from contribution text.
-
-        Args:
-            contribution_text: Text describing contributions
-            citations: List of cited papers
-
-        Returns:
-            List of EdgeData for explicit relationships
-        """
+        """Extract explicit relationship mentions from contribution text."""
         edges = []
 
-        # Patterns to search for
         patterns = [
             (r'extend(?:s|ing)? (?:the work of )?([^.]+)', 'extends'),
             (r'improve(?:s|ing)? (?:upon )?([^.]+)', 'extends'),
@@ -572,8 +771,6 @@ class LineageExtractor:
 
             for match in matches:
                 target_mention = match.group(1).strip()
-
-                # Try to match with a citation
                 matched_citation = self._match_citation(target_mention, citations)
 
                 if matched_citation:
@@ -584,25 +781,19 @@ class LineageExtractor:
                         target_paper_title=title,
                         target_paper_arxiv_id=arxiv_id,
                         edge_type=edge_type,
-                        similarity_score=0.9,  # High confidence for explicit mentions
+                        similarity_score=0.9,
                         rationale=f"Explicitly {edge_type} in contribution statement",
-                        metadata={"source": "contribution_text"}
+                        metadata={
+                            "source": "contribution_text",
+                            "classification_method": "regex",
+                        }
                     )
                     edges.append(edge)
 
         return edges
 
     def _match_citation(self, mention: str, citations: List[Dict]) -> Optional[Dict]:
-        """
-        Match a mention to a citation by fuzzy title matching.
-
-        Args:
-            mention: Mentioned paper/work
-            citations: List of citations
-
-        Returns:
-            Matched citation dict or None
-        """
+        """Match a mention to a citation by fuzzy title matching."""
         best_match = None
         best_score = 0.0
 
@@ -611,30 +802,19 @@ class LineageExtractor:
             if not title:
                 continue
 
-            # Calculate similarity
             score = SequenceMatcher(None, mention.lower(), title.lower()).ratio()
 
             if score > best_score:
                 best_score = score
                 best_match = citation
 
-        # Return match if score > 0.6
         return best_match if best_score > 0.6 else None
 
     def _extract_arxiv_id(self, url: str) -> Optional[str]:
-        """
-        Extract arXiv ID from URL.
-
-        Args:
-            url: URL string
-
-        Returns:
-            arXiv ID or None
-        """
+        """Extract arXiv ID from URL."""
         if not url:
             return None
 
-        # Pattern: arxiv.org/abs/XXXX.XXXXX or arxiv.org/pdf/XXXX.XXXXX
         match = re.search(r'arxiv\.org/(?:abs|pdf)/(\d+\.\d+)', url)
         if match:
             return match.group(1)
@@ -645,14 +825,7 @@ class LineageExtractor:
         """
         Remove duplicate edges (same target + type).
         Keep the one with highest similarity score.
-
-        Args:
-            edges: List of EdgeData
-
-        Returns:
-            Deduplicated list
         """
-        # Group by (target_title, edge_type)
         groups = {}
 
         for edge in edges:
@@ -661,7 +834,6 @@ class LineageExtractor:
             if key not in groups:
                 groups[key] = edge
             else:
-                # Keep edge with higher similarity score
                 if edge.similarity_score > groups[key].similarity_score:
                     groups[key] = edge
 
