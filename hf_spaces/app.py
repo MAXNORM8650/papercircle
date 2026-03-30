@@ -123,6 +123,52 @@ app.add_middleware(
 
 
 # =============================================================================
+# Conference Name Normalization
+# =============================================================================
+
+# Map of lowercase aliases → canonical names stored in the parquet
+_CONFERENCE_ALIASES = {
+    "nips": "NeurIPS",
+    "neurips": "NeurIPS",
+    "iclr": "ICLR",
+    "icml": "ICML",
+    "cvpr": "CVPR",
+    "iccv": "ICCV",
+    "eccv": "ECCV",
+    "aaai": "AAAI",
+    "ijcai": "IJCAI",
+    "acl": "ACL",
+    "emnlp": "EMNLP",
+    "naacl": "NAACL",
+    "coling": "COLING",
+    "colm": "COLM",
+    "icra": "ICRA",
+    "iros": "IROS",
+    "rss": "RSS",
+    "corl": "CoRL",
+    "kdd": "KDD",
+    "www": "WWW",
+    "aistats": "AISTATS",
+    "uai": "UAI",
+    "colt": "COLT",
+    "acml": "ACML",
+    "wacv": "WACV",
+    "siggraph": "SIGGRAPH",
+    "siggraphasia": "SIGGRAPHASIA",
+    "acmmm": "ACMMM",
+    "3dv": "3DV",
+    "automl": "AutoML",
+    "alt": "ALT",
+    "ai4x": "AI4X",
+}
+
+
+def _normalize_conference(name: str) -> str:
+    """Normalize conference name to match parquet data (uppercase)."""
+    return _CONFERENCE_ALIASES.get(name.lower(), name.upper())
+
+
+# =============================================================================
 # Endpoints
 # =============================================================================
 
@@ -163,7 +209,7 @@ async def get_community_papers(
         params.append(year)
     if conference:
         where_clauses.append("conference = ?")
-        params.append(conference)
+        params.append(_normalize_conference(conference))
     if source:
         where_clauses.append("source = ?")
         params.append(source)
@@ -328,7 +374,7 @@ async def search_papers(
     if not ready:
         raise HTTPException(status_code=503, detail="Database loading")
 
-    conf_list = [c.strip() for c in conferences.split(",")] if conferences else None
+    conf_list = [_normalize_conference(c.strip()) for c in conferences.split(",")] if conferences else None
 
     # Try FTS first
     try:
