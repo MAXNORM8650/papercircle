@@ -1,18 +1,22 @@
 """
-Lineage Extraction Module
-==========================
-Extracts paper-to-paper relationships from review analysis data.
+Methodology Lineage Extraction Module
+=======================================
+Traces how research methods flow across papers — building a methodology
+genealogy that shows which paper introduced a technique, which improved it,
+which applied it to a new domain, and which evaluated or challenged it.
 
 Two extraction modes:
 1. LLM Agent mode (when llm_config provided):
-   - A single ToolCallingAgent with a get_citation_context tool
-   - Reads analysis text, reasons about relationships, classifies them
+   - A single ToolCallingAgent ("methodology_lineage_analyst") with a
+     get_citation_context tool to look up how methods are referenced
+   - Reads contributions, analysis text, and citation contexts
+   - Reasons about methodological connections between papers
 
 2. Keyword/regex fallback (always runs as complement):
-   - Citation relationships (extends, prerequisite, survey)
-   - Methodology relationships (applies)
-   - Theme cluster relationships (survey)
-   - Contribution-based relationships (extends, contradicts, evaluates)
+   - Citation context keyword matching (extends, prerequisite, survey)
+   - Shared methodology component matching (applies)
+   - Research theme clustering (survey)
+   - Explicit relationship patterns in contribution text
 """
 
 from typing import List, Dict, Any, Optional, Tuple
@@ -248,24 +252,32 @@ class LineageExtractor:
         agent = ToolCallingAgent(
             tools=[context_tool],
             model=model,
-            name="lineage_analyst",
-            description="Analyzes relationships between a paper and its references.",
+            name="methodology_lineage_analyst",
+            description="Traces methodology lineage — how methods are introduced, improved, applied, and evaluated across papers.",
             max_steps=25,
-            instructions="""You are a research paper relationship analyst. Your job is to identify and classify how a paper relates to the other papers it cites or is connected to.
+            instructions="""You are a methodology lineage analyst. Your job is to trace how research methods flow across papers — which paper introduced a technique, which improved it, which applied it to a new domain, and which evaluated or challenged it.
+
+This builds a METHODOLOGY GENEALOGY: a graph showing how ideas and techniques evolve across the research literature.
 
 RELATIONSHIP TYPES (use exactly these strings):
-- "extends": The paper builds upon, improves, or advances the cited work
-- "prerequisite": The cited work is foundational/background that this paper depends on
-- "applies": The paper applies or shares methodology with the cited work
-- "evaluates": The paper benchmarks, compares against, or evaluates the cited work
-- "contradicts": The paper challenges, disputes, or refutes the cited work's findings
-- "survey": The cited work is referenced as part of a broader literature review
+- "extends": This paper improves, advances, or builds a new method on top of the cited work's methodology (e.g., "We improve the attention mechanism from [X] by adding sparse routing")
+- "applies": This paper takes the cited work's method and applies it to a different problem or domain (e.g., "We adapt BERT for medical text classification")
+- "evaluates": This paper benchmarks against or systematically compares with the cited work's approach (e.g., "We compare our method against [X] on three benchmarks")
+- "contradicts": This paper challenges the cited work's methodology or findings with evidence (e.g., "Contrary to [X], we show that larger models are not necessary")
+- "prerequisite": The cited work provides a foundational method or theory that this paper's approach depends on (e.g., the original Transformer paper for any attention-based method)
+- "survey": The cited work is mentioned in a literature overview without direct methodological connection
+
+FOCUS ON METHODOLOGY:
+- Pay special attention to: architectures, training procedures, loss functions, optimization techniques, data processing methods, evaluation protocols
+- Trace the chain: "Paper A proposed method M → Paper B improved M with technique T → This paper combines M+T with new idea N"
+- The most valuable edges are "extends" and "applies" — these show how methods evolve
 
 WORKFLOW:
-1. Read the paper metadata, contributions, and analysis provided
-2. For the most important cited papers, use get_citation_context to see HOW they are referenced
-3. Based on the context and analysis, classify each meaningful relationship
-4. Focus on the 8-15 most significant relationships, skip trivial mentions
+1. Read the paper's contributions and technical analysis carefully — identify the KEY methods used
+2. For important cited papers, use get_citation_context to see HOW their methods are referenced
+3. Ask: "Did this paper USE their method? IMPROVE it? COMPARE against it? BUILD on it?"
+4. Classify each methodological connection (aim for 8-15 significant relationships)
+5. Skip generic/ceremonial citations that don't involve methodology
 
 YOUR FINAL ANSWER must be a JSON object with this exact format:
 {
@@ -274,7 +286,7 @@ YOUR FINAL ANSWER must be a JSON object with this exact format:
       "target_title": "exact paper title from the citation list",
       "edge_type": "extends",
       "confidence": 0.85,
-      "rationale": "One sentence explaining why this relationship type"
+      "rationale": "Improves the sparse attention mechanism from this work by adding learned routing"
     }
   ]
 }""",
@@ -328,16 +340,16 @@ YOUR FINAL ANSWER must be a JSON object with this exact format:
             if title and len(title) >= 10:
                 related_lines.append(f"- {title} ({r.get('year', 'N/A')})")
 
-        prompt = f"""Analyze the relationships between this paper and its references.
+        prompt = f"""Trace the methodology lineage for this paper — how its methods connect to other papers.
 
 PAPER BEING ANALYZED:
 Title: {metadata.get('title', 'Unknown')}
 Abstract: {metadata.get('abstract', '')[:800]}
 
-KEY CONTRIBUTIONS:
+KEY CONTRIBUTIONS & METHODS:
 {(contribution_text[:2000] if isinstance(contribution_text, str) else str(contribution_text)[:2000]) if contribution_text else 'Not available'}
 
-TECHNICAL ANALYSIS SUMMARY:
+TECHNICAL ANALYSIS (architectures, training, techniques used):
 {(analysis_text[:1500] if isinstance(analysis_text, str) else str(analysis_text)[:1500]) if analysis_text else 'Not available'}
 
 CITED PAPERS:
@@ -346,7 +358,11 @@ CITED PAPERS:
 RELATED PAPERS (from search):
 {chr(10).join(related_lines) if related_lines else 'None found'}
 
-Now analyze the relationships. Use get_citation_context on the most important citations to understand how they are referenced, then classify each relationship."""
+TASK: Identify the methodology lineage.
+1. What are the KEY methods/techniques in this paper?
+2. For each method, use get_citation_context to find WHERE the foundational/related papers are cited
+3. Classify: did this paper EXTEND their method? APPLY it? EVALUATE against it? BUILD on it as a prerequisite?
+4. Return the methodology connections as JSON."""
 
         try:
             result = agent.run(prompt)
