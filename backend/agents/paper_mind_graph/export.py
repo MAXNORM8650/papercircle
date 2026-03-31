@@ -216,13 +216,13 @@ class MermaidExporter:
             node_id = self._sanitize_id(node.id)
 
             if node.type == NodeType.METHOD:
-                mermaid += f"    {node_id}[/{label}/]\n"  # Parallelogram
+                mermaid += f'    {node_id}[/"{label}"/]\n'  # Parallelogram
             elif node.type == NodeType.EXPERIMENT:
-                mermaid += f"    {node_id}{{{label}}}\n"  # Diamond
+                mermaid += f'    {node_id}{{"{label}"}}\n'  # Diamond
             elif node.type == NodeType.CONCEPT:
-                mermaid += f"    {node_id}({label})\n"  # Rounded
+                mermaid += f'    {node_id}("{label}")\n'  # Rounded
             else:
-                mermaid += f"    {node_id}[{label}]\n"  # Rectangle
+                mermaid += f'    {node_id}["{label}"]\n'  # Rectangle
 
         # Add edges
         edge_count = 0
@@ -232,7 +232,7 @@ class MermaidExporter:
                 target = self._sanitize_id(edge.target_id)
 
                 label = self._escape(edge.type.value.replace("_", " ")[:15])
-                mermaid += f"    {source} -->|{label}| {target}\n"
+                mermaid += f'    {source} -->|"{label}"| {target}\n'
                 edge_count += 1
 
         # Add styling
@@ -296,16 +296,25 @@ class MermaidExporter:
         return mermaid
     
     def _escape(self, text: str) -> str:
-        """Escape text for Mermaid labels."""
+        """Escape text for Mermaid labels.
+
+        Mermaid uses (), [], {}, <> for node shapes, so ALL of these
+        must be stripped or replaced in label text to avoid parse errors.
+        """
         if not text:
             return ""
         import re
-        # Remove quotes and brackets that break syntax, replace newlines
-        escaped = text.replace('"', "'").replace("\n", " ").replace("[", "(").replace("]", ")")
-        # Remove other problematic characters for Mermaid
-        escaped = escaped.replace("{", "(").replace("}", ")").replace("<", "(").replace(">", ")")
+        # Remove quotes and replace newlines
+        escaped = text.replace('"', "'").replace("\n", " ")
+        # Remove ALL bracket/paren characters that Mermaid uses for node shapes
+        escaped = escaped.replace("(", "").replace(")", "")
+        escaped = escaped.replace("[", "").replace("]", "")
+        escaped = escaped.replace("{", "").replace("}", "")
+        escaped = escaped.replace("<", "").replace(">", "")
+        # Remove other Mermaid-breaking characters
         escaped = escaped.replace("|", "-").replace("#", "").replace("&", "and")
         escaped = escaped.replace("`", "'").replace("\\", "/")
+        escaped = escaped.replace(";", ",")
         # Replace multiple spaces with single space
         escaped = re.sub(r'\s+', ' ', escaped)
         # Remove any non-ASCII characters that might cause issues

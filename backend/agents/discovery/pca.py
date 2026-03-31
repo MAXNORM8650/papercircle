@@ -1088,24 +1088,32 @@ class OfflinePaperSearchEngine:
                 print(f"[Offline] Applying BM25 reranking to {len(papers_data)} Supabase results...")
                 papers_data = self._rerank_with_bm25(query, papers_data)
 
-            # Convert to Paper objects
+            # Convert Supabase results to Paper objects
             papers = []
             for i, p in enumerate(papers_data):
+                kw = p.get('keywords', '')
+                if isinstance(kw, list):
+                    kw = '; '.join(str(k) for k in kw)
+
+                conf = p.get('conference', '')
+                yr = p.get('year')
+
                 paper = Paper(
                     title=p.get('title', 'Unknown'),
-                    authors=p.get('authors', []),
+                    authors=p.get('authors', []) if isinstance(p.get('authors'), list) else [],
                     abstract=p.get('abstract', ''),
-                    year=p.get('year'),
-                    venue=p.get('conference') or p.get('venue', ''),
-                    arxiv_id=p.get('arxiv_id'),
-                    pdf_url=p.get('pdf_url'),
-                    conference=p.get('conference', ''),
-                    keywords=p.get('keywords', []),
+                    url=p.get('pdf_url', '') or '',
+                    year=yr,
+                    venue=f"{conf} {yr}" if conf and yr else (conf or p.get('venue', '')),
+                    source=f"offline_{conf.lower()}" if conf else 'supabase',
+                    pdf_url=p.get('pdf_url', ''),
+                    id=p.get('paper_id', p.get('id', '')),
+                    keywords=kw,
                     tldr=p.get('tldr', ''),
                     primary_area=p.get('primary_area', ''),
-                    rating_avg=p.get('rating_avg'),
-                    bm25_score=p.get('bm25_score', 0.0),
-                    rank=i + 1
+                    bm25_score=float(p.get('bm25_score', 0) or 0),
+                    similarity_score=float(p.get('score', 0) or 0),
+                    rank=i + 1,
                 )
                 papers.append(paper)
 
@@ -1152,24 +1160,33 @@ class OfflinePaperSearchEngine:
                 print(f"[Offline] Applying BM25 reranking to {len(papers_data)} HF results...")
                 papers_data = self._rerank_with_bm25(query, papers_data)
 
-            # Convert to Paper objects
+            # Convert HF Spaces results to Paper objects
             papers = []
             for i, p in enumerate(papers_data):
+                # Handle keywords — HF API returns list, Paper expects string
+                kw = p.get('keywords', '')
+                if isinstance(kw, list):
+                    kw = '; '.join(str(k) for k in kw)
+
+                conf = p.get('conference', '')
+                yr = p.get('year')
+
                 paper = Paper(
                     title=p.get('title', 'Unknown'),
-                    authors=p.get('authors', []),
+                    authors=p.get('authors', []) if isinstance(p.get('authors'), list) else [],
                     abstract=p.get('abstract', ''),
-                    year=p.get('year'),
-                    venue=p.get('conference') or p.get('venue', ''),
-                    arxiv_id=p.get('arxiv_id'),
-                    pdf_url=p.get('pdf_url'),
-                    conference=p.get('conference', ''),
-                    keywords=p.get('keywords', []),
+                    url=p.get('pdf_url', '') or '',
+                    year=yr,
+                    venue=f"{conf} {yr}" if conf and yr else (conf or p.get('venue', '')),
+                    source=f"offline_{conf.lower()}" if conf else 'hf_spaces',
+                    pdf_url=p.get('pdf_url', ''),
+                    id=p.get('paper_id', ''),
+                    keywords=kw,
                     tldr=p.get('tldr', ''),
                     primary_area=p.get('primary_area', ''),
-                    rating_avg=p.get('rating_avg'),
-                    bm25_score=p.get('bm25_score', 0.0),
-                    rank=i + 1
+                    bm25_score=float(p.get('score', 0) or p.get('bm25_score', 0) or 0),
+                    similarity_score=float(p.get('score', 0) or 0),
+                    rank=i + 1,
                 )
                 papers.append(paper)
 

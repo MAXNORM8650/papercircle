@@ -78,9 +78,18 @@ export function LineageGraphTab({ circleId }: LineageGraphTabProps) {
     });
   }, [databaseEdges, dynamicEdges]);
 
+  // Load from DB when filters change (NOT when allEdges changes — that causes infinite loop)
   useEffect(() => {
     loadLineageData();
-  }, [edgeTypeFilter, viewMode, allEdges]);
+  }, [edgeTypeFilter, viewMode]);
+
+  // Rebuild paper map when dynamic edges change (without re-fetching from DB)
+  useEffect(() => {
+    if (dynamicEdges.length > 0 && databaseEdges.length >= 0) {
+      // Re-run the paper map build with the existing databaseEdges + new dynamicEdges
+      loadLineageData();
+    }
+  }, [dynamicEdges.length]);
 
   const loadLineageData = async () => {
     setLoading(true);

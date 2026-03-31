@@ -15,6 +15,7 @@ import { InviteAcceptSession } from './components/Sessions/InviteAcceptSession';
 import { CompleteProfileModal } from './components/Auth/CompleteProfileModal';
 import { LLMSettings } from './components/Settings/LLMSettings';
 import ResearchDashboard from './components/Papers/ResearchDashboard';
+import { ActiveJobsPanel } from './components/Layout/ActiveJobsPanel';
 
 type View = 'discover' | 'sessions' | 'circles' | 'lineage' | 'dashboard' | 'admin' | 'settings' | 'paper-detail' | 'session-detail' | 'invite' | 'session-invite' | 'research-dashboard';
 
@@ -147,6 +148,9 @@ function AppContent() {
 
       {/* Show profile completion modal when needed */}
       {needsProfile && <CompleteProfileModal />}
+
+      {/* Global floating panel showing active analysis/review/research jobs */}
+      <ActiveJobsPanel />
     </>
   );
 }

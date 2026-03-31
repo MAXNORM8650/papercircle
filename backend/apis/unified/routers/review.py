@@ -300,6 +300,22 @@ def _run_review_process(
             except Exception as e:
                 print(f"Failed to save review to database: {e}")
 
+        # Save lineage edges to the `edges` table (for LineageGraphTab)
+        if paper_id and lineage_data:
+            try:
+                update_job_progress(status_file, progress=95, message="Saving lineage edges to graph...")
+                from paper_review_agents.database_manager import find_and_save_edges
+                edge_stats = find_and_save_edges(
+                    source_paper_id=paper_id,
+                    extracted_edges=lineage_data,
+                    community_id=community_id,
+                )
+                print(f"Lineage edges saved: {edge_stats.get('saved', 0)}/{edge_stats.get('total_extracted', 0)} "
+                      f"(matched={edge_stats.get('matched', 0)}, not_matched={edge_stats.get('not_matched', 0)})")
+                review_result["lineage_stats"] = edge_stats
+            except Exception as e:
+                print(f"Failed to save lineage edges: {e}")
+
         # Record usage
         if user_id and user_id != "system":
             record_usage(

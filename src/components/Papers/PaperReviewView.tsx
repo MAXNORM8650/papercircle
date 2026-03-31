@@ -21,6 +21,7 @@ import { InteractiveGraph } from './InteractiveGraph';
 import { Edge } from '../../contexts/LineageAnalysisContext';
 import { useAuth } from '../../contexts/AuthContext';
 import { API_BASE_URL } from '../../lib/api';
+import { supabase } from '../../lib/supabase';
 
 interface PaperReviewViewProps {
   paperId: string;
@@ -90,6 +91,17 @@ export function PaperReviewView({
   const [activeJobId, setActiveJobId] = useState<string | null>(null);
   const [reviewProgress, setReviewProgress] = useState<number>(0);
   const [reviewMessage, setReviewMessage] = useState<string>('');
+  const [paperTitle, setPaperTitle] = useState<string>('');
+
+  // Fetch paper title for job tracking
+  useEffect(() => {
+    if (paperId) {
+      supabase.from('papers').select('title').eq('id', paperId).maybeSingle()
+        .then(({ data }) => {
+          if (data?.title) setPaperTitle(data.title);
+        });
+    }
+  }, [paperId]);
 
   useEffect(() => {
     // On mount: check localStorage for an active review job and resume polling
@@ -320,6 +332,8 @@ export function PaperReviewView({
         localStorage.setItem(`papercircle_review_job_${paperId}`, JSON.stringify({
           jobId: result.job_id,
           paperId,
+          paperTitle: paperTitle || 'Paper Review',
+          jobType: 'review',
           startedAt: new Date().toISOString(),
         }));
         pollForCompletion(result.job_id);
@@ -377,6 +391,8 @@ export function PaperReviewView({
         localStorage.setItem(`papercircle_review_job_${paperId}`, JSON.stringify({
           jobId: result.job_id,
           paperId,
+          paperTitle: paperTitle || 'Paper Review',
+          jobType: 'review',
           startedAt: new Date().toISOString(),
         }));
         pollForCompletion(result.job_id);

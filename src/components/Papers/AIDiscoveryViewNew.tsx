@@ -340,7 +340,10 @@ export function AIDiscoveryViewNew({
                   setOutputDir(data.content.output_dir);
                   // Persist to localStorage so we can resume after page refresh
                   localStorage.setItem('papercircle_research_job', JSON.stringify({
+                    jobId: data.content.timestamp,
                     timestamp: data.content.timestamp,
+                    paperTitle: `Research: ${searchQuery.substring(0, 60)}`,
+                    jobType: 'research',
                     query: searchQuery,
                     startedAt: new Date().toISOString(),
                   }));

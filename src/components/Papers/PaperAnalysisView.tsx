@@ -22,6 +22,7 @@ import mermaid from 'mermaid';
 import { InteractiveGraph } from './InteractiveGraph';
 import { useAuth } from '../../contexts/AuthContext';
 import { API_BASE_URL } from '../../lib/api';
+import { supabase } from '../../lib/supabase';
 
 // Initialize mermaid with latest version
 mermaid.initialize({
@@ -203,6 +204,17 @@ export function PaperAnalysisView({
   const [activeJobId, setActiveJobId] = useState<string | null>(null);
   const [analysisProgress, setAnalysisProgress] = useState<number>(0);
   const [analysisMessage, setAnalysisMessage] = useState<string>('');
+  const [paperTitle, setPaperTitle] = useState<string>('');
+
+  // Fetch paper title for job tracking
+  useEffect(() => {
+    if (paperId) {
+      supabase.from('papers').select('title').eq('id', paperId).maybeSingle()
+        .then(({ data }) => {
+          if (data?.title) setPaperTitle(data.title);
+        });
+    }
+  }, [paperId]);
 
   useEffect(() => {
     // On mount: check localStorage for an active analysis job and resume polling
@@ -325,6 +337,8 @@ export function PaperAnalysisView({
               localStorage.setItem(`papercircle_analysis_job_${paperId}`, JSON.stringify({
                 jobId,
                 paperId,
+                paperTitle: paperTitle || 'Paper Analysis',
+                jobType: 'analysis',
                 startedAt: new Date().toISOString(),
               }));
               pollForJobCompletion(jobId);
