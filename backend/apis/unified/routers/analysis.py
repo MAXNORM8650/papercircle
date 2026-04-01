@@ -511,20 +511,6 @@ async def analyze_upload(
     finally:
         await file.close()
 
-@router.get("/{analysis_id}", response_model=AnalysisResponse)
-async def get_analysis(analysis_id: str):
-    """Get stored analysis by ID."""
-    try:
-        supabase = get_supabase()
-        result = supabase.table("paper_analysis").select("*").eq("id", analysis_id).maybe_single().execute()
-        if not result or not result.data:
-            raise HTTPException(status_code=404, detail="Analysis not found")
-        return result.data
-    except HTTPException:
-        raise
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-
 @router.get("/paper/{paper_id}")
 async def get_paper_analysis(
     paper_id: str,
@@ -817,6 +803,25 @@ async def analyze_session(request: AnalyzeSessionRequest):
             "message": f"Started analysis for {analyzed_count} papers"
         }
 
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# =============================================================================
+# Catch-all route — MUST be last to avoid swallowing specific routes
+# =============================================================================
+
+@router.get("/{analysis_id}", response_model=AnalysisResponse)
+async def get_analysis(analysis_id: str):
+    """Get stored analysis by ID."""
+    try:
+        supabase = get_supabase()
+        result = supabase.table("paper_analysis").select("*").eq("id", analysis_id).maybe_single().execute()
+        if not result or not result.data:
+            raise HTTPException(status_code=404, detail="Analysis not found")
+        return result.data
     except HTTPException:
         raise
     except Exception as e:

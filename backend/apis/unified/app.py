@@ -84,8 +84,8 @@ app.add_middleware(
         "http://localhost:3000",
         "http://localhost:8080",
         "https://papercircle.vercel.app",
-        "https://*.vercel.app",
     ],
+    allow_origin_regex=r"https://.*\.vercel\.app",  # Covers all Vercel preview deployments
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
