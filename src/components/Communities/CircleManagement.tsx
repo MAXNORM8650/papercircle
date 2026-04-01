@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
-import { Users, Plus, Settings, UserPlus, X } from 'lucide-react';
+import { Users, Plus, Settings, UserPlus, X, Loader } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
+import { API_BASE_URL } from '../../lib/api';
 import { CircleDetailView } from './CircleDetailView';
 
 interface Community {
@@ -43,7 +44,17 @@ export function CircleManagement({ onNavigate }: CircleManagementProps) {
     description: '',
     slug: '',
     is_public: true,
+    keywords: [] as string[],
+    discovery_conferences: [] as string[],
+    auto_discover: true,
   });
+  const [keywordInput, setKeywordInput] = useState('');
+
+  const AVAILABLE_CONFERENCES = [
+    'ICLR', 'NeurIPS', 'ICML', 'CVPR', 'ACL', 'EMNLP', 'AAAI',
+    'ICCV', 'ECCV', 'NAACL', 'COLING', 'KDD', 'IJCAI', 'AISTATS',
+    'CoRL', 'ICRA', 'IROS', 'WACV', 'SIGGRAPH', 'UAI',
+  ];
 
   useEffect(() => {
     if (user) {
@@ -114,7 +125,26 @@ export function CircleManagement({ onNavigate }: CircleManagementProps) {
     if (data) {
       setCommunities([data, ...communities]);
       setShowCreateModal(false);
-      setNewCommunity({ name: '', description: '', slug: '', is_public: true });
+
+      // Auto-discover papers if keywords were provided
+      if (newCommunity.keywords.length > 0) {
+        try {
+          fetch(`${API_BASE_URL}/community/${data.id}/discover`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ max_per_keyword: 30, include_arxiv_live: true }),
+          }).then(res => res.json()).then(result => {
+            console.log(`Auto-discovery for new circle: ${result.papers_added} papers added`);
+          }).catch(err => {
+            console.error('Auto-discovery failed:', err);
+          });
+        } catch (err) {
+          console.error('Auto-discovery failed:', err);
+        }
+      }
+
+      setNewCommunity({ name: '', description: '', slug: '', is_public: true, keywords: [], discovery_conferences: [], auto_discover: true });
+      setKeywordInput('');
     }
   };
 
@@ -346,6 +376,120 @@ export function CircleManagement({ onNavigate }: CircleManagementProps) {
                   rows={3}
                   placeholder="A community for discussing AI research papers..."
                 />
+              </div>
+
+              {/* Research Keywords */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Research Keywords
+                </label>
+                <p className="text-xs text-gray-500 mb-2">
+                  Papers matching these keywords will be auto-discovered for the circle.
+                </p>
+                <div className="flex gap-2 mb-2">
+                  <input
+                    type="text"
+                    value={keywordInput}
+                    onChange={(e) => setKeywordInput(e.target.value)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' && keywordInput.trim()) {
+                        e.preventDefault();
+                        if (!newCommunity.keywords.includes(keywordInput.trim())) {
+                          setNewCommunity({
+                            ...newCommunity,
+                            keywords: [...newCommunity.keywords, keywordInput.trim()],
+                          });
+                        }
+                        setKeywordInput('');
+                      }
+                    }}
+                    className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
+                    placeholder="e.g., LLM scaling laws (press Enter)"
+                  />
+                  <button
+                    type="button"
+                    onClick={() => {
+                      if (keywordInput.trim() && !newCommunity.keywords.includes(keywordInput.trim())) {
+                        setNewCommunity({
+                          ...newCommunity,
+                          keywords: [...newCommunity.keywords, keywordInput.trim()],
+                        });
+                        setKeywordInput('');
+                      }
+                    }}
+                    className="px-3 py-2 bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200 text-sm font-medium"
+                  >
+                    Add
+                  </button>
+                </div>
+                {newCommunity.keywords.length > 0 && (
+                  <div className="flex flex-wrap gap-1.5">
+                    {newCommunity.keywords.map((kw, idx) => (
+                      <span
+                        key={idx}
+                        className="inline-flex items-center gap-1 px-2.5 py-1 bg-blue-50 text-blue-700 rounded-full text-xs font-medium"
+                      >
+                        {kw}
+                        <button
+                          type="button"
+                          onClick={() => setNewCommunity({
+                            ...newCommunity,
+                            keywords: newCommunity.keywords.filter((_, i) => i !== idx),
+                          })}
+                          className="text-blue-400 hover:text-blue-600"
+                        >
+                          &times;
+                        </button>
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Conferences */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Conferences to Search
+                </label>
+                <div className="flex flex-wrap gap-1.5 max-h-24 overflow-y-auto">
+                  {AVAILABLE_CONFERENCES.map((conf) => (
+                    <button
+                      key={conf}
+                      type="button"
+                      onClick={() => {
+                        const selected = newCommunity.discovery_conferences;
+                        setNewCommunity({
+                          ...newCommunity,
+                          discovery_conferences: selected.includes(conf)
+                            ? selected.filter(c => c !== conf)
+                            : [...selected, conf],
+                        });
+                      }}
+                      className={`px-2.5 py-1 rounded-full text-xs font-medium border transition-colors ${
+                        newCommunity.discovery_conferences.includes(conf)
+                          ? 'bg-purple-100 text-purple-700 border-purple-300'
+                          : 'bg-gray-50 text-gray-600 border-gray-200 hover:bg-gray-100'
+                      }`}
+                    >
+                      {conf}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              <div className="flex items-center space-x-2">
+                <input
+                  type="checkbox"
+                  id="auto_discover"
+                  checked={newCommunity.auto_discover}
+                  onChange={(e) =>
+                    setNewCommunity({ ...newCommunity, auto_discover: e.target.checked })
+                  }
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <label htmlFor="auto_discover" className="text-sm text-gray-700">
+                  Auto-discover papers daily based on keywords
+                </label>
               </div>
 
               <div className="flex items-center space-x-2">

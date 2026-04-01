@@ -557,11 +557,31 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
 
   const handleSync = async () => {
     setSyncing(true);
-    setSyncMessage('⚠️ Sync is now run as a standalone script. Run: python scripts/sync_community_papers.py --source full');
-    setTimeout(() => {
+    setSyncMessage('');
+
+    try {
+      // Discover papers for all communities that have keywords
+      const response = await fetch(apiUrl('/community/discover-all'), {
+        method: 'POST',
+      });
+
+      if (!response.ok) {
+        throw new Error(`Discovery failed: ${response.statusText}`);
+      }
+
+      const result = await response.json();
+      const totalAdded = result.results?.reduce((sum: number, r: any) => sum + (r.papers_added || 0), 0) || 0;
+      setSyncMessage(`Added ${totalAdded} new papers across ${result.communities_processed} communities`);
+
+      // Reload papers
+      loadPapers();
+    } catch (err) {
+      console.error('Discovery error:', err);
+      setSyncMessage(`Discovery failed: ${err instanceof Error ? err.message : 'Unknown error'}`);
+    } finally {
       setSyncing(false);
-      setSyncMessage('');
-    }, 5000);
+      setTimeout(() => setSyncMessage(''), 8000);
+    }
   };
 
   const loadPapers = async () => {
@@ -736,12 +756,12 @@ export function CommunityPapersTab({ onSelectPaper }: CommunityPapersTabProps) {
             {syncing ? (
               <>
                 <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></div>
-                Syncing...
+                Discovering...
               </>
             ) : (
               <>
                 <RefreshCw className="h-4 w-4" />
-                Sync
+                Discover Papers
               </>
             )}
           </button>

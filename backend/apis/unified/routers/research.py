@@ -50,10 +50,12 @@ def _run_research_pipeline(
     enhanced_query: str,
     model_kwargs: dict,
     custom_instructions: Optional[str],
+    community_id: Optional[str] = None,
 ):
     """
     Target function that runs in a child process.
     Creates the model and pipeline, runs the discovery, updates status file.
+    If community_id is provided, auto-links discovered papers to that community.
     """
     import sys
     from pathlib import Path
@@ -90,6 +92,71 @@ def _run_research_pipeline(
                 summary_path.write_text(json.dumps(summary, indent=2))
             except Exception:
                 pass
+
+        # Auto-link discovered papers to community if community_id provided
+        if community_id:
+            try:
+                papers_path = Path(output_dir) / "papers.json"
+                if papers_path.exists():
+                    papers_data = json.loads(papers_path.read_text())
+                    papers_list = papers_data if isinstance(papers_data, list) else papers_data.get("papers", [])
+
+                    if papers_list:
+                        update_job_progress(status_file, progress=90, message=f"Adding {len(papers_list)} papers to community...")
+                        from ..config import get_supabase
+                        supabase = get_supabase()
+
+                        linked = 0
+                        for p in papers_list:
+                            title = (p.get("title") or "").strip()
+                            if not title:
+                                continue
+
+                            arxiv_id = p.get("arxiv_id") or ""
+                            paper_id = None
+
+                            # Find or create paper in DB
+                            if arxiv_id:
+                                existing = supabase.table("papers").select("id").eq("arxiv_id", arxiv_id).limit(1).execute()
+                                if existing.data:
+                                    paper_id = existing.data[0]["id"]
+
+                            if not paper_id:
+                                existing = supabase.table("papers").select("id").ilike("title", title).limit(1).execute()
+                                if existing.data:
+                                    paper_id = existing.data[0]["id"]
+
+                            if not paper_id:
+                                authors = p.get("authors", [])
+                                if isinstance(authors, str):
+                                    authors = [a.strip() for a in authors.split(";") if a.strip()]
+                                insert_result = supabase.table("papers").insert({
+                                    "title": title,
+                                    "authors": authors if isinstance(authors, list) else [],
+                                    "abstract": p.get("abstract", ""),
+                                    "arxiv_id": arxiv_id or None,
+                                    "pdf_url": p.get("pdf_url") or p.get("url") or None,
+                                    "year": p.get("year"),
+                                    "venue": p.get("venue"),
+                                    "source": "ai_discovery",
+                                }).execute()
+                                if insert_result.data:
+                                    paper_id = insert_result.data[0]["id"]
+
+                            if paper_id:
+                                try:
+                                    supabase.table("community_papers").insert({
+                                        "paper_id": paper_id,
+                                        "community_id": community_id,
+                                        "source": "ai_discovery",
+                                    }).execute()
+                                    linked += 1
+                                except Exception:
+                                    pass  # Duplicate, skip
+
+                        print(f"[Research] Auto-linked {linked} papers to community {community_id}")
+            except Exception as e:
+                print(f"[Research] Failed to auto-link papers to community: {e}")
 
         complete_job(status_file, result=str(result) if result else None)
 
@@ -213,7 +280,7 @@ async def stream_pipeline_progress(
             job_id=timestamp,
             job_type="research",
             target=_run_research_pipeline,
-            args=(output_dir, enhanced_query, model_kwargs, custom_instructions if tags else None),
+            args=(output_dir, enhanced_query, model_kwargs, custom_instructions if tags else None, community_id),
         )
 
         last_paper_count = 0
