@@ -383,7 +383,7 @@ export function PaperAnalysisView({
       console.error('Error starting analysis:', err);
       const msg = err instanceof Error ? err.message : 'Failed to start analysis';
       setError(msg);
-      if (msg.toLowerCase().includes('no arxiv_id or pdf_url')) {
+      if (msg.toLowerCase().includes('no arxiv_id') || msg.toLowerCase().includes('no paper url') || msg.toLowerCase().includes('manual_url')) {
         setShowUrlInput(true);
       }
       setProcessing(false);

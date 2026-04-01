@@ -342,15 +342,34 @@ async def analyze_paper(request: AnalyzePaperRequest):
                         "message": "Analysis already exists. Use force_reanalyze=true to regenerate."
                     }
 
-        # Determine the URL to analyze
+        # Determine the URL to analyze — try all possible sources
         if not paper_url and paper:
             if paper.get("arxiv_id"):
                 paper_url = f"https://arxiv.org/abs/{paper['arxiv_id']}"
             elif paper.get("pdf_url"):
                 paper_url = paper["pdf_url"]
+            elif paper.get("url"):
+                paper_url = paper["url"]
+            elif paper.get("metadata") and isinstance(paper.get("metadata"), dict):
+                # Check metadata for any URL
+                meta = paper["metadata"]
+                paper_url = meta.get("pdf_url") or meta.get("url") or meta.get("arxiv_url")
+
+        # Try to find arxiv_id from title as last resort
+        if not paper_url and paper and paper.get("title"):
+            import re
+            title = paper["title"]
+            # Check if title looks like it contains an arxiv ID
+            arxiv_match = re.search(r'(\d{4}\.\d{4,5})', title)
+            if arxiv_match:
+                paper_url = f"https://arxiv.org/abs/{arxiv_match.group(1)}"
 
         if not paper_url:
-            raise HTTPException(status_code=400, detail="No paper URL available. Provide manual_url or a valid paper_id.")
+            raise HTTPException(
+                status_code=400,
+                detail=f"No paper URL available for paper '{paper.get('title', paperId) if paper else paperId}'. "
+                       "The paper needs an arxiv_id or pdf_url. You can provide a manual_url parameter."
+            )
 
         # If no paper_id but we have a URL, create a temporary paper record
         if not paper_id and paper_url:

@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react';
-import { ArrowLeft, ExternalLink, Code, BookmarkPlus, MessageSquare, ThumbsUp } from 'lucide-react';
+import { ArrowLeft, ExternalLink, Code, BookmarkPlus, MessageSquare, ThumbsUp, Brain, FileCheck } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
+import { useCommunity } from '../../contexts/CommunityContext';
+import { PaperAnalysisView } from './PaperAnalysisView';
+import { PaperReviewView } from './PaperReviewView';
 import type { Database } from '../../lib/database.types';
 
 type Paper = Database['public']['Tables']['papers']['Row'];
@@ -10,6 +13,8 @@ type Discussion = Database['public']['Tables']['discussions']['Row'] & {
   reaction_count?: number;
 };
 
+type DetailTab = 'details' | 'analysis' | 'review';
+
 interface PaperDetailViewProps {
   paperId: string;
   onBack: () => void;
@@ -17,10 +22,12 @@ interface PaperDetailViewProps {
 
 export function PaperDetailView({ paperId, onBack }: PaperDetailViewProps) {
   const { user, profile } = useAuth();
+  const { currentCommunity } = useCommunity();
   const [paper, setPaper] = useState<Paper | null>(null);
   const [discussions, setDiscussions] = useState<Discussion[]>([]);
   const [newComment, setNewComment] = useState('');
   const [loading, setLoading] = useState(true);
+  const [activeTab, setActiveTab] = useState<DetailTab>('details');
 
   useEffect(() => {
     loadPaper();
@@ -204,13 +211,73 @@ export function PaperDetailView({ paperId, onBack }: PaperDetailViewProps) {
           </div>
         </div>
 
-        {paper.abstract && (
-          <div className="mb-8">
-            <h2 className="text-xl font-semibold text-gray-900 mb-3">Abstract</h2>
-            <p className="text-gray-700 leading-relaxed">{paper.abstract}</p>
+        {/* Tabs: Details | Analysis | Review */}
+        <div className="border-b border-gray-200 mb-6">
+          <div className="flex space-x-0">
+            <button
+              onClick={() => setActiveTab('details')}
+              className={`px-5 py-3 text-sm font-medium border-b-2 transition-colors ${
+                activeTab === 'details'
+                  ? 'border-blue-500 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700'
+              }`}
+            >
+              Details
+            </button>
+            <button
+              onClick={() => setActiveTab('analysis')}
+              className={`px-5 py-3 text-sm font-medium border-b-2 transition-colors flex items-center gap-1.5 ${
+                activeTab === 'analysis'
+                  ? 'border-blue-500 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700'
+              }`}
+            >
+              <Brain className="w-4 h-4" />
+              Mind Graph
+            </button>
+            <button
+              onClick={() => setActiveTab('review')}
+              className={`px-5 py-3 text-sm font-medium border-b-2 transition-colors flex items-center gap-1.5 ${
+                activeTab === 'review'
+                  ? 'border-blue-500 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700'
+              }`}
+            >
+              <FileCheck className="w-4 h-4" />
+              Review
+            </button>
           </div>
+        </div>
+
+        {/* Tab Content */}
+        {activeTab === 'analysis' && (
+          <PaperAnalysisView
+            paperId={paperId}
+            communityId={currentCommunity?.id}
+            arxivId={paper.arxiv_id || undefined}
+          />
         )}
 
+        {activeTab === 'review' && (
+          <PaperReviewView
+            paperId={paperId}
+            communityId={currentCommunity?.id}
+            arxivId={paper.arxiv_id || undefined}
+          />
+        )}
+
+        {activeTab === 'details' && (
+          <>
+            {paper.abstract && (
+              <div className="mb-8">
+                <h2 className="text-xl font-semibold text-gray-900 mb-3">Abstract</h2>
+                <p className="text-gray-700 leading-relaxed">{paper.abstract}</p>
+              </div>
+            )}
+          </>
+        )}
+
+        {activeTab === 'details' && (
         <div className="border-t pt-8">
           <h2 className="text-xl font-semibold text-gray-900 mb-4 flex items-center space-x-2">
             <MessageSquare className="h-5 w-5" />
@@ -268,6 +335,7 @@ export function PaperDetailView({ paperId, onBack }: PaperDetailViewProps) {
             )}
           </div>
         </div>
+        )}
       </div>
     </div>
   );

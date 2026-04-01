@@ -98,15 +98,21 @@ export function ActiveJobsPanel() {
 
       const res = await fetch(url);
       if (!res.ok) {
-        // Job not found — probably completed and cleaned up
-        localStorage.removeItem(job.key);
-        return null;
+        // Job status not found — could be slow startup, give it time
+        // Only remove after 3 minutes of consecutive 404s
+        const startedAt = new Date(job.startedAt).getTime();
+        const elapsed = Date.now() - startedAt;
+        if (elapsed > 3 * 60 * 1000) {
+          localStorage.removeItem(job.key);
+          return null;
+        }
+        return { ...job, message: 'Starting process...' };
       }
 
       const status = await res.json();
 
       if (status.status === 'completed' || status.status === 'failed' || status.status === 'cancelled') {
-        // Job finished — remove from localStorage
+        // Job finished — keep in panel briefly so user sees completion, then remove
         localStorage.removeItem(job.key);
         return null;
       }
