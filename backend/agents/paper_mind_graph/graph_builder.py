@@ -83,62 +83,31 @@ def link_figure_to_concepts(figure_caption: str, nearby_text: str, existing_conc
 # ============================================================================
 
 class ConceptExtractor:
-    """Agent specialized in extracting concepts from paper text."""
-    
+    """Extracts key concepts from paper text using a single LLM call per section."""
+
     def __init__(self, model: LiteLLMModel):
-        self.agent = CodeAgent(
+        self.agent = ToolCallingAgent(
             tools=[],
             model=model,
             name="concept_extractor",
-            additional_authorized_imports=["json", "os", "datetime", "time", "numpy", "pandas"],
-            instructions="""You are an expert at extracting key concepts from research papers.
-
-For each text chunk, identify the main CONCEPTS being defined or discussed.
-
-A concept is:
-- A key idea, definition, or term
-- A theoretical framework or paradigm
-- A named technique or approach
-- A specific phenomenon or effect
-
-For each concept, provide:
-1. name: Short, clear name (2-5 words)
-2. description: 1-2 sentence explanation
-3. type: "definition", "technique", "theory", "phenomenon", or "other"
-4. importance: "core" (central to paper), "supporting", or "background"
-
-Output JSON format:
-{
-  "concepts": [
-    {
-      "name": "Attention Mechanism",
-      "description": "A neural network component that computes weighted sums of values based on query-key similarities.",
-      "type": "technique",
-      "importance": "core"
-    }
-  ]
-}
-
-Be selective - extract only meaningful concepts, not every noun phrase.
-Focus on concepts that would help someone understand the paper."""
+            max_steps=2,
+            instructions="""You extract key concepts from research paper text.
+Return ONLY a JSON object with a "concepts" array. Each concept: name, description, type (definition/technique/theory/phenomenon/other), importance (core/supporting/background).
+Be selective — only meaningful concepts, not every noun. Max 8 concepts per section."""
         )
-    
+
     def extract(self, chunk: Chunk, section_title: str = "") -> List[Dict]:
         """Extract concepts from a chunk."""
-        prompt = f"""Extract key concepts from this research paper text:
+        prompt = f"""Extract key concepts from this section.
 
 Section: {section_title}
+Text: {chunk.text[:2000]}
 
-Text:
-{chunk.text}
-
-Return a JSON object with a "concepts" array. Each concept should have: name, description, type, importance.
-Only return the JSON, no other text."""
+Return JSON: {{"concepts": [{{"name":"...","description":"...","type":"...","importance":"..."}}]}}"""
 
         try:
             result = self.agent.run(prompt)
-            # Parse JSON from result
-            json_match = re.search(r'\{[\s\S]*\}', result)
+            json_match = re.search(r'\{[\s\S]*\}', str(result))
             if json_match:
                 data = json.loads(json_match.group())
                 return data.get("concepts", [])
@@ -146,59 +115,52 @@ Only return the JSON, no other text."""
             print(f"Concept extraction error: {e}")
         return []
 
-
-class MethodExtractor:
-    """Agent specialized in extracting methods and algorithms."""
-    
-    def __init__(self, model: LiteLLMModel):
-        self.agent = CodeAgent(
-            tools=[],
-            model=model,
-            name="method_extractor",
-            additional_authorized_imports=["json", "os", "datetime", "time", "numpy", "pandas"],
-            instructions="""You are an expert at identifying methods, algorithms, and techniques in research papers.
-
-For each text, identify:
-- Proposed methods/algorithms
-- Baseline methods mentioned
-- Techniques used in the approach
-
-For each method, provide:
-1. name: Method name (as it appears in paper)
-2. description: What it does (1-2 sentences)
-3. category: "proposed" (new in this paper), "baseline", or "component"
-4. key_steps: List of main steps (if described)
-
-Output JSON format:
-{
-  "methods": [
-    {
-      "name": "Retrieval-Augmented Generation",
-      "description": "Combines retrieval from a knowledge base with generation from a language model.",
-      "category": "proposed",
-      "key_steps": ["Query encoding", "Document retrieval", "Context fusion", "Generation"]
-    }
-  ]
-}
-
-Focus on concrete, actionable methods that could be implemented."""
-        )
-    
-    def extract(self, chunk: Chunk, section_title: str = "") -> List[Dict]:
-        """Extract methods from a chunk."""
-        prompt = f"""Identify methods, algorithms, or techniques in this text:
+    def extract_batch(self, chunks: List[Chunk], section_title: str = "") -> List[Dict]:
+        """Extract concepts from multiple chunks in a single LLM call."""
+        combined_text = "\n\n".join(c.text[:1500] for c in chunks[:3])
+        prompt = f"""Extract key concepts from this paper section.
 
 Section: {section_title}
+Text: {combined_text[:4000]}
 
-Text:
-{chunk.text}
-
-Return a JSON object with a "methods" array. Each method should have: name, description, category, key_steps.
-Only return the JSON, no other text."""
+Return JSON: {{"concepts": [{{"name":"...","description":"...","type":"...","importance":"..."}}]}}
+Max 8 concepts. Only return JSON."""
 
         try:
             result = self.agent.run(prompt)
-            json_match = re.search(r'\{[\s\S]*\}', result)
+            json_match = re.search(r'\{[\s\S]*\}', str(result))
+            if json_match:
+                data = json.loads(json_match.group())
+                return data.get("concepts", [])
+        except Exception as e:
+            print(f"Batch concept extraction error: {e}")
+        return []
+
+
+class MethodExtractor:
+    """Extracts methods and algorithms using a single LLM call."""
+
+    def __init__(self, model: LiteLLMModel):
+        self.agent = ToolCallingAgent(
+            tools=[],
+            model=model,
+            name="method_extractor",
+            max_steps=2,
+            instructions="""You extract methods, algorithms, and techniques from research papers.
+Return ONLY JSON: {"methods": [{"name":"...","description":"...","category":"proposed|baseline|component","key_steps":["..."]}]}
+Focus on concrete, implementable methods. Max 6 methods."""
+        )
+
+    def extract(self, chunk: Chunk, section_title: str = "") -> List[Dict]:
+        """Extract methods from a chunk."""
+        prompt = f"""Identify methods/algorithms/techniques in this text:
+Section: {section_title}
+Text: {chunk.text[:2000]}
+Return JSON: {{"methods": [{{"name":"...","description":"...","category":"...","key_steps":["..."]}}]}}"""
+
+        try:
+            result = self.agent.run(prompt)
+            json_match = re.search(r'\{[\s\S]*\}', str(result))
             if json_match:
                 data = json.loads(json_match.group())
                 return data.get("methods", [])
@@ -208,15 +170,15 @@ Only return the JSON, no other text."""
 
 
 class ExperimentExtractor:
-    """Agent specialized in extracting experimental details."""
-    
+    """Extracts experimental details using a single LLM call."""
+
     def __init__(self, model: LiteLLMModel):
-        self.agent = CodeAgent(
+        self.agent = ToolCallingAgent(
             tools=[],
             model=model,
             name="experiment_extractor",
-            additional_authorized_imports=["json", "os", "datetime", "time", "numpy", "pandas"],
-            instructions="""You are an expert at extracting experimental details from research papers.
+            max_steps=2,
+            instructions="""You extract experimental details from research papers.
 
 For each text about experiments, identify:
 - Experimental setups
@@ -247,15 +209,12 @@ Output JSON format:
     def extract(self, chunk: Chunk) -> Dict:
         """Extract experimental details from a chunk."""
         prompt = f"""Extract experimental details from this text:
-
-{chunk.text}
-
-Return a JSON object with "experiments" and "datasets" arrays.
-Only return the JSON, no other text."""
+{chunk.text[:2000]}
+Return JSON: {{"experiments": [{{"name":"...","setup":"...","datasets":["..."],"metrics":["..."],"key_results":["..."]}}], "datasets": [{{"name":"...","description":"..."}}]}}"""
 
         try:
             result = self.agent.run(prompt)
-            json_match = re.search(r'\{[\s\S]*\}', result)
+            json_match = re.search(r'\{[\s\S]*\}', str(result))
             if json_match:
                 return json.loads(json_match.group())
         except Exception as e:
@@ -264,66 +223,32 @@ Only return the JSON, no other text."""
 
 
 class LinkageAgent:
-    """Agent specialized in finding relationships between elements."""
-    
+    """Links figures/tables to concepts using simple heuristics (no LLM needed)."""
+
     def __init__(self, model: LiteLLMModel):
-        self.agent = CodeAgent(
-            tools=[],
-            model=model,
-            name="linkage_agent",
-            additional_authorized_imports=["json", "os", "datetime", "time", "numpy", "pandas"],
-            instructions="""You are an expert at identifying relationships in research papers.
+        # No LLM agent needed — use string matching for figure/table linking
+        pass
 
-Given a figure/table and existing concepts/methods, determine which concepts/methods the figure illustrates or relates to.
-
-For each linkage, provide:
-1. target: Name of the concept/method it relates to
-2. relationship: Type of relationship (illustrates, summarizes, compares, demonstrates)
-3. reason: Brief explanation of why they're related
-
-Output JSON format:
-{
-  "linkages": [
-    {
-      "target": "Attention Mechanism",
-      "relationship": "illustrates",
-      "reason": "Figure shows attention weight visualization across layers"
-    }
-  ]
-}
-
-Be conservative - only include clear, meaningful relationships."""
-        )
-    
     def link_figure(
         self,
         figure_caption: str,
         nearby_text: str,
         existing_nodes: List[str]
     ) -> List[Dict]:
-        """Find what concepts/methods a figure relates to."""
-        prompt = f"""Determine which concepts/methods this figure relates to:
+        """Find what concepts/methods a figure relates to using keyword matching."""
+        linkages = []
+        text = (figure_caption + " " + nearby_text).lower()
 
-Figure caption: {figure_caption}
+        for node_name in existing_nodes:
+            # Check if node name appears in caption or nearby text
+            if node_name.lower() in text:
+                linkages.append({
+                    "target": node_name,
+                    "relationship": "illustrates",
+                    "reason": f"Figure caption references {node_name}"
+                })
 
-Nearby text: {nearby_text[:500]}
-
-Existing concepts/methods in paper:
-{json.dumps(existing_nodes, indent=2)}
-
-Return a JSON object with a "linkages" array. Each linkage should have: target, relationship, reason.
-Only link to items from the existing concepts/methods list.
-Only return the JSON, no other text."""
-
-        try:
-            result = self.agent.run(prompt)
-            json_match = re.search(r'\{[\s\S]*\}', result)
-            if json_match:
-                data = json.loads(json_match.group())
-                return data.get("linkages", [])
-        except Exception as e:
-            print(f"Linkage error: {e}")
-        return []
+        return linkages[:5]  # Limit to 5 linkages
 
 
 # ============================================================================
@@ -419,7 +344,7 @@ class GraphBuilder:
                     section_chunks[sid] = []
                 section_chunks[sid].append(chunk)
         
-        # Process each section
+        # Process each section — batch chunks for fewer LLM calls
         for section_id, chunks in section_chunks.items():
             # Get section title
             section_title = ""
@@ -427,13 +352,20 @@ class GraphBuilder:
                 if section.id == section_id:
                     section_title = section.title
                     break
-            
+
             if verbose:
-                print(f"   Processing: {section_title or section_id}")
-            
-            # Process chunks (limit to avoid too many API calls)
-            for chunk in chunks[:3]:  # Process first 3 chunks per section
-                concepts = self.concept_extractor.extract(chunk, section_title)
+                print(f"   Processing: {section_title or section_id} ({len(chunks)} chunks)")
+
+            # Batch: extract concepts from first 3 chunks in ONE LLM call
+            batch_chunks = chunks[:3]
+            concepts_list = self.concept_extractor.extract_batch(batch_chunks, section_title)
+
+            # Use first chunk for node metadata
+            chunk = batch_chunks[0] if batch_chunks else None
+            if not chunk:
+                continue
+
+            for concept in concepts_list:
                 
                 for concept in concepts:
                     # Create concept node
@@ -474,12 +406,14 @@ class GraphBuilder:
                    ["method", "approach", "model", "architecture", "algorithm", "framework"]):
                 method_sections.append(section.id)
         
-        # Process method section chunks
+        # Process method section chunks (limit to 3 total to reduce LLM calls)
+        method_chunks_processed = 0
         for chunk in graph.chunks:
-            if chunk.section_id in method_sections and chunk.source_type == "body":
+            if chunk.section_id in method_sections and chunk.source_type == "body" and method_chunks_processed < 3:
+                method_chunks_processed += 1
                 if verbose:
                     print(f"   Processing method chunk: {chunk.id}")
-                
+
                 methods = self.method_extractor.extract(chunk, "")
                 
                 for method in methods:
@@ -517,9 +451,11 @@ class GraphBuilder:
                    ["experiment", "evaluation", "result", "ablation", "analysis"]):
                 exp_sections.append(section.id)
         
-        # Process experiment chunks
+        # Process experiment chunks (limit to 3 total to reduce LLM calls)
+        exp_chunks_processed = 0
         for chunk in graph.chunks:
-            if chunk.section_id in exp_sections and chunk.source_type == "body":
+            if chunk.section_id in exp_sections and chunk.source_type == "body" and exp_chunks_processed < 3:
+                exp_chunks_processed += 1
                 if verbose:
                     print(f"   Processing experiment chunk: {chunk.id}")
                 

@@ -28,9 +28,16 @@ export function PaperDetailView({ paperId, onBack }: PaperDetailViewProps) {
   const [newComment, setNewComment] = useState('');
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState<DetailTab>('details');
+  const [hasAnalysis, setHasAnalysis] = useState<boolean | null>(null);
+  const [hasReview, setHasReview] = useState<boolean | null>(null);
 
   useEffect(() => {
     loadPaper();
+    // Check if analysis/review exist for this paper
+    supabase.from('paper_analysis').select('id').eq('paper_id', paperId).limit(1)
+      .then(({ data }) => setHasAnalysis(data && data.length > 0));
+    supabase.from('paper_reviews').select('id').eq('paper_id', paperId).limit(1)
+      .then(({ data }) => setHasReview(data && data.length > 0));
     loadDiscussions();
   }, [paperId]);
 
@@ -210,6 +217,31 @@ export function PaperDetailView({ paperId, onBack }: PaperDetailViewProps) {
             )}
           </div>
         </div>
+
+        {/* Quick Actions — prompt to analyze/review if not done */}
+        {hasAnalysis === false && hasReview === false && activeTab === 'details' && (
+          <div className="mb-6 bg-gradient-to-r from-blue-50 to-purple-50 border border-blue-200 rounded-lg p-4">
+            <p className="text-sm font-medium text-blue-900 mb-3">
+              This paper hasn't been analyzed yet. Get AI-powered insights:
+            </p>
+            <div className="flex gap-3">
+              <button
+                onClick={() => setActiveTab('analysis')}
+                className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+              >
+                <Brain className="w-4 h-4" />
+                Analyze (Mind Graph)
+              </button>
+              <button
+                onClick={() => setActiveTab('review')}
+                className="flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm font-medium"
+              >
+                <FileCheck className="w-4 h-4" />
+                Review Paper
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* Tabs: Details | Analysis | Review */}
         <div className="border-b border-gray-200 mb-6">

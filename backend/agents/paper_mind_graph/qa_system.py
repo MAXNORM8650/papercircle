@@ -9,7 +9,7 @@ from dataclasses import dataclass, field
 import json
 import numpy as np
 
-from smolagents import LiteLLMModel, CodeAgent
+from smolagents import LiteLLMModel, ToolCallingAgent
 
 from .schema import (
     MindGraph, GraphNode, GraphEdge, NodeType, EdgeType, Chunk
@@ -281,41 +281,43 @@ class PaperQA:
     
     def __init__(self, graph: MindGraph, config: Dict = None):
         self.graph = graph
-        self.config = config or DEFAULT_CONFIG
+        # Merge with defaults so missing keys don't break
+        self.config = {**DEFAULT_CONFIG, **(config or {})}
+
+        # Ensure model_id is a string (guard against bad data from DB)
+        model_id = self.config.get("model_id", DEFAULT_CONFIG["model_id"])
+        if not isinstance(model_id, str):
+            model_id = DEFAULT_CONFIG["model_id"]
+        self.config["model_id"] = model_id
 
         # Initialize retriever
-        self.retriever = GraphRetriever(graph, config)
+        self.retriever = GraphRetriever(graph, self.config)
 
         # Build model kwargs - num_ctx is Ollama-specific
         model_kwargs = {
-            "model_id": self.config["model_id"],
+            "model_id": model_id,
             "api_base": self.config["api_base"],
             "api_key": self.config.get("api_key"),
-            "drop_params": True,  # Drop unsupported params for OpenRouter/other providers
+            "drop_params": True,
         }
-        # Only add num_ctx for Ollama models
-        if "ollama" in self.config["model_id"].lower():
+        if "ollama" in model_id.lower():
             model_kwargs["num_ctx"] = self.config.get("num_ctx", 8192)
 
         # Initialize LLM
         self.model = LiteLLMModel(**model_kwargs)
-        
-        # Create QA agent
-        self.agent = CodeAgent(
+
+        # Create QA agent (ToolCallingAgent is faster than CodeAgent for simple Q&A)
+        self.agent = ToolCallingAgent(
             tools=[],
             model=self.model,
             name="paper_qa",
-            additional_authorized_imports=["json", "os", "datetime", "time", "numpy", "pandas"],
-            instructions="""You are a research paper Q&A assistant. 
-
+            max_steps=2,
+            instructions="""You are a research paper Q&A assistant.
 Given context from a paper (text chunks and a concept graph), answer questions accurately.
-
-For each answer:
 1. Directly answer the question based ONLY on the provided context
 2. List which sections support your answer
 3. List which figures/tables are relevant
 4. If you cannot answer from the context, say so clearly
-
 Always cite specific parts of the context. Be precise and accurate."""
         )
     
