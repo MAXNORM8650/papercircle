@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Search, Calendar, User, LogOut, BarChart3, Users, Settings } from 'lucide-react';
+import { Search, Calendar, User, LogOut, BarChart3, Users, Settings, Github } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import { AuthModal } from '../Auth/AuthModal';
 
@@ -57,6 +57,15 @@ export function Header({ onNavigate, currentView }: HeaderProps) {
             </div>
 
             <div className="flex items-center space-x-4">
+              <a
+                href="https://github.com/MAXNORM8650/papercircle"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-lg text-gray-500 hover:text-gray-900 hover:bg-gray-50 transition-colors"
+                title="GitHub"
+              >
+                <Github className="h-5 w-5" />
+              </a>
               {user ? (
                 <div className="relative">
                   <button
