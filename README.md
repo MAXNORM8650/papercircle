@@ -5,8 +5,14 @@
 <h1 align="center">PaperCircle</h1>
 
 <p align="center">
-  <b>AI-Powered Research Paper Discovery & Reading Groups</b><br/>
+  <b>An Open-source Multi-agent Research Discovery and Analysis Framework</b><br/>
   <i>Discover papers, organize sessions, build knowledge together</i>
+</p>
+
+<p align="center">
+  <a href="https://papercircle.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-papercircle.vercel.app-blue?logo=vercel" alt="Live Demo"/></a>
+  <a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv" alt="arXiv"/></a>
+  <a href="https://huggingface.co/spaces/ItsMaxNorm/pc-bench"><img src="https://img.shields.io/badge/%F0%9F%A4%97-Benchmark-orange" alt="Benchmark"/></a>
 </p>
 
 <p align="center">
@@ -24,8 +30,19 @@
   <a href="#getting-started">Getting Started</a> &bull;
   <a href="#running-the-services">Running</a> &bull;
   <a href="#ai-discovery-pipeline">AI Discovery</a> &bull;
+  <a href="#hugging-face-resources">HF Resources</a> &bull;
   <a href="#deployment">Deploy</a>
 </p>
+
+---
+
+> **Paper Circle: An Open-source Multi-agent Research Discovery and Analysis Framework**
+>
+> Komal Kumar<sup>1</sup>, Aman Chadha<sup>2</sup>, Salman Khan<sup>1</sup>, Fahad Shahbaz Khan<sup>1</sup>, Hisham Cholakkal<sup>1</sup>
+>
+> <sup>1</sup> Mohamed bin Zayed University of Artificial Intelligence &nbsp; <sup>2</sup> AWS Generative AI Innovation Center, Amazon Web Services
+>
+> [[arXiv]](https://arxiv.org/abs/XXXX.XXXXX) &nbsp; [[Live Demo]](https://papercircle.vercel.app) &nbsp; [[Benchmark]](https://huggingface.co/spaces/ItsMaxNorm/pc-bench)
 
 ---
 
@@ -68,27 +85,27 @@
 
 ---
 
+## Results
+
+<p align="center">
+  <img src="assets/paperdig/output_results_qualitative.png" alt="PaperCircle Qualitative Results" width="100%"/>
+</p>
+
+Qualitative output of the Paper Mind Graph module: **(A)** Interactive mind map flowchart extracted from a paper, **(B)** Extracted concepts with descriptions and page references, **(C)** Natural language Q&A over paper content with figure references, **(D)** Detailed method and component descriptions, **(E)** Tab navigation across Flowchart, Concepts, Methods, Experiments, and Interactive Graph views.
+
+---
+
 ## Architecture
 
-```
-┌────────────────────────────────────────────────────────────────────┐
-│                          PaperCircle                               │
-├───────────────────────────┬────────────────────────────────────────┤
-│        Frontend           │             Backend                    │
-│                           │                                        │
-│  React 18 + TypeScript    │   FastAPI (Python)                     │
-│  TailwindCSS + Vite       │   smolagents + LiteLLM                 │
-│  Supabase Client SDK      │   arXiv / Scopus / IEEE APIs           │
-│  Mermaid (diagrams)       │   PyMuPDF + pdfplumber (PDF)           │
-└───────────────────────────┴──────────────┬─────────────────────────┘
-                                           │
-                                  ┌────────┴────────┐
-                                  │    Supabase      │
-                                  │   PostgreSQL     │
-                                  │  + Auth + RLS    │
-                                  │  + pgvector      │
-                                  └─────────────────┘
-```
+<p align="center">
+  <img src="assets/paperdig/main_arc.png" alt="PaperCircle Architecture" width="100%"/>
+</p>
+
+The system is organized into three layers:
+
+- **Top layer** — Paper Circle modules: Discover, Lineage, arXiv Live, Community, Circles, Paper Mind Orchestrator, and Paper Graph, connected to the frontend View and backend State/Database.
+- **Middle layer** — Multi-agent Code Orchestrator Tracker coordinating specialized agents: Query Agent, Search Agent, Sorting Agent, Analysis Agent, and Export Agent, plus a Web Agent for live retrieval.
+- **Bottom layer** — Shared Tools: Web Tool, Web Visit, Query Intent, Paper Tool, Export, Sorting, Analysis, and Structure.
 
 ### Tech Stack
 
@@ -208,7 +225,7 @@ papercircle/
 ### 1. Clone and Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/papercircle.git
+git clone https://github.com/MAXNORM8650/papercircle.git
 cd papercircle
 
 # Frontend dependencies
@@ -384,12 +401,28 @@ Configuration files included:
 
 ---
 
+## Hugging Face Resources
+
+| Resource | Type | Link |
+|----------|------|------|
+| **Papers Database** | Dataset | [ItsMaxNorm/pc-database](https://huggingface.co/datasets/ItsMaxNorm/pc-database) |
+| **Papers API** | Space | [ItsMaxNorm/papercircle-papers-api](https://huggingface.co/spaces/ItsMaxNorm/papercircle-papers-api) |
+| **Benchmark Leaderboard** | Space | [ItsMaxNorm/pc-bench](https://huggingface.co/spaces/ItsMaxNorm/pc-bench) |
+| **Benchmark Results** | Dataset | [ItsMaxNorm/pc-benchmark](https://huggingface.co/datasets/ItsMaxNorm/pc-benchmark) |
+| **Research Sessions** | Dataset | [ItsMaxNorm/pc-research](https://huggingface.co/datasets/ItsMaxNorm/pc-research) |
+
+The **Papers API** provides a hosted retrieval endpoint for local paper search without requiring a Supabase instance. The **Benchmark Leaderboard** lets you compare model performance on the PaperCircle evaluation suite interactively.
+
+---
+
 ## Benchmarks
 
-The [examples/pc-data](examples/pc-data/) directory contains the benchmark suite for evaluating:
+The [examples/pc-data](examples/pc-data/) directory contains the local benchmark suite for evaluating:
 - Multi-agent retrieval performance (MRR, Recall@K)
 - AI-generated paper reviews vs. human reviews
 - Ranking algorithm comparisons across discovery modes
+
+Model benchmark results are published to [ItsMaxNorm/pc-benchmark](https://huggingface.co/datasets/ItsMaxNorm/pc-benchmark) and can be explored on the [interactive leaderboard](https://huggingface.co/spaces/ItsMaxNorm/pc-bench).
 
 ---
 
@@ -428,16 +461,34 @@ The [examples/pc-data](examples/pc-data/) directory contains the benchmark suite
 
 ---
 
+## Citation
+
+If you find PaperCircle useful in your research, please cite our paper:
+
+```bibtex
+@article{kumar2025papercircle,
+  title={Paper Circle: An Open-source Multi-agent Research Discovery and Analysis Framework},
+  author={Kumar, Komal and Chadha, Aman and Khan, Salman and Khan, Fahad Shahbaz and Cholakkal, Hisham},
+  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  year={2025}
+}
+```
+
+---
+
 ## License
 
 MIT License — see [LICENSE](LICENSE)
 
 ## Acknowledgments
 
-[arXiv](https://arxiv.org) &bull; [Supabase](https://supabase.com) &bull; [smolagents](https://github.com/huggingface/smolagents) &bull; [LiteLLM](https://github.com/BerriAI/litellm) &bull; [Ollama](https://ollama.com)
+[arXiv](https://arxiv.org) &bull; [Supabase](https://supabase.com) &bull; [smolagents](https://github.com/huggingface/smolagents) &bull; [LiteLLM](https://github.com/BerriAI/litellm) &bull; [Ollama](https://ollama.com) &bull; [Hugging Face](https://huggingface.co)
 
 ---
 
 <p align="center">
-  <b>Built for the research community</b>
+  <b>Built for the research community</b><br/>
+  <a href="https://papercircle.vercel.app">Live Demo</a> &bull;
+  <a href="https://huggingface.co/spaces/ItsMaxNorm/pc-bench">Benchmark</a> &bull;
+  <a href="https://arxiv.org/abs/XXXX.XXXXX">Paper</a>
 </p>
