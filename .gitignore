@@ -46,3 +46,8 @@ bibliographies/
 
 # HF Spaces data
 hf_spaces/data/
+
+# Paper cache and research output
+paper_cache/
+research_output/
+backend/research_output/

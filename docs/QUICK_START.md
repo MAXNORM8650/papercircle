@@ -206,9 +206,9 @@ EOF
 - `src/components/Papers/PaperReviewView.tsx` - Review display
 
 **Docs:**
-- `PAPER_REVIEW_AGENTS_IMPLEMENTATION.md` - Full implementation details
-- `API_TESTING_STATUS.md` - Testing status and checklist
-- `QUICK_START.md` - This file
+- `docs/PAPER_REVIEW_AGENTS_IMPLEMENTATION.md` - Full implementation details
+- `docs/API_TESTING_STATUS.md` - Testing status and checklist
+- `docs/QUICK_START.md` - This file
 
 ---
 

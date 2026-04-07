@@ -83,7 +83,7 @@ The **community_papers_api.py** has been successfully converted to work as a ser
 - `api/sync-status.js` - Sync status API
 - `scripts/sync_community_papers.py` - Local sync script
 - `scripts/README.md` - Sync script documentation
-- `API_MIGRATION.md` - Complete migration guide
+- `docs/API_MIGRATION.md` - Complete migration guide
 
 ### Modified Files:
 - `src/components/Papers/CommunityPapersTab.tsx` - Updated API calls
