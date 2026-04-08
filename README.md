@@ -23,7 +23,7 @@
 >
 > <sup>1</sup> Mohamed bin Zayed University of Artificial Intelligence &nbsp; <sup>2</sup> AWS Generative AI Innovation Center, Amazon Web Services
 >
-> [[arXiv]](https://arxiv.org/abs/XXXX.XXXXX) &nbsp; [[Live Demo]](https://papercircle.vercel.app) &nbsp; [[Benchmark]](https://huggingface.co/spaces/ItsMaxNorm/pc-bench)
+> [[arXiv]](https://arxiv.org/abs/2604.06170) &nbsp; [[Live Demo]](https://papercircle.vercel.app) &nbsp; [[Benchmark]](https://huggingface.co/spaces/ItsMaxNorm/pc-bench)
 
 ---
 
