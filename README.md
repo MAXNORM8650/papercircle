@@ -212,11 +212,14 @@ Model results: [ItsMaxNorm/pc-benchmark](https://huggingface.co/datasets/ItsMaxN
 If you find PaperCircle useful in your research, please cite our paper:
 
 ```bibtex
-@article{kumar2025papercircle,
-  title={Paper Circle: An Open-source Multi-agent Research Discovery and Analysis Framework},
-  author={Kumar, Komal and Chadha, Aman and Khan, Salman and Khan, Fahad Shahbaz and Cholakkal, Hisham},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2025}
+misc{kumar2026papercircleopensourcemultiagent,
+      title={Paper Circle: An Open-source Multi-agent Research Discovery and Analysis Framework}, 
+      author={Komal Kumar and Aman Chadha and Salman Khan and Fahad Shahbaz Khan and Hisham Cholakkal},
+      year={2026},
+      eprint={2604.06170},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2604.06170}, 
 }
 ```
 
