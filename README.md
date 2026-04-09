@@ -232,3 +232,10 @@ MIT License — see [LICENSE](LICENSE)
 ## Acknowledgments
 
 [arXiv](https://arxiv.org) &bull; [Supabase](https://supabase.com) &bull; [smolagents](https://github.com/huggingface/smolagents) &bull; [LiteLLM](https://github.com/BerriAI/litellm) &bull; [Ollama](https://ollama.com) &bull; [Hugging Face](https://huggingface.co)
+
+https://github.com/MAXNORM8650/papercircle
+## Star History Chart
+[![Star History Chart](https://api.star-history.com/svg?repos=MAXNORM8650/papercircle&type=date&legend=top-left)](https://www.star-history.com/#MAXNORM8650/papercircle&type=date&legend=top-left)
+
+
+Looking forward to your feedback, contributions, and stars! :star2:
