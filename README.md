@@ -235,7 +235,14 @@ MIT License — see [LICENSE](LICENSE)
 
 https://github.com/MAXNORM8650/papercircle
 ## Star History Chart
-[![Star History Chart](https://api.star-history.com/svg?repos=MAXNORM8650/papercircle&type=date&legend=top-left)](https://www.star-history.com/#MAXNORM8650/papercircle&type=date&legend=top-left)
+## Star History
 
+<a href="https://www.star-history.com/?type=date&legend=top-left&repos=MAXNORM8650%2Fpapercircle">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MAXNORM8650/papercircle&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=MAXNORM8650/papercircle&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=MAXNORM8650/papercircle&type=date&legend=top-left" />
+ </picture>
+</a>
 
 Looking forward to your feedback, contributions, and stars! :star2:
