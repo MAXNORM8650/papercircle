@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://papercircle.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-papercircle.vercel.app-blue?logo=vercel" alt="Live Demo"/></a>
   <a href="https://arxiv.org/abs/2604.06170"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv" alt="arXiv"/></a>
-  <a href="https://huggingface.co/spaces/ItsMaxNorm/pc-bench"><img src="https://img.shields.io/badge/%F0%9F%A4%97-Benchmark-orange" alt="Benchmark"/></a>
+  <a href="https://huggingface.co/collections/ItsMaxNorm/papercircle"><img src="https://img.shields.io/badge/%F0%9F%A4%97-Benchmark-orange" alt="Benchmarks"/></a>
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT"/>
 </p>
 
