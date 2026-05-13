@@ -36,9 +36,7 @@ __pycache__/
 *.pyc
 *.pyo
 venv/
-.venv/
 env/
-job_status/
 
 # Generated outputs
 outputs/

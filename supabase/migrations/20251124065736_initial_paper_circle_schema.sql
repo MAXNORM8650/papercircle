@@ -766,5 +766,3 @@ CREATE POLICY "Circle creator and admins can update"
       AND community_members.role = 'admin'
     )
   );
-
-
