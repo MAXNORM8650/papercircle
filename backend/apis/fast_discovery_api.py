@@ -47,6 +47,7 @@ except ImportError as e:
     HAS_RESEARCH_TOOLS = False
     create_research_pipeline = None
     quick_research = None
+    Paper = Any  # fallback type alias when research tools unavailable
 
 # Try to import LLM model for multi-agent orchestrator
 try:
