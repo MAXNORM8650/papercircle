@@ -2,7 +2,7 @@
 
 ## API Services
 
-### 🧠 Paper Analysis API (Mind Graph)
+### Paper Analysis API (Mind Graph)
 **Port:** 8006
 **URL:** http://127.0.0.1:8006
 
@@ -16,7 +16,7 @@
 
 ---
 
-### 📝 Paper Review API
+### Paper Review API
 **Port:** 8005
 **URL:** http://127.0.0.1:8005
 
